@@ -44,3 +44,23 @@ $messages['en'] = array(
 	'babel-template-prefix'   => 'User ',     # do not translate or duplicate this message to other languages
 	'babel-template-suffix'   => '',          # do not translate or duplicate this message to other languages
 );
+
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'babel'                => 'Babel Gebruikersinformatie',
+	'babel-url'            => 'Project:Babel',
+	'babel-ISO-639-2'      => 'nl',
+	'babel-ISO-3166-1993'  => 'NL',
+	'babel-ISO-639-3'      => 'nld',
+	'babel-language'       => 'Nederlands',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Deze gebruiker beheerst [[$2|$3]] [[$1|niet]] (of begrijpt het met grote moeite).',
+	'babel-1'              => 'Deze gebruiker beheerst [[$2|$3]] op [[$1|basisniveau]].',
+	'babel-2'              => 'Deze gebruiker beheerst [[$2|$3]] op [[$1|gemiddeld niveau]].',
+	'babel-3'              => 'Deze gebruiker beheerst [[$2|$3]] op [[$1|gevorderd niveau]].',
+	'babel-4'              => 'Deze gebruiker beheerst [[$2|$3]] op [[$1|bijna moedertaal niveau]].',
+	'babel-5'              => 'Deze gebruiker gebruikt [[$2|$3]] op [[$1|professioneel niveau]].',
+	'babel-N'              => 'Deze gebruiker beheerst [[$2|$3]] op [[$1|moedertaal niveau]].',
+);
