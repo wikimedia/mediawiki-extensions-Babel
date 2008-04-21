@@ -149,6 +149,10 @@ function efBabelParserFunction_Render( $parser ) {
 				/* Check for validity of the syntax.
 				 */
 				
+				/* Get lower case of name.
+				 */
+				$lname = strtolower( $name );
+				
 				/* Default validity to false.
 				 */
 				$validity = false;
@@ -164,9 +168,9 @@ function efBabelParserFunction_Render( $parser ) {
 				/* Check if parameter is exactly equal to a valid language
 				 * code.
 				 */
-				if( in_array( $name, $wgLanguageCodes) ) {
+				if( in_array( $lname, $wgLanguageCodes) ) {
 					
-					$code = $name;
+					$code = $lname;
 					$level = 'N';
 					$validity = true;
 					
@@ -180,25 +184,24 @@ function efBabelParserFunction_Render( $parser ) {
 				 */
 				if( count( $chunks ) == 2 ) {
 					
+					/* Move into variables.
+					 */
+					$code  = strtolower( $chunks[ 0 ] );
+					$level = strtoupper( $chunks[ 1 ] ); 
+					
 					/* Check whether the first chunk is a valid language code.
 					 */
-					if( in_array( $chunks[ 0 ], $wgLanguageCodes ) ) {
-						
-						/* It is.
-						 */
-						$code = $chunks[ 0 ];
+					if( in_array( $code, $wgLanguageCodes ) ) {
 						
 						/* Check whether the second chunk is within the valid
 						 * limits.
 						 */
-						if( $chunks[ 1 ] >= 0 && $chunks[ 1 ] <= 5  ) {
+						if( is_numeric( $level ) && $level >= 0 && $level <= 5  ) {
 
-							$level = $chunks[ 1 ];
 							$validity = true;
 							
-						} elseif( strtoupper( $chunks[ 1 ] ) == 'N' ) {
-							
-							$level = 'N';
+						} elseif( $level == 'N' ) {
+
 							$validity = true;
 							
 						}
@@ -213,14 +216,10 @@ function efBabelParserFunction_Render( $parser ) {
 					 * default box.
 					 */
 					
-					/* Make the code have an upper case first character.
-					 */
-					$ufcode = ucfirst( $code );
-
 					/* Generate the text displayed on the left hand side of the
 					 * box.
 					 */
-					$header = "[[{$prefixes['portal']}$ufcode{$suffixes['portal']}|$code]]-$level";
+					$header = "[[{$prefixes['portal']}$code{$suffixes['portal']}|$code]]-$level";
 
 					/* Generate the text displayed on the right hand side of the
 					 * box.
