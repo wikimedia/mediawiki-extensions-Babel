@@ -133,7 +133,7 @@ function efBabelParserFunction_Render( $parser ) {
 			/* If the template exists then use that, rather than generating a
 			 * default babel box.
 			 */
-			if( $title && $title->exists() ) {
+			if( is_object( $title ) && $title->exists() ) {
 				
 				/* Create an article object for the current box.
 				 */
