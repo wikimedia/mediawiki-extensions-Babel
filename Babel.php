@@ -135,56 +135,80 @@ function efBabelParserFunction_Render( $parser ) {
 			 */
 			if( is_object( $title ) && $title->exists() ) {
 				
-				/* Create an article object for the current box.
+				/* Transclude the template, this uses a private function in the
+				 * parser so could break; at some point it would be nice to
+				 * find a way to move it to a public function.
 				 */
-				$article = new Article( $title );
+				$boxes .= $parser->replaceVariables( '{{' . $title->getDbKey() . '}}' );
 				
-				/* Get the contents of the template.
-				 */
-				$template = $article->getContent();
+			} else {
 				
-				/* Remove noinclude tags from the template content.
-				 */
-				$template = preg_replace( '#<noinclude>(.*?)</noinclude>#', '', $template );
-				
-				/* Replace includeonly tags with it's content.
-				 */
-				$template = preg_replace( '#<includeonly>(.*?)</includeonly>#', '$1', $template );
-				
-				/* Add the template to the box tower.
-				 */
-				$boxes .= $template;
-				
-			} elseif( strpos( $name, '-' ) && strpos( $name, '-' ) != strlen( $name ) - 1 ) {
-				
-				/* The parameter is in the correct syntax to refer to a box
-				 * that can be automatically, generated attempt to.
+				/* Check for validity of the syntax.
 				 */
 				
-				/* Break the parameter up on '-' to get the language code (0)
-				 * and level (1).
+				/* Default validity to false.
 				 */
-				$param = explode( '-', $name );
+				$validity = false;
 				
-				/* Get the list of language names so that the parameter can be
-				 * validated.
+				/* Get content language of the wiki.
 				 */
-				global $wgLanguageNames;
+				global $wgLanguageCode;
+				
+				/* Get a list of language names.
+				 */
+				$codes = LanguageNames::getNames( $wgLanguageCode );
 
-				if( 
-					/* Correct number of parameters */
-					count( $param ) == 2 &&
-					/* Valid language name. */
-					isset( $wgLanguageNames[ $param[ 0 ] ] )  &&
-					/* Valid language level. */
-					( strtoupper( $param[ 1 ] ) == 'N' || ( $param[ 1 ] <= 5 && $param[ 1 ] >= 0 ) )
-				  ) {
-				  	
-					/* Put the array elements into variables for easier
-					 * processing.
+				/* Check if parameter is exactly equal to a valid language
+				 * code.
+				 */
+				if( isset( $codes[ $name ] ) ) {
+					
+					$code = $name;
+					$level = 'N';
+					$validity = true;
+					
+				}
+				
+				/* Break parameter in to chunks for validation.
+				 */
+				$chunks = explode( '-', $name );
+				
+				/* Ensure there are only two parts.
+				 */
+				if( count( $chunks ) == 2 ) {
+					
+					/* Check whether the first chunk is a valid language code.
 					 */
-					$code  = $param[ 0 ];
-					$level = $param[ 1 ];
+					if( isset( $codes[ $chunks[ 0 ] ] ) ) {
+						
+						/* It is.
+						 */
+						$code = $chunks[ 0 ];
+						
+						/* Check whether the second chunk is within the valid
+						 * limits.
+						 */
+						if( $chunks[ 1 ] >= 0 && $chunks[ 1 ] <= 5  ) {
+
+							$level = $chunks[ 1 ];
+							$validity = true;
+							
+						} elseif( strtoupper( $chunks[ 1 ] ) == 'N' ) {
+							
+							$level = 'N';
+							$validity = true;
+							
+						}
+						
+					}
+					
+				}
+
+				if( $validity ) {
+				  	
+					/* The parameter is in a valid format for rendering of a
+					 * default box.
+					 */
 					
 					/* Make the code have an upper case first character.
 					 */
@@ -201,7 +225,7 @@ function efBabelParserFunction_Render( $parser ) {
 					$text = wfMsg( "babel-$level",
 						":Category:{$prefixes['category']}$code-$level{$suffixes['category']}",
 						":Category:{$prefixes['category']}$code{$suffixes['category']}",
-						$wgLanguageNames[ $code ]
+						$codes[ $code ]
 					);
 
 					/* Generate box and add to the end of the boxes tower.
@@ -215,21 +239,22 @@ function efBabelParserFunction_Render( $parser ) {
 </div>[[Category:{$prefixes['category']}$code-$level{$suffixes['category']}]][[Category:{$prefixes['category']}$code{$suffixes['category']}]]
 HEREDOC;
 
-				} else {
+				} elseif( is_object( $title ) ) {
 
 					/* Template does not exist and not a valid format to create 
-					 * a default box, output a redlink.
+					 * a default box, but the template name is valid; output a
+					 * red link.
 					 */
 					$boxes .= "[[Template:{$prefixes['template']}$name{$suffixes['template']}|Template:{$prefixes['template']}$name{$suffixes['template']}]]";
 					
+				} else {
+					
+					/* Template name is invalid, output the template name on 
+					 * it's own.
+					 */
+					$boxes .= "Template:{$prefixes['template']}$name{$suffixes['template']}";
+					
 				}
-				
-			}  else {
-
-				/* Template does not exist and not a valid format to create 
-				 * a default box, output a redlink.
-				 */
-				$boxes .= "[[Template:{$prefixes['template']}$name{$suffixes['template']}|Template:{$prefixes['template']}$name{$suffixes['template']}]]";
 				
 			}
 			
