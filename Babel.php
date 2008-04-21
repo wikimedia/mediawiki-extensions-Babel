@@ -37,6 +37,9 @@ $wgHooks[ 'LanguageGetMagic' ][] = 'efBabelParserFunction_Magic';
 // Register internationalisation file.
 $wgExtensionMessagesFiles[ 'Babel' ] = dirname( __FILE__ ) . '/Babel.i18n.php';
 
+// Require the list of language codes file.
+require_once( dirname( __FILE__ ) . '/LanguageCodes.php' );
+
 /**
  * Registers the parser function hook.
  */
@@ -154,14 +157,14 @@ function efBabelParserFunction_Render( $parser ) {
 				 */
 				global $wgLanguageCode;
 				
-				/* Get a list of language names.
+				/* Get a list of ISO 639-1 and ISO 639-3 codes.
 				 */
-				$codes = LanguageNames::getNames( $wgLanguageCode );
+				global $wgLanguageCodes;
 
 				/* Check if parameter is exactly equal to a valid language
 				 * code.
 				 */
-				if( isset( $codes[ $name ] ) ) {
+				if( isset( $wgLanguageCodes[ $name ] ) ) {
 					
 					$code = $name;
 					$level = 'N';
@@ -179,7 +182,7 @@ function efBabelParserFunction_Render( $parser ) {
 					
 					/* Check whether the first chunk is a valid language code.
 					 */
-					if( isset( $codes[ $chunks[ 0 ] ] ) ) {
+					if( isset( $wgLanguageCodes[ $chunks[ 0 ] ] ) ) {
 						
 						/* It is.
 						 */
@@ -276,4 +279,25 @@ HEREDOC;
 	 */
 	return $r;
 
+}
+
+/**
+ * Multi-language message cache.
+ */
+class MultiMessageCache {
+	
+	private $_cache = array();
+	
+	public function importFile( $file ) {
+		
+		/* Include the message file.
+		 */
+		include( $file );
+		
+		/* Import the messages array into the message cache.
+		 */
+		$this->_merge = array_merge( $this->_merge, $messages );
+		
+	}
+	
 }
