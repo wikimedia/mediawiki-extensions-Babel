@@ -164,7 +164,7 @@ function efBabelParserFunction_Render( $parser ) {
 				/* Check if parameter is exactly equal to a valid language
 				 * code.
 				 */
-				if( isset( $wgLanguageCodes[ $name ] ) ) {
+				if( in_array( $name, $wgLanguageCodes) ) {
 					
 					$code = $name;
 					$level = 'N';
@@ -182,7 +182,7 @@ function efBabelParserFunction_Render( $parser ) {
 					
 					/* Check whether the first chunk is a valid language code.
 					 */
-					if( isset( $wgLanguageCodes[ $chunks[ 0 ] ] ) ) {
+					if( in_array( $chunks[ 0 ], $wgLanguageCodes ) ) {
 						
 						/* It is.
 						 */
@@ -228,7 +228,7 @@ function efBabelParserFunction_Render( $parser ) {
 					$text = wfMsg( "babel-$level",
 						":Category:{$prefixes['category']}$code-$level{$suffixes['category']}",
 						":Category:{$prefixes['category']}$code{$suffixes['category']}",
-						$codes[ $code ]
+						$name
 					);
 
 					/* Generate box and add to the end of the boxes tower.
