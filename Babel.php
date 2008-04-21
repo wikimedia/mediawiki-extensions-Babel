@@ -139,9 +139,21 @@ function efBabelParserFunction_Render( $parser ) {
 				 */
 				$article = new Article( $title );
 				
-				/* Add the content of the template page to the box tower content.
+				/* Get the contents of the template.
 				 */
-				$boxes .= $article->getContent();
+				$template = $article->getContent();
+				
+				/* Remove noinclude tags from the template content.
+				 */
+				$template = preg_replace( '#<noinclude>(.*?)</noinclude>#', '', $template );
+				
+				/* Replace includeonly tags with it's content.
+				 */
+				$template = preg_replace( '#<includeonly>(.*?)</includeonly>#', '$1', $template );
+				
+				/* Add the template to the box tower.
+				 */
+				$boxes .= $template;
 				
 			} elseif( strpos( $name, '-' ) && strpos( $name, '-' ) != strlen( $name ) - 1 ) {
 				

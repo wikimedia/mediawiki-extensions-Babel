@@ -41,7 +41,7 @@ $messages['en'] = array(
 	'babel-category-suffix'   => '',          # do not translate or duplicate this message to other languages
 	'babel-portal-prefix'     => '',          # do not translate or duplicate this message to other languages
 	'babel-portal-suffix'     => '',          # do not translate or duplicate this message to other languages
-	'babel-template-prefix'   => 'User ',     # do not translate or duplicate this message to other languages
+	'babel-template-prefix'   => '',          # do not translate or duplicate this message to other languages
 	'babel-template-suffix'   => '',          # do not translate or duplicate this message to other languages
 );
 
