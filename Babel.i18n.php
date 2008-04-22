@@ -49,6 +49,27 @@ $messages['en'] = array(
 	'babel-template-suffix' => '', # do not translate or duplicate this message to other languages
 );
 
+/** German (Deutsch)
+ * @author Raimond Spekking
+ */
+$messages['de'] = array(
+	'babel'                => 'Babel-Benutzer-Information',
+	'babel-desc'           => 'Ergänzt die <tt>#babel</tt>-Parserfunktion zur automatischen Erstellung von Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
+	'babel-url'            => 'Project:Babel',
+	'babel-ISO-639-2'      => 'de',
+	'babel-ISO-3166-1993'  => 'DE',
+	'babel-ISO-639-3'      => 'deu',
+	'babel-language'       => 'Deutsch',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Dieser Benutzer hat [[$1|keine]] Kenntnisse von [[$2|$3]] (oder versteht nur mit beträchtlichen Schwierigkeiten).',
+	'babel-1'              => 'Dieser Benutzer hat [[$1|grundlegende]] Kenntnisse von [[$2|$3]].',
+	'babel-2'              => 'Dieser Benutzer hat [[$1|fortgeschrittene]] Kenntnisse von [[$2|$3]].',
+	'babel-3'              => 'Dieser Benutzer hat [[$1|sehr gute]] Kenntnisse von [[$2|$3]].',
+	'babel-4'              => 'Dieser Benutzer beherrscht [[$2|$3]] auf [[$1|muttersprachlichem Niveau]].',
+	'babel-5'              => 'Dieser Benutzer [[$1|professionelle]] Kenntnisse von [[$2|$3]].',
+	'babel-N'              => 'Dieser Benutzer spricht [[$2|$3]] als [[$1|Muttersprache]].',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
