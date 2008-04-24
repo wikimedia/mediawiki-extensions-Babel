@@ -235,7 +235,7 @@ function efBabelParserFunction_Render( $parser ) {
 					 * to ISO 639-1 correlation is implemented and a system to
 					 * also try and get messages from CLDR is implemented.
 					 */
-					if( $names[ $code ] ) {
+					if( array_key_exists( $code, $names ) ) {
 						$name = $names[ $code ];
 					}
 
