@@ -37,8 +37,11 @@ $wgHooks[ 'LanguageGetMagic' ][] = 'efBabelParserFunction_Magic';
 // Register internationalisation file.
 $wgExtensionMessagesFiles[ 'Babel' ] = dirname( __FILE__ ) . '/Babel.i18n.php';
 
-// Require the list of language codes file.
-require_once( dirname( __FILE__ ) . '/LanguageCodes.php' );
+// Register language code file.
+$wgLanguageCodeFile =  dirname( __FILE__ ) . '/LanguageCodes.php';
+
+// Create language code cache.
+$wgLanguageCodeCache = false;
 
 /**
  * Registers the parser function hook.
@@ -86,7 +89,7 @@ function efBabelParserFunction_Render( $parser ) {
 
 	/* Load extension messages.
 	 */
-	wfLoadExtensionMessages( 'Babel' );
+	wfLoadExtensionMessages( 'Babel', true );
 
 	/* Initialise variable for storing the content of the babel tower.
 	 */
@@ -119,6 +122,14 @@ function efBabelParserFunction_Render( $parser ) {
 	$top            = wfMsgForContent( 'babel'                 );
 	$directionality = wfMsgForContent( 'babel-directionality'  );
 	$cellspacing    = wfMsgForContent( 'babel-box-cellspacing' );
+
+	/* Get content language of the wiki.
+	 */
+	global $wgLanguageCode;
+	
+	/* Get the mult-language message cache.
+	 */
+	global $wgMultiMessageCache;
 
 	/* Loop through the array of parameters.
 	 */
@@ -156,19 +167,11 @@ function efBabelParserFunction_Render( $parser ) {
 				/* Default validity to false.
 				 */
 				$validity = false;
-				
-				/* Get content language of the wiki.
-				 */
-				global $wgLanguageCode;
-				
-				/* Get a list of ISO 639-1 and ISO 639-3 codes.
-				 */
-				global $wgLanguageCodes;
 
 				/* Check if parameter is exactly equal to a valid language
 				 * code.
 				 */
-				if( in_array( $lname, $wgLanguageCodes) ) {
+				if( efBabelCheckLanguageCode( $lname ) ) {
 					
 					$code = $lname;
 					$level = 'N';
@@ -191,7 +194,7 @@ function efBabelParserFunction_Render( $parser ) {
 					
 					/* Check whether the first chunk is a valid language code.
 					 */
-					if( in_array( $code, $wgLanguageCodes ) ) {
+					if( efBabelCheckLanguageCode( $code ) ) {
 						
 						/* Check whether the second chunk is within the valid
 						 * limits.
@@ -221,14 +224,34 @@ function efBabelParserFunction_Render( $parser ) {
 					 */
 					$header = "[[{$prefixes['portal']}$code{$suffixes['portal']}|$code]]-$level";
 
+					/* Get the language name.
+					 */
+					$names = Language::getLanguageNames();
+					
+					$name = $names[ $code ];
+
 					/* Generate the text displayed on the right hand side of the
 					 * box.
 					 */
-					$text = wfMsg( "babel-$level",
+					$text = wfMsgExt( "babel-$level",
+						array( 'language' => $code ),
 						":Category:{$prefixes['category']}$code-$level{$suffixes['category']}",
 						":Category:{$prefixes['category']}$code{$suffixes['category']}",
 						$name
 					);
+					
+					/* If the message is not found use the -r variant.
+					 * Temporarily disabled until a way for it to work is found.
+					 *//*
+					if( $text == htmlspecialchars( "<bable-$level>" ) ) {
+						
+						$text = wfMsgContent( "babel-$level-r",
+							":Category:{$prefixes['category']}$code-$level{$suffixes['category']}",
+							":Category:{$prefixes['category']}$code{$suffixes['category']}",
+							$name
+						);
+					
+					}*/
 
 					/* Generate box and add to the end of the boxes tower.
 					 */
@@ -281,22 +304,38 @@ HEREDOC;
 }
 
 /**
- * Multi-language message cache.
+ * Check if the specified code is a valid ISO 936-1 or ISO 936-3 language
+ * code.
+ * @return Boolean Whether or not the code is valid.
+ * @param $code String Code to check.
  */
-class MultiMessageCache {
+function efBabelCheckLanguageCode( $code ) {
 	
-	private $_cache = array();
+	/* Get language cache.
+	 */
+	global $wgLanguageCodeCache;
 	
-	public function importFile( $file ) {
-		
-		/* Include the message file.
+	/* Ensure the codes are not already cached, or skip inclusion if they
+	 * are.
+	 */
+	if( !is_array( $wgLanguageCodeCache ) ) {
+
+		/* Get location of language code file.
 		 */
-		include( $file );
+		global $wgLanguageCodeFile;
 		
-		/* Import the messages array into the message cache.
+		/* Include language code file.
 		 */
-		$this->_merge = array_merge( $this->_merge, $messages );
+		include( $wgLanguageCodeFile );
+		
+		/* Push language codes into the code cache.
+		 */
+		$wgLanguageCodeCache = $codes;
 		
 	}
+	
+	/* Check if the specified code is in the codes array and return result.
+	 */
+	return in_array( strtolower( $code ), $wgLanguageCodeCache );
 	
 }

@@ -6,7 +6,7 @@
  * @addtogroup Extensions
  */
 
-$wgLanguageCodes = array(
+$codes = array(
 
 	/* ISO 639-1 */
 	'aa',
