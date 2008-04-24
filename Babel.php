@@ -6,6 +6,9 @@
  * Adds a parser function to allow automated generation of a babel userbox
  * column with the ability to include custom templates.
  *
+ * TODO:
+ *  Supress category for babel level 0.
+ *
  * @addtogroup Extensions
  *
  * @link http://www.mediawiki.org/wiki/Extension:Babel
@@ -228,7 +231,13 @@ function efBabelParserFunction_Render( $parser ) {
 					 */
 					$names = Language::getLanguageNames();
 					
-					$name = $names[ $code ];
+					/* Temporary measure to supress PHP Notice until ISO 639-3
+					 * to ISO 639-1 correlation is implemented and a system to
+					 * also try and get messages from CLDR is implemented.
+					 */
+					if( $names[ $code ] ) {
+						$name = $names[ $code ];
+					}
 
 					/* Generate the text displayed on the right hand side of the
 					 * box.
