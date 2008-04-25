@@ -343,8 +343,9 @@ function efBabelCheckLanguageCode( $code ) {
 		
 	}
 	
-	/* Check if the specified code is in the codes array and return result.
+	/* Check if the specified code has a key in the codes array and return
+	 * result.
 	 */
-	return in_array( strtolower( $code ), $wgLanguageCodeCache );
+	return array_key_exists( strtolower( $code ), $wgLanguageCodeCache );
 	
 }
