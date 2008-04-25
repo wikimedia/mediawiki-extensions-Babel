@@ -6,9 +6,6 @@
  * Adds a parser function to allow automated generation of a babel userbox
  * column with the ability to include custom templates.
  *
- * TODO:
- *  Supress category for babel level 0.
- *
  * @addtogroup Extensions
  *
  * @link http://www.mediawiki.org/wiki/Extension:Babel
@@ -24,7 +21,7 @@ if( !defined( 'MEDIAWIKI' ) ) die( 'Invalid entry point.' );
 // Register extension credits.
 $wgExtensionCredits[ 'parserhook' ][] = array(
 	'name'            => 'Babel',
-	'version'         => '1.0',
+	'version'         => '0.5',
 	'author'          => 'MinuteElectron',
 	'url'             => 'http://www.mediawiki.org/wiki/Extension:Babel',
 	'description'     => 'Adds a parser function to allow automated generation of a babel userbox column with the ability to include custom templates.',
@@ -45,6 +42,10 @@ $wgLanguageCodeFile =  dirname( __FILE__ ) . '/LanguageCodes.php';
 
 // Create language code cache.
 $wgLanguageCodeCache = false;
+
+// Configuration setttings.
+$wgBabelUseLevelZeroCategory = false;
+$wgBabelUseSimpleCategories  = false;
 
 /**
  * Registers the parser function hook.
@@ -126,23 +127,23 @@ function efBabelParserFunction_Render( $parser ) {
 	$directionality = wfMsgForContent( 'babel-directionality'  );
 	$cellspacing    = wfMsgForContent( 'babel-box-cellspacing' );
 
-	/* Get content language of the wiki.
+	/* Get the user object.
 	 */
-	global $wgLanguageCode;
-	
-	/* Get the mult-language message cache.
+	global $wgUser;
+
+	/* Get wether or not to supress the level zero category.
 	 */
-	global $wgMultiMessageCache;
+	global $wgBabelUseLevelZeroCategory;
 
 	/* Loop through the array of parameters.
 	 */
 	foreach( $args as $name ) {
-		
+
 		/* Skip this itteration if the parameter is an object to avoid
 		 * accidentally trying to process the parser object.
 		 */
 		if( !is_object( $name) ) {
-			
+
 			/* Create a title object for the current box being generated,
 			 */
 			$title = Title::newFromText( "{$prefixes['template']}$name{$suffixes['template']}", NS_TEMPLATE );
@@ -151,22 +152,22 @@ function efBabelParserFunction_Render( $parser ) {
 			 * default babel box.
 			 */
 			if( is_object( $title ) && $title->exists() ) {
-				
+
 				/* Transclude the template, this uses a private function in the
 				 * parser so could break; at some point it would be nice to
 				 * find a way to move it to a public function.
 				 */
 				$boxes .= $parser->replaceVariables( '{{' . $title->getDbKey() . '}}' );
-				
+
 			} else {
-				
+
 				/* Check for validity of the syntax.
 				 */
-				
+
 				/* Get lower case of name.
 				 */
 				$lname = strtolower( $name );
-				
+
 				/* Default validity to false.
 				 */
 				$validity = false;
@@ -175,53 +176,53 @@ function efBabelParserFunction_Render( $parser ) {
 				 * code.
 				 */
 				if( efBabelCheckLanguageCode( $lname ) ) {
-					
+
 					$code = $lname;
 					$level = 'N';
 					$validity = true;
-					
+
 				}
-				
+
 				/* Break parameter in to chunks for validation.
 				 */
 				$chunks = explode( '-', $name );
-				
+
 				/* Ensure there are only two parts.
 				 */
 				if( count( $chunks ) == 2 ) {
-					
+
 					/* Move into variables.
 					 */
 					$code  = strtolower( $chunks[ 0 ] );
 					$level = strtoupper( $chunks[ 1 ] ); 
-					
+
 					/* Check whether the first chunk is a valid language code.
 					 */
 					if( efBabelCheckLanguageCode( $code ) ) {
-						
+
 						/* Check whether the second chunk is within the valid
 						 * limits.
 						 */
 						if( is_numeric( $level ) && $level >= 0 && $level <= 5  ) {
 
 							$validity = true;
-							
+
 						} elseif( $level == 'N' ) {
 
 							$validity = true;
-							
+
 						}
-						
+
 					}
-					
+
 				}
 
 				if( $validity ) {
-				  	
+
 					/* The parameter is in a valid format for rendering of a
 					 * default box.
 					 */
-					
+
 					/* Generate the text displayed on the left hand side of the
 					 * box.
 					 */
@@ -230,7 +231,7 @@ function efBabelParserFunction_Render( $parser ) {
 					/* Get the language name.
 					 */
 					$names = Language::getLanguageNames();
-					
+
 					/* Temporary measure to supress PHP Notice until ISO 639-3
 					 * to ISO 639-1 correlation is implemented and a system to
 					 * also try and get messages from CLDR is implemented.
@@ -248,18 +249,18 @@ function efBabelParserFunction_Render( $parser ) {
 						":Category:{$prefixes['category']}$code{$suffixes['category']}",
 						$name
 					);
-					
+
 					/* If the message is not found use the -r variant.
 					 * Temporarily disabled until a way for it to work is found.
 					 *//*
 					if( $text == htmlspecialchars( "<bable-$level>" ) ) {
-						
+
 						$text = wfMsgContent( "babel-$level-r",
 							":Category:{$prefixes['category']}$code-$level{$suffixes['category']}",
 							":Category:{$prefixes['category']}$code{$suffixes['category']}",
 							$name
 						);
-					
+
 					}*/
 
 					/* Generate box and add to the end of the boxes tower.
@@ -270,8 +271,31 @@ function efBabelParserFunction_Render( $parser ) {
 !  dir="$directionality" | $header
 |  dir="$directionality" | $text
 |}
-</div>[[Category:{$prefixes['category']}$code-$level{$suffixes['category']}]][[Category:{$prefixes['category']}$code{$suffixes['category']}]]
+</div>
 HEREDOC;
+
+					/* Add to main language category if the level is not zero.
+					 */
+					if( $level == 'N' || $level > 0 ) {
+
+						/* Register on parser output object with the level +
+						 * username as the sort key.
+						 */
+						$parser->mOutput->addCategory( "{$prefixes['category']}$code-$level{$suffixes['category']}", $level . $wgUser->getName() );
+
+					}
+
+					/* Add to level categories, only adding it to the level 0
+					 * one if it is set to be used.
+					 */
+					if( $level == 'N' || ( $wgBabelUseLevelZeroCategory && $level > 0 ) ) {
+
+						/* Register on parser output object, with the username
+						 * as the sort key.
+						 */
+						$parser->mOutput->addCategory( "{$prefixes['category']}$code-$level{$suffixes['category']}", $wgUser->getName() );
+
+					}
 
 				} elseif( is_object( $title ) ) {
 
@@ -280,22 +304,22 @@ HEREDOC;
 					 * red link.
 					 */
 					$boxes .= "[[Template:{$prefixes['template']}$name{$suffixes['template']}|Template:{$prefixes['template']}$name{$suffixes['template']}]]";
-					
+
 				} else {
-					
+
 					/* Template name is invalid, output the template name on 
 					 * it's own.
 					 */
 					$boxes .= "Template:{$prefixes['template']}$name{$suffixes['template']}";
-					
+
 				}
-				
+
 			}
-			
+
 		}
-		
+
 	}
-	
+
 	/* Generate tower.
 	 */
 	$r = <<<HEREDOC
@@ -319,11 +343,11 @@ HEREDOC;
  * @param $code String Code to check.
  */
 function efBabelCheckLanguageCode( $code ) {
-	
+
 	/* Get language cache.
 	 */
 	global $wgLanguageCodeCache;
-	
+
 	/* Ensure the codes are not already cached, or skip inclusion if they
 	 * are.
 	 */
@@ -332,20 +356,20 @@ function efBabelCheckLanguageCode( $code ) {
 		/* Get location of language code file.
 		 */
 		global $wgLanguageCodeFile;
-		
+
 		/* Include language code file.
 		 */
 		include( $wgLanguageCodeFile );
-		
+
 		/* Push language codes into the code cache.
 		 */
 		$wgLanguageCodeCache = $codes;
-		
+
 	}
-	
+
 	/* Check if the specified code has a key in the codes array and return
 	 * result.
 	 */
 	return array_key_exists( strtolower( $code ), $wgLanguageCodeCache );
-	
+
 }
