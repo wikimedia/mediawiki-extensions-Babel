@@ -29,7 +29,11 @@ $wgExtensionCredits[ 'parserhook' ][] = array(
 );
 
 // Register setup function.
-$wgExtensionFunctions[] = 'efBabelParserFunction_Setup';
+if ( defined( 'MW_SUPPORTS_PARSERFIRSTCALLINIT' ) ) {
+	$wgHooks['ParserFirstCallInit'][] = 'efBabelParserFunction_Setup';
+} else {
+	$wgExtensionFunctions[] = 'efBabelParserFunction_Setup';
+}
 
 // Register required hooks.
 $wgHooks[ 'LanguageGetMagic' ][] = 'efBabelParserFunction_Magic';
