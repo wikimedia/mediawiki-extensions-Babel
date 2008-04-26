@@ -319,10 +319,15 @@ HEREDOC;
 					 */
 					if( $wgBabelUseMainCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === 0 ) || $level > 0 ) ) {
 
-						/* Register on parser output object with the level +
-						 * username as the sort key.
+						/* Add category wikitext to box tower.
 						 */
+						$boxes .= "[[Category:{$prefixes['category']}$code{$suffixes['category']}|$level{$wgUser->getName()}]]";
+
+						/* Disabled and replaced with wikitext alternative due
+						 * to issues with fatal errors.
+						 *//*
 						$parser->mOutput->addCategory( "{$prefixes['category']}$code{$suffixes['category']}", $level . $wgUser->getName() );
+						*/
 
 					}
 
@@ -331,10 +336,15 @@ HEREDOC;
 					 */
 					if( !$wgBabelUseSimpleCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === 0 ) || $level > 0 ) ) {
 
-						/* Register on parser output object, with the username
-						 * as the sort key.
+						/* Add category wikitext to box tower.
 						 */
+						$boxes .= "[[Category:{$prefixes['category']}$code-$level{$suffixes['category']}|{$wgUser->getName()}]]";
+
+						/* Disabled and replaced with wikitext alternative due
+						 * to issues with fatal errors.
+						 *//*
 						$parser->mOutput->addCategory( "{$prefixes['category']}$code-$level{$suffixes['category']}", $wgUser->getName() );
+						*/
 
 					}
 
