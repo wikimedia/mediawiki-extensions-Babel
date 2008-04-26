@@ -21,7 +21,7 @@ if( !defined( 'MEDIAWIKI' ) ) die( 'Invalid entry point.' );
 // Register extension credits.
 $wgExtensionCredits[ 'parserhook' ][] = array(
 	'name'            => 'Babel',
-	'version'         => '0.5',
+	'version'         => '0.6',
 	'author'          => 'MinuteElectron',
 	'url'             => 'http://www.mediawiki.org/wiki/Extension:Babel',
 	'description'     => 'Adds a parser function to allow automated generation of a babel userbox column with the ability to include custom templates.',
@@ -471,10 +471,3 @@ function efBabelGetLanguageCode( $code, $standard ) {
 	}
 
 }
-
-/* I got bored:
-* Change instances of 963 in comments to 639 as it should be.
-* Introduce function for getting a language code in a favored standard.
-* Put parameter type before parameter name in @param function comments.
-* Split the language codes array up into two smaller ones.
-*/
