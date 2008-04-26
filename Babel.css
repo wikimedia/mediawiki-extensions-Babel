@@ -54,39 +54,11 @@ div.mw-babel-box-4 {
 }
 
 div.mw-babel-box-5 {
-	border: solid #C0C8FF 1px;
+	border: solid #F99C99 1px;
 }
 
 div.mw-babel-box-N {
 	border: solid #6EF7A7 1px;
-}
-
-div.mw-babel-box-0 table {
-	background-color: #E8E8E8;
-}
-
-div.mw-babel-box-1 table {
-	background-color: #F0F8FF;
-}
-
-div.mw-babel-box-2 table {
-	background-color: #D0F8FF;
-}
-
-div.mw-babel-box-3 table {
-	background-color: #E0E8FF;
-}
-
-div.mw-babel-box-4 table {
-	background-color: #FFFF99;
-}
-
-div.mw-babel-box-5 table {
-	background-color: #FF5555;
-}
-
-div.mw-babel-box-N table {
-	background-color: #C5FCDC;
 }
 
 div.mw-babel-box-0 table th {
@@ -110,9 +82,37 @@ div.mw-babel-box-4 table th {
 }
 
 div.mw-babel-box-5 table th {
-	background-color: #C0C8FF;
+	background-color: #F99C99;
 }
 
 div.mw-babel-box-N table th{
 	background-color: #6EF7A7;
+}
+
+div.mw-babel-box-0 table {
+	background-color: #E8E8E8;
+}
+
+div.mw-babel-box-1 table {
+	background-color: #F0F8FF;
+}
+
+div.mw-babel-box-2 table {
+	background-color: #D0F8FF;
+}
+
+div.mw-babel-box-3 table {
+	background-color: #E0E8FF;
+}
+
+div.mw-babel-box-4 table {
+	background-color: #FFFF99;
+}
+
+div.mw-babel-box-5 table {
+	background-color: #F9CBC9;
+}
+
+div.mw-babel-box-N table {
+	background-color: #C5FCDC;
 }
