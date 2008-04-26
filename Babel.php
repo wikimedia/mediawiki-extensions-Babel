@@ -21,7 +21,7 @@ if( !defined( 'MEDIAWIKI' ) ) die( 'Invalid entry point.' );
 // Register extension credits.
 $wgExtensionCredits[ 'parserhook' ][] = array(
 	'name'            => 'Babel',
-	'version'         => '0.6',
+	'version'         => '0.7',
 	'author'          => 'MinuteElectron',
 	'url'             => 'http://www.mediawiki.org/wiki/Extension:Babel',
 	'description'     => 'Adds a parser function to allow automated generation of a babel userbox column with the ability to include custom templates.',
@@ -319,10 +319,17 @@ HEREDOC;
 					 */
 					if( $wgBabelUseMainCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === 0 ) || $level > 0 ) ) {
 
-						/* Register on parser output object with the level +
-						 * username as the sort key.
+						/* Check categories that have been set so far, so we
+						 * don't accidentally add the same category twice.
 						 */
-						$parser->mOutput->addCategory( "{$prefixes['category']}$code{$suffixes['category']}", $level . $wgUser->getName() );
+						if( !array_key_exists( "{$prefixes['category']}$code{$suffixes['category']}", $parser->mOutput->getCategories() ) ) {
+
+							/* Register on parser output object with the level +
+							 * username as the sort key.
+							 */
+							$parser->mOutput->addCategory( "{$prefixes['category']}$code{$suffixes['category']}", $level . $wgUser->getName() );
+
+						}
 
 					}
 
