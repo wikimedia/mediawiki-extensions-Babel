@@ -26,6 +26,14 @@ $messages['en'] = array(
 	'babel-5' => 'This user has [[$1|professional]] knowledge of [[$2|$3]].',
 	'babel-N' => 'This user has a [[$1|native]] understanding of [[$2|$3]].',
 
+	'babel-0-n' => 'This user has [[$1|no]] knowledge of [[$2|English]] (or understands it with considerable difficulty).',
+	'babel-1-n' => 'This user has [[$1|basic]] knowledge of [[$2|English]].',
+	'babel-2-n' => 'This user has [[$1|intermediate]] knowledge of [[$2|English]].',
+	'babel-3-n' => 'This user has [[$1|advanced]] knowledge of [[$2|English]].',
+	'babel-4-n' => 'This user has [[$1|near native speaker]] knowledge of [[$2|English]].',
+	'babel-5-n' => 'This user has [[$1|professional]] knowledge of [[$2|English]].',
+	'babel-N-n' => 'This user has a [[$1|native]] understanding of [[$2|English]].',
+
 	'babel-box-cellspacing' => '0', # do not translate or duplicate this message to other languages
 
 	'babel-category-prefix' => '', # do not translate or duplicate this message to other languages

@@ -280,12 +280,26 @@ function efBabelParserFunction_Render( $parser ) {
 					/* Generate the text displayed on the right hand side of the
 					 * box.
 					 */
-					$text = wfMsgExt( "babel-$level",
-						array( 'language' => $code ),
+
+					/* Try the language of the box.
+					 */
+					$text = wfMsgExt( "babel-$level-n",
+						array( 'nofallback', 'language' => $code ),
 						":Category:{$prefixes['category']}$code-$level{$suffixes['category']}",
-						":Category:{$prefixes['category']}$code{$suffixes['category']}",
-						$name
+						":Category:{$prefixes['category']}$code{$suffixes['category']}"
 					);
+
+					/* Translation not found, use the generic translation of the
+					 * highest level fallback possible.
+					 */
+					if( $text == htmlspecialchars( "<babel-$level-n>" ) ) {
+						$text = wfMsgExt( "babel-$level",
+							array( 'language' => $code ),
+							":Category:{$prefixes['category']}$code-$level{$suffixes['category']}",
+							":Category:{$prefixes['category']}$code{$suffixes['category']}",
+							$name
+						);
+					}
 
 					/* Get the directionality for the current language.
 					 */
