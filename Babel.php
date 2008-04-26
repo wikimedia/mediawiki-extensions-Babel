@@ -29,7 +29,7 @@ $wgExtensionCredits[ 'parserhook' ][] = array(
 );
 
 // Register setup function.
-if ( defined( 'MW_SUPPORTS_PARSERFIRSTCALLINIT' ) ) {
+if( defined( 'MW_SUPPORTS_PARSERFIRSTCALLINIT' ) ) {
 	$wgHooks['ParserFirstCallInit'][] = 'efBabelParserFunction_Setup';
 } else {
 	$wgExtensionFunctions[] = 'efBabelParserFunction_Setup';
@@ -47,9 +47,21 @@ $wgLanguageCodeFile =  dirname( __FILE__ ) . '/LanguageCodes.php';
 // Create language code cache.
 $wgLanguageCodeCache = false;
 
+// Definitions.
+define( 'ISO_639_1', 1 );
+define( 'ISO_639_3', 3 );
+
+// Miscellaneous globals.
+$wgBabelStandards = array(
+	ISO_639_1 => ISO_639_3,
+	ISO_639_3 => ISO_639_1,
+);
+
 // Configuration setttings.
 $wgBabelUseLevelZeroCategory = false;
 $wgBabelUseSimpleCategories  = false;
+$wgBabelUseMainCategories    = true;
+$wgBabelFavorStandard        = ISO_639_1;
 
 /**
  * Registers the parser function hook.
@@ -139,6 +151,18 @@ function efBabelParserFunction_Render( $parser ) {
 	 */
 	global $wgBabelUseLevelZeroCategory;
 
+	/* Get wether or not to use simple categories.
+	 */
+	global $wgBabelUseSimpleCategories;
+
+	/* Get whether or not to use main categories.
+	 */
+	global $wgBabelUseMainCategories;
+
+	/* Get favored standard.
+	 */
+	global $wgBabelFavorStandard;
+
 	/* Loop through the array of parameters.
 	 */
 	foreach( $args as $name ) {
@@ -227,21 +251,30 @@ function efBabelParserFunction_Render( $parser ) {
 					 * default box.
 					 */
 
+					/* Get code in favoured standard.
+					 */
+					$code = efBabelGetLanguageCode( $code, $wgBabelFavorStandard );
+
+
 					/* Generate the text displayed on the left hand side of the
 					 * box.
 					 */
 					$header = "[[{$prefixes['portal']}$code{$suffixes['portal']}|$code]]-$level";
 
-					/* Get the language name.
+					/* Get the language names.
 					 */
-					$names = Language::getLanguageNames();
+					if( class_exists( 'LanguageNames' ) ) {
+						$names = LanguageNames::getNames( $code );
+					} else {
+						$names = Language::getLanguageNames();
+					}
 
-					/* Temporary measure to supress PHP Notice until ISO 639-3
-					 * to ISO 639-1 correlation is implemented and a system to
-					 * also try and get messages from CLDR is implemented.
+					/* Ensure the language code has a corresponding name.
 					 */
 					if( array_key_exists( $code, $names ) ) {
 						$name = $names[ $code ];
+					} else {
+						$name = $code;
 					}
 
 					/* Generate the text displayed on the right hand side of the
@@ -278,21 +311,25 @@ function efBabelParserFunction_Render( $parser ) {
 </div>
 HEREDOC;
 
+					/* The following code currently generates fatal errors under
+					 * some circumstances.
+					 */
+
 					/* Add to main language category if the level is not zero.
 					 */
-					if( $level == 'N' || $level > 0 ) {
+					if( $wgBabelUseMainCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === 0 ) || $level > 0 ) ) {
 
 						/* Register on parser output object with the level +
 						 * username as the sort key.
 						 */
-						$parser->mOutput->addCategory( "{$prefixes['category']}$code-$level{$suffixes['category']}", $level . $wgUser->getName() );
+						$parser->mOutput->addCategory( "{$prefixes['category']}$code{$suffixes['category']}", $level . $wgUser->getName() );
 
 					}
 
 					/* Add to level categories, only adding it to the level 0
 					 * one if it is set to be used.
 					 */
-					if( $level == 'N' || ( $wgBabelUseLevelZeroCategory && $level > 0 ) ) {
+					if( !$wgBabelUseSimpleCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === 0 ) || $level > 0 ) ) {
 
 						/* Register on parser output object, with the username
 						 * as the sort key.
@@ -341,10 +378,11 @@ HEREDOC;
 }
 
 /**
- * Check if the specified code is a valid ISO 936-1 or ISO 936-3 language
+ * Check if the specified code is a valid ISO 639-1 or ISO 639-3 language
  * code.
+ *
+ * @param string $code Code to check.
  * @return Boolean Whether or not the code is valid.
- * @param $code String Code to check.
  */
 function efBabelCheckLanguageCode( $code ) {
 
@@ -371,9 +409,72 @@ function efBabelCheckLanguageCode( $code ) {
 
 	}
 
-	/* Check if the specified code has a key in the codes array and return
-	 * result.
+	/* Check if the specified code has a key in the codes array for each of the
+	 * standards and return result.
 	 */
-	return array_key_exists( strtolower( $code ), $wgLanguageCodeCache );
+	if( array_key_exists( strtolower( $code ), $wgLanguageCodeCache[ ISO_639_1 ] ) ) {
+		return true;
+	}
+	if( array_key_exists( strtolower( $code ), $wgLanguageCodeCache[ ISO_639_3 ] ) ) {
+		return true;
+	}
 
 }
+
+/**
+ * Get the language code to use for a specific language, favouring a specific
+ * standard. For example, if the code given was 'eng' but the standard that is
+ * being favoured is ISO 639-1 then 'en' would be returned; if the ISO 639-3
+ * standard was being favoured then 'eng' would be returned.
+ *
+ * @param string $code Code to get language code for.
+ * @param constant $standard Favoured standard.
+ * @return String Correct code.
+ */
+function efBabelGetLanguageCode( $code, $standard ) {
+
+	/* Get the language cache.
+	 */
+	global $wgLanguageCodeCache;
+
+	/* Check if it is listed in the favoured array.
+	 */
+	if( array_key_exists( $code, $wgLanguageCodeCache[ $standard ] ) ) {
+
+		return $code;
+
+	} else {
+
+		/* It is not, try to find it in the opposite array.
+		 */
+
+		/* Get the standards array.
+		 */
+		global $wgBabelStandards;
+
+		/* Find the opposite array.
+		 */
+		$opposite = $wgBabelStandards[ $standard ];
+
+		/* Check the opposite array for the code.
+		 */
+		if( array_key_exists( $standard, $wgLanguageCodeCache[ $opposite ][ $code ] ) ) {
+
+			return $wgLanguageCodeCache[ $opposite ][ $code ][ $standard ];
+
+		} else {
+
+			return $code;
+
+		}
+
+	}
+
+}
+
+/* I got bored:
+* Change instances of 963 in comments to 639 as it should be.
+* Introduce function for getting a language code in a favored standard.
+* Put parameter type before parameter name in @param function comments.
+* Split the language codes array up into two smaller ones.
+*/
