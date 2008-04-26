@@ -319,17 +319,10 @@ HEREDOC;
 					 */
 					if( $wgBabelUseMainCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === 0 ) || $level > 0 ) ) {
 
-						/* Check categories that have been set so far, so we
-						 * don't accidentally add the same category twice.
+						/* Register on parser output object with the level +
+						 * username as the sort key.
 						 */
-						if( !array_key_exists( "{$prefixes['category']}$code{$suffixes['category']}", $parser->mOutput->getCategories() ) ) {
-
-							/* Register on parser output object with the level +
-							 * username as the sort key.
-							 */
-							$parser->mOutput->addCategory( "{$prefixes['category']}$code{$suffixes['category']}", $level . $wgUser->getName() );
-
-						}
+						$parser->mOutput->addCategory( "{$prefixes['category']}$code{$suffixes['category']}", $level . $wgUser->getName() );
 
 					}
 
