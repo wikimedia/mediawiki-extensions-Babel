@@ -2,7 +2,7 @@
 
 /**
  * Babel Extension
- * 
+ *
  * Adds a parser function to allow automated generation of a babel userbox
  * column with the ability to include custom templates.
  *
@@ -119,7 +119,7 @@ function efBabelParserFunction_Render( $parser ) {
 	 * ammount so this cannot be hardcoded.
 	 */
 	$args = func_get_args();
-	
+
 	/* Create an array of all prefixes.
 	 */
 	$prefixes = array(
@@ -222,7 +222,7 @@ function efBabelParserFunction_Render( $parser ) {
 					/* Move into variables.
 					 */
 					$code  = strtolower( $chunks[ 0 ] );
-					$level = strtoupper( $chunks[ 1 ] ); 
+					$level = strtoupper( $chunks[ 1 ] );
 
 					/* Check whether the first chunk is a valid language code.
 					 */
@@ -350,7 +350,7 @@ HEREDOC;
 
 				} elseif( is_object( $title ) ) {
 
-					/* Template does not exist and not a valid format to create 
+					/* Template does not exist and not a valid format to create
 					 * a default box, but the template name is valid; output a
 					 * red link.
 					 */
@@ -358,7 +358,7 @@ HEREDOC;
 
 				} else {
 
-					/* Template name is invalid, output the template name on 
+					/* Template name is invalid, output the template name on
 					 * it's own.
 					 */
 					$boxes .= "Template:{$prefixes['template']}$name{$suffixes['template']}";
@@ -475,9 +475,6 @@ function efBabelGetLanguageCode( $code, $standard ) {
 		} else {
 
 			return $code;
-
 		}
-
 	}
-
 }
