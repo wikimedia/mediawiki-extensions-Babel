@@ -292,7 +292,7 @@ function efBabelParserFunction_Render( $parser ) {
 					/* Translation not found, use the generic translation of the
 					 * highest level fallback possible.
 					 */
-					if( $text == htmlspecialchars( "<babel-$level-n>" ) ) {
+					if( wfEmptyMsg( "babel-$level-n", $text ) ) {
 						$text = wfMsgExt( "babel-$level",
 							array( 'language' => $code ),
 							":Category:{$prefixes['category']}$code-$level{$suffixes['category']}",
