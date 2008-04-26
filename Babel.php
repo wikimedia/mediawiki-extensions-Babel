@@ -287,18 +287,11 @@ function efBabelParserFunction_Render( $parser ) {
 						$name
 					);
 
-					/* If the message is not found use the -r variant.
-					 * Temporarily disabled until a way for it to work is found.
-					 *//*
-					if( $text == htmlspecialchars( "<bable-$level>" ) ) {
-
-						$text = wfMsgContent( "babel-$level-r",
-							":Category:{$prefixes['category']}$code-$level{$suffixes['category']}",
-							":Category:{$prefixes['category']}$code{$suffixes['category']}",
-							$name
-						);
-
-					}*/
+					/* Get the directionality for the current language.
+					 */
+					$dir = wfMsgExt( "babel-directionality",
+						array( 'language' => $code )
+					);
 
 					/* Generate box and add to the end of the boxes tower.
 					 */
@@ -306,7 +299,7 @@ function efBabelParserFunction_Render( $parser ) {
 <div class="mw-babel-box mw-babel-box-$level" dir="$directionality">
 {| cellspacing="$cellspacing"
 !  dir="$directionality" | $header
-|  dir="$directionality" | $text
+|  dir="$dir" | $text
 |}
 </div>
 HEREDOC;
