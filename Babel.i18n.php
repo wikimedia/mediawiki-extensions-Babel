@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Internationalisation file for extension AjaxShowEditors.
+ * Internationalisation file for Babel extension.
  *
  * @addtogroup Extensions
 */

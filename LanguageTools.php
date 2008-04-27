@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * LanguageTools class for Babel extension, handles language code validation and
+ * conversion.
+ *
+ * @addtogroup Extensions
+ */
+
 class LanguageTools {
 
 	private $_cache;

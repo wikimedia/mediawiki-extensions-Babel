@@ -11,7 +11,7 @@
  * @link http://www.mediawiki.org/wiki/Extension:Babel
  *
  * @author MinuteElectron <minuteelectron@googlemail.com>
- * @copyright Copyright ? 2008 MinuteElectron.
+ * @copyright Copyright © 2008 MinuteElectron.
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 

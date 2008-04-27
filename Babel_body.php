@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Main class for the Babel extension.
+ *
+ * @addtogroup Extensions
+ */
+
 class Babel {
 
 	private $_LanguageTools;
@@ -400,10 +406,18 @@ HEREDOC;
 			":Category:{$this->addFixes( $code,'category' )}"
 		);
 
+		/* Get the fallback message for comparison.
+		 */
+		$fallback = wfMsgExt( "babel-$level-n",
+			array( 'nofallback', 'language' => Language::getFallbackfor( $code ) ),
+			":Category:{$this->addFixes( "$code-$level",'category' )}",
+			":Category:{$this->addFixes( $code,'category' )}"
+		);
+
 		/* Translation not found, use the generic translation of the
 		 * highest level fallback possible.
 		 */
-		if( wfEmptyMsg( "babel-$level-n", $text ) ) {
+		if( $text == $fallback ) {
 			$text = wfMsgExt( "babel-$level",
 				array( 'language' => $code ),
 				":Category:{$this->addFixes( "$code-$level",'category')}",
