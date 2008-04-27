@@ -97,7 +97,7 @@ class Babel {
 		/* Do a link batch on all the parameters so that their information is
 		 * cached for use later on.
 		 */
-		$this->_doTemplateLinkBatch( $parameters, $this->_prefixes[ 'template' ], $this->_suffixes[ 'template' ] );
+		$this->_doTemplateLinkBatch( $parameters );
 
 		/* Initialise an empty string for storing the contents of the tower.
 		 */
@@ -112,7 +112,7 @@ class Babel {
 			 */
 			if( $this->_templateExists( $name ) ) {
 
-				$contents .= $parser->replaceVariables( "{{{$this->_prefixes[ 'template' ]}$name{$this->_suffixes[ 'template' ]}}}" );
+				$contents .= $parser->replaceVariables( "{{{$this->addFixes( $name,'template' )}}}" );
 
 			} elseif( $chunks = $this->_parseParameter( $name ) ) {
 
@@ -122,13 +122,13 @@ class Babel {
 			} elseif( $this->_validTitle( $name ) ) {
 
 				/* Non-existant page and invalid parameter syntax, red link */
-				$contents .= "[[Template:{$this->_prefixes[ 'template' ]}$name{$this->_suffixes[ 'template' ]}]]";
+				$contents .= "[[Template:{$this->addFixes( $name,'template' )}]]";
 
 			} else {
 
 				/* Invalid title, output raw.
 				 */
-				$contents .= "Template:{$this->_prefixes[ 'template' ]}$name{$this->_suffixes[ 'template' ]}";
+				$contents .= "Template:{$this->addFixes( $name,'template' )}";
 
 			}
 
@@ -148,6 +148,19 @@ HEREDOC;
 		 */
 		return $r;
 
+
+	}
+
+	/**
+	 * Adds prefixes and suffixes for a particular type to the string.
+	 *
+	 * @param string $string String to add prefixes and suffixes too.
+	 * @param string $type Type of prefixes and suffixes (template/portal/category).
+	 * @return string String with prefixes and suffixes added.
+	 */
+	private function addFixes( $string, $type ) {
+
+		return $this->_prefixes[ $type ] . $string . $this->_suffixes[ $type ];
 
 	}
 
@@ -172,7 +185,7 @@ HEREDOC;
 
 			/* Create the title object.
 			 */
-			$title = Title::newFromText( "{$this->_prefixes[ 'template' ]}$name{$this->_suffixes[ 'template' ]}", NS_TEMPLATE );
+			$title = Title::newFromText( $this->addFixes( $name,'template' ), NS_TEMPLATE );
 
 			/* Check if the title object was created sucessfully.
 			 */
@@ -207,7 +220,7 @@ HEREDOC;
 
 		/* Make title object from the templates title.
 		 */
-		$titleObj = Title::newFromText( $title, NS_TEMPLATE );
+		$titleObj = Title::newFromText( $this->addFixes( $title,'template' ), NS_TEMPLATE );
 
 		/* If the title object has been created (is of a valid title) and the template
 		 * exists return true, otherwise return false.
@@ -226,7 +239,7 @@ HEREDOC;
 
 		/* Make title object from the templates title.
 		 */
-		$titleObj = Title::newFromText( $title, NS_TEMPLATE );
+		$titleObj = Title::newFromText( $this->addFixes( $name,'template' ), NS_TEMPLATE );
 
 		/* If the title object has been created (is of a valid title) return true.
 		 */
@@ -357,7 +370,7 @@ HEREDOC;
 		/* Generate the text displayed on the left hand side of the
 		 * box.
 		 */
-		$header = "[[{$this->_prefixes['portal']}$code{$this->_suffixes['portal']}|$code]]-$level";
+		$header = "[[{$this->addFixes( $code,'portal' )}|$code]]-$level";
 
 		/* Get the language names.
 		 */
@@ -383,8 +396,8 @@ HEREDOC;
 		 */
 		$text = wfMsgExt( "babel-$level-n",
 			array( 'nofallback', 'language' => $code ),
-			":Category:{$this->_prefixes['category']}$code-$level{$this->_suffixes['category']}",
-			":Category:{$this->_prefixes['category']}$code{$this->_suffixes['category']}"
+			":Category:{$this->addFixes( "$code-$level",'category' )}",
+			":Category:{$this->addFixes( $code,'category' )}"
 		);
 
 		/* Translation not found, use the generic translation of the
@@ -393,8 +406,8 @@ HEREDOC;
 		if( wfEmptyMsg( "babel-$level-n", $text ) ) {
 			$text = wfMsgExt( "babel-$level",
 				array( 'language' => $code ),
-				":Category:{$this->_prefixes['category']}$code-$level{$this->_suffixes['category']}",
-				":Category:{$this->_prefixes['category']}$code{$this->_suffixes['category']}",
+				":Category:{$this->addFixes( "$code-$level",'category')}",
+				":Category:{$this->addFixes( $code,'category' )}",
 				$name
 			);
 		}
@@ -453,7 +466,7 @@ HEREDOC;
 
 			/* Add category wikitext to box tower.
 			 */
-			$r .= "[[Category:{$this->_prefixes['category']}$code{$this->_suffixes['category']}|$level{$wgUser->getName()}]]";
+			$r .= "[[Category:{$this->addFixes( $code,'category' )}|$level{$wgUser->getName()}]]";
 
 		}
 
@@ -464,7 +477,7 @@ HEREDOC;
 
 			/* Add category wikitext to box tower.
 			 */
-			$r .= "[[Category:{$this->_prefixes['category']}$code-$level{$this->_suffixes['category']}|{$wgUser->getName()}]]";
+			$r .= "[[Category:{$this->addFixes( "$code-$level",'category' )}|{$wgUser->getName()}]]";
 
 		}
 
