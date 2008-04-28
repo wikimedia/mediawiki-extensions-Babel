@@ -245,7 +245,7 @@ HEREDOC;
 
 		/* Make title object from the templates title.
 		 */
-		$titleObj = Title::newFromText( $this->addFixes( $name,'template' ), NS_TEMPLATE );
+		$titleObj = Title::newFromText( $this->addFixes( $title,'template' ), NS_TEMPLATE );
 
 		/* If the title object has been created (is of a valid title) return true.
 		 */
