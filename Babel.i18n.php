@@ -59,6 +59,7 @@ $messages['de'] = array(
 	'babel'                => 'Babel-Benutzer-Information',
 	'babel-desc'           => 'Ergänzt die <tt>#babel</tt>-Parserfunktion zur automatischen Erstellung von Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
 	'babel-url'            => 'Project:Babel',
+
 	'babel-directionality' => 'ltr',
 	'babel-0'              => 'Dieser Benutzer hat [[$1|keine]] Kenntnisse von [[$2|$3]] (oder versteht nur mit beträchtlichen Schwierigkeiten).',
 	'babel-1'              => 'Dieser Benutzer hat [[$1|grundlegende]] Kenntnisse von [[$2|$3]].',
@@ -67,6 +68,14 @@ $messages['de'] = array(
 	'babel-4'              => 'Dieser Benutzer beherrscht [[$2|$3]] auf [[$1|muttersprachlichem Niveau]].',
 	'babel-5'              => 'Dieser Benutzer [[$1|professionelle]] Kenntnisse von [[$2|$3]].',
 	'babel-N'              => 'Dieser Benutzer spricht [[$2|$3]] als [[$1|Muttersprache]].',
+
+	'babel-0-n' => 'Dieser Benutzer hat [[$1|keine]] Kenntnisse von [[$2|Deutsch]] (oder versteht nur mit beträchtlichen Schwierigkeiten).',
+	'babel-1-n' => 'Dieser Benutzer hat [[$1|grundlegende]] Kenntnisse von [[$2|Deutsch]].',
+	'babel-2-n' => 'Dieser Benutzer hat [[$1|fortgeschrittene]] Kenntnisse von [[$2|Deutsch]].',
+	'babel-3-n' => 'Dieser Benutzer hat [[$1|sehr gute]] Kenntnisse von [[$2|Deutsch]].',
+	'babel-4-n' => 'Dieser Benutzer beherrscht [[$2|Deutsch]] auf [[$1|muttersprachlichem Niveau]].',
+	'babel-5-n' => 'Dieser Benutzer [[$1|professionelle]] Kenntnisse von [[$2|Deutsch]].',
+	'babel-N-n' => 'Dieser Benutzer spricht [[$2|Deutsch]] als [[$1|Muttersprache]].',
 );
 
 /** فارسی (فارسی)
