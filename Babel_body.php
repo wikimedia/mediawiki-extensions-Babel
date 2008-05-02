@@ -24,6 +24,22 @@ class Babel {
 		 */
 		global $wgBabel;
 
+		/* Get empty LanguageCodes variable.
+		 */
+		global $wgLanguageCodes;
+
+		/* Get path to language codes file.
+		 */
+		global $wgLanguageCodesFile;
+
+		/* Initialise the languages code object.
+		 */
+		$wgLanguageCodes = new LanguageCodes( $wgLanguageCodesFile );
+
+		/* Initialise the Babel object.
+		 */
+		$wgBabel = new Babel;
+
 		/* Register the hook within the parser object.
 		 */
 		$wgParser->setFunctionHook( 'babel', array( $wgBabel, 'Render' ) );
@@ -51,14 +67,6 @@ class Babel {
 		 * generated.
 		 */
 		return true;
-
-	}
-
-	public function __construct( $LanguageTools ) {
-
-		/* Add passed language tool to the object method.
-		 */
-		$this->_LanguageTools = $LanguageTools;
 
 	}
 
@@ -245,7 +253,7 @@ HEREDOC;
 
 		/* Make title object from the templates title.
 		 */
-		$titleObj = Title::newFromText( $this->addFixes( $title,'template' ), NS_TEMPLATE );
+		$titleObj = Title::newFromText( $this->addFixes( $title, 'template' ), NS_TEMPLATE );
 
 		/* If the title object has been created (is of a valid title) return true.
 		 */
@@ -261,9 +269,9 @@ HEREDOC;
 	 */
 	private function _parseParameter( $parameter ) {
 
-		/* Get the favoured standard.
+		/* Get language codes class.
 		 */
-		global $wgBabelFavorStandard;
+		global $wgLanguageCodes;
 
 		/* Break up the parameter on - (which seperates it's two parts).
 		 */
@@ -282,11 +290,11 @@ HEREDOC;
 
 			/* Check whether the language code is valid.
 			 */
-			if( $this->_LanguageTools->checkCode( $chunks[ 0 ] ) ) {
+			if( $wgLanguageCodes->check( $chunks[ 0 ] ) ) {
 
 				/* Set the code for returning.
 				 */
-				$return[ 'code' ] = $this->_LanguageTools->getCode( $chunks[ 0 ], $wgBabelFavorStandard );
+				$return[ 'code' ] = $wgLanguageCodes->get( $chunks[ 0 ] );
 
 				/* This form defaults to level 'N'.
 				 */
@@ -311,11 +319,11 @@ HEREDOC;
 
 			/* Check whether the language code is valid.
 			 */
-			if( $this->_LanguageTools->checkCode( $chunks[ 0 ] ) ) {
+			if( $wgLanguageCodes->check( $chunks[ 0 ] ) ) {
 
 				/* Set the code for returning.
 				 */
-				$return[ 'code' ] = $this->_LanguageTools->getCode( $chunks[ 0 ], $wgBabelFavorStandard );
+				$return[ 'code' ] = $wgLanguageCodes->get( $chunks[ 0 ] );
 
 			} else {
 
@@ -365,13 +373,13 @@ HEREDOC;
 	 */
 	private function _generateBox( $code, $level ) {
 
-		/* Get favored standard.
+		/* Get language codes class.
 		 */
-		global $wgBabelFavorStandard;
+		global $wgLanguageCodes;
 
 		/* Get code in favoured standard.
 		 */
-		$code = $this->_LanguageTools->getCode( $code, $wgBabelFavorStandard );
+		$code = $wgLanguageCodes->get( $code );
 
 		/* Generate the text displayed on the left hand side of the
 		 * box.
