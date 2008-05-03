@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * LanguageCodes class for Babel extension, deals with ISO 639-1 and ISO 639-3
+ * code checking and ordering.
+ *
+ * @addtogroup Extensions
+ */
+
 class LanguageCodes {
 
 	private $_codes;
