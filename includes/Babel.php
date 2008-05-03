@@ -28,13 +28,13 @@ class Babel {
 		 */
 		global $wgLanguageCodes;
 
-		/* Get path to language codes file.
+		/* Get array of paths to language codes files.
 		 */
-		global $wgLanguageCodesFile;
+		global $wgLanguageCodesFiles;
 
 		/* Initialise the languages code object.
 		 */
-		$wgLanguageCodes = new LanguageCodes( $wgLanguageCodesFile );
+		$wgLanguageCodes = new LanguageCodes( $wgLanguageCodesFiles );
 
 		/* Initialise the Babel object.
 		 */

@@ -18,22 +18,43 @@ class LanguageCodes {
 	/**
 	 * Class constructor.
 	 * 
-	 * @param string $file File to load language codes from.
+	 * @param array $file Array of files to load language codes from.
 	 */
-	public function __construct( $file ) {
+	public function __construct( $files ) {
 
-		/* Load the codes from the passed file.
+		/* Load the codes from the passed file array.
 		 */
-		$this->_load( $file );
+		$this->_loadAll( $files );
+
+	}
+
+	/**
+	 * Load the language codes from an array of standards to files into the
+	 * language codes array.
+	 *
+	 * @param array $file Array of files to load language codes from.
+	 */
+	private function _loadAll( $files ) {
+
+		/* Loop through all standards.
+		 */
+		foreach( $this->_order as $standard ) {
+
+			/* Load file for the current standard.
+			 */
+			$this->_load( $standard, $files[ $standard ] );
+
+		}
 
 	}
 
 	/**
 	 * Load the language codes from a given file into the language codes array.
 	 *
+	 * @param const $standard Standard for the codes being loaded.
 	 * @param string $file File to load language codes from.
 	 */
-	private function _load( $file ) {
+	private function _load( $standard, $file ) {
 
 		/* Include the codes file.
 		 */
@@ -41,7 +62,7 @@ class LanguageCodes {
 
 		/* Push the array of codes into the class method.
 		 */
-		$this->_codes = $codes;
+		$this->_codes[ $standard ] = $codes;
 
 	}
 
