@@ -81,9 +81,10 @@ class Babel {
 		 */
 		unset( $parameters[ 0 ] );
 
-		/* Load the extension messages.
+		/* Load the extension messages in basic languages (en, content and
+		 * user).
 		 */
-		wfLoadExtensionMessages( 'Babel', true );
+		wfLoadExtensionMessages( 'Babel' );
 
 		/* Create an array of all prefixes.
 		 */
@@ -386,12 +387,24 @@ HEREDOC;
 		 */
 		$header = "[[{$this->addFixes( $code,'portal' )}|$code]]-$level";
 
+		/* Get MediaWiki supported language codes\names.
+		 */
+		$nativeNames = Language::getLanguageNames();
+
+		/* Load extension messages for box language and it's fallback if it is
+		 * a valid MediaWiki language.
+		 */
+		if( array_key_exists( $code, $nativeNames ) ) {
+			wfLoadExtensionMessages( 'Babel', $code );
+			wfLoadExtensionMessages( 'Babel', Language::getFallbackFor( $code ) );
+		}
+
 		/* Get the language names.
 		 */
 		if( class_exists( 'LanguageNames' ) ) {
 			$names = LanguageNames::getNames( $code );
 		} else {
-			$names = Language::getLanguageNames();
+			$names = $nativeNames;
 		}
 
 		/* Ensure the language code has a corresponding name.
@@ -399,7 +412,7 @@ HEREDOC;
 		if( array_key_exists( $code, $names ) ) {
 			$name = $names[ $code ];
 		} else {
-			$name = $code;
+			$name = $wgLanguageCodes->name( $code, 'en' );
 		}
 
 		/* Generate the text displayed on the right hand side of the
@@ -452,7 +465,6 @@ HEREDOC;
 HEREDOC;
 
 	}
-
 
 	/**
 	 * Generate categories for the given language and level.

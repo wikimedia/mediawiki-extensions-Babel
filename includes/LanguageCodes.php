@@ -97,7 +97,7 @@ class LanguageCodes {
 	public function get( $code ) {
 
 		/* Loop through all the standards trying to find the language code
-		 * listed.
+		 * specified.
 		 */
 		foreach( $this->_order as $standard1 ) {
 
@@ -130,5 +130,24 @@ class LanguageCodes {
 
 	}
 
+	/**
+	 * Get the name of a language in a specific language (currently only eng
+	 * supported until a index of ISO 639-1 is built with language names).
+	 *
+	 * @param string $code Code to get name for.
+	 * @param string $lang Language to get name of code in.
+	 * @return string Name of language in specified language.
+	 */
+	public function name( $code, $lang = 'eng' ) {
+
+		if( array_key_exists( "name_$lang", $this->_codes[ ISO_639_3 ][ $code ] ) ) {
+			return $this->_codes[ ISO_639_3 ][ $code ][ "name_$lang" ];
+		}
+
+		/* Nothing found, return input.
+		 */
+		return $code;
+
+	}
+
 }
-		

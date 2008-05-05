@@ -13,11 +13,11 @@ require_once( dirname( __FILE__ ) . '/bootstrap.php' );
 if( array_key_exists( 'standard', $options ) ) {
 
 	switch( $options[ 'standard' ] ) {
-		case 'ISO_639-3':
+		case 'ISO_639_3':
 			echo "Generating language codes file for ISO 639-3.\n";
 			$generateLanguageCodes = new GenerateLanguageCodes_ISO_639_3(
 				dirname( __FILE__ ) . '/raw/ISO_639_3.tab',
-				dirname( dirname( __FILE__ ) ) . '/codes/ISO_639-3.php'
+				dirname( dirname( __FILE__ ) ) . '/codes/ISO_639_3.php'
 			);
 			echo "Language codes file for ISO 639-3 generated successfully.\n";
 			break;
@@ -33,7 +33,7 @@ Usage: php generateLanguageCodes.php [options]
     --help                Show this message
 
     --standard=<standard> Standard to use, choose from:
-                              * ISO_639-3
+                              * ISO_639_3
 HEREDOC;
 
 }
