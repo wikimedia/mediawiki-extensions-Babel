@@ -140,7 +140,9 @@ class LanguageCodes {
 	 */
 	public function name( $code, $lang = 'eng' ) {
 
-		if( array_key_exists( "name_$lang", $this->_codes[ ISO_639_3 ][ $code ] ) ) {
+		$code = $this->get( $code );
+
+		if( array_key_exists( $code, $this->_codes[ ISO_639_3 ] ) && array_key_exists( "name_$lang", $this->_codes[ ISO_639_3 ][ $code ] ) ) {
 			return $this->_codes[ ISO_639_3 ][ $code ][ "name_$lang" ];
 		}
 
