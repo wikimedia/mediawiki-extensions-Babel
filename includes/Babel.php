@@ -8,39 +8,41 @@
 
 class Babel {
 
-	private $_prefixes, $_suffixes, $_cellspacing, $_directionality;
+	/* Define the three posisble genders as constants.
+	 */
+	const GENDER_FEMALE = 1;
+	const GENDER_MALE   = 2;
+	const GENDER_NEUTER = 0;
+
+	/* Various values from the message cache.
+	 */
+	private $_prefixes, $_suffixes, $_cellspacing, $_directionality, $_url,
+		$_title;
+
+	/* Whether or not male, female or neuter messages should be prefered.
+	 */
+	private $_gender = self::GENDER_NEUTER;
 
 	/**
 	 * Registers the parser function hook.
+	 * 
+	 * @return true
 	 */
 	static public function Setup() {
 
-		/* Get the parser object.
-		 */
-		global $wgParser;
-
-		/* Get Babel object.
-		 */
-		global $wgBabel;
-
-		/* Get empty LanguageCodes variable.
-		 */
-		global $wgLanguageCodes;
-
-		/* Get array of paths to language codes files.
-		 */
-		global $wgLanguageCodesFiles;
-
 		/* Initialise the languages code object.
 		 */
+		global $wgLanguageCodes, $wgLanguageCodesFiles;
 		$wgLanguageCodes = new LanguageCodes( $wgLanguageCodesFiles );
 
 		/* Initialise the Babel object.
 		 */
+		global $wgBabel;
 		$wgBabel = new Babel;
 
 		/* Register the hook within the parser object.
 		 */
+		global $wgParser;
 		$wgParser->setFunctionHook( 'babel', array( $wgBabel, 'Render' ) );
 
 		/* Return true to ensure processing is continued and an exception is not
@@ -52,8 +54,13 @@ class Babel {
 
 	/**
 	 * Registers the parser function magic word.
+	 * 
+	 * @param array $magicWords The associative array of magic words on the
+	 *                          wiki for adding too.
+	 * @param string $langCode Content language code of the wiki.
+	 * @return true
 	 */
-	static public function Magic( $magicWords, $langCode ) {
+	static public function Magic( array $magicWords, $langCode ) {
 
 		/* Register the magic word, maybe one day this could be localised by adding
 		 * synonyms into the array -- but there is currently no simple way of doing
@@ -85,28 +92,17 @@ class Babel {
 		 */
 		wfLoadExtensionMessages( 'Babel' );
 
-		/* Create an array of all prefixes.
+		/* Load various often used messages into the message member variables.
 		 */
-		$this->_prefixes = array(
-			'category' => wfMsgForContent( 'babel-category-prefix' ),
-			'template' => wfMsgForContent( 'babel-template-prefix' ),
-			'portal'   => wfMsgForContent( 'babel-portal-prefix'   ),
-		);
+		$this->_getMessages();
 
-		/* Create an array of all suffixes.
+		/* Parse the options and provide an array.
 		 */
-		$this->_suffixes = array(
-			'category' => wfMsgForContent( 'babel-category-suffix' ),
-			'template' => wfMsgForContent( 'babel-template-suffix' ),
-			'portal'   => wfMsgForContent( 'babel-portal-suffix'   ),
-		);
+		$options = $this->_parseOptions( $parameters );
 
-		/* Miscellaneous messages.
+		/* Process gender stuff.
 		 */
-		$url                   = wfMsgForContent( 'babel-url'             );
-		$top                   = wfMsgForContent( 'babel'                 );
-		$this->_directionality = wfMsgForContent( 'babel-directionality'  );
-		$this->_cellspacing    = wfMsgForContent( 'babel-box-cellspacing' );
+		$this->_setGender( $options );
 
 		/* Do a link batch on all the parameters so that their information is
 		 * cached for use later on.
@@ -126,7 +122,7 @@ class Babel {
 			 */
 			if( $this->_templateExists( $name ) ) {
 
-				$contents .= $parser->replaceVariables( "{{{$this->addFixes( $name,'template' )}}}" );
+				$contents .= $parser->replaceVariables( "{{{$this->_addFixes( $name,'template' )}}}" );
 
 			} elseif( $chunks = $this->_parseParameter( $name ) ) {
 
@@ -136,13 +132,13 @@ class Babel {
 			} elseif( $this->_validTitle( $name ) ) {
 
 				/* Non-existant page and invalid parameter syntax, red link */
-				$contents .= "[[Template:{$this->addFixes( $name,'template' )}]]";
+				$contents .= "[[Template:{$this->_addFixes( $name,'template' )}]]";
 
 			} else {
 
 				/* Invalid title, output raw.
 				 */
-				$contents .= "Template:{$this->addFixes( $name,'template' )}";
+				$contents .= "Template:{$this->_addFixes( $name,'template' )}";
 
 			}
 
@@ -152,7 +148,7 @@ class Babel {
 		 */
 		$r = <<<HEREDOC
 {| cellspacing="{$this->_cellspacing}" class="mw-babel-wrapper"
-! [[$url|$top]]
+! [[{$this->_url}|{$this->_top}]]
 |-
 | $contents
 |}
@@ -166,13 +162,44 @@ HEREDOC;
 	}
 
 	/**
+	 * Get the main messages used by Babel (e.g. prefixes and suffixes etc.)
+	 * and load them into several variables.
+	 */
+	private function _getMessages() {
+
+		/* Create an array of all prefixes.
+		 */
+		$this->_prefixes = array(
+			'category' => wfMsgForContent( 'babel-category-prefix' ),
+			'template' => wfMsgForContent( 'babel-template-prefix' ),
+			'portal'   => wfMsgForContent( 'babel-portal-prefix'   ),
+		);
+
+		/* Create an array of all suffixes.
+		 */
+		$this->_suffixes = array(
+			'category' => wfMsgForContent( 'babel-category-suffix' ),
+			'template' => wfMsgForContent( 'babel-template-suffix' ),
+			'portal'   => wfMsgForContent( 'babel-portal-suffix'   ),
+		);
+
+		/* Miscellaneous messages.
+		 */
+		$this->_url            = wfMsgForContent( 'babel-url'             );
+		$this->_top            = wfMsgForContent( 'babel'                 );
+		$this->_directionality = wfMsgForContent( 'babel-directionality'  );
+		$this->_cellspacing    = wfMsgForContent( 'babel-box-cellspacing' );
+
+	}
+
+	/**
 	 * Adds prefixes and suffixes for a particular type to the string.
 	 *
 	 * @param string $string String to add prefixes and suffixes too.
 	 * @param string $type Type of prefixes and suffixes (template/portal/category).
 	 * @return string String with prefixes and suffixes added.
 	 */
-	private function addFixes( $string, $type ) {
+	private function _addFixes( $string, $type ) {
 
 		return $this->_prefixes[ $type ] . $string . $this->_suffixes[ $type ];
 
@@ -199,7 +226,7 @@ HEREDOC;
 
 			/* Create the title object.
 			 */
-			$title = Title::newFromText( $this->addFixes( $name,'template' ), NS_TEMPLATE );
+			$title = Title::newFromText( $this->_addFixes( $name,'template' ), NS_TEMPLATE );
 
 			/* Check if the title object was created sucessfully.
 			 */
@@ -225,6 +252,76 @@ HEREDOC;
 	}
 
 	/**
+	 * Run through the array of parameters and generate an array of options
+	 * (all parameters starting with a '#') and unset them from the parameters
+	 * array.
+	 * 
+	 * @param array $parameters Array of parameters passed to the parser
+	 *                          function.
+	 * @return array List of all options with the options as keys.
+	 */
+	private function _parseOptions( array $parameters ) {
+
+		/* Open empty options array.
+		 */
+		$options = array();
+
+		/* Get list of all options.
+		 */
+		foreach( $parameters as $index => $value ) {
+
+			/* Classed as option if the parameter begins with a # and has at
+			 * least one other character.
+			 */
+			if( strpos( $value, '#' ) === 0 && strlen( $value ) > 1 ) {
+
+				/* Add to options array as a key, this is so that each option
+				 * only gets registered once.
+				 */
+				$options[ substr( $value, 1 ) ] = true;
+
+				/* Unset it from the parameters array so it does not get
+				 * processed as a box.
+				 */
+				unset( $parameters[ $index ] );
+
+			}
+
+		}
+
+		/* Return the array of options.
+		 */
+		return $options;
+
+	}
+
+	/**
+	 * Identify what gender has been specified within the function.
+	 * 
+	 * @param array $options Options array.
+	 */
+	private function _setGender( array $options ) {
+
+		/* Identify whether #female or #male have been specified as options and
+		 * set gender as appropriate.
+		 */
+		if( array_key_exists( 'female', $options ) ) {
+
+			$this->_gender = self::GENDER_FEMALE;
+
+		} elseif( array_key_exists( 'male', $options ) ) {
+
+			$this->_gender = self::GENDER_MALE;
+	
+		} else {
+
+			$this->_gender = self::GENDER_NEUTER;
+
+		}
+
+	}
+
+	/**
 	 * Identify whether or not the template exists or not.
 	 *
 	 * @param string $title Name of the template to check.
@@ -234,7 +331,7 @@ HEREDOC;
 
 		/* Make title object from the templates title.
 		 */
-		$titleObj = Title::newFromText( $this->addFixes( $title,'template' ), NS_TEMPLATE );
+		$titleObj = Title::newFromText( $this->_addFixes( $title,'template' ), NS_TEMPLATE );
 
 		/* If the title object has been created (is of a valid title) and the template
 		 * exists return true, otherwise return false.
@@ -253,7 +350,7 @@ HEREDOC;
 
 		/* Make title object from the templates title.
 		 */
-		$titleObj = Title::newFromText( $this->addFixes( $title, 'template' ), NS_TEMPLATE );
+		$titleObj = Title::newFromText( $this->_addFixes( $title, 'template' ), NS_TEMPLATE );
 
 		/* If the title object has been created (is of a valid title) return true.
 		 */
@@ -269,7 +366,7 @@ HEREDOC;
 	 */
 	private function _parseParameter( $parameter ) {
 
-		/* Get language codes class.
+		/* Get language codes object.
 		 */
 		global $wgLanguageCodes;
 
@@ -366,6 +463,134 @@ HEREDOC;
 	}
 
 	/**
+	 * Get the text to display in the language box for specific language and
+	 * level.
+	 * 
+	 * @param string $language Language code of language to use.
+	 * @param string $level Level to use.
+	 * @return string Text for display, in wikitext format.
+	 */
+	private function _getText( $name, $language, $level ) {
+
+		/* If gender not neuter then try getting the gender specific message.
+		 */
+		if( $this->_gender === self::GENDER_FEMALE ) {
+
+			/* Try the language of the box in female.
+			 */
+			$text = wfMsgExt( "babel-$level-n-female",
+				array( 'language' => $language ),
+				":Category:{$this->_addFixes( "$language-$level",'category' )}",
+				":Category:{$this->_addFixes( $language,'category' )}"
+			);
+		
+			/* Get the fallback message for comparison in female.
+			 */
+			$fallback = wfMsgExt( "babel-$level-n-female",
+				array( 'language' => Language::getFallbackfor( $language ) ),
+				":Category:{$this->_addFixes( "$language-$level",'category' )}",
+				":Category:{$this->_addFixes( $language,'category' )}"
+			);
+		
+			/* Translation not found, use the generic translation of the
+			 * highest level fallback possible in female.
+			 */
+			if( $text == $fallback ) {
+		
+				$text = wfMsgExt( "babel-$level-female",
+					array( 'language' => $code ),
+					":Category:{$this->_addFixes( "$language-$level",'category')}",
+					":Category:{$this->_addFixes( $language,'category' )}",
+					$name
+				);
+		
+			}
+
+			/* Not empty, return.
+			 */
+			if( $text != '' ) {
+		
+				return $text;
+		
+			}
+
+		} elseif( $this->_gender === self::GENDER_MALE ) {
+
+			/* Try the language of the box in male.
+			 */
+			$text = wfMsgExt( "babel-$level-n-male",
+				array( 'language' => $language ),
+				":Category:{$this->_addFixes( "$language-$level",'category' )}",
+				":Category:{$this->_addFixes( $language,'category' )}"
+			);
+		
+			/* Get the fallback message for comparison in male.
+			 */
+			$fallback = wfMsgExt( "babel-$level-n-male",
+				array( 'language' => Language::getFallbackfor( $language ) ),
+				":Category:{$this->_addFixes( "$language-$level",'category' )}",
+				":Category:{$this->_addFixes( $language,'category' )}"
+			);
+		
+			/* Translation not found, use the generic translation of the
+			 * highest level fallback possible in male.
+			 */
+			if( $text == $fallback ) {
+		
+				$text = wfMsgExt( "babel-$level-male",
+					array( 'language' => $code ),
+					":Category:{$this->_addFixes( "$language-$level",'category')}",
+					":Category:{$this->_addFixes( $language,'category' )}",
+					$name
+				);
+		
+			}
+
+			/* Not empty, return.
+			 */
+			if( $text != '' ) {
+		
+				return $text;
+		
+			}
+
+		}
+
+		/* Try the language of the box.
+		 */
+		$text = wfMsgExt( "babel-$level-n",
+			array( 'language' => $language ),
+			":Category:{$this->_addFixes( "$language-$level",'category' )}",
+			":Category:{$this->_addFixes( $language,'category' )}"
+		);
+
+		/* Get the fallback message for comparison.
+		 */
+		$fallback = wfMsgExt( "babel-$level-n",
+			array( 'language' => Language::getFallbackfor( $language ) ),
+			":Category:{$this->_addFixes( "$language-$level",'category' )}",
+			":Category:{$this->_addFixes( $language,'category' )}"
+		);
+
+		/* Translation not found, use the generic translation of the
+		 * highest level fallback possible.
+		 */
+		if( $text == $fallback ) {
+
+			$text = wfMsgExt( "babel-$level",
+				array( 'language' => $language ),
+				":Category:{$this->_addFixes( "$language-$level",'category')}",
+				":Category:{$this->_addFixes( $language,'category' )}",
+				$name
+			);
+
+		}
+
+		return $text;
+
+	}
+
+	/**
 	 * Generate a babel box for the given language and level.
 	 *
 	 * @param string $code Language code to use.
@@ -384,7 +609,7 @@ HEREDOC;
 		/* Generate the text displayed on the left hand side of the
 		 * box.
 		 */
-		$header = "[[{$this->addFixes( $code,'portal' )}|$code]]-$level";
+		$header = "[[{$this->_addFixes( $code,'portal' )}|$code]]-$level";
 
 		/* Get MediaWiki supported language codes\names.
 		 */
@@ -417,34 +642,7 @@ HEREDOC;
 		/* Generate the text displayed on the right hand side of the
 		 * box.
 		 */
-
-		/* Try the language of the box.
-		 */
-		$text = wfMsgExt( "babel-$level-n",
-			array( 'nofallback', 'language' => $code ),
-			":Category:{$this->addFixes( "$code-$level",'category' )}",
-			":Category:{$this->addFixes( $code,'category' )}"
-		);
-
-		/* Get the fallback message for comparison.
-		 */
-		$fallback = wfMsgExt( "babel-$level-n",
-			array( 'nofallback', 'language' => Language::getFallbackfor( $code ) ),
-			":Category:{$this->addFixes( "$code-$level",'category' )}",
-			":Category:{$this->addFixes( $code,'category' )}"
-		);
-
-		/* Translation not found, use the generic translation of the
-		 * highest level fallback possible.
-		 */
-		if( $text == $fallback ) {
-			$text = wfMsgExt( "babel-$level",
-				array( 'language' => $code ),
-				":Category:{$this->addFixes( "$code-$level",'category')}",
-				":Category:{$this->addFixes( $code,'category' )}",
-				$name
-			);
-		}
+		$text = $this->_getText( $name, $code, $level );
 
 		/* Get the directionality for the current language.
 		 */
@@ -499,7 +697,7 @@ HEREDOC;
 
 			/* Add category wikitext to box tower.
 			 */
-			$r .= "[[Category:{$this->addFixes( $code,'category' )}|$level{$wgUser->getName()}]]";
+			$r .= "[[Category:{$this->_addFixes( $code,'category' )}|$level{$wgUser->getName()}]]";
 
 		}
 
@@ -510,7 +708,7 @@ HEREDOC;
 
 			/* Add category wikitext to box tower.
 			 */
-			$r .= "[[Category:{$this->addFixes( "$code-$level",'category' )}|{$wgUser->getName()}]]";
+			$r .= "[[Category:{$this->_addFixes( "$code-$level",'category' )}|{$wgUser->getName()}]]";
 
 		}
 

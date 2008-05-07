@@ -34,14 +34,46 @@ $messages['en'] = array(
 	'babel-5-n' => 'This user has [[$1|professional]] knowledge of [[$2|English]].',
 	'babel-N-n' => 'This user has a [[$1|native]] understanding of [[$2|English]].',
 
-	'babel-box-cellspacing' => '0', # do not translate or duplicate this message to other languages
+	'babel-0-female' => '', # Optional.
+	'babel-1-female' => '', # Optional.
+	'babel-2-female' => '', # Optional.
+	'babel-3-female' => '', # Optional.
+	'babel-4-female' => '', # Optional.
+	'babel-5-female' => '', # Optional.
+	'babel-N-female' => '', # Optional.
 
-	'babel-category-prefix' => '', # do not translate or duplicate this message to other languages
-	'babel-category-suffix' => '', # do not translate or duplicate this message to other languages
-	'babel-portal-prefix'   => '', # do not translate or duplicate this message to other languages
-	'babel-portal-suffix'   => '', # do not translate or duplicate this message to other languages
-	'babel-template-prefix' => '', # do not translate or duplicate this message to other languages
-	'babel-template-suffix' => '', # do not translate or duplicate this message to other languages
+	'babel-0-n-female' => '', # Optional.
+	'babel-1-n-female' => '', # Optional.
+	'babel-2-n-female' => '', # Optional.
+	'babel-3-n-female' => '', # Optional.
+	'babel-4-n-female' => '', # Optional.
+	'babel-5-n-female' => '', # Optional.
+	'babel-N-n-female' => '', # Optional.
+
+	'babel-0-male' => '', # Optional.
+	'babel-1-male' => '', # Optional.
+	'babel-2-male' => '', # Optional.
+	'babel-3-male' => '', # Optional.
+	'babel-4-male' => '', # Optional.
+	'babel-5-male' => '', # Optional.
+	'babel-N-male' => '', # Optional.
+
+	'babel-0-n-male' => '', # Optional.
+	'babel-1-n-male' => '', # Optional.
+	'babel-2-n-male' => '', # Optional.
+	'babel-3-n-male' => '', # Optional.
+	'babel-4-n-male' => '', # Optional.
+	'babel-5-n-male' => '', # Optional.
+	'babel-N-n-male' => '', # Optional.
+
+	'babel-box-cellspacing' => '0', # Do not translate or duplicate this message to other languages.
+
+	'babel-category-prefix' => '', # Do not translate or duplicate this message to other languages.
+	'babel-category-suffix' => '', # Do not translate or duplicate this message to other languages.
+	'babel-portal-prefix'   => '', # Do not translate or duplicate this message to other languages.
+	'babel-portal-suffix'   => '', # Do not translate or duplicate this message to other languages.
+	'babel-template-prefix' => '', # Do not translate or duplicate this message to other languages.
+	'babel-template-suffix' => '', # Do not translate or duplicate this message to other languages.
 );
 
 /** Afrikaans (Afrikaans)
