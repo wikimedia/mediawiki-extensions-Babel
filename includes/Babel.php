@@ -8,7 +8,6 @@
 
 class Babel {
 
-	private $_LanguageTools;
 	private $_prefixes, $_suffixes, $_cellspacing, $_directionality;
 
 	/**
