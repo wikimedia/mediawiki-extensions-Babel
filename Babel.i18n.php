@@ -465,6 +465,19 @@ $messages['hi'] = array(
 	'babel-N-n'            => 'इस सदस्यको [[$2|हिन्दी]] का [[$1|स्थानिक स्तर]] का ज्ञान है।',
 );
 
+/** Hiligaynon (Ilonggo)
+ * @author Kguirnela
+ */
+$messages['hil'] = array(
+	'babel-0-n' => 'This user has [[$1|no]] knowledge of [[$2|Hiligaynon]] (or understands it with considerable difficulty).',
+	'babel-1-n' => 'This user has [[$1|basic]] knowledge of [[$2|Hiligaynon]].',
+	'babel-2-n' => 'This user has [[$1|intermediate]] knowledge of [[$2|Hiligaynon]].',
+	'babel-3-n' => 'This user has [[$1|advanced]] knowledge of [[$2|Hiligaynon]].',
+	'babel-4-n' => 'This user has [[$1|near native speaker]] knowledge of [[$2|Hiligaynon]].',
+	'babel-5-n' => 'This user has [[$1|professional]] knowledge of [[$2|Hiligaynon]].',
+	'babel-N-n' => 'This user has a [[$1|native]] understanding of [[$2|Hiligaynon]].',
+);
+
 /** Croatian (Hrvatski)
  * @author Suradnik13
  */
@@ -1081,6 +1094,15 @@ $messages['sk'] = array(
 	'babel-N-n'            => 'Tento redaktor má [[$2|angličtinu]] ako [[$1|materinský jazyk]].',
 );
 
+/** Seeltersk (Seeltersk)
+ * @author Pyt
+ */
+$messages['stq'] = array(
+	'babel'      => 'Babel-Benutser-Information',
+	'babel-desc' => 'Föiget an ju <tt>#babel</tt>-Parserfunktion foar automatisk Deerstaalen fon Babel-Benutserboxen-Riegen ju Muugelkhaid tou, oaine Foarloagen ientoubienden',
+	'babel-N-n'  => 'Dissen Benutser boalt [[$2|Seeltersk]] as [[$1|Määmesproake]].',
+);
+
 /** Swedish (Svenska)
  * @author M.M.S.
  * @author Lejonel
@@ -1227,6 +1249,15 @@ $messages['yi'] = array(
 	'babel-url'  => 'Project:באבעל',
 	'babel-0'    => 'דער באניצער האט [[$1|נישט קיין]] ידיעה אין [[$2|$3]] (אדער פארשטייט די שפראך מיט גרויסע שוועריקייט).',
 	'babel-1'    => 'דער באניצער האט א [[$1|גרונטיקע]] ידיעה אין [[$2|$3]].',
+	'babel-2'    => 'דער באניצער האט א [[$1|מיטלע]] ידיעה אין [[$2|$3]].',
+	'babel-3'    => 'דער באניצער האט א [[$1|פֿארגעשריטענע]] ידיעה אין [[$2|$3]].',
+	'babel-4'    => 'דער באניצער האט א בקיאות אין [[$2|$3]] [[$1|כמעט ווי מוטערשפראך]].',
+	'babel-5'    => 'דער באניצער האט א  [[$1|פראפֿעסיאנעלע]] ידיעה אין [[$2|$3]].',
+	'babel-N'    => 'דער באניצער רעדט [[$2|$3]] אלס  [[$1|מוטערשפראך]].',
+	'babel-0-n'  => 'דער באניצער האט [[$1|נישט קיין]] ידיעה אין [[$2|יידיש]] (אדער פארשטייט די שפראך מיט גרויסער שוועריקייט).',
+	'babel-1-n'  => 'דער באניצער האט א [[$1|גרונטיקע]] ידיעה אין [[$2|יידיש]].',
+	'babel-2-n'  => 'דער באניצער האט א [[$1|מיטלע]] ידיעה אין [[$2|יידיש]].',
+	'babel-3-n'  => 'דער באניצער האט א [[$1|פֿארגעשריטענע]] ידיעה אין [[$2|יידיש]].',
 );
 
 /** Cantonese
