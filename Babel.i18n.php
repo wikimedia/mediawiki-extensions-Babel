@@ -247,6 +247,10 @@ $messages['cs'] = array(
 $messages['de'] = array(
 	'babel'      => 'Babel-Benutzer-Information',
 	'babel-desc' => 'Ergänzt die <tt>#babel</tt>-Parserfunktion zur automatischen Erstellung von Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
+	'babel-url'  => 'Project:Babel',
+
+	'babel-directionality' => 'ltr',
+
 	'babel-0'    => 'Dieser Benutzer hat [[$1|keine]] Kenntnisse von [[$2|$3]] (oder versteht die Sprache nur mit beträchtlichen Schwierigkeiten).',
 	'babel-1'    => 'Dieser Benutzer hat [[$1|grundlegende]] Kenntnisse von [[$2|$3]].',
 	'babel-2'    => 'Dieser Benutzer hat [[$1|fortgeschrittene]] Kenntnisse von [[$2|$3]].',
