@@ -498,7 +498,7 @@ HEREDOC;
 			if( $text == $fallback ) {
 		
 				$text = wfMsgExt( "babel-$level-female",
-					array( 'language' => $code ),
+					array( 'language' => $language ),
 					":Category:{$this->_addFixes( "$language-$level",'category')}",
 					":Category:{$this->_addFixes( $language,'category' )}",
 					$name
@@ -538,7 +538,7 @@ HEREDOC;
 			if( $text == $fallback ) {
 		
 				$text = wfMsgExt( "babel-$level-male",
-					array( 'language' => $code ),
+					array( 'language' => $language ),
 					":Category:{$this->_addFixes( "$language-$level",'category')}",
 					":Category:{$this->_addFixes( $language,'category' )}",
 					$name
