@@ -473,6 +473,30 @@ $messages['gl'] = array(
 	'babel-N-n'            => 'Este usuario é un falante [[$1|nativo]] de [[$2|galego]].',
 );
 
+/** Hawaiian (Hawai`i)
+ * @author Singularity
+ */
+$messages['haw'] = array(
+	'babel'                => 'E pili ana i keia mea ho‘ohana ma Babel',
+	'babel-desc'           => 'Ho‘ohui ‘oia i ka <tt>#babel</tt> hana pāsā e ho‘oku‘u i ka hana hana nona iho o ke kolamu o ka pahu o ka mea ho‘ohana o Babel, me ka hiki e helu i nā anakuhi pilikino',
+	'babel-url'            => 'Project:Babel',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => '[[$1|‘A‘ole hiki]] i kēia mea ho‘ohana ke hā‘awi ma ka [[$2|$3]].',
+	'babel-1'              => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana ha‘aha‘a]] ma ka [[$2|$3]].',
+	'babel-2'              => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana o waena]] ma ka [[$2|$3]].',
+	'babel-3'              => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana ki‘eki‘e]] ma ka [[$2|$3]].',
+	'babel-4'              => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana kokoke]] i kō ka mānaleo ma ka [[$2|$3]].',
+	'babel-5'              => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana ‘oihana]] ma ka [[$2|$3]].',
+	'babel-N'              => 'He [[$1|mānaleo]] kēia kanaka ma ka [[$2|$3]].',
+	'babel-0-n'            => '[[$1|‘A‘ole hiki]] i kēia mea ho‘ohana ke hā‘awi ma ka [[$2|‘ōlelo Pelekane]].',
+	'babel-1-n'            => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana ha‘aha‘a]] ma ka [[$2|‘ōlelo Pelekane]].',
+	'babel-2-n'            => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana o waena]] ma ka [[$2|‘ōlelo Pelekane]].',
+	'babel-3-n'            => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana ki‘eki‘e]] ma ka [[$2|‘ōlelo Pelekane]].',
+	'babel-4-n'            => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana kokoke]] i kō ka mānaleo ma ka [[$2|‘ōlelo Pelekane]].',
+	'babel-5-n'            => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana ‘oihana]] ma ka [[$2|‘ōlelo Pelekane]].',
+	'babel-N-n'            => 'He [[$1|mānaleo]] kēia kanaka ma ka [[$2|‘ōlelo Pelekane]].',
+);
+
 /** Hindi (हिन्दी)
  * @author Kaustubh
  */
@@ -1228,6 +1252,22 @@ $messages['te'] = array(
 	'babel-N-n'            => 'ఈ వాడుకరి [[$1|మాతృభాష]] [[$2|తెలుగు]].',
 );
 
+/** Ukrainian (Українська)
+ * @author Ahonc
+ */
+$messages['uk'] = array(
+	'babel'                => 'Babel User Information',
+	'babel-url'            => 'Project:Вавілон',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Цей користувач [[$1|не знає]] [[$2|української мови]] (або розуміє її дуже важко).',
+	'babel-1'              => 'Цей користувач володіє [[$2|українською мовою]] на [[$1|початковому рівні]].',
+	'babel-2'              => 'Цей користувач володіє [[$2|українською мовою]] на [[$1|середньому рівні]].',
+	'babel-3'              => 'Цей користувач володіє [[$2|українською мовою]] на [[$1|високому рівні]].',
+	'babel-4'              => 'Цей користувач володіє [[$2|українською мовою]] майже [[$1|як рідною]].',
+	'babel-5'              => 'Цей користувач [[$1|професійно]] володіє [[$2|українською мовою]].',
+	'babel-N'              => 'Для цього користувача [[$2|українська мова]] є [[$1|рідною]].',
+);
+
 /** Vèneto (Vèneto)
  * @author Candalua
  */
@@ -1293,22 +1333,27 @@ $messages['vo'] = array(
 
 /** Yiddish (ייִדיש)
  * @author פוילישער
+ * @author GerardM
  */
 $messages['yi'] = array(
-	'babel'      => 'באבעל באניצער אינפארמאציע',
-	'babel-desc' => 'לייגט צו די <tt>#babel</tt> פארזער פונקציע צו דערלויבן אויטאמאטישע גענערירונג פון א באבעל באניצער-קעסטל זייל, מיט דער מעגלעכקייט איינשליסן אייגענע מוסטערן',
-	'babel-url'  => 'Project:באבעל',
-	'babel-0'    => 'דער באניצער האט [[$1|נישט קיין]] ידיעה אין [[$2|$3]] (אדער פארשטייט די שפראך מיט גרויסע שוועריקייט).',
-	'babel-1'    => 'דער באניצער האט א [[$1|גרונטיקע]] ידיעה אין [[$2|$3]].',
-	'babel-2'    => 'דער באניצער האט א [[$1|מיטלע]] ידיעה אין [[$2|$3]].',
-	'babel-3'    => 'דער באניצער האט א [[$1|פֿארגעשריטענע]] ידיעה אין [[$2|$3]].',
-	'babel-4'    => 'דער באניצער האט א בקיאות אין [[$2|$3]] [[$1|כמעט ווי מוטערשפראך]].',
-	'babel-5'    => 'דער באניצער האט א  [[$1|פראפֿעסיאנעלע]] ידיעה אין [[$2|$3]].',
-	'babel-N'    => 'דער באניצער רעדט [[$2|$3]] אלס  [[$1|מוטערשפראך]].',
-	'babel-0-n'  => 'דער באניצער האט [[$1|נישט קיין]] ידיעה אין [[$2|יידיש]] (אדער פארשטייט די שפראך מיט גרויסער שוועריקייט).',
-	'babel-1-n'  => 'דער באניצער האט א [[$1|גרונטיקע]] ידיעה אין [[$2|יידיש]].',
-	'babel-2-n'  => 'דער באניצער האט א [[$1|מיטלע]] ידיעה אין [[$2|יידיש]].',
-	'babel-3-n'  => 'דער באניצער האט א [[$1|פֿארגעשריטענע]] ידיעה אין [[$2|יידיש]].',
+	'babel'                => 'באבעל באניצער אינפארמאציע',
+	'babel-desc'           => 'לייגט צו די <tt>#babel</tt> פארזער פונקציע צו דערלויבן אויטאמאטישע גענערירונג פון א באבעל באניצער-קעסטל זייל, מיט דער מעגלעכקייט איינשליסן אייגענע מוסטערן',
+	'babel-url'            => 'Project:באבעל',
+	'babel-directionality' => 'rtl',
+	'babel-0'              => 'דער באניצער האט [[$1|נישט קיין]] ידיעה אין [[$2|$3]] (אדער פארשטייט די שפראך מיט גרויסע שוועריקייט).',
+	'babel-1'              => 'דער באניצער האט א [[$1|גרונטיקע]] ידיעה אין [[$2|$3]].',
+	'babel-2'              => 'דער באניצער האט א [[$1|מיטלע]] ידיעה אין [[$2|$3]].',
+	'babel-3'              => 'דער באניצער האט א [[$1|פֿארגעשריטענע]] ידיעה אין [[$2|$3]].',
+	'babel-4'              => 'דער באניצער האט א בקיאות אין [[$2|$3]] [[$1|כמעט ווי מוטערשפראך]].',
+	'babel-5'              => 'דער באניצער האט א  [[$1|פראפֿעסיאנעלע]] ידיעה אין [[$2|$3]].',
+	'babel-N'              => 'דער באניצער רעדט [[$2|$3]] אלס  [[$1|מוטערשפראך]].',
+	'babel-0-n'            => 'דער באניצער האט [[$1|נישט קיין]] ידיעה אין [[$2|יידיש]] (אדער פארשטייט די שפראך מיט גרויסער שוועריקייט).',
+	'babel-1-n'            => 'דער באניצער האט א [[$1|גרונטיקע]] ידיעה אין [[$2|יידיש]].',
+	'babel-2-n'            => 'דער באניצער האט א [[$1|מיטלע]] ידיעה אין [[$2|יידיש]].',
+	'babel-3-n'            => 'דער באניצער האט א [[$1|פֿארגעשריטענע]] ידיעה אין [[$2|יידיש]].',
+	'babel-4-n'            => '.דער באניצער האט א בקיאות אין [[$2|יידיש]] [[$1|כמעט ווי מאמע-לשון]].',
+	'babel-5-n'            => 'דער באניצער האט א  [[$1|פראפֿעסיאנעלע]] ידיעה אין [[$2|יידיש]].',
+	'babel-N-n'            => 'דער באניצער רעדט [[$2|יידיש]] אלס  [[$1|מאמע-לשון]].',
 );
 
 /** Cantonese
