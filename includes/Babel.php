@@ -260,7 +260,7 @@ HEREDOC;
 	 *                          function.
 	 * @return array List of all options with the options as keys.
 	 */
-	private function _parseOptions( array $parameters ) {
+	private function _parseOptions( array &$parameters ) {
 
 		/* Open empty options array.
 		 */
