@@ -463,6 +463,79 @@ HEREDOC;
 	}
 
 	/**
+	 * Generate a babel box for the given language and level.
+	 *
+	 * @param string $code Language code to use.
+	 * @param string or integer $level Level of ability to use.
+	 */
+	private function _generateBox( $code, $level ) {
+
+		/* Get language codes class.
+		 */
+		global $wgLanguageCodes;
+
+		/* Get code in favoured standard.
+		 */
+		$code = $wgLanguageCodes->get( $code );
+
+		/* Generate the text displayed on the left hand side of the
+		 * box.
+		 */
+		$header = "[[{$this->_addFixes( $code,'portal' )}|$code]]-$level";
+
+		/* Get MediaWiki supported language codes\names.
+		 */
+		$nativeNames = Language::getLanguageNames();
+
+		/* Load extension messages for box language and it's fallback if it is
+		 * a valid MediaWiki language.
+		 */
+		if( array_key_exists( $code, $nativeNames ) ) {
+			wfLoadExtensionMessages( 'Babel', $code );
+			wfLoadExtensionMessages( 'Babel', Language::getFallbackFor( $code ) );
+		}
+
+		/* Get the language names.
+		 */
+		if( class_exists( 'LanguageNames' ) ) {
+			$names = LanguageNames::getNames( $code );
+		} else {
+			$names = $nativeNames;
+		}
+
+		/* Ensure the language code has a corresponding name.
+		 */
+		if( array_key_exists( $code, $names ) ) {
+			$name = $names[ $code ];
+		} else {
+			$name = $wgLanguageCodes->name( $code, 'en' );
+		}
+
+		/* Generate the text displayed on the right hand side of the
+		 * box.
+		 */
+		$text = $this->_getText( $name, $code, $level );
+
+		/* Get the directionality for the current language.
+		 */
+		$dir = wfMsgExt( "babel-directionality",
+			array( 'language' => $code )
+		);
+
+		/* Generate box and add return.
+		 */
+		return <<<HEREDOC
+<div class="mw-babel-box mw-babel-box-$level" dir="{$this->_directionality}">
+{| cellspacing="{$this->_cellspacing}"
+!  dir="{$this->_directionality}" | $header
+|  dir="$dir" | $text
+|}
+</div>
+HEREDOC;
+
+	}
+
+	/**
 	 * Get the text to display in the language box for specific language and
 	 * level.
 	 * 
@@ -587,79 +660,6 @@ HEREDOC;
 		}
 
 		return $text;
-
-	}
-
-	/**
-	 * Generate a babel box for the given language and level.
-	 *
-	 * @param string $code Language code to use.
-	 * @param string or integer $level Level of ability to use.
-	 */
-	private function _generateBox( $code, $level ) {
-
-		/* Get language codes class.
-		 */
-		global $wgLanguageCodes;
-
-		/* Get code in favoured standard.
-		 */
-		$code = $wgLanguageCodes->get( $code );
-
-		/* Generate the text displayed on the left hand side of the
-		 * box.
-		 */
-		$header = "[[{$this->_addFixes( $code,'portal' )}|$code]]-$level";
-
-		/* Get MediaWiki supported language codes\names.
-		 */
-		$nativeNames = Language::getLanguageNames();
-
-		/* Load extension messages for box language and it's fallback if it is
-		 * a valid MediaWiki language.
-		 */
-		if( array_key_exists( $code, $nativeNames ) ) {
-			wfLoadExtensionMessages( 'Babel', $code );
-			wfLoadExtensionMessages( 'Babel', Language::getFallbackFor( $code ) );
-		}
-
-		/* Get the language names.
-		 */
-		if( class_exists( 'LanguageNames' ) ) {
-			$names = LanguageNames::getNames( $code );
-		} else {
-			$names = $nativeNames;
-		}
-
-		/* Ensure the language code has a corresponding name.
-		 */
-		if( array_key_exists( $code, $names ) ) {
-			$name = $names[ $code ];
-		} else {
-			$name = $wgLanguageCodes->name( $code, 'en' );
-		}
-
-		/* Generate the text displayed on the right hand side of the
-		 * box.
-		 */
-		$text = $this->_getText( $name, $code, $level );
-
-		/* Get the directionality for the current language.
-		 */
-		$dir = wfMsgExt( "babel-directionality",
-			array( 'language' => $code )
-		);
-
-		/* Generate box and add return.
-		 */
-		return <<<HEREDOC
-<div class="mw-babel-box mw-babel-box-$level" dir="{$this->_directionality}">
-{| cellspacing="{$this->_cellspacing}"
-!  dir="{$this->_directionality}" | $header
-|  dir="$dir" | $text
-|}
-</div>
-HEREDOC;
 
 	}
 
