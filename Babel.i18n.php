@@ -1184,7 +1184,7 @@ $messages['ro'] = array(
 
 /** Russian (Русский)
  * @author EugeneZelenko
- * @author .:Ajvol:.
+ * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'babel'                => 'Сведения о языках участника (Вавилон)',
