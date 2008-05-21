@@ -268,6 +268,20 @@ $messages['cs'] = array(
 	'babel-directionality' => 'ltr',
 );
 
+/** Danish (Dansk)
+ * @author Jan Friberg
+ */
+$messages['da'] = array(
+	'babel'                => 'Babelinformation',
+	'babel-desc'           => 'Tilføjer parserfunktionen <tt>#babel</tt> for at tillade automatisk at generere at babelboks med muglighed for at inkludere tilpassede skabeloner',
+	'babel-url'            => 'Project:Babel',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Denne bruger har [[$1|ingen]] kendskab til [[$2|$3]] (eller har meget svært ved at forstå det).',
+	'babel-1'              => 'Denne bruger har [[$1|grundlæggende]] kendskab til [[$2|$3]].',
+	'babel-2'              => 'Denne bruger har et [[$1|godt]] kendskab til [[$2|$3]].',
+	'babel-3'              => 'Denne bruger har et [[$1|avanceret]] kendskab til [[$2|$3]].',
+);
+
 /** German (Deutsch)
  * @author Raimond Spekking
  * @author Purodha
@@ -775,6 +789,35 @@ $messages['km'] = array(
 	'babel-4-n' => 'អ្នកប្រើប្រាស់នេះមានចំនេះដឹង [[$2|ភាសាខ្មែរ]] [[$1|ប្រហាក់ប្រហែលជនជាតិខ្មែរ]]។',
 	'babel-5-n' => 'អ្នកប្រើប្រាស់នេះចេះ [[$2|ភាសាខ្មែរ]] [[$1|ថ្នាក់អាជីព]]។',
 	'babel-N-n' => 'អ្នកប្រើប្រាស់នេះនិយាយ [[$2|ភាសាខ្មែរ]]ជា[[$1|ភាសាកំនើត]]។',
+);
+
+/** Ripoarisch (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'babel'          => 'Dem Medmaacher sing Shprooche-Weße',
+	'babel-desc'     => 'Brengk de <tt>#babel</tt>-Paaserfongxjohn, womet me automatesch ene Babel-Medmaacher-Kaste opboue kann, un dobeij och selfßjemaate Schabloone nozze kan',
+	'babel-0'        => 'Dä Medmaacher hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
+	'babel-1'        => 'Dä Medmaacher hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
+	'babel-2'        => 'Dä Medmaacher kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
+	'babel-3'        => 'Heh dä Medmaacher kann [[$2|$3]] [[$1|reschtesch joot]].',
+	'babel-4'        => 'För dä Medmaacher heh eß [[$2|$3]] [[$1|bahl wi sing Mottershprooch]].',
+	'babel-5'        => 'Heh dä Medmaacher bruch [[$2|$3]] [[$1|berohflesh]].',
+	'babel-N'        => 'Heh däm Medmaacher sing [[$1|Mottershprooch]] eß [[$2|$3]].',
+	'babel-0-female' => 'Dat Weesh heh hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
+	'babel-1-female' => 'Dat Weesh heh hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
+	'babel-2-female' => 'Dat Weesh heh kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
+	'babel-3-female' => 'Heh dat Weesh kann [[$2|$3]] [[$1|reschtesch joot]].',
+	'babel-4-female' => 'För dat Weesh heh eß [[$2|$3]] [[$1|bahl wi sing Mottershprooch]].',
+	'babel-5-female' => 'Heh dat Weesh bruch [[$2|$3]] em [[$1|Berohf]].',
+	'babel-N-female' => 'Heh däm Weesh sing [[$1|Mottershprooch]] eß [[$2|$3]].',
+	'babel-0-male'   => 'Dä Kääl heh hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
+	'babel-1-male'   => 'Dä Kääl heh hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
+	'babel-2-male'   => 'Dä Kääl heh kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
+	'babel-3-male'   => 'Heh dä Kääl kann [[$2|$3]] [[$1|reschtesch joot]].',
+	'babel-4-male'   => 'För dä Kääl heh eß [[$2|$3]] [[$1|bahl wi sing Mottershprooch]].',
+	'babel-5-male'   => 'Heh dä Kääl bruch [[$2|$3]] em [[$1|Berohf]].',
+	'babel-N-male'   => 'Heh däm Kääl sing [[$1|Mottershprooch]] eß [[$2|$3]].',
 );
 
 /** Latin (Latina)
@@ -1344,9 +1387,11 @@ $messages['te'] = array(
 
 /** Ukrainian (Українська)
  * @author Ahonc
+ * @author AS
  */
 $messages['uk'] = array(
 	'babel'                => 'Babel User Information',
+	'babel-desc'           => 'Додає функцію парсера <tt>#babel</tt>, яка дозволяє автоматично створювати стовпець про володіння мовами з можливістю включення інших шаблонів',
 	'babel-url'            => 'Project:Вавілон',
 	'babel-directionality' => 'ltr',
 	'babel-0'              => 'Цей користувач [[$1|не знає]] [[$2|української мови]] (або розуміє її дуже важко).',
@@ -1356,6 +1401,13 @@ $messages['uk'] = array(
 	'babel-4'              => 'Цей користувач володіє [[$2|українською мовою]] майже [[$1|як рідною]].',
 	'babel-5'              => 'Цей користувач [[$1|професійно]] володіє [[$2|українською мовою]].',
 	'babel-N'              => 'Для цього користувача [[$2|українська мова]] є [[$1|рідною]].',
+	'babel-0-n'            => 'Цей користувач [[$1|не розуміє]] [[$2|української мови]] (або розуміє зі значними труднощами).',
+	'babel-1-n'            => 'Цей користувач знає [[$2|українську мову]] на [[$1|початковому рівні]].',
+	'babel-2-n'            => 'Цей користувач знає [[$2|українську мову]] на [[$1|середньому рівні]].',
+	'babel-3-n'            => 'Цей користувач знає [[$2|українську мову]] на [[$1|високому рівні]].',
+	'babel-4-n'            => 'Цей користувач володіє [[$2|українською мовою]] як [[$1|рідною]].',
+	'babel-5-n'            => 'Цей коритувач [[$1|прекрасно знає]] [[$2|українську мову]].',
+	'babel-N-n'            => '[[$2|Українська мова]] для цього користувача є [[$1|рідною]].',
 );
 
 /** Vèneto (Vèneto)
