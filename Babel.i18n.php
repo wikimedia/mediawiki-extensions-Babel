@@ -78,23 +78,27 @@ $messages['en'] = array(
 
 /** Afrikaans (Afrikaans)
  * @author SPQRobin
+ * @author Arnobarnard
  */
 $messages['af'] = array(
-	'babel'     => 'Babel Gebruikersinligting',
-	'babel-0'   => 'Hierdie gebruiker het [[$1|geen]] kennis van [[$2|$3]] nie (of verstaan dit met groot moeite).',
-	'babel-1'   => 'Hierdie gebruiker het [[$1|basiese]] kennis van [[$2|$3]].',
-	'babel-2'   => 'Hierdie gebruiker het [[$1|middelbare]] kennis van [[$2|$3]].',
-	'babel-3'   => 'Hierdie gebruiker het [[$1|gevorderde]] kennis van [[$2|$3]].',
-	'babel-4'   => 'Hierdie gebruiker het kennis van [[$2|$3]] op [[$1|bijna-moedertaalniveau]].',
-	'babel-5'   => 'Hierdie gebruiker het [[$1|professionele]] kennis van [[$2|$3]].',
-	'babel-N'   => 'Hierdie gebruiker het kennis van [[$2|$3]] op [[$1|moedertaalniveau]].',
-	'babel-0-n' => 'Hierdie gebruiker het [[$1|geen]] kennis van [[$2|Afrikaans]] nie (of verstaan dit met groot moeite).',
-	'babel-1-n' => 'Hierdie gebruiker het [[$1|basiese]] kennis van [[$2|Afrikaans]].',
-	'babel-2-n' => 'Hierdie gebruiker het [[$1|middelbare]] kennis van [[$2|Afrikaans]].',
-	'babel-3-n' => 'Hierdie gebruiker het [[$1|gevorderde]] kennis van [[$2|Afrikaans]].',
-	'babel-4-n' => 'Hierdie gebruiker het kennis van [[$2|Afrikaans]] op [[$1|bijna-moedertaalniveau]].',
-	'babel-5-n' => 'Hierdie gebruiker het [[$1|professionele]] kennis van [[$2|Afrikaans]].',
-	'babel-N-n' => 'Hierdie gebruiker het kennis van [[$2|Afrikaans]] op [[$1|moedertaalniveau]].',
+	'babel'                => 'Babel Gebruikersinligting',
+	'babel-desc'           => "Voeg die <tt>#babel</tt> ontleder funksie by om outomatiese generasie van 'n babel gebruikerboksiekolom met die funksionaliteit om doelgemaakte sjablone in te voeg.",
+	'babel-url'            => 'Project:Babel',
+	'babel-directionality' => 'lnr',
+	'babel-0'              => 'Hierdie gebruiker het [[$1|geen]] kennis van [[$2|$3]] nie (of verstaan dit met groot moeite).',
+	'babel-1'              => 'Hierdie gebruiker het [[$1|basiese]] kennis van [[$2|$3]].',
+	'babel-2'              => 'Hierdie gebruiker het [[$1|middelbare]] kennis van [[$2|$3]].',
+	'babel-3'              => 'Hierdie gebruiker het [[$1|gevorderde]] kennis van [[$2|$3]].',
+	'babel-4'              => 'Hierdie gebruiker het kennis van [[$2|$3]] op [[$1|bijna-moedertaalniveau]].',
+	'babel-5'              => 'Hierdie gebruiker het [[$1|professionele]] kennis van [[$2|$3]].',
+	'babel-N'              => 'Hierdie gebruiker het kennis van [[$2|$3]] op [[$1|moedertaalniveau]].',
+	'babel-0-n'            => 'Hierdie gebruiker het [[$1|geen]] kennis van [[$2|Afrikaans]] nie (of verstaan dit met groot moeite).',
+	'babel-1-n'            => 'Hierdie gebruiker het [[$1|basiese]] kennis van [[$2|Afrikaans]].',
+	'babel-2-n'            => 'Hierdie gebruiker het [[$1|middelbare]] kennis van [[$2|Afrikaans]].',
+	'babel-3-n'            => 'Hierdie gebruiker het [[$1|gevorderde]] kennis van [[$2|Afrikaans]].',
+	'babel-4-n'            => 'Hierdie gebruiker het kennis van [[$2|Afrikaans]] op [[$1|bijna-moedertaalniveau]].',
+	'babel-5-n'            => 'Hierdie gebruiker het [[$1|professionele]] kennis van [[$2|Afrikaans]].',
+	'babel-N-n'            => 'Hierdie gebruiker het kennis van [[$2|Afrikaans]] op [[$1|moedertaalniveau]].',
 );
 
 /** Arabic (العربية)
@@ -795,29 +799,50 @@ $messages['km'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'babel'          => 'Dem Medmaacher sing Shprooche-Weße',
-	'babel-desc'     => 'Brengk de <tt>#babel</tt>-Paaserfongxjohn, womet me automatesch ene Babel-Medmaacher-Kaste opboue kann, un dobeij och selfßjemaate Schabloone nozze kan',
-	'babel-0'        => 'Dä Medmaacher hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
-	'babel-1'        => 'Dä Medmaacher hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
-	'babel-2'        => 'Dä Medmaacher kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
-	'babel-3'        => 'Heh dä Medmaacher kann [[$2|$3]] [[$1|reschtesch joot]].',
-	'babel-4'        => 'För dä Medmaacher heh eß [[$2|$3]] [[$1|bahl wi sing Mottershprooch]].',
-	'babel-5'        => 'Heh dä Medmaacher bruch [[$2|$3]] [[$1|berohflesh]].',
-	'babel-N'        => 'Heh däm Medmaacher sing [[$1|Mottershprooch]] eß [[$2|$3]].',
-	'babel-0-female' => 'Dat Weesh heh hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
-	'babel-1-female' => 'Dat Weesh heh hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
-	'babel-2-female' => 'Dat Weesh heh kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
-	'babel-3-female' => 'Heh dat Weesh kann [[$2|$3]] [[$1|reschtesch joot]].',
-	'babel-4-female' => 'För dat Weesh heh eß [[$2|$3]] [[$1|bahl wi sing Mottershprooch]].',
-	'babel-5-female' => 'Heh dat Weesh bruch [[$2|$3]] em [[$1|Berohf]].',
-	'babel-N-female' => 'Heh däm Weesh sing [[$1|Mottershprooch]] eß [[$2|$3]].',
-	'babel-0-male'   => 'Dä Kääl heh hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
-	'babel-1-male'   => 'Dä Kääl heh hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
-	'babel-2-male'   => 'Dä Kääl heh kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
-	'babel-3-male'   => 'Heh dä Kääl kann [[$2|$3]] [[$1|reschtesch joot]].',
-	'babel-4-male'   => 'För dä Kääl heh eß [[$2|$3]] [[$1|bahl wi sing Mottershprooch]].',
-	'babel-5-male'   => 'Heh dä Kääl bruch [[$2|$3]] em [[$1|Berohf]].',
-	'babel-N-male'   => 'Heh däm Kääl sing [[$1|Mottershprooch]] eß [[$2|$3]].',
+	'babel'            => 'Dem Medmaacher sing Shprooche-Weße',
+	'babel-desc'       => 'Brengk de <tt>#babel</tt>-Paaserfongxjohn, womet me automatesch ene Babel-Medmaacher-Kaste opboue kann, un dobeij och selfßjemaate Schabloone nozze kan',
+	'babel-0'          => 'Dä Medmaacher hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
+	'babel-1'          => 'Dä Medmaacher hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
+	'babel-2'          => 'Dä Medmaacher kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
+	'babel-3'          => 'Heh dä Medmaacher kann [[$2|$3]] [[$1|reschtesch joot]].',
+	'babel-4'          => 'För dä Medmaacher heh eß [[$2|$3]] [[$1|bahl wi sing Mottershprooch]].',
+	'babel-5'          => 'Heh dä Medmaacher bruch [[$2|$3]] [[$1|berohflesh]].',
+	'babel-N'          => 'Heh däm Medmaacher sing [[$1|Mottershprooch]] eß [[$2|$3]].',
+	'babel-0-n'        => 'Dä Medmaacher hät [[$1|keij Aahnong]] fon enne [[$2|ripoaresche Shprooch]], odder fershteijt di Shprooche esu joot wi nit.',
+	'babel-1-n'        => 'Heh dä Medmaacher hät [[$1|Jrondlaare]] fon ennem [[$2| ripoaresch Platt]] drop.',
+	'babel-2-n'        => 'Dä Medmaacher heh kann med_ennem [[$2|ripoaresch Platt]] [[$1|meddeljoot]] ömjonn.',
+	'babel-3-n'        => 'Heh dä Medmaacher kann [[$2|en ripoaresch Shprooch]] [[$1|reschtesch joot]].',
+	'babel-4-n'        => 'För dä Medmaacher heh eß [[$2|e ripoaresch Platt]] [[$1|bahl wi sing Mottershprooch]].',
+	'babel-5-n'        => 'Heh dä Medmaacher brur_en [[$2|ripoaresche Sproor]]_[[$1|em Berohf]].',
+	'babel-N-n'        => 'Heh däm Medmaacher sing [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]].',
+	'babel-0-female'   => 'Dat Weesh heh hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
+	'babel-1-female'   => 'Dat Weesh heh hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
+	'babel-2-female'   => 'Dat Weesh heh kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
+	'babel-3-female'   => 'Heh dat Weesh kann [[$2|$3]] [[$1|reschtesch joot]].',
+	'babel-4-female'   => 'För dat Weesh heh eß [[$2|$3]] [[$1|bahl wi sing Mottershprooch]].',
+	'babel-5-female'   => 'Heh dat Weesh bruch [[$2|$3]] em [[$1|Berohf]].',
+	'babel-N-female'   => 'Heh däm Weesh sing [[$1|Mottershprooch]] eß [[$2|$3]].',
+	'babel-0-n-female' => 'Heh dat Weesh hät [[$1|keij Aahnong]] fon enne [[$2|ripoaresche Shprooch]], odder it fershteijt di Shprooche esu joot wi jaa nit.',
+	'babel-1-n-female' => 'Heh dat Weesh hät [[$1|Jrondlaare]] fon ennem [[$2| ripoaresch Platt]] drop.',
+	'babel-2-n-female' => 'Heh dat Weesh kann med_ennem [[$2|ripoaresch Platt]] [[$1|meddeljoot]] ömjonn.',
+	'babel-3-n-female' => 'Heh dat Weesh kann [[$2|en ripoaresch Shprooch]] [[$1|reschtesch joot]].',
+	'babel-4-n-female' => 'För he_dat Weesh eß [[$2|e ripoaresch Platt]] [[$1|bahl wi sing Mottershprooch]].',
+	'babel-5-n-female' => 'Dat Weesh heh brur_en [[$2|ripoaresche Sproor]]_[[$1|em Berohf]].',
+	'babel-N-n-female' => 'Heh däm Weesh sing [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]].',
+	'babel-0-male'     => 'Dä Kääl heh hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
+	'babel-1-male'     => 'Dä Kääl heh hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
+	'babel-2-male'     => 'Dä Kääl heh kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
+	'babel-3-male'     => 'Heh dä Kääl kann [[$2|$3]] [[$1|reschtesch joot]].',
+	'babel-4-male'     => 'För dä Kääl heh eß [[$2|$3]] [[$1|bahl wi sing Mottershprooch]].',
+	'babel-5-male'     => 'Heh dä Kääl bruch [[$2|$3]] em [[$1|Berohf]].',
+	'babel-N-male'     => 'Heh däm Kääl sing [[$1|Mottershprooch]] eß [[$2|$3]].',
+	'babel-0-n-male'   => 'Heh dä Kääl hät [[$1|keij Aahnong]] fon enne [[$2|ripoaresche Shprooch]], odder hä fershteijt di Shprooche esu joot wi jaa nit.',
+	'babel-1-n-male'   => 'Heh dä Kääl hät [[$1|Jrondlaare]] fon ennem [[$2| ripoaresch Platt]] drop.',
+	'babel-2-n-male'   => 'Heh dä Kääl kann med_ennem [[$2|ripoaresch Platt]] [[$1|meddeljoot]] ömjonn.',
+	'babel-3-n-male'   => 'Heh dä Kääl kann [[$2|en ripoaresch Shprooch]] [[$1|reschtesch joot]].',
+	'babel-4-n-male'   => 'För dä Kääl heh eß [[$2|e ripoaresch Platt]] [[$1|bahl wi sing Mottershprooch]].',
+	'babel-5-n-male'   => 'Dä Kääl heh brur_en [[$2|ripoaresche Sproor]]_[[$1|em Berohf]].',
+	'babel-N-n-male'   => 'Heh däm Kääl sing [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]].',
 );
 
 /** Latin (Latina)
@@ -1002,11 +1027,20 @@ $messages['nl'] = array(
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Eirik
+ * @author Finnrind
  */
 $messages['nn'] = array(
 	'babel'                => 'Babelinformasjon',
+	'babel-desc'           => 'Legg til parserfunksjonen <tt>#babel</tt> for å automatisk lage ein babelboks der ein kan bruka sjølvlaga malar',
 	'babel-url'            => 'Project:Babel',
 	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Denne brukaren har [[$1|små eller ingen]] kunnskapar i [[$2|$3]].',
+	'babel-1'              => 'Denne brukaren har [[$1|litt]] kjennskap til [[$2|$3]].',
+	'babel-2'              => 'Denne brukaren kan [[$1|ganske godt]] [[$2|$3]].',
+	'babel-3'              => 'Denne brukaren kan [[$1|svært godt]] [[$2|$3]].',
+	'babel-4'              => 'Denne brukaren kan [[$2|$3]] nesten på [[$1|morsmålnivå]]',
+	'babel-5'              => 'Denne brukaren nyttar [[$2|$3]] [[$1|profesjonelt]].',
+	'babel-N'              => 'Denne brukaren har [[$2|$3]] som [[$1|morsmål]].',
 	'babel-0-n'            => 'Denne brukaren verken skriv eller les [[$2|norsk (nynorsk)]] (eller forstår det berre så vidt).',
 	'babel-1-n'            => 'Denne brukaren kan [[$1|litt]] [[$2|norsk (nynorsk)]].',
 	'babel-2-n'            => 'Denne brukaren har [[$1|god kjennskap]] til [[$2|norsk (nynorsk)]].',
@@ -1383,6 +1417,19 @@ $messages['te'] = array(
 	'babel-4-n'            => 'ఈ వాడుకరికి [[$2|తెలుగు]] భాషపై [[$1|మాతృభాషపై ఉన్నంత]] అవగాహన ఉంది.',
 	'babel-5-n'            => 'ఈ వాడుకరికి [[$2|తెలుగు]] భాషపై [[$1|వృత్తి నైపున్యం]] ఉంది.',
 	'babel-N-n'            => 'ఈ వాడుకరి [[$1|మాతృభాష]] [[$2|తెలుగు]].',
+);
+
+/** Tajik (Cyrillic) (Тоҷикӣ/tojikī (Cyrillic))
+ * @author Ibrahim
+ */
+$messages['tg-cyrl'] = array(
+	'babel'                => 'Иттилооти Корбари Бобул',
+	'babel-desc'           => 'Дастури таҷзеҳгарро <tt>#babel</tt> изофа мекунад, ки имкони эҷоди худкори ҷаъбаҳои коргарии бобул бо қобилияти ғунҷонидани шаблонҳои дихоҳро фароҳам мекунад',
+	'babel-url'            => 'Project:Бобул',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Ин корбар [[$2|$3]]ро [[$1|намефаҳмад]] (ё онро бо душворӣ мефаҳмад).',
+	'babel-1'              => 'Ин корбар [[$2|$3]]ро дар сатҳи [[$1|муқаддамотӣ]] мефаҳмад.',
+	'babel-2'              => 'Ин корбар [[$2|$3]]ро дар сатҳи [[$1|миёна]] мефаҳмад.',
 );
 
 /** Ukrainian (Українська)
