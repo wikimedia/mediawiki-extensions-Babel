@@ -1128,6 +1128,7 @@ $messages['oc'] = array(
 
 /** Polish (Polski)
  * @author Sp5uhe
+ * @author Siebrand
  */
 $messages['pl'] = array(
 	'babel'                => 'Wieża Babel użytkownika',
@@ -1140,7 +1141,7 @@ $messages['pl'] = array(
 	'babel-3'              => 'Ten użytkownik posługuje się [[$2|językiem $3]] na poziomie [[$1|zaawansowanym]].',
 	'babel-4'              => 'Ten użytkownik posługuje się [[$2|językiem $3]] prawie tak samo biegle, jak [[$1|językiem ojczystym]].',
 	'babel-5'              => 'Ten użytkownik posługuje się [[$2|językiem $3]] na równi z [[$1|językiem ojczystym]].',
-	'babel-N'              => '[[$2|{{UCFIRST:$3}}]] jest [[$1|językiem ojczystym]] tego użytkownika.',
+	'babel-N'              => '[[$2|$3]] jest [[$1|językiem ojczystym]] tego użytkownika.',
 	'babel-0-n'            => 'Ten użytkownik [[$1|nie rozumie]] języka [[$2|polskiego]] (albo ma z nim olbrzymie trudności).',
 	'babel-1-n'            => 'Ten użytkownik posługuje się [[$2|językiem polskim]] na poziomie [[$1|podstawowym]].',
 	'babel-2-n'            => 'Ten użytkownik posługuje się [[$2|językiem polskim]] na poziomie [[$1|średnio zaawansowanym]].',
