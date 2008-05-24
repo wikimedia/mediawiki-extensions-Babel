@@ -272,6 +272,29 @@ $messages['cs'] = array(
 	'babel-directionality' => 'ltr',
 );
 
+/** Welsh (Cymraeg)
+ * @author Lloffiwr
+ */
+$messages['cy'] = array(
+	'babel'      => 'Gwybodaeth Am Ieithoedd Y Defnyddiwr',
+	'babel-desc' => "Yn ychwanegu'r ffwythiant dosrannu <tt>#babel</tt> er mwyn gosod blwch ieithoedd y defnyddiwr yn awtomatig, a chyda'r modd i gynnwys nodiadau pwrpasol",
+	'babel-url'  => 'Project:Babel',
+	'babel-0'    => "[[$1|Nid]] yw'r defnyddiwr 'ma yn medru [[$2|$3]] (neu mae'n cael hi'n anodd iawn ei deall).",
+	'babel-1'    => "Mae'r defnyddiwr 'ma yn medru [[$2|$3]] ar lefel [[$1|syml]].",
+	'babel-2'    => "Mae'r defnyddiwr 'ma yn medru [[$2|$3]] ar lefel [[$1|ganolradd]].",
+	'babel-3'    => "Mae'r defnyddiwr 'ma yn medru [[$2|$3]] ar lefel [[$1|uwchraddol]].",
+	'babel-4'    => "Mae [[$2|$3]] [[$1|rhugl]] gan y defnyddiwr 'ma.",
+	'babel-5'    => "Mae'r defnyddiwr 'ma yn medru [[$2|$3]] ar lefel [[$1|broffesiynol]].",
+	'babel-N'    => "[[$2|$3]] yw [[$1|mamiaith]] y defnyddiwr 'ma.",
+	'babel-0-n'  => "[[$1|Nid]] yw'r defnyddiwr 'ma yn medru [[$2|Cymraeg]] (neu mae'n cael hi'n anodd iawn ei deall).",
+	'babel-1-n'  => "Mae'r defnyddiwr 'ma yn medru [[$2|Cymraeg]] ar lefel [[$1|syml]].",
+	'babel-2-n'  => "Mae'r defnyddiwr 'ma yn medru [[$2|Cymraeg]] ar lefel [[$1|ganolradd]].",
+	'babel-3-n'  => "Mae'r defnyddiwr 'ma yn medru [[$2|Cymraeg]] ar lefel [[$1|uwchraddol]].",
+	'babel-4-n'  => "Mae [[$2|Cymraeg]] [[$1|rhugl]] gan y defnyddiwr 'ma.",
+	'babel-5-n'  => "Mae'r defnyddiwr 'ma yn medru [[$2|Cymraeg]] ar lefel [[$1|broffesiynol]].",
+	'babel-N-n'  => "[[$2|Cymraeg]] yw [[$1|mamiaith]] y defnyddiwr 'ma.",
+);
+
 /** Danish (Dansk)
  * @author Jan Friberg
  */
@@ -387,6 +410,7 @@ $messages['eo'] = array(
 /** Spanish (Español)
  * @author GerardM
  * @author Siebrand
+ * @author Bengoa
  */
 $messages['es'] = array(
 	'babel-0'   => 'Este usuario [[$1|no puede comunicarse]] en [[$2|$3]].',
@@ -440,6 +464,20 @@ $messages['fi'] = array(
 	'babel-4-n' => 'Tämä käyttäjä osaa [[$2|suomea]] [[$1|melkein äidinkielen tavoin]].',
 	'babel-5-n' => 'Tämä käyttäjä käyttää [[$2|suomea]] [[$1|ammattimaisesti]].',
 	'babel-N-n' => 'Tämä käyttäjä puhuu [[$2|suomea]] [[$1|äidinkielenään]].',
+);
+
+/** Faroese (Føroyskt)
+ * @author Quackor
+ */
+$messages['fo'] = array(
+	'babel'                => 'Bable brúkara upplýsing',
+	'babel-url'            => 'Verkætlan:Babel',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Hesin brúkarin skilur [[$1|ikki]] [[$2|$3]] (ella skilir tað ikki gott).',
+	'babel-1'              => 'Hesin brúkarin hevur [[$1|grundleggjandi]] kunnleika til [[$2|$3]].',
+	'babel-2'              => 'Hesin brúkarin hevur [[$1|miðal]] kunnleika til [[$2|$3]].',
+	'babel-3'              => 'Hesin brúkarin hevur kunnleika á [[$1|hástigi]] um [[$2]|$3]].',
+	'babel-N'              => 'Hesin brúkarin hevur [[$2|$3]] sum [[$1|móðurmál]].',
 );
 
 /** French (Français)
@@ -795,6 +833,19 @@ $messages['km'] = array(
 	'babel-N-n' => 'អ្នកប្រើប្រាស់នេះនិយាយ [[$2|ភាសាខ្មែរ]]ជា[[$1|ភាសាកំនើត]]។',
 );
 
+/** Korean (한국어)
+ * @author Kwj2772
+ */
+$messages['ko'] = array(
+	'babel-0' => '이 사용자는 [[$2|$3]]을 [[$1|모르거나]], 이해하는 데 어려움이 있습니다.',
+	'babel-1' => '이 사용자는 [[$2|$3]]을 [[$1|조금]] 할 수 있습니다.',
+	'babel-2' => '이 사용자는 [[$2|$3]]을 [[$1|중간 정도로]] 할 수 있습니다.',
+	'babel-3' => '이 사용자는 [[$2|$3]]을 [[$1|고급 수준으로]] 할 수 있습니다.',
+	'babel-4' => '이 사용자는 [[$2|$3]]을 [[$1|모국어 수준으로]] 할 수 있습니다.',
+	'babel-5' => '이 사용자는 [[$2|$3]]을 [[$1|전문가 수준]]으로 할 수 있습니다.',
+	'babel-N' => '이 사용자는 [[$2|$3]]을 [[$1|모국어]] 수준으로 할 수 있습니다.',
+);
+
 /** Ripoarisch (Ripoarisch)
  * @author Purodha
  */
@@ -1079,7 +1130,7 @@ $messages['no'] = array(
  */
 $messages['oc'] = array(
 	'babel'                => 'Entresenhas sus l’utilizaire de Babel',
-	'babel-desc'           => "Ajusta una foncion parsaire <tt>#babel</tt> que permet la creacion automatica d'una bóstia d’utilizaire Babel amb la possibilitat d’i enclure de modèls locals.",
+	'babel-desc'           => "Ajusta una foncion parser <tt>#babel</tt> que permet la creacion automatica d'una bóstia d’utilizaire Babel amb la possibilitat d’i enclure de modèls locals.",
 	'babel-url'            => 'Project:Babel',
 	'babel-directionality' => 'ltr',
 	'babel-0'              => 'Aqueste utilizaire a [[$1|pas cap]] de coneissença en [[$2|$3]] (o comprend amb de dificultats grandas).',
@@ -1176,10 +1227,11 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (Português)
+ * @author 555
  * @author Malafaya
  */
 $messages['pt'] = array(
-	'babel'                => 'Informação de Utilizador Babel',
+	'babel'                => 'Informação Babel de Utilizador',
 	'babel-desc'           => 'Adiciona a função do analisador parser <tt>#babel</tt> para permitir a geração automatizada de um coluna de caixas de utilizador babel coma possibilidade de incluir predefinições personalizadas',
 	'babel-url'            => 'Project:Babel',
 	'babel-directionality' => 'ltr',
@@ -1197,6 +1249,34 @@ $messages['pt'] = array(
 	'babel-4-n'            => 'Este utilizador pode contribuir com um nível [[$1|quase nativo]] de [[$2|português]].',
 	'babel-5-n'            => 'Este utilizador pode contribuir com um nível [[$1|profissional]] de [[$2|português]].',
 	'babel-N-n'            => 'Este utilizador tem como língua [[$1|materna]] o [[$2|português]].',
+	'babel-0-female'       => 'Esta utilizadora [[$1|não compreende]] [[$2|$3]] (ou compreende com dificuldades consideráveis).',
+	'babel-1-female'       => 'Esta utilizadora pode contribuir com um nível [[$1|básico]] de [[$2|$3]].',
+	'babel-2-female'       => 'Esta utilizadora pode contribuir com um nível [[$1|intermédio]] de [[$2|$3]].',
+	'babel-3-female'       => 'Esta utilizadora pode contribuir com um nível [[$1|avançado]] de [[$2|$3]].',
+	'babel-4-female'       => 'Esta utilizadora pode contribuir com um nível [[$1|quase nativo]] de [[$2|$3]].',
+	'babel-5-female'       => 'Esta utilizadora pode contribuir com um nível [[$1|profissional]] de [[$2|$3]].',
+	'babel-N-female'       => 'Esta utilizadora tem como língua [[$1|materna]] o [[$2|$3]].',
+	'babel-0-n-female'     => 'Esta utilizadora [[$1|não compreende]] [[$2|português]] (ou compreende com dificuldades consideráveis).',
+	'babel-1-n-female'     => 'Esta utilizadora pode contribuir com um nível [[$1|básico]] de [[$2|português]].',
+	'babel-2-n-female'     => 'Esta utilizadora pode contribuir com um nível [[$1|intermédio]] de [[$2|português]].',
+	'babel-3-n-female'     => 'Esta utilizadora pode contribuir com um nível [[$1|avançado]] de [[$2|português]].',
+	'babel-4-n-female'     => 'Esta utilizadora pode contribuir com um nível [[$1|quase nativo]] de [[$2|português]].',
+	'babel-5-n-female'     => 'Esta utilizadora pode contribuir com um nível [[$1|profissional]] de [[$2|português]].',
+	'babel-N-n-female'     => 'Esta utilizadora tem como língua [[$1|materna]] o [[$2|português]].',
+	'babel-0-male'         => 'Este utilizador [[$1|não compreende]] [[$2|$3]] (ou compreende com dificuldades consideráveis).',
+	'babel-1-male'         => 'Este utilizador pode contribuir com um nível [[$1|básico]] de [[$2|$3]].',
+	'babel-2-male'         => 'Este utilizador pode contribuir com um nível [[$1|intermédio]] de [[$2|$3]].',
+	'babel-3-male'         => 'Este utilizador pode contribuir com um nível [[$1|avançado]] de [[$2|$3]].',
+	'babel-4-male'         => 'Este utilizador pode contribuir com um nível [[$1|quase nativo]] de [[$2|$3]].',
+	'babel-5-male'         => 'Este utilizador pode contribuir com um nível [[$1|profissional]] de [[$2|$3]].',
+	'babel-N-male'         => 'Este utilizador tem como língua [[$1|materna]] o [[$2|$3]].',
+	'babel-0-n-male'       => 'Este utilizador [[$1|não compreende]] [[$2|português]] (ou compreende com dificuldades consideráveis).',
+	'babel-1-n-male'       => 'Este utilizador pode contribuir com um nível [[$1|básico]] de [[$2|português]].',
+	'babel-2-n-male'       => 'Este utilizador pode contribuir com um nível [[$1|intermédio]] de [[$2|português]].',
+	'babel-3-n-male'       => 'Este utilizador pode contribuir com um nível [[$1|avançado]] de [[$2|português]].',
+	'babel-4-n-male'       => 'Este utilizador pode contribuir com um nível [[$1|quase nativo]] de [[$2|português]].',
+	'babel-5-n-male'       => 'Este utilizador pode contribuir com um nível [[$1|profissional]] de [[$2|português]].',
+	'babel-N-n-male'       => 'Este utilizador tem como língua [[$1|materna]] o [[$2|português]].',
 );
 
 /** Romanian (Română)
@@ -1331,6 +1411,30 @@ $messages['sk'] = array(
 	'babel-N-n'            => 'Tento redaktor má [[$2|angličtinu]] ako [[$1|materinský jazyk]].',
 );
 
+/** Albanian (Shqip)
+ * @author Dori
+ */
+$messages['sq'] = array(
+	'babel'                => 'Informacioni Babel i Përdoruesit',
+	'babel-desc'           => 'Shton mundësinë <tt>#babel</tt> për të lejuar krijimin automatik të kutive babel me mundësinë për të shtuar stampa vetjake.',
+	'babel-url'            => 'Project:Babel',
+	'babel-directionality' => 'mnd',
+	'babel-0'              => 'Ky përdorues [[$1|nuk ka]] njohuri të [[$2|$3]] (ose e kupton me shumë vështirësi).',
+	'babel-1'              => 'Ky përdorues ka njohuri [[$1|të kufizuar]] të [[$2|$3]].',
+	'babel-2'              => 'Ky përdorues ka njohuri [[$1|thelbësore]] të [[$2|$3]].',
+	'babel-3'              => 'Ky përdorues ka njohuri [[$1|të thellë]] të [[$2|$3]].',
+	'babel-4'              => 'Ky përdorues ka njohuri [[$1|afërsisht amtare]] të [[$2|$3]].',
+	'babel-5'              => 'Ky përdorues ka njohuri [[$1|profesionale]] të [[$2|$3]].',
+	'babel-N'              => 'Ky përdorues ka njohuri [[$1|amtare]] të [[$2|$3]].',
+	'babel-0-n'            => 'Ky përdorues [[$1|nuk ka]] njohuri të [[$2|anglishtes]] (ose e kupton me vështirësi të madhe).',
+	'babel-1-n'            => 'Ky përdorues ka njohuri [[$1|të kufizuar]] të [[$2|anglishtes]].',
+	'babel-2-n'            => 'Ky përdorues ka njohuri [[$1|thelbësore]] të [[$2|anglishtes]].',
+	'babel-3-n'            => 'Ky përdorues ka njohuri [[$1|të thellë]] të [[$2|anglishtes]].',
+	'babel-4-n'            => 'Ky përdorues ka njohuri [[$1|afërsisht amtare]] të [[$2|anglishtes]].',
+	'babel-5-n'            => 'Ky përdorues ka njohuri [[$1|profesionale]] të [[$2|anglishtes]].',
+	'babel-N-n'            => 'Ky përdorues ka njohuri [[$1|amtare]] të [[$2|anglishtes]].',
+);
+
 /** Seeltersk (Seeltersk)
  * @author Pyt
  */
@@ -1431,6 +1535,20 @@ $messages['tg-cyrl'] = array(
 	'babel-0'              => 'Ин корбар [[$2|$3]]ро [[$1|намефаҳмад]] (ё онро бо душворӣ мефаҳмад).',
 	'babel-1'              => 'Ин корбар [[$2|$3]]ро дар сатҳи [[$1|муқаддамотӣ]] мефаҳмад.',
 	'babel-2'              => 'Ин корбар [[$2|$3]]ро дар сатҳи [[$1|миёна]] мефаҳмад.',
+);
+
+/** Thai (ไทย)
+ * @author Passawuth
+ * @author Manop
+ */
+$messages['th'] = array(
+	'babel'     => 'ข้อมูลภาษาของผู้ใช้',
+	'babel-url' => 'Project:บาเบล',
+	'babel-0'   => 'ผู้ใช้คนนี้[[$1|ไม่มี]]ความรู้เกี่ยวกับ[[$2|$3]] (หรือเข้าใจได้ด้วยความยากลำบาก)',
+	'babel-1'   => 'ผู้ใช้คนนี้มีความรู้[[$1|พื้นฐาน]]เกี่ยวกับ[[$2|$3]]',
+	'babel-2'   => 'ผู้ใช้คนนี้มีความรู้[[$1|ระดับกลาง]]เกี่ยวกับ[[$2|$3]]',
+	'babel-N'   => 'ผู้ใช้คนนี้ใช้[[$2|$3]]เป็น[[$1|ภาษาแม่]]',
+	'babel-2-n' => 'ผู้ใช้คนนี้มีความรู้[[$1|ระดับกลาง]]เกี่ยวกับ[[$2|ภาษาอังกฤษ]]',
 );
 
 /** Ukrainian (Українська)
