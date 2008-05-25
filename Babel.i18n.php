@@ -260,6 +260,7 @@ $messages['crh'] = array(
 	'babel-2' => 'Bu qullanıcı [[$2|Qırımtatar tili]]ni [[$1|orta seviyede]] bile.',
 	'babel-3' => 'Bu qullanıcı [[$2|Qırımtatar tili]]ni [[$1|yahşı]] bile.',
 	'babel-4' => 'Bu qullanıcı [[$2|Qırımtatar tili]]ni [[$1|ana tili kibi]] bile.',
+	'babel-5' => 'Bu qullanıcı [[$2|Qırımtatar tili]]ni [[$1|ihtisasiy seviyede]] bile.',
 	'babel-N' => 'Bu qullanıcınıñ [[$1|ana tili]] [[$2|Qırımtatar tili]]dir.',
 );
 
@@ -977,6 +978,30 @@ $messages['lt'] = array(
 	'babel-N-n' => 'Šis naudotojas gali rašyti ir skaityti [[$1|gimtąja]] [[$2|lietuvių]] kalba',
 );
 
+/** Moksha (мокшень кяль)
+ * @author Khazar II
+ */
+$messages['mdf'] = array(
+	'babel'                => 'Вавилонца тиить информациец',
+	'babel-desc'           => 'Поладсы <tt>#babel</tt> синтаксонь анализаторть функциенц, конань вельде ули кода нолдамс тевс вавилонца тиить куднянц палманец кърдань шаблононь сувафнемать эсь тиевома мархта',
+	'babel-url'            => 'Project:Вавилон',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Тя тиись [[$1|аф]] шарьхкоди [[$2|$3]] (эли шарьходьсы пяк кальдявста).',
+	'babel-1'              => 'Тя тиись содасы [[$1|мъзярошка]] валхт [[$2|$3]].',
+	'babel-2'              => 'Тят тиись шарьхкоди ди [[$1|машты аф лама]] корхтамс [[$2|$3]].',
+	'babel-3'              => 'Тя тиись шарьхкоди [[$1|корхтай]] ди сёрмады [[$2|$3]].',
+	'babel-4'              => 'Тя тиись машты [[$1|кода эсь кяльса]] корхтамс [[$2|$3]].',
+	'babel-5'              => 'Тя тиись машты [[$1|кода кялень содайсь]] корхтамс [[$2|$3]].',
+	'babel-N'              => 'Тя тиись [[$1|идькспингстонза]] корхтай [[$2|$3]].',
+	'babel-0-n'            => 'Тя тиись [[$1|аф]] шарьхкоди [[$2|англакс]] (эли шарьходьсы пяк кальдявста).',
+	'babel-1-n'            => 'Тя тиись содасы [[$1|мъзярошка]] валхт [[$2|англакс]].',
+	'babel-2-n'            => 'Тят тиись шарьхкоди ди [[$1|машты аф лама]] корхтамс [[$2|англакс]].',
+	'babel-3-n'            => 'Тя тиись шарьхкоди [[$1|корхтай]] ди сёрмады [[$2|англакс]].',
+	'babel-4-n'            => 'Тя тиись машты [[$1|кода эсь кяльса]] корхтамс [[$2|англакс]].',
+	'babel-5-n'            => 'Тя тиись машты [[$1|кода кялень содайсь]] корхтамс [[$2|англакс]].',
+	'babel-N-n'            => 'Тя тиись [[$1|идькспингстонза]] корхтай [[$2|англакс]].',
+);
+
 /** Malayalam (മലയാളം)
  * @author Shijualex
  */
@@ -1179,6 +1204,7 @@ $messages['oc'] = array(
 
 /** Polish (Polski)
  * @author Sp5uhe
+ * @author Ymar
  * @author Siebrand
  */
 $messages['pl'] = array(
@@ -1200,6 +1226,21 @@ $messages['pl'] = array(
 	'babel-4-n'            => 'Ten użytkownik posługuje się [[$2|językiem polskim]] prawie tak samo biegle, jak [[$1|językiem ojczystym]].',
 	'babel-5-n'            => 'Ten użytkownik posługuje się [[$2|językiem polskim]] na równi z [[$1|językiem ojczystym]].',
 	'babel-N-n'            => '[[$2|Polski]] jest [[$1|językiem ojczystym]] tego użytkownika.',
+	'babel-0-female'       => 'Ta użytkowniczka [[$1|nie rozumie]] języka [[$2|$3]] (albo ma z nim olbrzymie trudności).',
+	'babel-1-female'       => 'Ta użytkowniczka posługuje się [[$2|językiem $3]] na poziomie [[$1|podstawowym]].',
+	'babel-2-female'       => 'Ta użytkowniczka posługuje się [[$2|językiem $3]] na poziomie [[$1|średnio zaawansowanym]].',
+	'babel-3-female'       => 'Ta użytkowniczka posługuje się [[$2|językiem $3]] na poziomie [[$1|zaawansowanym]].',
+	'babel-4-female'       => 'Ta użytkowniczka posługuje się [[$2|językiem $3]] prawie tak samo biegle, jak [[$1|językiem ojczystym]].',
+	'babel-5-female'       => 'Ta użytkowniczka posługuje się [[$2|językiem $3]] równie dobrze jak [[$1|językiem ojczystym]].',
+	'babel-N-female'       => '[[$2|$3]] jest [[$1|językiem ojczystym]] tej użytkowniczki.',
+	'babel-0-n-female'     => 'Ta użytkowniczka [[$1|nie rozumie]] języka [[$2|polskiego]] (albo ma z nim olbrzymie trudności).',
+	'babel-1-n-female'     => 'Ta użytkowniczka posługuje się [[$2|językiem polskim]] na poziomie [[$1|podstawowym]].',
+	'babel-2-n-female'     => 'Ta użytkowniczka posługuje się [[$2|językiem polskim]] na poziomie [[$1|średnio zaawansowanym]].',
+	'babel-3-n-female'     => 'Ta użytkowniczka posługuje się [[$2|językiem polskim]] na poziomie [[$1|zaawansowanym]].',
+	'babel-4-n-female'     => 'Ta użytkowniczka posługuje się [[$2|językiem polskim]] prawie tak samo biegle, jak [[$1|językiem ojczystym]].',
+	'babel-5-n-female'     => 'Ta użytkowniczka posługuje się [[$2|językiem polskim]] równie dobrze jak [[$1|językiem ojczystym]].',
+	'babel-N-n-female'     => '[[$2|Polski]] jest [[$1|językiem ojczystym]] tej użytkowniczki.',
+	'babel-0-male'         => 'Ten użytkownik [[$1|nie rozumie]] języka [[$2|$3]] (albo ma z nim olbrzymie trudności).',
 );
 
 /** Pashto (پښتو)
@@ -1277,6 +1318,23 @@ $messages['pt'] = array(
 	'babel-4-n-male'       => 'Este utilizador pode contribuir com um nível [[$1|quase nativo]] de [[$2|português]].',
 	'babel-5-n-male'       => 'Este utilizador pode contribuir com um nível [[$1|profissional]] de [[$2|português]].',
 	'babel-N-n-male'       => 'Este utilizador tem como língua [[$1|materna]] o [[$2|português]].',
+);
+
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Brunoy Anastasiya Seryozhenko
+ */
+$messages['pt-br'] = array(
+	'babel'                => 'Informação Babel de Usuário',
+	'babel-desc'           => 'Adiciona a função do analisador parser <tt>#babel</tt> para permitir a geração automática de um coluna de caixas de babel de um usuário coma possibilidade de incluir predefinições personalizadas',
+	'babel-url'            => 'Project:Babel',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Este usuário [[$1|não]] têm conhecimento de [[$2|$3]] (ou compreende com dificuldades consideráveis).',
+	'babel-1'              => 'Este usuário têm um [[$1|básico]] conhecimento de [[$2|$3]].',
+	'babel-2'              => 'Este usuário têm um conhecimento [[$1|intermediário]] de [[$2|$3]].',
+	'babel-3'              => 'Este usuário têm um [[$1|avançado]] conhecimento de [[$2|$3]].',
+	'babel-4'              => 'Este usuário possui um conhecimento [[$1|próximo ao nativo]] de [[$2|$3]].',
+	'babel-5'              => 'Este usuário têm um conhecimento [[$1|profissional]] de [[$2|$3]].',
+	'babel-N'              => 'Este usuário é um [[$1|falante nativo]] de [[$2|$3]].',
 );
 
 /** Romanian (Română)
