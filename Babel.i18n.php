@@ -223,6 +223,7 @@ $messages['bg'] = array(
 	'babel-N'   => '[[$1|Родният език]] на този потребител е [[$2|английски]].',
 	'babel-0-n' => 'Този потребител [[$1|няма]] познания по [[$2|български език]] (или разбира с известни затруднения).',
 	'babel-1-n' => 'Този потребител има [[$1|основни]] познания по [[$2|български език]].',
+	'babel-3-n' => 'Този потребител има [[$1|задълбочени]] познания по [[$2|български език]].',
 	'babel-N-n' => '[[$1|Родният език]] на този потребител е [[$2|български]].',
 );
 
@@ -267,8 +268,11 @@ $messages['crh'] = array(
 /** Czech (Česky)
  * @author Matěj Grabovský
  * @author Danny B.
+ * @author Mormegil
  */
 $messages['cs'] = array(
+	'babel'                => 'Jazykové znalosti uživatele',
+	'babel-desc'           => 'Přidává funkci <code><nowiki>{{#babel:}}</nowiki></code>, umožňující automatickou tvorbu rámečku s informacemi o jazykových schopnostech uživatele s možností používat vlastní šablony.',
 	'babel-url'            => 'Project:Babylon',
 	'babel-directionality' => 'ltr',
 );
@@ -1200,6 +1204,19 @@ $messages['oc'] = array(
 	'babel-4-n-male'       => 'Aqueste utilizaire dispausa de coneissenças pròchas de la [[$1|lenga mairala]] en [[$2|occitan]].',
 	'babel-5-n-male'       => "Aqueste utilizaire dispausa d'un nivèl de coneissenças [[$1|professional]] en [[$2|occitan]].",
 	'babel-N-n-male'       => "Aqueste utilizaire a per [[$1|lenga mairala]] l'[[$2|occitan]].",
+);
+
+/** Ossetic (Иронау)
+ * @author Amikeco
+ */
+$messages['os'] = array(
+	'babel-url' => 'Project:Вавилон',
+	'babel-0-n' => 'Ацы архайæг [[$2|ирон æвзаг]] [[$1|бынтон не ’мбары]].',
+	'babel-1-n' => 'Ацы архайæг [[$2|иронау]] [[$1|гыццыл зоны]].',
+	'babel-2-n' => 'Ацы архайæг [[$2|иронау]] [[$1|æмбары хорз]].',
+	'babel-3-n' => 'Ацы архайæг [[$2|иронау]] кæсын æмæ фыссын [[$1|тынг хорз]] зоны.',
+	'babel-4-n' => 'Ацы архаæйджы [[$2|ирон æвзаг]] у [[$1|мадæлон æвзаджы уавæрмæ ’ввæхс]].',
+	'babel-N-n' => '[[$2|Ирон]] у ацы архайæджы [[$1|мадæлон æвзаг]].',
 );
 
 /** Polish (Polski)
