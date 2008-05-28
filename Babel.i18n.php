@@ -267,14 +267,20 @@ $messages['crh'] = array(
 
 /** Czech (Česky)
  * @author Matěj Grabovský
- * @author Danny B.
  * @author Mormegil
+ * @author Danny B.
  */
 $messages['cs'] = array(
 	'babel'                => 'Jazykové znalosti uživatele',
 	'babel-desc'           => 'Přidává funkci <code><nowiki>{{#babel:}}</nowiki></code>, umožňující automatickou tvorbu rámečku s informacemi o jazykových schopnostech uživatele s možností používat vlastní šablony.',
 	'babel-url'            => 'Project:Babylon',
 	'babel-directionality' => 'ltr',
+	'babel-0-n'            => 'Tento uživatel [[$1|nerozumí]] [[$2|česky]] (nebo rozumí se značnými problémy).',
+	'babel-1-n'            => 'Tento uživatel má [[$1|základní]] znalosti [[$2|češtiny]].',
+	'babel-2-n'            => 'Tento uživatel má [[$1|střední]] znalosti [[$2|češtiny]].',
+	'babel-4-n'            => 'Tento uživatel má znalosti [[$2|češtiny]] [[$1|téměř na úrovni rodilého mluvčího]].',
+	'babel-5-n'            => 'Tento uživatel má [[$1|profesionální]] znalosti [[$2|češtiny]].',
+	'babel-N-n'            => 'Tomuto uživateli je [[$2|čeština]] [[$1|rodným jazykem]].',
 );
 
 /** Welsh (Cymraeg)
@@ -697,15 +703,25 @@ $messages['ia'] = array(
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author Rex
  * @author Meursault2004
  */
 $messages['id'] = array(
 	'babel'                => 'Informasi Babel Pengguna',
+	'babel-desc'           => 'Menambahkan fungsi parser <tt>#babel</tt> untuk menampilkan kolom babel kotak pengguna secara otomatis dengan kemampuan menggunakan templat dinamis',
 	'babel-url'            => 'Project:Babel',
 	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Pengguna ini [[$1|tidak]] mengerti [[$2|$3]] (atau hanya dengan sangat sulit).',
+	'babel-1'              => 'Pengguna ini mampu bersumbangsih dengan [[$2|$3]] tingkat [[$1|dasar]].',
+	'babel-2'              => 'Pengguna ini mampu bersumbangsih dengan [[$2|$3]] tingkat [[$1|menengah]].',
+	'babel-3'              => 'Pengguna ini mampu bersumbangsih dengan [[$2|$3]] tingkat [[$1|mahir]].',
 	'babel-4'              => 'Pengguna ini mampu bersumbangsih dengan [[$2|$3]] [[$1|mendekati penutur ibu]].',
 	'babel-5'              => 'Pengguna ini memiliki pengetahuan [[$1|profesional]] [[$2|$3]].',
 	'babel-N'              => 'Pengguna ini adalah [[$1|penutur ibu]] [[$2|$3]].',
+	'babel-0-n'            => 'Pengguna ini [[$1|tidak]] mengerti [[$2|bahasa Inggris]] (atau hanya dengan sangat sulit).',
+	'babel-1-n'            => 'Pengguna ini mampu bersumbangsih dengan [[$2|bahasa Inggris]] tingkat [[$1|dasar]].',
+	'babel-2-n'            => 'Pengguna ini mampu bersumbangsih dengan [[$2|bahasa Inggris]] tingkat [[$1|menengah]].',
+	'babel-3-n'            => 'Pengguna ini mampu bersumbangsih dengan [[$2|bahasa Inggris]] tingkat [[$1|mahir]].',
 	'babel-4-n'            => 'Pengguna ini mampu bersumbangsih dengan [[$2|bahasa Indonesia]] [[$1|mendekati penutur ibu]].',
 	'babel-5-n'            => 'Pengguna ini memiliki pengetahuan [[$1|profesional]] [[$2|bahasa Indonesia]].',
 	'babel-N-n'            => 'Pengguna ini adalah [[$1|penutur ibu]] [[$2|bahasa Indonesia]].',
@@ -855,50 +871,52 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'babel'            => 'Dem Medmaacher sing Shprooche-Weße',
-	'babel-desc'       => 'Brengk de <tt>#babel</tt>-Paaserfongxjohn, womet me automatesch ene Babel-Medmaacher-Kaste opboue kann, un dobeij och selfßjemaate Schabloone nozze kan',
-	'babel-0'          => 'Dä Medmaacher hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
-	'babel-1'          => 'Dä Medmaacher hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
-	'babel-2'          => 'Dä Medmaacher kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
-	'babel-3'          => 'Heh dä Medmaacher kann [[$2|$3]] [[$1|reschtesch joot]].',
-	'babel-4'          => 'För dä Medmaacher heh eß [[$2|$3]] [[$1|bahl wi sing Mottershprooch]].',
-	'babel-5'          => 'Heh dä Medmaacher bruch [[$2|$3]] [[$1|berohflesh]].',
-	'babel-N'          => 'Heh däm Medmaacher sing [[$1|Mottershprooch]] eß [[$2|$3]].',
-	'babel-0-n'        => 'Dä Medmaacher hät [[$1|keij Aahnong]] fon enne [[$2|ripoaresche Shprooch]], odder fershteijt di Shprooche esu joot wi nit.',
-	'babel-1-n'        => 'Heh dä Medmaacher hät [[$1|Jrondlaare]] fon ennem [[$2| ripoaresch Platt]] drop.',
-	'babel-2-n'        => 'Dä Medmaacher heh kann med_ennem [[$2|ripoaresch Platt]] [[$1|meddeljoot]] ömjonn.',
-	'babel-3-n'        => 'Heh dä Medmaacher kann [[$2|en ripoaresch Shprooch]] [[$1|reschtesch joot]].',
-	'babel-4-n'        => 'För dä Medmaacher heh eß [[$2|e ripoaresch Platt]] [[$1|bahl wi sing Mottershprooch]].',
-	'babel-5-n'        => 'Heh dä Medmaacher brur_en [[$2|ripoaresche Sproor]]_[[$1|em Berohf]].',
-	'babel-N-n'        => 'Heh däm Medmaacher sing [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]].',
-	'babel-0-female'   => 'Dat Weesh heh hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
-	'babel-1-female'   => 'Dat Weesh heh hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
-	'babel-2-female'   => 'Dat Weesh heh kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
-	'babel-3-female'   => 'Heh dat Weesh kann [[$2|$3]] [[$1|reschtesch joot]].',
-	'babel-4-female'   => 'För dat Weesh heh eß [[$2|$3]] [[$1|bahl wi sing Mottershprooch]].',
-	'babel-5-female'   => 'Heh dat Weesh bruch [[$2|$3]] em [[$1|Berohf]].',
-	'babel-N-female'   => 'Heh däm Weesh sing [[$1|Mottershprooch]] eß [[$2|$3]].',
-	'babel-0-n-female' => 'Heh dat Weesh hät [[$1|keij Aahnong]] fon enne [[$2|ripoaresche Shprooch]], odder it fershteijt di Shprooche esu joot wi jaa nit.',
-	'babel-1-n-female' => 'Heh dat Weesh hät [[$1|Jrondlaare]] fon ennem [[$2| ripoaresch Platt]] drop.',
-	'babel-2-n-female' => 'Heh dat Weesh kann med_ennem [[$2|ripoaresch Platt]] [[$1|meddeljoot]] ömjonn.',
-	'babel-3-n-female' => 'Heh dat Weesh kann [[$2|en ripoaresch Shprooch]] [[$1|reschtesch joot]].',
-	'babel-4-n-female' => 'För he_dat Weesh eß [[$2|e ripoaresch Platt]] [[$1|bahl wi sing Mottershprooch]].',
-	'babel-5-n-female' => 'Dat Weesh heh brur_en [[$2|ripoaresche Sproor]]_[[$1|em Berohf]].',
-	'babel-N-n-female' => 'Heh däm Weesh sing [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]].',
-	'babel-0-male'     => 'Dä Kääl heh hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
-	'babel-1-male'     => 'Dä Kääl heh hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
-	'babel-2-male'     => 'Dä Kääl heh kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
-	'babel-3-male'     => 'Heh dä Kääl kann [[$2|$3]] [[$1|reschtesch joot]].',
-	'babel-4-male'     => 'För dä Kääl heh eß [[$2|$3]] [[$1|bahl wi sing Mottershprooch]].',
-	'babel-5-male'     => 'Heh dä Kääl bruch [[$2|$3]] em [[$1|Berohf]].',
-	'babel-N-male'     => 'Heh däm Kääl sing [[$1|Mottershprooch]] eß [[$2|$3]].',
-	'babel-0-n-male'   => 'Heh dä Kääl hät [[$1|keij Aahnong]] fon enne [[$2|ripoaresche Shprooch]], odder hä fershteijt di Shprooche esu joot wi jaa nit.',
-	'babel-1-n-male'   => 'Heh dä Kääl hät [[$1|Jrondlaare]] fon ennem [[$2| ripoaresch Platt]] drop.',
-	'babel-2-n-male'   => 'Heh dä Kääl kann med_ennem [[$2|ripoaresch Platt]] [[$1|meddeljoot]] ömjonn.',
-	'babel-3-n-male'   => 'Heh dä Kääl kann [[$2|en ripoaresch Shprooch]] [[$1|reschtesch joot]].',
-	'babel-4-n-male'   => 'För dä Kääl heh eß [[$2|e ripoaresch Platt]] [[$1|bahl wi sing Mottershprooch]].',
-	'babel-5-n-male'   => 'Dä Kääl heh brur_en [[$2|ripoaresche Sproor]]_[[$1|em Berohf]].',
-	'babel-N-n-male'   => 'Heh däm Kääl sing [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]].',
+	'babel'                => 'Dem Medmaacher sing Shprooche-Weße',
+	'babel-desc'           => 'Brengk de <tt>#babel</tt>-Paaserfongxjohn, womet me automatesch ene Babel-Medmaacher-Kaste opboue kann, un dobeij och selfßjemaate Schabloone nozze kan',
+	'babel-url'            => 'Project:Babel',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Dä Medmaacher hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
+	'babel-1'              => 'Dä Medmaacher hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
+	'babel-2'              => 'Dä Medmaacher kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
+	'babel-3'              => 'Heh dä Medmaacher kann [[$2|$3]] [[$1|reschtesch joot]].',
+	'babel-4'              => 'För dä Medmaacher heh eß [[$2|$3]] [[$1|bahl wi sing Mottershprooch]].',
+	'babel-5'              => 'Heh dä Medmaacher bruch [[$2|$3]] [[$1|berohflesh]].',
+	'babel-N'              => 'Heh däm Medmaacher sing [[$1|Mottershprooch]] eß [[$2|$3]].',
+	'babel-0-n'            => 'Dä Medmaacher hät [[$1|keij Aahnong]] fon enne [[$2|ripoaresche Shprooch]], odder fershteijt di Shprooche esu joot wi nit.',
+	'babel-1-n'            => 'Heh dä Medmaacher hät [[$1|Jrondlaare]] fon ennem [[$2| ripoaresch Platt]] drop.',
+	'babel-2-n'            => 'Dä Medmaacher heh kann med_ennem [[$2|ripoaresch Platt]] [[$1|meddeljoot]] ömjonn.',
+	'babel-3-n'            => 'Heh dä Medmaacher kann [[$2|en ripoaresch Shprooch]] [[$1|reschtesch joot]].',
+	'babel-4-n'            => 'För dä Medmaacher heh eß [[$2|e ripoaresch Platt]] [[$1|bahl wi sing Mottershprooch]].',
+	'babel-5-n'            => 'Heh dä Medmaacher brur_en [[$2|ripoaresche Sproor]]_[[$1|em Berohf]].',
+	'babel-N-n'            => 'Heh däm Medmaacher sing [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]].',
+	'babel-0-female'       => 'Dat Weesh heh hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
+	'babel-1-female'       => 'Dat Weesh heh hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
+	'babel-2-female'       => 'Dat Weesh heh kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
+	'babel-3-female'       => 'Heh dat Weesh kann [[$2|$3]] [[$1|reschtesch joot]].',
+	'babel-4-female'       => 'För dat Weesh heh eß [[$2|$3]] [[$1|bahl wi sing Mottershprooch]].',
+	'babel-5-female'       => 'Heh dat Weesh bruch [[$2|$3]] em [[$1|Berohf]].',
+	'babel-N-female'       => 'Heh däm Weesh sing [[$1|Mottershprooch]] eß [[$2|$3]].',
+	'babel-0-n-female'     => 'Heh dat Weesh hät [[$1|keij Aahnong]] fon enne [[$2|ripoaresche Shprooch]], odder it fershteijt di Shprooche esu joot wi jaa nit.',
+	'babel-1-n-female'     => 'Heh dat Weesh hät [[$1|Jrondlaare]] fon ennem [[$2| ripoaresch Platt]] drop.',
+	'babel-2-n-female'     => 'Heh dat Weesh kann med_ennem [[$2|ripoaresch Platt]] [[$1|meddeljoot]] ömjonn.',
+	'babel-3-n-female'     => 'Heh dat Weesh kann [[$2|en ripoaresch Shprooch]] [[$1|reschtesch joot]].',
+	'babel-4-n-female'     => 'För he_dat Weesh eß [[$2|e ripoaresch Platt]] [[$1|bahl wi sing Mottershprooch]].',
+	'babel-5-n-female'     => 'Dat Weesh heh brur_en [[$2|ripoaresche Sproor]]_[[$1|em Berohf]].',
+	'babel-N-n-female'     => 'Heh däm Weesh sing [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]].',
+	'babel-0-male'         => 'Dä Kääl heh hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
+	'babel-1-male'         => 'Dä Kääl heh hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
+	'babel-2-male'         => 'Dä Kääl heh kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
+	'babel-3-male'         => 'Heh dä Kääl kann [[$2|$3]] [[$1|reschtesch joot]].',
+	'babel-4-male'         => 'För dä Kääl heh eß [[$2|$3]] [[$1|bahl wi sing Mottershprooch]].',
+	'babel-5-male'         => 'Heh dä Kääl bruch [[$2|$3]] em [[$1|Berohf]].',
+	'babel-N-male'         => 'Heh däm Kääl sing [[$1|Mottershprooch]] eß [[$2|$3]].',
+	'babel-0-n-male'       => 'Heh dä Kääl hät [[$1|keij Aahnong]] fon enne [[$2|ripoaresche Shprooch]], odder hä fershteijt di Shprooche esu joot wi jaa nit.',
+	'babel-1-n-male'       => 'Heh dä Kääl hät [[$1|Jrondlaare]] fon ennem [[$2| ripoaresch Platt]] drop.',
+	'babel-2-n-male'       => 'Heh dä Kääl kann med_ennem [[$2|ripoaresch Platt]] [[$1|meddeljoot]] ömjonn.',
+	'babel-3-n-male'       => 'Heh dä Kääl kann [[$2|en ripoaresch Shprooch]] [[$1|reschtesch joot]].',
+	'babel-4-n-male'       => 'För dä Kääl heh eß [[$2|e ripoaresch Platt]] [[$1|bahl wi sing Mottershprooch]].',
+	'babel-5-n-male'       => 'Dä Kääl heh brur_en [[$2|ripoaresche Sproor]]_[[$1|em Berohf]].',
+	'babel-N-n-male'       => 'Heh däm Kääl sing [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]].',
 );
 
 /** Latin (Latina)
@@ -980,6 +998,26 @@ $messages['lt'] = array(
 	'babel-4-n' => 'Šis naudotojas gali rašyti ir skaityti [[$2|lietuvių]] kalba [[$1|beveik kaip gimtąja]]',
 	'babel-5-n' => 'Šis naudotojas gali rašyti ir skaityti [[$1|profesionalia]] [[$2|lietuvių]] kalba',
 	'babel-N-n' => 'Šis naudotojas gali rašyti ir skaityti [[$1|gimtąja]] [[$2|lietuvių]] kalba',
+);
+
+/** Latvian (Latviešu)
+ * @author Yyy
+ */
+$messages['lv'] = array(
+	'babel-0'   => 'Šis lietotājs [[$2|$3]] valodu [[$1|neprot]]. (vai saprot ar ievērojamām grūtībām).',
+	'babel-1'   => 'Šis lietotājs [[$2|$3]] valodu prot [[$1|pamatlīmenī]].',
+	'babel-2'   => 'Šis lietotājs [[$2|$3]] valodu prot [[$1|vidējā]] līmenī.',
+	'babel-3'   => 'Šis lietotājs [[$2|$3]] valodu prot [[$1|padziļinātā]] līmenī.',
+	'babel-4'   => 'Šis lietotājs [[$2|$3]] valodu pārzina [[$1|gandrīz kā dzimto valodu]].',
+	'babel-5'   => 'Šis lietotājs [[$2|$3]] valodu pārzina [[$1|profesionālā]] līmenī.',
+	'babel-N'   => 'Šim lietotājam [[$2|$3]] valoda ir [[$1|dzimtā valoda]].',
+	'babel-0-n' => 'Šis lietotājs [[$2|Latviešu valodu]] [[$1|neprot]] (vai saprot ar ievērojamām grūtībām).',
+	'babel-1-n' => 'Šis lietotājs [[$2|Latviešu valodu]] prot [[$1|pamatlīmenī]].',
+	'babel-2-n' => 'Šis lietotājs [[$2|Latviešu valodu]] prot [[$1|vidējā]] līmenī.',
+	'babel-3-n' => 'Šis lietotājs [[$2|Latviešu valodu]] prot [[$1|padziļinātā]] līmenī.',
+	'babel-4-n' => 'Šis lietotājs [[$2|Latviešu valodu]] pārzina [[$1|gandrīz kā dzimto valodu]].',
+	'babel-5-n' => 'Šis lietotājs [[$2|Latviešu valodu]] pārzina [[$1|profesionālā]] līmenī.',
+	'babel-N-n' => 'Šim lietotājam [[$2|Latviešu valoda]] ir [[$1|dzimtā valoda]].',
 );
 
 /** Moksha (мокшень кяль)
@@ -1258,6 +1296,19 @@ $messages['pl'] = array(
 	'babel-5-n-female'     => 'Ta użytkowniczka posługuje się [[$2|językiem polskim]] równie dobrze jak [[$1|językiem ojczystym]].',
 	'babel-N-n-female'     => '[[$2|Polski]] jest [[$1|językiem ojczystym]] tej użytkowniczki.',
 	'babel-0-male'         => 'Ten użytkownik [[$1|nie rozumie]] języka [[$2|$3]] (albo ma z nim olbrzymie trudności).',
+	'babel-1-male'         => 'Ten użytkownik posługuje się [[$2|językiem $3]] na poziomie [[$1|podstawowym]].',
+	'babel-2-male'         => 'Ten użytkownik posługuje się [[$2|językiem $3]] na poziomie [[$1|średnio zaawansowanym]].',
+	'babel-3-male'         => 'Ten użytkownik posługuje się [[$2|językiem $3]] na poziomie [[$1|zaawansowanym]].',
+	'babel-4-male'         => 'Ten użytkownik posługuje się [[$2|językiem $3]] prawie tak samo biegle, jak [[$1|językiem ojczystym]].',
+	'babel-5-male'         => 'Ten użytkownik posługuje się [[$2|językiem $3]] na równi z [[$1|językiem ojczystym]].',
+	'babel-N-male'         => '[[$2|$3]] jest [[$1|językiem ojczystym]] tego użytkownika.',
+	'babel-0-n-male'       => 'Ten użytkownik [[$1|nie rozumie]] języka [[$2|polskiego]] (albo ma z nim olbrzymie trudności).',
+	'babel-1-n-male'       => 'Ten użytkownik posługuje się [[$2|językiem polskim]] na poziomie [[$1|podstawowym]].',
+	'babel-2-n-male'       => 'Ten użytkownik posługuje się [[$2|językiem polskim]] na poziomie [[$1|średnio zaawansowanym]].',
+	'babel-3-n-male'       => 'Ten użytkownik posługuje się [[$2|językiem polskim]] na poziomie [[$1|zaawansowanym]].',
+	'babel-4-n-male'       => 'Ten użytkownik posługuje się [[$2|językiem polskim]] prawie tak samo biegle, jak [[$1|językiem ojczystym]].',
+	'babel-5-n-male'       => 'Ten użytkownik posługuje się [[$2|językiem polskim]] na równi z [[$1|językiem ojczystym]].',
+	'babel-N-n-male'       => '[[$2|Polski]] jest [[$1|językiem ojczystym]] tego użytkownika.',
 );
 
 /** Pashto (پښتو)
