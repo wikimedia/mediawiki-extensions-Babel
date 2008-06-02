@@ -298,6 +298,15 @@ $messages['cs'] = array(
 	'babel-N-n'            => 'Tento uživatel je [[$1|rodilý mluvčí]] [[$2|češtiny]].',
 );
 
+/** Church Slavic (Словѣньскъ)
+ * @author ОйЛ
+ */
+$messages['cu'] = array(
+	'babel-url' => 'Project:Вавѷлѡ́нъ',
+	'babel-0'   => 'Сь́ по́льꙃєватєл҄ь [[$1|нє]] раꙁоумѣ́ѥтъ [[$2|$3]] · и́ли раꙁоумѣ́ѥтъ съ вєли́кꙑ оуси́лии',
+	'babel-1'   => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|$3]] [[$1|зълѣ́]]',
+);
+
 /** Welsh (Cymraeg)
  * @author Lloffiwr
  */
@@ -775,9 +784,10 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Kwj2772
+ * @author Marine-Blue
  */
 $messages['ja'] = array(
-	'babel-1' => 'この利用者は[[$1|初歩的]]な[[$2|$3]]を話します。',
+	'babel-1' => 'この利用者は[[$1|簡単]]な[[$2|$3]]を話すことができます。',
 );
 
 /** Lojban (Lojban)
@@ -837,6 +847,7 @@ $messages['ka'] = array(
  */
 $messages['kk-cyrl'] = array(
 	'babel'                => 'Бабыл қатысушы ақпараты',
+	'babel-desc'           => 'Бабыл пайдаланушылық жолағын өздіктік жарату үшін <tt>#babel</tt> деген құрылымдық талдатқыш жетесін үстейді (бапталған үлгілерді де кірістіру мүмкін)',
 	'babel-url'            => 'Project:Бабыл',
 	'babel-directionality' => 'ltr',
 	'babel-0'              => 'Бұл қатысушы [[$2|$3]] [[$1|меңгермейді]] (немесе айтарлықтай қиыншылықпен түсінеді).',
@@ -880,6 +891,7 @@ $messages['km'] = array(
  * @author Kwj2772
  */
 $messages['ko'] = array(
+	'babel'   => '사용자 언어 정보',
 	'babel-0' => '이 사용자는 [[$2|$3]]을 [[$1|모르거나]], 이해하는 데 어려움이 있습니다.',
 	'babel-1' => '이 사용자는 [[$2|$3]]을 [[$1|조금]] 할 수 있습니다.',
 	'babel-2' => '이 사용자는 [[$2|$3]]을 [[$1|중간 정도로]] 할 수 있습니다.',
@@ -1427,6 +1439,26 @@ $messages['pt-br'] = array(
 	'babel-N'              => 'Este usuário é um [[$1|falante nativo]] de [[$2|$3]].',
 );
 
+/** Quechua (Runa Simi)
+ * @author AlimanRuna
+ */
+$messages['qu'] = array(
+	'babel-0'   => "Kay ruraqqa [[$2|$3]]ta [[$1|manam]] rimanchu (icha ancha sasallata hap'iqan).",
+	'babel-1'   => 'Kay ruraqqa [[$2|$3]]ta [[$1|aslla]] yachaywanmi riman.',
+	'babel-2'   => 'Kay ruraqqa [[$2|$3]]ta [[$1|chawpi]] yachaywanmi riman.',
+	'babel-3'   => 'Kay ruraqqa [[$2|$3]]ta [[$1|ñawparikusqa]] yachaywanmi riman.',
+	'babel-4'   => 'Kay ruraqqa [[$2|$3]]ta [[$1|yaqa mama rimaynin hina]] yachaywanmi riman.',
+	'babel-5'   => 'Kay ruraqqa [[$2|$3]]ta [[$1|amawtap]] yachayninwanmi riman.',
+	'babel-N'   => 'Kay ruraqpa [[$1|mama siminqa]] [[$2|$3]]m.',
+	'babel-0-n' => "Kay ruraqqa [[$2|Runa Simita]] [[$1|manam]] rimanchu (icha ancha sasallata hap'iqan).",
+	'babel-1-n' => 'Kay ruraqqa [[$2|Runa Simita]] [[$1|aslla]] yachaywanmi riman.',
+	'babel-2-n' => 'Kay ruraqqa [[$2|Runa Simita]] [[$1|chawpi]] yachaywanmi riman.',
+	'babel-3-n' => 'Kay ruraqqa [[$2|Runa Simita]] [[$1|ñawparikusqa]] yachaywanmi riman.',
+	'babel-4-n' => 'Kay ruraqqa [[$2|Runa Simita]] [[$1|yaqa mama rimaynin hina]] yachaywanmi riman.',
+	'babel-5-n' => 'Kay ruraqqa [[$2|Runa Simita]] [[$1|amawtap]] yachayninwanmi riman.',
+	'babel-N-n' => 'Kay ruraqpa [[$1|mama siminqa]] [[$2|Runa Simim]].',
+);
+
 /** Romanian (Română)
  * @author Siebrand
  */
@@ -1599,6 +1631,24 @@ $messages['stq'] = array(
 	'babel-N-n'  => 'Dissen Benutser boalt [[$2|Seeltersk]] as [[$1|Määmesproake]].',
 );
 
+/** Sundanese (Basa Sunda)
+ * @author Irwangatot
+ */
+$messages['su'] = array(
+	'babel'                => 'Informasi Babel Pamaké',
+	'babel-desc'           => 'Nambahan fungsi parser <tt>#babel</tt> pikeun mintonkeun lajur babel kotak pamaké sacara otomatis jeung pangabisa ngagunakeun citakan dinamis',
+	'babel-url'            => 'Project:Babel',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Pamaké ieu [[$1|teu]] ngarti [[$2|$3]] (atawa saeutik-saeutik ngartina).',
+	'babel-1'              => 'Pamaké ieu gaduh kamampuan [[$2|$3]] hambalan [[$1|dasar]].',
+	'babel-2'              => 'Pamaké ieu bisa nulis dina [[$2|$3]] hambalan [[$1|panengah]].',
+	'babel-3'              => 'Pamaké ieu tiasa [[$2|$3]] anu [[$1|sampurna]].',
+	'babel-0-n'            => 'Pamaké ieu [[$1|teu]] ngarti [[$2|basa Sunda]] (atawa saeutik-saeutik ngartina).',
+	'babel-1-n'            => 'Pamaké ieu gaduh kamampuan [[$2|basa Sunda]] hambalan [[$1|dasar]].',
+	'babel-2-n'            => 'Pamaké ieu bisa nulis dina [[$2|basa Sunda]] hambalan [[$1|panengah]].',
+	'babel-3-n'            => 'Pamaké ieu tiasa [[$2|basa Sunda]] anu [[$1|sampurna]].',
+);
+
 /** Swedish (Svenska)
  * @author M.M.S.
  * @author Lejonel
@@ -1691,13 +1741,24 @@ $messages['tg-cyrl'] = array(
  * @author Manop
  */
 $messages['th'] = array(
-	'babel'     => 'ข้อมูลภาษาของผู้ใช้',
-	'babel-url' => 'Project:บาเบล',
-	'babel-0'   => 'ผู้ใช้คนนี้[[$1|ไม่มี]]ความรู้เกี่ยวกับ[[$2|$3]] (หรือเข้าใจได้ด้วยความยากลำบาก)',
-	'babel-1'   => 'ผู้ใช้คนนี้มีความรู้[[$1|พื้นฐาน]]เกี่ยวกับ[[$2|$3]]',
-	'babel-2'   => 'ผู้ใช้คนนี้มีความรู้[[$1|ระดับกลาง]]เกี่ยวกับ[[$2|$3]]',
-	'babel-N'   => 'ผู้ใช้คนนี้ใช้[[$2|$3]]เป็น[[$1|ภาษาแม่]]',
-	'babel-2-n' => 'ผู้ใช้คนนี้มีความรู้[[$1|ระดับกลาง]]เกี่ยวกับ[[$2|ภาษาอังกฤษ]]',
+	'babel'                => 'ข้อมูลภาษาของผู้ใช้',
+	'babel-desc'           => 'ใส่ฟังก์ชัน <tt>#babel</tt> เพื่อที่จะใส่คอลัมน์กล่องผู้ใช้บาเบลอัตโนมัติ รวมทั้งความสามารถที่จะใส่แม่แบบที่ต้องการได้ด้วย',
+	'babel-url'            => 'Project:บาเบล',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'ผู้ใช้คนนี้[[$1|ไม่มี]]ความรู้เกี่ยวกับ[[$2|$3]] (หรือเข้าใจได้ด้วยความยากลำบาก)',
+	'babel-1'              => 'ผู้ใช้คนนี้มีความรู้[[$1|พื้นฐาน]]เกี่ยวกับ[[$2|$3]]',
+	'babel-2'              => 'ผู้ใช้คนนี้มีความรู้[[$1|ระดับกลาง]]เกี่ยวกับ[[$2|$3]]',
+	'babel-3'              => 'ผู้ใช้คนนี้มีความรู้[[$1|ระดับสูง]]เกี่ยวกับ[[$2|$3]]',
+	'babel-4'              => 'ผู้ใช้คนนี้สามารถใช้[[$2|$3]]ได้เหมือน[[$1|ภาษาแม่]]',
+	'babel-5'              => 'ผู้ใช้คนนี้สามารถใช้[[$2|$3]]ได้อย่าง[[$1|เชี่ยวชาญ]]',
+	'babel-N'              => 'ผู้ใช้คนนี้ใช้[[$2|$3]]เป็น[[$1|ภาษาแม่]]',
+	'babel-0-n'            => 'ผู้ใช้คนนี้[[$1|ไม่มี]]ความรู้เกี่ยวกับ[[$2|ภาษาอังกฤษ]] (หรือเข้าใจได้ด้วยความยากลำบาก)',
+	'babel-1-n'            => 'ผู้ใช้คนนี้มีความรู้[[$1|พื้นฐาน]]เกี่ยวกับ[[$2|ภาษาอังกฤษ]]',
+	'babel-2-n'            => 'ผู้ใช้คนนี้มีความรู้[[$1|ระดับกลาง]]เกี่ยวกับ[[$2|ภาษาอังกฤษ]]',
+	'babel-3-n'            => 'ผู้ใช้คนนี้มีความรู้[[$1|ระดับสูง]]เกี่ยวกับ[[$2|ภาษาอังกฤษ]]',
+	'babel-4-n'            => 'ผู้ใช้คนนี้สามารถใช้[[$2|ภาษาอังกฤษ]]ได้เหมือน[[$1|ภาษาแม่]]',
+	'babel-5-n'            => 'ผู้ใช้คนนี้สามารถใช้[[$2|ภาษาอังกฤษ]]ได้อย่าง[[$1|เชี่ยวชาญ]]',
+	'babel-N-n'            => 'ผู้ใช้คนนี้ใช้[[$2|ภาษาอังกฤษ]]เป็น[[$1|ภาษาแม่]]',
 );
 
 /** Ukrainian (Українська)
