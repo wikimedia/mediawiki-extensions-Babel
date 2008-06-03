@@ -76,6 +76,20 @@ $messages['en'] = array(
 	'babel-template-suffix' => '', # Do not translate or duplicate this message to other languages.
 );
 
+/** Säggssch (Säggssch)
+ * @author Purodha
+ */
+$messages['sxu'] = array(
+	'babel-url'            => 'Project:Babel',
+	'babel-directionality' => 'ltr',
+	'babel-0-n'            => "Dor Benutzor hior sprischt [[$1|gorgeen]] [[$2|Sächs'sch]].",
+	'babel-1-n'            => "Dor Benutzor hior kann krad ma' [[$1|ä ganz kleenes bissl]] [[$2|Sächs'sch]], 's is abbor eing'sch nisch dor Rede wärt.",
+	'babel-2-n'            => "Dor Benutzor hior is eing'sch schonn [[$1|nisch ohne]] im [[$2|Sächs'sch]] Spräschn.",
+	'babel-3-n'            => "Dor Benutzor hior sprischt schonn [[$2|Sächs'sch]] [[$1|wie's beese Tior]].",
+	'babel-4-n'            => "Dor Benutzor hior sprischt so dolle [[$2|Sächs'sch]] [[$1|als wäror aus Sachsn]].",
+	'babel-N-n'            => "Dor Benutzor hior is ä rüscht'schor [[$1|Muddorsprachlor]] vom [[$2|Sächs'sch]]n.",
+);
+
 /** Afrikaans (Afrikaans)
  * @author SPQRobin
  * @author Arnobarnard
@@ -305,6 +319,9 @@ $messages['cu'] = array(
 	'babel-url' => 'Project:Вавѷлѡ́нъ',
 	'babel-0'   => 'Сь́ по́льꙃєватєл҄ь [[$1|нє]] раꙁоумѣ́ѥтъ [[$2|$3]] · и́ли раꙁоумѣ́ѥтъ съ вєли́кꙑ оуси́лии',
 	'babel-1'   => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|$3]] [[$1|зълѣ́]]',
+	'babel-0-n' => 'Сь́ по́льꙃєватєл҄ь [[$1|нє]] раꙁоумѣ́ѥтъ [[$2|словѣ́ньскꙑ]] · и́ли раꙁоумѣ́ѥтъ съ вєли́кꙑ оуси́лии',
+	'babel-1-n' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|словѣ́ньскꙑ]] [[$1|зълѣ́]]',
+	'babel-2-n' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|словѣ́ньскꙑ]] [[$1|трьпи́мо]]',
 );
 
 /** Welsh (Cymraeg)
@@ -963,6 +980,20 @@ $messages['la'] = array(
 	'babel-3-n' => 'Hic usor [[$1|callidissima]] [[$2|latinitate]] contribuere potest.',
 );
 
+/** Ladino (Ladino)
+ * @author Purodha
+ */
+$messages['lad'] = array(
+	'babel-url'            => 'Project:Babel',
+	'babel-directionality' => 'ltr',
+	'babel-0-n'            => 'Este usuario [[$1|no entiende]] [[$2|djudeo-espanyol]] <small>(o lo entiende kon muncha difikultad)</small>.',
+	'babel-1-n'            => 'Este usuario puede kontribuir kon un nivel [[$1|báziko]] de [[$2|djudeo-espanyol]].',
+	'babel-2-n'            => 'Este usuario puede kontribuir kon un nivel [[$1|intermedio]] de [[$2|djudeo-espanyol]].',
+	'babel-3-n'            => 'Este usuario puede kontribuir kon un nivel [[$1|avansado]] de [[$2|djudeo-espanyol]].',
+	'babel-4-n'            => 'Este usuario puede kontribuir kon un nivel [[$1|xx]] de [[$2|djudeo-espanyol]].',
+	'babel-N-n'            => 'Este usuario es avlante [[$1|nativo]] de [[$2|djudeo-espanyol]].',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
@@ -985,6 +1016,25 @@ $messages['lb'] = array(
 	'babel-4-n'            => 'Dëse Benotzer beherrscht [[$2|Lëtzebuergesch]] [[$1|bal wéi seng Mammesprooch]].',
 	'babel-5-n'            => 'Dëse Benotzer huet essionnell]] Kenntnisser vum [[$2|Lëtzebuergeschen]].',
 	'babel-N-n'            => 'Dësem Benotzer seng [[$1|Mammesprooch]] ass [[$2|Lëtzebuergesch]].',
+);
+
+/** Lingua Franca Nova (Lingua Franca Nova)
+ * @author Purodha
+ */
+$messages['lfn'] = array(
+	'babel-url'            => 'Project:Babel',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Esta usor ave [[$1|no capas]] de [[$2|$3]].',
+	'babel-1'              => 'Esta usor es [[$1|poca capas]] de [[$2|$3]].',
+	'babel-2'              => 'Esta usor es [[$1|medial capas]] de [[$2|$3]].',
+	'babel-3'              => 'Esta usor es [[$1|bon capas]] de [[$2|$3]].',
+	'babel-4'              => 'Esta usor es [[$1|la plu perfeta capas]] de [[$2|$3]].',
+	'babel-N'              => 'Esta usor ave [[$2|$3]] se [[$1|lingua propre]].',
+	'babel-1-n'            => 'Esta usor es [[$1|poca capas]] de [[$2|Lingua Franca Nova]].',
+	'babel-2-n'            => 'Esta usor es [[$1|medial capas]] de [[$2|Lingua Franca Nova]].',
+	'babel-3-n'            => 'Esta usor es [[$1|bon capas]] de [[$2|Lingua Franca Nova]].',
+	'babel-4-n'            => 'Esta usor es [[$1|la plu perfeta capas]] de [[$2|Lingua Franca Nova]].',
+	'babel-N-n'            => 'Esta usor ave [[$2|Lingua Franca Nova]] se [[$1|lingua propre]].',
 );
 
 /** Limburgish (Limburgs)
@@ -1568,6 +1618,15 @@ $messages['scn'] = array(
 	'babel-5'              => "St'utenti pò cuntribbuìricci c'un [[$2|$3]] ôn liveddu [[$1|prufissionali]].",
 );
 
+/** Sindhi (سنڌي)
+ * @author Aursani
+ */
+$messages['sd'] = array(
+	'babel-5'   => 'هن يُوزر کي [[$2|$3]] جي [[$1|پيشورانه]] ڄاڻ آهي.',
+	'babel-1-n' => 'هن يُوزر کي [[$2|انگريزي]]ءَ جي [[$1|بنيادي]] ڄاڻ آهي.',
+	'babel-5-n' => 'هن يُوزر کي [[$2|انگريزي]]ءَ جي [[$1|پيشورانه]] ڄاڻ آهي.',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
@@ -1673,6 +1732,20 @@ $messages['sv'] = array(
 	'babel-4-n'            => 'Den här användaren talar nästan [[$2|svenska]] som en [[$1|modersmålstalare]].',
 	'babel-5-n'            => 'Den här användaren har [[$1|professionella]] kunskaper i [[$2|svenska]].',
 	'babel-N-n'            => 'Den här användaren har [[$2|svenska]] som [[$1|modersmål]].',
+);
+
+/** Silesian (Ślůnski)
+ * @author Purodha
+ */
+$messages['szl'] = array(
+	'babel-url'            => 'Project:Babel',
+	'babel-directionality' => 'ltr',
+	'babel-0-n'            => 'Tyn užytkowńik [[$1|ńy godo]] we [[$2|ślůnskij godce]] (abo mo s ńům wjelge trudnośći).',
+	'babel-1-n'            => 'Tyn užytkowńik zno ino [[$1|trocha]] godka [[$2|ślůnsko]].',
+	'babel-2-n'            => 'Tyn užytkowńik godo [[$1|středńo]] pů [[$2|ślůnsko]].',
+	'babel-3-n'            => 'Tyn užytkowńik godo [[$1|fest dobře]] pů [[$2|ślůnsko]].',
+	'babel-4-n'            => 'Tyn užytkowńik zno [[$2|godka ślůnsko]] [[$1|prowje jak uojčysto]].',
+	'babel-N-n'            => '[[$2|Ślůnski]] je [[$1|uojčystům godkům]] tygo užytkowńika.',
 );
 
 /** Tamil (தமிழ்)
