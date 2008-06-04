@@ -239,6 +239,7 @@ $messages['bg'] = array(
 	'babel-0-n'      => 'Този потребител [[$1|няма]] познания по [[$2|български език]] (или разбира с известни затруднения).',
 	'babel-1-n'      => 'Този потребител има [[$1|основни]] познания по [[$2|български език]].',
 	'babel-3-n'      => 'Този потребител има [[$1|задълбочени]] познания по [[$2|български език]].',
+	'babel-5-n'      => 'Този потребител има [[$1|професионални]] познания по [[$2|български език]].',
 	'babel-N-n'      => '[[$1|Родният език]] на този потребител е [[$2|български]].',
 	'babel-0-female' => 'Тази потребителка [[$1|не разбира]] [[$2|български език]] (или съвсем малко и с големи трудности).',
 	'babel-1-female' => 'Тази потребителка има [[$1|начални познания]] по [[$2|български език]].',
@@ -603,6 +604,13 @@ $messages['haw'] = array(
 	'babel-4-n'            => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana kokoke]] i kō ka mānaleo ma ka [[$2|‘ōlelo Hawai‘i]].',
 	'babel-5-n'            => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana ‘oihana]] ma ka [[$2|‘ōlelo Hawai‘i]].',
 	'babel-N-n'            => 'He [[$1|mānaleo]] kēia kanaka ma ka [[$2|‘ōlelo Hawai‘i]].',
+);
+
+/** Hebrew (עברית)
+ * @author GerardM
+ */
+$messages['he'] = array(
+	'babel-directionality' => 'rtl',
 );
 
 /** Hindi (हिन्दी)
@@ -1694,18 +1702,24 @@ $messages['stq'] = array(
  * @author Irwangatot
  */
 $messages['su'] = array(
-	'babel'                => 'Informasi Babel Pamaké',
+	'babel'                => 'Katerangan Babel Pamaké',
 	'babel-desc'           => 'Nambahan fungsi parser <tt>#babel</tt> pikeun mintonkeun lajur babel kotak pamaké sacara otomatis jeung pangabisa ngagunakeun citakan dinamis',
 	'babel-url'            => 'Project:Babel',
 	'babel-directionality' => 'ltr',
 	'babel-0'              => 'Pamaké ieu [[$1|teu]] ngarti [[$2|$3]] (atawa saeutik-saeutik ngartina).',
 	'babel-1'              => 'Pamaké ieu gaduh kamampuan [[$2|$3]] hambalan [[$1|dasar]].',
-	'babel-2'              => 'Pamaké ieu bisa nulis dina [[$2|$3]] hambalan [[$1|panengah]].',
-	'babel-3'              => 'Pamaké ieu tiasa [[$2|$3]] anu [[$1|sampurna]].',
+	'babel-2'              => 'Pamaké ieu gaduh kamampuan [[$2|$3]] hambalan [[$1|panengah]].',
+	'babel-3'              => 'Pamaké ieu [[$1|mahér]] [[$2|$3]].',
+	'babel-4'              => 'Pamaké ieu tiasa [[$2|$3]] anu [[$1|sampurna]].',
+	'babel-5'              => 'Pamaké ieu tiasa [[$2|$3]] anu [[$1|mahér tur sampurna]].',
+	'babel-N'              => 'Pamaké ieu [[$1|tulen]] bisa [[$2|$3]].',
 	'babel-0-n'            => 'Pamaké ieu [[$1|teu]] ngarti [[$2|basa Sunda]] (atawa saeutik-saeutik ngartina).',
 	'babel-1-n'            => 'Pamaké ieu gaduh kamampuan [[$2|basa Sunda]] hambalan [[$1|dasar]].',
-	'babel-2-n'            => 'Pamaké ieu bisa nulis dina [[$2|basa Sunda]] hambalan [[$1|panengah]].',
-	'babel-3-n'            => 'Pamaké ieu tiasa [[$2|basa Sunda]] anu [[$1|sampurna]].',
+	'babel-2-n'            => 'Pamaké ieu gaduh kamampuan [[$2|basa Sunda]] hambalan [[$1|panengah]].',
+	'babel-3-n'            => 'Pamaké ieu [[$1|mahér]] [[$2|basa Sunda]].',
+	'babel-4-n'            => 'Pamaké ieu tiasa [[$2|basa Sunda]] anu [[$1|sampurna]].',
+	'babel-5-n'            => 'Pamaké ieu tiasa [[$2|basa Sunda]] anu [[$1|mahér tur sampurna]].',
+	'babel-N-n'            => 'Pamaké ieu [[$1|tulen]] bisa [[$2|basa Sunda]] .',
 );
 
 /** Swedish (Svenska)
@@ -1832,6 +1846,13 @@ $messages['th'] = array(
 	'babel-4-n'            => 'ผู้ใช้คนนี้สามารถใช้[[$2|ภาษาอังกฤษ]]ได้เหมือน[[$1|ภาษาแม่]]',
 	'babel-5-n'            => 'ผู้ใช้คนนี้สามารถใช้[[$2|ภาษาอังกฤษ]]ได้อย่าง[[$1|เชี่ยวชาญ]]',
 	'babel-N-n'            => 'ผู้ใช้คนนี้ใช้[[$2|ภาษาอังกฤษ]]เป็น[[$1|ภาษาแม่]]',
+);
+
+/** Turkish (Türkçe)
+ * @author Karduelis
+ */
+$messages['tr'] = array(
+	'babel' => 'Babil kullanıcı bilgileri',
 );
 
 /** Ukrainian (Українська)
