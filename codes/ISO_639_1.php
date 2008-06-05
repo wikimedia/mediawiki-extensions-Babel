@@ -565,3 +565,20 @@ $codes = array(
 	            ISO_639_3 => 'zul',
 	        ),
 );
+
+
+function get1to3() {
+	global $codes;
+	return $codes;
+}
+
+function get3to1() {
+	global $codes;
+	$codes3to1=array();
+	foreach ($codes as $code1=>$codes3) {
+		foreach($codes3 as $code3) {
+			$codes3to1[$code3]=$code1;
+		}
+	}
+	return $codes3to1;
+}
