@@ -257,6 +257,28 @@ $messages['bg'] = array(
 	'babel-N-male'   => 'За този потребител [[$2|българският език]] е [[$1|роден]].',
 );
 
+/** Bengali (বাংলা) */
+$messages['bn'] = array(
+	'babel'                => 'ব্যবহারকারীর বাবেল তথ্য',
+	'babel-desc'           => 'নিজের করা টেম্পলেটে সয়ংক্রিয় বাবেল ব্যবহারকারী বাক্স কলাম যোগ করতে <tt>#babel</tt> পার্সার ফাংসন যোগ করুন',
+	'babel-url'            => 'Project:বাবেল',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'এ ব্যবহারকারীর [[$2|$3]] এর উপর কোন ধারণা [[$1|নাই]] (অথবা তা খুব কষ্টে বুঝতে পারেন)।',
+	'babel-1'              => 'এ ব্যবহারকারী [[$2|$3]] এর উপর [[$1|সাধারণ]] ধারণা রয়েছে।',
+	'babel-2'              => 'এ ব্যবহারকারীর [[$2|$3]] এর উপরে [[$1|মাধ্যমিক]] জ্ঞান রয়েছে।',
+	'babel-3'              => 'এ ব্যবহারকারীর [[$2|$3]] এর উপরে [[$1|ভাল]] ধারণা রয়েছে।',
+	'babel-4'              => 'এ ব্যবহারকারীর [[$2|$3]] এর উপরে [[$1|প্রায় মাতৃভাষার কাছাকাছি]] ধারণা রয়েছে।',
+	'babel-5'              => 'এ ব্যবহারকারীর [[$2|$3]] এর উপরে [[$1|খুব ভাল]] ধারণা রয়েছে।',
+	'babel-N'              => 'এ ব্যবহারকারীর [[$2|$3]] এর উপরে [[$1|মাতৃভাষার মতন]] ধারণা রয়েছে।',
+	'babel-0-n'            => 'এ ব্যবহারকারীর [[$2|English]] এর উপরে কোন ধারণা [[$1|নাই]] (অথবা তা খুব কষ্টে বুঝতে পারেন)।',
+	'babel-1-n'            => 'এ ব্যবহারকারীর [[$2|English]] এর উপরে [[$1|সাধারণ]] ধারণা রয়েছে।',
+	'babel-2-n'            => 'এ ব্যবহারকারীর [[$2|English]] এর উপরে [[$1|মাধ্যমিক]] ধারণা রয়েছে।',
+	'babel-3-n'            => 'এ ব্যবহারকারীর [[$2|English]] এর উপরে [[$1|ভাল]] ধারণা রয়েছে।',
+	'babel-4-n'            => 'এ ব্যবহারকারীর [[$2|English]] এর উপরে [[$1|প্রায় মাতৃভাষার কাছাকাছি]] ধারণা রয়েছে।',
+	'babel-5-n'            => 'এ ব্যবহারকারীর [[$2|English]] এর উপরে [[$1|খুব ভাল]] ধারণা রয়েছে।',
+	'babel-N-n'            => 'এ ব্যবহারকারীর [[$2|English]] এর উপরে [[$1|মাতৃভাষার মতন]] ধারণা রয়েছে।',
+);
+
 /** Catalan (Català)
  * @author SMP
  * @author Toniher
@@ -329,7 +351,7 @@ $messages['cu'] = array(
  * @author Lloffiwr
  */
 $messages['cy'] = array(
-	'babel'      => 'Gwybodaeth Am Ieithoedd Y Defnyddiwr',
+	'babel'      => 'Gwybodaeth am ieithoedd y defnyddiwr',
 	'babel-desc' => "Yn ychwanegu'r ffwythiant dosrannu <tt>#babel</tt> er mwyn gosod blwch ieithoedd y defnyddiwr yn awtomatig, a chyda'r modd i gynnwys nodiadau pwrpasol",
 	'babel-url'  => 'Project:Babel',
 	'babel-0'    => "[[$1|Nid]] yw'r defnyddiwr 'ma yn medru [[$2|$3]] (neu mae'n cael hi'n anodd iawn ei deall).",
@@ -557,6 +579,28 @@ $messages['fr'] = array(
 	'babel-4-n'            => 'Cet utilisateur dispose de connaissances proches de la [[$1|langue maternelle]] en [[$2|français]].',
 	'babel-5-n'            => "Cet utilisateur dispose d'un niveau de connaissances [[$1|professionel]] du [[$2|français]].",
 	'babel-N-n'            => 'Cet utilisateur a pour [[$1|langue maternelle]] le [[$2|français]].',
+);
+
+/** Irish (Gaeilge) */
+$messages['ga'] = array(
+	'babel'                => 'Eolas Úsáideoir Baibéal',
+	'babel-desc'           => 'Cuir an <tt>#babel</tt> feidhm parsálaí chun cheadaigh giniúint uathoibrithe an bosca úsáideoir baibéal leis an chumas chun teimpléid saincheaptha a chur san áireamh',
+	'babel-url'            => 'Project:Baibéal',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => '[[$1|Níl aon]] [[$2|$3]] ag an t-úsáideoir seo (nó is beag atá sí aige).',
+	'babel-1'              => 'Tá [[$1|bun]]-[[$2|$3]] ag an úsáideoir seo.',
+	'babel-2'              => 'Tá leibhéal [[$1|meánach]] na [[$2|$3]] ag an úsáideoir seo.',
+	'babel-3'              => 'Tá [[$1|ard]]-[[$2|$3]] ag an úsáideoir seo.',
+	'babel-4'              => 'Tá [[$2|$3]] [[$1|beagnach dúchasach]] ag an úsáideoir seo.',
+	'babel-5'              => 'Tá [[$2|$3]] [[$1|gairmiúil]] ag an úsáideoir seo.',
+	'babel-N'              => 'Tá [[$2|$3]] [[$1|dúchasach]] ag an úsáideoir seo.',
+	'babel-0-n'            => '[[$1|Níl aon]] [[$2|Gaeilge]] ag an t-úsáideoir seo (nó is beag atá sí aige).',
+	'babel-1-n'            => 'Tá [[$1|bun]]-[[$2|Ghaeilge]] ag an úsáideoir seo.',
+	'babel-2-n'            => 'Tá leibhéal [[$1|meánach]] na [[$2|Gaeilge]] ag an úsáideoir seo.',
+	'babel-3-n'            => 'Tá [[$1|ard]]-[[$2|Ghaeilge]] ag an úsáideoir seo.',
+	'babel-4-n'            => 'Tá [[$2|Gaeilge]] [[$1|beagnach dúchasach]] ag an úsáideoir seo.',
+	'babel-5-n'            => 'Tá [[$2|Gaeilge]] [[$1|gairmiúil]] ag an úsáideoir seo.',
+	'babel-N-n'            => 'Tá [[$2|Gaeilge]] [[$1|dúchasach]] ag an úsáideoir seo.',
 );
 
 /** Galician (Galego)
@@ -787,7 +831,7 @@ $messages['io'] = array(
  * @author Cruccone
  */
 $messages['it'] = array(
-	'babel'                => "Informazioni sull'utente di Babel",
+	'babel'                => 'Babel utente',
 	'babel-desc'           => 'Aggiunge la parser function <tt>#babel</tt> per permettere la generazione automatica di una colonna box utente babel con la possibilità di includere template personalizzati',
 	'babel-url'            => 'Project:Babel',
 	'babel-directionality' => 'ltr',
@@ -982,10 +1026,10 @@ $messages['ksh'] = array(
  * @author SPQRobin
  */
 $messages['la'] = array(
-	'babel-0-n' => 'Hic usor [[$1|nullo pacto]] aut aegre [[$2|latinitate]] contribuere potest.',
-	'babel-1-n' => 'Hic usor [[$1|simplice]] [[$2|latinitate]] contribuere potest.',
-	'babel-2-n' => 'Hic usor [[$1|media]] [[$2|latinitate]] contribuere potest.',
-	'babel-3-n' => 'Hic usor [[$1|callidissima]] [[$2|latinitate]] contribuere potest.',
+	'babel-0-n' => 'Hic usor [[$1|nullo pacto]] aut aegre [[$2|Latinitate]] contribuere potest.',
+	'babel-1-n' => 'Hic usor [[$1|simplice]] [[$2|Latinitate]] contribuere potest.',
+	'babel-2-n' => 'Hic usor [[$1|media]] [[$2|Latinitate]] contribuere potest.',
+	'babel-3-n' => 'Hic usor [[$1|callidissima]] [[$2|Latinitate]] contribuere potest.',
 );
 
 /** Ladino (Ladino)
@@ -1112,28 +1156,28 @@ $messages['lv'] = array(
 	'babel-N-n' => 'Šim lietotājam [[$2|Latviešu valoda]] ir [[$1|dzimtā valoda]].',
 );
 
-/** Moksha (мокшень кяль)
+/** Moksha (Мокшень)
  * @author Khazar II
  */
 $messages['mdf'] = array(
-	'babel'                => 'Вавилонца тиить информациец',
-	'babel-desc'           => 'Поладсы <tt>#babel</tt> синтаксонь анализаторть функциенц, конань вельде ули кода нолдамс тевс вавилонца тиить куднянц палманец кърдань шаблононь сувафнемать эсь тиевома мархта',
+	'babel'                => 'Вавилонца тиить кяльхнень содаманц колга информацись',
+	'babel-desc'           => 'Поладсы <tt>#babel</tt> синтаксонь анализаторть функциесь, конань вельде сувафневи  информациень палманць вавилонца тиить кяльхнень содаманц колга ди иля шаблоттне',
 	'babel-url'            => 'Project:Вавилон',
 	'babel-directionality' => 'ltr',
-	'babel-0'              => 'Тя тиись [[$1|аф]] шарьхкоди [[$2|$3]] (эли шарьходьсы пяк кальдявста).',
-	'babel-1'              => 'Тя тиись содасы [[$1|мъзярошка]] валхт [[$2|$3]].',
-	'babel-2'              => 'Тят тиись шарьхкоди ди [[$1|машты аф лама]] корхтамс [[$2|$3]].',
-	'babel-3'              => 'Тя тиись шарьхкоди [[$1|корхтай]] ди сёрмады [[$2|$3]].',
-	'babel-4'              => 'Тя тиись машты [[$1|кода эсь кяльса]] корхтамс [[$2|$3]].',
-	'babel-5'              => 'Тя тиись машты [[$1|кода кялень содайсь]] корхтамс [[$2|$3]].',
-	'babel-N'              => 'Тя тиись [[$1|идькспингстонза]] корхтай [[$2|$3]].',
-	'babel-0-n'            => 'Тя тиись [[$1|аф]] шарьхкоди [[$2|англакс]] (эли шарьходьсы пяк кальдявста).',
-	'babel-1-n'            => 'Тя тиись содасы [[$1|мъзярошка]] валхт [[$2|англакс]].',
-	'babel-2-n'            => 'Тят тиись шарьхкоди ди [[$1|машты аф лама]] корхтамс [[$2|англакс]].',
-	'babel-3-n'            => 'Тя тиись шарьхкоди [[$1|корхтай]] ди сёрмады [[$2|англакс]].',
-	'babel-4-n'            => 'Тя тиись машты [[$1|кода эсь кяльса]] корхтамс [[$2|англакс]].',
-	'babel-5-n'            => 'Тя тиись машты [[$1|кода кялень содайсь]] корхтамс [[$2|англакс]].',
-	'babel-N-n'            => 'Тя тиись [[$1|идькспингстонза]] корхтай [[$2|англакс]].',
+	'babel-0'              => 'Тя тиись [[$1|аф шарьхкоди ]]  [[$2|$3]] (эли шарьхкоди пяк кальдявста).',
+	'babel-1'              => 'Тя тиись [[$1|аф лама шарьхкоди ]] [[$2|$3]].',
+	'babel-2'              => 'Тят тиись [[$1|шарьхкоди ]] [[$2|$3]].',
+	'babel-3'              => 'Тя тиись [[$1|лац содасы]] [[$2|$3]].',
+	'babel-4'              => 'Тя тиись  [[$1|кода эсь кяль]] содасы [[$2|$3]].',
+	'babel-5'              => 'Тя тиись  [[$1|кода кялень содайсь]] содасы [[$2|$3]].',
+	'babel-N'              => 'Тя тиись [[$1|идькспингстонза ]] содасы [[$2|$3]].',
+	'babel-0-n'            => 'Тя тиись [[$1|аф шарьхкоди ]]  [[$2|мокшекс]].',
+	'babel-1-n'            => 'Тя тиись [[$1|аф лама шарьхкоди ]] [[$2|мокшекс]].',
+	'babel-2-n'            => 'Тят тиись машты [[$1| шарьхкодемс ди аф лама корхтамс ]] [[$2|мокшекс]].',
+	'babel-3-n'            => 'Тя тиись машты [[$1|лац корхтамс ди сёрмадомс ]] [[$2|мокшекс]].',
+	'babel-4-n'            => 'Тя тиись машты [[$1|кода эсь кяльса]] корхтамс [[$2|мокшекс]].',
+	'babel-5-n'            => 'Тя тиись машты [[$1|кода кялень содайсь корхтамс ]]  [[$2|мокшекс]].',
+	'babel-N-n'            => 'Тя тиись [[$1|идькспингстонза корхтай ]]  [[$2|мокшекс]].',
 );
 
 /** Malayalam (മലയാളം)
