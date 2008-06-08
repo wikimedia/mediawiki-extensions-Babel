@@ -257,7 +257,9 @@ $messages['bg'] = array(
 	'babel-N-male'   => 'За този потребител [[$2|българският език]] е [[$1|роден]].',
 );
 
-/** Bengali (বাংলা) */
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
 $messages['bn'] = array(
 	'babel'                => 'ব্যবহারকারীর বাবেল তথ্য',
 	'babel-desc'           => 'নিজের করা টেম্পলেটে সয়ংক্রিয় বাবেল ব্যবহারকারী বাক্স কলাম যোগ করতে <tt>#babel</tt> পার্সার ফাংসন যোগ করুন',
@@ -581,20 +583,24 @@ $messages['fr'] = array(
 	'babel-N-n'            => 'Cet utilisateur a pour [[$1|langue maternelle]] le [[$2|français]].',
 );
 
-/** Irish (Gaeilge) */
+/** Irish (Gaeilge)
+ * @author Alison
+ * @author Moilleadóir
+ * @author GerardM
+ */
 $messages['ga'] = array(
-	'babel'                => 'Eolas Úsáideoir Baibéal',
-	'babel-desc'           => 'Cuir an <tt>#babel</tt> feidhm parsálaí chun cheadaigh giniúint uathoibrithe an bosca úsáideoir baibéal leis an chumas chun teimpléid saincheaptha a chur san áireamh',
-	'babel-url'            => 'Project:Baibéal',
+	'babel'                => 'Eolas Báibil don Úsáideoir',
+	'babel-desc'           => 'Cruthaíonn sé seo an fheidhm pharsálaí <tt>#babel</tt> a chuireann ar chumas an úsáideora colún a ghiniúint go huathoibríoch i mbosca Báibil agus teimpléid saincheaptha a chur ann.',
+	'babel-url'            => 'Project:Báibil',
 	'babel-directionality' => 'ltr',
-	'babel-0'              => '[[$1|Níl aon]] [[$2|$3]] ag an t-úsáideoir seo (nó is beag atá sí aige).',
+	'babel-0'              => 'Níl [[$2|$3]] [[$1|ar bith]] ag an t-úsáideoir seo (nó is deacair dó í a thuiscint).',
 	'babel-1'              => 'Tá [[$1|bun]]-[[$2|$3]] ag an úsáideoir seo.',
 	'babel-2'              => 'Tá leibhéal [[$1|meánach]] na [[$2|$3]] ag an úsáideoir seo.',
 	'babel-3'              => 'Tá [[$1|ard]]-[[$2|$3]] ag an úsáideoir seo.',
 	'babel-4'              => 'Tá [[$2|$3]] [[$1|beagnach dúchasach]] ag an úsáideoir seo.',
 	'babel-5'              => 'Tá [[$2|$3]] [[$1|gairmiúil]] ag an úsáideoir seo.',
 	'babel-N'              => 'Tá [[$2|$3]] [[$1|dúchasach]] ag an úsáideoir seo.',
-	'babel-0-n'            => '[[$1|Níl aon]] [[$2|Gaeilge]] ag an t-úsáideoir seo (nó is beag atá sí aige).',
+	'babel-0-n'            => 'Níl [[$2|Gaeilge]] [[$1|ar bith]] ag an t-úsáideoir seo (nó is deacair dó í a thuiscint).',
 	'babel-1-n'            => 'Tá [[$1|bun]]-[[$2|Ghaeilge]] ag an úsáideoir seo.',
 	'babel-2-n'            => 'Tá leibhéal [[$1|meánach]] na [[$2|Gaeilge]] ag an úsáideoir seo.',
 	'babel-3-n'            => 'Tá [[$1|ard]]-[[$2|Ghaeilge]] ag an úsáideoir seo.',
@@ -829,6 +835,7 @@ $messages['io'] = array(
 
 /** Italian (Italiano)
  * @author Cruccone
+ * @author Melos
  */
 $messages['it'] = array(
 	'babel'                => 'Babel utente',
