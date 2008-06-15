@@ -152,6 +152,17 @@ $messages['ast'] = array(
 	'babel-N-n' => "Esti usuariu ye un falante [[$1|nativu]] d'[[$2|asturianu]].",
 );
 
+/** بلوچی مکرانی (بلوچی مکرانی)
+ * @author Siebrand
+ * @author Mostafadaneshvar
+ */
+$messages['bcc'] = array(
+	'babel'                => 'اطلاعات کاربری بابل',
+	'babel-desc'           => 'اضافه کنت <tt>#babel</tt>  عملگر وانوک په اجازه داتن په یک ستون حعبه کاربری گون توانایی اضافه کتن ونی تمپلتان',
+	'babel-url'            => 'پروژه:بابل',
+	'babel-directionality' => 'rtl',
+);
+
 /** Belarusian (Беларуская)
  * @author Yury Tarasievich
  */
@@ -616,6 +627,7 @@ $messages['gl'] = array(
 	'babel'                => 'Información Babel do usuario',
 	'babel-desc'           => 'Engade a función analítica <tt>#babel</tt> para permitir a xeración automática dunha caixa de usuario Babel coa posibilidade de incluír modelos personalizados',
 	'babel-url'            => 'Project:Babel',
+	'babel-directionality' => 'de esquerda a dereita',
 	'babel-0'              => 'Este usuario [[$1|non]] ten ningún coñecemento de [[$2|$3]] (ou ten dificultades para entendelo).',
 	'babel-1'              => 'Este usuario ten un coñecemento [[$1|básico]] de [[$2|$3]].',
 	'babel-2'              => 'Este usuario ten un coñecemento [[$1|intermedio]] de [[$2|$3]].',
@@ -1185,6 +1197,30 @@ $messages['mdf'] = array(
 	'babel-4-n'            => 'Тя тиись машты [[$1|кода эсь кяльса]] корхтамс [[$2|мокшекс]].',
 	'babel-5-n'            => 'Тя тиись машты [[$1|кода кялень содайсь корхтамс ]]  [[$2|мокшекс]].',
 	'babel-N-n'            => 'Тя тиись [[$1|идькспингстонза корхтай ]]  [[$2|мокшекс]].',
+);
+
+/** Macedonian (Македонски)
+ * @author INkubusse
+ */
+$messages['mk'] = array(
+	'babel'                => 'Кориснички информации за јазици',
+	'babel-desc'           => 'Ја додава парсер функцијата <tt>#babel</tt> со што се дозволува автоматизирано генерирање на колони со кориснички кутии од типот „Вавилон“, со можноста да се додаваат сопствени шаблони',
+	'babel-url'            => 'Project:Вавилон',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Овој корисник [[$1|не]] разбира [[$2|$3]] (или разбира со значајни тешкотии).',
+	'babel-1'              => 'Овој корисник разбира [[$2|$3]] на [[$1|основно]] ниво.',
+	'babel-2'              => 'Овој корисник разбира [[$2|$3]] на [[$1|средно]] ниво.',
+	'babel-3'              => 'Овој корисник разбира [[$2|$3]] на [[$1|напредно]] ниво.',
+	'babel-4'              => 'Овој корисник разбира [[$2|$3]] речиси како [[$1|мајчин јазик]].',
+	'babel-5'              => 'Овој корисник разбира [[$2|$3]] на [[$1|професионално]] ниво.',
+	'babel-N'              => 'Овој корисник зборува [[$2|$3]] како [[$1|мајчин јазик]].',
+	'babel-0-n'            => 'Овој корисник [[$1|не]] разбира [[$2|македонски]] (или разбира со значајни тешкотии).',
+	'babel-1-n'            => 'Овој корисник разбира [[$2|македонски]] на [[$1|основно]] ниво.',
+	'babel-2-n'            => 'Овој корисник разбира [[$2|македонски]] на [[$1|средно]] ниво.',
+	'babel-3-n'            => 'Овој корисник разбира [[$2|македонски]] на [[$1|напредно]] ниво.',
+	'babel-4-n'            => 'Овој корисник разбира [[$2|македонски]] речиси како [[$1|мајчин јазик]].',
+	'babel-5-n'            => 'Овој корисник разбира [[$2|македонски]] на [[$1|професионално]] ниво.',
+	'babel-N-n'            => 'Овој корисник зборува [[$2|македонски]] како [[$1|мајчин јазик]].',
 );
 
 /** Malayalam (മലയാളം)
