@@ -120,7 +120,7 @@ class Babel {
 			/* Check if the parameter is a valid template name, if it is then
 			 * include that template.
 			 */
-			if( $this->_templateExists( $name ) ) {
+			if( $this->_templateExists( $name ) && $name !== '' ) {
 
 				$contents .= $parser->replaceVariables( "{{{$this->_addFixes( $name,'template' )}}}" );
 
