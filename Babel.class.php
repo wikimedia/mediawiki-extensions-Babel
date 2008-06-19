@@ -162,13 +162,13 @@ class Babel {
 			} elseif( $this->_validTitle( $name ) ) {
 
 				/* Non-existant page and invalid parameter syntax, red link */
-				$contents .= "[[Template:{$this->_addFixes( $name,'template' )}]]";
+				$contents .= "\n[[Template:{$this->_addFixes( $name,'template' )}]]";
 
 			} else {
 
 				/* Invalid title, output raw.
 				 */
-				$contents .= "Template:{$this->_addFixes( $name,'template' )}";
+				$contents .= "\nTemplate:{$this->_addFixes( $name,'template' )}";
 
 			}
 
