@@ -23,6 +23,37 @@ class Babel {
 	 */
 	private $_gender = self::GENDER_NEUTER;
 
+	/* Array of language codes.
+	 */
+	private $_codes;
+
+	/* Preferred order of ISO language code standards.
+	 */
+	private $_order = array(
+		ISO_639_1,
+		ISO_639_3,
+	);
+
+	/**
+	 * Load the language codes from an array of standards to files into the
+	 * language codes array.
+	 *
+	 * @param array $file Array of files to load language codes from.
+	 */
+	public function __construct( $files ) {
+
+		/* Loop through all standards.
+		 */
+		foreach( $this->_order as $standard ) {
+
+			/* Load file for the current standard.
+			 */
+			$this->_loadCodes( $standard, $files[ $standard ] );
+
+		}
+
+	}
+
 	/**
 	 * Registers the parser function hook.
 	 * 
@@ -30,15 +61,14 @@ class Babel {
 	 */
 	static public function Setup() {
 
-		/* Initialise the languages code object.
+		/* Get the location of the language codes file.
 		 */
-		global $wgLanguageCodes, $wgLanguageCodesFiles;
-		$wgLanguageCodes = new LanguageCodes( $wgLanguageCodesFiles );
+		global $wgLanguageCodesFiles;
 
 		/* Initialise the Babel object.
 		 */
 		global $wgBabel;
-		$wgBabel = new Babel;
+		$wgBabel = new Babel( $wgLanguageCodesFiles );
 
 		/* Register the hook within the parser object.
 		 */
@@ -366,10 +396,6 @@ HEREDOC;
 	 */
 	private function _parseParameter( $parameter ) {
 
-		/* Get language codes object.
-		 */
-		global $wgLanguageCodes;
-
 		/* Break up the parameter on - (which seperates it's two parts).
 		 */
 		$chunks = explode( '-', $parameter );
@@ -387,11 +413,11 @@ HEREDOC;
 
 			/* Check whether the language code is valid.
 			 */
-			if( $wgLanguageCodes->check( $chunks[ 0 ] ) ) {
+			if( $this->_checkCode( $chunks[ 0 ] ) ) {
 
 				/* Set the code for returning.
 				 */
-				$return[ 'code' ] = $wgLanguageCodes->get( $chunks[ 0 ] );
+				$return[ 'code' ] = $this->_getCode( $chunks[ 0 ] );
 
 				/* This form defaults to level 'N'.
 				 */
@@ -416,11 +442,11 @@ HEREDOC;
 
 			/* Check whether the language code is valid.
 			 */
-			if( $wgLanguageCodes->check( $chunks[ 0 ] ) ) {
+			if( $this->_checkCode( $chunks[ 0 ] ) ) {
 
 				/* Set the code for returning.
 				 */
-				$return[ 'code' ] = $wgLanguageCodes->get( $chunks[ 0 ] );
+				$return[ 'code' ] = $this->_getCode( $chunks[ 0 ] );
 
 			} else {
 
@@ -470,13 +496,9 @@ HEREDOC;
 	 */
 	private function _generateBox( $code, $level ) {
 
-		/* Get language codes class.
-		 */
-		global $wgLanguageCodes;
-
 		/* Get code in favoured standard.
 		 */
-		$code = $wgLanguageCodes->get( $code );
+		$code = $this->_getCode( $code );
 
 		/* Generate the text displayed on the left hand side of the
 		 * box.
@@ -508,7 +530,7 @@ HEREDOC;
 		if( array_key_exists( $code, $names ) ) {
 			$name = $names[ $code ];
 		} else {
-			$name = $wgLanguageCodes->name( $code, 'en' );
+			$name = $this->_nameCode( $code, 'en' );
 		}
 
 		/* Generate the text displayed on the right hand side of the
@@ -715,6 +737,110 @@ HEREDOC;
 		/* Return categories.
 		 */
 		return $r;
+
+	}
+
+	/**
+	 * Load the language codes from a given file into the language codes array.
+	 *
+	 * @param const $standard Standard for the codes being loaded.
+	 * @param string $file File to load language codes from.
+	 */
+	private function _loadCodes( $standard, $file ) {
+
+		/* Include the codes file.
+		 */
+		include( $file );
+
+		/* Push the array of codes into the class method.
+		 */
+		$this->_codes[ $standard ] = $codes;
+
+	}
+
+	/**
+	 * Check if the specified code is a valid language code.
+	 *
+	 * @param string $code Code to check.
+	 * @return boolean Whether or not the code is valid.
+	 */
+	private function _checkCode( $code ) {
+
+		/* Check if the specified code has a key in the codes array for each of the
+		 * standards and return result.
+		 */
+		foreach( $this->_order as $index ) {
+
+			if( array_key_exists( strtolower( $code ), $this->_codes[ $index ] ) ) {
+				return true;
+			}
+
+		}
+
+	}
+
+	/**
+	 * Get the language code to use for a specific language, in the highest
+	 * ordered standard possible.
+	 *
+	 * @param string $code Code to get language code for.
+	 * @return string Correct code.
+	 */
+	private function _getCode( $code ) {
+
+		/* Loop through all the standards trying to find the language code
+		 * specified.
+		 */
+		foreach( $this->_order as $standard1 ) {
+
+			if( array_key_exists( strtolower( $code ), $this->_codes[ $standard1 ] ) ) {
+
+				/* Loop through all the standards again to find the highest
+				 * level alternate code.
+				 */
+				foreach( $this->_order as $standard2 ) {
+
+					if( $standard1 == $standard2 ) {
+
+							return $code;
+
+					} elseif( array_key_exists( $standard2, $this->_codes[ $standard1 ][ $code ] ) ) {
+
+							return $this->_codes[ $standard1 ][ $code ][ $standard2 ];
+
+					}
+
+				}
+
+			}
+
+		}
+
+		/* Nothing found, return input.
+		 */
+		return $code;
+
+	}
+
+	/**
+	 * Get the name of a language in a specific language (currently only eng
+	 * supported until a index of ISO 639-1 is built with language names).
+	 *
+	 * @param string $code Code to get name for.
+	 * @param string $lang Language to get name of code in.
+	 * @return string Name of language in specified language.
+	 */
+	private function _nameCode( $code, $lang = 'eng' ) {
+
+		$code = $this->_getCode( $code );
+
+		if( array_key_exists( $code, $this->_codes[ ISO_639_3 ] ) && array_key_exists( "name_$lang", $this->_codes[ ISO_639_3 ][ $code ] ) ) {
+			return $this->_codes[ ISO_639_3 ][ $code ][ "name_$lang" ];
+		}
+
+		/* Nothing found, return input.
+		 */
+		return $code;
 
 	}
 

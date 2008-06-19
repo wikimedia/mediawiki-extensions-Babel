@@ -42,8 +42,7 @@ $wgHooks[ 'LanguageGetMagic' ][] = 'Babel::Magic';
 $wgExtensionMessagesFiles[ 'Babel' ] = dirname( __FILE__ ) . '/Babel.i18n.php';
 
 // Register autoload classes.
-$wgAutoloadClasses[ 'Babel'                           ] = dirname( __FILE__ ) . '/Babel.class.php';
-$wgAutoloadClasses[ 'LanguageCodes'                   ] = dirname( __FILE__ ) . '/LanguageCodes.class.php';
+$wgAutoloadClasses[ 'Babel' ] = dirname( __FILE__ ) . '/Babel.class.php';
 
 // Definitions.
 define( 'ISO_639_1', 1 );
