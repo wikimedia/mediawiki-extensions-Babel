@@ -55,57 +55,11 @@ class Babel {
 	}
 
 	/**
-	 * Registers the parser function hook.
-	 * 
-	 * @return true
+	 * Render the Babel tower.
+	 *
+	 * @param parser $parser Parser object.
+	 * @return string Babel tower.
 	 */
-	static public function Setup() {
-
-		/* Get the location of the language codes file.
-		 */
-		global $wgLanguageCodesFiles;
-
-		/* Initialise the Babel object.
-		 */
-		global $wgBabel;
-		$wgBabel = new Babel( $wgLanguageCodesFiles );
-
-		/* Register the hook within the parser object.
-		 */
-		global $wgParser;
-		$wgParser->setFunctionHook( 'babel', array( $wgBabel, 'Render' ) );
-
-		/* Return true to ensure processing is continued and an exception is not
-		 * generated.
-		 */
-		return true;
-
-	}
-
-	/**
-	 * Registers the parser function magic word.
-	 * 
-	 * @param array $magicWords The associative array of magic words on the
-	 *                          wiki for adding too.
-	 * @param string $langCode Content language code of the wiki.
-	 * @return true
-	 */
-	static public function Magic( array $magicWords, $langCode ) {
-
-		/* Register the magic word, maybe one day this could be localised by adding
-		 * synonyms into the array -- but there is currently no simple way of doing
-		 * that given the current way of localisation.  The first element is set to
-		 * 0 so that it can be case insensitive.
-		 */
-		$magicWords[ 'babel' ] = array( 0, 'babel' );
-
-		/* Return true to ensure processing is continued and an exception is not
-		 * generated.
-		 */
-		return true;
-
-	}
-
 	public function Render( $parser ) {
 
 		/* Store all the parameters passed to this function in an array.

@@ -30,19 +30,20 @@ $wgExtensionCredits[ 'parserhook' ][] = array(
 
 // Register setup function.
 if( defined( 'MW_SUPPORTS_PARSERFIRSTCALLINIT' ) ) {
-	$wgHooks[ 'ParserFirstCallInit' ][] = 'Babel::Setup';
+	$wgHooks[ 'ParserFirstCallInit' ][] = 'BabelStatic::Setup';
 } else {
-	$wgExtensionFunctions[] = 'Babel::Setup';
+	$wgExtensionFunctions[] = 'BabelStatic::Setup';
 }
 
 // Register required hooks.
-$wgHooks[ 'LanguageGetMagic' ][] = 'Babel::Magic';
+$wgHooks[ 'LanguageGetMagic' ][] = 'BabelStatic::Magic';
 
 // Register internationalisation file.
 $wgExtensionMessagesFiles[ 'Babel' ] = dirname( __FILE__ ) . '/Babel.i18n.php';
 
 // Register autoload classes.
-$wgAutoloadClasses[ 'Babel' ] = dirname( __FILE__ ) . '/Babel.class.php';
+$wgAutoloadClasses[ 'Babel'       ] = dirname( __FILE__ ) . '/Babel.class.php';
+$wgAutoloadClasses[ 'BabelStatic' ] = dirname( __FILE__ ) . '/BabelStatic.class.php';
 
 // Definitions.
 define( 'ISO_639_1', 1 );
