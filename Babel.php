@@ -45,14 +45,10 @@ $wgExtensionMessagesFiles[ 'Babel' ] = dirname( __FILE__ ) . '/Babel.i18n.php';
 $wgAutoloadClasses[ 'Babel'       ] = dirname( __FILE__ ) . '/Babel.class.php';
 $wgAutoloadClasses[ 'BabelStatic' ] = dirname( __FILE__ ) . '/BabelStatic.class.php';
 
-// Definitions.
-define( 'ISO_639_1', 1 );
-define( 'ISO_639_3', 3 );
-
 // Configuration setttings.
-$wgBabelUseLevelZeroCategory       = false;
-$wgBabelUseSimpleCategories        = false;
-$wgBabelUseMainCategories          = true;
-$wgLanguageCodesFiles              = array();
-$wgLanguageCodesFiles[ ISO_639_1 ] =  dirname( __FILE__ ) . '/codes/ISO_639_1.php';
-$wgLanguageCodesFiles[ ISO_639_3 ] =  dirname( __FILE__ ) . '/codes/ISO_639_3.php';
+$wgBabelUseLevelZeroCategory         = false;
+$wgBabelUseSimpleCategories          = false;
+$wgBabelUseMainCategories            = true;
+$wgLanguageCodesFiles                = array();
+$wgLanguageCodesFiles[ 'ISO_639_1' ] =  dirname( __FILE__ ) . '/codes/ISO_639_1.php';
+$wgLanguageCodesFiles[ 'ISO_639_3' ] =  dirname( __FILE__ ) . '/codes/ISO_639_3.php';

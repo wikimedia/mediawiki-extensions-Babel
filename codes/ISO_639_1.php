@@ -8,564 +8,563 @@
 
 $codes = array(
 	'aa' => array(
-	            ISO_639_3 => 'aar',
-	        ),
+				'ISO_639_3' => 'aar',
+			),
 	'ab' => array(
-	            ISO_639_3 => 'abk',
-	        ),
+				'ISO_639_3' => 'abk',
+			),
 	'ae' => array(
-	            ISO_639_3 => 'ave',
-	        ),
+				'ISO_639_3' => 'ave',
+			),
 	'af' => array(
-	            ISO_639_3 => 'afr',
-	        ),
+				'ISO_639_3' => 'afr',
+			),
 	'ak' => array(
-	            ISO_639_3 => 'aka',
-	        ),
+				'ISO_639_3' => 'aka',
+			),
 	'am' => array(
-	            ISO_639_3 => 'amh',
-	        ),
+				'ISO_639_3' => 'amh',
+			),
 	'an' => array(
-	            ISO_639_3 => 'arg',
-	        ),
+				'ISO_639_3' => 'arg',
+			),
 	'ar' => array(
-	            ISO_639_3 => 'ara',
-	        ),
+				'ISO_639_3' => 'ara',
+			),
 	'as' => array(
-	            ISO_639_3 => 'asm',
-	        ),
+				'ISO_639_3' => 'asm',
+			),
 	'av' => array(
-	            ISO_639_3 => 'ava',
-	        ),
+				'ISO_639_3' => 'ava',
+			),
 	'ay' => array(
-	            ISO_639_3 => 'aym',
-	        ),
+				'ISO_639_3' => 'aym',
+			),
 	'az' => array(
-	            ISO_639_3 => 'aze',
-	        ),
+				'ISO_639_3' => 'aze',
+			),
 	'ba' => array(
-	            ISO_639_3 => 'bak',
-	        ),
+				'ISO_639_3' => 'bak',
+			),
 	'be' => array(
-	            ISO_639_3 => 'bel',
-	        ),
+				'ISO_639_3' => 'bel',
+			),
 	'bg' => array(
-	            ISO_639_3 => 'bul',
-	        ),
+				'ISO_639_3' => 'bul',
+			),
 	'bh' => array(
-	        ),
+			),
 	'bi' => array(
-	            ISO_639_3 => 'bis',
-	        ),
+				'ISO_639_3' => 'bis',
+			),
 	'bm' => array(
-	            ISO_639_3 => 'bam',
-	        ),
+				'ISO_639_3' => 'bam',
+			),
 	'bn' => array(
-	            ISO_639_3 => 'ben',
-	        ),
+				'ISO_639_3' => 'ben',
+			),
 	'bo' => array(
-	            ISO_639_3 => 'bod',
-	        ),
+				'ISO_639_3' => 'bod',
+			),
 	'br' => array(
-	            ISO_639_3 => 'bre',
-	        ),
+				'ISO_639_3' => 'bre',
+			),
 	'bs' => array(
-	            ISO_639_3 => 'bos',
-	        ),
+				'ISO_639_3' => 'bos',
+			),
 	'ca' => array(
-	            ISO_639_3 => 'cat',
-	        ),
+				'ISO_639_3' => 'cat',
+			),
 	'ce' => array(
-	            ISO_639_3 => 'che',
-	        ),
+				'ISO_639_3' => 'che',
+			),
 	'ch' => array(
-	            ISO_639_3 => 'cha',
-	        ),
+				'ISO_639_3' => 'cha',
+			),
 	'co' => array(
-	            ISO_639_3 => 'cos',
-	        ),
+				'ISO_639_3' => 'cos',
+			),
 	'cr' => array(
-	            ISO_639_3 => 'cre',
-	        ),
+				'ISO_639_3' => 'cre',
+			),
 	'cs' => array(
-	            ISO_639_3 => 'ces',
-	        ),
+				'ISO_639_3' => 'ces',
+			),
 	'cu' => array(
-	            ISO_639_3 => 'chu',
-	        ),
+				'ISO_639_3' => 'chu',
+			),
 	'cv' => array(
-	            ISO_639_3 => 'chv',
-	        ),
+				'ISO_639_3' => 'chv',
+			),
 	'cy' => array(
-	            ISO_639_3 => 'cym',
-	        ),
+				'ISO_639_3' => 'cym',
+			),
 	'da' => array(
-	            ISO_639_3 => 'dan',
-	        ),
+				'ISO_639_3' => 'dan',
+			),
 	'de' => array(
-	            ISO_639_3 => 'deu',
-	        ),
+				'ISO_639_3' => 'deu',
+			),
 	'dv' => array(
-	            ISO_639_3 => 'div',
-	        ),
+				'ISO_639_3' => 'div',
+			),
 	'dz' => array(
-	            ISO_639_3 => 'dzo',
-	        ),
+				'ISO_639_3' => 'dzo',
+			),
 	'ee' => array(
-	            ISO_639_3 => 'ewe',
-	        ),
+				'ISO_639_3' => 'ewe',
+			),
 	'el' => array(
-	            ISO_639_3 => 'ell',
-	        ),
+				'ISO_639_3' => 'ell',
+			),
 	'en' => array(
-	            ISO_639_3 => 'eng',
-	        ),
+				'ISO_639_3' => 'eng',
+			),
 	'eo' => array(
-	            ISO_639_3 => 'epo',
-	        ),
+				'ISO_639_3' => 'epo',
+			),
 	'es' => array(
-	            ISO_639_3 => 'spa',
-	        ),
+				'ISO_639_3' => 'spa',
+			),
 	'et' => array(
-	            ISO_639_3 => 'est',
-	        ),
+				'ISO_639_3' => 'est',
+			),
 	'eu' => array(
-	            ISO_639_3 => 'eus',
-	        ),
+				'ISO_639_3' => 'eus',
+			),
 	'fa' => array(
-	            ISO_639_3 => 'fas',
-	        ),
+				'ISO_639_3' => 'fas',
+			),
 	'ff' => array(
-	            ISO_639_3 => 'ful',
-	        ),
+				'ISO_639_3' => 'ful',
+			),
 	'fi' => array(
-	            ISO_639_3 => 'fin',
-	        ),
+				'ISO_639_3' => 'fin',
+			),
 	'fj' => array(
-	            ISO_639_3 => 'fij',
-	        ),
+				'ISO_639_3' => 'fij',
+			),
 	'fo' => array(
-	            ISO_639_3 => 'fao',
-	        ),
+				'ISO_639_3' => 'fao',
+			),
 	'fr' => array(
-	            ISO_639_3 => 'fra',
-	        ),
+				'ISO_639_3' => 'fra',
+			),
 	'fy' => array(
-	            ISO_639_3 => 'fry',
-	        ),
+				'ISO_639_3' => 'fry',
+			),
 	'ga' => array(
-	            ISO_639_3 => 'gle',
-	        ),
+				'ISO_639_3' => 'gle',
+			),
 	'gd' => array(
-	            ISO_639_3 => 'gla',
-	        ),
+				'ISO_639_3' => 'gla',
+			),
 	'gl' => array(
-	            ISO_639_3 => 'glg',
-	        ),
+				'ISO_639_3' => 'glg',
+			),
 	'gn' => array(
-	            ISO_639_3 => 'grn',
-	        ),
+				'ISO_639_3' => 'grn',
+			),
 	'gu' => array(
-	            ISO_639_3 => 'guj',
-	        ),
+				'ISO_639_3' => 'guj',
+			),
 	'gv' => array(
-	            ISO_639_3 => 'glv',
-	        ),
+				'ISO_639_3' => 'glv',
+			),
 	'ha' => array(
-	            ISO_639_3 => 'hau',
-	        ),
+				'ISO_639_3' => 'hau',
+			),
 	'he' => array(
-	            ISO_639_3 => 'heb',
-	        ),
+				'ISO_639_3' => 'heb',
+			),
 	'hi' => array(
-	            ISO_639_3 => 'hin',
-	        ),
+				'ISO_639_3' => 'hin',
+			),
 	'ho' => array(
-	            ISO_639_3 => 'hmo',
-	        ),
+				'ISO_639_3' => 'hmo',
+			),
 	'hr' => array(
-	            ISO_639_3 => 'hrv',
-	        ),
+				'ISO_639_3' => 'hrv',
+			),
 	'ht' => array(
-	            ISO_639_3 => 'hat',
-	        ),
+				'ISO_639_3' => 'hat',
+			),
 	'hu' => array(
-	            ISO_639_3 => 'hun',
-	        ),
+				'ISO_639_3' => 'hun',
+			),
 	'hy' => array(
-	            ISO_639_3 => 'hye',
-	        ),
+				'ISO_639_3' => 'hye',
+			),
 	'hz' => array(
-	            ISO_639_3 => 'her',
-	        ),
+				'ISO_639_3' => 'her',
+			),
 	'ia' => array(
-	            ISO_639_3 => 'ina',
-	        ),
+				'ISO_639_3' => 'ina',
+			),
 	'id' => array(
-	            ISO_639_3 => 'ind',
-	        ),
+				'ISO_639_3' => 'ind',
+			),
 	'ie' => array(
-	            ISO_639_3 => 'ile',
-	        ),
+				'ISO_639_3' => 'ile',
+			),
 	'ig' => array(
-	            ISO_639_3 => 'ibo',
-	        ),
+				'ISO_639_3' => 'ibo',
+			),
 	'ii' => array(
-	            ISO_639_3 => 'iii',
-	        ),
+				'ISO_639_3' => 'iii',
+			),
 	'ik' => array(
-	            ISO_639_3 => 'ipk',
-	        ),
+				'ISO_639_3' => 'ipk',
+			),
 	'io' => array(
-	            ISO_639_3 => 'ido',
-	        ),
+				'ISO_639_3' => 'ido',
+			),
 	'is' => array(
-	            ISO_639_3 => 'isl',
-	        ),
+				'ISO_639_3' => 'isl',
+			),
 	'it' => array(
-	            ISO_639_3 => 'ita',
-	        ),
+				'ISO_639_3' => 'ita',
+			),
 	'iu' => array(
-	            ISO_639_3 => 'iku',
-	        ),
+				'ISO_639_3' => 'iku',
+			),
 	'ja' => array(
-	            ISO_639_3 => 'jpn',
-	        ),
+				'ISO_639_3' => 'jpn',
+			),
 	'jv' => array(
-	            ISO_639_3 => 'jav',
-	        ),
+				'ISO_639_3' => 'jav',
+			),
 	'ka' => array(
-	            ISO_639_3 => 'kat',
-	        ),
+				'ISO_639_3' => 'kat',
+			),
 	'kg' => array(
-	            ISO_639_3 => 'kon',
-	        ),
+				'ISO_639_3' => 'kon',
+			),
 	'ki' => array(
-	            ISO_639_3 => 'kik',
-	        ),
+				'ISO_639_3' => 'kik',
+			),
 	'kj' => array(
-	            ISO_639_3 => 'kua',
-	        ),
+				'ISO_639_3' => 'kua',
+			),
 	'kk' => array(
-	            ISO_639_3 => 'kaz',
-	        ),
+				'ISO_639_3' => 'kaz',
+			),
 	'kl' => array(
-	            ISO_639_3 => 'kal',
-	        ),
+				'ISO_639_3' => 'kal',
+			),
 	'km' => array(
-	            ISO_639_3 => 'khm',
-	        ),
+				'ISO_639_3' => 'khm',
+			),
 	'kn' => array(
-	            ISO_639_3 => 'kan',
-	        ),
+				'ISO_639_3' => 'kan',
+			),
 	'ko' => array(
-	            ISO_639_3 => 'kor',
-	        ),
+				'ISO_639_3' => 'kor',
+			),
 	'kr' => array(
-	            ISO_639_3 => 'kau',
-	        ),
+				'ISO_639_3' => 'kau',
+			),
 	'ks' => array(
-	            ISO_639_3 => 'kas',
-	        ),
+				'ISO_639_3' => 'kas',
+			),
 	'ku' => array(
-	            ISO_639_3 => 'kur',
-	        ),
+				'ISO_639_3' => 'kur',
+			),
 	'kv' => array(
-	            ISO_639_3 => 'kom',
-	        ),
+				'ISO_639_3' => 'kom',
+			),
 	'kw' => array(
-	            ISO_639_3 => 'cor',
-	        ),
+				'ISO_639_3' => 'cor',
+			),
 	'ky' => array(
-	            ISO_639_3 => 'kir',
-	        ),
+				'ISO_639_3' => 'kir',
+			),
 	'la' => array(
-	            ISO_639_3 => 'lat',
-	        ),
+				'ISO_639_3' => 'lat',
+			),
 	'lb' => array(
-	            ISO_639_3 => 'ltz',
-	        ),
+				'ISO_639_3' => 'ltz',
+			),
 	'lg' => array(
-	            ISO_639_3 => 'lug',
-	        ),
+				'ISO_639_3' => 'lug',
+			),
 	'li' => array(
-	            ISO_639_3 => 'lim',
-	        ),
+				'ISO_639_3' => 'lim',
+			),
 	'ln' => array(
-	            ISO_639_3 => 'lin',
-	        ),
+				'ISO_639_3' => 'lin',
+			),
 	'lo' => array(
-	            ISO_639_3 => 'lao',
-	        ),
+				'ISO_639_3' => 'lao',
+			),
 	'lt' => array(
-	            ISO_639_3 => 'lit',
-	        ),
+				'ISO_639_3' => 'lit',
+			),
 	'lu' => array(
-	            ISO_639_3 => 'lub',
-	        ),
+				'ISO_639_3' => 'lub',
+			),
 	'lv' => array(
-	            ISO_639_3 => 'lav',
-	        ),
+				'ISO_639_3' => 'lav',
+			),
 	'mg' => array(
-	            ISO_639_3 => 'mlg',
-	        ),
+				'ISO_639_3' => 'mlg',
+			),
 	'mh' => array(
-	            ISO_639_3 => 'mah',
-	        ),
+				'ISO_639_3' => 'mah',
+			),
 	'mi' => array(
-	            ISO_639_3 => 'mri',
-	        ),
+				'ISO_639_3' => 'mri',
+			),
 	'mk' => array(
-	            ISO_639_3 => 'mkd',
-	        ),
+				'ISO_639_3' => 'mkd',
+			),
 	'ml' => array(
-	            ISO_639_3 => 'mal',
-	        ),
+				'ISO_639_3' => 'mal',
+			),
 	'mn' => array(
-	            ISO_639_3 => 'mon',
-	        ),
+				'ISO_639_3' => 'mon',
+			),
 	'mo' => array(
-	            ISO_639_3 => 'mol',
-	        ),
+				'ISO_639_3' => 'mol',
+			),
 	'mr' => array(
-	            ISO_639_3 => 'mar',
-	        ),
+				'ISO_639_3' => 'mar',
+			),
 	'ms' => array(
-	            ISO_639_3 => 'msa',
-	        ),
+				'ISO_639_3' => 'msa',
+			),
 	'mt' => array(
-	            ISO_639_3 => 'mlt',
-	        ),
+				'ISO_639_3' => 'mlt',
+			),
 	'my' => array(
-	            ISO_639_3 => 'mya',
-	        ),
+				'ISO_639_3' => 'mya',
+			),
 	'na' => array(
-	            ISO_639_3 => 'nau',
-	        ),
+				'ISO_639_3' => 'nau',
+			),
 	'nb' => array(
-	            ISO_639_3 => 'nob',
-	        ),
+				'ISO_639_3' => 'nob',
+			),
 	'nd' => array(
-	            ISO_639_3 => 'nde',
-	        ),
+				'ISO_639_3' => 'nde',
+			),
 	'ne' => array(
-	            ISO_639_3 => 'nep',
-	        ),
+				'ISO_639_3' => 'nep',
+			),
 	'ng' => array(
-	            ISO_639_3 => 'ndo',
-	        ),
+				'ISO_639_3' => 'ndo',
+			),
 	'nl' => array(
-	            ISO_639_3 => 'nld',
-	        ),
+				'ISO_639_3' => 'nld',
+			),
 	'nn' => array(
-	            ISO_639_3 => 'nno',
-	        ),
+				'ISO_639_3' => 'nno',
+			),
 	'no' => array(
-	            ISO_639_3 => 'nor',
-	        ),
+				'ISO_639_3' => 'nor',
+			),
 	'nr' => array(
-	            ISO_639_3 => 'nbl',
-	        ),
+				'ISO_639_3' => 'nbl',
+			),
 	'nv' => array(
-	            ISO_639_3 => 'nav',
-	        ),
+				'ISO_639_3' => 'nav',
+			),
 	'ny' => array(
-	            ISO_639_3 => 'nya',
-	        ),
+				'ISO_639_3' => 'nya',
+			),
 	'oc' => array(
-	            ISO_639_3 => 'oci',
-	        ),
+				'ISO_639_3' => 'oci',
+			),
 	'oj' => array(
-	            ISO_639_3 => 'oji',
-	        ),
+				'ISO_639_3' => 'oji',
+			),
 	'om' => array(
-	            ISO_639_3 => 'orm',
-	        ),
+				'ISO_639_3' => 'orm',
+			),
 	'or' => array(
-	            ISO_639_3 => 'ori',
-	        ),
+				'ISO_639_3' => 'ori',
+			),
 	'os' => array(
-	            ISO_639_3 => 'oss',
-	        ),
+				'ISO_639_3' => 'oss',
+			),
 	'pa' => array(
-	            ISO_639_3 => 'pan',
-	        ),
+				'ISO_639_3' => 'pan',
+			),
 	'pi' => array(
-	            ISO_639_3 => 'pli',
-	        ),
+				'ISO_639_3' => 'pli',
+			),
 	'pl' => array(
-	            ISO_639_3 => 'pol',
-	        ),
+				'ISO_639_3' => 'pol',
+			),
 	'ps' => array(
-	            ISO_639_3 => 'pus',
-	        ),
+				'ISO_639_3' => 'pus',
+			),
 	'pt' => array(
-	            ISO_639_3 => 'por',
-	        ),
+				'ISO_639_3' => 'por',
+			),
 	'qu' => array(
-	            ISO_639_3 => 'que',
-	        ),
+				'ISO_639_3' => 'que',
+			),
 	'rm' => array(
-	            ISO_639_3 => 'roh',
-	        ),
+				'ISO_639_3' => 'roh',
+			),
 	'rn' => array(
-	            ISO_639_3 => 'run',
-	        ),
+				'ISO_639_3' => 'run',
+			),
 	'ro' => array(
-	            ISO_639_3 => 'ron',
-	        ),
+				'ISO_639_3' => 'ron',
+			),
 	'ru' => array(
-	            ISO_639_3 => 'rus',
-	        ),
+				'ISO_639_3' => 'rus',
+			),
 	'rw' => array(
-	            ISO_639_3 => 'kin',
-	        ),
+				'ISO_639_3' => 'kin',
+			),
 	'sa' => array(
-	            ISO_639_3 => 'san',
-	        ),
+				'ISO_639_3' => 'san',
+			),
 	'sc' => array(
-	            ISO_639_3 => 'srd',
-	        ),
+				'ISO_639_3' => 'srd',
+			),
 	'sd' => array(
-	            ISO_639_3 => 'snd',
-	        ),
+				'ISO_639_3' => 'snd',
+			),
 	'se' => array(
-	            ISO_639_3 => 'sme',
-	        ),
+				'ISO_639_3' => 'sme',
+			),
 	'sg' => array(
-	            ISO_639_3 => 'sag',
-	        ),
+				'ISO_639_3' => 'sag',
+			),
 	'sh' => array(
-	            ISO_639_3 => 'hbs',
-	        ),
+				'ISO_639_3' => 'hbs',
+			),
 	'si' => array(
-	            ISO_639_3 => 'sin',
-	        ),
+				'ISO_639_3' => 'sin',
+			),
 	'sk' => array(
-	            ISO_639_3 => 'slk',
-	        ),
+				'ISO_639_3' => 'slk',
+			),
 	'sl' => array(
-	            ISO_639_3 => 'slv',
-	        ),
+				'ISO_639_3' => 'slv',
+			),
 	'sm' => array(
-	            ISO_639_3 => 'smo',
-	        ),
+				'ISO_639_3' => 'smo',
+			),
 	'sn' => array(
-	            ISO_639_3 => 'sna',
-	        ),
+				'ISO_639_3' => 'sna',
+			),
 	'so' => array(
-	            ISO_639_3 => 'som',
-	        ),
+				'ISO_639_3' => 'som',
+			),
 	'sq' => array(
-	            ISO_639_3 => 'sqi',
-	        ),
+				'ISO_639_3' => 'sqi',
+			),
 	'sr' => array(
-	            ISO_639_3 => 'srp',
-	        ),
+				'ISO_639_3' => 'srp',
+			),
 	'ss' => array(
-	            ISO_639_3 => 'ssw',
-	        ),
+				'ISO_639_3' => 'ssw',
+			),
 	'st' => array(
-	            ISO_639_3 => 'sot',
-	        ),
+				'ISO_639_3' => 'sot',
+			),
 	'su' => array(
-	            ISO_639_3 => 'sun',
-	        ),
+				'ISO_639_3' => 'sun',
+			),
 	'sv' => array(
-	            ISO_639_3 => 'swe',
-	        ),
+				'ISO_639_3' => 'swe',
+			),
 	'sw' => array(
-	            ISO_639_3 => 'swa',
-	        ),
+				'ISO_639_3' => 'swa',
+			),
 	'ta' => array(
-	            ISO_639_3 => 'tam',
-	        ),
+				'ISO_639_3' => 'tam',
+			),
 	'te' => array(
-	            ISO_639_3 => 'tel',
-	        ),
+				'ISO_639_3' => 'tel',
+			),
 	'tg' => array(
-	            ISO_639_3 => 'tgk',
-	        ),
+				'ISO_639_3' => 'tgk',
+			),
 	'th' => array(
-	            ISO_639_3 => 'tha',
-	        ),
+				'ISO_639_3' => 'tha',
+			),
 	'ti' => array(
-	            ISO_639_3 => 'tir',
-	        ),
+				'ISO_639_3' => 'tir',
+			),
 	'tk' => array(
-	            ISO_639_3 => 'tuk',
-	        ),
+				'ISO_639_3' => 'tuk',
+			),
 	'tl' => array(
-	            ISO_639_3 => 'tgl',
-	        ),
+				'ISO_639_3' => 'tgl',
+			),
 	'tn' => array(
-	            ISO_639_3 => 'tsn',
-	        ),
+				'ISO_639_3' => 'tsn',
+			),
 	'to' => array(
-	            ISO_639_3 => 'ton',
-	        ),
+				'ISO_639_3' => 'ton',
+			),
 	'tr' => array(
-	            ISO_639_3 => 'tur',
-	        ),
+				'ISO_639_3' => 'tur',
+			),
 	'ts' => array(
-	            ISO_639_3 => 'tso',
-	        ),
+				'ISO_639_3' => 'tso',
+			),
 	'tt' => array(
-	            ISO_639_3 => 'tat',
-	        ),
+				'ISO_639_3' => 'tat',
+			),
 	'tw' => array(
-	            ISO_639_3 => 'twi',
-	        ),
+				'ISO_639_3' => 'twi',
+			),
 	'ty' => array(
-	            ISO_639_3 => 'tah',
-	        ),
+				'ISO_639_3' => 'tah',
+			),
 	'ug' => array(
-	            ISO_639_3 => 'uig',
-	        ),
+				'ISO_639_3' => 'uig',
+			),
 	'uk' => array(
-	            ISO_639_3 => 'ukr',
-	        ),
+				'ISO_639_3' => 'ukr',
+			),
 	'ur' => array(
-	            ISO_639_3 => 'urd',
-	        ),
+				'ISO_639_3' => 'urd',
+			),
 	'uz' => array(
-	            ISO_639_3 => 'uzb',
-	        ),
+				'ISO_639_3' => 'uzb',
+			),
 	've' => array(
-	            ISO_639_3 => 'ven',
-	        ),
+				'ISO_639_3' => 'ven',
+			),
 	'vi' => array(
-	            ISO_639_3 => 'vie',
-	        ),
+				'ISO_639_3' => 'vie',
+			),
 	'vo' => array(
-	            ISO_639_3 => 'vol',
-	        ),
+				'ISO_639_3' => 'vol',
+			),
 	'wa' => array(
-	            ISO_639_3 => 'wln',
-	        ),
+				'ISO_639_3' => 'wln',
+			),
 	'wo' => array(
-	            ISO_639_3 => 'wol',
-	        ),
+				'ISO_639_3' => 'wol',
+			),
 	'xh' => array(
-	            ISO_639_3 => 'xho',
-	        ),
+				'ISO_639_3' => 'xho',
+			),
 	'yi' => array(
-	            ISO_639_3 => 'yid',
-	        ),
+				'ISO_639_3' => 'yid',
+			),
 	'yo' => array(
-	            ISO_639_3 => 'yor',
-	        ),
+				'ISO_639_3' => 'yor',
+			),
 	'za' => array(
-	            ISO_639_3 => 'zha',
-	        ),
+				'ISO_639_3' => 'zha',
+			),
 	'zh' => array(
-	            ISO_639_3 => 'zho',
-	        ),
+				'ISO_639_3' => 'zho',
+			),
 	'zu' => array(
-	            ISO_639_3 => 'zul',
-	        ),
+				'ISO_639_3' => 'zul',
+			),
 );
-
 
 function get1to3() {
 	global $codes;

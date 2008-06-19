@@ -30,8 +30,8 @@ class Babel {
 	/* Preferred order of ISO language code standards.
 	 */
 	private $_order = array(
-		ISO_639_1,
-		ISO_639_3,
+		'ISO_639_1',
+		'ISO_639_3',
 	);
 
 	/**
@@ -788,8 +788,8 @@ HEREDOC;
 
 		$code = $this->_getCode( $code );
 
-		if( array_key_exists( $code, $this->_codes[ ISO_639_3 ] ) && array_key_exists( "name_$lang", $this->_codes[ ISO_639_3 ][ $code ] ) ) {
-			return $this->_codes[ ISO_639_3 ][ $code ][ "name_$lang" ];
+		if( array_key_exists( $code, $this->_codes[ 'ISO_639_3' ] ) && array_key_exists( "name_$lang", $this->_codes[ 'ISO_639_3' ][ $code ] ) ) {
+			return $this->_codes[ 'ISO_639_3' ][ $code ][ "name_$lang" ];
 		}
 
 		/* Nothing found, return input.
