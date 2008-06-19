@@ -15,6 +15,8 @@ class BabelStatic {
 	 */
 	public static function Setup() {
 
+		wfProfileIn( __METHOD__ );
+
 		/* Register the hook within the parser object.
 		 */
 		global $wgParser;
@@ -24,6 +26,8 @@ class BabelStatic {
 		 * generated.
 		 */
 		return true;
+
+		wfProfileOut( __METHOD__ );
 
 	}
 
@@ -37,6 +41,8 @@ class BabelStatic {
 	 */
 	public static function Magic( array $magicWords, $langCode ) {
 
+		wfProfileIn( __METHOD__ );
+
 		/* Register the magic word, maybe one day this could be localised by adding
 		 * synonyms into the array -- but there is currently no simple way of doing
 		 * that given the current way of localisation.  The first element is set to
@@ -49,6 +55,8 @@ class BabelStatic {
 		 */
 		return true;
 
+		wfProfileOut( __METHOD__ );
+
 	}
 
 	/**
@@ -58,6 +66,8 @@ class BabelStatic {
 	 * @return string Babel tower.
 	 */
 	public static function Render( $parser ) {
+
+		wfProfileIn( __METHOD__ );
 
 		/* Get the location of the language codes file.
 		 */
@@ -82,6 +92,8 @@ class BabelStatic {
 		/* Render the Babel tower and return.
 		 */
 		return call_user_func_array( array( $wgBabel, 'render' ), $args );
+
+		wfProfileOut( __METHOD__ );
 
 	}
 
