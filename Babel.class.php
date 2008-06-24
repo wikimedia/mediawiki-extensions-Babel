@@ -17,7 +17,7 @@ class Babel {
 	/* Various values from the message cache.
 	 */
 	private $_prefixes, $_suffixes, $_cellspacing, $_directionality, $_url,
-		$_title;
+		$_title, $_footer;
 
 	/* Whether or not male, female or neuter messages should be prefered.
 	 */
@@ -128,6 +128,18 @@ class Babel {
 
 		}
 
+		/* Prepare footer row, if a footer is set.
+		 */
+		if( $this->_footer != '' ) {
+
+			$footer = 'class="mw-babel-footer" | ' . $this->_footer;
+
+		} else {
+
+			$footer = '';
+
+		}
+
 		/* Generate tower, filled with contents from loop.
 		 */
 		$r = <<<HEREDOC
@@ -135,6 +147,8 @@ class Babel {
 ! [[{$this->_url}|{$this->_top}]]
 |-
 | $contents
+|-
+$footer
 |}
 HEREDOC;
 
@@ -171,6 +185,7 @@ HEREDOC;
 		 */
 		$this->_url            = wfMsgForContent( 'babel-url'             );
 		$this->_top            = wfMsgForContent( 'babel'                 );
+		$this->_footer         = wfMsgForContent( 'babel-footer'          );
 		$this->_directionality = wfMsgForContent( 'babel-directionality'  );
 		$this->_cellspacing    = wfMsgForContent( 'babel-box-cellspacing' );
 

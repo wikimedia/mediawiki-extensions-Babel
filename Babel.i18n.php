@@ -74,6 +74,8 @@ $messages['en'] = array(
 	'babel-portal-suffix'   => '', # Do not translate or duplicate this message to other languages.
 	'babel-template-prefix' => '', # Do not translate or duplicate this message to other languages.
 	'babel-template-suffix' => '', # Do not translate or duplicate this message to other languages.
+
+	'babel-footer' => '', # Do not translate or duplicate this message to other languages.
 );
 
 /** Säggssch (Säggssch)

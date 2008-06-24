@@ -50,5 +50,5 @@ $wgBabelUseLevelZeroCategory         = false;
 $wgBabelUseSimpleCategories          = false;
 $wgBabelUseMainCategories            = true;
 $wgLanguageCodesFiles                = array();
-$wgLanguageCodesFiles[ 'ISO_639_1' ] =  dirname( __FILE__ ) . '/codes/ISO_639_1.php';
-$wgLanguageCodesFiles[ 'ISO_639_3' ] =  dirname( __FILE__ ) . '/codes/ISO_639_3.php';
+$wgLanguageCodesFiles[ 'ISO_639_1' ] = dirname( __FILE__ ) . '/codes/ISO_639_1.php';
+$wgLanguageCodesFiles[ 'ISO_639_3' ] = dirname( __FILE__ ) . '/codes/ISO_639_3.php';

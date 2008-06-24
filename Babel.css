@@ -128,3 +128,7 @@ div.mw-babel-box-5 table {
 div.mw-babel-box-N table {
 	background-color: #C5FCDC;
 }
+
+.babel-box td.babel-footer {
+	text-align: center;
+}
