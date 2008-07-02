@@ -141,6 +141,23 @@ $messages['ar'] = array(
 	'babel-N-n'            => 'هذا المستخدم يمتلك معرفة [[$1|كلغة أم]] ب [[$2|العربية]].',
 );
 
+/** Araucanian (Mapudungun)
+ * @author Lin linao
+ */
+$messages['arn'] = array(
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Tüfachi che [[$1|chemnorume]] [[$2|kim$3lay]].',
+	'babel-1'              => 'Tüfachi che [[$1|püchintu]] [[$2|kim$3y]].',
+	'babel-2'              => 'Tüfachi che [[$1|küme]] [[$2|kim$3y]].',
+	'babel-3'              => 'Tüfachi che [[$1|rume]] [[$2|kim$3y]].',
+	'babel-N'              => 'Tüfachi che ñi [[$1|wünen dungun]] ta [[$2|$3]].',
+	'babel-0-n'            => 'Tüfachi che [[$1|chemnorume]] [[$2|kimmapudungulay]].',
+	'babel-1-n'            => 'Tüfachi che [[$1|püchintu]] [[$2|kimmapudunguy]].',
+	'babel-2-n'            => 'Tüfachi che [[$1|küme]] [[$2|kimmapudunguy]].',
+	'babel-3-n'            => 'Tüfachi che [[$1|rume]] [[$2|kimmapudunguy]].',
+	'babel-N-n'            => 'Tüfachi che ñi [[$1|wünen dungun]] ta [[$2|mapudungun]].',
+);
+
 /** Asturian (Asturianu)
  * @author Esbardu
  */
@@ -839,16 +856,27 @@ $messages['hy'] = array(
 
 /** Interlingua (Interlingua)
  * @author Malafaya
+ * @author McDutchie
  */
 $messages['ia'] = array(
-	'babel-0'   => 'Iste usator [[$1|non comprende]] [[$2|$3]] (o solmente con difficultates notabile).',
-	'babel-1'   => 'Iste usator pote contribuer con un nivello [[$1|basic]] de [[$2|$3]].',
-	'babel-2'   => 'Iste usator pote contribuer con un nivello [[$1|intermedie]] de [[$2|$3]].',
-	'babel-3'   => 'Iste usator pote contribuer con un nivello [[$1|avantiate]] de [[$2|$3]].',
-	'babel-0-n' => 'Iste usator [[$1|non comprende]] [[$2|interlingua]] (o solmente con difficultates notabile).',
-	'babel-1-n' => 'Iste usator pote contribuer con un nivello [[$1|basic]] de [[$2|interlingua]].',
-	'babel-2-n' => 'Iste usator pote contribuer con un nivello [[$1|intermedie]] de [[$2|interlingua]].',
-	'babel-3-n' => 'Iste usator pote contribuer con un nivello [[$1|avantiate]] de [[$2|interlingua]].',
+	'babel'                => 'Information de usator Babel',
+	'babel-desc'           => "Adde le function <tt>#babel</tt> del analysator syntactic, pro permitter le generation automatic de un columna a quadro de usator 'babel' con le capacitate de includer patronos personalisate.",
+	'babel-url'            => 'Project:Babel',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Iste usator [[$1|non comprende]] [[$2|$3]] (o solmente con difficultates notabile).',
+	'babel-1'              => 'Iste usator ha cognoscentias [[$1|de base]] de [[$2|$3]].',
+	'babel-2'              => 'Iste usator ha cognoscentias [[$1|medie]] de [[$2|$3]].',
+	'babel-3'              => 'Iste usator ha cognoscentias [[$1|avantiate]] de [[$2|$3]].',
+	'babel-4'              => 'Iste usator ha cognoscentias a nivello [[$1|quasi native]] de [[$2|$3]].',
+	'babel-5'              => 'Iste usator ha cognoscentias [[$1|professional]] de [[$2|$3]].',
+	'babel-N'              => 'Iste usator ha cognoscentias a nivello [[$1|native]] de [[$2|$3]].',
+	'babel-0-n'            => 'Iste usator [[$1|non comprende]] [[$2|interlingua]] (o solmente con difficultates notabile).',
+	'babel-1-n'            => 'Iste usator ha cognoscentias [[$1|de base]] de [[$2|interlingua]].',
+	'babel-2-n'            => 'Iste usator ha cognoscentias [[$1|medie]] de [[$2|interlingua]].',
+	'babel-3-n'            => 'Iste usator ha cognoscentias [[$1|avantiate]] de [[$2|interlingua]].',
+	'babel-4-n'            => 'Iste usator ha cognoscentias a nivello [[$1|quasi native]] de [[$2|anglese]].',
+	'babel-5-n'            => 'Iste usator ha cognoscentias [[$1|professional]] de [[$2|anglese]].',
+	'babel-N-n'            => 'Iste usator ha cognoscentias a nivello [[$1|native]] de [[$2|anglese]].',
 );
 
 /** Indonesian (Bahasa Indonesia)
@@ -1965,13 +1993,13 @@ $messages['th'] = array(
 	'babel-4'              => 'ผู้ใช้คนนี้สามารถใช้[[$2|$3]]ได้เหมือน[[$1|ภาษาแม่]]',
 	'babel-5'              => 'ผู้ใช้คนนี้สามารถใช้[[$2|$3]]ได้อย่าง[[$1|เชี่ยวชาญ]]',
 	'babel-N'              => 'ผู้ใช้คนนี้ใช้[[$2|$3]]เป็น[[$1|ภาษาแม่]]',
-	'babel-0-n'            => 'ผู้ใช้คนนี้[[$1|ไม่มี]]ความรู้เกี่ยวกับ[[$2|ภาษาอังกฤษ]] (หรือเข้าใจได้ด้วยความยากลำบาก)',
-	'babel-1-n'            => 'ผู้ใช้คนนี้มีความรู้[[$1|พื้นฐาน]]เกี่ยวกับ[[$2|ภาษาอังกฤษ]]',
-	'babel-2-n'            => 'ผู้ใช้คนนี้มีความรู้[[$1|ระดับกลาง]]เกี่ยวกับ[[$2|ภาษาอังกฤษ]]',
-	'babel-3-n'            => 'ผู้ใช้คนนี้มีความรู้[[$1|ระดับสูง]]เกี่ยวกับ[[$2|ภาษาอังกฤษ]]',
-	'babel-4-n'            => 'ผู้ใช้คนนี้สามารถใช้[[$2|ภาษาอังกฤษ]]ได้เหมือน[[$1|ภาษาแม่]]',
-	'babel-5-n'            => 'ผู้ใช้คนนี้สามารถใช้[[$2|ภาษาอังกฤษ]]ได้อย่าง[[$1|เชี่ยวชาญ]]',
-	'babel-N-n'            => 'ผู้ใช้คนนี้ใช้[[$2|ภาษาอังกฤษ]]เป็น[[$1|ภาษาแม่]]',
+	'babel-0-n'            => 'ผู้ใช้คนนี้[[$1|ไม่มี]]ความรู้เกี่ยวกับ[[$2|ภาษาไทย]] (หรือเข้าใจได้ด้วยความยากลำบาก)',
+	'babel-1-n'            => 'ผู้ใช้คนนี้มีความรู้[[$1|พื้นฐาน]]เกี่ยวกับ[[$2|ภาษาไทย]]',
+	'babel-2-n'            => 'ผู้ใช้คนนี้มีความรู้[[$1|ระดับกลาง]]เกี่ยวกับ[[$2|ภาษาไทย]]',
+	'babel-3-n'            => 'ผู้ใช้คนนี้มีความรู้[[$1|ระดับสูง]]เกี่ยวกับ[[$2|ภาษาไทย]]',
+	'babel-4-n'            => 'ผู้ใช้คนนี้สามารถใช้[[$2|ภาษาไทย]]ได้เหมือน[[$1|ภาษาแม่]]',
+	'babel-5-n'            => 'ผู้ใช้คนนี้สามารถใช้[[$2|ภาษาไทย]]ได้อย่าง[[$1|เชี่ยวชาญ]]',
+	'babel-N-n'            => 'ผู้ใช้คนนี้ใช้[[$2|ภาษาไทย]]เป็น[[$1|ภาษาแม่]]',
 );
 
 /** Turkish (Türkçe)
@@ -1988,22 +2016,22 @@ $messages['tr'] = array(
 $messages['uk'] = array(
 	'babel'                => 'Babel User Information',
 	'babel-desc'           => 'Додає функцію парсера <tt>#babel</tt>, яка дозволяє автоматично створювати стовпець про володіння мовами з можливістю включення інших шаблонів',
-	'babel-url'            => 'Project:Вавілон',
+	'babel-url'            => 'Project:Вавилон',
 	'babel-directionality' => 'ltr',
-	'babel-0'              => 'Цей користувач [[$1|не знає]] [[$2|української мови]] (або розуміє її дуже важко).',
-	'babel-1'              => 'Цей користувач володіє [[$2|українською мовою]] на [[$1|початковому рівні]].',
-	'babel-2'              => 'Цей користувач володіє [[$2|українською мовою]] на [[$1|середньому рівні]].',
-	'babel-3'              => 'Цей користувач володіє [[$2|українською мовою]] на [[$1|високому рівні]].',
-	'babel-4'              => 'Цей користувач володіє [[$2|українською мовою]] майже [[$1|як рідною]].',
-	'babel-5'              => 'Цей користувач [[$1|професійно]] володіє [[$2|українською мовою]].',
-	'babel-N'              => 'Для цього користувача [[$2|українська мова]] є [[$1|рідною]].',
-	'babel-0-n'            => 'Цей користувач [[$1|не розуміє]] [[$2|української мови]] (або розуміє зі значними труднощами).',
-	'babel-1-n'            => 'Цей користувач знає [[$2|українську мову]] на [[$1|початковому рівні]].',
-	'babel-2-n'            => 'Цей користувач знає [[$2|українську мову]] на [[$1|середньому рівні]].',
-	'babel-3-n'            => 'Цей користувач знає [[$2|українську мову]] на [[$1|високому рівні]].',
-	'babel-4-n'            => 'Цей користувач володіє [[$2|українською мовою]] як [[$1|рідною]].',
-	'babel-5-n'            => 'Цей коритувач [[$1|прекрасно знає]] [[$2|українську мову]].',
-	'babel-N-n'            => '[[$2|Українська мова]] для цього користувача є [[$1|рідною]].',
+	'babel-0'              => 'Цей користувач [[$1|не володіє]] [[$2|$3]] (або розуміє її дуже погано).',
+	'babel-1'              => 'Цей користувач володіє [[$2|$3]] на [[$1|початковому рівні]].',
+	'babel-2'              => 'Цей користувач володіє [[$2|$3]] на [[$1|середньому рівні]].',
+	'babel-3'              => 'Цей користувач володіє [[$2|$3]] на [[$1|високому рівні]].',
+	'babel-4'              => 'Цей користувач володіє [[$2|$3]] майже [[$1|як рідною]].',
+	'babel-5'              => 'Цей користувач [[$1|професійно]] володіє [[$2|$3]].',
+	'babel-N'              => 'Для цього користувача [[$2|$3]] є [[$1|рідною]].',
+	'babel-0-n'            => 'Цей користувач [[$1|не володіє]] [[$2|українською мовою]] (або розуміє її дуже погано).',
+	'babel-1-n'            => 'Цей користувач володіє [[$2|українською мовою]] на [[$1|початковому рівні]].',
+	'babel-2-n'            => 'Цей користувач володіє [[$2|українською мовою]] на [[$1|середньому рівні]].',
+	'babel-3-n'            => 'Цей користувач володіє [[$2|українську мову]] на [[$1|високому рівні]].',
+	'babel-4-n'            => 'Цей користувач володіє [[$2|українською мовою]] майже [[$1|як рідною]].',
+	'babel-5-n'            => 'Цей користувач [[$1|професійно]] володіє [[$2|українською мовою]].',
+	'babel-N-n'            => 'Для цього користувача [[$2|українська мова]] є [[$1|рідною]].',
 );
 
 /** Vèneto (Vèneto)
