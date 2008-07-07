@@ -171,7 +171,7 @@ $messages['ast'] = array(
 	'babel-N-n' => "Esti usuariu ye un falante [[$1|nativu]] d'[[$2|asturianu]].",
 );
 
-/** بلوچی مکرانی (بلوچی مکرانی)
+/** Southern Balochi (بلوچی مکرانی)
  * @author Mostafadaneshvar
  * @author Siebrand
  */
@@ -1128,6 +1128,7 @@ $messages['ksh'] = array(
 
 /** Latin (Latina)
  * @author SPQRobin
+ * @author UV
  */
 $messages['la'] = array(
 	'babel-0-n' => 'Hic usor [[$1|nullo pacto]] aut aegre [[$2|Latinitate]] contribuere potest.',
@@ -1899,10 +1900,11 @@ $messages['su'] = array(
  * @author M.M.S.
  * @author Lejonel
  * @author Jon Harald Søby
+ * @author Boivie
  */
 $messages['sv'] = array(
-	'babel'                => 'Babelinformation',
-	'babel-desc'           => 'Lägger till parserfunktionen <tt>#babel</tt> för att automatiskt generera en babelbox med förmågan att inkludera personliga mallar',
+	'babel'                => 'Babel Användarinformation',
+	'babel-desc'           => 'Lägger till parserfunktionen <tt>#babel</tt> för att tillåta att det automatiskt skapas en babelboxkolumn med möjligheten att lägga till anpassade mallar',
 	'babel-url'            => 'Project:Babel',
 	'babel-directionality' => 'ltr',
 	'babel-0'              => 'Den här användaren förstår [[$1|inte]] [[$2|$3]] (eller förstår det bara med stor svårighet).',
