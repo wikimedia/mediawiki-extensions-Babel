@@ -394,7 +394,7 @@ $messages['cs'] = array(
 	'babel-N-n'            => 'Tento uživatel je [[$1|rodilý mluvčí]] [[$2|češtiny]].',
 );
 
-/** Church Slavic (Словѣньскъ)
+/** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
@@ -450,10 +450,6 @@ $messages['da'] = array(
 $messages['de'] = array(
 	'babel'      => 'Babel-Benutzer-Information',
 	'babel-desc' => 'Ergänzt die <tt>#babel</tt>-Parserfunktion zur automatischen Erstellung von Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
-	'babel-url'  => 'Project:Babel',
-
-	'babel-directionality' => 'ltr',
-
 	'babel-0'    => 'Dieser Benutzer hat [[$1|keine]] Kenntnisse von [[$2|$3]] (oder versteht die Sprache nur mit beträchtlichen Schwierigkeiten).',
 	'babel-1'    => 'Dieser Benutzer hat [[$1|grundlegende]] Kenntnisse von [[$2|$3]].',
 	'babel-2'    => 'Dieser Benutzer hat [[$1|fortgeschrittene]] Kenntnisse von [[$2|$3]].',
@@ -584,7 +580,6 @@ $messages['fa'] = array(
 	'babel-5-n'            => 'این کاربر [[$2|فارسی]] را در حد [[$1|حرفه‌ای]] می‌فهمد.',
 	'babel-N-n'            => 'این کاربر [[$2|فارسی]] را در حد [[$1|زبان مادری]] می‌فهمد.',
 );
-
 
 /** Finnish (Suomi)
  * @author Nike
