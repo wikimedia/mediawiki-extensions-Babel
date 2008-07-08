@@ -614,10 +614,11 @@ $messages['fo'] = array(
  * @author UV
  * @author Verdy p
  * @author Cedric31
+ * @author Louperivois
  */
 $messages['fr'] = array(
 	'babel'                => 'Informations sur l’utilisateur de Babel',
-	'babel-desc'           => 'Ajoute une fonction parseur <tt>#babel</tt> permettant la création automatique d’une boîte d’utilisateur Babel avec la possibilité d’y inclure des modèles locaux.',
+	'babel-desc'           => 'Ajoute une fonction parseur <tt>#babel</tt> permettant la création automatique d’une boîte utilisateur Babel avec la possibilité d’y inclure des modèles locaux',
 	'babel-url'            => 'Project:Babel',
 	'babel-directionality' => 'ltr',
 	'babel-0'              => 'Cet utilisateur n’a [[$1|aucune]] connaissance en [[$2|$3]] (ou le comprend avec de grandes difficultés).',
@@ -1352,6 +1353,30 @@ $messages['mr'] = array(
 	'babel-N-n'            => 'या सदस्याला [[$2|मराठी]] चे [[$1|स्थानिक स्तराचे]] ज्ञान आहे.',
 );
 
+/** Erzya (Эрзянь)
+ * @author Botuzhaleny-sodamo
+ */
+$messages['myv'] = array(
+	'babel'                => 'Вавилононь тевс нолдыця ломанень келень содамочыде информация',
+	'babel-desc'           => 'Поладсы <tt>#babel</tt> парсерэнь функциянть, конань вельде совавтови теицянь вавилон уминес келень содамочыде информация ды лия лопа парцунт (шаблонт).',
+	'babel-url'            => 'Project:Вавилон',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Те ломансь [[$1|а чарькоди ]] [[$2|$3]]кс (эли пек стакасто чарькоди сонзэ).',
+	'babel-1'              => 'Те ломансь [[$1|аламошка чарькоди]]  [[$2|$3]]кс.',
+	'babel-2'              => 'Те ломансь [[$1|чарькоди ]] [[$2|$3]]-кс.',
+	'babel-3'              => 'Те ломансь [[$1|парсте содасы]] [[$2|$3]]-нь келенть.',
+	'babel-4'              => 'Те ломансь чарькоди [[$2|$3]]-кс [[$1|малав кода тиринь келень кортыця]].',
+	'babel-5'              => 'Те ломансь чарькоди [[$2|$3]]-нть [[$1|кода эйне паро кортыця-професионал]].',
+	'babel-N'              => 'Те ломаненть [[$1|тиринь келезэ ]] [[$2|$3]].',
+	'babel-0-n'            => 'Те ломансь [[$1|а чарькоди ]]  [[$2|эрзякс]] (эли пек стакасто чарькоди сонзэ).',
+	'babel-1-n'            => 'Те ломансь [[$1|аламошка чарькоди ]] [[$2|эрзякс]].',
+	'babel-2-n'            => 'Те ломансь [[$1|чарькоди ]] [[$2|Эрзякс]].',
+	'babel-3-n'            => 'Те ломансь [[$1|парсте содасы]] [[$2|эрзя]]-нь келенть.',
+	'babel-4-n'            => 'Те ломансь чарькоди [[$2|эрзя]]-кс [[$1|малав кода тиринь келень кортыця]].',
+	'babel-5-n'            => 'Те ломансь чарькоди [[$2|эрзя]]-кс [[$1|кода эйне паро кортыця-професионал]].',
+	'babel-N-n'            => 'Те ломаненть [[$1|тиринь келезэ ]] [[$2|эрзя]].',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -1523,7 +1548,7 @@ $messages['os'] = array(
  */
 $messages['pl'] = array(
 	'babel'                => 'Wieża Babel użytkownika',
-	'babel-desc'           => 'Dodaje funkcję parsera <tt>#babael</tt> ułatwiającą tworzenie ramki informującej o językowych lub innych umiejętnościach użytkownika',
+	'babel-desc'           => 'Dodaje funkcję parsera <tt>#babel</tt> ułatwiającą tworzenie ramki informującej o językowych lub innych umiejętnościach użytkownika',
 	'babel-url'            => 'Project:Wieża Babel',
 	'babel-directionality' => 'ltr',
 	'babel-0'              => 'Ten użytkownik [[$1|nie rozumie]] języka [[$2|$3]] (albo ma z nim olbrzymie trudności).',
