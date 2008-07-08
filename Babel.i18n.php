@@ -12,7 +12,7 @@ $messages = array();
  * @author Siebrand
  */
 $messages['en'] = array(
-	'babel'      => 'Babel User Information',
+	'babel'      => 'Babel user information',
 	'babel-desc' => 'Adds the <tt>#babel</tt> parser function to allow automated generation of a babel userbox column with the ability to include custom templates',
 	'babel-url'  => 'Project:Babel',
 
