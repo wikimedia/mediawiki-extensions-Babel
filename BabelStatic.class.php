@@ -11,89 +11,67 @@ class BabelStatic {
 	/**
 	 * Registers the parser function hook.
 	 * 
-	 * @return true
+	 * @return Boolean: True.
 	 */
 	public static function Setup() {
 
-		wfProfileIn( __METHOD__ );
-
-		/* Register the hook within the parser object.
-		 */
+		// Register the hook within the parser object.
 		global $wgParser;
 		$wgParser->setFunctionHook( 'babel', 'BabelStatic::Render' );
 
-		/* Return true to ensure processing is continued and an exception is not
-		 * generated.
-		 */
+		// Return true to ensure processing is continued and an exception is not
+		// generated.
 		return true;
-
-		wfProfileOut( __METHOD__ );
 
 	}
 
 	/**
 	 * Registers the parser function magic word.
 	 * 
-	 * @param array $magicWords The associative array of magic words on the
-	 *                          wiki for adding too.
-	 * @param string $langCode Content language code of the wiki.
-	 * @return true
+	 * @param $magicWords Array: Magic words on the wiki.
+	 * @param $langCode String: Content language code of the wiki.
+	 * @return Boolean: True.
 	 */
 	public static function Magic( array $magicWords, $langCode ) {
 
-		wfProfileIn( __METHOD__ );
-
-		/* Register the magic word, maybe one day this could be localised by adding
-		 * synonyms into the array -- but there is currently no simple way of doing
-		 * that given the current way of localisation.  The first element is set to
-		 * 0 so that it can be case insensitive.
-		 */
+		// Register the magic word, maybe one day this could be localised by adding
+		// synonyms into the array -- but there is currently no simple way of doing
+		// that given the current way of localisation.  The first element is set to
+		// 0 so that it can be case insensitive.
 		$magicWords[ 'babel' ] = array( 0, 'babel' );
 
-		/* Return true to ensure processing is continued and an exception is not
-		 * generated.
-		 */
+		// Return true to ensure processing is continued and an exception is not
+		// generated.
 		return true;
-
-		wfProfileOut( __METHOD__ );
 
 	}
 
 	/**
 	 * Return Babel tower, initializing the Babel object if necessery,
 	 *
-	 * @param parser $parser Parser object.
-	 * @return string Babel tower.
+	 * @param $parser Object: Parser.
+	 * @return String: Babel tower.
 	 */
 	public static function Render( $parser ) {
 
-		wfProfileIn( __METHOD__ );
-
-		/* Get the location of the language codes file.
-		 */
+		// Get the location of the language codes file.
 		global $wgLanguageCodesFiles;
 
-		/* Grab the Babel object.
-		 */
+		// Grab the Babel object.
 		global $wgBabel;
 
-		/* Initialize Babel object if not already initialized.
-		 */
+		// Initialize Babel object if not already initialized.
 		if( !is_object( $wgBabel ) ) {
 
 			$wgBabel = new Babel( $wgLanguageCodesFiles );
 
 		}
 
-		/* Get arguments passed to this function.
-		 */
+		// Get arguments passed to this function.
 		$args = func_get_args();
 
-		/* Render the Babel tower and return.
-		 */
+		// Render the Babel tower and return.
 		return call_user_func_array( array( $wgBabel, 'render' ), $args );
-
-		wfProfileOut( __METHOD__ );
 
 	}
 
