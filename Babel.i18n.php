@@ -95,6 +95,7 @@ $messages['sxu'] = array(
 /** Afrikaans (Afrikaans)
  * @author SPQRobin
  * @author Arnobarnard
+ * @author Naudefj
  */
 $messages['af'] = array(
 	'babel'                => 'Babel Gebruikersinligting',
@@ -105,16 +106,16 @@ $messages['af'] = array(
 	'babel-1'              => 'Hierdie gebruiker het [[$1|basiese]] kennis van [[$2|$3]].',
 	'babel-2'              => 'Hierdie gebruiker het [[$1|middelbare]] kennis van [[$2|$3]].',
 	'babel-3'              => 'Hierdie gebruiker het [[$1|gevorderde]] kennis van [[$2|$3]].',
-	'babel-4'              => 'Hierdie gebruiker het kennis van [[$2|$3]] op [[$1|bijna-moedertaalniveau]].',
+	'babel-4'              => 'Hierdie gebruiker het kennis van [[$2|$3]] op [[$1|byna-moedertaalvlak]].',
 	'babel-5'              => 'Hierdie gebruiker het [[$1|professionele]] kennis van [[$2|$3]].',
-	'babel-N'              => 'Hierdie gebruiker het kennis van [[$2|$3]] op [[$1|moedertaalniveau]].',
+	'babel-N'              => 'Hierdie gebruiker het kennis van [[$2|$3]] op [[$1|moedertaalvlak]].',
 	'babel-0-n'            => 'Hierdie gebruiker het [[$1|geen]] kennis van [[$2|Afrikaans]] nie (of verstaan dit met groot moeite).',
 	'babel-1-n'            => 'Hierdie gebruiker het [[$1|basiese]] kennis van [[$2|Afrikaans]].',
 	'babel-2-n'            => 'Hierdie gebruiker het [[$1|middelbare]] kennis van [[$2|Afrikaans]].',
 	'babel-3-n'            => 'Hierdie gebruiker het [[$1|gevorderde]] kennis van [[$2|Afrikaans]].',
-	'babel-4-n'            => 'Hierdie gebruiker het kennis van [[$2|Afrikaans]] op [[$1|bijna-moedertaalniveau]].',
+	'babel-4-n'            => 'Hierdie gebruiker het kennis van [[$2|Afrikaans]] op [[$1|byna-moedertaalvlak]].',
 	'babel-5-n'            => 'Hierdie gebruiker het [[$1|professionele]] kennis van [[$2|Afrikaans]].',
-	'babel-N-n'            => 'Hierdie gebruiker het kennis van [[$2|Afrikaans]] op [[$1|moedertaalniveau]].',
+	'babel-N-n'            => 'Hierdie gebruiker het kennis van [[$2|Afrikaans]] op [[$1|moedertaalvlak]].',
 );
 
 /** Arabic (العربية)
@@ -2284,3 +2285,4 @@ $messages['zh-tw'] = array(
 	'babel-5-n' => '這位用戶有[[$1|專業]]的[[$2|台式中文]]知識。',
 	'babel-N-n' => '這位用戶明白以[[$1|母語]]為主的[[$2|台式中文]]。',
 );
+
