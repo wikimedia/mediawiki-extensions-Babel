@@ -1623,6 +1623,7 @@ $messages['ps'] = array(
 /** Portuguese (Português)
  * @author 555
  * @author Malafaya
+ * @author Waldir
  */
 $messages['pt'] = array(
 	'babel'                => 'Informação Babel de Utilizador',
@@ -1631,14 +1632,14 @@ $messages['pt'] = array(
 	'babel-directionality' => 'ltr',
 	'babel-0'              => 'Este utilizador [[$1|não compreende]] [[$2|$3]] (ou compreende com dificuldades consideráveis).',
 	'babel-1'              => 'Este utilizador pode contribuir com um nível [[$1|básico]] de [[$2|$3]].',
-	'babel-2'              => 'Este utilizador pode contribuir com um nível [[$1|intermédio]] de [[$2|$3]].',
+	'babel-2'              => 'Este utilizador pode contribuir com um nível [[$1|médio]] de [[$2|$3]].',
 	'babel-3'              => 'Este utilizador pode contribuir com um nível [[$1|avançado]] de [[$2|$3]].',
 	'babel-4'              => 'Este utilizador pode contribuir com um nível [[$1|quase nativo]] de [[$2|$3]].',
 	'babel-5'              => 'Este utilizador pode contribuir com um nível [[$1|profissional]] de [[$2|$3]].',
 	'babel-N'              => 'Este utilizador tem como língua [[$1|materna]] o [[$2|$3]].',
 	'babel-0-n'            => 'Este utilizador [[$1|não compreende]] [[$2|português]] (ou compreende com dificuldades consideráveis).',
 	'babel-1-n'            => 'Este utilizador pode contribuir com um nível [[$1|básico]] de [[$2|português]].',
-	'babel-2-n'            => 'Este utilizador pode contribuir com um nível [[$1|intermédio]] de [[$2|português]].',
+	'babel-2-n'            => 'Este utilizador pode contribuir com um nível [[$1|médio]] de [[$2|português]].',
 	'babel-3-n'            => 'Este utilizador pode contribuir com um nível [[$1|avançado]] de [[$2|português]].',
 	'babel-4-n'            => 'Este utilizador pode contribuir com um nível [[$1|quase nativo]] de [[$2|português]].',
 	'babel-5-n'            => 'Este utilizador pode contribuir com um nível [[$1|profissional]] de [[$2|português]].',
