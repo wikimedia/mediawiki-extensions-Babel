@@ -1168,7 +1168,7 @@ $messages['lb'] = array(
 	'babel-2-n'            => 'Dëse Benotzer huet [[$1|erweidert]] Kenntnisser vun der [[$2|Lëtzebuergescher Sprooch]].',
 	'babel-3-n'            => 'Dëse Benotzer huet [[$1|ganz gutt]] [[$2|lëtzebuergesch]] Kenntnisser.',
 	'babel-4-n'            => 'Dëse Benotzer beherrscht [[$2|Lëtzebuergesch]] [[$1|bal wéi seng Mammesprooch]].',
-	'babel-5-n'            => 'Dëse Benotzer huet essionnell]] Kenntnisser vum [[$2|Lëtzebuergeschen]].',
+	'babel-5-n'            => 'Dëse Benotzer huet [[$1|professionnell]] Kenntnisser vum [[$2|Lëtzebuergeschen]].',
 	'babel-N-n'            => 'Dësem Benotzer seng [[$1|Mammesprooch]] ass [[$2|Lëtzebuergesch]].',
 );
 
