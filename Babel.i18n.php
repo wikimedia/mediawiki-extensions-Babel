@@ -1160,7 +1160,7 @@ $messages['lb'] = array(
 	'babel-1'              => 'Dëse Benotzer huet [[$1|Grondkenntnisser]] vun [[$2|$3]].',
 	'babel-2'              => 'Dëse Benotzer huet [[$1|erweidert]] Kenntnisser vun [[$2|$3]].',
 	'babel-3'              => 'De Benotzer huet [[$1|gaz gudd]] Kenntnisser vun [[$2|$3]].',
-	'babel-4'              => 'De Bemotzer beherrscht [[$2|$2]] [[$1|bal wéi seng Mammesprooch]].',
+	'babel-4'              => 'De Bemotzer beherrscht [[$2|$3]] [[$1|bal wéi seng Mammesprooch]].',
 	'babel-5'              => 'De Benotzer huet [[$1|professionnell]] Kenntnisser vun [[$2|$3]].',
 	'babel-N'              => 'Dësem Benotzer seng [[$1|Mammesprooch]] ass [[$2|$3]].',
 	'babel-0-n'            => 'Dëse Benotzer versteet [[$1|kee]] [[$2|Lëtzebuergesch]] (oder versteet et just mat grousse Schwieregkeeten).',
@@ -2104,6 +2104,7 @@ $messages['vec'] = array(
 
 /** Vietnamese (Tiếng Việt)
  * @author Vinhtantran
+ * @author Minh Nguyen
  */
 $messages['vi'] = array(
 	'babel'                => 'Thông tin Ngôn ngữ Thành viên',
@@ -2118,11 +2119,11 @@ $messages['vi'] = array(
 	'babel-5'              => 'Thành viên này biết [[$2|$3]] ở mức độ của một [[$1|chuyên gia]].',
 	'babel-N'              => 'Thành viên này xem [[$2|$3]] là ngôn ngữ [[$1|mẹ đẻ]].',
 	'babel-0-n'            => 'Thành viên này [[$1|hoàn toàn không biết]] [[$2|tiếng Việt]] (hoặc rất khó khăn để hiểu).',
-	'babel-1-n'            => 'Thành viên này biết [[$2|$3]] ở mức độ [[$1|tiếng Việt]].',
-	'babel-2-n'            => 'Thành viên này biết [[$2|tiếng Việt]] ở mức độ [[$1|khá]].',
-	'babel-3-n'            => 'Thành viên này biết [[$2|tiếng Việt]] ở mức độ [[$1|tốt]].',
-	'babel-4-n'            => 'Thành viên này có thể hiểu [[$2|tiếng Việt]] gần như [[$1|người Việt]].',
-	'babel-5-n'            => 'Thành viên này biết [[$2|tiếng Việt]] ở mức độ của một [[$1|chuyên gia]].',
+	'babel-1-n'            => 'Người dùng này biết [[$2|tiếng Việt]] với trình độ [[$1|cơ bản]].',
+	'babel-2-n'            => 'Người dùng này biết [[$2|tiếng Việt]] với trình độ [[$1|khá]].',
+	'babel-3-n'            => 'Người dùng này biết [[$2|tiếng Việt]] với trình độ [[$1|tốt]].',
+	'babel-4-n'            => 'Người dùng này có thể hiểu [[$2|tiếng Việt]] [[$1|gần như người Việt]].',
+	'babel-5-n'            => 'Người dùng này biết [[$2|tiếng Việt]] với trình độ của một [[$1|chuyên gia]].',
 	'babel-N-n'            => 'Thành viên này xem [[$2|tiếng Việt]] là ngôn ngữ [[$1|mẹ đẻ]].',
 );
 
