@@ -178,7 +178,7 @@ $messages['ast'] = array(
  */
 $messages['bcc'] = array(
 	'babel'                => 'اطلاعات کاربری بابل',
-	'babel-desc'           => 'اضافه کنت <tt>#babel</tt>  عملگر وانوک په اجازه داتن په یک ستون حعبه کاربری گون توانایی اضافه کتن ونی تمپلتان',
+	'babel-desc'           => 'اضافه کنت <tt>#babel</tt>  عملگر وانوک په اجازه داتن په یک ستون جعبه کاربری گون توانایی اضافه کتن وتی تمپلتان',
 	'babel-url'            => 'Project:بابل',
 	'babel-directionality' => 'rtl',
 	'babel-0'              => 'ای کاربر [[$2|$3]] را در حد [[$1|سرپد نه بیت]] (یاپه سختی سرپد بیت).',
@@ -280,7 +280,7 @@ $messages['bg'] = array(
 	'babel-1'        => 'Този потребител има [[$1|основни]] познания по [[$2|английски]].',
 	'babel-3'        => 'Този потребител има [[$1|задълбочени]] познания по [[$2|английски]].',
 	'babel-5'        => 'Този потребител има [[$1|професионални]] познания по [[$2|английски]].',
-	'babel-N'        => '[[$1|Родният език]] на този потребител е [[$2|английски]].',
+	'babel-N'        => '[[$1|Родният език]] на този потребител е [[$2|$3]].',
 	'babel-0-n'      => 'Този потребител [[$1|няма]] познания по [[$2|български език]] (или разбира с известни затруднения).',
 	'babel-1-n'      => 'Този потребител има [[$1|основни]] познания по [[$2|български език]].',
 	'babel-3-n'      => 'Този потребител има [[$1|задълбочени]] познания по [[$2|български език]].',
@@ -1064,7 +1064,7 @@ $messages['ko'] = array(
 	'babel'   => '사용자 언어 정보',
 	'babel-0' => '이 사용자는 [[$2|$3]]을 [[$1|모르거나]], 이해하는 데 어려움이 있습니다.',
 	'babel-1' => '이 사용자는 [[$2|$3]]을 [[$1|조금]] 할 수 있습니다.',
-	'babel-2' => '이 사용자는 [[$2|$3]]을 [[$1|중간 정도로]] 할 수 있습니다.',
+	'babel-2' => '이 사용자는 [[$2|$3]]을 [[$1|어느 정도]] 할 수 있습니다.',
 	'babel-3' => '이 사용자는 [[$2|$3]]을 [[$1|고급 수준으로]] 할 수 있습니다.',
 	'babel-4' => '이 사용자는 [[$2|$3]]을 [[$1|모국어 수준으로]] 할 수 있습니다.',
 	'babel-5' => '이 사용자는 [[$2|$3]]을 [[$1|전문가 수준]]으로 할 수 있습니다.',
@@ -1376,6 +1376,29 @@ $messages['myv'] = array(
 	'babel-4-n'            => 'Те ломансь чарькоди [[$2|эрзя]]-кс [[$1|малав кода тиринь келень кортыця]].',
 	'babel-5-n'            => 'Те ломансь чарькоди [[$2|эрзя]]-кс [[$1|кода эйне паро кортыця-професионал]].',
 	'babel-N-n'            => 'Те ломаненть [[$1|тиринь келезэ ]] [[$2|эрзя]].',
+);
+
+/** Nahuatl (Nahuatl)
+ * @author Fluence
+ * @author Purodha
+ */
+$messages['nah'] = array(
+	'babel'                => 'Babel tlatēquitiltilīllanōnōtzaliztli',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Inīn tlatēquitiltilīlli [[$1|ahmo huelīti]] quitlahtoa [[$2|$3]] (nozo monequi quitlahtoa).',
+	'babel-1'              => 'Inīn tlatēquitiltilīlli quipiyā āxcāyōtl [[$1|monequi]] ic [[$2|$3]].',
+	'babel-2'              => 'Inīn tlatēquitiltilīlli [[$1|tepitzin]] quitlahtoa [[$2|$3]].',
+	'babel-3'              => 'Inīn tlatēquitiltilīlli [[$1|cualli]] quitlahtoa [[$2|$3]].',
+	'babel-4'              => 'Inīn tlatēquitiltilīlli quitlahtoa [[$2|$3]] iuh [[$1|tlācatlahtohqui]].',
+	'babel-5'              => 'Inīn tlatēquitiltilīlli [[$1|huēyi cualtzin]] quitlahtoa [[$2|$3]].',
+	'babel-N'              => 'Inīn tlatēquitiltilīlli cah [[$2|$3]] [[$1|tlācatlahtohqui]].',
+	'babel-0-n'            => 'Inīn tlatēquitiltilīlli [[$1|ahmo huelīti]] quitlahtoa [[$2|Inglatlahtōlli]] (nozo monequi quitlahtoa).',
+	'babel-1-n'            => 'Inīn tlatēquitiltilīlli quipiyā āxcāyōtl [[$1|monequi]] ic [[$2|Inglatlahtōlli]].',
+	'babel-2-n'            => 'Inīn tlatēquitiltilīlli [[$1|tepitzin]] quitlahtoa [[$2|Inglatlahtōlli]].',
+	'babel-3-n'            => 'Inīn tlatēquitiltilīlli [[$1|cualli]] quitlahtoa [[$2|Inglatlahtōlli]].',
+	'babel-4-n'            => 'Inīn tlatēquitiltilīlli quitlahtoa [[$2|Inglatlahtōlli]] iuh [[$1|tlācatlahtohqui]].',
+	'babel-5-n'            => 'Inīn tlatēquitiltilīlli [[$1|huēyi cualtzin]] quitlahtoa [[$2|Inglatlahtōlli]].',
+	'babel-N-n'            => 'Inīn tlatēquitiltilīlli cah [[$2|Inglatlahtōlli]] [[$1|tlācatlahtohqui]].',
 );
 
 /** Low German (Plattdüütsch)
@@ -1713,20 +1736,27 @@ $messages['qu'] = array(
 
 /** Romanian (Română)
  * @author Siebrand
+ * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
-	'babel-1'   => 'Acest utilizator poate contribui cu un nivel [[$1|de bază]] de [[$2|$3]].',
-	'babel-2'   => 'Acest utilizator poate contribui cu un nivel [[$1|intermediar]] de [[$2|$3]].',
-	'babel-3'   => 'Acest utilizator poate contribui cu un nivel [[$1|avansat]] de [[$2|$3]].',
-	'babel-4'   => 'Acest utilizator poate contribui cu un nivel [[$1|aproape nativ]] de [[$2|$3]].',
-	'babel-5'   => 'Acest utilizator contribuie folosind un nivel [[$1|profesional]] de [[$2|$3]].',
-	'babel-N'   => 'Acest utilizator este un vorbitor [[$1|nativ]] al [[$2|$3]].',
-	'babel-1-n' => 'Acest utilizator poate contribui cu un nivel [[$1|de bază]] de [[$2|română]].',
-	'babel-2-n' => 'Acest utilizator poate contribui cu un nivel [[$1|intermediar]] de [[$2|română]].',
-	'babel-3-n' => 'Acest utilizator poate contribui cu un nivel [[$1|avansat]] de [[$2|română]].',
-	'babel-4-n' => 'Acest utilizator poate contribui cu un nivel [[$1|aproape nativ]] de [[$2|română]].',
-	'babel-5-n' => 'Acest utilizator contribuie folosind un nivel [[$1|profesional]] de [[$2|română]].',
-	'babel-N-n' => 'Acest utilizator este un vorbitor [[$1|nativ]] al [[$2|limbii române]].',
+	'babel'                => 'Informaţii despre utilizatorul Babel',
+	'babel-desc'           => 'Adaugă funcţia de parsare <tt>#babel</tt> pentru generarea automată a coloanei de cutii de utilizator babel, cu posibilitatea de a include formate personalizate',
+	'babel-url'            => 'Project:Babel',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Acest utilizator [[$1|nu]] are cunoştinţe de [[$2|$3]] (sau înţelege cu mare dificultate).',
+	'babel-1'              => 'Acest utilizator poate contribui cu un nivel [[$1|de bază]] de [[$2|$3]].',
+	'babel-2'              => 'Acest utilizator poate contribui cu un nivel [[$1|intermediar]] de [[$2|$3]].',
+	'babel-3'              => 'Acest utilizator poate contribui cu un nivel [[$1|avansat]] de [[$2|$3]].',
+	'babel-4'              => 'Acest utilizator poate contribui cu un nivel [[$1|aproape nativ]] de [[$2|$3]].',
+	'babel-5'              => 'Acest utilizator contribuie folosind un nivel [[$1|profesional]] de [[$2|$3]].',
+	'babel-N'              => 'Acest utilizator este un vorbitor [[$1|nativ]] al [[$2|$3]].',
+	'babel-0-n'            => 'Acest utilizator [[$1|nu]] are cunoştinţe de [[$2|română]] (sau înţelege cu mare dificultate).',
+	'babel-1-n'            => 'Acest utilizator poate contribui cu un nivel [[$1|de bază]] de [[$2|română]].',
+	'babel-2-n'            => 'Acest utilizator poate contribui cu un nivel [[$1|intermediar]] de [[$2|română]].',
+	'babel-3-n'            => 'Acest utilizator poate contribui cu un nivel [[$1|avansat]] de [[$2|română]].',
+	'babel-4-n'            => 'Acest utilizator poate contribui cu un nivel [[$1|aproape nativ]] de [[$2|română]].',
+	'babel-5-n'            => 'Acest utilizator contribuie folosind un nivel [[$1|profesional]] de [[$2|română]].',
+	'babel-N-n'            => 'Acest utilizator este un vorbitor [[$1|nativ]] al [[$2|limbii române]].',
 );
 
 /** Russian (Русский)
