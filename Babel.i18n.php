@@ -123,23 +123,23 @@ $messages['af'] = array(
  */
 $messages['ar'] = array(
 	'babel'                => 'معلومات بابل للمستخدم',
-	'babel-desc'           => 'يضيف دالة البارسر <tt>#babel</tt> للسماح بالتوليد التلقائي لعامود صندوق بابل مع إمكانية تضمين قوالب أخرى',
+	'babel-desc'           => 'يضيف دالة المحلل <tt>#babel</tt> للسماح بالتوليد التلقائي لعامود صندوق بابل مع إمكانية تضمين قوالب أخرى',
 	'babel-url'            => 'Project:بابل',
 	'babel-directionality' => 'rtl',
-	'babel-0'              => 'هذا المستخدم [[$1|ليس]] لديه معرفة ب [[$2|$3]] (أو يفهمها بصعوبة شديدة).',
-	'babel-1'              => 'هذا المستخدم يمتلك معرفة [[$1|أساسية]] ب [[$2|$3]].',
-	'babel-2'              => 'هذا المستخدم يمتلك معرفة [[$1|متوسطة]] ب [[$2|$3]].',
-	'babel-3'              => 'هذا المستخدم يمتلك معرفة [[$1|متقدمة]] ب [[$2|$3]].',
-	'babel-4'              => 'هذا المستخدم يمتلك معرفة [[$1|تقترب من مستوى اللغة الأم]] ب [[$2|$3]].',
-	'babel-5'              => 'هذا المستخدم يمتلك معرفة [[$1|احترافية]] ب [[$2|$3]].',
-	'babel-N'              => 'هذا المستخدم يمتلك معرفة [[$1|كلغة أم]] ب [[$2|$3]].',
-	'babel-0-n'            => 'هذا المستخدم [[$1|ليس]] لديه معرفة ب [[$2|العربية]] (أو يفهمها بصعوبة شديدة).',
-	'babel-1-n'            => 'هذا المستخدم لديه معرفة [[$1|أساسية]] ب [[$2|العربية]].',
-	'babel-2-n'            => 'هذا المستخدم لديه معرفة [[$1|متوسطة]] ب [[$2|العربية]].',
-	'babel-3-n'            => 'هذا المستخدم يمتلك معرفة [[$1|متقدمة]] ب [[$2|العربية]].',
-	'babel-4-n'            => 'هذا المستخدم يمتلك معرفة [[$1|تقترب من مستوى اللغة الأم]] ب [[$2|العربية]].',
-	'babel-5-n'            => 'هذا المستخدم يمتلك معرفة [[$1|احترافية]] ب [[$2|العربية]].',
-	'babel-N-n'            => 'هذا المستخدم يمتلك معرفة [[$1|كلغة أم]] ب [[$2|العربية]].',
+	'babel-0'              => 'هذا المستخدم [[$1|ليس]] لديه معرفة ب[[$2|$3]] (أو يفهمها بصعوبة شديدة).',
+	'babel-1'              => 'هذا المستخدم يمتلك معرفة [[$1|أساسية]] ب[[$2|$3]].',
+	'babel-2'              => 'هذا المستخدم يمتلك معرفة [[$1|متوسطة]] ب[[$2|$3]].',
+	'babel-3'              => 'هذا المستخدم يمتلك معرفة [[$1|متقدمة]] ب[[$2|$3]].',
+	'babel-4'              => 'هذا المستخدم يمتلك معرفة [[$1|تقترب من مستوى اللغة الأم]] ب[[$2|$3]].',
+	'babel-5'              => 'هذا المستخدم يمتلك معرفة [[$1|احترافية]] ب[[$2|$3]].',
+	'babel-N'              => 'هذا المستخدم يمتلك معرفة [[$1|كلغة أم]] ب[[$2|$3]].',
+	'babel-0-n'            => 'هذا المستخدم [[$1|ليس]] لديه معرفة ب[[$2|العربية]] (أو يفهمها بصعوبة شديدة).',
+	'babel-1-n'            => 'هذا المستخدم لديه معرفة [[$1|أساسية]] ب[[$2|العربية]].',
+	'babel-2-n'            => 'هذا المستخدم لديه معرفة [[$1|متوسطة]] ب[[$2|العربية]].',
+	'babel-3-n'            => 'هذا المستخدم يمتلك معرفة [[$1|متقدمة]] ب[[$2|العربية]].',
+	'babel-4-n'            => 'هذا المستخدم يمتلك معرفة [[$1|تقترب من مستوى اللغة الأم]] ب[[$2|العربية]].',
+	'babel-5-n'            => 'هذا المستخدم يمتلك معرفة [[$1|احترافية]] ب[[$2|العربية]].',
+	'babel-N-n'            => 'هذا المستخدم يمتلك معرفة [[$1|كلغة أم]] ب[[$2|العربية]].',
 );
 
 /** Araucanian (Mapudungun)
@@ -640,6 +640,18 @@ $messages['fr'] = array(
 	'babel-N-n'            => 'Cet utilisateur a pour [[$1|langue maternelle]] le [[$2|français]].',
 );
 
+/** Western Frisian (Frysk)
+ * @author Snakesteuben
+ */
+$messages['fy'] = array(
+	'babel-0' => 'Dizze meidogger praat [[$1|gjin]] [[$2|$3]].',
+	'babel-1' => 'It [[$2|$3]] fan dizze meidogger is [[$1|minimaal]].',
+	'babel-2' => 'It [[$2|$3]] fan dizze meidogger is [[$1|ridlik]].',
+	'babel-3' => 'It [[$2|$3]] fan dizze meidogger is [[$1|treflik]].',
+	'babel-4' => 'It [[$2|$3]] is benei de [[$1|memmetaal]] fan dizze meidogger.',
+	'babel-N' => 'It [[$2|$3]] is de [[$1|memmetaal]] fan dizze meidogger.',
+);
+
 /** Irish (Gaeilge)
  * @author Alison
  * @author Moilleadóir
@@ -692,13 +704,28 @@ $messages['gl'] = array(
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
  * @author Omnipaedista
+ * @author Crazymadlover
+ * @author LeighvsOptimvsMaximvs
  */
 $messages['grc'] = array(
 	'babel'                => 'Πληροφορίαι "Βαβὲλ" Χρήστου',
-	'babel-desc'           => 'Προσθέτει τὴν <tt>#babel</tt> λεξιαναλυτικην λειτουργίαν επιτρέπουσαν την αυτόματην δημιουργία στήλης κυτίων χρηστου τινός, εχουσης την δυνατότηταν περίληψεως συνήθων προτύπων',
+	'babel-desc'           => 'Προσθέτει τὴν <tt>#babel</tt> λεξιαναλυτικὴν λειτουργίαν ἐπιτρέπουσαν τὴν αὐτόματην δημιουργίαν στήλης κυτίων χρήστου τινός, ἐχούσης τὴν δυνατότηταν περίληψεως συνήθων προτύπων',
 	'babel-url'            => 'Project:Βαβέλ',
 	'babel-directionality' => 'ἀ.π.δ.',
-	'babel-3-n'            => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|ἄριστα]] [[$2|Ἀγγλικῇ γλώττῃ]] χρῆται.',
+	'babel-0'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|οὐδέν]] περὶ [[$2|$3]] γιγνώσκει (ἢ μόλις καταλαμβάνει).',
+	'babel-1'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|στοιχειωδὼς]] τὴν [[$2|$3]] χρῆται.',
+	'babel-2'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|μέσως]] τὴν [[$2|$3]] χρῆται.',
+	'babel-3'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|ἀνωτέρως]] τὴν [[$2|$3]] χρῆται.',
+	'babel-4'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|σχεδὸν μητρικῆς γλώσσης]] γνῶσιν τῆς [[$2|$3]] ἔχει.',
+	'babel-5'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|ἐπαγγελματικὼς]] τὴν [[$2|$3]] χρῆται.',
+	'babel-N'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|μητρικῆς γλώσσης]] γνῶσιν τῆς [[$2|$3]] ἔχει.',
+	'babel-0-n'            => 'Ὅδε χρήστης [[$1|οὐ κατανοεῖ]] τὴν [[$2| ἀρχαίαν ἑλληνικήν]] (ἢ μόλις καταλαμβάνει).',
+	'babel-1-n'            => 'Ὅδε χρήστης [[$1|στοιχειώδην]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
+	'babel-2-n'            => 'Ὅδε χρήστης δύναται συνεισφέρειν διὰ [[$1|μέσης]] γνώσεως τῆς [[$2|ἀρχαίας ἑλληνικῆς]].',
+	'babel-3-n'            => "Ὅδε χρήστης δύναται συνεισφέρειν δι' [[$1|ἀνωτέρας]] γνώσεως τῆς [[$2|ἀρχαίας ἑλληνικῆς]].",
+	'babel-4-n'            => 'Ὅδε χρήστης [[$1|σχεδὸν μητρικῆς γλώσσης]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
+	'babel-5-n'            => "Ὅδε χρήστης δύναται συνεισφέρειν δι' [[$1|ἐπαγγελματικῆς]] γνώσεως τῆς [[$2|ἀρχαίας ἑλληνικῆς]].",
+	'babel-N-n'            => 'Ὅδε χρήστης ἐστὶ [[$1|ἰθαγενὴς ὀμιλητὴς ]] τῆς [[$2|ἀρχαίας ἑλληνικῆς]].',
 );
 
 /** Hawaiian (Hawai`i)
@@ -866,13 +893,20 @@ $messages['ht'] = array(
 $messages['hu'] = array(
 	'babel-desc' => '<tt>#babel</tt> értelmes függvény bábel-információkat tartalmazó oszlop automatikus generálásához, saját sablononok beillesztésének lehetőségével',
 	'babel-url'  => 'Project:Bábel',
-	'babel-0'    => 'Ez a szerkesztő [[$1|nem]] beszél [[$2|$3]] nyelven (vagy csak nagy nagyon nehezen érti meg).',
+	'babel-0'    => 'Ez a szerkesztő [[$1|nem]] beszéli a(z) [[$2|$3]] nyelvet (vagy csak nagy nagyon nehezen érti meg).',
 	'babel-1'    => 'Ez a szerkesztő [[$1|alapszinten]] beszéli a(z) [[$2|$3]] nyelvet.',
 	'babel-2'    => 'Ez a szerkesztő [[$1|középszinten]] beszéli a(z) [[$2|$3]] nyelvet.',
 	'babel-3'    => 'Ez a szerkesztő [[$1|haladó]] szinten beszéli a(z) [[$2|$3]] nyelvet.',
 	'babel-4'    => 'Ez a szerkesztő [[$1|közel anyanyelvi]] szinten beszéli a(z) [[$2|$3]] nyelvet.',
 	'babel-5'    => 'Ez a szerkesztő [[$1|professzionális]] szinten beszéli a(z) [[$2|$3]] nyelvet.',
-	'babel-N'    => 'Ennek a szerkesztőnek [[$1|$3]] az [[$1|anyanyelve]].',
+	'babel-N'    => 'Ennek a szerkesztőnek [[$2|$3]] az [[$1|anyanyelve]].',
+	'babel-0-n'  => 'Ez a szerkesztő [[$1|nem]] beszéli a [[$2|magyar]] nyelvet (vagy csak nagy nagyon nehezen érti meg).',
+	'babel-1-n'  => 'Ez a szerkesztő [[$1|alapszinten]] beszéli a [[$2|magyar]] nyelvet.',
+	'babel-2-n'  => 'Ez a szerkesztő [[$1|középszinten]] beszéli a [[$2|magyar]] nyelvet.',
+	'babel-3-n'  => 'Ez a szerkesztő [[$1|haladó]] szinten beszéli a [[$2|magyar]] nyelvet.',
+	'babel-4-n'  => 'Ez a szerkesztő [[$1|közel anyanyelvi]] szinten beszéli a [[$2|magyar]] nyelvet.',
+	'babel-5-n'  => 'Ez a szerkesztő [[$1|professzionális]] szinten beszéli a [[$2|magyar]] nyelvet.',
+	'babel-N-n'  => 'Ennek a szerkesztőnek [[$2|magyar]] az [[$1|anyanyelve]].',
 );
 
 /** Armenian (Հայերեն)
@@ -1630,6 +1664,24 @@ $messages['pl'] = array(
 	'babel-4-n-male'       => 'Ten użytkownik posługuje się [[$2|językiem polskim]] prawie tak samo biegle, jak [[$1|językiem ojczystym]].',
 	'babel-5-n-male'       => 'Ten użytkownik posługuje się [[$2|językiem polskim]] na równi z [[$1|językiem ojczystym]].',
 	'babel-N-n-male'       => '[[$2|Polski]] jest [[$1|językiem ojczystym]] tego użytkownika.',
+);
+
+/** Pontic (Ποντιακά)
+ * @author Sinopeus
+ */
+$messages['pnt'] = array(
+	'babel'     => 'Πληροφορίας Βαβέλ τη χρήστε',
+	'babel-url' => 'Project:Βαβέλ',
+	'babel-0'   => "Ατός ο χρήστες [[$1|'κ εγροικά]] τα [[$2|$3]] (ή με τρανόν ζορ).",
+	'babel-1'   => 'Ατός ο χρήστες καλατσέβ [[$1|έναν ξάι]] [[$2|$3]].',
+	'babel-2'   => 'Ατός ο χρήστες καλατσέβ [[$1|ολίγα]] [[$2|$3]].',
+	'babel-3'   => 'Ατός ο χρήστες καλατσέβ [[$1|τσιπ καλά]] [[$2|$3]].',
+	'babel-4'   => 'Ατός ο χρήστες καλατσέβ [[$1|σκυρά]] [[$2|$3]].',
+	'babel-0-n' => "Ατός ο χρήστες [[$1|ξάι]] 'κ εγροικά τα [[$2|Ποντιακά]] (ή με τρανόν ζορ).",
+	'babel-1-n' => 'Ατός ο χρήστες καλατσέβ [[$1|έναν ξάι]] [[$2|Ποντιακά]].',
+	'babel-2-n' => 'Ατός ο χρήστες καλατσέβ [[$1|ολίγα]] [[$2|Ποντιακά]].',
+	'babel-3-n' => 'Ατός ο χρήστες καλατσέβ [[$1|τσιπ καλά]] [[$2|Ποντιακά]].',
+	'babel-4-n' => 'Ατός ο χρήστες καλατσέβ [[$1|σκυρά]] [[$2|Ποντιακά]].',
 );
 
 /** Pashto (پښتو)
