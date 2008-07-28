@@ -118,6 +118,30 @@ $messages['af'] = array(
 	'babel-N-n'            => 'Hierdie gebruiker het kennis van [[$2|Afrikaans]] op [[$1|moedertaalvlak]].',
 );
 
+/** Aragonese (Aragonés)
+ * @author Juanpabl
+ */
+$messages['an'] = array(
+	'babel'                => "Informazión d'usuario de Babel",
+	'babel-desc'           => "Adibe a funzión <tt>#babel</tt> de parseyo ta premitir a chenerazión automatica d'una colunna de caixas d'usuario de babel, con a posibilidat d'encluyir-ie plantillas personalizatas",
+	'babel-url'            => 'Project:Babel',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Iste usuario [[$1|no]] conoixe brenca o [[$2|$3]] (u lo entiende malament).',
+	'babel-1'              => 'Iste usuario conoixe o [[$2|$3]] con un libel [[$1|basico]].',
+	'babel-2'              => 'Iste usuario conoixe o [[$2|$3]] con un libel [[$1|meyo]].',
+	'babel-3'              => 'Iste usuario conoixe o [[$2|$3]] con un libel [[$1|abanzato]].',
+	'babel-4'              => 'Iste conoixe o [[$2|$3]] con un libel [[$1|cuasi natibo]].',
+	'babel-5'              => 'Iste usuario conoixe o [[$2|$3]] con un libel [[$1|profesional]].',
+	'babel-N'              => "Iste usuario conoixe o [[$2|$3]] con o libel d'un fablador [[$1|natibo]].",
+	'babel-0-n'            => "Iste usuario [[$1|no]] conoixe brenca l'[[$2|aragonés]] (u lo entiende malament)",
+	'babel-1-n'            => "Iste usuario conoixe l'[[$2|aragonés]] con un libel [[$1|basico]].",
+	'babel-2-n'            => "Iste usuario conoixe l'[[$2|aragonés]] con un libel [[$1|meyo]].",
+	'babel-3-n'            => "Iste usuario conoixe l'[[$2|aragonés]] con un libel [[$1|abanzato]].",
+	'babel-4-n'            => "Iste usuario conoixe l'[[$2|aragonés]] con un libel [[$1|cuasi natibo]].",
+	'babel-5-n'            => "Iste usuario conoixe l'[[$2|aragonés]] con un libel [[$1|profesional]].",
+	'babel-N-n'            => "Iste usuario conoixe l'[[$2|aragonés]] con o libel d'un fablador [[$1|patrimonial]].",
+);
+
 /** Arabic (العربية)
  * @author Meno25
  */
@@ -721,10 +745,10 @@ $messages['grc'] = array(
 	'babel-N'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|μητρικῆς γλώσσης]] γνῶσιν τῆς [[$2|$3]] ἔχει.',
 	'babel-0-n'            => 'Ὅδε χρήστης [[$1|οὐ κατανοεῖ]] τὴν [[$2| ἀρχαίαν ἑλληνικήν]] (ἢ μόλις καταλαμβάνει).',
 	'babel-1-n'            => 'Ὅδε χρήστης [[$1|στοιχειώδην]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
-	'babel-2-n'            => 'Ὅδε χρήστης δύναται συνεισφέρειν διὰ [[$1|μέσης]] γνώσεως τῆς [[$2|ἀρχαίας ἑλληνικῆς]].',
-	'babel-3-n'            => "Ὅδε χρήστης δύναται συνεισφέρειν δι' [[$1|ἀνωτέρας]] γνώσεως τῆς [[$2|ἀρχαίας ἑλληνικῆς]].",
+	'babel-2-n'            => 'Ὅδε χρήστης [[$1|μέσην]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
+	'babel-3-n'            => 'Ὅδε χρήστης [[$1|ἀνωτέραν]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
 	'babel-4-n'            => 'Ὅδε χρήστης [[$1|σχεδὸν μητρικῆς γλώσσης]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
-	'babel-5-n'            => "Ὅδε χρήστης δύναται συνεισφέρειν δι' [[$1|ἐπαγγελματικῆς]] γνώσεως τῆς [[$2|ἀρχαίας ἑλληνικῆς]].",
+	'babel-5-n'            => 'Ὅδε χρήστης [[$1|ἐπαγγελματικῆν]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
 	'babel-N-n'            => 'Ὅδε χρήστης ἐστὶ [[$1|ἰθαγενὴς ὀμιλητὴς ]] τῆς [[$2|ἀρχαίας ἑλληνικῆς]].',
 );
 
