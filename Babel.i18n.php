@@ -456,6 +456,7 @@ $messages['cy'] = array(
 
 /** Danish (Dansk)
  * @author Jan Friberg
+ * @author M.M.S.
  */
 $messages['da'] = array(
 	'babel'                => 'Babelinformation',
@@ -466,6 +467,16 @@ $messages['da'] = array(
 	'babel-1'              => 'Denne bruger har [[$1|grundlæggende]] kendskab til [[$2|$3]].',
 	'babel-2'              => 'Denne bruger har et [[$1|godt]] kendskab til [[$2|$3]].',
 	'babel-3'              => 'Denne bruger har et [[$1|avanceret]] kendskab til [[$2|$3]].',
+	'babel-4'              => 'Denne bruger kan [[$2|$3]] næsten på [[$1|modersmålsniveau]].',
+	'babel-5'              => 'Denne bruger har [[$1|professionel]] kendskab til [[$2|$3]].',
+	'babel-N'              => 'Denne bruger har [[$2|$3]] som [[$1|modersmål]].',
+	'babel-0-n'            => 'Denne bruger har [[$1|ingen]] kendskab til [[$2|dansk]] (eller har meget svært ved at forstå det).',
+	'babel-1-n'            => 'Denne bruger har [[$1|grundlæggende]] kendskab til [[$2|dansk]].',
+	'babel-2-n'            => 'Denne bruger har et [[$1|godt]] kendskab til [[$2|dansk]].',
+	'babel-3-n'            => 'Denne bruger har et [[$1|avanceret]] kendskab til [[$2|dansk]].',
+	'babel-4-n'            => 'Denne bruger kan [[$2|dansk]] næsten på [[$1|modersmålsniveau]].',
+	'babel-5-n'            => 'Denne bruger har [[$1|professionel]] kendskab til [[$2|dansk]].',
+	'babel-N-n'            => 'Denne bruger har [[$2|dansk]] som [[$1|modersmål]].',
 );
 
 /** German (Deutsch)
@@ -568,6 +579,7 @@ $messages['eo'] = array(
  * @author GerardM
  * @author Siebrand
  * @author Bengoa
+ * @author Fluence
  */
 $messages['es'] = array(
 	'babel-0'   => 'Este usuario [[$1|no puede comunicarse]] en [[$2|$3]].',
@@ -576,7 +588,7 @@ $messages['es'] = array(
 	'babel-3'   => 'Este usuario puede contribuir con un nivel [[$1|avanzado]] de [[$2|$3]].',
 	'babel-4'   => 'Este usuario puede contribuir con un nivel [[$1|casi nativo]] en [[$2|$3]].',
 	'babel-N'   => 'Este usuario puede contribuir con un nivel [[$1|nativo]] en [[$2|$3]].',
-	'babel-0-n' => 'Este usuario [[$1|no puede comunicarse]] en [[$2|español]].',
+	'babel-0-n' => 'Este usuario [[$1|no puede comunicarse]] en [[$2|español]] (o lo entiende con dificultad).',
 	'babel-1-n' => 'Este usuario puede contribuir con un nivel [[$1|básico]] de [[$2|español]].',
 	'babel-2-n' => 'Este usuario puede contribuir con un nivel [[$1|intermedio]] de [[$2|español]].',
 	'babel-3-n' => 'Este usuario puede contribuir con un nivel [[$1|avanzado]] de [[$2|español]].',
@@ -736,20 +748,20 @@ $messages['grc'] = array(
 	'babel-desc'           => 'Προσθέτει τὴν <tt>#babel</tt> λεξιαναλυτικὴν λειτουργίαν ἐπιτρέπουσαν τὴν αὐτόματην δημιουργίαν στήλης κυτίων χρήστου τινός, ἐχούσης τὴν δυνατότηταν περίληψεως συνήθων προτύπων',
 	'babel-url'            => 'Project:Βαβέλ',
 	'babel-directionality' => 'ἀ.π.δ.',
-	'babel-0'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|οὐδέν]] περὶ [[$2|$3]] γιγνώσκει (ἢ μόλις καταλαμβάνει).',
+	'babel-0'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|οὐδὲν]] περὶ τῆς [[$2|$3]] γιγνώσκει (ἢ αὐτὴν μόλις καταλαμβάνει).',
 	'babel-1'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|στοιχειωδὼς]] τὴν [[$2|$3]] χρῆται.',
 	'babel-2'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|μέσως]] τὴν [[$2|$3]] χρῆται.',
 	'babel-3'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|ἀνωτέρως]] τὴν [[$2|$3]] χρῆται.',
-	'babel-4'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|σχεδὸν μητρικῆς γλώσσης]] γνῶσιν τῆς [[$2|$3]] ἔχει.',
+	'babel-4'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|σχεδὸν ὡς μητρικὴν γλῶσσαν]] τὴν [[$2|$3]] ἔχει.',
 	'babel-5'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|ἐπαγγελματικὼς]] τὴν [[$2|$3]] χρῆται.',
-	'babel-N'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|μητρικῆς γλώσσης]] γνῶσιν τῆς [[$2|$3]] ἔχει.',
-	'babel-0-n'            => 'Ὅδε χρήστης [[$1|οὐ κατανοεῖ]] τὴν [[$2| ἀρχαίαν ἑλληνικήν]] (ἢ μόλις καταλαμβάνει).',
+	'babel-N'              => 'Ὅδε ὁ ἐγκυκλοπαιδειουργὸς [[$1|ἰθαγενὴς ὁμιλητὴς]] τῆς [[$2|$3]] ἐστίν.',
+	'babel-0-n'            => 'Ὅδε χρήστης [[$1|οὐδὲν]] περὶ τῆς [[$2|ἀρχαίας ἑλληνικῆς]] γιγνώσκει (ἢ αὐτὴν μόλις καταλαμβάνει).',
 	'babel-1-n'            => 'Ὅδε χρήστης [[$1|στοιχειώδην]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
 	'babel-2-n'            => 'Ὅδε χρήστης [[$1|μέσην]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
 	'babel-3-n'            => 'Ὅδε χρήστης [[$1|ἀνωτέραν]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
-	'babel-4-n'            => 'Ὅδε χρήστης [[$1|σχεδὸν μητρικῆς γλώσσης]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
-	'babel-5-n'            => 'Ὅδε χρήστης [[$1|ἐπαγγελματικῆν]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
-	'babel-N-n'            => 'Ὅδε χρήστης ἐστὶ [[$1|ἰθαγενὴς ὀμιλητὴς ]] τῆς [[$2|ἀρχαίας ἑλληνικῆς]].',
+	'babel-4-n'            => 'Ὅδε χρήστης [[$1|σχεδὸν ὡς μητρικὴν γλῶσσαν]] τὴν [[$2|ἀρχαίαν ἑλληνικὴν]] ἔχει.',
+	'babel-5-n'            => 'Ὅδε χρήστης [[$1|ἐπαγγελματικὴν]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
+	'babel-N-n'            => 'Ὅδε χρήστης [[$1|αὐτόπρεμνον]] κίχησιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
 );
 
 /** Hawaiian (Hawai`i)
@@ -1423,6 +1435,13 @@ $messages['mr'] = array(
 	'babel-4-n'            => 'या सदस्याला [[$2|मराठी]] चे [[$1|अति उच्च स्तराचे]] ज्ञान आहे.',
 	'babel-5-n'            => 'या सदस्याला [[$2|मराठी]] चे [[$1|व्यावसायिक स्तराचे]] ज्ञान आहे.',
 	'babel-N-n'            => 'या सदस्याला [[$2|मराठी]] चे [[$1|स्थानिक स्तराचे]] ज्ञान आहे.',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Kurniasan
+ */
+$messages['ms'] = array(
+	'babel' => 'Maklumat bahasa pengguna',
 );
 
 /** Erzya (Эрзянь)
