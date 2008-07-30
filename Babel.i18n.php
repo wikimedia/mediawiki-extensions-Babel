@@ -622,16 +622,27 @@ $messages['fa'] = array(
 
 /** Finnish (Suomi)
  * @author Nike
+ * @author Jaakonam
  */
 $messages['fi'] = array(
-	'babel'     => 'Käyttäjän kielitaito',
-	'babel-0-n' => 'Tämä käyttäjä osaa [[$1|hyvin vähän tai ei lainkaan]] [[$2|suomea]].',
-	'babel-1-n' => 'Tämä käyttäjä puhuu [[$2|suomea]] [[$1|vähän]].',
-	'babel-2-n' => 'Tämä käyttäjä osaa [[$2|suomea]] [[$1|kohtalaisesti]].',
-	'babel-3-n' => 'Tämä käyttäjä osaa [[$2|suomea]] [[$1|erinomaisesti]].',
-	'babel-4-n' => 'Tämä käyttäjä osaa [[$2|suomea]] [[$1|melkein äidinkielen tavoin]].',
-	'babel-5-n' => 'Tämä käyttäjä käyttää [[$2|suomea]] [[$1|ammattimaisesti]].',
-	'babel-N-n' => 'Tämä käyttäjä puhuu [[$2|suomea]] [[$1|äidinkielenään]].',
+	'babel'                => 'Käyttäjän kielitaito',
+	'babel-desc'           => 'Lisää <tt>#babel</tt>-funktion, jotta käyttäjän kielitaidosta kertova babel-käyttäjälaatikkosarake voidaan luoda automaattisesti ja sisällyttää räätälöityihin mallineisiin.',
+	'babel-url'            => 'Project:Kielitaito',
+	'babel-directionality' => 'ltr',
+	'babel-0'              => 'Tämä käyttäjä osaa [[$1|hyvin vähän tai ei lainkaan]] kieltä [[$2|$3]].',
+	'babel-1'              => 'Tällä käyttäjällä on kielen [[$2|$3]] [[$1|perustaidot]]',
+	'babel-2'              => 'Tämä käyttäjä osaa kieltä [[$2|$3]] [[$1|kohtalaisesti]].',
+	'babel-3'              => 'Tämä käyttäjä osaa kieltä [[$2|$3]] [[$1|erinomaisesti]].',
+	'babel-4'              => 'Tämä käyttäjä osaa kieltä [[$2|$3]] [[$1|äidinkielen tavoin]].',
+	'babel-5'              => 'Tämä käyttäjä osaa käyttää kieltä [[$2|$3]] [[$1|ammattimaisesti]].',
+	'babel-N'              => 'Tämä käyttäjä puhuu kieltä [[$2|$3]] [[$1|äidinkielenään]].',
+	'babel-0-n'            => 'Tämä käyttäjä osaa [[$1|hyvin vähän tai ei lainkaan]] [[$2|suomea]].',
+	'babel-1-n'            => 'Tämä käyttäjä puhuu [[$2|suomea]] [[$1|vähän]].',
+	'babel-2-n'            => 'Tämä käyttäjä osaa [[$2|suomea]] [[$1|kohtalaisesti]].',
+	'babel-3-n'            => 'Tämä käyttäjä osaa [[$2|suomea]] [[$1|erinomaisesti]].',
+	'babel-4-n'            => 'Tämä käyttäjä osaa [[$2|suomea]] [[$1|melkein äidinkielen tavoin]].',
+	'babel-5-n'            => 'Tämä käyttäjä käyttää [[$2|suomea]] [[$1|ammattimaisesti]].',
+	'babel-N-n'            => 'Tämä käyttäjä puhuu [[$2|suomea]] [[$1|äidinkielenään]].',
 );
 
 /** Faroese (Føroyskt)
@@ -761,7 +772,7 @@ $messages['grc'] = array(
 	'babel-3-n'            => 'Ὅδε χρήστης [[$1|ἀνωτέραν]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
 	'babel-4-n'            => 'Ὅδε χρήστης [[$1|σχεδὸν ὡς μητρικὴν γλῶσσαν]] τὴν [[$2|ἀρχαίαν ἑλληνικὴν]] ἔχει.',
 	'babel-5-n'            => 'Ὅδε χρήστης [[$1|ἐπαγγελματικὴν]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
-	'babel-N-n'            => 'Ὅδε χρήστης [[$1|αὐτόπρεμνον]] κίχησιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
+	'babel-N-n'            => 'Ὅδε χρήστης [[$1|αὐτόπρεμνον]] αἴσθησιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
 );
 
 /** Hawaiian (Hawai`i)
