@@ -662,6 +662,22 @@ HEREDOC;
 
 		}
 
+		/* Try the native MediaWiki names (or CLDR).
+		 */
+		if( class_exists( 'LanguageNames' ) ) {
+			$names = LanguageNames::getNames( $code );
+		} else {
+			$names = $nativeNames;
+		}
+
+		if( array_key_exists( strtolower( $code ), $names ) ) {
+			return true;
+		}
+
+		/* Not found, return false.
+		 */
+		return false;
+
 	}
 
 	/**
@@ -718,6 +734,18 @@ HEREDOC;
 
 		if( array_key_exists( $code, $this->_codes[ 'ISO_639_3' ] ) && array_key_exists( "name_$lang", $this->_codes[ 'ISO_639_3' ][ $code ] ) ) {
 			return $this->_codes[ 'ISO_639_3' ][ $code ][ "name_$lang" ];
+		}
+
+		/* Try the native MediaWiki names (or CLDR).
+		 */
+		if( class_exists( 'LanguageNames' ) ) {
+			$names = LanguageNames::getNames( $code );
+		} else {
+			$names = $nativeNames;
+		}
+
+		if( array_key_exists( strtolower( $code ), $names ) ) {
+			return $names[ $code ];
 		}
 
 		// Nothing found, return input.
