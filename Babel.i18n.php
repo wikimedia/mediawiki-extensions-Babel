@@ -473,10 +473,12 @@ $messages['da'] = array(
  * @author Raimond Spekking
  * @author Purodha
  * @author Revolus
+ * @author ChrisiPK
  */
 $messages['de'] = array(
 	'babel'      => 'Babel-Benutzer-Information',
 	'babel-desc' => 'Ergänzt die <tt>#babel</tt>-Parserfunktion zur automatischen Erstellung von Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
+	'babel-url'  => 'Project:Babel',
 	'babel-0'    => 'Dieser Benutzer hat [[$1|keine]] Kenntnisse von [[$2|$3]] (oder versteht die Sprache nur mit beträchtlichen Schwierigkeiten).',
 	'babel-1'    => 'Dieser Benutzer hat [[$1|grundlegende]] Kenntnisse von [[$2|$3]].',
 	'babel-2'    => 'Dieser Benutzer hat [[$1|fortgeschrittene]] Kenntnisse von [[$2|$3]].',
@@ -1445,13 +1447,13 @@ $messages['nah'] = array(
 	'babel-4'   => 'Inīn tlatequitiltilīlli quitlahtoa [[$2|$3]] iuh [[$1|tlācatlahtohqui]].',
 	'babel-5'   => 'Inīn tlatequitiltilīlli [[$1|huēyi cualtzin]] quitlahtoa [[$2|$3]].',
 	'babel-N'   => 'Inīn tlatequitiltilīlli cah [[$2|$3]] [[$1|tlācatlahtohqui]].',
-	'babel-0-n' => 'Inīn tlatequitiltilīlli [[$1|ahmo huelīti]] quitlahtoa [[$2|Inglatlahtōlli]] (nozo monequi quitlahtoa).',
-	'babel-1-n' => 'Inīn tlatequitiltilīlli quipiya āxcāyōtl [[$1|monequi]] ic [[$2|Inglatlahtōlli]].',
-	'babel-2-n' => 'Inīn tlatequitiltilīlli [[$1|tepitzin]] quitlahtoa [[$2|Inglatlahtōlli]].',
-	'babel-3-n' => 'Inīn tlatequitiltilīlli [[$1|cualli]] quitlahtoa [[$2|Inglatlahtōlli]].',
-	'babel-4-n' => 'Inīn tlatequitiltilīlli quitlahtoa [[$2|Inglatlahtōlli]] iuh [[$1|tlācatlahtohqui]].',
-	'babel-5-n' => 'Inīn tlatequitiltilīlli [[$1|huēyi cualtzin]] quitlahtoa [[$2|Inglatlahtōlli]].',
-	'babel-N-n' => 'Inīn tlatequitiltilīlli cah [[$2|Inglatlahtōlli]] [[$1|tlācatlahtohqui]].',
+	'babel-0-n' => 'Inīn tlatequitiltilīlli [[$1|ahmo huelīti]] quitlahtoa [[$2|Nāhuatlahtōlli]] (nozo monequi quitlahtoa).',
+	'babel-1-n' => 'Inīn tlatequitiltilīlli quipiya āxcāyōtl [[$1|monequi]] ic [[$2|Nāhuatlahtōlli]].',
+	'babel-2-n' => 'Inīn tlatequitiltilīlli [[$1|tepitzin]] quitlahtoa [[$2|Nāhuatlahtōlli]].',
+	'babel-3-n' => 'Inīn tlatequitiltilīlli [[$1|cualli]] quitlahtoa [[$2|Nāhuatlahtōlli]].',
+	'babel-4-n' => 'Inīn tlatequitiltilīlli quitlahtoa [[$2|Nāhuatlahtōlli]] iuh [[$1|tlācatlahtohqui]].',
+	'babel-5-n' => 'Inīn tlatequitiltilīlli [[$1|huēyi cualtzin]] quitlahtoa [[$2|Nāhuatlahtōlli]].',
+	'babel-N-n' => 'Inīn tlatequitiltilīlli cah [[$2|Nāhuatlahtōlli]] [[$1|tlācatlahtohqui]].',
 );
 
 /** Low German (Plattdüütsch)
