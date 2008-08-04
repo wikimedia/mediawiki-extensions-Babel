@@ -183,13 +183,23 @@ $messages['arn'] = array(
  * @author Esbardu
  */
 $messages['ast'] = array(
-	'babel-0-n' => "Esti usuariu [[$1|nun]] tien conocimientos d'[[$2|asturianu]] (o entiéndelo con gran dificultá).",
-	'babel-1-n' => "Esti usuariu tien un conocimientu [[$1|básicu]] d'[[$2|asturianu]].",
-	'babel-2-n' => "Esti usuariu tien un conocimientu [[$1|intermediu]] d'[[$2|asturianu]].",
-	'babel-3-n' => "Esti usuariu tien un conocimientu [[$1|avanzáu]] d'[[$2|asturianu]].",
-	'babel-4-n' => "Esti usuariu tien un conocimientu [[$1|cuasi nativu]] d'[[$2|asturianu]].",
-	'babel-5-n' => "Esti usuariu tien un conocimientu [[$1|profesional]] d'[[$2|asturianu]].",
-	'babel-N-n' => "Esti usuariu ye un falante [[$1|nativu]] d'[[$2|asturianu]].",
+	'babel'      => "Información babel d'usuariu",
+	'babel-desc' => "Añade la función d'análisis sintáuticu <tt>#babel</tt> pa permitir la xeneración automática d'una columna userbox babel cola capacidá d'incluyir plantíes al gustu d'ún",
+	'babel-url'  => 'Project:Babel',
+	'babel-0'    => 'Esti usuariu [[$1|nun]] tien conocimientos de [[$2|$3]] (o entiéndelo con gran dificultá).',
+	'babel-1'    => 'Esti usuariu tien un conocimientu [[$1|básicu]] de [[$2|$3]].',
+	'babel-2'    => 'Esti usuariu tien un conocimientu [[$1|intermediu]] de [[$2|$3]].',
+	'babel-3'    => 'Esti usuariu tien un conocimientu [[$1|avanzáu]] de [[$2|$3]].',
+	'babel-4'    => 'Esti usuariu tien un conocimientu [[$1|cuasi nativu]] de [[$2|$3]].',
+	'babel-5'    => 'Esti usuariu tien un conocimientu [[$1|profesional]] de [[$2|$3]].',
+	'babel-N'    => 'Esti usuariu tien un conocimientu [[$1|nativu]] de [[$2|$3]].',
+	'babel-0-n'  => "Esti usuariu [[$1|nun]] tien conocimientos d'[[$2|asturianu]] (o entiéndelo con gran dificultá).",
+	'babel-1-n'  => "Esti usuariu tien un conocimientu [[$1|básicu]] d'[[$2|asturianu]].",
+	'babel-2-n'  => "Esti usuariu tien un conocimientu [[$1|intermediu]] d'[[$2|asturianu]].",
+	'babel-3-n'  => "Esti usuariu tien un conocimientu [[$1|avanzáu]] d'[[$2|asturianu]].",
+	'babel-4-n'  => "Esti usuariu tien un conocimientu [[$1|cuasi nativu]] d'[[$2|asturianu]].",
+	'babel-5-n'  => "Esti usuariu tien un conocimientu [[$1|profesional]] d'[[$2|asturianu]].",
+	'babel-N-n'  => "Esti usuariu ye un falante [[$1|nativu]] d'[[$2|asturianu]].",
 );
 
 /** Southern Balochi (بلوچی مکرانی)
@@ -474,24 +484,26 @@ $messages['da'] = array(
  * @author Purodha
  * @author Revolus
  * @author ChrisiPK
+ * @author Forrester
+ * @author Raymond
  */
 $messages['de'] = array(
 	'babel'      => 'Babel-Benutzer-Information',
 	'babel-desc' => 'Ergänzt die <tt>#babel</tt>-Parserfunktion zur automatischen Erstellung von Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
 	'babel-url'  => 'Project:Babel',
-	'babel-0'    => 'Dieser Benutzer hat [[$1|keine]] Kenntnisse von [[$2|$3]] (oder versteht die Sprache nur mit beträchtlichen Schwierigkeiten).',
-	'babel-1'    => 'Dieser Benutzer hat [[$1|grundlegende]] Kenntnisse von [[$2|$3]].',
-	'babel-2'    => 'Dieser Benutzer hat [[$1|fortgeschrittene]] Kenntnisse von [[$2|$3]].',
-	'babel-3'    => 'Dieser Benutzer hat [[$1|sehr gute]] Kenntnisse von [[$2|$3]].',
+	'babel-0'    => 'Dieser Benutzer beherrscht [[$2|$3]] [[$1|nicht]] (oder versteht es nur mit beträchtlichen Schwierigkeiten).',
+	'babel-1'    => 'Dieser Benutzer beherrscht [[$2|$3]] auf [[$1|grundlegendem]] Niveau.',
+	'babel-2'    => 'Dieser Benutzer beherrscht [[$2|$3]] auf [[$1|fortgeschrittenem]] Niveau.',
+	'babel-3'    => 'Dieser Benutzer beherrscht [[$2|$3]] auf [[$1|hohem]] Niveau.',
 	'babel-4'    => 'Dieser Benutzer beherrscht [[$2|$3]] auf [[$1|muttersprachlichem Niveau]].',
-	'babel-5'    => 'Dieser Benutzer [[$1|professionelle]] Kenntnisse von [[$2|$3]].',
+	'babel-5'    => 'Dieser Benutzer beherrscht [[$2|$3]] auf [[$1|professionellem]] Niveau.',
 	'babel-N'    => 'Dieser Benutzer spricht [[$2|$3]] als [[$1|Muttersprache]].',
-	'babel-0-n'  => 'Dieser Benutzer hat [[$1|keine]] Kenntnisse von [[$2|Deutsch]] (oder versteht nur mit beträchtlichen Schwierigkeiten).',
-	'babel-1-n'  => 'Dieser Benutzer hat [[$1|grundlegende]] Kenntnisse von [[$2|Deutsch]].',
-	'babel-2-n'  => 'Dieser Benutzer hat [[$1|fortgeschrittene]] Kenntnisse von [[$2|Deutsch]].',
-	'babel-3-n'  => 'Dieser Benutzer hat [[$1|sehr gute]] Kenntnisse von [[$2|Deutsch]].',
+	'babel-0-n'  => 'Dieser Benutzer beherrscht [[$2|Deutsch]] [[$1|nicht]] (oder versteht es nur mit beträchtlichen Schwierigkeiten).',
+	'babel-1-n'  => 'Dieser Benutzer beherrscht [[$2|Deutsch]] auf [[$1|grundlegendem]] Niveau.',
+	'babel-2-n'  => 'Dieser Benutzer beherrscht [[$2|Deutsch]] auf [[$1|fortgeschrittenem]] Niveau.',
+	'babel-3-n'  => 'Dieser Benutzer beherrscht [[$2|Deutsch]] auf [[$1|hohem]] Niveau.',
 	'babel-4-n'  => 'Dieser Benutzer beherrscht [[$2|Deutsch]] auf [[$1|muttersprachlichem Niveau]].',
-	'babel-5-n'  => 'Dieser Benutzer [[$1|professionelle]] Kenntnisse von [[$2|Deutsch]].',
+	'babel-5-n'  => 'Dieser Benutzer beherrscht [[$2|Deutsch]] auf [[$1|professionellem]] Niveau.',
 	'babel-N-n'  => 'Dieser Benutzer spricht [[$2|Deutsch]] als [[$1|Muttersprache]].',
 );
 
