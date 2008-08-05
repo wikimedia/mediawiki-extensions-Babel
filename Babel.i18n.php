@@ -960,8 +960,8 @@ $messages['hy'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'babel'      => 'Information de usator Babel',
-	'babel-desc' => "Adde le function <tt>#babel</tt> del analysator syntactic, pro permitter le generation automatic de un columna a quadro de usator 'babel' con le capacitate de includer patronos personalisate.",
+	'babel'      => 'Informationes Babel del usator',
+	'babel-desc' => "Adde le function <tt>#babel</tt> al analysator syntactic, pro permitter le generation automatic de un columna con un quadro de usator 'Babel' con le capacitate de includer patronos personalisate.",
 	'babel-url'  => 'Project:Babel',
 	'babel-0'    => 'Iste usator [[$1|non comprende]] [[$2|$3]] (o solmente con difficultates notabile).',
 	'babel-1'    => 'Iste usator ha cognoscentias [[$1|de base]] de [[$2|$3]].',
@@ -970,13 +970,13 @@ $messages['ia'] = array(
 	'babel-4'    => 'Iste usator ha cognoscentias a nivello [[$1|quasi native]] de [[$2|$3]].',
 	'babel-5'    => 'Iste usator ha cognoscentias [[$1|professional]] de [[$2|$3]].',
 	'babel-N'    => 'Iste usator ha cognoscentias a nivello [[$1|native]] de [[$2|$3]].',
-	'babel-0-n'  => 'Iste usator [[$1|non comprende]] [[$2|interlingua]] (o solmente con difficultates notabile).',
+	'babel-0-n'  => 'Iste usator ha [[$1|nulle]] cognoscentia de [[$2|interlingua]] (o lo comprende con difficultate considerabile).',
 	'babel-1-n'  => 'Iste usator ha cognoscentias [[$1|de base]] de [[$2|interlingua]].',
 	'babel-2-n'  => 'Iste usator ha cognoscentias [[$1|medie]] de [[$2|interlingua]].',
 	'babel-3-n'  => 'Iste usator ha cognoscentias [[$1|avantiate]] de [[$2|interlingua]].',
-	'babel-4-n'  => 'Iste usator ha cognoscentias a nivello [[$1|quasi native]] de [[$2|anglese]].',
-	'babel-5-n'  => 'Iste usator ha cognoscentias [[$1|professional]] de [[$2|anglese]].',
-	'babel-N-n'  => 'Iste usator ha cognoscentias a nivello [[$1|native]] de [[$2|anglese]].',
+	'babel-4-n'  => 'Iste usator ha cognoscentias a nivello [[$1|quasi native]] de [[$2|interlingua]].',
+	'babel-5-n'  => 'Iste usator ha cognoscentias [[$1|professional]] de [[$2|interlingua]].',
+	'babel-N-n'  => 'Iste usator ha cognoscentias a nivello [[$1|native]] de [[$2|interlingua]].',
 );
 
 /** Indonesian (Bahasa Indonesia)
