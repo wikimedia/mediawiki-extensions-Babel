@@ -80,7 +80,8 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author MinuteElectron
- * @author Raymond
+ * @author Raimond Spekking
+ * @author Siebrand
  */
 $messages['qqq'] = array(
 	'babel' => 'Header of Babel box.',
