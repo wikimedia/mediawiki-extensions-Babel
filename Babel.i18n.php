@@ -80,11 +80,13 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author MinuteElectron
+ * @author Purodha
  * @author Raimond Spekking
  * @author Siebrand
  */
 $messages['qqq'] = array(
 	'babel' => 'Header of Babel box.',
+	'babel-desc' => 'Short description of this extension, shown on [[Special:Version]]. Do not translate or change links.',
 	'babel-url' => 'The page name at which more information about the babel system can be found. Do not translate the namespace Project:.',
 	'babel-directionality' => 'Directionality of the language you are translating in (valid  values: "ltr" for left to right (default), or "rtl" for right to left).
 
@@ -501,9 +503,16 @@ $messages['cu'] = array(
 	'babel-url' => 'Project:Вавѷлѡ́нъ',
 	'babel-0' => 'Сь́ по́льꙃєватєл҄ь [[$1|нє]] раꙁоумѣ́ѥтъ [[$2|$3]] · и́ли раꙁоумѣ́ѥтъ съ вєли́кꙑ оуси́лии',
 	'babel-1' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|$3]] [[$1|зълѣ́]]',
+	'babel-2' => 'Сь́ по́льꙃєватєл҄ь глаго́лѥтъ [[$2|$3]] [[$1|трьпи́мо]]',
+	'babel-3' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|$3]] [[$1|до́брѣ]]',
+	'babel-4' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|$3]] [[$1|вєльми до́брѣ]]',
+	'babel-N' => 'Сѥмоу́ по́льꙃєватєл҄ю [[$2|$3]] ꙗ́ко [[$1|родьнъ]] ѥ́стъ',
 	'babel-0-n' => 'Сь́ по́льꙃєватєл҄ь [[$1|нє]] раꙁоумѣ́ѥтъ [[$2|словѣ́ньскꙑ]] · и́ли раꙁоумѣ́ѥтъ съ вєли́кꙑ оуси́лии',
 	'babel-1-n' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|словѣ́ньскꙑ]] [[$1|зълѣ́]]',
 	'babel-2-n' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|словѣ́ньскꙑ]] [[$1|трьпи́мо]]',
+	'babel-3-n' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|словѣ́ньскꙑ]] [[$1|до́брѣ]]',
+	'babel-4-n' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|словѣ́ньскꙑ]] [[$1|вєльми до́брѣ]]',
+	'babel-N-n' => 'Сѥмоу́ по́льꙃєватєл҄ю [[$2|словѣ́ньскъ ѩꙁꙑ́къ]] ꙗ́ко [[$1|ро́дьнъ]] ѥ́стъ',
 );
 
 /** Chuvash (Чăвашла)
@@ -1241,7 +1250,7 @@ $messages['ko'] = array(
  */
 $messages['ksh'] = array(
 	'babel' => 'Dem Medmaacher sing Shprooche-Weße',
-	'babel-desc' => 'Brengk de <tt>#babel</tt>-Paaserfongxjohn, womet me automatesch ene Babel-Medmaacher-Kaste opboue kann, un dobeij och selfßjemaate Schabloone nozze kan',
+	'babel-desc' => 'Brengk de <tt>#babel</tt>-Paaserfongxjohn, womet me automatesch ene Babel-Medmaacher-Kaste opboue kann, un dobeij och selfßjemaate Schabloone nozze kan.',
 	'babel-url' => 'Project:Babel',
 	'babel-0' => 'Dä Medmaacher hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
 	'babel-1' => 'Dä Medmaacher hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
