@@ -745,7 +745,7 @@ HEREDOC;
 		}
 
 		if( array_key_exists( strtolower( $code ), $names ) ) {
-			return $names[ $code ];
+			return $names[ strtolower( $code ) ];
 		}
 
 		// Nothing found, return input.
