@@ -481,6 +481,7 @@ $messages['crh'] = array(
 
 /** Czech (Česky)
  * @author Danny B.
+ * @author Li-sung
  * @author Matěj Grabovský
  * @author Mormegil
  */
@@ -491,6 +492,7 @@ $messages['cs'] = array(
 	'babel-0-n' => 'Tento uživatel [[$1|nerozumí]] [[$2|česky]] (nebo rozumí se značnými problémy).',
 	'babel-1-n' => 'Tento uživatel má [[$1|základní]] znalosti [[$2|češtiny]].',
 	'babel-2-n' => 'Tento uživatel má [[$1|střední]] znalosti [[$2|češtiny]].',
+	'babel-3-n' => 'Tento uživatel má [[$1|pokročilé]] znalosti [[$2|češtiny]].',
 	'babel-4-n' => 'Tento uživatel má znalosti [[$2|češtiny]] [[$1|téměř na úrovni rodilého mluvčího]].',
 	'babel-5-n' => 'Tento uživatel má [[$1|profesionální]] znalosti [[$2|češtiny]].',
 	'babel-N-n' => 'Tento uživatel je [[$1|rodilý mluvčí]] [[$2|češtiny]].',
@@ -1229,6 +1231,7 @@ $messages['km'] = array(
  */
 $messages['ko'] = array(
 	'babel' => '사용자 언어 정보',
+	'babel-url' => 'Project:바벨',
 	'babel-0' => '이 사용자는 [[$2|$3]]를 [[$1|모르거나]], 이해하는 데 어려움이 있습니다.',
 	'babel-1' => '이 사용자는 [[$2|$3]]를 [[$1|조금]] 할 수 있습니다.',
 	'babel-2' => '이 사용자는 [[$2|$3]]를 [[$1|어느 정도]] 할 수 있습니다.',
@@ -2052,6 +2055,22 @@ $messages['sd'] = array(
 	'babel-5' => 'هن يُوزر کي [[$2|$3]] جي [[$1|پيشورانه]] ڄاڻ آهي.',
 	'babel-1-n' => 'هن يُوزر کي [[$2|انگريزي]]ءَ جي [[$1|بنيادي]] ڄاڻ آهي.',
 	'babel-5-n' => 'هن يُوزر کي [[$2|انگريزي]]ءَ جي [[$1|پيشورانه]] ڄاڻ آهي.',
+);
+
+/** Sinhala (සිංහල)
+ * @author Asiri wiki
+ */
+$messages['si'] = array(
+	'babel' => 'බාබෙල් පරිශීලක තොරතුරු',
+	'babel-url' => 'ව්‍යාපෘතිය: බාබෙල්',
+	'babel-0' => 'මෙම පරිශීලකයා‍ට [[$2|$3]] පිළිබඳ දැනුමක් [[$1|නැත]].',
+	'babel-1' => 'මෙම පරිශීලකයා‍ට [[$2|$3]] පිළිබඳ [[$1|මූලික]] දැනුමක් ඇත.',
+	'babel-3' => 'මෙම පරිශීලකයා‍ට [[$2|$3]] පිළිබඳ [[$1|උසස්]] දැනුමක් ඇත.',
+	'babel-5' => 'මෙම පරිශීලකයා‍ට [[$2|$3]] පිළිබඳ [[$1| ඉතා උසස්]] දැනුමක් ඇත.',
+	'babel-0-n' => 'මෙම පරිශීලකයා‍ට [[$2|ඉංග්‍රීසි භාෂාව]] පිළිබඳ දැනුමක් [[$1|නැත]].',
+	'babel-1-n' => 'මෙම පරිශීලකයා‍ට [[$2|ඉංග්‍රීසි භාෂාව]] පිළිබඳ [[$1|මූලික]] දැනුමක් ඇත.',
+	'babel-3-n' => 'මෙම පරිශීලකයා‍ට [[$2|ඉංග්‍රීසි භාෂාව]] පිළිබඳ [[$1|උසස්]] දැනුමක් ඇත.',
+	'babel-5-n' => 'මෙම පරිශීලකයා‍ට [[$2|ඉංග්‍රීසි භාෂාව]] පිළිබඳ [[$1| ඉතා උසස්]] දැනුමක් ඇත.',
 );
 
 /** Slovak (Slovenčina)
