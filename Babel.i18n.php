@@ -2125,12 +2125,14 @@ $messages['sq'] = array(
 $messages['stq'] = array(
 	'babel' => 'Babel-Benutser-Information',
 	'babel-desc' => 'Föiget an ju <tt>#babel</tt>-Parserfunktion foar automatisk Deerstaalen fon Babel-Benutserboxen-Riegen ju Muugelkhaid tou, oaine Foarloagen ientoubienden',
+	'babel-url' => 'Project:Babel',
 	'babel-0' => 'Dissen Benutser boalt un ferstoant [[$1|neen]] [[$2|$3]].',
 	'babel-1' => 'Dissen Benutser [[$1|boalt un ferstoant n Bitje]] [[$2|$3]].',
 	'babel-2' => 'Dissen Benutser kon [[$1|oarich]] [[$2|$3]] baale.',
 	'babel-3' => 'Dissen Benutser kon [[$1|goud]] [[$2|$3]] baale.',
 	'babel-4' => 'Dissen Benutser [[$1|boalt slonk]] [[$2|$3]].',
 	'babel-N' => 'Dissen Benutser häd [[$2|$3]] [[$1|as Määmesproake]].',
+	'babel-0-n' => 'Dissen Benutser behärsket [[$2|Düütsk]] [[$1|nit]] (of ferstoant et man stuur).',
 	'babel-N-n' => 'Dissen Benutser boalt [[$2|Seeltersk]] as [[$1|Määmesproake]].',
 );
 
