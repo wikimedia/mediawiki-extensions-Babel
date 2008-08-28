@@ -679,9 +679,10 @@ $messages['eo'] = array(
  * @author Bengoa
  * @author Fluence
  * @author GerardM
+ * @author Sanbec
  */
 $messages['es'] = array(
-	'babel-0' => 'Este usuario [[$1|no puede comunicarse]] en [[$2|$3]].',
+	'babel-0' => 'Este usuario [[$1|no puede comunicarse]] en [[$2|$3]] (o lo entiende con mucha dificultad).',
 	'babel-1' => 'Este usuario puede contribuir con un nivel [[$1|básico]] de [[$2|$3]].',
 	'babel-2' => 'Este usuario puede contribuir con un nivel [[$1|intermedio]] de [[$2|$3]].',
 	'babel-3' => 'Este usuario puede contribuir con un nivel [[$1|avanzado]] de [[$2|$3]].',
