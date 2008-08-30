@@ -2517,7 +2517,7 @@ $messages['zh-hk'] = array(
 	'babel-N-n' => '這位用戶明白以[[$1|母語]]為主的[[$2|港式中文]]。',
 );
 
-/** ‪Singapore Chinese‬ (‪中文(新加坡)‬)
+/** Singapore Chinese (‪中文(新加坡)‬)
  * @author Shinjiman
  */
 $messages['zh-sg'] = array(
