@@ -148,6 +148,39 @@ $messages['sxu'] = array(
 	'babel-N-n' => "Dor Benutzor hior is ä rüscht'schor [[$1|Muddorsprachlor]] vom [[$2|Sächs'sch]]n.",
 );
 
+/** Tulu (ತುಳು)
+ * @author NamwikiTL
+ */
+$messages['tcy'] = array(
+	'babel' => 'ಬೇಬಲ್ ಬಳಕೆದಾರೆರ್ನ ಮಾಹಿತಿ',
+	'babel-desc' => '<tt>#babel</tt> ಪಾರ್ಸರ್ ಫ೦ಕ್ಷನ್ ನ್ ಸೇರ್ಸಾವು೦ಡು. ಈ ಪಾರ್ಸರ್ ಫ೦ಕ್ಷನ್ ಬೇಬಲ್ ಬಳಕೆದಾರೆರ್ನ ಬಾಕ್ಸ್ ನ್ ಸೃಷ್ಟಿ ಮಲ್ಪು೦ಡು. ನೆನೆ ಬುಕ ಕಸ್ಟಮ್ ಟೆ೦ಪ್ಲಟ್ ಡ್ ಪಾಡೊಲಿ.',
+	'babel-url' => 'ಯೋಜನೆ:ಬೇಬಲ್',
+	'babel-directionality' => 'ಎಡರ್ದ್ ಬಲ',
+	'babel-0' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್  [[$2|$3]] ನೆತ ಬಗ್ಗೆ [[$1|ಶೂನ್ಯ]] ಜ್ನಾನ ಉ೦ಡು (ಅತ್ತ೦ಡ ಭಾರಿ ಕಷ್ಟೊಡು ಅರ್ಥ ಮಲ್ತೊನ್ವೆರ್)',
+	'babel-1' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|$3]] ನೆತ ಬಗ್ಗೆ [[$1|ಪ್ರಾಥಮಿಕ]] ಜ್ನಾನ ಉ೦ಡು.',
+	'babel-2' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|$3]] ನೆತ ಬಗ್ಗೆ [[$1|ಮಧ್ಯಮ]] ಜ್ನಾನ ಉ೦ಡು',
+	'babel-3' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|$3]] ನೆತ ಬಗ್ಗೆ [[$1|ಉನ್ನತ]] ಜ್ನಾನ ಉ೦ಡು ಉನ್ನತ',
+	'babel-4' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|$3]] ನೆತ ಬಗ್ಗೆ [[$1|ಮಾತೃ ಭಾಷೆದ ಲೆಕದ]] ಜ್ನಾನ ಉ೦ಡು',
+	'babel-5' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|$3]] ನೆತ ಬಗ್ಗೆ [[$1|ವೃತ್ತಿ ನಿರತೆರ್ನ ಲೆಕದ]] ಜ್ನಾನ ಉ೦ಡು',
+	'babel-N' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|$3]] ನೆತ ಬಗ್ಗೆ [[$1|ಮೂಲ ಭಾಷಿಕೆರ್ನ]] ಜ್ನಾನ ಉ೦ಡು',
+	'babel-0-n' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|ಇ೦ಗ್ಲೀಶ್]]  ನೆತ ಬಗ್ಗೆ [[$1|ಶೂನ್ಯ]] ಜ್ನಾನ ಉ೦ಡು (ಅತ್ತ೦ಡ ಭಾರಿ ಕಷ್ಟೊಡು ಅರ್ಥ ಮಲ್ತೊನ್ವೆರ್)',
+	'babel-1-n' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್  [[$2|ಇ೦ಗ್ಲೀಶ್]] ನೆತ ಬಗ್ಗೆ [[$1|ಪ್ರಾಥಮಿಕ]] ಜ್ನಾನ ಉ೦ಡು',
+	'babel-2-n' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|ಇ೦ಗ್ಲೀಶ್]] ನೆತ ಬಗ್ಗೆ [[$1|ಮಧ್ಯಮ]] ಜ್ನಾನ ಉ೦ಡು',
+	'babel-3-n' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|ಇ೦ಗ್ಲೀಶ್]] ನೆತ ಬಗ್ಗೆ [[$1|ಉನ್ನತ]] ಜ್ನಾನ ಉ೦ಡು',
+	'babel-4-n' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|ಇ೦ಗ್ಲೀಶ್]] ನೆತ ಬಗ್ಗೆ [[$1|ಮೂಲಭಾಷಿಕೆರ್ನ ಲೆಕದ]] ಜ್ನಾನ ಉ೦ಡು',
+	'babel-5-n' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|ಇ೦ಗ್ಲೀಶ್]] ನೆತ ಬಗ್ಗೆ [[$1|ವೃತ್ತಿಪರೆರ್ನ]] ಜ್ನಾನ ಉ೦ಡು',
+	'babel-N-n' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|ಇ೦ಗ್ಲೀಶ್]] ನೆತ ಬಗ್ಗೆ [[$1|ಮೂಲಭಾಷಿಕೆರ್ನ]] ಜ್ನಾನ ಉ೦ಡು',
+);
+
+/** Lower Silesian (Lower Selisian (need local name on Support))
+ * @author Jonny84
+ */
+$messages['sli'] = array(
+	'babel-url' => 'Project:Babel',
+	'babel-1' => 'Dieser Benutzer beherrscht [[$2|$3]] auf [[$1|grundlegendem]] Niveau.',
+	'babel-3-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] auf [[$1|hohem]] Niveau.',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
@@ -677,6 +710,7 @@ $messages['eo'] = array(
 
 /** Spanish (Español)
  * @author Bengoa
+ * @author Crazymadlover
  * @author Fluence
  * @author GerardM
  * @author Sanbec
@@ -687,12 +721,14 @@ $messages['es'] = array(
 	'babel-2' => 'Este usuario puede contribuir con un nivel [[$1|intermedio]] de [[$2|$3]].',
 	'babel-3' => 'Este usuario puede contribuir con un nivel [[$1|avanzado]] de [[$2|$3]].',
 	'babel-4' => 'Este usuario puede contribuir con un nivel [[$1|casi nativo]] en [[$2|$3]].',
+	'babel-5' => 'Este usuario tiene un conocimiento [[$|profesional]] del [[$2|$3]]',
 	'babel-N' => 'Este usuario puede contribuir con un nivel [[$1|nativo]] en [[$2|$3]].',
 	'babel-0-n' => 'Este usuario [[$1|no puede comunicarse]] en [[$2|español]] (o lo entiende con dificultad).',
 	'babel-1-n' => 'Este usuario puede contribuir con un nivel [[$1|básico]] de [[$2|español]].',
 	'babel-2-n' => 'Este usuario puede contribuir con un nivel [[$1|intermedio]] de [[$2|español]].',
 	'babel-3-n' => 'Este usuario puede contribuir con un nivel [[$1|avanzado]] de [[$2|español]].',
 	'babel-4-n' => 'Este usuario puede contribuir con un nivel [[$1|casi nativo]] en [[$2|español]].',
+	'babel-5-n' => 'Este usuario tiene un conocimiento [[$1|profesional]] del [[$2|Español]].',
 	'babel-N-n' => 'Este usuario puede contribuir con un nivel [[$1|nativo]] en [[$2|español]].',
 );
 
@@ -742,6 +778,29 @@ $messages['fi'] = array(
 	'babel-4-n' => 'Tämä käyttäjä osaa [[$2|suomea]] [[$1|melkein äidinkielen tavoin]].',
 	'babel-5-n' => 'Tämä käyttäjä käyttää [[$2|suomea]] [[$1|ammattimaisesti]].',
 	'babel-N-n' => 'Tämä käyttäjä puhuu [[$2|suomea]] [[$1|äidinkielenään]].',
+);
+
+/** Võro (Võro)
+ * @author Võrok
+ */
+$messages['fiu-vro'] = array(
+	'babel' => 'Pruukja keelemõistminõ (Paabõli perrä)',
+	'babel-desc' => 'Tege <tt>#babel</tt>-abinõvvo, miä luu esiq pruukja keelemõistmisõ tabõli, kohe saa pandaq näüdüssit.',
+	'babel-url' => 'Project:Paabõl',
+	'babel-0' => 'Taa pruukja mõist [[$1|väega veidüq vai ei sukugi]] [[$2|$3]] kiilt.',
+	'babel-1' => 'Taa pruukja mõist [[$1|veidükese]] [[$2|$3]] kiilt.',
+	'babel-2' => 'Taa pruukja mõist [[$1|küländ häste]] [[$2|$3]] kiilt.',
+	'babel-3' => 'Taa pruukja mõist [[$1|väega häste]] [[$2|$3]] kiilt.',
+	'babel-4' => 'Taa pruukja mõist [[$2|$3]] kiilt [[$1|pia nigu imäkiilt]].',
+	'babel-5' => 'Taa pruukja om [[$2|$3]] keele pääle [[$1|vällä opnuq]].',
+	'babel-N' => 'Taa pruukja [[$1|imäkiil]] om [[$2|$3]] kiil.',
+	'babel-0-n' => 'Taa pruukja mõist [[$1|väega veidüq vai ei sukugi]] [[$2|võro]] kiilt.',
+	'babel-1-n' => 'Taa pruukja mõist [[$1|veidükese]] [[$2|võro]] kiilt.',
+	'babel-2-n' => 'Taa pruukja mõist [[$1|küländ häste]] [[$2|võro]] kiilt.',
+	'babel-3-n' => 'Taa pruukja mõist [[$1|väega häste]] [[$2|võro]] kiilt.',
+	'babel-4-n' => 'Taa pruukja mõist [[$2|võro]] kiilt [[$1|pia nigu imäkiilt]].',
+	'babel-5-n' => 'Taa pruukja om [[$2|võro]] keele pääle [[$1|vällä opnuq]].',
+	'babel-N-n' => 'Taa pruukja [[$1|imäkiil]] om [[$2|võro]] kiil.',
 );
 
 /** Faroese (Føroyskt)
@@ -990,7 +1049,7 @@ $messages['hsb'] = array(
 	'babel-3' => 'Tutón wužiwar ma [[$1|pokročene]] znajomosće [[$2|hornjoserbšćiny]].',
 	'babel-4' => 'Tutón wužiwar ma znajomosće [[$2|hornjoserbšćiny]] na [[$1|maćernorěčnym niwowje]].',
 	'babel-5' => 'Tutón wužiwar ma [[$1|profesionelne]] znajomosće [[$2|hornjoserbšćiny]].',
-	'babel-N' => 'Tutón wužiwar rěči [[$2|hornjoserbšćinu]] jako [[$1|maćernu rěč]].',
+	'babel-N' => '[[$1|Maćeršćina]] tutoho wužiwarja je [[$2|$3]].',
 	'babel-0-n' => 'Tutón wužiwar nima [[$1|žane]] znajomosće [[$2|hornjoserbšćiny]] (abo rozumi ju jenož z wulkimi ćežemi).',
 	'babel-1-n' => 'Tutón wužiwar ma [[$1|zakładne]] znajomosće [[$2|hornjoserbšćiny]].',
 	'babel-2-n' => 'Tutón wužiwar ma [[$1|přerězne]] znajomosće [[$2|hornjoserbšćiny]].',
@@ -1102,26 +1161,55 @@ $messages['id'] = array(
 
 /** Italian (Italiano)
  * @author Cruccone
+ * @author Darth Kule
  * @author Melos
  */
 $messages['it'] = array(
 	'babel' => 'Babel utente',
 	'babel-desc' => 'Aggiunge la parser function <tt>#babel</tt> per permettere la generazione automatica di una colonna box utente babel con la possibilità di includere template personalizzati',
 	'babel-url' => 'Project:Babel',
-	'babel-0' => 'Questo utente [[$1|non è in grado di comunicare]] in [[$2|$3]] (o lo capisce solo con notevole difficoltà)',
+	'babel-0' => 'Questo utente [[$1|non è in grado di comunicare]] in [[$2|$3]] (o lo capisce solo con notevole difficoltà).',
 	'babel-1' => 'Questo utente può contribuire con un un livello [[$1|elementare]] in [[$2|$3]].',
 	'babel-2' => 'Questo utente può contribuire con un un livello [[$1|intermedio]] in [[$2|$3]].',
 	'babel-3' => 'Questo utente può contribuire con un un livello [[$1|avanzato]] in [[$2|$3]].',
 	'babel-4' => 'Questo utente può contribuire con un un livello [[$1|quasi madrelingua]] in [[$2|$3]].',
 	'babel-5' => 'Questo utente può contribuire con un un livello [[$1|professionale]] in [[$2|$3]].',
 	'babel-N' => 'Questo utente può contribuire con un un livello [[$1|madrelingua]] in [[$2|$3]].',
-	'babel-0-n' => 'Questo utente [[$1|non è in grado di comunicare]] in [[$2|italiano]] (o lo capisce solo con notevole difficoltà)',
+	'babel-0-n' => 'Questo utente [[$1|non è in grado di comunicare]] in [[$2|italiano]] (o lo capisce solo con notevole difficoltà).',
 	'babel-1-n' => 'Questo utente può contribuire con un un livello [[$1|elementare]] in [[$2|italiano]].',
 	'babel-2-n' => 'Questo utente può contribuire con un un livello [[$1|intermedio]] in [[$2|italiano]].',
 	'babel-3-n' => 'Questo utente può contribuire con un un livello [[$1|avanzato]] in [[$2|italiano]].',
 	'babel-4-n' => 'Questo utente può contribuire con un un livello [[$1|quasi madrelingua]] in [[$2|italiano]].',
 	'babel-5-n' => 'Questo utente può contribuire con un un livello [[$1|professionale]] in [[$2|italiano]].',
 	'babel-N-n' => 'Questo utente può contribuire con un un livello [[$1|madrelingua]] in [[$2|italiano]].',
+	'babel-0-female' => 'Questa utente [[$1|non è in grado di comunicare]] in [[$2|$3]] (o lo capisce solo con notevole difficoltà)',
+	'babel-1-female' => 'Questa utente può contribuire con un un livello [[$1|elementare]] in [[$2|$3]].',
+	'babel-2-female' => 'Questa utente può contribuire con un un livello [[$1|intermedio]] in [[$2|$3]].',
+	'babel-3-female' => 'Questa utente può contribuire con un un livello [[$1|avanzato]] in [[$2|$3]].',
+	'babel-4-female' => 'Questa utente può contribuire con un un livello [[$1|quasi madrelingua]] in [[$2|$3]].',
+	'babel-5-female' => 'Questa utente può contribuire con un un livello [[$1|professionale]] in [[$2|$3]].',
+	'babel-N-female' => 'Questa utente può contribuire con un un livello [[$1|madrelingua]] in [[$2|$3]].',
+	'babel-0-n-female' => 'Questa utente [[$1|non è in grado di comunicare]] in [[$2|italiano]] (o lo capisce solo con notevole difficoltà).',
+	'babel-1-n-female' => 'Questa utente può contribuire con un un livello [[$1|elementare]] in [[$2|italiano]].',
+	'babel-2-n-female' => 'Questa utente può contribuire con un un livello [[$1|intermedio]] in [[$2|italiano]].',
+	'babel-3-n-female' => 'Questa utente può contribuire con un un livello [[$1|avanzato]] in [[$2|italiano]].',
+	'babel-4-n-female' => 'Questa utente può contribuire con un un livello [[$1|quasi madrelingua]] in [[$2|italiano]].',
+	'babel-5-n-female' => 'Questa utente può contribuire con un un livello [[$1|professionale]] in [[$2|italiano]].',
+	'babel-N-n-female' => 'Questa utente può contribuire con un un livello [[$1|madrelingua]] in [[$2|italiano]].',
+	'babel-0-male' => 'Questo utente [[$1|non è in grado di comunicare]] in [[$2|$3]] (o lo capisce solo con notevole difficoltà).',
+	'babel-1-male' => 'Questo utente può contribuire con un un livello [[$1|elementare]] in [[$2|$3]].',
+	'babel-2-male' => 'Questo utente può contribuire con un un livello [[$1|intermedio]] in [[$2|$3]].',
+	'babel-3-male' => 'Questo utente può contribuire con un un livello [[$1|avanzato]] in [[$2|$3]].',
+	'babel-4-male' => 'Questo utente può contribuire con un un livello [[$1|quasi madrelingua]] in [[$2|$3]].',
+	'babel-5-male' => 'Questo utente può contribuire con un un livello [[$1|professionale]] in [[$2|$3]].',
+	'babel-N-male' => 'Questo utente può contribuire con un un livello [[$1|madrelingua]] in [[$2|$3]].',
+	'babel-0-n-male' => 'Questo utente [[$1|non è in grado di comunicare]] in [[$2|italiano]] (o lo capisce solo con notevole difficoltà).',
+	'babel-1-n-male' => 'Questo utente può contribuire con un un livello [[$1|elementare]] in [[$2|italiano]].',
+	'babel-2-n-male' => 'Questo utente può contribuire con un un livello [[$1|intermedio]] in [[$2|italiano]].',
+	'babel-3-n-male' => 'Questo utente può contribuire con un un livello [[$1|avanzato]] in [[$2|italiano]].',
+	'babel-4-n-male' => 'Questo utente può contribuire con un un livello [[$1|quasi madrelingua]] in [[$2|italiano]].',
+	'babel-5-n-male' => 'Questo utente può contribuire con un un livello [[$1|professionale]] in [[$2|italiano]].',
+	'babel-N-n-male' => 'Questo utente può contribuire con un un livello [[$1|madrelingua]] in [[$2|italiano]].',
 );
 
 /** Japanese (日本語)
@@ -2282,6 +2370,19 @@ $messages['th'] = array(
 	'babel-N-n' => 'ผู้ใช้คนนี้ใช้[[$2|ภาษาไทย]]เป็น[[$1|ภาษาแม่]]',
 );
 
+/** Tok Pisin (Tok Pisin)
+ * @author Iceflow
+ */
+$messages['tpi'] = array(
+	'babel-0-n' => 'Dispela yusa i [[$1|no save]] long [[$2|Tok Pisin]]',
+	'babel-1-n' => 'Dispela yusa i save [[$1|liklik tasol]] long [[$2|Tok Pisin]].',
+	'babel-2-n' => 'Dispela yusa i save [[$1|hap hap]] long [[$2|Tok Pisin]].',
+	'babel-3-n' => 'Dispela yusa i save [[$1|gut tru]] long [[$2|Tok Pisin]].',
+	'babel-4-n' => 'Dispela yusa i save long [[$2|Tok Pisin]] [[$1|kain klostu wanpela lokol]].',
+	'babel-5-n' => 'Dispela yusa i [[$1|man bilong]] save long [[$2|Tok Pisin]].',
+	'babel-N-n' => 'Dispela yusa i save long [[$2|Tok Pisin]] [[$1|kain olsem wanpela lokol]].',
+);
+
 /** Turkish (Türkçe)
  * @author Karduelis
  */
@@ -2370,7 +2471,7 @@ $messages['vo'] = array(
 	'babel-2' => 'Geban at kanon kompenön pö spikots me [[$2|$3]] nivoda [[$1|vüik]].',
 	'babel-3' => 'Geban at kanon kompenön pö spikots me [[$2|$3]] nivoda [[$1|löpik]].',
 	'babel-4' => 'Geban at kanon gebön [[$2|$3]]i [[$1|ti so gudiko, äsä lomapüki oka]].',
-	'babel-5' => 'Geban at kanon gebön [[$2|$3]]i caliko.',
+	'babel-5' => 'Geban at kanon gebön [[$2|$3]]i [[$1|caliko]].',
 	'babel-N' => 'Geban at labon [[$2|$3]]i as [[$1|lomapük]] oka.',
 	'babel-0-n' => 'Geban a [[$1|no suemon]] [[$2|Volapük]]i (u suemon oni mu fikuliko).',
 );
