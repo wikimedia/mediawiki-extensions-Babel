@@ -179,6 +179,9 @@ $messages['sli'] = array(
 	'babel-url' => 'Project:Babel',
 	'babel-1' => 'Dieser Benutzer beherrscht [[$2|$3]] auf [[$1|grundlegendem]] Niveau.',
 	'babel-3-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] auf [[$1|hohem]] Niveau.',
+	'babel-4-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] auf [[$1|muttersprachlichem Niveau]].',
+	'babel-5-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] auf [[$1|professionellem]] Niveau.',
+	'babel-N-n' => 'Dieser Benutzer spricht [[$2|Schläsch]] als [[$1|Muttersproache]].',
 );
 
 /** Afrikaans (Afrikaans)
@@ -721,7 +724,7 @@ $messages['es'] = array(
 	'babel-2' => 'Este usuario puede contribuir con un nivel [[$1|intermedio]] de [[$2|$3]].',
 	'babel-3' => 'Este usuario puede contribuir con un nivel [[$1|avanzado]] de [[$2|$3]].',
 	'babel-4' => 'Este usuario puede contribuir con un nivel [[$1|casi nativo]] en [[$2|$3]].',
-	'babel-5' => 'Este usuario tiene un conocimiento [[$|profesional]] del [[$2|$3]]',
+	'babel-5' => 'Este usuario tiene un conocimiento [[$1|profesional]] del [[$2|$3]]',
 	'babel-N' => 'Este usuario puede contribuir con un nivel [[$1|nativo]] en [[$2|$3]].',
 	'babel-0-n' => 'Este usuario [[$1|no puede comunicarse]] en [[$2|español]] (o lo entiende con dificultad).',
 	'babel-1-n' => 'Este usuario puede contribuir con un nivel [[$1|básico]] de [[$2|español]].',
@@ -1313,6 +1316,32 @@ $messages['km'] = array(
 	'babel-4-n' => 'អ្នកប្រើប្រាស់នេះមានចំនេះដឹង [[$2|ភាសាខ្មែរ]] [[$1|ប្រហាក់ប្រហែលជនជាតិខ្មែរ]]។',
 	'babel-5-n' => 'អ្នកប្រើប្រាស់នេះចេះ [[$2|ភាសាខ្មែរ]] [[$1|ថ្នាក់អាជីព]]។',
 	'babel-N-n' => 'អ្នកប្រើប្រាស់នេះនិយាយ [[$2|ភាសាខ្មែរ]]ជា[[$1|ភាសាកំនើត]]។',
+);
+
+/** Kannada (ಕನ್ನಡ)
+ * @author NamwikiTL
+ */
+$messages['kn'] = array(
+	'babel' => 'ಬೇಬಲ್ ಬಳಕೆದಾರರ ಮಾಹಿತಿ',
+	'babel-desc' => '<tt>#babel</tt> ಪಾರ್ಸರ್ ಫ೦ಕ್ಷನ್ ಅನ್ನು ಸೇರಿಸುತ್ತೆ ಮತ್ತು ಅದು ಕಸ್ಟಮ್ ಬೇಬಲ್ ಟೆ೦ಪ್ಲೇಟ್ ಗಳಿರುವ ಬೇಬಲ್ ಬಳಕೆದಾರರ ಕಾಲ೦ ಅನ್ನು ಸೇರಿಸಲು ಉಪಯುಕ್ತ',
+	'babel-url' => 'ಯೋಜನೆ:ಬೇಬಲ್',
+	'babel-directionality' => 'ಎಡದಿ೦ದ ಬಲ',
+	'babel-0' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|$3]] ಬಗ್ಗೆ [[$1|ಶೂನ್ಯ]] ಜ್ನಾನವಿದೆ (ಅಥವಾ ಬಹಳ ಕಷ್ಟಪಟ್ಟು ಇದನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುತ್ತಾರೆ)',
+	'babel-1' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|$3]] ಬಗ್ಗೆ [[$1|ಪ್ರಾಥಮಿಕ]] ಜ್ನಾನವಿದೆ',
+	'babel-2' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|$3]] ಬಗ್ಗೆ [[$1|ಮಧ್ಯಮ]] ಜ್ನಾನವಿದೆ',
+	'babel-3' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|$3]] ಬಗ್ಗೆ [[$1|ಉನ್ನತ]] ಜ್ನಾನವಿದೆ',
+	'babel-4' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|$3]] ಬಗ್ಗೆ [[$1|ಮೂಲಭಾಷಿಕರ ಮಟ್ಟದ]] ಜ್ನಾನವಿದೆ',
+	'babel-5' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|$3]] ಬಗ್ಗೆ [[$1|ವೃತ್ತಿಪರ]] ಜ್ನಾನವಿದೆ',
+	'babel-N' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|$3]] ಬಗ್ಗೆ [[$1|ಮೂಲಭಾಷಿಕರ]] ಜ್ನಾನವಿದೆ',
+	'babel-0-n' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|ಇ೦ಗ್ಲೀಷ್]] ಬಗ್ಗೆ [[$1|ಶೂನ್ಯ]] ಜ್ನಾನವಿದೆ (ಅಥವಾ ಬಹಳ ಕಷ್ಟಪಟ್ಟು ಅರ್ಥ ಮಾಡಿಕೊಳ್ಳುತ್ತಾರೆ)',
+	'babel-1-n' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|ಇ೦ಗ್ಲೀಷ್]] ಬಗ್ಗೆ [[$1|ಪ್ರಾಥಮಿಕ]] ಜ್ನಾನವಿದೆ',
+	'babel-2-n' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|ಇ೦ಗ್ಲೀಷ್]] ಬಗ್ಗೆ [[$1|ಮಧ್ಯಮ]] ಜ್ನಾನವಿದೆ',
+	'babel-3-n' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|ಇ೦ಗ್ಲೀಷ್]] ಬಗ್ಗೆ [[$1|ಉನ್ನತ]] ಜ್ನಾನವಿದೆ',
+	'babel-4-n' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|ಇ೦ಗ್ಲೀಷ್]] ಬಗ್ಗೆ [[$1|ಮೂಲಭಾಷಿಕರ ಮಟ್ಟದ]] ಜ್ನಾನವಿದೆ',
+	'babel-5-n' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|ಇ೦ಗ್ಲೀಷ್]] ಬಗ್ಗೆ [[$1|ವೃತ್ತಿಪರ]] ಜ್ನಾನವಿದೆ',
+	'babel-N-n' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|ಇ೦ಗ್ಲೀಷ್]] ಬಗ್ಗೆ [[$1|ಮೂಲಭಾಷಿಕರ]] ಜ್ನಾನವಿದೆ',
+	'babel-0-female' => 'ಸ೦ದೇಶ ವಿವರಣೆ(ಬೇಬಲ್)',
+	'babel-1-female' => 'ಸ೦ದೇಶ ವಿವರಣೆ(ಬೇಬಲ್)',
 );
 
 /** Korean (한국어)
