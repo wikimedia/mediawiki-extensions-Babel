@@ -673,7 +673,7 @@ $messages['dsb'] = array(
 	'babel' => 'Babelowe wužywarske informacije',
 	'babel-desc' => 'Pśidawa parserowu funkciju <tt>#babel</tt> za awtomatiske twórjenje słupa babelowych wužywarskich kašćikow, z móžnosću, swójske pśedłogi zapśěgnuś',
 	'babel-url' => 'Project:Babel',
-	'babel-0' => 'Toś ten wužywaŕ njama znajobnosći [[$2|dolnoserbšćiny]] (abo rozmějo ju jano z wjelikimi śěźami).',
+	'babel-0' => 'Toś ten wužywaŕ [[$1|njama]] znajobnosći [[$2|$3]] (abo rozmějo ju jano z wjelikimi śěźami).',
 	'babel-1' => 'Toś ten wužywaŕ ma [[$1|zakładne]] znajobnosći [[$2|dolnoserbšćiny]].',
 	'babel-2' => 'Toś ten wužywaŕ ma [[$1|pśerězne]] znajobnosći [[$2|dolnoserbšćiny]].',
 	'babel-3' => 'Toś ten wužywaŕ ma [[$1|póstupjone]] znajobnosći [[$2|dolnoserbšćiny]].',
@@ -1528,6 +1528,21 @@ $messages['li'] = array(
 	'babel-4-n' => "Deze gebroeker behieërs 't [[$2|Plat]] op 'ne huuegdje van [[$1|bekans modertaalwaerdigheid]].",
 	'babel-5-n' => "Deze gebroeker haet 'ne [[$1|perfèsjenieële]] kinnes van 't [[$2|Plat]].",
 	'babel-N-n' => "Deze gebroeker behieërs 't [[$2|Plat]] op [[$1|modertaal huuegdje]].",
+);
+
+/** Lumbaart (Lumbaart)
+ * @author Sprüngli
+ */
+$messages['lmo'] = array(
+	'babel-0' => "Chestu dovratt al gh'a [[$1|mia]] da cognossenza de [[$2|$3]] (o al comprend con considerabla dificultaa)",
+	'babel-1' => "Chestu dovratt al gh'a una cognossenza [[$1|basiga]] de [[$2|$3]].",
+	'babel-2' => "Chestu dovratt al gh'à una cognossenza [[$1|intermedia]] de [[$2|$3]].",
+	'babel-3' => "Chestu dovratt al gh'a una cognossenza [[$1|avanzada]] de [[$2|$3]].",
+	'babel-4' => "Chestu dovratt al gh'a una cognossenza [[$1|debòt madrelengua]] de [[$2|$3]].",
+	'babel-5' => "Chestu dovratt al gh'a una cognossenza [[$1|professionala]] de [[$2|$3]].",
+	'babel-N' => "Chestu dovratt al gh'a una comprension [[$1|madrelengua]] de [[$2|$3]].",
+	'babel-0-n' => "Chestu dovratt al gh'a [[$1|miga]] de cognossenza de [[$2|Lombard]] (o al le comprend con considerabla dificultaa).",
+	'babel-1-n' => 'Chestu dovratt al una cognossenza [[$1|basiga]] de [[$2|Lombard]].',
 );
 
 /** Lingala (Lingála)
