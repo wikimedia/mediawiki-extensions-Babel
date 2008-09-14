@@ -1700,10 +1700,27 @@ $messages['mr'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Aviator
  * @author Kurniasan
  */
 $messages['ms'] = array(
 	'babel' => 'Maklumat bahasa pengguna',
+	'babel-desc' => 'Menambah fungsi penghurai <tt>#babel</tt> untuk membolehkan penjanaan automatik kotak bahasa pengguna dan tempahan templat',
+	'babel-url' => 'Project:Bahasa',
+	'babel-0' => 'Pengguna ini [[$1|tidak mampu]] bertutur dalam (atau sukar memahami) [[$2|$3]].',
+	'babel-1' => 'Pengguna ini memiliki kemahiran [[$1|asas]] dalam [[$2|$3]].',
+	'babel-2' => 'Pengguna ini memiliki kemahiran [[$1|sederhana]] dalam [[$2|$3]].',
+	'babel-3' => 'Pengguna ini memiliki kemahiran [[$1|tinggi]] dalam [[$2|$3]].',
+	'babel-4' => 'Pengguna ini memiliki kemahiran [[$1|hampir sempurna]] dalam [[$2|$3]].',
+	'babel-5' => 'Pengguna ini memiliki kemahiran [[$1|profesional]] dalam [[$2|$3]].',
+	'babel-N' => 'Pengguna ini adalah penutur [[$1|asli]] [[$2|$3]].',
+	'babel-0-n' => 'Pengguna ini [[$1|tidak mampu]] bertutur dalam (atau sukar memahami) [[$2|bahasa Melayu]].',
+	'babel-1-n' => 'Pengguna ini memiliki kemahiran [[$1|asas]] dalam [[$2|bahasa Melayu]].',
+	'babel-2-n' => 'Pengguna ini memiliki kemahiran [[$1|sederhana]] dalam [[$2|bahasa Melayu]].',
+	'babel-3-n' => 'Pengguna ini memiliki kemahiran [[$1|tinggi]] dalam [[$2|bahasa Melayu]].',
+	'babel-4-n' => 'Pengguna ini memiliki kemahiran [[$1|hampir sempurna]] dalam [[$2|bahasa Melayu]].',
+	'babel-5-n' => 'Pengguna ini memiliki kemahiran [[$1|profesional]] dalam [[$2|bahasa Melayu]].',
+	'babel-N-n' => 'Pengguna ini adalah penutur [[$1|asli]] [[$2|bahasa Melayu]].',
 );
 
 /** Erzya (Эрзянь)
@@ -2256,6 +2273,7 @@ $messages['sk'] = array(
 
 /** Albanian (Shqip)
  * @author Dori
+ * @author Eagleal
  */
 $messages['sq'] = array(
 	'babel' => 'Informacioni Babel i Përdoruesit',
@@ -2269,12 +2287,12 @@ $messages['sq'] = array(
 	'babel-5' => 'Ky përdorues ka njohuri [[$1|profesionale]] të [[$2|$3]].',
 	'babel-N' => 'Ky përdorues ka njohuri [[$1|amtare]] të [[$2|$3]].',
 	'babel-0-n' => 'Ky përdorues [[$1|nuk ka]] njohuri të [[$2|anglishtes]] (ose e kupton me vështirësi të madhe).',
-	'babel-1-n' => 'Ky përdorues ka njohuri [[$1|të kufizuar]] të [[$2|anglishtes]].',
-	'babel-2-n' => 'Ky përdorues ka njohuri [[$1|thelbësore]] të [[$2|anglishtes]].',
-	'babel-3-n' => 'Ky përdorues ka njohuri [[$1|të thellë]] të [[$2|anglishtes]].',
-	'babel-4-n' => 'Ky përdorues ka njohuri [[$1|afërsisht amtare]] të [[$2|anglishtes]].',
-	'babel-5-n' => 'Ky përdorues ka njohuri [[$1|profesionale]] të [[$2|anglishtes]].',
-	'babel-N-n' => 'Ky përdorues ka njohuri [[$1|amtare]] të [[$2|anglishtes]].',
+	'babel-1-n' => 'Ky përdorues ka njohuri [[$1|të kufizuar]] të [[$2|gjuhës Shqipe]].',
+	'babel-2-n' => 'Ky përdorues ka njohuri [[$1|thelbësore]] të [[$2|gjuhës Shqipe]].',
+	'babel-3-n' => 'Ky përdorues ka njohuri [[$1|të thellë]] të [[$2|gjuhës Shqipe]].',
+	'babel-4-n' => 'Ky përdorues ka njohuri [[$1|afërsisht amtare]] të [[$2|gjuhës Shqipe]].',
+	'babel-5-n' => 'Ky përdorues ka njohuri [[$1|profesionale]] të [[$2|gjuhës Shqipe]].',
+	'babel-N-n' => 'Ky përdorues ka njohuri [[$1|amtare]] të [[$2|gjuhës Shqipe]].',
 );
 
 /** Seeltersk (Seeltersk)
