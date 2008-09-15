@@ -332,7 +332,7 @@ HEREDOC;
 	 */
 	private function _parseParameter( $parameter ) {
 
-		// Break up the parameter on - (which seperates it's two parts).
+		// Break up the parameter on - (which separates it's two parts).
 		$chunks = explode( '-', $parameter );
 
 		// Initialise the return array.
