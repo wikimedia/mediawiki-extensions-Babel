@@ -2640,7 +2640,7 @@ $messages['yue'] = array(
 	'babel-N-n' => '呢位用戶明白以[[$1|母語]]為主嘅[[$2|廣東話]]。',
 );
 
-/** ‪中文(中国大陆)‬ (‪中文(中国大陆)‬)
+/** Chinese (China) (‪中文(中国大陆)‬)
  * @author Shinjiman
  */
 $messages['zh-cn'] = array(
@@ -2699,7 +2699,7 @@ $messages['zh-hant'] = array(
 	'babel-N-n' => '這位用戶明白以[[$1|母語]]為主的[[$2|傳統中文字]]。',
 );
 
-/** Hong Kong Chinese (‪中文(香港)‬)
+/** Chinese (Hong Kong) (‪中文(香港)‬)
  * @author Shinjiman
  */
 $messages['zh-hk'] = array(
@@ -2712,7 +2712,7 @@ $messages['zh-hk'] = array(
 	'babel-N-n' => '這位用戶明白以[[$1|母語]]為主的[[$2|港式中文]]。',
 );
 
-/** Singapore Chinese (‪中文(新加坡)‬)
+/** Chinese (Singapore) (‪中文(新加坡)‬)
  * @author Shinjiman
  */
 $messages['zh-sg'] = array(
@@ -2725,7 +2725,7 @@ $messages['zh-sg'] = array(
 	'babel-N-n' => '这位用户明白以[[$1|母语]]为主的[[$2|星式中文]]。',
 );
 
-/** Taiwan Chinese (‪中文(台灣)‬)
+/** Chinese (Taiwan) (‪中文(台灣)‬)
  * @author Shinjiman
  */
 $messages['zh-tw'] = array(
