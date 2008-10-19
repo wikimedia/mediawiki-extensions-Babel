@@ -2242,6 +2242,7 @@ $messages['si'] = array(
 	'babel-1' => 'මෙම පරිශීලකයා‍ට [[$2|$3]] පිළිබඳ [[$1|මූලික]] දැනුමක් ඇත.',
 	'babel-3' => 'මෙම පරිශීලකයා‍ට [[$2|$3]] පිළිබඳ [[$1|උසස්]] දැනුමක් ඇත.',
 	'babel-5' => 'මෙම පරිශීලකයා‍ට [[$2|$3]] පිළිබඳ [[$1| ඉතා උසස්]] දැනුමක් ඇත.',
+	'babel-N' => 'මෙම පරිශීලකයාට [[$2|$3]] පිළිබඳ [[$1|ස්වදේශීය]] අවබෝධයක් ඇත.',
 	'babel-0-n' => 'මෙම පරිශීලකයා‍ට [[$2|සිංහල භාෂාව]] පිළිබඳ දැනුමක් [[$1|නැත]] (හෝ ඉතාමත් අපහසුවෙන් එය තේරුම් ගනියි).',
 	'babel-1-n' => 'මෙම පරිශීලකයා‍ට [[$2|සිංහල භාෂාව]] පිළිබඳ [[$1|මූලික]] දැනුමක් ඇත.',
 	'babel-2-n' => 'මෙම පරිශීලකයාහට [[$2|සිංහල භාෂාව]] පිළිබඳ [[$1|අතරමැදි]] දැනුමක් ඇත.',
@@ -2253,18 +2254,19 @@ $messages['si'] = array(
 
 /** Slovak (Slovenčina)
  * @author Helix84
+ * @author Meno25
  */
 $messages['sk'] = array(
 	'babel' => 'Babylon - informácie o používateľovi',
 	'babel-desc' => 'Pridáva funkciu syntaktického analyzátora <tt>#babel</tt>, ktorá umožňuje automatickú tvorbu babylonských šablón používateľov s možnosťou používať prispôsobené šablóny.',
 	'babel-url' => 'Project:Babylon',
-	'babel-0' => 'Tento používateľ [[$1|nemá]] znalosti [[$2|{{GRAMMAR:genitív|{{$3}}}}]] (alebo jej rozumie so značnými problémami).',
-	'babel-1' => 'Tento používateľ má [[$1|základné]] znalosti [[$2|{{GRAMMAR:genitív|{{$3}}}}]].',
-	'babel-2' => 'Tento používateľ má [[$1|stredné]] znalosti [[$2|{{GRAMMAR:genitív|{{$3}}}}]].',
-	'babel-3' => 'Tento používateľ má [[$1|pokročilé]] znalosti [[$2|{{GRAMMAR:genitív|{{$3}}}}]].',
-	'babel-4' => 'Tento používateľ má znalosti [[$2|{{GRAMMAR:genitív|{{$3}}}}]] takmer na úrovni [[$1|rodného jazyka]].',
-	'babel-5' => 'Tento používateľ má [[$1|profesionálne]] znalosti [[$2|{{GRAMMAR:genitív|{{$3}}}}]].',
-	'babel-N' => 'Tento používateľ má [[$2|{{GRAMMAR:akuzatív|{{$3}}}}]] ako [[$1|rodný jazyk]].',
+	'babel-0' => 'Tento používateľ [[$1|nemá]] znalosti [[$2|{{GRAMMAR:genitív|$3}}]] (alebo jej rozumie so značnými problémami).',
+	'babel-1' => 'Tento používateľ má [[$1|základné]] znalosti [[$2|{{GRAMMAR:genitív|$3}}]].',
+	'babel-2' => 'Tento používateľ má [[$1|stredné]] znalosti [[$2|{{GRAMMAR:genitív|$3}}]].',
+	'babel-3' => 'Tento používateľ má [[$1|pokročilé]] znalosti [[$2|{{GRAMMAR:genitív|$3}}]].',
+	'babel-4' => 'Tento používateľ má znalosti [[$2|{{GRAMMAR:genitív|$3}}]] takmer na úrovni [[$1|rodného jazyka]].',
+	'babel-5' => 'Tento používateľ má [[$1|profesionálne]] znalosti [[$2|{{GRAMMAR:genitív|$3}}]].',
+	'babel-N' => 'Tento používateľ má [[$2|{{GRAMMAR:akuzatív|$3}}]] ako [[$1|rodný jazyk]].',
 	'babel-0-n' => 'Tento redaktor [[$1|nerozumie]] po [[$2|anglicky]] (alebo rozumie so značnými problémami).',
 	'babel-1-n' => 'Tento redaktor má [[$1|základné]] znalosti [[$2|slovenčiny]].',
 	'babel-2-n' => 'Tento redaktor má [[$1|stredné]] znalosti [[$2|slovenčiny]].',
