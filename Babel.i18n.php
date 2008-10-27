@@ -1440,6 +1440,7 @@ $messages['ksh'] = array(
  * @author UV
  */
 $messages['la'] = array(
+	'babel-autocreate-user' => 'Babel AutoCreator',
 	'babel-0-n' => 'Hic usor [[$1|nullo pacto]] aut aegre [[$2|Latinitate]] contribuere potest.',
 	'babel-1-n' => 'Hic usor [[$1|simplice]] [[$2|Latinitate]] contribuere potest.',
 	'babel-2-n' => 'Hic usor [[$1|media]] [[$2|Latinitate]] contribuere potest.',
@@ -1793,6 +1794,10 @@ $messages['nl'] = array(
 	'babel' => 'Babel-gebruikersinformatie',
 	'babel-desc' => 'Voegt de <tt>#babel</tt>-parserfunctie toe om automatische generatie van een babelgebruikersbox toe te laten met de mogelijkheid om aangepaste sjablonen in te voegen',
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'De gebruikersnaam die u hebt opgegeven wordt gebruikt voor het automatisch aanmaken van Babel-categorieën en kan niet geregistreerd worden.',
+	'babel-autocreate-reason' => 'Automatisch aangemaakte Babel-categorie.',
+	'babel-autocreate-text-levels' => 'Gebruikers in deze categorie geven aan dat hun niveau voor de taal $2 $1 is.',
+	'babel-autocreate-text-main' => 'Gebruikers in deze categorie geven aan dat zij kennis van de taal $1 hebben.',
 	'babel-0' => 'Deze gebruiker heeft [[$1|geen]] kennis van het [[$2|$3]] (of heeft moeite om het te begrijpen).',
 	'babel-1' => 'Deze gebruiker bezit kennis van het [[$2|$3]] op [[$1|elementair niveau]].',
 	'babel-2' => 'Deze gebruiker beheerst het [[$2|$3]] op [[$1|basisniveau]].',
