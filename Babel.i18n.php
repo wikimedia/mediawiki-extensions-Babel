@@ -16,6 +16,11 @@ $messages['en'] = array(
 	'babel-desc' => 'Adds the <tt>#babel</tt> parser function to allow automated generation of a babel userbox column with the ability to include custom templates',
 	'babel-url'  => 'Project:Babel',
 
+	'babel-autocreate-abort'       => 'The username you specified is used for Babel category auto-creation and cannot be registered.',
+	'babel-autocreate-reason'      => 'Automatically creating Babel category page.',
+	'babel-autocreate-text-levels' => 'Users in this category indicate they have skill level $1 for language $2.',
+	'babel-autocreate-text-main'   => 'Users in this category indicate they have knowlege of language $1.',
+
 	'babel-directionality' => 'ltr', # Optional.
 
 	'babel-0' => 'This user has [[$1|no]] knowledge of [[$2|$3]] (or understands it with considerable difficulty).',

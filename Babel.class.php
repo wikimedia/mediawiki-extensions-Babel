@@ -612,6 +612,8 @@ HEREDOC;
 			// Add category wikitext to box tower.
 			$r .= "[[Category:{$this->_addFixes( $code,'category' )}|$level{$wgUser->getName()}]]";
 
+			BabelAutoCreate::create( $this->_addFixes( "$code",'category' ), $this->_nameCode( $code ) );
+
 		}
 
 		// Add to level categories, only adding it to the level 0
@@ -620,6 +622,8 @@ HEREDOC;
 
 			// Add category wikitext to box tower.
 			$r .= "[[Category:{$this->_addFixes( "$code-$level",'category' )}|{$wgUser->getName()}]]";
+
+			BabelAutoCreate::create( $this->_addFixes( "$code-$level",'category' ), $level, $this->_nameCode( $code ) );
 
 		}
 
@@ -667,7 +671,7 @@ HEREDOC;
 		if( class_exists( 'LanguageNames' ) ) {
 			$names = LanguageNames::getNames( $code );
 		} else {
-			$names = $nativeNames;
+			$names = Language::getLanguageNames();
 		}
 
 		if( array_key_exists( strtolower( $code ), $names ) ) {
@@ -741,7 +745,7 @@ HEREDOC;
 		if( class_exists( 'LanguageNames' ) ) {
 			$names = LanguageNames::getNames( $code );
 		} else {
-			$names = $nativeNames;
+			$names = Language::getLanguageNames();
 		}
 
 		if( array_key_exists( strtolower( $code ), $names ) ) {
