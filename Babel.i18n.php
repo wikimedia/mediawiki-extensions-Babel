@@ -19,7 +19,7 @@ $messages['en'] = array(
 	'babel-autocreate-abort'       => 'The username you specified is used for Babel category auto-creation and cannot be registered.',
 	'babel-autocreate-reason'      => 'Automatically creating Babel category page.',
 	'babel-autocreate-text-levels' => 'Users in this category indicate they have skill level $1 for language $2.',
-	'babel-autocreate-text-main'   => 'Users in this category indicate they have knowlege of language $1.',
+	'babel-autocreate-text-main'   => 'Users in this category indicate they have knowledge of language $1.',
 	'babel-autocreate-user'        => 'Babel AutoCreate',
 
 	'babel-directionality' => 'ltr', # Optional.
