@@ -3,10 +3,9 @@
 class BabelAutoCreate {
 	static $user = false;
 	public static function RegisterAbort( User $user, &$message ) {
-		global $wgBabelAutoCreateUsername;
 		wfLoadExtensionMessages( 'Babel' );
 		$message = wfMsg( 'babel-autocreate-abort' );
-		return !( $user->getName() === $wgBabelAutoCreateUsername );
+		return !( $user->getName() === wfMsgForContent( 'babel-autocreate-user' ) );
 	}
 	public static function create( $category, $language, $level = null ) {
 		global $wgUser;
@@ -24,9 +23,8 @@ class BabelAutoCreate {
 		$wgUser = $olduser;
 	}
 	public static function user() {
-		global $wgBabelAutoCreateUsername;
 		if( !self::$user ) {
-			self::$user = User::newFromName( $wgBabelAutoCreateUsername, false );
+			self::$user = User::newFromName( wfMsgForContent( 'babel-autocreate-user' ), false );
 			if( !self::$user->isLoggedIn() ) self::$user->addToDatabase();
 		}
 		return self::$user;
