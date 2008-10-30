@@ -233,6 +233,11 @@ $messages['ar'] = array(
 	'babel' => 'معلومات بابل للمستخدم',
 	'babel-desc' => 'يضيف دالة المحلل <tt>#babel</tt> للسماح بالتوليد التلقائي لعامود صندوق بابل مع إمكانية تضمين قوالب أخرى',
 	'babel-url' => 'Project:بابل',
+	'babel-autocreate-abort' => 'اسم المستخدم الذي حددته مستخدم للإنشاء التلقائي لتصنيفات بابل ولا يمكن تسجيله.',
+	'babel-autocreate-reason' => 'إنشاء صفحة تصنيف بابل تلقائيا.',
+	'babel-autocreate-text-levels' => 'المستخدمون في هذا التصنيف مستوى مهارتهم $1 للغة $2.',
+	'babel-autocreate-text-main' => 'المستخدمون في هذا التصنيف لديهم معرفة باللغة $1.',
+	'babel-autocreate-user' => 'إنشاء بابل التلقائي',
 	'babel-directionality' => 'rtl',
 	'babel-0' => 'هذا المستخدم [[$1|ليس]] لديه معرفة ب[[$2|$3]] (أو يفهمها بصعوبة شديدة).',
 	'babel-1' => 'هذا المستخدم يمتلك معرفة [[$1|أساسية]] ب[[$2|$3]].',
@@ -273,6 +278,10 @@ $messages['arz'] = array(
 	'babel' => 'معلومات بابل للمستخدم',
 	'babel-desc' => 'يضيف دالة المحلل <tt>#babel</tt> للسماح بالتوليد التلقائى لعامود صندوق بابل مع إمكانية تضمين قوالب أخرى',
 	'babel-url' => 'Project:بابل',
+	'babel-autocreate-abort' => 'اسم المستخدم الذى حددته مستخدم للإنشاء التلقائى لتصنيفات بابل ولا يمكن تسجيله.',
+	'babel-autocreate-reason' => 'إنشاء صفحة تصنيف بابل تلقائيا.',
+	'babel-autocreate-text-levels' => 'المستخدمون فى هذا التصنيف مستوى مهارتهم $1 للغة $2.',
+	'babel-autocreate-text-main' => 'المستخدمون فى هذا التصنيف لديهم معرفة باللغة $1.',
 	'babel-directionality' => 'rtl',
 	'babel-0' => 'هذا المستخدم [[$1|ليس]] لديه معرفة ب[[$2|$3]] (أو يفهمها بصعوبة شديدة).',
 	'babel-1' => 'هذا المستخدم يمتلك معرفة [[$1|أساسية]] ب[[$2|$3]].',
@@ -364,6 +373,7 @@ $messages['be'] = array(
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
+	'babel' => 'Зьвесткі пра мовы, якімі валодае ўдзельнік',
 	'babel-url' => 'Project:Бабілёнская вежа',
 	'babel-0' => 'Гэты ўдзельнік [[$1|не разумее]] [[$2|$3]] (ці разумее яе зь цяжкасьцю).',
 	'babel-1' => 'Гэты ўдзельнік ведае [[$2|$3]] на [[$1|пачатковым]] узроўні.',
@@ -840,6 +850,7 @@ $messages['fo'] = array(
 /** French (Français)
  * @author Cedric31
  * @author Grondin
+ * @author IAlex
  * @author Louperivois
  * @author UV
  * @author Verdy p
@@ -848,6 +859,10 @@ $messages['fr'] = array(
 	'babel' => 'Informations sur l’utilisateur de Babel',
 	'babel-desc' => 'Ajoute une fonction parseur <tt>#babel</tt> permettant la création automatique d’une boîte utilisateur Babel avec la possibilité d’y inclure des modèles locaux',
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => "Le nom d'utilisateur que vous avez entré est utilisé pour créer automatiquement les catégorie Babel et ne peut pas être enregistré.",
+	'babel-autocreate-reason' => 'Création automatique de la catégorie Babel.',
+	'babel-autocreate-text-levels' => "Les utilisateurs dans cette catégorie ont indiqué qu'ils ont le niveau $1 pour la langue $2.",
+	'babel-autocreate-text-main' => "Les utilisateurs dans cette catégorie ont indiqué qu'ils ont une connaissance en $1.",
 	'babel-0' => 'Cet utilisateur n’a [[$1|aucune]] connaissance en [[$2|$3]] (ou le comprend avec de grandes difficultés).',
 	'babel-1' => 'Cet utilisateur peut contribuer avec un niveau [[$1|élémentaire]] en [[$2|$3]].',
 	'babel-2' => 'Cet utilisateur a une connaissance [[$1|moyenne]] en [[$2|$3]].',
@@ -976,11 +991,17 @@ $messages['haw'] = array(
  * @author Agbad
  * @author GerardM
  * @author Rotemliss
+ * @author YaronSh
  */
 $messages['he'] = array(
 	'babel' => 'מידע על כישורי שפה של המשתמש',
 	'babel-desc' => 'הוספת הוראת התנאי <tt>#babel</tt> כדי לאפשר יצירה אוטומטית של תבניות כישורי שפה, עם אפשרות להכללת תבניות מותאמות אישית',
 	'babel-url' => 'Project:כישורי שפה',
+	'babel-autocreate-abort' => 'שם המשתמש שציינתם משמש ליצירה אוטומטית של קטגוריות ב־Babel ולא ניתן לרשום אותו.',
+	'babel-autocreate-reason' => 'יצירה אוטומטית של עמוד קטגוריה של Babel.',
+	'babel-autocreate-text-levels' => 'המשתמשים בקטגוריה זו מציינים כי רמת השפה שלהם הינה $1 בשפה ה$2.',
+	'babel-autocreate-text-main' => 'המשתמשים בקטגוריה זו מציינים כי יש להם ידע בשפה ה$1.',
+	'babel-autocreate-user' => 'יצירה אוטומטית של Babel',
 	'babel-directionality' => 'rtl',
 	'babel-0' => 'משתמש זה [[$1|אינו מבין]] [[$2|$3]] (או מבין אותה בקשיים ניכרים).',
 	'babel-1' => 'משתמש זה מסוגל לתרום ברמה [[$1|בסיסית]] של [[$2|$3]].',
@@ -1467,6 +1488,10 @@ $messages['lb'] = array(
 	'babel' => 'Babel-Benotzer-Informatioun',
 	'babel-desc' => "Setzt d'<tt>#babel</tt> Parserfunktioun derbäi, fir déi automatesch Generatioun vun enger Babel-Benotzerbox Kolonn, mat der Méiglechkeet fir ege Schablounen anzebannen",
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'De Benotzernumm den Dir uginn hutt gëtt fir dat automatescht Maache vu Babel-Kategorie benotzt a kann net gespäichert ginn.',
+	'babel-autocreate-reason' => 'Automatesch eng Babel-Kategorie-Säit maachen.',
+	'babel-autocreate-text-levels' => 'Benotzer an dëser Kategorie ginn un datt si an der Sprooch $2 den Niveau $1 hun.',
+	'babel-autocreate-text-main' => 'Benotzer an dëser Kategorie ginn un dat si Kenntnisser vun der Sprooch $1 hun.',
 	'babel-0' => 'Dëse Benotzer huet [[$1|keng]] Kenntnisser vun [[$2|$3]] (oder versteet et just mat grousse Schwieregkeeten).',
 	'babel-1' => 'Dëse Benotzer huet [[$1|Grondkenntnisser]] vun [[$2|$3]].',
 	'babel-2' => 'Dëse Benotzer huet [[$1|erweidert]] Kenntnisser vun [[$2|$3]].',
@@ -2136,6 +2161,7 @@ $messages['ro'] = array(
 
 /** Russian (Русский)
  * @author EugeneZelenko
+ * @author Ferrer
  * @author Spiritia
  * @author Александр Сигачёв
  */
@@ -2143,6 +2169,10 @@ $messages['ru'] = array(
 	'babel' => 'Сведения о языках участника (Вавилон)',
 	'babel-desc' => 'Добавляет функцию парсера <tt>#babel</tt>, позволяющую автоматически создавать колонку с информацией о языках с возможностью включения других шаблонов',
 	'babel-url' => 'Project:Вавилон',
+	'babel-autocreate-abort' => 'Указанное имя участника используется для автоматического создания категорий Вавилон и не может быть зарегистрировано',
+	'babel-autocreate-reason' => 'Автоматическое создание страницы категории Вавилон.',
+	'babel-autocreate-text-levels' => 'Участники из этой категории указали уровень знаний $1 для языка $2.',
+	'babel-autocreate-text-main' => 'Участники в этой категории указали знание языка $1.',
 	'babel-0' => '[[$2|$3]] — [[$1|не владеет]] (или с трудом понимает)',
 	'babel-1' => '[[$2|$3]] — [[$1|начальный уровень]]',
 	'babel-2' => '[[$2|$3]] — [[$1|средний уровень]]',
