@@ -322,6 +322,14 @@ $messages['ast'] = array(
 	'babel-N-n' => "Esti usuariu ye un falante [[$1|nativu]] d'[[$2|asturianu]].",
 );
 
+/** Aymara (Aymar aru)
+ * @author Erebedhel
+ */
+$messages['ay'] = array(
+	'babel' => "''Babel'' apnaqirxata uñt'ayawi",
+	'babel-url' => 'Project:Babel',
+);
+
 /** Southern Balochi (بلوچی مکرانی)
  * @author Mostafadaneshvar
  */
