@@ -2551,6 +2551,35 @@ $messages['th'] = array(
 	'babel-N-n' => 'ผู้ใช้คนนี้ใช้[[$2|ภาษาไทย]]เป็น[[$1|ภาษาแม่]]',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'babel' => 'Kabatirang pangtagagamit ng Babel',
+	'babel-desc' => "Nagdaragdag ng tungkuling pambanghay (''parser'') na <tt>#babel</tt> para payagan ang kusang paglitaw ng isang hanay sa kahong pantagagamit ng babel na may kakayahang magsali ng nakahandang mga suleras",
+	'babel-url' => 'Proyekto:Babel',
+	'babel-autocreate-abort' => 'Ginagamit ang tinukoy mong pangalan ng tagagamit para sa kusang paglikha ng kauriang pam-Babel kaya hindi maitatala.',
+	'babel-autocreate-reason' => 'Kusang lumilikha ng pahina ng kauriang pam-Babel.',
+	'babel-autocreate-text-levels' => 'Nagpapakita na may kakayahang pang-antas $1 sa wikang $2 ang mga tagagamit na nasa kauriang ito.',
+	'babel-autocreate-text-main' => 'Nagpapakitang may kaalaman sa wikang $1 ang mga tagagamit na nasa kauriang ito.',
+	'babel-autocreate-user' => 'Babel Likhain-ng-Kusa',
+	'babel-directionality' => 'Kapupuntahan ng isinasalin mong wika (tinatanggap na halaga: "ltr" para mula sa kaliwa pakanan", o "rtl" para mula sa kanan pakaliwa).',
+	'babel-0' => '[[$1|Walang]] kaalaman sa [[$2|$3]] (o may malaking kahirapan sa pagunawa dito) ang tagagamit na ito.',
+	'babel-1' => 'May [[$1|payak]] na kaalaman sa [[$2|$3]] ang tagagamit na ito.',
+	'babel-2' => 'May [[$1|panggitnang]] kaalaman sa [[$2|$3]] ang tagagamit na ito.',
+	'babel-3' => 'May [[$1|mahigit]] na kaalaman sa [[$2|$3]] ang tagagamit na ito.',
+	'babel-4' => 'May [[$1|malakatutubong]] kaalaman sa pagsasalita ng [[$2|$3]] ang tagagamit na ito.',
+	'babel-5' => 'May [[$1|dalubhasang]] kaalaman sa [[$2|$3]] ang tagagamit na ito.',
+	'babel-N' => 'May [[$1|katutubong]] pang-unawa sa [[$2|$3]] ang tagagamit na ito.',
+	'babel-0-n' => '[[$1|Walang]] kaalaman sa [[$2|Tagalog]] (o may kahirapan sa pagunawa dito) ang tagagamit na ito.',
+	'babel-1-n' => 'May [[$1|payak]] na kaalaman sa [[$2|Tagalog]] ang tagagamit na ito.',
+	'babel-2-n' => 'May [[$1|panggitnang]] kaalaman sa [[$2|Tagalog]] ang tagagamit na ito.',
+	'babel-3-n' => 'May [[$1|mahigit]] na kaalaman sa [[$2|Tagalog]] ang tagagamit na ito.',
+	'babel-4-n' => 'May [[$1|malakatutubong]] kaalaman sa pagsasalita ng [[$2|Tagalog]] ang tagagamit na ito.',
+	'babel-5-n' => 'May [[$1|dalubhasang]] kaalaman sa [[$2|Tagalog]] ang tagagamit na ito.',
+	'babel-N-n' => 'May [[$1|katutubong]] pang-unawa sa [[$2|Tagalog]] ang tagagamit na ito.',
+);
+
 /** Tok Pisin (Tok Pisin)
  * @author Iceflow
  */
