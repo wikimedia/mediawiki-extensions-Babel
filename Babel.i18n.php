@@ -1665,12 +1665,19 @@ $messages['mdf'] = array(
 );
 
 /** Macedonian (Македонски)
+ * @author Brest
  * @author INkubusse
  */
 $messages['mk'] = array(
 	'babel' => 'Кориснички информации за јазици',
 	'babel-desc' => 'Ја додава парсер функцијата <tt>#babel</tt> со што се дозволува автоматизирано генерирање на колони со кориснички кутии од типот „Вавилон“, со можноста да се додаваат сопствени шаблони',
 	'babel-url' => 'Project:Вавилон',
+	'babel-autocreate-abort' => 'Корисничкото име кое го наведовте се користи за Babel категорија и не може да се регистрирате под тоа име.',
+	'babel-autocreate-reason' => 'Автоматско креирање на Babel категорија.',
+	'babel-autocreate-text-levels' => 'Корисниците во оваа категорија навеле дека имаат $1 ниво на познавање на $2 јазик.',
+	'babel-autocreate-text-main' => 'Корисниците во оваа категорија навеле дека имаат познавање на $1 јазик.',
+	'babel-autocreate-user' => 'Babel AutoCreate',
+	'babel-directionality' => 'ltr',
 	'babel-0' => 'Овој корисник [[$1|не]] разбира [[$2|$3]] (или разбира со значајни тешкотии).',
 	'babel-1' => 'Овој корисник разбира [[$2|$3]] на [[$1|основно]] ниво.',
 	'babel-2' => 'Овој корисник разбира [[$2|$3]] на [[$1|средно]] ниво.',
@@ -2557,7 +2564,7 @@ $messages['th'] = array(
 $messages['tl'] = array(
 	'babel' => 'Kabatirang pangtagagamit ng Babel',
 	'babel-desc' => "Nagdaragdag ng tungkuling pambanghay (''parser'') na <tt>#babel</tt> para payagan ang kusang paglitaw ng isang hanay sa kahong pantagagamit ng babel na may kakayahang magsali ng nakahandang mga suleras",
-	'babel-url' => 'Proyekto:Babel',
+	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Ginagamit ang tinukoy mong pangalan ng tagagamit para sa kusang paglikha ng kauriang pam-Babel kaya hindi maitatala.',
 	'babel-autocreate-reason' => 'Kusang lumilikha ng pahina ng kauriang pam-Babel.',
 	'babel-autocreate-text-levels' => 'Nagpapakita na may kakayahang pang-antas $1 sa wikang $2 ang mga tagagamit na nasa kauriang ito.',
