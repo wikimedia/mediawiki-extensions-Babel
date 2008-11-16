@@ -1276,6 +1276,7 @@ $messages['it'] = array(
 $messages['ja'] = array(
 	'babel-0' => 'この利用者は[[$2|$3]]が[[$1|わかりません]]（または理解するのがかなり困難です）。',
 	'babel-1' => 'この利用者は[[$1|簡単]]な[[$2|$3]]を話すことができます。',
+	'babel-N' => 'この利用者は[[$2|$3]]を[[$1|母語]]としています。',
 	'babel-N-n' => 'この利用者は[[$2|日本語]]の[[$1|母語話者]]です。',
 );
 
@@ -2419,11 +2420,16 @@ $messages['su'] = array(
  * @author Jon Harald Søby
  * @author Lejonel
  * @author M.M.S.
+ * @author Najami
  */
 $messages['sv'] = array(
 	'babel' => 'Babel Användarinformation',
 	'babel-desc' => 'Lägger till parserfunktionen <tt>#babel</tt> för att tillåta att det automatiskt skapas en babelboxkolumn med möjligheten att lägga till anpassade mallar',
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Användarnamnet du valde används för att automatiskt skapa Babel-kategorier och kan inte registreras.',
+	'babel-autocreate-reason' => 'Skapar automatiskt Babel-kategorier.',
+	'babel-autocreate-text-levels' => 'Användare i den här kategorin visar att de kan språket $2 på en kunskapsnivå av $1.',
+	'babel-autocreate-text-main' => 'Användare i den här kategorin visar att de har kunskap i språket $1.',
 	'babel-0' => 'Den här användaren förstår [[$1|inte]] [[$2|$3]] (eller förstår det bara med stor svårighet).',
 	'babel-1' => 'Den här användaren har [[$1|grundläggande]] kunskaper i [[$2|$3]].',
 	'babel-2' => 'Den här användaren har [[$1|medelgoda]] kunskaper i [[$2|$3]].',
