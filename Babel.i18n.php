@@ -653,6 +653,7 @@ $messages['da'] = array(
 /** German (Deutsch)
  * @author ChrisiPK
  * @author Forrester
+ * @author Metalhead64
  * @author Purodha
  * @author Raimond Spekking
  * @author Revolus
@@ -661,6 +662,10 @@ $messages['de'] = array(
 	'babel' => 'Babel-Benutzer-Information',
 	'babel-desc' => 'Ergänzt die <tt>#babel</tt>-Parserfunktion zur automatischen Erstellung von Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Der ausgewählte Benutzername wird für die automatische Erstellung von Babel-Kategorien benötigt und kann nicht registriert werden.',
+	'babel-autocreate-reason' => 'Automatisch erstellte Babel-Kategorie.',
+	'babel-autocreate-text-levels' => 'Benutzer in dieser Kategorie haben den Kenntnis-Level $1 für die Sprache $2.',
+	'babel-autocreate-text-main' => 'Benutzer in dieser Kategorie haben Kenntnisse der Sprache $1.',
 	'babel-0' => 'Dieser Benutzer beherrscht [[$2|$3]] [[$1|nicht]] (oder versteht es nur mit beträchtlichen Schwierigkeiten).',
 	'babel-1' => 'Dieser Benutzer beherrscht [[$2|$3]] auf [[$1|grundlegendem]] Niveau.',
 	'babel-2' => 'Dieser Benutzer beherrscht [[$2|$3]] auf [[$1|fortgeschrittenem]] Niveau.',
