@@ -1609,11 +1609,17 @@ $messages['ln'] = array(
 
 /** Lithuanian (Lietuvių)
  * @author Garas
+ * @author Hugo.arg
  * @author Vpovilaitis
  */
 $messages['lt'] = array(
 	'babel' => 'Naudotojo informacijos Babelio bokštas',
+	'babel-desc' => 'Prideda parserio funkciją <tt>#babel</tt>, leidžiančią automatiškai sudaryti stulpelį su informacija apie kalbas su gailmybe įtraukti kitus šablonus',
 	'babel-url' => 'Project:Babelis',
+	'babel-autocreate-abort' => 'Nurodytas naudotojo vardas naudojamas automatiškam kategorijos „Babel“ sudarymui, todėl negali būti užregistruotas',
+	'babel-autocreate-reason' => 'Automatiškas kategorijos „Babel“ puslapio sukūrimas.',
+	'babel-autocreate-text-levels' => 'Naudotojai, esantys šioje kategorijoje, yra nurodę kad geba $1 lygiu naudoti $2 kalbą.',
+	'babel-autocreate-text-main' => 'Naudotojai, esantys šioje kategorijoje, nurodę, kad supranta $1 kalbą.',
 	'babel-0' => 'Šis naudotojas nesupranta [[$2|lietuvių kalbos]] (arba supranta labai ribotai).',
 	'babel-1' => 'Šis naudotojas turi [[$2|lietuvių kalbos]] [[$1|pradinio lygio]] žinias.',
 	'babel-2' => 'Šis naudotojas turi [[$2|lietuvių kalbos]] [[$1|vidutinio lygio]] žinias.',
