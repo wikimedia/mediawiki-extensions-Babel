@@ -39,18 +39,20 @@ if( defined( 'MW_SUPPORTS_PARSERFIRSTCALLINIT' ) ) {
 $wgHooks[ 'LanguageGetMagic' ][] = 'BabelStatic::Magic';
 $wgHooks[ 'AbortNewAccount'  ][] = 'BabelAutoCreate::RegisterAbort';
 
+$dir = dirname(__FILE__) . '/';
+
 // Register internationalisation file.
-$wgExtensionMessagesFiles[ 'Babel' ] = dirname( __FILE__ ) . '/Babel.i18n.php';
+$wgExtensionMessagesFiles[ 'Babel' ] = $dir . 'Babel.i18n.php';
 
 // Register autoload classes.
-$wgAutoloadClasses[ 'Babel'           ] = dirname( __FILE__ ) . '/Babel.class.php';
-$wgAutoloadClasses[ 'BabelStatic'     ] = dirname( __FILE__ ) . '/BabelStatic.class.php';
-$wgAutoloadClasses[ 'BabelAutoCreate' ] = dirname( __FILE__ ) . '/BabelAutoCreate.class.php';
+$wgAutoloadClasses[ 'Babel'           ] = $dir . 'Babel.class.php';
+$wgAutoloadClasses[ 'BabelStatic'     ] = $dir . 'BabelStatic.class.php';
+$wgAutoloadClasses[ 'BabelAutoCreate' ] = $dir . 'BabelAutoCreate.class.php';
 
 // Configuration setttings.
 $wgBabelUseLevelZeroCategory         = false;
 $wgBabelUseSimpleCategories          = false;
 $wgBabelUseMainCategories            = true;
 $wgLanguageCodesFiles                = array();
-$wgLanguageCodesFiles[ 'ISO_639_1' ] = dirname( __FILE__ ) . '/codes/ISO_639_1.php';
-$wgLanguageCodesFiles[ 'ISO_639_3' ] = dirname( __FILE__ ) . '/codes/ISO_639_3.php';
+$wgLanguageCodesFiles[ 'ISO_639_1' ] = $dir . 'codes/ISO_639_1.php';
+$wgLanguageCodesFiles[ 'ISO_639_3' ] = $dir . 'codes/ISO_639_3.php';
