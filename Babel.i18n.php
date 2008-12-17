@@ -1456,6 +1456,7 @@ $messages['ko'] = array(
 	'babel' => '사용자 언어 정보',
 	'babel-url' => 'Project:바벨',
 	'babel-autocreate-reason' => '사용자 언어 분류를 자동적으로 생성함',
+	'babel-autocreate-text-levels' => '이 분류 안에 있는 사용자는 $2를 $1단계 수준으로 사용할 수 있다는 것을 나타냅니다.',
 	'babel-autocreate-text-main' => '이 분류 안에 있는 사용자들은 $1를 사용할 수 있습니다.',
 	'babel-0' => '이 사용자는 [[$2|$3]]를 [[$1|모르거나]], 이해하는 데 어려움이 있습니다.',
 	'babel-1' => '이 사용자는 [[$2|$3]]를 [[$1|조금]] 할 수 있습니다.',
