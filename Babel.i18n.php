@@ -1830,6 +1830,10 @@ $messages['ms'] = array(
 	'babel' => 'Maklumat bahasa pengguna',
 	'babel-desc' => 'Menambah fungsi penghurai <tt>#babel</tt> untuk membolehkan penjanaan automatik kotak bahasa pengguna dan tempahan templat',
 	'babel-url' => 'Project:Bahasa',
+	'babel-autocreate-abort' => 'Nama pengguna yang anda nyatakan telah ditempah untuk penciptaan automatik kategori Bahasa dan tidak boleh didaftarkan.',
+	'babel-autocreate-reason' => 'Mencipta laman kategori Bahasa secara automatik.',
+	'babel-autocreate-text-levels' => 'Pengguna yang tergolong dalam kategori ini mengisyaratkan bahawa mereka memiliki kemahiran aras $1 dalam bahasa $2.',
+	'babel-autocreate-text-main' => 'Pengguna yang tergolong dalam kategori ini mengisyaratkan bahawa mereka memiliki pengetahuan dalam bahasa $1.',
 	'babel-0' => 'Pengguna ini [[$1|tidak mampu]] bertutur dalam (atau sukar memahami) [[$2|$3]].',
 	'babel-1' => 'Pengguna ini memiliki kemahiran [[$1|asas]] dalam [[$2|$3]].',
 	'babel-2' => 'Pengguna ini memiliki kemahiran [[$1|sederhana]] dalam [[$2|$3]].',
@@ -2113,6 +2117,7 @@ $messages['pl'] = array(
 
 /** Pontic (Ποντιακά)
  * @author Consta
+ * @author Crazymadlover
  * @author Sinopeus
  */
 $messages['pnt'] = array(
@@ -2123,12 +2128,14 @@ $messages['pnt'] = array(
 	'babel-2' => 'Ατός ο χρήστες καλατσέβ [[$1|ολίγα]] [[$2|$3]].',
 	'babel-3' => 'Ατός ο χρήστες καλατσέβ [[$1|τσιπ καλά]] [[$2|$3]].',
 	'babel-4' => 'Ατός ο χρήστες καλατσέβ [[$1|σκυρά]] [[$2|$3]].',
+	'babel-5' => 'Ατός ο χρήστες καλατσέβ [[$1|επαγγελματικού]] [[$2|$3]].',
 	'babel-N' => "Ατός ο χρήστες εχ' [[$1|μητρικόν]] λαλίαν τα [[$2|$3]].",
 	'babel-0-n' => "Ατός ο χρήστες [[$1|ξάι]] 'κ εγροικά τα [[$2|Ποντιακά]] (ή με τρανόν ζορ).",
 	'babel-1-n' => 'Ατός ο χρήστες καλατσέβ [[$1|έναν ξάι]] [[$2|Ποντιακά]].',
 	'babel-2-n' => 'Ατός ο χρήστες καλατσέβ [[$1|ολίγα]] [[$2|Ποντιακά]].',
 	'babel-3-n' => 'Ατός ο χρήστες καλατσέβ [[$1|τσιπ καλά]] [[$2|Ποντιακά]].',
 	'babel-4-n' => 'Ατός ο χρήστες καλατσέβ [[$1|σκυρά]] [[$2|Ποντιακά]].',
+	'babel-5-n' => 'Ατός ο χρήστες καλατσέβ [[$1|επαγγελματικού]] [[$2|Ποντιακά]].',
 	'babel-N-n' => "Ατός ο χρήστες εχ' [[$1|μητρικόν]] λαλίαν τα [[$2|Ποντιακά]].",
 );
 
