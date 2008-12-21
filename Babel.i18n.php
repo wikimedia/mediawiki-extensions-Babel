@@ -88,6 +88,7 @@ $messages['en'] = array(
  * @author MinuteElectron
  * @author Purodha
  * @author Raimond Spekking
+ * @author Raymond
  * @author Siebrand
  */
 $messages['qqq'] = array(
@@ -621,6 +622,10 @@ $messages['cy'] = array(
 	'babel' => 'Gwybodaeth am ieithoedd y defnyddiwr',
 	'babel-desc' => "Yn ychwanegu'r ffwythiant dosrannu <tt>#babel</tt> er mwyn gosod blwch ieithoedd y defnyddiwr yn awtomatig, a chyda'r modd i gynnwys nodiadau pwrpasol",
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Defnyddir yr enw defnyddiwr y dewisoch ar gyfer creu categori Babel yn awtomatig, ac ni ellir ei gofrestri.',
+	'babel-autocreate-reason' => 'Yn creu tudalen gategoreiddio Babel yn awtomatig.',
+	'babel-autocreate-text-levels' => 'Mae defnyddwyr yn y categori hwn yn crybwyll bod ganddynt gallu ieithyddol ar lefel $1 mewn $2.',
+	'babel-autocreate-text-main' => 'Mae defnyddwyr yn y categori hwn yn crybwyll bod rhywfaint o allu $1 ganddynt.',
 	'babel-0' => "[[$1|Nid]] yw'r defnyddiwr 'ma yn medru [[$2|$3]] (neu mae'n cael hi'n anodd iawn ei deall).",
 	'babel-1' => "Mae'r defnyddiwr 'ma yn medru [[$2|$3]] ar lefel [[$1|syml]].",
 	'babel-2' => "Mae'r defnyddiwr 'ma yn medru [[$2|$3]] ar lefel [[$1|ganolradd]].",
@@ -997,7 +1002,7 @@ $messages['grc'] = array(
 	'babel' => 'Πληροφορίαι "Βαβὲλ" Χρήστου',
 	'babel-desc' => 'Προσθέτει τὴν <tt>#babel</tt> λεξιαναλυτικὴν λειτουργίαν ἐπιτρέπουσαν τὴν αὐτόματην δημιουργίαν στήλης κυτίων χρήστου τινός, ἐχούσης τὴν δυνατότηταν περίληψεως συνήθων προτύπων',
 	'babel-url' => 'Project:Βαβέλ',
-	'babel-autocreate-abort' => 'Tὸ ὀνοματεῖον τὸ καθωρισμένον ὑπἔσοῦ χρήσιμον ἐστὶ ἐν τῇ αὐτομάτῳ ποιήσει κατηγοριῶν Βαβὲλ ἄρα οὐκ ἔξεστι τούτῳ ἐγγεγραμμένον ἐστίν.',
+	'babel-autocreate-abort' => 'Tὸ Ὄνομα χρωμένου τὸ καθωρισμένον ὑπἔσοῦ χρήσιμον ἐστὶ ἐν τῇ αὐτομάτῳ ποιήσει κατηγοριῶν Βαβὲλ ἄρα οὐκ ἔξεστι τούτῳ ἐγγεγραμμένον ἐστίν.',
 	'babel-autocreate-reason' => 'Ποιεῖν αύτομάτως δέλτον κατηγοριῶν Βαβέλ.',
 	'babel-autocreate-text-levels' => 'Χρώμενοι ἐν τοιαύτῃ τῇ κατηγορίᾳ δηλοῦσι τὴν ἑαυτῶν κλίμακα ἱκανοτητος $1 διὰ τὴν γλῶσσαν $2.',
 	'babel-autocreate-text-main' => 'Χρώμενοι ἐν τοιαύτῃ τῇ κατηγορίᾳ δηλοῦσι τὴν ἑαυτῶν γνῶσιν τῆς γλώσσης $1.',
@@ -1015,6 +1020,19 @@ $messages['grc'] = array(
 	'babel-4-n' => 'Ὅδε χρήστης [[$1|σχεδὸν ὡς μητρικὴν γλῶσσαν]] τὴν [[$2|ἀρχαίαν ἑλληνικὴν]] ἔχει.',
 	'babel-5-n' => 'Ὅδε χρήστης [[$1|ἐπαγγελματικὴν]] γνῶσιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
 	'babel-N-n' => 'Ὅδε χρήστης [[$1|αὐτόπρεμνον]] αἴσθησιν τῆς [[$2|ἀρχαίας ἑλληνικῆς]] ἔχει.',
+);
+
+/** Swiss German (Alemannisch)
+ * @author Strommops
+ */
+$messages['gsw'] = array(
+	'babel-0' => "Dä Benutzer cha [[$1|kei]] [[$2|$3]] (oder verstoht's numme mit größere Schwyrigkeite).",
+	'babel-1' => 'Dä Benutzer cha [[$1|e bitz]] [[$2|$3]].',
+	'babel-2' => 'Dä Benutzer cha [[$2|$3]] uff [[$1|fortgschrittenem]] Niveau.',
+	'babel-3' => 'Dä Benutzer cha [[$1|sehr güet]] [[$2|$3]].',
+	'babel-4' => 'Dä Benutzer cha [[$2|$3]] uff em Niveau vo me [[$1|Müetersprochler]].',
+	'babel-5' => 'Dä Benutzer cha [[$2|$3]] uff [[$1|professionällem]] Niveau.',
+	'babel-N' => 'Dem Benutzer sini [[$1|Müetersproch]] isch [[$2|$3]].',
 );
 
 /** Hawaiian (Hawai`i)
@@ -1426,6 +1444,7 @@ $messages['kk-cyrl'] = array(
 
 /** Khmer (ភាសាខ្មែរ)
  * @author GerardM
+ * @author Thearith
  * @author គីមស៊្រុន
  */
 $messages['km'] = array(
@@ -1433,16 +1452,16 @@ $messages['km'] = array(
 	'babel-1' => 'អ្នកប្រើប្រាស់នេះចេះ [[$2|ភាសាខ្មែរ]] [[$1|ថ្នាក់មូលដ្ឋាន]]។',
 	'babel-2' => 'អ្នកប្រើប្រាស់នេះចេះ [[$2|ភាសាខ្មែរ]] [[$1|ថ្នាក់មធ្យម]]។',
 	'babel-3' => 'អ្នកប្រើប្រាស់នេះចេះ [[$2|ភាសាខ្មែរ]] [[$1|ថ្នាក់ខ្ពស់]]។',
-	'babel-4' => 'អ្នកប្រើប្រាស់នេះមានចំនេះដឹង [[$2|ភាសាខ្មែរ]] [[$1|ប្រហាក់ប្រហែលជនជាតិខ្មែរ]]។',
+	'babel-4' => 'អ្នកប្រើប្រាស់នេះមានចំណេះដឹង [[$2|ភាសាខ្មែរ]] [[$1|ប្រហាក់ប្រហែលជនជាតិខ្មែរ]]។',
 	'babel-5' => 'អ្នកប្រើប្រាស់នេះចេះ [[$2|ភាសាខ្មែរ]] [[$1|ថ្នាក់អាជីព]]។',
-	'babel-N' => 'អ្នកប្រើប្រាស់នេះនិយាយ [[$2|ភាសាខ្មែរ]]ជា[[$1|ភាសាកំនើត]]។',
+	'babel-N' => 'អ្នកប្រើប្រាស់នេះនិយាយ [[$2|ភាសាខ្មែរ]]ជា[[$1|ភាសាកំណើត]]។',
 	'babel-0-n' => 'អ្នកប្រើប្រាស់នេះ[[$1|មិនចេះ]] (ឬយល់បានខ្លះៗទាំងលំបាក) [[$2|ភាសាខ្មែរ]]ទេ។',
 	'babel-1-n' => 'អ្នកប្រើប្រាស់នេះចេះ [[$2|ភាសាខ្មែរ]] [[$1|ថ្នាក់មូលដ្ឋាន]]។',
 	'babel-2-n' => 'អ្នកប្រើប្រាស់នេះចេះ [[$2|ភាសាខ្មែរ]] [[$1|ថ្នាក់មធ្យម]]។',
 	'babel-3-n' => 'អ្នកប្រើប្រាស់នេះចេះ [[$2|ភាសាខ្មែរ]] [[$1|ថ្នាក់ខ្ពស់]]។',
-	'babel-4-n' => 'អ្នកប្រើប្រាស់នេះមានចំនេះដឹង [[$2|ភាសាខ្មែរ]] [[$1|ប្រហាក់ប្រហែលជនជាតិខ្មែរ]]។',
+	'babel-4-n' => 'អ្នកប្រើប្រាស់នេះមានចំណេះដឹង [[$2|ភាសាខ្មែរ]] [[$1|ប្រហាក់ប្រហែលជនជាតិខ្មែរ]]។',
 	'babel-5-n' => 'អ្នកប្រើប្រាស់នេះចេះ [[$2|ភាសាខ្មែរ]] [[$1|ថ្នាក់អាជីព]]។',
-	'babel-N-n' => 'អ្នកប្រើប្រាស់នេះនិយាយ [[$2|ភាសាខ្មែរ]]ជា[[$1|ភាសាកំនើត]]។',
+	'babel-N-n' => 'អ្នកប្រើប្រាស់នេះនិយាយ [[$2|ភាសាខ្មែរ]]ជា[[$1|ភាសាកំណើត]]។',
 );
 
 /** Kannada (ಕನ್ನಡ)
@@ -1583,6 +1602,7 @@ $messages['lb'] = array(
 	'babel-autocreate-reason' => 'Automatesch eng Babel-Kategorie-Säit maachen.',
 	'babel-autocreate-text-levels' => 'Benotzer an dëser Kategorie ginn un datt si an der Sprooch $2 den Niveau $1 hun.',
 	'babel-autocreate-text-main' => 'Benotzer an dëser Kategorie ginn un dat si Kenntnisser vun der Sprooch $1 hun.',
+	'babel-autocreate-user' => 'Babel automatesch uleeën',
 	'babel-0' => 'Dëse Benotzer huet [[$1|keng]] Kenntnisser vun [[$2|$3]] (oder versteet et just mat grousse Schwieregkeeten).',
 	'babel-1' => 'Dëse Benotzer huet [[$1|Grondkenntnisser]] vun [[$2|$3]].',
 	'babel-2' => 'Dëse Benotzer huet [[$1|erweidert]] Kenntnisser vun [[$2|$3]].',
@@ -1950,11 +1970,16 @@ $messages['nl'] = array(
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Eirik
  * @author Finnrind
+ * @author Harald Khan
  */
 $messages['nn'] = array(
 	'babel' => 'Babelinformasjon',
 	'babel-desc' => 'Legg til parserfunksjonen <tt>#babel</tt> for å automatisk lage ein babelboks der ein kan bruka sjølvlaga malar',
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Brukarnamnet du valde er i bruk for automatisk oppretting av Babel-kategoriar og kan difor ikkje registrerast.',
+	'babel-autocreate-reason' => 'Oprettar automatisk ei Babel-kategori-sida.',
+	'babel-autocreate-text-levels' => 'Brukarar i denne kategorien har eit språkdugleiksnivå på $1 for $2.',
+	'babel-autocreate-text-main' => 'Brukarar i denne kategorien kjenner til $1.',
 	'babel-0' => 'Denne brukaren har [[$1|små eller ingen]] kunnskapar i [[$2|$3]].',
 	'babel-1' => 'Denne brukaren har [[$1|litt]] kjennskap til [[$2|$3]].',
 	'babel-2' => 'Denne brukaren kan [[$1|ganske godt]] [[$2|$3]].',
