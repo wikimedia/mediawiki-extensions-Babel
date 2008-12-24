@@ -384,6 +384,7 @@ $messages['be'] = array(
 $messages['be-tarask'] = array(
 	'babel' => 'Зьвесткі пра мовы, якімі валодае ўдзельнік',
 	'babel-url' => 'Project:Бабілёнская вежа',
+	'babel-autocreate-reason' => 'Аўтаматычнае стварэньне катэгорыі для [[Project:Бабілёнская вежа|Бабілёнскай вежы]].',
 	'babel-0' => 'Гэты ўдзельнік [[$1|не разумее]] [[$2|$3]] (ці разумее яе зь цяжкасьцю).',
 	'babel-1' => 'Гэты ўдзельнік ведае [[$2|$3]] на [[$1|пачатковым]] узроўні.',
 	'babel-2' => 'Гэты ўдзельнік ведае [[$2|$3]] на [[$1|сярэднім]] узроўні.',
@@ -820,6 +821,7 @@ $messages['fa'] = array(
 );
 
 /** Finnish (Suomi)
+ * @author Ilaiho
  * @author Jaakonam
  * @author Nike
  */
@@ -827,6 +829,10 @@ $messages['fi'] = array(
 	'babel' => 'Käyttäjän kielitaito',
 	'babel-desc' => 'Lisää <tt>#babel</tt>-funktion, jotta käyttäjän kielitaidosta kertova babel-käyttäjälaatikkosarake voidaan luoda automaattisesti ja sisällyttää räätälöityihin mallineisiin.',
 	'babel-url' => 'Project:Kielitaito',
+	'babel-autocreate-abort' => 'Antamasi käyttäjätunnus on varattu kielitaitoluokkien automaattiseen luomiseen, joten et voi rekisteröidä sitä.',
+	'babel-autocreate-reason' => 'Kielitaidon luokkasivun automaattinen luonti.',
+	'babel-autocreate-text-levels' => 'Käyttäjät tässä luokassa ovat ilmoittaneet osaavansa kieltä $1 tasolla $2.',
+	'babel-autocreate-text-main' => 'Käyttäjät tässä luokassa ovat ilmoittaneet ymmärtävänsä kieltä $1.',
 	'babel-0' => 'Tämä käyttäjä osaa [[$1|hyvin vähän tai ei lainkaan]] kieltä [[$2|$3]].',
 	'babel-1' => 'Tällä käyttäjällä on kielen [[$2|$3]] [[$1|perustaidot]]',
 	'babel-2' => 'Tämä käyttäjä osaa kieltä [[$2|$3]] [[$1|kohtalaisesti]].',
@@ -1524,6 +1530,10 @@ $messages['ksh'] = array(
 	'babel' => 'Dem Medmaacher sing Shprooche-Weße',
 	'babel-desc' => 'Brengk de <tt>#babel</tt>-Paaserfongxjohn, womet me automatesch ene Babel-Medmaacher-Kaste opboue kann, un dobeij och selfßjemaate Schabloone nozze kan.',
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Dä Metmaachername es ald verjovve för Babel-{{int:categories}} automattesch aanzelääje do, dä kanns De nit han.',
+	'babel-autocreate-reason' => 'En automattesch aanjelaate Saachjrupp fum Babel-Süsteem.',
+	'babel-autocreate-text-levels' => 'De Metmaacher en hee dä Saachjrupp han jesaat, se künnte de Shprooch $1 $2.',
+	'babel-autocreate-text-main' => 'Metmaacher en hee dä Saachjrupp han jesaat, se künnte vum $1 jet.',
 	'babel-0' => 'Dä Medmaacher hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
 	'babel-1' => 'Dä Medmaacher hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
 	'babel-2' => 'Dä Medmaacher kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
