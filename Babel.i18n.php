@@ -1216,8 +1216,13 @@ $messages['ht'] = array(
  * @author Dani
  */
 $messages['hu'] = array(
+	'babel' => 'Bábel szerkesztői információk',
 	'babel-desc' => '<tt>#babel</tt> értelmes függvény bábel-információkat tartalmazó oszlop automatikus generálásához, saját sablononok beillesztésének lehetőségével',
 	'babel-url' => 'Project:Bábel',
+	'babel-autocreate-abort' => 'Az általad választott név a bábelkategóriák automatikus létrehozásához van használva, így nem lehet regisztrálni.',
+	'babel-autocreate-reason' => 'Bábel kategóriaoldal automatikus létrehozása.',
+	'babel-autocreate-text-levels' => 'Az ebben a kategóriában szereplő szerkesztők $1 szinten beszélik a(z) $2 nyelvet.',
+	'babel-autocreate-text-main' => 'Az ebben a kategóriában szereplő szerkesztők valamilyen szinten beszélik a(z) $1 nyelvet.',
 	'babel-0' => 'Ez a szerkesztő [[$1|nem]] beszéli a(z) [[$2|$3]] nyelvet (vagy csak nagy nagyon nehezen érti meg).',
 	'babel-1' => 'Ez a szerkesztő [[$1|alapszinten]] beszéli a(z) [[$2|$3]] nyelvet.',
 	'babel-2' => 'Ez a szerkesztő [[$1|középszinten]] beszéli a(z) [[$2|$3]] nyelvet.',
