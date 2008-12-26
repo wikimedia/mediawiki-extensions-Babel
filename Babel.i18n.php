@@ -508,8 +508,16 @@ $messages['br'] = array(
  */
 $messages['bs'] = array(
 	'babel' => 'Babel korisničke informacije',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-reason' => 'Automatski napravljena stranica Babel kategorije.',
+	'babel-autocreate-text-main' => 'Korisnici u ovoj kategoriji su označeni da imaju znanje $1 jezika.',
 	'babel-0' => 'Ovaj korisnik [[$1|ne]] govori [[$2|$3]] (ili ga razumije sa velikim poteškoćama).',
 	'babel-1' => 'Ovaj korisnik ima [[$1|osnovno]] poznavanje [[$2|$3]] jezika.',
+	'babel-2' => 'Ovaj korisnik [[$1|napredno]] poznaje [[$2|$3]].',
+	'babel-3' => 'Ovaj korisnik [[$1|napredno]] poznaje [[$2|$3]].',
+	'babel-4' => 'Ovaj korisnik poznaje [[$2|$3]] gotovo na nivou [[$1|maternjeg jezika]]',
+	'babel-5' => 'Ovaj korisnik ima znanje [[$2|$3]] na [[$1|profesionalnom nivou]].',
+	'babel-N' => 'Ovaj korisnik govori [[$2|$3]] kao [[$1|maternji jezik]].',
 	'babel-0-n' => 'Ovaj korisnik [[$1|ne]] govori [[$2|bosanski]] (ili ga razumije sa velikim poteškoćama).',
 );
 
@@ -2966,11 +2974,13 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Shinjiman
+ * @author Wrightbus
  */
 $messages['zh-hant'] = array(
 	'babel' => '巴別用戶資料',
 	'babel-desc' => '加一個<tt>#babel</tt>處理功能去容許自動產生一個巴別用戶框欄及包含可自定化的模版',
 	'babel-url' => 'Project:巴別',
+	'babel-autocreate-reason' => '自動建立巴別分類頁。',
 	'babel-0' => '這位用戶[[$1|無]][[$2|$3]]的知識（或很難地去明白它）。',
 	'babel-1' => '這位用戶有[[$1|基本]]的[[$2|$3]]知識。',
 	'babel-2' => '這位用戶有[[$1|中等]]的[[$2|$3]]知識。',
