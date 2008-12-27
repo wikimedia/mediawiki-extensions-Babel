@@ -155,18 +155,6 @@ $messages['sxu'] = array(
 	'babel-N-n' => "Dor Benutzor hior is ä rüscht'schor [[$1|Muddorsprachlor]] vom [[$2|Sächs'sch]]n.",
 );
 
-/** Lower Silesian (Lower Selisian (need local name on Support))
- * @author Jonny84
- */
-$messages['sli'] = array(
-	'babel-url' => 'Project:Babel',
-	'babel-1' => 'Dieser Benutzer beherrscht [[$2|$3]] auf [[$1|grundlegendem]] Niveau.',
-	'babel-3-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] auf [[$1|hohem]] Niveau.',
-	'babel-4-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] auf [[$1|muttersprachlichem Niveau]].',
-	'babel-5-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] auf [[$1|professionellem]] Niveau.',
-	'babel-N-n' => 'Dieser Benutzer spricht [[$2|Schläsch]] als [[$1|Muttersproache]].',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
