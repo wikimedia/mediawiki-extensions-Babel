@@ -2012,6 +2012,7 @@ $messages['nn'] = array(
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
+ * @author Laaknor
  */
 $messages['no'] = array(
 	'babel' => 'Babelinformasjon',
@@ -2024,7 +2025,7 @@ $messages['no'] = array(
 	'babel-4' => 'Denne brukeren snakker [[$2|$3]] på [[$1|morsmålsnivå]].',
 	'babel-5' => 'Denne brukeren bruker [[$2|$3]] [[$1|profesjonelt]].',
 	'babel-N' => 'Denne brukeren har [[$2|$3]] som [[$1|morsmål]].',
-	'babel-0-n' => 'Denne brukeren verken skriver eller leser [[$2|norsk]] (eller forstår det kun med store vanskeligheter).',
+	'babel-0-n' => 'Denne brukeren [[$1|kan ikke]] skrive eller lese [[$2|norsk]] (eller forstår det kun med store vanskeligheter).',
 	'babel-1-n' => 'Denne brukeren kan [[$1|litt]] [[$2|norsk (bokmål)]].',
 	'babel-2-n' => 'Denne brukeren har [[$1|god kjennskap]] til [[$2|norsk (bokmål)]].',
 	'babel-3-n' => 'Denne brukeren behersker [[$2|norsk (bokmål)]] [[$1|flytende]].',
