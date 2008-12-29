@@ -2405,11 +2405,17 @@ $messages['sah'] = array(
 
 /** Sicilian (Sicilianu)
  * @author Melos
+ * @author Santu
  */
 $messages['scn'] = array(
-	'babel' => "Nformazioni di Babel sull'utenti",
+	'babel' => "Nfurmazzioni di Babel supra a l'utenti",
 	'babel-desc' => 'Junci la parser function <tt>#babel</tt> pi fari la generazioni automatica di na colonna babel utenti cu la pussibilità di ncludìri template pirsonalizzati',
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Lu nomu utenti spicificatu è usato pâ criazzioni autumàtica di catigurìi Babel e non pò èssiri riggistratu.',
+	'babel-autocreate-reason' => 'Criu autumàticamenti la pàggina dâ catigurìa Babel.',
+	'babel-autocreate-text-levels' => "L'utenti nti sta catigurìa dìciunu ca d'aviri nu liveddu di canuscenza $1 dâ lingua $2.",
+	'babel-autocreate-text-main' => "L'utenti nti sta catigurìa dìciunu ca canùsciunu la lingua $1.",
+	'babel-autocreate-user' => 'Babel AutoCreate',
 	'babel-0' => "St'utenti [[$1|nun canusci]] lu [[$2|$3]], o sulu pò liggìrilu nanticchia.",
 	'babel-1' => "St'utenti pò cuntribbuìricci c'un [[$2|$3]] ôn [[$1|liveddu vasciu]].",
 	'babel-2' => "St'utenti pò cuntribbuìricci c'un [[$2|$3]] ôn [[$1|liveddu mediu]].",
@@ -2417,7 +2423,26 @@ $messages['scn'] = array(
 	'babel-4' => "St'utenti canusci lu [[$2|$3]] quasi comu la sò [[$1|lingua matri]].",
 	'babel-5' => "St'utenti pò cuntribbuìricci c'un [[$2|$3]] ôn liveddu [[$1|prufissionali]].",
 	'babel-N' => "St'utenti pò cuntribbuìricci c'un liveddu [[$1|matrilingua]] in [[$2|$3]].",
+	'babel-0-n' => "St'utenti [[$1|non sapi cumunicari]] 'n [[$2|sicilianu]] (o lu capisci solu cu assai difficultati).",
+	'babel-1-n' => "St'utenti pò cuntribbuìri cu nu liveddu [[$1|nicu]] 'n [[$2|sicilianu]].",
+	'babel-2-n' => "St'utenti pò cuntribbuiri cu nu liveddu [[$1|minzanu]] 'n [[$2|sicilianu]].",
+	'babel-3-n' => "St'utenti pò cuntribbuiri cu nu liveddu [[$1|àutu]] 'n [[$2|sicilianu]].",
+	'babel-4-n' => "St'utenti pò cuntribbuiri cu nu liveddu [[$1|quasi matrilingua]] 'n [[$2|sicilianu]].",
+	'babel-5-n' => "St'utenti pò cuntribbuiri cu nu liveddu [[$1|prufussiunali]] 'n [[$2|sicilianu]].",
 	'babel-N-n' => "St'utenti pò cuntribbuìricci c'un  liveddu [[$1|matrilingua]] in [[$2|sicilianu]].",
+	'babel-0-female' => "Chista utenti [[$1|non sapi cumunicari]] 'n [[$2|$3]] (o lu capisci sulu cu assai difficultati)",
+	'babel-1-female' => "Chista utenti pò cuntribbuiri cu nu liveddu [[$1|nicu]] 'n [[$2|$3]].",
+	'babel-2-female' => "Chista utenti pò cuntribbuiri cu nu liveddu  [[$1|minzanu]] 'n [[$2|$3]].",
+	'babel-3-female' => "Chista utenti pò cuntribbuiri cu nu liveddu  [[$1|àutu]] 'n [[$2|$3]].",
+	'babel-4-female' => "Chista utenti pò cuntribbuiri cu nu liveddu  [[$1|quasi matrilingua]] 'n [[$2|$3]].",
+	'babel-5-female' => "Chista utenti pò cuntribbuiri cu nu liveddu  [[$1|prufussiunali]] 'n [[$2|$3]].",
+	'babel-N-female' => "Chista utenti pò cuntribbuiri cu nu liveddu  [[$1|matrilingua]] 'n [[$2|$3]].",
+	'babel-0-n-female' => "Chista utenti [[$1|non sapi cununicari]] 'n [[$2|sicilianu]] (o lu capisci sulu cu assai difficultati).",
+	'babel-1-n-female' => "Chista utenti pò cuntribbuiri cu nu liveddu [[$1|elimintari]] 'n [[$2|sicilianu]].",
+	'babel-2-n-female' => "Chista utenti pò cuntribbuiri cu nu liveddu  [[$1|minzanu]] 'n [[$2|sicilianu]].",
+	'babel-3-n-female' => "Chista utenti pò cuntribbuiri cu nu liveddu [[$1|àutu]] 'n [[$2|sicilianu]].",
+	'babel-4-n-female' => "Chista utenti pò cuntribbuiri cu nu liveddu  [[$1|quasi matrilingua]] 'n [[$2|sicilianu]].",
+	'babel-5-n-female' => "Chista utenti pò cuntribbuiri cu nu liveddu  [[$1|prufussiunali]] 'n [[$2|sicilianu]].",
 );
 
 /** Sindhi (سنڌي)
@@ -2571,6 +2596,26 @@ $messages['sv'] = array(
 	'babel-4-n' => 'Den här användaren talar nästan [[$2|svenska]] som en [[$1|modersmålstalare]].',
 	'babel-5-n' => 'Den här användaren har [[$1|professionella]] kunskaper i [[$2|svenska]].',
 	'babel-N-n' => 'Den här användaren har [[$2|svenska]] som [[$1|modersmål]].',
+);
+
+/** Swahili (Kiswahili)
+ * @author Malangali
+ */
+$messages['sw'] = array(
+	'babel-0' => 'Mtumiaji huyu [[$1|hajui]] [[$2|$3]] (au anaelewa kidogo sana).',
+	'babel-1' => 'Mtumiaji huyu ni mwongeaji wa [[$2|$3]] cha kiwango cha [[$1|Msingi]].',
+	'babel-2' => 'Mtumiaji huyu ni mwongeaji wa [[$2|$3]] cha kiwango cha [[$1|Wastani]].',
+	'babel-3' => 'Mtumiaji huyu ni mwongeaji wa [[$2|$3]] kiwango [[$1|cha Juu]].',
+	'babel-4' => 'Mtumiaji huyu ni mwongeaji wa [[$2|$3]] cha kiwango cha [[$1|Juu Kabisa]].',
+	'babel-5' => 'Mtumiaji huyu ni mwongeaji wa [[$2|$3]] cha kiwango cha [[$1|Utaalamu]].',
+	'babel-N' => 'Mtumiaji huyu ni mwongeaji wa [[$2|$3]] [[$1|Fasaha]].',
+	'babel-0-n' => 'Mtumiaji huyu [[$1|hajui]] [[$2|Kiswahili]] (au anaelewa kidogo sana).',
+	'babel-1-n' => 'Mtumiaji huyu ni mwongeaji wa [[$2|Kiswahili]] cha kiwango cha [[$1|Msingi]].',
+	'babel-2-n' => 'Mtumiaji huyu ni mwongeaji wa [[$2|Kiswahili]] cha kiwango cha [[$1|Wastani]].',
+	'babel-3-n' => 'Mtumiaji huyu ni mwongeaji wa [[$2|Kiswahili]] kiwango [[$1|cha Juu]].',
+	'babel-4-n' => 'Mtumiaji huyu ni mwongeaji wa [[$2|Kiswahili]] cha kiwango cha [[$1|Juu Kabisa]].',
+	'babel-5-n' => 'Mtumiaji huyu ni mwongeaji wa [[$2|Kiswahili]] cha kiwango cha [[$1|Utaalamu]].',
+	'babel-N-n' => 'Mtumiaji huyu ni mwongeaji wa [[$2|Kiswahili]] [[$1|Fasaha]].',
 );
 
 /** Silesian (Ślůnski)
