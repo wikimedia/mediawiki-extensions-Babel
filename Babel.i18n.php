@@ -496,8 +496,11 @@ $messages['br'] = array(
  */
 $messages['bs'] = array(
 	'babel' => 'Babel korisničke informacije',
+	'babel-desc' => 'Dodaje <tt>#babel</tt> parsersku funkciju koja omogućava automatsko pravljenje babel korisničke kutije u stupcu sa mogućnostima uključivanja prilagođenih šablona',
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Korisničko ime koje ste naveli se koristi za automatsko pravljenje Babel kategorija i ne može biti registrovano.',
 	'babel-autocreate-reason' => 'Automatski napravljena stranica Babel kategorije.',
+	'babel-autocreate-text-levels' => 'Korisnici u ovoj kategoriji su naveli da imaju nivo $1 znanja $2 jezika.',
 	'babel-autocreate-text-main' => 'Korisnici u ovoj kategoriji su označeni da imaju znanje $1 jezika.',
 	'babel-0' => 'Ovaj korisnik [[$1|ne]] govori [[$2|$3]] (ili ga razumije sa velikim poteškoćama).',
 	'babel-1' => 'Ovaj korisnik ima [[$1|osnovno]] poznavanje [[$2|$3]] jezika.',
@@ -507,6 +510,12 @@ $messages['bs'] = array(
 	'babel-5' => 'Ovaj korisnik ima znanje [[$2|$3]] na [[$1|profesionalnom nivou]].',
 	'babel-N' => 'Ovaj korisnik govori [[$2|$3]] kao [[$1|maternji jezik]].',
 	'babel-0-n' => 'Ovaj korisnik [[$1|ne]] govori [[$2|bosanski]] (ili ga razumije sa velikim poteškoćama).',
+	'babel-1-n' => 'Ovaj korisnik ima [[$1|osnovno]] znanje [[$2|bosanskog jezika]].',
+	'babel-2-n' => 'Ovaj korisnik ima [[$1|osrednje]] znanje [[$2|bosanskog jezika]].',
+	'babel-3-n' => 'Ovaj korisnik ima [[$1|napredno]] znanje [[$2|bosanskog jezika]].',
+	'babel-4-n' => 'Ovaj korisnik ima [[$1|odlično]] znanje [[$2|bosanskog jezika]].',
+	'babel-5-n' => 'Ovaj korisnik ima [[$1|profesionalno]] znanje [[$2|bosanskog jezika]].',
+	'babel-N-n' => 'Ovaj korisnik ima znanje [[$2|engleskog]] na nivou [[$1|bosanskog jezika]].',
 );
 
 /** Catalan (Català)
@@ -794,6 +803,22 @@ $messages['es'] = array(
 	'babel-4-n' => 'Este usuario puede contribuir con un nivel [[$1|casi nativo]] en [[$2|español]].',
 	'babel-5-n' => 'Este usuario tiene un conocimiento [[$1|profesional]] del [[$2|Español]].',
 	'babel-N-n' => 'Este usuario puede contribuir con un nivel [[$1|nativo]] en [[$2|español]].',
+);
+
+/** Basque (Euskara)
+ * @author Theklan
+ */
+$messages['eu'] = array(
+	'babel' => 'Lankideen babel informazioa',
+	'babel-desc' => '<tt>#babel</tt> parser funtzioa gehitzen du automatikoki sorturiko babel lankide-kutxen zutabea baimeduz eta lankide txantiloiak sartzea baimenduz',
+	'babel-url' => 'Proiektu:Babel',
+	'babel-autocreate-abort' => 'Sartu duzun lankide izena Babel kategorien auto-sorkuntzarako erabiltzen da eta ezin da erregistratu.',
+	'babel-autocreate-reason' => 'Automatikoki sorturiko Babel kategoria orrialdea.',
+	'babel-autocreate-text-levels' => 'Kategoria honetako lankideek $1 maila dutela $2 hizkuntzan adierazten du.',
+	'babel-autocreate-text-main' => 'Kategoria honetan dauden lankideek $1 hizkuntzaren jakintza dute.',
+	'babel-autocreate-user' => 'Babel AutoSorrera',
+	'babel-directionality' => 'ltr',
+	'babel-0' => 'Lankide honek [[$1 ezagutza du|ez du ezagutzarik]] [[$2|$3]] (edo oso zaila da berarentzat ulertzea).',
 );
 
 /** Persian (فارسی)
@@ -2989,12 +3014,14 @@ $messages['zh-cn'] = array(
 );
 
 /** Simplified Chinese (‪中文(简体)‬)
+ * @author Gzdavidwong
  * @author Shinjiman
  */
 $messages['zh-hans'] = array(
 	'babel' => '巴别用户细节',
 	'babel-desc' => '加一个<tt>#babel</tt>处理功能去容许自动产生一个巴别用户框栏及包含可自定化的模版',
 	'babel-url' => 'Project:巴别',
+	'babel-autocreate-reason' => '自动建立巴别分类页。',
 	'babel-0' => '这位用户[[$1|无]][[$2|$3]]的知识（或很难地去明白它）。',
 	'babel-1' => '这位用户有[[$1|基本]]的[[$2|$3]]知识。',
 	'babel-2' => '这位用户有[[$1|中等]]的[[$2|$3]]知识。',
