@@ -2811,10 +2811,33 @@ $messages['tpi'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Joseph
  * @author Karduelis
  */
 $messages['tr'] = array(
 	'babel' => 'Babil kullanıcı bilgileri',
+	'babel-desc' => 'Özel şablonlar içerme özelliği olan Babil kullanıcı kutusu sütununun otomatik oluşturulması için <tt>#babel</tt> derleyici fonksiyonunu ekler',
+	'babel-url' => 'Proje:Babil',
+	'babel-autocreate-abort' => 'Belirttiğiniz kullanıcı adı Otomatik Babil kategorisi oluşturulması için kullanılıyor ve alınamaz.',
+	'babel-autocreate-reason' => 'Otomatik olarak Babil kategori sayfası oluşturuluyor.',
+	'babel-autocreate-text-levels' => 'Bu kategorideki kullanıcılar $1 seviyede $2 dilini bildiklerini belirtiyor.',
+	'babel-autocreate-text-main' => 'Bu kategorideki kullanıcılar $1 dilini bildiklerini belirtiyor.',
+	'babel-autocreate-user' => 'Babil OtomatikOluştur',
+	'babel-directionality' => 'soldansağa',
+	'babel-0' => 'Bu kullanıcı [[$1|hiç]] [[$2|$3]] bilmiyor (ya da bir hayli zor anlıyor).',
+	'babel-1' => 'Bu kullanıcı [[$1|temel düzeyde]] [[$2|$3]] bilir.',
+	'babel-2' => 'Bu kullanıcı [[$1|orta düzeyde]] [[$2|$3]] bilir.',
+	'babel-3' => 'Bu kullanıcı [[$1|ileri seviyede]] [[$2|$3]] bilir.',
+	'babel-4' => 'Bu kullanıcı [[$1|anadili gibi]] [[$2|$3]] konuşabilir.',
+	'babel-5' => 'Bu kullanıcı [[$1|profesyonel]] [[$2|$3]] bilgisine sahiptir.',
+	'babel-N' => "Bu kullanıcının [[$1|anadili]] [[$2|$3]]'dir.",
+	'babel-0-n' => 'Bu kullanıcı [[$1|hiç]] [[$2|Türkçe]] bilmiyor (ya da bir hayli zor anlıyor).',
+	'babel-1-n' => 'Bu kullanıcı [[$1|temel düzeyde]] [[$2|Türkçe]] bilir.',
+	'babel-2-n' => 'Bu kullanıcı [[$1|orta düzeyde]] [[$2|Türkçe]] bilir.',
+	'babel-3-n' => 'Bu kullanıcı [[$1|ileri seviyede]] [[$2|Türkçe]] bilir.',
+	'babel-4-n' => 'Bu kullanıcı [[$1|anadili gibi]] [[$2|Türkçe]] konuşabilir.',
+	'babel-5-n' => 'Bu kullanıcı [[$1|profesyonel]] [[$2|Türkçe]] bilgisine sahiptir.',
+	'babel-N-n' => "Bu kullanıcının [[$1|anadili]] [[$2|Türkçe]]'dir.",
 );
 
 /** Ukrainian (Українська)
