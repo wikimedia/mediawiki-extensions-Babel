@@ -108,7 +108,7 @@ class Babel {
 
 			} elseif( $this->_validTitle( $name ) ) {
 
-				// Non-existant page and invalid parameter syntax, red link.
+				// Non-existent page and invalid parameter syntax, red link.
 				$contents .= "\n[[Template:{$this->_addFixes( $name,'template' )}]]";
 
 			} else {
