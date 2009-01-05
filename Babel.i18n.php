@@ -806,6 +806,7 @@ $messages['es'] = array(
 );
 
 /** Basque (Euskara)
+ * @author An13sa
  * @author Theklan
  */
 $messages['eu'] = array(
@@ -818,7 +819,20 @@ $messages['eu'] = array(
 	'babel-autocreate-text-main' => 'Kategoria honetan dauden lankideek $1 hizkuntzaren jakintza dute.',
 	'babel-autocreate-user' => 'Babel AutoSorrera',
 	'babel-directionality' => 'ltr',
-	'babel-0' => 'Lankide honek [[$1 ezagutza du|ez du ezagutzarik]] [[$2|$3]] (edo oso zaila da berarentzat ulertzea).',
+	'babel-0' => 'Lankide honek [[$1|ez daki]] [[$2|$3]]z (edo oso zaila da berarentzat ulertzea).',
+	'babel-1' => 'Lankide honek [[$2|$3]]zko [[$1|oinarrizko ezagutza]] du.',
+	'babel-2' => 'Lankide honek [[$2|$3]]zko [[$1|ezagutza ertaina]] du.',
+	'babel-3' => 'Lankide honek [[$2|$3]]zko [[$1|ezagutza aurreratua]] du.',
+	'babel-4' => 'Lankide honek [[$2|$3]]z [[$1|euskaldun zahar baten antzeko]] maila du.',
+	'babel-5' => 'Lankide honek [[$2|$3]]zko [[$1|ezagutza profesionala]] du.',
+	'babel-N' => 'Lankide honek [[$2|$3]] du [[$1|ama hizkuntza]].',
+	'babel-0-n' => 'Erabiltzaile honek [[$2|euskara]]rik [[$1|ez du  ulertzen]] (edo nekez ulertzen du).',
+	'babel-1-n' => 'Erabiltzaile honek [[$1|oinarrizko mailan]] lagun dezake [[$2|euskara]]z.',
+	'babel-2-n' => 'Erabiltzaile honek [[$1|maila ertainean]] lagun dezake [[$2|euskara]]z.',
+	'babel-3-n' => 'Erabiltzaile honek [[$2|euskara]]z [[$1|maila aurreratuan]] lagun dezake.',
+	'babel-4-n' => 'Erabiltzaile honek [[$1|euskaldun zahar baten antzeko mailan]] lagun dezake [[$2|euskara]]z.',
+	'babel-5-n' => 'Erabiltzaile honek [[$2|euskara]] [[$1|aditu]] mailan erabiltzen du.',
+	'babel-N-n' => 'Erabiltzaile hau [[$1|euskaldun zaharra]] da ([[$2|euskara]] du ama hizkuntza).',
 );
 
 /** Persian (فارسی)
@@ -2140,6 +2154,10 @@ $messages['pl'] = array(
 	'babel' => 'Wieża Babel użytkownika',
 	'babel-desc' => 'Dodaje funkcję parsera <tt>#babel</tt> ułatwiającą tworzenie ramki informującej o językowych lub innych umiejętnościach użytkownika',
 	'babel-url' => 'Project:Wieża Babel',
+	'babel-autocreate-abort' => 'Wybrana nazwa użytkownika jest wykorzystywana do automatycznego tworzenia kategorii wieży Babel i nie może zostać zarejestrowana.',
+	'babel-autocreate-reason' => 'Strona automatycznie utworzonej kategorii wieży Babel.',
+	'babel-autocreate-text-levels' => 'Użytkownicy znajdujący się w tej kategorii deklarują znajomość języka $2 na poziomie $1.',
+	'babel-autocreate-text-main' => 'Użytkownicy znajdujący się w tej kategorii deklarują znajomość języka $1.',
 	'babel-0' => 'Ten użytkownik [[$1|nie rozumie]] języka [[$2|$3]] (albo ma z nim olbrzymie trudności).',
 	'babel-1' => 'Ten użytkownik posługuje się [[$2|językiem $3]] na poziomie [[$1|podstawowym]].',
 	'babel-2' => 'Ten użytkownik posługuje się [[$2|językiem $3]] na poziomie [[$1|średnio zaawansowanym]].',
