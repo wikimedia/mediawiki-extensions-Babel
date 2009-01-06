@@ -515,7 +515,7 @@ $messages['bs'] = array(
 	'babel-3-n' => 'Ovaj korisnik ima [[$1|napredno]] znanje [[$2|bosanskog jezika]].',
 	'babel-4-n' => 'Ovaj korisnik ima [[$1|odlično]] znanje [[$2|bosanskog jezika]].',
 	'babel-5-n' => 'Ovaj korisnik ima [[$1|profesionalno]] znanje [[$2|bosanskog jezika]].',
-	'babel-N-n' => 'Ovaj korisnik ima znanje [[$2|engleskog]] na nivou [[$1|bosanskog jezika]].',
+	'babel-N-n' => 'Ovaj korisnik ima znanje [[$2|bosanskog]] na nivou [[$1|maternjeg jezika]].',
 );
 
 /** Catalan (Català)
