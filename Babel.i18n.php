@@ -789,6 +789,7 @@ $messages['eo'] = array(
  * @author Sanbec
  */
 $messages['es'] = array(
+	'babel' => 'Información de usuario Babel',
 	'babel-0' => 'Este usuario [[$1|no puede comunicarse]] en [[$2|$3]] (o lo entiende con mucha dificultad).',
 	'babel-1' => 'Este usuario puede contribuir con un nivel [[$1|básico]] de [[$2|$3]].',
 	'babel-2' => 'Este usuario puede contribuir con un nivel [[$1|intermedio]] de [[$2|$3]].',
@@ -807,11 +808,12 @@ $messages['es'] = array(
 
 /** Basque (Euskara)
  * @author An13sa
+ * @author Kobazulo
  * @author Theklan
  */
 $messages['eu'] = array(
 	'babel' => 'Lankideen babel informazioa',
-	'babel-desc' => '<tt>#babel</tt> parser funtzioa gehitzen du automatikoki sorturiko babel lankide-kutxen zutabea baimeduz eta lankide txantiloiak sartzea baimenduz',
+	'babel-desc' => '<tt>#babel</tt> sintaxi-analizatzaile (parser) funtzioa gehitzen du automatikoki sorturiko babel lankide-kutxen zutabea baimeduz eta lankide txantiloiak sartzea baimenduz',
 	'babel-url' => 'Proiektu:Babel',
 	'babel-autocreate-abort' => 'Sartu duzun lankide izena Babel kategorien auto-sorkuntzarako erabiltzen da eta ezin da erregistratu.',
 	'babel-autocreate-reason' => 'Automatikoki sorturiko Babel kategoria orrialdea.',
@@ -2260,6 +2262,10 @@ $messages['pt'] = array(
 	'babel' => 'Informação Babel de Utilizador',
 	'babel-desc' => 'Adiciona a função do analisador parser <tt>#babel</tt> para permitir a geração automatizada de um coluna de caixas de utilizador babel coma possibilidade de incluir predefinições personalizadas',
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'O nome de utilizador que especificou é usado pela criação automática de categorias Babel e, por isso, não pode ser registado.',
+	'babel-autocreate-reason' => 'A criar automaticamente a página da categoria Babel.',
+	'babel-autocreate-text-levels' => 'Os utilizadores nesta categoria indicam que possuem um nível de conhecimento $1 na língua $2.',
+	'babel-autocreate-text-main' => 'Os utilizadores nesta categoria indicam que possuem conhecimentos da língua $1.',
 	'babel-0' => 'Este utilizador [[$1|não compreende]] [[$2|$3]] (ou compreende com dificuldades consideráveis).',
 	'babel-1' => 'Este utilizador pode contribuir com um nível [[$1|básico]] de [[$2|$3]].',
 	'babel-2' => 'Este utilizador pode contribuir com um nível [[$1|médio]] de [[$2|$3]].',
@@ -2938,6 +2944,12 @@ $messages['vi'] = array(
  * @author Smeira
  */
 $messages['vo'] = array(
+	'babel' => 'Gebananüns-Babel',
+	'babel-url' => 'Proyeg:Babel',
+	'babel-autocreate-abort' => 'Gebananem fa ol pavilöl pagebon pö jafam itjäfidik Babel-kladas e no dalon paregistarön.',
+	'babel-autocreate-reason' => 'Babel-kladapad pajafon itjäfidiko',
+	'babel-autocreate-text-levels' => 'Gebans in klad at sagons, das labons nivoda: $1 tefü pük: $2.',
+	'babel-autocreate-text-main' => 'Gebans in klad at sagons, das sevons püki: $1.',
 	'babel-0' => 'Geban at [[$1|no suemon]] [[$2|$3]]i (u suemon oni mu fikuliko).',
 	'babel-1' => 'Geban at kanon kompenön pö spikots me [[$2|$3]] nivoda [[$1|balugik]].',
 	'babel-2' => 'Geban at kanon kompenön pö spikots me [[$2|$3]] nivoda [[$1|vüik]].',
@@ -2946,6 +2958,12 @@ $messages['vo'] = array(
 	'babel-5' => 'Geban at kanon gebön [[$2|$3]]i [[$1|caliko]].',
 	'babel-N' => 'Geban at labon [[$2|$3]]i as [[$1|lomapük]] oka.',
 	'babel-0-n' => 'Geban a [[$1|no suemon]] [[$2|Volapük]]i (u suemon oni mu fikuliko).',
+	'babel-1-n' => 'Gebon at labon sevi [[$1|stabik]] [[$2|Volapük]]a.',
+	'babel-2-n' => 'Gebn at labon sevi [[$1|vüik]] [[$2|Volapük]]a.',
+	'babel-3-n' => 'Geban at labon sevi [[$1|löpik]] [[$2|Volapük]]a.',
+	'babel-4-n' => 'Geban at labon sevi [[$1|sümik ad ut lomapükana]] [[$2|Volapük]]a.',
+	'babel-5-n' => 'Geban at labon sevi [[$1|calik]] [[$2|Volapük]]a.',
+	'babel-N-n' => 'Geban at labon nivodi [[$1|lomapükik]] [[$2|Volapük]]a.',
 );
 
 /** Wolof (Wolof)
