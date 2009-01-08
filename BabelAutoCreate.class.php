@@ -8,6 +8,7 @@ class BabelAutoCreate {
 		return !( $user->getName() === wfMsgForContent( 'babel-autocreate-user' ) );
 	}
 	public static function create( $category, $language, $level = null ) {
+		$category = strip_tags($category);
 		$title = Title::newFromText( $category, NS_CATEGORY );
 		if( $title === null || $title->exists() ) return;
 		if( $level === null ) {
