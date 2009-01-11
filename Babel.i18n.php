@@ -2556,6 +2556,26 @@ $messages['sk'] = array(
 	'babel-N-n' => 'Tento redaktor má [[$2|angličtinu]] ako [[$1|materinský jazyk]].',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Smihael
+ */
+$messages['sl'] = array(
+	'babel-0' => 'Ta uporabnik [[$1|nima]] znanja [[$2|$3]] (ali pa ima težave z razumevanjem).',
+	'babel-1' => 'Ta uporabnik ima [[$1|osnovno]] znanje [[$2|$3]].',
+	'babel-2' => 'Uporabnik [[$1|srednje dobro]] govori [[$2|$3]].',
+	'babel-3' => 'Uporabnik [[$1|zelo dobro]] govori [[$2|$3]].',
+	'babel-4' => 'Uporabnik govori [[$2|$3]] [[$1|skoraj enako dobro kakor prvi jezik]].',
+	'babel-5' => 'Uporabnik govori [[$2|$3]] na [[$1|profesionalni]] ravni.',
+	'babel-N' => 'Ta uporabnik govori [[$2|{{GRAMMAR:akuzativ|$3}}]] kot materni jezik.',
+	'babel-0-n' => 'Ta uporabnik [[$1|ne govori]] [[$2|slovenščine]] oz. ima velike težave pri razumevanju.',
+	'babel-1-n' => "Uporabnik pozna '''[[$1|osnove]]''' '''[[$1|slovenskega jezika]].",
+	'babel-2-n' => "Uporabnik '''[[$1|srednje dobro]]''' govori '''[[$2|slovenščino]].",
+	'babel-3-n' => "Uporabnik '''[[$1|zelo dobro]]''' govori '''[[$2|slovenščino]].",
+	'babel-4-n' => "Uporabnik govori '''[[$1|slovensko]]''' skoraj '''[[$2|enako dobro kakor prvi jezik]]'''.",
+	'babel-5-n' => 'Uporabnik govori [[$2|slovenščino]] na [[$1|profesionalni]] ravni.',
+	'babel-N-n' => "Ta uporabnik govori '''[[$1|slovenščino]]''' kot '''[[$2|materni jezik]]'''.",
+);
+
 /** Albanian (Shqip)
  * @author Dori
  * @author Eagleal
