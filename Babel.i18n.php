@@ -790,6 +790,12 @@ $messages['eo'] = array(
  */
 $messages['es'] = array(
 	'babel' => 'Información de usuario Babel',
+	'babel-desc' => 'Agregar la <tt>#babel</tt> función analítica para permitir generación automática de una columna de cuadro de usuario Babel con la habilidad de incluir plantillas propias.',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'El nombre de usuario que ha especificado está usado para auto-creación de categorías Babel y no puede ser registrado.',
+	'babel-autocreate-reason' => 'Creando automáticamente página de categorías Babel.',
+	'babel-autocreate-text-levels' => 'Los usuarios en esta categoría indican que tienen nivel de habilidad $1 del lenguaje $2.',
+	'babel-autocreate-text-main' => 'Los usuarios en esta categoría indican que tienen conocimiento del lenguaje $1.',
 	'babel-0' => 'Este usuario [[$1|no puede comunicarse]] en [[$2|$3]] (o lo entiende con mucha dificultad).',
 	'babel-1' => 'Este usuario puede contribuir con un nivel [[$1|básico]] de [[$2|$3]].',
 	'babel-2' => 'Este usuario puede contribuir con un nivel [[$1|intermedio]] de [[$2|$3]].',
@@ -1549,6 +1555,7 @@ $messages['kn'] = array(
  */
 $messages['ko'] = array(
 	'babel' => '사용자 언어 정보',
+	'babel-desc' => '일반 틀을 포함할 수 있는 바벨 유저박스 단을 생성할 수 있도록 <tt>#babel</tt> 파서 기능을 추가',
 	'babel-url' => 'Project:바벨',
 	'babel-autocreate-abort' => '당신이 입력한 계정 이름은 바벨 분류 자동 생성을 위해 사용되고 있어서 등록할 수 없습니다.',
 	'babel-autocreate-reason' => '사용자 언어 분류를 자동적으로 생성함',
@@ -2607,13 +2614,23 @@ $messages['stq'] = array(
 	'babel' => 'Babel-Benutser-Information',
 	'babel-desc' => 'Föiget an ju <tt>#babel</tt>-Parserfunktion foar automatisk Deerstaalen fon Babel-Benutserboxen-Riegen ju Muugelkhaid tou, oaine Foarloagen ientoubienden',
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Die uutwäälde Benutsernoome wäd foar dät automatisk Moakjen fon Babel-Kategorien benöödiged un kon nit registrierd wäide.',
+	'babel-autocreate-reason' => 'Automatisk moakede Babel-Kategorie.',
+	'babel-autocreate-text-levels' => 'Benutsere in disse Kategorie hääbe ju Kunde-Ieuwene $1 foar ju Sproake $2.',
+	'babel-autocreate-text-main' => 'Benutsere in disse Kategorie hääbe Kunde fon ju Sproake $1.',
 	'babel-0' => 'Dissen Benutser boalt un ferstoant [[$1|neen]] [[$2|$3]].',
 	'babel-1' => 'Dissen Benutser [[$1|boalt un ferstoant n Bitje]] [[$2|$3]].',
 	'babel-2' => 'Dissen Benutser kon [[$1|oarich]] [[$2|$3]] baale.',
 	'babel-3' => 'Dissen Benutser kon [[$1|goud]] [[$2|$3]] baale.',
 	'babel-4' => 'Dissen Benutser [[$1|boalt slonk]] [[$2|$3]].',
+	'babel-5' => 'Dissen Benutser behärsket [[$2|$3]] ap [[$1|professionelle]] Ieuwene.',
 	'babel-N' => 'Dissen Benutser häd [[$2|$3]] [[$1|as Määmesproake]].',
 	'babel-0-n' => 'Dissen Benutser behärsket [[$2|Düütsk]] [[$1|nit]] (of ferstoant et man stuur).',
+	'babel-1-n' => 'Dissen Benutser behärsket [[$2|Düütsk]] ap [[$1|gruundlääsende]] Ieuwene.',
+	'babel-2-n' => 'Dissen Benutser kon [[$1|oarich]] [[$2|Düütsk]] baale.',
+	'babel-3-n' => 'Dissen Benutser kon [[$1|goud]] [[$2|Düütsk]] baale.',
+	'babel-4-n' => 'Dissen Benutser boalt [[$1|slonk]] [[$2|Düütsk].',
+	'babel-5-n' => 'Dissen Benutser behärsket [[$2|Düütsk]] ap [[$1|professionelle]] Ieuwene.',
 	'babel-N-n' => 'Dissen Benutser boalt [[$2|Seeltersk]] as [[$1|Määmesproake]].',
 );
 
