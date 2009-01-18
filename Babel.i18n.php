@@ -1088,6 +1088,31 @@ $messages['gsw'] = array(
 	'babel-N' => 'Dem Benutzer sini [[$1|Müetersproch]] isch [[$2|$3]].',
 );
 
+/** Manx (Gaelg)
+ * @author Shimmin Beg
+ */
+$messages['gv'] = array(
+	'babel' => 'Fys ymmydeyr Babel',
+	'babel-autocreate-abort' => 'Yn ennym ymmydeyr hug shiu stiagh, cha nod shiu goaill eh; ta ymmyd jeant jeh liorish Babel son hene-chroo ronnaghyn.',
+	'babel-autocreate-reason' => 'Croo duillag ronney Babel gyn smooinaght.',
+	'babel-autocreate-text-levels' => "Ymmydeyryn ayns y ronneys shoh, t'ad cowraghey dy vel schlei $1 oc er $2.",
+	'babel-autocreate-text-main' => "Ymmydeyryn ayns y ronney shoh, t'ad cowraghey dy vel $1 ennagh oc.",
+	'babel-0' => "Cha nel [[$2|$3]] [[$1|erbee]] ec yn ymmydeyr shoh (ny s'feer doillee da toiggal ee).",
+	'babel-1' => 'Ta [[$2|$3]] [[$1|veg]] ec yn ymmydeyr shoh.',
+	'babel-2' => 'Ta [[$2|$3]] [[$1|veanagh]] ec yn ymmydeyr shoh.',
+	'babel-3' => 'Ta [[$2|$3]] [[$1|vie]] ec yn ymmydeyr shoh.',
+	'babel-4' => 'Ta [[$2|$3]] [[$1|feer vie]] ec yn ymmydeyr shoh.',
+	'babel-5' => 'Ta [[$2|$3]] [[$1|cheirdey]] ec yn ymmydeyr shoh.',
+	'babel-N' => 'Ta [[$2|$3]] [[$1|ghlen]] ec yn ymmydeyr shoh.',
+	'babel-0-n' => "Cha nel [[$2|Gaelg]] [[$1|erbee]] ec yn ymmydeyr shoh (ny s'feer doillee da toiggal ee).",
+	'babel-1-n' => 'Ta [[$2|Gaelg]] [[$1|veg]] ec yn ymmydeyr shoh.',
+	'babel-2-n' => 'Ta [[$2|Gaelg]] [[$1|veanagh]] ec yn ymmydeyr shoh.',
+	'babel-3-n' => 'Ta [[$2|Gaelg]] [[$1|vie]] ec yn ymmydeyr shoh.',
+	'babel-4-n' => 'Ta [[$2|Gaelg]] [[$1|feer vie]] ec yn ymmydeyr shoh.',
+	'babel-5-n' => 'Ta [[$2|Gaelg]] [[$1|cheirdey]] ec yn ymmydeyr shoh.',
+	'babel-N-n' => 'Ta [[$2|Gaelg]] [[$1|ghlen]] ec yn ymmydeyr shoh.',
+);
+
 /** Hawaiian (Hawai`i)
  * @author Singularity
  */
