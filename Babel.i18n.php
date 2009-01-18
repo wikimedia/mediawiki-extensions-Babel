@@ -587,6 +587,16 @@ $messages['cs'] = array(
 	'babel-N-n' => 'Tento uživatel je [[$1|rodilý mluvčí]] [[$2|češtiny]].',
 );
 
+/** Kashubian (Kaszëbsczi)
+ * @author Kaszeba
+ */
+$messages['csb'] = array(
+	'babel' => 'Wieżô Babel brëkòwnika',
+	'babel-desc' => 'Dodôwô fùnkcëjã parsera <tt>#babel</tt> zezwalającą na aùtomatné ùsôdzanié kastczi brëkòwnika z mòżnotą wstôwianiô swòjich szblonów',
+	'babel-url' => 'Project:Wieżô Babel',
+	'babel-autocreate-abort' => 'Wëbróné miono brëkòwnika je brëkòwóné do aùtomatnegò ùsôdzaniô kategòrëji wieżë Babel ë ni mòże bëc registrowóné.',
+);
+
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
