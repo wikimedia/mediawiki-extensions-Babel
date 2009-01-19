@@ -595,6 +595,10 @@ $messages['csb'] = array(
 	'babel-desc' => 'Dodôwô fùnkcëjã parsera <tt>#babel</tt> zezwalającą na aùtomatné ùsôdzanié kastczi brëkòwnika z mòżnotą wstôwianiô swòjich szblonów',
 	'babel-url' => 'Project:Wieżô Babel',
 	'babel-autocreate-abort' => 'Wëbróné miono brëkòwnika je brëkòwóné do aùtomatnegò ùsôdzaniô kategòrëji wieżë Babel ë ni mòże bëc registrowóné.',
+	'babel-autocreate-reason' => 'Starna aùtomatno ùsôdzony kategòrëji wieżë Babel.',
+	'babel-autocreate-text-levels' => 'Brëkòwnicë w ti kategòrëji zeswiôdczają znajemòtã jãzëka $2 jakno $1.',
+	'babel-autocreate-text-main' => 'Brëkòwnicë w ti kategòrëji zeswiôdczają znajemòtã jãzëka $1.',
+	'babel-N' => '[[$2|$3]] je [[$1|rodną mòwą]] negò brëkòwnika.',
 );
 
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
