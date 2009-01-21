@@ -598,7 +598,20 @@ $messages['csb'] = array(
 	'babel-autocreate-reason' => 'Starna aùtomatno ùsôdzony kategòrëji wieżë Babel.',
 	'babel-autocreate-text-levels' => 'Brëkòwnicë w ti kategòrëji zeswiôdczają znajemòtã jãzëka $2 jakno $1.',
 	'babel-autocreate-text-main' => 'Brëkòwnicë w ti kategòrëji zeswiôdczają znajemòtã jãzëka $1.',
-	'babel-N' => '[[$2|$3]] je [[$1|rodną mòwą]] negò brëkòwnika.',
+	'babel-0' => '[[$2|$3 ]] jãzëk [[$1|nie je zrozmiałi]] dlô negò brëkòwnika (abò mô òn z nim stolemné problemë).',
+	'babel-1' => 'Nen brëkòwnik rozmieje [[$2|$3 jãzëk]] w [[$1|spòdlowim]] gradze.',
+	'babel-2' => 'Nen brëkòwnik rozmieje [[$2|$3 jãzëk]] w [[$1|strzédnoawansowónym]] gradze.',
+	'babel-3' => 'Nen brëkòwnik rozmieje [[$2|$3 jãzëk]] w [[$1|awansowónym]] gradze.',
+	'babel-4' => 'Nen brëkòwnik rozmieje [[$2|$3 jãzëk]] wnetka jakno [[$1|rodną mòwã]].',
+	'babel-5' => 'Nen brëkòwnik rozmieje [[$2|$3 jãzëk]] na równi z [[$1|rodną mòwą]].',
+	'babel-N' => '[[$2|$3 jãzëk]] je [[$1|rodną mòwą]] negò brëkòwnika.',
+	'babel-0-n' => '[[$2|Kaszëbsczi]] jãzëk [[$1|nie je zrozmiałi]] dlô negò brëkòwnika (abò mô òn z nim stolemné problemë).',
+	'babel-1-n' => 'Nen brëkòwnik rozmieje [[$2|kaszëbsczi jãzëk]] w [[$1|spòdlowim]] gradze.',
+	'babel-2-n' => 'Nen brëkòwnik rozmieje [[$2|kaszëbsczi jãzëk]] w [[$1|strzédnoawansowónym]] gradze.',
+	'babel-3-n' => 'Nen brëkòwnik rozmieje [[$2|kaszëbsczi jãzëk]] w [[$1|awansowónym]] gradze.',
+	'babel-4-n' => 'Nen brëkòwnik rozmieje [[$2|kaszëbsczi jãzëk]] wnetka jakno [[$1|rodną mòwã]].',
+	'babel-5-n' => 'Nen brëkòwnik rozmieje [[$2|kaszëbsczi jãzëk]] na równi z [[$1|rodną mòwą]].',
+	'babel-N-n' => '[[$2|Kaszëbsczi jãzëk]] je [[$1|rodną mòwą]] negò brëkòwnika.',
 );
 
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
@@ -1090,9 +1103,17 @@ $messages['grc'] = array(
 );
 
 /** Swiss German (Alemannisch)
+ * @author Als-Holder
  * @author Strommops
  */
 $messages['gsw'] = array(
+	'babel' => 'Babel-Benutzer-Information',
+	'babel-desc' => 'Ergänzt d <tt>#babel</tt>-Parserfunktion fir s automatisch Aalege vu Babel-Benutzerchäschtli-Zyyle mit dr Megligkeit, eigeni Vorlagen yyzbinde',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Dr uusgwählt Benutzername wird fir s automatisch Aalege vu Babel-Kategorie bruucht un cha nit regischtriert wäre.',
+	'babel-autocreate-reason' => 'Automatisch aagleiti Babel-Kategorie.',
+	'babel-autocreate-text-levels' => 'Benutzer in däre Kategorii hän s Chänntnis-Level $1 fir d Sproch $2.',
+	'babel-autocreate-text-main' => 'Benutzer in däre Kategorii hän Chänntnis vu dr Sproch $1.',
 	'babel-0' => "Dä Benutzer cha [[$1|kei]] [[$2|$3]] (oder verstoht's numme mit größere Schwyrigkeite).",
 	'babel-1' => 'Dä Benutzer cha [[$1|e bitz]] [[$2|$3]].',
 	'babel-2' => 'Dä Benutzer cha [[$2|$3]] uff [[$1|fortgschrittenem]] Niveau.',
@@ -1100,6 +1121,13 @@ $messages['gsw'] = array(
 	'babel-4' => 'Dä Benutzer cha [[$2|$3]] uff em Niveau vo me [[$1|Müetersprochler]].',
 	'babel-5' => 'Dä Benutzer cha [[$2|$3]] uff [[$1|professionällem]] Niveau.',
 	'babel-N' => 'Dem Benutzer sini [[$1|Müetersproch]] isch [[$2|$3]].',
+	'babel-0-n' => 'Dää Benutzer cha [[$1|kei]] ([[$2|Alemannisch]] (oder verstoht s nume mit greschte Schwirigkeite).',
+	'babel-1-n' => 'Dää Benutzer cha [[$1|e bitzeli]] [[$2|Alemannisch]].',
+	'babel-2-n' => 'Dää Benutzer cha [[$2|Alemannisch]] uf [[$1|fortgschrittenem]] Niveau.',
+	'babel-3-n' => 'Dää Benutzer cha [[$1|seli guet]] [[$2|Alemannisch]].',
+	'babel-4-n' => 'Dää Benutzer cha [[$2|Alemannisch]] [[$1|wie ne Muetterspröchler]].',
+	'babel-5-n' => 'Dää Benutzer cha [[$2|Alemannisch]] uf [[$1|professionällem]] Niveau.',
+	'babel-N-n' => 'Däm Benutzer syyni [[$1|Muettersproch]] isch [[$2|Alemannisch]].',
 );
 
 /** Manx (Gaelg)
