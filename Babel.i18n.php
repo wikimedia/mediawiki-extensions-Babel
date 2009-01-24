@@ -926,7 +926,7 @@ $messages['fi'] = array(
 /** Võro (Võro)
  * @author Võrok
  */
-$messages['fiu-vro'] = array(
+$messages['vro'] = array(
 	'babel' => 'Pruukja keelemõistminõ (Paabõli perrä)',
 	'babel-desc' => 'Tege <tt>#babel</tt>-abinõvvo, miä luu esiq pruukja keelemõistmisõ tabõli, kohe saa pandaq näüdüssit.',
 	'babel-url' => 'Project:Paabõl',
