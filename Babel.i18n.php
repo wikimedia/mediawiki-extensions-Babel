@@ -923,29 +923,6 @@ $messages['fi'] = array(
 	'babel-N-n' => 'Tämä käyttäjä puhuu [[$2|suomea]] [[$1|äidinkielenään]].',
 );
 
-/** Võro (Võro)
- * @author Võrok
- */
-$messages['vro'] = array(
-	'babel' => 'Pruukja keelemõistminõ (Paabõli perrä)',
-	'babel-desc' => 'Tege <tt>#babel</tt>-abinõvvo, miä luu esiq pruukja keelemõistmisõ tabõli, kohe saa pandaq näüdüssit.',
-	'babel-url' => 'Project:Paabõl',
-	'babel-0' => 'Taa pruukja mõist [[$1|väega veidüq vai ei sukugi]] [[$2|$3]] kiilt.',
-	'babel-1' => 'Taa pruukja mõist [[$1|veidükese]] [[$2|$3]] kiilt.',
-	'babel-2' => 'Taa pruukja mõist [[$1|küländ häste]] [[$2|$3]] kiilt.',
-	'babel-3' => 'Taa pruukja mõist [[$1|väega häste]] [[$2|$3]] kiilt.',
-	'babel-4' => 'Taa pruukja mõist [[$2|$3]] kiilt [[$1|pia nigu imäkiilt]].',
-	'babel-5' => 'Taa pruukja om [[$2|$3]] keele pääle [[$1|vällä opnuq]].',
-	'babel-N' => 'Taa pruukja [[$1|imäkiil]] om [[$2|$3]] kiil.',
-	'babel-0-n' => 'Taa pruukja mõist [[$1|väega veidüq vai ei sukugi]] [[$2|võro]] kiilt.',
-	'babel-1-n' => 'Taa pruukja mõist [[$1|veidükese]] [[$2|võro]] kiilt.',
-	'babel-2-n' => 'Taa pruukja mõist [[$1|küländ häste]] [[$2|võro]] kiilt.',
-	'babel-3-n' => 'Taa pruukja mõist [[$1|väega häste]] [[$2|võro]] kiilt.',
-	'babel-4-n' => 'Taa pruukja mõist [[$2|võro]] kiilt [[$1|pia nigu imäkiilt]].',
-	'babel-5-n' => 'Taa pruukja om [[$2|võro]] keele pääle [[$1|vällä opnuq]].',
-	'babel-N-n' => 'Taa pruukja [[$1|imäkiil]] om [[$2|võro]] kiil.',
-);
-
 /** Faroese (Føroyskt)
  * @author Quackor
  */
@@ -1528,18 +1505,22 @@ $messages['jv'] = array(
 
 /** Georgian (ქართული)
  * @author Malafaya
+ * @author Temuri rajavi
  */
 $messages['ka'] = array(
 	'babel-url' => 'Project:ბაბილონი',
+	'babel-0' => 'ამ მომხმარებელს [[$1|არ ესმის]] [[$2|$3]].',
 	'babel-1' => 'ამ მომხმარებელს შეუძლია წვლილი შეიტანოს [[$2|$3 ენის]] ცოდნის [[$1|ელემენტარულ]] დონეზე.',
 	'babel-2' => 'ამ მომხმარებელს შეუძლია წვლილი შეიტანოს [[$2|$3 ენის]] ცოდნის [[$1|საშუალო]] დონეზე.',
 	'babel-3' => 'ამ მომხმარებელს შეუძლია წვლილი შეიტანოს [[$2|$3 ენის]] ცოდნის [[$1|მაღალ]] დონეზე.',
 	'babel-4' => 'ამ მომხმარებელმა [[$2|$3 ენა]] იცის [[$1|თითქმის მშობლიური ენის]] დონეზე.',
 	'babel-N' => 'ამ მომხმარებლის [[$1|მშობლიური ენა]] არის [[$2|$3]].',
+	'babel-0-n' => 'ამ მომხმარებელს [[$1|არ ესმის]] [[$2|ქართული ენა]].',
 	'babel-1-n' => 'ამ მომხმარებელს შეუძლია წვლილი შეიტანოს [[$2|ქართული ენის]] ცოდნის [[$1|ელემენტარულ]] დონეზე.',
 	'babel-2-n' => 'ამ მომხმარებელს შეუძლია წვლილი შეიტანოს [[$2|ქართული ენის]] ცოდნის [[$1|საშუალო]] დონეზე.',
 	'babel-3-n' => 'ამ მომხმარებელს შეუძლია წვლილი შეიტანოს [[$2|ქართული ენის]] ცოდნის [[$1|მაღალ]] დონეზე.',
 	'babel-4-n' => 'ამ მომხმარებელმა [[$2|ქართული ენა]] იცის [[$1|თითქმის მშობლიური ენის]] დონეზე.',
+	'babel-5-n' => 'ამ მომხმარებელს შეუძლია წვლილი შეიტანოს [[$2|ქართული ენის]] ცოდნის [[$1|პროფესიონალურ]] დონეზე.',
 	'babel-N-n' => 'ამ მომხმარებლის [[$1|მშობლიური ენა]] არის [[$2|ქართული]].',
 );
 
@@ -3081,6 +3062,29 @@ $messages['vo'] = array(
 	'babel-4-n' => 'Geban at labon sevi [[$1|sümik ad ut lomapükana]] [[$2|Volapük]]a.',
 	'babel-5-n' => 'Geban at labon sevi [[$1|calik]] [[$2|Volapük]]a.',
 	'babel-N-n' => 'Geban at labon nivodi [[$1|lomapükik]] [[$2|Volapük]]a.',
+);
+
+/** Võro (Võro)
+ * @author Võrok
+ */
+$messages['vro'] = array(
+	'babel' => 'Pruukja keelemõistminõ (Paabõli perrä)',
+	'babel-desc' => 'Tege <tt>#babel</tt>-abinõvvo, miä luu esiq pruukja keelemõistmisõ tabõli, kohe saa pandaq näüdüssit.',
+	'babel-url' => 'Project:Paabõl',
+	'babel-0' => 'Taa pruukja mõist [[$1|väega veidüq vai ei sukugi]] [[$2|$3]] kiilt.',
+	'babel-1' => 'Taa pruukja mõist [[$1|veidükese]] [[$2|$3]] kiilt.',
+	'babel-2' => 'Taa pruukja mõist [[$1|küländ häste]] [[$2|$3]] kiilt.',
+	'babel-3' => 'Taa pruukja mõist [[$1|väega häste]] [[$2|$3]] kiilt.',
+	'babel-4' => 'Taa pruukja mõist [[$2|$3]] kiilt [[$1|pia nigu imäkiilt]].',
+	'babel-5' => 'Taa pruukja om [[$2|$3]] keele pääle [[$1|vällä opnuq]].',
+	'babel-N' => 'Taa pruukja [[$1|imäkiil]] om [[$2|$3]] kiil.',
+	'babel-0-n' => 'Taa pruukja mõist [[$1|väega veidüq vai ei sukugi]] [[$2|võro]] kiilt.',
+	'babel-1-n' => 'Taa pruukja mõist [[$1|veidükese]] [[$2|võro]] kiilt.',
+	'babel-2-n' => 'Taa pruukja mõist [[$1|küländ häste]] [[$2|võro]] kiilt.',
+	'babel-3-n' => 'Taa pruukja mõist [[$1|väega häste]] [[$2|võro]] kiilt.',
+	'babel-4-n' => 'Taa pruukja mõist [[$2|võro]] kiilt [[$1|pia nigu imäkiilt]].',
+	'babel-5-n' => 'Taa pruukja om [[$2|võro]] keele pääle [[$1|vällä opnuq]].',
+	'babel-N-n' => 'Taa pruukja [[$1|imäkiil]] om [[$2|võro]] kiil.',
 );
 
 /** Wolof (Wolof)
