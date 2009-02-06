@@ -4,7 +4,7 @@ class BabelAutoCreate {
 	static $user = false;
 	public static function RegisterAbort( User $user, &$message ) {
 		wfLoadExtensionMessages( 'Babel' );
-		$message = wfMsg( 'babel-autocreate-abort' );
+		$message = wfMsg( 'babel-autocreate-abort', wfMsg( 'babel-url' ) );
 		return !( $user->getName() === wfMsgForContent( 'babel-autocreate-user' ) );
 	}
 	public static function create( $category, $language, $level = null ) {
@@ -17,7 +17,7 @@ class BabelAutoCreate {
 			$text = wfMsgForContent( 'babel-autocreate-text-levels', $language, $level );
 		}
 		$article = new Article( $title );
-		$article->doEdit( $text, wfMsgForContent( 'babel-autocreate-reason' ), EDIT_SUPPRESS_RC, false, self::user() );
+		$article->doEdit( $text, wfMsgForContent( 'babel-autocreate-reason', wfMsgForContent( 'babel-url' ) ), EDIT_SUPPRESS_RC, false, self::user() );
 	}
 	public static function user() {
 		if( !self::$user ) {
