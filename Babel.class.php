@@ -437,13 +437,20 @@ HEREDOC;
 	 */
 	private function _getText( $name, $language, $level ) {
 
-		global $wgTitle;
+		global $wgTitle, $wgBabelUseLevelZeroCategory;
+
+		$categoryLevel = ":Category:{$this->_addFixes( "$language-$level",'category' )}";
+		$categorySuper = ":Category:{$this->_addFixes( $language,'category' )}";
+
+		if( !$wgBabelUseLevelZeroCategory && $level === '0' ) {
+			$categoryLevel = $wgTitle->getFullText();
+		}
 
 		// Try the language of the box in female.
 		$text = wfMsgExt( "babel-$level-n",
 			array( 'language' => $language, 'parsemag' ),
-			":Category:{$this->_addFixes( "$language-$level",'category' )}",
-			":Category:{$this->_addFixes( $language,'category' )}",
+			$categoryLevel,
+			$categorySuper,
 			'',
 			$wgTitle->getDBkey()
 		);
@@ -451,8 +458,8 @@ HEREDOC;
 		// Get the fallback message for comparison in female.
 		$fallback = wfMsgExt( "babel-$level-n",
 			array( 'language' => Language::getFallbackfor( $language ), 'parsemag' ),
-			":Category:{$this->_addFixes( "$language-$level",'category' )}",
-			":Category:{$this->_addFixes( $language,'category' )}",
+			$categoryLevel,
+			$categorySuper,
 			'',
 			$wgTitle->getDBkey()
 		);
@@ -463,8 +470,8 @@ HEREDOC;
 
 			$text = wfMsgExt( "babel-$level",
 				array( 'language' => $language, 'parsemag' ),
-				":Category:{$this->_addFixes( "$language-$level",'category')}",
-				":Category:{$this->_addFixes( $language,'category' )}",
+				$categoryLevel,
+				$categorySuper,
 				$name,
 				$wgTitle->getDBkey()
 			);
@@ -499,7 +506,7 @@ HEREDOC;
 		$r = '';
 
 		// Add to main language category if the level is not zero.
-		if( $wgBabelUseMainCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === 0 ) || $level > 0 ) ) {
+		if( $wgBabelUseMainCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === '0' ) || $level > 0 ) ) {
 
 			// Add category wikitext to box tower.
 			$r .= "[[Category:{$this->_addFixes( $code,'category' )}|$level{$wgUser->getName()}]]";
@@ -510,7 +517,7 @@ HEREDOC;
 
 		// Add to level categories, only adding it to the level 0
 		// one if it is set to be used.
-		if( !$wgBabelUseSimpleCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === 0 ) || $level > 0 ) ) {
+		if( !$wgBabelUseSimpleCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === '0' ) || $level > 0 ) ) {
 
 			// Add category wikitext to box tower.
 			$r .= "[[Category:{$this->_addFixes( "$code-$level",'category' )}|{$wgUser->getName()}]]";
