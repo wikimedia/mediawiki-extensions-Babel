@@ -9,22 +9,10 @@
 class Babel {
 
 	/**
-	 * Define the three posisble genders as constants.
-	 */
-	const GENDER_FEMALE = 1;
-	const GENDER_MALE   = 2;
-	const GENDER_NEUTER = 0;
-
-	/**
 	 * Various values from the message cache.
 	 */
 	private $_prefixes, $_suffixes, $_cellspacing, $_directionality, $_url,
 		$_title, $_footer;
-
-	/**
-	 * Whether or not male, female or neuter messages should be prefered.
-	 */
-	private $_gender = self::GENDER_NEUTER;
 
 	/**
 	 * Array: Language codes.
@@ -81,9 +69,6 @@ class Babel {
 
 		// Parse the options and provide an array.
 		$options = $this->_parseOptions( $parameters );
-
-		// Process gender stuff.
-		$this->_setGender( $options );
 
 		// Do a link batch on all the parameters so that their information is
 		// cached for use later on.
@@ -263,31 +248,6 @@ HEREDOC;
 
 		// Return the array of options.
 		return $options;
-
-	}
-
-	/**
-	 * Identify what gender has been specified within the function.
-	 * 
-	 * @param $options Array: Options.
-	 */
-	private function _setGender( array $options ) {
-
-		// Identify whether #female or #male have been specified as options and
-		// set gender as appropriate.
-		if( array_key_exists( 'female', $options ) ) {
-
-			$this->_gender = self::GENDER_FEMALE;
-
-		} elseif( array_key_exists( 'male', $options ) ) {
-
-			$this->_gender = self::GENDER_MALE;
-	
-		} else {
-
-			$this->_gender = self::GENDER_NEUTER;
-
-		}
 
 	}
 
@@ -477,104 +437,36 @@ HEREDOC;
 	 */
 	private function _getText( $name, $language, $level ) {
 
-		// If gender not neuter then try getting the gender specific message.
-		if( $this->_gender === self::GENDER_FEMALE ) {
+		global $wgTitle;
 
-			// Try the language of the box in female.
-			$text = wfMsgExt( "babel-$level-n-female",
-				array( 'language' => $language ),
-				":Category:{$this->_addFixes( "$language-$level",'category' )}",
-				":Category:{$this->_addFixes( $language,'category' )}"
-			);
-		
-			// Get the fallback message for comparison in female.
-			$fallback = wfMsgExt( "babel-$level-n-female",
-				array( 'language' => Language::getFallbackfor( $language ) ),
-				":Category:{$this->_addFixes( "$language-$level",'category' )}",
-				":Category:{$this->_addFixes( $language,'category' )}"
-			);
-		
-			// Translation not found, use the generic translation of the
-			// highest level fallback possible in female.
-			if( $text == $fallback ) {
-		
-				$text = wfMsgExt( "babel-$level-female",
-					array( 'language' => $language ),
-					":Category:{$this->_addFixes( "$language-$level",'category')}",
-					":Category:{$this->_addFixes( $language,'category' )}",
-					$name
-				);
-		
-			}
-
-			// Not empty, return.
-			if( $text != '' ) {
-		
-				return $text;
-		
-			}
-
-		} elseif( $this->_gender === self::GENDER_MALE ) {
-
-			// Try the language of the box in male.
-			$text = wfMsgExt( "babel-$level-n-male",
-				array( 'language' => $language ),
-				":Category:{$this->_addFixes( "$language-$level",'category' )}",
-				":Category:{$this->_addFixes( $language,'category' )}"
-			);
-		
-			// Get the fallback message for comparison in male.
-			$fallback = wfMsgExt( "babel-$level-n-male",
-				array( 'language' => Language::getFallbackfor( $language ) ),
-				":Category:{$this->_addFixes( "$language-$level",'category' )}",
-				":Category:{$this->_addFixes( $language,'category' )}"
-			);
-		
-			// Translation not found, use the generic translation of the
-			// highest level fallback possible in male.
-			if( $text == $fallback ) {
-		
-				$text = wfMsgExt( "babel-$level-male",
-					array( 'language' => $language ),
-					":Category:{$this->_addFixes( "$language-$level",'category')}",
-					":Category:{$this->_addFixes( $language,'category' )}",
-					$name
-				);
-		
-			}
-
-			// Not empty, return.
-			if( $text != '' ) {
-		
-				return $text;
-		
-			}
-
-		}
-
-		// Try the language of the box.
+		// Try the language of the box in female.
 		$text = wfMsgExt( "babel-$level-n",
-			array( 'language' => $language ),
+			array( 'language' => $language, 'parsemag' ),
 			":Category:{$this->_addFixes( "$language-$level",'category' )}",
-			":Category:{$this->_addFixes( $language,'category' )}"
+			":Category:{$this->_addFixes( $language,'category' )}",
+			'',
+			$wgTitle->getDBkey()
 		);
 
-		// Get the fallback message for comparison.
+		// Get the fallback message for comparison in female.
 		$fallback = wfMsgExt( "babel-$level-n",
-			array( 'language' => Language::getFallbackfor( $language ) ),
+			array( 'language' => Language::getFallbackfor( $language ), 'parsemag' ),
 			":Category:{$this->_addFixes( "$language-$level",'category' )}",
-			":Category:{$this->_addFixes( $language,'category' )}"
+			":Category:{$this->_addFixes( $language,'category' )}",
+			'',
+			$wgTitle->getDBkey()
 		);
 
 		// Translation not found, use the generic translation of the
-		// highest level fallback possible.
+		// highest level fallback possible in female.
 		if( $text == $fallback ) {
 
 			$text = wfMsgExt( "babel-$level",
-				array( 'language' => $language ),
+				array( 'language' => $language, 'parsemag' ),
 				":Category:{$this->_addFixes( "$language-$level",'category')}",
 				":Category:{$this->_addFixes( $language,'category' )}",
-				$name
+				$name,
+				$wgTitle->getDBkey()
 			);
 
 		}
