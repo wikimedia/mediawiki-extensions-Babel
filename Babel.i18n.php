@@ -235,8 +235,8 @@ $messages['arz'] = array(
 	'babel' => 'معلومات بابل للمستخدم',
 	'babel-desc' => 'يضيف دالة المحلل <tt>#babel</tt> للسماح بالتوليد التلقائى لعامود صندوق بابل مع إمكانية تضمين قوالب أخرى',
 	'babel-url' => 'Project:بابل',
-	'babel-autocreate-abort' => 'اسم المستخدم الذى حددته مستخدم للإنشاء التلقائى لتصنيفات بابل ولا يمكن تسجيله.',
-	'babel-autocreate-reason' => 'إنشاء صفحة تصنيف بابل تلقائيا.',
+	'babel-autocreate-abort' => 'اسم المستخدم الذى حددته مستخدم للإنشاء التلقائى لتصنيفات [[$1|بابل]] ولا يمكن تسجيله.',
+	'babel-autocreate-reason' => 'إنشاء صفحة تصنيف [[$1|بابل]] تلقائيا.',
 	'babel-autocreate-text-levels' => 'المستخدمون فى هذا التصنيف مستوى مهارتهم $1 للغة $2.',
 	'babel-autocreate-text-main' => 'المستخدمون فى هذا التصنيف لديهم معرفة باللغة $1.',
 	'babel-directionality' => 'rtl',
@@ -494,6 +494,10 @@ $messages['ca'] = array(
 	'babel' => "Informació Babel d'usuari",
 	'babel-desc' => "Afegeix la funció d'anàlisi <tt>#babel</tt> per a permetre la generació automàtica d'una columna babel de quadres d'usuari amb l'habilitat d'incloure plantilles personalitzades.",
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => "El nom d'usuari especificat s'utilitza per a la creació automàtica de categories [[$1|Babel]].",
+	'babel-autocreate-reason' => 'Creant automàticament la categoria de [[$1|Babel]].',
+	'babel-autocreate-text-levels' => "Els usuaris d'aquesta categoria indiquen que tenen un nivell $1 per l'idioma $2.",
+	'babel-autocreate-text-main' => "Els usuaris d'aquesta categoria indiquen que tenen coneixements de l'idioma $1.",
 	'babel-0' => "Aquest usuari [[$1|no té]] cap coneixement de l'idioma [[$2|$3]] (o bé l'entén amb moltes dificultats).",
 	'babel-1' => "Aquest usuari té un coneixement [[$1|bàsic]] de l'idioma [[$2|$3]].",
 	'babel-2' => "Aquest usuari té un coneixement [[$1|mitjà]] de l'idioma [[$2|$3]].",
@@ -623,8 +627,8 @@ $messages['cy'] = array(
 	'babel' => 'Gwybodaeth am ieithoedd y defnyddiwr',
 	'babel-desc' => "Yn ychwanegu'r ffwythiant dosrannu <tt>#babel</tt> er mwyn gosod blwch ieithoedd y defnyddiwr yn awtomatig, a chyda'r modd i gynnwys nodiadau pwrpasol",
 	'babel-url' => 'Project:Babel',
-	'babel-autocreate-abort' => 'Defnyddir yr enw defnyddiwr y dewisoch ar gyfer creu categori Babel yn awtomatig, ac ni ellir ei gofrestri.',
-	'babel-autocreate-reason' => 'Yn creu tudalen gategoreiddio Babel yn awtomatig.',
+	'babel-autocreate-abort' => 'Defnyddir yr enw defnyddiwr y dewisoch ar gyfer creu categori [[$1|Babel]] yn awtomatig, ac ni ellir ei gofrestri.',
+	'babel-autocreate-reason' => 'Yn creu tudalen gategoreiddio [[$1|Babel]] yn awtomatig.',
 	'babel-autocreate-text-levels' => 'Mae defnyddwyr yn y categori hwn yn crybwyll bod ganddynt gallu ieithyddol ar lefel $1 mewn $2.',
 	'babel-autocreate-text-main' => 'Mae defnyddwyr yn y categori hwn yn crybwyll bod rhywfaint o allu $1 ganddynt.',
 	'babel-0' => "[[$1|Nid]] yw'r defnyddiwr 'ma yn medru [[$2|$3]] (neu mae'n cael hi'n anodd iawn ei deall).",
@@ -2373,11 +2377,16 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Brunoy Anastasiya Seryozhenko
+ * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
 	'babel' => 'Informação Babel de Usuário',
 	'babel-desc' => 'Adiciona a função do analisador parser <tt>#babel</tt> para permitir a geração automática de um coluna de caixas de babel de um usuário coma possibilidade de incluir predefinições personalizadas',
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'O nome de utilizador que especificou é usado pela criação automática de categorias [[$1|Babel]] e, por isso, não pode ser registrado.',
+	'babel-autocreate-reason' => 'Criando automaticamente a página da categoria [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'Os utilizadores nesta categoria indicam que possuem um nível de conhecimento $1 na língua $2.',
+	'babel-autocreate-text-main' => 'Os utilizadores nesta categoria indicam que possuem conhecimentos da língua $1.',
 	'babel-0' => 'Este usuário [[$1|não]] têm conhecimento de [[$2|$3]] (ou compreende com dificuldades consideráveis).',
 	'babel-1' => 'Este usuário têm um [[$1|básico]] conhecimento de [[$2|$3]].',
 	'babel-2' => 'Este usuário têm um conhecimento [[$1|intermediário]] de [[$2|$3]].',
@@ -2385,6 +2394,13 @@ $messages['pt-br'] = array(
 	'babel-4' => 'Este usuário possui um conhecimento [[$1|próximo ao nativo]] de [[$2|$3]].',
 	'babel-5' => 'Este usuário têm um conhecimento [[$1|profissional]] de [[$2|$3]].',
 	'babel-N' => 'Este usuário é um [[$1|falante nativo]] de [[$2|$3]].',
+	'babel-0-n' => 'Este utilizador [[$1|não compreende]] [[$2|português]] (ou compreende com dificuldades consideráveis).',
+	'babel-1-n' => 'Este utilizador pode contribuir com um nível [[$1|básico]] de [[$2|português]].',
+	'babel-2-n' => 'Este utilizador pode contribuir com um nível [[$1|médio]] de [[$2|português]].',
+	'babel-3-n' => 'Este utilizador pode contribuir com um nível [[$1|avançado]] de [[$2|português]].',
+	'babel-4-n' => 'Este utilizador pode contribuir com um nível [[$1|quase nativo]] de [[$2|português]].',
+	'babel-5-n' => 'Este utilizador pode contribuir com um nível [[$1|profissional]] de [[$2|português]].',
+	'babel-N-n' => 'Este utilizador tem como língua [[$1|materna]] o [[$2|português]].',
 );
 
 /** Quechua (Runa Simi)
@@ -2843,7 +2859,7 @@ $messages['te'] = array(
 	'babel-2-n' => 'ఈ వాడుకరికి [[$2|తెలుగు]] భాషపై [[$1|మధ్య స్థాయి]] అవగాహన ఉంది.',
 	'babel-3-n' => 'ఈ వాడుకరికి [[$2|తెలుగు]] భాషపై [[$1|చాలా మంచి]] అవగాహన ఉంది.',
 	'babel-4-n' => 'ఈ వాడుకరికి [[$2|తెలుగు]] భాషపై [[$1|మాతృభాషపై ఉన్నంత]] అవగాహన ఉంది.',
-	'babel-5-n' => 'ఈ వాడుకరికి [[$2|తెలుగు]] భాషపై [[$1|వృత్తి నైపున్యం]] ఉంది.',
+	'babel-5-n' => 'ఈ వాడుకరికి [[$2|తెలుగు]] భాషపై [[$1|వృత్తి నైపుణ్యం]] ఉంది.',
 	'babel-N-n' => 'ఈ వాడుకరి [[$1|మాతృభాష]] [[$2|తెలుగు]].',
 );
 
@@ -3014,6 +3030,10 @@ $messages['vi'] = array(
 	'babel' => 'Thông tin Ngôn ngữ Thành viên',
 	'babel-desc' => 'Thêm hàm cú pháp <tt>#babel</tt> để cho phép tự động sinh ra một hộp thông tin ngôn ngữ thành viên và có thể thêm vào những tiêu bản tùy chọn',
 	'babel-url' => 'Project:Ngôn ngữ',
+	'babel-autocreate-abort' => 'Tên người dùng bạn yêu cầu được dùng để tự động tạo thể loại [[$1|Babel]] và không thể đăng ký.',
+	'babel-autocreate-reason' => 'Tự động tạo trang thể loại [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'Người dùng trong thể loại này cho thấy họ thành thạo ngôn ngữ $2 ở mức $1.',
+	'babel-autocreate-text-main' => 'Người dùng trong thể loại này cho thấy họ có kiến thức về ngôn ngữ $1.',
 	'babel-0' => 'Thành viên này [[$1|hoàn toàn không biết]] [[$2|$3]] (hoặc rất khó khăn để hiểu).',
 	'babel-1' => 'Thành viên này biết [[$2|$3]] ở mức độ [[$1|cơ bản]].',
 	'babel-2' => 'Thành viên này biết [[$2|$3]] ở mức độ [[$1|khá]].',
