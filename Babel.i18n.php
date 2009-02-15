@@ -529,8 +529,8 @@ $messages['csb'] = array(
 	'babel' => 'Wieżô Babel brëkòwnika',
 	'babel-desc' => 'Dodôwô fùnkcëjã parsera <tt>#babel</tt> zezwalającą na aùtomatné ùsôdzanié kastczi brëkòwnika z mòżnotą wstôwianiô swòjich szblonów',
 	'babel-url' => 'Project:Wieżô Babel',
-	'babel-autocreate-abort' => 'Wëbróné miono brëkòwnika je brëkòwóné do aùtomatnegò ùsôdzaniô kategòrëji wieżë Babel ë ni mòże bëc registrowóné.',
-	'babel-autocreate-reason' => 'Starna aùtomatno ùsôdzony kategòrëji wieżë Babel.',
+	'babel-autocreate-abort' => 'Wëbróné miono brëkòwnika je brëkòwóné do aùtomatnegò ùsôdzaniô kategòrëji [[$1|wieżë Babel]] ë ni mòże bëc registrowóné.',
+	'babel-autocreate-reason' => 'Starna aùtomatno ùsôdzony kategòrëji [[$1|wieżë Babel]].',
 	'babel-autocreate-text-levels' => 'Brëkòwnicë w ti kategòrëji zeswiôdczają znajemòtã jãzëka $2 jakno $1.',
 	'babel-autocreate-text-main' => 'Brëkòwnicë w ti kategòrëji zeswiôdczają znajemòtã jãzëka $1.',
 	'babel-0' => '[[$2|$3 ]] jãzëk [[$1|nie je zrozmiałi]] dlô negò brëkòwnika (abò mô òn z nim stolemné problemë).',
@@ -975,6 +975,36 @@ $messages['ga'] = array(
 	'babel-4-n' => 'Tá [[$2|Gaeilge]] [[$1|beagnach dúchasach]] ag an úsáideoir seo.',
 	'babel-5-n' => 'Tá [[$2|Gaeilge]] [[$1|gairmiúil]] ag an úsáideoir seo.',
 	'babel-N-n' => 'Tá [[$2|Gaeilge]] [[$1|dúchasach]] ag an úsáideoir seo.',
+);
+
+/** Scottish Gaelic (Gàidhlig)
+ * @author Caoimhin
+ * @author Sionnach
+ * @author Steafan31
+ */
+$messages['gd'] = array(
+	'babel' => 'Fiosrachadh Babel mun neach-cleachdaidh',
+	'babel-desc' => 'A’ cur parser function <tt>#babel</tt> ris an duilleig, gus an téid colbh babel a chruthachadh mun neach-cleachdaidh.  Gabhaidh templates sonraichte a chleachdadh.',
+	'babel-autocreate-text-levels' => 'Tha na daoine seo ag innse gu bheil comas ìre $1 aca sa chànan $2.',
+	'babel-autocreate-text-main' => 'Tha na daoine seo ag innse gu bheil iad eòlach air a’ chànan $1.',
+	'babel-0' => 'Tha an neach-cleachdaidh [[$1|gun eòlas idir]] air [[$2|$3]] (no tha {{GENDER:$4|e|i}} ga tuigsinn air éiginn).',
+	'babel-1' => 'Tha comas [[$1|ìre bhunaitich]] aig an neach-cleachdaidh seo air [[$2|$3]].',
+	'babel-2' => 'Tha comas [[$1|ìre mheadhanaich]] aig an neach-cleachdaidh seo air [[$2|$3]].',
+	'babel-3' => 'Tha comas [[$1|ìre adhartaich]] aig an neach-cleachdaidh seo air [[$2|$3]].',
+	'babel-4' => "Tha comas [[$1|ìre dhùchasaich cha mhór]] aig an neach-cleachdaidh seo air [[$2|$3]].
+
+B' fheàrr leamsa seo na tha ann.
+
+Tha an neach-cleachdaidh seo [[$1|an impis fileantachd]] ann an [[$2|$3]].",
+	'babel-5' => 'Tha comas [[$1|ìre phroifeiseanta]] aig an neach-cleachdaidh seo air [[$2|$3]].',
+	'babel-N' => 'Tha [[$2|$3]] aig an neach-cleachdaidh seo [[$1|bho dhùthchas]].',
+	'babel-0-n' => 'Tha an neach-cleachdaidh seo [[$1|gun eòlas idir]] air [[$2|a’ Ghàidhlig]] (no tha {{GENDER:$4|e|i}} ga tuigsinn air éiginn).',
+	'babel-1-n' => 'Tha comas [[$1|ìre bhunaitich]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
+	'babel-2-n' => 'Tha comas [[$1|ìre mheadhanaich]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
+	'babel-3-n' => 'Tha comas [[$1|ìre adhartaich]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
+	'babel-4-n' => 'Tha comas [[$1|ìre dhùchasaich cha mhór]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
+	'babel-5-n' => 'Tha comas [[$1|ìre phroifeiseanta]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
+	'babel-N-n' => 'Tha [[$2|a’ Ghàidhlig]] aig an neach-cleachdaidh seo [[$1|bho dhùchas]].',
 );
 
 /** Galician (Galego)
@@ -2054,6 +2084,17 @@ $messages['no'] = array(
 	'babel-4-n' => 'Denne brukeren snakker og skriver [[$2|norsk (bokmål)]] på [[$1|morsmålsnivå]].',
 	'babel-5-n' => 'Denne brukeren bruker [[$2|norsk (bokmål)]] [[$1|profesjonelt]].',
 	'babel-N-n' => 'Denne brukeren har [[$2|norsk]] som [[$1|morsmål]] og behersker bokmål.',
+);
+
+/** Novial (Novial)
+ * @author Malafaya
+ */
+$messages['nov'] = array(
+	'babel-0' => 'Dis usere [[$1|non komprenda]] [[$2|$3]] (o komprenda nur tre pokim).',
+	'babel-1' => 'Dis usere pove komunika per [[$1|basal]] nivele de [[$2|$3]].',
+	'babel-2' => 'Dis usere pove komunika per [[$1|medi]] nivele de [[$2|$3]].',
+	'babel-3' => 'Dis usere pove komunika per [[$1|alti]] nivele de [[$2|$3]].',
+	'babel-4' => 'Dis usere skripte [[$2|$3]] [[$1|preske kom sen patrial lingue]].',
 );
 
 /** Occitan (Occitan)
