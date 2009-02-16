@@ -123,6 +123,26 @@ $messages['sxu'] = array(
 	'babel-N-n' => "Dor Benutzor hior is ä rüscht'schor [[$1|Muddorsprachlor]] vom [[$2|Sächs'sch]]n.",
 );
 
+/** Kabuverdianu (Kabuverdianu)
+ * @author Waldir
+ */
+$messages['kea'] = array(
+	'babel-0' => "Kel utilizador li [[$1|ka ta entende]] [[$2|$3]] (o e' ta entendê-l ku txeu difikuldadi).",
+	'babel-1' => 'Kel utilizador li, ta papia [[$2|$3]] ku un nível [[$1|báziku]].',
+	'babel-2' => 'Kel utilizador li, ta papia [[$2|$3]] ku un nível [[$1|médiu]].',
+	'babel-3' => 'Kel utilizador li, ta papia [[$2|$3]] ku un nível [[$1|avansadu]].',
+	'babel-4' => 'Kel utilizador li, ta papia [[$2|$3]] [[$1|kuazi sima un falanti nativu]].',
+	'babel-5' => 'Kel utilizador li, ta papia [[$2|$3]] ku un nível [[$1|prifisiunal]].',
+	'babel-N' => 'Kel utilizador li, se língua [[$1|maternu]] e [[$2|$3]].',
+	'babel-0-n' => "Kel utilizador li [[$1|ka ta entende]] [[$2|kriolu]] (o e' ta entendê-l ku txeu difikuldadi).",
+	'babel-1-n' => 'Kel utilizador li, ta papia [[$2|kriolu]] ku un nível [[$1|báziku]].',
+	'babel-2-n' => 'Kel utilizador li, ta papia [[$2|kriolu]] ku un nível [[$1|médiu]].',
+	'babel-3-n' => 'Kel utilizador li, ta papia [[$2|kriolu]] ku un nível [[$1|avansadu]].',
+	'babel-4-n' => 'Kel utilizador li, ta papia [[$2|kriolu]] [[$1|kuazi sima un falanti nativu]].',
+	'babel-5-n' => 'Kel utilizador li, ta papia [[$2|kriolu]] ku un nível [[$1|prifisiunal]].',
+	'babel-N-n' => 'Kel utilizador li, se língua [[$1|maternu]] e [[$2|kriolu]].',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
@@ -937,6 +957,7 @@ $messages['fr'] = array(
 );
 
 /** Western Frisian (Frysk)
+ * @author Crazymadlover
  * @author Snakesteuben
  */
 $messages['fy'] = array(
@@ -945,6 +966,7 @@ $messages['fy'] = array(
 	'babel-2' => 'It [[$2|$3]] fan dizze meidogger is [[$1|ridlik]].',
 	'babel-3' => 'It [[$2|$3]] fan dizze meidogger is [[$1|treflik]].',
 	'babel-4' => 'It [[$2|$3]] is benei de [[$1|memmetaal]] fan dizze meidogger.',
+	'babel-5' => 'It [[$2|$3]] fan dizze meidogger is [[$1|professional]].',
 	'babel-N' => 'It [[$2|$3]] is de [[$1|memmetaal]] fan dizze meidogger.',
 );
 
@@ -984,18 +1006,14 @@ $messages['ga'] = array(
  */
 $messages['gd'] = array(
 	'babel' => 'Fiosrachadh Babel mun neach-cleachdaidh',
-	'babel-desc' => 'A’ cur parser function <tt>#babel</tt> ris an duilleig, gus an téid colbh babel a chruthachadh mun neach-cleachdaidh.  Gabhaidh templates sonraichte a chleachdadh.',
+	'babel-desc' => 'A’ cur parser function <tt>#babel</tt> ris an duilleig, gus an téid colbh babel a chruthachadh mun neach-cleachdaidh.  Gabhaidh templates sònraichte a chleachdadh.',
 	'babel-autocreate-text-levels' => 'Tha na daoine seo ag innse gu bheil comas ìre $1 aca sa chànan $2.',
 	'babel-autocreate-text-main' => 'Tha na daoine seo ag innse gu bheil iad eòlach air a’ chànan $1.',
 	'babel-0' => 'Tha an neach-cleachdaidh [[$1|gun eòlas idir]] air [[$2|$3]] (no tha {{GENDER:$4|e|i}} ga tuigsinn air éiginn).',
 	'babel-1' => 'Tha comas [[$1|ìre bhunaitich]] aig an neach-cleachdaidh seo air [[$2|$3]].',
 	'babel-2' => 'Tha comas [[$1|ìre mheadhanaich]] aig an neach-cleachdaidh seo air [[$2|$3]].',
 	'babel-3' => 'Tha comas [[$1|ìre adhartaich]] aig an neach-cleachdaidh seo air [[$2|$3]].',
-	'babel-4' => "Tha comas [[$1|ìre dhùchasaich cha mhór]] aig an neach-cleachdaidh seo air [[$2|$3]].
-
-B' fheàrr leamsa seo na tha ann.
-
-Tha an neach-cleachdaidh seo [[$1|an impis fileantachd]] ann an [[$2|$3]].",
+	'babel-4' => 'Tha comas [[$1|ìre dhùchasaich cha mhór]] aig an neach-cleachdaidh seo air [[$2|$3]].',
 	'babel-5' => 'Tha comas [[$1|ìre phroifeiseanta]] aig an neach-cleachdaidh seo air [[$2|$3]].',
 	'babel-N' => 'Tha [[$2|$3]] aig an neach-cleachdaidh seo [[$1|bho dhùthchas]].',
 	'babel-0-n' => 'Tha an neach-cleachdaidh seo [[$1|gun eòlas idir]] air [[$2|a’ Ghàidhlig]] (no tha {{GENDER:$4|e|i}} ga tuigsinn air éiginn).',
@@ -2298,6 +2316,33 @@ $messages['qu'] = array(
 	'babel-N-n' => 'Kay ruraqpa [[$1|mama siminqa]] [[$2|Runa Simim]].',
 );
 
+/** Rhaeto-Romance (Rumantsch)
+ * @author Gion
+ */
+$messages['rm'] = array(
+	'babel' => "infurmaziuns d'utilisader da Babel",
+	'babel-desc' => "Agiunta la funcziun da generar automaticamain ina chascha cun las indicaziuns da babel davart l'utilisader e che pussibilitescha d'includer agens templates.",
+	'babel-url' => 'Project: Babel',
+	'babel-autocreate-abort' => "Il num d'utilisader vegn duvrà per la craziun automatica da la categoria [[$1|Babel]] e na sa betg vegnir registrà.",
+	'babel-autocreate-reason' => 'Categoria da paginas [[$1|Babel]] creada automaticamain.',
+	'babel-autocreate-text-levels' => 'Il utilisaders en questa categoria han inditgà il nivel $1 per la lingua $2.',
+	'babel-autocreate-text-main' => 'Utilisaders en questa categoria han inditgà la conuschientscha dal lingua $1.',
+	'babel-0' => 'Quest utilisader ha [[$1|naginas]] conuschientschas da [[$2|$3]] (u chapescha mo cun considerablas difficultads).',
+	'babel-1' => 'Quest utilisader ha conuschientschas [[$1|fundamentalas]] da [[$2|$3]].',
+	'babel-2' => 'Quest utilisader ha conuschientschas [[$1|d’in principiant avanzà]] da [[$2|$3]].',
+	'babel-3' => 'Quest utilisader ha conuschientschas [[$1|avanzadas]] da [[$2|$3]].',
+	'babel-4' => 'Quest utilisader sa [[$2|$3]] prest sco ina [[$1|persuna da lingua materna]].',
+	'babel-5' => 'Quest utilisader ha conuschientschas [[$1|professiunalas]] da [[$2|$3]].',
+	'babel-N' => 'Per quest utilisader è [[$2|$3]] la [[$1|lingua materna]].',
+	'babel-0-n' => 'Quest utilisader ha [[$1|naginas]] conuschientschas dal [[$2|rumantsch]] (u chapescha mo cun considerablas difficultads).',
+	'babel-1-n' => 'Quest utilisader ha conuschientschas [[$1|fundamentalas]] dal [[$2|rumantsch]].',
+	'babel-2-n' => "Quest utilisader ha conuschientschas dal [[$2|rumantsch]] [[$1|d'in principiant avanzà]].",
+	'babel-3-n' => 'Quest utilisader ha conuschientschas [[$1|avanzads]] dal [[$2|rumantsch]].',
+	'babel-4-n' => 'Quest utilisader sa [[$2|rumantsch]] prost sco ina [[$1|persuna da lingua materna]].',
+	'babel-5-n' => 'Quest utilisader ha conuschientschas [[$1|professiunalas]] dal [[$2|rumantsch]].',
+	'babel-N-n' => 'Per quest utilisader è [[$2|rumantsch]] la [[$1|lingua materna]].',
+);
+
 /** Romanian (Română)
  * @author KlaudiuMihaila
  */
@@ -2572,8 +2617,8 @@ $messages['sv'] = array(
 	'babel' => 'Babel Användarinformation',
 	'babel-desc' => 'Lägger till parserfunktionen <tt>#babel</tt> för att tillåta att det automatiskt skapas en babelboxkolumn med möjligheten att lägga till anpassade mallar',
 	'babel-url' => 'Project:Babel',
-	'babel-autocreate-abort' => 'Användarnamnet du valde används för att automatiskt skapa Babel-kategorier och kan inte registreras.',
-	'babel-autocreate-reason' => 'Skapar automatiskt Babel-kategorier.',
+	'babel-autocreate-abort' => 'Användarnamnet du valde används för automatiskt skapande av [[$1|Babel]]-kategorier och kan därför inte registreras.',
+	'babel-autocreate-reason' => 'Skapar automatiskt en [[$1|Babel]]-kategorisida.',
 	'babel-autocreate-text-levels' => 'Användare i den här kategorin visar att de kan språket $2 på en kunskapsnivå av $1.',
 	'babel-autocreate-text-main' => 'Användare i den här kategorin visar att de har kunskap i språket $1.',
 	'babel-0' => 'Den här användaren förstår [[$1|inte]] [[$2|$3]] (eller förstår det bara med stor svårighet).',
