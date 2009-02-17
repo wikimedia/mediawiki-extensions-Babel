@@ -276,6 +276,33 @@ $messages['arz'] = array(
 	'babel-N-n' => 'هذا المستخدم يمتلك معرفة [[$1|كلغة أم]] ب[[$2|مصرى]].',
 );
 
+/** Assamese (অসমীয়া)
+ * @author Biraj
+ */
+$messages['as'] = array(
+	'babel' => 'ব্যবহাৰকাৰীৰ বাবেল তথ্য',
+	'babel-desc' => 'নিজৰ টেম্পলেটত স্বয়ংক্ৰিয় বাবেল ব্যবহাৰকাৰী বক্স যোগ কৰিবলৈ <tt>#babel</tt> পাৰ্চাৰ ফাংচন যোগ কৰক',
+	'babel-url' => 'Project:বাবেল',
+	'babel-autocreate-abort' => 'আপুনি উল্লেখ কৰা ব্যৱহাৰকাৰী নামটো (ইউজাৰনেম) [[$1|Babel]]ৰ স্বয়ংক্ৰিয় শ্ৰেণীকৰণ কৰিবলৈ ব্যৱহাৰ কৰা হৈছে আৰু পঞ্জীভূক্ত কৰিব পৰা নাযায় ।',
+	'babel-autocreate-reason' => 'স্বয়ংক্ৰিয়ভাৱে সৃষ্টি কৰা বাবেল শ্ৰেণীৰ পৃষ্ঠা ।',
+	'babel-autocreate-text-levels' => 'এই শ্ৰেণীৰ ব্যৱহাৰকাৰীৰ $2 ভাষাৰ $1 পৰ্য্যায়ৰ জ্ঞান থকা সূচায় ।',
+	'babel-autocreate-text-main' => 'এই শ্ৰেণীত অন্তৰ্ভূক্ত সকলোবোৰ ব্যৱহাৰকাৰীৰে $1 ভাষাৰ জ্ঞান থকা সূচায় ।',
+	'babel-0' => 'এই ব্যবহাৰকাৰীৰ [[$2|$3]]ৰ ওপৰত কোনো জ্ঞান [[$1|নাই]] (অথবা অশেষ কষ্টৰেহে বুজিব পাৰে)।',
+	'babel-1' => 'এই ব্যবহাৰকাৰীৰ [[$2|$3]]ৰ ওপৰত [[$1|প্ৰাথমিক]] জ্ঞান আছে ।',
+	'babel-2' => 'এই ব্যবহাৰকাৰীৰ [[$2|$3]]ৰ ওপৰত [[$1|মাধ্যমিক]] জ্ঞান আছে ।',
+	'babel-3' => 'এই ব্যবহাৰকাৰীৰ [[$2|$3]]ৰ ওপৰত [[$1|ভাল]] জ্ঞান আছে ।',
+	'babel-4' => 'এই ব্যবহাৰকাৰীৰ [[$2|$3]]ৰ ওপৰত [[$1|প্রায় মাতৃভাষাৰ সমকক্ষ]] জ্ঞান আছে।',
+	'babel-5' => 'এই ব্যবহাৰকাৰীৰ [[$2|$3]]ৰ ওপৰত [[$1|বৃত্তিধাৰী]] জ্ঞান আছে ।',
+	'babel-N' => 'এই ব্যবহাৰকাৰীৰ [[$2|$3]]ৰ ওপৰত [[$1|মাতৃভাষাৰ সমকক্ষ]] জ্ঞান আছে।',
+	'babel-0-n' => 'এই ব্যবহাৰকাৰীৰ [[$2|অসমীয়া]]ৰ ওপৰত কোনো জ্ঞান [[$1|নাই]] (অথবা অশেষ কষ্টৰেহে বুজিব পাৰে)।',
+	'babel-1-n' => 'এই ব্যবহাৰকাৰীৰ [[$2|অসমীয়া]]ৰ ওপৰত [[$1|প্ৰাথমিক]] জ্ঞান আছে ।',
+	'babel-2-n' => 'এই ব্যবহাৰকাৰীৰ [[$2|অসমীয়া]]ৰ ওপৰত [[$1|মাধ্যমিক]] জ্ঞান আছে ।',
+	'babel-3-n' => 'এই ব্যবহাৰকাৰীৰ [[$2|অসমীয়া]]ৰ ওপৰত [[$1|ভাল]] জ্ঞান আছে ।',
+	'babel-4-n' => 'এই ব্যবহাৰকাৰীৰ [[$2|অসমীয়া]]ৰ ওপৰত [[$1|প্রায় মাতৃভাষাৰ সমকক্ষ]] জ্ঞান আছে।',
+	'babel-5-n' => 'এই ব্যবহাৰকাৰীৰ [[$2|অসমীয়া]]ৰ ওপৰত [[$1|বৃত্তিধাৰী]] জ্ঞান আছে ।',
+	'babel-N-n' => 'এই ব্যবহাৰকাৰীৰ [[$2|অসমীয়া]]ৰ ওপৰত [[$1|মাতৃভাষাৰ সমকক্ষ]] জ্ঞান আছে।',
+);
+
 /** Asturian (Asturianu)
  * @author Esbardu
  */
@@ -1015,14 +1042,14 @@ $messages['gd'] = array(
 	'babel-3' => 'Tha comas [[$1|ìre adhartaich]] aig an neach-cleachdaidh seo air [[$2|$3]].',
 	'babel-4' => 'Tha comas [[$1|ìre dhùchasaich cha mhór]] aig an neach-cleachdaidh seo air [[$2|$3]].',
 	'babel-5' => 'Tha comas [[$1|ìre phroifeiseanta]] aig an neach-cleachdaidh seo air [[$2|$3]].',
-	'babel-N' => 'Tha [[$2|$3]] aig an neach-cleachdaidh seo [[$1|bho dhùthchas]].',
+	'babel-N' => 'Tha [[$1|tuigse dhùthchasach]] aig an neach-cleachdaidh seo air [[$2|$3]].',
 	'babel-0-n' => 'Tha an neach-cleachdaidh seo [[$1|gun eòlas idir]] air [[$2|a’ Ghàidhlig]] (no tha {{GENDER:$4|e|i}} ga tuigsinn air éiginn).',
 	'babel-1-n' => 'Tha comas [[$1|ìre bhunaitich]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
 	'babel-2-n' => 'Tha comas [[$1|ìre mheadhanaich]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
 	'babel-3-n' => 'Tha comas [[$1|ìre adhartaich]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
-	'babel-4-n' => 'Tha comas [[$1|ìre dhùchasaich cha mhór]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
+	'babel-4-n' => 'Tha comas [[$1|ìre dhùthchasaich cha mhór]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
 	'babel-5-n' => 'Tha comas [[$1|ìre phroifeiseanta]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
-	'babel-N-n' => 'Tha [[$2|a’ Ghàidhlig]] aig an neach-cleachdaidh seo [[$1|bho dhùchas]].',
+	'babel-N-n' => 'Tha [[$1|tuigse dhùthchasach]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
 );
 
 /** Galician (Galego)
