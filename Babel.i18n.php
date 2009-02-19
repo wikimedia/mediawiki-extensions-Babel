@@ -326,6 +326,33 @@ $messages['ast'] = array(
 	'babel-N-n' => "Esti usuariu ye un falante [[$1|nativu]] d'[[$2|asturianu]].",
 );
 
+/** Kotava (Kotava)
+ * @author Sab
+ */
+$messages['avk'] = array(
+	'babel' => 'Babel webesikgiva',
+	'babel-desc' => 'Batcoba va <tt>#babel</tt> exulerafli loplekur ta mivaskafa gononasbara va Babel webesikborbriz do rotira va doplekura va ilkateza',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Ruidan webesikyolt joke [[$1|Babel]] mivredurafa loma zo faver nume me zo vertokar.',
+	'babel-autocreate-reason' => 'Mivaskafa redura va [[$1|Babel]] lomabu.',
+	'babel-autocreate-text-levels' => 'Webesik ke bata loma bazed da tid $1 ekastinaf icde $2 ava.',
+	'babel-autocreate-text-main' => 'Webesik ke bata loma bazed da kan $1 ava grugoled.',
+	'babel-0' => 'Bat webesik kan [[$2|$3]] [[$1|me]] grugoler (oke wavdapon gildar).',
+	'babel-1' => 'Bat webesik kan [[$2|$3]] [[$1|omekon]] grugoler.',
+	'babel-2' => 'Bat webesik kan [[$2|$3]] [[$1|mialukekon]] grugoler.',
+	'babel-3' => 'Bat webesik kan [[$2|$3]] [[$1|ontinekon]] grugoler.',
+	'babel-4' => 'Bat webesik kan [[$2|$3]] dum [[$1|nasbokavusik]] riwe grugoler.',
+	'babel-5' => 'Bat webesik kan [[$2|$3]] [[$1|ebekon]] grugoler.',
+	'babel-N' => 'Bat webesik kan [[$2|$3]] ton [[$1|nasbokavusik]] grugoler.',
+	'babel-0-n' => 'Bat webesik kan [[$2|Kotava]] [[$1|me]] grugoler (oke wavdapon gildar).',
+	'babel-1-n' => 'Bat webesik kan [[$2|Kotava]] [[$1|omekon]] grugoler.',
+	'babel-2-n' => 'Bat webesik kan [[$2|Kotava]] [[$1|mialukekon]] grugoler.',
+	'babel-3-n' => 'Bat webesik kan [[$2|Kotava]] [[$1|ontinekon]] grugoler.',
+	'babel-4-n' => 'Bat webesik kan [[$2|Kotava]] ton [[$1|nasbokavusik]] riwe grugoler.',
+	'babel-5-n' => 'Bat webesik kan [[$2|Kotava]] [[$1|ebekon]] grugoler.',
+	'babel-N-n' => 'Bat webesik kan [[$2|Kotava]] ton [[$1|nasbokavusik]] grugoler.',
+);
+
 /** Aymara (Aymar aru)
  * @author Erebedhel
  */
@@ -2450,6 +2477,20 @@ $messages['sah'] = array(
 	'babel' => 'Кыттааччы тылы билиитэ (Вавилон)',
 	'babel-desc' => '<tt>#babel</tt> парсер функциятын эбэр, ол атын халыыптары туһанан тыллары билии туһунан колуоҥканы оҥорого туттуллар.',
 	'babel-url' => 'Бырайыак:Вавилон',
+	'babel-0' => '[[$2|$3]] — [[$1|билбэт]] (эбэтэр нэһиилэ өйдүүр)',
+	'babel-1' => '[[$2|$3]] — [[$1|кыратык билэр]]',
+	'babel-2' => '[[$2|$3]] — [[$1|орто таһым]]',
+	'babel-3' => '[[$2|$3]] — [[$1|бэркэ билэр]]',
+	'babel-4' => '[[$2|$3]] — [[$1|төрөөбүт тылын курдук билэр]]',
+	'babel-5' => '[[$2|$3]] — [[$1|анал үөрэхтээх таһыма]]',
+	'babel-N' => '[[$2|$3]] — [[$1|төрөөбүт тыла]]',
+	'babel-0-n' => '{{GENDER:$4|Бу эр киһи|Бу дьахтар}} [[$2|саха тылын]] [[$1|билбэт]] (эбэтэр мөлтөхтүк өйдүүр).',
+	'babel-1-n' => '{{GENDER:$4|Бу кыттааччы эр киһи|Бу кыттааччы дьахтар}} [[$2|саха тылын]] [[$1|син кыратык]] билэр.',
+	'babel-2-n' => '{{GENDER:$4|Бу кыттааччы эр киһи|Бу кыттааччы дьахтар}} [[$2|саха тылын]] [[$1|ортотук]] билэр.',
+	'babel-3-n' => '{{GENDER:$4|Бу кыттааччы эр киһи|Бу кыттааччы дьахтар}} [[$2|саха тылын]] [[$1|бэркэ]] билэр.',
+	'babel-4-n' => '{{GENDER:$4|Бу кыттааччы эр киһи|Бу кыттааччы дьахтар}} [[$2|саха тылын]] [[$1|төрөөбүт тылын курдук]] билэр.',
+	'babel-5-n' => '{{GENDER:$4|Бу кыттааччы эр киһи|Бу кыттааччы дьахтар}} [[$2|саха тылын]] [[$1|тыл үөрэхтээҕин таһымынан]] билэр.',
+	'babel-N-n' => '{{GENDER:$4|Бу кыттааччы эр киһиэхэ|Бу кыттааччы дьахтарга}} [[$2|саха тыла]] [[$1|төрөөбүт тыла]] буолар.',
 );
 
 /** Sicilian (Sicilianu)
@@ -2899,6 +2940,32 @@ $messages['uk'] = array(
 	'babel-4-n' => 'Цей користувач володіє [[$2|українською мовою]] майже [[$1|як рідною]].',
 	'babel-5-n' => 'Цей користувач [[$1|професійно]] володіє [[$2|українською мовою]].',
 	'babel-N-n' => 'Для цього користувача [[$2|українська мова]] є [[$1|рідною]].',
+);
+
+/** Urdu (اردو)
+ * @author محبوب عالم
+ */
+$messages['ur'] = array(
+	'babel' => 'بابل معلوماتِ صارف',
+	'babel-url' => 'Project:بابل',
+	'babel-autocreate-abort' => 'آپ کا مختص کردہ اسمِ‌صارف خودکار [[$1|بابل]] زمرہ تخلیق کیلئے مستعمل ہے اور یہ درج نہیں کیا جاسکتا.',
+	'babel-autocreate-reason' => '[[$1|بابل]] زمرہ‌جاتی صفحہ کی خودکار تخلیق ہورہی ہے.',
+	'babel-autocreate-text-levels' => 'اِس زمرہ کے صارفین یہ نشاندہی کرتے ہیں کہ $2 زبان کیلئے اُن کی مہارتی سطح $1 ہے.',
+	'babel-autocreate-text-main' => 'اِس زمرہ کے صارفین یہ نشاندہی کرتے ہیں کہ وہ $1 زبان کا علم رکھتے ہیں.',
+	'babel-0' => 'یہ صارف [[$2|$3]] [[$1|نہیں]] جانتا (یا اِسے کافی مشکل سے سمجھتا ہے).',
+	'babel-1' => 'یہ صارف [[$2|$3]] کا [[$1|بنیادی]] علم رکھتا ہے.',
+	'babel-2' => 'یہ صارف [[$2|$3]] کا [[$1|متوسط]] علم رکھتا ہے.',
+	'babel-3' => 'یہ صارف [[$2|$3]] کا [[$1|اعلیٰ]] علم رکھتا ہے.',
+	'babel-4' => 'یہ صارف [[$2|$3]] کا [[$1|پیدائشی بولنے والے کے قریب]] علم رکھتا ہے.',
+	'babel-5' => 'یہ صارف [[$2|$3]] کا [[$1|پیشہ‌ورانہ]] علم رکھتا ہے.',
+	'babel-N' => 'یہ صارف [[$2|$3]] کا [[$1|پیدائشی]] متکلم ہے.',
+	'babel-0-n' => 'یہ صارف [[$2|انگریزی]] [[$1|نہیں]] جانتا (یا اِسے کافی مشکل سے سمجھتا ہے).',
+	'babel-1-n' => 'یہ صارف [[$2|انگریزی]] کا [[$1|بنیادی]] علم رکھتا ہے.',
+	'babel-2-n' => 'یہ صارف [[$2|انگریزی]] کا [[$1|متوسط]] علم رکھتا ہے.',
+	'babel-3-n' => 'یہ صارف [[$2|انگریزی]] کا [[$1|اعلیٰ]] علم رکھتا ہے.',
+	'babel-4-n' => 'یہ صارف [[$2|انگریزی]] کے بارے میں [[$1|پیدائشی متکلم]] کے قریب قریب دانش رکھتا ہے.',
+	'babel-5-n' => 'یہ صارف [[$2|انگریزی]] کا [[$1|پیشہ ورانہ]] دانش رکھتا ہے.',
+	'babel-N-n' => 'یہ صارف [[$2|انگریزی]] کا [[$1|پیدائشی متکلم]] ہے.',
 );
 
 /** Vèneto (Vèneto)
