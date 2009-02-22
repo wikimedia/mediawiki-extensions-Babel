@@ -21,7 +21,7 @@ if( !defined( 'MEDIAWIKI' ) ) die( 'Invalid entry point.' );
 // Register extension credits.
 $wgExtensionCredits[ 'parserhook' ][] = array(
 	'name'            => 'Babel',
-	'version'         => '1.2.1',
+	'version'         => '1.2.2',
 	'author'          => 'Robert Leverington',
 	'url'             => 'http://www.mediawiki.org/wiki/Extension:Babel',
 	'description'     => 'Adds a parser function to allow automated generation of a babel userbox column with the ability to include custom templates.',

@@ -17,7 +17,7 @@ class BabelStatic {
 
 		// Register the hook within the parser object.
 		global $wgParser;
-		$wgParser->setFunctionHook( 'babel', 'BabelStatic::Render' );
+		$wgParser->setFunctionHook( 'babel', array( 'BabelStatic', 'Render' ) );
 
 		// Return true to ensure processing is continued and an exception is not
 		// generated.
