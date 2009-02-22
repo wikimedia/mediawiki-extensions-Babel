@@ -357,8 +357,27 @@ $messages['avk'] = array(
  * @author Erebedhel
  */
 $messages['ay'] = array(
-	'babel' => "''Babel'' apnaqirxata uñt'ayawi",
-	'babel-url' => 'Project:Babel',
+	'babel' => "Wawil apnaqirxata uñt'ayawi",
+	'babel-desc' => "<tt>#babel</tt> arthapi suk'atat uñakipawi lurt'awix yapxatiwa, mäwawil apnaqirina llatatax uñacht'arawi turkatax apantachi q'aphawimpiwa achurpayachayiti luräni.",
+	'babel-url' => 'Project:Wawil',
+	'babel-autocreate-abort' => "Jumaxa apnaqirina sutima [[$1|Wawil]]-na patawi uñstayarachayawi mirq'ta jani qillqr'ayasiway.",
+	'babel-autocreate-reason' => '[[$1|Wawil]]-na patawi uñstawi uñstayarachayaski.',
+	'babel-autocreate-text-levels' => "Patawinax apnaqiripacha $1 q'aphawi $2 arutakiwa sistu.",
+	'babel-autocreate-text-main' => 'Patawinax apnaqiripacha $1 aru yatiniwa sistu.',
+	'babel-0' => "Jupax apnaqiri [[$2|$3]]xa [[$1|jani]] yatiniwa (inasa ch'ama yattaniwa).",
+	'babel-1' => "Jupax apnaqiri [[$2|$3]]xa [[$1|juk'a]] yatiniwa.",
+	'babel-2' => 'Jupax apnaqiri [[$2|$3]]xa [[$1|chika]] yatiniwa.',
+	'babel-3' => 'Jupax apnaqiri [[$2|$3]]xa [[$1|alluxa]] yatiniwa.',
+	'babel-4' => 'Jupax apnaqiri [[$2|$3]]xa [[$1|niyaki yurawita]] yatiniwa.',
+	'babel-5' => 'Jupax apnaqiri [[$2|$3]]xa [[$1|yatxatata]] yatiniwa.',
+	'babel-N' => 'Jupax apnaqiri [[$2|$3]]xa [[$1|yurawita]] yatiniwa.',
+	'babel-0-n' => "Jupax apnaqiri [[$2|aymar aru]]xa [[$1|jani]] yatiniwa (inasa ch'ama yattaniwa).",
+	'babel-1-n' => "Jupax apnaqiri [[$2|aymar aru]]xa [[$1|juk'a]] yatiniwa.",
+	'babel-2-n' => 'Jupax apnaqiri [[$2|aymar aru]]xa [[$1|chika]] yatiniwa.',
+	'babel-3-n' => 'Jupax apnaqiri [[$2|aymar aru]]xa [[$1|alluxa]] yatiniwa.',
+	'babel-4-n' => 'Jupax apnaqiri [[$2|aymar aru]]xa [[$1|niyaki yurawita]] yatiniwa.',
+	'babel-5-n' => 'Jupax apnaqiri [[$2|aymar aru]]xa [[$1|yatxatata]] yatiniwa.',
+	'babel-N-n' => 'Jupax apnaqiri [[$2|aymar aru]]xa [[$1|yurawita]] yatiniwa.',
 );
 
 /** Southern Balochi (بلوچی مکرانی)
@@ -1384,9 +1403,30 @@ $messages['hu'] = array(
 );
 
 /** Armenian (Հայերեն)
+ * @author Teak
  * @author Togaed
  */
 $messages['hy'] = array(
+	'babel' => 'Մասնակցի լեզուների տվյլաները (Բաբելոն)',
+	'babel-desc' => 'Ավելացնում է <tt>#babel</tt> պարսեր ֆունկցիան, որը թույլ է տալիս ավտոմատիկ կերպով ստեղծել մասնակցի լեզուների տվյալներով սյունյակ՝ այլ կաղապարների ընդգրկման հնարավորությամբ',
+	'babel-url' => 'Project:Բաբելոն',
+	'babel-autocreate-abort' => 'Նշված մասնակցի անունը օգտագործվում է Բաբելոն կատեգորիաների ավտոմատիկ ստեղծման համար և չի կարող գրանցվել։',
+	'babel-autocreate-reason' => 'Բաբելոն կատեգորիաների էջերի ավտոմատիկ ստեղծում։',
+	'babel-autocreate-text-levels' => 'Այս կատեգորիայի մասնակիցները նշել են մակարդակ $1 իմացություն $2 լեզվի համար։',
+	'babel-autocreate-text-main' => 'Այս կատեգորիայի մասնակիցները նշել են $1 լեզվի իմացություն։',
+	'babel-0' => '[[$2|$3]] — [[$1|չի տիրապետում]] (կամ հասկանում է դժվարությամբ)։',
+	'babel-1' => '[[$2|$3]] ― [[$1|սկզբնական իմացություն]]',
+	'babel-2' => '[[$2|$3]] — [[$1|միջին իմացություն]]',
+	'babel-3' => '[[$2|$3]] — [[$1|լավ իմացություն]]',
+	'babel-4' => '[[$2|$3]] — [[$1|համարյա մայրենի իմացություն]]',
+	'babel-5' => '[[$2|$3]] — [[$1|մասնագետի իմացություն]]',
+	'babel-N' => '[[$2|$3]] — [[$1|մայրենի տիրապետում]]',
+	'babel-0-n' => '[[$2|Հայերեն]] — [[$1|չի տիրապետում]] (կամ հասկանում է դժվարությամբ)։',
+	'babel-1-n' => '[[$2|Հայերեն]] ― [[$1|սկզբնական իմացություն]]',
+	'babel-2-n' => '[[$2|Հայերեն]] — [[$1|միջին իմացություն]]',
+	'babel-3-n' => '[[$2|Հայերեն]] — [[$1|լավ իմացություն]]',
+	'babel-4-n' => '[[$2|Հայերեն]] — [[$1|համարյա մայրենի իմացություն]]',
+	'babel-5-n' => '[[$2|Հայերեն]] — [[$1|մասնագետի իմացություն]]',
 	'babel-N-n' => '[[$2|Հայերենը]] այս անձի [[$1|մայրենի լեզուն]] է։',
 );
 
@@ -2477,6 +2517,10 @@ $messages['sah'] = array(
 	'babel' => 'Кыттааччы тылы билиитэ (Вавилон)',
 	'babel-desc' => '<tt>#babel</tt> парсер функциятын эбэр, ол атын халыыптары туһанан тыллары билии туһунан колуоҥканы оҥорого туттуллар.',
 	'babel-url' => 'Бырайыак:Вавилон',
+	'babel-autocreate-abort' => 'Талбыт аатыҥ [[$1|Вавилон]] категорияларын аптамаатынан оҥорорго туттуллар эбит, онон туттуллар кыаҕа суох.',
+	'babel-autocreate-reason' => '[[$1|Вавилон]] категориятын аптамаатынан оҥоруу.',
+	'babel-autocreate-text-levels' => 'Бу категорияҕа киирээччилэр $2 тылы маннык таһымынан билэбит диэбиттэр: $1.',
+	'babel-autocreate-text-main' => 'Бу категорияҕа киирээччилэр тылы билиилэрин таһыма $1.',
 	'babel-0' => '[[$2|$3]] — [[$1|билбэт]] (эбэтэр нэһиилэ өйдүүр)',
 	'babel-1' => '[[$2|$3]] — [[$1|кыратык билэр]]',
 	'babel-2' => '[[$2|$3]] — [[$1|орто таһым]]',
