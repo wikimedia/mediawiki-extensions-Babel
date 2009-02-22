@@ -17,7 +17,7 @@ class BabelLanguageCodes {
 	 * @param $file String: Code file to scan for codes and names.
 	 * @param $cachePrefix String:  Prefix to use when adding values to the cache.
 	 */
-	public function __construct( $file = null, $cachePrefix = 'babel-' ) {
+	public function __construct( $file = null, $cachePrefix = 'babel' ) {
 		// Set the default file (can be overriden).
 		global $wgBabelLanguageCodesFile;
 		if( $file === null ) {
@@ -50,28 +50,28 @@ class BabelLanguageCodes {
 	 * @return String (language code) or false (invalid language code).
 	 */
 	public function getCode( $code, $file = null, $cachePrefix = null ) {
-		$cacheString = 'code-' . $code;
+		$cacheType = 'code';
 		// Try cache.
-		$fromCache = $this->mGetFromCache( $cacheString, false, $cachePrefix );
+		$fromCache = $this->mGetFromCache( $cacheType, $code, false, $cachePrefix );
 		if( $fromCache === null  ) return false;      // Known invalid language code.
 		if( $fromCache !== false ) return $fromCache; // Known   valid language code.
 		// Try MediaWiki language files.
 		global $wgLang;
 		$mediawiki = $wgLang->getLanguageName( $code );
-		if( $mediawiki !== '' ) return $this->mAddToCache( $cacheString, $code, $cachePrefix );
+		if( $mediawiki !== '' ) return $this->mAddToCache( $cacheType, $code, $code, $cachePrefix );
 		// Try ISO code file.
 		if( strlen( $code ) === 2 ) {
 			// ISO 639-1
 			$iso = $this->mScanFile( $code, $seek = 0, $find = 0 );
-			if( $iso !== false ) return $this->mAddToCache( $cacheString, $code, $cachePrefix );
+			if( $iso !== false ) return $this->mAddToCache( $cacheType, $code, $code, $cachePrefix );
 		} elseif( strlen( $code ) === 3 ) {
 			// ISO 639-3
 			$iso = $this->mScanFile( $code, $seek = 1, $find = 0 );
-			if( $iso === null ) return $this->mAddToCache( $cacheString, $code, $cachePrefix );
-			if( $iso !== false ) return $this->mAddToCache( $cacheString, $iso, $cachePrefix );
+			if( $iso === null ) return $this->mAddToCache( $cacheType, $code, $code, $cachePrefix );
+			if( $iso !== false ) return $this->mAddToCache( $cacheType, $code, $iso, $cachePrefix );
 		}
 		// Invalid language code.
-		return $this->mAddToCache( $cacheString, null, $cachePrefix );
+		return $this->mAddToCache( $cacheType, $code, null, $cachePrefix );
 	}
 
 	/**
@@ -87,12 +87,12 @@ class BabelLanguageCodes {
 	 * @return String: Name of language.
 	 */
 	public function getName( $code, $file = null, $cachePrefix = null ) {
-		$cacheString = 'name-' . $code;
+		$cacheType = 'name';
 		// Get correct code, even though it should already be correct.
 		$code = $this->getCode( $code, $file, $cachePrefix );
 		if( $code === false ) return false;
 		// Try cache.
-		$fromCache = $this->mGetFromCache( $cacheString, false, $cachePrefix );
+		$fromCache = $this->mGetFromCache( $cacheType, $code, false, $cachePrefix );
 		if( $fromCache !== false ) return $fromCache;
 		// Try CLDR extension, then MediaWiki native.
 		if( class_exists( 'LanguageNames' ) ) {
@@ -100,7 +100,7 @@ class BabelLanguageCodes {
 		} else {
 			$names = Language::getLanguageNames();
 		}
-		if( array_key_exists( $code, $names ) ) return $this->mAddToCache( $cacheString, $names[ $code ], $cachePrefix );
+		if( array_key_exists( $code, $names ) ) return $this->mAddToCache( $cacheType, $code, $names[ $code ], $cachePrefix );
 		//  Use English names, from codes file.
 		if( strlen( $code ) === 2 ) {
 			// ISO 639-1
@@ -109,7 +109,7 @@ class BabelLanguageCodes {
 			// ISO 639-3
 			$name = $this->mScanFile( $code, 1, 2, $file );
 		}
-		return $this->mAddToCache( $cacheString, $name, $cachePrefix );
+		return $this->mAddToCache( $cacheType, $code, $name, $cachePrefix );
 	}
 
 	/**
@@ -154,23 +154,34 @@ class BabelLanguageCodes {
 	}
 
 	/**
-	 * Placholder function for adding a value to the cache.
-	 * @param $key String: Key to use.
+	 * Add a value to the cache.
+	 * @param $type String: Type of data (code or name).
+	 * @param $code String: Code data is for.
 	 * @param $value String: Value to use.
-	 * @param $cachePrefix String: Prefix to key.
+	 * @param $prefix String: Prefix to key.
 	 * @return String: Value entered.
 	 */
-	private function mAddToCache( $key, $value, $cachePrefix = null ) {
+	private function mAddToCache( $type, $code, $value, $prefix = null ) {
+		if( $prefix === null ) $prefix = $this->mCachePrefix;
+		$key = wfMemcKey( $prefix, $type, $code );
+		global $wgMemc;
+		$wgMemc->add( $key, $value, 0 );
 		return $value;
 	}
 
 	/**
-	 * Placeholder function for getting a value from the cache.
-	 * @param $key String: Key to use.
+	 * Get a value from the cache.
+	 * @param $type String: Type of data (code or name).
+	 * @param $code String: Code data is for.
 	 * @param $default String: Default value to return if key not found.
-	 * @param $cachePrefix String: Prefix to key.
+	 * @param $prefix String: Prefix to key.
 	 */
-	 private function mGetFromCache( $key, $default = false, $cachePrefix = null ) {
+	 private function mGetFromCache( $type, $code, $default = false, $prefix = null ) {#
+		if( $prefix === null ) $prefix = $this->mCachePrefix;
+		$key = wfMemcKey( $prefix, $type, $code );
+		global $wgMemc;
+		$value = $wgMemc->get( $key );
+		if( is_string( $value ) && $value !== '' ) wfDebug( "Babel: $code => $value\n" ); return $value;
 	 	return $default;
 	 }
 
