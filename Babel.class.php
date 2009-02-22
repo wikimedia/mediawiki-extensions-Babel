@@ -17,32 +17,16 @@ class Babel {
 	/**
 	 * Array: Language codes.
 	 */
-	private $_codes;
-
-	/**
-	 * Array: Preferred usageorder of ISO language code standards.
-	 */
-	private $_order = array(
-		'ISO_639_1',
-		'ISO_639_3',
-	);
+	private $mCodes;
 
 	/**
 	 * Load the language codes from an array of standards to files into the
 	 * language codes array.
 	 *
-	 * @param $file Array: Files to load language codes from.
+	 * @param $file String: Files to load language codes from.
 	 */
-	public function __construct( $files ) {
-
-		// Loop through all standards.
-		foreach( $this->_order as $standard ) {
-
-			// Load file for the current standard.
-			$this->_loadCodes( $standard, $files[ $standard ] );
-
-		}
-
+	public function __construct( $file = null ) {
+		$this->mCodes = new BabelLanguageCodes( $file );
 	}
 
 	/**
@@ -304,10 +288,10 @@ HEREDOC;
 			// The parameter is in the form 'xx'.
 
 			// Check whether the language code is valid.
-			if( $this->_checkCode( $chunks[ 0 ] ) ) {
+			if( $this->mCodes->getCode( $chunks[ 0 ] ) !== false ) {
 
 				// Set the code for returning.
-				$return[ 'code' ] = $this->_getCode( $chunks[ 0 ] );
+				$return[ 'code' ] = $this->mCodes->getCode( $chunks[ 0 ] );
 
 				// This form defaults to level 'N'.
 				$return[ 'level' ] = 'N';
@@ -327,10 +311,10 @@ HEREDOC;
 			// The parameter is in the form 'xx-x'.
 
 			// Check whether the language code is valid.
-			if( $this->_checkCode( $chunks[ 0 ] ) ) {
+			if( $this->mCodes->getCode( $chunks[ 0 ] ) !== false ) {
 
 				// Set the code for returning.
-				$return[ 'code' ] = $this->_getCode( $chunks[ 0 ] );
+				$return[ 'code' ] = $this->mCodes->getCode( $chunks[ 0 ] );
 
 			} else {
 
@@ -376,7 +360,7 @@ HEREDOC;
 	private function _generateBox( $code, $level ) {
 
 		// Get code in favoured standard.
-		$code = $this->_getCode( $code );
+		$code = $this->mCodes->getCode( $code );
 
 		// Generate the text displayed on the left hand side of the
 		// box.
@@ -393,18 +377,7 @@ HEREDOC;
 		}
 
 		// Get the language names.
-		if( class_exists( 'LanguageNames' ) ) {
-			$names = LanguageNames::getNames( $code );
-		} else {
-			$names = $nativeNames;
-		}
-
-		// Ensure the language code has a corresponding name.
-		if( array_key_exists( $code, $names ) ) {
-			$name = $names[ $code ];
-		} else {
-			$name = $this->_nameCode( $code, 'en' );
-		}
+		$name = $this->mCodes->getName( $code );
 
 		// Generate the text displayed on the right hand side of the
 		// box.
@@ -511,7 +484,7 @@ HEREDOC;
 			// Add category wikitext to box tower.
 			$r .= "[[Category:{$this->_addFixes( $code,'category' )}|$level{$wgUser->getName()}]]";
 
-			BabelAutoCreate::create( $this->_addFixes( "$code",'category' ), $this->_nameCode( $code ) );
+			BabelAutoCreate::create( $this->_addFixes( "$code",'category' ), $this->mCodes->getName( $code ) );
 
 		}
 
@@ -522,137 +495,12 @@ HEREDOC;
 			// Add category wikitext to box tower.
 			$r .= "[[Category:{$this->_addFixes( "$code-$level",'category' )}|{$wgUser->getName()}]]";
 
-			BabelAutoCreate::create( $this->_addFixes( "$code-$level",'category' ), $level, $this->_nameCode( $code ) );
+			BabelAutoCreate::create( $this->_addFixes( "$code-$level",'category' ), $level, $this->mCodes->getName( $code ) );
 
 		}
 
 		// Return categories.
 		return $r;
-
-	}
-
-	/**
-	 * Load the language codes from a given file into the language codes array.
-	 *
-	 * @param $standard Integer: Standard for the codes being loaded.
-	 * @param $file String: File to load language codes from.
-	 */
-	private function _loadCodes( $standard, $file ) {
-
-		// Include the codes file.
-		include( $file );
-
-		// Push the array of codes into the class method.
-		$this->_codes[ $standard ] = $codes;
-
-	}
-
-	/**
-	 * Check if the specified code is a valid language code.
-	 *
-	 * @param $code String: Code to check.
-	 * @return Boolean: Whether or not the code is valid.
-	 */
-	private function _checkCode( $code ) {
-
-		// Check if the specified code has a key in the codes array for each of the
-		// standards and return result.
-		foreach( $this->_order as $index ) {
-
-			if( array_key_exists( strtolower( $code ), $this->_codes[ $index ] ) ) {
-				return true;
-			}
-
-		}
-
-		/* Try the native MediaWiki names (or CLDR).
-		 */
-		if( class_exists( 'LanguageNames' ) ) {
-			$names = LanguageNames::getNames( $code );
-		} else {
-			$names = Language::getLanguageNames();
-		}
-
-		if( array_key_exists( strtolower( $code ), $names ) ) {
-			return true;
-		}
-
-		/* Not found, return false.
-		 */
-		return false;
-
-	}
-
-	/**
-	 * Get the language code to use for a specific language, in the highest
-	 * ordered standard possible.
-	 *
-	 * @param $code String: Code to get language code for.
-	 * @return String: Correct code.
-	 */
-	private function _getCode( $code ) {
-
-		// Loop through all the standards trying to find the language code
-		// specified.
-		foreach( $this->_order as $standard1 ) {
-
-			if( array_key_exists( strtolower( $code ), $this->_codes[ $standard1 ] ) ) {
-
-				// Loop through all the standards again to find the highest
-				// level alternate code.
-				foreach( $this->_order as $standard2 ) {
-
-					if( $standard1 == $standard2 ) {
-
-							return $code;
-
-					} elseif( array_key_exists( $standard2, $this->_codes[ $standard1 ][ $code ] ) ) {
-
-							return $this->_codes[ $standard1 ][ $code ][ $standard2 ];
-
-					}
-
-				}
-
-			}
-
-		}
-
-		// Nothing found, return input.
-		return $code;
-
-	}
-
-	/**
-	 * Get the name of a language in a specific language (currently only eng
-	 * supported until a index of ISO 639-1 is built with language names).
-	 *
-	 * @param $code String: Code to get name for.
-	 * @param $lang String: Language to get name of code in.
-	 * @return String: Name of language in specified language.
-	 */
-	private function _nameCode( $code, $lang = 'eng' ) {
-
-		$code = $this->_getCode( $code );
-
-		if( array_key_exists( $code, $this->_codes[ 'ISO_639_3' ] ) && array_key_exists( "name_$lang", $this->_codes[ 'ISO_639_3' ][ $code ] ) ) {
-			return $this->_codes[ 'ISO_639_3' ][ $code ][ "name_$lang" ];
-		}
-
-		/* Try the native MediaWiki names (or CLDR).
-		 */
-		if( class_exists( 'LanguageNames' ) ) {
-			$names = LanguageNames::getNames( $code );
-		} else {
-			$names = Language::getLanguageNames();
-		}
-
-		if( array_key_exists( strtolower( $code ), $names ) ) {
-			return $names[ strtolower( $code ) ];
-		}
-
-		// Nothing found, return input.
-		return $code;
 
 	}
 
