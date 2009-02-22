@@ -136,10 +136,11 @@ HEREDOC;
 
 		// Miscellaneous messages.
 		$this->_url            = wfMsgForContent( 'babel-url'             );
-		$this->_top            = wfMsgForContent( 'babel'                 );
 		$this->_footer         = wfMsgForContent( 'babel-footer'          );
 		$this->_directionality = wfMsgForContent( 'babel-directionality'  );
 		$this->_cellspacing    = wfMsgForContent( 'babel-box-cellspacing' );
+		global $wgTitle;
+		$this->_top            = wfMsgExt( 'babel', array( 'parsemag', 'content' ), $wgTitle->getDBkey() );
 
 	}
 
