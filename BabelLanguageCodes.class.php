@@ -181,7 +181,7 @@ class BabelLanguageCodes {
 		$key = wfMemcKey( $prefix, $type, $code );
 		global $wgMemc;
 		$value = $wgMemc->get( $key );
-		if( is_string( $value ) && $value !== '' ) wfDebug( "Babel: $code => $value\n" ); return $value;
+		if( is_string( $value ) && $value !== '' ) return $value;
 	 	return $default;
 	 }
 
