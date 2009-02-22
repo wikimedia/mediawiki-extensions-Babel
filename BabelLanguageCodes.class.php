@@ -90,7 +90,7 @@ class BabelLanguageCodes {
 		$cacheType = 'name';
 		// Get correct code, even though it should already be correct.
 		$code = $this->getCode( $code, $file, $cachePrefix );
-		if( $code === false ) return false;
+		if( $code === false || $code === null ) return false;
 		// Try cache.
 		$fromCache = $this->mGetFromCache( $cacheType, $code, false, $cachePrefix );
 		if( $fromCache !== false ) return $fromCache;

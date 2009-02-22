@@ -51,9 +51,6 @@ class Babel {
 		// Load various often used messages into the message member variables.
 		$this->_getMessages();
 
-		// Parse the options and provide an array.
-		$options = $this->_parseOptions( $parameters );
-
 		// Do a link batch on all the parameters so that their information is
 		// cached for use later on.
 		$this->_doTemplateLinkBatch( $parameters );
@@ -70,7 +67,7 @@ class Babel {
 
 				$contents .= $parser->replaceVariables( "{{{$this->_addFixes( $name,'template' )}}}" );
 
-			} elseif( $chunks = $this->_parseParameter( $name ) ) {
+			} elseif( $chunks = $this->mParseParameter( $name ) ) {
 
 				$contents .= $this->_generateBox(        $chunks[ 'code' ], $chunks[ 'level' ] );
 				$contents .= $this->_generateCategories( $chunks[ 'code' ], $chunks[ 'level' ] );
@@ -199,43 +196,6 @@ HEREDOC;
 	}
 
 	/**
-	 * Run through the array of parameters and generate an array of options
-	 * (all parameters starting with a '#') and unset them from the parameters
-	 * array.
-	 * 
-	 * @param $parameters Array: Parameters passed to the parser function.
-	 * @return Array: All options with the options as keys.
-	 */
-	private function _parseOptions( array &$parameters ) {
-
-		// Open empty options array.
-		$options = array();
-
-		// Get list of all options.
-		foreach( $parameters as $index => $value ) {
-
-			// Classed as option if the parameter begins with a # and has at
-			// least one other character.
-			if( strpos( $value, '#' ) === 0 && strlen( $value ) > 1 ) {
-
-				// Add to options array as a key, this is so that each option
-				// only gets registered once.
-				$options[ substr( $value, 1 ) ] = true;
-
-				// Unset it from the parameters array so it does not get
-				// processed as a box.
-				unset( $parameters[ $index ] );
-
-			}
-
-		}
-
-		// Return the array of options.
-		return $options;
-
-	}
-
-	/**
 	 * Identify whether or not the template exists or not.
 	 *
 	 * @param $title String: Name of the template to check.
@@ -274,81 +234,30 @@ HEREDOC;
 	 * @param $parameter String: Parameter.
 	 * @return Array: { 'code' => xx, 'level' => xx }
 	 */
-	private function _parseParameter( $parameter ) {
-
-		// Break up the parameter on - (which separates it's two parts).
-		$chunks = explode( '-', $parameter );
-
-		// Initialise the return array.
+	private function mParseParameter( $parameter ) {
 		$return = array();
 
-		// Actually parse the parameter.
-		if( count( $chunks ) == 1 ) {
-
-			// The parameter is in the form 'xx'.
-
-			// Check whether the language code is valid.
-			if( $this->mCodes->getCode( $chunks[ 0 ] ) !== false ) {
-
-				// Set the code for returning.
-				$return[ 'code' ] = $this->mCodes->getCode( $chunks[ 0 ] );
-
-				// This form defaults to level 'N'.
-				$return[ 'level' ] = 'N';
-
-				// Everything needed has been gathered, return.
-				return $return;
-
-			} else {
-
-				// Invalid language code, return false.
-				return false;
-
-			}
-
-		} elseif( count( $chunks ) == 2 ) {
-
-			// The parameter is in the form 'xx-x'.
-
-			// Check whether the language code is valid.
-			if( $this->mCodes->getCode( $chunks[ 0 ] ) !== false ) {
-
-				// Set the code for returning.
-				$return[ 'code' ] = $this->mCodes->getCode( $chunks[ 0 ] );
-
-			} else {
-
-				// Invalid language code, return false.
-				return false;
-
-			}
-
-			// Check whether the level is valid.
-			if( strtoupper( $chunks[ 1 ] ) == 'N' ) {
-
-				$return[ 'level' ] = 'N';
-
-			} elseif( $chunks[ 1 ] >= 0 && $chunks[ 1 ] <= 5 ) {
-
-				$return[ 'level' ] = $chunks[ 1 ];
-
-			} else {
-
-				// Invalid language code.
-				return false;
-
-			}
-
-			// Parameters decided, return parameters.
+		// Try treating the paramter as a language code (for native).
+		if( $this->mCodes->getCode( $parameter ) !== false && $this->mCodes->getCode( $parameter ) !== null ) {
+			$return[ 'code'  ] = $this->mCodes->getCode( $parameter );
+			$return[ 'level' ] = 'N';
 			return $return;
-
-		} else {
-
-			// Invalid parameters.
-			return false;
-
 		}
+		// Try splitting the paramter in to language and level, split on last hyphen.
+		$lastSplit = strrpos( $parameter, '-' );
+		if( $lastSplit === false ) return false;
+		$code  = substr( $parameter, 0, $lastSplit );
+		$level = substr( $parameter, $lastSplit + 1 );
 
+		// Validate code.
+		$return[ 'code' ] = $this->mCodes->getCode( $code );
+		if( $return[ 'code' ] === false ) return false;
+		// Validate level.
+		$intLevel = (int) $level;
+		if( ( $intLevel < 0 || $intLevel > 5 ) && $level !== 'N' ) return false;
+		$return[ 'level' ] = $level;
+
+		return $return;
 	}
 
 	/**
