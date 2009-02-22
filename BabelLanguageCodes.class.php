@@ -17,21 +17,21 @@ class BabelLanguageCodes {
 	 * @param $file String: Code file to scan for codes and names.
 	 * @param $cachePrefix String:  Prefix to use when adding values to the cache.
 	 */
-	public function __construct( $file = null, $cachePrefix = 'babel' ) {
+	public function __construct( $file = null, $cachePrefix = null ) {
 		// Set the default file (can be overriden).
-		global $wgBabelLanguageCodesFile;
 		if( $file === null ) {
+			global $wgBabelLanguageCodesFile;
 			$this->mFile = $wgBabelLanguageCodesFile;
 		} else {
 			$this->mFile = $file;
 		}
 
 		// Set the cache prefix (can be overriden).
-		global $wgBabelLanguageCodesFile;
-		if( $file === null ) {
-			$this->mFile = $wgBabelLanguageCodesFile;
+		if( $cachePrefix === null ) {
+			global $wgBabelCachePrefix;
+			$this->mCachePrefix = $wgBabelCachePrefix;
 		} else {
-			$this->mFile = $file;
+			$this->mCachePrefix = $cachePrefix;
 		}
 	}
 
@@ -58,7 +58,7 @@ class BabelLanguageCodes {
 		// Try MediaWiki language files.
 		global $wgLang;
 		$mediawiki = $wgLang->getLanguageName( $code );
-		if( $mediawiki !== '' ) return $this->mAddToCache( $cacheType, $code, $code, $cachePrefix );
+		if( $mediawiki !== '' ) return $code;
 		// Try ISO code file.
 		if( strlen( $code ) === 2 ) {
 			// ISO 639-1
@@ -100,7 +100,7 @@ class BabelLanguageCodes {
 		} else {
 			$names = Language::getLanguageNames();
 		}
-		if( array_key_exists( $code, $names ) ) return $this->mAddToCache( $cacheType, $code, $names[ $code ], $cachePrefix );
+		if( array_key_exists( $code, $names ) ) return $names[ $code ];
 		//  Use English names, from codes file.
 		if( strlen( $code ) === 2 ) {
 			// ISO 639-1
@@ -165,7 +165,7 @@ class BabelLanguageCodes {
 		if( $prefix === null ) $prefix = $this->mCachePrefix;
 		$key = wfMemcKey( $prefix, $type, $code );
 		global $wgMemc;
-		$wgMemc->add( $key, $value, 0 );
+		$wgMemc->add( $key, $value, 216000 );
 		return $value;
 	}
 
@@ -176,7 +176,7 @@ class BabelLanguageCodes {
 	 * @param $default String: Default value to return if key not found.
 	 * @param $prefix String: Prefix to key.
 	 */
-	 private function mGetFromCache( $type, $code, $default = false, $prefix = null ) {#
+	 private function mGetFromCache( $type, $code, $default = false, $prefix = null ) {
 		if( $prefix === null ) $prefix = $this->mCachePrefix;
 		$key = wfMemcKey( $prefix, $type, $code );
 		global $wgMemc;

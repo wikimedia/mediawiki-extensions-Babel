@@ -51,7 +51,8 @@ $wgAutoloadClasses[ 'BabelStatic'        ] = $dir . '/BabelStatic.class.php';
 $wgAutoloadClasses[ 'BabelAutoCreate'    ] = $dir . '/BabelAutoCreate.class.php';
 
 // Configuration setttings.
-$wgBabelUseLevelZeroCategory         = false;
-$wgBabelUseSimpleCategories          = false;
-$wgBabelUseMainCategories            = true;
-$wgBabelLanguageCodesFile            = $dir . '/codes.txt';
+$wgBabelUseLevelZeroCategory = false;
+$wgBabelUseSimpleCategories  = false;
+$wgBabelUseMainCategories    = true;
+$wgBabelLanguageCodesFile    = $dir . '/codes.txt';
+$wgBabelCachePrefix          = 'babel';
