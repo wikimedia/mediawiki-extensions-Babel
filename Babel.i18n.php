@@ -60,7 +60,7 @@ $messages['en'] = array(
  * @author Siebrand
  */
 $messages['qqq'] = array(
-	'babel' => 'Header of Babel box.',
+	'babel' => 'Header of Babel box. Parameter $1 is the name of the page it is used on, for GENDER support.',
 	'babel-desc' => 'Short description of this extension, shown on [[Special:Version]]. Do not translate or change links.',
 	'babel-url' => 'The page name at which more information about the babel system can be found. Do not translate the namespace Project:.',
 	'babel-directionality' => 'Directionality of the language you are translating in (valid  values: "ltr" for left to right (default), or "rtl" for right to left).
@@ -80,34 +80,6 @@ $messages['qqq'] = array(
 	'babel-4-n' => '{{Babel Message Description|4|native=yes}}',
 	'babel-5-n' => '{{Babel Message Description|5|native=yes}}',
 	'babel-N-n' => '{{Babel Message Description|N|native=yes}}',
-	'babel-0-female' => '{{Babel Message Description|0|gender=female}}',
-	'babel-1-female' => '{{Babel Message Description|1|gender=female}}',
-	'babel-2-female' => '{{Babel Message Description|2|gender=female}}',
-	'babel-3-female' => '{{Babel Message Description|3|gender=female}}',
-	'babel-4-female' => '{{Babel Message Description|4|gender=female}}',
-	'babel-5-female' => '{{Babel Message Description|5|gender=female}}',
-	'babel-N-female' => '{{Babel Message Description|N|gender=female}}',
-	'babel-0-n-female' => '{{Babel Message Description|0|gender=female|native=yes}}',
-	'babel-1-n-female' => '{{Babel Message Description|1|gender=female|native=yes}}',
-	'babel-2-n-female' => '{{Babel Message Description|2|gender=female|native=yes}}',
-	'babel-3-n-female' => '{{Babel Message Description|3|gender=female|native=yes}}',
-	'babel-4-n-female' => '{{Babel Message Description|4|gender=female|native=yes}}',
-	'babel-5-n-female' => '{{Babel Message Description|5|gender=female|native=yes}}',
-	'babel-N-n-female' => '{{Babel Message Description|N|gender=female|native=yes}}',
-	'babel-0-male' => '{{Babel Message Description|0|gender=male}}',
-	'babel-1-male' => '{{Babel Message Description|1|gender=male}}',
-	'babel-2-male' => '{{Babel Message Description|2|gender=male}}',
-	'babel-3-male' => '{{Babel Message Description|3|gender=male}}',
-	'babel-4-male' => '{{Babel Message Description|4|gender=male}}',
-	'babel-5-male' => '{{Babel Message Description|5|gender=male}}',
-	'babel-N-male' => '{{Babel Message Description|N|gender=male}}',
-	'babel-0-n-male' => '{{Babel Message Description|0|gender=male|native=yes}}',
-	'babel-1-n-male' => '{{Babel Message Description|1|gender=male|native=yes}}',
-	'babel-2-n-male' => '{{Babel Message Description|2|gender=male|native=yes}}',
-	'babel-3-n-male' => '{{Babel Message Description|3|gender=male|native=yes}}',
-	'babel-4-n-male' => '{{Babel Message Description|4|gender=male|native=yes}}',
-	'babel-5-n-male' => '{{Babel Message Description|5|gender=male|native=yes}}',
-	'babel-N-n-male' => '{{Babel Message Description|N|gender=male|native=yes}}',
 );
 
 /** Säggssch (Säggssch)
@@ -2458,6 +2430,15 @@ $messages['ro'] = array(
 	'babel-4-n' => 'Acest utilizator poate contribui cu un nivel [[$1|aproape nativ]] de [[$2|română]].',
 	'babel-5-n' => 'Acest utilizator contribuie folosind un nivel [[$1|profesional]] de [[$2|română]].',
 	'babel-N-n' => 'Acest utilizator este un vorbitor [[$1|nativ]] al [[$2|limbii române]].',
+);
+
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ * @author Kwj2772
+ */
+$messages['roa-tara'] = array(
+	'babel-url' => 'Project:Babel',
+	'babel-N-n' => 'Quìste utende jè de [[$1|madrelènga]] [[$2|tarandine]].',
 );
 
 /** Russian (Русский)
