@@ -829,20 +829,20 @@ $messages['es'] = array(
 	'babel-autocreate-reason' => 'Creando automáticamente página de categorías [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Los usuarios de esta categoría declaran que tienen un nivel de dominio $1 del idioma $2.',
 	'babel-autocreate-text-main' => 'Los usuarios en esta categoría indican que tienen conocimiento del lenguaje $1.',
-	'babel-0' => 'Este usuario [[$1|desconoce]] el [[$2|$3]] (o lo entiende con mucha dificultad).',
-	'babel-1' => 'Este usuario puede contribuir con un nivel [[$1|básico]] de [[$2|$3]].',
-	'babel-2' => 'Este usuario puede contribuir con un nivel [[$1|intermedio]] de [[$2|$3]].',
-	'babel-3' => 'Este usuario puede contribuir con un nivel [[$1|avanzado]] de [[$2|$3]].',
-	'babel-4' => 'Este usuario puede contribuir con un nivel [[$1|casi nativo]] en [[$2|$3]].',
+	'babel-0' => 'Este usuario [[$1|desconoce]] el [[$2|$3]] (o lo entiende con considerable dificultad).',
+	'babel-1' => 'Este usuario tiene un conocimiento [[$1|básico]] del [[$2|$3]].',
+	'babel-2' => 'Este usuario tiene un conocimiento [[$1|intermedio]] del [[$2|$3]].',
+	'babel-3' => 'Este usuario tiene un conocimiento [[$1|avanzado]] del [[$2|$3]].',
+	'babel-4' => 'Este usuario tiene un conocimiento [[$1|casi nativo]] del [[$2|$3]].',
 	'babel-5' => 'Este usuario tiene un conocimiento [[$1|profesional]] del [[$2|$3]]',
-	'babel-N' => 'Este usuario puede contribuir con un nivel [[$1|nativo]] en [[$2|$3]].',
-	'babel-0-n' => 'Este usuario [[$1|desconoce]] el [[$2|español]] (o lo entiende con dificultad).',
-	'babel-1-n' => 'Este usuario puede contribuir con un nivel [[$1|básico]] de [[$2|español]].',
-	'babel-2-n' => 'Este usuario puede contribuir con un nivel [[$1|intermedio]] de [[$2|español]].',
-	'babel-3-n' => 'Este usuario puede contribuir con un nivel [[$1|avanzado]] de [[$2|español]].',
-	'babel-4-n' => 'Este usuario puede contribuir con un nivel [[$1|casi nativo]] en [[$2|español]].',
+	'babel-N' => 'Este usuario tiene una comprensión [[$1|nativa]] del [[$2|$3]].',
+	'babel-0-n' => 'Este usuario [[$1|desconoce]] el [[$2|español]] (o lo entiende con considerable dificultad).',
+	'babel-1-n' => 'Este usuario tiene un conocimiento [[$1|básico]] del [[$2|español]].',
+	'babel-2-n' => 'Este usuario tiene un conocimiento [[$1|intermedio]] del [[$2|español]].',
+	'babel-3-n' => 'Este usuario tiene un conocimiento [[$1|avanzado]] del [[$2|español]].',
+	'babel-4-n' => 'Este usuario tiene un conocimiento [[$1|casi nativo]] del [[$2|español]].',
 	'babel-5-n' => 'Este usuario tiene un conocimiento [[$1|profesional]] del [[$2|Español]].',
-	'babel-N-n' => 'Este usuario puede contribuir con un nivel [[$1|nativo]] en [[$2|español]].',
+	'babel-N-n' => 'Este usuario tiene una comprensión [[$1|nativa]] del [[$2|español]].',
 );
 
 /** Estonian (Eesti)
@@ -1410,7 +1410,11 @@ $messages['ia'] = array(
 	'babel' => 'Informationes Babel del usator',
 	'babel-desc' => "Adde le function <tt>#babel</tt> al analysator syntactic, pro permitter le generation automatic de un columna con un quadro de usator 'Babel' con le capacitate de includer patronos personalisate.",
 	'babel-url' => 'Project:Babel',
-	'babel-0' => 'Iste usator [[$1|non comprende]] [[$2|$3]] (o solmente con difficultates notabile).',
+	'babel-autocreate-abort' => 'Le nomine de usator que tu ha specificate es usate pro le creation automatic de categorias [[$1|Babel]] e non pote esser registrate.',
+	'babel-autocreate-reason' => 'Le pagina del categoria [[$1|Babel]] ha essite create automaticamente.',
+	'babel-autocreate-text-levels' => 'Le usatores in iste categoria declara haber un nivello de cognoscentia $1 del lingua $2.',
+	'babel-autocreate-text-main' => 'Le usatores in iste categoria declara haber cognoscentia del lingua $1.',
+	'babel-0' => 'Iste usator ha [[$1|nulle]] cognoscentia de [[$2|$3]] (o lo comprende con difficultates considerabile).',
 	'babel-1' => 'Iste usator ha cognoscentias [[$1|de base]] de [[$2|$3]].',
 	'babel-2' => 'Iste usator ha cognoscentias [[$1|medie]] de [[$2|$3]].',
 	'babel-3' => 'Iste usator ha cognoscentias [[$1|avantiate]] de [[$2|$3]].',
@@ -1448,6 +1452,18 @@ $messages['id'] = array(
 	'babel-4-n' => 'Pengguna ini mampu bersumbangsih dengan [[$2|bahasa Indonesia]] [[$1|mendekati penutur ibu]].',
 	'babel-5-n' => 'Pengguna ini memiliki pengetahuan [[$1|profesional]] [[$2|bahasa Indonesia]].',
 	'babel-N-n' => 'Pengguna ini adalah [[$1|penutur ibu]] [[$2|bahasa Indonesia]].',
+);
+
+/** Ido (Ido)
+ * @author Malafaya
+ */
+$messages['io'] = array(
+	'babel-url' => 'Project:Babel',
+	'babel-0' => 'Ca uzanto havas [[$1|nula]] savo pri [[$2|$3]] (o komprenas olu kun kelka desfacileso).',
+	'babel-1' => 'Ca uzanto havas [[$1|bazala]] savo pri [[$2|$3]].',
+	'babel-2' => 'Ca uzanto havas [[$1|meza]] savo pri [[$2|$3]].',
+	'babel-3' => 'Ca uzanto havas [[$1|bona]] savo pri [[$2|$3]].',
+	'babel-5' => 'Ca uzanto havas [[$1|profesionala]] savo pri [[$2|$3]].',
 );
 
 /** Italian (Italiano)
