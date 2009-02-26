@@ -252,7 +252,7 @@ HEREDOC;
 
 		// Validate code.
 		$return[ 'code' ] = $this->mCodes->getCode( $code );
-		if( $return[ 'code' ] === false ) return false;
+		if( $return[ 'code' ] === null ) return false;
 		// Validate level.
 		$intLevel = (int) $level;
 		if( ( $intLevel < 0 || $intLevel > 5 ) && $level !== 'N' ) return false;

@@ -47,13 +47,13 @@ class BabelLanguageCodes {
 	 * @param $code String: Code to try and get a "better" code for.
 	 * @param $file String: Code file to scan for codes.
 	 * @param $cachePrefix String: Prefix to use when adding values to the cache.
-	 * @return String (language code) or false (invalid language code).
+	 * @return String (language code) or null (invalid language code).
 	 */
 	public function getCode( $code, $file = null, $cachePrefix = null ) {
 		$cacheType = 'code';
 		// Try cache.
 		$fromCache = $this->mGetFromCache( $cacheType, $code, false, $cachePrefix );
-		if( $fromCache === null  ) return false;      // Known invalid language code.
+		if( $fromCache === null  ) return null;      // Known invalid language code.
 		if( $fromCache !== false ) return $fromCache; // Known   valid language code.
 		// Try MediaWiki language files.
 		global $wgLang;
@@ -84,16 +84,16 @@ class BabelLanguageCodes {
 	 * @param $code String: Code to get name for.
 	 * @param $file String: Code file to scan for names.
 	 * @param $cachePrefix String: Prefix to use when adding values to the cache.
-	 * @return String: Name of language.
+	 * @return String (name of language) or null (invalid language code).
 	 */
 	public function getName( $code, $file = null, $cachePrefix = null ) {
 		$cacheType = 'name';
 		// Get correct code, even though it should already be correct.
 		$code = $this->getCode( $code, $file, $cachePrefix );
-		if( $code === false || $code === null ) return false;
+		if( $code === null ) return null;
 		// Try cache.
-		$fromCache = $this->mGetFromCache( $cacheType, $code, false, $cachePrefix );
-		if( $fromCache !== false ) return $fromCache;
+		$fromCache = $this->mGetFromCache( $cacheType, $code, null, $cachePrefix );
+		if( $fromCache !== null ) return $fromCache;
 		// Try CLDR extension, then MediaWiki native.
 		if( class_exists( 'LanguageNames' ) ) {
 			$names = LanguageNames::getNames( $code, LanguageNames::FALLBACK_NORMAL, LanguageNames::LIST_MW_AND_CLDR );
