@@ -676,6 +676,7 @@ $messages['cy'] = array(
 );
 
 /** Danish (Dansk)
+ * @author Byrial
  * @author Jan Friberg
  */
 $messages['da'] = array(
@@ -689,12 +690,12 @@ $messages['da'] = array(
 	'babel-4' => 'Denne bruger kan [[$2|$3]] næsten på [[$1|modersmålsniveau]].',
 	'babel-5' => 'Denne bruger har [[$1|professionel]] kendskab til [[$2|$3]].',
 	'babel-N' => 'Denne bruger har [[$2|$3]] som [[$1|modersmål]].',
-	'babel-0-n' => 'Denne bruger har [[$1|ingen]] kendskab til [[$2|dansk]] (eller har meget svært ved at forstå det).',
+	'babel-0-n' => 'Denne bruger har [[$1|intet]] kendskab til [[$2|dansk]] (eller forstår det kun med stor vanskelighed).',
 	'babel-1-n' => 'Denne bruger har [[$1|grundlæggende]] kendskab til [[$2|dansk]].',
 	'babel-2-n' => 'Denne bruger har et [[$1|godt]] kendskab til [[$2|dansk]].',
 	'babel-3-n' => 'Denne bruger har et [[$1|avanceret]] kendskab til [[$2|dansk]].',
 	'babel-4-n' => 'Denne bruger kan [[$2|dansk]] næsten på [[$1|modersmålsniveau]].',
-	'babel-5-n' => 'Denne bruger har [[$1|professionel]] kendskab til [[$2|dansk]].',
+	'babel-5-n' => 'Denne bruger har [[$1|professionelt]] kendskab til [[$2|dansk]].',
 	'babel-N-n' => 'Denne bruger har [[$2|dansk]] som [[$1|modersmål]].',
 );
 
