@@ -1719,6 +1719,24 @@ $messages['ku-arab'] = array(
 	'babel-4' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|نزیک بە زمانی دایکی]]ی لە [[$2|$3]] ھەیە.',
 );
 
+/** Cornish (Kernewek)
+ * @author Kw-Moon
+ */
+$messages['kw'] = array(
+	'babel-0' => '[[$1|Ny wor]] an devnydhyer ma konvedhes [[$2|$3]].',
+	'babel-1' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|sempel]].',
+	'babel-2' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|kres]].',
+	'babel-3' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|avonsys]].',
+	'babel-4' => 'An devnydhyer ma a skrif [[$2|$3]] [[$1|ogas hag avel mammyeth]].',
+	'babel-N' => 'An devnydhyer ma a skrif [[$2|$3]] avel [[$1|mammyeth]].',
+	'babel-0-n' => '[[$1|Ny wor]] an devnydhyer ma konvedhes [[$2|Kernewek]].',
+	'babel-1-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|sempel]].',
+	'babel-2-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|kres]].',
+	'babel-3-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|avonsys]].',
+	'babel-4-n' => 'An devnydhyer ma a skrif [[$2|Kernewek]] [[$1|ogas hag avel mammyeth]].',
+	'babel-N-n' => 'An devnydhyer ma a skrif [[$2|Kernewek]] avel [[$1|mammyeth]].',
+);
+
 /** Latin (Latina)
  * @author SPQRobin
  * @author UV
@@ -2035,6 +2053,33 @@ $messages['ms'] = array(
 	'babel-4-n' => 'Pengguna ini memiliki kemahiran [[$1|hampir sempurna]] dalam [[$2|bahasa Melayu]].',
 	'babel-5-n' => 'Pengguna ini memiliki kemahiran [[$1|profesional]] dalam [[$2|bahasa Melayu]].',
 	'babel-N-n' => 'Pengguna ini adalah penutur [[$1|asli]] [[$2|bahasa Melayu]].',
+);
+
+/** Mirandese (Mirandés)
+ * @author Cecílio
+ */
+$messages['mwl'] = array(
+	'babel' => 'Anformaçon Babel de Outelizador',
+	'babel-desc' => 'Ajunta la funçon de l analisador parser <tt>#babel</tt> pa premitir la criaçon outomatica dua coluna de caixas de outelizador babel cula possiblidade de ancluir modelos pessonalizadas',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'L nome de outelizador que deziste ye ousado pula criaçon outomática de catadories [[$1|Babel]] i, por esso, nun puode ser registrado.',
+	'babel-autocreate-reason' => 'A criar outomaticamiente la páigina de la catadorie [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'Ls outelizadores nesta catadorie dízen que ténen un nible de coincimiento $1 na lhéngua $2.',
+	'babel-autocreate-text-main' => 'Ls outelizadores nesta catadorie dízen que ténen coincimientos de la lhéngua $1.',
+	'babel-0' => '{{GENDER:$4|Este outelizador|Esta outelizadora}} [[$1|nun antende]] [[$2|$3]] (ó antende cun muitas deficuldades).',
+	'babel-1' => '{{GENDER:$4|Este outelizador|Esta outelizadora}} puode ajudar cun un nible [[$1|básico]] de [[$2|$3]].',
+	'babel-2' => '{{GENDER:$4|Este outelizador|Esta outelizadora}} puode ajudar cun un nible [[$1|médio]] de [[$2|$3]].',
+	'babel-3' => '{{GENDER:$4|Este outelizador|Esta outelizadora}} puode ajudar cun un nible [[$1|abançado]] de [[$2|$3]].',
+	'babel-4' => '{{GENDER:$4|Este outelizador|Esta outelizadora}} puode ajudar cun un nible [[$1|quaijeque cumo de quien l mamou a la nacença]] de [[$2|$3]].',
+	'babel-5' => '{{GENDER:$4|Este outelizador|Esta outelizadora}} puode ajudar cun un nible [[$1|porfissional]] de [[$2|$3]].',
+	'babel-N' => '{{GENDER:$4|Este outelizador|Esta outelizadora}} ten cumo lhéngua [[$1|de nacença]] l [[$2|$3]].',
+	'babel-0-n' => '{{GENDER:$4|Este outelizador|Esta outelizadora}} [[$1|nun antende]] [[$2|Mirandés]] (ó antende cun algun custo).',
+	'babel-1-n' => '{{GENDER:$4|Este outelizador|Esta outelizadora}} puode ajudar cun un nible [[$1|básico]] de [[$2|mirandés]].',
+	'babel-2-n' => '{{GENDER:$4|Este outelizador|Esta outelizadora}} puode ajudar cun un nible [[$1|médio]] de [[$2|mirandés]].',
+	'babel-3-n' => '{{GENDER:$4|Este outelizador|Esta outelizadora}} puode ajudar cun un nible [[$1|abançado]] de [[$2|mirandés]].',
+	'babel-4-n' => '{{GENDER:$4|Este outelizador|Esta outelizadora}} puode ajudar cun un nible [[$1|quaijeque cumo de quien l mamou a la nacença]] de [[$2|mirandés]].',
+	'babel-5-n' => '{{GENDER:$4|Este outelizador|Esta outelizadora}} puode ajudar cun un nible [[$1|porfissional]] de [[$2|mirandés]].',
+	'babel-N-n' => '{{GENDER:$4|Este outelizador|Esta outelizadora}} ten cumo lhéngua [[$1|de nacença]] l [[$2|mirandés]].',
 );
 
 /** Erzya (Эрзянь)
@@ -2455,6 +2500,10 @@ $messages['ro'] = array(
  */
 $messages['roa-tara'] = array(
 	'babel-url' => 'Project:Babel',
+	'babel-0' => "'Stu crestiáne ste'''[[$1|'nderre a le carvune]]''' cu 'u '''[[$2|$3]]'''.",
+	'babel-1' => "'Stu crestiáne pô ajutà' cu 'na canoscènze '''[[$1|tèrra-tèrre]]''' d'u '''[[$2|$3]]'''.",
+	'babel-2' => "'Stu crestiáne pô ajutà' cu 'nna canoscènze '''[[$2|'ndermdèdie]]''' d'u '''[[$2|$3]]'''.",
+	'babel-3' => "'Stu crestiáne pô ajutà' cu 'nna canoscènze '''[[$2|accellènde]]''' d'u '''[[$2|$3]]'''.",
 	'babel-N-n' => 'Quìste utende jè de [[$1|madrelènga]] [[$2|tarandine]].',
 );
 
