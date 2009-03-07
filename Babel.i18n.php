@@ -1213,7 +1213,7 @@ $messages['he'] = array(
 	'babel' => 'מידע על כישורי שפה של המשתמש',
 	'babel-desc' => 'הוספת הוראת התנאי <tt>#babel</tt> כדי לאפשר יצירה אוטומטית של תבניות כישורי שפה, עם אפשרות להכללת תבניות מותאמות אישית',
 	'babel-url' => 'Project:כישורי שפה',
-	'babel-autocreate-abort' => 'שם המשתמש שציינתם משמש עבור יצירה אוטומטית של קטגוריות [[$1|כישורי שפה]] ולא ניתן לרשום אותו.',
+	'babel-autocreate-abort' => 'שם המשתמש שציינתם משמש ליצירה אוטומטית של קטגוריות [[$1|כישורי שפה]], ולכן לא ניתן לרשום אותו.',
 	'babel-autocreate-reason' => 'יצירה אוטומטית של דף קטגוריה ל[[$1|כישורי שפה]]',
 	'babel-autocreate-text-levels' => 'המשתמשים בקטגוריה זו מציינים כי רמת השפה שלהם הינה $1 בשפה ה$2.',
 	'babel-autocreate-text-main' => 'המשתמשים בקטגוריה זו מציינים כי יש להם ידע בשפה ה$1.',
@@ -1728,12 +1728,14 @@ $messages['kw'] = array(
 	'babel-2' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|kres]].',
 	'babel-3' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|avonsys]].',
 	'babel-4' => 'An devnydhyer ma a skrif [[$2|$3]] [[$1|ogas hag avel mammyeth]].',
+	'babel-5' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|galwesik]].',
 	'babel-N' => 'An devnydhyer ma a skrif [[$2|$3]] avel [[$1|mammyeth]].',
 	'babel-0-n' => '[[$1|Ny wor]] an devnydhyer ma konvedhes [[$2|Kernewek]].',
 	'babel-1-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|sempel]].',
 	'babel-2-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|kres]].',
 	'babel-3-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|avonsys]].',
 	'babel-4-n' => 'An devnydhyer ma a skrif [[$2|Kernewek]] [[$1|ogas hag avel mammyeth]].',
+	'babel-5-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|galwesik]].',
 	'babel-N-n' => 'An devnydhyer ma a skrif [[$2|Kernewek]] avel [[$1|mammyeth]].',
 );
 
