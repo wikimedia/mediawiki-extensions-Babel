@@ -748,7 +748,7 @@ $messages['dsb'] = array(
 	'babel-2' => 'Toś ten wužywaŕ ma [[$1|pśerězne]] znajobnosći [[$2|$3]].',
 	'babel-3' => 'Toś ten wužywaŕ ma [[$1|póstupjone]] znajobnosći [[$2|$3]].',
 	'babel-4' => 'Toś ten wužywaŕ ma znajobnosći [[$2|$3]] na [[$1|maminorěcnem]] niwowje.',
-	'babel-5' => 'Toś ten wužywaŕ ma [[$1|profesionelne]] znajobnosći [[$2|dolnoserbšćiny]].',
+	'babel-5' => 'Toś ten wužywaŕ ma [[$1|profesionelne]] znajobnosći [[$2|$3]].',
 	'babel-N' => 'Toś ten wužywaŕ powĕda [[$2|$3]] ako [[$1|maminu]] rĕc.',
 	'babel-0-n' => 'Toś ten wužywaŕ njama [[$1|žedne]] znajobnosći [[$2|dolnoserbšćiny]] (abo rozmějo ju jano z bejnymi śěžkosćami).',
 	'babel-1-n' => 'Toś ten wužywaŕ ma [[$1|zakładne]] znajobnosći [[$2|dolnoserbšćiny]].',
@@ -2939,6 +2939,33 @@ $messages['th'] = array(
 	'babel-4-n' => 'ผู้ใช้คนนี้สามารถใช้[[$2|ภาษาไทย]]ได้เหมือน[[$1|ภาษาแม่]]',
 	'babel-5-n' => 'ผู้ใช้คนนี้สามารถใช้[[$2|ภาษาไทย]]ได้อย่าง[[$1|เชี่ยวชาญ]]',
 	'babel-N-n' => 'ผู้ใช้คนนี้ใช้[[$2|ภาษาไทย]]เป็น[[$1|ภาษาแม่]]',
+);
+
+/** Turkmen (Türkmençe)
+ * @author Hanberke
+ */
+$messages['tk'] = array(
+	'babel' => 'Babyl ulanyjy maglumaty',
+	'babel-desc' => 'Ýörite şablonlary öz içine almak häsiýeti bar bolan Babyl ulanyjy gutusy sütüniniň awtomatik usulda döredilmegi üçin <tt>#babel</tt> parser funksiýasyny goşýar',
+	'babel-url' => 'Project:Babyl',
+	'babel-autocreate-abort' => 'Görkezen ulanyjy adyňyz [[$1|Babyl]] kategoriýasynyň awtomatik usulda döredilmeginde ulanylýar we ony alyp bolmaýar.',
+	'babel-autocreate-reason' => 'Awtomatik usulda [[$1|Babyl]] kategoriýa sahypasy döredilýär.',
+	'babel-autocreate-text-levels' => 'Bu kategoriýadaky ulanyjylar $1 derejede $2 dilini bilýändiklerini görkezýär.',
+	'babel-autocreate-text-main' => 'Bu kategoriýadaky ulanyjylar $1 dilini bilýändiklerini görkezýär.',
+	'babel-0' => 'Bu ulanyjy [[$1|hiç hili]] [[$2|$3]] bilmeýär (ýa-da örän kynlyk bilen düşünýär).',
+	'babel-1' => 'Bu ulanyjy [[$1|başlangyç derejede]] [[$2|$3]] bilýär.',
+	'babel-2' => 'Bu ulanyjy [[$1|orta derejede]] [[$2|$3]] bilýär.',
+	'babel-3' => 'Bu ulanyjy [[$1|ýokary derejede]] [[$2|$3]] bilýär.',
+	'babel-4' => 'Bu ulanyjy [[$1|öz ene dili ýaly]] [[$2|$3]] bilýär.',
+	'babel-5' => 'Bu ulanyjy [[$1|professional derejede]] [[$2|$3]] bilýär.',
+	'babel-N' => 'Bu ulanyjynyň [[$1|öz ene dili]] [[$2|$3]]dir.',
+	'babel-0-n' => 'Bu ulanyjy [[$1|hiç hili]] [[$2|Türkmençe]] bilmeýär (ýa-da örän kynlyk bilen düşünýär).',
+	'babel-1-n' => 'Bu ulanyjy [[$1|başlangyç derejede]] [[$2|Türkmençe]] bilýär.',
+	'babel-2-n' => 'Bu ulanyjy [[$1|orta derejede]] [[$2|Türkmençe]] bilýär.',
+	'babel-3-n' => 'Bu ulanyjy [[$1|ýokary derejede]] [[$2|Türkmençe]] bilýär.',
+	'babel-4-n' => 'Bu ulanyjy [[$1|öz ene dili ýaly]] [[$2|Türkmençe]] bilýär.',
+	'babel-5-n' => 'Bu ulanyjy [[$1|professional derejede]] [[$2|Türkmençe]] bilýär.',
+	'babel-N-n' => 'Bu ulanyjynyň [[$1|öz ene dili]] [[$2|Türkmençe]]dir.',
 );
 
 /** Tagalog (Tagalog)
