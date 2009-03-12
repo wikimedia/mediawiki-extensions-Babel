@@ -2154,12 +2154,13 @@ $messages['nds'] = array(
 
 /** Dutch (Nederlands)
  * @author GerardM
+ * @author Hamaryns
  * @author SPQRobin
  * @author Siebrand
  */
 $messages['nl'] = array(
 	'babel' => 'Babel-gebruikersinformatie',
-	'babel-desc' => 'Voegt de <tt>#babel</tt>-parserfunctie toe om automatische generatie van een babelgebruikersbox toe te laten met de mogelijkheid om aangepaste sjablonen in te voegen',
+	'babel-desc' => 'Voegt de <tt>#babel</tt>-parserfunctie toe om automatische generatie van een babelgebruikersbox mogelijk te maken met de mogelijkheid om aangepaste sjablonen in te voegen',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'De gebruikersnaam die u hebt opgegeven wordt gebruikt voor het automatisch aanmaken van [[$1|Babel]]-categorieën en kan niet geregistreerd worden.',
 	'babel-autocreate-reason' => 'Automatisch aangemaakte [[$1|Babel]]-categorie.',
@@ -2174,7 +2175,7 @@ $messages['nl'] = array(
 	'babel-N' => 'Deze gebruiker beheerst het [[$2|$3]] op [[$1|moedertaalniveau]].',
 	'babel-0-n' => 'Deze gebruiker heeft [[$1|geen]] kennis van het [[$2|Nederlands]] (of begrijpt het met grote moeite).',
 	'babel-1-n' => 'Deze gebruiker heeft [[$1|elementaire]] kennis van het [[$2|Nederlands]].',
-	'babel-2-n' => 'Deze gebruiker heeft een [[$1|basis]] kennis van het [[$2|Nederlands]].',
+	'babel-2-n' => 'Deze gebruiker heeft een [[$1|basis]]kennis van het [[$2|Nederlands]].',
 	'babel-3-n' => 'De gebruiker heeft een [[$1|gevorderde]] kennis van het [[$2|Nederlands]].',
 	'babel-4-n' => 'Deze gebruiker beheerst het [[$2|Nederlands]] als ware het zijn [[$1|moedertaal]].',
 	'babel-5-n' => 'Deze gebruiker heeft een [[$1|professionele]] kennis van het [[$2|Nederlands]].',
