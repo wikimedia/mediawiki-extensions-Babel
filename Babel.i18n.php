@@ -1953,6 +1953,13 @@ $messages['mdf'] = array(
 	'babel-N-n' => 'Тя тиись [[$1|идькспингстонза корхтай ]]  [[$2|мокшекс]].',
 );
 
+/** Eastern Mari (Олык Марий)
+ * @author Сай
+ */
+$messages['mhr'] = array(
+	'babel-N' => 'Тиде пайдаланыше лан [[$2|$3]] — [[$1|шочмо]] йылме улеш.',
+);
+
 /** Macedonian (Македонски)
  * @author Brest
  * @author INkubusse
