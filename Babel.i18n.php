@@ -2596,6 +2596,19 @@ $messages['sah'] = array(
 	'babel-N-n' => '{{GENDER:$4|Бу кыттааччы эр киһиэхэ|Бу кыттааччы дьахтарга}} [[$2|саха тыла]] [[$1|төрөөбүт тыла]] буолар.',
 );
 
+/** Sardinian (Sardu)
+ * @author Marzedu
+ */
+$messages['sc'] = array(
+	'babel-0-n' => "Custu usuariu [[$1|non cumprendet]] su '''[[$2|Sardu]]''', o du cumprendet cun aprentu mannu.",
+	'babel-1-n' => "Custu usuariu podet azudare, ca unu '''[[$1|azicu]]''' de '''[[$2|Sardu]]''' lu connoschet.",
+	'babel-2-n' => "Custu usuariu podet azudare, ca connoschet su '''[[$2|Sardu]]''' e lu '''[[$1|cumprendet]]'''.",
+	'babel-3-n' => "Custu usuariu potet azudare '''[[$1|meda]]''' pro ite ischit faeddare e iscrìere su '''[[$2|Sardu]]'''.",
+	'babel-4-n' => "Custu usuariu faeddat su '''[[$2|Sardu]]''' in modu '''[[$1|perfetu]]'''.",
+	'babel-5-n' => 'Custu usuàriu connoschet su [[$2|Sardu]] a livellu [[$1|profesionale]].',
+	'babel-N-n' => "Custu usuariu faeddat su '''[[$2|Sardu]]'''  comente '''[[$1|limba mama]]'''.",
+);
+
 /** Sicilian (Sicilianu)
  * @author Melos
  * @author Santu
