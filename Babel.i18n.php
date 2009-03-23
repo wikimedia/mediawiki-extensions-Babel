@@ -115,6 +115,18 @@ $messages['kea'] = array(
 	'babel-N-n' => 'Kel utilizador li, se língua [[$1|maternu]] e [[$2|kriolu]].',
 );
 
+/** Picard (Picard)
+ * @author Geoleplubo
+ */
+$messages['pcd'] = array(
+	'babel' => 'informatchion dech uzeu Babel',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-text-levels' => "Ches uzeus din l'catégorie-lo, is déloufette qu'is ont un nivieu avinché $1 din l'langue $2.",
+	'babel-autocreate-text-main' => "Ches uzeus din l'catégorie-lo, is déloufette qu'is bavette din l'langue $1.",
+	'babel-0' => "Ech uzeu-lo, i n'bave [[$1|poin]] in [[$2|picard]]  (ou bin i parle un tiot peu in picard)",
+	'babel-1' => 'Ech uzeu-lo, il o un [[$1|basique]] parlache in [[$2|$3]] picard.',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
@@ -2294,6 +2306,33 @@ $messages['os'] = array(
 	'babel-N-n' => '[[$2|Ирон]] у ацы архайæджы [[$1|мадæлон æвзаг]].',
 );
 
+/** Pfälzisch (Pfälzisch)
+ * @author Als-Holder
+ */
+$messages['pfl'] = array(
+	'babel' => 'Babel-Benutzer-Information',
+	'babel-desc' => 'Ergänzt die <tt>#babel</tt>-Parserfunktion fer zum automatische Aaleche vun  Babel-Benutzerkäschtel-Zaile mit de Mechlichkäät, äächene Vorlache aizbinne',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'De Benutzername, wu Du ausgewählt hoscht, werd gebraucht fer s automatische Aaleche vun [[$1|Babel]]-Kategorie un kann nid regischtriert werre.',
+	'babel-autocreate-reason' => 'Automatisch aagelechte [[$1|Babel]]-Kategorie.',
+	'babel-autocreate-text-levels' => 'Benutzer in derre Kategorie hänn d Kenntnis-Ewene $1 fer die Sproch $2.',
+	'babel-autocreate-text-main' => 'Benutzer in derre Kategorie hänn Kenntnisse vun de Sproch $1.',
+	'babel-0' => 'Der Benutzer kann [[$1|ken]] [[$2|$3]] (oder er versteht s numme mit greßere Schwierichkääte).',
+	'babel-1' => 'Der Benutzer kann [[$1|e bissel]] [[$2|$3]].',
+	'babel-2' => 'Der Benutzer kann [[$1|ganz gut]] [[$2|$3]] .',
+	'babel-3' => 'Der Benutzer kann [[$1|arich gut]] [[$2|$3]].',
+	'babel-4' => 'Der Benutzer kann [[$2|$3]], wie wenn s sai [[$1|Muddersproch]] wär.',
+	'babel-5' => 'Der Benutzer kann [[$2|$3]] uff [[$1|professionellem]] Niveau.',
+	'babel-N' => 'Dem Benutzer sai [[$1|Muddersproch]] isch [[$2|$3]].',
+	'babel-0-n' => 'Der Benutzer kann [[$1|ken]] [[$2|Pälzisch]] (oder er versteht s numme mit greßere Schwierichkääte).',
+	'babel-1-n' => 'Der Benutzer kann [[$1|e bissel]] [[$2|Pälzisch]].',
+	'babel-2-n' => 'Der Benutzer kann [[$1|ganz gut]] [[$2|Pälzisch]] .',
+	'babel-3-n' => 'Der Benutzer kann [[$1|arich gut]] [[$2|Pälzisch]].',
+	'babel-4-n' => 'Der Benutzer kann [[$2|Pälzisch]], wie wenn s sai [[$1|Muddersproch]] wär.',
+	'babel-5-n' => 'Der Benutzer kann [[$2|Pälzisch]] uff [[$1|professionellem]] Niveau.',
+	'babel-N-n' => 'Dem Benutzer sai [[$1|Muddersproch]] isch [[$2|Pälzisch]].',
+);
+
 /** Polish (Polski)
  * @author Sp5uhe
  * @author Ymar
@@ -2600,13 +2639,27 @@ $messages['sah'] = array(
  * @author Marzedu
  */
 $messages['sc'] = array(
-	'babel-0-n' => "Custu usuariu [[$1|non cumprendet]] su '''[[$2|Sardu]]''', o du cumprendet cun aprentu mannu.",
-	'babel-1-n' => "Custu usuariu podet azudare, ca unu '''[[$1|azicu]]''' de '''[[$2|Sardu]]''' lu connoschet.",
-	'babel-2-n' => "Custu usuariu podet azudare, ca connoschet su '''[[$2|Sardu]]''' e lu '''[[$1|cumprendet]]'''.",
-	'babel-3-n' => "Custu usuariu potet azudare '''[[$1|meda]]''' pro ite ischit faeddare e iscrìere su '''[[$2|Sardu]]'''.",
-	'babel-4-n' => "Custu usuariu faeddat su '''[[$2|Sardu]]''' in modu '''[[$1|perfetu]]'''.",
+	'babel' => 'Babel usuàriu',
+	'babel-desc' => 'Aciungit sa funtzioni parser <tt>#babel</tt> pro permitiri sa generatzioni automatica de una colunna box usuàriu babel cun sa possibilidade de insertai template personalitzaos',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Su nòmene usuàriu spetzificau est impreau pro sa creatzione automatiga de is categorias [[$1|Babel]] e non podit èssere registrau.',
+	'babel-autocreate-reason' => 'Crea automaticamenti sa pàgina de sa categoria [[$1|Babel]]',
+	'babel-autocreate-text-levels' => 'Is usuàrios de custa categoria narant de tènnere unu livellu $1 pro sa limba $2.',
+	'babel-autocreate-text-main' => 'Is usuàrios de custa categoria narant de tènnere una connoscientzia de sa limba $1.',
+	'babel-0' => 'Custu usuàriu [[$1|non]] connoschet su [[$2|$3]] (o du cumprendet cun aprentu mannu).',
+	'babel-1' => 'Custu usuàriu tenet una connoscéntzia [[$1|basica]] de su [[$2|$3]].',
+	'babel-2' => 'Custu usuàriu tenet una connoscéntzia [[$1|intermedia]] de su [[$2|$3]].',
+	'babel-3' => 'Custu usuàriu tenet una connoscéntzia [[$1|avanzada]] de su [[$2|$3]].',
+	'babel-4' => 'Custu usuàriu tenet una connoscéntzia [[$1|cante sa limba mama]] de su [[$2|$3]].',
+	'babel-5' => 'Custu usuàriu tenet una connoscéntzia [[$1|professionale]] de su [[$2|$3]].',
+	'babel-N' => 'Custu usuàriu tenet su [[$2|$3]] comente [[$1|limba mama]].',
+	'babel-0-n' => "Custu usuàriu [[$1|non cumprendet]] su '''[[$2|Sardu]]''', o du cumprendet cun aprentu mannu.",
+	'babel-1-n' => "Custu usuàriu podet azudare, ca unu '''[[$1|azicu]]''' de '''[[$2|Sardu]]''' lu connoschet.",
+	'babel-2-n' => "Custu usuàriu podet azudare, ca connoschet su '''[[$2|Sardu]]''' e lu '''[[$1|cumprendet]]'''.",
+	'babel-3-n' => "Custu usuàriu potet azudare '''[[$1|meda]]''' pro ite ischit faeddare e iscrìere su '''[[$2|Sardu]]'''.",
+	'babel-4-n' => "Custu usuàriu faeddat su '''[[$2|Sardu]]''' in modu '''[[$1|perfetu]]'''.",
 	'babel-5-n' => 'Custu usuàriu connoschet su [[$2|Sardu]] a livellu [[$1|profesionale]].',
-	'babel-N-n' => "Custu usuariu faeddat su '''[[$2|Sardu]]'''  comente '''[[$1|limba mama]]'''.",
+	'babel-N-n' => "Custu usuàriu faeddat su '''[[$2|Sardu]]'''  comente '''[[$1|limba mama]]'''.",
 );
 
 /** Sicilian (Sicilianu)
@@ -3214,6 +3267,21 @@ $messages['vro'] = array(
 	'babel-4-n' => 'Taa pruukja mõist [[$2|võro]] kiilt [[$1|pia nigu imäkiilt]].',
 	'babel-5-n' => 'Taa pruukja om [[$2|võro]] keele pääle [[$1|vällä opnuq]].',
 	'babel-N-n' => 'Taa pruukja [[$1|imäkiil]] om [[$2|võro]] kiil.',
+);
+
+/** Walloon (Walon)
+ * @author Lucyin
+ */
+$messages['wa'] = array(
+	'babel' => "racsegnes so l' uzeu d' Babel",
+	'babel-0' => "Cist(e) uzeu(se) ci n' a [[$1|nole]] kinoxhance do [[$2|$3]] (oudon-bén, nel comprinde k' a schipe)",
+	'babel-1' => "Cist(e) uzeu(se) ci ni sait l' [[$2|$3]] ki come [[$1|onk (ene) ki cmince]].",
+	'babel-2' => 'Cist(e) uzeu(se) ci kinoxhe [[$1|ene miete]] li [[$2|$3]].',
+	'babel-3' => "Cist(e) uzeu(se) ci sait [[$1|bén]] l' [[$2|$3]].",
+	'babel-0-n' => "Cist(e) uzeu(se) cial ni sait [[$1|nén]] l' [[$2|walon]] (oudon-bén nel comprinde k' a poenne).",
+	'babel-1-n' => "Cist(e) uzeu(se) ci ni sait l' [[$2|walon]] ki come [[$1|onk (ene) ki cmince]].",
+	'babel-2-n' => 'Cist(e) uzeu(se) ci kinoxhe [[$1|ene miete]] li [[$2|walon]].',
+	'babel-3-n' => "Cist(e) uzeu(se) ci sait [[$1|bén]] l' [[$2|walon]].",
 );
 
 /** Wolof (Wolof)
