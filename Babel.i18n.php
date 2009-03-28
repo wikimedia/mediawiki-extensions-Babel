@@ -223,6 +223,7 @@ $messages['ar'] = array(
 $messages['arc'] = array(
 	'babel' => 'ܝܕܥܬ̈ܐ ܕܡܦܠܚܢܐ ܕܒܒܠ',
 	'babel-url' => 'Project:ܒܒܠ',
+	'babel-directionality' => 'rtl',
 	'babel-0' => 'ܗܢ ܡܦܠܚܢܐ [[$1|ܠܝܬ]] ܠܗ ܝܕܥܬܐ ܒ[[$2|$3]] (ܐܘ ܝܕܥ ܠܗ ܒܥܣܩܘܬܐ)',
 	'babel-1' => 'ܗܢ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܪܫܝܬܐ]] ܒ[[3$|2$]]',
 	'babel-2' => 'ܗܢ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܡܨܥܝܬܐ]] ܒ[[$2|$3]]',
@@ -966,6 +967,7 @@ $messages['fa'] = array(
 );
 
 /** Finnish (Suomi)
+ * @author Crt
  * @author Ilaiho
  * @author Jaakonam
  * @author Nike
@@ -974,8 +976,8 @@ $messages['fi'] = array(
 	'babel' => 'Käyttäjän kielitaito',
 	'babel-desc' => 'Lisää <tt>#babel</tt>-funktion, jotta käyttäjän kielitaidosta kertova babel-käyttäjälaatikkosarake voidaan luoda automaattisesti ja sisällyttää räätälöityihin mallineisiin.',
 	'babel-url' => 'Project:Kielitaito',
-	'babel-autocreate-abort' => 'Antamasi käyttäjätunnus on varattu kielitaitoluokkien automaattiseen luomiseen, joten et voi rekisteröidä sitä.',
-	'babel-autocreate-reason' => 'Kielitaidon luokkasivun automaattinen luonti.',
+	'babel-autocreate-abort' => 'Antamasi käyttäjätunnus on varattu [[$1|kielitaitoluokkien]] automaattiseen luomiseen, joten et voi rekisteröidä sitä.',
+	'babel-autocreate-reason' => '[[$1|Kielitaidon]] luokkasivun automaattinen luonti.',
 	'babel-autocreate-text-levels' => 'Käyttäjät tässä luokassa ovat ilmoittaneet osaavansa kieltä $1 tasolla $2.',
 	'babel-autocreate-text-main' => 'Käyttäjät tässä luokassa ovat ilmoittaneet ymmärtävänsä kieltä $1.',
 	'babel-0' => 'Tämä käyttäjä osaa [[$1|hyvin vähän tai ei lainkaan]] kieltä [[$2|$3]].',
