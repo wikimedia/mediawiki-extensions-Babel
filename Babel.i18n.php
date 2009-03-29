@@ -125,6 +125,7 @@ $messages['pcd'] = array(
 	'babel-autocreate-text-main' => "Ches uzeus din l'catégorie-lo, is déloufette qu'is bavette din l'langue $1.",
 	'babel-0' => "Ech uzeu-lo, i n'bave [[$1|poin]] in [[$2|picard]]  (ou bin i parle un tiot peu in picard)",
 	'babel-1' => 'Ech uzeu-lo, il o un [[$1|basique]] parlache in [[$2|$3]] picard.',
+	'babel-N' => "Pou echl'uzeu-lo, [[$2|$3]] ch'est l'langue ed ses pérints.",
 );
 
 /** Afrikaans (Afrikaans)
@@ -793,6 +794,13 @@ $messages['dsb'] = array(
 	'babel-4-n' => 'Toś ten wužywaŕ powěda [[$2|dolnoserbšćinu]] kaž [[$1|maminorěcny]].',
 	'babel-5-n' => 'Toś ten wužywaŕ ma [[$1|profesionelne]] znajobnosći [[$2|dolnoserbšćiny]].',
 	'babel-N-n' => 'Toś ten wužywaŕ powěda [[$2|dolnoserbšćinu]] ako [[$1|maminu rěc]].',
+);
+
+/** Divehi (ދިވެހިބަސް)
+ * @author GerardM
+ */
+$messages['dv'] = array(
+	'babel-directionality' => 'rtl',
 );
 
 /** Greek (Ελληνικά)
@@ -3166,6 +3174,7 @@ $messages['uk'] = array(
 );
 
 /** Urdu (اردو)
+ * @author GerardM
  * @author محبوب عالم
  */
 $messages['ur'] = array(
@@ -3175,6 +3184,7 @@ $messages['ur'] = array(
 	'babel-autocreate-reason' => '[[$1|بابل]] زمرہ‌جاتی صفحہ کی خودکار تخلیق ہورہی ہے.',
 	'babel-autocreate-text-levels' => 'اِس زمرہ کے صارفین یہ نشاندہی کرتے ہیں کہ $2 زبان کیلئے اُن کی مہارتی سطح $1 ہے.',
 	'babel-autocreate-text-main' => 'اِس زمرہ کے صارفین یہ نشاندہی کرتے ہیں کہ وہ $1 زبان کا علم رکھتے ہیں.',
+	'babel-directionality' => 'rtl',
 	'babel-0' => 'یہ صارف [[$2|$3]] [[$1|نہیں]] جانتا (یا اِسے کافی مشکل سے سمجھتا ہے).',
 	'babel-1' => 'یہ صارف [[$2|$3]] کا [[$1|بنیادی]] علم رکھتا ہے.',
 	'babel-2' => 'یہ صارف [[$2|$3]] کا [[$1|متوسط]] علم رکھتا ہے.',
