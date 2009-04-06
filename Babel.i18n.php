@@ -57,6 +57,7 @@ $messages['en'] = array(
  * @author Purodha
  * @author Raimond Spekking
  * @author Raymond
+ * @author RobertL
  * @author Siebrand
  */
 $messages['qqq'] = array(
@@ -117,6 +118,7 @@ $messages['kea'] = array(
 
 /** Picard (Picard)
  * @author Geoleplubo
+ * @author GerardM
  */
 $messages['pcd'] = array(
 	'babel' => 'informatchion dech uzeu Babel',
@@ -124,8 +126,17 @@ $messages['pcd'] = array(
 	'babel-autocreate-text-levels' => "Ches uzeus din l'catégorie-lo, is déloufette qu'is ont un nivieu avinché $1 din l'langue $2.",
 	'babel-autocreate-text-main' => "Ches uzeus din l'catégorie-lo, is déloufette qu'is bavette din l'langue $1.",
 	'babel-0' => "Ech uzeu-lo, i n'bave [[$1|poin]] in [[$2|picard]]  (ou bin i parle un tiot peu in picard)",
-	'babel-1' => 'Ech uzeu-lo, il o un [[$1|basique]] parlache in [[$2|$3]] picard.',
+	'babel-1' => 'Ech uzeu-lo, il o un [[$1|basique]] parlache in [[$2|picard]] .',
+	'babel-2' => 'Echl uzeu-lo, il o un [[$1|mouéyin]] pérlache in [[$2|$3 - picard]] (picard).',
+	'babel-3' => 'Ech uzeu-lo, il o un  parlache [[$1|avanché]] in [[$2|$3]] (picard).',
+	'babel-5' => 'Echl uzeu-lo, il o un  parlache [[$1|proféchionèl]] in [[$2|$3]] (picard).',
 	'babel-N' => "Pou echl'uzeu-lo, [[$2|$3]] ch'est l'langue ed ses pérints.",
+	'babel-0-n' => "Ech uzeu-lo, i n'bave [[$1|poin]] in [[$2|picard]]  (ou bin i pérle un tiot peu in inglé)",
+	'babel-1-n' => 'Echl uzeu-lo, il o un [[$1|basique]] pérlache in [[$2|picard]].',
+	'babel-2-n' => 'Echl uzeu-lo, il o un [[$1|mouéyin]] pérlache in [[$2|picard]].',
+	'babel-3-n' => 'Echl uzeu-lo, il o un  parlache [[$1|avanché]] in [[$2|picard]].',
+	'babel-5-n' => 'Echl uzeu-lo, il o un  parlache [[$1|proféchionnèl]] in [[$2|picard]].',
+	'babel-N-n' => "Pou echl'uzeu-lo, [[$2|picard]] ch'est [[$1|l'langue ed ses pérints]].",
 );
 
 /** Votic (Vaďďa)
@@ -252,20 +263,20 @@ $messages['arc'] = array(
 	'babel' => 'ܝܕܥܬ̈ܐ ܕܡܦܠܚܢܐ ܕܒܒܠ',
 	'babel-url' => 'Project:ܒܒܠ',
 	'babel-directionality' => 'rtl',
-	'babel-0' => 'ܗܢ ܡܦܠܚܢܐ [[$1|ܠܝܬ]] ܠܗ ܝܕܥܬܐ ܒ[[$2|$3]] (ܐܘ ܝܕܥ ܠܗ ܒܥܣܩܘܬܐ)',
-	'babel-1' => 'ܗܢ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܪܫܝܬܐ]] ܒ[[3$|2$]]',
-	'babel-2' => 'ܗܢ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܡܨܥܝܬܐ]] ܒ[[$2|$3]]',
-	'babel-3' => 'ܗܢ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܡܬܩܕܡܢܝܬܐ]] ܒ[[$2|$3]]',
-	'babel-4' => 'ܗܢ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܩܪܝܒܬܐ ܡܢ ܠܫܢܐ ܕܐܡܐ]] ܒ[[$2|$3]]',
-	'babel-5' => 'ܗܢ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܚܪܝܦܬܐ]] ܒ[[$2|$3]]',
-	'babel-N' => 'ܗܢ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܐܝܟ ܠܫܢܐ ܕܐܡܐ]] ܒ[[$2|$3]]',
-	'babel-0-n' => 'ܗܢ ܡܦܠܚܢܐ [[$1|ܠܝܬ]] ܠܗ ܝܕܥܬܐ ܒ[[$2|ܐܪܡܝܐ]] (ܐܘ ܝܕܥ ܠܗ ܒܥܣܩܘܬܐ)',
-	'babel-1-n' => 'ܗܢ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܪܫܝܬܐ]] ܒ[[$2|ܐܪܡܝܐ]]',
-	'babel-2-n' => 'ܗܢ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܡܨܥܝܬܐ]] ܒ[[$2|ܐܪܡܝܐ]]',
-	'babel-3-n' => 'ܗܢ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܡܬܩܕܡܢܝܬܐ]] ܒ[[$2|ܐܪܡܝܐ]]',
-	'babel-4-n' => 'ܗܢ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܩܪܝܒܬܐ ܡܢ ܠܫܢܐ ܕܐܡܐ]] ܒ[[$2|ܐܪܡܝܐ]]',
-	'babel-5-n' => 'ܗܢ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܚܪܝܦܬܐ]] ܒ[[$2|ܐܪܡܝܐ]]',
-	'babel-N-n' => 'ܗܢ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܐܝܟ ܠܫܢܐ ܕܐܡܐ]] ܒ[[$2|ܐܪܡܝܐ]]',
+	'babel-0' => 'ܗܢܐ ܡܦܠܚܢܐ [[$1|ܠܐ ܝܕܥ]] [[$2|$3]] (ܐܘ ܝܕܥ ܠܗ ܒܥܣܩܘܬܐ)',
+	'babel-1' => 'ܗܢܐ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܪܫܝܬܐ]] ܒ[[3$|2$]]',
+	'babel-2' => 'ܗܢܐ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܡܨܥܝܬܐ]] ܒ[[$2|$3]]',
+	'babel-3' => 'ܗܢܐ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܡܬܩܕܡܢܝܬܐ]] ܒ[[$2|$3]]',
+	'babel-4' => 'ܗܢܐ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܩܪܝܒܬܐ ܡܢ ܠܫܢܗ ܐܡܗܝܐ]] ܒ[[$2|$3]]',
+	'babel-5' => 'ܗܢܐ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܚܪܝܦܬܐ]] ܒ[[$2|$3]]',
+	'babel-N' => 'ܗܢܐ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ ܒ[[$2|$3]] [[$1|ܐܝܟ ܠܫܢܗ ܐܡܗܝܐ]]',
+	'babel-0-n' => 'ܗܢܐ ܡܦܠܚܢܐ [[$1|ܠܐ ܝܕܥ]] [[$2|$3]] (ܐܘ ܝܕܥ ܠܗ ܒܥܣܩܘܬܐ)',
+	'babel-1-n' => 'ܗܢܐ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܪܫܝܬܐ]] ܒ[[$2|ܐܪܡܝܐ]]',
+	'babel-2-n' => 'ܗܢܐ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܡܨܥܝܬܐ]] ܒ[[$2|ܐܪܡܝܐ]]',
+	'babel-3-n' => 'ܗܢܐ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܡܬܩܕܡܢܝܬܐ]] ܒ[[$2|ܐܪܡܝܐ]]',
+	'babel-4-n' => 'ܗܢܐ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܩܪܝܒܬܐ ܡܢ ܠܫܢܗ ܐܡܗܝܐ]] ܒ[[$2|ܐܪܡܝܐ]]',
+	'babel-5-n' => 'ܗܢܐ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܚܪܝܦܬܐ]] ܒ[[$2|ܐܪܡܝܐ]]',
+	'babel-N-n' => 'ܗܢܐ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܐܝܟ ܠܫܢܗ ܐܡܗܝܐ]] ܒ[[$2|ܐܪܡܝܐ]]',
 );
 
 /** Araucanian (Mapudungun)
@@ -1227,6 +1238,33 @@ $messages['gsw'] = array(
 	'babel-4-n' => 'Dää Benutzer cha [[$2|Alemannisch]] [[$1|wie ne Muetterspröchler]].',
 	'babel-5-n' => 'Dää Benutzer cha [[$2|Alemannisch]] uf [[$1|professionällem]] Niveau.',
 	'babel-N-n' => 'Däm Benutzer syyni [[$1|Muettersproch]] isch [[$2|Alemannisch]].',
+);
+
+/** Gujarati (ગુજરાતી)
+ * @author Dineshjk
+ */
+$messages['gu'] = array(
+	'babel' => 'બબેલ સબ્ય માહિતી',
+	'babel-desc' => 'કસ્ટમ ઢાંચા સહીત, સ્વસંચાલિત બબેલ સભ્યબોકસ કૉલમ બનાવવા માટે <tt>#babel</tt> પાર્સર વિધેય ઉમેરે છે.',
+	'babel-url' => 'Project:બબેલ',
+	'babel-autocreate-abort' => 'તમે જે સભ્યનામ દર્શાવ્યું છે તે [[$1|બબેલ]] શ્રેણીના સ્વયંભુ પ્રાકટ્ય માટે આરક્ષિત છે અને તે નામ પર નોંધણી શક્ય નથી.',
+	'babel-autocreate-reason' => '[[$1|બબેલ]]નું સ્વયંભુ પ્રાકટ્ય થઇ રહ્યું છે.',
+	'babel-autocreate-text-levels' => 'આ શ્રેણીના સભ્યોને $2 ભાષામાં $1 જેટલી પ્રવીણતા છે.',
+	'babel-autocreate-text-main' => 'આ શ્રેણીના સભ્યો $1 ભાષા જાણે છે.',
+	'babel-0' => 'આ સભ્યને [[$2|$3]] ભાષાની [[$1|જરાપણ]] જાણકારી નથી (અથવા મહામુશ્કેલીથી સમજી શકે છે).',
+	'babel-1' => 'આ સભ્યને [[$2|$3]]ની  [[$1|પ્રાથમિક]] જાણકારી છે.',
+	'babel-2' => 'આ સભ્યને [[$2|$3]]ની [[$1|થોડીક]] જાણકારી છે.',
+	'babel-3' => 'આ સભ્યને [[$2|$3]]ની [[$1|ખૂબજ સારી]] જાણકારી છે.',
+	'babel-4' => 'આ [[$2|$3]]ની આ સભ્યને [[$1|માતૃભાષી]] જેટલી જાણકારી છે.',
+	'babel-5' => 'આ સભ્યને [[$2|$3]] ઉપર [[$1|પ્રભુત્વ]] છે.',
+	'babel-N' => '[[$2|$3]] આ સભ્યની  [[$1|માતૃભાષા]] છે.',
+	'babel-0-n' => 'આ સભ્યને [[$2|અંગ્રેજી]]ની [[$1|જરાપણ]] જાણકારી નથી (અથવા તે મહામુસીબતે સમજી શકે છે).',
+	'babel-1-n' => 'આ સભ્યને [[$2|અંગ્રેજી]]નું [[$1|પ્રાથમિક કક્ષાનું]] જ્ઞાન છે.',
+	'babel-2-n' => 'આ સભ્યને [[$2|અંગ્રેજી]]નું [[$1|થોડુંક]] જ્ઞાન છે.',
+	'babel-3-n' => 'આ સભ્યને [[$2|અંગ્રેજી]]ની [[$1|ખૂબજ સારી]] જાણકારી છે.',
+	'babel-4-n' => '[[$2|અંગ્રેજી]]ની આ સભ્યને [[$1|માતૃભાષી]] જેટલી જાણકારી છે.',
+	'babel-5-n' => 'આ સભ્યને [[$2|અંગ્રેજી]] ઉપર [[$1|પ્રભુત્વ]] છે.',
+	'babel-N-n' => '[[$2|અંગ્રેજી]] આ સભ્યની [[$1|માતૃભાષા]] છે.',
 );
 
 /** Manx (Gaelg)
