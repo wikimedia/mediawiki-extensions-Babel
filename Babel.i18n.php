@@ -96,6 +96,34 @@ $messages['sxu'] = array(
 	'babel-N-n' => "Dor Benutzor hior is ä rüscht'schor [[$1|Muddorsprachlor]] vom [[$2|Sächs'sch]]n.",
 );
 
+/** Lower Silesian (Schläsch)
+ * @author Jonny84
+ * @author Piotron
+ */
+$messages['sli'] = array(
+	'babel' => 'Babel-Benutzer-Information',
+	'babel-desc' => 'Ergänzt de <tt>#babel</tt>-Parserfunktion zur automatischen Erstellung vo Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Dar oausgewählte Nutzername werd fier de automatische Arstellung voo [[$1|Babel]]-Kategoria benötigt un kaon nä registriert werda.',
+	'babel-autocreate-reason' => 'Automatisch arstellte [[$1|Babel]]-Kategorie.',
+	'babel-autocreate-text-levels' => 'Benutzer ei dieser Kategorie haben den Kenntnis-Level $1 für die Sproache $2.',
+	'babel-autocreate-text-main' => 'Benutzer ei dieser Kategorie haben Kenntnisse der Sproache $1.',
+	'babel-0' => 'Dieser Benutzer beherrscht [[$2|$3]] [[$1|nicht]] (oder versteht es nur mit beträchtlichen Schwierigkeiten).',
+	'babel-1' => 'Dieser Benutzer beherrscht [[$2|$3]] auf [[$1|grundlegendem]] Niveau.',
+	'babel-2' => 'Dieser Benutzer beherrscht [[$2|$3]] uff [[$1|fortgeschrittenem]] Niveau.',
+	'babel-3' => 'Dieser Benutzer beherrscht [[$2|$3]] uff [[$1|hohem]] Niveau.',
+	'babel-4' => 'Dieser Benutzer beherrscht [[$2|$3]] uff [[$1|muttersprachlichem Niveau]].',
+	'babel-5' => 'Dieser Benutzer beherrscht [[$2|$3]] uff [[$1|professionellem]] Niveau.',
+	'babel-N' => 'Dieser Benutzer spricht [[$2|$3]] als [[$1|Muttersproache]].',
+	'babel-0-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] [[$1|nä]] (oder versteht es nur mit beträchtlicha Schwierigkeita).',
+	'babel-1-n' => 'Dieser Benutzer koann a wing [[$2|Schläsch]].',
+	'babel-2-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] uff [[$1|fortgeschrittenem]] Niveau.',
+	'babel-3-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] uff [[$1|hohem]] Niveau.',
+	'babel-4-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] uff [[$1|muttersproachlichem Niveau]].',
+	'babel-5-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] uff [[$1|professionellem]] Niveau.',
+	'babel-N-n' => 'Dieser Benutzer ies a echte schläsche Lerge un spricht [[$2|Schläsch]] als [[$1|Muttersproache]].',
+);
+
 /** Kabuverdianu (Kabuverdianu)
  * @author Waldir
  */
@@ -1130,6 +1158,33 @@ $messages['ga'] = array(
 	'babel-N-n' => 'Tá [[$2|Gaeilge]] [[$1|dúchasach]] ag an úsáideoir seo.',
 );
 
+/** Gan (贛語)
+ * @author Symane
+ */
+$messages['gan'] = array(
+	'babel' => '巴別用戶資料',
+	'babel-desc' => '加隻<tt>#babel</tt>處理功能去容許自動產生一隻巴別用戶盒欄，同到含到可自定化嗰模板',
+	'babel-url' => 'Project:巴別',
+	'babel-autocreate-abort' => '倷特試要求嗰用戶名已經自動係[[$1|Babel]]嗰分類，咁就登記不正。',
+	'babel-autocreate-reason' => '自動建立[[$1|Babel]]分類頁。',
+	'babel-autocreate-text-levels' => '箇隻分類嗰用戶都有 $2 語言嗰 $1 水平嗰交流能力。',
+	'babel-autocreate-text-main' => '箇隻分類嗰用戶都有 $1 語言嗰知識。',
+	'babel-0' => '箇隻用戶[[$1|冇滴子]][[$2|$3]]嗰水平（或者好艱難去聽轉佢）。',
+	'babel-1' => '箇隻用戶有[[$1|滴把子]]嗰[[$2|$3]]水平。',
+	'babel-2' => '箇隻用戶有[[$1|一般子]]嗰[[$2|$3]]水平。',
+	'babel-3' => '箇隻用戶有[[$1|蠻靚]]嗰[[$2|$3]]水平。',
+	'babel-4' => '箇隻用戶有[[$1|好喫價]]嗰[[$2|$3]]水平。',
+	'babel-5' => '箇隻用戶有[[$1|專業]]嗰[[$2|$3]]能力。',
+	'babel-N' => '箇隻用戶曉得[[$2|$3]]嗰[[$1|母語]]。',
+	'babel-0-n' => '箇隻用戶[[$1|冇滴子]][[$2|贛語]]嗰水平（或者好艱難去聽轉佢）。',
+	'babel-1-n' => '箇隻用戶有[[$1|滴把子]]嗰[[$2|贛語]]水平。',
+	'babel-2-n' => '箇隻用戶有[[$1|一般子]]嗰[[$2|贛語]]水平。',
+	'babel-3-n' => '箇隻用戶有[[$1|蠻靚]]嗰[[$2|贛語]]水平。',
+	'babel-4-n' => '箇隻用戶有[[$1|好喫價]]嗰[[$2|贛語]]水平。',
+	'babel-5-n' => '箇隻用戶有[[$1|專業]]嗰[[$2|贛語]]能力。',
+	'babel-N-n' => '箇隻用戶曉得[[$2|贛語]]嗰[[$1|母語]]。',
+);
+
 /** Scottish Gaelic (Gàidhlig)
  * @author Caoimhin
  * @author Sionnach
@@ -1762,8 +1817,6 @@ $messages['kn'] = array(
 	'babel-4-n' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|ಕನ್ನಡ ಭಾಷೆ]] ಬಗ್ಗೆ [[$1|ಮೂಲಭಾಷಿಕರಿಗೆ ಸಮನಾದ]] ಜ್ನಾನವಿದೆ',
 	'babel-5-n' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|ಕನ್ನಡ ಭಾಷೆ]] ಬಗ್ಗೆ [[$1|ವೃತ್ತಿಪರ]] ಜ್ನಾನವಿದೆ',
 	'babel-N-n' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|ಕನ್ನಡ ಭಾಷೆ]] ಬಗ್ಗೆ [[$1|ಮೂಲಭಾಷಿಕರ]] ಜ್ನಾನವಿದೆ',
-	'babel-0-female' => 'ಸ೦ದೇಶ ವಿವರಣೆ(ಬೇಬಲ್)',
-	'babel-1-female' => 'ಸ೦ದೇಶ ವಿವರಣೆ(ಬೇಬಲ್)',
 );
 
 /** Korean (한국어)
@@ -3052,7 +3105,6 @@ $messages['tcy'] = array(
 	'babel-4-n' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|ತುಳು]]ತ ಬಗ್ಗೆ [[$1|ಮೂಲಭಾಷಿಕೆರ್ನ ಮಟ್ಟದ]] ಜ್ನಾನ ಉ೦ಡು',
 	'babel-5-n' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|ತುಳು]]ತ ಬಗ್ಗೆ [[$1|ವೃತ್ತಿಪರೆರ್ನ]] ಜ್ನಾನ ಉ೦ಡು',
 	'babel-N-n' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|ತುಳು]]ತ ಬಗ್ಗೆ [[$1|ಮೂಲಭಾಷಿಕೆರ್ನ]] ಜ್ನಾನ ಉ೦ಡು',
-	'babel-0-female' => 'ಸ೦ದೇಶ ವಿವರಣೆ(ಬೇಬಲ್)',
 );
 
 /** Telugu (తెలుగు)
@@ -3295,6 +3347,33 @@ $messages['vec'] = array(
 	'babel-4-n' => 'Sto utente qua el parla la [[$2|lengua veneta]] squasi [[$1|come la so lengua mare]].',
 	'babel-5-n' => 'Sto utente qua el parla la [[$2|lengua veneta]] a [[$1|livèi da professionista]].',
 	'babel-N-n' => "Sto utente qua el parla la [[$2|lengua veneta]] [[$1|da co che'l xe nato]].",
+);
+
+/** Veps (Vepsan kel')
+ * @author Игорь Бродский
+ */
+$messages['vep'] = array(
+	'babel' => 'Andmused ühtnijan keliš',
+	'babel-desc' => 'Ližadab <tt>#babel</tt>-parseran funkcii, kudamb laskeb säta avtomatižešti pacaz informacijanke keliš, kudambha sab ližata toižid-ki šablonoid',
+	'babel-url' => 'Projekt:Vavilon',
+	'babel-autocreate-abort' => 'Teil kirjutadud ühtnijan nimi kävutadas [[$1|Babel]]-projektan kategorijoiden avtomatižen sädandan täht, i sikš sidä ei sa registriruida.',
+	'babel-autocreate-reason' => '[[$1|Babel]]-projektan avtomatine lehtpolen sädand.',
+	'babel-autocreate-text-levels' => 'Necen kategorijan kävutajad oma ozutadud tedonmär $1 $2-kelen täht.',
+	'babel-autocreate-text-main' => 'Necen kategorijan kävutajad ozutiba $1-kelen tedmine.',
+	'babel-0' => "Nece kävutai [[$1|ei el'genda]] kel't [[$2|$3]] (vai el'gendab lujiden jügedusidenke)",
+	'babel-1' => "Nece kävutai tedab kel't [[$2|$3]] [[$1|augotižmäras]]",
+	'babel-2' => "Nece kävutai tedab kel't [[$2|$3]] [[$1|keskmäras]].",
+	'babel-3' => "Nece kävutai tedab kel't [[$2|$3]] [[$1|hüväs märas]].",
+	'babel-4' => "Nece kävutai tedab kel't [[$2|$3]] [[$1|läz mamankelen kävutamišt]].",
+	'babel-5' => "Nece kävutai tedab kel't [[$2|$3]] [[$1|professionaližes märas]].",
+	'babel-N' => "[[$2|$3]] kel' om kävutajan [[$1|mamankel']]",
+	'babel-0-n' => "Nece kävutai [[$1|ei el'genda]] [[$2|vepsän kel't]] (vai el'gendab lujiden jügedusidenke).",
+	'babel-1-n' => "Nece kävutai tedab [[$2|vepsän kel't]] [[$1|augotižmäras]].",
+	'babel-2-n' => "Nece kävutai tedab [[$2|vepsän kel't]] [[$1|keskmäras]].",
+	'babel-3-n' => "Nece kävutai tedab [[$2|vepsän kel't]] [[$1|hüväs märas]].",
+	'babel-4-n' => "Nece kävutai tedab [[$2|vepsän kel't]] [[$1|läz mamankelen kävutamišt]].",
+	'babel-5-n' => "Nece kävutai tedab [[$2|vepsän kel't]] [[$1|professionaližes märas]].",
+	'babel-N-n' => "[[$2|Vepsän kel']] om necen kävutajan [[$1|mamankel']].",
 );
 
 /** Vietnamese (Tiếng Việt)
