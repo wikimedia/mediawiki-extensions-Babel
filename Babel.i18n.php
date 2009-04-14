@@ -2459,6 +2459,15 @@ $messages['os'] = array(
 	'babel-N-n' => '[[$2|Ирон]] у ацы архайæджы [[$1|мадæлон æвзаг]].',
 );
 
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'babel-0-n' => 'Daer Yuuser do schwetzt [[$1|net]] [[$2|Pennsilfaanisch Deitsch]].',
+	'babel-1-n' => 'Daer Yuuser do schwetzt [[$1|ebbes]] [[$2|Pennsilfaanisch Deitsch]].',
+	'babel-N-n' => 'Daer Yuuser do [[$1|schwetzt]] [[$2|Pennsilfaanisch Deitsch]].',
+);
+
 /** Pfälzisch (Pfälzisch)
  * @author Als-Holder
  */
@@ -2944,6 +2953,26 @@ $messages['sq'] = array(
 	'babel-4-n' => 'Ky përdorues ka njohuri [[$1|afërsisht amtare]] të [[$2|gjuhës Shqipe]].',
 	'babel-5-n' => 'Ky përdorues ka njohuri [[$1|profesionale]] të [[$2|gjuhës Shqipe]].',
 	'babel-N-n' => 'Ky përdorues ka njohuri [[$1|amtare]] të [[$2|gjuhës Shqipe]].',
+);
+
+/** Serbian Cyrillic ekavian (ћирилица)
+ * @author Михајло Анђелковић
+ */
+$messages['sr-ec'] = array(
+	'babel-0' => 'Овај корисник [[$1|не]] зна [[$2|$3]] (или га разуме са знатним потешкоћама)',
+	'babel-1' => 'Овај корисник има [[$1|основно]] познавање [[$2|$3]].',
+	'babel-2' => 'Овај корисник има [[$1|средње]] познавање [[$2|$3]].',
+	'babel-3' => 'Овај корисник [[$1|доста добро]] говори [[$2|$3]].',
+	'babel-4' => 'Овај корисник [[$1|течно]] говори [[$2|$3]].',
+	'babel-5' => 'Овај корисник има [[$1|професионално]] знање [[$2|$3]].',
+	'babel-N' => '[[$1|Матерњи језик]] овог корисника је [[$2|$3]].',
+	'babel-0-n' => 'Овај корисник [[$1|не]] зна [[$2|српски језик]] (или га разуме са знатним потешкоћама)',
+	'babel-1-n' => 'Овај корисник има [[$1|основно]] познавање [[$2|српског језика]].',
+	'babel-2-n' => 'Овај корисник [[$1|средње]] говори [[$2|српски језик]].',
+	'babel-3-n' => 'Овај корисник [[$1|доста добро]] говори [[$2|српски језик]].',
+	'babel-4-n' => 'Овај корисник [[$1|течно]] говори [[$2|српски језик]].',
+	'babel-5-n' => 'Овај корисник има [[$1|професионално]] знање [[$2|српског језика]].',
+	'babel-N-n' => '[[$1|Матерњи језик]] овог корисника је [[$2|српски језик]].',
 );
 
 /** Seeltersk (Seeltersk)
