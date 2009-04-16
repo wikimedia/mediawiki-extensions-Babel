@@ -455,6 +455,33 @@ $messages['ay'] = array(
 	'babel-N-n' => 'Jupax apnaqiri [[$2|aymar aru]]xa [[$1|yurawita]] yatiniwa.',
 );
 
+/** Bavarian (Boarisch)
+ * @author Man77
+ */
+$messages['bar'] = array(
+	'babel' => 'Babel-Benutza-Infoamazion',
+	'babel-desc' => "Eagänzt de <tt>#babel</tt>-Parserfunkzion fia'd automatische Eastellung vu Babel-Benutzaboxen-Zeun mid da Meglichkeid, dass ma eigne Voalång einbindt",
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => "Da ausgwöihte Benutzanãm wiad fia'd automatische Eastellung vu [[$1|Babel]]-Kategorien braucht. Desweng kã a ned registriad wean.",
+	'babel-autocreate-reason' => 'Automatisch eastöide [[$1|Babel]]-Kategorie.',
+	'babel-autocreate-text-levels' => 'Benutza in dea Kategorie hãm Kenntnisse in da Stufn $1 in da Språch $2.',
+	'babel-autocreate-text-main' => 'Benutza in dea Kategorie hãm Kenntnisse vu da Språch $1.',
+	'babel-0' => 'Dea Benutza kã koa [[$2|$3]] [[$1|ned]] (oda ea vastehd de Språch netta mid gscheide Schwiarichkeitn).',
+	'babel-1' => 'Dea Benutza kã [[$1|a bissl]] [[$2|$3]].',
+	'babel-2' => 'Dea Benutza kã [[$2|$3]] schãu [[$1|relativ guad]].',
+	'babel-3' => 'Dea Benutza kã [[$1|wiakli guad]] [[$2|$3]].',
+	'babel-4' => "Dea Benutza kã [[$2|$3]] [[$1|fåst so guad, wia wãun's sei Muataspråch warad]].",
+	'babel-5' => 'Dea Benutza kã [[$2|$3]] [[$1|wia a Muataspråchla]].',
+	'babel-N' => 'Dem Benutza sei [[$1|Muataspråch]] is [[$2|$3]].',
+	'babel-0-n' => "Dea Benutza kã koa [[$2|Boarisch]] [[$1|ned]] (oda ea vasteht's netta mid gscheide Schwiarichkeitn).",
+	'babel-1-n' => 'Dea Benutza kã [[$1|a bissl]] [[$2|Boarisch]].',
+	'babel-2-n' => 'Dea Benutza kã schã [[$1|relativ guad]] [[$2|Boarisch]].',
+	'babel-3-n' => 'Dea Benutza kã schãu [[$1|wiakli guad]] [[$2|Boarisch]].',
+	'babel-4-n' => "Dea Benutza kã [[$2|Boarisch]] [[$1|schãu fåst so guad, wia wãun's sei Muataspråch warad]].",
+	'babel-5-n' => 'Dea Benutza kã [[$2|Boarisch]] so guad wiar a [[$1|Muataspråchla]].',
+	'babel-N-n' => "Dem Benutza sei [[$1|Muataspråch]] is s'[[$2|Boarische]].",
+);
+
 /** Southern Balochi (بلوچی مکرانی)
  * @author Mostafadaneshvar
  */
@@ -2959,6 +2986,8 @@ $messages['sq'] = array(
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
+	'babel' => 'Језичке кутијице',
+	'babel-desc' => 'Додаје парсер-функцију <tt>#babel</tt>, која омогућује аутоматизовано додавање језичких кутијица уз могућност укључивања сопствених шаблона',
 	'babel-0' => 'Овај корисник [[$1|не]] зна [[$2|$3]] језик (или га разуме са знатним потешкоћама)',
 	'babel-1' => 'Овај корисник говори [[$2|$3]] језик [[$1|почетнички]].',
 	'babel-2' => 'Овај корисник [[$1|средње]] познаје [[$2|$3]] језик.',
