@@ -1900,10 +1900,10 @@ $messages['ksh'] = array(
 	'babel-N-n' => 'Heh {{GENDER:$4|däm Medmaacher sing|dä Metmaacheren ier}} [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]].',
 );
 
-/** ‫كوردي (عەرەبی)‬ (‫كوردي (عەرەبی)‬)
+/**
  * @author Asoxor
  */
-$messages['ku-arab'] = array(
+$messages['ckb-arab'] = array(
 	'babel-0' => 'ئەم بەکارھێنەرە [[$1|ھیچ]] ئاگاداریەکی لە [[$2|$3]] نیە ( یان زۆر بە سەختی تێ ئەگات).',
 	'babel-1' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|سەرەتایی]] لە [[$2|$3]] ھەیە.',
 	'babel-2' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|ناوەنجی]] لە [[$2|$3]] ھەیە.',
