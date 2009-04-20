@@ -685,6 +685,17 @@ $messages['ce'] = array(
 	'babel-N-n' => 'ХІокхо юзеро [[$1|шейр]] бийц хаъ [[$2|Нохчийн]] мотт.',
 );
 
+/**
+ * @author Asoxor
+ */
+$messages['ckb-arab'] = array(
+	'babel-0' => 'ئەم بەکارھێنەرە [[$1|ھیچ]] ئاگاداریەکی لە [[$2|$3]] نیە ( یان زۆر بە سەختی تێ ئەگات).',
+	'babel-1' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|سەرەتایی]] لە [[$2|$3]] ھەیە.',
+	'babel-2' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|ناوەنجی]] لە [[$2|$3]] ھەیە.',
+	'babel-3' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|پێشکەوتوو]]ی لە [[$2|$3]] ھەیە.',
+	'babel-4' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|نزیک بە زمانی دایکی]]ی لە [[$2|$3]] ھەیە.',
+);
+
 /** Crimean Turkish (Qırımtatarca)
  * @author Alessandro
  */
@@ -1900,17 +1911,6 @@ $messages['ksh'] = array(
 	'babel-N-n' => 'Heh {{GENDER:$4|däm Medmaacher sing|dä Metmaacheren ier}} [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]].',
 );
 
-/**
- * @author Asoxor
- */
-$messages['ckb-arab'] = array(
-	'babel-0' => 'ئەم بەکارھێنەرە [[$1|ھیچ]] ئاگاداریەکی لە [[$2|$3]] نیە ( یان زۆر بە سەختی تێ ئەگات).',
-	'babel-1' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|سەرەتایی]] لە [[$2|$3]] ھەیە.',
-	'babel-2' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|ناوەنجی]] لە [[$2|$3]] ھەیە.',
-	'babel-3' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|پێشکەوتوو]]ی لە [[$2|$3]] ھەیە.',
-	'babel-4' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|نزیک بە زمانی دایکی]]ی لە [[$2|$3]] ھەیە.',
-);
-
 /** Cornish (Kernewek)
  * @author Kw-Moon
  */
@@ -2887,6 +2887,33 @@ $messages['sd'] = array(
 	'babel-5' => 'هن يُوزر کي [[$2|$3]] جي [[$1|پيشورانه]] ڄاڻ آهي.',
 	'babel-1-n' => 'هن يُوزر کي [[$2|انگريزي]]ءَ جي [[$1|بنيادي]] ڄاڻ آهي.',
 	'babel-5-n' => 'هن يُوزر کي [[$2|انگريزي]]ءَ جي [[$1|پيشورانه]] ڄاڻ آهي.',
+);
+
+/** Serbo-Croatian (Srpskohrvatski / Српскохрватски)
+ * @author OC Ripper
+ */
+$messages['sh'] = array(
+	'babel' => 'Babel korisničke informacije',
+	'babel-desc' => 'Dodaje <tt>#babel</tt> parsersku funkciju koja omogućava automatsko pravljenje babel korisničke kutije u stupcu sa mogućnostima uključivanja prilagođenih šablona/predložaka',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Korisničko ime koje ste naveli se koristi za automatsko pravljenje [[$1|Babel]] kategorija i ne može se registrirati.',
+	'babel-autocreate-reason' => 'Automatsko stvaranje stranica [[$1|Babel]] kategorija.',
+	'babel-autocreate-text-levels' => 'Korisnici u ovoj kategoriji su označeni da imaju nivo $1 znanja $2 jezika.',
+	'babel-autocreate-text-main' => 'Korisnici u ovoj kategoriji su označeni da imaju znanje $1 jezika.',
+	'babel-0' => 'Ovaj korisnik [[$1|ne]] razumije [[$2|$3]] (ili ga razumije s velikim poteškoćama).',
+	'babel-1' => 'Ovaj korisnik posjeduje [[$1|osnovno]] razumijevanje [[$2|$3]] jezika.',
+	'babel-2' => 'Ovaj korisnik [[$1|srednje]] razumije [[$2|$3]].',
+	'babel-3' => 'Ovaj korisnik [[$1|napredno]] razumije [[$2|$3]].',
+	'babel-4' => 'Ovaj korisnik razumije [[$2|$3]] [[$1|gotovo kao maternji]] jezik.',
+	'babel-5' => 'Ovaj korisnik [[$2|$3]] na [[$1|profesionalnom]] nivou.',
+	'babel-N' => 'Ovaj korisnik razumije [[$2|$3]] kao [[$1|maternji]] jezik.',
+	'babel-0-n' => 'Ovaj korisnik [[$1|ne razumije]] [[$2|srpskohrvatski]] (ili ga razumije s velikim poteškoćama).',
+	'babel-1-n' => 'Ovaj korisnik ima [[$1|osnovno]] poznavanje [[$2|srpskohrvatskog jezika]].',
+	'babel-2-n' => 'Ovaj korisnik [[$1|srednje]] razumije [[$2|srpskohrvatski jezik]].',
+	'babel-3-n' => 'Ovaj korisnik ima [[$1|napredno]] poznavanje [[$2|srpskohrvatskog jezika]].',
+	'babel-4-n' => 'Ovaj korisnik razumije [[$2|srpskohrvatski]] [[$1|gotovo kao maternji jezik]].',
+	'babel-5-n' => 'Ovaj korisnik govori [[$2|srpskohrvatski jezik]] na [[$1|profesionalnoj]] razini.',
+	'babel-N-n' => 'Ovaj korisnik razumije [[$2|srpskohrvatski]] kao [[$1|maternji]] jezik.',
 );
 
 /** Sinhala (සිංහල)
