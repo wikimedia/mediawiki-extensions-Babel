@@ -194,6 +194,14 @@ $messages['vot'] = array(
 	'babel-N-n' => '[[$2|Vaďďa tšeeli]] on sene tšäüttijää [[$1|emätšeeli]].',
 );
 
+/** Achinese (Acèh)
+ * @author Si Gam Acèh
+ */
+$messages['ace'] = array(
+	'babel-0' => 'Nyang nguy nyoë [[$1|hana]] muphôm [[$2|$3]] (atawa cit ngön payah that).',
+	'babel-N' => 'Nyang nguy nyoë nakeuh [[$1|geumarit aseuli]] lam bahsa [[$2|$3]].',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
