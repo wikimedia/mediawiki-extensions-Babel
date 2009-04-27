@@ -20,6 +20,7 @@ if( !defined( 'MEDIAWIKI' ) ) die( 'Invalid entry point.' );
 
 // Register extension credits.
 $wgExtensionCredits[ 'parserhook' ][] = array(
+	'path'            => __FILE__,
 	'name'            => 'Babel',
 	'version'         => '1.2.3',
 	'author'          => 'Robert Leverington',
