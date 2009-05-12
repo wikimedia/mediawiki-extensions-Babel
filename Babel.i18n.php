@@ -1822,8 +1822,12 @@ $messages['kk-cyrl'] = array(
  * @author GerardM
  * @author Thearith
  * @author គីមស៊្រុន
+ * @author វ័ណថារិទ្ធ
  */
 $messages['km'] = array(
+	'babel' => 'ព័ត៌មាន​អ្នក​ប្រើ​ប្រាស់​ Babel',
+	'babel-url' => 'គម្រោង​:Babel',
+	'babel-autocreate-reason' => 'កំពុង​បង្កើត​ទំព័រ​ចំណាត់​ថ្នាក់​ក្រុម [[$1|Babel]] ដោយ​ស្វ័យ​ប្រវត្តិ​។​',
 	'babel-autocreate-text-levels' => 'អ្នកប្រើប្រាស់​ទាំងឡាយណា ដែល​ស្ថិតនៅក្នុង​ចំណាត់ថ្នាក់ក្រុម​នេះ បញ្ជាក់​ថា​ពួកគេ​មាន​ការយល់ដឹង​កម្រិត​ $1 សម្រាប់​ភាសា $2 ។',
 	'babel-autocreate-text-main' => 'អ្នកប្រើប្រាស់​ទាំងឡាយណា ដែល​ស្ថិតនៅក្នុង​ចំណាត់ថ្នាក់ក្រុម​នេះ បញ្ជាក់​ថា​ពួកគេ​ចេះ​និយាយ​​ភាសា $1 ។',
 	'babel-0' => 'អ្នកប្រើប្រាស់នេះ[[$1|មិនមាន]]ចំណេះដឹង [[$2|$3]] (ឬយល់បានខ្លះៗទាំងលំបាក)។',
@@ -2344,6 +2348,10 @@ $messages['nds'] = array(
 	'babel' => 'Babel-Bruker-Infos',
 	'babel-desc' => 'Föögt de <tt>#babel</tt>-Parserfunkschoon för dat automaatsche Opstellen vun Babel-Brukerboxen to. Verlöövt ok dat Inbinnen vun egene Vörlagen.',
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'De utwählt Brukernaam warrt för dat automaatsch Opstellen vun [[$1|Babel]]-Kategorien bruukt un kann nich registreert warrn.',
+	'babel-autocreate-reason' => 'Automaatsch opstellt [[$1|Babel]]-Kategorie.',
+	'babel-autocreate-text-levels' => 'Brukers in disse Kategorie köönt de Spraak $2 op Niveau $1 snacken.',
+	'babel-autocreate-text-main' => 'Brukers in disse Kategorie kennt vun de Spraak $1 wat af.',
 	'babel-0' => 'Disse Bruker versteiht [[$1|nix]] vun [[$2|$3]] (oder versteiht dat blot mit ganz grote Swierigkeiten).',
 	'babel-1' => 'Disse Bruker versteiht en [[$1|beten]] wat vun [[$2|$3]].',
 	'babel-2' => 'Disse Bruker versteiht [[$1|good]] wat vun [[$2|$3]].',
