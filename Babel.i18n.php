@@ -96,34 +96,6 @@ $messages['sxu'] = array(
 	'babel-N-n' => "Dor Benutzor hior is ä rüscht'schor [[$1|Muddorsprachlor]] vom [[$2|Sächs'sch]]n.",
 );
 
-/** Lower Silesian (Schläsch)
- * @author Jonny84
- * @author Piotron
- */
-$messages['sli'] = array(
-	'babel' => 'Babel-Benutzer-Information',
-	'babel-desc' => 'Ergänzt de <tt>#babel</tt>-Parserfunktion zur automatischen Erstellung vo Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
-	'babel-url' => 'Project:Babel',
-	'babel-autocreate-abort' => 'Dar oausgewählte Nutzername werd fier de automatische Arstellung voo [[$1|Babel]]-Kategoria benötigt un kaon nä registriert werda.',
-	'babel-autocreate-reason' => 'Automatisch arstellte [[$1|Babel]]-Kategorie.',
-	'babel-autocreate-text-levels' => 'Benutzer ei dieser Kategorie haben den Kenntnis-Level $1 für die Sproache $2.',
-	'babel-autocreate-text-main' => 'Benutzer ei dieser Kategorie haben Kenntnisse der Sproache $1.',
-	'babel-0' => 'Dieser Benutzer beherrscht [[$2|$3]] [[$1|nicht]] (oder versteht es nur mit beträchtlichen Schwierigkeiten).',
-	'babel-1' => 'Dieser Benutzer beherrscht [[$2|$3]] auf [[$1|grundlegendem]] Niveau.',
-	'babel-2' => 'Dieser Benutzer beherrscht [[$2|$3]] uff [[$1|fortgeschrittenem]] Niveau.',
-	'babel-3' => 'Dieser Benutzer beherrscht [[$2|$3]] uff [[$1|hohem]] Niveau.',
-	'babel-4' => 'Dieser Benutzer beherrscht [[$2|$3]] uff [[$1|muttersprachlichem Niveau]].',
-	'babel-5' => 'Dieser Benutzer beherrscht [[$2|$3]] uff [[$1|professionellem]] Niveau.',
-	'babel-N' => 'Dieser Benutzer spricht [[$2|$3]] als [[$1|Muttersproache]].',
-	'babel-0-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] [[$1|nä]] (oder versteht es nur mit beträchtlicha Schwierigkeita).',
-	'babel-1-n' => 'Dieser Benutzer koann a wing [[$2|Schläsch]].',
-	'babel-2-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] uff [[$1|fortgeschrittenem]] Niveau.',
-	'babel-3-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] uff [[$1|hohem]] Niveau.',
-	'babel-4-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] uff [[$1|muttersproachlichem Niveau]].',
-	'babel-5-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] uff [[$1|professionellem]] Niveau.',
-	'babel-N-n' => 'Dieser Benutzer ies a echte schläsche Lerge un spricht [[$2|Schläsch]] als [[$1|Muttersproache]].',
-);
-
 /** Kabuverdianu (Kabuverdianu)
  * @author Waldir
  */
@@ -2430,12 +2402,17 @@ $messages['nn'] = array(
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  * @author Laaknor
+ * @author Nghtwlkr
  */
 $messages['no'] = array(
 	'babel' => 'Babelinformasjon',
 	'babel-desc' => 'Legger til parserfunksjonen <tt>#babel</tt> for å automatisk generere en babelboks med  mulighet for å inkludere egendefinerte maler',
 	'babel-url' => 'Project:Babel',
-	'babel-0' => 'Denne brukeren verken leser eller skriver [[$2|$3]] (eller har svært vanskelig for å forstå det).',
+	'babel-autocreate-abort' => 'Brukernavnet du valgte er i bruk for automatisk oppretting av [[$1|Babel]]-kategorier og kan derfor ikke registreres.',
+	'babel-autocreate-reason' => 'Oppretter automatisk en [[$1|Babel]]-kategoriside.',
+	'babel-autocreate-text-levels' => 'Brukeren i denne kategorien har et språkkunnskapsnivå på $1 for $2.',
+	'babel-autocreate-text-main' => 'Brukeren i denne kategorien kjenner til $1.',
+	'babel-0' => 'Denne brukeren har [[$1|lite eller ingen]] kjennskap til [[$2|$3]] (eller har svært vanskelig for å forstå det).',
 	'babel-1' => 'Denne brukeren kan [[$1|litt]] [[$2|$3]].',
 	'babel-2' => 'Denne brukeren har [[$1|god]] kjennskap til [[$2|$3]].',
 	'babel-3' => 'Denne brukeren behersker [[$2|$3]] [[$1|flytende]].',
@@ -3001,6 +2978,34 @@ $messages['sl'] = array(
 	'babel-4-n' => "Uporabnik govori '''[[$1|slovensko]]''' skoraj '''[[$2|enako dobro kakor prvi jezik]]'''.",
 	'babel-5-n' => 'Uporabnik govori [[$2|slovenščino]] na [[$1|profesionalni]] ravni.',
 	'babel-N-n' => "Ta uporabnik govori '''[[$1|slovenščino]]''' kot '''[[$2|materni jezik]]'''.",
+);
+
+/** Lower Silesian (Schläsch)
+ * @author Jonny84
+ * @author Piotron
+ */
+$messages['sli'] = array(
+	'babel' => 'Babel-Benutzer-Information',
+	'babel-desc' => 'Ergänzt de <tt>#babel</tt>-Parserfunktion zur automatischen Erstellung vo Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Dar oausgewählte Nutzername werd fier de automatische Arstellung voo [[$1|Babel]]-Kategoria benötigt un kaon nä registriert werda.',
+	'babel-autocreate-reason' => 'Automatisch arstellte [[$1|Babel]]-Kategorie.',
+	'babel-autocreate-text-levels' => 'Benutzer ei dieser Kategorie haben den Kenntnis-Level $1 für die Sproache $2.',
+	'babel-autocreate-text-main' => 'Benutzer ei dieser Kategorie haben Kenntnisse der Sproache $1.',
+	'babel-0' => 'Dieser Benutzer beherrscht [[$2|$3]] [[$1|nicht]] (oder versteht es nur mit beträchtlichen Schwierigkeiten).',
+	'babel-1' => 'Dieser Benutzer beherrscht [[$2|$3]] auf [[$1|grundlegendem]] Niveau.',
+	'babel-2' => 'Dieser Benutzer beherrscht [[$2|$3]] uff [[$1|fortgeschrittenem]] Niveau.',
+	'babel-3' => 'Dieser Benutzer beherrscht [[$2|$3]] uff [[$1|hohem]] Niveau.',
+	'babel-4' => 'Dieser Benutzer beherrscht [[$2|$3]] uff [[$1|muttersprachlichem Niveau]].',
+	'babel-5' => 'Dieser Benutzer beherrscht [[$2|$3]] uff [[$1|professionellem]] Niveau.',
+	'babel-N' => 'Dieser Benutzer spricht [[$2|$3]] als [[$1|Muttersproache]].',
+	'babel-0-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] [[$1|nä]] (oder versteht es nur mit beträchtlicha Schwierigkeita).',
+	'babel-1-n' => 'Dieser Benutzer koann a wing [[$2|Schläsch]].',
+	'babel-2-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] uff [[$1|fortgeschrittenem]] Niveau.',
+	'babel-3-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] uff [[$1|hohem]] Niveau.',
+	'babel-4-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] uff [[$1|muttersproachlichem Niveau]].',
+	'babel-5-n' => 'Dieser Benutzer beherrscht [[$2|Schläsch]] uff [[$1|professionellem]] Niveau.',
+	'babel-N-n' => 'Dieser Benutzer ies a echte schläsche Lerge un spricht [[$2|Schläsch]] als [[$1|Muttersproache]].',
 );
 
 /** Albanian (Shqip)
