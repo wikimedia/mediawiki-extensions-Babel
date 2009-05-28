@@ -665,6 +665,13 @@ $messages['ce'] = array(
 	'babel-N-n' => 'ХІокхо юзеро [[$1|шейр]] бийц хаъ [[$2|Нохчийн]] мотт.',
 );
 
+/** Sorani (Soranî / کوردی)
+ * @author GerardM
+ */
+$messages['ckb'] = array(
+	'babel-directionality' => 'rtl',
+);
+
 /**
  * @author Asoxor
  */
