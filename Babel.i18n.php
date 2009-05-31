@@ -3603,6 +3603,7 @@ $messages['vro'] = array(
  */
 $messages['wa'] = array(
 	'babel' => "racsegnes so l' uzeu d' Babel",
+	'babel-autocreate-reason' => 'Askepiaedje otomatike del categoreye [[$1|Babel]].',
 	'babel-0' => "Cist(e) uzeu(se) ci n' a [[$1|nole]] kinoxhance do [[$2|$3]] (oudon-bén, nel comprinde k' a schipe)",
 	'babel-1' => "Cist(e) uzeu(se) ci ni sait l' [[$2|$3]] ki come [[$1|onk (ene) ki cmince]].",
 	'babel-2' => 'Cist(e) uzeu(se) ci kinoxhe [[$1|ene miete]] li [[$2|$3]].',
