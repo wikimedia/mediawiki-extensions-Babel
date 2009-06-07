@@ -2768,11 +2768,12 @@ $messages['ro'] = array(
  * @author Kwj2772
  */
 $messages['roa-tara'] = array(
+	'babel' => "Babel 'mbormaziune sus a l'utende",
 	'babel-url' => 'Project:Babel',
 	'babel-0' => "'Stu crestiáne ste'''[[$1|'nderre a le carvune]]''' cu 'u '''[[$2|$3]]'''.",
 	'babel-1' => "'Stu crestiáne pô ajutà' cu 'na canoscènze '''[[$1|tèrra-tèrre]]''' d'u '''[[$2|$3]]'''.",
-	'babel-2' => "'Stu crestiáne pô ajutà' cu 'nna canoscènze '''[[$2|'ndermdèdie]]''' d'u '''[[$2|$3]]'''.",
-	'babel-3' => "'Stu crestiáne pô ajutà' cu 'nna canoscènze '''[[$2|accellènde]]''' d'u '''[[$2|$3]]'''.",
+	'babel-2' => "'Stu crestiáne pô ajutà' cu 'nna canoscènze '''[[$1|'ndermèdie]]''' d'u '''[[$2|$3]]'''.",
+	'babel-3' => "'Stu crestiáne pô ajutà' cu 'nna canoscènze '''[[$1|accellènde]]''' d'u '''[[$2|$3]]'''.",
 	'babel-4' => "Stu crestiáne quase quase parle 'u '''[[$2|$3]]''' cumme a 'a '''[[$1|lènga madre]]'''.",
 	'babel-5' => "Stu crestiáne è proprie 'nu '''[[$1|professore]]''' de '''[[$2|$3]]'''.",
 	'babel-N-n' => 'Quìste utende jè de [[$1|madrelènga]] [[$2|tarandine]].',
