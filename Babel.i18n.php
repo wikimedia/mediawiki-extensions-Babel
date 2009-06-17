@@ -2522,6 +2522,8 @@ $messages['os'] = array(
  * @author Xqt
  */
 $messages['pdc'] = array(
+	'babel' => 'Babel Yuuser Information',
+	'babel-url' => 'Project:Babel',
 	'babel-0-n' => 'Daer Yuuser do schwetzt [[$1|net]] [[$2|Pennsilfaanisch Deitsch]].',
 	'babel-1-n' => 'Daer Yuuser do schwetzt [[$1|ebbes]] [[$2|Pennsilfaanisch Deitsch]].',
 	'babel-N-n' => 'Daer Yuuser do [[$1|schwetzt]] [[$2|Pennsilfaanisch Deitsch]].',
