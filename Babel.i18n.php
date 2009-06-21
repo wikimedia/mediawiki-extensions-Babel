@@ -1881,27 +1881,39 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
-	'babel' => '{{GENDER:$4|Dem Medmaacher $4 sing|Dä Metmaacheren $4 ier}} Shprooche-Weße',
+	'babel' => '{{GENDER:$1|Däm $1 sing|Däm $1 sing|Däm Medmaacher $1 sing|Däm $1 sing|Dä Metmaacheren $1 ier}} Shprooche-Weße',
 	'babel-desc' => 'Brengk de <tt>#babel</tt>-Paaserfongxjohn, womet me automatesch ene Babel-Medmaacher-Kaste opboue kann, un dobeij och selfßjemaate Schabloone nozze kan.',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Dä Metmaachername es ald verjovve för [[$1|Babel]]-{{int:categories}} automattesch aanzelääje, dä kanns De nit han.',
 	'babel-autocreate-reason' => 'En automattesch aanjelaate Saachjrupp fum [[$1|Babel]]-Süsteem.',
 	'babel-autocreate-text-levels' => 'De Metmaacher un Metmaacherenne en hee dä Saachjrupp han jesaat, se künnte de Shprooch $1 $2.',
 	'babel-autocreate-text-main' => 'Metmaacher en hee dä Saachjrupp han jesaat, se künnte vum $1 jet.',
-	'babel-0' => '{{GENDER:$4|Dä Medmaacher|Heh di Metmaacheren}} hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
-	'babel-1' => '{{GENDER:$4|Dä Medmaacher|Heh di Metmaacheren}} hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
-	'babel-2' => '{{GENDER:$4|Dä Medmaacher|Heh di Metmaacheren}} kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
-	'babel-3' => 'Heh {{GENDER:$4|dä Medmaacher|di Metmaacheren}} kann [[$2|$3]] [[$1|reschtesch joot]].',
-	'babel-4' => 'För {{GENDER:$4|dä Medmaacher heh|heh di Metmaacheren}} eß [[$2|$3]] [[$1|bahl wi {{GENDER:$4|sing|de}} Mottershprooch]].',
-	'babel-5' => 'Heh {{GENDER:$4|dä Medmaacher|di Metmaacheren}} bruch [[$2|$3]] [[$1|berohflesh]].',
-	'babel-N' => 'Heh {{GENDER:$4|däm Medmaacher sing|dä Metmaacheren ier}} [[$1|Mottershprooch]] eß [[$2|$3]].',
-	'babel-0-n' => '{{GENDER:$4|Dä Medmaacher heh|Heh di Metmaacheren}} hät [[$1|keij Aahnong]] fon enne [[$2|ripoaresche Shprooch]], odder fershteijt di Shprooche esu joot wi nit.',
-	'babel-1-n' => 'Heh {{GENDER:$4|dä Medmaacher|di Metmaacheren}} hät [[$1|Jrondlaare]] fon ennem [[$2|ripoaresch Platt]] drop.',
-	'babel-2-n' => '{{GENDER:$4|Dä Medmaacher heh|Heh di Metmaacheren}} kann med_ennem [[$2|ripoaresch Platt]] [[$1|meddeljoot]] ömjonn.',
-	'babel-3-n' => '{{GENDER:$4|Dä Medmaacher heh|Heh di Metmaacheren}} kann [[$2|en ripoaresch Shprooch]] [[$1|reschtesch joot]].',
-	'babel-4-n' => 'För {{GENDER:$4|dä Medmaacher heh|heh di Metmaacheren}} eß [[$2|e ripoaresch Platt]] [[$1|bahl wi sing Mottershprooch]].',
-	'babel-5-n' => 'Heh {{GENDER:$4|dä Medmaacher|di Metmaacheren}} brur_en [[$2|ripoaresche Sproor]]_[[$1|em Berohf]].',
-	'babel-N-n' => 'Heh {{GENDER:$4|däm Medmaacher sing|dä Metmaacheren ier}} [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]].',
+	'babel-0' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
+	'babel-1' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
+	'babel-2' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
+	'babel-3' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} kann [[$2|$3]] [[$1|reschtesch joot]].',
+	'babel-4' => 'För heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} eß [[$2|$3]] [[$1|bahl wi {{GENDER:$4|sing|däm sing|de|en|ier}} Mottershprooch]].',
+	'babel-5' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} bruch [[$2|$3]] [[$1|berohflesh]].',
+	'babel-N' => '{{GENDER:$4
+|Heh däm sing [[$1|Mottershprooch]] eß [[$2|$3]]
+|Heh däm sing [[$1|Mottershprooch]] eß [[$2|$3]]
+|För heh dä Medmaacher eß [[$2|$3]] de [[$1|Mottershprooch]]
+|För dat heh eß [[$2|$3]] de [[$1|Mottershprooch]]
+|Heh dä ier [[$1|Mottershprooch]] eß [[$2|$3]]
+}}.',
+	'babel-0-n' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} hät [[$1|keij Aahnong]] fon enne [[$2|ripoaresche Shprooch]], odder fershteijt fum ripoaresch Platt esu joot wi nix.',
+	'babel-1-n' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} hät [[$1|Jrondlaare]] fon ennem [[$2|ripoaresch Platt]] drop.',
+	'babel-2-n' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} kann med_ennem [[$2|ripoaresch Platt]] [[$1|meddeljoot]] ömjonn.',
+	'babel-3-n' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} kann [[$2|en ripoaresch Shprooch]] [[$1|reschtesch joot]].',
+	'babel-4-n' => 'För heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} es [[$2|e ripoaresch Platt]] [[$1|bahl wi {{GENDER:sing|sing|de|de|ier}} Mottershprooch]].',
+	'babel-5-n' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} brur_en [[$2|ripoaresche Sproor]]_[[$1|em Berohf]].',
+	'babel-N-n' => '{{GENDER:$4
+|Heh däm sing [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]]
+|Heh däm sing [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]]
+|För heh dä Medmaacher es_en [[$2|ripoaresche Shprooch]] de [[$1|Mottershprooch]]
+|För dat heh es_en [[$2|ripoaresche Shprooch]] de [[$1|Mottershprooch]]
+|Heh dä ier [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]]
+}}.',
 );
 
 /** Cornish (Kernewek)
@@ -2803,13 +2815,13 @@ $messages['ru'] = array(
 	'babel-4' => '[[$2|$3]] — [[$1|почти как родной]]',
 	'babel-5' => '[[$2|$3]] — [[$1|профессиональный уровень]]',
 	'babel-N' => '[[$2|$3]] — [[$1|родной]]',
-	'babel-0-n' => '{{GENDER:$4|Этот участник|Эта участница}} [[$1|не владеет]] [[$2|русским языком]] (или с трудом его понимает).',
-	'babel-1-n' => '{{GENDER:$4|Этот участник|Эта участница}} владеет [[$2|русским языком]] на [[$1|начальном уровне]].',
-	'babel-2-n' => '{{GENDER:$4|Этот участник|Эта участница}} владеет [[$2|русским языком]] на [[$1|среднем уровне]].',
-	'babel-3-n' => '{{GENDER:$4|Этот участник|Эта участница}} [[$1|свободно]] владеет [[$2|русским языком]].',
-	'babel-4-n' => '{{GENDER:$4|Этот участник|Эта участница}} владеет [[$2|русским языком]] [[$1|почти как родным]].',
-	'babel-5-n' => '{{GENDER:$4|Этот участник|Эта участница}} [[$1|профессионально]] владеет [[$2|русским языком]].',
-	'babel-N-n' => 'Для {{GENDER:$4|этого участника|этой участницы}} [[$2|русский язык]] является [[$1|родным]].',
+	'babel-0-n' => 'Этот участник [[$1|не владеет]] [[$2|русским языком]] (или с трудом его понимает).',
+	'babel-1-n' => 'Этот участник владеет [[$2|русским языком]] на [[$1|начальном уровне]].',
+	'babel-2-n' => 'Этот участник владеет [[$2|русским языком]] на [[$1|среднем уровне]].',
+	'babel-3-n' => 'Этот участник [[$1|свободно]] владеет [[$2|русским языком]].',
+	'babel-4-n' => 'Этот участник владеет [[$2|русским языком]] [[$1|почти как родным]].',
+	'babel-5-n' => 'Этот участник [[$1|профессионально]] владеет [[$2|русским языком]].',
+	'babel-N-n' => 'Для этого участника [[$2|русский язык]] является [[$1|родным]].',
 );
 
 /** Sanskrit (संस्कृत)
