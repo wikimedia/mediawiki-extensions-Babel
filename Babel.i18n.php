@@ -3113,14 +3113,15 @@ $messages['sr-ec'] = array(
 );
 
 /** Seeltersk (Seeltersk)
+ * @author Crazymadlover
  * @author Pyt
  */
 $messages['stq'] = array(
 	'babel' => 'Babel-Benutser-Information',
 	'babel-desc' => 'Föiget an ju <tt>#babel</tt>-Parserfunktion foar automatisk Deerstaalen fon Babel-Benutserboxen-Riegen ju Muugelkhaid tou, oaine Foarloagen ientoubienden',
 	'babel-url' => 'Project:Babel',
-	'babel-autocreate-abort' => 'Die uutwäälde Benutsernoome wäd foar dät automatisk Moakjen fon Babel-Kategorien benöödiged un kon nit registrierd wäide.',
-	'babel-autocreate-reason' => 'Automatisk moakede Babel-Kategorie.',
+	'babel-autocreate-abort' => 'Die uutwäälde Benutsernoome wäd foar dät automatisk Moakjen fon [[$1|Babel]]-Kategorien benöödiged un kon nit registrierd wäide.',
+	'babel-autocreate-reason' => 'Automatisk moakede [[$1|Babel]]-Kategorie.',
 	'babel-autocreate-text-levels' => 'Benutsere in disse Kategorie hääbe ju Kunde-Ieuwene $1 foar ju Sproake $2.',
 	'babel-autocreate-text-main' => 'Benutsere in disse Kategorie hääbe Kunde fon ju Sproake $1.',
 	'babel-0' => 'Dissen Benutser boalt un ferstoant [[$1|neen]] [[$2|$3]].',
@@ -3134,7 +3135,7 @@ $messages['stq'] = array(
 	'babel-1-n' => 'Dissen Benutser behärsket [[$2|Düütsk]] ap [[$1|gruundlääsende]] Ieuwene.',
 	'babel-2-n' => 'Dissen Benutser kon [[$1|oarich]] [[$2|Düütsk]] baale.',
 	'babel-3-n' => 'Dissen Benutser kon [[$1|goud]] [[$2|Düütsk]] baale.',
-	'babel-4-n' => 'Dissen Benutser boalt [[$1|slonk]] [[$2|Düütsk].',
+	'babel-4-n' => 'Dissen Benutser boalt [[$1|slonk]] [[$2|Düütsk]].',
 	'babel-5-n' => 'Dissen Benutser behärsket [[$2|Düütsk]] ap [[$1|professionelle]] Ieuwene.',
 	'babel-N-n' => 'Dissen Benutser boalt [[$2|Seeltersk]] as [[$1|Määmesproake]].',
 );
