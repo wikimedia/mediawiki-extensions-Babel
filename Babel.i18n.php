@@ -672,7 +672,7 @@ $messages['ckb'] = array(
 	'babel-directionality' => 'rtl',
 );
 
-/**
+/** Sorani (Arabic script) (‫کوردی (عەرەبی)‬)
  * @author Asoxor
  */
 $messages['ckb-arab'] = array(
@@ -761,7 +761,7 @@ $messages['cu'] = array(
 	'babel-N-n' => 'Сѥмоу́ по́льꙃєватєл҄ю [[$2|словѣ́ньскъ ѩꙁꙑ́къ]] ꙗ́ко [[$1|ро́дьнъ]] ѥ́стъ',
 );
 
-/** Chuvash (Чăвашла)
+/** Chuvash (Чӑвашла)
  * @author PCode
  */
 $messages['cv'] = array(
