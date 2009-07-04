@@ -2073,6 +2073,7 @@ $messages['ln'] = array(
  * @author Garas
  * @author Homo
  * @author Hugo.arg
+ * @author Matasg
  * @author Vpovilaitis
  */
 $messages['lt'] = array(
@@ -2083,7 +2084,7 @@ $messages['lt'] = array(
 	'babel-autocreate-reason' => 'Automatiškas kategorijos „[[$1|Babel]]“ puslapio sukūrimas.',
 	'babel-autocreate-text-levels' => 'Naudotojai, esantys šioje kategorijoje, yra nurodę kad geba $1 lygiu naudoti $2 kalbą.',
 	'babel-autocreate-text-main' => 'Naudotojai, esantys šioje kategorijoje, nurodę, kad supranta $1 kalbą.',
-	'babel-0' => 'Šis naudotojas nesupranta [[$2|lietuvių kalbos]] (arba supranta labai ribotai).',
+	'babel-0' => 'Šis naudotojas [[$1|ne]]supranta [[$2|$3]] (arba supranta labai ribotai).',
 	'babel-1' => 'Šis naudotojas turi [[$2|lietuvių kalbos]] [[$1|pradinio lygio]] žinias.',
 	'babel-2' => 'Šis naudotojas turi [[$2|lietuvių kalbos]] [[$1|vidutinio lygio]] žinias.',
 	'babel-3' => 'Šis naudotojas turi [[$2|lietuvių kalbos]] [[$1|aukšto lygio]] žinias.',
