@@ -2602,6 +2602,18 @@ $messages['pl'] = array(
 	'babel-N-n' => '[[$2|Polski]] jest [[$1|językiem ojczystym]] {{GENDER:$4|tego użytkownika|tej użytkowniczki}}.',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ * @author GerardM
+ */
+$messages['pms'] = array(
+	'babel' => "Anformassion Babel ëd l'utent",
+	'babel-5' => "St'utent-sì a l'ha na conossensa [[$1|professional]] dël [[$2|$3]].",
+	'babel-N' => "St'utent-sì a l'é un parlant [[$1|nativ]] dël [[$2|$3]].",
+	'babel-5-n' => "St'utent-sì a l'ha na conossensa [[$1|professional]] dël [[$2|Piemontèis]].",
+	'babel-N-n' => "St'utent-sì a l'ha un livel [[$1|nativ]] ëd [[$2|Piemontèis]].",
+);
+
 /** Pontic (Ποντιακά)
  * @author Consta
  * @author Crazymadlover
