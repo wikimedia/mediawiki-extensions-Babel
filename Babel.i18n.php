@@ -1137,6 +1137,7 @@ $messages['fo'] = array(
 
 /** French (Français)
  * @author Cedric31
+ * @author ChrisPtDe
  * @author Grondin
  * @author IAlex
  * @author Louperivois
@@ -1147,7 +1148,7 @@ $messages['fr'] = array(
 	'babel' => 'Informations sur l’utilisateur de Babel',
 	'babel-desc' => 'Ajoute une fonction parseur <tt>#babel</tt> permettant la création automatique d’une boîte utilisateur Babel avec la possibilité d’y inclure des modèles locaux',
 	'babel-url' => 'Project:Babel',
-	'babel-autocreate-abort' => "Le nom d'utilisateur que vous avez entré est utilisé pour créer automatiquement les catégorie [[$1|Babel]] et ne peut pas être enregistré.",
+	'babel-autocreate-abort' => "Le nom d'utilisateur que vous avez entré est utilisé pour créer automatiquement les catégories [[$1|Babel]] et ne peut pas être enregistré.",
 	'babel-autocreate-reason' => 'Création automatique de la catégorie [[$1|Babel]].',
 	'babel-autocreate-text-levels' => "Les utilisateurs dans cette catégorie ont indiqué qu'ils ont le niveau $1 pour la langue $2.",
 	'babel-autocreate-text-main' => "Les utilisateurs dans cette catégorie ont indiqué qu'ils ont une connaissance en $1.",
@@ -1165,6 +1166,33 @@ $messages['fr'] = array(
 	'babel-4-n' => 'Cet utilisateur dispose de connaissances proches de la [[$1|langue maternelle]] en [[$2|français]].',
 	'babel-5-n' => 'Cet utilisateur dispose d’un niveau de connaissances [[$1|professionel]] du [[$2|français]].',
 	'babel-N-n' => 'Cet utilisateur a pour [[$1|langue maternelle]] le [[$2|français]].',
+);
+
+/** Franco-Provençal (Arpetan)
+ * @author ChrisPtDe
+ */
+$messages['frp'] = array(
+	'babel' => 'Enformacions sur l’utilisator de Babél',
+	'babel-desc' => 'Apond la fonccion du parsor <tt>#babel</tt> que pèrmèt la crèacion ôtomatica d’una bouèta utilisator Babél avouéc la possibilitât d’y encllure des modèlos locals.',
+	'babel-url' => 'Project:Babél',
+	'babel-autocreate-abort' => 'Lo nom d’utilisator que vos éd buchiê est utilisâ por fâre ôtomaticament les catègories [[$1|Babél]] et pôt pas étre enregistrâ.',
+	'babel-autocreate-reason' => 'Crèacion ôtomatica de la catègorie [[$1|Babél]].',
+	'babel-autocreate-text-levels' => 'Los utilisators dens ceta catègorie ont endicâ qu’ont lo nivél $1 por la lengoua $2.',
+	'babel-autocreate-text-main' => 'Los utilisators dens ceta catègorie ont endicâ qu’ont des cognessences en $1.',
+	'babel-0' => 'Ceti utilisator at [[$1|gins]] de cognessence en [[$2|$3]] (ou ben lo comprend avouéc de grôsses dificultâts).',
+	'babel-1' => 'Ceti utilisator at des cognessences [[$1|totes simples]] en [[$2|$3]].',
+	'babel-2' => 'Ceti utilisator at des cognessences [[$1|moyenes]] en [[$2|$3]].',
+	'babel-3' => 'Ceti utilisator at des cognessences [[$1|avanciês]] en [[$2|$3]].',
+	'babel-4' => 'Ceti utilisator at des cognessences prôches de la [[$1|lengoua matèrnâla]] en [[$2|$3]].',
+	'babel-5' => 'Ceti utilisator at des cognessences [[$1|profèssionèles]] en [[$2|$3]].',
+	'babel-N' => 'Ceti utilisator at por [[$1|lengoua matèrnâla]] lo [[$2|$3]].',
+	'babel-0-n' => 'Ceti utilisator at [[$1|gins]] de cognessence en [[$2|arpetan]] (ou ben lo comprend avouéc de grôsses dificultâts).',
+	'babel-1-n' => 'Ceti utilisator at des cognessences [[$1|totes simples]] en [[$2|arpetan]].',
+	'babel-2-n' => 'Ceti utilisator at des cognessences [[$1|moyenes]] en [[$2|arpetan]].',
+	'babel-3-n' => 'Ceti utilisator at des cognessences [[$1|avanciês]] en [[$2|arpetan]].',
+	'babel-4-n' => 'Ceti utilisator at des cognessences prôches de la [[$1|lengoua matèrnâla]] en [[$2|arpetan]].',
+	'babel-5-n' => 'Ceti utilisator at des cognessences [[$1|profèssionèles]] en [[$2|arpetan]].',
+	'babel-N-n' => 'Ceti utilisator at por [[$1|lengoua matèrnâla]] l’[[$2|arpetan]].',
 );
 
 /** Western Frisian (Frysk)
@@ -1481,8 +1509,23 @@ $messages['hi'] = array(
 
 /** Hiligaynon (Ilonggo)
  * @author Kguirnela
+ * @author Tagimata
  */
 $messages['hil'] = array(
+	'babel' => 'Inpormasyon sang Babel user',
+	'babel-desc' => 'Gadugang sang <tt>#babel</tt> parser nga gagana para magamit nga henerasyon automatiko sang babel userbox kolum upod sang abilidad para maintra sa kustom templeyts',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Ang usarngalan nga imo gina-klaro ay ginagamit para [[$1|Babel]] auto-himo nga kategorya kag indi ni pwede marehistro.',
+	'babel-autocreate-reason' => 'Automatiko nga ginahimo [[$1|Babel]] pahina kategorya.',
+	'babel-autocreate-text-levels' => 'Mga user sa sini nga kategorya nagapakita nga may-ara sila kasarang lebel $1 para sa lengwahe $2.',
+	'babel-autocreate-text-main' => 'Mga user sa sini nga kategorya nagapakita nga may-ara sila ka-alam lebel $1.',
+	'babel-0' => 'Ini nga user ay may-ara [[$1|no]] ka-alam sang [[$2|$3]] (o maka-intindi sini nga may daku nga pagkabudlayan).',
+	'babel-1' => 'Ini nga user ay may-ara [[$1|basic]] ka-alam sang [[$2|$3]].',
+	'babel-2' => 'Ini nga user ay may-ara [[$1|intermediate]] ka-alam sang [[$2|$3]].',
+	'babel-3' => 'Ini nga user ay may-ara [[$1|advanced]] ka-alam sang [[$2|$3]].',
+	'babel-4' => 'Ini nga user ay may-ara [[$1|near native speaker]] ka-alam sang [[$2|$3]].',
+	'babel-5' => 'Ini nga user ay may-ara [[$1|professional]] ka-alam sang [[$2|$3]].',
+	'babel-N' => 'Ini nga user ay may-ara [[$1|native]] ka-alam sang [[$2|$3]].',
 	'babel-0-n' => 'This user has [[$1|no]] knowledge of [[$2|Hiligaynon]] (or understands it with considerable difficulty).',
 	'babel-1-n' => 'This user has [[$1|basic]] knowledge of [[$2|Hiligaynon]].',
 	'babel-2-n' => 'This user has [[$1|intermediate]] knowledge of [[$2|Hiligaynon]].',
