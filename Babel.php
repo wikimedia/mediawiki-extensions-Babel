@@ -52,8 +52,22 @@ $wgAutoloadClasses[ 'BabelStatic'        ] = $dir . '/BabelStatic.class.php';
 $wgAutoloadClasses[ 'BabelAutoCreate'    ] = $dir . '/BabelAutoCreate.class.php';
 
 // Configuration setttings.
+// A boolean (true or false) indicating whether users should be entered in to a category if they use xx-0; defaults to false.
 $wgBabelUseLevelZeroCategory = false;
+// A boolean (true or false) indicating whether categories for abilities should be used; defaults to false.
 $wgBabelUseSimpleCategories  = false;
+// A boolean (true or false) indicating whether main categories featuring all users who specify a level for that language should be added to a xx category; defaults to true.
 $wgBabelUseMainCategories    = true;
+// Space seperated file to parse for language codes, the default should suffice.
 $wgBabelLanguageCodesFile    = $dir . '/codes.txt';
+// Prefix to entries added to the object cache, defaults to babel.
 $wgBabelCachePrefix          = 'babel';
+
+/* Other settings, to be made in-wiki:
+MediaWiki:Babel-template-prefix and MediaWiki:Babel-template-suffix
+    The prefix and suffix to be prepended or appended to the template name when one is being included.
+MediaWiki:Babel-portal-prefix and MediaWiki:Babel-portal-suffix
+    The prefix and suffix to be prepended or appended to the target of the link from the language code.
+MediaWiki:Babel-category-prefix and MediaWiki:Babel-category-suffix
+    The prefix and suffix to be prepended or appended to the name of the categories.
+*/
