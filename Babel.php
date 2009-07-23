@@ -10,7 +10,7 @@
  *
  * @link http://www.mediawiki.org/wiki/Extension:Babel
  *
- * @author Robert Leverington <minuteelectron@googlemail.com>
+ * @author Robert Leverington <robert@rhl.me.uk>
  * @copyright Copyright © 2008 - 2009 Robert Leverington.
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
@@ -58,7 +58,7 @@ $wgBabelUseLevelZeroCategory = false;
 $wgBabelUseSimpleCategories  = false;
 // A boolean (true or false) indicating whether main categories featuring all users who specify a level for that language should be added to a xx category; defaults to true.
 $wgBabelUseMainCategories    = true;
-// Space seperated file to parse for language codes, the default should suffice.
+// Language names and codes constant database files, the defaults should suffice.
 $wgBabelLanguageCodesCdb     = $dir . '/codes.cdb';
 $wgBabelLanguageNamesCdb     = $dir . '/names.cdb';
 
