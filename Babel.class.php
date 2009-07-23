@@ -15,21 +15,6 @@ class Babel {
 		$_title, $_footer;
 
 	/**
-	 * Array: Language codes.
-	 */
-	private $mCodes;
-
-	/**
-	 * Load the language codes from an array of standards to files into the
-	 * language codes array.
-	 *
-	 * @param $file String: Files to load language codes from.
-	 */
-	public function __construct( $file = null ) {
-		$this->mCodes = new BabelLanguageCodes( $file );
-	}
-
-	/**
 	 * Render the Babel tower.
 	 *
 	 * @param $parser Object: Parser.
@@ -239,8 +224,8 @@ HEREDOC;
 		$return = array();
 
 		// Try treating the paramter as a language code (for native).
-		if( $this->mCodes->getCode( $parameter ) !== false && $this->mCodes->getCode( $parameter ) !== null ) {
-			$return[ 'code'  ] = $this->mCodes->getCode( $parameter );
+		if( BabelLanguageCodes::getCode( $parameter ) ) {
+			$return[ 'code'  ] = BabelLanguageCodes::getCode( $parameter );
 			$return[ 'level' ] = 'N';
 			return $return;
 		}
@@ -251,8 +236,8 @@ HEREDOC;
 		$level = substr( $parameter, $lastSplit + 1 );
 
 		// Validate code.
-		$return[ 'code' ] = $this->mCodes->getCode( $code );
-		if( $return[ 'code' ] === null ) return false;
+		$return[ 'code' ] = BabelLanguageCodes::getCode( $code );
+		if( !$return[ 'code' ] ) return false;
 		// Validate level.
 		$intLevel = (int) $level;
 		if( ( $intLevel < 0 || $intLevel > 5 ) && $level !== 'N' ) return false;
@@ -270,7 +255,7 @@ HEREDOC;
 	private function _generateBox( $code, $level ) {
 
 		// Get code in favoured standard.
-		$code = $this->mCodes->getCode( $code );
+		$code = BabelLanguageCodes::getCode( $code );
 
 		// Generate the text displayed on the left hand side of the
 		// box.
@@ -287,7 +272,7 @@ HEREDOC;
 		}
 
 		// Get the language names.
-		$name = $this->mCodes->getName( $code );
+		$name = BabelLanguageCodes::getName( $code );
 
 		// Generate the text displayed on the right hand side of the
 		// box.
@@ -394,7 +379,7 @@ HEREDOC;
 			// Add category wikitext to box tower.
 			$r .= "[[Category:{$this->_addFixes( $code,'category' )}|$level{$wgUser->getName()}]]";
 
-			BabelAutoCreate::create( $this->_addFixes( "$code",'category' ), $this->mCodes->getName( $code ) );
+			BabelAutoCreate::create( $this->_addFixes( "$code",'category' ), BabelLanguageCodes::getName( $code ) );
 
 		}
 
@@ -405,7 +390,7 @@ HEREDOC;
 			// Add category wikitext to box tower.
 			$r .= "[[Category:{$this->_addFixes( "$code-$level",'category' )}|{$wgUser->getName()}]]";
 
-			BabelAutoCreate::create( $this->_addFixes( "$code-$level",'category' ), $level, $this->mCodes->getName( $code ) );
+			BabelAutoCreate::create( $this->_addFixes( "$code-$level",'category' ), $level, BabelLanguageCodes::getName( $code ) );
 
 		}
 

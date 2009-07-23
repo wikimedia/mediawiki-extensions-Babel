@@ -22,7 +22,7 @@ if( !defined( 'MEDIAWIKI' ) ) die( 'Invalid entry point.' );
 $wgExtensionCredits[ 'parserhook' ][] = array(
 	'path'            => __FILE__,
 	'name'            => 'Babel',
-	'version'         => '1.2.3',
+	'version'         => '1.3.0',
 	'author'          => 'Robert Leverington',
 	'url'             => 'http://www.mediawiki.org/wiki/Extension:Babel',
 	'description'     => 'Adds a parser function to allow automated generation of a babel userbox column with the ability to include custom templates.',
@@ -59,9 +59,8 @@ $wgBabelUseSimpleCategories  = false;
 // A boolean (true or false) indicating whether main categories featuring all users who specify a level for that language should be added to a xx category; defaults to true.
 $wgBabelUseMainCategories    = true;
 // Space seperated file to parse for language codes, the default should suffice.
-$wgBabelLanguageCodesFile    = $dir . '/codes.txt';
-// Prefix to entries added to the object cache, defaults to babel.
-$wgBabelCachePrefix          = 'babel';
+$wgBabelLanguageCodesCdb     = $dir . '/codes.cdb';
+$wgBabelLanguageNamesCdb     = $dir . '/names.cdb';
 
 /* Other settings, to be made in-wiki:
 MediaWiki:Babel-template-prefix and MediaWiki:Babel-template-suffix
