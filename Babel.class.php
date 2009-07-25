@@ -259,7 +259,7 @@ HEREDOC;
 
 		// Generate the text displayed on the left hand side of the
 		// box.
-		$header = "[[{$this->_addFixes( $code,'portal' )}|$code]]<span class=\"mw-babel-box-level-$level\">-$level</span>";
+		$header = "[[{$this->_addFixes( $code,'portal' )}|" . wfBCP47( $code ) . "]]<span class=\"mw-babel-box-level-$level\">-$level</span>";
 
 		// Get MediaWiki supported language codes\names.
 		$nativeNames = Language::getLanguageNames();
