@@ -701,13 +701,31 @@ $messages['ckb'] = array(
 
 /** Sorani (Arabic script) (‫کوردی (عەرەبی)‬)
  * @author Asoxor
+ * @author GerardM
  */
 $messages['ckb-arab'] = array(
+	'babel' => 'زانیاریی بەکارھێنەریی بابل',
+	'babel-desc' => 'کرداری شیکەری <tt>#babel</tt> زیاد دەکات بۆ ڕێگا دان بە خۆکار دروست بوونی ستوونی سندوقی بەکارھێنەری بابل لەگەڵ توانایی بۆ لەخۆ گرتنی داڕێژە دڵخوازەکان',
+	'babel-url' => 'Project:بابل',
+	'babel-autocreate-abort' => 'ناوی بەکارھێنەرێک کە بۆ خۆساز ھاوپۆلی [[$1|بابل]] بەکارھێنراوە و تۆمار ناکرێ.',
+	'babel-autocreate-reason' => 'خۆکار دروست کردنی پەڕەی ھاوپۆلیی [[$1|بابل]]',
+	'babel-autocreate-text-levels' => 'بەکارھێنەرانی ئەم ھاوپۆلیە ئاماژەیان کردووە کە توانایییان لە زمانی $2 دا لە ئاستی $1 دایە.',
+	'babel-autocreate-text-main' => 'بەکارھێنەران لەم ھاوپۆلییەدا ئاماژەیان بە ئاگاداری لە زمانی $1 کردووە.',
+	'babel-directionality' => 'rtl',
 	'babel-0' => 'ئەم بەکارھێنەرە [[$1|ھیچ]] ئاگاداریەکی لە [[$2|$3]] نیە ( یان زۆر بە سەختی تێ ئەگات).',
 	'babel-1' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|سەرەتایی]] لە [[$2|$3]] ھەیە.',
 	'babel-2' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|ناوەنجی]] لە [[$2|$3]] ھەیە.',
 	'babel-3' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|پێشکەوتوو]]ی لە [[$2|$3]] ھەیە.',
 	'babel-4' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|نزیک بە زمانی دایکی]]ی لە [[$2|$3]] ھەیە.',
+	'babel-5' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|پیشەیی]]ی لە [[$2|$3]] ھەیە.',
+	'babel-N' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|نزیک بە زمانی دایکی]]ی لە [[$2|$3]] ھەیە.',
+	'babel-0-n' => 'ئەم بەکارھێنەرە [[$1|ھیچ]] ئاگاداریەکی لە [[$2|کوردی(سۆرانی)]] نیە ( یان زۆر بە سەختی تێدەگات).',
+	'babel-1-n' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|سەرەتایی]] لە [[$2|کوردی (سۆرانی)]] ھەیە.',
+	'babel-2-n' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|ناوەنجی]] لە [[$2|کوردی (سۆرانی)]] ھەیە.',
+	'babel-3-n' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|پێشکەوتوو]]ی لە [[$2|کوردی (سۆرانی)]] ھەیە.',
+	'babel-4-n' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|نزیک بە زمانی دایکی]]ی لە [[$2|کوردی (سۆرانی)]] ھەیە.',
+	'babel-5-n' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|پیشەیی]]ی لە [[$2|کوردی (سۆرانی)]] ھەیە.',
+	'babel-N-n' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|نزیک بە زمانی دایکی]]ی لە [[$2|کوردی (سۆرانی)]] ھەیە.',
 );
 
 /** Crimean Turkish (Qırımtatarca)
@@ -1993,12 +2011,13 @@ $messages['ksh'] = array(
 
 /** Cornish (Kernewek)
  * @author Kw-Moon
+ * @author Nicky.ker
  */
 $messages['kw'] = array(
 	'babel-0' => '[[$1|Ny wor]] an devnydhyer ma konvedhes [[$2|$3]].',
 	'babel-1' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|sempel]].',
 	'babel-2' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|kres]].',
-	'babel-3' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|avonsys]].',
+	'babel-3' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|avoncys]].',
 	'babel-4' => 'An devnydhyer ma a skrif [[$2|$3]] [[$1|ogas hag avel mammyeth]].',
 	'babel-5' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|galwesik]].',
 	'babel-N' => 'An devnydhyer ma a skrif [[$2|$3]] avel [[$1|mammyeth]].',
@@ -2037,30 +2056,31 @@ $messages['lad'] = array(
 );
 
 /** Luxembourgish (Lëtzebuergesch)
+ * @author Les Meloures
  * @author Robby
  */
 $messages['lb'] = array(
 	'babel' => 'Babel-Benotzer-Informatioun',
-	'babel-desc' => "Setzt d'<tt>#babel</tt> Parserfunktioun derbäi, fir déi automatesch Generatioun vun enger Babel-Benotzerbox Kolonn, mat der Méiglechkeet fir ege Schablounen anzebannen",
+	'babel-desc' => "Setzt d'<tt>#babel</tt> Parserfunktioun derbäi, fir déi automatesch Generatioun vun enger Babel-Benotzerbox Kolonn, mat der Méiglechkeet fir eege Schablounen anzebannen",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "De Benotzernumm den Dir uginn hutt gëtt fir d'[[$1|Babel]]-Kategorie Automatesch-Maache benotzt a kann net gespäichert ginn.",
 	'babel-autocreate-reason' => 'Automatesch eng [[$1|Babel]]-Kategorie-Säit maachen.',
-	'babel-autocreate-text-levels' => 'Benotzer an dëser Kategorie ginn un datt si an der Sprooch $2 den Niveau $1 hun.',
-	'babel-autocreate-text-main' => 'Benotzer an dëser Kategorie ginn un dat si Kenntnisser vun der Sprooch $1 hun.',
+	'babel-autocreate-text-levels' => 'Benotzer an dëser Kategorie ginn un datt si an der Sprooch $2 den Niveau $1 hunn.',
+	'babel-autocreate-text-main' => 'Benotzer an dëser Kategorie ginn un datt si Kenntnesser vun der Sprooch $1 hunn.',
 	'babel-autocreate-user' => 'Babel automatesch uleeën',
-	'babel-0' => 'Dëse Benotzer huet [[$1|keng]] Kenntnisser vun [[$2|$3]] (oder versteet et just mat grousse Schwieregkeeten).',
-	'babel-1' => 'Dëse Benotzer huet [[$1|Grondkenntnisser]] vun [[$2|$3]].',
-	'babel-2' => 'Dëse Benotzer huet [[$1|erweidert]] Kenntnisser vun [[$2|$3]].',
-	'babel-3' => 'De Benotzer huet [[$1|gaz gudd]] Kenntnisser vun [[$2|$3]].',
+	'babel-0' => 'Dëse Benotzer huet [[$1|keng]] Kenntnesser vun [[$2|$3]] (oder versteet et just mat grousse Schwieregkeeten).',
+	'babel-1' => 'Dëse Benotzer huet [[$1|Grondkenntnesser]] vun [[$2|$3]].',
+	'babel-2' => 'Dëse Benotzer huet [[$1|erweidert]] Kenntnesser vun [[$2|$3]].',
+	'babel-3' => 'De Benotzer huet [[$1|ganz gutt]] Kenntnesser vun [[$2|$3]].',
 	'babel-4' => 'De Bemotzer beherrscht [[$2|$3]] [[$1|bal wéi seng Mammesprooch]].',
-	'babel-5' => 'De Benotzer huet [[$1|professionnell]] Kenntnisser vun [[$2|$3]].',
+	'babel-5' => 'De Benotzer huet [[$1|professionnell]] Kenntnesser vun [[$2|$3]].',
 	'babel-N' => 'Dësem Benotzer seng [[$1|Mammesprooch]] ass [[$2|$3]].',
 	'babel-0-n' => 'Dëse Benotzer versteet [[$1|kee]] [[$2|Lëtzebuergesch]] (oder versteet et just mat grousse Schwieregkeeten).',
-	'babel-1-n' => 'Dëse Benotzer huet [[$1|Grondkenntnisser]] vun der [[$2|Lëtzebuergescher Sprooch]].',
-	'babel-2-n' => 'Dëse Benotzer huet [[$1|erweidert]] Kenntnisser vun der [[$2|Lëtzebuergescher Sprooch]].',
-	'babel-3-n' => 'Dëse Benotzer huet [[$1|ganz gutt]] [[$2|lëtzebuergesch]] Kenntnisser.',
+	'babel-1-n' => 'Dëse Benotzer huet [[$1|Grondkenntnesser]] vun der [[$2|Lëtzebuergescher Sprooch]].',
+	'babel-2-n' => 'Dëse Benotzer huet [[$1|erweidert]] Kenntnesser vun der [[$2|Lëtzebuergescher Sprooch]].',
+	'babel-3-n' => 'Dëse Benotzer huet [[$1|ganz gutt]] [[$2|lëtzebuergesch]] Kenntnesser.',
 	'babel-4-n' => 'Dëse Benotzer beherrscht [[$2|Lëtzebuergesch]] [[$1|bal wéi seng Mammesprooch]].',
-	'babel-5-n' => 'Dëse Benotzer huet [[$1|professionnell]] Kenntnisser vum [[$2|Lëtzebuergeschen]].',
+	'babel-5-n' => 'Dëse Benotzer huet [[$1|professionnell]] Kenntnesser vum [[$2|Lëtzebuergeschen]].',
 	'babel-N-n' => 'Dësem Benotzer seng [[$1|Mammesprooch]] ass [[$2|Lëtzebuergesch]].',
 );
 
@@ -2106,18 +2126,31 @@ $messages['li'] = array(
 );
 
 /** Lumbaart (Lumbaart)
+ * @author Dakrismeno
  * @author Sprüngli
  */
 $messages['lmo'] = array(
-	'babel-0' => "Chestu dovratt al gh'a [[$1|mia]] da cognossenza de [[$2|$3]] (o al comprend con considerabla dificultaa)",
-	'babel-1' => "Chestu dovratt al gh'a una cognossenza [[$1|basiga]] de [[$2|$3]].",
-	'babel-2' => "Chestu dovratt al gh'à una cognossenza [[$1|intermedia]] de [[$2|$3]].",
-	'babel-3' => "Chestu dovratt al gh'a una cognossenza [[$1|avanzada]] de [[$2|$3]].",
-	'babel-4' => "Chestu dovratt al gh'a una cognossenza [[$1|debòt madrelengua]] de [[$2|$3]].",
+	'babel' => 'Infurmazion Babel del druvat',
+	'babel-desc' => "Gionta la 'parser function' <tt>#babel</tt> per permet la generazion utumatega d'un quader \"druvat Babel\" cun la pussibilità da metegh denter 'l templat persunalizaa",
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => "'L suranom che t'hee specificaa a l'è druvaa per l'auto-creazion de categurij [[$1|Babel]] e 'l pör mía vess registraa.",
+	'babel-autocreate-reason' => 'Creazion utumatega de la pagina de la categurìa [[$1|Babel]].',
+	'babel-autocreate-text-levels' => "I druvat in quela categuria chì i mustren d'avegh un nivel de cunuscenza $1 de la lengua $2.",
+	'babel-autocreate-text-main' => "I druvat in quela categuria chì i mustren ch'i cugnussen la lengua $1.",
+	'babel-0' => "Quel druvat chì 'l gh'ha [[$1|mía]] de cunuscenza de [[$2|$3]] (o 'l le cumprend cun di gran dificultaa)",
+	'babel-1' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|basilara]] de [[$2|$3]].",
+	'babel-2' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|intermedia]] de [[$2|$3]].",
+	'babel-3' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|avanzada]] de [[$2|$3]].",
+	'babel-4' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|asquas madrelengua]] de [[$2|$3]].",
 	'babel-5' => "Chestu dovratt al gh'a una cognossenza [[$1|professionala]] de [[$2|$3]].",
-	'babel-N' => "Chestu dovratt al gh'a una comprension [[$1|madrelengua]] de [[$2|$3]].",
-	'babel-0-n' => "Chestu dovratt al gh'a [[$1|miga]] de cognossenza de [[$2|Lombard]] (o al le comprend con considerabla dificultaa).",
-	'babel-1-n' => 'Chestu dovratt al una cognossenza [[$1|basiga]] de [[$2|Lombard]].',
+	'babel-N' => "Quel druvat chì l'è un parlant [[$1|madrelengua]] de [[$2|$3]].",
+	'babel-0-n' => "Quel druvat chì 'l cugnuss [[$1|mía]] 'l [[$2|Lumbard]] (o 'l le cumprend cun di gran dificultaa).",
+	'babel-1-n' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|basilar]] del [[$2|Lumbard]].",
+	'babel-2-n' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|intermedia]] del [[$2|Lumbard]].",
+	'babel-3-n' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|avanzada]] del [[$2|Lumbard]].",
+	'babel-4-n' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|asquas maderlengua]] del [[$2|Lumbard]]",
+	'babel-5-n' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|prufessiunal]] del [[$2|Lumbard]].",
+	'babel-N-n' => "Quel druvat chì l'è de [[$1|maderlengua]] [[$2|Lumbarda]].",
 );
 
 /** Lingala (Lingála)
