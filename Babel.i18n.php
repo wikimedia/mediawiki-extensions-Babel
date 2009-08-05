@@ -1644,7 +1644,7 @@ $messages['hu'] = array(
 	'babel-desc' => '<tt>#babel</tt> értelmes függvény bábel-információkat tartalmazó oszlop automatikus generálásához, saját sablononok beillesztésének lehetőségével',
 	'babel-url' => 'Project:Bábel',
 	'babel-autocreate-abort' => 'Az általad választott nevet a [[$1|bábelkategóriák]] automatikus létrehozásához használjuk, így nem lehet regisztrálni.',
-	'babel-autocreate-reason' => '[[$1|Bábel]] kategóriaoldal automatikus létrehozása.',
+	'babel-autocreate-reason' => '[[$1|Bábel]]kategória-oldal automatikus létrehozása.',
 	'babel-autocreate-text-levels' => 'Az ebben a kategóriában szereplő szerkesztők $1 szinten beszélik a(z) $2 nyelvet.',
 	'babel-autocreate-text-main' => 'Az ebben a kategóriában szereplő szerkesztők valamilyen szinten beszélik a(z) $1 nyelvet.',
 	'babel-0' => 'Ez a szerkesztő [[$1|nem]] beszéli a(z) [[$2|$3]] nyelvet (vagy csak nagy nagyon nehezen érti meg).',
@@ -2020,20 +2020,20 @@ $messages['ksh'] = array(
  * @author Nicky.ker
  */
 $messages['kw'] = array(
-	'babel-0' => '[[$1|Ny wor]] an devnydhyer ma konvedhes [[$2|$3]].',
-	'babel-1' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|sempel]].',
-	'babel-2' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|kres]].',
-	'babel-3' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|avoncys]].',
-	'babel-4' => 'An devnydhyer ma a skrif [[$2|$3]] [[$1|ogas hag avel mammyeth]].',
-	'babel-5' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|galwesik]].',
-	'babel-N' => 'An devnydhyer ma a skrif [[$2|$3]] avel [[$1|mammyeth]].',
-	'babel-0-n' => '[[$1|Ny wor]] an devnydhyer ma konvedhes [[$2|Kernewek]].',
-	'babel-1-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|sempel]].',
-	'babel-2-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|kres]].',
-	'babel-3-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|avoncys]].',
-	'babel-4-n' => 'An devnydhyer ma a skrif [[$2|Kernewek]] [[$1|ogas hag avel mammyeth]].',
-	'babel-5-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|galwesik]].',
-	'babel-N-n' => 'An devnydhyer ma a skrif [[$2|Kernewek]] avel [[$1|mammyeth]].',
+	'babel-0' => '[[$1|Ny wor]] an devnydhyer ma convedhes [[$2|$3]].',
+	'babel-1' => 'An devnydhyer ma a wor scrifa [[$2|$3]] orth nivel [[$1|sempel]].',
+	'babel-2' => 'An devnydhyer ma a wor scrifa [[$2|$3]] orth nivel [[$1|cres]].',
+	'babel-3' => 'An devnydhyer ma a wor scrifa [[$2|$3]] orth nivel [[$1|avoncys]].',
+	'babel-4' => 'An devnydhyer ma a scrif [[$2|$3]] [[$1|ogas hag avel mabmyeth]].',
+	'babel-5' => 'An devnydhyer ma a wor scrifa [[$2|$3]] orth nivel [[$1|galwesik]].',
+	'babel-N' => 'An devnydhyer ma a scrif [[$2|$3]] avel [[$1|mabmyeth]].',
+	'babel-0-n' => '[[$1|Ny wor]] an devnydhyer ma convedhes [[$2|Kernowek]].',
+	'babel-1-n' => 'An devnydhyer ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|sempel]].',
+	'babel-2-n' => 'An devnydhyer ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|cres]].',
+	'babel-3-n' => 'An devnydhyer ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|avoncys]].',
+	'babel-4-n' => 'An devnydhyer ma a scrif [[$2|Kernowek]] [[$1|ogas hag avel mabmyeth]].',
+	'babel-5-n' => 'An devnydhyer ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|galwesik]].',
+	'babel-N-n' => 'An devnydhyer ma a scrif [[$2|Kernowek]] avel [[$1|mabmyeth]].',
 );
 
 /** Latin (Latina)
@@ -2650,10 +2650,26 @@ $messages['os'] = array(
  */
 $messages['pdc'] = array(
 	'babel' => 'Babel Yuuser Information',
+	'babel-desc' => 'Ennert die <tt>#babel</tt>-Parserfunktion fer zum automatische Aalege vun Babel-Yuuserbox-Columns damit eigene Vorlage dezu ze duh meeglich sinn',
 	'babel-url' => 'Project:Babel',
-	'babel-0-n' => 'Daer Yuuser do schwetzt [[$1|net]] [[$2|Pennsilfaanisch Deitsch]].',
-	'babel-1-n' => 'Daer Yuuser do schwetzt [[$1|ebbes]] [[$2|Pennsilfaanisch Deitsch]].',
-	'babel-N-n' => 'Daer Yuuser do [[$1|schwetzt]] [[$2|Pennsilfaanisch Deitsch]].',
+	'babel-autocreate-abort' => 'De Yuuser-Name, wu Du gewaehlt hoscht, werd geyuust fer es automatisch Aalege vun [[$1|Babel]]-Kategorie unn kann net regischtriert werre.',
+	'babel-autocreate-reason' => 'Automatisch aagelegte [[$1|Babel]]-Kategorie.',
+	'babel-autocreate-text-levels' => 'Yuuser in derre Kategorie hann Kenntnis-Level $1 fer die Sprooch $2.',
+	'babel-autocreate-text-main' => 'Yuuser in derre Kategorie schwetze $1.',
+	'babel-0' => 'Daer Yuuser do schwetzt [[$1|ken]] [[$2|$3]].',
+	'babel-1' => 'Daer Yuuser do schwetzt [[$1|en wennich]] [[$2|$3]].',
+	'babel-2' => 'Daer Yuuser do schwetzt [[$1|gans guud]] [[$2|$3]].',
+	'babel-3' => 'Daer Yuuser do schwetzt [[$1|aartlich guud]] [[$2|$3]].',
+	'babel-4' => 'Daer Yuuser do schwetzt [[$2|$3]], wie en [[$1|Muddersproch]].',
+	'babel-5' => 'Daer Yuuser do schwetzt [[$2|$3]] uff [[$1|professionellem]] Level.',
+	'babel-N' => 'Dem Yuuser do sei [[$1|Mudderschprooch]] iss [[$2|$3]].',
+	'babel-0-n' => 'Daer Yuuser do schwetzt [[$1|ken]] [[$2|Pennsilfaanisch Deitsch]].',
+	'babel-1-n' => 'Daer Yuuser do schwetzt [[$1|en wennich]] [[$2|Pennsilfaanisch Deitsch]].',
+	'babel-2-n' => 'Daer Yuuser do schwetzt [[$1|gans guud]] [[$2|Pennsilfaanisch Deitsch]].',
+	'babel-3-n' => 'Daer Yuuser do schwetzt [[$1|aartlich guud]] [[$2|Pennsilfaanisch Deitsch]].',
+	'babel-4-n' => 'Daer Yuuser do schwetzt [[$2|Pennsilfaanisch Deitsch]], wie en [[$1|Muddersproch]].',
+	'babel-5-n' => 'Daer Yuuser do schwetzt [[$2|Pennsilfaanisch Deitsch]] uff [[$1|professionellem]] Level.',
+	'babel-N-n' => 'Dem Yuuser do sei [[$1|Mudderschprooch]] iss [[$2|Pennsilfaanisch Deitsch]].',
 );
 
 /** Pfälzisch (Pfälzisch)
