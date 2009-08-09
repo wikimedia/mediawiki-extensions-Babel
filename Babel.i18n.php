@@ -116,34 +116,6 @@ $messages['kea'] = array(
 	'babel-N-n' => 'Kel utilizador li, se língua [[$1|maternu]] e [[$2|kriolu]].',
 );
 
-/** Picard (Picard)
- * @author Geoleplubo
- * @author GerardM
- */
-$messages['pcd'] = array(
-	'babel' => 'informatchion dech uzeu Babel',
-	'babel-desc' => 'Érquértche el foncchon "analise <tt>#babel</tt>" pou avoèr el généracion d\'eune colonne "uzeu-boète babel" aveuc el pochibilité éd mètte chés modèles pérsonèls',
-	'babel-url' => 'Project:Babel',
-	'babel-autocreate-abort' => "Ech nom d'uzeu avinché est imploéïé pou el oeto-créachon del catégorie [[$1|Babel]] don i n'put poin éte inrégistré.",
-	'babel-autocreate-reason' => 'Pache éd créachon oetomatike del catégorie [[$1|Babel]].',
-	'babel-autocreate-text-levels' => "Ches uzeus din l'catégorie-lo, is déloufette qu'is ont un nivieu avinché $1 din l'langue $2.",
-	'babel-autocreate-text-main' => "Chés uzeus din l'catégorie-lo, is déloufette qu'is bavette din l'langue $1.",
-	'babel-0' => "Ech uzeu-lo, i n'bave [[$1|poin]] in [[$2|Picard]] (ou bin i parle un tiot peu in picard)",
-	'babel-1' => 'Ech uzeu-lo, il o un [[$1|basique]] parlache in [[$2|Picard]].',
-	'babel-2' => 'Echl uzeu-lo, il o un [[$1|mouéyin]] pérlache in [[$2|Picard]].',
-	'babel-3' => 'Ech uzeu-lo, il o un  parlache [[$1|avanché]] in [[$2|Picard]].',
-	'babel-4' => "Pou echl uzeu-lo, ch' [[$1|Picard]] ch'est [[$2|quasimint conme l'langue éd chés pérints]].",
-	'babel-5' => 'Echl uzeu-lo, il o un  parlache [[$1|proféchionèl]] in [[$2|Picard]].',
-	'babel-N' => "Pou echl'uzeu-lo, ch' [[$2|Picard]] ch'est l'langue éd ses pérints, il o un [[$1|native]] parlache.",
-	'babel-0-n' => "Echl uzeu-lo, i n'bave [[$1|poin]] in [[$2|Picard]]  (ou bin i pérle un tiot peu in picard)",
-	'babel-1-n' => 'Echl uzeu-lo, il o un [[$1|basique]] pérlache in [[$2|picard]].',
-	'babel-2-n' => 'Echl uzeu-lo, il o un [[$1|mouéyin]] pérlache in [[$2|picard]].',
-	'babel-3-n' => 'Echl uzeu-lo, il o un  parlache [[$1|avanché]] in [[$2|picard]].',
-	'babel-4-n' => "Pou echl uzeu-lo, ch' [[$2|Picard]] ch'est [[$1|quasimint conme l'langue éd chés pérints]].",
-	'babel-5-n' => 'Echl uzeu-lo, il o un  parlache [[$1|proféchionnèl]] in [[$2|picard]].',
-	'babel-N-n' => "Pou echl'uzeu-lo, ch' [[$2|Picard]] ch'est [[$1|l'langue éd ses pérints]].",
-);
-
 /** Votic (Vaďďa)
  * @author 2Q
  */
@@ -2645,6 +2617,34 @@ $messages['os'] = array(
 	'babel-N-n' => '[[$2|Ирон]] у ацы архайæджы [[$1|мадæлон æвзаг]].',
 );
 
+/** Picard (Picard)
+ * @author Geoleplubo
+ * @author GerardM
+ */
+$messages['pcd'] = array(
+	'babel' => 'informatchion dech uzeu Babel',
+	'babel-desc' => 'Érquértche el foncchon "analise <tt>#babel</tt>" pou avoèr el généracion d\'eune colonne "uzeu-boète babel" aveuc el pochibilité éd mètte chés modèles pérsonèls',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => "Ech nom d'uzeu avinché est imploéïé pou el oeto-créachon del catégorie [[$1|Babel]] don i n'put poin éte inrégistré.",
+	'babel-autocreate-reason' => 'Pache éd créachon oetomatike del catégorie [[$1|Babel]].',
+	'babel-autocreate-text-levels' => "Ches uzeus din l'catégorie-lo, is déloufette qu'is ont un nivieu avinché $1 din l'langue $2.",
+	'babel-autocreate-text-main' => "Chés uzeus din l'catégorie-lo, is déloufette qu'is bavette din l'langue $1.",
+	'babel-0' => "Ech uzeu-lo, i n'bave [[$1|poin]] in [[$2|Picard]] (ou bin i parle un tiot peu in picard)",
+	'babel-1' => 'Ech uzeu-lo, il o un [[$1|basique]] parlache in [[$2|Picard]].',
+	'babel-2' => 'Echl uzeu-lo, il o un [[$1|mouéyin]] pérlache in [[$2|Picard]].',
+	'babel-3' => 'Ech uzeu-lo, il o un  parlache [[$1|avanché]] in [[$2|Picard]].',
+	'babel-4' => "Pou echl uzeu-lo, ch' [[$1|Picard]] ch'est [[$2|quasimint conme l'langue éd chés pérints]].",
+	'babel-5' => 'Echl uzeu-lo, il o un  parlache [[$1|proféchionèl]] in [[$2|Picard]].',
+	'babel-N' => "Pou echl'uzeu-lo, ch' [[$2|Picard]] ch'est l'langue éd ses pérints, il o un [[$1|native]] parlache.",
+	'babel-0-n' => "Echl uzeu-lo, i n'bave [[$1|poin]] in [[$2|Picard]]  (ou bin i pérle un tiot peu in picard)",
+	'babel-1-n' => 'Echl uzeu-lo, il o un [[$1|basique]] pérlache in [[$2|picard]].',
+	'babel-2-n' => 'Echl uzeu-lo, il o un [[$1|mouéyin]] pérlache in [[$2|picard]].',
+	'babel-3-n' => 'Echl uzeu-lo, il o un  parlache [[$1|avanché]] in [[$2|picard]].',
+	'babel-4-n' => "Pou echl uzeu-lo, ch' [[$2|Picard]] ch'est [[$1|quasimint conme l'langue éd chés pérints]].",
+	'babel-5-n' => 'Echl uzeu-lo, il o un  parlache [[$1|proféchionnèl]] in [[$2|picard]].',
+	'babel-N-n' => "Pou echl'uzeu-lo, ch' [[$2|Picard]] ch'est [[$1|l'langue éd ses pérints]].",
+);
+
 /** Deitsch (Deitsch)
  * @author Xqt
  */
@@ -3923,13 +3923,17 @@ $messages['zh-cn'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gzdavidwong
+ * @author Jimmy xu wrk
  * @author Shinjiman
  */
 $messages['zh-hans'] = array(
 	'babel' => '巴别用户细节',
 	'babel-desc' => '加一个<tt>#babel</tt>处理功能去容许自动产生一个巴别用户框栏及包含可自定化的模版',
 	'babel-url' => 'Project:巴别',
-	'babel-autocreate-reason' => '自动建立巴别分类页。',
+	'babel-autocreate-abort' => '您所指定的用户名不能被注册，因其被用作[[$1|巴别]]分类的自动创建。',
+	'babel-autocreate-reason' => '自动建立[[$1|巴别]]分类页。',
+	'babel-autocreate-text-levels' => '在此分类中的用户具有语言$2的$1能力。',
+	'babel-autocreate-text-main' => '此分类中的用户能理解语言$1。',
 	'babel-0' => '这位用户[[$1|无]][[$2|$3]]的知识（或很难地去明白它）。',
 	'babel-1' => '这位用户有[[$1|基本]]的[[$2|$3]]知识。',
 	'babel-2' => '这位用户有[[$1|中等]]的[[$2|$3]]知识。',
