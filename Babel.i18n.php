@@ -3266,6 +3266,28 @@ $messages['sr-ec'] = array(
 	'babel-N-n' => '[[$1|Матерњи језик]] овог корисника је [[$2|српски језик]].',
 );
 
+/** latinica (latinica)
+ * @author Michaello
+ */
+$messages['sr-el'] = array(
+	'babel' => 'Jezičke kutijice',
+	'babel-desc' => 'Dodaje parser-funkciju <tt>#babel</tt>, koja omogućuje automatizovano dodavanje jezičkih kutijica uz mogućnost uključivanja sopstvenih šablona',
+	'babel-0' => 'Ovaj korisnik [[$1|ne]] zna [[$2|$3]] jezik (ili ga razume sa znatnim poteškoćama)',
+	'babel-1' => 'Ovaj korisnik govori [[$2|$3]] jezik [[$1|početnički]].',
+	'babel-2' => 'Ovaj korisnik [[$1|srednje]] poznaje [[$2|$3]] jezik.',
+	'babel-3' => 'Ovaj korisnik [[$1|dosta dobro]] govori [[$2|$3]] jezik.',
+	'babel-4' => 'Ovaj korisnik [[$1|tečno]] govori [[$2|$3]] jezik.',
+	'babel-5' => 'Ovaj korisnik zna [[$2|$3]] jezik na [[$1|profesionalnom]] nivou.',
+	'babel-N' => '[[$1|Maternji jezik]] ovog korisnika je [[$2|$3]] jezik.',
+	'babel-0-n' => 'Ovaj korisnik [[$1|ne]] zna [[$2|srpski jezik]] (ili ga razume sa znatnim poteškoćama)',
+	'babel-1-n' => 'Ovaj korisnik ima [[$1|osnovno]] poznavanje [[$2|srpskog jezika]].',
+	'babel-2-n' => 'Ovaj korisnik [[$1|srednje]] govori [[$2|srpski jezik]].',
+	'babel-3-n' => 'Ovaj korisnik [[$1|dosta dobro]] govori [[$2|srpski jezik]].',
+	'babel-4-n' => 'Ovaj korisnik [[$1|tečno]] govori [[$2|srpski jezik]].',
+	'babel-5-n' => 'Ovaj korisnik ima [[$1|profesionalno]] znanje [[$2|srpskog jezika]].',
+	'babel-N-n' => '[[$1|Maternji jezik]] ovog korisnika je [[$2|srpski jezik]].',
+);
+
 /** Seeltersk (Seeltersk)
  * @author Crazymadlover
  * @author Pyt
