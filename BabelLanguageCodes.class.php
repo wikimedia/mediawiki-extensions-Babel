@@ -14,7 +14,7 @@ class BabelLanguageCodes {
 	 * code if available.  The following order is used
 	 *     - MediaWiki language codes.
 	 *     - ISO 639-1 and 639-3 language codes constant database.
-	 * This can be achevied because we know the length that ISO language
+	 * This can be achieved because we know the length that ISO language
 	 * codes should be in the latter two categories. 
 	 * @param $code String: Code to try and get a "better" code for.
 	 * @return String (language code) or false (invalid language code).
