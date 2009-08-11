@@ -1140,7 +1140,7 @@ $messages['fo'] = array(
  * @author Verdy p
  */
 $messages['fr'] = array(
-	'babel' => 'Informations sur l’utilisateur de Babel',
+	'babel' => 'Informations Babel sur l’utilisateur',
 	'babel-desc' => 'Ajoute une fonction parseur <tt>#babel</tt> permettant la création automatique d’une boîte utilisateur Babel avec la possibilité d’y inclure des modèles locaux',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "Le nom d'utilisateur que vous avez entré est utilisé pour créer automatiquement les catégories [[$1|Babel]] et ne peut pas être enregistré.",
@@ -3323,6 +3323,10 @@ $messages['su'] = array(
 	'babel' => 'Katerangan Babel Pamaké',
 	'babel-desc' => 'Nambahan fungsi parser <tt>#babel</tt> pikeun mintonkeun lajur babel kotak pamaké sacara otomatis jeung pangabisa ngagunakeun citakan dinamis',
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Ngaran pamaké anu diasupkeun dipaké pikeun nyieun otomatis kategori [[$1|Babel]] sarta henteu bisa didaftarkeun.',
+	'babel-autocreate-reason' => 'Otomatis nyieun kaca kategori [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'Pamaké di kategori ieu nandakeun maranéhanana ngabogaan pangabisa $1 pikeun basa $2.',
+	'babel-autocreate-text-main' => 'Pamaké di kategori ieu nandakeun maranéhanana ngabogaan pangabisa basa $1.',
 	'babel-0' => 'Pamaké ieu [[$1|teu]] ngarti [[$2|$3]] (atawa saeutik-saeutik ngartina).',
 	'babel-1' => 'Pamaké ieu gaduh kamampuan [[$2|$3]] hambalan [[$1|dasar]].',
 	'babel-2' => 'Pamaké ieu gaduh kamampuan [[$2|$3]] hambalan [[$1|panengah]].',
