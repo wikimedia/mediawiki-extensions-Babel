@@ -1067,26 +1067,6 @@ $messages['eu'] = array(
 	'babel-N-n' => 'Erabiltzaile hau [[$1|euskaldun zaharra]] da ([[$2|euskara]] du ama hizkuntza).',
 );
 
-/** Europanto (Europanto)
- * @author Purodha
- */
-$messages['eur'] = array(
-	'babel-0' => 'Elle user [[$1|non communicar]] per lingo [[$2|$3]].',
-	'babel-1' => 'Disse user parla [[$1|little]] de [[$2|$3]].',
-	'babel-2' => 'Ecco user [[$1|medium bona]] sprekt de [[$2|$3]] taal.',
-	'babel-3' => 'User capable [[$1|eccellente]] [[$2|$3]] mal.',
-	'babel-4' => 'User op et [[$1|niveau van modersmål]] praat [[$2|$3]].',
-	'babel-5' => 'This utilisateur [[$1|profesionale]] redet [[$2|$3]] kieli.',
-	'babel-N' => '[[$1|Madrilengue]] de la user esse [[$2|$3]].',
-	'babel-0-n' => 'Elle user [[$1|non communicar]] per lingo [[$2|Europanto]].',
-	'babel-1-n' => 'Disse user parla [[$1|little]] de [[$2|Europanto]].',
-	'babel-2-n' => 'Ecco user [[$1|medium bona]] sprekt de [[$2|Europanto]] taal.',
-	'babel-3-n' => 'User capable [[$1|eccellente]] [[$2|Europanto]] mal.',
-	'babel-4-n' => 'User op et [[$1|niveau van modersmål]] praat [[$2|Europanto]].',
-	'babel-5-n' => 'This utilisateur [[$1|profesionale]] redet [[$2|Europanto]] kieli.',
-	'babel-N-n' => '[[$1|Madrilengue]] de la user esse [[$2|Europanto]].',
-);
-
 /** Persian (فارسی)
  * @author Huji
  * @author Ladsgroup
@@ -1216,19 +1196,6 @@ $messages['frp'] = array(
 	'babel-N-n' => 'Ceti utilisator at por [[$1|lengoua matèrnâla]] l’[[$2|arpetan]].',
 );
 
-/** Northern Frisian (Fräsch)
- * @author Wikipedia:de:User:Termo
- * @author Purodha
- */
-$messages['frr'] = array(
-	'babel-1' => 'Dideere brüker koon [[$1|lait]] [[$2|$3]] snååke en leese.',
-#	'babel-2' => 'Dideere brüker koon [[$1|lait]] [[$2|$3]] snååke en leese.',
-#	'babel-3' => 'Dideere brüker koon [[$1|lait]] [[$2|$3]] snååke en leese.',
-	'babel-1-n' => 'Dideere brüker koon [[$1|lait]] [[$2|nordfrasch]] snååke en leese.',
-#	'babel-2-n' => 'Dideere brüker koon [[$1|lait]] [[$2|nordfrasch]] snååke en leese.',
-#	'babel-3-n' => 'Dideere brüker koon [[$1|lait]] [[$2|nordfrasch]] snååke en leese.',
-);
-
 /** Western Frisian (Frysk)
  * @author Crazymadlover
  * @author Snakesteuben
@@ -1351,45 +1318,6 @@ $messages['gl'] = array(
 	'babel-4-n' => 'Este usuario ten un coñecemento [[$1|similar ao dun nativo]] de [[$2|galego]].',
 	'babel-5-n' => 'Este usuario ten un coñecemento [[$1|profesional]] de [[$2|galego]].',
 	'babel-N-n' => 'Este usuario é un falante [[$1|nativo]] de [[$2|galego]].',
-);
-
-/** Middle High German (diutsche zunge)
- * @author Purodha
- */
-$messages['gmh'] = array(
-#	'babel-0' => 'Diser genôz habet [[$1|keine]] kennunge in [[$2|$3]].',
-	'babel-1' => 'Dise persôn hat [[$1|einec]] kennunge in [[$2|$3]].',
-	'babel-2' => 'Dise persôn hat [[$1|guote]] kennunge in [[$2|$3]].',
-	'babel-3' => 'Dise persôn hat [[$1|harte guote]] kennunge in [[$2|$3]].',
-	'babel-4' => 'Dise persôn mac schrîben [[$2|$3]] vast sam [[$1|ez waere diu muotersprach]].',
-#	'babel-5' => 'Diser genôz habet [[$1|profesional]] kennunge in [[$2|$3]].',
-	'babel-N' => 'Diser genôz habet [[$2|$3]] als [[$1|sîn eigen sprâche]].',
-#	'babel-0-n' => 'Diser genôz habet [[$1|keine]] kennunge in [[$2|diutscher zunge]].',
-	'babel-1-n' => 'Dise persôn hat [[$1|einec]] kennunge in [[$2|diutscher zunge]].',
-	'babel-2-n' => 'Dise persôn hat [[$1|guote]] kennunge in [[$2|diutscher zunge]].',
-	'babel-3-n' => 'Dise persôn hat [[$1|harte guote]] kennunge in [[$2|diutscher zunge]].',
-	'babel-4-n' => 'Dise persôn mac schrîben [[$2|diutsche zunge]] vast sam [[$1|ez waere diu muotersprach]].',
-#	'babel-5-n' => 'Diser genôz habet [[$1|profesional]] kennunge in [[$2|diutscher zunge]].',
-	'babel-N-n' => 'Diser genôz habet [[$2|diutsch]] als [[$1|sîn eigen sprâche]].',
-);
-
-/** Gronings (Gronings)
- * @author Purodha
- */
-$messages['gos'] = array(
-	'babel-url' => 'Project:Babel',
-#	'babel-0' => 'Dizze gebruker het [[$1|geen kennes]] van t [[$2|$3]].',
-	'babel-1' => 'Dizze gebruker het [[$1|grondkennes]] van t [[$2|$3]].',
-	'babel-2' => 'Dizze gebruker het [[$1|moatege kennes]] van t [[$2|$3]].',
-	'babel-3' => 'Dizze gebruker het n [[$1|oetstekende kennes]] van t [[$2|$3]].',
-	'babel-4' => 'Dizze gebruker sprekt t [[$2|$3]] op [[$1|moudertoalnivo]].',
-	'babel-N' => 'Dizze gebruker het t [[$2|$3]] as [[$1|moudertoal]].',
-#	'babel-0-n' => 'Dizze gebruker het [[$1|geen kennes]] van t [[$2|Grunnegs]].',
-	'babel-1-n' => 'Dizze gebruker het [[$1|grondkennes]] van t [[$2|Grunnegs]].',
-	'babel-2-n' => 'Dizze gebruker het [[$1|moatege kennes]] van t [[$2|Grunnegs]].',
-	'babel-3-n' => 'Dizze gebruker het n [[$1|oetstekende kennes]] van t [[$2|Grunnegs]].',
-	'babel-4-n' => 'Dizze gebruker sprekt t [[$2|Grunnegs]] op [[$1|moudertoalnivo]].',
-	'babel-N-n' => 'Dizze gebruker het t [[$2|Grunnegs]] as [[$1|moudertoal]].',
 );
 
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
@@ -3492,26 +3420,6 @@ $messages['sw'] = array(
 	'babel-N-n' => 'Mtumiaji huyu ni mwongeaji wa [[$2|Kiswahili]] [[$1|Fasaha]].',
 );
 
-/** Swabian (Schwäbisch)
- * @author Purodha
- */
-$messages['swg'] = array(
-	'babel-0' => 'Der Benutzer schwätzt [[$1|kei]] [[$2|$3]].',
-	'babel-1' => 'Der Benutzer schwätzt [[$1|a bisle]] [[$2|$3]].',
-	'babel-2' => 'Der Benutzer schwätzt [[$1|ebbes besser]] [[$2|$3]].',
-	'babel-3' => 'Der Benutzer schwätzt [[$1|ned schlecht]] [[$2|$3]].',
-	'babel-4' => 'Der Benutzer schwätzt [[$2|$3]] [[$1|wia an Waschechder]].',
-#	'babel-5' => 'Der Benutzer schwätzt [[$1|profesional]] [[$2|$3]].',
-	'babel-N' => 'Der Benutzer schwätzt [[$2|$3]] [[$1|seit er schwätza ka]].',
-	'babel-0-n' => 'Der Benutzer schwätzt [[$1|kei]] [[$2|Schwäbisch]].',
-	'babel-1-n' => 'Der Benutzer schwätzt [[$1|a bisle]] [[$2|Schwäbisch]].',
-	'babel-2-n' => 'Der Benutzer schwätzt [[$1|ebbes besser]] [[$2|Schwäbisch]].',
-	'babel-3-n' => 'Der Benutzer schwätzt [[$1|ned schlecht]] [[$2|Schwäbisch]].',
-	'babel-4-n' => 'Der Benutzer schwätzt [[$2|Schwäbisch]] [[$1|wia an waschechder Schwoob]].',
-#	'babel-5-n' => 'Der Benutzer schwätzt [[$1|profesional]] [[$2|Schwäbisch]].',
-	'babel-N-n' => 'Der Benutzer schwätzt [[$2|Schwäbisch]] [[$1|seit er schwätza ka]].',
-);
-
 /** Silesian (Ślůnski)
  * @author Purodha
  */
@@ -3953,26 +3861,6 @@ $messages['wa'] = array(
 	'babel-1-n' => "Cist(e) uzeu(se) ci ni sait l' [[$2|walon]] ki come [[$1|onk (ene) ki cmince]].",
 	'babel-2-n' => 'Cist(e) uzeu(se) ci kinoxhe [[$1|ene miete]] li [[$2|walon]].',
 	'babel-3-n' => "Cist(e) uzeu(se) ci sait [[$1|bén]] l' [[$2|walon]].",
-);
-
-/** Westphalian (Westfäölsk)
- * @author Purodha
- */
-$messages['wep'] = array(
-	'babel-0' => 'Der Benutzer spreakt [[$1|nich]] [[$2|$3]].',
-	'babel-1' => 'Der Benutzer spreakt [[$1|mar weanich]] [[$2|$3]].',
-#	'babel-2' => 'Der Benutzer spreakt [[$1|guot]] [[$2|$3]].',
-#	'babel-3' => 'Der Benutzer spreakt [[$1|bannich guot]] [[$2|$3]].',
-#	'babel-4' => 'Der Benutzer spreakt [[$2|$3]] xxx [[$1|Muodersprak]].',
-#	'babel-5' => 'Der Benutzer spreakt [[$1|profesional]] [[$2|$3]].',
-#	'babel-N' => 'Der Benutzer spreakt [[$2|$3]] xxx [[$1|Muodersprak]].',
-	'babel-0-n' => 'Der Benutzer spreakt [[$1|nich]] [[$2|Westfäölsk]].',
-	'babel-1-n' => 'Der Benutzer spreakt [[$1|mar weanich]] [[$2|Westfäölsk]].',
-#	'babel-2-n' => 'Der Benutzer spreakt [[$1|guot]] [[$2|Westfäölsk]].',
-#	'babel-3-n' => 'Der Benutzer spreakt [[$1|bannich guot]] [[$2|Westfäölsk]].',
-#	'babel-4-n' => 'Der Benutzer spreakt [[$2|Westfäölsk]] xxx [[$1|Muodersprak]].',
-#	'babel-5-n' => 'Der Benutzer spreakt [[$1|profesional]] [[$2|Westfäölsk]].',
-#	'babel-N-n' => 'Der Benutzer spreakt [[$2|Westfäölsk]] xxx [[$1|Muodersprak]].',
 );
 
 /** Wolof (Wolof)
