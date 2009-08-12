@@ -2280,6 +2280,7 @@ $messages['mhr'] = array(
 );
 
 /** Macedonian (Македонски)
+ * @author Bjankuloski06
  * @author Brest
  * @author INkubusse
  */
@@ -2288,7 +2289,7 @@ $messages['mk'] = array(
 	'babel-desc' => 'Ја додава парсер функцијата <tt>#babel</tt> со што се дозволува автоматизирано генерирање на колони со кориснички кутии од типот „Вавилон“, со можноста да се додаваат сопствени шаблони',
 	'babel-url' => 'Project:Вавилон',
 	'babel-autocreate-abort' => 'Корисничкото име кое го наведовте се користи за [[$1|Babel]] категорија која автоматски се креира и не може да се регистрирате под тоа име.',
-	'babel-autocreate-reason' => 'Автоматско креирање на [[$1|Babel]] категорија.',
+	'babel-autocreate-reason' => 'Автоматско создавање на [[$1|Вавилон]] категорија.',
 	'babel-autocreate-text-levels' => 'Корисниците во оваа категорија навеле дека имаат $1 ниво на познавање на $2 јазик.',
 	'babel-autocreate-text-main' => 'Корисниците во оваа категорија навеле дека имаат познавање на $1 јазик.',
 	'babel-autocreate-user' => 'Babel AutoCreate',
@@ -3202,15 +3203,21 @@ $messages['sk'] = array(
  * @author Smihael
  */
 $messages['sl'] = array(
+	'babel' => 'Uporabnikov Babilon',
+	'babel-desc' => 'Doda funkcijo <tt>#babel</tt>, ki omogoča avtomatizirano ustvarjanje babilonskih uporabniških polj z zmožnostjo vključevanja predlog po meri',
+	'babel-url' => 'Project:Babilon',
+	'babel-autocreate-reason' => 'Samodejno ustvarjanje [[$1|babilonske]] kategorije.',
+	'babel-autocreate-text-levels' => 'Uporabniki navedeni v tej kategoriji imajo naslednjo jezikovno sposobnost $1 $2.',
+	'babel-autocreate-text-main' => 'Uporabniki navedeni v tej kategoriji imajo znanje jezika »$1«.',
 	'babel-0' => 'Ta uporabnik [[$1|nima]] znanja [[$2|$3]] (ali pa ima težave z razumevanjem).',
 	'babel-1' => 'Ta uporabnik ima [[$1|osnovno]] znanje [[$2|$3]].',
 	'babel-2' => 'Uporabnik [[$1|srednje dobro]] govori [[$2|$3]].',
 	'babel-3' => 'Uporabnik [[$1|zelo dobro]] govori [[$2|$3]].',
 	'babel-4' => 'Uporabnik govori [[$2|$3]] [[$1|skoraj enako dobro kakor prvi jezik]].',
 	'babel-5' => 'Uporabnik govori [[$2|$3]] na [[$1|profesionalni]] ravni.',
-	'babel-N' => 'Ta uporabnik govori [[$2|{{GRAMMAR:akuzativ|$3}}]] kot materni jezik.',
+	'babel-N' => 'Ta uporabnik govori [[$2|{{GRAMMAR:akuzativ|$3}}]] kot [[$1|materni jezik]].',
 	'babel-0-n' => 'Ta uporabnik [[$1|ne govori]] [[$2|slovenščine]] oz. ima velike težave pri razumevanju.',
-	'babel-1-n' => "Uporabnik pozna '''[[$1|osnove]]''' '''[[$1|slovenskega jezika]].",
+	'babel-1-n' => "Uporabnik pozna '''[[$1|osnove]]''' '''[[$2|slovenskega jezika]].",
 	'babel-2-n' => "Uporabnik '''[[$1|srednje dobro]]''' govori '''[[$2|slovenščino]].",
 	'babel-3-n' => "Uporabnik '''[[$1|zelo dobro]]''' govori '''[[$2|slovenščino]].",
 	'babel-4-n' => "Uporabnik govori '''[[$1|slovensko]]''' skoraj '''[[$2|enako dobro kakor prvi jezik]]'''.",
