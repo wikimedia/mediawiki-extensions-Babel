@@ -1198,16 +1198,31 @@ $messages['frp'] = array(
 
 /** Western Frisian (Frysk)
  * @author Crazymadlover
+ * @author SK-luuut
  * @author Snakesteuben
  */
 $messages['fy'] = array(
-	'babel-0' => 'Dizze meidogger praat [[$1|gjin]] [[$2|$3]].',
+	'babel' => 'Babel-meidoggersynformaasje',
+	'babel-desc' => 'Foeget de <tt>#babel</tt> automatyske opdielerfunksje ta om it automatysk meitsjen fan in Babel meidoggerskolom ta stean mei de mooglikheid om eigen berjochten ta te foegjen.',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => "De meidoggersnamme dy't jo opjûn hawwe wurdt al brûkt foar it automatysk meitsjen fan [[$1|Babel]]-kategoryen en kin net oanmeld wurden.",
+	'babel-autocreate-reason' => 'Makket automatysk in [[$1|Babel]]-kategory oan.',
+	'babel-autocreate-text-levels' => 'Meidoggers yn dizze kategory jouwe oan dat harren taalkennis foar $2 $1 is.',
+	'babel-autocreate-text-main' => 'Meidoggers yn dizze kategory jouwe oan dat hja kennis fan $1 hawwe.',
+	'babel-0' => 'Dizze meidogger hat [[$1|gjin]] kennis fan [[$2|$3]] (of ferstiet it allinnich mei in soad tûkelteammen).',
 	'babel-1' => 'It [[$2|$3]] fan dizze meidogger is [[$1|minimaal]].',
 	'babel-2' => 'It [[$2|$3]] fan dizze meidogger is [[$1|ridlik]].',
 	'babel-3' => 'It [[$2|$3]] fan dizze meidogger is [[$1|treflik]].',
 	'babel-4' => 'It [[$2|$3]] is benei de [[$1|memmetaal]] fan dizze meidogger.',
 	'babel-5' => 'It [[$2|$3]] fan dizze meidogger is [[$1|professional]].',
 	'babel-N' => 'It [[$2|$3]] is de [[$1|memmetaal]] fan dizze meidogger.',
+	'babel-0-n' => 'Dizze meidogger hat [[$1|gjin]] kennis fan it [[$2|Frysk]] (of ferstiet it allinnich mei in soad tûkelteammen).',
+	'babel-1-n' => 'It [[$2|Frysk]] fan dizze meidogger is [[$1|minimaal]].',
+	'babel-2-n' => 'It [[$2|Frysk]] fan dizze meidogger is [[$1|ridlik]].',
+	'babel-3-n' => 'It [[$2|Frysk]] fan dizze meidogger is [[$1|treflik]].',
+	'babel-4-n' => 'It [[$2|Frysk]] is benei de [[$1|memmetaal]] fan dizze meidogger.',
+	'babel-5-n' => 'De kennis fan it [[$2|Frysk]] fan dizze meidogger is [[$1|beropsmatich]].',
+	'babel-N-n' => 'It [[$2|Frysk]] is de [[$1|memmetaal]] fan dizze meidogger.',
 );
 
 /** Irish (Gaeilge)
@@ -2288,7 +2303,7 @@ $messages['mk'] = array(
 	'babel' => 'Кориснички информации за јазици',
 	'babel-desc' => 'Ја додава парсер функцијата <tt>#babel</tt> со што се дозволува автоматизирано генерирање на колони со кориснички кутии од типот „Вавилон“, со можноста да се додаваат сопствени шаблони',
 	'babel-url' => 'Project:Вавилон',
-	'babel-autocreate-abort' => 'Корисничкото име кое го наведовте се користи за [[$1|Babel]] категорија која автоматски се креира и не може да се регистрирате под тоа име.',
+	'babel-autocreate-abort' => 'Корисничкото име кое го наведовте се користи за автоматско создавање на [[$1|Babel]] категорија и затоа не може да се регистрира.',
 	'babel-autocreate-reason' => 'Автоматско создавање на [[$1|Вавилон]] категорија.',
 	'babel-autocreate-text-levels' => 'Корисниците во оваа категорија навеле дека имаат $1 ниво на познавање на $2 јазик.',
 	'babel-autocreate-text-main' => 'Корисниците во оваа категорија навеле дека имаат познавање на $1 јазик.',
@@ -3324,6 +3339,7 @@ $messages['sr-el'] = array(
 /** Seeltersk (Seeltersk)
  * @author Crazymadlover
  * @author Pyt
+ * @author SK-luuut
  */
 $messages['stq'] = array(
 	'babel' => 'Babel-Benutser-Information',
@@ -3340,12 +3356,12 @@ $messages['stq'] = array(
 	'babel-4' => 'Dissen Benutser [[$1|boalt slonk]] [[$2|$3]].',
 	'babel-5' => 'Dissen Benutser behärsket [[$2|$3]] ap [[$1|professionelle]] Ieuwene.',
 	'babel-N' => 'Dissen Benutser häd [[$2|$3]] [[$1|as Määmesproake]].',
-	'babel-0-n' => 'Dissen Benutser behärsket [[$2|Düütsk]] [[$1|nit]] (of ferstoant et man stuur).',
-	'babel-1-n' => 'Dissen Benutser behärsket [[$2|Düütsk]] ap [[$1|gruundlääsende]] Ieuwene.',
-	'babel-2-n' => 'Dissen Benutser kon [[$1|oarich]] [[$2|Düütsk]] baale.',
-	'babel-3-n' => 'Dissen Benutser kon [[$1|goud]] [[$2|Düütsk]] baale.',
-	'babel-4-n' => 'Dissen Benutser boalt [[$1|slonk]] [[$2|Düütsk]].',
-	'babel-5-n' => 'Dissen Benutser behärsket [[$2|Düütsk]] ap [[$1|professionelle]] Ieuwene.',
+	'babel-0-n' => 'Dissen Benutser behärsket [[$2|Seeltersk]] [[$1|nit]] (of ferstoant et man stuur).',
+	'babel-1-n' => 'Dissen Benutser behärsket [[$2|Seeltersk]] ap [[$1|gruundlääsende]] Ieuwene.',
+	'babel-2-n' => 'Dissen Benutser kon [[$1|oarich]] [[$2|Seelters]] baale.',
+	'babel-3-n' => 'Dissen Benutser kon [[$1|goud]] [[$2|Seeltersk]] baale.',
+	'babel-4-n' => 'Dissen Benutser boalt [[$1|slonk]] [[$2|Seeltersk]].',
+	'babel-5-n' => 'Dissen Benutser behärsket [[$2|Seeltersk]] ap [[$1|professionelle]] Ieuwene.',
 	'babel-N-n' => 'Dissen Benutser boalt [[$2|Seeltersk]] as [[$1|Määmesproake]].',
 );
 
