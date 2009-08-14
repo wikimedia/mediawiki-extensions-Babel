@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Babel Extension
  *
@@ -22,10 +21,10 @@ if( !defined( 'MEDIAWIKI' ) ) die( 'Invalid entry point.' );
 $wgExtensionCredits[ 'parserhook' ][] = array(
 	'path'            => __FILE__,
 	'name'            => 'Babel',
-	'version'         => '1.3.0',
+	'version'         => '1.4.0',
 	'author'          => 'Robert Leverington',
 	'url'             => 'http://www.mediawiki.org/wiki/Extension:Babel',
-	'description'     => 'Adds a parser function to allow automated generation of a babel userbox column with the ability to include custom templates.',
+	'description'     => 'Adds a parser function to allow automated generation of a babel userbox column with the ability to include custom templates',
 	'descriptionmsg'  => 'babel-desc',
 );
 
@@ -37,13 +36,13 @@ if( defined( 'MW_SUPPORTS_PARSERFIRSTCALLINIT' ) ) {
 }
 
 // Register required hooks.
-$wgHooks[ 'LanguageGetMagic' ][] = 'BabelStatic::Magic';
 $wgHooks[ 'AbortNewAccount'  ][] = 'BabelAutoCreate::RegisterAbort';
 
 $dir = dirname( __FILE__ );
 
 // Register internationalisation file.
 $wgExtensionMessagesFiles[ 'Babel' ] = $dir . '/Babel.i18n.php';
+$wgExtensionMessagesFiles[ 'BabelMagic' ] = $dir . '/Babel.i18n.magic.php';
 
 // Register autoload classes.
 $wgAutoloadClasses[ 'Babel'              ] = $dir . '/Babel.class.php';
