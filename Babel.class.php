@@ -46,27 +46,19 @@ class Babel {
 		// Loop through each of the input parameters.
 		foreach( $parameters as $name ) {
 
-			// Check if the parameter is a valid template name, if it is then
-			// include that template.
-			if( $this->_templateExists( $name ) && $name !== '' ) {
-
+			if( $name === '' ) {
+				continue;
+			} elseif( $this->_templateExists( $name ) ) {
 				$contents .= $parser->replaceVariables( "{{{$this->_addFixes( $name,'template' )}}}" );
-
 			} elseif( $chunks = $this->mParseParameter( $name ) ) {
-
 				$contents .= $this->_generateBox(        $chunks[ 'code' ], $chunks[ 'level' ] );
 				$contents .= $this->_generateCategories( $chunks[ 'code' ], $chunks[ 'level' ] );
-
 			} elseif( $this->_validTitle( $name ) ) {
-
 				// Non-existent page and invalid parameter syntax, red link.
 				$contents .= "\n[[Template:{$this->_addFixes( $name,'template' )}]]";
-
 			} else {
-
 				// Invalid title, output raw.
 				$contents .= "\nTemplate:{$this->_addFixes( $name,'template' )}";
-
 			}
 
 		}
