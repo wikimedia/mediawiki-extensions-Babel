@@ -149,6 +149,28 @@ $messages['vot'] = array(
 	'babel-N-n' => '[[$2|Vaďďa tšeeli]] on sene tšäüttijää [[$1|emätšeeli]].',
 );
 
+/** Prussian (Prūsiskan)
+ * @author Peteris
+ */
+$messages['prg'] = array(
+	'babel' => 'Babel turmus terpautajas',
+	'babel-url' => 'Project: Babel',
+	'babel-0' => 'Šis terpautajs [[$1|ni izpresta]] bīlan [[$2|$3]] (anga turri sen stan debīkans prōblamans).',
+	'babel-1' => 'Šis terpautajs zinna [[$2|$3]] na gruntiskan līgmenin',
+	'babel-2' => 'Šis terpautajs zinna [[$2|bīlan $3]] na [[$1|sirdan]] līgmenin.',
+	'babel-3' => 'Šis terpautajs zinna [[$2|bīlan $3]] na [[$1|ēmpirsin treppusin]] līgmenin.',
+	'babel-4' => 'Šis terpautajs zinna [[$2| bīlan $3]] ēst stawīdiskai, kāigi [[$1|gīmtan]].',
+	'babel-5' => 'Šis terpautajs zinna [[$2|bīlan $3]] stawīdiskai, kāigi [[$1|gimtan]].',
+	'babel-N' => '[[$2|$3]] ast [[$1|gimta]] bilā šisse terpautajas.',
+	'babel-0-n' => 'Šis terpautajs [[$1|ni izpresta]] bīlan [[$2|prūsiskan]] (anga turri sen stan debīkans prōblamans).',
+	'babel-1-n' => 'Šis terpautajs zinna [[$2|prūsiskan]] na gruntiskan līgmenin',
+	'babel-2-n' => 'Šis terpautajs zinna [[$2|prūsiskan]] na [[$1|sirdan]] līgmenin.',
+	'babel-3-n' => 'Šis terpautajs zinna [[$2|prūsiskan]] na [[$1|ēmpirsin treppusin]] līgmenin.',
+	'babel-4-n' => 'Šis terpautajs zinna [[$2|prūsiskan]] ēst stawīdiskai, kāigi [[$1|gīmtan]].',
+	'babel-5-n' => 'Šis terpautajs zinna [[$2|prūsiskan]] stawīdiskai, kāigi [[$1|gimtan]].',
+	'babel-N-n' => '[[$2|Prūsiskan]] ast [[$1|gimta]] bilā šisse terpautajas.',
+);
+
 /** Achinese (Acèh)
  * @author Si Gam Acèh
  */
@@ -166,6 +188,10 @@ $messages['af'] = array(
 	'babel' => 'Babel Gebruikersinligting',
 	'babel-desc' => "Voeg die <tt>#babel</tt> ontleder funksie by om outomatiese generasie van 'n babel gebruikerboksiekolom met die funksionaliteit om doelgemaakte sjablone in te voeg.",
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Die gebruikersnaam wat u gespesifiseer het word gebruik vir die outomatiese skep van [[$1|Babel]]-kategorieë en kan nie geregistreer word nie.',
+	'babel-autocreate-reason' => '[[$1|Babel]]-kategorie word outomaties geskep.',
+	'babel-autocreate-text-levels' => 'Gebruikers in hierdie kategorie dui aan dat hul vaardigheidsvlak vir die taal $2 $1 is.',
+	'babel-autocreate-text-main' => 'Gebruikers in hierdie kategorie dui aan dat hulle kennis van die taal $1 het.',
 	'babel-0' => 'Hierdie gebruiker het [[$1|geen]] kennis van [[$2|$3]] nie (of verstaan dit met groot moeite).',
 	'babel-1' => 'Hierdie gebruiker het [[$1|basiese]] kennis van [[$2|$3]].',
 	'babel-2' => 'Hierdie gebruiker het [[$1|middelbare]] kennis van [[$2|$3]].',
@@ -1141,6 +1167,7 @@ $messages['fo'] = array(
  * @author ChrisPtDe
  * @author Grondin
  * @author IAlex
+ * @author Jens Liebenau
  * @author Louperivois
  * @author UV
  * @author Verdy p
@@ -1151,8 +1178,8 @@ $messages['fr'] = array(
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "Le nom d'utilisateur que vous avez entré est utilisé pour créer automatiquement les catégories [[$1|Babel]] et ne peut pas être enregistré.",
 	'babel-autocreate-reason' => 'Création automatique de la catégorie [[$1|Babel]].',
-	'babel-autocreate-text-levels' => "Les utilisateurs dans cette catégorie ont indiqué qu'ils ont le niveau $1 pour la langue $2.",
-	'babel-autocreate-text-main' => "Les utilisateurs dans cette catégorie ont indiqué qu'ils ont une connaissance en $1.",
+	'babel-autocreate-text-levels' => 'Les utilisateurs dans cette catégorie ont indiqué qu’ils ont le niveau $1 pour la langue $2.',
+	'babel-autocreate-text-main' => 'Les utilisateurs dans cette catégorie ont indiqué qu’ils ont une connaissance en $1.',
 	'babel-0' => 'Cet utilisateur n’a [[$1|aucune]] connaissance en [[$2|$3]] (ou le comprend avec de grandes difficultés).',
 	'babel-1' => 'Cet utilisateur peut contribuer avec un niveau [[$1|élémentaire]] en [[$2|$3]].',
 	'babel-2' => 'Cet utilisateur a une connaissance [[$1|moyenne]] en [[$2|$3]].',
@@ -1162,7 +1189,7 @@ $messages['fr'] = array(
 	'babel-N' => 'Cet utilisateur dispose d’une compréhension comme [[$1|langue maternelle]] en [[$2|$3]].',
 	'babel-0-n' => 'Cet utilisateur n’a [[$1|aucune]] connaissance en [[$2|français]] (ou le comprend avec de grandes difficultés).',
 	'babel-1-n' => 'Cet utilisateur dispose de connaissances [[$1|de base]] en [[$2|français]].',
-	'babel-2-n' => "Cet utilisateur dispose d'un [[$1|niveau intermédiaire]] de connaissance en [[$2|français]].",
+	'babel-2-n' => 'Cet utilisateur dispose d’un [[$1|niveau intermédiaire]] de connaissance en [[$2|français]].',
 	'babel-3-n' => 'Cet utilisateur dispose de connaissances [[$1|avancées]] en [[$2|français]].',
 	'babel-4-n' => 'Cet utilisateur dispose de connaissances proches de la [[$1|langue maternelle]] en [[$2|français]].',
 	'babel-5-n' => 'Cet utilisateur dispose d’un niveau de connaissances [[$1|professionel]] du [[$2|français]].',
@@ -1173,7 +1200,7 @@ $messages['fr'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
-	'babel' => 'Enformacions sur l’utilisator de Babél',
+	'babel' => 'Enformacions Babél sur l’utilisator',
 	'babel-desc' => 'Apond la fonccion du parsor <tt>#babel</tt> que pèrmèt la crèacion ôtomatica d’una bouèta utilisator Babél avouéc la possibilitât d’y encllure des modèlos locals.',
 	'babel-url' => 'Project:Babél',
 	'babel-autocreate-abort' => 'Lo nom d’utilisator que vos éd buchiê est utilisâ por fâre ôtomaticament les catègories [[$1|Babél]] et pôt pas étre enregistrâ.',
@@ -2496,6 +2523,23 @@ $messages['nds'] = array(
 	'babel-4-n' => 'Disse Bruker versteiht wat vun [[$2|Plattdüütsch]] as wenn dat sien [[$1|Moderspraak]] weer.',
 	'babel-5-n' => 'Disse Bruker versteiht temlich wat vun [[$2|Plattdüütsch]], dat maakt he vun [[$1|Beroop]] ut.',
 	'babel-N-n' => 'Disse Bruker hett [[$2|Plattdüütsch]] as [[$1|Moderspraak]].',
+);
+
+/** Nepali (नेपाली)
+ * @author सरोज कुमार ढकाल
+ */
+$messages['ne'] = array(
+	'babel' => 'Babel प्रयोगकर्ता जानकारी',
+	'babel-url' => 'Project:ब्याबल',
+	'babel-autocreate-reason' => 'स्वत: शृजना गरिँदै [[$1|ब्याबल]] श्रेणी पृष्ठ ।',
+	'babel-0' => 'यो प्रयोगकर्तासँग [[$2|$3]] को कुनै ज्ञान [[$1|छैन]] ( अथवा धेरै कठिनताका साथ बुझ्ने गर्छ )।',
+	'babel-1' => 'यो प्रयोगकर्तासँग  [[$2|$3]]को [[$1|साधारण]] ज्ञान छ ।',
+	'babel-2' => 'यो प्रयोगकर्तासँग [[$2|$3]] को [[$1|मध्यम स्तर]]को ज्ञान छ।',
+	'babel-3' => 'यो प्रयोगकर्तासँग [[$2|$3]]को [[$1|उन्नत]] ज्ञान छ।',
+	'babel-4' => 'यो प्रयोगकर्तासँग [[$2|$3]]को [[$1|करिब मौलिक प्रयोगकर्ता जस्तै]] ज्ञान छ।',
+	'babel-5' => 'यो प्रयोगकर्तासँग [[$2|$3]]को [[$1|विशेषज्ञताको]] ज्ञान छ ।',
+	'babel-N' => 'यो प्रयोगकर्तासँग [[$2|$3]]को [[$1|मौलिक]] बुझाइ छ।',
+	'babel-N-n' => 'यो प्रयोगकर्तासँग [[$2|नेपाली भाषाको]] [[$1|मौलिक]] ज्ञान छ ।',
 );
 
 /** Dutch (Nederlands)
