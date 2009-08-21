@@ -15,3 +15,7 @@ $magicWords['en'] = array(
 $magicWords['ar'] = array(
 	'babel'   => array( '0', 'بابل', 'babel' ),
 );
+
+$magicWords['ru'] = array(
+	'babel'   => array( '0', 'вавилон', 'babel' ),
+);

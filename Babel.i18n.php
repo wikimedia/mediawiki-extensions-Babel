@@ -624,13 +624,27 @@ $messages['bn'] = array(
  * @author Fulup
  */
 $messages['br'] = array(
-	'babel-0' => 'Ne oar an impljer-mañ tamm [[$2|brezhoneg]] ebet (pe en deus mil boan kompren anezhañ).',
+	'babel' => 'Titouroù Babel war an implijer',
+	'babel-desc' => "Ouzhpennañ an arc'hwel parser <tt>#babel</tt> da c'henel ent emgefre ur voest implijer Babel a c'haller lakaat patromoù personelaet enni",
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => "Implijet eo an anv implijer merket ganeoc'h evit sevel ent emgefre rummadoù [[$1|Babel]]; setu, n'haller ket e enrollañ.",
+	'babel-autocreate-reason' => 'Krouidigezh emgefre ur bajenn eus ar rummad [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'Disklêriet o deus implijerien ar rummad-mañ mestroniañ al live $1 evit ar yezh $2.',
+	'babel-autocreate-text-main' => 'Implijerien ar rummad-mañ a zisklêr kaout anaouedegezh eus ar yezh $1',
+	'babel-0' => 'Ne oar an impljer-mañ [[$1|tamm]] [[$2|$3]] ebet (pe en deus mil boan o kompren anezhañ).',
 	'babel-1' => 'Ul live [[$2|brezhoneg]] [[$1|diazez]] zo gant an implijer-mañ.',
 	'babel-2' => 'Ul live [[$2|brezhoneg]] [[$1|etre]] zo gant an implijer-mañ.',
 	'babel-3' => 'Ul live [[$2|brezhoneg]] [[$1|a-feson]] zo gant an implijer-mañ.',
 	'babel-4' => 'An implijer-mañ a gomz [[$2|brezhoneg]] [[$1|evel pa vefe e yezh-vamm]].',
 	'babel-5' => 'An implijer-mañ en deus ul live [[$2|brezhoneg]] [[$1|a-vicher]].',
 	'babel-N' => 'An implijer-mañ zo ar [[$2|brezhoneg]] e [[$1|yezh-vamm]].',
+	'babel-0-n' => 'Ne oar an implijer-mañ [[$1|tamm]] [[$2|Brezhoneg]] ebet (pe en deus mil boan o kompren anezhañ).',
+	'babel-1-n' => 'Ul live [[$2|brezhoneg]] [[$1|diazez]] zo gant an implijer-mañ.',
+	'babel-2-n' => 'Ul live [[$2|brezhoneg]] [[$1|etre]] zo gant an implijer-mañ.',
+	'babel-3-n' => 'Ul live [[$2|brezhoneg]] [[$1|propik]] zo gant an implijer-mañ.',
+	'babel-4-n' => '[[$2|Brezhoneg]] a oar an implijer-mañ [[$1|evel pa vefe bet desket gantañ war barlenn e vamm]].',
+	'babel-5-n' => 'Ul live [[$2|Brezhoneg]] [[$1|a-vicher]] zo gant an implijer-mañ.',
+	'babel-N-n' => '[[$1|A-vihanik]] e oar [[$2|brezhoneg]] an implijer-mañ.',
 );
 
 /** Bosnian (Bosanski)
@@ -2318,7 +2332,7 @@ $messages['mg'] = array(
  * @author Сай
  */
 $messages['mhr'] = array(
-	'babel-N' => 'Тиде пайдаланыше лан [[$2|$3]] — [[$1|шочмо]] йылме улеш.',
+	'babel-N' => 'Тиде пайдаланышылан [[$2|$3]] — [[$1|шочмо йылме]] улеш.',
 );
 
 /** Macedonian (Македонски)
@@ -3732,6 +3746,14 @@ $messages['tr'] = array(
 	'babel-4-n' => 'Bu kullanıcı [[$1|anadili gibi]] [[$2|Türkçe]] konuşabilir.',
 	'babel-5-n' => 'Bu kullanıcı [[$1|profesyonel]] [[$2|Türkçe]] bilgisine sahiptir.',
 	'babel-N-n' => "Bu kullanıcının [[$1|anadili]] [[$2|Türkçe]]'dir.",
+);
+
+/** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+ * @author Yildiz
+ */
+$messages['tt-cyrl'] = array(
+	'babel' => 'Катнашучының телләр белү турындагы мәгълумат',
+	'babel-url' => 'Проект:Вавилон',
 );
 
 /** Ukrainian (Українська)
