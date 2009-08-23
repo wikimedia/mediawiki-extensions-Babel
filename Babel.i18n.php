@@ -185,8 +185,8 @@ $messages['ace'] = array(
  * @author SPQRobin
  */
 $messages['af'] = array(
-	'babel' => 'Babel Gebruikersinligting',
-	'babel-desc' => "Voeg die <tt>#babel</tt> ontleder funksie by om outomatiese generasie van 'n babel gebruikerboksiekolom met die funksionaliteit om doelgemaakte sjablone in te voeg.",
+	'babel' => 'Babel-gebruikersinligting',
+	'babel-desc' => "Voeg die <tt>#babel</tt>-ontlederfunksie by om outomatiese generasie van 'n babel-gebruikersboks moontlik te maak met die funksionaliteit om doelgemaakte sjablone in te plaas.",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Die gebruikersnaam wat u gespesifiseer het word gebruik vir die outomatiese skep van [[$1|Babel]]-kategorieë en kan nie geregistreer word nie.',
 	'babel-autocreate-reason' => '[[$1|Babel]]-kategorie word outomaties geskep.',
@@ -2061,13 +2061,13 @@ $messages['kw'] = array(
 	'babel-4' => 'An devnydhyer ma a skrif [[$2|$3]] [[$1|ogas hag avel mammyeth]].',
 	'babel-5' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|galwesik]].',
 	'babel-N' => 'An devnydhyer ma a skrif [[$2|$3]] avel [[$1|mammyeth]].',
-	'babel-0-n' => '[[$1|Ny wor]] an devnydhyer ma konvedhes [[$2|Kernewek]].',
-	'babel-1-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|sempel]].',
-	'babel-2-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|kres]].',
-	'babel-3-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|avoncys]].',
-	'babel-4-n' => 'An devnydhyer ma a skrif [[$2|Kernewek]] [[$1|ogas hag avel mammyeth]].',
-	'babel-5-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|galwesik]].',
-	'babel-N-n' => 'An devnydhyer ma a skrif [[$2|Kernewek]] avel [[$1|mammyeth]].',
+	'babel-0-n' => '[[$1|Ny wor]] an devnydhyer ma konvedhes [[$2|Kernowek]].',
+	'babel-1-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernowek]] orth nivel [[$1|sempel]].',
+	'babel-2-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernowek]] orth nivel [[$1|kres]].',
+	'babel-3-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernowek]] orth nivel [[$1|avoncys]].',
+	'babel-4-n' => 'An devnydhyer ma a skrif [[$2|Kernowek]] [[$1|ogas hag avel mammyeth]].',
+	'babel-5-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernowek]] orth nivel [[$1|galwesik]].',
+	'babel-N-n' => 'An devnydhyer ma a skrif [[$2|Kernowek]] avel [[$1|mammyeth]].',
 );
 
 /** Latin (Latina)
