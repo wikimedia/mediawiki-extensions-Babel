@@ -88,7 +88,7 @@ $messages['qqq'] = array(
  */
 $messages['sxu'] = array(
 	'babel-url' => 'Project:Babel',
-	'babel-0' => "Dor Benutzor hior sprischt [[$1|gorgeen]] [[$2|$3]].",
+	'babel-0' => 'Dor Benutzor hior sprischt [[$1|gorgeen]] [[$2|$3]].',
 	'babel-1' => "Dor Benutzor hior kann krad ma' [[$1|ä ganz kleenes bissl]] [[$2|$3]], 's is abbor eing'sch nisch dor Rede wärt.",
 	'babel-2' => "Dor Benutzor hior is eing'sch schonn [[$1|nisch ohne]] im [[$2|$3]] Spräschn.",
 	'babel-3' => "Dor Benutzor hior sprischt schonn [[$2|$3]] [[$1|wie's beese Tior]].",
@@ -149,7 +149,7 @@ $messages['vot'] = array(
 	'babel-N-n' => '[[$2|Vaďďa tšeeli]] on sene tšäüttijää [[$1|emätšeeli]].',
 );
 
-/** Prussian (Prūsiskan)
+/** Prūsiskan (Prūsiskan)
  * @author Peteris
  */
 $messages['prg'] = array(
@@ -3171,19 +3171,13 @@ $messages['scn'] = array(
  * @author Purodha
  */
 $messages['sco'] = array(
-#	'babel-0' => 'This uiser can contreibute wi a [[$1|xxx]] [[$2|$3]].',
 	'babel-1' => 'This uiser can contreibute wi a [[$1|laich]] level o [[$2|$3]].',
 	'babel-2' => 'This uiser can contreibute wi a [[$1|middlin]] level o [[$2|$3]].',
 	'babel-3' => 'This uiser can contreibute wi a [[$1|heich]] level o [[$2|$3]].',
-#	'babel-4' => 'This uiser can contreibute wi a [[$1|mither tung]] level o [[$2|$3]].',
-#	'babel-5' => 'This uiser can contreibute wi a [[$1|profesional]] level o [[$2|$3]].',
 	'babel-N' => 'This uiser haes [[$2|$3]] as a [[$1|mither tung]].',
-#	'babel-0-n' => 'This uiser can contreibute wi a [[$1|xxx]] [[$2|Scots]].',
 	'babel-1-n' => 'This uiser can contreibute wi a [[$1|laich]] level o [[$2|Scots]].',
 	'babel-2-n' => 'This uiser can contreibute wi a [[$1|middlin]] level o [[$2|Scots]].',
 	'babel-3-n' => 'This uiser can contreibute wi a [[$1|heich]] level o [[$2|Scots]].',
-#	'babel-4-n' => 'This uiser can contreibute wi a [[$1|mither tung]] level o [[$2|Scots]].',
-#	'babel-5-n' => 'This uiser can contreibute wi a [[$1|profesional]] level o [[$2|Scots]].',
 	'babel-N-n' => 'This uiser haes [[$2|Scots]] as a [[$1|mither tung]].',
 );
 
@@ -3350,7 +3344,7 @@ $messages['sq'] = array(
 	'babel-N-n' => 'Ky përdorues ka njohuri [[$1|amtare]] të [[$2|gjuhës Shqipe]].',
 );
 
-/** Serbian Cyrillic ekavian (ћирилица)
+/** Serbian Cyrillic ekavian (Српски (ћирилица))
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -3372,7 +3366,7 @@ $messages['sr-ec'] = array(
 	'babel-N-n' => '[[$1|Матерњи језик]] овог корисника је [[$2|српски језик]].',
 );
 
-/** latinica (latinica)
+/** Serbian Latin ekavian (Srpski (latinica))
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -3685,7 +3679,7 @@ $messages['tl'] = array(
 	'babel-N-n' => 'May [[$1|katutubong]] pang-unawa sa [[$2|Tagalog]] ang tagagamit na ito.',
 );
 
-/** Tokipona (toki pona)
+/** Toki Pona (Toki Pona)
  * @author Purodha
  */
 $messages['tokipona'] = array(
@@ -3694,14 +3688,12 @@ $messages['tokipona'] = array(
 	'babel-2' => 'jan ni li [[$1|toki]] e [[$2|$3]].',
 	'babel-3' => 'jan ni li [[$1|toki pona]] e [[$2|$3]].',
 	'babel-4' => 'jan ni li [[$1|toki pona mute]] e [[$2|$3]].',
-#	'babel-5' => 'jan ni li [[$1|toki profesional]] e [[$2|$3]].',
 	'babel-N' => '[[$1|tenpo ona ali]] la jan ni li toki e [[$2|$3]].',
 	'babel-0-n' => 'jan ni li [[$1|toki ala]] e [[$2|toki pona]].',
 	'babel-1-n' => 'jan ni li [[$1|toki lili]] e [[$2|toki pona]].',
 	'babel-2-n' => 'jan ni li [[$1|toki]] e [[$2|toki pona]].',
 	'babel-3-n' => 'jan ni li [[$1|toki pona]] e [[$2|toki pona]].',
 	'babel-4-n' => 'jan ni li [[$1|toki pona mute]] e [[$2|toki pona]].',
-#	'babel-5-n' => 'jan ni li [[$1|toki profesional]] e [[$2|toki pona]].',
 	'babel-N-n' => '[[$1|tenpo ona ali]] la jan ni li toki e [[$2|toki pona]].',
 );
 
