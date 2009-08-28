@@ -171,6 +171,14 @@ $messages['prg'] = array(
 	'babel-N-n' => '[[$2|Prūsiskan]] ast [[$1|gimta]] bilā šisse terpautajas.',
 );
 
+/** Northern Frisian (Frasch)
+ * @author Purodha
+ */
+$messages['frr'] = array(
+	'babel-1' => 'Dideere brüker koon [[$1|lait]] [[$2|$3]] snååke en leese.',
+	'babel-1-n' => 'Dideere brüker koon [[$1|lait]] [[$2|nordfrasch]] snååke en leese.',
+);
+
 /** Achinese (Acèh)
  * @author Si Gam Acèh
  */
@@ -2332,6 +2340,8 @@ $messages['mg'] = array(
  * @author Сай
  */
 $messages['mhr'] = array(
+	'babel-0' => 'Тиде пайдаланыше [[$2|$3]] [[$1|ок мошто]] (але тудлан йылмым йӧсӧ умылаш).',
+	'babel-1' => 'Тиде пайдаланышын [[$2|$3]] [[$1|тӱҥалтыш шинчымаш]] уло.',
 	'babel-N' => 'Тиде пайдаланышылан [[$2|$3]] — [[$1|шочмо йылме]] улеш.',
 );
 
