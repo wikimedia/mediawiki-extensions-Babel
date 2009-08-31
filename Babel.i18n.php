@@ -2712,17 +2712,17 @@ $messages['os'] = array(
  * @author GerardM
  */
 $messages['pcd'] = array(
-	'babel' => 'informatchion dech uzeu Babel',
+	'babel' => 'Informachons Babel su echl uzeu',
 	'babel-desc' => 'Érquértche el foncchon "analise <tt>#babel</tt>" pou avoèr el généracion d\'eune colonne "uzeu-boète babel" aveuc el pochibilité éd mètte chés modèles pérsonèls',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "Ech nom d'uzeu avinché est imploéïé pou el oeto-créachon del catégorie [[$1|Babel]] don i n'put poin éte inrégistré.",
 	'babel-autocreate-reason' => 'Pache éd créachon oetomatike del catégorie [[$1|Babel]].',
 	'babel-autocreate-text-levels' => "Ches uzeus din l'catégorie-lo, is déloufette qu'is ont un nivieu avinché $1 din l'langue $2.",
 	'babel-autocreate-text-main' => "Chés uzeus din l'catégorie-lo, is déloufette qu'is bavette din l'langue $1.",
-	'babel-0' => "Ech uzeu-lo, i n'bave [[$1|poin]] in [[$2|Picard]] (ou bin i parle un tiot peu in picard)",
-	'babel-1' => 'Ech uzeu-lo, il o un [[$1|basique]] parlache in [[$2|Picard]].',
+	'babel-0' => "Echl uzeu-lo, i n'bave [[$1|poin]] in [[$2|Picard]] (ou bin i parle un tiot peu in picard)",
+	'babel-1' => 'Echl uzeu-lo, il o un [[$1|basique]] parlache in [[$2|Picard]].',
 	'babel-2' => 'Echl uzeu-lo, il o un [[$1|mouéyin]] pérlache in [[$2|Picard]].',
-	'babel-3' => 'Ech uzeu-lo, il o un  parlache [[$1|avanché]] in [[$2|Picard]].',
+	'babel-3' => 'Echl uzeu-lo, il o un  parlache [[$1|avanché]] in [[$2|Picard]].',
 	'babel-4' => "Pou echl uzeu-lo, ch' [[$1|Picard]] ch'est [[$2|quasimint conme l'langue éd chés pérints]].",
 	'babel-5' => 'Echl uzeu-lo, il o un  parlache [[$1|proféchionèl]] in [[$2|Picard]].',
 	'babel-N' => "Pou echl'uzeu-lo, ch' [[$2|Picard]] ch'est l'langue éd ses pérints, il o un [[$1|native]] parlache.",
