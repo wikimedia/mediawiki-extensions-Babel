@@ -12,9 +12,8 @@ class BabelStatic {
 	 * Registers the parser function hook.
 	 * @return Boolean: True.
 	 */
-	public static function Setup() {
-		global $wgParser;
-		$wgParser->setFunctionHook( 'babel', array( 'BabelStatic', 'Render' ) );
+	public static function Setup( &$parser ) {
+		$parser->setFunctionHook( 'babel', array( 'BabelStatic', 'Render' ) );
 		return true;
 	}
 

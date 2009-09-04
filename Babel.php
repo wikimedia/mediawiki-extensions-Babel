@@ -29,11 +29,7 @@ $wgExtensionCredits[ 'parserhook' ][] = array(
 );
 
 // Register setup function.
-if( defined( 'MW_SUPPORTS_PARSERFIRSTCALLINIT' ) ) {
-	$wgHooks[ 'ParserFirstCallInit' ][] = 'BabelStatic::Setup';
-} else {
-	$wgExtensionFunctions[] = 'BabelStatic::Setup';
-}
+$wgHooks[ 'ParserFirstCallInit' ][] = 'BabelStatic::Setup';
 
 // Register required hooks.
 $wgHooks[ 'AbortNewAccount'  ][] = 'BabelAutoCreate::RegisterAbort';
