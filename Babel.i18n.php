@@ -171,6 +171,35 @@ $messages['prg'] = array(
 	'babel-N-n' => '[[$2|Prūsiskan]] ast [[$1|gimta]] bilā šisse terpautajas.',
 );
 
+/** Moroccan Spoken Arabic (Maġribi)
+ * @author Enzoreg
+ * @author GerardM
+ */
+$messages['ary'] = array(
+	'babel' => 'Meĝlomaṫ Babil ĝla l-mosṫeĥdim',
+	'babel-desc' => 'Zid l-fonksyon <tt>#babel</tt> li biha imkenlik ṫĥṫareĝ otomaṫikman sendoq Babil o ṫĝmel fih modélaṫ maḫeliyin.',
+	'babel-url' => 'Babil',
+	'babel-autocreate-abort' => "Had smiyṫ l-mosṫeĥdim li deĥelṫi mosṫeĥdama le l-ĥṫiraĝ l-'otomaṫik dyal l-katégotyaṫ [[$1|Babil]] o ma imkenlikċ ṫċejlo.",
+	'babel-autocreate-reason' => 'Ĥṫiraĝ otomaṫik dyal l-katégori [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'L-mosṫeĥdimin li fe had l-katégori ĝendhom mosṫawa $1 fe had l-loġa : $2.',
+	'babel-autocreate-text-main' => 'L-mosṫeĥdimin li fe had l-katégori ĝendhom meĝrifa fe had l-loġa : $1.',
+	'babel-directionality' => 'rtl',
+	'babel-0' => 'Had l-mosṫeĥdim ma ĝendo [[$1|ḫṫa]] ĝilm fe l-loġa [[$2|$3]] (ola ka ifhemha be soĝoba).',
+	'babel-1' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|asasi]] fe [[$2|l-Meġribiya]].',
+	'babel-2' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|mṫweṣet]] fe [[$2|l-Meġribiya]].',
+	'babel-3' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|mṫqedem]] fe [[$2|l-Meġribiya]].',
+	'babel-4' => "Had l-mosṫeĥdim ĝendo mosṫawa [[$1|qrib le loġat l-'om]] fe [[$2|l-Meġribiya]].",
+	'babel-5' => 'Had l-mosṫeĥdim ĝendo meĝrifa [[$1|ḫṫirafiya]] fe [[$2|l-Meġribiya]].',
+	'babel-N' => "Had l-mosṫeĥdim ka ifhem l-loġa l-[[$2|$3]]ya bḫal [[$1|loġto l-'om]].",
+	'babel-0-n' => 'Had l-mosṫeĥdim ma ĝendo [[$1|ḫṫa]] ĝilm fe l-loġa [[$2|$3]] (ola ka ifhemha be soĝoba).',
+	'babel-1-n' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|asasi]] fe [[$2|l-Meġribiya]].',
+	'babel-2-n' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|mṫweṣet]] fe [[$2|l-Meġribiya]].',
+	'babel-3-n' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|mṫqedem]] fe [[$2|l-Meġribiya]].',
+	'babel-4-n' => "Had l-mosṫeĥdim ĝendo mosṫawa [[$1|qrib le loġat l-'om]] fe [[$2|l-Meġribiya]].",
+	'babel-5-n' => 'Had l-mosṫeĥdim ĝendo meĝrifa [[$1|ḫṫirafiya]] fe [[$2|l-Meġribiya]].',
+	'babel-N-n' => "Had l-mosṫeĥdim ka ifhem l-loġa l-[[$2|$3]]ya bḫal [[$1|loġto l-'om]].",
+);
+
 /** Northern Frisian (Frasch)
  * @author Purodha
  */
@@ -2057,25 +2086,26 @@ $messages['ksh'] = array(
 }}.',
 );
 
-/** Cornish (Kernewek)
+/** Cornish (Kernowek)
+ * @author Kernoweger
  * @author Kw-Moon
  * @author Nicky.ker
  */
 $messages['kw'] = array(
-	'babel-0' => '[[$1|Ny wor]] an devnydhyer ma konvedhes [[$2|$3]].',
-	'babel-1' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|sempel]].',
-	'babel-2' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|kres]].',
-	'babel-3' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|avoncys]].',
-	'babel-4' => 'An devnydhyer ma a skrif [[$2|$3]] [[$1|ogas hag avel mammyeth]].',
-	'babel-5' => 'An devnydhyer ma a wor skrifa [[$2|$3]] orth nivel [[$1|galwesik]].',
-	'babel-N' => 'An devnydhyer ma a skrif [[$2|$3]] avel [[$1|mammyeth]].',
-	'babel-0-n' => '[[$1|Ny wor]] an devnydhyer ma konvedhes [[$2|Kernowek]].',
-	'babel-1-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernowek]] orth nivel [[$1|sempel]].',
-	'babel-2-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernowek]] orth nivel [[$1|kres]].',
-	'babel-3-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernowek]] orth nivel [[$1|avoncys]].',
-	'babel-4-n' => 'An devnydhyer ma a skrif [[$2|Kernowek]] [[$1|ogas hag avel mammyeth]].',
-	'babel-5-n' => 'An devnydhyer ma a wor skrifa [[$2|Kernowek]] orth nivel [[$1|galwesik]].',
-	'babel-N-n' => 'An devnydhyer ma a skrif [[$2|Kernowek]] avel [[$1|mammyeth]].',
+	'babel-0' => '[[$1|Na wor]] an devnydhyer ma convedhes [[$2|$3]].',
+	'babel-1' => 'An devnydhyer ma a wor scrifa [[$2|$3]] ort nivel [[$1|sempel]].',
+	'babel-2' => 'An devnydhyer ma a wor scrifa [[$2|$3]] ort nivel [[$1|cres]].',
+	'babel-3' => 'An devnydhyer ma a wor scrifa [[$2|$3]] ort nivel [[$1|avoncys]].',
+	'babel-4' => 'An devnydhyer ma a scrif [[$2|$3]] [[$1|ogas hag avel mabmyeth]].',
+	'babel-5' => 'An devnydhyer ma a wor scrifa [[$2|$3]] ort nivel [[$1|galwesik]].',
+	'babel-N' => 'An devnydhyer ma a scrif [[$2|$3]] avel [[$1|mabmyeth]].',
+	'babel-0-n' => '[[$1|Na wor]] an devnydhyer ma convedhes [[$2|Kernowek]].',
+	'babel-1-n' => 'An devnydhyer ma a wor scrifa [[$2|Kernowek]] ort nivel [[$1|sempel]].',
+	'babel-2-n' => 'An devnydhyer ma a wor scrifa [[$2|Kernowek]] ort nivel [[$1|cres]].',
+	'babel-3-n' => 'An devnydhyer ma a wor scrifa [[$2|Kernowek]] ort nivel [[$1|avoncys]].',
+	'babel-4-n' => 'An devnydhyer ma a scrif [[$2|Kernowek]] [[$1|ogas hag avel mabmyeth]].',
+	'babel-5-n' => 'An devnydhyer ma a wor scrifa [[$2|Kernowek]] ort nivel [[$1|galwesik]].',
+	'babel-N-n' => 'An devnydhyer ma a scrif [[$2|Kernowek]] avel [[$1|mabmyeth]].',
 );
 
 /** Latin (Latina)
