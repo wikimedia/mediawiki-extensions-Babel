@@ -2285,6 +2285,11 @@ $messages['lt'] = array(
  * @author Yyy
  */
 $messages['lv'] = array(
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Tevis norādītais lietotājvārds tiek lietots [[$1|Babel]] kategoriju automātiskai izveidošanai, tāpēc to nevar piereģistrēt.',
+	'babel-autocreate-reason' => 'Automātiski izveido [[$1|Babel]] kategorijas lapu.',
+	'babel-autocreate-text-levels' => 'Lietotāji šajā kategorijā ir norādījuši, ka tie pārzina $2 valodu $1 līmenī.',
+	'babel-autocreate-text-main' => 'Lietotāji šajā kategorijā ir norādījuši ka tiem ir $1 valodas zināšanas.',
 	'babel-0' => 'Šis lietotājs [[$2|$3]] valodu [[$1|neprot]]. (vai saprot ar ievērojamām grūtībām).',
 	'babel-1' => 'Šis lietotājs [[$2|$3]] valodu prot [[$1|pamatlīmenī]].',
 	'babel-2' => 'Šis lietotājs [[$2|$3]] valodu prot [[$1|vidējā]] līmenī.',
@@ -4036,7 +4041,7 @@ $messages['wo'] = array(
  * @author Huuchin
  */
 $messages['xal'] = array(
-	'babel' => 'Вавилон орлцачна өггц',
+	'babel' => 'Бабилон орлцачна өггцн',
 	'babel-0' => 'Эн орлцач [[$2|$3]] [[$1|медшго]] (аль күнд медтә)',
 	'babel-1' => 'Эн орлцач [[$2|$3]] [[$1|баһар]] меднә.',
 	'babel-2' => 'Эн орлцач [[$2|$3]] [[$1|дундар]] меднә.',
