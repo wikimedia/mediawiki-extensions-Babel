@@ -16,6 +16,10 @@ $magicWords['ar'] = array(
 	'babel'   => array( '0', 'بابل', 'babel' ),
 );
 
+$magicWords['frp'] = array(
+	'babel'   => array( '0', 'babél', 'babel' ),
+);
+
 $magicWords['ja'] = array(
 	'babel'   => array( '0', 'バベル', 'babel' ),
 );
