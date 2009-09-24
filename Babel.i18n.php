@@ -2104,13 +2104,13 @@ $messages['kw'] = array(
 	'babel-4' => 'An devnydhyer-ma a scrif [[$2|$3]] [[$1|ogas hag avel mammyeth]].',
 	'babel-5' => 'An devnydhyer-ma a wor scrifa [[$2|$3]] orth nivel [[$1|galwesik]].',
 	'babel-N' => 'An devnydhyer-ma a scrif [[$2|$3]] avel [[$1|mammyeth]].',
-	'babel-0-n' => '[[$1|Na wor]] an devnydhyer-ma konvedhes [[$2|Kernowek]].',
-	'babel-1-n' => 'An devnydhyer-ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|sempel]].',
-	'babel-2-n' => 'An devnydhyer-ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|cres]].',
-	'babel-3-n' => 'An devnydhyer-ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|avoncys]].',
-	'babel-4-n' => 'An devnydhyer-ma a scrif [[$2|Kernowek]] [[$1|ogas hag avel mammyeth]].',
-	'babel-5-n' => 'An devnydhyer-ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|galwesik]].',
-	'babel-N-n' => 'An devnydhyer-ma a scrif [[$2|Kernowek]] avel [[$1|mammyeth]].',
+	'babel-0-n' => '[[$1|Na wor]] an devnydhyer-ma konvedhes [[$2|Kernewek]].',
+	'babel-1-n' => 'An devnydhyer-ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|sempel]].',
+	'babel-2-n' => 'An devnydhyer-ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|kres]].',
+	'babel-3-n' => 'An devnydhyer-ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|avoncys]].',
+	'babel-4-n' => 'An devnydhyer-ma a skrif [[$2|Kernewek]] [[$1|ogas hag avel mammyeth]].',
+	'babel-5-n' => 'An devnydhyer-ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|galwesik]].',
+	'babel-N-n' => 'An devnydhyer-ma a skrif [[$2|Kernewek]] avel [[$1|mammyeth]].',
 );
 
 /** Latin (Latina)
