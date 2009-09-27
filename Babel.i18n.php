@@ -3310,6 +3310,7 @@ $messages['si'] = array(
 /** Slovak (Slovenčina)
  * @author Helix84
  * @author Meno25
+ * @author Rudko
  */
 $messages['sk'] = array(
 	'babel' => 'Babylon - informácie o používateľovi',
@@ -3326,13 +3327,13 @@ $messages['sk'] = array(
 	'babel-4' => 'Tento používateľ má znalosti [[$2|{{GRAMMAR:genitív|$3}}]] takmer na úrovni [[$1|rodného jazyka]].',
 	'babel-5' => 'Tento používateľ má [[$1|profesionálne]] znalosti [[$2|{{GRAMMAR:genitív|$3}}]].',
 	'babel-N' => 'Tento používateľ má [[$2|{{GRAMMAR:akuzatív|$3}}]] ako [[$1|rodný jazyk]].',
-	'babel-0-n' => 'Tento redaktor [[$1|nerozumie]] po [[$2|anglicky]] (alebo rozumie so značnými problémami).',
+	'babel-0-n' => 'Tento redaktor [[$1|nerozumie]] po [[$2|slovensky]] (alebo rozumie so značnými problémami).',
 	'babel-1-n' => 'Tento redaktor má [[$1|základné]] znalosti [[$2|slovenčiny]].',
 	'babel-2-n' => 'Tento redaktor má [[$1|stredné]] znalosti [[$2|slovenčiny]].',
 	'babel-3-n' => 'Tento redaktor má [[$1|pokročilé]] znalosti [[$2|slovenčiny]].',
 	'babel-4-n' => 'Tento redaktor má znalosti [[$2|slovenčiny]] [[$1|takmer na úrovni materinského jazyka]].',
 	'babel-5-n' => 'Tento redaktor má [[$1|profesionálne]] znalosti [[$2|slovenčiny]].',
-	'babel-N-n' => 'Tento redaktor má [[$2|angličtinu]] ako [[$1|materinský jazyk]].',
+	'babel-N-n' => 'Tento redaktor má [[$2|slovenčinu]] ako [[$1|materinský jazyk]].',
 );
 
 /** Slovenian (Slovenščina)
