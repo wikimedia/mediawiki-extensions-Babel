@@ -2187,25 +2187,30 @@ $messages['lfn'] = array(
 
 /** Limburgish (Limburgs)
  * @author Ooswesthoesbes
+ * @author Pahles
  */
 $messages['li'] = array(
 	'babel' => 'Babel Gebroekersinfermasie',
-	'babel-desc' => "Veug de <tt>#babel</tt>-parserfunksie d'rbie óm automatische generasie van 'ne babelgebroekersbóks door te laote gaon mit de meugelikheid óm aangepasdje sjablone in te voge",
+	'babel-desc' => "Voog de <tt>#babel</tt>-parserfónksie toe óm automatische generatie van 'ne babelgebroekersbóks mäögelik te make mit de mäögelikheid óm aangepasde sjablone in te voge",
 	'babel-url' => 'Project:Babel',
-	'babel-0' => "Deze gebroeker haet [[$1|gein]] kinnes van 't [[$2|$3]] (of kin 't alikszins 'n bietje begriepe)",
-	'babel-1' => "Deze gebroeker bezèt kinnes van 't [[$2|$3]] op [[$1|illementaer huuegdje]].",
-	'babel-2' => "Deze gebroeker behieërs 't [[$2|$3]] op [[$1|bazes huuegdje]].",
-	'babel-3' => "Deze gebroeker behieërs 't [[$2|$3]] [[$1|good]].",
-	'babel-4' => "Deze gebroeker behieërs 't [[$2|$3]] op 'ne huuegdje van [[$1|bekans modertaalwaerdigheid]].",
-	'babel-5' => "Deze gebroeker haet 'ne [[$1|perfèsjenieële]] kinnes van 't [[$2|$3]].",
-	'babel-N' => "Deze gebroeker behieërs 't [[$2|$3]] op [[$1|modertaal huuegdje]].",
-	'babel-0-n' => "Deze gebroeker haet [[$1|gein]] kinnes van 't [[$2|Plat]] (of kin 't alikszins 'n bietje begriepe)",
-	'babel-1-n' => "Deze gebroeker bezèt kinnes van 't [[$2|Plat]] op [[$1|illementaer huuegdje]].",
-	'babel-2-n' => "Deze gebroeker behieërs 't [[$2|Plat]] op [[$1|bazes huuegdje]].",
-	'babel-3-n' => "Deze gebroeker behieërs 't [[$2|Plat]] [[$1|good]].",
-	'babel-4-n' => "Deze gebroeker behieërs 't [[$2|Plat]] op 'ne huuegdje van [[$1|bekans modertaalwaerdigheid]].",
-	'babel-5-n' => "Deze gebroeker haet 'ne [[$1|perfèsjenieële]] kinnes van 't [[$2|Plat]].",
-	'babel-N-n' => "Deze gebroeker behieërs 't [[$2|Plat]] op [[$1|modertaal huuegdje]].",
+	'babel-autocreate-abort' => "De opgegaeve gebroekersnaam weurt gebroek veur 't automatisch aanmake van [[$1|Babel]]-categorieë en kan neet geregistreerd waere.",
+	'babel-autocreate-reason' => 'Automatisch aanmake [[$1|Babel]]-categoriepagina.',
+	'babel-autocreate-text-levels' => 'Gebroekers in dees categorie gaeve aan dat hun niveau veur de taal $2 $1 is.',
+	'babel-autocreate-text-main' => 'Gebroekers in dees categorie gaeve aan dat zie benöl höbbe vaan de taol $1.',
+	'babel-0' => "Deze gebroeker haet [[$1|gein]] benöl van 't [[$2|$3]] (of haet groete meujte 't te begriepe)",
+	'babel-1' => "Deze gebroeker haet op [[$1|basisniveau]] benöl van 't [[$2|$3]].",
+	'babel-2' => "Deze gebroeker haet [[$1|gemiddeld]] benöl van 't [[$2|$3]].",
+	'babel-3' => "Deze gebroeker haet [[$1|good]] benöl van 't [[$2|$3]].",
+	'babel-4' => "Deze gebroeker haet benöl van 't [[$2|$3]] op [[$1|bekans-mojerspraokniveau]].",
+	'babel-5' => "Deze gebroeker haet [[$1|perfesjeneel]] benöl van 't [[$2|$3]].",
+	'babel-N' => "Deze gebroeker haet benöl van 't [[$2|$3]] op [[$1|mojerspraokniveau]].",
+	'babel-0-n' => "Deze gebroeker haet [[$1|gein]] benöl van 't [[$2|Limburgs] (of haet groete meujte 't te begriepe)",
+	'babel-1-n' => "Deze gebroeker haet op [[$1|basisniveau]] benöl van 't [[$2|Limburgs]].",
+	'babel-2-n' => "Deze gebroeker haet [[$1|gemiddeld]] benöl van 't [[$2|Limburgs]].",
+	'babel-3-n' => "Deze gebroeker haet [[$1|good]] benöl van 't [[$2|Limburgs]].",
+	'babel-4-n' => "Deze gebroeker haet benöl van 't [[$2|Limburgs]] op [[$1|bekans-mojerspraokniveau]].",
+	'babel-5-n' => "Deze gebroeker haet [[$1|perfesjeneel]] benöl van 't [[$2|Limburgs]].",
+	'babel-N-n' => "Deze gebroeker haet benöl van 't [[$2|Limburgs]] op [[$1|mojerspraokniveau]].",
 );
 
 /** Lumbaart (Lumbaart)
@@ -2287,10 +2292,12 @@ $messages['lt'] = array(
 );
 
 /** Latvian (Latviešu)
+ * @author Dark Eagle
  * @author Yyy
  */
 $messages['lv'] = array(
-	'babel-url' => 'Project:Babel',
+	'babel' => 'Lietotāja informācija (Bābeles tornis)',
+	'babel-url' => 'Projekts:Bābeles tornis',
 	'babel-autocreate-abort' => 'Tevis norādītais lietotājvārds tiek lietots [[$1|Babel]] kategoriju automātiskai izveidošanai, tāpēc to nevar piereģistrēt.',
 	'babel-autocreate-reason' => 'Automātiski izveido [[$1|Babel]] kategorijas lapu.',
 	'babel-autocreate-text-levels' => 'Lietotāji šajā kategorijā ir norādījuši, ka tie pārzina $2 valodu $1 līmenī.',
