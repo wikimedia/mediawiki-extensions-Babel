@@ -24,6 +24,10 @@ $magicWords['ja'] = array(
 	'babel'   => array( '0', 'バベル', 'babel' ),
 );
 
+$magicWords['mr'] = array(
+	'babel'   => array( '0', 'बॅबेल', 'babel' ),
+);
+
 $magicWords['ru'] = array(
 	'babel'   => array( '0', 'вавилон', 'babel' ),
 );
