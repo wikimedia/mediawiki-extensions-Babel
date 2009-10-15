@@ -3826,6 +3826,13 @@ $messages['tt-cyrl'] = array(
 	'babel-url' => 'Проект:Вавилон',
 );
 
+/** Tuvinian (Тыва дыл)
+ * @author Sborsody
+ */
+$messages['tyv'] = array(
+	'babel-1' => 'Бо ажыглакчы [[$1|эге деңнелге]] [[$2|тывалай]] деткий ал.',
+);
+
 /** Ukrainian (Українська)
  * @author A1
  * @author AS
