@@ -4113,6 +4113,7 @@ $messages['yi'] = array(
  * @author Demmy
  */
 $messages['yo'] = array(
+	'babel' => 'Ìfitónilétí oníṣe fún Bábẹ́lì',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-text-levels' => 'Àwọn oníṣe nínú ẹ̀ka yìí tọ́ka pé àwọn ní òye $1 fún èdè $2.',
 	'babel-autocreate-text-main' => 'Àwọn oníṣe nínú ẹ̀ka yìí tọ́ka pé àwọn ní òye nínú èdè $1.',
