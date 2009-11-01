@@ -200,14 +200,6 @@ $messages['ary'] = array(
 	'babel-N-n' => "Had l-mosṫeĥdim kayfhem l-loġa [[$2|l-Meġribiya]] bḫal [[$1|loġto l-'om]].",
 );
 
-/** Northern Frisian (Frasch)
- * @author Purodha
- */
-$messages['frr'] = array(
-	'babel-1' => 'Dideere brüker koon [[$1|lait]] [[$2|$3]] snååke en leese.',
-	'babel-1-n' => 'Dideere brüker koon [[$1|lait]] [[$2|nordfrasch]] snååke en leese.',
-);
-
 /** Achinese (Acèh)
  * @author Si Gam Acèh
  */
@@ -1279,6 +1271,14 @@ $messages['frp'] = array(
 	'babel-N-n' => 'Ceti utilisator at por [[$1|lengoua matèrnâla]] l’[[$2|arpetan]].',
 );
 
+/** Northern Frisian (Frasch)
+ * @author Purodha
+ */
+$messages['frr'] = array(
+	'babel-1' => 'Dideere brüker koon [[$1|lait]] [[$2|$3]] snååke en leese.',
+	'babel-1-n' => 'Dideere brüker koon [[$1|lait]] [[$2|nordfrasch]] snååke en leese.',
+);
+
 /** Western Frisian (Frysk)
  * @author Crazymadlover
  * @author SK-luuut
@@ -2052,6 +2052,14 @@ $messages['ko'] = array(
 	'babel-N-n' => '이 사용자는 [[$2|한국어]]가 [[$1|모국어]]입니다.',
 );
 
+/** Karachay-Balkar (Къарачай-Малкъар)
+ * @author Iltever
+ */
+$messages['krc'] = array(
+	'babel' => 'Къошулуучуну тиллерини юсюнден информация (Вавилон)',
+	'babel-url' => 'Проект:Вавилон',
+);
+
 /** Ripoarisch (Ripoarisch)
  * @author Purodha
  */
@@ -2373,14 +2381,14 @@ $messages['mg'] = array(
 	'babel-3' => "Ity mpikambana ity dia [[$1|havanana]] amin'ny teny [[$2|$3]].",
 	'babel-4' => "Ity mpikambana ity dia miteny [[$2|$3]] [[$1|mira-lenta amin'ny tenin-dreniny]].",
 	'babel-5' => 'Ity mpikambana ity dia miteny [[$2|$3]] [[$1|ara-asa]].',
-	'babel-N' => "Ny teny [[$2|$3]] no [[$1|tenim-pirenena nahabe]] an'ity mpikambana ity.",
+	'babel-N' => 'Ny teny [[$2|$3]] no [[$1|tenim-pirenena nahabe]] ity mpikambana ity.',
 	'babel-0-n' => 'Ity mpikambana ity dia [[$1|tsy mahay]] miteny [[$2|malagasy]] (na sarotra aminy no miteny azy).',
 	'babel-1-n' => 'Ity mpikambana ity dia miteny [[$2|malagasy]] [[$1|tsotsotra]].',
 	'babel-2-n' => 'Ity mpikambana ity dia miteny [[$2|Malagasy]] [[$1|antonontonony]].',
 	'babel-3-n' => "Ity mpikambana ity dia [[$1|havanana]] amin'ny teny [[$2|frantsay]].",
 	'babel-4-n' => "Ity mpikambana ity dia miteny [[$2|malagasy]] [[$1|mira-lenta amin'ny tenin-dreniny]].",
 	'babel-5-n' => 'Ity mpikambana ity dia miteny [[$2|malagasy]] [[$1|ara-asa]]',
-	'babel-N-n' => "Ny teny [[$2|malagasy]] no [[$1|tenim-pirenena nahabe]] an'ity mpikambana ity.",
+	'babel-N-n' => 'Ny teny [[$2|malagasy]] no [[$1|tenim-pirenena nahabe]] ity mpikambana ity.',
 );
 
 /** Eastern Mari (Олык Марий)
