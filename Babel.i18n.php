@@ -200,6 +200,33 @@ $messages['ary'] = array(
 	'babel-N-n' => "Had l-mosṫeĥdim kayfhem l-loġa [[$2|l-Meġribiya]] bḫal [[$1|loġto l-'om]].",
 );
 
+/** Romagnolo (Romagnolo)
+ * @author Sentruper
+ */
+$messages['rgn'] = array(
+	'babel' => "Babel d'e' navigador",
+	'babel-desc' => "Chèrga so la 'funziòn parser' <tt>#babel</tt> par fè in mod che tòt i navigadur j épa e su schema Babel, acsè e' po mett dentar dj 'template'.",
+	'babel-url' => 'Prugèt:Babel',
+	'babel-autocreate-abort' => "E' soranòm ch'te mess e' serv par la creaziòn automàtica dal categurej [[$1|Babel]] e anciòn u l' po druvè.",
+	'babel-autocreate-reason' => 'Creaziòn automàtica dla pàgina dla categurèja [[$1|Babel]].',
+	'babel-autocreate-text-levels' => "Al persôn in sta categurèja j à la capacitè $1 d'savé la lèngua $2.",
+	'babel-autocreate-text-main' => "Al parsôn in sta categurèja j fà vdè ch'j cnòs la lèngua $1.",
+	'babel-0' => "Sta persôna [[$1|u n' capèss un azident}} d'[[$2|$3]] (o e' fa una màsa d'fadiga).",
+	'babel-1' => "Sta persôna e' sa [[$1|qvelquel}} d'e' [[$2|$3]].",
+	'babel-2' => "Sta persôna la [[$1|s'fa capì}} in [[$2|$3]].",
+	'babel-3' => "Sta persôna e' scor e' [[$2|$3]] [[$1|purasé}}.",
+	'babel-4' => "Sta persôna e' [[$1|sa di' ignaquel}} in [[$2|$3]].",
+	'babel-5' => "Sta persôna e' sa [[$1|la vita e i mirècul}} d'e' [[$2|$3]].",
+	'babel-N' => "Sta persôna l'à imparè e' [[$2|$3]] [[$1|dala tetta dla su mâma}}.",
+	'babel-0-n' => "Sta persôna [[$1|u n' capèss un azident}} d'[[$2|Rumagnol]] (o e' fa una màsa d'fadiga).",
+	'babel-1-n' => "Sta persôna e' sa [[$1|qvelquel}} d'e' [[$2|Rumagnol]].",
+	'babel-2-n' => "Sta persôna la [[$1|s'fa capì}} in [[$2|Rumagnol]].",
+	'babel-3-n' => "Sta persôna e' scor e' [[$2|Rumagnol]] [[$1|purasé}}.",
+	'babel-4-n' => "Sta persôna e' [[$1|sa di' ignaquel}} in [[$2|Rumagnol]].",
+	'babel-5-n' => "Sta persôna e' sa [[$1|la vita e i mirècul}} d'e' [[$2|Rumagnol]].",
+	'babel-N-n' => "Sta persôna l'à imparè e' [[$2|Rumagnol]] [[$1|dala tetta dla su mâma}}.",
+);
+
 /** Achinese (Acèh)
  * @author Si Gam Acèh
  */
@@ -1273,10 +1300,30 @@ $messages['frp'] = array(
 
 /** Northern Frisian (Frasch)
  * @author Purodha
+ * @author Pyt
  */
 $messages['frr'] = array(
+	'babel' => 'Babel brüker-informasjoon',
+	'babel-desc' => 'Fäiget jü <tt>#babel</tt>-Parserfunksjoon haanetu for dåt automaatisch måågen foon Babel-brükerbox-rae ma jü möölikhäid, äine forlååge önjtufäigen',
+	'babel-url' => 'Projäkt:Babel',
+	'babel-autocreate-abort' => 'Di ütkiisde brükernoome as nüsi for dåt automaatisch måågen foon [[$1|Babel]]-kategoriie än koon ai registriird wårde.',
+	'babel-autocreate-reason' => 'Automaatisch mååged [[$1|Babel]]-kategorii.',
+	'babel-autocreate-text-levels' => 'Brükere in jüdeer kategorii heewe waasen aw stuufe $1 önj e spräke $2.',
+	'babel-autocreate-text-main' => 'Brükere in jüdeer kategorii heewe waasen foon e spräke $1.',
+	'babel-0' => 'Dideere brüker reet [[$1|ai]] ouer [[$2|$3]] (unti ferstoont dåt mån ma duuchti swiirihäide).',
 	'babel-1' => 'Dideere brüker koon [[$1|lait]] [[$2|$3]] snååke en leese.',
-	'babel-1-n' => 'Dideere brüker koon [[$1|lait]] [[$2|nordfrasch]] snååke en leese.',
+	'babel-2' => 'Dideere brüker heet [[$1|ordi]] waasen foon [[$2|$3]].',
+	'babel-3' => 'Dideere brüker reet ham ma [[$2|$3]] aw [[$1|huuge]] schuchte.',
+	'babel-4' => 'Dideere brüker reet ham ma [[$2|$3]] aw [[$1|mamenspräklike]] schuchte.',
+	'babel-5' => 'Dideere brüker reet ham ma [[$2|$3]] aw [[$1|profäsjonäle]] schuchte.',
+	'babel-N' => 'Dideere brüker snååket [[$2|$3]] as [[$1|mamenspräke]].',
+	'babel-0-n' => 'Dideere brüker reet ham [[$1|ai]] ma Friisk (unti ferstoont dåt mån ma duuchti swiirihäide).',
+	'babel-1-n' => 'Dideere brüker koon [[$1|lait]] [[$2|friisk]] snååke en leese.',
+	'babel-2-n' => 'Dideere brüker heet [[$1|ordi]] waasen foon [[$2|Friisk]].',
+	'babel-3-n' => 'Dideere brüker reet ham ma [[$2|Friisk]] aw [[$1|huuge]] schuchte.',
+	'babel-4-n' => 'Dideere brüker reet ham ma [[$2|Friisk]] aw [[$1|mamenspräklike]] schuchte.',
+	'babel-5-n' => 'Dideere brüker reet ham ma [[$2|Friisk]] aw [[$1|profäsjonäle]] schuchte.',
+	'babel-N-n' => 'Dideere brüker snååket Friisk as [[$1|mamenspräke]].',
 );
 
 /** Western Frisian (Frysk)
@@ -2392,12 +2439,26 @@ $messages['mg'] = array(
 );
 
 /** Eastern Mari (Олык Марий)
+ * @author Azim
  * @author Сай
  */
 $messages['mhr'] = array(
+	'babel-url' => 'Project:Бабилон',
+	'babel-autocreate-reason' => '[[$1|Бабилон]] категориян лаштыкым автоматик ыштымаш.',
 	'babel-0' => 'Тиде пайдаланыше [[$2|$3]] [[$1|ок мошто]] (але тудлан йылмым йӧсӧ умылаш).',
 	'babel-1' => 'Тиде пайдаланышын [[$2|$3]] [[$1|тӱҥалтыш шинчымаш]] уло.',
+	'babel-2' => '[[$2|$3]] — [[$1|кокла кӱкшыт]]',
+	'babel-3' => '[[$2|$3]] — [[$1|сай шинчымаш]]',
+	'babel-4' => '[[$2|$3]] — [[$1|шочмо йылме семын манаш лиеш]]',
+	'babel-5' => '[[$2|$3]] — [[$1|профессионал кӱкшыт]]',
 	'babel-N' => 'Тиде пайдаланышылан [[$2|$3]] — [[$1|шочмо йылме]] улеш.',
+	'babel-0-n' => 'Тиде пайдаланыше [[$2|марий йылмым]] [[$1|ок пале]].',
+	'babel-1-n' => 'Тиде пайдаланышын [[$2|марий йылмым]] [[$1|тӱҥалтыш шинчымаш]] уло.',
+	'babel-2-n' => 'Тиде пайдаланышын [[$2|марий йылмым]] [[$1|кокла кӱкшытан шинчымашыже]] уло.',
+	'babel-3-n' => 'Тиде пайдаланыше [[$2|марла]] [[$1|куштылгын]] мошта.',
+	'babel-4-n' => 'Тиде пайдаланыше [[$2|марий йылмым]] [[$1|шке шочмо йылме семын]] пала.',
+	'babel-5-n' => 'Тиде пайдаланышын [[$2|марий йылмым]] [[$1|профессионал шинчымаш]] уло.',
+	'babel-N-n' => 'Тиде пайдаланышылан [[$2|марий йылме]] [[$1|шочмо]] улеш.',
 );
 
 /** Macedonian (Македонски)
