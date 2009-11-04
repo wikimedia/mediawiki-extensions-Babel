@@ -201,6 +201,7 @@ $messages['ary'] = array(
 );
 
 /** Romagnolo (Romagnolo)
+ * @author GerardM
  * @author Sentruper
  */
 $messages['rgn'] = array(
@@ -211,20 +212,20 @@ $messages['rgn'] = array(
 	'babel-autocreate-reason' => 'Creaziòn automàtica dla pàgina dla categurèja [[$1|Babel]].',
 	'babel-autocreate-text-levels' => "Al persôn in sta categurèja j à la capacitè $1 d'savé la lèngua $2.",
 	'babel-autocreate-text-main' => "Al parsôn in sta categurèja j fà vdè ch'j cnòs la lèngua $1.",
-	'babel-0' => "Sta persôna [[$1|u n' capèss un azident}} d'[[$2|$3]] (o e' fa una màsa d'fadiga).",
-	'babel-1' => "Sta persôna e' sa [[$1|qvelquel}} d'e' [[$2|$3]].",
-	'babel-2' => "Sta persôna la [[$1|s'fa capì}} in [[$2|$3]].",
-	'babel-3' => "Sta persôna e' scor e' [[$2|$3]] [[$1|purasé}}.",
-	'babel-4' => "Sta persôna e' [[$1|sa di' ignaquel}} in [[$2|$3]].",
-	'babel-5' => "Sta persôna e' sa [[$1|la vita e i mirècul}} d'e' [[$2|$3]].",
-	'babel-N' => "Sta persôna l'à imparè e' [[$2|$3]] [[$1|dala tetta dla su mâma}}.",
-	'babel-0-n' => "Sta persôna [[$1|u n' capèss un azident}} d'[[$2|Rumagnol]] (o e' fa una màsa d'fadiga).",
-	'babel-1-n' => "Sta persôna e' sa [[$1|qvelquel}} d'e' [[$2|Rumagnol]].",
-	'babel-2-n' => "Sta persôna la [[$1|s'fa capì}} in [[$2|Rumagnol]].",
-	'babel-3-n' => "Sta persôna e' scor e' [[$2|Rumagnol]] [[$1|purasé}}.",
-	'babel-4-n' => "Sta persôna e' [[$1|sa di' ignaquel}} in [[$2|Rumagnol]].",
-	'babel-5-n' => "Sta persôna e' sa [[$1|la vita e i mirècul}} d'e' [[$2|Rumagnol]].",
-	'babel-N-n' => "Sta persôna l'à imparè e' [[$2|Rumagnol]] [[$1|dala tetta dla su mâma}}.",
+	'babel-0' => "Stu [[$1|u n' capèss gnint]] d'[[$2|$3]] (o e' fa un mocc d'fadiga).",
+	'babel-1' => "Stu e' [[$1|sa qvelcosa]] 'd [[$2|$3]].",
+	'babel-2' => 'Stu [[$1|us fa capì]] in [[$2|$3]].',
+	'babel-3' => "Stu e' sa [[$1|dimondi]] e' [[$2|$3]].",
+	'babel-4' => "Stu e' [[$1|sa di' nicôsa]] in [[$2|$3]].",
+	'babel-5' => "Stu l'è un [[$1|profesiunesta]] de' [[$2|$3]].",
+	'babel-N' => "Stu l'à tité e' [[$2|$3]] da [[$1|su mé]].",
+	'babel-0-n' => "Sta persôna [[$1|u n' capèss un azident]] d'[[$2|Rumagnol]] (o e' fa una màsa d'fadiga).",
+	'babel-1-n' => "Sta persôna e' sa [[$1|qvelquel]] d'e' [[$2|Rumagnol]].",
+	'babel-2-n' => "Sta persôna la [[$1|s'fa capì]] in [[$2|Rumagnol]].",
+	'babel-3-n' => "Sta persôna e' scor e' [[$2|Rumagnol]] [[$1|purasé]].",
+	'babel-4-n' => "Sta persôna e' [[$1|sa di' ignaquel]] in [[$2|Rumagnol]].",
+	'babel-5-n' => "Sta persôna e' sa [[$1|la vita e i mirècul]] d'e' [[$2|Rumagnol]].",
+	'babel-N-n' => "Sta persôna l'à imparè e' [[$2|Rumagnol]] [[$1|dala tetta dla su mâma]].",
 );
 
 /** Achinese (Acèh)
@@ -2280,14 +2281,14 @@ $messages['lmo'] = array(
 	'babel-autocreate-reason' => 'Creazion utumatega de la pagina de la categurìa [[$1|Babel]].',
 	'babel-autocreate-text-levels' => "I druvat in quela categuria chì i mustren d'avegh un nivel de cunuscenza $1 de la lengua $2.",
 	'babel-autocreate-text-main' => "I druvat in quela categuria chì i mustren ch'i cugnussen la lengua $1.",
-	'babel-0' => "Quel druvat chì 'l gh'ha [[$1|mía]] de cunuscenza de [[$2|$3]] (o 'l le cumprend cun di gran dificultaa)",
+	'babel-0' => "Quel dupradur chì 'l gh'ha [[$1|mía]] de cunuscenza de [[$2|$3]] (o 'l le cumprend cun di gran dificultaa)",
 	'babel-1' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|basilara]] de [[$2|$3]].",
 	'babel-2' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|intermedia]] de [[$2|$3]].",
 	'babel-3' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|avanzada]] de [[$2|$3]].",
 	'babel-4' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|asquas madrelengua]] de [[$2|$3]].",
 	'babel-5' => "Chestu dovratt al gh'a una cognossenza [[$1|professionala]] de [[$2|$3]].",
 	'babel-N' => "Quel druvat chì l'è un parlant [[$1|madrelengua]] de [[$2|$3]].",
-	'babel-0-n' => "Quel druvat chì 'l cugnuss [[$1|mía]] 'l [[$2|Lumbard]] (o 'l le cumprend cun di gran dificultaa).",
+	'babel-0-n' => "Quel dupradur chì 'l cugnuss [[$1|mía]] 'l [[$2|Lumbard]] (o 'l le cumprend cun di gran dificultaa).",
 	'babel-1-n' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|basilar]] del [[$2|Lumbard]].",
 	'babel-2-n' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|intermedia]] del [[$2|Lumbard]].",
 	'babel-3-n' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|avanzada]] del [[$2|Lumbard]].",
@@ -2493,6 +2494,7 @@ $messages['mk'] = array(
 );
 
 /** Malayalam (മലയാളം)
+ * @author Praveenp
  * @author Shijualex
  */
 $messages['ml'] = array(
@@ -2505,14 +2507,14 @@ $messages['ml'] = array(
 	'babel-3' => 'ഈ ഉപയോക്താവിനു [[$2|$3]] എന്ന ഭാഷയില്‍ [[$1|ഉന്നത]] ജ്ഞാനമുണ്ട്.',
 	'babel-4' => 'ഈ ഉപയോക്താവ് [[$2|$3]] എന്ന ഭാഷയില്‍ പ്രസ്തുത ഭാഷ [[$1|മാതൃഭാഷയായിട്ടുള്ളവര്‍ക്കുള്ള]] ജ്ഞാനമുണ്ട്.',
 	'babel-5' => 'ഈ ഉപയോക്താവിനു [[$2|$3]] എന്ന ഭാഷയില്‍ [[$1|പണ്ഡിതസമാനമായ]] ജ്ഞാനമുണ്ട്.',
-	'babel-N' => 'ഈ ഉപയോക്താവിനു [[$2|$3]] എന്ന ഭാഷയില്‍ പ്രസ്തുത ഭാഷ [[$1|മാതൃഭാഷയായിട്ടുപയോഗിക്കുന്നവര്‍ക്ക്]] സമാനമായുള്ള ജ്ഞാനമുണ്ട്.',
+	'babel-N' => 'ഈ ഉപയോക്താവിനു [[$2|$3]] എന്ന ഭാഷ [[$1|മാതൃഭാഷയായിട്ടുള്ളവരുടെ]] ജ്ഞാനമുണ്ട്.',
 	'babel-0-n' => 'ഈ ഉപയോക്താവിനു [[$2|മലയാള ഭാഷയില്‍]] ഒട്ടുമേ അറിവ് [[$1|ഇല്ല]] (അല്ലെങ്കില്‍ മലയാളം വളരെ ബുദ്ധിമുട്ടിയാണു മനസ്സിലാക്കിയെടുക്കുന്നത്)',
 	'babel-1-n' => 'ഈ ഉപയോക്താവിനു [[$2|മലയാള ഭാഷയില്‍]] [[$1|അടിസ്ഥാനപരമായ]] ജ്ഞാനമുണ്ട്.',
 	'babel-2-n' => 'ഈ ഉപയോക്താവിനു [[$2|മലയാള ഭാഷയില്‍]] [[$1|സാമാന്യം]] ജ്ഞാനമുണ്ട്.',
 	'babel-3-n' => 'ഈ ഉപയോക്താവിനു [[$2|മലയാള ഭാഷയില്‍]] [[$1|ഉന്നത നിലവാരത്തിലുള്ള]] ജ്ഞാനമുണ്ട്.',
 	'babel-4-n' => 'ഈ ഉപയോക്താവിനു [[$2|മലയാള ഭാഷയില്‍]] പ്രസ്തുത ഭാഷ [[$1|മാതൃഭാഷയായിട്ടുപയോഗിക്കുന്നവര്‍ക്കു]] സമാനമായുള്ള ജ്ഞാനമുണ്ട്.',
 	'babel-5-n' => 'ഈ ഉപയോക്താവിനു [[$2|മലയാള ഭാഷയില്‍]] [[$1|പണ്ഡിത]] സമാനമായുള്ള ജ്ഞാനമുണ്ട്.',
-	'babel-N-n' => 'ഈ ഉപയോക്താവിനു [[$2|മലയാള ഭാഷയില്‍]] പ്രസ്തുത ഭാഷ [[$1|മാതൃഭാഷാ]] സമാനമായുള്ള ജ്ഞാനമുണ്ട്.',
+	'babel-N-n' => 'ഈ ഉപയോക്താവിനു [[$2|മലയാളം]] [[$1|മാതൃഭാഷയായിട്ടുള്ളവരുടെ]] ജ്ഞാനമുണ്ട്.',
 );
 
 /** Marathi (मराठी)
