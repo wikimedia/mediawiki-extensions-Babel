@@ -212,28 +212,28 @@ $messages['rgn'] = array(
 	'babel-autocreate-reason' => 'Creaziòn automàtica dla pàgina dla categurèja [[$1|Babel]].',
 	'babel-autocreate-text-levels' => "Al persôn in sta categurèja j à la capacitè $1 d'savé la lèngua $2.",
 	'babel-autocreate-text-main' => "Al parsôn in sta categurèja j fà vdè ch'j cnòs la lèngua $1.",
-	'babel-0' => "Stu [[$1|u n' capèss gnint]] d'[[$2|$3]] (o e' fa un mocc d'fadiga).",
-	'babel-1' => "Stu e' [[$1|sa qvelcosa]] 'd [[$2|$3]].",
-	'babel-2' => 'Stu [[$1|us fa capì]] in [[$2|$3]].',
-	'babel-3' => "Stu e' sa [[$1|dimondi]] e' [[$2|$3]].",
-	'babel-4' => "Stu e' [[$1|sa di' nicôsa]] in [[$2|$3]].",
-	'babel-5' => "Stu l'è un [[$1|profesiunesta]] de' [[$2|$3]].",
-	'babel-N' => "Stu l'à tité e' [[$2|$3]] da [[$1|su mé]].",
-	'babel-0-n' => "Sta persôna [[$1|u n' capèss un azident]] d'[[$2|Rumagnol]] (o e' fa una màsa d'fadiga).",
-	'babel-1-n' => "Sta persôna e' sa [[$1|qvelquel]] d'e' [[$2|Rumagnol]].",
-	'babel-2-n' => "Sta persôna la [[$1|s'fa capì]] in [[$2|Rumagnol]].",
-	'babel-3-n' => "Sta persôna e' scor e' [[$2|Rumagnol]] [[$1|purasé]].",
-	'babel-4-n' => "Sta persôna e' [[$1|sa di' ignaquel]] in [[$2|Rumagnol]].",
-	'babel-5-n' => "Sta persôna e' sa [[$1|la vita e i mirècul]] d'e' [[$2|Rumagnol]].",
-	'babel-N-n' => "Sta persôna l'à imparè e' [[$2|Rumagnol]] [[$1|dala tetta dla su mâma]].",
+	'babel-0' => "Stû [[$1|u n' capèss gnint]] d'[[$2|$3]] (o e' fa un mocc d'fadiga).",
+	'babel-1' => "Stû e' [[$1|sa qvelcosa]] 'd [[$2|$3]].",
+	'babel-2' => 'Stû [[$1|us fa capì]] in [[$2|$3]].',
+	'babel-3' => "Stû e' sa [[$1|dimondi]] e' [[$2|$3]].",
+	'babel-4' => "Stû e' [[$1|sa dì nicôsa]] in [[$2|$3]].",
+	'babel-5' => "Stû l'è un [[$1|profesiunesta]] de' [[$2|$3]].",
+	'babel-N' => "Stû l'à tité e' [[$2|$3]] da [[$1|su mé]].",
+	'babel-0-n' => "Stû [[$1|u n' capèss gnint]] d'[[$2|$3]] (o e' fa un mocc d'fadiga).",
+	'babel-1-n' => "Stû e' [[$1|sa qvelcosa]] 'd [[$2|$3]].",
+	'babel-2-n' => 'Stû [[$1|us fa capì]] in [[$2|$3]].',
+	'babel-3-n' => "Stû e' sa [[$1|dimondi]] e' [[$2|$3]].",
+	'babel-4-n' => "Stû e' [[$1|sa dì nicôsa]] in [[$2|$3]].",
+	'babel-5-n' => "Stû l'è un [[$1|profesiunesta]] de' [[$2|$3]].",
+	'babel-N-n' => "Stû l'à [[$2|tité e' $3]] da [[$1|su mé]].",
 );
 
 /** Achinese (Acèh)
  * @author Si Gam Acèh
  */
 $messages['ace'] = array(
-	'babel-0' => 'Nyang nguy nyoë [[$1|hana]] muphôm [[$2|$3]] (atawa cit ngön payah that).',
-	'babel-N' => 'Nyang nguy nyoë nakeuh [[$1|geumarit aseuli]] lam bahsa [[$2|$3]].',
+	'babel-0' => 'Ureuëng nguy nyoë [[$1|hana]] muphôm [[$2|$3]] (atawa cit ngön payah that).',
+	'babel-N' => 'Ureuëng nguy nyoë nakeuh [[$1|geumarit aseuli]] lam bahsa [[$2|$3]].',
 );
 
 /** Afrikaans (Afrikaans)
