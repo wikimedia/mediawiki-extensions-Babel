@@ -16,12 +16,20 @@ $magicWords['ar'] = array(
 	'babel'   => array( '0', 'بابل', 'babel' ),
 );
 
+$magicWords['arc'] = array(
+	'babel'   => array( '0', 'ܒܒܠ', 'babel' ),
+);
+
 $magicWords['frp'] = array(
 	'babel'   => array( '0', 'babél', 'babel' ),
 );
 
 $magicWords['ja'] = array(
 	'babel'   => array( '0', 'バベル', 'babel' ),
+);
+
+$magicWords['ko'] = array(
+	'babel'   => array( '0', '바벨', 'babel' ),
 );
 
 $magicWords['mr'] = array(

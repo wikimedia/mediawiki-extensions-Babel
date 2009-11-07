@@ -814,7 +814,7 @@ $messages['ckb-arab'] = array(
 );
 
 /** Crimean Turkish (Qırımtatarca)
- * @author Alessandro
+ * @author Don Alessandro
  */
 $messages['crh'] = array(
 	'babel-0' => 'Bu qullanıcı [[$2|Qırımtatar tili]]ni [[$1|iç bilmey]].',
@@ -3890,7 +3890,7 @@ $messages['tr'] = array(
 );
 
 /** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
- * @author Yildiz
+ * @author Рашат Якупов
  */
 $messages['tt-cyrl'] = array(
 	'babel' => 'Катнашучының телләр белү турындагы мәгълумат',
