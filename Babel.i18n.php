@@ -1054,14 +1054,15 @@ $messages['el'] = array(
 
 /** Esperanto (Esperanto)
  * @author Malafaya
+ * @author Michawiki
  * @author Yekrats
  */
 $messages['eo'] = array(
 	'babel' => 'Babela Informo pri Uzanto',
 	'babel-desc' => 'Aldonas la <tt>#babel</tt> sintaksanalizilan funkcion por aŭtomate generi kolumnon de babel-uzantoskatolo kun la ebleco inkluzivi sxablonojn de uzanto.',
 	'babel-url' => 'Project:Babel',
-	'babel-autocreate-abort' => 'La salutnomo kiun vi specifis estas uzata por Babel-kategoria aŭtomata kreado, kaj ne povas esti registrita.',
-	'babel-autocreate-reason' => 'Aŭtomate kreante kategorio-paĝo por Babel.',
+	'babel-autocreate-abort' => 'La salutnomo, kiun vi specifis, estas uzata por [[$1|Babel]]-kategoria aŭtomata kreado, kaj ne povas esti registrita.',
+	'babel-autocreate-reason' => 'Aŭtomate kreante kategorio-paĝo por [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Uzantoj en ĉi tiu kategorio indikas ke ili havas spertnivelo $1 por $2.',
 	'babel-autocreate-text-main' => 'Uzantoj en ĉi tiu kategorio indikas ke ili havas lingvoscio de $1.',
 	'babel-0' => 'Ĉi tiu uzanto [[$1|ne komprenas]] la lingvon [[$2|$3]], aŭ tre malfacile komprenas.',
