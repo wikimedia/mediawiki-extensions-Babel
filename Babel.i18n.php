@@ -200,34 +200,6 @@ $messages['ary'] = array(
 	'babel-N-n' => "Had l-mosṫeĥdim kayfhem l-loġa [[$2|l-Meġribiya]] bḫal [[$1|loġto l-'om]].",
 );
 
-/** Romagnolo (Romagnolo)
- * @author GerardM
- * @author Sentruper
- */
-$messages['rgn'] = array(
-	'babel' => "Babel d'e' navigador",
-	'babel-desc' => "Chèrga so la 'funziòn parser' <tt>#babel</tt> par fè in mod che tòt i navigadur j épa e su schema Babel, acsè e' po mett dentar dj 'template'.",
-	'babel-url' => 'Prugèt:Babel',
-	'babel-autocreate-abort' => "E' soranòm ch'te mess e' serv par la creaziòn automàtica dal categurej [[$1|Babel]] e anciòn u l' po druvè.",
-	'babel-autocreate-reason' => 'Creaziòn automàtica dla pàgina dla categurèja [[$1|Babel]].',
-	'babel-autocreate-text-levels' => "Al persôn in sta categurèja j à la capacitè $1 d'savé la lèngua $2.",
-	'babel-autocreate-text-main' => "Al parsôn in sta categurèja j fà vdè ch'j cnòs la lèngua $1.",
-	'babel-0' => "Stû [[$1|u n' capèss gnint]] d'[[$2|$3]] (o e' fa un mocc d'fadiga).",
-	'babel-1' => "Stû e' [[$1|sa qvelcosa]] 'd [[$2|$3]].",
-	'babel-2' => 'Stû [[$1|us fa capì]] in [[$2|$3]].',
-	'babel-3' => "Stû e' sa [[$1|dimondi]] e' [[$2|$3]].",
-	'babel-4' => "Stû e' [[$1|sa dì nicôsa]] in [[$2|$3]].",
-	'babel-5' => "Stû l'è un [[$1|profesiunesta]] de' [[$2|$3]].",
-	'babel-N' => "Stû l'à tité e' [[$2|$3]] da [[$1|su mé]].",
-	'babel-0-n' => "Stû [[$1|u n' capèss gnint]] d'[[$2|$3]] (o e' fa un mocc d'fadiga).",
-	'babel-1-n' => "Stû e' [[$1|sa qvelcosa]] 'd [[$2|$3]].",
-	'babel-2-n' => 'Stû [[$1|us fa capì]] in [[$2|$3]].',
-	'babel-3-n' => "Stû e' sa [[$1|dimondi]] e' [[$2|$3]].",
-	'babel-4-n' => "Stû e' [[$1|sa dì nicôsa]] in [[$2|$3]].",
-	'babel-5-n' => "Stû l'è un [[$1|profesiunesta]] de' [[$2|$3]].",
-	'babel-N-n' => "Stû l'à [[$2|tité e' $3]] da [[$1|su mé]].",
-);
-
 /** Achinese (Acèh)
  * @author Si Gam Acèh
  */
@@ -3113,6 +3085,34 @@ $messages['qu'] = array(
 	'babel-4-n' => 'Kay ruraqqa [[$2|Runa Simita]] [[$1|yaqa mama rimaynin hina]] yachaywanmi riman.',
 	'babel-5-n' => 'Kay ruraqqa [[$2|Runa Simita]] [[$1|amawtap]] yachayninwanmi riman.',
 	'babel-N-n' => 'Kay ruraqpa [[$1|mama siminqa]] [[$2|Runa Simim]].',
+);
+
+/** Romagnol (Romagnolo)
+ * @author GerardM
+ * @author Sentruper
+ */
+$messages['rgn'] = array(
+	'babel' => "Babel d'e' navigador",
+	'babel-desc' => "Chèrga so la 'funziòn parser' <tt>#babel</tt> par fè in mod che tòt i navigadur j épa e su schema Babel, acsè e' po mett dentar dj 'template'.",
+	'babel-url' => 'Prugèt:Babel',
+	'babel-autocreate-abort' => "E' soranòm ch'te mess e' serv par la creaziòn automàtica dal categurej [[$1|Babel]] e anciòn u l' po druvè.",
+	'babel-autocreate-reason' => 'Creaziòn automàtica dla pàgina dla categurèja [[$1|Babel]].',
+	'babel-autocreate-text-levels' => "Al persôn in sta categurèja j à la capacitè $1 d'savé la lèngua $2.",
+	'babel-autocreate-text-main' => "Al parsôn in sta categurèja j fà vdè ch'j cnòs la lèngua $1.",
+	'babel-0' => "Stû [[$1|u n' capèss gnint]] d'[[$2|$3]] (o e' fa un mocc d'fadiga).",
+	'babel-1' => "Stû e' [[$1|sa qvelcosa]] 'd [[$2|$3]].",
+	'babel-2' => 'Stû [[$1|us fa capì]] in [[$2|$3]].',
+	'babel-3' => "Stû e' sa [[$1|dimondi]] e' [[$2|$3]].",
+	'babel-4' => "Stû e' [[$1|sa dì nicôsa]] in [[$2|$3]].",
+	'babel-5' => "Stû l'è un [[$1|profesiunesta]] de' [[$2|$3]].",
+	'babel-N' => "Stû l'à tité e' [[$2|$3]] da [[$1|su mé]].",
+	'babel-0-n' => "Stû [[$1|u n' capèss gnint]] d'[[$2|Romagnolo]] (o e' fa un mocc d'fadiga).",
+	'babel-1-n' => "Stû e' [[$1|sa qvelcosa]] 'd [[$2|Romagnolo]].",
+	'babel-2-n' => 'Stû [[$1|us fa capì]] in [[$2|Romagnolo]].',
+	'babel-3-n' => "Stû e' sa [[$1|dimondi]] e' [[$2|Romagnolo]].",
+	'babel-4-n' => "Stû e' [[$1|sa dì nicôsa]] in [[$2|Romagnolo]].",
+	'babel-5-n' => "Stû l'è un [[$1|profesiunesta]] de' [[$2|Romagnolo]].",
+	'babel-N-n' => "Stû l'à [[$2|tité e' $3]] da [[$1|su mé]].",
 );
 
 /** Rhaeto-Romance (Rumantsch)
