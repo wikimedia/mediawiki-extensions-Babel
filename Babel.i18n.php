@@ -3136,15 +3136,16 @@ $messages['rgn'] = array(
 
 /** Rhaeto-Romance (Rumantsch)
  * @author Gion
+ * @author Gion-andri
  */
 $messages['rm'] = array(
 	'babel' => "infurmaziuns d'utilisader da Babel",
 	'babel-desc' => "Agiunta la funcziun da generar automaticamain ina chascha cun las indicaziuns da babel davart l'utilisader e che pussibilitescha d'includer agens templates.",
-	'babel-url' => 'Project: Babel',
-	'babel-autocreate-abort' => "Il num d'utilisader vegn duvrà per la craziun automatica da la categoria [[$1|Babel]] e na sa betg vegnir registrà.",
-	'babel-autocreate-reason' => 'Categoria da paginas [[$1|Babel]] creada automaticamain.',
-	'babel-autocreate-text-levels' => 'Il utilisaders en questa categoria han inditgà il nivel $1 per la lingua $2.',
-	'babel-autocreate-text-main' => 'Utilisaders en questa categoria han inditgà la conuschientscha dal lingua $1.',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => "Il num d'utilisader tschernì vegn utilisà per la creaziun automatica da categorias da [[$1|Babel]] e na po betg vegnir registrà.",
+	'babel-autocreate-reason' => 'Categoria da [[$1|Babel]] creada automaticamain.',
+	'babel-autocreate-text-levels' => 'Ils utilisaders en questa categoria han inditgà il nivel $1 per la lingua $2.',
+	'babel-autocreate-text-main' => 'Utilisaders en questa categoria han conuschientscha da la lingua $1.',
 	'babel-0' => 'Quest utilisader ha [[$1|naginas]] conuschientschas da [[$2|$3]] (u chapescha mo cun considerablas difficultads).',
 	'babel-1' => 'Quest utilisader ha conuschientschas [[$1|fundamentalas]] da [[$2|$3]].',
 	'babel-2' => 'Quest utilisader ha conuschientschas [[$1|d’in principiant avanzà]] da [[$2|$3]].',
