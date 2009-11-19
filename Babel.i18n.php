@@ -3106,7 +3106,7 @@ $messages['qu'] = array(
 	'babel-N-n' => 'Kay ruraqpa [[$1|mama siminqa]] [[$2|Runa Simim]].',
 );
 
-/** Romagnol (Romagnolo)
+/** Romagnol (Rumagnôl)
  * @author GerardM
  * @author Sentruper
  */
@@ -3125,13 +3125,13 @@ $messages['rgn'] = array(
 	'babel-4' => "Stû e' [[$1|sa dì nicôsa]] in [[$2|$3]].",
 	'babel-5' => "Stû l'è un [[$1|profesiunesta]] de' [[$2|$3]].",
 	'babel-N' => "Stû l'à tité e' [[$2|$3]] da [[$1|su mé]].",
-	'babel-0-n' => "Stû [[$1|u n' capèss gnint]] d'[[$2|Romagnolo]] (o e' fa un mocc d'fadiga).",
-	'babel-1-n' => "Stû e' [[$1|sa qvelcosa]] 'd [[$2|Romagnolo]].",
-	'babel-2-n' => 'Stû [[$1|us fa capì]] in [[$2|Romagnolo]].',
-	'babel-3-n' => "Stû e' sa [[$1|dimondi]] e' [[$2|Romagnolo]].",
-	'babel-4-n' => "Stû e' [[$1|sa dì nicôsa]] in [[$2|Romagnolo]].",
-	'babel-5-n' => "Stû l'è un [[$1|profesiunesta]] de' [[$2|Romagnolo]].",
-	'babel-N-n' => "Stû l'à [[$2|tité e' $3]] da [[$1|su mé]].",
+	'babel-0-n' => "Stû [[$1|u n' capèss gnint]] d'[[$2|Romagnôl]] (o e' fa un mocc d'fadiga).",
+	'babel-1-n' => "Stû e' [[$1|sa qvelcosa]] 'd [[$2|Romagnôl]].",
+	'babel-2-n' => 'Stû [[$1|us fa capì]] in [[$2|Romagnôl]].',
+	'babel-3-n' => "Stû e' sa [[$1|dimondi]] e' [[$2|Romagnôl]].",
+	'babel-4-n' => "Stû e' [[$1|sa dì nicôsa]] in [[$2|Romagnôl]].",
+	'babel-5-n' => "Stû l'è un [[$1|profesiunesta]] de' [[$2|Romagnôl]].",
+	'babel-N-n' => "Stû l'à [[$2|tité e' Rumagnôl]] da [[$1|su mé]].",
 );
 
 /** Rhaeto-Romance (Rumantsch)
