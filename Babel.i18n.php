@@ -122,55 +122,6 @@ $messages['kea'] = array(
 	'babel-N-n' => 'Kel utilizador li, se língua [[$1|maternu]] e [[$2|kriolu]].',
 );
 
-/** Votic (Vaďďa)
- * @author 2Q
- */
-$messages['vot'] = array(
-	'babel' => 'Tšäüttijää tšeelesnorofka',
-	'babel-desc' => 'Lissäb <tt>#babel</tt>-funkttsiaa, kumpa annab tšäüttijää luvaa tšeelisnorofka-škatulkaa lissämä.',
-	'babel-url' => 'Project:Babel',
-	'babel-autocreate-abort' => 'Tšäüttijänimi, kumpa õõd antõnnu, on zańimoitõttu [[$1|Babelii]] meelegruppaa avtomattskoi loomizõõ, sissi ed või registriiroitta sitä.',
-	'babel-autocreate-reason' => '[[$1|Babelii]] meelegruppatšüľľee avtomattskoi loomin.',
-	'babel-autocreate-text-levels' => 'Tšäüttijäd kassen gruppaza õmad kuulutõttu, jot nämä tunta $2 tšeelt $1 uroveńńalla.',
-	'babel-autocreate-text-main' => 'Tšäüttijäd kassen gruppaza õmad kuulutõttu, jot nämä saa arvoa $1 tšeelt.',
-	'babel-0' => 'Kase tšäüttijä tunnab [[$1|liika vähää vai eb eestiit]] [[$2|$3]] tšeelt.',
-	'babel-1' => 'Kase tšäüttijä on [[$2|$3]] tšeelee [[$1|õppialkõja]]',
-	'babel-2' => 'Kase tšäüttijä tunnab [[$2|$3]] tšeelt [[$1|tšehsimeisessi]].',
-	'babel-3' => 'Kase tšäüttijä tunnab [[$2|$3]] tšeelt [[$1|esimeissi]].',
-	'babel-4' => 'Kase tšäüttijä tunnab [[$2|$3]] tšeelt [[$1|bezmalo nii ku emätšeeli]].',
-	'babel-5' => 'Kase tšäüttijä tunnab tarvitta [[$2|$3]] tšeelt [[$1|ammõttimeissi]].',
-	'babel-N' => '[[$2|$3]] tšeeli on sene tšäüttijää [[$1|emätšeeli]].',
-	'babel-0-n' => 'Kase tšäüttijä [[$1|eb tunna]] [[$2|vaďďakossi]].',
-	'babel-1-n' => 'Kase tšäüttijä pajatab [[$1|vähää]] [[$2|vaďďakossi]].',
-	'babel-2-n' => 'Kase tšäüttijä tunnab [[$1|tšehsimeisessi]] [[$2|vaďďakossi]].',
-	'babel-3-n' => 'Kase tšäüttijä tunnab [[$1|esimeissi]] [[$2|vaďďakossi]].',
-	'babel-4-n' => 'Kase tšäüttijä tunnab [[$2|vaďďakossi]] [[$1|bezmalo nii ku emätšeeli]].',
-	'babel-5-n' => 'Kase tšäüttijä tunnab tarvitta [[$2|vaďďakossi]] [[$1|ammõttimeissi]].',
-	'babel-N-n' => '[[$2|Vaďďa tšeeli]] on sene tšäüttijää [[$1|emätšeeli]].',
-);
-
-/** Prūsiskan (Prūsiskan)
- * @author Peteris
- */
-$messages['prg'] = array(
-	'babel' => 'Babel turmus terpautajas',
-	'babel-url' => 'Project: Babel',
-	'babel-0' => 'Šis terpautajs [[$1|ni izpresta]] [[$2|$3]] (anga turri sen stan debīkans prōblamans).',
-	'babel-1' => 'Šis terpautajs zinna [[$2|$3]] na gruntiskan līgmenin',
-	'babel-2' => 'Šis terpautajs zinna [[$2|$3]] na [[$1|sirdan]] līgmenin.',
-	'babel-3' => 'Šis terpautajs zinna [[$2|$3]] na [[$1|ēmpirsin treppusin]] līgmenin.',
-	'babel-4' => 'Šis terpautajs zinna [[$2|$3]] ēst stawīdiskai, kāigi [[$1|gīmtan]].',
-	'babel-5' => 'Šis terpautajs zinna [[$2|$3]] stawīdiskai, kāigi [[$1|gimtan]].',
-	'babel-N' => '[[$2|$3]] ast [[$1|gimta]] bilā šisse terpautajas.',
-	'babel-0-n' => 'Šis terpautajs [[$1|ni izpresta]] [[$2|prūsiskan]] (anga turri sen stan debīkans prōblamans).',
-	'babel-1-n' => 'Šis terpautajs zinna [[$2|prūsiskan]] na gruntiskan līgmenin',
-	'babel-2-n' => 'Šis terpautajs zinna [[$2|prūsiskan]] na [[$1|sirdan]] līgmenin.',
-	'babel-3-n' => 'Šis terpautajs zinna [[$2|prūsiskan]] na [[$1|ēmpirsin treppusin]] līgmenin.',
-	'babel-4-n' => 'Šis terpautajs zinna [[$2|prūsiskan]] ēst stawīdiskai, kāigi [[$1|gīmtan]].',
-	'babel-5-n' => 'Šis terpautajs zinna [[$2|prūsiskan]] stawīdiskai, kāigi [[$1|gimtan]].',
-	'babel-N-n' => '[[$2|Prūsiskan]] ast [[$1|gimta]] bilā šisse terpautajas.',
-);
-
 /** Moroccan Spoken Arabic (Maġribi)
  * @author Enzoreg
  * @author GerardM
@@ -301,9 +252,10 @@ $messages['ang'] = array(
 
 /** Arabic (العربية)
  * @author Meno25
+ * @author OsamaK
  */
 $messages['ar'] = array(
-	'babel' => 'معلومات بابل للمستخدم',
+	'babel' => 'معلومات بابل {{GENDER:$1|للمستخدم|للمستخدمة}}',
 	'babel-desc' => 'يضيف دالة المحلل <tt>#babel</tt> للسماح بالتوليد التلقائي لعامود صندوق بابل مع إمكانية تضمين قوالب أخرى',
 	'babel-url' => 'Project:بابل',
 	'babel-autocreate-abort' => 'اسم المستخدم الذي حددته مستخدم للإنشاء التلقائي لتصنيفات [[$1|بابل]] ولا يمكن تسجيله.',
@@ -1333,29 +1285,30 @@ $messages['fy'] = array(
  * @author Alison
  * @author GerardM
  * @author Moilleadóir
+ * @author Tameamseo
  */
 $messages['ga'] = array(
 	'babel' => 'Eolas Báibil don Úsáideoir',
 	'babel-desc' => 'Cruthaíonn sé seo an fheidhm pharsálaí <tt>#babel</tt> a chuireann ar chumas an úsáideora colún a ghiniúint go huathoibríoch i mbosca Báibil agus teimpléid saincheaptha a chur ann.',
 	'babel-url' => 'Project:Báibil',
-	'babel-autocreate-abort' => "Ní féidir leis d'ainm úsáideora seo a bheith cláraithe mar tá sé in úsáid faoi chatagóir [[$1|Báibil]] a uathchruthú.",
-	'babel-autocreate-reason' => 'Ag cruthú sa ghnáthchúrsa leathanach chatagóir [[$1|Báibil]].',
-	'babel-autocreate-text-levels' => 'Tá leibhéal scil $1 ar na n-úsáideoirí seo faoin teanga $2.',
-	'babel-autocreate-text-main' => 'Tá eolas ar na n-úsáideoirí seo faoin teanga $1.',
+	'babel-autocreate-abort' => 'Ní féidir an t-ainm úsáideora seo a chlárú mar tá sé in úsáid le catagóirí [[$1|Báibil]] a uathchruthú.',
+	'babel-autocreate-reason' => 'Leathanach catagóire [[$1|Báibil]] á uathchruthú.',
+	'babel-autocreate-text-levels' => 'Tá leibhéal scile $1 ag na húsáideoirí seo don teanga seo, $2.',
+	'babel-autocreate-text-main' => 'Tá $1 ag na húsáideoirí seo.',
 	'babel-0' => 'Níl [[$2|$3]] [[$1|ar bith]] ag an t-úsáideoir seo (nó is deacair dó í a thuiscint).',
 	'babel-1' => 'Tá [[$1|bun]]-[[$2|$3]] ag an úsáideoir seo.',
 	'babel-2' => 'Tá leibhéal [[$1|meánach]] na [[$2|$3]] ag an úsáideoir seo.',
-	'babel-3' => 'Tá [[$1|ard]]-[[$2|$3]] ag an úsáideoir seo.',
+	'babel-3' => 'Tá [[$2|$3]] [[$1|mhaith]] ag an úsáideoir seo.',
 	'babel-4' => 'Tá [[$2|$3]] [[$1|beagnach dúchasach]] ag an úsáideoir seo.',
-	'babel-5' => 'Tá [[$2|$3]] [[$1|gairmiúil]] ag an úsáideoir seo.',
-	'babel-N' => 'Tá [[$2|$3]] [[$1|dúchasach]] ag an úsáideoir seo.',
+	'babel-5' => 'Úsáideann an t-úsáideoir seo [[$2|$3]] [[$1|go gairmiúil]].',
+	'babel-N' => 'Tá [[$2|$3]] ag an úsáideoir seo [[$1|ó dhúchas]].',
 	'babel-0-n' => 'Níl [[$2|Gaeilge]] [[$1|ar bith]] ag an t-úsáideoir seo (nó is deacair dó í a thuiscint).',
 	'babel-1-n' => 'Tá [[$1|bun]]-[[$2|Ghaeilge]] ag an úsáideoir seo.',
 	'babel-2-n' => 'Tá leibhéal [[$1|meánach]] na [[$2|Gaeilge]] ag an úsáideoir seo.',
 	'babel-3-n' => 'Tá [[$1|ard]]-[[$2|Ghaeilge]] ag an úsáideoir seo.',
 	'babel-4-n' => 'Tá [[$2|Gaeilge]] [[$1|beagnach dúchasach]] ag an úsáideoir seo.',
-	'babel-5-n' => 'Tá [[$2|Gaeilge]] [[$1|gairmiúil]] ag an úsáideoir seo.',
-	'babel-N-n' => 'Tá [[$2|Gaeilge]] [[$1|dúchasach]] ag an úsáideoir seo.',
+	'babel-5-n' => 'Tá [[$2|Gaeilge]] [[$1|ghairmiúil]] ag an úsáideoir seo.',
+	'babel-N-n' => 'Is cainteoir [[$1|dúchasach]] [[$2|Gaeilge]] é an t-úsáideoir seo.',
 );
 
 /** Gan (贛語)
@@ -3002,6 +2955,28 @@ $messages['pnt'] = array(
 	'babel-N-n' => "Ατός ο χρήστες εχ' [[$1|μητρικόν]] λαλίαν τα [[$2|Ποντιακά]].",
 );
 
+/** Prūsiskan (Prūsiskan)
+ * @author Peteris
+ */
+$messages['prg'] = array(
+	'babel' => 'Babel turmus terpautajas',
+	'babel-url' => 'Project: Babel',
+	'babel-0' => 'Šis terpautajs [[$1|ni izpresta]] [[$2|$3]] (anga turri sen stan debīkans prōblamans).',
+	'babel-1' => 'Šis terpautajs zinna [[$2|$3]] na gruntiskan līgmenin',
+	'babel-2' => 'Šis terpautajs zinna [[$2|$3]] na [[$1|sirdan]] līgmenin.',
+	'babel-3' => 'Šis terpautajs zinna [[$2|$3]] na [[$1|ēmpirsin treppusin]] līgmenin.',
+	'babel-4' => 'Šis terpautajs zinna [[$2|$3]] ēst stawīdiskai, kāigi [[$1|gīmtan]].',
+	'babel-5' => 'Šis terpautajs zinna [[$2|$3]] stawīdiskai, kāigi [[$1|gimtan]].',
+	'babel-N' => '[[$2|$3]] ast [[$1|gimta]] bilā šisse terpautajas.',
+	'babel-0-n' => 'Šis terpautajs [[$1|ni izpresta]] [[$2|prūsiskan]] (anga turri sen stan debīkans prōblamans).',
+	'babel-1-n' => 'Šis terpautajs zinna [[$2|prūsiskan]] na gruntiskan līgmenin',
+	'babel-2-n' => 'Šis terpautajs zinna [[$2|prūsiskan]] na [[$1|sirdan]] līgmenin.',
+	'babel-3-n' => 'Šis terpautajs zinna [[$2|prūsiskan]] na [[$1|ēmpirsin treppusin]] līgmenin.',
+	'babel-4-n' => 'Šis terpautajs zinna [[$2|prūsiskan]] ēst stawīdiskai, kāigi [[$1|gīmtan]].',
+	'babel-5-n' => 'Šis terpautajs zinna [[$2|prūsiskan]] stawīdiskai, kāigi [[$1|gimtan]].',
+	'babel-N-n' => '[[$2|Prūsiskan]] ast [[$1|gimta]] bilā šisse terpautajas.',
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
@@ -3031,12 +3006,13 @@ $messages['ps'] = array(
 
 /** Portuguese (Português)
  * @author 555
+ * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
  */
 $messages['pt'] = array(
 	'babel' => 'Informação Babel de Utilizador',
-	'babel-desc' => 'Adiciona a função do analisador parser <tt>#babel</tt> para permitir a geração automatizada de um coluna de caixas de utilizador babel coma possibilidade de incluir predefinições personalizadas',
+	'babel-desc' => 'Adiciona a função <tt>#babel</tt> ao analisador sintáctico, para permitir a geração automatizada de uma coluna de caixas babel com a possibilidade de incluir predefinições personalizadas',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'O nome de utilizador que especificou é usado pela criação automática de categorias [[$1|Babel]] e, por isso, não pode ser registado.',
 	'babel-autocreate-reason' => 'A criar automaticamente a página da categoria [[$1|Babel]].',
@@ -4089,6 +4065,33 @@ $messages['vo'] = array(
 	'babel-4-n' => 'Geban at labon sevi [[$1|sümik ad ut lomapükana]] [[$2|Volapük]]a.',
 	'babel-5-n' => 'Geban at labon sevi [[$1|calik]] [[$2|Volapük]]a.',
 	'babel-N-n' => 'Geban at labon nivodi [[$1|lomapükik]] [[$2|Volapük]]a.',
+);
+
+/** Votic (Vaďďa)
+ * @author 2Q
+ */
+$messages['vot'] = array(
+	'babel' => 'Tšäüttijää tšeelesnorofka',
+	'babel-desc' => 'Lissäb <tt>#babel</tt>-funkttsiaa, kumpa annab tšäüttijää luvaa tšeelisnorofka-škatulkaa lissämä.',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Tšäüttijänimi, kumpa õõd antõnnu, on zańimoitõttu [[$1|Babelii]] meelegruppaa avtomattskoi loomizõõ, sissi ed või registriiroitta sitä.',
+	'babel-autocreate-reason' => '[[$1|Babelii]] meelegruppatšüľľee avtomattskoi loomin.',
+	'babel-autocreate-text-levels' => 'Tšäüttijäd kassen gruppaza õmad kuulutõttu, jot nämä tunta $2 tšeelt $1 uroveńńalla.',
+	'babel-autocreate-text-main' => 'Tšäüttijäd kassen gruppaza õmad kuulutõttu, jot nämä saa arvoa $1 tšeelt.',
+	'babel-0' => 'Kase tšäüttijä tunnab [[$1|liika vähää vai eb eestiit]] [[$2|$3]] tšeelt.',
+	'babel-1' => 'Kase tšäüttijä on [[$2|$3]] tšeelee [[$1|õppialkõja]]',
+	'babel-2' => 'Kase tšäüttijä tunnab [[$2|$3]] tšeelt [[$1|tšehsimeisessi]].',
+	'babel-3' => 'Kase tšäüttijä tunnab [[$2|$3]] tšeelt [[$1|esimeissi]].',
+	'babel-4' => 'Kase tšäüttijä tunnab [[$2|$3]] tšeelt [[$1|bezmalo nii ku emätšeeli]].',
+	'babel-5' => 'Kase tšäüttijä tunnab tarvitta [[$2|$3]] tšeelt [[$1|ammõttimeissi]].',
+	'babel-N' => '[[$2|$3]] tšeeli on sene tšäüttijää [[$1|emätšeeli]].',
+	'babel-0-n' => 'Kase tšäüttijä [[$1|eb tunna]] [[$2|vaďďakossi]].',
+	'babel-1-n' => 'Kase tšäüttijä pajatab [[$1|vähää]] [[$2|vaďďakossi]].',
+	'babel-2-n' => 'Kase tšäüttijä tunnab [[$1|tšehsimeisessi]] [[$2|vaďďakossi]].',
+	'babel-3-n' => 'Kase tšäüttijä tunnab [[$1|esimeissi]] [[$2|vaďďakossi]].',
+	'babel-4-n' => 'Kase tšäüttijä tunnab [[$2|vaďďakossi]] [[$1|bezmalo nii ku emätšeeli]].',
+	'babel-5-n' => 'Kase tšäüttijä tunnab tarvitta [[$2|vaďďakossi]] [[$1|ammõttimeissi]].',
+	'babel-N-n' => '[[$2|Vaďďa tšeeli]] on sene tšäüttijää [[$1|emätšeeli]].',
 );
 
 /** Võro (Võro)
