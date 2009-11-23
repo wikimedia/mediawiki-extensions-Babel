@@ -285,7 +285,7 @@ $messages['ar'] = array(
  * @author GerardM
  */
 $messages['arc'] = array(
-	'babel' => 'ܝܕܥܬ̈ܐ ܕܡܦܠܚܢܐ ܕܒܒܠ',
+	'babel' => 'ܝܕ̈ܥܬܐ ܕܡܦܠܚܢܐ ܕܒܒܠ',
 	'babel-url' => 'Project:ܒܒܠ',
 	'babel-directionality' => 'rtl',
 	'babel-0' => 'ܗܢܐ ܡܦܠܚܢܐ [[$1|ܠܐ ܝܕܥ]] [[$2|$3]] (ܐܘ ܝܕܥ ܠܗ ܒܥܣܩܘܬܐ)',
@@ -1284,31 +1284,32 @@ $messages['fy'] = array(
 /** Irish (Gaeilge)
  * @author Alison
  * @author GerardM
+ * @author Kwekubo
  * @author Moilleadóir
  * @author Tameamseo
  */
 $messages['ga'] = array(
-	'babel' => 'Eolas Báibil don Úsáideoir',
+	'babel' => "Eolas d'úsáideoirí maidir le Báibil",
 	'babel-desc' => 'Cruthaíonn sé seo an fheidhm pharsálaí <tt>#babel</tt> a chuireann ar chumas an úsáideora colún a ghiniúint go huathoibríoch i mbosca Báibil agus teimpléid saincheaptha a chur ann.',
 	'babel-url' => 'Project:Báibil',
-	'babel-autocreate-abort' => 'Ní féidir an t-ainm úsáideora seo a chlárú mar tá sé in úsáid le catagóirí [[$1|Báibil]] a uathchruthú.',
+	'babel-autocreate-abort' => 'Ní féidir leat an t-ainm úsáideora a shonraigh tú a chlárú, mar úsáidtear é chun catagóirí [[$1|Báibil]] a uathchruthú.',
 	'babel-autocreate-reason' => 'Leathanach catagóire [[$1|Báibil]] á uathchruthú.',
-	'babel-autocreate-text-levels' => 'Tá leibhéal scile $1 ag na húsáideoirí seo don teanga seo, $2.',
+	'babel-autocreate-text-levels' => 'Cuireann úsáideoirí sa chatagóir seo in iúl go bhfuil an scil-leibhéal $1 acu maidir leis an dteanga seo, $2.',
 	'babel-autocreate-text-main' => 'Tá $1 ag na húsáideoirí seo.',
-	'babel-0' => 'Níl [[$2|$3]] [[$1|ar bith]] ag an t-úsáideoir seo (nó is deacair dó í a thuiscint).',
-	'babel-1' => 'Tá [[$1|bun]]-[[$2|$3]] ag an úsáideoir seo.',
-	'babel-2' => 'Tá leibhéal [[$1|meánach]] na [[$2|$3]] ag an úsáideoir seo.',
-	'babel-3' => 'Tá [[$2|$3]] [[$1|mhaith]] ag an úsáideoir seo.',
-	'babel-4' => 'Tá [[$2|$3]] [[$1|beagnach dúchasach]] ag an úsáideoir seo.',
-	'babel-5' => 'Úsáideann an t-úsáideoir seo [[$2|$3]] [[$1|go gairmiúil]].',
+	'babel-0' => '[[$1|Níl aon eolas]] ag an úsáideoir seo maidir le [[$2|$3]] (nó is rí-dheacair don úsáideoir seo an theanga sin a thuiscint).',
+	'babel-1' => 'Tá [[$1|buneolas]] ag an úsáideoir seo maidir le [[$2|$3]].',
+	'babel-2' => 'Tá eolas [[$1|idirmheánach]] ag an úsáideoir seo maidir le [[$2|$3]].',
+	'babel-3' => 'Tá [[$1|ardeolas]] ag an úsáideoir seo maidir le [[$2|$3]].',
+	'babel-4' => 'Tá eolas [[$1|beagnach dúchasach]] ag an úsáideoir seo maidir le [[$2|$3]].',
+	'babel-5' => 'Tá eolas [[$1|gairmiúil]] ag an úsáideoir seo maidir le [[$2|$3]].',
 	'babel-N' => 'Tá [[$2|$3]] ag an úsáideoir seo [[$1|ó dhúchas]].',
-	'babel-0-n' => 'Níl [[$2|Gaeilge]] [[$1|ar bith]] ag an t-úsáideoir seo (nó is deacair dó í a thuiscint).',
-	'babel-1-n' => 'Tá [[$1|bun]]-[[$2|Ghaeilge]] ag an úsáideoir seo.',
-	'babel-2-n' => 'Tá leibhéal [[$1|meánach]] na [[$2|Gaeilge]] ag an úsáideoir seo.',
-	'babel-3-n' => 'Tá [[$1|ard]]-[[$2|Ghaeilge]] ag an úsáideoir seo.',
-	'babel-4-n' => 'Tá [[$2|Gaeilge]] [[$1|beagnach dúchasach]] ag an úsáideoir seo.',
-	'babel-5-n' => 'Tá [[$2|Gaeilge]] [[$1|ghairmiúil]] ag an úsáideoir seo.',
-	'babel-N-n' => 'Is cainteoir [[$1|dúchasach]] [[$2|Gaeilge]] é an t-úsáideoir seo.',
+	'babel-0-n' => '[[$1|Níl aon]] [[$2|Ghaeilge]] ag an úsáideoir seo (nó is deacair leis an úsáideoir seo í a thuiscint).',
+	'babel-1-n' => 'Tá [[$1|buneolas]] ag an úsáideoir seo maidir le [[$2|Gaeilge]].',
+	'babel-2-n' => 'Tá eolas [[$1|idirmheánach]] ag an úsáideoir seo maidir le [[$2|Gaeilge]].',
+	'babel-3-n' => 'Tá [[$2|Gaeilge]] [[$1|mhaith]] ag an úsáideoir seo.',
+	'babel-4-n' => 'Tá eolas [[$1|beagnach dúchasach]] ag an úsáideoir seo maidir le [[$2|Gaeilge]].',
+	'babel-5-n' => 'Tá eolas [[$1|gairmiúil]] ag an úsáideoir seo maidir le Gaeilge.',
+	'babel-N-n' => 'Tá Gaeilge ag an úsáideoir seo [[$1|ó dhúchas]].',
 );
 
 /** Gan (贛語)
