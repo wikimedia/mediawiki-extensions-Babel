@@ -4024,7 +4024,7 @@ $messages['vep'] = array(
  */
 $messages['vi'] = array(
 	'babel' => 'Thông tin Ngôn ngữ Thành viên',
-	'babel-desc' => 'Thêm hàm cú pháp <tt>#babel</tt> để cho phép tự động sinh ra một hộp thông tin ngôn ngữ thành viên và có thể thêm vào những tiêu bản tùy chọn',
+	'babel-desc' => 'Thêm hàm cú pháp <tt>#babel</tt> để cho phép tự động sinh ra một hộp thông tin ngôn ngữ thành viên và có thể thêm vào những bản mẫu tùy chọn',
 	'babel-url' => 'Project:Ngôn ngữ',
 	'babel-autocreate-abort' => 'Tên người dùng bạn yêu cầu được dùng để tự động tạo thể loại [[$1|Babel]] và không thể đăng ký.',
 	'babel-autocreate-reason' => 'Tự động tạo trang thể loại [[$1|Babel]].',
