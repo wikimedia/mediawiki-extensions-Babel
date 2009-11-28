@@ -151,6 +151,27 @@ $messages['ary'] = array(
 	'babel-N-n' => "Had l-mosṫeĥdim kayfhem l-loġa [[$2|l-Meġribiya]] bḫal [[$1|loġto l-'om]].",
 );
 
+/** Laz (Laz)
+ * @author Bombola
+ */
+$messages['lzz'] = array(
+	'babel' => "Babel K'oçişi çkinape",
+	'babel-0' => "Ham k'oçi [[$1|çkar]] [[$2|$3]] va uçkin (varna dido zorite oxo3'onaps).",
+	'babel-1' => "Ham k'oçi [[$1|am3ika]] [[$2|$3]] uçkin.",
+	'babel-2' => "Ham k'oçi [[$1|normalurot]] [[$2|$3]] uçkin.",
+	'babel-3' => "Ham k'oçi [[$1|k'ai]] [[$2|$3]] uçkin.",
+	'babel-4' => "Ham k'oçi [[$1|nananena-muşi steri]] [[$2|$3]] ğarğalaps.",
+	'babel-5' => "Ham k'oçi [[$1|p'rofesyonelurot]] [[$2|$3]] nena uçkin.",
+	'babel-N' => "Ham k'oçişi [[$1|nananena]]-muşi [[$2|$3]] nena ren.",
+	'babel-0-n' => "Ham k'oçi [[$1|çkar]] [[$2|Lazuri]] va uçkin (varna dido zorite oxo3'onaps).",
+	'babel-1-n' => "Ham k'oçi [[$1|am3ika]] [[$2|Lazuri]] uçkin.",
+	'babel-2-n' => "Ham k'oçi [[$1|normalurot]] [[$2|Lazuri]] uçkin.",
+	'babel-3-n' => "Ham k'oçi [[$1|k'ai]] [[$2|Lazuri]] uçkin.",
+	'babel-4-n' => "Ham k'oçi [[$1|nananena-muşi steri]] [[$2|Lazuri]] ğarğalaps.",
+	'babel-5-n' => "Ham k'oçi [[$1|p'rofesyonelurot]] [[$2|Lazuri]] nena uçkin.",
+	'babel-N-n' => "Ham k'oçişi [[$1|nananena]]-muşi [[$2|Lazuri]] nena ren.",
+);
+
 /** Achinese (Acèh)
  * @author Si Gam Acèh
  */
@@ -3863,6 +3884,7 @@ $messages['tpi'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Bombola
  * @author Joseph
  * @author Karduelis
  */
