@@ -773,6 +773,7 @@ $messages['crh'] = array(
 
 /** Czech (Česky)
  * @author Danny B.
+ * @author Kuvaly
  * @author Li-sung
  * @author Matěj Grabovský
  * @author Mormegil
@@ -781,6 +782,7 @@ $messages['cs'] = array(
 	'babel' => 'Jazykové znalosti uživatele',
 	'babel-desc' => 'Přidává funkci <code><nowiki>{{#babel:}}</nowiki></code>, umožňující automatickou tvorbu rámečku s informacemi o jazykových schopnostech uživatele s možností používat vlastní šablony.',
 	'babel-url' => 'Project:Babylon',
+	'babel-N' => 'Tento uživatel je [[$1|rodilý]] mluvčí [[$2|$3]].',
 	'babel-0-n' => 'Tento uživatel [[$1|nerozumí]] [[$2|česky]] (nebo rozumí se značnými problémy).',
 	'babel-1-n' => 'Tento uživatel má [[$1|základní]] znalosti [[$2|češtiny]].',
 	'babel-2-n' => 'Tento uživatel má [[$1|střední]] znalosti [[$2|češtiny]].',
