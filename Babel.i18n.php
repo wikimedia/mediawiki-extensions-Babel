@@ -3123,7 +3123,7 @@ $messages['rgn'] = array(
 	'babel-autocreate-reason' => 'Creaziòn automàtica dla pàgina dla categurèja [[$1|Babel]].',
 	'babel-autocreate-text-levels' => "Al persôn in sta categurèja j à la capacitè $1 d'savé la lèngua $2.",
 	'babel-autocreate-text-main' => "Al parsôn in sta categurèja j fà vdè ch'j cnòs la lèngua $1.",
-	'babel-0' => "Stû [[$1|u n' capèss gnint]] d'[[$2|$3]] (o e' fa un mocc d'fadiga).",
+	'babel-0' => "Stû [[$1|u n'capès gnit]] d'[[$2|$3]] (o e' fa un mocc d'fadiga).",
 	'babel-1' => "Stû e' [[$1|sa qvelcosa]] 'd [[$2|$3]].",
 	'babel-2' => 'Stû [[$1|us fa capì]] in [[$2|$3]].',
 	'babel-3' => "Stû e' sa [[$1|dimondi]] e' [[$2|$3]].",
@@ -3131,12 +3131,12 @@ $messages['rgn'] = array(
 	'babel-5' => "Stû l'è un [[$1|profesiunesta]] de' [[$2|$3]].",
 	'babel-N' => "Stû l'à tité e' [[$2|$3]] da [[$1|su mé]].",
 	'babel-0-n' => "Stû [[$1|u n' capèss gnint]] d'[[$2|Rumagnôl]] (o e' fa un mocc d'fadiga).",
-	'babel-1-n' => "Stû e' [[$1|sa qvelcosa]] d'[[$2|Rumagnôl]].",
-	'babel-2-n' => 'Stû [[$1|us fa capì]] in [[$2|Rumagnôl]].',
-	'babel-3-n' => "Stû e' [[$1|sa dimondi]] e' [[$2|Rumagnôl]].",
-	'babel-4-n' => "Stû e' [[$1|sa dì nicôsa]] in [[$2|Rumagnôl]].",
-	'babel-5-n' => "Stû l'è un [[$1|profesiunesta]] de' [[$2|Rumagnôl]].",
-	'babel-N-n' => "Stû l'à [[$2|tité e' Rumagnôl]] da [[$1|su mé]].",
+	'babel-1-n' => "Stû e' [[$1|sa cvalcvël]] d'[[$2|Rumagnôl]].",
+	'babel-2-n' => "Stû [[$1|u s'fa capì]] in [[$2|Rumagnôl]].",
+	'babel-3-n' => "Stû, e' [[$2|Rumagnôl]] [[$1|u l'sa dimondi]].",
+	'babel-4-n' => "Stû e' [[$1|sa ignacôsa]] de' [[$2|Rumagnôl]].",
+	'babel-5-n' => "Stû l'è un [[$1|prufesiunèstar]] de' [[$2|Rumagnôl]].",
+	'babel-N-n' => "Stû l'à [[$2|titê e' Rumagnôl]] da [[$1|su mê]].",
 );
 
 /** Rhaeto-Romance (Rumantsch)
