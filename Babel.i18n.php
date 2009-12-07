@@ -2322,7 +2322,8 @@ $messages['lt'] = array(
  */
 $messages['lv'] = array(
 	'babel' => 'Lietotāja informācija (Bābeles tornis)',
-	'babel-url' => 'Projekts:Bābeles tornis',
+	'babel-desc' => 'Pievieno parsera funkciju <tt>#babel</tt>, automātiskai kolonnu ar valodu informāciju veidošanai, ka arī ar citu veidņu ievietošanas iespēju',
+	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Tevis norādītais lietotājvārds tiek lietots [[$1|Babel]] kategoriju automātiskai izveidošanai, tāpēc to nevar piereģistrēt.',
 	'babel-autocreate-reason' => 'Automātiski izveido [[$1|Babel]] kategorijas lapu.',
 	'babel-autocreate-text-levels' => 'Lietotāji šajā kategorijā ir norādījuši, ka tie pārzina $2 valodu $1 līmenī.',
