@@ -4325,6 +4325,7 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
+ * @author Liangent
  * @author Shinjiman
  * @author Wrightbus
  */
@@ -4332,7 +4333,10 @@ $messages['zh-hant'] = array(
 	'babel' => '巴別用戶資料',
 	'babel-desc' => '加一個<tt>#babel</tt>處理功能去容許自動產生一個巴別用戶框欄及包含可自定化的模版',
 	'babel-url' => 'Project:巴別',
+	'babel-autocreate-abort' => '您所指定的用戶名不能被註冊，因其被用作[[$1|巴別]]分類的自動創建。',
 	'babel-autocreate-reason' => '自動建立巴別分類頁。',
+	'babel-autocreate-text-levels' => '在此分類中的用戶具有語言$2的$1能力。',
+	'babel-autocreate-text-main' => '此分類中的用戶能理解語言$1。',
 	'babel-0' => '這位用戶[[$1|無]][[$2|$3]]的知識（或很難地去明白它）。',
 	'babel-1' => '這位用戶有[[$1|基本]]的[[$2|$3]]知識。',
 	'babel-2' => '這位用戶有[[$1|中等]]的[[$2|$3]]知識。',
