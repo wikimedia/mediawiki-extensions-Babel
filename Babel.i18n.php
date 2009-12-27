@@ -3771,6 +3771,18 @@ $messages['tg-cyrl'] = array(
 	'babel-2' => 'Ин корбар [[$2|$3]]ро дар сатҳи [[$1|миёна]] мефаҳмад.',
 );
 
+/** Tajik (Latin) (Тоҷикӣ (Latin))
+ * @author Liangent
+ */
+$messages['tg-latn'] = array(
+	'babel' => 'Ittilooti Korbari Bobul',
+	'babel-desc' => "Dasturi taçzehgarro <tt>#babel</tt> izofa mekunad, ki imkoni eçodi xudkori ça'bahoi korgariji bobul bo qobilijati ƣunçonidani şablonhoi dixohro faroham mekunad",
+	'babel-url' => 'Project:Bobul',
+	'babel-0' => 'In korbar [[$2|$3]]ro [[$1|namefahmad]] (jo onro bo duşvorī mefahmad).',
+	'babel-1' => 'In korbar [[$2|$3]]ro dar sathi [[$1|muqaddamotī]] mefahmad.',
+	'babel-2' => 'In korbar [[$2|$3]]ro dar sathi [[$1|mijona]] mefahmad.',
+);
+
 /** Thai (ไทย)
  * @author Manop
  * @author Passawuth
@@ -4334,7 +4346,7 @@ $messages['zh-hant'] = array(
 	'babel-desc' => '加一個<tt>#babel</tt>處理功能去容許自動產生一個巴別用戶框欄及包含可自定化的模版',
 	'babel-url' => 'Project:巴別',
 	'babel-autocreate-abort' => '您所指定的用戶名不能被註冊，因其被用作[[$1|巴別]]分類的自動創建。',
-	'babel-autocreate-reason' => '自動建立巴別分類頁。',
+	'babel-autocreate-reason' => '自動建立[[$1|巴別]]分類頁。',
 	'babel-autocreate-text-levels' => '在此分類中的用戶具有語言$2的$1能力。',
 	'babel-autocreate-text-main' => '此分類中的用戶能理解語言$1。',
 	'babel-0' => '這位用戶[[$1|無]][[$2|$3]]的知識（或很難地去明白它）。',
