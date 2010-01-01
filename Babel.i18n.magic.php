@@ -20,6 +20,10 @@ $magicWords['arc'] = array(
 	'babel'   => array( '0', 'ܒܒܠ', 'babel' ),
 );
 
+$magicWords['arz'] = array(
+	'babel'   => array( '0', 'بابل', 'babel' ),
+);
+
 $magicWords['frp'] = array(
 	'babel'   => array( '0', 'babél', 'babel' ),
 );
@@ -38,4 +42,8 @@ $magicWords['mr'] = array(
 
 $magicWords['ru'] = array(
 	'babel'   => array( '0', 'вавилон', 'babel' ),
+);
+
+$magicWords['tr'] = array(
+	'babel'   => array( '0', 'babil', 'babel' ),
 );

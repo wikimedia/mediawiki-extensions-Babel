@@ -3007,7 +3007,7 @@ $messages['pnt'] = array(
 	'babel-N-n' => "Ατός ο χρήστες εχ' [[$1|μητρικόν]] λαλίαν τα [[$2|Ποντιακά]].",
 );
 
-/** Prūsiskan (Prūsiskan)
+/** Prussian (Prūsiskan)
  * @author Peteris
  */
 $messages['prg'] = array(
