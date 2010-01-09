@@ -128,9 +128,9 @@ $messages['kea'] = array(
  */
 $messages['ary'] = array(
 	'babel' => 'Meĝlomaṫ Babil ĝla l-mosṫeĥdim',
-	'babel-desc' => 'Zid l-fonksyon <tt>#babel</tt> li biha imkenlik ṫĥṫareĝ otomaṫikman sendoq Babil o ṫĝmel fih modélaṫ maḫeliyin.',
+	'babel-desc' => "Zid l-fonksyon <tt>#babel</tt> baċ ṫeĥṫareĝ ṫilqa'iyyan sendoq Babil o ṫeĝmel fih modélaṫ maḫelliyin.",
 	'babel-url' => 'Project:Babel',
-	'babel-autocreate-abort' => "Had smiyṫ l-mosṫeĥdim li deĥelṫi mosṫeĥdama le l-ĥṫiraĝ l-'otomaṫiki dyal l-katégotyaṫ [[$1|Babil]] o ma imkenlikċ ṫċejlo.",
+	'babel-autocreate-abort' => "Smiyṫ l-mosṫeĥdim li deĥĥelṫi mosṫeĥdama le l-ĥṫiraĝ l-'otomaṫiki dyal l-katégoryaṫ [[$1|Babil]] o ma imkenlikċ ṫċejlo.",
 	'babel-autocreate-reason' => 'Ĥṫiraĝ otomaṫiki dyal l-katégori [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'L-mosṫeĥdimin li fe had l-katégori ĝendhom mosṫawa $1 fe had l-loġa : $2.',
 	'babel-autocreate-text-main' => 'L-mosṫeĥdimin li fe had l-katégori ĝendhom meĝrifa fe had l-loġa : $1.',
