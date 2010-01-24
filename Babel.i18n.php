@@ -172,6 +172,27 @@ $messages['lzz'] = array(
 	'babel-N-n' => "Ham k'oçişi [[$1|nananena]]-muşi [[$2|Lazuri]] nena ren.",
 );
 
+/** Latgaļu (Latgaļu)
+ * @author Dark Eagle
+ */
+$messages['ltg'] = array(
+	'babel-url' => 'Project:Babele',
+	'babel-0' => 'Itys lītuotuojs [[$2|$3]] [[$1|namuok]] (ci saprūt ar lelim gryutumim).',
+	'babel-1' => 'Itys lītuotuojs [[$2|$3]] muok [[$1|suoku leidzīnī]].',
+	'babel-2' => 'Itys lītuotuojs [[$2|$3]] muok [[$1|vydyskā leidzīnī]].',
+	'babel-3' => 'Itys lītuotuojs [[$2|$3]] muok [[$1|gon lobā leidzīnī]].',
+	'babel-4' => 'Itys lītuotuojs [[$2|$3]] muok [[$1|kūna kai dzymtū volūdu]].',
+	'babel-5' => 'Itys lītuotuojs [[$2|$3]] muok [[$1|profesionalā leidzīnī]].',
+	'babel-N' => '[[$2|$3]] irā ituo lītuotuoja [[$1|dzymtuo volūda]].',
+	'babel-0-n' => 'Itys lītuotuojs [[$2|latgaļu volūdys]] [[$1|namuok]] (ci saprūt ar lelim gryutumim).',
+	'babel-1-n' => 'Itys lītuotuojs [[$2|latgaļu volūdu]] muok [[$1|suoku leidzīnī]].',
+	'babel-2-n' => 'Itys lītuotuojs [[$2|latgaļu volūdu]] muok [[$1|vydyskā leidzīnī]].',
+	'babel-3-n' => 'Itys lītuotuojs [[$2|latgaļu volūdu]] muok [[$1|gon lobā leidzīnī]].',
+	'babel-4-n' => 'Itys lītuotuojs [[$2|latgaļu volūdu]] muok [[$1|kūna kai dzymtū volūdu]].',
+	'babel-5-n' => 'Itys lītuotuojs [[$2|latgaļu volūdu]] muok [[$1|profesionalā leidzīnī]].',
+	'babel-N-n' => '[[$2|Latgaļu volūda]] irā ituo lītuotuoja [[$1|dzymtuo volūda]].',
+);
+
 /** Achinese (Acèh)
  * @author Si Gam Acèh
  */
@@ -2364,26 +2385,6 @@ $messages['lt'] = array(
 	'babel-4-n' => 'Šis naudotojas gali rašyti ir skaityti [[$2|lietuvių]] kalba [[$1|beveik kaip gimtąja]]',
 	'babel-5-n' => 'Šis naudotojas gali rašyti ir skaityti [[$1|profesionalia]] [[$2|lietuvių]] kalba',
 	'babel-N-n' => 'Šis naudotojas gali rašyti ir skaityti [[$1|gimtąja]] [[$2|lietuvių]] kalba',
-);
-
-/** Latgaļu (Latgaļu)
- * @author Dark Eagle
- */
-$messages['ltg'] = array(
-	'babel-0' => 'Itys lītuotuojs [[$2|$3]] [[$1|namuok]] (ci saprūt ar lelim gryutumim).',
-	'babel-1' => 'Itys lītuotuojs [[$2|$3]] muok [[$1|suoku leidzīnī]].',
-	'babel-2' => 'Itys lītuotuojs [[$2|$3]] muok [[$1|vydyskā leidzīnī]].',
-	'babel-3' => 'Itys lītuotuojs [[$2|$3]] muok [[$1|gon lobā leidzīnī]].',
-	'babel-4' => 'Itys lītuotuojs [[$2|$3]] muok [[$1|kūna kai dzymtū volūdu]].',
-	'babel-5' => 'Itys lītuotuojs [[$2|$3]] muok [[$1|profesionalā leidzīnī]].',
-	'babel-N' => '[[$2|$3]] irā ituo lītuotuoja [[$1|dzymtuo volūda]].',
-	'babel-0-n' => 'Itys lītuotuojs [[$2|latgaļu volūdys]] [[$1|namuok]] (ci saprūt ar lelim gryutumim).',
-	'babel-1-n' => 'Itys lītuotuojs [[$2|latgaļu volūdu]] muok [[$1|suoku leidzīnī]].',
-	'babel-2-n' => 'Itys lītuotuojs [[$2|latgaļu volūdu]] muok [[$1|vydyskā leidzīnī]].',
-	'babel-3-n' => 'Itys lītuotuojs [[$2|latgaļu volūdu]] muok [[$1|gon lobā leidzīnī]].',
-	'babel-4-n' => 'Itys lītuotuojs [[$2|latgaļu volūdu]] muok [[$1|kūna kai dzymtū volūdu]].',
-	'babel-5-n' => 'Itys lītuotuojs [[$2|latgaļu volūdu]] muok [[$1|profesionalā leidzīnī]].',
-	'babel-N-n' => '[[$2|Latgaļu volūda]] irā ituo lītuotuoja [[$1|dzymtuo volūda]].',
 );
 
 /** Latvian (Latviešu)
