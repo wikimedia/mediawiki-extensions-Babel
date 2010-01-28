@@ -176,7 +176,8 @@ $messages['lzz'] = array(
  * @author Dark Eagle
  */
 $messages['ltg'] = array(
-	'babel-url' => 'Project:Babele',
+	'babel' => 'Lītuotuoja informaceja (Bābelis tūrņs)',
+	'babel-url' => 'Project:Bābele',
 	'babel-0' => 'Itys lītuotuojs [[$2|$3]] [[$1|namuok]] (ci saprūt ar lelim gryutumim).',
 	'babel-1' => 'Itys lītuotuojs [[$2|$3]] muok [[$1|suoku leidzīnī]].',
 	'babel-2' => 'Itys lītuotuojs [[$2|$3]] muok [[$1|vydyskā leidzīnī]].',
