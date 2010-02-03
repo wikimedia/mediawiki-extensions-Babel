@@ -1894,6 +1894,29 @@ $messages['id'] = array(
 	'babel-N-n' => 'Pengguna ini adalah [[$1|penutur ibu]] [[$2|bahasa Indonesia]].',
 );
 
+/** Igbo (Igbo)
+ * @author Ukabia
+ */
+$messages['ig'] = array(
+	'babel' => 'Ihe Babel ejiá mari onyeá',
+	'babel-url' => 'Project:Babul',
+	'babel-autocreate-reason' => 'Odạlạ né ké [[$1|Babel]] ébé ihü nọr.',
+	'babel-0' => 'Onyéá [[$1|enweghị]] ómárí maka [[$2|$3]] (mä o wu ó na gé yá nsogbu dikwa elú ya).',
+	'babel-1' => 'Onyéá nwere ómárí [[$1|ntakịrị]] maka [[$2|$3]].',
+	'babel-2' => 'Onyéá nwere ómárí [[$1|ditu mmá]] maka [[$2|$3]].',
+	'babel-3' => 'Onyéá nwere ómárí [[$1|ukwu]] maka [[$2|$3]].',
+	'babel-4' => 'Onyéá nwere ómárí di kà [[$1|díàlà]] maka [[$2|$3]].',
+	'babel-5' => 'Onyéá nwere ómárí di [[$1|mkpà]] maka [[$2|$3]].',
+	'babel-N' => 'Onyéá nwere ómárí [[$1|díàlà]] maka [[$2|$3]].',
+	'babel-0-n' => 'Onyéá [[$1|enweghị]] ómárí maka [[$2|Ìgbọ]] (mä o wu ó na gé yá nsogbu dikwa elú ya).',
+	'babel-1-n' => 'Onyéá nwere ómárí [[$1|ntakịrị]] maka [[$2|Ìgbọ]].',
+	'babel-2-n' => 'Onyéá nwere ómárí [[$1|ditu mmá]] maka [[$2|Ìgbọ]].',
+	'babel-3-n' => 'Onyéá nwere ómárí [[$1|ukwu]] maka [[$2|Ìgbọ]].',
+	'babel-4-n' => 'Onyéá nwere ómárí di kà [[$1|díàlà]] maka [[$2|Ìgbọ]].',
+	'babel-5-n' => 'Onyéá nwere ómárí di [[$1|mkpà]] maka [[$2|Ìgbọ]].',
+	'babel-N-n' => 'Onyéá nwere ómárí [[$1|díàlà]] maka [[$2|Ìgbọ]].',
+);
+
 /** Ido (Ido)
  * @author Malafaya
  */
@@ -2516,7 +2539,7 @@ $messages['mhr'] = array(
  */
 $messages['mk'] = array(
 	'babel' => 'Кориснички информации за јазици',
-	'babel-desc' => 'Ја додава парсер функцијата <tt>#babel</tt> со што се дозволува автоматизирано генерирање на колони со кориснички кутии од типот „Вавилон“, со можноста да се додаваат сопствени шаблони',
+	'babel-desc' => 'Ја додава парсерската функција <tt>#babel</tt> со што се дозволува автоматизирано создавање на колони со кориснички кутии од типот „Вавилон“, со можноста да се додаваат сопствени шаблони',
 	'babel-url' => 'Project:Вавилон',
 	'babel-autocreate-abort' => 'Корисничкото име кое го наведовте се користи за автоматско создавање на [[$1|Babel]] категорија и затоа не може да се регистрира.',
 	'babel-autocreate-reason' => 'Автоматско создавање на [[$1|Вавилон]] категорија.',
