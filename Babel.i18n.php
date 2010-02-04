@@ -1898,7 +1898,7 @@ $messages['id'] = array(
  * @author Ukabia
  */
 $messages['ig'] = array(
-	'babel' => 'Ihe Babel ejiá mari onyeá',
+	'babel' => 'Ihe Babul ejiá mari onyeá',
 	'babel-url' => 'Project:Babul',
 	'babel-autocreate-reason' => 'Odạlạ né ké [[$1|Babel]] ébé ihü nọr.',
 	'babel-0' => 'Onyéá [[$1|enweghị]] ómárí maka [[$2|$3]] (mä o wu ó na gé yá nsogbu dikwa elú ya).',
