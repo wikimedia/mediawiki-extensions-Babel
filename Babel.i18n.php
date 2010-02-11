@@ -1347,6 +1347,33 @@ $messages['frr'] = array(
 	'babel-N-n' => 'Dideere brüker snååket Friisk as [[$1|mamenspräke]].',
 );
 
+/** Friulian (Furlan)
+ * @author Klenje
+ */
+$messages['fur'] = array(
+	'babel' => 'Informazions Babel dal utent',
+	'babel-desc' => 'Zonte la funzion di analisi <tt>#babel</tt> par permeti la generazion in automatic di une colone box utent babel, cu la pussibitât di includi modei personalizâts',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Il non utent specificât al è doprât pe creazion automatiche di categoriis [[$1|Babel]] e nol pues jessi regjistrât.',
+	'babel-autocreate-reason' => 'Creant in automatic la categorie di [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'I utents in cheste categorie a disin di vê un nivel $1 pe lenghe $2.',
+	'babel-autocreate-text-main' => 'I utents in cheste categorie a disin di cognossi la lenghe $1',
+	'babel-0' => 'Chest utent [[$1|nol cognos]] il [[$2|$3]] (o lu capìs cuntun grum di dificoltât).',
+	'babel-1' => 'Chest utent al à une cognossince [[$1|elementâr]] de lenghe [[$2|$3]].',
+	'babel-2' => 'Chest utent al à une cognossince [[$1|mezane]] de lenghe [[$2|$3]].',
+	'babel-3' => 'Chest utent al à une cognossince [[$1|avanzade]] de lenghe [[$2|$3]].',
+	'babel-4' => 'Chest utent al à une cognossince [[$1|cuasi di marilenghe]] dal [[$2|$3]].',
+	'babel-5' => 'Chest utent al à une cognossince [[$1|professionâl]] de lenghe [[$2|$3]].',
+	'babel-N' => 'Chest utent al cognòs la lenghe [[$2|$3]] come un fevelant [[$1|marilenghe]].',
+	'babel-0-n' => 'Chest utent [[$1|nol cognos]] il [[$2|furlan]] (o lu capìs cuntun grum di dificoltât).',
+	'babel-1-n' => 'Chest utent al à une cognossince [[$1|elementâr]] dal [[$2|furlan]].',
+	'babel-2-n' => 'Chest utent al à une cognossince [[$1|mezane]] dal [[$2|furlan]].',
+	'babel-3-n' => 'Chest utent al à une cognossince [[$1|avanzade]] dal [[$2|furlan]].',
+	'babel-4-n' => 'Chest utent al à une cognossince [[$1|cuasi di marilenghe]] dal [[$2|furlan]].',
+	'babel-5-n' => 'Chest utent al à une cognossince [[$1|professionâl]] dal [[$2|furlan]].',
+	'babel-N-n' => 'Chest utent al è di [[$1|marilenghe]] [[$2|furlane]].',
+);
+
 /** Western Frisian (Frysk)
  * @author Crazymadlover
  * @author SK-luuut
