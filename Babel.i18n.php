@@ -849,11 +849,19 @@ $messages['crh'] = array(
  * @author Li-sung
  * @author Matěj Grabovský
  * @author Mormegil
+ * @author Mr. Richard Bolla
  */
 $messages['cs'] = array(
 	'babel' => 'Jazykové znalosti uživatele',
 	'babel-desc' => 'Přidává funkci <code><nowiki>{{#babel:}}</nowiki></code>, umožňující automatickou tvorbu rámečku s informacemi o jazykových schopnostech uživatele s možností používat vlastní šablony.',
 	'babel-url' => 'Project:Babylon',
+	'babel-autocreate-text-levels' => 'Uživatelé v této kategorii označili svou úroveň {{GRAMMAR:genitiv|$2}} jako $1.',
+	'babel-0' => 'Tento uživatel [[$2|{{GRAMMAR:genitiv|$3}}]] [[$1|nerozumí]] (nebo mu to činí potíže).',
+	'babel-1' => 'Tento uživatel má [[$1|základní]] znalosti [[$2|{{GRAMMAR:genitiv|$3}}]].',
+	'babel-2' => 'Tento uživatel má znalosti [[$2|{{GRAMMAR:genitiv|$3}}]] na [[$1|středně pokročilé]] úrovni.',
+	'babel-3' => 'Tento uživatel má znalosti [[$2|{{GRAMMAR:genitiv|$3}}]] na [[$1|pokročilé]] úrovni.',
+	'babel-4' => 'Tento uživatel má znalosti [[$2|{{GRAMMAR:genitiv|$3}}]] srovnatelné s [[$1|rodilým mluvčím]].',
+	'babel-5' => 'Tento uživatel má znalosti [[$2|{{GRAMMAR:genitiv|$3}}]] na [[$1|profesionální]] úrovni.',
 	'babel-N' => 'Tento uživatel je [[$1|rodilý]] mluvčí [[$2|$3]].',
 	'babel-0-n' => 'Tento uživatel [[$1|nerozumí]] [[$2|česky]] (nebo rozumí se značnými problémy).',
 	'babel-1-n' => 'Tento uživatel má [[$1|základní]] znalosti [[$2|češtiny]].',
