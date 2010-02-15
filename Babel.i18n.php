@@ -151,27 +151,6 @@ $messages['ary'] = array(
 	'babel-N-n' => "Had l-mosṫeĥdim kayfhem l-loġa [[$2|l-Meġribiya]] bḫal [[$1|loġto l-'om]].",
 );
 
-/** Laz (Laz)
- * @author Bombola
- */
-$messages['lzz'] = array(
-	'babel' => "Babel K'oçişi çkinape",
-	'babel-0' => "Ham k'oçis [[$1|çkar]] [[$2|$3]] va uçkin (varna dido zorite oxo3'onaps).",
-	'babel-1' => "Ham k'oçis [[$1|am3ika]] uçkin [[$2|$3]].",
-	'babel-2' => "Ham k'oçis [[$1|normalurot]] uçkin [[$2|$3]].",
-	'babel-3' => "Ham k'oçis [[$1|k'ai]] uçkin [[$2|$3]].",
-	'babel-4' => "Ham k'oçik [[$1|nananena-muşi steri]] [[$2|$3]] ğarğalaps.",
-	'babel-5' => "Ham k'oçis [[$1|p'rofesyonelurot]] uçkin [[$2|$3]].",
-	'babel-N' => "Ham k'oçişi [[$1|nananena]]-muşi [[$2|$3]] ren.",
-	'babel-0-n' => "Ham k'oçis [[$1|çkar]] [[$2|Lazuri]] va uçkin (varna dido zorite oxo3'onaps).",
-	'babel-1-n' => "Ham k'oçis [[$1|am3ika]] [[$2|Lazuri]] uçkin.",
-	'babel-2-n' => "Ham k'oçis [[$1|normalurot]] [[$2|Lazuri]] uçkin.",
-	'babel-3-n' => "Ham k'oçis [[$1|k'ai]] [[$2|Lazuri]] uçkin.",
-	'babel-4-n' => "Ham k'oçik [[$1|nananena-muşi steri]] [[$2|Lazuri]] ğarğalaps.",
-	'babel-5-n' => "Ham k'oçis [[$1|p'rofesyonelurot]] [[$2|Lazuri]] uçkin.",
-	'babel-N-n' => "Ham k'oçişi [[$1|nananena]]-muşi [[$2|Lazuri]] ren.",
-);
-
 /** Latgaļu (Latgaļu)
  * @author Dark Eagle
  */
@@ -364,31 +343,32 @@ $messages['arn'] = array(
 );
 
 /** Egyptian Spoken Arabic (مصرى)
+ * @author Dudi
  * @author Meno25
  */
 $messages['arz'] = array(
-	'babel' => 'معلومات بابل للمستخدم',
-	'babel-desc' => 'يضيف دالة المحلل <tt>#babel</tt> للسماح بالتوليد التلقائى لعامود صندوق بابل مع إمكانية تضمين قوالب أخرى',
+	'babel' => 'معلومات بابل بتاعة اليوزرات',
+	'babel-desc' => 'زوّد <tt>#babel</tt> علشان تسمح يإن يتعمل اوتوماتيكى علبة عامود بابل بإمكانية تزويد قوالب مخصوصه',
 	'babel-url' => 'Project:بابل',
-	'babel-autocreate-abort' => 'اسم المستخدم الذى حددته مستخدم للإنشاء التلقائى لتصنيفات [[$1|بابل]] ولا يمكن تسجيله.',
-	'babel-autocreate-reason' => 'إنشاء صفحة تصنيف [[$1|بابل]] تلقائيا.',
-	'babel-autocreate-text-levels' => 'المستخدمون فى هذا التصنيف مستوى مهارتهم $1 للغة $2.',
-	'babel-autocreate-text-main' => 'المستخدمون فى هذا التصنيف لديهم معرفة باللغة $1.',
+	'babel-autocreate-abort' => 'اسم اليوزر اللى حددته مستعمل من [[$1|بابل]] علشان يعمل تصنيفات اوتوماتيكى و ما ينفعش يتسجل.',
+	'babel-autocreate-reason' => 'بيعمل صفحة تصنيف [[$1|بابل]] اوتوماتيكى.',
+	'babel-autocreate-text-levels' => 'اليوزرات فى التصنيف ده بيبيّنو ان مستواهم $1 فى اللغه $2.',
+	'babel-autocreate-text-main' => 'اليوزرات اللى فى التصنيف ده بيبيّنو ان عندهم معرفه باللغه $1.',
 	'babel-directionality' => 'rtl',
-	'babel-0' => 'هذا المستخدم [[$1|ليس]] لديه معرفة ب[[$2|$3]] (أو يفهمها بصعوبة شديدة).',
-	'babel-1' => 'هذا المستخدم يمتلك معرفة [[$1|أساسية]] ب[[$2|$3]].',
-	'babel-2' => 'هذا المستخدم يمتلك معرفة [[$1|متوسطة]] ب[[$2|$3]].',
-	'babel-3' => 'هذا المستخدم يمتلك معرفة [[$1|متقدمة]] ب[[$2|$3]].',
-	'babel-4' => 'هذا المستخدم يمتلك معرفة [[$1|تقترب من مستوى اللغة الأم]] ب[[$2|$3]].',
-	'babel-5' => 'هذا المستخدم يمتلك معرفة [[$1|احترافية]] ب[[$2|$3]].',
-	'babel-N' => 'هذا المستخدم يمتلك معرفة [[$1|كلغة أم]] ب[[$2|$3]].',
-	'babel-0-n' => 'هذا المستخدم [[$1|ليس]] لديه معرفة ب[[$2|مصرى]] (أو يفهمها بصعوبة شديدة).',
-	'babel-1-n' => 'هذا المستخدم لديه معرفة [[$1|أساسية]] ب[[$2|مصرى]].',
-	'babel-2-n' => 'هذا المستخدم لديه معرفة [[$1|متوسطة]] ب[[$2|مصرى]].',
-	'babel-3-n' => 'هذا المستخدم يمتلك معرفة [[$1|متقدمة]] ب[[$2|مصرى]].',
-	'babel-4-n' => 'هذا المستخدم يمتلك معرفة [[$1|تقترب من مستوى اللغة الأم]] ب[[$2|مصرى]].',
-	'babel-5-n' => 'هذا المستخدم يمتلك معرفة [[$1|احترافية]] ب[[$2|مصرى]].',
-	'babel-N-n' => 'هذا المستخدم يمتلك معرفة [[$1|كلغة أم]] ب[[$2|مصرى]].',
+	'babel-0' => 'اليوزر ده [[$1|ما عندوش]] معرفه بـ[[$2|$3]] (او بيفهمها بصعوبه كبيره).',
+	'babel-1' => 'اليوزر ده عنده معرفه [[$1|اساسيه]] بـ[[$2|$3]].',
+	'babel-2' => 'اليوزر ده يقدر [[$1|يتفاهم]] بـ[[$2|$3]].',
+	'babel-3' => 'اليوزر ده عنده معرفه [[$1|متقدمه]] بـ[[$2|$3]].',
+	'babel-4' => 'اليوزر ده عنده معرفه [[$1|قريبه من اللى بيتكلمو اصلى]] [[$2|$3]].',
+	'babel-5' => 'اليوزر ده [[$1|حرّيف]] فى الـ[[$2|$3]].',
+	'babel-N' => 'اليوزر ده بيفهم [[$2|$3]] [[$1|زى اللغه الام]].',
+	'babel-0-n' => 'اليوزر ده [[$1|ما عندوش]] معرفه باللغه ال[[$2|مصرى]] (او بيفهمها بصعوبه كبيره).',
+	'babel-1-n' => 'اليوزر ده عنده معرفه [[$1|اساسيه]] باللغه ال[[$2|مصرى]].',
+	'babel-2-n' => 'اليوزر ده يقدر [[$1|يتفاهم]] باللغه ال[[$2|مصرى]].',
+	'babel-3-n' => 'اليوزر ده عنده معرفه [[$1|متقدمه]] باللغه ال[[$2|مصرى]].',
+	'babel-4-n' => 'اليوزر ده عنده معرفه [[$1|قريبه من اللى بيتكلمو اصلى]] اللغه ال[[$2|مصرى]].',
+	'babel-5-n' => 'اليوزر ده [[$1|حرّيف]] فى اللغه ال[[$2|مصرى]].',
+	'babel-N-n' => 'اليوزر ده بيفهم [[$2|مصرى]] [[$1|زى اللغه الام]].',
 );
 
 /** Assamese (অসমীয়া)
@@ -856,12 +836,12 @@ $messages['cs'] = array(
 	'babel-desc' => 'Přidává funkci <code><nowiki>{{#babel:}}</nowiki></code>, umožňující automatickou tvorbu rámečku s informacemi o jazykových schopnostech uživatele s možností používat vlastní šablony.',
 	'babel-url' => 'Project:Babylon',
 	'babel-autocreate-text-levels' => 'Uživatelé v této kategorii označili svou úroveň {{GRAMMAR:genitiv|$2}} jako $1.',
-	'babel-0' => 'Tento uživatel [[$2|{{GRAMMAR:genitiv|$3}}]] [[$1|nerozumí]] (nebo mu to činí potíže).',
-	'babel-1' => 'Tento uživatel má [[$1|základní]] znalosti [[$2|{{GRAMMAR:genitiv|$3}}]].',
-	'babel-2' => 'Tento uživatel má znalosti [[$2|{{GRAMMAR:genitiv|$3}}]] na [[$1|středně pokročilé]] úrovni.',
-	'babel-3' => 'Tento uživatel má znalosti [[$2|{{GRAMMAR:genitiv|$3}}]] na [[$1|pokročilé]] úrovni.',
-	'babel-4' => 'Tento uživatel má znalosti [[$2|{{GRAMMAR:genitiv|$3}}]] srovnatelné s [[$1|rodilým mluvčím]].',
-	'babel-5' => 'Tento uživatel má znalosti [[$2|{{GRAMMAR:genitiv|$3}}]] na [[$1|profesionální]] úrovni.',
+	'babel-0' => '{{GENDER:$4|Tento uživatel|Tato uživatelka|Tento uživatel}} [[$1|nerozumí]] [[$2|$3]] (nebo rozumí se značnými problémy).',
+	'babel-1' => 'Tento uživatel má [[$1|základní]] znalosti [[$2|{{GRAMMAR:2sg|$3}}]].',
+	'babel-2' => 'Tento uživatel má znalosti [[$2|{{GRAMMAR:2sg|$3}}]] na [[$1|středně pokročilé]] úrovni.',
+	'babel-3' => 'Tento uživatel má znalosti [[$2|{{GRAMMAR:2sg|$3}}]] na [[$1|pokročilé]] úrovni.',
+	'babel-4' => 'Tento uživatel má znalosti [[$2|{{GRAMMAR:2sg|$3}}]] srovnatelné s [[$1|rodilým mluvčím]].',
+	'babel-5' => 'Tento uživatel má znalosti [[$2|{{GRAMMAR:2sg|$3}}]] na [[$1|profesionální]] úrovni.',
 	'babel-N' => 'Tento uživatel je [[$1|rodilý]] mluvčí [[$2|$3]].',
 	'babel-0-n' => 'Tento uživatel [[$1|nerozumí]] [[$2|česky]] (nebo rozumí se značnými problémy).',
 	'babel-1-n' => 'Tento uživatel má [[$1|základní]] znalosti [[$2|češtiny]].',
@@ -2487,6 +2467,27 @@ $messages['lzh'] = array(
 	'babel-N-n' => '此君三歲能屬文，[[$2|文言]]無異[[$1|母語]]也。',
 );
 
+/** Laz (Laz)
+ * @author Bombola
+ */
+$messages['lzz'] = array(
+	'babel' => "Babel K'oçişi çkinape",
+	'babel-0' => "Ham k'oçis [[$1|çkar]] [[$2|$3]] va uçkin (varna dido zorite oxo3'onaps).",
+	'babel-1' => "Ham k'oçis [[$1|am3ika]] uçkin [[$2|$3]].",
+	'babel-2' => "Ham k'oçis [[$1|normalurot]] uçkin [[$2|$3]].",
+	'babel-3' => "Ham k'oçis [[$1|k'ai]] uçkin [[$2|$3]].",
+	'babel-4' => "Ham k'oçik [[$1|nananena-muşi steri]] [[$2|$3]] ğarğalaps.",
+	'babel-5' => "Ham k'oçis [[$1|p'rofesyonelurot]] uçkin [[$2|$3]].",
+	'babel-N' => "Ham k'oçişi [[$1|nananena]]-muşi [[$2|$3]] ren.",
+	'babel-0-n' => "Ham k'oçis [[$1|çkar]] [[$2|Lazuri]] va uçkin (varna dido zorite oxo3'onaps).",
+	'babel-1-n' => "Ham k'oçis [[$1|am3ika]] [[$2|Lazuri]] uçkin.",
+	'babel-2-n' => "Ham k'oçis [[$1|normalurot]] [[$2|Lazuri]] uçkin.",
+	'babel-3-n' => "Ham k'oçis [[$1|k'ai]] [[$2|Lazuri]] uçkin.",
+	'babel-4-n' => "Ham k'oçik [[$1|nananena-muşi steri]] [[$2|Lazuri]] ğarğalaps.",
+	'babel-5-n' => "Ham k'oçis [[$1|p'rofesyonelurot]] [[$2|Lazuri]] uçkin.",
+	'babel-N-n' => "Ham k'oçişi [[$1|nananena]]-muşi [[$2|Lazuri]] ren.",
+);
+
 /** Moksha (Мокшень)
  * @author Khazar II
  */
@@ -3141,27 +3142,28 @@ $messages['prg'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'babel' => 'د بابل د کارونکي مالومات',
+	'babel' => 'د بابل د کارن مالومات',
 	'babel-desc' => 'د <tt>#babel</tt> شننونکې کړنه په دې موخه ده چې په خپلسري توګه د بابل د کارنبکس ستنه رامېنځ ته کړي چېرته چې څوک خپل د خوښې کينډۍ ورټومبلی شي',
 	'babel-url' => 'Project:بابل',
+	'babel-autocreate-abort' => 'کوم کارن-نوم چې تاسو خوښ کړی هغه د [[$1|بابل]] د خپلسري-جوړښت وېشنيزې کې کارېږي او د ثبتولو وړ نه ده.',
 	'babel-autocreate-reason' => 'په اتوماتيک ډول د [[$1|بابل]] وېشنيزې مخ جوړوي.',
 	'babel-autocreate-text-levels' => 'د دې وېشنيزې کارنان دا څرګندوي چې دوي د $1 کچې وړتياوې د $2 ژبې په برخه کې لري.',
 	'babel-autocreate-text-main' => 'د دې وېشنيزې کارنان دا څرګندوي چې دوي د $1 په ژبه کې پوهاوی لري.',
 	'babel-directionality' => 'rtl',
-	'babel-0' => 'همدا کارونکی په [[$2|$3]] ژبه [[$1|هېڅ نه]] پوهېږي (او يا هم په ډېرې سختۍ سره ډېر لږ پرې پوهېږي).',
-	'babel-1' => 'همدا کارونکی تر [[$1|بنسټيزې کچې]] په [[$2|$3]] ژبې پوهېږي.',
-	'babel-2' => 'همدا کارونکی تر [[$1|منځوۍ کچې]] په [[$2|$3]] ژبې پوهېږي.',
-	'babel-3' => 'همدا کارونکی تر [[$1|پرمختللې کچې]] په [[$2|$3]] ژبې پوهېږي.',
-	'babel-4' => 'همدا کارونکی تر [[$1|مورنۍ کچې]] په [[$2|$3]] ژبې پوهېږي.',
-	'babel-5' => 'همدا کارونکی تر [[$1|کارپوهنيزې کچې]] په [[$2|$3]] ژبې پوهېږي.',
-	'babel-N' => 'د همدې کارونکي [[$1|مورنۍ]] ژبه [[$2|$3]] ده.',
-	'babel-0-n' => 'همدا کارونکی په [[$2|پښتو]] ژبه [[$1|هېڅ نه]] پوهېږي (او يا هم په ډېرې سختۍ سره ډېر لږ پرې پوهېږي).',
-	'babel-1-n' => 'همدا کارونکی تر [[$1|بنسټيزې کچې]] په [[$2|پښتو]] ژبې پوهېږي.',
-	'babel-2-n' => 'همدا کارونکی تر [[$1|منځوۍ کچې]] په [[$2|پښتو]] ژبې پوهېږي.',
-	'babel-3-n' => 'همدا کارونکی تر [[$1|پرمختللې کچې]] په [[$2|پښتو]] ژبې پوهېږي.',
-	'babel-4-n' => 'همدا کارونکی تر [[$1|مورنۍ کچې]] په [[$2|پښتو]] ژبې پوهېږي.',
-	'babel-5-n' => 'همدا کارونکی تر [[$1|کارپوهنيزې کچې]] په [[$2|پښتو]] ژبې پوهېږي.',
-	'babel-N-n' => 'د همدې کارونکي [[$1|مورنۍ]] ژبه [[$2|پښتو]] ده.',
+	'babel-0' => 'دا کارن په [[$2|$3]] ژبه [[$1|هېڅ نه]] پوهېږي (او يا هم په ډېرې سختۍ سره ډېر لږ پرې پوهېږي).',
+	'babel-1' => 'دا کارن تر [[$1|بنسټيزې کچې]] په [[$2|$3]] ژبې پوهېږي.',
+	'babel-2' => 'دا کارن تر [[$1|منځوۍ کچې]] په [[$2|$3]] ژبې پوهېږي.',
+	'babel-3' => 'دا کارن تر [[$1|پرمختللې کچې]] په [[$2|$3]] ژبې پوهېږي.',
+	'babel-4' => 'دا کارن تر [[$1|مورنۍ کچې]] په [[$2|$3]] ژبې پوهېږي.',
+	'babel-5' => 'دا کارن تر [[$1|کارپوهنيزې کچې]] په [[$2|$3]] ژبې پوهېږي.',
+	'babel-N' => 'د دې کارن [[$1|مورنۍ]] ژبه [[$2|$3]] ده.',
+	'babel-0-n' => 'دا کارن په [[$2|پښتو]] ژبه [[$1|هېڅ نه]] پوهېږي (او يا هم په ډېرې سختۍ سره ډېر لږ پرې پوهېږي).',
+	'babel-1-n' => 'دا کارن تر [[$1|بنسټيزې کچې]] په [[$2|پښتو]] ژبې پوهېږي.',
+	'babel-2-n' => 'دا کارن تر [[$1|منځوۍ کچې]] په [[$2|پښتو]] ژبې پوهېږي.',
+	'babel-3-n' => 'دا کارن تر [[$1|پرمختللې کچې]] په [[$2|پښتو]] ژبې پوهېږي.',
+	'babel-4-n' => 'دا کارن تر [[$1|مورنۍ کچې]] په [[$2|پښتو]] ژبې پوهېږي.',
+	'babel-5-n' => 'دا کارن تر [[$1|کارپوهنيزې کچې]] په [[$2|پښتو]] ژبې پوهېږي.',
+	'babel-N-n' => 'د دې کارن [[$1|مورنۍ]] ژبه [[$2|پښتو]] ده.',
 );
 
 /** Portuguese (Português)
