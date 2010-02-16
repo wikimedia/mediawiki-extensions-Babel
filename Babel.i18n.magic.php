@@ -40,10 +40,18 @@ $magicWords['mr'] = array(
 	'babel'   => array( '0', 'बॅबेल', 'babel' ),
 );
 
+$magicWords['ps'] = array(
+	'babel'   => array( '0', 'بابېل', 'babel' ),
+);
+
 $magicWords['ru'] = array(
 	'babel'   => array( '0', 'вавилон', 'babel' ),
 );
 
 $magicWords['tr'] = array(
 	'babel'   => array( '0', 'babil', 'babel' ),
+);
+
+$magicWords['uk'] = array(
+	'babel'   => array( '0', 'вавилон', 'вавілон', 'babel' ),
 );
