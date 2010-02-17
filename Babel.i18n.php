@@ -2467,25 +2467,26 @@ $messages['lzh'] = array(
 	'babel-N-n' => '此君三歲能屬文，[[$2|文言]]無異[[$1|母語]]也。',
 );
 
-/** Laz (Laz)
+/** Lazuri (Lazuri)
  * @author Bombola
  */
 $messages['lzz'] = array(
-	'babel' => "Babel K'oçişi çkinape",
-	'babel-0' => "Ham k'oçis [[$1|çkar]] [[$2|$3]] va uçkin (varna dido zorite oxo3'onaps).",
-	'babel-1' => "Ham k'oçis [[$1|am3ika]] uçkin [[$2|$3]].",
-	'babel-2' => "Ham k'oçis [[$1|normalurot]] uçkin [[$2|$3]].",
-	'babel-3' => "Ham k'oçis [[$1|k'ai]] uçkin [[$2|$3]].",
-	'babel-4' => "Ham k'oçik [[$1|nananena-muşi steri]] [[$2|$3]] ğarğalaps.",
-	'babel-5' => "Ham k'oçis [[$1|p'rofesyonelurot]] uçkin [[$2|$3]].",
-	'babel-N' => "Ham k'oçişi [[$1|nananena]]-muşi [[$2|$3]] ren.",
-	'babel-0-n' => "Ham k'oçis [[$1|çkar]] [[$2|Lazuri]] va uçkin (varna dido zorite oxo3'onaps).",
-	'babel-1-n' => "Ham k'oçis [[$1|am3ika]] [[$2|Lazuri]] uçkin.",
-	'babel-2-n' => "Ham k'oçis [[$1|normalurot]] [[$2|Lazuri]] uçkin.",
-	'babel-3-n' => "Ham k'oçis [[$1|k'ai]] [[$2|Lazuri]] uçkin.",
-	'babel-4-n' => "Ham k'oçik [[$1|nananena-muşi steri]] [[$2|Lazuri]] ğarğalaps.",
-	'babel-5-n' => "Ham k'oçis [[$1|p'rofesyonelurot]] [[$2|Lazuri]] uçkin.",
-	'babel-N-n' => "Ham k'oçişi [[$1|nananena]]-muşi [[$2|Lazuri]] ren.",
+	'babel' => 'Babel Maxmareş çkinape',
+	'babel-url' => 'Project:Babeli',
+	'babel-0' => "Am maxmares [[$1|çkar]] [[$2|$3]] va uçkin (varna dido zorite oxo3'onaps).",
+	'babel-1' => 'Am maxmares [[$1|am3ika]] uçkin [[$2|$3]].',
+	'babel-2' => 'Am maxmares [[$1|normalurot]] uçkin [[$2|$3]].',
+	'babel-3' => "Am maxmares [[$1|k'ai]] uçkin [[$2|$3]].",
+	'babel-4' => 'Am maxmarek [[$1|nananena-muşi steri]] [[$2|$3]] ğarğalaps.',
+	'babel-5' => "Am maxmares [[$1|p'rofesyonelurot]] uçkin [[$2|$3]].",
+	'babel-N' => 'Am maxmareşi [[$1|nananena]]-muşi [[$2|$3]] ren.',
+	'babel-0-n' => "Am maxmares [[$1|çkar]] [[$2|Lazuri]] va uçkin (varna dido zorite oxo3'onaps).",
+	'babel-1-n' => 'Am maxmares [[$1|am3ika]] [[$2|Lazuri]] uçkin.',
+	'babel-2-n' => 'Am maxmares [[$1|normalurot]] [[$2|Lazuri]] uçkin.',
+	'babel-3-n' => "Am maxmares [[$1|k'ai]] [[$2|Lazuri]] uçkin.",
+	'babel-4-n' => 'Am maxmarek [[$1|nananena-muşi steri]] [[$2|Lazuri]] ğarğalaps.',
+	'babel-5-n' => "Am maxmares [[$1|p'rofesyonelurot]] [[$2|Lazuri]] uçkin.",
+	'babel-N-n' => 'Am maxmareşi [[$1|nananena]]-muşi [[$2|Lazuri]] ren.',
 );
 
 /** Moksha (Мокшень)
