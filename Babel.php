@@ -24,7 +24,6 @@ $wgExtensionCredits[ 'parserhook' ][] = array(
 	'version'         => '1.4.1',
 	'author'          => 'Robert Leverington',
 	'url'             => 'http://www.mediawiki.org/wiki/Extension:Babel',
-	'description'     => 'Adds a parser function to allow automated generation of a babel userbox column with the ability to include custom templates',
 	'descriptionmsg'  => 'babel-desc',
 );
 
