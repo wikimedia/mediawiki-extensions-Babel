@@ -2472,6 +2472,7 @@ $messages['lzh'] = array(
  */
 $messages['lzz'] = array(
 	'babel' => 'Babel Maxmareş çkinape',
+	'babel-desc' => "Doxmeli şablonepe na uğun Babel maxmareş kut'işi sut'uni otomatikurot ok'idu şeni <tt>#babel</tt> derleyici fonk'sioni uk'ataps",
 	'babel-url' => 'Project:Babeli',
 	'babel-autocreate-abort' => "Na mo3'iri maxmareşi coxo [[$1|Babel]]-ş k'at'egorii otomatikurot ok'idu şeni ixmarinen.",
 	'babel-autocreate-reason' => "Otomatikurot [[$1|Babil]] k'at'egoriş but'k'a ik'iden.",
