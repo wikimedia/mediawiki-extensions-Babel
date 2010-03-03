@@ -1589,12 +1589,14 @@ $messages['gu'] = array(
 );
 
 /** Manx (Gaelg)
+ * @author MacTire02
  * @author Shimmin Beg
  */
 $messages['gv'] = array(
 	'babel' => 'Fys ymmydeyr Babel',
-	'babel-autocreate-abort' => 'Yn ennym ymmydeyr hug shiu stiagh, cha nod shiu goaill eh; ta ymmyd jeant jeh liorish Babel son hene-chroo ronnaghyn.',
-	'babel-autocreate-reason' => 'Croo duillag ronney Babel gyn smooinaght.',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Yn ennym ymmydeyr hug shiu stiagh, cha nod shiu goaill eh; ta ymmyd jeant jeh son hene-chrooaght ronnaghyn [[$1|Babel]].',
+	'babel-autocreate-reason' => 'Croo duillag ronney [[$1|Babel]] dy seyr-obbragh.',
 	'babel-autocreate-text-levels' => "Ymmydeyryn ayns y ronneys shoh, t'ad cowraghey dy vel schlei $1 oc er $2.",
 	'babel-autocreate-text-main' => "Ymmydeyryn ayns y ronney shoh, t'ad cowraghey dy vel $1 ennagh oc.",
 	'babel-0' => "Cha nel [[$2|$3]] [[$1|erbee]] ec yn ymmydeyr shoh (ny s'feer doillee da toiggal ee).",
