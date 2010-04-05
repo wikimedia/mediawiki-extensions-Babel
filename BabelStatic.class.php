@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Static functions for Babel extension.
  *
@@ -7,7 +6,6 @@
  */
 
 class BabelStatic {
-
 	/**
 	 * Registers the parser function hook.
 	 * @return Boolean: True.
@@ -24,7 +22,7 @@ class BabelStatic {
 	 */
 	public static function Render( $parser ) {
 		global $wgLanguageCodesFiles, $wgBabel;
-		if( !is_object( $wgBabel ) ) $wgBabel = new Babel( $wgLanguageCodesFiles );
+		if ( !is_object( $wgBabel ) ) $wgBabel = new Babel( $wgLanguageCodesFiles );
 		$arguments = func_get_args();
 		return call_user_func_array( array( $wgBabel, 'render' ), $arguments );
 	}

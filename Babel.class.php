@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Main class for the Babel extension.
  *
@@ -7,7 +6,6 @@
  */
 
 class Babel {
-
 	/**
 	 * Various values from the message cache.
 	 */
@@ -21,7 +19,6 @@ class Babel {
 	 * @return string: Babel tower.
 	 */
 	public function Render( $parser ) {
-
 		// Store all the parameters passed to this function in an array.
 		$parameters = func_get_args();
 
@@ -44,34 +41,29 @@ class Babel {
 		$contents = '';
 
 		// Loop through each of the input parameters.
-		foreach( $parameters as $name ) {
-
-			if( $name === '' ) {
+		foreach ( $parameters as $name ) {
+			if ( $name === '' ) {
 				continue;
-			} elseif( $this->_templateExists( $name ) ) {
+			} elseif ( $this->_templateExists( $name ) ) {
 				$contents .= $parser->replaceVariables( "{{{$this->_addFixes( $name,'template' )}}}" );
-			} elseif( $chunks = $this->mParseParameter( $name ) ) {
+			} elseif ( $chunks = $this->mParseParameter( $name ) ) {
 				$contents .= $this->_generateBox(        $chunks[ 'code' ], $chunks[ 'level' ] );
 				$contents .= $this->_generateCategories( $chunks[ 'code' ], $chunks[ 'level' ] );
-			} elseif( $this->_validTitle( $name ) ) {
+			} elseif ( $this->_validTitle( $name ) ) {
 				// Non-existent page and invalid parameter syntax, red link.
 				$contents .= "\n[[Template:{$this->_addFixes( $name,'template' )}]]";
 			} else {
 				// Invalid title, output raw.
 				$contents .= "\nTemplate:{$this->_addFixes( $name,'template' )}";
 			}
-
 		}
 
 		// Prepare footer row, if a footer is set.
-		if( $this->_footer != '' ) {
-
+		if ( $this->_footer != '' ) {
 			$footer = 'class="mw-babel-footer" | ' . $this->_footer;
 
 		} else {
-
 			$footer = '';
-
 		}
 
 		// Generate tower, filled with contents from loop.
@@ -87,8 +79,6 @@ HEREDOC;
 
 		// Outupt tower.
 		return $r;
-
-
 	}
 
 	/**
@@ -96,7 +86,6 @@ HEREDOC;
 	 * and load them into several variables.
 	 */
 	private function _getMessages() {
-
 		// Create an array of all prefixes.
 		$this->_prefixes = array(
 			'category' => wfMsgForContent( 'babel-category-prefix' ),
@@ -118,7 +107,6 @@ HEREDOC;
 		$this->_cellspacing    = wfMsgForContent( 'babel-box-cellspacing' );
 		global $wgTitle;
 		$this->_top            = wfMsgExt( 'babel', array( 'parsemag', 'content' ), $wgTitle->getDBkey() );
-
 	}
 
 	/**
@@ -129,9 +117,7 @@ HEREDOC;
 	 * @return String: Value with prefixes and suffixes added.
 	 */
 	private function _addFixes( $string, $type ) {
-
 		return $this->_prefixes[ $type ] . $string . $this->_suffixes[ $type ];
-
 	}
 
 	/**
@@ -140,7 +126,6 @@ HEREDOC;
 	 * @param $parameters Array: Templates to perform the link batch on.
 	 */
 	private function _doTemplateLinkBatch( $parameters ) {
-
 		// Prepare an array, this will be used to store the title objects for
 		// each of the parameters.
 		$titles = array();
@@ -149,19 +134,15 @@ HEREDOC;
 		// object for each, then add that title object to the title object
 		// array if it is an object (invalid page names generate NULL rather
 		// than a valid title object.
-		foreach( $parameters as $name ) {
-
+		foreach ( $parameters as $name ) {
 			// Create the title object.
-			$title = Title::newFromText( $this->_addFixes( $name,'template' ), NS_TEMPLATE );
+			$title = Title::newFromText( $this->_addFixes( $name, 'template' ), NS_TEMPLATE );
 
 			// Check if the title object was created sucessfully.
-			if( is_object( $title ) ) {
-
+			if ( is_object( $title ) ) {
 				// It was, add it to the array of title objects.
 				$titles[] = $title;
-
 			}
-
 		}
 
 		// Create the link batch object for the array of title objects that has
@@ -170,7 +151,6 @@ HEREDOC;
 
 		// Execute the link batch.
 		$batch->execute();
-
 	}
 
 	/**
@@ -180,14 +160,12 @@ HEREDOC;
 	 * @return Boolean: Indication of whether the template exists.
 	 */
 	private function _templateExists( $title ) {
-
 		// Make title object from the templates title.
-		$titleObj = Title::newFromText( $this->_addFixes( $title,'template' ), NS_TEMPLATE );
+		$titleObj = Title::newFromText( $this->_addFixes( $title, 'template' ), NS_TEMPLATE );
 
 		// If the title object has been created (is of a valid title) and the template
 		// exists return true, otherwise return false.
 		return ( is_object( $titleObj ) && $titleObj->exists() );
-
 	}
 
 	/**
@@ -197,13 +175,11 @@ HEREDOC;
 	 * @return Boolean: Indication of whether or not the title is valid.
 	 */
 	private function _validTitle( $title ) {
-
 		// Make title object from the templates title.
 		$titleObj = Title::newFromText( $this->_addFixes( $title, 'template' ), NS_TEMPLATE );
 
 		// If the title object has been created (is of a valid title) return true.
 		return is_object( $titleObj );
-
 	}
 
 	/**
@@ -216,23 +192,23 @@ HEREDOC;
 		$return = array();
 
 		// Try treating the paramter as a language code (for native).
-		if( BabelLanguageCodes::getCode( $parameter ) ) {
+		if ( BabelLanguageCodes::getCode( $parameter ) ) {
 			$return[ 'code'  ] = BabelLanguageCodes::getCode( $parameter );
 			$return[ 'level' ] = 'N';
 			return $return;
 		}
 		// Try splitting the paramter in to language and level, split on last hyphen.
 		$lastSplit = strrpos( $parameter, '-' );
-		if( $lastSplit === false ) return false;
+		if ( $lastSplit === false ) return false;
 		$code  = substr( $parameter, 0, $lastSplit );
 		$level = substr( $parameter, $lastSplit + 1 );
 
 		// Validate code.
 		$return[ 'code' ] = BabelLanguageCodes::getCode( $code );
-		if( !$return[ 'code' ] ) return false;
+		if ( !$return[ 'code' ] ) return false;
 		// Validate level.
 		$intLevel = (int) $level;
-		if( ( $intLevel < 0 || $intLevel > 5 ) && $level !== 'N' ) return false;
+		if ( ( $intLevel < 0 || $intLevel > 5 ) && $level !== 'N' ) return false;
 		$return[ 'level' ] = $level;
 
 		return $return;
@@ -245,7 +221,6 @@ HEREDOC;
 	 * @param $level String or Integer: Level of ability to use.
 	 */
 	private function _generateBox( $code, $level ) {
-
 		// Get code in favoured standard.
 		$code = BabelLanguageCodes::getCode( $code );
 
@@ -258,7 +233,7 @@ HEREDOC;
 
 		// Load extension messages for box language and it's fallback if it is
 		// a valid MediaWiki language.
-		if( array_key_exists( $code, $nativeNames ) ) {
+		if ( array_key_exists( $code, $nativeNames ) ) {
 			wfLoadExtensionMessages( 'Babel', $code );
 			wfLoadExtensionMessages( 'Babel', Language::getFallbackFor( $code ) );
 		}
@@ -284,25 +259,23 @@ HEREDOC;
 |}
 </div>
 HEREDOC;
-
 	}
 
 	/**
 	 * Get the text to display in the language box for specific language and
 	 * level.
-	 * 
+	 *
 	 * @param $language String: Language code of language to use.
 	 * @param $level String: Level to use.
 	 * @return String: Text for display, in wikitext format.
 	 */
 	private function _getText( $name, $language, $level ) {
-
 		global $wgTitle, $wgBabelUseLevelZeroCategory;
 
 		$categoryLevel = ":Category:{$this->_addFixes( "$language-$level",'category' )}";
 		$categorySuper = ":Category:{$this->_addFixes( $language,'category' )}";
 
-		if( !$wgBabelUseLevelZeroCategory && $level === '0' ) {
+		if ( !$wgBabelUseLevelZeroCategory && $level === '0' ) {
 			$categoryLevel = $wgTitle->getFullText();
 		}
 
@@ -326,7 +299,7 @@ HEREDOC;
 
 		// Translation not found, use the generic translation of the
 		// highest level fallback possible in female.
-		if( $text == $fallback ) {
+		if ( $text == $fallback ) {
 
 			$text = wfMsgExt( "babel-$level",
 				array( 'language' => $language, 'parsemag' ),
@@ -339,7 +312,6 @@ HEREDOC;
 		}
 
 		return $text;
-
 	}
 
 	/**
@@ -349,7 +321,6 @@ HEREDOC;
 	 * @param $level String or Integer: Level of ability to use.
 	 */
 	private function _generateCategories( $code, $level ) {
-
 		// Get whether or not to use main categories.
 		global $wgBabelUseMainCategories;
 
@@ -366,29 +337,25 @@ HEREDOC;
 		$r = '';
 
 		// Add to main language category if the level is not zero.
-		if( $wgBabelUseMainCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === '0' ) || $level > 0 ) ) {
-
+		if ( $wgBabelUseMainCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === '0' ) || $level > 0 ) ) {
 			// Add category wikitext to box tower.
 			$r .= "[[Category:{$this->_addFixes( $code,'category' )}|$level{$wgUser->getName()}]]";
 
-			BabelAutoCreate::create( $this->_addFixes( "$code",'category' ), BabelLanguageCodes::getName( $code ) );
-
+			BabelAutoCreate::create( $this->_addFixes( "$code", 'category' ), BabelLanguageCodes::getName( $code ) );
 		}
 
 		// Add to level categories, only adding it to the level 0
 		// one if it is set to be used.
-		if( !$wgBabelUseSimpleCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === '0' ) || $level > 0 ) ) {
+		if ( !$wgBabelUseSimpleCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === '0' ) || $level > 0 ) ) {
 
 			// Add category wikitext to box tower.
 			$r .= "[[Category:{$this->_addFixes( "$code-$level",'category' )}|{$wgUser->getName()}]]";
 
-			BabelAutoCreate::create( $this->_addFixes( "$code-$level",'category' ), $level, BabelLanguageCodes::getName( $code ) );
+			BabelAutoCreate::create( $this->_addFixes( "$code-$level", 'category' ), $level, BabelLanguageCodes::getName( $code ) );
 
 		}
 
 		// Return categories.
 		return $r;
-
 	}
-
 }

@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Class for automatic rcreate of Babel category pages.
  *
@@ -7,7 +6,6 @@
  */
 
 class BabelAutoCreate {
-
 	static $user = false;
 
 	/**
@@ -23,10 +21,10 @@ class BabelAutoCreate {
 	 * Create category.
 	 */
 	public static function create( $category, $language, $level = null ) {
-		$category = strip_tags($category);
+		$category = strip_tags( $category );
 		$title = Title::newFromText( $category, NS_CATEGORY );
-		if( $title === null || $title->exists() ) return;
-		if( $level === null ) {
+		if ( $title === null || $title->exists() ) return;
+		if ( $level === null ) {
 			$text = wfMsgForContent( 'babel-autocreate-text-main', $language );
 		} else {
 			$text = wfMsgForContent( 'babel-autocreate-text-levels', $language, $level );
@@ -39,11 +37,10 @@ class BabelAutoCreate {
 	 * Get user object.
 	 */
 	public static function user() {
-		if( !self::$user ) {
+		if ( !self::$user ) {
 			self::$user = User::newFromName( wfMsgForContent( 'babel-autocreate-user' ), false );
-			if( !self::$user->isLoggedIn() ) self::$user->addToDatabase();
+			if ( !self::$user->isLoggedIn() ) self::$user->addToDatabase();
 		}
 		return self::$user;
 	}
-
 }

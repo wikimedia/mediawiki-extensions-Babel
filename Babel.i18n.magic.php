@@ -1,10 +1,9 @@
 <?php
-
 /**
  * Internationalisation file for Babel extension.
  *
  * @addtogroup Extensions
-*/
+ */
 
 $magicWords = array();
 
