@@ -617,6 +617,13 @@ $messages['bg'] = array(
 	'babel-N-n' => 'За {{GENDER:$4|този потребител|тази потребителка}} [[$2|българският език]] се явява [[$1|роден]].',
 );
 
+/** Bihari (भोजपुरी)
+ * @author Ganesh
+ */
+$messages['bh'] = array(
+	'babel' => 'बैबेल प्रयोगकर्ता जानकारी',
+);
+
 /** Bengali (বাংলা)
  * @author Bellayet
  */
