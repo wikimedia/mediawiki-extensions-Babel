@@ -4115,6 +4115,7 @@ $messages['tt-cyrl'] = array(
  * @author Sborsody
  */
 $messages['tyv'] = array(
+	'babel' => 'Ажыглакчы медээлери (Бабилон)',
 	'babel-1' => 'Бо ажыглакчы [[$1|эге деңнелге]] [[$2|тывалай]] деткий ал.',
 );
 
