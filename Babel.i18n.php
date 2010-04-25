@@ -237,7 +237,7 @@ $messages['an'] = array(
 	'babel-N-n' => "Iste usuario conoixe l'[[$2|aragonés]] con o libel d'un fablador [[$1|patrimonial]].",
 );
 
-/** Old English (Anglo-Saxon)
+/** Old English (Ænglisc)
  * @author Crazymadlover
  */
 $messages['ang'] = array(
@@ -2188,7 +2188,7 @@ $messages['krc'] = array(
 	'babel-N-n' => 'Бу къошулуучугъа  [[$2|къарачай-малкъар тил]] [[$1|ана тили]] болады.',
 );
 
-/** Ripoarisch (Ripoarisch)
+/** Colognian (Ripoarisch)
  * @author Purodha
  */
 $messages['ksh'] = array(
@@ -2227,7 +2227,7 @@ $messages['ksh'] = array(
 }}.',
 );
 
-/** Cornish (Kernowek)
+/** Cornish (Kernewek)
  * @author Kernoweger
  * @author Kw-Moon
  * @author Nicky.ker
@@ -2427,7 +2427,7 @@ $messages['lt'] = array(
 	'babel-N-n' => 'Šis naudotojas gali rašyti ir skaityti [[$1|gimtąja]] [[$2|lietuvių]] kalba',
 );
 
-/** Latgaļu (Latgaļu)
+/** Latgalian (Latgaļu)
  * @author Dark Eagle
  */
 $messages['ltg'] = array(
@@ -3301,7 +3301,7 @@ $messages['rgn'] = array(
 	'babel-N-n' => "Stû l'à [[$2|titê e' Rumagnôl]] da [[$1|su mê]].",
 );
 
-/** Rhaeto-Romance (Rumantsch)
+/** Romansh (Rumantsch)
  * @author Gion
  * @author Gion-andri
  */
@@ -3398,7 +3398,7 @@ $messages['ru'] = array(
 	'babel-N-n' => 'Для этого участника [[$2|русский язык]] является [[$1|родным]].',
 );
 
-/** русиньскый язык (русиньскый язык)
+/** Rusyn (русиньскый язык)
  * @author Tkalyn
  */
 $messages['rue'] = array(
@@ -4473,7 +4473,7 @@ $messages['yo'] = array(
 	'babel-N-n' => 'Oníṣe yìí èdè [[$1|abínibí]] rẹ̀ ni [[$2|Yorùbá]].',
 );
 
-/** Yue (粵語)
+/** Cantonese (粵語)
  * @author Shinjiman
  */
 $messages['yue'] = array(
