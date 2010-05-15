@@ -12,7 +12,7 @@ $messages = array();
  */
 $messages['en'] = array(
 	'babel'      => 'Babel user information',
-	'babel-desc' => 'Adds the <tt>#babel</tt> parser function to allow automated generation of a babel userbox column with the ability to include custom templates',
+	'babel-desc' => 'Adds the <code>#babel</code> parser function to allow automated generation of a babel userbox column with the ability to include custom templates',
 	'babel-url'  => 'Project:Babel',
 
 	'babel-autocreate-abort'       => 'The username you specified is used for [[$1|Babel]] category auto-creation and cannot be registered.', // $1 is babel-url
@@ -131,7 +131,7 @@ $messages['kea'] = array(
  */
 $messages['ary'] = array(
 	'babel' => 'Meĝlomaṫ Babil ĝla l-mosṫeĥdim',
-	'babel-desc' => "Zid l-fonksyon <tt>#babel</tt> baċ ṫeĥṫareĝ ṫilqa'iyyan sendoq Babil o ṫeĝmel fih modélaṫ maḫelliyin.",
+	'babel-desc' => "Zid l-fonksyon <code>#babel</code> baċ ṫeĥṫareĝ ṫilqa'iyyan sendoq Babil o ṫeĝmel fih modélaṫ maḫelliyin.",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "Smiyṫ l-mosṫeĥdim li deĥĥelṫi mosṫeĥdama le l-ĥṫiraĝ l-'otomaṫiki dyal l-katégoryaṫ [[$1|Babil]] o ma imkenlikċ ṫċejlo.",
 	'babel-autocreate-reason' => 'Ĥṫiraĝ otomaṫiki dyal l-katégori [[$1|Babel]].',
@@ -169,7 +169,7 @@ $messages['ace'] = array(
  */
 $messages['af'] = array(
 	'babel' => 'Babel-gebruikersinligting',
-	'babel-desc' => "Voeg die <tt>#babel</tt>-ontlederfunksie by om outomatiese generasie van 'n babel-gebruikersboks moontlik te maak met die funksionaliteit om doelgemaakte sjablone in te plaas.",
+	'babel-desc' => "Voeg die <code>#babel</code>-ontlederfunksie by om outomatiese generasie van 'n babel-gebruikersboks moontlik te maak met die funksionaliteit om doelgemaakte sjablone in te plaas.",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Die gebruikersnaam wat u gespesifiseer het word gebruik vir die outomatiese skep van [[$1|Babel]]-kategorieë en kan nie geregistreer word nie.',
 	'babel-autocreate-reason' => '[[$1|Babel]]-kategorie word outomaties geskep.',
@@ -196,7 +196,7 @@ $messages['af'] = array(
  */
 $messages['aln'] = array(
 	'babel' => 'Informatat e përdoruesit në babel',
-	'babel-desc' => 'Shton funksionin interpretues <tt>#babel</tt> për me lejue gjenerimine kutisë babel të përdoruesit me mundësi të përfshimjes së stampave të përshtatuna',
+	'babel-desc' => 'Shton funksionin interpretues <code>#babel</code> për me lejue gjenerimine kutisë babel të përdoruesit me mundësi të përfshimjes së stampave të përshtatuna',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Emni i përdoruesit që e keni dhânë âsht i përdorun në kategorinë [[$1|Babel]] vetë-krijo dhe nuk mundet me u regjistrue.',
 	'babel-autocreate-reason' => 'Tue krijue faqen e kategorisë në [[$1|Babel]]',
@@ -223,7 +223,7 @@ $messages['aln'] = array(
  */
 $messages['an'] = array(
 	'babel' => "Informazión d'usuario de Babel",
-	'babel-desc' => "Adibe a funzión <tt>#babel</tt> de parseyo ta premitir a chenerazión automatica d'una colunna de caixas d'usuario de babel, con a posibilidat d'encluyir-ie plantillas personalizatas",
+	'babel-desc' => "Adibe a funzión <code>#babel</code> de parseyo ta premitir a chenerazión automatica d'una colunna de caixas d'usuario de babel, con a posibilidat d'encluyir-ie plantillas personalizatas",
 	'babel-url' => 'Project:Babel',
 	'babel-0' => 'Iste usuario [[$1|no]] conoixe brenca o [[$2|$3]] (u lo entiende malament).',
 	'babel-1' => 'Iste usuario conoixe o [[$2|$3]] con un libel [[$1|basico]].',
@@ -259,7 +259,7 @@ $messages['ang'] = array(
  */
 $messages['ar'] = array(
 	'babel' => 'معلومات بابل {{GENDER:$1|للمستخدم|للمستخدمة}}',
-	'babel-desc' => 'يضيف دالة المحلل <tt>#babel</tt> للسماح بالتوليد التلقائي لعامود صندوق بابل مع إمكانية تضمين قوالب أخرى',
+	'babel-desc' => 'يضيف دالة المحلل <code>#babel</code> للسماح بالتوليد التلقائي لعامود صندوق بابل مع إمكانية تضمين قوالب أخرى',
 	'babel-url' => 'Project:بابل',
 	'babel-autocreate-abort' => 'اسم المستخدم الذي حددته مستخدم للإنشاء التلقائي لتصنيفات [[$1|بابل]] ولا يمكن تسجيله.',
 	'babel-autocreate-reason' => 'إنشاء صفحة تصنيف [[$1|بابل]] تلقائيا.',
@@ -313,7 +313,7 @@ $messages['arc'] = array(
  */
 $messages['arn'] = array(
 	'babel' => 'Babel kvzawfe ñi kimam',
-	'babel-desc' => 'Yomvmpe ti <tt>#babel</tt> gvnezuamvn kamañ ñi kisu pepi zewmawam kiñe Babel kvzawfe ñi columna de cuadro pepi nvrvftvkukelu kisu ñi plantilla',
+	'babel-desc' => 'Yomvmpe ti <code>#babel</code> gvnezuamvn kamañ ñi kisu pepi zewmawam kiñe Babel kvzawfe ñi columna de cuadro pepi nvrvftvkukelu kisu ñi plantilla',
 	'babel-url' => 'Project: Babel',
 	'babel-autocreate-abort' => 'Tici kvzawfe vy tami zicolvn niegey [[$1|Babel]] xokiñ ñi kisu zewmawam, pepi cijkantvkugelay.',
 	'babel-autocreate-reason' => 'Kisu zewmaley [[$1|Babel]] xokiñ ñi aztapvl.',
@@ -341,7 +341,7 @@ $messages['arn'] = array(
  */
 $messages['arz'] = array(
 	'babel' => 'معلومات Babel بتاعة اليوزرات',
-	'babel-desc' => 'زوّد <tt>#babel</tt> علشان تسمح يإن يتعمل اوتوماتيكى علبة عامود بابل بإمكانية تزويد قوالب مخصوصه',
+	'babel-desc' => 'زوّد <code>#babel</code> علشان تسمح يإن يتعمل اوتوماتيكى علبة عامود بابل بإمكانية تزويد قوالب مخصوصه',
 	'babel-url' => 'Project:بابل',
 	'babel-autocreate-abort' => 'اسم اليوزر اللى حددته مستعمل من [[$1|بابل]] علشان يعمل تصنيفات اوتوماتيكى و ما ينفعش يتسجل.',
 	'babel-autocreate-reason' => 'بيعمل صفحة تصنيف [[$1|بابل]] اوتوماتيكى.',
@@ -369,7 +369,7 @@ $messages['arz'] = array(
  */
 $messages['as'] = array(
 	'babel' => 'ব্যবহাৰকাৰীৰ বাবেল তথ্য',
-	'babel-desc' => 'নিজৰ টেম্পলেটত স্বয়ংক্ৰিয় বাবেল ব্যবহাৰকাৰী বক্স যোগ কৰিবলৈ <tt>#babel</tt> পাৰ্চাৰ ফাংচন যোগ কৰক',
+	'babel-desc' => 'নিজৰ টেম্পলেটত স্বয়ংক্ৰিয় বাবেল ব্যবহাৰকাৰী বক্স যোগ কৰিবলৈ <code>#babel</code> পাৰ্চাৰ ফাংচন যোগ কৰক',
 	'babel-url' => 'Project:বাবেল',
 	'babel-autocreate-abort' => 'আপুনি উল্লেখ কৰা ব্যৱহাৰকাৰী নামটো (ইউজাৰনেম) [[$1|Babel]]ৰ স্বয়ংক্ৰিয় শ্ৰেণীকৰণ কৰিবলৈ ব্যৱহাৰ কৰা হৈছে আৰু পঞ্জীভূক্ত কৰিব পৰা নাযায় ।',
 	'babel-autocreate-reason' => 'স্বয়ংক্ৰিয়ভাৱে সৃষ্টি কৰা বাবেল শ্ৰেণীৰ পৃষ্ঠা ।',
@@ -396,7 +396,7 @@ $messages['as'] = array(
  */
 $messages['ast'] = array(
 	'babel' => "Información babel d'usuariu",
-	'babel-desc' => "Añade la función d'análisis sintáuticu <tt>#babel</tt> pa permitir la xeneración automática d'una columna userbox babel cola capacidá d'incluyir plantíes al gustu d'ún",
+	'babel-desc' => "Añade la función d'análisis sintáuticu <code>#babel</code> pa permitir la xeneración automática d'una columna userbox babel cola capacidá d'incluyir plantíes al gustu d'ún",
 	'babel-url' => 'Project:Babel',
 	'babel-0' => 'Esti usuariu [[$1|nun]] tien conocimientos de [[$2|$3]] (o entiéndelo con gran dificultá).',
 	'babel-1' => 'Esti usuariu tien un conocimientu [[$1|básicu]] de [[$2|$3]].',
@@ -419,7 +419,7 @@ $messages['ast'] = array(
  */
 $messages['avk'] = array(
 	'babel' => 'Babel webesikgiva',
-	'babel-desc' => 'Batcoba va <tt>#babel</tt> exulerafli loplekur ta mivaskafa gononasbara va Babel webesikborbriz do rotira va doplekura va ilkateza',
+	'babel-desc' => 'Batcoba va <code>#babel</code> exulerafli loplekur ta mivaskafa gononasbara va Babel webesikborbriz do rotira va doplekura va ilkateza',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Ruidan webesikyolt joke [[$1|Babel]] mivredurafa loma zo faver nume me zo vertokar.',
 	'babel-autocreate-reason' => 'Mivaskafa redura va [[$1|Babel]] lomabu.',
@@ -446,7 +446,7 @@ $messages['avk'] = array(
  */
 $messages['ay'] = array(
 	'babel' => "Wawil apnaqirxata uñt'ayawi",
-	'babel-desc' => "<tt>#babel</tt> arthapi suk'atat uñakipawi lurt'awix yapxatiwa, mäwawil apnaqirina llatatax uñacht'arawi turkatax apantachi q'aphawimpiwa achurpayachayiti luräni.",
+	'babel-desc' => "<code>#babel</code> arthapi suk'atat uñakipawi lurt'awix yapxatiwa, mäwawil apnaqirina llatatax uñacht'arawi turkatax apantachi q'aphawimpiwa achurpayachayiti luräni.",
 	'babel-url' => 'Project:Wawil',
 	'babel-autocreate-abort' => "Jumaxa apnaqirina sutima [[$1|Wawil]]-na patawi uñstayarachayawi mirq'ta jani qillqr'ayasiway.",
 	'babel-autocreate-reason' => '[[$1|Wawil]]-na patawi uñstawi uñstayarachayaski.',
@@ -495,7 +495,7 @@ $messages['ba'] = array(
  */
 $messages['bar'] = array(
 	'babel' => 'Babel-Benutza-Infoamazion',
-	'babel-desc' => "Eagänzt de <tt>#babel</tt>-Parserfunkzion fia'd automatische Eastellung vu Babel-Benutzaboxen-Zeun mid da Meglichkeid, dass ma eigne Voalång einbindt",
+	'babel-desc' => "Eagänzt de <code>#babel</code>-Parserfunkzion fia'd automatische Eastellung vu Babel-Benutzaboxen-Zeun mid da Meglichkeid, dass ma eigne Voalång einbindt",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "Da ausgwöihte Benutzanãm wiad fia'd automatische Eastellung vu [[$1|Babel]]-Kategorien braucht. Desweng kã a ned registriad wean.",
 	'babel-autocreate-reason' => 'Automatisch eastöide [[$1|Babel]]-Kategorie.',
@@ -522,7 +522,7 @@ $messages['bar'] = array(
  */
 $messages['bcc'] = array(
 	'babel' => 'اطلاعات کاربری بابل',
-	'babel-desc' => 'اضافه کنت <tt>#babel</tt>  عملگر وانوک په اجازه داتن په یک ستون جعبه کاربری گون توانایی اضافه کتن وتی تمپلتان',
+	'babel-desc' => 'اضافه کنت <code>#babel</code>  عملگر وانوک په اجازه داتن په یک ستون جعبه کاربری گون توانایی اضافه کتن وتی تمپلتان',
 	'babel-url' => 'Project:بابل',
 	'babel-directionality' => 'rtl',
 	'babel-0' => 'ای کاربر [[$2|$3]] را در حد [[$1|سرپد نه بیت]] (یاپه سختی سرپد بیت).',
@@ -546,7 +546,7 @@ $messages['bcc'] = array(
  */
 $messages['be'] = array(
 	'babel' => 'Моўныя звесткі ўдзельніка',
-	'babel-desc' => 'Дадае парсеру здольнасць разбіраць <tt>#babel</tt> і аўтаматычна генераваць паласу юзербоксаў і ўлучаць свае шаблоны',
+	'babel-desc' => 'Дадае парсеру здольнасць разбіраць <code>#babel</code> і аўтаматычна генераваць паласу юзербоксаў і ўлучаць свае шаблоны',
 	'babel-url' => 'Project:Babel',
 	'babel-0' => '[[$1|Не разумею]] або ледзьве разумею [[$2|$3]].',
 	'babel-1' => 'Разумею [[$2|$3]] [[$1|збольшага]].',
@@ -570,7 +570,7 @@ $messages['be'] = array(
  */
 $messages['be-tarask'] = array(
 	'babel' => 'Зьвесткі пра мовы, якімі валодае ўдзельнік',
-	'babel-desc' => 'Дадае функцыю парсэра <tt>#babel</tt>, якая дазваляе аўтаматычна ствараць слупок з інфармацыяй пра мовы з магчымасьцю даданьня нестандартных шаблёнаў',
+	'babel-desc' => 'Дадае функцыю парсэра <code>#babel</code>, якая дазваляе аўтаматычна ствараць слупок з інфармацыяй пра мовы з магчымасьцю даданьня нестандартных шаблёнаў',
 	'babel-url' => 'Project:Бабілёнская вежа',
 	'babel-autocreate-abort' => 'Імя ўдзельніка, якое Вы пазначылі, выкарыстоўваецца для аўтаматычнага стварэньня катэгорыяў [[$1|Баьілёнскай вежы]] і ня можа быць зарэгістравана.',
 	'babel-autocreate-reason' => 'Аўтаматычнае стварэньне катэгорыі для [[$1|Бабілёнскай вежы]].',
@@ -599,7 +599,7 @@ $messages['be-tarask'] = array(
  */
 $messages['bg'] = array(
 	'babel' => 'Вавилонски данни за потребителя',
-	'babel-desc' => 'Прибавяне на парсерна функция <tt>#babel</tt>, която позволява автоматично създаване на вавилонски потребителски кутийки, а може също да включва и други потребителски шаблони',
+	'babel-desc' => 'Прибавяне на парсерна функция <code>#babel</code>, която позволява автоматично създаване на вавилонски потребителски кутийки, а може също да включва и други потребителски шаблони',
 	'babel-url' => 'Project:Вавилон',
 	'babel-autocreate-abort' => 'Посоченото от вас потребителско име се използва за автоматично създаване на [[$1|вавилонски категории]] и не може да бъде регистрирано.',
 	'babel-autocreate-reason' => 'Автоматично създаване на [[$1|вавилонска категория]].',
@@ -633,7 +633,7 @@ $messages['bh'] = array(
  */
 $messages['bn'] = array(
 	'babel' => 'ব্যবহারকারীর বাবেল তথ্য',
-	'babel-desc' => 'নিজের করা টেম্পলেটে সয়ংক্রিয় বাবেল ব্যবহারকারী বাক্স কলাম যোগ করতে <tt>#babel</tt> পার্সার ফাংসন যোগ করুন',
+	'babel-desc' => 'নিজের করা টেম্পলেটে সয়ংক্রিয় বাবেল ব্যবহারকারী বাক্স কলাম যোগ করতে <code>#babel</code> পার্সার ফাংসন যোগ করুন',
 	'babel-url' => 'Project:বাবেল',
 	'babel-0' => 'এ ব্যবহারকারীর [[$2|$3]] এর উপর কোন ধারণা [[$1|নাই]] (অথবা তা খুব কষ্টে বুঝতে পারেন)।',
 	'babel-1' => 'এ ব্যবহারকারী [[$2|$3]] এর উপর [[$1|সাধারণ]] ধারণা রয়েছে।',
@@ -656,7 +656,7 @@ $messages['bn'] = array(
  */
 $messages['br'] = array(
 	'babel' => 'Titouroù Babel war an implijer',
-	'babel-desc' => "Ouzhpennañ an arc'hwel parser <tt>#babel</tt> da c'henel ent emgefre ur voest implijer Babel a c'haller lakaat patromoù personelaet enni",
+	'babel-desc' => "Ouzhpennañ an arc'hwel parser <code>#babel</code> da c'henel ent emgefre ur voest implijer Babel a c'haller lakaat patromoù personelaet enni",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "Implijet eo an anv implijer merket ganeoc'h evit sevel ent emgefre rummadoù [[$1|Babel]]; setu, n'haller ket e enrollañ.",
 	'babel-autocreate-reason' => 'Krouidigezh emgefre ur bajenn eus ar rummad [[$1|Babel]].',
@@ -683,7 +683,7 @@ $messages['br'] = array(
  */
 $messages['bs'] = array(
 	'babel' => 'Babel korisničke informacije',
-	'babel-desc' => 'Dodaje <tt>#babel</tt> parsersku funkciju koja omogućava automatsko pravljenje babel korisničke kutije u stupcu sa mogućnostima uključivanja prilagođenih šablona',
+	'babel-desc' => 'Dodaje <code>#babel</code> parsersku funkciju koja omogućava automatsko pravljenje babel korisničke kutije u stupcu sa mogućnostima uključivanja prilagođenih šablona',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Korisničko ime koje ste naveli se koristi za automatsko pravljenje [[$1|Babel]] kategorija i ne može biti registrovano.',
 	'babel-autocreate-reason' => 'Automatski napravljena stranica [[$1|Babel]] kategorije.',
@@ -711,7 +711,7 @@ $messages['bs'] = array(
  */
 $messages['ca'] = array(
 	'babel' => "Informació Babel d'usuari",
-	'babel-desc' => "Afegeix la funció d'anàlisi <tt>#babel</tt> per a permetre la generació automàtica d'una columna babel de quadres d'usuari amb l'habilitat d'incloure plantilles personalitzades.",
+	'babel-desc' => "Afegeix la funció d'anàlisi <code>#babel</code> per a permetre la generació automàtica d'una columna babel de quadres d'usuari amb l'habilitat d'incloure plantilles personalitzades.",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "El nom d'usuari especificat s'utilitza per a la creació automàtica de categories [[$1|Babel]].",
 	'babel-autocreate-reason' => 'Creant automàticament la categoria de [[$1|Babel]].',
@@ -759,7 +759,7 @@ $messages['ckb'] = array(
  */
 $messages['ckb-arab'] = array(
 	'babel' => 'زانیاریی بەکارھێنەریی بابل',
-	'babel-desc' => 'کرداری شیکەری <tt>#babel</tt> زیاد دەکات بۆ ڕێگا دان بە خۆکار دروست بوونی ستوونی سندوقی بەکارھێنەری بابل لەگەڵ توانایی بۆ لەخۆ گرتنی داڕێژە دڵخوازەکان',
+	'babel-desc' => 'کرداری شیکەری <code>#babel</code> زیاد دەکات بۆ ڕێگا دان بە خۆکار دروست بوونی ستوونی سندوقی بەکارھێنەری بابل لەگەڵ توانایی بۆ لەخۆ گرتنی داڕێژە دڵخوازەکان',
 	'babel-url' => 'Project:بابل',
 	'babel-autocreate-abort' => 'ناوی بەکارھێنەرێک کە بۆ خۆساز ھاوپۆلی [[$1|بابل]] بەکارھێنراوە و تۆمار ناکرێ.',
 	'babel-autocreate-reason' => 'خۆکار دروست کردنی پەڕەی ھاوپۆلیی [[$1|بابل]]',
@@ -788,7 +788,7 @@ $messages['ckb-arab'] = array(
  */
 $messages['cps'] = array(
 	'babel' => 'Inpormasyon sa naga usar sang Babel',
-	'babel-desc' => 'Ginadugang ang <tt>#babel</tt> paggana parser para mapasugtan ang automated generation sang kahon sang manug-usar sang Babel sa kolum nga may abilidad sa pag-upod sang mga kostumbre nga templeyt',
+	'babel-desc' => 'Ginadugang ang <code>#babel</code> paggana parser para mapasugtan ang automated generation sang kahon sang manug-usar sang Babel sa kolum nga may abilidad sa pag-upod sang mga kostumbre nga templeyt',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Ang hayo (username) nga imo gina-klaro ginagamit para sa [[$1|Babel]] auto-himo nga kategorya kag indi ni pwede marehistro.',
 	'babel-autocreate-reason' => 'Automatiko nga ginahimo ang [[$1|Babel]] nga pahina kategorya.',
@@ -857,7 +857,7 @@ $messages['cs'] = array(
  */
 $messages['csb'] = array(
 	'babel' => 'Wieżô Babel brëkòwnika',
-	'babel-desc' => 'Dodôwô fùnkcëjã parsera <tt>#babel</tt> zezwalającą na aùtomatné ùsôdzanié kastczi brëkòwnika z mòżnotą wstôwianiô swòjich szblonów',
+	'babel-desc' => 'Dodôwô fùnkcëjã parsera <code>#babel</code> zezwalającą na aùtomatné ùsôdzanié kastczi brëkòwnika z mòżnotą wstôwianiô swòjich szblonów',
 	'babel-url' => 'Project:Wieżô Babel',
 	'babel-autocreate-abort' => 'Wëbróné miono brëkòwnika je brëkòwóné do aùtomatnegò ùsôdzaniô kategòrëji [[$1|wieżë Babel]] ë ni mòże bëc registrowóné.',
 	'babel-autocreate-reason' => 'Starna aùtomatno ùsôdzony kategòrëji [[$1|wieżë Babel]].',
@@ -918,7 +918,7 @@ $messages['cv'] = array(
  */
 $messages['cy'] = array(
 	'babel' => 'Gwybodaeth am ieithoedd y defnyddiwr',
-	'babel-desc' => "Yn ychwanegu'r ffwythiant dosrannu <tt>#babel</tt> er mwyn gosod blwch ieithoedd y defnyddiwr yn awtomatig, a chyda'r modd i gynnwys nodiadau pwrpasol",
+	'babel-desc' => "Yn ychwanegu'r ffwythiant dosrannu <code>#babel</code> er mwyn gosod blwch ieithoedd y defnyddiwr yn awtomatig, a chyda'r modd i gynnwys nodiadau pwrpasol",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Defnyddir yr enw defnyddiwr y dewisoch ar gyfer creu categori [[$1|Babel]] yn awtomatig, ac ni ellir ei gofrestri.',
 	'babel-autocreate-reason' => 'Yn creu tudalen gategoreiddio [[$1|Babel]] yn awtomatig.',
@@ -947,7 +947,7 @@ $messages['cy'] = array(
  */
 $messages['da'] = array(
 	'babel' => 'Babelinformation',
-	'babel-desc' => 'Tilføjer parserfunktionen <tt>#babel</tt> for at tillade automatisk at generere at babelboks med muglighed for at inkludere tilpassede skabeloner',
+	'babel-desc' => 'Tilføjer parserfunktionen <code>#babel</code> for at tillade automatisk at generere at babelboks med muglighed for at inkludere tilpassede skabeloner',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-text-levels' => 'Brugere i denne kategori angiver, at deres kendskab til $2 er på niveau $1',
 	'babel-autocreate-text-main' => 'Brugere i denne kategori angiver, at de har kendskab til $1.',
@@ -978,7 +978,7 @@ $messages['da'] = array(
  */
 $messages['de'] = array(
 	'babel' => 'Babel-Benutzer-Information',
-	'babel-desc' => 'Ergänzt die <tt>#babel</tt>-Parserfunktion zur automatischen Erstellung von Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
+	'babel-desc' => 'Ergänzt die <code>#babel</code>-Parserfunktion zur automatischen Erstellung von Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Der ausgewählte Benutzername wird für die automatische Erstellung von [[$1|Babel]]-Kategorien benötigt und kann nicht registriert werden.',
 	'babel-autocreate-reason' => 'Automatisch erstellte [[$1|Babel]]-Kategorie.',
@@ -1005,7 +1005,7 @@ $messages['de'] = array(
  */
 $messages['dsb'] = array(
 	'babel' => 'Babelowe wužywarske informacije',
-	'babel-desc' => 'Pśidawa parserowu funkciju <tt>#babel</tt> za awtomatiske twórjenje słupa babelowych wužywarskich kašćikow, z móžnosću, swójske pśedłogi zapśěgnuś',
+	'babel-desc' => 'Pśidawa parserowu funkciju <code>#babel</code> za awtomatiske twórjenje słupa babelowych wužywarskich kašćikow, z móžnosću, swójske pśedłogi zapśěgnuś',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Pódane wužywarske mě wužywa se za awtomatiske wutwórjenje [[$1|Babelowych]] kategorijow a njedajo se registrěrowaś.',
 	'babel-autocreate-reason' => 'Awtomatiske wutwórjenje [[$1|Babeloweje]] kategorije.',
@@ -1069,7 +1069,7 @@ $messages['el'] = array(
  */
 $messages['eo'] = array(
 	'babel' => 'Babela Informo pri Uzanto',
-	'babel-desc' => 'Aldonas la <tt>#babel</tt> sintaksanalizilan funkcion por aŭtomate generi kolumnon de babel-uzantoskatolo kun la ebleco inkluzivi sxablonojn de uzanto.',
+	'babel-desc' => 'Aldonas la <code>#babel</code> sintaksanalizilan funkcion por aŭtomate generi kolumnon de babel-uzantoskatolo kun la ebleco inkluzivi sxablonojn de uzanto.',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'La salutnomo, kiun vi specifis, estas uzata por [[$1|Babel]]-kategoria aŭtomata kreado, kaj ne povas esti registrita.',
 	'babel-autocreate-reason' => 'Aŭtomate kreante kategorio-paĝo por [[$1|Babel]].',
@@ -1100,7 +1100,7 @@ $messages['eo'] = array(
  */
 $messages['es'] = array(
 	'babel' => 'Información de usuario Babel',
-	'babel-desc' => 'Agregar la <tt>#babel</tt> función analítica para permitir generación automática de una columna de cuadro de usuario Babel con la habilidad de incluir plantillas propias.',
+	'babel-desc' => 'Agregar la <code>#babel</code> función analítica para permitir generación automática de una columna de cuadro de usuario Babel con la habilidad de incluir plantillas propias.',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'El nombre de usuario que ha especificado es usado para auto-creación de categorías [[$1|Babel]] y no puede ser registrado.',
 	'babel-autocreate-reason' => 'Creando automáticamente página de categorías [[$1|Babel]].',
@@ -1127,7 +1127,7 @@ $messages['es'] = array(
  */
 $messages['et'] = array(
 	'babel' => 'Kasutaja keelteoskus',
-	'babel-desc' => 'Lisab parsimisfunktsiooni <tt>#babel</tt>, mis võimaldab kasutaja keelteoskuse infokasti lisamist.',
+	'babel-desc' => 'Lisab parsimisfunktsiooni <code>#babel</code>, mis võimaldab kasutaja keelteoskuse infokasti lisamist.',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Kasutajanime, mille sisestasid, kasutatakse [[$1|Babeli]] kategooriate automaatseks genereerimiseks, mistõttu seda ei ole võimalik registreerida.',
 	'babel-autocreate-reason' => '[[$1|Babeli]] kategoorialehe automaatne genereerimine.',
@@ -1156,7 +1156,7 @@ $messages['et'] = array(
  */
 $messages['eu'] = array(
 	'babel' => 'Lankideen babel informazioa',
-	'babel-desc' => '<tt>#babel</tt> sintaxi-analizatzaile (parser) funtzioa gehitzen du automatikoki sorturiko babel lankide-kutxen zutabea baimeduz eta lankide txantiloiak sartzea baimenduz',
+	'babel-desc' => '<code>#babel</code> sintaxi-analizatzaile (parser) funtzioa gehitzen du automatikoki sorturiko babel lankide-kutxen zutabea baimeduz eta lankide txantiloiak sartzea baimenduz',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Sartu duzun lankide izena [[$1|Babel]] kategorien auto-sorkuntzarako erabiltzen da eta ezin da erregistratu.',
 	'babel-autocreate-reason' => 'Automatikoki sorturiko [[$1|Babel]] kategoria orrialdea.',
@@ -1186,7 +1186,7 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'babel' => 'اطلاعات کاربری بابل',
-	'babel-desc' => 'دستور تجزیه‌گر <tt>#babel</tt> را اضافه می‌کند که امکان ایجاد خودکار جعبه‌های کاربری بابل با قابلیت گنجاندن الگوهای دلخواه را فراهم می‌کند',
+	'babel-desc' => 'دستور تجزیه‌گر <code>#babel</code> را اضافه می‌کند که امکان ایجاد خودکار جعبه‌های کاربری بابل با قابلیت گنجاندن الگوهای دلخواه را فراهم می‌کند',
 	'babel-url' => 'Project:بابل',
 	'babel-autocreate-text-levels' => 'کاربران این رده توانایی $1 را در زبان $2 دارند',
 	'babel-directionality' => 'rtl',
@@ -1214,7 +1214,7 @@ $messages['fa'] = array(
  */
 $messages['fi'] = array(
 	'babel' => 'Käyttäjän kielitaito',
-	'babel-desc' => 'Lisää <tt>#babel</tt>-funktion, jotta käyttäjän kielitaidosta kertova babel-käyttäjälaatikkosarake voidaan luoda automaattisesti ja sisällyttää räätälöityihin mallineisiin.',
+	'babel-desc' => 'Lisää <code>#babel</code>-funktion, jotta käyttäjän kielitaidosta kertova babel-käyttäjälaatikkosarake voidaan luoda automaattisesti ja sisällyttää räätälöityihin mallineisiin.',
 	'babel-url' => 'Project:Kielitaito',
 	'babel-autocreate-abort' => 'Antamasi käyttäjätunnus on varattu [[$1|kielitaitoluokkien]] automaattiseen luomiseen, joten et voi rekisteröidä sitä.',
 	'babel-autocreate-reason' => '[[$1|Kielitaidon]] luokkasivun automaattinen luonti.',
@@ -1261,7 +1261,7 @@ $messages['fo'] = array(
  */
 $messages['fr'] = array(
 	'babel' => 'Informations Babel sur l’utilisateur',
-	'babel-desc' => 'Ajoute une fonction parseur <tt>#babel</tt> permettant la création automatique d’une boîte utilisateur Babel avec la possibilité d’y inclure des modèles locaux',
+	'babel-desc' => 'Ajoute une fonction parseur <code>#babel</code> permettant la création automatique d’une boîte utilisateur Babel avec la possibilité d’y inclure des modèles locaux',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "Le nom d'utilisateur que vous avez entré est utilisé pour créer automatiquement les catégories [[$1|Babel]] et ne peut pas être enregistré.",
 	'babel-autocreate-reason' => 'Création automatique de la catégorie [[$1|Babel]].',
@@ -1288,7 +1288,7 @@ $messages['fr'] = array(
  */
 $messages['frp'] = array(
 	'babel' => 'Enformacions Babél sur l’utilisator',
-	'babel-desc' => 'Apond la fonccion du parsor <tt>#babel</tt> que pèrmèt la crèacion ôtomatica d’una bouèta utilisator Babél avouéc la possibilitât d’y encllure des modèlos locals.',
+	'babel-desc' => 'Apond la fonccion du parsor <code>#babel</code> que pèrmèt la crèacion ôtomatica d’una bouèta utilisator Babél avouéc la possibilitât d’y encllure des modèlos locals.',
 	'babel-url' => 'Project:Babél',
 	'babel-autocreate-abort' => 'Lo nom d’utilisator que vos éd buchiê est utilisâ por fâre ôtomaticament les catègories [[$1|Babél]] et pôt pas étre encartâ.',
 	'babel-autocreate-reason' => 'Crèacion ôtomatica de la catègorie [[$1|Babél]].',
@@ -1316,7 +1316,7 @@ $messages['frp'] = array(
  */
 $messages['frr'] = array(
 	'babel' => 'Babel brüker-informasjoon',
-	'babel-desc' => 'Fäiget jü <tt>#babel</tt>-Parserfunksjoon haanetu for dåt automaatisch måågen foon Babel-brükerbox-rae ma jü möölikhäid, äine forlååge önjtufäigen',
+	'babel-desc' => 'Fäiget jü <code>#babel</code>-Parserfunksjoon haanetu for dåt automaatisch måågen foon Babel-brükerbox-rae ma jü möölikhäid, äine forlååge önjtufäigen',
 	'babel-url' => 'Projäkt:Babel',
 	'babel-autocreate-abort' => 'Di ütkiisde brükernoome as nüsi for dåt automaatisch måågen foon [[$1|Babel]]-kategoriie än koon ai registriird wårde.',
 	'babel-autocreate-reason' => 'Automaatisch mååged [[$1|Babel]]-kategorii.',
@@ -1343,7 +1343,7 @@ $messages['frr'] = array(
  */
 $messages['fur'] = array(
 	'babel' => 'Informazions Babel dal utent',
-	'babel-desc' => 'Zonte la funzion di analisi <tt>#babel</tt> par permeti la generazion in automatic di une colone box utent babel, cu la pussibitât di includi modei personalizâts',
+	'babel-desc' => 'Zonte la funzion di analisi <code>#babel</code> par permeti la generazion in automatic di une colone box utent babel, cu la pussibitât di includi modei personalizâts',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Il non utent specificât al è doprât pe creazion automatiche di categoriis [[$1|Babel]] e nol pues jessi regjistrât.',
 	'babel-autocreate-reason' => 'Creant in automatic la categorie di [[$1|Babel]].',
@@ -1372,7 +1372,7 @@ $messages['fur'] = array(
  */
 $messages['fy'] = array(
 	'babel' => 'Babel-meidoggersynformaasje',
-	'babel-desc' => 'Foeget de <tt>#babel</tt> automatyske opdielerfunksje ta om it automatysk meitsjen fan in Babel meidoggerskolom ta stean mei de mooglikheid om eigen berjochten ta te foegjen.',
+	'babel-desc' => 'Foeget de <code>#babel</code> automatyske opdielerfunksje ta om it automatysk meitsjen fan in Babel meidoggerskolom ta stean mei de mooglikheid om eigen berjochten ta te foegjen.',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "De meidoggersnamme dy't jo opjûn hawwe wurdt al brûkt foar it automatysk meitsjen fan [[$1|Babel]]-kategoryen en kin net oanmeld wurden.",
 	'babel-autocreate-reason' => 'Makket automatysk in [[$1|Babel]]-kategory oan.',
@@ -1403,7 +1403,7 @@ $messages['fy'] = array(
  */
 $messages['ga'] = array(
 	'babel' => "Eolas d'úsáideoirí maidir le Báibil",
-	'babel-desc' => 'Cruthaíonn sé seo an fheidhm pharsálaí <tt>#babel</tt> a chuireann ar chumas an úsáideora colún a ghiniúint go huathoibríoch i mbosca Báibil agus teimpléid saincheaptha a chur ann.',
+	'babel-desc' => 'Cruthaíonn sé seo an fheidhm pharsálaí <code>#babel</code> a chuireann ar chumas an úsáideora colún a ghiniúint go huathoibríoch i mbosca Báibil agus teimpléid saincheaptha a chur ann.',
 	'babel-url' => 'Project:Báibil',
 	'babel-autocreate-abort' => 'Ní féidir leat an t-ainm úsáideora a shonraigh tú a chlárú, mar úsáidtear é chun catagóirí [[$1|Báibil]] a uathchruthú.',
 	'babel-autocreate-reason' => 'Leathanach catagóire [[$1|Báibil]] á uathchruthú.',
@@ -1430,7 +1430,7 @@ $messages['ga'] = array(
  */
 $messages['gan'] = array(
 	'babel' => '巴別用戶資料',
-	'babel-desc' => '加隻<tt>#babel</tt>處理功能去容許自動產生一隻巴別用戶盒欄，同到含到可自定化嗰模板',
+	'babel-desc' => '加隻<code>#babel</code>處理功能去容許自動產生一隻巴別用戶盒欄，同到含到可自定化嗰模板',
 	'babel-url' => 'Project:巴別',
 	'babel-autocreate-abort' => '倷特試要求嗰用戶名已經自動係[[$1|Babel]]嗰分類，咁就登記不正。',
 	'babel-autocreate-reason' => '自動建立[[$1|Babel]]分類頁。',
@@ -1459,7 +1459,7 @@ $messages['gan'] = array(
  */
 $messages['gd'] = array(
 	'babel' => 'Fiosrachadh Babel mun neach-cleachdaidh',
-	'babel-desc' => 'A’ cur parser function <tt>#babel</tt> ris an duilleig, gus an téid colbh babel a chruthachadh mun neach-cleachdaidh.  Gabhaidh templates sònraichte a chleachdadh.',
+	'babel-desc' => 'A’ cur parser function <code>#babel</code> ris an duilleig, gus an téid colbh babel a chruthachadh mun neach-cleachdaidh.  Gabhaidh templates sònraichte a chleachdadh.',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-text-levels' => 'Tha na daoine seo ag innse gu bheil comas ìre $1 aca sa chànan $2.',
 	'babel-autocreate-text-main' => 'Tha na daoine seo ag innse gu bheil iad eòlach air a’ chànan $1.',
@@ -1484,7 +1484,7 @@ $messages['gd'] = array(
  */
 $messages['gl'] = array(
 	'babel' => 'Información Babel do usuario',
-	'babel-desc' => 'Engade a función analítica <tt>#babel</tt> para permitir a xeración automática dunha caixa de usuario Babel coa posibilidade de incluír modelos personalizados',
+	'babel-desc' => 'Engade a función analítica <code>#babel</code> para permitir a xeración automática dunha caixa de usuario Babel coa posibilidade de incluír modelos personalizados',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'O nome de usuario especificado é usado para a creación automática de categorías [[$1|Babel]], polo que non pode ser rexistrado.',
 	'babel-autocreate-reason' => 'Creación automática da categoría [[$1|Babel]].',
@@ -1513,7 +1513,7 @@ $messages['gl'] = array(
  */
 $messages['grc'] = array(
 	'babel' => 'Πληροφορίαι "Βαβὲλ" Χρωμένου',
-	'babel-desc' => 'Προσθέτει τὴν <tt>#babel</tt> λεξιαναλυτικὴν λειτουργίαν ἐπιτρέπουσαν τὴν αὐτόματον δημιουργίαν στήλης κυτίων χρωμένου τινός, ἐχούσης τὴν δυνατότητα περίληψεως συνήθων προτύπων',
+	'babel-desc' => 'Προσθέτει τὴν <code>#babel</code> λεξιαναλυτικὴν λειτουργίαν ἐπιτρέπουσαν τὴν αὐτόματον δημιουργίαν στήλης κυτίων χρωμένου τινός, ἐχούσης τὴν δυνατότητα περίληψεως συνήθων προτύπων',
 	'babel-url' => 'Project:Βαβέλ',
 	'babel-autocreate-abort' => 'Tὸ ὄνομα χρωμένου τὸ καθωρισμένον ὑπἔσοῦ χρήσιμον ἐστὶ ἐν τῇ αὐτομάτῳ ποιήσει κατηγοριῶν [[$1|Βαβὲλ]] ἄρα οὐκ ἔξεστι τούτῳ ἐγγεγραμμένον ἐστίν.',
 	'babel-autocreate-reason' => 'Ποιεῖν αύτομάτως δέλτον κατηγοριῶν [[$1|Βαβέλ]].',
@@ -1541,7 +1541,7 @@ $messages['grc'] = array(
  */
 $messages['gsw'] = array(
 	'babel' => 'Babel-Benutzer-Information',
-	'babel-desc' => 'Ergänzt d <tt>#babel</tt>-Parserfunktion fir s automatisch Aalege vu Babel-Benutzerchäschtli-Zyyle mit dr Megligkeit, eigeni Vorlagen yyzbinde',
+	'babel-desc' => 'Ergänzt d <code>#babel</code>-Parserfunktion fir s automatisch Aalege vu Babel-Benutzerchäschtli-Zyyle mit dr Megligkeit, eigeni Vorlagen yyzbinde',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Dr uusgwählt Benutzername wird fir s automatisch Aalege vu [[$1|Babel]]-Kategorie bruucht un cha nit regischtriert wäre.',
 	'babel-autocreate-reason' => 'Automatisch aagleiti [[$1|Babel]]-Kategorie.',
@@ -1569,7 +1569,7 @@ $messages['gsw'] = array(
  */
 $messages['gu'] = array(
 	'babel' => 'બબેલ સભ્ય માહિતી',
-	'babel-desc' => 'કસ્ટમ ઢાંચા સહીત, સ્વસંચાલિત બબેલ સભ્યબોકસ કૉલમ બનાવવા માટે <tt>#babel</tt> પાર્સર વિધેય ઉમેરે છે.',
+	'babel-desc' => 'કસ્ટમ ઢાંચા સહીત, સ્વસંચાલિત બબેલ સભ્યબોકસ કૉલમ બનાવવા માટે <code>#babel</code> પાર્સર વિધેય ઉમેરે છે.',
 	'babel-url' => 'Project:બબેલ',
 	'babel-autocreate-abort' => 'તમે જે સભ્યનામ દર્શાવ્યું છે તે [[$1|બબેલ]] શ્રેણીના સ્વયંભુ પ્રાકટ્ય માટે આરક્ષિત છે અને તે નામ પર નોંધણી શક્ય નથી.',
 	'babel-autocreate-reason' => '[[$1|બબેલ]]નું સ્વયંભુ પ્રાકટ્ય થઇ રહ્યું છે.',
@@ -1623,7 +1623,7 @@ $messages['gv'] = array(
  */
 $messages['haw'] = array(
 	'babel' => 'E pili ana i keia mea ho‘ohana ma Babel',
-	'babel-desc' => 'Ho‘ohui ‘oia i ka <tt>#babel</tt> hana pāsā e ho‘oku‘u i ka hana hana nona iho o ke kolamu o ka pahu o ka mea ho‘ohana o Babel, me ka hiki e helu i nā anakuhi pilikino',
+	'babel-desc' => 'Ho‘ohui ‘oia i ka <code>#babel</code> hana pāsā e ho‘oku‘u i ka hana hana nona iho o ke kolamu o ka pahu o ka mea ho‘ohana o Babel, me ka hiki e helu i nā anakuhi pilikino',
 	'babel-url' => 'Project:Babel',
 	'babel-0' => '[[$1|‘A‘ole hiki]] i kēia mea ho‘ohana ke hā‘awi ma ka [[$2|$3]].',
 	'babel-1' => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana ha‘aha‘a]] ma ka [[$2|$3]].',
@@ -1649,7 +1649,7 @@ $messages['haw'] = array(
  */
 $messages['he'] = array(
 	'babel' => 'מידע על כישורי שפה של המשתמש',
-	'babel-desc' => 'הוספת הוראת התנאי <tt>#babel</tt> כדי לאפשר יצירה אוטומטית של תבניות כישורי שפה, עם אפשרות להכללת תבניות מותאמות אישית',
+	'babel-desc' => 'הוספת הוראת התנאי <code>#babel</code> כדי לאפשר יצירה אוטומטית של תבניות כישורי שפה, עם אפשרות להכללת תבניות מותאמות אישית',
 	'babel-url' => 'Project:כישורי שפה',
 	'babel-autocreate-abort' => 'שם המשתמש שציינתם משמש ליצירה אוטומטית של קטגוריות [[$1|כישורי שפה]], ולכן לא ניתן לרשום אותו.',
 	'babel-autocreate-reason' => 'יצירה אוטומטית של דף קטגוריה ל[[$1|כישורי שפה]]',
@@ -1678,7 +1678,7 @@ $messages['he'] = array(
  */
 $messages['hi'] = array(
 	'babel' => 'बाबेल सदस्य ज़ानकारी',
-	'babel-desc' => 'एक सदस्यके बाबेल सदस्यबक्से अपनेआप देने के लिय उपयुक्त ऐसी <tt>#babel</tt> पार्सर क्रिया बढाता हैं। इसमें खुद बनायें सदस्यबक्से भी दिये जा सकतें हैं।',
+	'babel-desc' => 'एक सदस्यके बाबेल सदस्यबक्से अपनेआप देने के लिय उपयुक्त ऐसी <code>#babel</code> पार्सर क्रिया बढाता हैं। इसमें खुद बनायें सदस्यबक्से भी दिये जा सकतें हैं।',
 	'babel-url' => 'Project:बाबेल',
 	'babel-0' => 'इस सदस्यको [[$2|$3]] का ज्ञान [[$1|नहीं]] हैं। (या समझने के लिये बहुत प्रयास लेने पडते हैं)।',
 	'babel-1' => 'इस सदस्यको [[$2|$3]] का [[$1|प्राथमिक]] ज्ञान हैं।',
@@ -1702,7 +1702,7 @@ $messages['hi'] = array(
  */
 $messages['hil'] = array(
 	'babel' => 'Inpormasyon sang Babel naga-usar',
-	'babel-desc' => 'Gadugang sang <tt>#babel</tt> parser nga gagana para magamit nga henerasyon automatiko sang babel userbox kolum upod sang abilidad para maintra sa kustom templeyts',
+	'babel-desc' => 'Gadugang sang <code>#babel</code> parser nga gagana para magamit nga henerasyon automatiko sang babel userbox kolum upod sang abilidad para maintra sa kustom templeyts',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Ang usarngalan nga imo gina-klaro ay ginagamit para [[$1|Babel]] auto-himo nga kategorya kag indi ni pwede marehistro.',
 	'babel-autocreate-reason' => 'Automatiko nga ginahimo [[$1|Babel]] pahina kategorya.',
@@ -1729,7 +1729,7 @@ $messages['hil'] = array(
  */
 $messages['hr'] = array(
 	'babel' => 'Babel suradničke informacije',
-	'babel-desc' => 'Dodaje <tt>#babel</tt> parser funkciju kako bi se omogućilo automatsko generiranje kolumne s babel suradničkim okvirićima s mogućnošću uključivanja vlastitih predložaka',
+	'babel-desc' => 'Dodaje <code>#babel</code> parser funkciju kako bi se omogućilo automatsko generiranje kolumne s babel suradničkim okvirićima s mogućnošću uključivanja vlastitih predložaka',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Suradničko ime koje ste naveli rabi se za samokreiranje kategorije [[$1|babel]] i ne može biti registrirano.',
 	'babel-autocreate-reason' => 'Automatsko stvaranje [[$1|babel]] stranice kategorije.',
@@ -1756,7 +1756,7 @@ $messages['hr'] = array(
  */
 $messages['hsb'] = array(
 	'babel' => 'Babelowe wužiwarske informacije',
-	'babel-desc' => 'Přidawa parserowu funkciju <tt>#babel</tt> za awtomatiske wutworjenje špalty z babelowymi wužiwarskimi kašćikami, z móžnosću, swójske předłohi zapřijeć',
+	'babel-desc' => 'Přidawa parserowu funkciju <code>#babel</code> za awtomatiske wutworjenje špalty z babelowymi wužiwarskimi kašćikami, z móžnosću, swójske předłohi zapřijeć',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Podate wužiwarske mjeno wužiwa so za awtomatiske wutworjenje [[$1|Babelowych]] kategorijow a njeda so registrować.',
 	'babel-autocreate-reason' => 'Awtomatiske wutworjenje [[$1|Babeloweje]] kategorije.',
@@ -1783,7 +1783,7 @@ $messages['hsb'] = array(
  */
 $messages['ht'] = array(
 	'babel' => 'Enfòmasyon sou itilizatè Babel',
-	'babel-desc' => 'Ap ajoute yon fonksyon pasè <tt>#babel</tt> ki ap pèmèt kreyasyon otomatik de yon bwat itilizatè Babel ak posibilite mete anndan l modèl definisyon lokal, tankou lang itilizatè a pale.',
+	'babel-desc' => 'Ap ajoute yon fonksyon pasè <code>#babel</code> ki ap pèmèt kreyasyon otomatik de yon bwat itilizatè Babel ak posibilite mete anndan l modèl definisyon lokal, tankou lang itilizatè a pale.',
 	'babel-url' => 'Project:Babel',
 	'babel-0' => 'Itilizatè sa [[$1|pa genyen]] konesans nan [[$2|$3]] (oubyen li ap konprann ak anpil difikilte).',
 	'babel-1' => 'Itilizatè sa genyen [[$1|kèk baz]] nan [[$2|$3]].',
@@ -1807,7 +1807,7 @@ $messages['ht'] = array(
  */
 $messages['hu'] = array(
 	'babel' => 'Bábel szerkesztői információk',
-	'babel-desc' => '<tt>#babel</tt> értelmes függvény bábel-információkat tartalmazó oszlop automatikus generálásához, saját sablononok beillesztésének lehetőségével',
+	'babel-desc' => '<code>#babel</code> értelmes függvény bábel-információkat tartalmazó oszlop automatikus generálásához, saját sablononok beillesztésének lehetőségével',
 	'babel-url' => 'Project:Bábel',
 	'babel-autocreate-abort' => 'Az általad választott nevet a [[$1|bábelkategóriák]] automatikus létrehozásához használjuk, így nem lehet regisztrálni.',
 	'babel-autocreate-reason' => '[[$1|Bábel]]kategória-oldal automatikus létrehozása.',
@@ -1835,7 +1835,7 @@ $messages['hu'] = array(
  */
 $messages['hy'] = array(
 	'babel' => 'Մասնակցի լեզուների տվյլաները (Բաբելոն)',
-	'babel-desc' => 'Ավելացնում է <tt>#babel</tt> պարսեր ֆունկցիան, որը թույլ է տալիս ավտոմատիկ կերպով ստեղծել մասնակցի լեզուների տվյալներով սյունյակ՝ այլ կաղապարների ընդգրկման հնարավորությամբ',
+	'babel-desc' => 'Ավելացնում է <code>#babel</code> պարսեր ֆունկցիան, որը թույլ է տալիս ավտոմատիկ կերպով ստեղծել մասնակցի լեզուների տվյալներով սյունյակ՝ այլ կաղապարների ընդգրկման հնարավորությամբ',
 	'babel-url' => 'Project:Բաբելոն',
 	'babel-autocreate-abort' => 'Նշված մասնակցի անունը օգտագործվում է Բաբելոն կատեգորիաների ավտոմատիկ ստեղծման համար և չի կարող գրանցվել։',
 	'babel-autocreate-reason' => 'Բաբելոն կատեգորիաների էջերի ավտոմատիկ ստեղծում։',
@@ -1863,7 +1863,7 @@ $messages['hy'] = array(
  */
 $messages['ia'] = array(
 	'babel' => 'Informationes Babel del usator',
-	'babel-desc' => "Adde le function <tt>#babel</tt> al analysator syntactic, pro permitter le generation automatic de un columna con un quadro de usator 'Babel' con le capacitate de includer patronos personalisate.",
+	'babel-desc' => "Adde le function <code>#babel</code> al analysator syntactic, pro permitter le generation automatic de un columna con un quadro de usator 'Babel' con le capacitate de includer patronos personalisate.",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Le nomine de usator que tu ha specificate es usate pro le creation automatic de categorias [[$1|Babel]] e non pote esser registrate.',
 	'babel-autocreate-reason' => 'Le pagina del categoria [[$1|Babel]] ha essite create automaticamente.',
@@ -1892,7 +1892,7 @@ $messages['ia'] = array(
  */
 $messages['id'] = array(
 	'babel' => 'Informasi pengguna Babel',
-	'babel-desc' => 'Menambahkan fungsi parser <tt>#babel</tt> untuk menampilkan kolom kotak pengguna babel secara otomatis dengan kemampuan menggunakan templat yang dikustomisasi',
+	'babel-desc' => 'Menambahkan fungsi parser <code>#babel</code> untuk menampilkan kolom kotak pengguna babel secara otomatis dengan kemampuan menggunakan templat yang dikustomisasi',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Nama pengguna yang Anda masukkan digunakan untuk pembuatan otomatis kategori [[$1|Babel]] dan tidak dapat didaftarkan.',
 	'babel-autocreate-reason' => 'Otomatis membuat halaman kategori [[$1|Babel]].',
@@ -1956,7 +1956,7 @@ $messages['io'] = array(
  */
 $messages['it'] = array(
 	'babel' => 'Babel utente',
-	'babel-desc' => 'Aggiunge la parser function <tt>#babel</tt> per permettere la generazione automatica di una colonna box utente babel con la possibilità di includere template personalizzati',
+	'babel-desc' => 'Aggiunge la parser function <code>#babel</code> per permettere la generazione automatica di una colonna box utente babel con la possibilità di includere template personalizzati',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Il nome utente specificato è usato per la creazione automatica di categorie [[$1|Babel]] e non può essere registrato.',
 	'babel-autocreate-reason' => 'Creo automaticamente la pagina della categoria [[$1|Babel]].',
@@ -1986,7 +1986,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'babel' => 'バベル利用者情報',
-	'babel-desc' => 'バベル・ユーザーボックスを自動的に生成する関数 <tt>#babel</tt> を追加する',
+	'babel-desc' => 'バベル・ユーザーボックスを自動的に生成する関数 <code>#babel</code> を追加する',
 	'babel-url' => 'Project:バベル',
 	'babel-autocreate-abort' => '指定した利用者名は[[$1|バベル]]用カテゴリの自動作成に使用されているため登録できません。',
 	'babel-autocreate-reason' => '[[$1|バベル]]用カテゴリのページを自動的に作成しています。',
@@ -2023,7 +2023,7 @@ $messages['jbo'] = array(
  */
 $messages['jv'] = array(
 	'babel' => 'Informasi Babel Panganggo',
-	'babel-desc' => 'Nambahaké fungsi parse <tt>#babel</tt> sing marengaké générasi otomatis kolom kothak panganggo babel mawa kamungkinan nglebokaké cithakan kustomisasi',
+	'babel-desc' => 'Nambahaké fungsi parse <code>#babel</code> sing marengaké générasi otomatis kolom kothak panganggo babel mawa kamungkinan nglebokaké cithakan kustomisasi',
 	'babel-url' => 'Project:Babel',
 	'babel-0' => 'Panganggo iki [[$1|ora]] duwé kawruh [[$2|$3]] (utawa angèl banget mangertèni).',
 	'babel-1' => 'Panganggo iki duwé kawruh [[$1|dhasar]] [[$2|$3]].',
@@ -2068,7 +2068,7 @@ $messages['ka'] = array(
  */
 $messages['kk-cyrl'] = array(
 	'babel' => 'Бабыл қатысушы ақпараты',
-	'babel-desc' => 'Бабыл пайдаланушылық жолағын өздіктік жарату үшін <tt>#babel</tt> деген құрылымдық талдатқыш жетесін үстейді (бапталған үлгілерді де кірістіру мүмкін)',
+	'babel-desc' => 'Бабыл пайдаланушылық жолағын өздіктік жарату үшін <code>#babel</code> деген құрылымдық талдатқыш жетесін үстейді (бапталған үлгілерді де кірістіру мүмкін)',
 	'babel-url' => 'Project:Бабыл',
 	'babel-0' => 'Бұл қатысушы [[$2|$3]] [[$1|меңгермейді]] (немесе айтарлықтай қиыншылықпен түсінеді).',
 	'babel-1' => 'Бұл қатысушы [[$2|$3]] [[$1|бастапқы деңгейде]] меңгереді.',
@@ -2119,7 +2119,7 @@ $messages['km'] = array(
  */
 $messages['kn'] = array(
 	'babel' => 'ಬೇಬಲ್ ಬಳಕೆದಾರರ ಮಾಹಿತಿ',
-	'babel-desc' => '<tt>#babel</tt> ಪಾರ್ಸರ್ ಫ೦ಕ್ಷನ್ ಅನ್ನು ಸೇರಿಸುತ್ತೆ ಮತ್ತು ಅದು ಕಸ್ಟಮ್ ಬೇಬಲ್ ಟೆ೦ಪ್ಲೇಟ್ ಗಳಿರುವ ಬೇಬಲ್ ಬಳಕೆದಾರರ ಕಾಲ೦ ಅನ್ನು ಸೇರಿಸಲು ಉಪಯುಕ್ತ',
+	'babel-desc' => '<code>#babel</code> ಪಾರ್ಸರ್ ಫ೦ಕ್ಷನ್ ಅನ್ನು ಸೇರಿಸುತ್ತೆ ಮತ್ತು ಅದು ಕಸ್ಟಮ್ ಬೇಬಲ್ ಟೆ೦ಪ್ಲೇಟ್ ಗಳಿರುವ ಬೇಬಲ್ ಬಳಕೆದಾರರ ಕಾಲ೦ ಅನ್ನು ಸೇರಿಸಲು ಉಪಯುಕ್ತ',
 	'babel-url' => 'Project:ಬೇಬಲ್',
 	'babel-directionality' => 'ಎಡದಿ೦ದ ಬಲ',
 	'babel-0' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|$3]] ಬಗ್ಗೆ [[$1|ಶೂನ್ಯ]] ಜ್ನಾನವಿದೆ (ಅಥವಾ ಬಹಳ ಕಷ್ಟಪಟ್ಟು ಇದನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುತ್ತಾರೆ)',
@@ -2143,7 +2143,7 @@ $messages['kn'] = array(
  */
 $messages['ko'] = array(
 	'babel' => '사용자 언어 정보',
-	'babel-desc' => '일반 틀을 포함할 수 있는 바벨 유저박스 단을 생성할 수 있도록 <tt>#babel</tt> 파서 기능을 추가',
+	'babel-desc' => '일반 틀을 포함할 수 있는 바벨 유저박스 단을 생성할 수 있도록 <code>#babel</code> 파서 기능을 추가',
 	'babel-url' => 'Project:바벨',
 	'babel-autocreate-abort' => '당신이 입력한 계정 이름은 [[$1|바벨]] 분류 자동 생성을 위해 사용되고 있어서 등록할 수 없습니다.',
 	'babel-autocreate-reason' => '[[$1|사용자 언어]] 분류를 자동적으로 생성함',
@@ -2170,7 +2170,7 @@ $messages['ko'] = array(
  */
 $messages['krc'] = array(
 	'babel' => 'Къошулуучуну тиллерини юсюнден информация (Вавилон)',
-	'babel-desc' => 'Башха шаблонланыда къошаргъа болгъан информация бла колонканы автомат къураргъа берген парсерни <tt>#babel</tt>  функциясын къошады.',
+	'babel-desc' => 'Башха шаблонланыда къошаргъа болгъан информация бла колонканы автомат къураргъа берген парсерни <code>#babel</code>  функциясын къошады.',
 	'babel-url' => 'Project:Вавилон',
 	'babel-autocreate-abort' => 'Белгиленнген аты къошулгъанны [[$1|Вавилон]] категорияны бетлерин автомат къураргъа хайырланады, регистрация этилинмейди.',
 	'babel-autocreate-reason' => 'Автомат къурау [[$1|Вавилон]] категорияны бетлерин',
@@ -2197,7 +2197,7 @@ $messages['krc'] = array(
  */
 $messages['ksh'] = array(
 	'babel' => '{{GENDER:$1|Däm $1 sing|Däm $1 sing|Däm Medmaacher $1 sing|Däm $1 sing|Dä Metmaacheren $1 ier}} Shprooche-Weße',
-	'babel-desc' => 'Brengk de <tt>#babel</tt>-Paaserfongxjohn, womet me automatesch ene Babel-Medmaacher-Kaste opboue kann, un dobeij och selfßjemaate Schabloone nozze kan.',
+	'babel-desc' => 'Brengk de <code>#babel</code>-Paaserfongxjohn, womet me automatesch ene Babel-Medmaacher-Kaste opboue kann, un dobeij och selfßjemaate Schabloone nozze kan.',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Dä Metmaachername es ald verjovve för [[$1|Babel]]-{{int:categories}} automattesch aanzelääje, dä kanns De nit han.',
 	'babel-autocreate-reason' => 'En automattesch aanjelaate Saachjrupp fum [[$1|Babel]]-Süsteem.',
@@ -2284,7 +2284,7 @@ $messages['lad'] = array(
  */
 $messages['lb'] = array(
 	'babel' => 'Babel-Benotzer-Informatioun',
-	'babel-desc' => "Setzt d'<tt>#babel</tt> Parserfunktioun derbäi, fir déi automatesch Generatioun vun enger Babel-Benotzerbox Kolonn, mat der Méiglechkeet fir eege Schablounen anzebannen",
+	'babel-desc' => "Setzt d'<code>#babel</code> Parserfunktioun derbäi, fir déi automatesch Generatioun vun enger Babel-Benotzerbox Kolonn, mat der Méiglechkeet fir eege Schablounen anzebannen",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "De Benotzernumm den Dir uginn hutt gëtt fir d'[[$1|Babel]]-Kategorie Automatesch-Maache benotzt a kann net gespäichert ginn.",
 	'babel-autocreate-reason' => 'Automatesch eng [[$1|Babel]]-Kategorie-Säit maachen.',
@@ -2331,7 +2331,7 @@ $messages['lfn'] = array(
  */
 $messages['li'] = array(
 	'babel' => 'Babel Gebroekersinfermasie',
-	'babel-desc' => "Voog de <tt>#babel</tt>-parserfónksie toe óm automatische generatie van 'ne babelgebroekersbóks mäögelik te make mit de mäögelikheid óm aangepasde sjablone in te voge",
+	'babel-desc' => "Voog de <code>#babel</code>-parserfónksie toe óm automatische generatie van 'ne babelgebroekersbóks mäögelik te make mit de mäögelikheid óm aangepasde sjablone in te voge",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "De opgegaeve gebroekersnaam weurt gebroek veur 't automatisch aanmake van [[$1|Babel]]-categorieë en kan neet geregistreerd waere.",
 	'babel-autocreate-reason' => 'Automatisch aanmake [[$1|Babel]]-categoriepagina.',
@@ -2359,7 +2359,7 @@ $messages['li'] = array(
  */
 $messages['lmo'] = array(
 	'babel' => 'Infurmazion Babel del druvat',
-	'babel-desc' => "Gionta la 'parser function' <tt>#babel</tt> per permet la generazion utumatega d'un quader \"druvat Babel\" cun la pussibilità da metegh denter 'l templat persunalizaa",
+	'babel-desc' => "Gionta la 'parser function' <code>#babel</code> per permet la generazion utumatega d'un quader \"druvat Babel\" cun la pussibilità da metegh denter 'l templat persunalizaa",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "'L suranom che t'hee specificaa a l'è druvaa per l'auto-creazion de categurij [[$1|Babel]] e 'l pör mía vess registraa.",
 	'babel-autocreate-reason' => 'Creazion utumatega de la pagina de la categurìa [[$1|Babel]].',
@@ -2409,7 +2409,7 @@ $messages['ln'] = array(
  */
 $messages['lt'] = array(
 	'babel' => 'Naudotojo informacijos Babelio bokštas',
-	'babel-desc' => 'Prideda parserio funkciją <tt>#babel</tt>, leidžiančią automatiškai sudaryti stulpelį su informacija apie kalbas su gailmybe įtraukti kitus šablonus',
+	'babel-desc' => 'Prideda parserio funkciją <code>#babel</code>, leidžiančią automatiškai sudaryti stulpelį su informacija apie kalbas su gailmybe įtraukti kitus šablonus',
 	'babel-url' => 'Project:Babelis',
 	'babel-autocreate-abort' => 'Nurodytas naudotojo vardas naudojamas automatiškam kategorijos „[[$1|Babel]]“ sudarymui, todėl negali būti užregistruotas',
 	'babel-autocreate-reason' => 'Automatiškas kategorijos „[[$1|Babel]]“ puslapio sukūrimas.',
@@ -2459,7 +2459,7 @@ $messages['ltg'] = array(
  */
 $messages['lv'] = array(
 	'babel' => 'Lietotāja informācija (Bābeles tornis)',
-	'babel-desc' => 'Pievieno parsera funkciju <tt>#babel</tt>, automātiskai kolonnu ar valodu informāciju veidošanai, ka arī ar citu veidņu ievietošanas iespēju',
+	'babel-desc' => 'Pievieno parsera funkciju <code>#babel</code>, automātiskai kolonnu ar valodu informāciju veidošanai, ka arī ar citu veidņu ievietošanas iespēju',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Tevis norādītais lietotājvārds tiek lietots [[$1|Babel]] kategoriju automātiskai izveidošanai, tāpēc to nevar piereģistrēt.',
 	'babel-autocreate-reason' => 'Automātiski izveido [[$1|Babel]] kategorijas lapu.',
@@ -2499,7 +2499,7 @@ $messages['lzh'] = array(
  */
 $messages['lzz'] = array(
 	'babel' => 'Babel Maxmareş çkinape',
-	'babel-desc' => "Doxmeli şablonepe na uğun Babel maxmareş kut'işi sut'uni otomatikurot ok'idu şeni <tt>#babel</tt> derleyici fonk'sioni uk'ataps",
+	'babel-desc' => "Doxmeli şablonepe na uğun Babel maxmareş kut'işi sut'uni otomatikurot ok'idu şeni <code>#babel</code> derleyici fonk'sioni uk'ataps",
 	'babel-url' => 'Project:Babeli',
 	'babel-autocreate-abort' => "Na mo3'iri maxmareşi coxo [[$1|Babel]]-ş k'at'egorii otomatikurot ok'idu şeni ixmarinen.",
 	'babel-autocreate-reason' => "Otomatikurot [[$1|Babil]] k'at'egoriş but'k'a ik'iden.",
@@ -2526,7 +2526,7 @@ $messages['lzz'] = array(
  */
 $messages['mdf'] = array(
 	'babel' => 'Вавилонца тиить кяльхнень содаманц колга информацись',
-	'babel-desc' => 'Поладсы <tt>#babel</tt> синтаксонь анализаторть функциесь, конань вельде сувафневи  информациень палманць вавилонца тиить кяльхнень содаманц колга ди иля шаблоттне',
+	'babel-desc' => 'Поладсы <code>#babel</code> синтаксонь анализаторть функциесь, конань вельде сувафневи  информациень палманць вавилонца тиить кяльхнень содаманц колга ди иля шаблоттне',
 	'babel-url' => 'Project:Вавилон',
 	'babel-0' => 'Тя тиись [[$1|аф шарьхкоди ]]  [[$2|$3]] (эли шарьхкоди пяк кальдявста).',
 	'babel-1' => 'Тя тиись [[$1|аф лама шарьхкоди ]] [[$2|$3]].',
@@ -2549,7 +2549,7 @@ $messages['mdf'] = array(
  */
 $messages['mg'] = array(
 	'babel' => "Fampandrenesana momba ny mpampiasa ny '''Babel'''",
-	'babel-desc' => "Manampy ny Parser function <tt>#babel</tt> mampamela ny fanamboarana userbox hoazy. Afaka mampiditra endrika tsy natao tany amin'ny mediawiki ilay izy",
+	'babel-desc' => "Manampy ny Parser function <code>#babel</code> mampamela ny fanamboarana userbox hoazy. Afaka mampiditra endrika tsy natao tany amin'ny mediawiki ilay izy",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Ilay anaram-pikambana nampidirinao mba hanao sokajy [[$1|Babel]] hoazy tsy afaka tehirizina',
 	'babel-autocreate-reason' => 'Natao hoazy ilay sokajy [[$1|Babel]].',
@@ -2579,7 +2579,7 @@ $messages['mg'] = array(
  */
 $messages['mhr'] = array(
 	'babel' => 'Пайдаланышын йылмым палымаш (Вавилон)',
-	'babel-desc' => '<tt>#babel</tt> парсерын фунцкцийым ешара. Тудо колонкым пайдаланыше йылмым палымаш дене автоматический ыштымашым пуа. Вес ямдылык-влакым ешараш тоже лиеш.',
+	'babel-desc' => '<code>#babel</code> парсерын фунцкцийым ешара. Тудо колонкым пайдаланыше йылмым палымаш дене автоматический ыштымашым пуа. Вес ямдылык-влакым ешараш тоже лиеш.',
 	'babel-url' => 'Project:Бабилон',
 	'babel-autocreate-abort' => 'Пайдаланыныш лӱмжо, кудыжым тый возышыч, [[$1|Вавилон]] категорийым авто-ыштымашлан пайдаланен шога. Тиде лӱм дене регистрацийым эрташ ок лий.',
 	'babel-autocreate-reason' => '[[$1|Бабилон]] категориян лаштыкым автоматик ыштымаш.',
@@ -2608,7 +2608,7 @@ $messages['mhr'] = array(
  */
 $messages['mk'] = array(
 	'babel' => 'Кориснички информации за јазици',
-	'babel-desc' => 'Ја додава парсерската функција <tt>#babel</tt> со што се дозволува автоматизирано создавање на колони со кориснички кутии од типот „Вавилон“, со можноста да се додаваат сопствени шаблони',
+	'babel-desc' => 'Ја додава парсерската функција <code>#babel</code> со што се дозволува автоматизирано создавање на колони со кориснички кутии од типот „Вавилон“, со можноста да се додаваат сопствени шаблони',
 	'babel-url' => 'Project:Вавилон',
 	'babel-autocreate-abort' => 'Корисничкото име кое го наведовте се користи за автоматско создавање на [[$1|Babel]] категорија и затоа не може да се регистрира.',
 	'babel-autocreate-reason' => 'Автоматско создавање на [[$1|Вавилон]] категорија.',
@@ -2638,7 +2638,7 @@ $messages['mk'] = array(
  */
 $messages['ml'] = array(
 	'babel' => 'ഉപയോക്താവിന്റെ ബാബേൽ വിവരണം',
-	'babel-desc' => '<tt>#babel</tt> എന്ന പാർസർ ഫങ്ഷൻ ചേർക്കുന്നു. ഇതു ബാബേൽ യൂസർ ബോക്സ് കോളത്തിന്റെ യാന്ത്രികമായ രൂപവത്കരണത്തിനും കസ്റ്റം ഫലകങ്ങൾ ഉൾപ്പെടുത്തുവാനും സഹായകരമാകുന്നു.',
+	'babel-desc' => '<code>#babel</code> എന്ന പാർസർ ഫങ്ഷൻ ചേർക്കുന്നു. ഇതു ബാബേൽ യൂസർ ബോക്സ് കോളത്തിന്റെ യാന്ത്രികമായ രൂപവത്കരണത്തിനും കസ്റ്റം ഫലകങ്ങൾ ഉൾപ്പെടുത്തുവാനും സഹായകരമാകുന്നു.',
 	'babel-url' => 'Project:ബാബേൽ',
 	'babel-0' => 'ഈ ഉപയോക്താവിനു [[$2|$3]] [[$1|ഒട്ടുമേ അറിയില്ല]] (അല്ലെങ്കിൽ വളരെ ബുദ്ധിമുട്ടോടെ മനസ്സിലാക്കാൻ സാധിക്കും).',
 	'babel-1' => 'ഈ ഉപയോക്താവിനു [[$2|$3യിൽ]] [[$1|അടിസ്ഥാനജ്ഞാനം മാത്രമേ ഉള്ളൂ]].',
@@ -2661,7 +2661,7 @@ $messages['ml'] = array(
  */
 $messages['mr'] = array(
 	'babel' => 'बाबेल सदस्य माहिती',
-	'babel-desc' => 'एखाद्या सदस्याच्या बाबेल सदस्यपेट्या आपोआप देण्यासाठी उपयुक्त अशी <tt>#babel</tt> पार्सर क्रिया वाढवितो. यामध्ये स्वत: निर्माण केलेले सदस्य साचे सुद्धा देता येतात.',
+	'babel-desc' => 'एखाद्या सदस्याच्या बाबेल सदस्यपेट्या आपोआप देण्यासाठी उपयुक्त अशी <code>#babel</code> पार्सर क्रिया वाढवितो. यामध्ये स्वत: निर्माण केलेले सदस्य साचे सुद्धा देता येतात.',
 	'babel-url' => 'Project:बाबेल',
 	'babel-0' => 'या सदस्याला [[$2|$3]] चे ज्ञान [[$1|नाही]] (किंवा समजण्यासाठी खूप कष्ट पडतात).',
 	'babel-1' => 'या सदस्याला [[$2|$3]] चे [[$1|प्राथमिक]] ज्ञान आहे.',
@@ -2685,7 +2685,7 @@ $messages['mr'] = array(
  */
 $messages['ms'] = array(
 	'babel' => 'Maklumat bahasa pengguna',
-	'babel-desc' => 'Menambah fungsi penghurai <tt>#babel</tt> untuk membolehkan penjanaan automatik kotak bahasa pengguna dan tempahan templat',
+	'babel-desc' => 'Menambah fungsi penghurai <code>#babel</code> untuk membolehkan penjanaan automatik kotak bahasa pengguna dan tempahan templat',
 	'babel-url' => 'Project:Bahasa',
 	'babel-autocreate-abort' => 'Nama pengguna yang anda nyatakan telah ditempah untuk penciptaan automatik kategori [[$1|Bahasa]] dan tidak boleh didaftarkan.',
 	'babel-autocreate-reason' => 'Mencipta laman kategori [[$1|Bahasa]] secara automatik.',
@@ -2712,7 +2712,7 @@ $messages['ms'] = array(
  */
 $messages['mwl'] = array(
 	'babel' => 'Anformaçon Babel de Outelizador',
-	'babel-desc' => 'Ajunta la funçon de l analisador parser <tt>#babel</tt> pa premitir la criaçon outomatica dua coluna de caixas de outelizador babel cula possiblidade de ancluir modelos pessonalizadas',
+	'babel-desc' => 'Ajunta la funçon de l analisador parser <code>#babel</code> pa premitir la criaçon outomatica dua coluna de caixas de outelizador babel cula possiblidade de ancluir modelos pessonalizadas',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'L nome de outelizador que deziste ye ousado pula criaçon outomática de catadories [[$1|Babel]] i, por esso, nun puode ser registrado.',
 	'babel-autocreate-reason' => 'A criar outomaticamiente la páigina de la catadorie [[$1|Babel]].',
@@ -2739,7 +2739,7 @@ $messages['mwl'] = array(
  */
 $messages['myv'] = array(
 	'babel' => 'Вавилононь тевс нолдыця ломанень келень содамочыде информация',
-	'babel-desc' => 'Поладсы <tt>#babel</tt> парсерэнь функциянть, конань вельде совавтови теицянь вавилон уминес келень содамочыде информация ды лия лопа парцунт (шаблонт).',
+	'babel-desc' => 'Поладсы <code>#babel</code> парсерэнь функциянть, конань вельде совавтови теицянь вавилон уминес келень содамочыде информация ды лия лопа парцунт (шаблонт).',
 	'babel-url' => 'Project:Вавилон',
 	'babel-0' => 'Те ломансь [[$1|а чарькоди ]] [[$2|$3]]кс (эли пек стакасто чарькоди сонзэ).',
 	'babel-1' => 'Те ломансь [[$1|аламошка чарькоди]]  [[$2|$3]]кс.',
@@ -2784,7 +2784,7 @@ $messages['nah'] = array(
  */
 $messages['nds'] = array(
 	'babel' => 'Babel-Bruker-Infos',
-	'babel-desc' => 'Föögt de <tt>#babel</tt>-Parserfunkschoon för dat automaatsche Opstellen vun Babel-Brukerboxen to. Verlöövt ok dat Inbinnen vun egene Vörlagen.',
+	'babel-desc' => 'Föögt de <code>#babel</code>-Parserfunkschoon för dat automaatsche Opstellen vun Babel-Brukerboxen to. Verlöövt ok dat Inbinnen vun egene Vörlagen.',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'De utwählt Brukernaam warrt för dat automaatsch Opstellen vun [[$1|Babel]]-Kategorien bruukt un kann nich registreert warrn.',
 	'babel-autocreate-reason' => 'Automaatsch opstellt [[$1|Babel]]-Kategorie.',
@@ -2831,7 +2831,7 @@ $messages['ne'] = array(
  */
 $messages['nl'] = array(
 	'babel' => 'Babel-gebruikersinformatie',
-	'babel-desc' => 'Voegt de <tt>#babel</tt>-parserfunctie toe om automatische generatie van een babelgebruikersbox mogelijk te maken met de mogelijkheid om aangepaste sjablonen in te voegen',
+	'babel-desc' => 'Voegt de <code>#babel</code>-parserfunctie toe om automatische generatie van een babelgebruikersbox mogelijk te maken met de mogelijkheid om aangepaste sjablonen in te voegen',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'De gebruikersnaam die u hebt opgegeven wordt gebruikt voor het automatisch aanmaken van [[$1|Babel]]-categorieën en kan niet geregistreerd worden.',
 	'babel-autocreate-reason' => 'Automatisch aangemaakte [[$1|Babel]]-categorie.',
@@ -2861,7 +2861,7 @@ $messages['nl'] = array(
  */
 $messages['nn'] = array(
 	'babel' => 'Babelinformasjon',
-	'babel-desc' => 'Legg til parserfunksjonen <tt>#babel</tt> for å automatisk lage ein babelboks der ein kan bruka sjølvlaga malar',
+	'babel-desc' => 'Legg til parserfunksjonen <code>#babel</code> for å automatisk lage ein babelboks der ein kan bruka sjølvlaga malar',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Brukarnamnet du valte er i bruk for automatisk oppretting av [[$1|Babel]]-kategoriar og kan difor ikkje verta registrert.',
 	'babel-autocreate-reason' => 'Oprettar automatisk ei [[$1|Babel]]-kategori-sida.',
@@ -2890,7 +2890,7 @@ $messages['nn'] = array(
  */
 $messages['no'] = array(
 	'babel' => 'Babelinformasjon',
-	'babel-desc' => 'Legger til parserfunksjonen <tt>#babel</tt> for å automatisk generere en babelboks med  mulighet for å inkludere egendefinerte maler',
+	'babel-desc' => 'Legger til parserfunksjonen <code>#babel</code> for å automatisk generere en babelboks med  mulighet for å inkludere egendefinerte maler',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Brukernavnet du valgte er i bruk for automatisk oppretting av [[$1|Babel]]-kategorier og kan derfor ikke registreres.',
 	'babel-autocreate-reason' => 'Oppretter automatisk en [[$1|Babel]]-kategoriside.',
@@ -2928,7 +2928,7 @@ $messages['nov'] = array(
  */
 $messages['oc'] = array(
 	'babel' => 'Entresenhas sus l’utilizaire de Babel',
-	'babel-desc' => "Apond una foncion parser <tt>#babel</tt> que permet la creacion automatica d'una bóstia d’utilizaire Babèl amb la possibilitat d’i enclure de modèls locals.",
+	'babel-desc' => "Apond una foncion parser <code>#babel</code> que permet la creacion automatica d'una bóstia d’utilizaire Babèl amb la possibilitat d’i enclure de modèls locals.",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "Lo nom d'utilizaire qu'avètz picat es utilizat per crear automaticament las categorias [[$1|Babel]] e pòt pas èsser enregistrat.",
 	'babel-autocreate-reason' => 'Creacion automatica de la categoria [[$1|Babel]].',
@@ -2970,7 +2970,7 @@ $messages['os'] = array(
  */
 $messages['pcd'] = array(
 	'babel' => 'Informachons Babel su echl uzeu',
-	'babel-desc' => 'Érquértche el foncchon "analise <tt>#babel</tt>" pou avoèr el généracion d\'eune colonne "uzeu-boète babel" aveuc el pochibilité éd mètte chés modèles pérsonèls',
+	'babel-desc' => 'Érquértche el foncchon "analise <code>#babel</code>" pou avoèr el généracion d\'eune colonne "uzeu-boète babel" aveuc el pochibilité éd mètte chés modèles pérsonèls',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "Ech nom d'uzeu avinché est imploéïé pou el oeto-créachon del catégorie [[$1|Babel]] don i n'put poin éte inrégistré.",
 	'babel-autocreate-reason' => 'Pache éd créachon oetomatike del catégorie [[$1|Babel]].',
@@ -2997,7 +2997,7 @@ $messages['pcd'] = array(
  */
 $messages['pdc'] = array(
 	'babel' => 'Babel Yuuser Information',
-	'babel-desc' => 'Ennert die <tt>#babel</tt>-Parserfunktion fer zum automatische Aalege vun Babel-Yuuserbox-Columns damit eigene Vorlage dezu ze duh meeglich sinn',
+	'babel-desc' => 'Ennert die <code>#babel</code>-Parserfunktion fer zum automatische Aalege vun Babel-Yuuserbox-Columns damit eigene Vorlage dezu ze duh meeglich sinn',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'De Yuuser-Name, wu Du gewaehlt hoscht, werd geyuust fer es automatisch Aalege vun [[$1|Babel]]-Kategorie unn kann net regischtriert werre.',
 	'babel-autocreate-reason' => 'Automatisch aagelegte [[$1|Babel]]-Kategorie.',
@@ -3040,7 +3040,7 @@ $messages['pdt'] = array(
  */
 $messages['pfl'] = array(
 	'babel' => 'Babel-Benutzer-Information',
-	'babel-desc' => 'Ergänzt die <tt>#babel</tt>-Parserfunktion fer zum automatische Aaleche vun  Babel-Benutzerkäschtel-Zaile mit de Mechlichkäät, äächene Vorlache aizbinne',
+	'babel-desc' => 'Ergänzt die <code>#babel</code>-Parserfunktion fer zum automatische Aaleche vun  Babel-Benutzerkäschtel-Zaile mit de Mechlichkäät, äächene Vorlache aizbinne',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'De Benutzername, wu Du ausgewählt hoscht, werd gebraucht fer s automatische Aaleche vun [[$1|Babel]]-Kategorie un kann nid regischtriert werre.',
 	'babel-autocreate-reason' => 'Automatisch aagelechte [[$1|Babel]]-Kategorie.',
@@ -3068,7 +3068,7 @@ $messages['pfl'] = array(
  */
 $messages['pl'] = array(
 	'babel' => 'Wieża Babel użytkownika',
-	'babel-desc' => 'Dodaje funkcję parsera <tt>#babel</tt> ułatwiającą tworzenie ramki informującej o językowych lub innych umiejętnościach użytkownika',
+	'babel-desc' => 'Dodaje funkcję parsera <code>#babel</code> ułatwiającą tworzenie ramki informującej o językowych lub innych umiejętnościach użytkownika',
 	'babel-url' => 'Project:Wieża Babel',
 	'babel-autocreate-abort' => 'Wybrana nazwa użytkownika jest wykorzystywana do automatycznego tworzenia kategorii [[$1|wieży Babel]] i nie może zostać zarejestrowana.',
 	'babel-autocreate-reason' => 'Strona automatycznie utworzonej kategorii [[$1|wieży Babel]].',
@@ -3096,7 +3096,7 @@ $messages['pl'] = array(
  */
 $messages['pms'] = array(
 	'babel' => "Anformassion Babel ëd l'utent",
-	'babel-desc' => "A gionta la parser function <tt>#babel</tt> për përmëtte la generassion automàtica ëd na colòna babel userbox con la possibilità d'anserì djë stamp përsonalisà",
+	'babel-desc' => "A gionta la parser function <code>#babel</code> për përmëtte la generassion automàtica ëd na colòna babel userbox con la possibilità d'anserì djë stamp përsonalisà",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "Lë stranòm ch'it l'has spessificà a l'é dovrà për l'auto-creassion ëd categorìe [[$1|Babel]] e a peul nen esse registrà.",
 	'babel-autocreate-reason' => 'Creassion automàtica dla pàgina dla categorìa [[$1|Babel]].',
@@ -3127,7 +3127,7 @@ $messages['pms'] = array(
  */
 $messages['pnt'] = array(
 	'babel' => 'Πληροφορίας Βαβέλ τη χρήστε',
-	'babel-desc' => 'Προστέτει την <tt>#babel</tt> λεξιαναλυτικήν λειτουργίαν ας αφήκει την αυτόματην παραγωγήν στήλης βαβέλ με την δυνατότηταν περίληψης παραγγελτών προτυπίων',
+	'babel-desc' => 'Προστέτει την <code>#babel</code> λεξιαναλυτικήν λειτουργίαν ας αφήκει την αυτόματην παραγωγήν στήλης βαβέλ με την δυνατότηταν περίληψης παραγγελτών προτυπίων',
 	'babel-url' => 'Project:Βαβέλ',
 	'babel-autocreate-abort' => "Τ' όνεμα χρήστε π' εδώθεν εν όνεμα για την κατηγορίαν αυτόματου δημιουργίας [[$1|Βαβέλ]] και 'κ επορεί να κατοχυρωνέται.",
 	'babel-autocreate-reason' => 'Αυτόματα εγέντον η σελίδα κατηγορίας [[$1|Βαβέλ]].',
@@ -3176,7 +3176,7 @@ $messages['prg'] = array(
  */
 $messages['ps'] = array(
 	'babel' => 'د بابل د کارن مالومات',
-	'babel-desc' => 'د <tt>#babel</tt> شننونکې کړنه په دې موخه ده چې په خپلسري توګه د بابل د کارنبکس ستنه رامېنځ ته کړي چېرته چې څوک خپل د خوښې کينډۍ ورټومبلی شي',
+	'babel-desc' => 'د <code>#babel</code> شننونکې کړنه په دې موخه ده چې په خپلسري توګه د بابل د کارنبکس ستنه رامېنځ ته کړي چېرته چې څوک خپل د خوښې کينډۍ ورټومبلی شي',
 	'babel-url' => 'Project:بابل',
 	'babel-autocreate-abort' => 'کوم کارن-نوم چې تاسو خوښ کړی هغه د [[$1|بابل]] د خپلسري-جوړښت وېشنيزې کې کارېږي او د ثبتولو وړ نه ده.',
 	'babel-autocreate-reason' => 'په اتوماتيک ډول د [[$1|بابل]] وېشنيزې مخ جوړوي.',
@@ -3207,7 +3207,7 @@ $messages['ps'] = array(
  */
 $messages['pt'] = array(
 	'babel' => 'Informação Babel de Utilizador',
-	'babel-desc' => 'Adiciona a função <tt>#babel</tt> ao analisador sintáctico, para permitir a geração automatizada de uma coluna de caixas babel com a possibilidade de incluir predefinições personalizadas',
+	'babel-desc' => 'Adiciona a função <code>#babel</code> ao analisador sintáctico, para permitir a geração automatizada de uma coluna de caixas babel com a possibilidade de incluir predefinições personalizadas',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'O nome de utilizador que especificou é usado pela criação automática de categorias [[$1|Babel]] e, por isso, não pode ser registado.',
 	'babel-autocreate-reason' => 'A criar automaticamente a página da categoria [[$1|Babel]].',
@@ -3235,7 +3235,7 @@ $messages['pt'] = array(
  */
 $messages['pt-br'] = array(
 	'babel' => 'Informação Babel de Usuário',
-	'babel-desc' => 'Adiciona a função do analisador parser <tt>#babel</tt> para permitir a geração automática de um coluna de caixas de babel de um usuário coma possibilidade de incluir predefinições personalizadas',
+	'babel-desc' => 'Adiciona a função do analisador parser <code>#babel</code> para permitir a geração automática de um coluna de caixas de babel de um usuário coma possibilidade de incluir predefinições personalizadas',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'O nome de utilizador que especificou é usado pela criação automática de categorias [[$1|Babel]] e, por isso, não pode ser registrado.',
 	'babel-autocreate-reason' => 'Criando automaticamente a página da categoria [[$1|Babel]].',
@@ -3283,7 +3283,7 @@ $messages['qu'] = array(
  */
 $messages['rgn'] = array(
 	'babel' => "Babel d'e' navigador",
-	'babel-desc' => "Chèrga so la 'funziòn parser' <tt>#babel</tt> par fè in mod che tòt i navigadur j épa e su schema Babel, acsè e' po mett dentar dj 'template'.",
+	'babel-desc' => "Chèrga so la 'funziòn parser' <code>#babel</code> par fè in mod che tòt i navigadur j épa e su schema Babel, acsè e' po mett dentar dj 'template'.",
 	'babel-url' => 'Prugèt:Babel',
 	'babel-autocreate-abort' => "E' soranòm ch'te mess e' serv par la creaziòn automàtica dal categurej [[$1|Babel]] e anciòn u l' po druvè.",
 	'babel-autocreate-reason' => 'Creaziòn automàtica dla pàgina dla categurèja [[$1|Babel]].',
@@ -3338,7 +3338,7 @@ $messages['rm'] = array(
  */
 $messages['ro'] = array(
 	'babel' => 'Informaţii despre utilizatorul Babel',
-	'babel-desc' => 'Adaugă funcţia de parsare <tt>#babel</tt> pentru generarea automată a coloanei de cutii de utilizator babel, cu posibilitatea de a include formate personalizate',
+	'babel-desc' => 'Adaugă funcţia de parsare <code>#babel</code> pentru generarea automată a coloanei de cutii de utilizator babel, cu posibilitatea de a include formate personalizate',
 	'babel-url' => 'Project:Babel',
 	'babel-0' => 'Acest utilizator [[$1|nu]] are cunoştinţe de [[$2|$3]] (sau înţelege cu mare dificultate).',
 	'babel-1' => 'Acest utilizator poate contribui cu un nivel [[$1|de bază]] de [[$2|$3]].',
@@ -3380,7 +3380,7 @@ $messages['roa-tara'] = array(
  */
 $messages['ru'] = array(
 	'babel' => 'Сведения о языках участника (Вавилон)',
-	'babel-desc' => 'Добавляет функцию парсера <tt>#babel</tt>, позволяющую автоматически создавать колонку с информацией о языках с возможностью включения других шаблонов',
+	'babel-desc' => 'Добавляет функцию парсера <code>#babel</code>, позволяющую автоматически создавать колонку с информацией о языках с возможностью включения других шаблонов',
 	'babel-url' => 'Project:Вавилон',
 	'babel-autocreate-abort' => 'Указанное имя участника используется для автоматического создания категорий [[$1|Вавилон]] и не может быть зарегистрировано.',
 	'babel-autocreate-reason' => 'Автоматическое создание страницы категории [[$1|Вавилон]].',
@@ -3440,7 +3440,7 @@ $messages['sa'] = array(
  */
 $messages['sah'] = array(
 	'babel' => 'Кыттааччы тылы билиитэ (Вавилон)',
-	'babel-desc' => '<tt>#babel</tt> парсер функциятын эбэр, ол атын халыыптары туһанан тыллары билии туһунан колуоҥканы оҥорого туттуллар.',
+	'babel-desc' => '<code>#babel</code> парсер функциятын эбэр, ол атын халыыптары туһанан тыллары билии туһунан колуоҥканы оҥорого туттуллар.',
 	'babel-url' => 'Project:Вавилон',
 	'babel-autocreate-abort' => 'Талбыт аатыҥ [[$1|Вавилон]] категорияларын аптамаатынан оҥорорго туттуллар эбит, онон туттуллар кыаҕа суох.',
 	'babel-autocreate-reason' => '[[$1|Вавилон]] категориятын аптамаатынан оҥоруу.',
@@ -3468,7 +3468,7 @@ $messages['sah'] = array(
  */
 $messages['sc'] = array(
 	'babel' => 'Babel usuàriu',
-	'babel-desc' => 'Aciungit sa funtzioni parser <tt>#babel</tt> pro permitiri sa generatzioni automatica de una colunna box usuàriu babel cun sa possibilidade de insertai templates personalitzaus',
+	'babel-desc' => 'Aciungit sa funtzioni parser <code>#babel</code> pro permitiri sa generatzioni automatica de una colunna box usuàriu babel cun sa possibilidade de insertai templates personalitzaus',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Su nòmene usuàriu ispetzificau est impreau pro sa creatzione automatiga de is categorias [[$1|Babel]] e non podet èssere registradu.',
 	'babel-autocreate-reason' => 'Crea automatigamente sa pàgina de sa categoria [[$1|Babel]]',
@@ -3496,7 +3496,7 @@ $messages['sc'] = array(
  */
 $messages['scn'] = array(
 	'babel' => "Nfurmazzioni di Babel supra a l'utenti",
-	'babel-desc' => 'Junci la parser function <tt>#babel</tt> pi fari la ginirazzioni autumàtica di na culonna babel utenti cu la pussibbilitati di nclùdiri template pirsunalizzati',
+	'babel-desc' => 'Junci la parser function <code>#babel</code> pi fari la ginirazzioni autumàtica di na culonna babel utenti cu la pussibbilitati di nclùdiri template pirsunalizzati',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Lu nomu utenti spicificatu è usatu pâ criazzioni autumàtica di catigurìi Babel e non pò èssiri riggistratu.',
 	'babel-autocreate-reason' => 'Criu autumàticamenti la pàggina dâ catigurìa Babel.',
@@ -3547,7 +3547,7 @@ $messages['sd'] = array(
  */
 $messages['sh'] = array(
 	'babel' => 'Babel korisničke informacije',
-	'babel-desc' => 'Dodaje <tt>#babel</tt> parsersku funkciju koja omogućava automatsko pravljenje babel korisničke kutije u stupcu sa mogućnostima uključivanja prilagođenih šablona/predložaka',
+	'babel-desc' => 'Dodaje <code>#babel</code> parsersku funkciju koja omogućava automatsko pravljenje babel korisničke kutije u stupcu sa mogućnostima uključivanja prilagođenih šablona/predložaka',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Korisničko ime koje ste naveli se koristi za automatsko pravljenje [[$1|Babel]] kategorija i ne može se registrirati.',
 	'babel-autocreate-reason' => 'Automatsko stvaranje stranica [[$1|Babel]] kategorija.',
@@ -3597,7 +3597,7 @@ $messages['si'] = array(
  */
 $messages['sk'] = array(
 	'babel' => 'Babylon - informácie o používateľovi',
-	'babel-desc' => 'Pridáva funkciu syntaktického analyzátora <tt>#babel</tt>, ktorá umožňuje automatickú tvorbu babylonských šablón používateľov s možnosťou používať prispôsobené šablóny.',
+	'babel-desc' => 'Pridáva funkciu syntaktického analyzátora <code>#babel</code>, ktorá umožňuje automatickú tvorbu babylonských šablón používateľov s možnosťou používať prispôsobené šablóny.',
 	'babel-url' => 'Project:Babylon',
 	'babel-autocreate-abort' => 'Používateľ, ktorého ste zadali sa používa na automatickú tvorbu kategórií [[$1|Babylonu]] a nie je možné ho zaregistrovať.',
 	'babel-autocreate-reason' => 'Automaticky sa vytvára stránka kategórie [[$1|Babylon]].',
@@ -3624,7 +3624,7 @@ $messages['sk'] = array(
  */
 $messages['sl'] = array(
 	'babel' => 'Uporabnikov Babilon',
-	'babel-desc' => 'Doda funkcijo <tt>#babel</tt>, ki omogoča avtomatizirano ustvarjanje babilonskih uporabniških polj z zmožnostjo vključevanja predlog po meri',
+	'babel-desc' => 'Doda funkcijo <code>#babel</code>, ki omogoča avtomatizirano ustvarjanje babilonskih uporabniških polj z zmožnostjo vključevanja predlog po meri',
 	'babel-url' => 'Project:Babilon',
 	'babel-autocreate-reason' => 'Samodejno ustvarjanje [[$1|babilonske]] kategorije.',
 	'babel-autocreate-text-levels' => 'Uporabniki navedeni v tej kategoriji imajo naslednjo jezikovno sposobnost $1 $2.',
@@ -3651,7 +3651,7 @@ $messages['sl'] = array(
  */
 $messages['sli'] = array(
 	'babel' => 'Babel-Benutzer-Information',
-	'babel-desc' => 'Ergänzt de <tt>#babel</tt>-Parserfunktion zur automatischen Erstellung vo Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
+	'babel-desc' => 'Ergänzt de <code>#babel</code>-Parserfunktion zur automatischen Erstellung vo Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Dar oausgewählte Nutzername werd fier de automatische Arstellung voo [[$1|Babel]]-Kategoria benötigt un kaon nä registriert werda.',
 	'babel-autocreate-reason' => 'Automatisch arstellte [[$1|Babel]]-Kategorie.',
@@ -3679,7 +3679,7 @@ $messages['sli'] = array(
  */
 $messages['sq'] = array(
 	'babel' => 'Informacioni Babel i Përdoruesit',
-	'babel-desc' => 'Shton mundësinë <tt>#babel</tt> për të lejuar krijimin automatik të kutive babel me mundësinë për të shtuar stampa vetjake.',
+	'babel-desc' => 'Shton mundësinë <code>#babel</code> për të lejuar krijimin automatik të kutive babel me mundësinë për të shtuar stampa vetjake.',
 	'babel-url' => 'Project:Babel',
 	'babel-0' => 'Ky përdorues [[$1|nuk ka]] njohuri të [[$2|$3]] (ose e kupton me shumë vështirësi).',
 	'babel-1' => 'Ky përdorues ka njohuri [[$1|të kufizuar]] të [[$2|$3]].',
@@ -3702,7 +3702,7 @@ $messages['sq'] = array(
  */
 $messages['sr-ec'] = array(
 	'babel' => 'Језичке кутијице',
-	'babel-desc' => 'Додаје парсер-функцију <tt>#babel</tt>, која омогућује аутоматизовано додавање језичких кутијица уз могућност укључивања сопствених шаблона',
+	'babel-desc' => 'Додаје парсер-функцију <code>#babel</code>, која омогућује аутоматизовано додавање језичких кутијица уз могућност укључивања сопствених шаблона',
 	'babel-0' => 'Овај корисник [[$1|не]] зна [[$2|$3]] језик (или га разуме са знатним потешкоћама)',
 	'babel-1' => 'Овај корисник говори [[$2|$3]] језик [[$1|почетнички]].',
 	'babel-2' => 'Овај корисник [[$1|средње]] познаје [[$2|$3]] језик.',
@@ -3724,7 +3724,7 @@ $messages['sr-ec'] = array(
  */
 $messages['sr-el'] = array(
 	'babel' => 'Jezičke kutijice',
-	'babel-desc' => 'Dodaje parser-funkciju <tt>#babel</tt>, koja omogućuje automatizovano dodavanje jezičkih kutijica uz mogućnost uključivanja sopstvenih šablona',
+	'babel-desc' => 'Dodaje parser-funkciju <code>#babel</code>, koja omogućuje automatizovano dodavanje jezičkih kutijica uz mogućnost uključivanja sopstvenih šablona',
 	'babel-0' => 'Ovaj korisnik [[$1|ne]] zna [[$2|$3]] jezik (ili ga razume sa znatnim poteškoćama)',
 	'babel-1' => 'Ovaj korisnik govori [[$2|$3]] jezik [[$1|početnički]].',
 	'babel-2' => 'Ovaj korisnik [[$1|srednje]] poznaje [[$2|$3]] jezik.',
@@ -3748,7 +3748,7 @@ $messages['sr-el'] = array(
  */
 $messages['stq'] = array(
 	'babel' => 'Babel-Benutser-Information',
-	'babel-desc' => 'Föiget an ju <tt>#babel</tt>-Parserfunktion foar automatisk Deerstaalen fon Babel-Benutserboxen-Riegen ju Muugelkhaid tou, oaine Foarloagen ientoubienden',
+	'babel-desc' => 'Föiget an ju <code>#babel</code>-Parserfunktion foar automatisk Deerstaalen fon Babel-Benutserboxen-Riegen ju Muugelkhaid tou, oaine Foarloagen ientoubienden',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Die uutwäälde Benutsernoome wäd foar dät automatisk Moakjen fon [[$1|Babel]]-Kategorien benöödiged un kon nit registrierd wäide.',
 	'babel-autocreate-reason' => 'Automatisk moakede [[$1|Babel]]-Kategorie.',
@@ -3775,7 +3775,7 @@ $messages['stq'] = array(
  */
 $messages['su'] = array(
 	'babel' => 'Katerangan Babel Pamaké',
-	'babel-desc' => 'Nambahan fungsi parser <tt>#babel</tt> pikeun mintonkeun lajur babel kotak pamaké sacara otomatis jeung pangabisa ngagunakeun citakan dinamis',
+	'babel-desc' => 'Nambahan fungsi parser <code>#babel</code> pikeun mintonkeun lajur babel kotak pamaké sacara otomatis jeung pangabisa ngagunakeun citakan dinamis',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Ngaran pamaké anu diasupkeun dipaké pikeun nyieun otomatis kategori [[$1|Babel]] sarta henteu bisa didaftarkeun.',
 	'babel-autocreate-reason' => 'Otomatis nyieun kaca kategori [[$1|Babel]].',
@@ -3806,7 +3806,7 @@ $messages['su'] = array(
  */
 $messages['sv'] = array(
 	'babel' => 'Babel Användarinformation',
-	'babel-desc' => 'Lägger till parserfunktionen <tt>#babel</tt> för att tillåta att det automatiskt skapas en babelboxkolumn med möjligheten att lägga till anpassade mallar',
+	'babel-desc' => 'Lägger till parserfunktionen <code>#babel</code> för att tillåta att det automatiskt skapas en babelboxkolumn med möjligheten att lägga till anpassade mallar',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Användarnamnet du valde används för automatiskt skapande av [[$1|Babel]]-kategorier och kan därför inte registreras.',
 	'babel-autocreate-reason' => 'Skapar automatiskt en [[$1|Babel]]-kategorisida.',
@@ -3869,7 +3869,7 @@ $messages['szl'] = array(
  */
 $messages['ta'] = array(
 	'babel' => 'பாபேல் பயனர் தகவல்கள்',
-	'babel-desc' => 'தனிப்பட்ட வார்ப்புருக்கள் உள்ளடங்களாக தானியக்கமாக பாபேல் பயனர் பெட்டிகளை ஆக்குவதை முடுக்கும் வகையில் <tt>#babel</tt>இலக்கணப் பாகுபடுத்தி சார்பை இணைக்கிறது.',
+	'babel-desc' => 'தனிப்பட்ட வார்ப்புருக்கள் உள்ளடங்களாக தானியக்கமாக பாபேல் பயனர் பெட்டிகளை ஆக்குவதை முடுக்கும் வகையில் <code>#babel</code>இலக்கணப் பாகுபடுத்தி சார்பை இணைக்கிறது.',
 	'babel-url' => 'Project:பாபேல்',
 	'babel-0' => 'இந்தப் பயனர் [[$2|$3]] மொழியில் [[$1|பயிற்சி இல்லாதவர்]] (அல்லது கடினப்பாடுகளுடன் விளங்கிக் கொள்ளகிறார்).',
 	'babel-1' => 'இந்தப் பயனர் [[$2|$3]] மொழியில் [[$1|அடிப்படை அறிவைக்]] கொண்டவர்.',
@@ -3892,7 +3892,7 @@ $messages['ta'] = array(
  */
 $messages['tcy'] = array(
 	'babel' => 'ಬೇಬಲ್ ಬಳಕೆದಾರೆರ್ನ ಮಾಹಿತಿ',
-	'babel-desc' => '<tt>#babel</tt> ಪಾರ್ಸರ್ ಫ೦ಕ್ಷನ್ ನ್ ಸೇರ್ಸಾವು೦ಡು. ಈ ಪಾರ್ಸರ್ ಫ೦ಕ್ಷನ್ ಬೇಬಲ್ ಬಳಕೆದಾರೆರ್ನ ಬಾಕ್ಸ್ ನ್ ಸೃಷ್ಟಿ ಮಲ್ಪು೦ಡು. ನೆನೆ ಬುಕ ಕಸ್ಟಮ್ ಟೆ೦ಪ್ಲಟ್ ಡ್ ಪಾಡೊಲಿ.',
+	'babel-desc' => '<code>#babel</code> ಪಾರ್ಸರ್ ಫ೦ಕ್ಷನ್ ನ್ ಸೇರ್ಸಾವು೦ಡು. ಈ ಪಾರ್ಸರ್ ಫ೦ಕ್ಷನ್ ಬೇಬಲ್ ಬಳಕೆದಾರೆರ್ನ ಬಾಕ್ಸ್ ನ್ ಸೃಷ್ಟಿ ಮಲ್ಪು೦ಡು. ನೆನೆ ಬುಕ ಕಸ್ಟಮ್ ಟೆ೦ಪ್ಲಟ್ ಡ್ ಪಾಡೊಲಿ.',
 	'babel-url' => 'Project:ಬೇಬಲ್',
 	'babel-directionality' => 'ಎಡರ್ದ್ ಬಲ',
 	'babel-0' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್  [[$2|$3]] ನೆತ ಬಗ್ಗೆ [[$1|ಶೂನ್ಯ]] ಜ್ನಾನ ಉ೦ಡು (ಅತ್ತ೦ಡ ಭಾರಿ ಕಷ್ಟೊಡು ಅರ್ಥ ಮಲ್ತೊನ್ವೆರ್)',
@@ -3918,7 +3918,7 @@ $messages['tcy'] = array(
  */
 $messages['te'] = array(
 	'babel' => 'సభ్యుని బేబెల్ సమాచారం',
-	'babel-desc' => '<tt>#babel</tt> పార్సరు ఫంక్సనుని కలపటం ద్వారా, బేబెల్ వాడుకరి పెట్టెల వరుసలో, ఇతర మూసలను కూడా జతపరచగలిగేటటు సృష్టిస్తుంది',
+	'babel-desc' => '<code>#babel</code> పార్సరు ఫంక్సనుని కలపటం ద్వారా, బేబెల్ వాడుకరి పెట్టెల వరుసలో, ఇతర మూసలను కూడా జతపరచగలిగేటటు సృష్టిస్తుంది',
 	'babel-url' => 'Project:బేబెల్',
 	'babel-autocreate-abort' => 'మీరు పేర్కొన్న సభ్యనామము [[$1|బాబెల్]] యొక్క వర్గ సృష్తీకరణకు ఉపయోగిస్తారు కావున నమోదు చేయలేము.',
 	'babel-autocreate-reason' => '[[$1|బాబెల్]] వర్గ పేజిని ఆటోమాటిక్ గా సృష్టిస్తున్నాము',
@@ -3945,7 +3945,7 @@ $messages['te'] = array(
  */
 $messages['tg-cyrl'] = array(
 	'babel' => 'Иттилооти Корбари Бобул',
-	'babel-desc' => 'Дастури таҷзеҳгарро <tt>#babel</tt> изофа мекунад, ки имкони эҷоди худкори ҷаъбаҳои коргарии бобул бо қобилияти ғунҷонидани шаблонҳои дихоҳро фароҳам мекунад',
+	'babel-desc' => 'Дастури таҷзеҳгарро <code>#babel</code> изофа мекунад, ки имкони эҷоди худкори ҷаъбаҳои коргарии бобул бо қобилияти ғунҷонидани шаблонҳои дихоҳро фароҳам мекунад',
 	'babel-url' => 'Project:Бобул',
 	'babel-0' => 'Ин корбар [[$2|$3]]ро [[$1|намефаҳмад]] (ё онро бо душворӣ мефаҳмад).',
 	'babel-1' => 'Ин корбар [[$2|$3]]ро дар сатҳи [[$1|муқаддамотӣ]] мефаҳмад.',
@@ -3957,7 +3957,7 @@ $messages['tg-cyrl'] = array(
  */
 $messages['tg-latn'] = array(
 	'babel' => 'Ittilooti Korbari Bobul',
-	'babel-desc' => "Dasturi taçzehgarro <tt>#babel</tt> izofa mekunad, ki imkoni eçodi xudkori ça'bahoi korgariji bobul bo qobilijati ƣunçonidani şablonhoi dixohro faroham mekunad",
+	'babel-desc' => "Dasturi taçzehgarro <code>#babel</code> izofa mekunad, ki imkoni eçodi xudkori ça'bahoi korgariji bobul bo qobilijati ƣunçonidani şablonhoi dixohro faroham mekunad",
 	'babel-url' => 'Project:Bobul',
 	'babel-0' => 'In korbar [[$2|$3]]ro [[$1|namefahmad]] (jo onro bo duşvorī mefahmad).',
 	'babel-1' => 'In korbar [[$2|$3]]ro dar sathi [[$1|muqaddamotī]] mefahmad.',
@@ -3970,7 +3970,7 @@ $messages['tg-latn'] = array(
  */
 $messages['th'] = array(
 	'babel' => 'ข้อมูลภาษาของผู้ใช้',
-	'babel-desc' => 'ใส่ฟังก์ชัน <tt>#babel</tt> เพื่อที่จะใส่คอลัมน์กล่องผู้ใช้บาเบลอัตโนมัติ รวมทั้งความสามารถที่จะใส่แม่แบบที่ต้องการได้ด้วย',
+	'babel-desc' => 'ใส่ฟังก์ชัน <code>#babel</code> เพื่อที่จะใส่คอลัมน์กล่องผู้ใช้บาเบลอัตโนมัติ รวมทั้งความสามารถที่จะใส่แม่แบบที่ต้องการได้ด้วย',
 	'babel-url' => 'Project:บาเบล',
 	'babel-autocreate-abort' => 'ผู้้้ใช้ที่คุณระบุถูกใช้ในการสร้างหน้าหมวดหมู่[[$1|บาเบล]]อัตโนมัติ และไม่สามารถสมัครได้',
 	'babel-autocreate-reason' => 'สร้างหน้าหมวดหมู่[[$1|บาเบล]]อัตโนมัติ',
@@ -3997,7 +3997,7 @@ $messages['th'] = array(
  */
 $messages['tk'] = array(
 	'babel' => 'Babyl ulanyjy maglumaty',
-	'babel-desc' => 'Ýörite şablonlary öz içine almak häsiýeti bar bolan Babyl ulanyjy gutusy sütüniniň awtomatik usulda döredilmegi üçin <tt>#babel</tt> parser funksiýasyny goşýar',
+	'babel-desc' => 'Ýörite şablonlary öz içine almak häsiýeti bar bolan Babyl ulanyjy gutusy sütüniniň awtomatik usulda döredilmegi üçin <code>#babel</code> parser funksiýasyny goşýar',
 	'babel-url' => 'Project:Babyl',
 	'babel-autocreate-abort' => 'Görkezen ulanyjy adyňyz [[$1|Babyl]] kategoriýasynyň awtomatik usulda döredilmeginde ulanylýar we ony alyp bolmaýar.',
 	'babel-autocreate-reason' => 'Awtomatik usulda [[$1|Babyl]] kategoriýa sahypasy döredilýär.',
@@ -4024,7 +4024,7 @@ $messages['tk'] = array(
  */
 $messages['tl'] = array(
 	'babel' => 'Kabatirang pangtagagamit ng Babel',
-	'babel-desc' => "Nagdaragdag ng tungkuling pambanghay (''parser'') na <tt>#babel</tt> para payagan ang kusang paglitaw ng isang hanay sa kahong pantagagamit ng babel na may kakayahang magsali ng nakahandang mga suleras",
+	'babel-desc' => "Nagdaragdag ng tungkuling pambanghay (''parser'') na <code>#babel</code> para payagan ang kusang paglitaw ng isang hanay sa kahong pantagagamit ng babel na may kakayahang magsali ng nakahandang mga suleras",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Ang tinukoy mong pangalan ng tagagamit ay ginagamit para sa kusang paglikha ng kauriang pam-[[$1|Babel]] at hindi maitatala.',
 	'babel-autocreate-reason' => 'Kusang lumilikha ng pahina ng kauriang pam-[[$1|Babel]].',
@@ -4086,7 +4086,7 @@ $messages['tpi'] = array(
  */
 $messages['tr'] = array(
 	'babel' => 'Babil kullanıcı bilgileri',
-	'babel-desc' => 'Özel şablonlar içerme özelliği olan Babil kullanıcı kutusu sütununun otomatik oluşturulması için <tt>#babel</tt> derleyici fonksiyonunu ekler',
+	'babel-desc' => 'Özel şablonlar içerme özelliği olan Babil kullanıcı kutusu sütununun otomatik oluşturulması için <code>#babel</code> derleyici fonksiyonunu ekler',
 	'babel-url' => 'Project:Babil',
 	'babel-autocreate-abort' => 'Belirttiğiniz kullanıcı adı [[$1|Babil]] kategorisinin otomatik oluşturulması için kullanılıyor ve alınamaz.',
 	'babel-autocreate-reason' => 'Otomatik olarak [[$1|Babil]] kategori sayfası oluşturuluyor.',
@@ -4133,7 +4133,7 @@ $messages['tyv'] = array(
  */
 $messages['uk'] = array(
 	'babel' => 'Відомості про мови учасника (Вавилон)',
-	'babel-desc' => 'Додає функцію парсера <tt>#babel</tt>, яка дозволяє автоматично створювати стовпець про володіння мовами з можливістю включення інших шаблонів',
+	'babel-desc' => 'Додає функцію парсера <code>#babel</code>, яка дозволяє автоматично створювати стовпець про володіння мовами з можливістю включення інших шаблонів',
 	'babel-url' => 'Project:Вавилон',
 	'babel-autocreate-abort' => "Зазначене ім'я учасника використовується для автоматичного створення категорій [[$1|Вавилон]] і не може бути зареєстровано.",
 	'babel-autocreate-reason' => 'Автоматичне створення сторінки категорії [[$1|Вавилон]].',
@@ -4188,7 +4188,7 @@ $messages['ur'] = array(
  */
 $messages['vec'] = array(
 	'babel' => "Informassion su l'utente de Babel",
-	'babel-desc' => 'Zonta la funsion parser <tt>#babel</tt> par permétar la generazion automatica de un riquadro "utente Babel" con la possibilità de inserir template personalizà',
+	'babel-desc' => 'Zonta la funsion parser <code>#babel</code> par permétar la generazion automatica de un riquadro "utente Babel" con la possibilità de inserir template personalizà',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'El nome utente speçificà el xe doparà par la creassion automàtega de categorie [[$1|Babel]] e no se pol registrarlo.',
 	'babel-autocreate-reason' => 'Creo automaticamente la pàxena de la categoria [[$1|Babel]].',
@@ -4215,7 +4215,7 @@ $messages['vec'] = array(
  */
 $messages['vep'] = array(
 	'babel' => 'Andmused ühtnijan keliš',
-	'babel-desc' => 'Ližadab <tt>#babel</tt>-parseran funkcii, kudamb laskeb säta avtomatižešti pacaz informacijanke keliš, kudambha sab ližata toižid-ki šablonoid',
+	'babel-desc' => 'Ližadab <code>#babel</code>-parseran funkcii, kudamb laskeb säta avtomatižešti pacaz informacijanke keliš, kudambha sab ližata toižid-ki šablonoid',
 	'babel-url' => 'Project:Vavilon',
 	'babel-autocreate-abort' => 'Teil kirjutadud ühtnijan nimi kävutadas [[$1|Babel]]-projektan kategorijoiden avtomatižen sädandan täht, i sikš sidä ei sa registriruida.',
 	'babel-autocreate-reason' => '[[$1|Babel]]-projektan avtomatine lehtpolen sädand.',
@@ -4243,7 +4243,7 @@ $messages['vep'] = array(
  */
 $messages['vi'] = array(
 	'babel' => 'Thông tin Ngôn ngữ Thành viên',
-	'babel-desc' => 'Thêm hàm cú pháp <tt>#babel</tt> để cho phép tự động sinh ra một hộp thông tin ngôn ngữ thành viên và có thể thêm vào những bản mẫu tùy chọn',
+	'babel-desc' => 'Thêm hàm cú pháp <code>#babel</code> để cho phép tự động sinh ra một hộp thông tin ngôn ngữ thành viên và có thể thêm vào những bản mẫu tùy chọn',
 	'babel-url' => 'Project:Ngôn ngữ',
 	'babel-autocreate-abort' => 'Tên người dùng bạn yêu cầu được dùng để tự động tạo thể loại [[$1|Babel]] và không thể đăng ký.',
 	'babel-autocreate-reason' => 'Tự động tạo trang thể loại [[$1|Babel]].',
@@ -4270,7 +4270,7 @@ $messages['vi'] = array(
  */
 $messages['vmf'] = array(
 	'babel' => 'Babel-bajdreechâr-ôôgaawâ',
-	'babel-desc' => 'Fiichd â <tt>#babel</tt>-bhaarsâr-fungdsjoon âu, mid därâ mr dan audomaadisch â schbaldâ mid ghäschdlâ aus bearbajdâr-ôôgaawâ bäschdlâ ghôô. Fir diâ ghäschdlâ ghôô mr dâbaj ajchâne foorlaachâ âjsedsâ.',
+	'babel-desc' => 'Fiichd â <code>#babel</code>-bhaarsâr-fungdsjoon âu, mid därâ mr dan audomaadisch â schbaldâ mid ghäschdlâ aus bearbajdâr-ôôgaawâ bäschdlâ ghôô. Fir diâ ghäschdlâ ghôô mr dâbaj ajchâne foorlaachâ âjsedsâ.',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "Däär bearbajdârnôômâ, den'd ôôgääwâ hasch, wird fir d'audomaadische erdsajchung fon [[$1|Babel]]-ghadegôriiâ gnumâ, den ghâu mr dan awâr ned regischdriirâ.",
 	'babel-autocreate-reason' => "Audomaadische erdsajchung fon'râr [[$1|Babel]]-ghadegôrii.",
@@ -4324,7 +4324,7 @@ $messages['vo'] = array(
  */
 $messages['vot'] = array(
 	'babel' => 'Tšäüttijää tšeelesnorofka',
-	'babel-desc' => 'Lissäb <tt>#babel</tt>-funkttsiaa, kumpa annab tšäüttijää luvaa tšeelisnorofka-škatulkaa lissämä.',
+	'babel-desc' => 'Lissäb <code>#babel</code>-funkttsiaa, kumpa annab tšäüttijää luvaa tšeelisnorofka-škatulkaa lissämä.',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Tšäüttijänimi, kumpa õõd antõnnu, on zańimoitõttu [[$1|Babelii]] meelegruppaa avtomattskoi loomizõõ, sissi ed või registriiroitta sitä.',
 	'babel-autocreate-reason' => '[[$1|Babelii]] meelegruppatšüľľee avtomattskoi loomin.',
@@ -4351,7 +4351,7 @@ $messages['vot'] = array(
  */
 $messages['vro'] = array(
 	'babel' => 'Pruukja keelemõistminõ (Paabõli perrä)',
-	'babel-desc' => 'Tege <tt>#babel</tt>-abinõvvo, miä luu esiq pruukja keelemõistmisõ tabõli, kohe saa pandaq näüdüssit.',
+	'babel-desc' => 'Tege <code>#babel</code>-abinõvvo, miä luu esiq pruukja keelemõistmisõ tabõli, kohe saa pandaq näüdüssit.',
 	'babel-url' => 'Project:Paabõl',
 	'babel-0' => 'Taa pruukja mõist [[$1|väega veidüq vai ei sukugi]] [[$2|$3]] kiilt.',
 	'babel-1' => 'Taa pruukja mõist [[$1|veidükese]] [[$2|$3]] kiilt.',
@@ -4433,7 +4433,7 @@ $messages['xal'] = array(
  */
 $messages['yi'] = array(
 	'babel' => 'באבעל באניצער אינפארמאציע',
-	'babel-desc' => 'לייגט צו די <tt>#babel</tt> פארזער פונקציע צו דערלויבן אויטאמאטישע גענערירונג פון א באבעל באניצער-קעסטל זייל, מיט דער מעגלעכקייט איינשליסן אייגענע מוסטערן',
+	'babel-desc' => 'לייגט צו די <code>#babel</code> פארזער פונקציע צו דערלויבן אויטאמאטישע גענערירונג פון א באבעל באניצער-קעסטל זייל, מיט דער מעגלעכקייט איינשליסן אייגענע מוסטערן',
 	'babel-url' => 'Project:באבעל',
 	'babel-autocreate-abort' => "דעם באניצער נאמען וואס איר האט ספעציפירט ווערט באניצט פאר [[$1|באבעל]] קאטעגאריע אויטאמאטיש שאפן און מ'קען אים נישט איינשרייבן.",
 	'babel-autocreate-reason' => 'שאפֿן אויטאמאטיש [[$1|באבעל]] קאטעגאריע בלאט.',
@@ -4485,7 +4485,7 @@ $messages['yo'] = array(
  */
 $messages['yue'] = array(
 	'babel' => '巴別用戶資料',
-	'babel-desc' => '加一個<tt>#babel</tt>處理功能去容許自動產生一個巴別用戶盒欄及包含可自定化嘅模',
+	'babel-desc' => '加一個<code>#babel</code>處理功能去容許自動產生一個巴別用戶盒欄及包含可自定化嘅模',
 	'babel-url' => 'Project:巴別',
 	'babel-0' => '呢位用戶[[$1|無]][[$2|$3]]嘅知識（或好難噉去明白佢）。',
 	'babel-1' => '呢位用戶有[[$1|基本]]嘅[[$2|$3]]知識。',
@@ -4523,7 +4523,7 @@ $messages['zh-cn'] = array(
  */
 $messages['zh-hans'] = array(
 	'babel' => '巴别用户细节',
-	'babel-desc' => '加一个<tt>#babel</tt>处理功能去容许自动产生一个巴别用户框栏及包含可自定化的模版',
+	'babel-desc' => '加一个<code>#babel</code>处理功能去容许自动产生一个巴别用户框栏及包含可自定化的模版',
 	'babel-url' => 'Project:巴别',
 	'babel-autocreate-abort' => '您所指定的用户名不能被注册，因其被用作[[$1|巴别]]分类的自动创建。',
 	'babel-autocreate-reason' => '自动建立[[$1|巴别]]分类页。',
@@ -4552,7 +4552,7 @@ $messages['zh-hans'] = array(
  */
 $messages['zh-hant'] = array(
 	'babel' => '巴別用戶資料',
-	'babel-desc' => '加一個<tt>#babel</tt>處理功能去容許自動產生一個巴別用戶框欄及包含可自定化的模版',
+	'babel-desc' => '加一個<code>#babel</code>處理功能去容許自動產生一個巴別用戶框欄及包含可自定化的模版',
 	'babel-url' => 'Project:巴別',
 	'babel-autocreate-abort' => '您所指定的用戶名不能被註冊，因其被用作[[$1|巴別]]分類的自動創建。',
 	'babel-autocreate-reason' => '自動建立[[$1|巴別]]分類頁。',
