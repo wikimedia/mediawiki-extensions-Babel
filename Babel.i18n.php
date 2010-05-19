@@ -3337,17 +3337,17 @@ $messages['rm'] = array(
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
-	'babel' => 'Informaţii despre utilizatorul Babel',
-	'babel-desc' => 'Adaugă funcţia de parsare <code>#babel</code> pentru generarea automată a coloanei de cutii de utilizator babel, cu posibilitatea de a include formate personalizate',
+	'babel' => 'Informații despre utilizatorul Babel',
+	'babel-desc' => 'Adaugă funcția de parsare <code>#babel</code> pentru generarea automată a coloanei de cutii de utilizator babel, cu posibilitatea de a include formate personalizate',
 	'babel-url' => 'Project:Babel',
-	'babel-0' => 'Acest utilizator [[$1|nu]] are cunoştinţe de [[$2|$3]] (sau înţelege cu mare dificultate).',
+	'babel-0' => 'Acest utilizator [[$1|nu]] are cunoștințe de [[$2|$3]] (sau înțelege cu mare dificultate).',
 	'babel-1' => 'Acest utilizator poate contribui cu un nivel [[$1|de bază]] de [[$2|$3]].',
 	'babel-2' => 'Acest utilizator poate contribui cu un nivel [[$1|intermediar]] de [[$2|$3]].',
 	'babel-3' => 'Acest utilizator poate contribui cu un nivel [[$1|avansat]] de [[$2|$3]].',
 	'babel-4' => 'Acest utilizator poate contribui cu un nivel [[$1|aproape nativ]] de [[$2|$3]].',
 	'babel-5' => 'Acest utilizator contribuie folosind un nivel [[$1|profesional]] de [[$2|$3]].',
 	'babel-N' => 'Acest utilizator este un vorbitor [[$1|nativ]] al [[$2|$3]].',
-	'babel-0-n' => 'Acest utilizator [[$1|nu]] are cunoştinţe de [[$2|română]] (sau înţelege cu mare dificultate).',
+	'babel-0-n' => 'Acest utilizator [[$1|nu]] are cunoștințe de [[$2|română]] (sau înțelege cu mare dificultate).',
 	'babel-1-n' => 'Acest utilizator poate contribui cu un nivel [[$1|de bază]] de [[$2|română]].',
 	'babel-2-n' => 'Acest utilizator poate contribui cu un nivel [[$1|intermediar]] de [[$2|română]].',
 	'babel-3-n' => 'Acest utilizator poate contribui cu un nivel [[$1|avansat]] de [[$2|română]].',
@@ -3620,12 +3620,14 @@ $messages['sk'] = array(
 );
 
 /** Slovenian (Slovenščina)
+ * @author Dbc334
  * @author Smihael
  */
 $messages['sl'] = array(
 	'babel' => 'Uporabnikov Babilon',
 	'babel-desc' => 'Doda funkcijo <code>#babel</code>, ki omogoča avtomatizirano ustvarjanje babilonskih uporabniških polj z zmožnostjo vključevanja predlog po meri',
 	'babel-url' => 'Project:Babilon',
+	'babel-autocreate-abort' => 'Uporabniško ime, ki ste ga določili, se uporablja za samodejno ustvarjanje kategorij [[$1|Babel]] in ga ni mogoče registirati.',
 	'babel-autocreate-reason' => 'Samodejno ustvarjanje [[$1|babilonske]] kategorije.',
 	'babel-autocreate-text-levels' => 'Uporabniki navedeni v tej kategoriji imajo naslednjo jezikovno sposobnost $1 $2.',
 	'babel-autocreate-text-main' => 'Uporabniki navedeni v tej kategoriji imajo znanje jezika »$1«.',
