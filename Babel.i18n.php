@@ -1919,6 +1919,7 @@ $messages['id'] = array(
  */
 $messages['ig'] = array(
 	'babel' => 'Ihe Babul ejiá mari onyeá',
+	'babel-desc' => 'Nè tí <code>#babel</code> ihe ndotù Í nyé uzor maka okìké nke orúnotu nke ogologo  babel nweríkí tinyé ihü nka nke ékèrè eké',
 	'babel-url' => 'Project:Babul',
 	'babel-autocreate-reason' => 'Odạlạ né ké [[$1|Babel]] ébé ihü nọr.',
 	'babel-0' => 'Onyéá [[$1|enweghị]] ómárí maka [[$2|$3]] (mä o wu ó na gé yá nsogbu dikwa elú ya).',
