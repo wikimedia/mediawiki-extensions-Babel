@@ -3944,6 +3944,16 @@ $messages['te'] = array(
 	'babel-N-n' => 'ఈ వాడుకరి [[$1|మాతృభాష]] [[$2|తెలుగు]].',
 );
 
+/** Tetum (Tetun)
+ * @author MF-Warburg
+ */
+$messages['tet'] = array(
+	'babel-1' => "Uza-na'in ne'e bele kontribui ho nivel [[$1|báziku]] iha lian [[$2|$3]].",
+	'babel-2' => "Uza-na'in ne'e bele kontribui ho nivel [[$1|maizumenus]] iha lian [[$2|$3]].",
+	'babel-3' => "Uza-na'in ne'e bele kontribui ho nivel [[$1|aas]] iha lian [[$2|$3]].",
+	'babel-N' => "Uza-na'in ne'e iha [[$2|$3]] nu'udar [[$1|lian inan]].",
+);
+
 /** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
  * @author Ibrahim
  */
