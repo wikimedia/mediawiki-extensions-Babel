@@ -5,7 +5,8 @@
  * Adds a parser function to allow automated generation of a babel userbox
  * column with the ability to include custom templates.
  *
- * @addtogroup Extensions
+ * @file
+ * @ingroup Extensions
  *
  * @link http://www.mediawiki.org/wiki/Extension:Babel
  *

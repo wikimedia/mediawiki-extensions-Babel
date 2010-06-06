@@ -2,7 +2,7 @@
 /**
  * Main class for the Babel extension.
  *
- * @addtogroup Extensions
+ * @ingroup Extensions
  */
 
 class Babel {

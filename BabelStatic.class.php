@@ -2,9 +2,8 @@
 /**
  * Static functions for Babel extension.
  *
- * @addtogroup Extensions
+ * @ingroup Extensions
  */
-
 class BabelStatic {
 	/**
 	 * Registers the parser function hook.

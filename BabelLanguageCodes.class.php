@@ -3,9 +3,8 @@
  * Handle language code (and name) processing for the Babel extension, can also
  * be used by other extension which need such functionality.
  *
- * @addtogroup Extensions
+ * @ingroup Extensions
  */
-
 class BabelLanguageCodes {
 	/**
 	 * Take a code as input, then use various magic to return a "better"

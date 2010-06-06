@@ -2,9 +2,8 @@
 /**
  * Class for automatic rcreate of Babel category pages.
  *
- * @addtogroup Extensions
+ * @ingroup Extensions
  */
-
 class BabelAutoCreate {
 	static $user = false;
 

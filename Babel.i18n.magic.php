@@ -2,7 +2,8 @@
 /**
  * Internationalisation file for Babel extension.
  *
- * @addtogroup Extensions
+ * @file
+ * @ingroup Extensions
  */
 
 $magicWords = array();
