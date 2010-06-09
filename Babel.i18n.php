@@ -224,21 +224,21 @@ $messages['aln'] = array(
  * @author Juanpabl
  */
 $messages['an'] = array(
-	'babel' => "Informazión d'usuario de Babel",
-	'babel-desc' => "Adibe a funzión <code>#babel</code> de parseyo ta premitir a chenerazión automatica d'una colunna de caixas d'usuario de babel, con a posibilidat d'encluyir-ie plantillas personalizatas",
+	'babel' => "Información d'usuario de Babel",
+	'babel-desc' => "Adibe a función <code>#babel</code> de parseyo ta premitir a cheneración automatica d'una colunna de caixas d'usuario de babel, con a posibilidat d'encluyir-ie plantillas personalizatas",
 	'babel-url' => 'Project:Babel',
 	'babel-0' => 'Iste usuario [[$1|no]] conoixe brenca o [[$2|$3]] (u lo entiende malament).',
 	'babel-1' => 'Iste usuario conoixe o [[$2|$3]] con un libel [[$1|basico]].',
 	'babel-2' => 'Iste usuario conoixe o [[$2|$3]] con un libel [[$1|meyo]].',
 	'babel-3' => 'Iste usuario conoixe o [[$2|$3]] con un libel [[$1|abanzato]].',
-	'babel-4' => 'Iste conoixe o [[$2|$3]] con un libel [[$1|cuasi natibo]].',
+	'babel-4' => 'Iste conoixe o [[$2|$3]] con un libel [[$1|quasi nativo]].',
 	'babel-5' => 'Iste usuario conoixe o [[$2|$3]] con un libel [[$1|profesional]].',
-	'babel-N' => "Iste usuario conoixe o [[$2|$3]] con o libel d'un fablador [[$1|natibo]].",
+	'babel-N' => "Iste usuario conoixe o [[$2|$3]] con o libel d'un fablador [[$1|nativo]].",
 	'babel-0-n' => "Iste usuario [[$1|no]] conoixe brenca l'[[$2|aragonés]] (u lo entiende malament)",
 	'babel-1-n' => "Iste usuario conoixe l'[[$2|aragonés]] con un libel [[$1|basico]].",
 	'babel-2-n' => "Iste usuario conoixe l'[[$2|aragonés]] con un libel [[$1|meyo]].",
 	'babel-3-n' => "Iste usuario conoixe l'[[$2|aragonés]] con un libel [[$1|abanzato]].",
-	'babel-4-n' => "Iste usuario conoixe l'[[$2|aragonés]] con un libel [[$1|cuasi natibo]].",
+	'babel-4-n' => "Iste usuario conoixe l'[[$2|aragonés]] con un libel [[$1|quasi nativo]].",
 	'babel-5-n' => "Iste usuario conoixe l'[[$2|aragonés]] con un libel [[$1|profesional]].",
 	'babel-N-n' => "Iste usuario conoixe l'[[$2|aragonés]] con o libel d'un fablador [[$1|patrimonial]].",
 );
