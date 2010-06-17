@@ -133,7 +133,7 @@ $messages['kea'] = array(
  */
 $messages['ary'] = array(
 	'babel' => 'Meĝlomaṫ Babil ĝla l-mosṫeĥdim',
-	'babel-desc' => "Zid l-fonksyon <code>#babel</code> baċ ṫeĥṫareĝ ṫilqa'iyyan sendoq Babil o ṫeĝmel fih modélaṫ maḫelliyin.",
+	'babel-desc' => 'Zid l-fonksyon <code>#babel</code> baċ ṫṣayeb otomaṫikiyan sendoq Babil o ṫeĝmel fih modélaṫ maḫelliyin.',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => "Smiyṫ l-mosṫeĥdim li deĥĥelṫi mosṫeĥdama le l-ĥṫiraĝ l-'otomaṫiki dyal l-katégoryaṫ [[$1|Babil]] o ma imkenlikċ ṫċejlo.",
 	'babel-autocreate-reason' => 'Ĥṫiraĝ otomaṫiki dyal l-katégori [[$1|Babel]].',
