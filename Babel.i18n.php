@@ -3340,10 +3340,11 @@ $messages['rm'] = array(
 );
 
 /** Romanian (Română)
+ * @author Cin
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
-	'babel' => 'Informații despre utilizatorul Babel',
+	'babel' => 'Informații Babel despre utilizator',
 	'babel-desc' => 'Adaugă funcția de parsare <code>#babel</code> pentru generarea automată a coloanei de cutii de utilizator babel, cu posibilitatea de a include formate personalizate',
 	'babel-url' => 'Project:Babel',
 	'babel-0' => 'Acest utilizator [[$1|nu]] are cunoștințe de [[$2|$3]] (sau înțelege cu mare dificultate).',
