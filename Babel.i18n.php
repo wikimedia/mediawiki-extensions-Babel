@@ -1465,30 +1465,33 @@ $messages['gan'] = array(
 );
 
 /** Scottish Gaelic (Gàidhlig)
+ * @author Akerbeltz
  * @author Caoimhin
  * @author Sionnach
  * @author Steafan31
  */
 $messages['gd'] = array(
-	'babel' => 'Fiosrachadh Babel mun neach-cleachdaidh',
-	'babel-desc' => 'A’ cur parser function <code>#babel</code> ris an duilleig, gus an téid colbh babel a chruthachadh mun neach-cleachdaidh.  Gabhaidh templates sònraichte a chleachdadh.',
+	'babel' => 'Fiosrachadh Babel mun chleachdaiche',
+	'babel-desc' => 'Cuiridh seo am parser function <code>#babel</code> ris an duilleag gus an dèid colbh babel a chruthachadh mun chleachdaiche seo, le comas gus teamplaidean sònraichte a ghabhail a-steach.',
 	'babel-url' => 'Project:Babel',
-	'babel-autocreate-text-levels' => 'Tha na daoine seo ag innse gu bheil comas ìre $1 aca sa chànan $2.',
-	'babel-autocreate-text-main' => 'Tha na daoine seo ag innse gu bheil iad eòlach air a’ chànan $1.',
-	'babel-0' => 'Tha an neach-cleachdaidh [[$1|gun eòlas idir]] air [[$2|$3]] (no tha {{GENDER:$4|e|i}} ga tuigsinn air éiginn).',
-	'babel-1' => 'Tha comas [[$1|ìre bhunaitich]] aig an neach-cleachdaidh seo air [[$2|$3]].',
-	'babel-2' => 'Tha comas [[$1|ìre mheadhanaich]] aig an neach-cleachdaidh seo air [[$2|$3]].',
-	'babel-3' => 'Tha comas [[$1|ìre adhartaich]] aig an neach-cleachdaidh seo air [[$2|$3]].',
-	'babel-4' => 'Tha comas [[$1|ìre dhùchasaich cha mhór]] aig an neach-cleachdaidh seo air [[$2|$3]].',
-	'babel-5' => 'Tha comas [[$1|ìre phroifeiseanta]] aig an neach-cleachdaidh seo air [[$2|$3]].',
-	'babel-N' => 'Tha [[$1|tuigse dhùthchasach]] aig an neach-cleachdaidh seo air [[$2|$3]].',
-	'babel-0-n' => 'Tha an neach-cleachdaidh seo [[$1|gun eòlas idir]] air [[$2|a’ Ghàidhlig]] (no tha {{GENDER:$4|e|i}} ga tuigsinn air éiginn).',
-	'babel-1-n' => 'Tha comas [[$1|ìre bhunaitich]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
-	'babel-2-n' => 'Tha comas [[$1|ìre mheadhanaich]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
-	'babel-3-n' => 'Tha comas [[$1|ìre adhartaich]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
-	'babel-4-n' => 'Tha comas [[$1|ìre dhùthchasaich cha mhór]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
-	'babel-5-n' => 'Tha comas [[$1|ìre phroifeiseanta]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
-	'babel-N-n' => 'Tha [[$1|tuigse dhùthchasach]] aig an neach-cleachdaidh seo air [[$2|a’ Ghàidhlig]].',
+	'babel-autocreate-abort' => "Tha an t-ainm-cleachdaiche a shònraich thu 'ga chleachdadh airson fèin-chrutheachadh na roinne [[$1|Babel]] agus cha ghabh a chlàrachadh.",
+	'babel-autocreate-reason' => "A' cruthachadh duilleag roinne [[$1|Babel]] leis fhèin.",
+	'babel-autocreate-text-levels' => 'Tha na cleachdaichean san roinn seo ag innse gu bheil comas ìre $1 aca ann an $2.',
+	'babel-autocreate-text-main' => "Tha na cleachdaichean san roinn seo ag innse gu bheil iad eòlach air a' chànan a leanas: $1.",
+	'babel-0' => "[[$1|Cha tuig]] an cleachdaiche seo [[$2|$3]] idir (no chan eil {{GENDER:$4|e|i}} 'ga tuigsinn ach air èiginn).",
+	'babel-1' => "Tha comas labhairt [[$1|bunaiteach]] sa [[$2|$3|Ghàidhlig]] aig a' chleachdaiche seo.",
+	'babel-2' => "Tha comas labhairt [[$1|meadhanach]] aig a' chleachdaiche seo sa [[$2|$3|Ghàidhlig]].",
+	'babel-3' => "Tha comas labhairt [[$1|adhartach]] aig a' chleachdaiche seo sa [[$2|$3|Ghàidhlig]].",
+	'babel-4' => "Tha comas labhairt [[$1|cha mhòr mar cuideigin air ag bheil i on ghlùn]] aig a' chleachdaiche seo sa [[$2|$3|Ghàidhlig]].",
+	'babel-5' => "Tha comas labhairt [[$1|proifeiseanta]] aig a' chleachdaiche seo sa [[$2|$3|Ghàidhlig]].",
+	'babel-N' => "Tha [[$2|$3]] [[$1|on ghlùn]] aig a' chleachdaiche seo.",
+	'babel-0-n' => "[[$1|Cha tuig]] an cleachdaiche seo [[$2|Gàidhlig]] idir (no chan eil {{GENDER:$4|e|i}} 'ga tuigsinn ach air èiginn).",
+	'babel-1-n' => "Tha comas labhairt [[$1|bunaiteach]] sa [[$2|Ghàidhlig]] aig a' chleachdaiche seo.",
+	'babel-2-n' => "Tha comas labhairt [[$1|meadhanach]] aig a' chleachdaiche seo sa [[$2|Ghàidhlig]].",
+	'babel-3-n' => "Tha comas labhairt [[$1|adhartach]] aig a' chleachdaiche seo sa [[$2|Ghàidhlig]].",
+	'babel-4-n' => "Tha comas labhairt [[$1|cha mhòr mar cuideigin air ag bheil i on ghlùn]] aig a' chleachdaiche seo sa [[$2|Ghàidhlig]].",
+	'babel-5-n' => "Tha comas labhairt [[$1|proifeiseanta]] aig a' chleachdaiche seo sa [[$2|Ghàidhlig]].",
+	'babel-N-n' => "Tha [[$2|Gàidhlig]] [[$1|on ghlùn]] aig a' chleachdaiche seo.",
 );
 
 /** Galician (Galego)
