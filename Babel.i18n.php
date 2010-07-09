@@ -205,7 +205,7 @@ $messages['af'] = array(
  */
 $messages['aln'] = array(
 	'babel' => 'Informatat e përdoruesit në babel',
-	'babel-desc' => 'Shton funksionin interpretues <code>#babel</code> për me lejue gjenerimine kutisë babel të përdoruesit me mundësi të përfshimjes së stampave të përshtatuna',
+	'babel-desc' => "Shton funksionin interpretues <code>#babel</code> për m'e lejue gjenerimine kutisë babel të përdoruesit me mundësi të përfshimjes së shabllonave të përshtatun",
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Emni i përdoruesit që e keni dhânë âsht i përdorun në kategorinë [[$1|Babel]] vetë-krijo dhe nuk mundet me u regjistrue.',
 	'babel-autocreate-reason' => 'Tue krijue faqen e kategorisë në [[$1|Babel]]',
