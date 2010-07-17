@@ -953,6 +953,7 @@ $messages['cy'] = array(
 
 /** Danish (Dansk)
  * @author Byrial
+ * @author Froztbyte
  * @author Jan Friberg
  * @author Sarrus
  */
@@ -960,6 +961,8 @@ $messages['da'] = array(
 	'babel' => 'Babelinformation',
 	'babel-desc' => 'Tilføjer parserfunktionen <code>#babel</code> for at tillade automatisk at generere at babelboks med muglighed for at inkludere tilpassede skabeloner',
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Brugernavnet du har angivet benyttes til automatisk oprettelse af [[$1|Babel]]-kategorier og kan ikke registreres.',
+	'babel-autocreate-reason' => 'Opretter automatisk [[$1|Babel]] kategoriside.',
 	'babel-autocreate-text-levels' => 'Brugere i denne kategori angiver, at deres kendskab til $2 er på niveau $1',
 	'babel-autocreate-text-main' => 'Brugere i denne kategori angiver, at de har kendskab til $1.',
 	'babel-0' => 'Denne bruger har [[$1|ingen]] kendskab til [[$2|$3]] (eller har meget svært ved at forstå det).',
