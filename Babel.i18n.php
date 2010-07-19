@@ -1332,7 +1332,7 @@ $messages['frp'] = array(
 $messages['frr'] = array(
 	'babel' => 'Babel brüker-informasjoon',
 	'babel-desc' => 'Fäiget jü <code>#babel</code>-Parserfunksjoon haanetu for dåt automaatisch måågen foon Babel-brükerbox-rae ma jü möölikhäid, äine forlååge önjtufäigen',
-	'babel-url' => 'Projäkt:Babel',
+	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Di ütkiisde brükernoome as nüsi for dåt automaatisch måågen foon [[$1|Babel]]-kategoriie än koon ai registriird wårde.',
 	'babel-autocreate-reason' => 'Automaatisch mååged [[$1|Babel]]-kategorii.',
 	'babel-autocreate-text-levels' => 'Brükere in jüdeer kategorii heewe waasen aw stuufe $1 önj e spräke $2.',
@@ -1344,13 +1344,13 @@ $messages['frr'] = array(
 	'babel-4' => 'Dideere brüker reet ham ma [[$2|$3]] aw [[$1|mamenspräklike]] schuchte.',
 	'babel-5' => 'Dideere brüker reet ham ma [[$2|$3]] aw [[$1|profäsjonäle]] schuchte.',
 	'babel-N' => 'Dideere brüker snååket [[$2|$3]] as [[$1|mamenspräke]].',
-	'babel-0-n' => 'Dideere brüker reet ham [[$1|ai]] ma Friisk (unti ferstoont dåt mån ma duuchti swiirihäide).',
+	'babel-0-n' => 'Dideere brüker reet ham [[$1|ai]] ma [[$2|Friisk]] (unti ferstoont dåt mån ma duuchti swiirihäide).',
 	'babel-1-n' => 'Dideere brüker koon [[$1|lait]] [[$2|friisk]] snååke en leese.',
 	'babel-2-n' => 'Dideere brüker heet [[$1|ordi]] waasen foon [[$2|Friisk]].',
 	'babel-3-n' => 'Dideere brüker reet ham ma [[$2|Friisk]] aw [[$1|huuge]] schuchte.',
 	'babel-4-n' => 'Dideere brüker reet ham ma [[$2|Friisk]] aw [[$1|mamenspräklike]] schuchte.',
 	'babel-5-n' => 'Dideere brüker reet ham ma [[$2|Friisk]] aw [[$1|profäsjonäle]] schuchte.',
-	'babel-N-n' => 'Dideere brüker snååket Friisk as [[$1|mamenspräke]].',
+	'babel-N-n' => 'Dideere brüker snååket [[$2|Friisk]] as [[$1|mamenspräke]].',
 );
 
 /** Friulian (Furlan)
