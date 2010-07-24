@@ -3858,7 +3858,7 @@ $messages['sv'] = array(
  * @author Malangali
  */
 $messages['sw'] = array(
-	'babel-autocreate-text-levels' => 'Watumiaji katika jamii hii wanadai kwamba wanaongea lugha ya $2 kwa kiwango cha $1.',
+	'babel-autocreate-text-levels' => 'Watumiaji katika jamii hii wanaonyesha kwamba wanaongea lugha ya $2 kwa kiwango cha $1.',
 	'babel-autocreate-text-main' => 'Watumiaji katika jamii hii wanadai kwamba wana ujuzi wa lugha ya $1.',
 	'babel-0' => 'Mtumiaji huyu [[$1|hajui]] [[$2|$3]] (au anaelewa kidogo sana).',
 	'babel-1' => 'Mtumiaji huyu ni mwongeaji wa [[$2|$3]] cha kiwango cha [[$1|Msingi]].',
