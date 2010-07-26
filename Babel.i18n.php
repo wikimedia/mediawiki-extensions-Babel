@@ -1940,6 +1940,7 @@ $messages['ig'] = array(
 	'babel-desc' => 'Nè tí <code>#babel</code> ihe ndotù Í nyé uzor maka okìké nke orúnotu nke ogologo  babel nweríkí tinyé ihü nka nke ékèrè eké',
 	'babel-url' => 'Project:Babul',
 	'babel-autocreate-reason' => 'Odạlạ né ké [[$1|Babel]] ébé ihü nọr.',
+	'babel-autocreate-text-levels' => 'Ndi na banife nọr na ébé nke sị há nwèrè ǹkà rúrú $1 màkà asụsụ $2.',
 	'babel-0' => 'Onyéá [[$1|enweghị]] ómárí maka [[$2|$3]] (mä o wu ó na gé yá nsogbu dikwa elú ya).',
 	'babel-1' => 'Onyéá nwere ómárí [[$1|ntakịrị]] maka [[$2|$3]].',
 	'babel-2' => 'Onyéá nwere ómárí [[$1|ditu mmá]] maka [[$2|$3]].',
