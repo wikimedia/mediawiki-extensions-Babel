@@ -156,13 +156,6 @@ $messages['ary'] = array(
 	'babel-N-n' => "Had l-mosṫeĥdim kayfhem l-loġa [[$2|l-Meġribiya]] bḫal [[$1|loġto l-'om]].",
 );
 
-/** Bahasa Banjar (Bahasa Banjar)
- * @author Ezagren
- */
-$messages['bjn'] = array(
-	'babel-0' => 'Pamakay ini [[$1|kada]] mangarti [[$2|$3]] (atawa hanya lawan sangat ngalih).',
-);
-
 /** Achinese (Acèh)
  * @author Si Gam Acèh
  */
@@ -635,6 +628,13 @@ $messages['bg'] = array(
  */
 $messages['bh'] = array(
 	'babel' => 'बैबेल प्रयोगकर्ता जानकारी',
+);
+
+/** Bahasa Banjar (Bahasa Banjar)
+ * @author Ezagren
+ */
+$messages['bjn'] = array(
+	'babel-0' => 'Pamakay ini [[$1|kada]] mangarti [[$2|$3]] (atawa hanya lawan sangat ngalih).',
 );
 
 /** Bengali (বাংলা)
@@ -1848,6 +1848,7 @@ $messages['hu'] = array(
 );
 
 /** Armenian (Հայերեն)
+ * @author Pandukht
  * @author Teak
  * @author Togaed
  */
