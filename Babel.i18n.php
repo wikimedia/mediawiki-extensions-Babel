@@ -758,17 +758,11 @@ $messages['ce'] = array(
 );
 
 /** Sorani (Soranî / کوردی)
+ * @author Asoxor
  * @author GerardM
  */
 $messages['ckb'] = array(
 	'babel-directionality' => 'rtl',
-);
-
-/** Sorani (Arabic script) (‫کوردی (عەرەبی)‬)
- * @author Asoxor
- * @author GerardM
- */
-$messages['ckb-arab'] = array(
 	'babel' => 'زانیاریی بەکارھێنەریی بابل',
 	'babel-desc' => 'کرداری شیکەری <code>#babel</code> زیاد دەکات بۆ ڕێگا دان بە خۆکار دروست بوونی ستوونی سندوقی بەکارھێنەری بابل لەگەڵ توانایی بۆ لەخۆ گرتنی داڕێژە دڵخوازەکان',
 	'babel-url' => 'Project:بابل',
