@@ -339,7 +339,7 @@ HEREDOC;
 		// Add to main language category if the level is not zero.
 		if ( $wgBabelUseMainCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === '0' ) || $level > 0 ) ) {
 			// Add category wikitext to box tower.
-			$r .= "[[Category:{$this->_addFixes( $code,'category' )}|$level{$wgUser->getName()}]]";
+			$r .= "[[Category:{$this->_addFixes( $code,'category' )}|$level]]";
 
 			BabelAutoCreate::create( $this->_addFixes( "$code", 'category' ), BabelLanguageCodes::getName( $code ) );
 		}
@@ -349,7 +349,7 @@ HEREDOC;
 		if ( !$wgBabelUseSimpleCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === '0' ) || $level > 0 ) ) {
 
 			// Add category wikitext to box tower.
-			$r .= "[[Category:{$this->_addFixes( "$code-$level",'category' )}|{$wgUser->getName()}]]";
+			$r .= "[[Category:{$this->_addFixes( "$code-$level",'category' )}]]";
 
 			BabelAutoCreate::create( $this->_addFixes( "$code-$level", 'category' ), $level, BabelLanguageCodes::getName( $code ) );
 
