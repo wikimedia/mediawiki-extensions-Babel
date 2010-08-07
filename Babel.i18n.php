@@ -3871,6 +3871,10 @@ $messages['sv'] = array(
  * @author Malangali
  */
 $messages['sw'] = array(
+	'babel' => 'Maelezo ya Babeli ya mtumiaji',
+	'babel-url' => 'Project:Babeli',
+	'babel-autocreate-abort' => 'Huwezi kusajili jina la mtumiaji ulilotaja kwa sababu linatumika tayari katika shughuli ya kuanzisha jamii za [[$1|Babeli]] kiotomati.',
+	'babel-autocreate-reason' => 'Ukurasa wa jamii ya [[$1|Babeli]] unaanzishwa moja kwa moja.',
 	'babel-autocreate-text-levels' => 'Watumiaji katika jamii hii wanaonyesha kwamba wanaongea lugha ya $2 kwa kiwango cha $1.',
 	'babel-autocreate-text-main' => 'Watumiaji katika jamii hii wanadai kwamba wana ujuzi wa lugha ya $1.',
 	'babel-0' => 'Mtumiaji huyu [[$1|hajui]] [[$2|$3]] (au anaelewa kidogo sana).',
