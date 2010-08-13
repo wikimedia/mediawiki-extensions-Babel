@@ -63,7 +63,7 @@ $messages['en'] = array(
  * @author Siebrand
  */
 $messages['qqq'] = array(
-	'babel' => 'Header of Babel box. Parameter $1 is the name of the page it is used on, for GENDER support.',
+	'babel' => "Header of Babel box. Parameter $1 is the name of the page it is used on, for GENDER support. The header is shown in the content language of the site, not the interface language set in a user's preferences.",
 	'babel-desc' => 'Short description of this extension, shown on [[Special:Version]]. Do not translate or change links.',
 	'babel-url' => 'The page name at which more information about the babel system can be found. Do not translate the namespace Project:.',
 	'babel-autocreate-text-main' => 'Text describing a category, at the top of the category page. 
@@ -757,7 +757,7 @@ $messages['ce'] = array(
 	'babel-N-n' => 'Хlокху декъашхочо [[$1|шейра]] буьйцу шай [[$2|Нохчийн]] мотт.',
 );
 
-/** Sorani (Soranî / کوردی)
+/** Sorani (کوردی)
  * @author Asoxor
  * @author GerardM
  */
@@ -2554,6 +2554,7 @@ $messages['lzz'] = array(
 );
 
 /** Moksha (Мокшень)
+ * @author Jarmanj Turtash
  * @author Khazar II
  */
 $messages['mdf'] = array(
