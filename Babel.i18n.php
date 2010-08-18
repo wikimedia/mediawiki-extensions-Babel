@@ -632,9 +632,30 @@ $messages['bh'] = array(
 
 /** Bahasa Banjar (Bahasa Banjar)
  * @author Ezagren
+ * @author J Subhi
  */
 $messages['bjn'] = array(
-	'babel-0' => 'Pamakay ini [[$1|kada]] mangarti [[$2|$3]] (atawa hanya lawan sangat ngalih).',
+	'babel' => 'Panjalasan Babel pamuruk',
+	'babel-desc' => 'Manambahi pungsi parser <code>#babel</code> gasan mambulihakan paulahan sabuah kutak pamuruk utumatis lawan kamampuan gasan mamuruk citakan nang dikustomisasiakan',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Ngaran pamuruk Pian ini dipuruk gasan kataguri utu-ulah [[$1|Babel]] wan kada kawa didaptarakan.',
+	'babel-autocreate-reason' => 'Utumatis maulah kataguri tungkaran [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'Pamuruk-pamuruk dalam kataguri ini artinya sidin baisi kamampuan $1 gasan bahasa $2.',
+	'babel-autocreate-text-main' => 'Pamuruk-pamuruk dalam kataguri ini artinya sidin baisi ilmu gasan bahasa $1.',
+	'babel-0' => 'Pamuruk ini [[$1|kada]] baisi ilmu gasan [[$2|$3]] (atawa paham haja tapi pina ngalih banar).',
+	'babel-1' => 'Pamuruk ini baisi ilmu [[$1|pandal]] gasan [[$2|$3]].',
+	'babel-2' => 'Pamuruk ini baisi ilmu [[$1|manangah]] gasan [[$2|$3]].',
+	'babel-3' => 'Pamuruk ini baisi ilmu [[$1|mahir]] gasan [[$2|$3]].',
+	'babel-4' => 'Pamuruk ini baisi ilmu [[$1|parak nangkaya pamandir asli]] gasan [[$2|$3]].',
+	'babel-5' => 'Pamuruk ini baisi ilmu [[$1|propisional]] gasan [[$2|$3]].',
+	'babel-N' => 'Pamuruk ini adalah [[$1|pamandir asli]] nang paham banar [[$2|$3]].',
+	'babel-0-n' => 'Pamuruk ini [[$1|kada]] baisi ilmu gasan [[$2|Bahasa Banjar]] (atawa paham haja tapi pina ngalih banar).',
+	'babel-1-n' => 'Pamuruk ini baisi ilmu [[$1|pandal]] gasan  [[$2|Bahasa Banjar]].',
+	'babel-2-n' => 'Pamuruk ini baisi ilmu [[$1|manangah]] gasan [[$2|Bahasa Banjar]].',
+	'babel-3-n' => 'Pamuruk ini baisi ilmu [[$1|mahir]] gasan  [[$2|Bahasa Banjar]].',
+	'babel-4-n' => 'Pamuruk ini baisi ilmu [[$1|parak nangkaya pamandir asli]] nang paham [[$2|Bahasa Banjar]].',
+	'babel-5-n' => 'Pamuruk ini baisi ilmu [[$1|propisional]] gasan  [[$2|Bahasa Banjar]].',
+	'babel-N-n' => 'Pamuruk ini adalah [[$1|pamandir asli]] nang paham banar [[$2|Bahasa Banjar]].',
 );
 
 /** Bengali (বাংলা)
