@@ -61,10 +61,11 @@ $messages['en'] = array(
  * @author Raymond
  * @author RobertL
  * @author Siebrand
+ * @author The Evil IP address
  */
 $messages['qqq'] = array(
 	'babel' => "Header of Babel box. Parameter $1 is the name of the page it is used on, for GENDER support. The header is shown in the content language of the site, not the interface language set in a user's preferences.",
-	'babel-desc' => 'Short description of this extension, shown on [[Special:Version]]. Do not translate or change links.',
+	'babel-desc' => '{{desc}}',
 	'babel-url' => 'The page name at which more information about the babel system can be found. Do not translate the namespace Project:.',
 	'babel-autocreate-text-main' => 'Text describing a category, at the top of the category page. 
 
@@ -154,6 +155,19 @@ $messages['ary'] = array(
 	'babel-4-n' => "Had l-mosṫeĥdim ĝendo mosṫawa [[$1|qrib le loġṫo l-'om]] fe [[$2|l-Meġribiya]].",
 	'babel-5-n' => 'Had l-mosṫeĥdim ĝendo meĝrifa [[$1|ḫṫirafiya]] dyal [[$2|l-Meġribiya]].',
 	'babel-N-n' => "Had l-mosṫeĥdim kayfhem l-loġa [[$2|l-Meġribiya]] bḫal [[$1|loġto l-'om]].",
+);
+
+/** Bráhuí (Bráhuí)
+ * @author Imdadb
+ */
+$messages['brh'] = array(
+	'babel' => 'Babel kárband cáindárí',
+	'babel-0' => 'Dá kárband e [[$2|$3]] [[$1|asul bafak]] (yá kalaí seaŧ poh marek ta).',
+	'babel-1' => 'Dá kárband e [[$2|$3]] ná [[$1|bunyádí]] cáindárí are.',
+	'babel-N' => '[[$2|$3]] dá kárband ná [[$1|lummaí bolí]] e.',
+	'babel-0-n' => 'Dá kárband e [[$2|Bráhuí]] [[$1|asul bafak]] (yá kalaí seaŧ poh marek ta).',
+	'babel-1-n' => 'Dá kárband e [[$2|Bráhuí]] ná [[$1|bunyádí]] cáindárí are.',
+	'babel-N-n' => '[[$2|Bráhuí]] dá kárband ná [[$1|lummaí bolí]] e.',
 );
 
 /** Achinese (Acèh)
@@ -974,7 +988,7 @@ $messages['cy'] = array(
  */
 $messages['da'] = array(
 	'babel' => 'Babelinformation',
-	'babel-desc' => 'Tilføjer parserfunktionen <code>#babel</code> for at tillade automatisk at generere at babelboks med muglighed for at inkludere tilpassede skabeloner',
+	'babel-desc' => 'Tilføjer parserfunktionen <code>#babel</code> for at tillade automatisk at generere at babelboks med mulighed for at inkludere tilpassede skabeloner',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Brugernavnet du har angivet benyttes til automatisk oprettelse af [[$1|Babel]]-kategorier og kan ikke registreres.',
 	'babel-autocreate-reason' => 'Opretter automatisk [[$1|Babel]] kategoriside.',
@@ -3930,13 +3944,17 @@ $messages['szl'] = array(
 
 /** Tamil (தமிழ்)
  * @author SivaneshR
+ * @author TRYPPN
  * @author Trengarasu
  */
 $messages['ta'] = array(
 	'babel' => 'பாபேல் பயனர் தகவல்கள்',
 	'babel-desc' => 'தனிப்பட்ட வார்ப்புருக்கள் உள்ளடங்களாக தானியக்கமாக பாபேல் பயனர் பெட்டிகளை ஆக்குவதை முடுக்கும் வகையில் <code>#babel</code>இலக்கணப் பாகுபடுத்தி சார்பை இணைக்கிறது.',
 	'babel-url' => 'Project:பாபேல்',
+	'babel-autocreate-abort' => 'தாங்கள் குறிப்பிட்ட பயனர் பெயர் [[$1|Babel]] பகுப்பில் பயன்படுத்தப்படும் மேலும் தாங்கள் இதைவைத்து பதிவு செய்யமுடியாது.',
 	'babel-autocreate-reason' => 'தானியக்கமாக [[$1|Babel]] பகுப்பு பக்கம் உருவாக்கபடுகிறது.',
+	'babel-autocreate-text-levels' => 'இப்பகுப்பில் உள்ள பயனர்கள் $2 மொழியில் $1 அளவுக்கு திறமை படைத்தவர்கள் என்பதனைக் குறிப்பிடுகிறது.',
+	'babel-autocreate-text-main' => 'இப்பகுப்பில் உள்ள பயனர்கள் $1 மொழியறிவை படைத்தவர்கள் என்பதனைக் குறிப்பிடுகிறது.',
 	'babel-0' => 'இந்தப் பயனர் [[$2|$3]] மொழியில் [[$1|பயிற்சி இல்லாதவர்]] (அல்லது கடினப்பாடுகளுடன் விளங்கிக் கொள்ளகிறார்).',
 	'babel-1' => 'இந்தப் பயனர் [[$2|$3]] மொழியில் [[$1|அடிப்படை அறிவைக்]] கொண்டவர்.',
 	'babel-2' => 'இந்தப் பயனர் [[$2|$3]] மொழியில் [[$1|இடைநிலை அறிவைக்]] கொண்டவர்.',
