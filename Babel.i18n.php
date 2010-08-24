@@ -2289,20 +2289,20 @@ $messages['ksh'] = array(
  * @author Nicky.ker
  */
 $messages['kw'] = array(
-	'babel-0' => '[[$1|Ny wor]] an devnydhyer-ma konvedhes [[$2|$3]].',
-	'babel-1' => 'An devnydhyer-ma a wor skrifa [[$2|$3]] orth nivel [[$1|sempel]].',
-	'babel-2' => 'An devnydhyer-ma a wor skrifa [[$2|$3]] orth nivel [[$1|kres]].',
-	'babel-3' => 'An devnydhyer-ma a wor skrifa [[$2|$3]] orth nivel [[$1|avoncys]].',
-	'babel-4' => 'An devnydhyer-ma a skrif [[$2|$3]] [[$1|ogas hag avel mammyeth]].',
-	'babel-5' => 'An devnydhyer-ma a wor skrifa [[$2|$3]] orth nivel [[$1|galwesek]].',
-	'babel-N' => 'An devnydhyer-ma a skrif [[$2|$3]] avel [[$1|mammyeth]].',
-	'babel-0-n' => '[[$1|Ny wor]] an devnydhyer-ma konvedhes [[$2|Kernewek]].',
-	'babel-1-n' => 'An devnydhyer-ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|sempel]].',
-	'babel-2-n' => 'An devnydhyer-ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|kres]].',
-	'babel-3-n' => 'An devnydhyer-ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|avoncys]].',
-	'babel-4-n' => 'An devnydhyer-ma a skrif [[$2|Kernewek]] [[$1|ogas hag avel mammyeth]].',
-	'babel-5-n' => 'An devnydhyer-ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|galwesik]].',
-	'babel-N-n' => 'An devnydhyer-ma a skrif [[$2|Kernewek]] avel [[$1|mammyeth]].',
+	'babel-0' => '[[$1|Ny wor]] an devnydhyer-ma convedhes [[$2|$3]].',
+	'babel-1' => 'An devnydhyer-ma a wor scrifa [[$2|$3]] orth nivel [[$1|sempel]].',
+	'babel-2' => 'An devnydhyer-ma a wor scrifa [[$2|$3]] orth nivel [[$1|cres]].',
+	'babel-3' => 'An devnydhyer-ma a wor scrifa [[$2|$3]] orth nivel [[$1|avoncys]].',
+	'babel-4' => "Ma'n devnydhyer-ma ow scrifa [[$2|$3]] [[$1|ogas hag avel mammyeth]].",
+	'babel-5' => 'An devnydhyer-ma a wor scrifa [[$2|$3]] orth nivel [[$1|galwansek]].',
+	'babel-N' => "Ma'n devnydhyer-ma ow scrifa [[$2|$3]] avel [[$1|mammyeth]].",
+	'babel-0-n' => '[[$1|Ny wor]] an devnydhyer-ma convedhes [[$2|Kernowek]].',
+	'babel-1-n' => 'An devnydhyer-ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|sempel]].',
+	'babel-2-n' => 'An devnydhyer-ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|cres]].',
+	'babel-3-n' => 'An devnydhyer-ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|avoncys]].',
+	'babel-4-n' => "Ma'n devnydhyer-ma ow scrifa [[$2|Kernowek]] [[$1|ogas hag avel mammyeth]].",
+	'babel-5-n' => 'An devnydhyer-ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|galwansek]].',
+	'babel-N-n' => "Ma'n devnydhyer-ma ow scrifa [[$2|Kernowek]] avel [[$1|mammyeth]].",
 );
 
 /** Latin (Latina)
@@ -3030,6 +3030,15 @@ $messages['os'] = array(
 	'babel-3-n' => 'Ацы архайæг [[$2|иронау]] кæсын æмæ фыссын [[$1|тынг хорз]] зоны.',
 	'babel-4-n' => 'Ацы архаæйджы [[$2|ирон æвзаг]] у [[$1|мадæлон æвзаджы уавæрмæ ’ввæхс]].',
 	'babel-N-n' => '[[$2|Ирон]] у ацы архайæджы [[$1|мадæлон æвзаг]].',
+);
+
+/** Papiamento (Papiamentu)
+ * @author Sdm1985
+ */
+$messages['pap'] = array(
+	'babel' => 'Babel; Informashon di Usuario',
+	'babel-desc' => 'Ta agrega e <code>#babel</code> , ku e funshon di generá un Kaha Babel den e kaha di usuario',
+	'babel-url' => 'Proyecto: Babel',
 );
 
 /** Picard (Picard)
