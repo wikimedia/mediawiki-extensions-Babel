@@ -24,6 +24,14 @@ $magicWords['arz'] = array(
 	'babel'   => array( '0', 'بابل', 'babel' ),
 );
 
+$magicWords['ce'] = array(
+	'babel'   => array( '0', 'къадингир', 'вавилон', 'babel' ),
+);
+
+$magicWords['eo'] = array(
+	'babel'   => array( '0', 'babelo', 'babel' ),
+);
+
 $magicWords['frp'] = array(
 	'babel'   => array( '0', 'babél', 'babel' ),
 );
@@ -48,10 +56,18 @@ $magicWords['ru'] = array(
 	'babel'   => array( '0', 'вавилон', 'babel' ),
 );
 
+$magicWords['si'] = array(
+	'babel'   => array( '0', 'බාබෙල්', 'babel' ),
+);
+
 $magicWords['tr'] = array(
 	'babel'   => array( '0', 'babil', 'babel' ),
 );
 
 $magicWords['uk'] = array(
 	'babel'   => array( '0', 'вавилон', 'вавілон', 'babel' ),
+);
+
+$magicWords['zh-hans'] = array(
+	'babel'   => array( '0', '巴别', 'babel' ),
 );
