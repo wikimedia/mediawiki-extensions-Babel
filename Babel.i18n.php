@@ -1301,6 +1301,7 @@ $messages['fo'] = array(
  * @author Jens Liebenau
  * @author Louperivois
  * @author UV
+ * @author Urhixidur
  * @author Verdy p
  */
 $messages['fr'] = array(
@@ -1323,7 +1324,7 @@ $messages['fr'] = array(
 	'babel-2-n' => 'Cet utilisateur dispose d’un [[$1|niveau intermédiaire]] de connaissance en [[$2|français]].',
 	'babel-3-n' => 'Cet utilisateur dispose de connaissances [[$1|avancées]] en [[$2|français]].',
 	'babel-4-n' => 'Cet utilisateur dispose de connaissances proches de la [[$1|langue maternelle]] en [[$2|français]].',
-	'babel-5-n' => 'Cet utilisateur dispose d’un niveau de connaissances [[$1|professionel]] du [[$2|français]].',
+	'babel-5-n' => 'Cet utilisateur dispose d’un niveau de connaissances [[$1|professionnel]] du [[$2|français]].',
 	'babel-N-n' => 'Cet utilisateur a pour [[$1|langue maternelle]] le [[$2|français]].',
 );
 
@@ -4222,11 +4223,26 @@ $messages['tr'] = array(
 );
 
 /** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+ * @author Ильнар
  * @author Рашат Якупов
  */
 $messages['tt-cyrl'] = array(
 	'babel' => 'Катнашучының телләр белү турындагы мәгълумат',
 	'babel-url' => 'Проект:Вавилон',
+	'babel-0' => '[[$2|$3]] — [[$1|белми]] (яисә бөтенләй дә аңламый)',
+	'babel-1' => '[[$2|$3]] — [[$1|башлангыч]] дәрәҗә.',
+	'babel-2' => '[[$2|$3]] — [[$1|уратача]] дәрәҗә.',
+	'babel-3' => '[[$2|$3]] — [[$1|яхшы]] белә.',
+	'babel-4' => '[[$2|$3]] — [[$1|бик әйбәт]] белә.',
+	'babel-5' => '[[$2|$3]] — [[$1|һөнәри дәрәҗәдә]] белә.',
+	'babel-N' => '[[$2|$3]] — [[$1|туган теле]]',
+	'babel-0-n' => 'Бу кулланучы [[$2|татарча]] [[$1|белми]] (яисә бөтенләй дә аңламый).',
+	'babel-1-n' => 'Бу кулланучы  [[$2|татарча]]  [[$1|башлангыч дәрәҗәдә]] белә.',
+	'babel-2-n' => 'Бу кулланучы  [[$2|татарча]]  [[$1|уртача дәрәҗәдә]] белә.',
+	'babel-3-n' => 'Бу кулланучы  [[$2|татарча]]  [[$1|ирекле дәрәҗәдә]] сөйләшә.',
+	'babel-4-n' => 'Бу кулланучы  [[$2|татарча]]  [[$1|бик әйбәт]] белә.',
+	'babel-5-n' => 'Бу кулланучы  [[$2|татарча]]  [[$1|һөнәри дәрәҗәдә]] белә.',
+	'babel-N-n' => 'Бу кулланучы өчен [[$2|татар теле]] [[$1|туган тел]].',
 );
 
 /** Tuvinian (Тыва дыл)
