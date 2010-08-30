@@ -652,24 +652,24 @@ $messages['bjn'] = array(
 	'babel' => 'Panjalasan Babel pamuruk',
 	'babel-desc' => 'Manambahi pungsi parser <code>#babel</code> gasan mambulihakan paulahan sabuah kutak pamuruk utumatis lawan kamampuan gasan mamuruk citakan nang dikustomisasiakan',
 	'babel-url' => 'Project:Babel',
-	'babel-autocreate-abort' => 'Ngaran pamuruk Pian ini dipuruk gasan kataguri utu-ulah [[$1|Babel]] wan kada kawa didaptarakan.',
-	'babel-autocreate-reason' => 'Utumatis maulah kataguri tungkaran [[$1|Babel]].',
-	'babel-autocreate-text-levels' => 'Pamuruk-pamuruk dalam kataguri ini artinya sidin baisi kamampuan $1 gasan bahasa $2.',
-	'babel-autocreate-text-main' => 'Pamuruk-pamuruk dalam kataguri ini artinya sidin baisi ilmu gasan bahasa $1.',
-	'babel-0' => 'Pamuruk ini [[$1|kada]] baisi ilmu gasan [[$2|$3]] (atawa paham haja tapi pina ngalih banar).',
+	'babel-autocreate-abort' => 'Ngaran pamuruk Pian ini dipuruk gasan tumbung utumatis [[$1|Babel]] wan kada kawa didaptarakan.',
+	'babel-autocreate-reason' => 'Utumatis maulah tumbung tungkaran [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'Pamuruk-pamuruk dalam tumbung ini artinya sidin baisi kamampuan $1 gasan bahasa $2.',
+	'babel-autocreate-text-main' => 'Pamuruk-pamuruk dalam tumbung ini artinya sidin baisi ilmu gasan bahasa $1.',
+	'babel-0' => 'Pamuruk ini [[$1|kada]] baisi ilmu gasan [[$2|$3]] (atawa paham haja tagal pina ngalih banar).',
 	'babel-1' => 'Pamuruk ini baisi ilmu [[$1|pandal]] gasan [[$2|$3]].',
 	'babel-2' => 'Pamuruk ini baisi ilmu [[$1|manangah]] gasan [[$2|$3]].',
 	'babel-3' => 'Pamuruk ini baisi ilmu [[$1|mahir]] gasan [[$2|$3]].',
 	'babel-4' => 'Pamuruk ini baisi ilmu [[$1|parak nangkaya pamandir asli]] gasan [[$2|$3]].',
-	'babel-5' => 'Pamuruk ini baisi ilmu [[$1|propisional]] gasan [[$2|$3]].',
-	'babel-N' => 'Pamuruk ini adalah [[$1|pamandir asli]] nang paham banar [[$2|$3]].',
-	'babel-0-n' => 'Pamuruk ini [[$1|kada]] baisi ilmu gasan [[$2|Bahasa Banjar]] (atawa paham haja tapi pina ngalih banar).',
+	'babel-5' => 'Pamuruk ini baisi ilmu [[$1|harat]] gasan [[$2|$3]].',
+	'babel-N' => 'Pamuruk ini [[$1|pamandir asli]] nang paham banar [[$2|$3]].',
+	'babel-0-n' => 'Pamuruk ini [[$1|kada]] baisi ilmu gasan [[$2|Bahasa Banjar]] (atawa paham haja tagal pina ngalih banar).',
 	'babel-1-n' => 'Pamuruk ini baisi ilmu [[$1|pandal]] gasan  [[$2|Bahasa Banjar]].',
 	'babel-2-n' => 'Pamuruk ini baisi ilmu [[$1|manangah]] gasan [[$2|Bahasa Banjar]].',
 	'babel-3-n' => 'Pamuruk ini baisi ilmu [[$1|mahir]] gasan  [[$2|Bahasa Banjar]].',
-	'babel-4-n' => 'Pamuruk ini baisi ilmu [[$1|parak nangkaya pamandir asli]] nang paham [[$2|Bahasa Banjar]].',
-	'babel-5-n' => 'Pamuruk ini baisi ilmu [[$1|propisional]] gasan  [[$2|Bahasa Banjar]].',
-	'babel-N-n' => 'Pamuruk ini adalah [[$1|pamandir asli]] nang paham banar [[$2|Bahasa Banjar]].',
+	'babel-4-n' => 'Pamuruk ini baisi ilmu [[$1|parak nangkaya pamandir asli]] gasan [[$2|Bahasa Banjar]].',
+	'babel-5-n' => 'Pamuruk ini baisi ilmu [[$1|harat]] gasan [[$2|Bahasa Banjar]].',
+	'babel-N-n' => 'Pamuruk ini [[$1|pamandir asli]] nang paham banar [[$2|Bahasa Banjar]].',
 );
 
 /** Bengali (বাংলা)
@@ -2290,6 +2290,13 @@ $messages['ksh'] = array(
  * @author Nicky.ker
  */
 $messages['kw'] = array(
+	'babel' => 'Derivadow Babel an devnydhyer',
+	'babel-desc' => 'Y whra keworra an gwythres styryer <code>#babel</code> rag avowa denethyans awtomategys a goloven kyst-usyer babel gans an gallos a includya scantlyns usadow',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Usys yw an hanow-usyer ragavysyes genowgh rag awto-formyans scantlyns [[$1|Babel]]; ny ellir y govscrifa.',
+	'babel-autocreate-reason' => 'Ow creatya yn awtomatek folen an class [[$1|Babel]].',
+	'babel-autocreate-text-levels' => "Yma devnydhyoryon y'n class-ma ow teclarya dr'eus niver connek $1 dhedhans rag $2.",
+	'babel-autocreate-text-main' => "Yma devnydhyoryon y'n class-ma ow teclarya dr'eus godhvos a $1 dhedhans.",
 	'babel-0' => '[[$1|Ny wor]] an devnydhyer-ma convedhes [[$2|$3]].',
 	'babel-1' => 'An devnydhyer-ma a wor scrifa [[$2|$3]] orth nivel [[$1|sempel]].',
 	'babel-2' => 'An devnydhyer-ma a wor scrifa [[$2|$3]] orth nivel [[$1|cres]].',
@@ -4228,7 +4235,7 @@ $messages['tr'] = array(
  */
 $messages['tt-cyrl'] = array(
 	'babel' => 'Катнашучының телләр белү турындагы мәгълумат',
-	'babel-url' => 'Проект:Вавилон',
+	'babel-url' => 'Project:Вавилон',
 	'babel-0' => '[[$2|$3]] — [[$1|белми]] (яисә бөтенләй дә аңламый)',
 	'babel-1' => '[[$2|$3]] — [[$1|башлангыч]] дәрәҗә.',
 	'babel-2' => '[[$2|$3]] — [[$1|уратача]] дәрәҗә.',
