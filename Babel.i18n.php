@@ -2999,6 +2999,33 @@ $messages['nov'] = array(
 	'babel-4' => 'Dis usere skripte [[$2|$3]] [[$1|preske kom sen patrial lingue]].',
 );
 
+/** Northern Sotho (Sesotho sa Leboa)
+ * @author Mohau
+ */
+$messages['nso'] = array(
+	'babel' => 'Sedi ya Moošomiši wa Babel',
+	'babel-desc' => 'Thwanya <code>#babel</code> "parser function" go dumelela "babel userbox" yeo e dumelalago go hloma "custom templates"',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Leina-šomiši lago kgethwa ke wena le a šomišwa go sehlopha sa [[$1|Babel]] ka gona go ngwadiša ga go kgonagake.',
+	'babel-autocreate-reason' => 'Ka noši hloma [[$1|Babel]] sa letlakala la sehlopha.',
+	'babel-autocreate-text-levels' => 'Bašomiši go sehlopha se ba e hlalosa bane tsebo ya seemo sa $1 go leleme la  $2.',
+	'babel-autocreate-text-main' => 'Bašomiši go sehlopha se ba e hlalosa bane tsebo go leleme la  $1.',
+	'babel-0' => 'Mošomiši yo  [[$1|ga ena]] tsebo ya [[$2|$3]] (goba o hlaloganya polelo ye  ka bothata).',
+	'babel-1' => 'Mošomiši yo o nale tsebo ye  [[$1|nnyennyenyane]]  ya [[$2|$3]].',
+	'babel-2' => 'Mošomiši yo o nale tsebo ya [[$1|bogare]] go [[$2|$3]].',
+	'babel-3' => 'Mošomiši yo o nale tsebo ya [[$1|go kwagala]] ya [[$2|$3]].',
+	'babel-4' => 'Mošomiši yo o nale tsebo ya [[$1|go felela]] ya [[$2|$3]].',
+	'babel-5' => 'Mošomiši yo o nale tsebo ya [[$1|go makgonthe ya sekolo]] ya [[$2|$3]].',
+	'babel-N' => 'Mošomiši yo o nale tsebo ya [[$1|babuledi kgonthe bja polelo]] ya [[$2|$3]].',
+	'babel-0-n' => 'Mošomiši yo  [[$1|ga ena]] tsebo ya [[$2|Seisemane]] (goba o hlaloganya seisemane ka bothata).',
+	'babel-1-n' => 'Mošomiši yo o nale tsebo ye  [[$1|nnyennyenyane]]  ya [[$2|Seisimane]].',
+	'babel-2-n' => 'Mošomiši yo o nale tsebo ya [[$1|bogare]] ya [[$2|Seisimane]].',
+	'babel-3-n' => 'Mošomiši yo o nale tsebo ya [[$1|go kwagala]] ya [[$2|Seisimane]].',
+	'babel-4-n' => 'Mošomiši yo o nale tsebo ya [[$1|go felela]] ya [[$2|Seisimane]].',
+	'babel-5-n' => 'Mošomiši yo o nale tsebo ya [[$1|go makgonthe ya sekolo]] ya [[$2|Seisimane]].',
+	'babel-N-n' => 'Mošomiši yo o nale tsebo ya [[$1|babuledi kgonthe bja polelo]] ya [[$2|Seisimane]].',
+);
+
 /** Occitan (Occitan)
  * @author Cedric31
  */
