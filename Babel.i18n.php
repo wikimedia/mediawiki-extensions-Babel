@@ -3017,13 +3017,13 @@ $messages['nso'] = array(
 	'babel-4' => 'Mošomiši yo o nale tsebo ya [[$1|go felela]] ya [[$2|$3]].',
 	'babel-5' => 'Mošomiši yo o nale tsebo ya [[$1|go makgonthe ya sekolo]] ya [[$2|$3]].',
 	'babel-N' => 'Mošomiši yo o nale tsebo ya [[$1|babuledi kgonthe bja polelo]] ya [[$2|$3]].',
-	'babel-0-n' => 'Mošomiši yo  [[$1|ga ena]] tsebo ya [[$2|Seisemane]] (goba o hlaloganya seisemane ka bothata).',
-	'babel-1-n' => 'Mošomiši yo o nale tsebo ye  [[$1|nnyennyenyane]]  ya [[$2|Seisimane]].',
-	'babel-2-n' => 'Mošomiši yo o nale tsebo ya [[$1|bogare]] ya [[$2|Seisimane]].',
-	'babel-3-n' => 'Mošomiši yo o nale tsebo ya [[$1|go kwagala]] ya [[$2|Seisimane]].',
-	'babel-4-n' => 'Mošomiši yo o nale tsebo ya [[$1|go felela]] ya [[$2|Seisimane]].',
-	'babel-5-n' => 'Mošomiši yo o nale tsebo ya [[$1|go makgonthe ya sekolo]] ya [[$2|Seisimane]].',
-	'babel-N-n' => 'Mošomiši yo o nale tsebo ya [[$1|babuledi kgonthe bja polelo]] ya [[$2|Seisimane]].',
+	'babel-0-n' => 'Mošomiši yo  [[$1|ga ena]] tsebo ya [[$2|Sepedi]] (goba o hlaloganya Sepedi ka bothata).',
+	'babel-1-n' => 'Mošomiši yo o nale tsebo ye  [[$1|nnyennyenyane]]  ya [[$2|Sepedi]].',
+	'babel-2-n' => 'Mošomiši yo o nale tsebo ya [[$1|bogare]] ya [[$2|Sepedi]].',
+	'babel-3-n' => 'Mošomiši yo o nale tsebo ya [[$1|go kwagala]] ya [[$2|Sepedi]].',
+	'babel-4-n' => 'Mošomiši yo o nale tsebo ya [[$1|go felela]] ya [[$2|Sepedi]].',
+	'babel-5-n' => 'Mošomiši yo o nale tsebo ya [[$1|go makgonthe ya sekolo]] ya [[$2|Sepedi]].',
+	'babel-N-n' => 'Mošomiši yo o nale tsebo ya [[$1|babuledi kgonthe bja polelo]] ya [[$2|Sepedi]].',
 );
 
 /** Occitan (Occitan)
