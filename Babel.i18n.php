@@ -2361,7 +2361,7 @@ $messages['lb'] = array(
 	'babel' => 'Babel-Benotzer-Informatioun',
 	'babel-desc' => "Setzt d'<code>#babel</code> Parserfunktioun derbäi, fir déi automatesch Generatioun vun enger Babel-Benotzerbox Kolonn, mat der Méiglechkeet fir eege Schablounen anzebannen",
 	'babel-url' => 'Project:Babel',
-	'babel-autocreate-abort' => "De Benotzernumm den Dir uginn hutt gëtt fir d'[[$1|Babel]]-Kategorie Automatesch-Maache benotzt a kann net gespäichert ginn.",
+	'babel-autocreate-abort' => "De Benotzernumm deen Dir uginn hutt, gëtt fir d'automatescht Uleeë vu [[$1|Babel]]-Kategorië benotzt a kann net gespäichert ginn.",
 	'babel-autocreate-reason' => 'Automatesch eng [[$1|Babel]]-Kategorie-Säit maachen.',
 	'babel-autocreate-text-levels' => 'Benotzer an dëser Kategorie ginn un datt si an der Sprooch $2 den Niveau $1 hunn.',
 	'babel-autocreate-text-main' => 'Benotzer an dëser Kategorie ginn un datt si Kenntnesser vun der Sprooch $1 hunn.',
@@ -3516,9 +3516,17 @@ $messages['ru'] = array(
 );
 
 /** Rusyn (русиньскый язык)
+ * @author Gazeb
  * @author Tkalyn
  */
 $messages['rue'] = array(
+	'babel' => 'Языковы здатности хоснователя',
+	'babel-desc' => 'Придавать функцію <code><nowiki>{{#babel:}}</nowiki></code>, котра доволює автоматічну творбу рамків з інформаціями о языковых способностях хоснователя з можностёв хосновати властны шаблоны.',
+	'babel-url' => 'Project:Бабілон',
+	'babel-autocreate-abort' => 'Зазначене мено хоснователя ся хоснує про катеґорію [[$1|Бабілон]] і не може быти реґістроване',
+	'babel-autocreate-reason' => 'Автоматічне створїня сторінкы катеґорії [[$1|Бабілон]].',
+	'babel-autocreate-text-levels' => 'Хоснователї у тій катеґорії означіли свою рівень {{GRAMMAR:genitiv|$2}} як $1.',
+	'babel-autocreate-text-main' => 'Участници в тій катеґорії вказали знаня языка $1.',
 	'babel-0-n' => 'Сесь хосновач [[$1|не говорить]] [[$2|русинськым языком]] (ци тяжко го розуміє).',
 	'babel-1-n' => 'Сесь хосновач говорить [[$2|по-русинськы]] на [[$1|начальному рôвні]].',
 	'babel-2-n' => 'Сесь хосновач говорить [[$2|по-русинськы]] на [[$1|середньому рôвні]].',
@@ -4536,15 +4544,22 @@ $messages['vro'] = array(
  */
 $messages['wa'] = array(
 	'babel' => "racsegnes so l' uzeu d' Babel",
+	'babel-autocreate-abort' => 'Li no d\' uzeu ki vos avoz dné est ddja eployî dins l\' categoreye [[$1|Babel]] "oto-askepiaedje"; dabôrd, i n\' såreut esse ritnou.',
 	'babel-autocreate-reason' => 'Askepiaedje otomatike del categoreye [[$1|Babel]].',
 	'babel-0' => "Cist(e) uzeu(se) ci n' a [[$1|nole]] kinoxhance do [[$2|$3]] (oudon-bén, nel comprinde k' a schipe)",
 	'babel-1' => "Cist(e) uzeu(se) ci ni sait l' [[$2|$3]] ki come [[$1|onk (ene) ki cmince]].",
 	'babel-2' => 'Cist(e) uzeu(se) ci kinoxhe [[$1|ene miete]] li [[$2|$3]].',
 	'babel-3' => "Cist(e) uzeu(se) ci sait [[$1|bén]] l' [[$2|$3]].",
+	'babel-4' => "Cist(e) uzeu(se) ci sait [[$1|foirt bén]] l' [[$2|$3]].",
+	'babel-5' => "Cist(e) uzeu(se) ci kinoxhe li [[$2|$3]] [[$1|come ene djin d' mestî]]",
+	'babel-N' => 'Cist(e) uzeu(se) est [[$2|$3]]-cåzant [[$1|natif]] .',
 	'babel-0-n' => "Cist(e) uzeu(se) cial ni sait [[$1|nén]] l' [[$2|walon]] (oudon-bén nel comprinde k' a poenne).",
 	'babel-1-n' => "Cist(e) uzeu(se) ci ni sait l' [[$2|walon]] ki come [[$1|onk (ene) ki cmince]].",
 	'babel-2-n' => 'Cist(e) uzeu(se) ci kinoxhe [[$1|ene miete]] li [[$2|walon]].',
 	'babel-3-n' => "Cist(e) uzeu(se) ci sait [[$1|bén]] l' [[$2|walon]].",
+	'babel-4-n' => 'Cist(e) uzeu(se) ci kinoxhe [[$1|foirt bén]] li [[$2|walon]].',
+	'babel-5-n' => "Cist(e) uzeu(se) ci kinoxhe li [[$2|walon]] [[$1|come ene djin d' mestî]]",
+	'babel-N-n' => 'Cist uzeu [[$1|cåzant natif]] do [[$2|walon]].',
 );
 
 /** Wolof (Wolof)
