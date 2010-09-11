@@ -565,11 +565,14 @@ $messages['bcc'] = array(
 
 /** Belarusian (Беларуская)
  * @author Yury Tarasievich
+ * @author Хомелка
  */
 $messages['be'] = array(
 	'babel' => 'Моўныя звесткі ўдзельніка',
 	'babel-desc' => 'Дадае парсеру здольнасць разбіраць <code>#babel</code> і аўтаматычна генераваць паласу юзербоксаў і ўлучаць свае шаблоны',
 	'babel-url' => 'Project:Babel',
+	'babel-autocreate-text-levels' => 'Удзельнікі ў гэтай катэгорыі паказначылі, што яны маюць навык ўзроўню $1 мовы $2.',
+	'babel-autocreate-text-main' => 'Карыстальнікі ў гэтай катэгорыі паказваюць, што яны валодаюць ведамі мовы $1.',
 	'babel-0' => '[[$1|Не разумею]] або ледзьве разумею [[$2|$3]].',
 	'babel-1' => 'Разумею [[$2|$3]] [[$1|збольшага]].',
 	'babel-2' => 'Разумею [[$2|$3]] [[$1|пасярэдне]].',
@@ -2645,7 +2648,7 @@ $messages['mg'] = array(
 	'babel-3' => "Ity mpikambana ity dia [[$1|havanana]] amin'ny teny [[$2|$3]].",
 	'babel-4' => "Ity mpikambana ity dia miteny [[$2|$3]] [[$1|mira-lenta amin'ny tenin-dreniny]].",
 	'babel-5' => 'Ity mpikambana ity dia miteny [[$2|$3]] [[$1|ara-asa]].',
-	'babel-N' => 'Ny teny [[$2|$3]] no [[$1|tenim-pirenena nahabe]] ity mpikambana ity.',
+	'babel-N' => "Ny teny [[$2|$3]] no [[$1|teny nibeazan']]ity mpikambana ity.",
 	'babel-0-n' => 'Ity mpikambana ity dia [[$1|tsy mahay]] miteny [[$2|malagasy]] (na sarotra aminy no miteny azy).',
 	'babel-1-n' => 'Ity mpikambana ity dia miteny [[$2|malagasy]] [[$1|tsotsotra]].',
 	'babel-2-n' => 'Ity mpikambana ity dia miteny [[$2|Malagasy]] [[$1|antonontonony]].',
