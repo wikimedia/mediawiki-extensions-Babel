@@ -1475,8 +1475,8 @@ $messages['ga'] = array(
 	'babel-2-n' => 'Tá eolas [[$1|idirmheánach]] ag an úsáideoir seo maidir le [[$2|Gaeilge]].',
 	'babel-3-n' => 'Tá [[$2|Gaeilge]] [[$1|mhaith]] ag an úsáideoir seo.',
 	'babel-4-n' => 'Tá eolas [[$1|beagnach dúchasach]] ag an úsáideoir seo maidir le [[$2|Gaeilge]].',
-	'babel-5-n' => 'Tá eolas [[$1|gairmiúil]] ag an úsáideoir seo maidir le Gaeilge.',
-	'babel-N-n' => 'Tá Gaeilge ag an úsáideoir seo [[$1|ó dhúchas]].',
+	'babel-5-n' => 'Tá eolas [[$1|gairmiúil]] ag an úsáideoir seo maidir le [[$2|Gaeilge]].',
+	'babel-N-n' => 'Tá [[$2|Gaeilge]] ag an úsáideoir seo [[$1|ó dhúchas]].',
 );
 
 /** Gan (贛語)
