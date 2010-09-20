@@ -108,6 +108,17 @@ $messages['sxu'] = array(
 	'babel-N-n' => "Dor Benutzor hior is ä rüscht'schor [[$1|Muddorsprachlor]] vom [[$2|Sächs'sch]]n.",
 );
 
+/** Jamaican Creole English (Jamaican Creole English)
+ * @author Yocahuna
+ */
+$messages['jam'] = array(
+	'babel' => 'Biebl yuuza infamieshan',
+	'babel-desc' => 'Ad di <code>#babel</code> paaza fongshan fi lou aatamietid jinarieshan a biebl yuuzabax kalom wid di abiliti fi inkluud kostom templit',
+	'babel-url' => 'Project:Biebl',
+	'babel-autocreate-abort' => 'Di yuuzaniem yu spesifai yuuz fi [[$1|Babel]] kiatigari aato-krieshan ahn kyaahn regista.',
+	'babel-autocreate-reason' => 'Aatamatikali a kriet [[$1|Babel]] kiatigari piej.',
+);
+
 /** Kabuverdianu (Kabuverdianu)
  * @author Waldir
  */
