@@ -817,7 +817,6 @@ $messages['ce'] = array(
  * @author GerardM
  */
 $messages['ckb'] = array(
-	'babel-directionality' => 'rtl',
 	'babel' => 'زانیاریی بەکارھێنەریی بابل',
 	'babel-desc' => 'کرداری شیکەری <code>#babel</code> زیاد دەکات بۆ ڕێگا دان بە خۆکار دروست بوونی ستوونی سندوقی بەکارھێنەری بابل لەگەڵ توانایی بۆ لەخۆ گرتنی داڕێژە دڵخوازەکان',
 	'babel-url' => 'Project:بابل',
@@ -1378,7 +1377,7 @@ $messages['frp'] = array(
 	'babel-N-n' => 'Ceti utilisator at por [[$1|lengoua matèrnâla]] l’[[$2|arpetan]].',
 );
 
-/** Northern Frisian (Frasch)
+/** Northern Frisian (Nordfriisk)
  * @author Purodha
  * @author Pyt
  */
@@ -3563,7 +3562,7 @@ $messages['ru'] = array(
 	'babel-N-n' => 'Для этого участника [[$2|русский язык]] является [[$1|родным]].',
 );
 
-/** Rusyn (русиньскый язык)
+/** Rusyn (Русиньскый)
  * @author Gazeb
  * @author Tkalyn
  */
@@ -4310,6 +4309,24 @@ $messages['tr'] = array(
 	'babel-4-n' => 'Bu kullanıcı [[$1|anadili gibi]] [[$2|Türkçe]] konuşabilir.',
 	'babel-5-n' => 'Bu kullanıcı [[$1|profesyonel]] [[$2|Türkçe]] bilgisine sahiptir.',
 	'babel-N-n' => "Bu kullanıcının [[$1|anadili]] [[$2|Türkçe]]'dir.",
+);
+
+/** Tatar (Татарча/Tatarça)
+ * @author Ильнар
+ */
+$messages['tt'] = array(
+	'babel-autocreate-text-main' => 'Бу төркемдәге кулланучылар үзләренең $1  белүләрен күрсәтәләр.',
+	'babel-0' => 'Бу кулланучы [[$1|белми]] яисә [[$2|$3]] бөтенләй дә аңламый.',
+	'babel-1' => 'Бу кулланучы [[$2|$3]] [[$1|башлангыч]] дәрәҗәдә белә.',
+	'babel-5' => '[[$2|$3]] — [[$1|һөнәри дәрәҗәдә]] белә.',
+	'babel-N' => '[[$2|$3]] — [[$1|туган теле]]',
+	'babel-0-n' => 'Бу кулланучы [[$2|татарча]] [[$1|белми]] (яисә бөтенләй дә аңламый).',
+	'babel-1-n' => 'Бу кулланучы  [[$2|татарча]]  [[$1|башлангыч дәрәҗәдә]] белә.',
+	'babel-2-n' => 'Бу кулланучы  [[$2|татарча]]  [[$1|уртача дәрәҗәдә]] белә.',
+	'babel-3-n' => 'Бу кулланучы  [[$2|татарча]]  [[$1|ирекле дәрәҗәдә]] сөйләшә.',
+	'babel-4-n' => 'Бу кулланучы  [[$2|татарча]]  [[$1|бик әйбәт]] белә.',
+	'babel-5-n' => 'Бу кулланучы  [[$2|татарча]]  [[$1|һөнәри дәрәҗәдә]] белә.',
+	'babel-N-n' => 'Бу кулланучы өчен [[$2|татар теле]] [[$1|туган тел]].',
 );
 
 /** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
