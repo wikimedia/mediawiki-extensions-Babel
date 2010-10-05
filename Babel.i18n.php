@@ -117,6 +117,22 @@ $messages['jam'] = array(
 	'babel-url' => 'Project:Biebl',
 	'babel-autocreate-abort' => 'Di yuuzaniem yu spesifai yuuz fi [[$1|Babel]] kiatigari aato-krieshan ahn kyaahn regista.',
 	'babel-autocreate-reason' => 'Aatamatikali a kriet [[$1|Babel]] kiatigari piej.',
+	'babel-autocreate-text-levels' => 'Yuuza ina dis kiatigeri indikiet se dehn ab skil lebl $1 fi langwij $2.',
+	'babel-autocreate-text-main' => 'Yuuza ina dis kiatigeri indikiet se dehn ab nalij a langwij $1.',
+	'babel-0' => 'Dis yuuza ab [[$1|no]] nalij a [[$2|$3]] (ar andastani wid kansidarobl difikolti).',
+	'babel-1' => 'Di yuuza ab [[$1|biesik]] nalij a [[$2|$3]].',
+	'babel-2' => 'Di yuuza ab [[$1|intamidiet]] nalij a [[$2|$3]].',
+	'babel-3' => 'Di yuuza ab [[$1|advans]] nalij a [[$2|$3]].',
+	'babel-4' => 'Di yuuza ab [[$1|nier nietib]] nalij a [[$2|$3]].',
+	'babel-5' => 'Di yuuza ab [[$1|profeshanal]] nalij a [[$2|$3]].',
+	'babel-N' => 'Di yuuza ab a [[$1|nietib]] andastanin a [[$2|$3]].',
+	'babel-0-n' => 'Dis yuuza ab [[$1|no]] nalij a [[$2|Ingglish]] (ar andastani wid kansidarobl difikolti).',
+	'babel-1-n' => 'Di yuuza ab [[$1|biesik]] nalij a [[$2|Ingglish]].',
+	'babel-2-n' => 'Di yuuza ab [[$1|intamidiet]] nalij a [[$2|Ingglish]].',
+	'babel-3-n' => 'Di yuuza ab [[$1|advans]] nalij a [[$2|Ingglish]].',
+	'babel-4-n' => 'Di yuuza ab [[$1|nier nietib]] nalij a [[$2|Ingglish]].',
+	'babel-5-n' => 'Di yuuza ab [[$1|profeshanal]] nalij a [[$2|Ingglish]].',
+	'babel-N-n' => 'Di yuuza ab a [[$1|nietib]] andastanin a [[$2|Ingglish]].',
 );
 
 /** Kabuverdianu (Kabuverdianu)
@@ -4077,7 +4093,7 @@ $messages['szl'] = array(
 $messages['ta'] = array(
 	'babel' => 'பாபேல் பயனர் தகவல்கள்',
 	'babel-desc' => 'தனிப்பட்ட வார்ப்புருக்கள் உள்ளடங்களாக தானியக்கமாக பாபேல் பயனர் பெட்டிகளை ஆக்குவதை முடுக்கும் வகையில் <code>#babel</code>இலக்கணப் பாகுபடுத்தி சார்பை இணைக்கிறது.',
-	'babel-url' => 'திட்டம்: பாபேல்',
+	'babel-url' => 'Project:பாபேல்',
 	'babel-autocreate-abort' => 'தாங்கள் குறிப்பிட்ட பயனர் பெயர் [[$1|Babel]] பகுப்பில் பயன்படுத்தப்படும் மேலும் தாங்கள் இதைவைத்து பதிவு செய்யமுடியாது.',
 	'babel-autocreate-reason' => 'தானியக்கமாக [[$1|Babel]] பகுப்பு பக்கம் உருவாக்கபடுகிறது.',
 	'babel-autocreate-text-levels' => 'இப்பகுப்பில் உள்ள பயனர்கள் $2 மொழியில் $1 அளவுக்கு திறமை படைத்தவர்கள் என்பதனைக் குறிப்பிடுகிறது.',
