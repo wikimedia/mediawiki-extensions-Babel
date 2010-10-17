@@ -3530,7 +3530,7 @@ $messages['rm'] = array(
 	'babel-1-n' => 'Quest utilisader ha conuschientschas [[$1|fundamentalas]] dal [[$2|rumantsch]].',
 	'babel-2-n' => "Quest utilisader ha conuschientschas dal [[$2|rumantsch]] [[$1|d'in principiant avanzà]].",
 	'babel-3-n' => 'Quest utilisader ha conuschientschas [[$1|avanzads]] dal [[$2|rumantsch]].',
-	'babel-4-n' => 'Quest utilisader sa [[$2|rumantsch]] prost sco ina [[$1|persuna da lingua materna]].',
+	'babel-4-n' => 'Quest utilisader sa [[$2|rumantsch]] prest sco ina [[$1|persuna da lingua materna]].',
 	'babel-5-n' => 'Quest utilisader ha conuschientschas [[$1|professiunalas]] dal [[$2|rumantsch]].',
 	'babel-N-n' => 'Per quest utilisader è [[$2|rumantsch]] la [[$1|lingua materna]].',
 );
@@ -4313,8 +4313,18 @@ $messages['tokipona'] = array(
 
 /** Tok Pisin (Tok Pisin)
  * @author Iceflow
+ * @author Iketsi
  */
 $messages['tpi'] = array(
+	'babel' => 'Babel save bilong yusa',
+	'babel-url' => 'Project:Babel',
+	'babel-0' => 'Dispela yusa i [[$1|no]] save long [[$2|$3]].',
+	'babel-1' => 'Dispela yusa i save [[$1|liklik tasol]] long [[$2|$3]].',
+	'babel-2' => 'Dispela yusa i save [[$1|hap hap]] long [[$2|$3]].',
+	'babel-3' => 'Dispela yusa i save [[$1|gut tru]] long [[$2|$3]].',
+	'babel-4' => 'Dispela yusa i save long [[$2|$3]] kain olsem [[$1|wanpela lokol]].',
+	'babel-5' => 'Dispela yusa i save [[$1|nambawan]] long [[$2|$3]].',
+	'babel-N' => '[[$2|$3]] i [[$1|as tok]] bilong dispela yusa.',
 	'babel-0-n' => 'Dispela yusa i [[$1|no save]] long [[$2|Tok Pisin]]',
 	'babel-1-n' => 'Dispela yusa i save [[$1|liklik tasol]] long [[$2|Tok Pisin]].',
 	'babel-2-n' => 'Dispela yusa i save [[$1|hap hap]] long [[$2|Tok Pisin]].',
