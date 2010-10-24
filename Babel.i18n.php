@@ -1729,6 +1729,7 @@ $messages['haw'] = array(
 
 /** Hebrew (עברית)
  * @author Agbad
+ * @author Amire80
  * @author GerardM
  * @author Rotemliss
  * @author YaronSh
@@ -1739,7 +1740,7 @@ $messages['he'] = array(
 	'babel-url' => 'Project:כישורי שפה',
 	'babel-autocreate-abort' => 'שם המשתמש שציינתם משמש ליצירה אוטומטית של קטגוריות [[$1|כישורי שפה]], ולכן לא ניתן לרשום אותו.',
 	'babel-autocreate-reason' => 'יצירה אוטומטית של דף קטגוריה ל[[$1|כישורי שפה]]',
-	'babel-autocreate-text-levels' => 'המשתמשים בקטגוריה זו מציינים כי רמת השפה שלהם הינה $1 בשפה ה$2.',
+	'babel-autocreate-text-levels' => 'המשתמשים בקטגוריה זו מציינים כי הרמה שלהם בשפה ה$ היא $1.',
 	'babel-autocreate-text-main' => 'המשתמשים בקטגוריה זו מציינים כי יש להם ידע בשפה ה$1.',
 	'babel-autocreate-user' => 'יצירה אוטומטית של כישורי שפה',
 	'babel-directionality' => 'rtl',
