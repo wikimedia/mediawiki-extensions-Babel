@@ -10,7 +10,7 @@ class Babel {
 	 * Various values from the message cache.
 	 */
 	private $_prefixes, $_suffixes, $_cellspacing, $_directionality, $_url,
-		$_title, $_footer;
+		$_footer;
 
 	/**
 	 * Render the Babel tower.
