@@ -26,6 +26,10 @@ class Babel {
 		// to the parameters passed to the babel parser function.
 		unset( $parameters[ 0 ] );
 
+		// Load the extension messages in basic languages (en, content and
+		// user).
+		wfLoadExtensionMessages( 'Babel' );
+
 		// Load various often used messages into the message member variables.
 		$this->_getMessages();
 
@@ -226,6 +230,13 @@ HEREDOC;
 
 		// Get MediaWiki supported language codes\names.
 		$nativeNames = Language::getLanguageNames();
+
+		// Load extension messages for box language and it's fallback if it is
+		// a valid MediaWiki language.
+		if ( array_key_exists( $code, $nativeNames ) ) {
+			wfLoadExtensionMessages( 'Babel', $code );
+			wfLoadExtensionMessages( 'Babel', Language::getFallbackFor( $code ) );
+		}
 
 		// Get the language names.
 		$name = BabelLanguageCodes::getName( $code );
