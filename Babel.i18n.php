@@ -1394,6 +1394,7 @@ $messages['frp'] = array(
 );
 
 /** Northern Frisian (Nordfriisk)
+ * @author Murma174
  * @author Purodha
  * @author Pyt
  */
@@ -1412,13 +1413,13 @@ $messages['frr'] = array(
 	'babel-4' => 'Dideere brüker reet ham ma [[$2|$3]] aw [[$1|mamenspräklike]] schuchte.',
 	'babel-5' => 'Dideere brüker reet ham ma [[$2|$3]] aw [[$1|profäsjonäle]] schuchte.',
 	'babel-N' => 'Dideere brüker snååket [[$2|$3]] as [[$1|mamenspräke]].',
-	'babel-0-n' => 'Dideere brüker reet ham [[$1|ai]] ma [[$2|Friisk]] (unti ferstoont dåt mån ma duuchti swiirihäide).',
-	'babel-1-n' => 'Dideere brüker koon [[$1|lait]] [[$2|friisk]] snååke en leese.',
-	'babel-2-n' => 'Dideere brüker heet [[$1|ordi]] waasen foon [[$2|Friisk]].',
-	'babel-3-n' => 'Dideere brüker reet ham ma [[$2|Friisk]] aw [[$1|huuge]] schuchte.',
-	'babel-4-n' => 'Dideere brüker reet ham ma [[$2|Friisk]] aw [[$1|mamenspräklike]] schuchte.',
-	'babel-5-n' => 'Dideere brüker reet ham ma [[$2|Friisk]] aw [[$1|profäsjonäle]] schuchte.',
-	'babel-N-n' => 'Dideere brüker snååket [[$2|Friisk]] as [[$1|mamenspräke]].',
+	'babel-0-n' => 'Dideere brüker reet ham [[$1|ai]] ma [[$2|Nordfriisk]] (unti ferstoont dåt mån ma duuchti swiirihäide).',
+	'babel-1-n' => 'Dideere brüker koon [[$1|lait]] [[$2|Nordfriisk]] snååke en leese.',
+	'babel-2-n' => 'Dideere brüker heet [[$1|ordi]] waasen foon [[$2|Nordfriisk]].',
+	'babel-3-n' => 'Dideere brüker reet ham ma [[$2|Nordfriisk]] aw [[$1|huuge]] schuchte.',
+	'babel-4-n' => 'Dideere brüker reet ham ma [[$2|Nordfriisk]] aw [[$1|mamenspräklike]] schuchte.',
+	'babel-5-n' => 'Dideere brüker reet ham ma [[$2|Nordfriisk]] aw [[$1|profäsjonäle]] schuchte.',
+	'babel-N-n' => 'Dideere brüker snååket [[$2|Nordfriisk]] as [[$1|mamenspräke]].',
 );
 
 /** Friulian (Furlan)
