@@ -3784,6 +3784,14 @@ $messages['sh'] = array(
 	'babel-N-n' => 'Ovaj korisnik razumije [[$2|srpskohrvatski]] kao [[$1|maternji]] jezik.',
 );
 
+/** Tachelhit (Tašlḥiyt)
+ * @author Dalinanir
+ */
+$messages['shi'] = array(
+	'babel' => '↓ Inɣmas Babel f umsqdac',
+	'babel-1-n' => '↓ Amsqdac ad dar tusna [[$1|tamzwarut]] ɣ [[$2|Tasussit]].',
+);
+
 /** Sinhala (සිංහල)
  * @author Asiri wiki
  * @author තඹරු විජේසේකර
