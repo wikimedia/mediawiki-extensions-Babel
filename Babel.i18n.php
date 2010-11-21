@@ -3792,7 +3792,18 @@ $messages['sh'] = array(
  * @author Dalinanir
  */
 $messages['shi'] = array(
-	'babel' => '↓ Inɣmas Babel f umsqdac',
+	'babel' => '↓ Inɣmas Babil f umsqdac',
+	'babel-url' => '↓ Project:Babil',
+	'babel-autocreate-reason' => '↓ Askr utumatik n [[$1|Babil]] talɣa .',
+	'babel-autocreate-text-levels' => '↓ Mdn v talɣa yad ar mmaln mas llan ɣ uswir n $1 i tutlayt n $2.',
+	'babel-autocreate-text-main' => ' Imqdacn ɣ talɣa yad ar mlan masd darsn tusna ɣ  tutlayt $1.',
+	'babel-0' => '↓ Amdan ad ur dar n tusna ɣ [[$1|walu]] (niɣd dars tamukrist iggutn ɣ tusna n tutlayt ad)[[$2|$3]].',
+	'babel-1' => 'Amdan ad ittaws s uswir [[$1|idrusn]] s  [[$2|$3]].',
+	'babel-2' => 'Amdan ad dars tusna s uswir  [[$2|$3]] ɣ [[$1|anamas]].',
+	'babel-3' => 'Amdan  dar tusna s uswir [[$1|n yittin]] ɣ [[$2|$3]].',
+	'babel-4' => 'Amdan ad dar tusna n yaẓn i [[$1|tutlayt  tamzwarut]] ɣ [[$2|$3]].',
+	'babel-5' => 'Amdan ad dars tusna [[$1|bahra yattuyn]] ɣ [[$2|$3]].',
+	'babel-N' => 'Amdan ad dars tusna n yazn i [[$1|tutlayt tamzwarut]] ɣ [[$2|$3]].',
 	'babel-1-n' => '↓ Amsqdac ad dar tusna [[$1|tamzwarut]] ɣ [[$2|Tasussit]].',
 );
 
