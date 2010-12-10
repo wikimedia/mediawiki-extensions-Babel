@@ -1265,11 +1265,13 @@ $messages['eu'] = array(
 /** Persian (فارسی)
  * @author Huji
  * @author Ladsgroup
+ * @author Mjbmr
  */
 $messages['fa'] = array(
 	'babel' => 'اطلاعات کاربری بابل',
 	'babel-desc' => 'دستور تجزیه‌گر <code>#babel</code> را اضافه می‌کند که امکان ایجاد خودکار جعبه‌های کاربری بابل با قابلیت گنجاندن الگوهای دلخواه را فراهم می‌کند',
 	'babel-url' => 'Project:بابل',
+	'babel-autocreate-reason' => 'ایجاد خودکار صفحه رده [[$1|بابل]].',
 	'babel-autocreate-text-levels' => 'کاربران این رده توانایی $1 را در زبان $2 دارند',
 	'babel-directionality' => 'rtl',
 	'babel-0' => 'این کاربر [[$2|$3]] را در حد [[$1|نمی‌فهمد]] (یا به سختی می‌فهمد).',
