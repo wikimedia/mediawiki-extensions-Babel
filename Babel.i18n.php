@@ -3794,11 +3794,11 @@ $messages['sh'] = array(
  * @author Dalinanir
  */
 $messages['shi'] = array(
-	'babel' => '↓ Inɣmas Babil f umsqdac',
-	'babel-desc' => 'Zayd awur <code>#babil</code> lli radd immurzm s utumatik yat tanaka (taznbilt) nu umsqdac Babil d mas rad yaf an ig timuḍimin n idɣarn.',
-	'babel-url' => '↓ Project:Babil',
-	'babel-autocreate-abort' => 'Assaɣ n usqdac llin tskcmt ittuyskar bac an ig utumatik tilɣiwin  [[$1|Babil]] d ur ikls (iqqiyd)',
-	'babel-autocreate-reason' => '↓ Askr utumatik n [[$1|Babil]] talɣa .',
+	'babel' => '↓ Inɣmas Babel f umsqdac',
+	'babel-desc' => 'Zayd awur <code>#babel</code> lli radd immurzm s utumatik yat tanaka (taznbilt) nu umsqdac Babil d mas rad yaf an ig timuḍimin n idɣarn.',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'Assaɣ n usqdac llin tskcmt ittuyskar bac an ig utumatik tilɣiwin  [[$1|Babel]] d ur ikls (iqqiyd)',
+	'babel-autocreate-reason' => '↓ Askr utumatik n [[$1|Babel]] talɣa .',
 	'babel-autocreate-text-levels' => '↓ Mdn v talɣa yad ar mmaln mas llan ɣ uswir n $1 i tutlayt n $2.',
 	'babel-autocreate-text-main' => ' Imqdacn ɣ talɣa yad ar mlan masd darsn tusna ɣ  tutlayt $1.',
 	'babel-0' => '↓ Amdan ad ur dar n tusna ɣ [[$1|walu]] (niɣd dars tamukrist iggutn ɣ tusna n tutlayt ad)[[$2|$3]].',
