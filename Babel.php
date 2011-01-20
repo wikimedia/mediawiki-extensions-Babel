@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Babel Extension
  *
@@ -11,40 +12,32 @@
  * @link http://www.mediawiki.org/wiki/Extension:Babel
  *
  * @author Robert Leverington <robert@rhl.me.uk>
- * @copyright Copyright © 2008 - 2009 Robert Leverington.
+ * @copyright Copyright © 2008 - 2011 Robert Leverington.
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
-// Ensure accessed via a valid entry point.
 if ( !defined( 'MEDIAWIKI' ) ) die( 'Invalid entry point.' );
 
-// Register extension credits.
-$wgExtensionCredits[ 'parserhook' ][] = array(
+$wgExtensionCredits['parserhook'][] = array(
 	'path'            => __FILE__,
 	'name'            => 'Babel',
-	'version'         => '1.4.1',
+	'version'         => '1.5.0',
 	'author'          => 'Robert Leverington',
 	'url'             => 'http://www.mediawiki.org/wiki/Extension:Babel',
 	'descriptionmsg'  => 'babel-desc',
 );
 
-// Register setup function.
-$wgHooks[ 'ParserFirstCallInit' ][] = 'BabelStatic::Setup';
-
-// Register required hooks.
-$wgHooks[ 'AbortNewAccount'  ][] = 'BabelAutoCreate::RegisterAbort';
+$wgHooks['ParserFirstCallInit'][] = 'BabelStatic::Setup';
+$wgHooks['AbortNewAccount'][]     = 'BabelAutoCreate::RegisterAbort';
 
 $dir = dirname( __FILE__ );
 
-// Register internationalisation file.
-$wgExtensionMessagesFiles[ 'Babel' ] = $dir . '/Babel.i18n.php';
-$wgExtensionMessagesFiles[ 'BabelMagic' ] = $dir . '/Babel.i18n.magic.php';
-
-// Register autoload classes.
-$wgAutoloadClasses[ 'Babel'              ] = $dir . '/Babel.class.php';
-$wgAutoloadClasses[ 'BabelLanguageCodes' ] = $dir . '/BabelLanguageCodes.class.php';
-$wgAutoloadClasses[ 'BabelStatic'        ] = $dir . '/BabelStatic.class.php';
-$wgAutoloadClasses[ 'BabelAutoCreate'    ] = $dir . '/BabelAutoCreate.class.php';
+$wgExtensionMessagesFiles['Babel']      = $dir . '/Babel.i18n.php';
+$wgExtensionMessagesFiles['BabelMagic'] = $dir . '/Babel.i18n.magic.php';
+$wgAutoloadClasses['Babel']              = $dir . '/Babel.class.php';
+$wgAutoloadClasses['BabelLanguageCodes'] = $dir . '/BabelLanguageCodes.class.php';
+$wgAutoloadClasses['BabelStatic']        = $dir . '/BabelStatic.class.php';
+$wgAutoloadClasses['BabelAutoCreate']    = $dir . '/BabelAutoCreate.class.php';
 
 // Configuration setttings.
 // A boolean (true or false) indicating whether users should be entered in to a category if they use xx-0; defaults to false.

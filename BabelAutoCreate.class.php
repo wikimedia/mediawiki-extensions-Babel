@@ -21,7 +21,9 @@ class BabelAutoCreate {
 	public static function create( $category, $language, $level = null ) {
 		$category = strip_tags( $category );
 		$title = Title::newFromText( $category, NS_CATEGORY );
-		if ( $title === null || $title->exists() ) return;
+		if ( $title === null || $title->exists() ) {
+			return;
+		}
 		if ( $level === null ) {
 			$text = wfMsgForContent( 'babel-autocreate-text-main', $language );
 		} else {
@@ -37,7 +39,9 @@ class BabelAutoCreate {
 	public static function user() {
 		if ( !self::$user ) {
 			self::$user = User::newFromName( wfMsgForContent( 'babel-autocreate-user' ), false );
-			if ( !self::$user->isLoggedIn() ) self::$user->addToDatabase();
+			if ( !self::$user->isLoggedIn() ) {
+				self::$user->addToDatabase();
+			}
 		}
 		return self::$user;
 	}
