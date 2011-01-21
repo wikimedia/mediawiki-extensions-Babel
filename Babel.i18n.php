@@ -43,8 +43,6 @@ $messages['en'] = array(
 
 	'babel-box-cellspacing' => '0', # Do not translate or duplicate this message to other languages.
 
-	'babel-category-prefix' => '', # Do not translate or duplicate this message to other languages.
-	'babel-category-suffix' => '', # Do not translate or duplicate this message to other languages.
 	'babel-portal-prefix'   => '', # Do not translate or duplicate this message to other languages.
 	'babel-portal-suffix'   => '', # Do not translate or duplicate this message to other languages.
 	'babel-template-prefix' => '', # Do not translate or duplicate this message to other languages.
@@ -55,7 +53,6 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Lloffiwr
- * @author MinuteElectron
  * @author Purodha
  * @author Raimond Spekking
  * @author Raymond

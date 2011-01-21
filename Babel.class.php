@@ -126,16 +126,22 @@ PHP;
 		}
 		// Try splitting the paramter in to language and level, split on last hyphen.
 		$lastSplit = strrpos( $parameter, '-' );
-		if ( $lastSplit === false ) return false;
+		if ( $lastSplit === false ) {
+			return false;
+		}
 		$code  = substr( $parameter, 0, $lastSplit );
 		$level = substr( $parameter, $lastSplit + 1 );
 
 		// Validate code.
 		$return['code'] = BabelLanguageCodes::getCode( $code );
-		if ( !$return['code'] ) return false;
+		if ( !$return['code'] ) {
+			return false;
+		}
 		// Validate level.
 		$intLevel = (int) $level;
-		if ( ( $intLevel < 0 || $intLevel > 5 ) && $level !== 'N' ) return false;
+		if ( ( $intLevel < 0 || $intLevel > 5 ) && $level !== 'N' ) {
+			return false;
+		}
 		$return['level'] = $level;
 
 		return $return;
@@ -146,6 +152,7 @@ PHP;
 	 *
 	 * @param $code String: Language code to use.
 	 * @param $level String or Integer: Level of ability to use.
+	 * @return String: A single babel box, in wikitext format.
 	 */
 	protected function mGenerateBox( $code, $level ) {
 		$header = "[[{$this->mAddFixes( $code,'portal' )}|" . wfBCP47( $code ) . "]]<span class=\"mw-babel-box-level-$level\">-$level</span>";
@@ -177,10 +184,10 @@ PHP;
 	 * @return String: Text for display, in wikitext format.
 	 */
 	protected function mGetText( $name, $language, $level ) {
-		global $wgTitle, $wgBabelUseLevelZeroCategory;
+		global $wgTitle, $wgBabelUseLevelZeroCategory, $wgBabelCategoryNames;
 
-		$categoryLevel = ":Category:{$this->mAddFixes( "$language-$level",'category' )}";
-		$categorySuper = ":Category:{$this->mAddFixes( $language,'category' )}";
+		$categoryLevel = ':Category:' . $this->mReplaceCategoryVariables( $wgBabelCategoryNames[$level], $language );
+		$categorySuper = ':Category:' . $this->mReplaceCategoryVariables( $wgBabelCategoryNames['main'], $language );
 
 		if ( !$wgBabelUseLevelZeroCategory && $level === '0' ) {
 			$categoryLevel = $wgTitle->getFullText();
@@ -211,23 +218,47 @@ PHP;
 	 *
 	 * @param $code String: Language code to use.
 	 * @param $level String or Integer: Level of ability to use.
+	 * @return String: Wikitext to add categories.
 	 */
 	protected function mGenerateCategories( $code, $level ) {
 		global $wgBabelUseMainCategories, $wgBabelUseLevelZeroCategory,
-			$wgBabelUseSimpleCategories;
+			$wgBabelUseSimpleCategories, $wgBabelCategoryNames, $wgLanguageCode;
 
 		$r = '';
 
 		if ( $wgBabelUseMainCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === '0' ) || $level > 0 ) ) {
-			$r .= "[[Category:{$this->mAddFixes( $code,'category' )}|$level]]";
-			BabelAutoCreate::create( $this->mAddFixes( "$code", 'category' ), BabelLanguageCodes::getName( $code ) );
+			$category = $this->mReplaceCategoryVariables( $wgBabelCategoryNames['main'], $code );
+			$r .= "[[Category:$category|$level]]";
+			BabelAutoCreate::create( $category, BabelLanguageCodes::getName( $code, $wgLanguageCode ) );
 		}
 
 		if ( !$wgBabelUseSimpleCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === '0' ) || $level > 0 ) ) {
-			$r .= "[[Category:{$this->mAddFixes( "$code-$level",'category' )}]]";
-			BabelAutoCreate::create( $this->mAddFixes( "$code-$level", 'category' ), $level, BabelLanguageCodes::getName( $code ) );
+			$category = $this->mReplaceCategoryVariables( $wgBabelCategoryNames[$level], $code );
+			$r .= "[[Category:$category]]";
+			BabelAutoCreate::create( $category, BabelLanguageCodes::getName( $code, $wgLanguageCode ), $level );
 		}
 
 		return $r;
+	}
+
+	/**
+	 * Replace the placeholder variables from the category names configurtion
+	 * array with actual values.
+	 *
+	 * @param $category String: Category name (containing variables).
+	 * @param $code String: Language code of category.
+	 * @return String: Category name with variables replaced.
+	 */
+	protected function mReplaceCategoryVariables( $category, $code ) {
+		global $wgLanguageCode;
+		$vars = array(
+			'%code%' => $code,
+			'%wikiname%' => BabelLanguageCodes::getName( $code, $wgLanguageCode ),
+			'%nativename%' => BabelLanguageCodes::getName( $code )
+		);
+		foreach ( $vars as $find => $replace ) {
+			$category = str_replace( $find, $replace, $category );
+		}
+		return $category;
 	}
 }

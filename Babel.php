@@ -49,6 +49,17 @@ $wgBabelUseMainCategories    = true;
 // Language names and codes constant database files, the defaults should suffice.
 $wgBabelLanguageCodesCdb     = $dir . '/codes.cdb';
 $wgBabelLanguageNamesCdb     = $dir . '/names.cdb';
+// Format of category names - variables: %code% %wikiname% %nativename%
+$wgBabelCategoryNames = array(
+	0 => '%code%-0',
+	1 => '%code%-1',
+	2 => '%code%-2',
+	3 => '%code%-3',
+	4 => '%code%-4',
+	5 => '%code%-5',
+	'N' => '%code%-N',
+	'main' => '%code%'
+);
 
 /* Other settings, to be made in-wiki:
 MediaWiki:Babel-template-prefix and MediaWiki:Babel-template-suffix

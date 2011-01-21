@@ -38,9 +38,11 @@ class BabelLanguageCodes {
 	 *     - Names constant database.
 	 *
 	 * @param $code String: Code to get name for.
+	 * @param $language String: Code of language to attempt to get name in,
+	 *                  defaults to language of code.
 	 * @return String (name of language) or false (invalid language code).
 	 */
-	public static function getName( $code ) {
+	public static function getName( $code, $language = null ) {
 		$cacheType = 'name';
 		// Get correct code, even though it should already be correct.
 		$code = self::getCode( $code );
@@ -48,9 +50,13 @@ class BabelLanguageCodes {
 			return false;
 		}
 
+		if ( $language === null ) {
+			$language = $code;
+		}
+
 		// Try CLDR extension, then MediaWiki native.
 		if ( class_exists( 'LanguageNames' ) ) {
-			$names = LanguageNames::getNames( $code, LanguageNames::FALLBACK_NORMAL, LanguageNames::LIST_MW_AND_CLDR );
+			$names = LanguageNames::getNames( $language, LanguageNames::FALLBACK_NORMAL, LanguageNames::LIST_MW_AND_CLDR );
 		} else {
 			$names = Language::getLanguageNames();
 		}

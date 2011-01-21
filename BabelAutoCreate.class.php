@@ -17,6 +17,10 @@ class BabelAutoCreate {
 
 	/**
 	 * Create category.
+	 *
+	 * @param $category String: Name of category to create.
+	 * @param $language String: Name of language that the category is for.
+	 * @param $level String: Level that the category is for.
 	 */
 	public static function create( $category, $language, $level = null ) {
 		$category = strip_tags( $category );
@@ -27,14 +31,16 @@ class BabelAutoCreate {
 		if ( $level === null ) {
 			$text = wfMsgForContent( 'babel-autocreate-text-main', $language );
 		} else {
-			$text = wfMsgForContent( 'babel-autocreate-text-levels', $language, $level );
+			$text = wfMsgForContent( 'babel-autocreate-text-levels', $level, $language );
 		}
 		$article = new Article( $title );
-		$article->doEdit( $text, wfMsgForContent( 'babel-autocreate-reason', wfMsgForContent( 'babel-url' ) ), EDIT_SUPPRESS_RC, false, self::user() );
+		$article->doEdit( $text, wfMsgForContent( 'babel-autocreate-reason', wfMsgForContent( 'babel-url' ) ), EDIT_FORCE_BOT, false, self::user() );
 	}
 
 	/**
 	 * Get user object.
+	 *
+	 * @return User object: User object for autocreate user.
 	 */
 	public static function user() {
 		if ( !self::$user ) {
