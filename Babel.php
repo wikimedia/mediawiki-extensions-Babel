@@ -21,7 +21,7 @@ if ( !defined( 'MEDIAWIKI' ) ) die( 'Invalid entry point.' );
 $wgExtensionCredits['parserhook'][] = array(
 	'path'            => __FILE__,
 	'name'            => 'Babel',
-	'version'         => '1.5.0',
+	'version'         => '1.6.0',
 	'author'          => 'Robert Leverington',
 	'url'             => 'http://www.mediawiki.org/wiki/Extension:Babel',
 	'descriptionmsg'  => 'babel-desc',
@@ -34,6 +34,7 @@ $dir = dirname( __FILE__ );
 
 $wgExtensionMessagesFiles['Babel']      = $dir . '/Babel.i18n.php';
 $wgExtensionMessagesFiles['BabelMagic'] = $dir . '/Babel.i18n.magic.php';
+
 $wgAutoloadClasses['Babel']              = $dir . '/Babel.class.php';
 $wgAutoloadClasses['BabelLanguageCodes'] = $dir . '/BabelLanguageCodes.class.php';
 $wgAutoloadClasses['BabelStatic']        = $dir . '/BabelStatic.class.php';
@@ -66,6 +67,4 @@ MediaWiki:Babel-template-prefix and MediaWiki:Babel-template-suffix
     The prefix and suffix to be prepended or appended to the template name when one is being included.
 MediaWiki:Babel-portal-prefix and MediaWiki:Babel-portal-suffix
     The prefix and suffix to be prepended or appended to the target of the link from the language code.
-MediaWiki:Babel-category-prefix and MediaWiki:Babel-category-suffix
-    The prefix and suffix to be prepended or appended to the name of the categories.
 */
