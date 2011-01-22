@@ -509,6 +509,13 @@ $messages['ay'] = array(
 	'babel-N-n' => 'Jupax apnaqiri [[$2|aymar aru]]xa [[$1|yurawita]] yatiniwa.',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author PPerviz
+ */
+$messages['az'] = array(
+	'babel-N-n' => '[[$2|Azərbaycan dili]] bu istifadəçinin [[$1|ana dilidir]].',
+);
+
 /** Bashkir (Башҡорт)
  * @author Assele
  * @author Haqmar
