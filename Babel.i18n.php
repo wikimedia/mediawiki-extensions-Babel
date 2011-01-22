@@ -516,7 +516,7 @@ $messages['az'] = array(
 	'babel-N-n' => '[[$2|Azərbaycan dili]] bu istifadəçinin [[$1|ana dilidir]].',
 );
 
-/** Bashkir (Башҡорт)
+/** Bashkir (Башҡортса)
  * @author Assele
  * @author Haqmar
  */
@@ -621,7 +621,7 @@ $messages['be'] = array(
 	'babel-N-n' => '[[$2|Беларуская]] — [[$1|родная]] мова ўдзельніка.',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -2333,7 +2333,7 @@ $messages['ksh'] = array(
 }}.',
 );
 
-/** Cornish (Kernewek)
+/** Cornish (Kernowek)
  * @author Kernoweger
  * @author Kw-Moon
  * @author Nicky.ker
@@ -3253,7 +3253,7 @@ $messages['pdt'] = array(
 	'babel-N-n' => '[[$2|Plautdietsch]] es fe disem Benutza [[$1|Muttasproak]].',
 );
 
-/** Pfälzisch (Pfälzisch)
+/** Pälzisch (Pälzisch)
  * @author Als-Holder
  */
 $messages['pfl'] = array(
@@ -3956,7 +3956,7 @@ $messages['sq'] = array(
 	'babel-N-n' => 'Ky përdorues ka njohuri [[$1|amtare]] të [[$2|gjuhës Shqipe]].',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
@@ -3978,7 +3978,7 @@ $messages['sr-ec'] = array(
 	'babel-N-n' => '[[$1|Матерњи језик]] овог корисника је [[$2|српски језик]].',
 );
 
-/** Serbian Latin ekavian (Srpski (latinica))
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -4969,15 +4969,30 @@ $messages['zh-sg'] = array(
 );
 
 /** Chinese (Taiwan) (‪中文(台灣)‬)
+ * @author Pbdragonwang
  * @author Shinjiman
  */
 $messages['zh-tw'] = array(
-	'babel-0-n' => '這位用戶[[$1|無]][[$2|台式中文]]的知識（或很難地去明白它）。',
+	'babel' => '巴別用戶資料',
+	'babel-desc' => '添加一個<code>#babel</code>處理功能以自動產生一個包含可自定化模版的巴別用戶框欄',
+	'babel-url' => 'Project:巴別',
+	'babel-autocreate-abort' => '您所指定的用戶名因被用作自動創建的[[$1|巴別]]分類而不能被註冊。',
+	'babel-autocreate-reason' => '自動建立[[$1|巴別]]分類頁。',
+	'babel-autocreate-text-levels' => '在此分類中的用戶具有語言$2的$1能力。',
+	'babel-autocreate-text-main' => '此分類中的用戶能理解語言$1。',
+	'babel-0' => '這位用戶[[$1|無]][[$2|$3]]的知識（或很難去理解它）。',
+	'babel-1' => '這位用戶有[[$1|基本]]的[[$2|$3]]知識。',
+	'babel-2' => '這位用戶有[[$1|中等]]的[[$2|$3]]知識。',
+	'babel-3' => '這位用戶有[[$1|高等]]的[[$2|$3]]知識。',
+	'babel-4' => '這位用戶有[[$1|接近母語使用者]]的[[$2|$3]]知識。',
+	'babel-5' => '這位用戶有[[$1|專業]]的[[$2|$3]]知識。',
+	'babel-N' => '[[$2|$3]]是這位用戶的的[[$1|母語]]。',
+	'babel-0-n' => '這位用戶[[$1|無]][[$2|台式中文]]的知識（或很難去理解它）。',
 	'babel-1-n' => '這位用戶有[[$1|基本]]的[[$2|台式中文]]知識。',
 	'babel-2-n' => '這位用戶有[[$1|中等]]的[[$2|台式中文]]知識。',
 	'babel-3-n' => '這位用戶有[[$1|高等]]的[[$2|台式中文]]知識。',
 	'babel-4-n' => '這位用戶有[[$1|接近母語講者]]的[[$2|台式中文]]知識。',
 	'babel-5-n' => '這位用戶有[[$1|專業]]的[[$2|台式中文]]知識。',
-	'babel-N-n' => '這位用戶明白以[[$1|母語]]為主的[[$2|台式中文]]。',
+	'babel-N-n' => '[[$2|台式中文]]是這位用戶的的[[$1|母語]]。',
 );
 
