@@ -1541,6 +1541,14 @@ $messages['gan'] = array(
 	'babel-N-n' => '箇隻用戶曉得[[$2|贛語]]嗰[[$1|母語]]。',
 );
 
+/** دَری مزدَیَسنا (دَری مزدَیَسنا)
+ * @author Mjbmr
+ */
+$messages['gbz'] = array(
+	'babel-1' => 'Mā ror-ber-e [[$2|$3]] rā [[$1|yānog-e]] pāmā.',
+	'babel-1-n' => 'Mā ror-ber-e [[$2|Dari-e Mazdeyasnā]] rā [[$1|yānog-e]] pāmā.',
+);
+
 /** Scottish Gaelic (Gàidhlig)
  * @author Akerbeltz
  * @author Caoimhin
