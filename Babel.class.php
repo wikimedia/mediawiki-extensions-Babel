@@ -6,67 +6,61 @@
  * @ingroup Extensions
  */
 class Babel {
+	static $title;
+
 	/**
 	 * Render the Babel tower.
 	 *
 	 * @param $parser Object: Parser.
 	 * @return string: Babel tower.
 	 */
-	public function Render( $parser ) {
+	public static function Render( $parser ) {
 		$parameters = func_get_args();
 		array_shift( $parameters );
+		self::$title = $parser->getTitle();
 
-		$this->mTemplateLinkBatch( $parameters );
+		self::mTemplateLinkBatch( $parameters );
 
-		$contents = '';
+		$content = '';
 		foreach ( $parameters as $name ) {
+			$components = self::mParseParameter( $name );
+			$template = wfMsgForContent( 'babel-template', $name );
 			if ( $name === '' ) {
 				continue;
-			} elseif ( $this->mTemplateExists( $name ) ) {
-				$contents .= $parser->replaceVariables( "{{{$this->mAddFixes( $name,'template' )}}}" );
-			} elseif ( $chunks = $this->mParseParameter( $name ) ) {
-				$contents .= $this->mGenerateBox(        $chunks['code'], $chunks['level'] );
-				$contents .= $this->mGenerateCategories( $chunks['code'], $chunks['level'] );
-			} elseif ( $this->mValidTitle( $name ) ) {
+			} elseif ( self::mPageExists( $template ) ) {
+				$content .= $parser->replaceVariables( "{{{$template}}}" );
+			} elseif ( $components !== false ) {
+				$content .= self::mGenerateBox( $components['code'], $components['level'] );
+				$content .= self::mGenerateCategories( $components['code'], $components['level'] );
+			} elseif ( self::mValidTitle( $template ) ) {
 				// Non-existent page and invalid parameter syntax, red link.
-				$contents .= "\n[[Template:{$this->mAddFixes( $name,'template' )}]]";
+				$content .= "\n[[Template:$template]]";
 			} else {
 				// Invalid title, output raw.
-				$contents .= "\nTemplate:{$this->mAddFixes( $name,'template' )}";
+				$content .= "\nTemplate:$template";
 			}
 		}
 
 		$footer = wfMsgForContent( 'babel-footer' );
-		if( wfEmptyMsg( $footer ) ) {
+		if ( wfEmptyMsg( $footer ) ) {
 			$footer = '';
 		} else {
 			$footer = 'class="mw-babel-footer" | ' . $footer;
 		}
 
-		global $wgTitle;
 		$cellspacing = wfMsgForContent( 'babel-box-cellspacing' );
 		$url = wfMsgForContent( 'babel-url' );
-		$top = wfMsgExt( 'babel', array( 'parsemag', 'content' ), $wgTitle->getDBkey() );
-		return <<<PHP
+		$top = wfMsgExt( 'babel', array( 'parsemag', 'content' ), self::$title->getDBkey() );
+		$tower = <<<EOT
 {| cellspacing="$cellspacing" class="mw-babel-wrapper"
 ! [[$url|$top]]
 |-
-| $contents
+| $content
 |-
 $footer
 |}
-PHP;
-	}
-
-	/**
-	 * Adds prefixes and suffixes for a particular type to the string.
-	 *
-	 * @param $string String: Value to add prefixes and suffixes too.
-	 * @param $type String: Type of prefixes and suffixes (template/portal/category).
-	 * @return String: Value with prefixes and suffixes added.
-	 */
-	protected function mAddFixes( $string, $type ) {
-		return wfMsgForContent( "babel-$type-prefix" ) . $string . wfMsgForContent( "babel-$type-suffix" );
+EOT;
+		return $tower;
 	}
 
 	/**
@@ -74,10 +68,10 @@ PHP;
 	 *
 	 * @param $parameters Array: Templates to perform the link batch on.
 	 */
-	protected function mTemplateLinkBatch( $parameters ) {
+	protected static function mTemplateLinkBatch( $parameters ) {
 		$titles = array();
 		foreach ( $parameters as $name ) {
-			$title = Title::newFromText( $this->mAddFixes( $name, 'template' ), NS_TEMPLATE );
+			$title = Title::newFromText( wfMsgForContent( 'babel-template', $name ) );
 			if ( is_object( $title ) ) {
 				$titles[] = $title;
 			}
@@ -88,24 +82,24 @@ PHP;
 	}
 
 	/**
-	 * Identify whether or not the template exists or not.
+	 * Identify whether or not a page exists or not.
 	 *
-	 * @param $title String: Name of the template to check.
-	 * @return Boolean: Indication of whether the template exists.
+	 * @param $name String: Name of the page to check.
+	 * @return Boolean: Indication of whether the page exists.
 	 */
-	protected function mTemplateExists( $title ) {
-		$titleObj = Title::newFromText( $this->mAddFixes( $title, 'template' ), NS_TEMPLATE );
+	protected static function mPageExists( $name ) {
+		$titleObj = Title::newFromText( $name );
 		return ( is_object( $titleObj ) && $titleObj->exists() );
 	}
 
 	/**
-	 * Identify whether or not the passed string would make a valid title.
+	 * Identify whether or not the passed string would make a valid page name.
 	 *
-	 * @param $title string: Name of title to check.
+	 * @param $name string: Name of page to check.
 	 * @return Boolean: Indication of whether or not the title is valid.
 	 */
-	protected function mValidTitle( $title ) {
-		$titleObj = Title::newFromText( $this->mAddFixes( $title, 'template' ), NS_TEMPLATE );
+	protected static function mValidTitle( $name ) {
+		$titleObj = Title::newFromText( $name );
 		return is_object( $titleObj );
 	}
 
@@ -115,13 +109,15 @@ PHP;
 	 * @param $parameter String: Parameter.
 	 * @return Array: { 'code' => xx, 'level' => xx }
 	 */
-	protected function mParseParameter( $parameter ) {
+	protected static function mParseParameter( $parameter ) {
+		global $wgBabelDefaultLevel, $wgBabelCategoryNames;
 		$return = array();
 
-		// Try treating the paramter as a language code (for native).
-		if ( BabelLanguageCodes::getCode( $parameter ) ) {
-			$return['code'] = BabelLanguageCodes::getCode( $parameter );
-			$return['level'] = 'N';
+		// Try treating the paramter as a language code (for default level).
+		$code = BabelLanguageCodes::getCode( $parameter );
+		if ( $code !== false ) {
+			$return['code'] = $code;
+			$return['level'] = $wgBabelDefaultLevel;
 			return $return;
 		}
 		// Try splitting the paramter in to language and level, split on last hyphen.
@@ -134,12 +130,12 @@ PHP;
 
 		// Validate code.
 		$return['code'] = BabelLanguageCodes::getCode( $code );
-		if ( !$return['code'] ) {
+		if ( $return['code'] === false ) {
 			return false;
 		}
 		// Validate level.
-		$intLevel = (int) $level;
-		if ( ( $intLevel < 0 || $intLevel > 5 ) && $level !== 'N' ) {
+		$level = strtoupper( $level );
+		if( !isset( $wgBabelCategoryNames[$level] ) ) {
 			return false;
 		}
 		$return['level'] = $level;
@@ -154,25 +150,27 @@ PHP;
 	 * @param $level String or Integer: Level of ability to use.
 	 * @return String: A single babel box, in wikitext format.
 	 */
-	protected function mGenerateBox( $code, $level ) {
-		$header = "[[{$this->mAddFixes( $code,'portal' )}|" . wfBCP47( $code ) . "]]<span class=\"mw-babel-box-level-$level\">-$level</span>";
+	protected static function mGenerateBox( $code, $level ) {
+		$portal = wfMsgForContent( 'babel-portal', $code );
+		$header = "[[$portal|" . wfBCP47( $code ) . "]]<span class=\"mw-babel-box-level-$level\">-$level</span>";
 
 		$name = BabelLanguageCodes::getName( $code );
 		$code = BabelLanguageCodes::getCode( $code );
-		$text = $this->mGetText( $name, $code, $level );
+		$text = self::mGetText( $name, $code, $level );
 
 		$dir_content = wfMsgForContent( 'babel-directionality' );
 		$dir_current = wfMsgExt( 'babel-directionality', array( 'language' => $code ) );
 		$cellspacing = wfMsgForContent( 'babel-cellspacing' );
 
-		return <<<PHP
+		$box = <<<EOT
 <div class="mw-babel-box mw-babel-box-$level" dir="$dir_content">
 {| cellspacing="$cellspacing"
 !  dir="$dir_content" | $header
 |  dir="$dir_current" | $text
 |}
 </div>
-PHP;
+EOT;
+		return $box;
 	}
 
 	/**
@@ -183,30 +181,35 @@ PHP;
 	 * @param $level String: Level to use.
 	 * @return String: Text for display, in wikitext format.
 	 */
-	protected function mGetText( $name, $language, $level ) {
-		global $wgTitle, $wgBabelUseLevelZeroCategory, $wgBabelCategoryNames;
+	protected static function mGetText( $name, $language, $level ) {
+		global $wgBabelMainCategory, $wgBabelCategoryNames;
 
-		$categoryLevel = ':Category:' . $this->mReplaceCategoryVariables( $wgBabelCategoryNames[$level], $language );
-		$categorySuper = ':Category:' . $this->mReplaceCategoryVariables( $wgBabelCategoryNames['main'], $language );
+		if ( $wgBabelCategoryNames[$level] === false ) {
+			$categoryLevel = self::$title->getFullText();
+		} else {
+			$categoryLevel = ':Category:' . self::mReplaceCategoryVariables( $wgBabelCategoryNames[$level], $language );
+		}
 
-		if ( !$wgBabelUseLevelZeroCategory && $level === '0' ) {
-			$categoryLevel = $wgTitle->getFullText();
+		if ( $wgBabelMainCategory === false ) {
+			$categoryMain = self::$title->getFullText();
+		} else {
+			$categoryMain = ':Category:' . self::mReplaceCategoryVariables( $wgBabelMainCategory, $language );
 		}
 
 		$text = wfMsgExt( "babel-$level-n",
 			array( 'language' => $language, 'parsemag' ),
-			$categoryLevel, $categorySuper, '', $wgTitle->getDBkey()
+			$categoryMain, $categoryMain, '', self::$title->getDBkey()
 		);
 
 		$fallback = wfMsgExt( "babel-$level-n",
 			array( 'language' => Language::getFallbackfor( $language ), 'parsemag' ),
-			$categoryLevel, $categorySuper, '', $wgTitle->getDBkey()
+			$categoryMain, $categoryMain, '', self::$title->getDBkey()
 		);
 
 		if ( $text == $fallback ) {
 			$text = wfMsgExt( "babel-$level",
 				array( 'language' => $language, 'parsemag' ),
-				$categoryLevel, $categorySuper, $name, $wgTitle->getDBkey()
+				$categoryMain, $categoryMain, $name, self::$title->getDBkey()
 			);
 		}
 
@@ -220,20 +223,19 @@ PHP;
 	 * @param $level String or Integer: Level of ability to use.
 	 * @return String: Wikitext to add categories.
 	 */
-	protected function mGenerateCategories( $code, $level ) {
-		global $wgBabelUseMainCategories, $wgBabelUseLevelZeroCategory,
-			$wgBabelUseSimpleCategories, $wgBabelCategoryNames, $wgLanguageCode;
+	protected static function mGenerateCategories( $code, $level ) {
+		global $wgBabelMainCategory, $wgBabelCategoryNames, $wgLanguageCode;
 
 		$r = '';
 
-		if ( $wgBabelUseMainCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === '0' ) || $level > 0 ) ) {
-			$category = $this->mReplaceCategoryVariables( $wgBabelCategoryNames['main'], $code );
+		if ( $wgBabelMainCategory !== false && $wgBabelCategoryNames[$level] !== false ) {
+			$category = self::mReplaceCategoryVariables( $wgBabelMainCategory, $code );
 			$r .= "[[Category:$category|$level]]";
 			BabelAutoCreate::create( $category, BabelLanguageCodes::getName( $code, $wgLanguageCode ) );
 		}
 
-		if ( !$wgBabelUseSimpleCategories && ( $level === 'N' || ( $wgBabelUseLevelZeroCategory && $level === '0' ) || $level > 0 ) ) {
-			$category = $this->mReplaceCategoryVariables( $wgBabelCategoryNames[$level], $code );
+		if ( $wgBabelCategoryNames[$level] !== false ) {
+			$category = self::mReplaceCategoryVariables( $wgBabelCategoryNames[$level], $code );
 			$r .= "[[Category:$category]]";
 			BabelAutoCreate::create( $category, BabelLanguageCodes::getName( $code, $wgLanguageCode ), $level );
 		}
@@ -249,7 +251,7 @@ PHP;
 	 * @param $code String: Language code of category.
 	 * @return String: Category name with variables replaced.
 	 */
-	protected function mReplaceCategoryVariables( $category, $code ) {
+	protected static function mReplaceCategoryVariables( $category, $code ) {
 		global $wgLanguageCode;
 		$vars = array(
 			'%code%' => $code,

@@ -34,7 +34,13 @@ class BabelAutoCreate {
 			$text = wfMsgForContent( 'babel-autocreate-text-levels', $level, $language );
 		}
 		$article = new Article( $title );
-		$article->doEdit( $text, wfMsgForContent( 'babel-autocreate-reason', wfMsgForContent( 'babel-url' ) ), EDIT_FORCE_BOT, false, self::user() );
+		$article->doEdit(
+			$text,
+			wfMsgForContent( 'babel-autocreate-reason', wfMsgForContent( 'babel-url' ) ),
+			EDIT_FORCE_BOT,
+			false,
+			self::user()
+		);
 	}
 
 	/**

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Internationalisation file for Babel extension.
  *

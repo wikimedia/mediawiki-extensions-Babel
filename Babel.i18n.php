@@ -43,10 +43,8 @@ $messages['en'] = array(
 
 	'babel-box-cellspacing' => '0', # Do not translate or duplicate this message to other languages.
 
-	'babel-portal-prefix'   => '', # Do not translate or duplicate this message to other languages.
-	'babel-portal-suffix'   => '', # Do not translate or duplicate this message to other languages.
-	'babel-template-prefix' => '', # Do not translate or duplicate this message to other languages.
-	'babel-template-suffix' => '', # Do not translate or duplicate this message to other languages.
+	'babel-portal'   => '$1', # Do not translate or duplicate this message to other languages.
+	'babel-template' => 'Template:$1', # Do not translate or duplicate this message to other languages.
 
 	'babel-footer' => '', # Do not translate or duplicate this message to other languages.
 );
