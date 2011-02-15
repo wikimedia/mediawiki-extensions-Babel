@@ -2948,6 +2948,7 @@ $messages['myv'] = array(
 /** Nahuatl (Nāhuatl)
  * @author Fluence
  * @author Purodha
+ * @author Teòtlalili
  */
 $messages['nah'] = array(
 	'babel' => 'Babel tlatēquitiltilīllanōnōtzaliztli',
@@ -2964,7 +2965,7 @@ $messages['nah'] = array(
 	'babel-3-n' => 'Inīn tlatequitiltilīlli [[$1|cualli]] quitlahtoa [[$2|Nāhuatlahtōlli]].',
 	'babel-4-n' => 'Inīn tlatequitiltilīlli quitlahtoa [[$2|Nāhuatlahtōlli]] iuh [[$1|tlācatlahtohqui]].',
 	'babel-5-n' => 'Inīn tlatequitiltilīlli [[$1|huēyi cualtzin]] quitlahtoa [[$2|Nāhuatlahtōlli]].',
-	'babel-N-n' => 'Inīn tlatequitiltilīlli cah [[$2|Nāhuatlahtōlli]] [[$1|tlācatlahtohqui]].',
+	'babel-N-n' => 'In [[$2|nàwatlâtòlli]], [[$1|ìtlàkatkàtlâtòl]] inìn motekìuhtiàni, kiyèknênewilia.',
 );
 
 /** Low German (Plattdüütsch)
