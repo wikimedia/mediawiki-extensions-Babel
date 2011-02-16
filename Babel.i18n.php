@@ -721,12 +721,17 @@ $messages['bjn'] = array(
 
 /** Bengali (বাংলা)
  * @author Bellayet
+ * @author RIPENDIL
  */
 $messages['bn'] = array(
 	'babel' => 'ব্যবহারকারীর বাবেল তথ্য',
 	'babel-desc' => 'নিজের করা টেম্পলেটে সয়ংক্রিয় বাবেল ব্যবহারকারী বাক্স কলাম যোগ করতে <code>#babel</code> পার্সার ফাংসন যোগ করুন',
 	'babel-url' => 'Project:বাবেল',
-	'babel-0' => 'এ ব্যবহারকারীর [[$2|$3]] এর উপর কোন ধারণা [[$1|নাই]] (অথবা তা খুব কষ্টে বুঝতে পারেন)।',
+	'babel-autocreate-abort' => 'যে ব্যবহারকারী নামটি আপনি  নির্দিষ্ট করেছেন তা [[$1|Babel]] শ্রেনীর স্বয়ংক্রিয়-সৃষ্টিতে ব্যবহৃত হয়েছে এবং নিবন্ধন করা সম্ভব হচ্ছে না।',
+	'babel-autocreate-reason' => 'স্বয়ংক্রিয়ভাবে [[$1|Babel]] শ্রেনীর পৃষ্ঠাটি তৈরী হচ্ছে।',
+	'babel-autocreate-text-levels' => 'এই শ্রেনীর ব্যবহারকারীরা নির্দেশ করে $2 ভাষার জন্য তাদের দক্ষতার ধাপ $1 ।',
+	'babel-autocreate-text-main' => 'এই শ্রেনীর ব্যবহারকারীরা নির্দেশ করে $1 ভাষার উপরে তাদের জ্ঞান রয়েছে।',
+	'babel-0' => 'এই ব্যবহারকারীর [[$2|$3]] এর উপর কোন ধারনা [[$1|নেই]] (অথবা তা কষ্ট সহকারে বুঝতে পারেন)।',
 	'babel-1' => 'এ ব্যবহারকারী [[$2|$3]] এর উপর [[$1|সাধারণ]] ধারণা রয়েছে।',
 	'babel-2' => 'এ ব্যবহারকারীর [[$2|$3]] এর উপরে [[$1|মাধ্যমিক]] জ্ঞান রয়েছে।',
 	'babel-3' => 'এ ব্যবহারকারীর [[$2|$3]] এর উপরে [[$1|ভাল]] ধারণা রয়েছে।',
@@ -2951,7 +2956,13 @@ $messages['myv'] = array(
  * @author Teòtlalili
  */
 $messages['nah'] = array(
-	'babel' => 'Babel tlatēquitiltilīllanōnōtzaliztli',
+	'babel' => 'Ìteìxmatilòka in motekìuhtiàni ìpan Babel',
+	'babel-desc' => 'Ìka san ìsèl monèxtìs in ìbabelpal in motekìuhtiàni wan kualli motlàlilìs tènemáchiòuh, mà motlàlili in tlaìxnênewiliskàtekitki <code>#babel</code>',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => 'In tekìuhkàtokâtli tlen timonekìltia awel mîkuilòs, motekitìltia ìpampa in mosèlchìhki tlaìxmatkàtlàlilòtl [[$1|Babel]]',
+	'babel-autocreate-reason' => 'Mosèlchîchìuhtíkä in [[$1|Babel]]tlaìxmatkàtlàlilòmë tlaìxtlapalli',
+	'babel-autocreate-text-levels' => 'In motekìuhtiànimë ìpan inìn tlaìxmatkàtlàlilòtl kîtowâkë mach $1 kinênewiliâkë in $2',
+	'babel-autocreate-text-main' => 'In motekìuhtiànimë ìpan inìn tlaìxmatkàtlàlilòtl kîtowâkë mach kìxmatîkë in $1 tlâtòlli',
 	'babel-0' => 'Inīn tlatequitiltilīlli [[$1|ahmo huelīti]] quitlahtoa [[$2|$3]] (nozo monequi quitlahtoa).',
 	'babel-1' => 'Inīn tlatequitiltilīlli quipiya āxcāyōtl [[$1|monequi]] ic [[$2|$3]].',
 	'babel-2' => 'Inīn tlatequitiltilīlli [[$1|tepitzin]] quitlahtoa [[$2|$3]].',
@@ -2964,7 +2975,7 @@ $messages['nah'] = array(
 	'babel-2-n' => 'Inīn tlatequitiltilīlli [[$1|tepitzin]] quitlahtoa [[$2|Nāhuatlahtōlli]].',
 	'babel-3-n' => 'Inīn tlatequitiltilīlli [[$1|cualli]] quitlahtoa [[$2|Nāhuatlahtōlli]].',
 	'babel-4-n' => 'Inīn tlatequitiltilīlli quitlahtoa [[$2|Nāhuatlahtōlli]] iuh [[$1|tlācatlahtohqui]].',
-	'babel-5-n' => 'Inīn tlatequitiltilīlli [[$1|huēyi cualtzin]] quitlahtoa [[$2|Nāhuatlahtōlli]].',
+	'babel-5-n' => 'Inìn motekìuhtiàni [[$1|nàwaìxmatki]], ìka motekìuhtia in [[$2|nàwatlâtòlli]].',
 	'babel-N-n' => 'In [[$2|nàwatlâtòlli]], [[$1|ìtlàkatkàtlâtòl]] inìn motekìuhtiàni, kiyèknênewilia.',
 );
 
