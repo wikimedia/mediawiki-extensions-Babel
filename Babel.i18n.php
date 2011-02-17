@@ -206,6 +206,7 @@ $messages['gbz'] = array(
 $messages['ace'] = array(
 	'babel-0' => 'Ureuëng nguy nyoë [[$1|hana]] muphôm [[$2|$3]] (atawa cit ngön payah that).',
 	'babel-N' => 'Ureuëng nguy nyoë nakeuh [[$1|geumarit aseuli]] lam bahsa [[$2|$3]].',
+	'babel-N-n' => 'Ureuëng nguy nyoë nakeuh [[$1|ureuëng marit aseuli]] lam [[$2|bahsa Aceh]].',
 );
 
 /** Afrikaans (Afrikaans)
@@ -2963,18 +2964,18 @@ $messages['nah'] = array(
 	'babel-autocreate-reason' => 'Mosèlchîchìuhtíkä in [[$1|Babel]]tlaìxmatkàtlàlilòmë tlaìxtlapalli',
 	'babel-autocreate-text-levels' => 'In motekìuhtiànimë ìpan inìn tlaìxmatkàtlàlilòtl kîtowâkë mach $1 kinênewiliâkë in $2',
 	'babel-autocreate-text-main' => 'In motekìuhtiànimë ìpan inìn tlaìxmatkàtlàlilòtl kîtowâkë mach kìxmatîkë in $1 tlâtòlli',
-	'babel-0' => 'Inīn tlatequitiltilīlli [[$1|ahmo huelīti]] quitlahtoa [[$2|$3]] (nozo monequi quitlahtoa).',
-	'babel-1' => 'Inīn tlatequitiltilīlli quipiya āxcāyōtl [[$1|monequi]] ic [[$2|$3]].',
-	'babel-2' => 'Inīn tlatequitiltilīlli [[$1|tepitzin]] quitlahtoa [[$2|$3]].',
-	'babel-3' => 'Inīn tlatequitiltilīlli [[$1|cualli]] quitlahtoa [[$2|$3]].',
-	'babel-4' => 'Inīn tlatequitiltilīlli quitlahtoa [[$2|$3]] iuh [[$1|tlācatlahtohqui]].',
-	'babel-5' => 'Inīn tlatequitiltilīlli [[$1|huēyi cualtzin]] quitlahtoa [[$2|$3]].',
-	'babel-N' => 'Inīn tlatequitiltilīlli cah [[$2|$3]] [[$1|tlācatlahtohqui]].',
-	'babel-0-n' => 'Inīn tlatequitiltilīlli [[$1|ahmo huelīti]] quitlahtoa [[$2|Nāhuatlahtōlli]] (nozo monequi quitlahtoa).',
-	'babel-1-n' => 'Inīn tlatequitiltilīlli quipiya āxcāyōtl [[$1|monequi]] ic [[$2|Nāhuatlahtōlli]].',
-	'babel-2-n' => 'Inīn tlatequitiltilīlli [[$1|tepitzin]] quitlahtoa [[$2|Nāhuatlahtōlli]].',
-	'babel-3-n' => 'Inīn tlatequitiltilīlli [[$1|cualli]] quitlahtoa [[$2|Nāhuatlahtōlli]].',
-	'babel-4-n' => 'Inīn tlatequitiltilīlli quitlahtoa [[$2|Nāhuatlahtōlli]] iuh [[$1|tlācatlahtohqui]].',
+	'babel-0' => 'Inìn motekìuhtiàni [[$1|âmò kinênewilia]] in [[$2|$3]] (nòso molwi kitekiyòmati).',
+	'babel-1' => 'Inìn motekìuhtiàni [[$1|semi chîtòn]] kìxmati in [[$2|$3]].',
+	'babel-2' => 'Inìn motekìuhtiàni [[$1|kimàmati]] tlâtòs ìka in [[$2|$3]].',
+	'babel-3' => 'Inìn motekìuhtiàni [[$1|kualli]] tlâtowa ìka in [[$2|$3]].',
+	'babel-4' => 'Inìn motekìuhtiàni tlâtowa in [[$2|$3]] kâxa kèn sè [[$1|chànë]].',
+	'babel-5' => 'Inìn motekìuhtiàni [[$1|nàwaìxmatki]], ìka motekìuhtia in [[$2|nàwatlâtòlli]].',
+	'babel-N' => 'In [[$2|$3]], [[$1|ìtlàkatkàtlâtòl]] inìn motekìuhtiàni, kiyèknênewilia.',
+	'babel-0-n' => 'Inìn motekìuhtiàni [[$1|âmò kinênewilia]] in [[$2|nàwatlâtòlli]] (nòso molwi kitekiyòmati).',
+	'babel-1-n' => 'Inìn motekìuhtiàni [[$1|semi chîtòn]] kìxmati in [[$2|nàwatlâtòlli]].',
+	'babel-2-n' => 'Inìn motekìuhtiàni [[$1|kimàmati]] tlâtòs ìka in [[$2|nàwatlâtòlli]].',
+	'babel-3-n' => 'Inìn motekìuhtiàni [[$1|kualli]] tlâtowa ìka in [[$2|nàwatlâtòlli]].',
+	'babel-4-n' => 'Inìn motekìuhtiàni tlâtowa in [[$2|nàwatl]] kâxa kèn sè [[$1|chànë]].',
 	'babel-5-n' => 'Inìn motekìuhtiàni [[$1|nàwaìxmatki]], ìka motekìuhtia in [[$2|nàwatlâtòlli]].',
 	'babel-N-n' => 'In [[$2|nàwatlâtòlli]], [[$1|ìtlàkatkàtlâtòl]] inìn motekìuhtiàni, kiyèknênewilia.',
 );
