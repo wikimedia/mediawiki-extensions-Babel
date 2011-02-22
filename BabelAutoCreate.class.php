@@ -5,6 +5,10 @@
  * @ingroup Extensions
  */
 class BabelAutoCreate {
+
+	/**
+	 * @var User
+	 */
 	static $user = false;
 
 	/**
@@ -12,7 +16,7 @@ class BabelAutoCreate {
 	 */
 	public static function RegisterAbort( User $user, &$message ) {
 		$message = wfMsg( 'babel-autocreate-abort', wfMsg( 'babel-url' ) );
-		return !( $user->getName() === wfMsgForContent( 'babel-autocreate-user' ) );
+		return $user->getName() !== wfMsgForContent( 'babel-autocreate-user' );
 	}
 
 	/**

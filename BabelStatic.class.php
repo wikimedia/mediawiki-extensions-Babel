@@ -8,6 +8,9 @@
 class BabelStatic {
 	/**
 	 * Registers the parser function hook.
+	 *
+	 * @param $parser Parser
+	 *
 	 * @return Boolean: True.
 	 */
 	public static function Setup( $parser ) {

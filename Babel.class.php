@@ -6,12 +6,16 @@
  * @ingroup Extensions
  */
 class Babel {
+
+	/**
+	 * @var Title
+	 */
 	static $title;
 
 	/**
 	 * Render the Babel tower.
 	 *
-	 * @param $parser Object: Parser.
+	 * @param $parser Parser.
 	 * @return string: Babel tower.
 	 */
 	public static function Render( $parser ) {
