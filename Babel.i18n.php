@@ -42,6 +42,7 @@ $messages['en'] = array(
 	'babel-N-n' => 'This user has a [[$1|native]] understanding of [[$2|English]].',
 
 	'babel-box-cellspacing' => '0', # Do not translate or duplicate this message to other languages.
+	'babel-cellspacing' => '0', # Do not translate or duplicate this message to other languages.
 
 	'babel-portal'   => '$1', # Do not translate or duplicate this message to other languages.
 	'babel-template' => 'Template:$1', # Do not translate or duplicate this message to other languages.
