@@ -2376,15 +2376,22 @@ $messages['kw'] = array(
 );
 
 /** Latin (Latina)
+ * @author John Vandenberg
  * @author SPQRobin
  * @author UV
  */
 $messages['la'] = array(
 	'babel-autocreate-user' => 'Babel AutoCreator',
+	'babel-0' => 'Hic usor [[$1|nullo pacto]] aut aegre [[$2|$3]] contribuere potest.',
+	'babel-1' => 'Hic usor [[$1|simplice]] [[$2|$3]] contribuere potest.',
+	'babel-2' => 'Hic usor [[$1|media]] [[$2|$3]] contribuere potest.',
+	'babel-3' => 'Hic usor [[$1|callidissima]] [[$2|$3]] contribuere potest.',
 	'babel-0-n' => 'Hic usor [[$1|nullo pacto]] aut aegre [[$2|Latinitate]] contribuere potest.',
 	'babel-1-n' => 'Hic usor [[$1|simplice]] [[$2|Latinitate]] contribuere potest.',
 	'babel-2-n' => 'Hic usor [[$1|media]] [[$2|Latinitate]] contribuere potest.',
 	'babel-3-n' => 'Hic usor [[$1|callidissima]] [[$2|Latinitate]] contribuere potest.',
+	'babel-4-n' => 'Hic usor regulas grammaticas observans [[$1|optima]] [[$2|Latinitate]] scribere (et interdum loqui) scit.',
+	'babel-N-n' => 'Hic usor aut [[$1|naturaliter]] [[$2|latine]] loqui atque contribuere potest aut potius mentitur.',
 );
 
 /** Ladino (Ladino)
@@ -4835,6 +4842,14 @@ $messages['xal'] = array(
 	'babel-3-n' => 'Эн орлцач [[$2|хальмг келн]] [[$1|сәәнәр]] меднә.',
 	'babel-4-n' => 'Эн орлцач [[$2|хальмг келн]] [[$1|төрскн шаху бәәдг]] меднә.',
 	'babel-5-n' => 'Эн орлцач [[$2|хальмг келн]] [[$1|икәр]] меднә.',
+);
+
+/** Mingrelian (მარგალური)
+ * @author Machirkholi
+ */
+$messages['xmf'] = array(
+	'babel' => 'ინფორმაცია ბაბელიშ მახვარებუშე',
+	'babel-url' => 'Project:ბაბელ',
 );
 
 /** Yiddish (ייִדיש)
