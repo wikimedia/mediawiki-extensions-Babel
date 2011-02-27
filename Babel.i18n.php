@@ -2176,6 +2176,14 @@ $messages['ka'] = array(
 	'babel-N-n' => 'ამ მომხმარებლის [[$1|მშობლიური ენა]] არის [[$2|ქართული]].',
 );
 
+/** Kabardian (Cyrillic) (къэбэрдеибзэ/qabardjajəbza (Cyrillic))
+ * @author Beco1977
+ */
+$messages['kbd-cyrl'] = array(
+	'babel' => 'Бабыл зигъэлажэрэм ищэхэрэ',
+	'babel-N' => ' Мыш рилажэрэмэ зэхрехы [[$1|нэ бзэк1э]] мы бзээ  [[$2|$3]].',
+);
+
 /** Kazakh (Cyrillic) (Қазақша (Cyrillic))
  * @author AlefZet
  * @author GaiJin
