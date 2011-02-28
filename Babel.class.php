@@ -45,19 +45,45 @@ class Babel {
 			}
 		}
 
-		$footer = wfMsgForContent( 'babel-footer' );
-		if ( wfEmptyMsg( $footer ) ) {
-			$footer = '';
+		$cellspacing = wfMsgForContent( 'babel-box-cellspacing' );
+		if ( strlen( $cellspacing ) == 0 ) {
+			$cellspacing = '';
 		} else {
-			$footer = 'class="mw-babel-footer" | ' . $footer;
+			$cellspacing = ' cellspacing="'.$cellspacing.'"';
 		}
 
-		$cellspacing = wfMsgForContent( 'babel-box-cellspacing' );
-		$url = wfMsgForContent( 'babel-url' );
+		$cellpadding = wfMsgForContent( 'babel-box-cellpadding' );
+		if ( strlen( $cellpadding ) == 0 ) {
+			$cellpadding = '';
+		} else {
+			$cellpadding = ' cellpadding="'.$cellpadding.'"';
+		}
+
 		$top = wfMsgExt( 'babel', array( 'parsemag' ), self::$title->getDBkey() );
+		if ( strlen( $top ) == 0 ) {
+			$top = '';
+		} else {
+			$url = wfMsgForContent( 'babel-url' );
+			if ( ! strlen( $url ) == 0 ) {
+				$top = '[['.$url.'|'.$top.']]';
+			}
+			$top = '! class="mw-babel-header" | ' . $top;
+		}
+
+		$footer = wfMsgExt( 'babel-footer', array( 'parsemag' ), self::$title->getDBkey() );
+		if ( strlen( $footer ) == 0 ) {
+			$footer = '';
+		} else {
+			$url = wfMsgForContent( 'babel-footer-url' );
+			if ( ! strlen( $url ) == 0 ) {
+				$footer = '[['.$url.'|'.$footer.']]';
+			}
+			$footer = '! class="mw-babel-footer" | ' . $footer;
+		}
+
 		$tower = <<<EOT
-{| cellspacing="$cellspacing" class="mw-babel-wrapper"
-! [[$url|$top]]
+{|$cellspacing$cellpadding class="mw-babel-wrapper"
+$top
 |-
 | $content
 |-

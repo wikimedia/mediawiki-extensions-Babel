@@ -11,11 +11,13 @@ $messages = array();
 
 /** English
  * @author Siebrand
+ * @author Purodha
  */
 $messages['en'] = array(
 	'babel'      => 'Babel user information',
 	'babel-desc' => 'Adds the <code>#babel</code> parser function to allow automated generation of a babel userbox column with the ability to include custom templates',
 	'babel-url'  => 'Project:Babel',
+	'babel-footer-url'  => ':Category:Babel - Users by language',
 
 	'babel-autocreate-abort'       => 'The username you specified is used for [[$1|Babel]] category auto-creation and cannot be registered.', // $1 is babel-url
 	'babel-autocreate-reason'      => 'Automatically creating [[$1|Babel]] category page.', // $1 is babel-url
@@ -42,12 +44,14 @@ $messages['en'] = array(
 	'babel-N-n' => 'This user has a [[$1|native]] understanding of [[$2|English]].',
 
 	'babel-box-cellspacing' => '0', # Do not translate or duplicate this message to other languages.
+	'babel-box-cellpadding' => '0', # Do not translate or duplicate this message to other languages.
 	'babel-cellspacing' => '0', # Do not translate or duplicate this message to other languages.
+	'babel-cellpadding' => '0', # Do not translate or duplicate this message to other languages.
 
 	'babel-portal'   => '$1', # Do not translate or duplicate this message to other languages.
 	'babel-template' => 'Template:$1', # Do not translate or duplicate this message to other languages.
 
-	'babel-footer' => '', # Do not translate or duplicate this message to other languages.
+	'babel-footer' => 'Users by language',
 );
 
 /** Message documentation (Message documentation)
