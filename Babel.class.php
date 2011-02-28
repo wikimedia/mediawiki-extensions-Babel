@@ -38,10 +38,10 @@ class Babel {
 				$content .= self::mGenerateCategories( $components['code'], $components['level'] );
 			} elseif ( self::mValidTitle( $template ) ) {
 				// Non-existent page and invalid parameter syntax, red link.
-				$content .= "\n[[Template:$template]]";
+				$content .= "\n[[$template]]";
 			} else {
 				// Invalid title, output raw.
-				$content .= "\nTemplate:$template";
+				$content .= "\n$template";
 			}
 		}
 
