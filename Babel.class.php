@@ -54,7 +54,7 @@ class Babel {
 
 		$cellspacing = wfMsgForContent( 'babel-box-cellspacing' );
 		$url = wfMsgForContent( 'babel-url' );
-		$top = wfMsgExt( 'babel', array( 'parsemag', 'content' ), self::$title->getDBkey() );
+		$top = wfMsgExt( 'babel', array( 'parsemag' ), self::$title->getDBkey() );
 		$tower = <<<EOT
 {| cellspacing="$cellspacing" class="mw-babel-wrapper"
 ! [[$url|$top]]
