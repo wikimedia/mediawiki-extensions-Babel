@@ -201,6 +201,31 @@ $messages['gbz'] = array(
 	'babel-1-n' => 'Mā ror-ber-e [[$2|Dari-e Mazdeyasnā]] rā [[$1|yānog-e]] pāmā.',
 );
 
+/** Dusun Bundu-liwan (Dusun Bundu-liwan)
+ * @author FRANCIS5091
+ */
+$messages['dtp'] = array(
+	'babel' => 'Kointalangan momoguna Babaol',
+	'babel-desc' => 'Poruhango <code>#babel</code> parsaor gugunoon popomilo tutumanud mimpopori bogian kutak momomoguno babaol miampai komilaan poposuang kouroson pongitanan.',
+	'babel-url' => 'Project:Babaol',
+	'babel-autocreate-text-levels' => 'Momomoguno id katogori tinandaan do kitingkat toilaan $1 montok woyoboros $2.',
+	'babel-autocreate-text-main' => 'Momomoguno id katogori tinandaan do kitingkat toilaan do woyoboros $1.',
+	'babel-0' => 'Momomoguno diti [[$1|ingaa]] toilaan kokomoi [[$2|$3]] (toi karati dilo do tokuti no toomod).',
+	'babel-1' => 'Momomoguno diti [[$1|karati do tokuri]] diti woyoboros [[$2|$3]].',
+	'babel-2' => 'Momomoguno diti [[$1|karati tomod]] diti woyoboros [[$2|$3]].',
+	'babel-3' => 'Momomoguno diti [[$1|ogumu toilaan]] diti woyoboros [[$2|$3]].',
+	'babel-4' => 'Momomoguno diti [[$1|osomok kaagal di monunutur mamasok]] diti woyoboros [[$2|$3]].',
+	'babel-5' => 'Momomoguno diti [[$1|akawas toilaan]] diti woyoboros [[$2|$3]].',
+	'babel-N' => 'Momomoguno diti [[$1|mamasok]] om monunutur [[$2|$3]].',
+	'babel-0-n' => 'Momomoguno diti [[$1|ingaa]] toila-ilaan kokomoi [[$2|Dusun]] (toi osusa do mangarati dilo).',
+	'babel-1-n' => 'Momomoguno diti [[$1|karati do tokuri]] diti woyoboros [[$2|Dusun]].',
+	'babel-2-n' => 'Momomoguno diti [[$1|karati tomod]] diti woyoboros [[$2|Dusun]].',
+	'babel-3-n' => 'Momomoguno diti [[$1|ogumu toilaan]] diti woyoboros [[$2|Dusun]].',
+	'babel-4-n' => 'Momomoguno diti [[$1|osomok kaagal di monunutur mamasok]] diti woyoboros [[$2|Dusun]].',
+	'babel-5-n' => 'Momomoguno diti [[$1|akawas toilaan]] diti woyoboros [[$2|Dusun]].',
+	'babel-N-n' => 'Momomoguno diti [[$1|mamasok]] om monunutur [[$2|Dusun]].',
+);
+
 /** Achinese (Acèh)
  * @author Si Gam Acèh
  */
@@ -2181,7 +2206,7 @@ $messages['ka'] = array(
  */
 $messages['kbd-cyrl'] = array(
 	'babel' => 'Бабыл зигъэлажэрэм ищэхэрэ',
-	'babel-N' => ' Мыш рилажэрэмэ зэхрехы [[$1|нэ бзэк1э]] мы бзээ  [[$2|$3]].',
+	'babel-N' => 'Мыш рилажэрэм зэхрехы [[$1|нэ бзэкӀэ]] мы бзээ [[$2|$3]].',
 );
 
 /** Kazakh (Cyrillic) (Қазақша (Cyrillic))
