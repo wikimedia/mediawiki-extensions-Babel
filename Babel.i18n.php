@@ -64,7 +64,8 @@ $messages['en'] = array(
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'babel' => "Header of Babel box. Parameter $1 is the name of the page it is used on, for GENDER support. The header is shown in the content language of the site, not the interface language set in a user's preferences.",
+	'babel' => "Header of Babel box. Parameter $1 is the name of the page it is used on, for GENDER support.<!-- The header is shown in the content language of the site, not the interface language set in a user's preferences.
+-->",
 	'babel-desc' => '{{desc}}',
 	'babel-url' => 'The page name at which more information about the babel system can be found. Do not translate the namespace Project:.',
 	'babel-autocreate-text-main' => 'Text describing a category, at the top of the category page. 
@@ -197,7 +198,7 @@ $messages['brh'] = array(
 	'babel-N-n' => '[[$2|Bráhuí]] dá kárband ná [[$1|lummaí bolí]] e.',
 );
 
-/** دَری مزدَیَسنا (دَری مزدَیَسنا)
+/** Dari (Dari)
  * @author Mjbmr
  */
 $messages['gbz'] = array(
@@ -2352,7 +2353,7 @@ $messages['ksh'] = array(
 	'babel-desc' => 'Brengk de <code>#babel</code>-Paaserfongxjohn, womet me automatesch ene Babel-Medmaacher-Kaste opboue kann, un dobeij och selfßjemaate Schabloone nozze kan.',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Dä Metmaachername es ald verjovve för [[$1|Babel]]-{{int:categories}} automattesch aanzelääje, dä kanns De nit han.',
-	'babel-autocreate-reason' => 'En automattesch aanjelaate Saachjrupp fum [[$1|Babel]]-Süsteem.',
+	'babel-autocreate-reason' => 'En Saachjrupp fum [[$1|Babel]]-Süßteem es automattesch aanjelaat woode.',
 	'babel-autocreate-text-levels' => 'De Metmaacher un Metmaacherenne en hee dä Saachjrupp han jesaat, se künnte de Shprooch $1 $2.',
 	'babel-autocreate-text-main' => 'Metmaacher en hee dä Saachjrupp han jesaat, se künnte vum $1 jet.',
 	'babel-0' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} hät [[$1|keij]] Aahnong fon [[$2|$3]], odder fershteijt di Shprooch esu joot wi jaa nit.',
@@ -3097,6 +3098,7 @@ $messages['nl'] = array(
 	'babel' => 'Babel-gebruikersinformatie',
 	'babel-desc' => 'Voegt de <code>#babel</code>-parserfunctie toe om automatische generatie van een babelgebruikersbox mogelijk te maken met de mogelijkheid om aangepaste sjablonen in te voegen',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Gebruikers naar taal',
 	'babel-autocreate-abort' => 'De gebruikersnaam die u hebt opgegeven wordt gebruikt voor het automatisch aanmaken van [[$1|Babel]]-categorieën en kan niet geregistreerd worden.',
 	'babel-autocreate-reason' => 'Automatisch aangemaakte [[$1|Babel]]-categorie.',
 	'babel-autocreate-text-levels' => 'Gebruikers in deze categorie geven aan dat hun niveau voor de taal $2 $1 is.',
@@ -5039,9 +5041,11 @@ $messages['zh-hant'] = array(
 );
 
 /** Chinese (Hong Kong) (‪中文(香港)‬)
+ * @author Oapbtommy
  * @author Shinjiman
  */
 $messages['zh-hk'] = array(
+	'babel' => '巴別用戶資訊',
 	'babel-0-n' => '這位用戶[[$1|無]][[$2|港式中文]]的知識（或很難地去明白它）。',
 	'babel-1-n' => '這位用戶有[[$1|基本]]的[[$2|港式中文]]知識。',
 	'babel-2-n' => '這位用戶有[[$1|中等]]的[[$2|港式中文]]知識。',
