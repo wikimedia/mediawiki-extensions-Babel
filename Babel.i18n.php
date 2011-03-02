@@ -667,7 +667,7 @@ $messages['be-tarask'] = array(
 	'babel' => 'Зьвесткі пра мовы, якімі валодае ўдзельнік',
 	'babel-desc' => 'Дадае функцыю парсэра <code>#babel</code>, якая дазваляе аўтаматычна ствараць слупок з інфармацыяй пра мовы з магчымасьцю даданьня нестандартных шаблёнаў',
 	'babel-url' => 'Project:Бабілёнская вежа',
-	'babel-footer-url' => ':Катэгорыя:Бабілёнская вежа — удзельнікі па мовах',
+	'babel-footer-url' => ':Category:Бабілёнская вежа — удзельнікі па мовах',
 	'babel-autocreate-abort' => 'Імя ўдзельніка, якое Вы пазначылі, выкарыстоўваецца для аўтаматычнага стварэньня катэгорыяў [[$1|Баьілёнскай вежы]] і ня можа быць зарэгістравана.',
 	'babel-autocreate-reason' => 'Аўтаматычнае стварэньне катэгорыі для [[$1|Бабілёнскай вежы]].',
 	'babel-autocreate-text-levels' => 'Удзельнікі з гэтай катэгорыі пазначылі ўзровень ведаў $1 для мовы $2.',
@@ -787,7 +787,7 @@ $messages['br'] = array(
 	'babel' => 'Titouroù Babel war an implijer',
 	'babel-desc' => "Ouzhpennañ an arc'hwel parser <code>#babel</code> da c'henel ent emgefre ur voest implijer Babel a c'haller lakaat patromoù personelaet enni",
 	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => ':Rummad:Babel - An implijerien dre o yezhoù',
+	'babel-footer-url' => ':Category:Babel - An implijerien dre o yezhoù',
 	'babel-autocreate-abort' => "Implijet eo an anv implijer merket ganeoc'h evit sevel ent emgefre rummadoù [[$1|Babel]]; setu, n'haller ket e enrollañ.",
 	'babel-autocreate-reason' => 'Krouidigezh emgefre ur bajenn eus ar rummad [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Disklêriet o deus implijerien ar rummad-mañ mestroniañ al live $1 evit ar yezh $2.',
@@ -1386,6 +1386,7 @@ $messages['fo'] = array(
 /** French (Français)
  * @author Cedric31
  * @author ChrisPtDe
+ * @author Crochet.david
  * @author Grondin
  * @author IAlex
  * @author Jens Liebenau
@@ -1398,6 +1399,7 @@ $messages['fr'] = array(
 	'babel' => 'Informations Babel sur l’utilisateur',
 	'babel-desc' => 'Ajoute une fonction parseur <code>#babel</code> permettant la création automatique d’une boîte utilisateur Babel avec la possibilité d’y inclure des modèles locaux',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Catégorie:Babel - Utilisateurs par langue',
 	'babel-autocreate-abort' => "Le nom d'utilisateur que vous avez entré est utilisé pour créer automatiquement les catégories [[$1|Babel]] et ne peut pas être enregistré.",
 	'babel-autocreate-reason' => 'Création automatique de la catégorie [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Les utilisateurs dans cette catégorie ont indiqué qu’ils ont le niveau $1 pour la langue $2.',
@@ -1625,6 +1627,7 @@ $messages['gl'] = array(
 	'babel' => 'Información Babel do usuario',
 	'babel-desc' => 'Engade a función analítica <code>#babel</code> para permitir a xeración automática dunha caixa de usuario Babel coa posibilidade de incluír modelos personalizados',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Categoría:Babel - Usuarios por lingua',
 	'babel-autocreate-abort' => 'O nome de usuario especificado é usado para a creación automática de categorías [[$1|Babel]], polo que non pode ser rexistrado.',
 	'babel-autocreate-reason' => 'Creación automática da categoría [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Os usuarios que están nesta categoría teñen un nivel $1 de destreza en lingua $2.',
