@@ -208,11 +208,15 @@ $messages['gbz'] = array(
 
 /** Dusun Bundu-liwan (Dusun Bundu-liwan)
  * @author FRANCIS5091
+ * @author FRANELYA
  */
 $messages['dtp'] = array(
 	'babel' => 'Kointalangan momoguna Babaol',
 	'babel-desc' => 'Poruhango <code>#babel</code> parsaor gugunoon popomilo tutumanud mimpopori bogian kutak momomoguno babaol miampai komilaan poposuang kouroson pongitanan.',
 	'babel-url' => 'Project:Babaol',
+	'babel-footer-url' => ':Katogori:Babil - Momomoguno maya woyoboros',
+	'babel-autocreate-abort' => 'Momomoguno di pinilinu minomoguno do katogori mimpopori-monsoi[[$1|Babil]] om awu milo porijistoron.',
+	'babel-autocreate-reason' => 'Mimpopori momonsoi katogori bolikon [[$1|Babil]].',
 	'babel-autocreate-text-levels' => 'Momomoguno id katogori tinandaan do kitingkat toilaan $1 montok woyoboros $2.',
 	'babel-autocreate-text-main' => 'Momomoguno id katogori tinandaan do kitingkat toilaan do woyoboros $1.',
 	'babel-0' => 'Momomoguno diti [[$1|ingaa]] toilaan kokomoi [[$2|$3]] (toi karati dilo do tokuti no toomod).',
@@ -229,6 +233,25 @@ $messages['dtp'] = array(
 	'babel-4-n' => 'Momomoguno diti [[$1|osomok kaagal di monunutur mamasok]] diti woyoboros [[$2|Dusun]].',
 	'babel-5-n' => 'Momomoguno diti [[$1|akawas toilaan]] diti woyoboros [[$2|Dusun]].',
 	'babel-N-n' => 'Momomoguno diti [[$1|mamasok]] om monunutur [[$2|Dusun]].',
+);
+
+/** Līvõ kēļ (Līvõ kēļ)
+ * @author Warbola
+ */
+$messages['liv'] = array(
+	'babel' => 'Kȭlbatijizt kīeld mõistimi',
+	'babel-url' => 'Project:Bābõl',
+	'babel-footer-url' => ':Category:Bābõl - Kȭlbatijizt kīeld mõistimi',
+	'babel-autocreate-abort' => 'Kȭlbatijiznimmõ, mis tēg paņtõ sīezõ, kȭlbatõbõd kategōrijõd [[$1|Babel]] automātlizõks lūomizõks. Sīepierāst tēg äb sōţõ siedā kȭlbatõ.',
+	'babel-autocreate-reason' => '[[$1|Babel]] kategōrij līed automātli lūomi.',
+	'babel-autocreate-text-levels' => 'Kȭlbatijizt sīesõ kategōrijs ātõ kītõnd, ku mūoštabõd kīeldõ "$2" astāmõks $1.',
+	'babel-autocreate-text-main' => 'Kȭlbatijizt sīesõ kategōrijs ātõ kītõnd, ku ne mūoštabõd kīeldõ "$1".',
+	'babel-0' => 'Se kȭlbatijizõn um [[$1|äbmingi]] [[$2|$3]] mõistimi (agā mūoštab sūŗ vōjaks).',
+	'babel-1' => 'Se kȭlbatiji mūoštab [[$1|īrgandõks astāmõs]]  [[$2|$3]].',
+	'babel-2' => 'Se kȭlbatiji mūoštab [[$1|sidāmist astāmõs]]  [[$2|$3]].',
+	'babel-3' => 'Se kȭlbatiji mūoštab [[$1|kuordist astāmõs]]  [[$2|$3]].',
+	'babel-4' => 'Se kȭlbatiji mūoštab [[$1|pigātagā nei ku sindikīeldõ]]  [[$2|$3]].',
+	'babel-5' => 'Se kȭlbatiji mūoštab [[$1|amāt pūolstõ (profesionālist)]]  [[$2|$3]].',
 );
 
 /** Achinese (Acèh)
@@ -549,8 +572,13 @@ $messages['ay'] = array(
 
 /** Azerbaijani (Azərbaycanca)
  * @author PPerviz
+ * @author Vito Genovese
  */
 $messages['az'] = array(
+	'babel-1' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|zəif]] bilir.',
+	'babel-2' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|orta səviyyədə]] bilir.',
+	'babel-3' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|yaxşı]] bilir.',
+	'babel-4' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|ana dili kimi]] bilir.',
 	'babel-N-n' => '[[$2|Azərbaycan dili]] bu istifadəçinin [[$1|ana dilidir]].',
 );
 
@@ -1101,6 +1129,7 @@ $messages['da'] = array(
 /** German (Deutsch)
  * @author ChrisiPK
  * @author Forrester
+ * @author Kghbln
  * @author Metalhead64
  * @author Purodha
  * @author Raimond Spekking
@@ -1109,9 +1138,10 @@ $messages['da'] = array(
  * @author Umherirrender
  */
 $messages['de'] = array(
-	'babel' => 'Babel-Benutzer-Information',
+	'babel' => 'Babel – Benutzerinformationen',
 	'babel-desc' => 'Ergänzt die <code>#babel</code>-Parserfunktion zur automatischen Erstellung von Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Benutzer nach Sprache',
 	'babel-autocreate-abort' => 'Der ausgewählte Benutzername wird für die automatische Erstellung von [[$1|Babel]]-Kategorien benötigt und kann nicht registriert werden.',
 	'babel-autocreate-reason' => 'Automatisch erstellte [[$1|Babel]]-Kategorie.',
 	'babel-autocreate-text-levels' => 'Benutzer in dieser Kategorie haben Kenntnisse der Stufe $1 in der Sprache $2.',
@@ -1316,13 +1346,17 @@ $messages['eu'] = array(
  * @author Huji
  * @author Ladsgroup
  * @author Mjbmr
+ * @author Reza1615
  */
 $messages['fa'] = array(
 	'babel' => 'اطلاعات کاربری بابل',
 	'babel-desc' => 'دستور تجزیه‌گر <code>#babel</code> را اضافه می‌کند که امکان ایجاد خودکار جعبه‌های کاربری بابل با قابلیت گنجاندن الگوهای دلخواه را فراهم می‌کند',
 	'babel-url' => 'Project:بابل',
+	'babel-footer-url' => ':رده : بابل - کاربران بر اساس زبان',
+	'babel-autocreate-abort' => 'نام کاربری که مشخص کرده اید برای [[$1| Babel]]  رده ایجاد خودکارهست و نمی‌تواند ثبت شود.',
 	'babel-autocreate-reason' => 'ایجاد خودکار صفحه رده [[$1|بابل]].',
 	'babel-autocreate-text-levels' => 'کاربران این رده توانایی $1 را در زبان $2 دارند',
+	'babel-autocreate-text-main' => 'کاربران این رده دانش زبان $1 را دارند',
 	'babel-directionality' => 'rtl',
 	'babel-0' => 'این کاربر [[$2|$3]] را در حد [[$1|نمی‌فهمد]] (یا به سختی می‌فهمد).',
 	'babel-1' => 'این کاربر [[$2|$3]] را در حد [[$1|مقدماتی]] می‌فهمد.',
@@ -2358,6 +2392,7 @@ $messages['ksh'] = array(
 	'babel' => '{{GENDER:$1|Däm $1 sing|Däm $1 sing|Däm Medmaacher $1 sing|Däm $1 sing|Dä Metmaacheren $1 ier}} Shprooche-Weße',
 	'babel-desc' => 'Brengk de <code>#babel</code>-Paaserfongxjohn, womet me automatesch ene Babel-Medmaacher-Kaste opboue kann, un dobeij och selfßjemaate Schabloone nozze kan.',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Metmaacher noh Shprooche',
 	'babel-autocreate-abort' => 'Dä Metmaachername es ald verjovve för [[$1|Babel]]-{{int:categories}} automattesch aanzelääje, dä kanns De nit han.',
 	'babel-autocreate-reason' => 'En Saachjrupp fum [[$1|Babel]]-Süßteem es automattesch aanjelaat woode.',
 	'babel-autocreate-text-levels' => 'De Metmaacher un Metmaacherenne en hee dä Saachjrupp han jesaat, se künnte de Shprooch $1 $2.',
@@ -3975,6 +4010,7 @@ $messages['sl'] = array(
 	'babel' => 'Uporabnikov Babilon',
 	'babel-desc' => 'Doda funkcijo <code>#babel</code>, ki omogoča avtomatizirano ustvarjanje babilonskih uporabniških polj z zmožnostjo vključevanja predlog po meri',
 	'babel-url' => 'Project:Babilon',
+	'babel-footer-url' => ':Kategorija:Babel – Uporabniki po jeziku',
 	'babel-autocreate-abort' => 'Uporabniško ime, ki ste ga določili, se uporablja za samodejno ustvarjanje kategorij [[$1|Babel]] in ga ni mogoče registirati.',
 	'babel-autocreate-reason' => 'Samodejno ustvarjanje [[$1|babilonske]] kategorije.',
 	'babel-autocreate-text-levels' => 'Uporabniki navedeni v tej kategoriji imajo naslednjo jezikovno sposobnost $1 $2.',
