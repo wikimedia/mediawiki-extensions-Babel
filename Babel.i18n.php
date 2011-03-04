@@ -235,25 +235,6 @@ $messages['dtp'] = array(
 	'babel-N-n' => 'Momomoguno diti [[$1|mamasok]] om monunutur [[$2|Dusun]].',
 );
 
-/** Līvõ kēļ (Līvõ kēļ)
- * @author Warbola
- */
-$messages['liv'] = array(
-	'babel' => 'Kȭlbatijizt kīeld mõistimi',
-	'babel-url' => 'Project:Bābõl',
-	'babel-footer-url' => ':Category:Bābõl - Kȭlbatijizt kīeld mõistimi',
-	'babel-autocreate-abort' => 'Kȭlbatijiznimmõ, mis tēg paņtõ sīezõ, kȭlbatõbõd kategōrijõd [[$1|Babel]] automātlizõks lūomizõks. Sīepierāst tēg äb sōţõ siedā kȭlbatõ.',
-	'babel-autocreate-reason' => '[[$1|Babel]] kategōrij līed automātli lūomi.',
-	'babel-autocreate-text-levels' => 'Kȭlbatijizt sīesõ kategōrijs ātõ kītõnd, ku mūoštabõd kīeldõ "$2" astāmõks $1.',
-	'babel-autocreate-text-main' => 'Kȭlbatijizt sīesõ kategōrijs ātõ kītõnd, ku ne mūoštabõd kīeldõ "$1".',
-	'babel-0' => 'Se kȭlbatijizõn um [[$1|äbmingi]] [[$2|$3]] mõistimi (agā mūoštab sūŗ vōjaks).',
-	'babel-1' => 'Se kȭlbatiji mūoštab [[$1|īrgandõks astāmõs]]  [[$2|$3]].',
-	'babel-2' => 'Se kȭlbatiji mūoštab [[$1|sidāmist astāmõs]]  [[$2|$3]].',
-	'babel-3' => 'Se kȭlbatiji mūoštab [[$1|kuordist astāmõs]]  [[$2|$3]].',
-	'babel-4' => 'Se kȭlbatiji mūoštab [[$1|pigātagā nei ku sindikīeldõ]]  [[$2|$3]].',
-	'babel-5' => 'Se kȭlbatiji mūoštab [[$1|amāt pūolstõ (profesionālist)]]  [[$2|$3]].',
-);
-
 /** Achinese (Acèh)
  * @author Si Gam Acèh
  */
@@ -1828,6 +1809,7 @@ $messages['he'] = array(
 	'babel' => 'מידע על כישורי שפה של המשתמש',
 	'babel-desc' => 'הוספת הוראת התנאי <code>#babel</code> כדי לאפשר יצירה אוטומטית של תבניות כישורי שפה, עם אפשרות להכללת תבניות מותאמות אישית',
 	'babel-url' => 'Project:כישורי שפה',
+	'babel-footer-url' => 'קטגוריה:בבל: משתמשים לפי שפה',
 	'babel-autocreate-abort' => 'שם המשתמש שציינתם משמש ליצירה אוטומטית של קטגוריות [[$1|כישורי שפה]], ולכן לא ניתן לרשום אותו.',
 	'babel-autocreate-reason' => 'יצירה אוטומטית של דף קטגוריה ל[[$1|כישורי שפה]]',
 	'babel-autocreate-text-levels' => 'המשתמשים בקטגוריה זו מציינים כי הרמה שלהם בשפה ה$2 היא $1.',
@@ -2167,11 +2149,13 @@ $messages['it'] = array(
  * @author Fryed-peach
  * @author Kwj2772
  * @author Marine-Blue
+ * @author Ohgi
  */
 $messages['ja'] = array(
 	'babel' => 'バベル利用者情報',
 	'babel-desc' => 'バベル・ユーザーボックスを自動的に生成する関数 <code>#babel</code> を追加する',
 	'babel-url' => 'Project:バベル',
+	'babel-footer-url' => ':カテゴリ:バベル - 言語別の利用者',
 	'babel-autocreate-abort' => '指定した利用者名は[[$1|バベル]]用カテゴリの自動作成に使用されているため登録できません。',
 	'babel-autocreate-reason' => '[[$1|バベル]]用カテゴリのページを自動的に作成しています。',
 	'babel-autocreate-text-levels' => 'このカテゴリに属している利用者は$2について$1レベルの能力を有しています。',
@@ -2599,6 +2583,34 @@ $messages['li'] = array(
 	'babel-4-n' => "Deze gebroeker haet benöl van 't [[$2|Limburgs]] op [[$1|bekans-mojerspraokniveau]].",
 	'babel-5-n' => "Deze gebroeker haet [[$1|perfesjeneel]] benöl van 't [[$2|Limburgs]].",
 	'babel-N-n' => "Deze gebroeker haet benöl van 't [[$2|Limburgs]] op [[$1|mojerspraokniveau]].",
+);
+
+/** Līvõ kēļ (Līvõ kēļ)
+ * @author Warbola
+ */
+$messages['liv'] = array(
+	'babel' => 'Kȭlbatijizt kīeld mõistimi',
+	'babel-desc' => 'Panāb jūrõ <code>#babel</code> funktsij, laz  lūodõg automātlistiz Bābõl kȭlbatijiz kast ummist mallõdõks',
+	'babel-url' => 'Project:Bābõl',
+	'babel-footer-url' => ':Category:Bābõl - Kȭlbatijizt kīeld mõistimi',
+	'babel-autocreate-abort' => 'Kȭlbatijiznimmõ, mis tēg paņtõ sīezõ, kȭlbatõbõd kategōrijõd [[$1|Babel]] automātlizõks lūomizõks. Sīepierāst tēg äb sōţõ siedā kȭlbatõ.',
+	'babel-autocreate-reason' => '[[$1|Babel]] kategōrij līed automātli lūomi.',
+	'babel-autocreate-text-levels' => 'Kȭlbatijizt sīesõ kategōrijs ātõ kītõnd, ku mūoštabõd kīeldõ "$2" astāmõks $1.',
+	'babel-autocreate-text-main' => 'Kȭlbatijizt sīesõ kategōrijs ātõ kītõnd, ku ne mūoštabõd kīeldõ "$1".',
+	'babel-0' => 'Se kȭlbatiji [[$1|äb mūošta]]  [[$2|$3]] kīeldõ (agā mūoštab sūŗ vōjaks).',
+	'babel-1' => 'Se kȭlbatiji mūoštab  [[$2|$3]] kīeldõ [[$1|īrgandõks astāmõs]] .',
+	'babel-2' => 'Se kȭlbatiji mūoštab [[$1|sidāmist astāmõs]]  [[$2|$3]].',
+	'babel-3' => 'Se kȭlbatiji mūoštab  [[$2|$3]] kīeldõ [[$1|kuordist astāmõs]].',
+	'babel-4' => 'Se kȭlbatiji mūoštab  [[$2|$3]] kīeldõ [[$1|pigātagā nei ku sindikīeldõ]].',
+	'babel-5' => 'Se kȭlbatiji mūoštab  [[$2|$3]] kīeldõ [[$1|amāt pūolstõ (profesionālist astāmõs)]].',
+	'babel-N' => 'Sīen kȭlbatijizõn um [[$2|$3]] kēļ [[$1|sindikēļ]].',
+	'babel-0-n' => 'Se kȭlbatiji [[$1|äb mūošta]] [[$2|līvõ kīeldõ]] (agā mūoštab sūŗ vōjaks).',
+	'babel-1-n' => 'Se kȭlbatiji mūoštab [[$2|līvõ]] kīeldõ [[$1|īrgandõks]] astāmõs.',
+	'babel-2-n' => 'Se kȭlbatiji mūoštab [[$2|līvõ]] kīeldõ [[$1|sidāmist]] astāmõs.',
+	'babel-3-n' => 'Se kȭlbatiji mūoštab [[$2|līvõ kīeldõ]] [[$1|kuordist]] astāmõs.',
+	'babel-4-n' => 'Se kȭlbatiji mūoštab [[$2|līvõ kīeldõ]] pigātagā  [[$1| nei ku sindikīeldõ]].',
+	'babel-5-n' => 'Se kȭlbatiji mūoštab [[$2|līvõ]] kīeldõ [[$1|profesionālist]] astāmõs.',
+	'babel-N-n' => 'Sīen kȭlbatijizõn um [[$2|līvõ]] kēļ [[$1|sindikēļ]].',
 );
 
 /** Lumbaart (Lumbaart)
@@ -3553,6 +3565,7 @@ $messages['pt'] = array(
 	'babel' => 'Informação Babel de Utilizador',
 	'babel-desc' => 'Adiciona a função <code>#babel</code> ao analisador sintáctico, para permitir a geração automatizada de uma coluna de caixas babel com a possibilidade de incluir predefinições personalizadas',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Categoria:Babel - Utilizadores por língua',
 	'babel-autocreate-abort' => 'O nome de utilizador que especificou é usado pela criação automática de categorias [[$1|Babel]] e, por isso, não pode ser registado.',
 	'babel-autocreate-reason' => 'A criar automaticamente a página da categoria [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Os utilizadores nesta categoria indicam que possuem um nível de conhecimento $1 na língua $2.',
@@ -3727,6 +3740,7 @@ $messages['ru'] = array(
 	'babel' => 'Сведения о языках участника (Вавилон)',
 	'babel-desc' => 'Добавляет функцию парсера <code>#babel</code>, позволяющую автоматически создавать колонку с информацией о языках с возможностью включения других шаблонов',
 	'babel-url' => 'Project:Вавилон',
+	'babel-footer-url' => ':Category:Вавилон — участники по языкам',
 	'babel-autocreate-abort' => 'Указанное имя участника используется для автоматического создания категорий [[$1|Вавилон]] и не может быть зарегистрировано.',
 	'babel-autocreate-reason' => 'Автоматическое создание страницы категории [[$1|Вавилон]].',
 	'babel-autocreate-text-levels' => 'Участники из этой категории указали уровень знаний $1 для языка $2.',
