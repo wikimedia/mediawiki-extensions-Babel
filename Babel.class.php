@@ -59,7 +59,7 @@ class Babel {
 			$cellpadding = ' cellpadding="'.$cellpadding.'"';
 		}
 
-		$top = wfMsgExt( 'babel', array( 'parsemag' ), self::$title->getDBkey() );
+		$top = wfMsgExt( 'babel', array( 'parsemag', 'content' ), self::$title->getDBkey() );
 		if ( strlen( $top ) == 0 ) {
 			$top = '';
 		} else {
