@@ -1917,6 +1917,7 @@ $messages['hsb'] = array(
 	'babel' => 'Babelowe wužiwarske informacije',
 	'babel-desc' => 'Přidawa parserowu funkciju <code>#babel</code> za awtomatiske wutworjenje špalty z babelowymi wužiwarskimi kašćikami, z móžnosću, swójske předłohi zapřijeć',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Wužiwarjo po rěči',
 	'babel-autocreate-abort' => 'Podate wužiwarske mjeno wužiwa so za awtomatiske wutworjenje [[$1|Babelowych]] kategorijow a njeda so registrować.',
 	'babel-autocreate-reason' => 'Awtomatiske wutworjenje [[$1|Babeloweje]] kategorije.',
 	'babel-autocreate-text-levels' => 'Wužiwarjo w tutej kategoriji podawaja, zo maja stopjeń znajomosćow $1 za rěč $2.',
