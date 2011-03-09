@@ -68,6 +68,15 @@ $messages['qqq'] = array(
 -->",
 	'babel-desc' => '{{desc}}',
 	'babel-url' => 'The page name at which more information about the babel system can be found. Do not translate the namespace Project:.',
+	'babel-footer-url' => 'Unless this messge is empty, this is used as link target in the last entry,
+also known as the footer, of the outer Babel-box,
+provided that the installation chooses to have a footer.
+The corresponding link anchor is the message [[MediaWiki:babel-footer/{{UILANGCODE}}|babel-footer]]<!-- why the hell the following does not work, is still a mystery to me!-->{{msg-mw|Babel-footer|notext=}}.
+
+For installations having a \'Babel users per language\' category tree, its root should be entered here.
+When translating, you can copy the category name from existing Babel systems in your language, but you can es well use a more generic name and leave it to individual installations, how to deal with it.
+
+There is no need to alter the name space name <code lang="en">Category</code>.',
 	'babel-autocreate-text-main' => 'Text describing a category, at the top of the category page. 
 
 $1 is a language name.',
@@ -791,12 +800,13 @@ $messages['bn'] = array(
 
 /** Breton (Brezhoneg)
  * @author Fulup
+ * @author Y-M D
  */
 $messages['br'] = array(
 	'babel' => 'Titouroù Babel war an implijer',
 	'babel-desc' => "Ouzhpennañ an arc'hwel parser <code>#babel</code> da c'henel ent emgefre ur voest implijer Babel a c'haller lakaat patromoù personelaet enni",
 	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => ':Category:Babel - An implijerien dre o yezhoù',
+	'babel-footer-url' => ':Rummad:Babel - An implijerien dre o yezhoù',
 	'babel-autocreate-abort' => "Implijet eo an anv implijer merket ganeoc'h evit sevel ent emgefre rummadoù [[$1|Babel]]; setu, n'haller ket e enrollañ.",
 	'babel-autocreate-reason' => 'Krouidigezh emgefre ur bajenn eus ar rummad [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Disklêriet o deus implijerien ar rummad-mañ mestroniañ al live $1 evit ar yezh $2.',
@@ -1576,6 +1586,17 @@ $messages['ga'] = array(
 	'babel-4-n' => 'Tá eolas [[$1|beagnach dúchasach]] ag an úsáideoir seo maidir le [[$2|Gaeilge]].',
 	'babel-5-n' => 'Tá eolas [[$1|gairmiúil]] ag an úsáideoir seo maidir le [[$2|Gaeilge]].',
 	'babel-N-n' => 'Tá [[$2|Gaeilge]] ag an úsáideoir seo [[$1|ó dhúchas]].',
+);
+
+/** Gagauz (Gagauz)
+ * @author Emperyan
+ */
+$messages['gag'] = array(
+	'babel-1' => 'Bu kullanıcı var nicä [[$1|saadä düzeydä]] lafetsin [[$2|$3]].',
+	'babel-2' => 'Bu kullanıcı var nicä [[$1|orta düzeydä]] lafetsin [[$2|$3]].',
+	'babel-3' => 'Bu kullanıcı var nicä [[$1|islää düzeydä]] lafetsin [[$2|$3]].',
+	'babel-4' => 'Bu kullanıcı var nicä [[$1|sansın ana dili]] lafetsin [[$2|$3]].',
+	'babel-N' => 'Bu kullanıcının [[$1|ana dili]] [[$2|$3]].',
 );
 
 /** Gan (贛語)
@@ -2494,6 +2515,7 @@ $messages['lb'] = array(
 	'babel' => 'Babel-Benotzer-Informatioun',
 	'babel-desc' => "Setzt d'<code>#babel</code> Parserfunktioun derbäi, fir déi automatesch Generatioun vun enger Babel-Benotzerbox Kolonn, mat der Méiglechkeet fir eege Schablounen anzebannen",
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Kategorie:Babel - Benotzer no Sprooch',
 	'babel-autocreate-abort' => "De Benotzernumm deen Dir uginn hutt, gëtt fir d'automatescht Uleeë vu [[$1|Babel]]-Kategorië benotzt a kann net gespäichert ginn.",
 	'babel-autocreate-reason' => 'Automatesch eng [[$1|Babel]]-Kategorie-Säit maachen.',
 	'babel-autocreate-text-levels' => 'Benotzer an dëser Kategorie ginn un datt si an der Sprooch $2 den Niveau $1 hunn.',
@@ -3455,6 +3477,7 @@ $messages['pms'] = array(
 	'babel' => "Anformassion Babel ëd l'utent",
 	'babel-desc' => "A gionta la parser function <code>#babel</code> për përmëtte la generassion automàtica ëd na colòna babel userbox con la possibilità d'anserì djë stamp përsonalisà",
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Utent për lenga',
 	'babel-autocreate-abort' => "Lë stranòm ch'it l'has spessificà a l'é dovrà për l'auto-creassion ëd categorìe [[$1|Babel]] e a peul nen esse registrà.",
 	'babel-autocreate-reason' => 'Creassion automàtica dla pàgina dla categorìa [[$1|Babel]].',
 	'babel-autocreate-text-levels' => "J'utent an sta categorìa-sì a mosto che a l'han un livel ëd conossensa $1 dla lenga $2.",
