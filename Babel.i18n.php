@@ -207,6 +207,34 @@ $messages['brh'] = array(
 	'babel-N-n' => '[[$2|Bráhuí]] dá kárband ná [[$1|lummaí bolí]] e.',
 );
 
+/** Angika (अंगिका)
+ * @author Angpradesh
+ */
+$messages['anp'] = array(
+	'babel' => 'बाबेल सदस्य ज़ानकारी',
+	'babel-desc' => 'एगॊ सदस्य के बाबेल सदस्य-बक्सा अपने आप दै लेली उपयुक्त ऐसनॊ <code>#babel</code> पार्सर क्रिया बढाबै छै. जेकरा मॆ खुद बनैलॊ सदस्यबक्सा भी देलॊ जाबॆ सकॆ छै.',
+	'babel-url' => 'Project:बाबेल',
+	'babel-footer-url' => ':Category:बाबेल - भाषावार सदस्य',
+	'babel-autocreate-abort' => 'आपनॆ द्वारा इंगित सदस्यनाम [[$1|Babel]] श्रेणी स्व-निर्माण  लेली उपयोग मॆ छै आरू निबंधित नै करलॊ जाबॆ सकॆ छै.',
+	'babel-autocreate-reason' => 'स्वत: निर्मित [[$1|Babel]] श्रेणी पन्ना.',
+	'babel-autocreate-text-levels' => 'इ श्रेणी केरॊ सदस्य दर्शाबै छै कि हुनकॊ निपुणता स्तर $1 छै $2 लेली.',
+	'babel-autocreate-text-main' => 'इ श्रेणी केरॊ सदस्य दर्शाबै छै कि हुनका $1 भाषा के ज्ञान छै.',
+	'babel-0' => 'इ सदस्य कॆ [[$1|नं.]] $1 ज्ञान छै [[$2|$3]] केरॊ (या एकरा बहुत कठिनाई सॆं समझै छै).',
+	'babel-1' => 'इस सदस्य कॆ [[$2|$3]] केरॊ [[$1|प्राथमिक]] ज्ञान छै.',
+	'babel-2' => 'इस सदस्य कॆ [[$2|$3]] केरॊ [[$1|मध्यम स्तर]] के ज्ञान छै.',
+	'babel-3' => 'इस सदस्य कॆ [[$2|$3]] के [[$1|उच्च स्तर]] के ज्ञान छै.',
+	'babel-4' => 'इस सदस्य कॆ [[$2|$3]] के [[$1|अति-उच्च स्तर]] के ज्ञान छै.',
+	'babel-5' => 'इस सदस्य कॆ [[$2|$3]] के [[$1|व्यावसायिक स्तर]] के ज्ञान छै.',
+	'babel-N' => 'इ सदस्य कॆ [[$2|$3]] के [[$1|स्थानिक स्तर]] के ज्ञान छै.',
+	'babel-0-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के ज्ञान [[$1|नै]] छै (या समझै लेली बहुत प्रयास करै लॆ पड़ै छै.)',
+	'babel-1-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के [[$1|प्राथमिक]] ज्ञान छै.',
+	'babel-2-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के [[$1|मध्यम स्तर]] के ज्ञान छै.',
+	'babel-3-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के [[$1|उच्च स्तर]] के ज्ञान छै.',
+	'babel-4-n' => 'इस सदस्य कॆ [[$2|अगिका]] के [[$1|अति-उच्च स्तर]] के ज्ञान छै.',
+	'babel-5-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के [[$1|व्यावसायिक स्तर]] के ज्ञान छै.',
+	'babel-N-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के [[$1|स्थानिक स्तर]] के ज्ञान छै.',
+);
+
 /** Dari (Dari)
  * @author Mjbmr
  */
@@ -1067,6 +1095,7 @@ $messages['cy'] = array(
 	'babel' => 'Gwybodaeth am ieithoedd y defnyddiwr',
 	'babel-desc' => "Yn ychwanegu'r ffwythiant dosrannu <code>#babel</code> er mwyn gosod blwch ieithoedd y defnyddiwr yn awtomatig, a chyda'r modd i gynnwys nodiadau pwrpasol",
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Categori:Ieithoedd defnyddwyr',
 	'babel-autocreate-abort' => 'Defnyddir yr enw defnyddiwr y dewisoch ar gyfer creu categori [[$1|Babel]] yn awtomatig, ac ni ellir ei gofrestri.',
 	'babel-autocreate-reason' => 'Yn creu tudalen gategoreiddio [[$1|Babel]] yn awtomatig.',
 	'babel-autocreate-text-levels' => 'Mae defnyddwyr yn y categori hwn yn crybwyll bod ganddynt gallu ieithyddol ar lefel $1 mewn $2.',
@@ -4265,6 +4294,7 @@ $messages['sv'] = array(
 $messages['sw'] = array(
 	'babel' => 'Maelezo ya Babeli ya mtumiaji',
 	'babel-url' => 'Project:Babeli',
+	'babel-footer-url' => ':Jamii:Wanawikipedia lugha kwa lugha',
 	'babel-autocreate-abort' => 'Huwezi kusajili jina la mtumiaji ulilotaja kwa sababu linatumika tayari katika shughuli ya kuanzisha jamii za [[$1|Babeli]] kiotomati.',
 	'babel-autocreate-reason' => 'Ukurasa wa jamii ya [[$1|Babeli]] unaanzishwa moja kwa moja.',
 	'babel-autocreate-text-levels' => 'Watumiaji katika jamii hii wanaonyesha kwamba wanaongea lugha ya $2 kwa kiwango cha $1.',
