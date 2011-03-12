@@ -4515,6 +4515,7 @@ $messages['tl'] = array(
 	'babel' => 'Kabatirang pangtagagamit ng Babel',
 	'babel-desc' => "Nagdaragdag ng tungkuling pambanghay (''parser'') na <code>#babel</code> para payagan ang kusang paglitaw ng isang hanay sa kahong pantagagamit ng babel na may kakayahang magsali ng nakahandang mga suleras",
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Mga tagagamit ayon sa wika',
 	'babel-autocreate-abort' => 'Ang tinukoy mong pangalan ng tagagamit ay ginagamit para sa kusang paglikha ng kauriang pam-[[$1|Babel]] at hindi maitatala.',
 	'babel-autocreate-reason' => 'Kusang lumilikha ng pahina ng kauriang pam-[[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Nagpapakita na may kakayahang pang-antas $1 sa wikang $2 ang mga tagagamit na nasa kauriang ito.',
