@@ -190,7 +190,8 @@ EOT;
 	 */
 	protected static function mGenerateBox( $code, $level ) {
 		$portal = wfMsgForContent( 'babel-portal', $code );
-		$header = "[[$portal|" . wfBCP47( $code ) . "]]<span class=\"mw-babel-box-level-$level\">-$level</span>";
+		$lang =  wfBCP47( $code );
+		$header = "[[$portal|" . $lang . "]]<span class=\"mw-babel-box-level-$level\">-$level</span>";
 
 		$name = BabelLanguageCodes::getName( $code );
 		$code = BabelLanguageCodes::getCode( $code );
@@ -204,7 +205,7 @@ EOT;
 <div class="mw-babel-box mw-babel-box-$level" dir="$dir_content">
 {| cellspacing="$cellspacing"
 !  dir="$dir_content" | $header
-|  dir="$dir_current" | $text
+|  dir="$dir_current" lang="$lang" xml:lang="$lang" | $text
 |}
 </div>
 EOT;
