@@ -53,20 +53,6 @@ class Babel {
 			}
 		}
 
-		$cellspacing = wfMsgForContent( 'babel-box-cellspacing' );
-		if ( strlen( $cellspacing ) == 0 ) {
-			$cellspacing = '';
-		} else {
-			$cellspacing = ' cellspacing="'.$cellspacing.'"';
-		}
-
-		$cellpadding = wfMsgForContent( 'babel-box-cellpadding' );
-		if ( strlen( $cellpadding ) == 0 ) {
-			$cellpadding = '';
-		} else {
-			$cellpadding = ' cellpadding="'.$cellpadding.'"';
-		}
-
 		$top = wfMsgExt( 'babel', array( 'parsemag', 'content' ), self::$title->getDBkey() );
 		if ( strlen( $top ) == 0 ) {
 			$top = '';
@@ -88,6 +74,9 @@ class Babel {
 			}
 			$footer = '! class="mw-babel-footer" | ' . $footer;
 		}
+
+		$cellspacing = Babel::mHtmlAttrib( 'cellspacing', 'babel-box-cellspacing' );
+		$cellpadding = Babel::mHtmlAttrib( 'cellpadding', 'babel-box-cellpadding' );
 
 		$tower = <<<EOT
 {|$cellspacing$cellpadding class="mw-babel-wrapper"
@@ -199,11 +188,13 @@ EOT;
 
 		$dir_content = wfMsgForContent( 'babel-directionality' );
 		$dir_current = wfMsgExt( 'babel-directionality', array( 'language' => $code ) );
-		$cellspacing = wfMsgForContent( 'babel-cellspacing' );
+
+		$cellspacing = Babel::mHtmlAttrib( 'cellspacing', 'babel-cellspacing' );
+		$cellpadding = Babel::mHtmlAttrib( 'cellpadding', 'babel-cellpadding' );
 
 		$box = <<<EOT
 <div class="mw-babel-box mw-babel-box-$level" dir="$dir_content">
-{| cellspacing="$cellspacing"
+{|$cellspacing$cellpadding
 !  dir="$dir_content" | $header
 |  dir="$dir_current" lang="$lang" xml:lang="$lang" | $text
 |}
