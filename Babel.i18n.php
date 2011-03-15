@@ -1826,12 +1826,18 @@ $messages['gv'] = array(
 );
 
 /** Hawaiian (Hawai`i)
+ * @author Kolonahe
  * @author Singularity
  */
 $messages['haw'] = array(
 	'babel' => 'E pili ana i keia mea ho‘ohana ma Babel',
 	'babel-desc' => 'Ho‘ohui ‘oia i ka <code>#babel</code> hana pāsā e ho‘oku‘u i ka hana hana nona iho o ke kolamu o ka pahu o ka mea ho‘ohana o Babel, me ka hiki e helu i nā anakuhi pilikino',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Mea hoʻohana ma o ka ʻōlelo',
+	'babel-autocreate-abort' => 'Ke hoʻohana nei i ka inoa mea hoʻohana no ka māhele hana nona iho [[$1|Babel]] a hiki ʻole ia ke kāinoa ʻia.',
+	'babel-autocreate-reason' => 'Ke hana nona iho nei ka ʻaoʻao māhele [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'Hōʻike i nā mea hoʻohana i loko o kēia māhele, loaʻa iā lākou i ke kalamania mākau  $1 no ka ʻōlelo $2.',
+	'babel-autocreate-text-main' => 'Hōʻike i nā mea hoʻohana i loko o kēia māhele, loaʻa iā lākou i ka ʻike o ka ʻōlelo $1.',
 	'babel-0' => '[[$1|‘A‘ole hiki]] i kēia mea ho‘ohana ke hā‘awi ma ka [[$2|$3]].',
 	'babel-1' => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana ha‘aha‘a]] ma ka [[$2|$3]].',
 	'babel-2' => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana o waena]] ma ka [[$2|$3]].',
@@ -3197,6 +3203,7 @@ $messages['ne'] = array(
 /** Dutch (Nederlands)
  * @author GerardM
  * @author Hamaryns
+ * @author McDutchie
  * @author SPQRobin
  * @author Siebrand
  */
@@ -3218,10 +3225,10 @@ $messages['nl'] = array(
 	'babel-N' => 'Deze gebruiker beheerst het [[$2|$3]] op [[$1|moedertaalniveau]].',
 	'babel-0-n' => 'Deze gebruiker heeft [[$1|geen]] kennis van het [[$2|Nederlands]] (of begrijpt het met grote moeite).',
 	'babel-1-n' => 'Deze gebruiker heeft [[$1|elementaire]] kennis van het [[$2|Nederlands]].',
-	'babel-2-n' => 'Deze gebruiker heeft een [[$1|basis]]kennis van het [[$2|Nederlands]].',
-	'babel-3-n' => 'De gebruiker heeft een [[$1|gevorderde]] kennis van het [[$2|Nederlands]].',
+	'babel-2-n' => 'Deze gebruiker heeft [[$1|basiskennis]] van het [[$2|Nederlands]].',
+	'babel-3-n' => 'De gebruiker heeft [[$1|gevorderde]] kennis van het [[$2|Nederlands]].',
 	'babel-4-n' => 'Deze gebruiker beheerst het [[$2|Nederlands]] als ware het zijn [[$1|moedertaal]].',
-	'babel-5-n' => 'Deze gebruiker heeft een [[$1|professionele]] kennis van het [[$2|Nederlands]].',
+	'babel-5-n' => 'Deze gebruiker heeft [[$1|professionele]] kennis van het [[$2|Nederlands]].',
 	'babel-N-n' => 'Deze gebruiker heeft het [[$2|Nederlands]] als [[$1|moedertaal]].',
 );
 
