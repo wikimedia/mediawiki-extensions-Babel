@@ -26,12 +26,20 @@ class Babel {
 		self::mTemplateLinkBatch( $parameters );
 
 		$content = '';
+		$templateParameters = array();	// collects name=value parameters to be passed to wiki templates.
 		foreach ( $parameters as $name ) {
+			if (strpos($name, '=') !== false) {
+				$templateParameters[] = $name;
+				continue;
+			}
 			$components = self::mParseParameter( $name );
 			$template = wfMsgForContent( 'babel-template', $name );
 			if ( $name === '' ) {
 				continue;
 			} elseif ( self::mPageExists( $template ) ) {
+				if ( count($templateParameters) ) {
+					$template .= '|'.implode('|', $templateParameters);
+				}
 				$content .= $parser->replaceVariables( "{{{$template}}}" );
 			} elseif ( $components !== false ) {
 				$content .= self::mGenerateBox( $components['code'], $components['level'] );
@@ -112,7 +120,7 @@ EOT;
 	}
 
 	/**
-	 * Identify whether or not a page exists or not.
+	 * Identify whether or not a page exists.
 	 *
 	 * @param $name String: Name of the page to check.
 	 * @return Boolean: Indication of whether the page exists.
