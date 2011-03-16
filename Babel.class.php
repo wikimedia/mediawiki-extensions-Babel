@@ -140,8 +140,9 @@ EOT;
 		global $wgBabelDefaultLevel, $wgBabelCategoryNames;
 		$return = array();
 
+		$babelcode = strtolower( $parameter );
 		// Try treating the paramter as a language code (for default level).
-		$code = BabelLanguageCodes::getCode( $parameter );
+		$code = BabelLanguageCodes::getCode( $babelcode );
 		if ( $code !== false ) {
 			$return['code'] = $code;
 			$return['level'] = $wgBabelDefaultLevel;
@@ -155,8 +156,9 @@ EOT;
 		$code  = substr( $parameter, 0, $lastSplit );
 		$level = substr( $parameter, $lastSplit + 1 );
 
+		$babelcode = strtolower( $code );
 		// Validate code.
-		$return['code'] = BabelLanguageCodes::getCode( $code );
+		$return['code'] = BabelLanguageCodes::getCode( $babelcode );
 		if ( $return['code'] === false ) {
 			return false;
 		}
@@ -182,6 +184,7 @@ EOT;
 		$lang =  wfBCP47( $code );
 		$header = "[[$portal|" . $lang . "]]<span class=\"mw-babel-box-level-$level\">-$level</span>";
 
+		$code = strtolower( $code );
 		$name = BabelLanguageCodes::getName( $code );
 		$code = BabelLanguageCodes::getCode( $code );
 		$text = self::mGetText( $name, $code, $level );
