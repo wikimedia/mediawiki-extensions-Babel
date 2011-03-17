@@ -4938,6 +4938,14 @@ $messages['wa'] = array(
 	'babel-N-n' => 'Cist uzeu [[$1|cåzant natif]] do [[$2|walon]].',
 );
 
+/** Westphalian (Westfäölsk)
+ * @author Purodha
+ */
+$messages['wep'] = array(
+	'babel-1' => 'Der Benutzer spreakt [[$1|mar weanich]] [[$2|$3]].',
+	'babel-1-n' => 'Der Benutzer spreakt [[$1|mar weanich]] [[$2|Westfäölsk]].',
+);
+
 /** Wolof (Wolof)
  * @author Ibou
  */
