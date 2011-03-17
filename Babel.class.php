@@ -53,28 +53,28 @@ class Babel {
 			}
 		}
 
-		$top = wfMsgExt( 'babel', array( 'parsemag', 'content' ), self::$title->getDBkey() );
-		if ( strlen( $top ) == 0 ) {
+		$top = wfMessage( 'babel', self::$title->getDBkey() )->inContentLanguage();	// TODO: allow user language
+		if ( $top->isDisabled() ) {
 			$top = '';
 		} else {
-			$url = wfMsgForContent( 'babel-url' );
-			if ( ! strlen( $url ) == 0 ) {
-				$top = '[['.$url.'|'.$top.']]';
+			$top = $top->text();
+			$url = wfMessage( 'babel-url' )->inContentLanguage();
+			if ( ! $url->isDisabled() ) {
+				$top = '[['.$url->text().'|'.$top.']]';
 			}
 			$top = '! class="mw-babel-header" | ' . $top;
 		}
-
-		$footer = wfMsgExt( 'babel-footer', array( 'parsemag' ), self::$title->getDBkey() );
-		if ( strlen( $footer ) == 0 ) {
+		$footer = wfMessage( 'babel-footer', self::$title->getDBkey() )->inContentLanguage();	// TODO: allow user language
+		if ( $footer->isDisabled() ) {
 			$footer = '';
 		} else {
-			$url = wfMsgForContent( 'babel-footer-url' );
-			if ( ! strlen( $url ) == 0 ) {
-				$footer = '[['.$url.'|'.$footer.']]';
+			$footer = $footer->text();
+			$url = wfMessage( 'babel-footer-url' )->inContentLanguage();
+			if ( ! $url->isDisabled() ) {
+				$footer = '[['.$url->text().'|'.$footer.']]';
 			}
 			$footer = '! class="mw-babel-footer" | ' . $footer;
 		}
-
 		$cellspacing = Babel::mHtmlAttrib( 'cellspacing', 'babel-box-cellspacing' );
 		$cellpadding = Babel::mHtmlAttrib( 'cellpadding', 'babel-box-cellpadding' );
 
