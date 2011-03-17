@@ -4348,6 +4348,18 @@ $messages['sw'] = array(
 	'babel-N-n' => 'Mtumiaji huyu ni mwongeaji wa [[$2|Kiswahili]] [[$1|Fasaha]].',
 );
 
+/** Swabian (Schwäbisch)
+ * @author Purodha
+ */
+$messages['swg'] = array(
+	'babel-0-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$1|kein]] [[$2|Schwäbisch]].',
+	'babel-1-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$1|a bisle]] [[$2|Schwäbisch]].',
+	'babel-2-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$1|ebbes besser]] [[$2|Schwäbisch]].',
+	'babel-3-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$1|ned schlecht]] [[$2|Schwäbisch]].',
+	'babel-4-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$2|Schwäbisch]] [[$1|wia an waschechder Schwoob]].',
+	'babel-N-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$2|Schwäbisch]] [[$1|seit se schwätza ka]].',
+);
+
 /** Silesian (Ślůnski)
  * @author Purodha
  */
