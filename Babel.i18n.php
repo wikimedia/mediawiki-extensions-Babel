@@ -4357,7 +4357,7 @@ $messages['swg'] = array(
 	'babel-2-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$1|ebbes besser]] [[$2|Schwäbisch]].',
 	'babel-3-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$1|ned schlecht]] [[$2|Schwäbisch]].',
 	'babel-4-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$2|Schwäbisch]] [[$1|wia an waschechder Schwoob]].',
-	'babel-N-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$2|Schwäbisch]] [[$1|seit se schwätza ka]].',
+	'babel-N-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$2|Schwäbisch]] [[$1|{{GENDER:$4|er|se|se/er}} schwätza ka]].',
 );
 
 /** Silesian (Ślůnski)
