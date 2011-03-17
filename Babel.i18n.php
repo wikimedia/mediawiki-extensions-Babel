@@ -1726,6 +1726,17 @@ $messages['gl'] = array(
 	'babel-N-n' => 'Este usuario é un falante [[$1|nativo]] de [[$2|galego]].',
 );
 
+/** Middle High German (diutsche zunge)
+ * @author Purodha
+ */
+$messages['gmh'] = array(
+	'babel-1-n' => 'Dise persôn hat [[$1|einec]] kennunge in [[$2|diutscher zunge]].',
+	'babel-2-n' => 'Dise persôn hat [[$1|guote]] kennunge in [[$2|diutscher zunge]].',
+	'babel-3-n' => 'Dise persôn hat [[$1|harte]] kennunge in [[$2|diutscher zunge]].',
+	'babel-4-n' => 'Dise persôn mac schrîben [[$2|diutsche zunge]] vast sam [[$1|ez waere diu muotersprach]].',
+	'babel-N-n' => 'Diser genôz habet [[$2|diutsch]] als [[$1|sîn eigen sprâche]].',
+);
+
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
  * @author Crazymadlover
  * @author LeighvsOptimvsMaximvs
