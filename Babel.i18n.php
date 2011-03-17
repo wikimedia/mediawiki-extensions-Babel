@@ -67,7 +67,8 @@ $messages['qqq'] = array(
 	'babel' => "Header of Babel box. Parameter $1 is the name of the page it is used on, for GENDER support.<!-- The header is shown in the content language of the site, not the interface language set in a user's preferences.
 -->",
 	'babel-desc' => '{{desc}}',
-	'babel-url' => 'The page name at which more information about the babel system can be found. Do not translate the namespace Project:.',
+	'babel-url' => 'The page name at which more information about the babel system can be found.
+Do not translate the namespace <code>Project:</code>.',
 	'babel-footer-url' => 'Unless this messge is empty, this is used as link target in the last entry,
 also known as the footer, of the outer Babel-box,
 provided that the installation chooses to have a footer.
@@ -337,6 +338,13 @@ $messages['aln'] = array(
 	'babel-N-n' => 'Ky përdorues e kupton [[$2|Gegnisht]]en si gjuhë [[$1|amtare]].',
 );
 
+/** Amharic (አማርኛ)
+ * @author Purodha
+ */
+$messages['am'] = array(
+	'babel-url' => 'Project:ልሳናት',
+);
+
 /** Aragonese (Aragonés)
  * @author Juanpabl
  */
@@ -590,9 +598,11 @@ $messages['ay'] = array(
 
 /** Azerbaijani (Azərbaycanca)
  * @author PPerviz
+ * @author Purodha
  * @author Vito Genovese
  */
 $messages['az'] = array(
+	'babel-url' => 'Project:Babil',
 	'babel-1' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|zəif]] bilir.',
 	'babel-2' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|orta səviyyədə]] bilir.',
 	'babel-3' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|yaxşı]] bilir.',
@@ -653,6 +663,13 @@ $messages['bar'] = array(
 	'babel-4-n' => "Dea Benutza kã [[$2|Boarisch]] [[$1|schãu fåst so guad, wia wãun's sei Muataspråch warad]].",
 	'babel-5-n' => 'Dea Benutza kã [[$2|Boarisch]] so guad wiar a [[$1|Muataspråchla]].',
 	'babel-N-n' => "Dem Benutza sei [[$1|Muataspråch]] is s'[[$2|Boarische]].",
+);
+
+/** Samogitian (Žemaitėška)
+ * @author Purodha
+ */
+$messages['bat-smg'] = array(
+	'babel-url' => 'Project:Babėliuons',
 );
 
 /** Southern Balochi (بلوچی مکرانی)
@@ -924,17 +941,6 @@ $messages['ce'] = array(
 	'babel-4-n' => 'Хlокху декъашхочо [[$2|Нохчийн мотт]] ше [[$1|нена]] мотт санна буьйцу.',
 	'babel-5-n' => 'Хlокху декъашхочо [[$1|чlогlа дика]] буьйцу хьан [[$2|Нохчийн мотт]].',
 	'babel-N-n' => 'Хlокху декъашхочо [[$1|шейра]] буьйцу шай [[$2|Нохчийн]] мотт.',
-);
-
-/** Cimbrian (zimbrische zunga)
- * @author Purodha
- */
-$messages['cim'] = array(
-	'babel-1-n' => 'Ich prèchte de [[$1|zimbrische zunga von Siban Komàün]] [[$2|khauma an mintzikh]].',
-	'babel-2-n' => 'Ich prèchte de [[$1|zimbrische zunga von Siban Komàün]] [[$2|schöön hüppesch]].',
-	'babel-3-n' => 'Ich prèchte de [[$1|zimbrische zunga von Siban Komàün]] [[$2|schiar ane veel]].',
-	'babel-4-n' => 'Ich prèchte de [[$1|zimbrische zunga von Siban Komàün]] [[$2|sobìa von jungame aràu]].',
-	'babel-N-n' => 'Ich prèchte de [[$1|zimbrische zunga von Siban Komàün]] [[$2|von jungame aràu]].',
 );
 
 /** Sorani (کوردی)
@@ -1726,17 +1732,6 @@ $messages['gl'] = array(
 	'babel-N-n' => 'Este usuario é un falante [[$1|nativo]] de [[$2|galego]].',
 );
 
-/** Middle High German (diutsche zunge)
- * @author Purodha
- */
-$messages['gmh'] = array(
-	'babel-1-n' => 'Dise persôn hat [[$1|einec]] kennunge in [[$2|diutscher zunge]].',
-	'babel-2-n' => 'Dise persôn hat [[$1|guote]] kennunge in [[$2|diutscher zunge]].',
-	'babel-3-n' => 'Dise persôn hat [[$1|harte]] kennunge in [[$2|diutscher zunge]].',
-	'babel-4-n' => 'Dise persôn mac schrîben [[$2|diutsche zunge]] vast sam [[$1|ez waere diu muotersprach]].',
-	'babel-N-n' => 'Diser genôz habet [[$2|diutsch]] als [[$1|sîn eigen sprâche]].',
-);
-
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
  * @author Crazymadlover
  * @author LeighvsOptimvsMaximvs
@@ -1774,6 +1769,7 @@ $messages['gsw'] = array(
 	'babel' => 'Babel-Benutzer-Information',
 	'babel-desc' => 'Ergänzt d <code>#babel</code>-Parserfunktion fir s automatisch Aalege vu Babel-Benutzerchäschtli-Zyyle mit dr Megligkeit, eigeni Vorlagen yyzbinde',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Benutzer no Sproch',
 	'babel-autocreate-abort' => 'Dr uusgwählt Benutzername wird fir s automatisch Aalege vu [[$1|Babel]]-Kategorie bruucht un cha nit regischtriert wäre.',
 	'babel-autocreate-reason' => 'Automatisch aagleiti [[$1|Babel]]-Kategorie.',
 	'babel-autocreate-text-levels' => 'Benutzer in däre Kategorii hän s Chänntnis-Level $1 fir d Sproch $2.',
@@ -2196,6 +2192,13 @@ $messages['io'] = array(
 	'babel-5' => 'Ca uzanto havas [[$1|profesionala]] savo pri [[$2|$3]].',
 );
 
+/** Icelandic (Íslenska)
+ * @author Purodha
+ */
+$messages['is'] = array(
+	'babel-url' => 'Project:Málkassi',
+);
+
 /** Italian (Italiano)
  * @author Cruccone
  * @author Darth Kule
@@ -2345,13 +2348,14 @@ $messages['kk-cyrl'] = array(
 
 /** Khmer (ភាសាខ្មែរ)
  * @author GerardM
+ * @author Purodha
  * @author Thearith
  * @author គីមស៊្រុន
  * @author វ័ណថារិទ្ធ
  */
 $messages['km'] = array(
 	'babel' => 'ព័ត៌មាន​អ្នក​ប្រើ​ប្រាស់​ Babel',
-	'babel-url' => 'Project:Babel',
+	'babel-url' => 'Project:បាបេល',
 	'babel-autocreate-reason' => 'កំពុង​បង្កើត​ទំព័រ​ចំណាត់​ថ្នាក់​ក្រុម [[$1|Babel]] ដោយ​ស្វ័យ​ប្រវត្តិ​។​',
 	'babel-autocreate-text-levels' => 'អ្នកប្រើប្រាស់​ទាំងឡាយណា ដែល​ស្ថិតនៅក្នុង​ចំណាត់ថ្នាក់ក្រុម​នេះ បញ្ជាក់​ថា​ពួកគេ​មាន​ការយល់ដឹង​កម្រិត​ $1 សម្រាប់​ភាសា $2 ។',
 	'babel-autocreate-text-main' => 'អ្នកប្រើប្រាស់​ទាំងឡាយណា ដែល​ស្ថិតនៅក្នុង​ចំណាត់ថ្នាក់ក្រុម​នេះ បញ្ជាក់​ថា​ពួកគេ​ចេះ​និយាយ​​ភាសា $1 ។',
@@ -2521,10 +2525,12 @@ $messages['kw'] = array(
 
 /** Latin (Latina)
  * @author John Vandenberg
+ * @author Purodha
  * @author SPQRobin
  * @author UV
  */
 $messages['la'] = array(
+	'babel-url' => 'Project:Babel formulae',
 	'babel-autocreate-user' => 'Babel AutoCreator',
 	'babel-0' => 'Hic usor [[$1|nullo pacto]] aut aegre [[$2|$3]] contribuere potest.',
 	'babel-1' => 'Hic usor [[$1|simplice]] [[$2|$3]] contribuere potest.',
@@ -4348,18 +4354,6 @@ $messages['sw'] = array(
 	'babel-N-n' => 'Mtumiaji huyu ni mwongeaji wa [[$2|Kiswahili]] [[$1|Fasaha]].',
 );
 
-/** Swabian (Schwäbisch)
- * @author Purodha
- */
-$messages['swg'] = array(
-	'babel-0-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$1|kein]] [[$2|Schwäbisch]].',
-	'babel-1-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$1|a bisle]] [[$2|Schwäbisch]].',
-	'babel-2-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$1|ebbes besser]] [[$2|Schwäbisch]].',
-	'babel-3-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$1|ned schlecht]] [[$2|Schwäbisch]].',
-	'babel-4-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$2|Schwäbisch]] [[$1|wia an waschechder Schwoob]].',
-	'babel-N-n' => '{{GENDER:$4|Der Kerle|Des Mädle|Des Mädle/Der Kerle}} schwätzt [[$2|Schwäbisch]] [[$1|seit {{GENDER:$4|er|se|se/er}} schwätza ka]].',
-);
-
 /** Silesian (Ślůnski)
  * @author Purodha
  */
@@ -4705,6 +4699,13 @@ $messages['tyv'] = array(
 	'babel-1' => 'Бо ажыглакчы [[$1|эге деңнелге]] [[$2|тывалай]] деткий ал.',
 );
 
+/** Udmurt (Удмурт)
+ * @author Purodha
+ */
+$messages['udm'] = array(
+	'babel-url' => 'Project:Вавилон',
+);
+
 /** Ukrainian (Українська)
  * @author A1
  * @author AS
@@ -4760,6 +4761,13 @@ $messages['ur'] = array(
 	'babel-4-n' => 'یہ صارف [[$2|انگریزی]] کے بارے میں [[$1|پیدائشی متکلم]] کے قریب قریب دانش رکھتا ہے.',
 	'babel-5-n' => 'یہ صارف [[$2|انگریزی]] کا [[$1|پیشہ ورانہ]] دانش رکھتا ہے.',
 	'babel-N-n' => 'یہ صارف [[$2|انگریزی]] کا [[$1|پیدائشی متکلم]] ہے.',
+);
+
+/** Uzbek (O'zbek)
+ * @author Purodha
+ */
+$messages['uz'] = array(
+	'babel-url' => 'Project:Bobil',
 );
 
 /** Vèneto (Vèneto)
@@ -4970,14 +4978,6 @@ $messages['wa'] = array(
 	'babel-4-n' => 'Cist(e) uzeu(se) ci kinoxhe [[$1|foirt bén]] li [[$2|walon]].',
 	'babel-5-n' => "Cist(e) uzeu(se) ci kinoxhe li [[$2|walon]] [[$1|come ene djin d' mestî]]",
 	'babel-N-n' => 'Cist uzeu [[$1|cåzant natif]] do [[$2|walon]].',
-);
-
-/** Westphalian (Westfäölsk)
- * @author Purodha
- */
-$messages['wep'] = array(
-	'babel-1' => 'Der Benutzer spreakt [[$1|mar weanich]] [[$2|$3]].',
-	'babel-1-n' => 'Der Benutzer spreakt [[$1|mar weanich]] [[$2|Westfäölsk]].',
 );
 
 /** Wolof (Wolof)
