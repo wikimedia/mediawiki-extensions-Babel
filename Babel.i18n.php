@@ -926,6 +926,17 @@ $messages['ce'] = array(
 	'babel-N-n' => 'Хlокху декъашхочо [[$1|шейра]] буьйцу шай [[$2|Нохчийн]] мотт.',
 );
 
+/** Cimbrian (zimbrische zunga)
+ * @author Purodha
+ */
+$messages['cim'] = array(
+	'babel-1-n' => 'Ich prèchte de [[$1|zimbrische zunga von Siban Komàün]] [[$2|khauma an mintzikh]].',
+	'babel-2-n' => 'Ich prèchte de [[$1|zimbrische zunga von Siban Komàün]] [[$2|schöön hüppesch]].',
+	'babel-3-n' => 'Ich prèchte de [[$1|zimbrische zunga von Siban Komàün]] [[$2|schiar ane veel]].',
+	'babel-4-n' => 'Ich prèchte de [[$1|zimbrische zunga von Siban Komàün]] [[$2|sobìa von jungame aràu]].',
+	'babel-N-n' => 'Ich prèchte de [[$1|zimbrische zunga von Siban Komàün]] [[$2|von jungame aràu]].',
+);
+
 /** Sorani (کوردی)
  * @author Asoxor
  * @author GerardM
