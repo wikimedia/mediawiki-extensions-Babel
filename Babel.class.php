@@ -37,19 +37,21 @@ class Babel {
 			if ( $name === '' ) {
 				continue;
 			} elseif ( self::mPageExists( $template ) ) {
+				// Existent template page has precedence
 				if ( count($templateParameters) ) {
 					$template .= '|'.implode('|', $templateParameters);
 				}
-				$content .= $parser->replaceVariables( "{{{$template}}}" );
+				$content .= self::mGenerateNotaBox( $parser->replaceVariables( "{{{$template}}}" ) );
 			} elseif ( $components !== false ) {
+				// Non-existent page and valid parameter syntax, babel box
 				$content .= self::mGenerateBox( $components['code'], $components['level'] );
 				$content .= self::mGenerateCategories( $components['code'], $components['level'] );
 			} elseif ( self::mValidTitle( $template ) ) {
 				// Non-existent page and invalid parameter syntax, red link.
-				$content .= "\n[[$template]]";
+				$content .= self::mGenerateNotaBox( '[['.$template.']]' );
 			} else {
 				// Invalid title, output raw.
-				$content .= "\n$template";
+				$content .= self::mGenerateNotaBox( $template );
 			}
 		}
 
@@ -170,6 +172,20 @@ EOT;
 		$return['level'] = $level;
 
 		return $return;
+	}
+
+	/**
+	 * Generate an inner box which is not a babel box.
+	 *
+	 * @param $coontent String: what's inside the box, in wikitext format.
+	 * @return String: A single non-babel box, in wikitext format.
+	 */
+	protected static function mGenerateNotaBox( $content ) {
+		$dir_content = wfMessage( 'babel-directionality' )->inContentLanguage()->text();
+		$notabox = <<<EOT
+<div class="mw-babel-notabox" dir="$dir_content">$content</div>
+EOT;
+		return $notabox;
 	}
 
 	/**
