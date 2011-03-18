@@ -26,21 +26,20 @@ class Babel {
 		self::mTemplateLinkBatch( $parameters );
 
 		$content = '';
-		$templateParameters = array();	// collects name=value parameters to be passed to wiki templates.
+		$templateParameter[0] = '' ;	// collects name=value parameters to be passed to wiki templates.
 		foreach ( $parameters as $name ) {
 			if (strpos($name, '=') !== false) {
 				$templateParameters[] = $name;
 				continue;
 			}
 			$components = self::mParseParameter( $name );
-			$template = wfMsgForContent( 'babel-template', $name );
+			$template = wfMessage( 'babel-template', $name )->inContentLanguage()->text();
 			if ( $name === '' ) {
 				continue;
 			} elseif ( self::mPageExists( $template ) ) {
 				// Existent template page has precedence
-				if ( count($templateParameters) ) {
-					$template .= '|'.implode('|', $templateParameters);
-				}
+				$templateParameters[0] = $template;
+				$template = implode('|', $templateParameters);
 				$content .= self::mGenerateNotaBox( $parser->replaceVariables( "{{{$template}}}" ) );
 			} elseif ( $components !== false ) {
 				// Non-existent page and valid parameter syntax, babel box
@@ -100,7 +99,7 @@ EOT;
 	protected static function mTemplateLinkBatch( $parameters ) {
 		$titles = array();
 		foreach ( $parameters as $name ) {
-			$title = Title::newFromText( wfMsgForContent( 'babel-template', $name ) );
+			$title = Title::newFromText( wfMessage( 'babel-template', $name )->inContentLanguage()->text() );
 			if ( is_object( $title ) ) {
 				$titles[] = $title;
 			}
@@ -175,15 +174,15 @@ EOT;
 	}
 
 	/**
-	 * Generate an inner box which is not a babel box.
+	 * Generate an inner item which is not a babel box.
 	 *
-	 * @param $coontent String: what's inside the box, in wikitext format.
+	 * @param $content String: what's inside the box, in wikitext format.
 	 * @return String: A single non-babel box, in wikitext format.
 	 */
 	protected static function mGenerateNotaBox( $content ) {
-		$dir_content = wfMessage( 'babel-directionality' )->inContentLanguage()->text();
+		$dir_head = Babel::mHtmlAttrib( 'dir', 'babel-directionality' );
 		$notabox = <<<EOT
-<div class="mw-babel-notabox" dir="$dir_content">$content</div>
+<div class="mw-babel-notabox"$dir_head>$content</div>
 EOT;
 		return $notabox;
 	}
@@ -196,8 +195,8 @@ EOT;
 	 * @return String: A single babel box, in wikitext format.
 	 */
 	protected static function mGenerateBox( $code, $level ) {
-		$portal = wfMsgForContent( 'babel-portal', $code );
 		$lang =  wfBCP47( $code );
+		$portal = wfMsgForContent( 'babel-portal', $code );
 		$header = "[[$portal|" . $lang . "]]<span class=\"mw-babel-box-level-$level\">-$level</span>";
 
 		$code = strtolower( $code );
@@ -205,17 +204,17 @@ EOT;
 		$code = BabelLanguageCodes::getCode( $code );
 		$text = self::mGetText( $name, $code, $level );
 
-		$dir_content = wfMsgForContent( 'babel-directionality' );
 		$dir_current = wfMsgExt( 'babel-directionality', array( 'language' => $code ) );
 
 		$cellspacing = Babel::mHtmlAttrib( 'cellspacing', 'babel-cellspacing' );
 		$cellpadding = Babel::mHtmlAttrib( 'cellpadding', 'babel-cellpadding' );
+		$dir_head = Babel::mHtmlAttrib( 'dir', 'babel-directionality' );
 
 		$box = <<<EOT
-<div class="mw-babel-box mw-babel-box-$level" dir="$dir_content">
+<div class="mw-babel-box mw-babel-box-$level"$dir_head>
 {|$cellspacing$cellpadding
-!  dir="$dir_content" | $header
-|  dir="$dir_current" lang="$lang" xml:lang="$lang" | $text
+!$dir_head | $header
+| dir="$dir_current" lang="$lang" xml:lang="$lang" | $text
 |}
 </div>
 EOT;
@@ -314,7 +313,7 @@ EOT;
 	}
 
 	/**
-	 * Determine a HTML attribute, such as "cellspacing" or "cellpadding".
+	 * Determine an HTML attribute, such as "cellspacing" or "title", from a localizeable message.
 	 *
 	 * @param $name String: name of HTML attribute.
 	 * @param $key String: Message key of attribute value.
