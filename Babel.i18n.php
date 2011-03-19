@@ -1237,12 +1237,14 @@ $messages['dv'] = array(
 
 /** Greek (Ελληνικά)
  * @author Consta
+ * @author Glavkos
  * @author Omnipaedista
  */
 $messages['el'] = array(
 	'babel' => 'Πληροφορίες Βαβέλ Χρήστη',
 	'babel-desc' => 'Προσθέτει την #babel λεξιαναλυτική λειτουργία η οποία επιτρέπει την αυτόματη παραγωγή στήλης βαβέλ με την δυνατότητα περίληψης προκαθορισμένων προτύπων',
 	'babel-url' => 'Project:Βαβέλ',
+	'babel-footer-url' => 'Κατηγορία: Βαβέλ  - Χρήστες ανά γλώσσα',
 	'babel-autocreate-abort' => 'Το όνομα χρήστη που έδωσες χρησιμοποιείται για τη κατηγορία αυτοδημιουργίας [[$1|Βαβέλ]] και δεν μπορεί να κατοχυρωθεί.',
 	'babel-autocreate-reason' => 'Αυτόματη δημιουργία σελίδας κατηγορίας [[$1|Βαβέλ]].',
 	'babel-autocreate-text-levels' => 'Οι χρήστες στην κατηγορία αυτή δηλώνουν πως ομιλούν την γλώσσα $2 σε επίπεδο $1',
@@ -1961,11 +1963,13 @@ $messages['hil'] = array(
 
 /** Croatian (Hrvatski)
  * @author Ex13
+ * @author Herr Mlinka
  */
 $messages['hr'] = array(
 	'babel' => 'Babel suradničke informacije',
 	'babel-desc' => 'Dodaje <code>#babel</code> parser funkciju kako bi se omogućilo automatsko generiranje kolumne s babel suradničkim okvirićima s mogućnošću uključivanja vlastitih predložaka',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Kategorija:Babel - Suradnici prema jeziku',
 	'babel-autocreate-abort' => 'Suradničko ime koje ste naveli rabi se za samokreiranje kategorije [[$1|babel]] i ne može biti registrirano.',
 	'babel-autocreate-reason' => 'Automatsko stvaranje [[$1|babel]] stranice kategorije.',
 	'babel-autocreate-text-levels' => 'Suradnici u ovoj kategoriji ukazuju da su na razini vještine $1 za jezik $2.',
@@ -4248,6 +4252,7 @@ $messages['stq'] = array(
 	'babel' => 'Babel-Benutser-Information',
 	'babel-desc' => 'Föiget an ju <code>#babel</code>-Parserfunktion foar automatisk Deerstaalen fon Babel-Benutserboxen-Riegen ju Muugelkhaid tou, oaine Foarloagen ientoubienden',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Benutsere ätter Sproake',
 	'babel-autocreate-abort' => 'Die uutwäälde Benutsernoome wäd foar dät automatisk Moakjen fon [[$1|Babel]]-Kategorien benöödiged un kon nit registrierd wäide.',
 	'babel-autocreate-reason' => 'Automatisk moakede [[$1|Babel]]-Kategorie.',
 	'babel-autocreate-text-levels' => 'Benutsere in disse Kategorie hääbe ju Kunde-Ieuwene $1 foar ju Sproake $2.',
