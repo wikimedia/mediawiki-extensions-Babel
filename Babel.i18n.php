@@ -879,6 +879,7 @@ $messages['bs'] = array(
 	'babel' => 'Babel korisničke informacije',
 	'babel-desc' => 'Dodaje <code>#babel</code> parsersku funkciju koja omogućava automatsko pravljenje babel korisničke kutije u stupcu sa mogućnostima uključivanja prilagođenih šablona',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Korisnici po jeziku',
 	'babel-autocreate-abort' => 'Korisničko ime koje ste naveli se koristi za automatsko pravljenje [[$1|Babel]] kategorija i ne može biti registrovano.',
 	'babel-autocreate-reason' => 'Automatski napravljena stranica [[$1|Babel]] kategorije.',
 	'babel-autocreate-text-levels' => 'Korisnici u ovoj kategoriji su naveli da imaju nivo $1 znanja $2 jezika.',
@@ -1297,6 +1298,7 @@ $messages['eo'] = array(
 /** Spanish (Español)
  * @author Bengoa
  * @author Crazymadlover
+ * @author Fitoschido
  * @author Fluence
  * @author GerardM
  * @author Sanbec
@@ -1305,6 +1307,7 @@ $messages['es'] = array(
 	'babel' => 'Información de usuario Babel',
 	'babel-desc' => 'Agregar la <code>#babel</code> función analítica para permitir generación automática de una columna de cuadro de usuario Babel con la habilidad de incluir plantillas propias.',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Usuarios por idioma',
 	'babel-autocreate-abort' => 'El nombre de usuario que ha especificado es usado para auto-creación de categorías [[$1|Babel]] y no puede ser registrado.',
 	'babel-autocreate-reason' => 'Creando automáticamente página de categorías [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Los usuarios de esta categoría declaran que tienen un nivel de dominio $1 del idioma $2.',
@@ -1361,6 +1364,7 @@ $messages['eu'] = array(
 	'babel' => 'Lankideen babel informazioa',
 	'babel-desc' => '<code>#babel</code> sintaxi-analizatzaile (parser) funtzioa gehitzen du automatikoki sorturiko babel lankide-kutxen zutabea baimeduz eta lankide txantiloiak sartzea baimenduz',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Erabiltzaileak hizkuntzaren arabear',
 	'babel-autocreate-abort' => 'Sartu duzun lankide izena [[$1|Babel]] kategorien auto-sorkuntzarako erabiltzen da eta ezin da erregistratu.',
 	'babel-autocreate-reason' => 'Automatikoki sorturiko [[$1|Babel]] kategoria orrialdea.',
 	'babel-autocreate-text-levels' => 'Kategoria honetako lankideek $1 maila dutela $2 hizkuntzan adierazten du.',
@@ -1911,12 +1915,14 @@ $messages['he'] = array(
 );
 
 /** Hindi (हिन्दी)
+ * @author Bhawani Gautam Rhk
  * @author Kaustubh
  */
 $messages['hi'] = array(
 	'babel' => 'बाबेल सदस्य ज़ानकारी',
 	'babel-desc' => 'एक सदस्यके बाबेल सदस्यबक्से अपनेआप देने के लिय उपयुक्त ऐसी <code>#babel</code> पार्सर क्रिया बढाता हैं। इसमें खुद बनायें सदस्यबक्से भी दिये जा सकतें हैं।',
 	'babel-url' => 'Project:बाबेल',
+	'babel-footer-url' => ':श्रेणी: कोलाहल - उपयोगकर्ता भाषा के आधार पर',
 	'babel-0' => 'इस सदस्यको [[$2|$3]] का ज्ञान [[$1|नहीं]] हैं। (या समझने के लिये बहुत प्रयास लेने पडते हैं)।',
 	'babel-1' => 'इस सदस्यको [[$2|$3]] का [[$1|प्राथमिक]] ज्ञान हैं।',
 	'babel-2' => 'इस सदस्यको [[$2|$3]] का [[$1|मध्यम स्तर]] का ज्ञान हैं।',
@@ -3222,8 +3228,13 @@ $messages['nds'] = array(
  */
 $messages['ne'] = array(
 	'babel' => 'Babel प्रयोगकर्ता जानकारी',
+	'babel-desc' => '<code>#babel</code> पार्सर क्रिया जोड़छ जसले स्वतः प्रयोगकर्ता बाकस बेबल कलमको निर्माणमा अनुकूलित ढाँचालाई योग्यतापूर्वक संलग्न गर्ने अनुमति दिन्छ।',
 	'babel-url' => 'Project:ब्याबल',
-	'babel-autocreate-reason' => 'स्वत: शृजना गरिँदै [[$1|ब्याबल]] श्रेणी पृष्ठ ।',
+	'babel-footer-url' => ':श्रेणी:बेबल -प्रयोगकर्ताहरु भाषाको आधारमा',
+	'babel-autocreate-abort' => 'तपाईंले दिएको प्रयोगकर्ता नाम [[$1|बेबल]] श्रेणी स्वतः निर्माणको निम्ति प्रयोग भएकोछ र  यसलाई पञ्जीकरण गर्न सकिंदैन।',
+	'babel-autocreate-reason' => '[[$1|ब्याबल]] श्रेणी पृष्ठ स्वत:सृजना गरिँदै।',
+	'babel-autocreate-text-levels' => 'यस श्रेणीका प्रयोगकर्ताहरुबाट संकेत पाइन्छ कि $2 भाषामा तिनीहरुको कौशल स्तर $1 छ।',
+	'babel-autocreate-text-main' => 'यस श्रेणीका प्रयोगकर्ताहरुबाट संकेत पाइन्छ कि तिनीहरुमा $1भाषाको  ज्ञान छ।',
 	'babel-0' => 'यो प्रयोगकर्तासँग [[$2|$3]] को कुनै ज्ञान [[$1|छैन]] ( अथवा धेरै कठिनताका साथ बुझ्ने गर्छ )।',
 	'babel-1' => 'यो प्रयोगकर्तासँग  [[$2|$3]]को [[$1|साधारण]] ज्ञान छ ।',
 	'babel-2' => 'यो प्रयोगकर्तासँग [[$2|$3]] को [[$1|मध्यम स्तर]]को ज्ञान छ।',
@@ -3231,7 +3242,13 @@ $messages['ne'] = array(
 	'babel-4' => 'यो प्रयोगकर्तासँग [[$2|$3]]को [[$1|करिब मौलिक प्रयोगकर्ता जस्तै]] ज्ञान छ।',
 	'babel-5' => 'यो प्रयोगकर्तासँग [[$2|$3]]को [[$1|विशेषज्ञताको]] ज्ञान छ ।',
 	'babel-N' => 'यो प्रयोगकर्तासँग [[$2|$3]]को [[$1|पैदायसी]] ज्ञान छ।',
-	'babel-N-n' => 'यो प्रयोगकर्तासँग [[$2|अंग्रेजीको]] [[$1|पैदायसी]] ज्ञान छ ।',
+	'babel-0-n' => 'यी प्रयोगकर्तासित [[$2|नेपाली]] भाषाको  ज्ञान [[$1|छैन]] (अथवा कठिनता पूर्वक बुझ्दछन्).',
+	'babel-1-n' => 'यी प्रयोगकर्तासित [[$2|नेपाली]] भाषाको [[$1|साधारण]] ज्ञान छ।',
+	'babel-2-n' => 'यी प्रयोगकर्तासित [[$2|नेपाली]] भाषाको [[$1|मध्यमस्तर]]को ज्ञान छ।',
+	'babel-3-n' => 'यी प्रयोगकर्तासित [[$2|नेपाली]] भाषाको [[$1|उन्नत स्तर]]को ज्ञान छ।',
+	'babel-4-n' => 'यी प्रयोगकर्तासित [[$2|नेपाली]] भाषाको [[$1|पैदायसी निकट]]को ज्ञान छ।',
+	'babel-5-n' => 'यो प्रयोगकर्तासित [[$2|नेपाली]] भाषामा [[$1|विशेषज्ञता]]को ज्ञान छ ।',
+	'babel-N-n' => 'यो प्रयोगकर्तासँग [[$2|नेपाली]] [[$1|पैदायसी]] ज्ञान छ ।',
 );
 
 /** Dutch (Nederlands)
@@ -3388,6 +3405,14 @@ $messages['oc'] = array(
 	'babel-4-n' => 'Aqueste utilizaire dispausa de coneissenças pròchas de la [[$1|lenga mairala]] en [[$2|occitan]].',
 	'babel-5-n' => "Aqueste utilizaire dispausa d'un nivèl de coneissenças [[$1|professional]] en [[$2|occitan]].",
 	'babel-N-n' => "Aqueste utilizaire a per [[$1|lenga mairala]] l'[[$2|occitan]].",
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Odisha1
+ */
+$messages['or'] = array(
+	'babel-url' => 'ପ୍ରୋଜେକ୍ଟ:ବାବେଲ',
+	'babel-footer-url' => ':ବିଭାଗ:ବାବେଲ - ବ୍ୟବହାରକାରିର ଭାସା',
 );
 
 /** Ossetic (Иронау)
