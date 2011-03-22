@@ -3409,10 +3409,11 @@ $messages['oc'] = array(
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Odisha1
+ * @author Psubhashish
  */
 $messages['or'] = array(
-	'babel-url' => 'ପ୍ରୋଜେକ୍ଟ:ବାବେଲ',
-	'babel-footer-url' => ':ବିଭାଗ:ବାବେଲ - ବ୍ୟବହାରକାରିର ଭାସା',
+	'babel-url' => 'Project:ବାବେଲ',
+	'babel-footer-url' => ':ବିଭାଗ:ବାବେଲ - ଭାସା ଅନୁସାରେ ଇଉଜର',
 );
 
 /** Ossetic (Иронау)
