@@ -2535,23 +2535,35 @@ $messages['kw'] = array(
 
 /** Latin (Latina)
  * @author John Vandenberg
+ * @author OrbiliusMagister
  * @author Purodha
  * @author SPQRobin
  * @author UV
  */
 $messages['la'] = array(
+	'babel' => 'res usoribus sciendae de Babel',
+	'babel-desc' => '<code>#babel</code> functio additur ut capsa linguarum scientiam usoris describens se ipsa creetur. Formulae aliae ac linguas describentes includi possunt',
 	'babel-url' => 'Project:Babel formulae',
+	'babel-footer-url' => ':Categoria:Babel - Usores per linguas divisi',
+	'babel-autocreate-abort' => 'Nomen a te electum, quod utilis est ad [[$1|Babel]] categorias creandas,  inscribi non potest.',
+	'babel-autocreate-reason' => '[[$1|Babel]] Categoriae pagina ipsa mox  creabitur. Expecta, quaeso.',
+	'babel-autocreate-text-levels' => 'Usores in hac categoria inclusi nuntiant sibi gradum $1 utendi linguam $2 esse',
+	'babel-autocreate-text-main' => 'Usores in hac categoria inclusi nuntiant se contribuere posse cum lingua $1',
 	'babel-autocreate-user' => 'Babel AutoCreator',
 	'babel-0' => 'Hic usor [[$1|nullo pacto]] aut aegre [[$2|$3]] contribuere potest.',
 	'babel-1' => 'Hic usor [[$1|simplice]] [[$2|$3]] contribuere potest.',
 	'babel-2' => 'Hic usor [[$1|media]] [[$2|$3]] contribuere potest.',
 	'babel-3' => 'Hic usor [[$1|callidissima]] [[$2|$3]] contribuere potest.',
+	'babel-4' => 'Hic usor [[$1|tamquam nativus loquens]] [[$2|$3]] contribuere potest',
+	'babel-5' => 'Hic usor [[$1|magistrali]] [[$2|$3]] contribuere potest.',
+	'babel-N' => 'Hic usor [[$1|native]] [[$2|$3]] loquitur.',
 	'babel-0-n' => 'Hic usor [[$1|nullo pacto]] aut aegre [[$2|Latinitate]] contribuere potest.',
 	'babel-1-n' => 'Hic usor [[$1|simplice]] [[$2|Latinitate]] contribuere potest.',
 	'babel-2-n' => 'Hic usor [[$1|media]] [[$2|Latinitate]] contribuere potest.',
 	'babel-3-n' => 'Hic usor [[$1|callidissima]] [[$2|Latinitate]] contribuere potest.',
 	'babel-4-n' => 'Hic usor regulas grammaticas observans [[$1|optima]] [[$2|Latinitate]] scribere (et interdum loqui) scit.',
-	'babel-N-n' => 'Hic usor aut [[$1|naturaliter]] [[$2|latine]] loqui atque contribuere potest aut potius mentitur.',
+	'babel-5-n' => 'Hic usor [[$1|magistrali]] [[$2|Latinitate]] contribuere potest',
+	'babel-N-n' => 'Hic usor aut [[$1|vere incredibili]] [[$2|Latinitate]] contribuere potest... aut fortasse mentitur.',
 );
 
 /** Ladino (Ladino)
@@ -3175,6 +3187,7 @@ $messages['nah'] = array(
 	'babel' => 'Ìteìxmatilòka in motekìuhtiàni ìpan Babel',
 	'babel-desc' => 'Ìka san ìsèl monèxtìs in ìbabelpal in motekìuhtiàni wan kualli motlàlilìs tènemáchiòuh, mà motlàlili in tlaìxnênewiliskàtekitki <code>#babel</code>',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Motekìuhtiànimë ìpal ìntlâtòl',
 	'babel-autocreate-abort' => 'In tekìuhkàtokâtli tlen timonekìltia awel mîkuilòs, motekitìltia ìpampa in mosèlchìhki tlaìxmatkàtlàlilòtl [[$1|Babel]]',
 	'babel-autocreate-reason' => 'Mosèlchîchìuhtíkä in [[$1|Babel]]tlaìxmatkàtlàlilòmë tlaìxtlapalli',
 	'babel-autocreate-text-levels' => 'In motekìuhtiànimë ìpan inìn tlaìxmatkàtlàlilòtl kîtowâkë mach $1 kinênewiliâkë in $2',
@@ -3710,11 +3723,13 @@ $messages['pt'] = array(
 /** Brazilian Portuguese (Português do Brasil)
  * @author Brunoy Anastasiya Seryozhenko
  * @author Eduardo.mps
+ * @author Giro720
  */
 $messages['pt-br'] = array(
 	'babel' => 'Informação Babel de Usuário',
 	'babel-desc' => 'Adiciona a função do analisador parser <code>#babel</code> para permitir a geração automática de um coluna de caixas de babel de um usuário coma possibilidade de incluir predefinições personalizadas',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Categoria:Babel - Usuários por língua',
 	'babel-autocreate-abort' => 'O nome de utilizador que especificou é usado pela criação automática de categorias [[$1|Babel]] e, por isso, não pode ser registrado.',
 	'babel-autocreate-reason' => 'Criando automaticamente a página da categoria [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Os utilizadores nesta categoria indicam que possuem um nível de conhecimento $1 na língua $2.',
