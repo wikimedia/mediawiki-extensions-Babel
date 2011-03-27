@@ -3428,6 +3428,8 @@ $messages['oc'] = array(
 $messages['or'] = array(
 	'babel-url' => 'Project:ବାବେଲ',
 	'babel-footer-url' => ':ବିଭାଗ:ବାବେଲ - ଭାସା ଅନୁସାରେ ଇଉଜର',
+	'babel-0' => 'ଏହି ଇଉଜର  [[$2|$3]] ଜାଣନ୍ତି [[$1|ନାହିଁ]] (କି ଅଳପ ଅଳପ ବୁଝନ୍ତି ନାହି) ।',
+	'babel-N-n' => 'ଏହି ଇଉଜରଙ୍କ [[$1|ନିଜ]] ଭାଷା ହେଲା [[$2|ଇଁରାଜି]]।',
 );
 
 /** Ossetic (Иронау)
@@ -5217,6 +5219,7 @@ $messages['zh-cn'] = array(
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Dalt
  * @author Gzdavidwong
+ * @author Hydra
  * @author Jimmy xu wrk
  * @author Shinjiman
  */
@@ -5224,6 +5227,7 @@ $messages['zh-hans'] = array(
 	'babel' => '巴别用户细节',
 	'babel-desc' => '加一个<code>#babel</code>处理功能去容许自动产生一个巴别用户框栏及包含可自定化的模版',
 	'babel-url' => 'Project:巴别',
+	'babel-footer-url' => ':Category:Babel - 用户的语言',
 	'babel-autocreate-abort' => '您所指定的用户名不能被注册，因其被用作[[$1|巴别]]分类的自动创建。',
 	'babel-autocreate-reason' => '自动建立[[$1|巴别]]分类页。',
 	'babel-autocreate-text-levels' => '在此分类中的用户具有语言$2的$1能力。',
