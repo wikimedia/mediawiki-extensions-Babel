@@ -3336,6 +3336,7 @@ $messages['no'] = array(
 	'babel' => 'Babelinformasjon',
 	'babel-desc' => 'Legger til parserfunksjonen <code>#babel</code> for å automatisk generere en babelboks med  mulighet for å inkludere egendefinerte maler',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Brukere etter språk',
 	'babel-autocreate-abort' => 'Brukernavnet du valgte er i bruk for automatisk oppretting av [[$1|Babel]]-kategorier og kan derfor ikke registreres.',
 	'babel-autocreate-reason' => 'Oppretter automatisk en [[$1|Babel]]-kategoriside.',
 	'babel-autocreate-text-levels' => 'Brukeren i denne kategorien har et språkkunnskapsnivå på $1 for $2.',
