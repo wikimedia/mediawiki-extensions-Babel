@@ -618,6 +618,7 @@ $messages['ba'] = array(
 	'babel' => 'Ҡулланыусы телдәре (Вавилон)',
 	'babel-desc' => 'Телдәр тураһында мәғлүмәт менән, икенсе ҡалыптар өҫтәргә мөмкинлек биргән Вавилон бағанаһын булдырыусы <code>#babel</code> уҡыу ҡоралын өҫтәй.',
 	'babel-url' => 'Project:Вавилон',
+	'babel-footer-url' => ':Category:Вавилон — Ҡатнашыусылар телдәр буйынса',
 	'babel-autocreate-abort' => 'Һеҙ һайлаған исем [[$1|Вавилон]] категорияларын булдырыу өсөн ҡулланыла һәм теркәлә алмай.',
 	'babel-autocreate-reason' => '[[$1|Вавилон]] категорияһы битен булдырыу',
 	'babel-autocreate-text-levels' => 'Был категориялағы ҡатнашыусылар $2 телен $1 дәрәжәлә белеүен күрһәткән.',
@@ -4256,7 +4257,7 @@ $messages['sq'] = array(
  */
 $messages['sr-ec'] = array(
 	'babel' => 'Језичке кутијице',
-	'babel-desc' => 'Додаје <code>#babel</code> рашчлањивач који омогућава самостално стварање језичких кутијица уз могућност додавања прилагођених шаблона.',
+	'babel-desc' => 'Додаје рашчлањивач <code>#babel</code> који омогућава самостално стварање језичких кутијица уз могућност додавања прилагођених шаблона',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Корисничко име које сте унели користи се за самостално стварање [[$1|Babel]] категорије.',
 	'babel-autocreate-reason' => 'Самостално стварање [[$1|Babel]] категорије.',
@@ -4358,6 +4359,7 @@ $messages['su'] = array(
 );
 
 /** Swedish (Svenska)
+ * @author Ainali
  * @author Boivie
  * @author Jon Harald Søby
  * @author Lejonel
@@ -4368,6 +4370,7 @@ $messages['sv'] = array(
 	'babel' => 'Babel Användarinformation',
 	'babel-desc' => 'Lägger till parserfunktionen <code>#babel</code> för att tillåta att det automatiskt skapas en babelboxkolumn med möjligheten att lägga till anpassade mallar',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Kategori:Babel - Användare efter språk',
 	'babel-autocreate-abort' => 'Användarnamnet du valde används för automatiskt skapande av [[$1|Babel]]-kategorier och kan därför inte registreras.',
 	'babel-autocreate-reason' => 'Skapar automatiskt en [[$1|Babel]]-kategorisida.',
 	'babel-autocreate-text-levels' => 'Användare i den här kategorin visar att de kan språket $2 på en kunskapsnivå av $1.',
