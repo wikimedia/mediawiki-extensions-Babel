@@ -119,33 +119,6 @@ $messages['sxu'] = array(
 	'babel-N-n' => "Dor Benutzor hior is ä rüscht'schor [[$1|Muddorsprachlor]] vom [[$2|Sächs'sch]]n.",
 );
 
-/** Jamaican Creole English (Jamaican Creole English)
- * @author Yocahuna
- */
-$messages['jam'] = array(
-	'babel' => 'Biebl yuuza infamieshan',
-	'babel-desc' => 'Ad di <code>#babel</code> paaza fongshan fi lou aatamietid jinarieshan a biebl yuuzabax kalom wid di abiliti fi inkluud kostom templit',
-	'babel-url' => 'Project:Biebl',
-	'babel-autocreate-abort' => 'Di yuuzaniem yu spesifai yuuz fi [[$1|Babel]] kiatigari aato-krieshan ahn kyaahn regista.',
-	'babel-autocreate-reason' => 'Aatamatikali a kriet [[$1|Babel]] kiatigari piej.',
-	'babel-autocreate-text-levels' => 'Yuuza ina dis kiatigeri indikiet se dehn ab skil lebl $1 fi langwij $2.',
-	'babel-autocreate-text-main' => 'Yuuza ina dis kiatigeri indikiet se dehn ab nalij a langwij $1.',
-	'babel-0' => 'Dis yuuza ab [[$1|no]] nalij a [[$2|$3]] (ar andastani wid kansidarobl difikolti).',
-	'babel-1' => 'Di yuuza ab [[$1|biesik]] nalij a [[$2|$3]].',
-	'babel-2' => 'Di yuuza ab [[$1|intamidiet]] nalij a [[$2|$3]].',
-	'babel-3' => 'Di yuuza ab [[$1|advans]] nalij a [[$2|$3]].',
-	'babel-4' => 'Di yuuza ab [[$1|nier nietib]] nalij a [[$2|$3]].',
-	'babel-5' => 'Di yuuza ab [[$1|profeshanal]] nalij a [[$2|$3]].',
-	'babel-N' => 'Di yuuza ab a [[$1|nietib]] andastanin a [[$2|$3]].',
-	'babel-0-n' => 'Dis yuuza ab [[$1|no]] nalij a [[$2|Ingglish]] (ar andastani wid kansidarobl difikolti).',
-	'babel-1-n' => 'Di yuuza ab [[$1|biesik]] nalij a [[$2|Ingglish]].',
-	'babel-2-n' => 'Di yuuza ab [[$1|intamidiet]] nalij a [[$2|Ingglish]].',
-	'babel-3-n' => 'Di yuuza ab [[$1|advans]] nalij a [[$2|Ingglish]].',
-	'babel-4-n' => 'Di yuuza ab [[$1|nier nietib]] nalij a [[$2|Ingglish]].',
-	'babel-5-n' => 'Di yuuza ab [[$1|profeshanal]] nalij a [[$2|Ingglish]].',
-	'babel-N-n' => 'Di yuuza ab a [[$1|nietib]] andastanin a [[$2|Ingglish]].',
-);
-
 /** Kabuverdianu (Kabuverdianu)
  * @author Waldir
  */
@@ -195,82 +168,12 @@ $messages['ary'] = array(
 	'babel-N-n' => "Had l-mosṫeĥdim kayfhem l-loġa [[$2|l-Meġribiya]] bḫal [[$1|loġto l-'om]].",
 );
 
-/** Bráhuí (Bráhuí)
- * @author Imdadb
- */
-$messages['brh'] = array(
-	'babel' => 'Babel kárband cáindárí',
-	'babel-0' => 'Dá kárband e [[$2|$3]] [[$1|asul bafak]] (yá kalaí seaŧ poh marek ta).',
-	'babel-1' => 'Dá kárband e [[$2|$3]] ná [[$1|bunyádí]] cáindárí are.',
-	'babel-N' => '[[$2|$3]] dá kárband ná [[$1|lummaí bolí]] e.',
-	'babel-0-n' => 'Dá kárband e [[$2|Bráhuí]] [[$1|asul bafak]] (yá kalaí seaŧ poh marek ta).',
-	'babel-1-n' => 'Dá kárband e [[$2|Bráhuí]] ná [[$1|bunyádí]] cáindárí are.',
-	'babel-N-n' => '[[$2|Bráhuí]] dá kárband ná [[$1|lummaí bolí]] e.',
-);
-
-/** Angika (अंगिका)
- * @author Angpradesh
- */
-$messages['anp'] = array(
-	'babel' => 'बाबेल सदस्य ज़ानकारी',
-	'babel-desc' => 'एगॊ सदस्य के बाबेल सदस्य-बक्सा अपने आप दै लेली उपयुक्त ऐसनॊ <code>#babel</code> पार्सर क्रिया बढाबै छै. जेकरा मॆ खुद बनैलॊ सदस्यबक्सा भी देलॊ जाबॆ सकॆ छै.',
-	'babel-url' => 'Project:बाबेल',
-	'babel-footer-url' => ':Category:बाबेल - भाषावार सदस्य',
-	'babel-autocreate-abort' => 'आपनॆ द्वारा इंगित सदस्यनाम [[$1|Babel]] श्रेणी स्व-निर्माण  लेली उपयोग मॆ छै आरू निबंधित नै करलॊ जाबॆ सकॆ छै.',
-	'babel-autocreate-reason' => 'स्वत: निर्मित [[$1|Babel]] श्रेणी पन्ना.',
-	'babel-autocreate-text-levels' => 'इ श्रेणी केरॊ सदस्य दर्शाबै छै कि हुनकॊ निपुणता स्तर $1 छै $2 लेली.',
-	'babel-autocreate-text-main' => 'इ श्रेणी केरॊ सदस्य दर्शाबै छै कि हुनका $1 भाषा के ज्ञान छै.',
-	'babel-0' => 'इ सदस्य कॆ [[$1|नं.]] $1 ज्ञान छै [[$2|$3]] केरॊ (या एकरा बहुत कठिनाई सॆं समझै छै).',
-	'babel-1' => 'इस सदस्य कॆ [[$2|$3]] केरॊ [[$1|प्राथमिक]] ज्ञान छै.',
-	'babel-2' => 'इस सदस्य कॆ [[$2|$3]] केरॊ [[$1|मध्यम स्तर]] के ज्ञान छै.',
-	'babel-3' => 'इस सदस्य कॆ [[$2|$3]] के [[$1|उच्च स्तर]] के ज्ञान छै.',
-	'babel-4' => 'इस सदस्य कॆ [[$2|$3]] के [[$1|अति-उच्च स्तर]] के ज्ञान छै.',
-	'babel-5' => 'इस सदस्य कॆ [[$2|$3]] के [[$1|व्यावसायिक स्तर]] के ज्ञान छै.',
-	'babel-N' => 'इ सदस्य कॆ [[$2|$3]] के [[$1|स्थानिक स्तर]] के ज्ञान छै.',
-	'babel-0-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के ज्ञान [[$1|नै]] छै (या समझै लेली बहुत प्रयास करै लॆ पड़ै छै.)',
-	'babel-1-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के [[$1|प्राथमिक]] ज्ञान छै.',
-	'babel-2-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के [[$1|मध्यम स्तर]] के ज्ञान छै.',
-	'babel-3-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के [[$1|उच्च स्तर]] के ज्ञान छै.',
-	'babel-4-n' => 'इस सदस्य कॆ [[$2|अगिका]] के [[$1|अति-उच्च स्तर]] के ज्ञान छै.',
-	'babel-5-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के [[$1|व्यावसायिक स्तर]] के ज्ञान छै.',
-	'babel-N-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के [[$1|स्थानिक स्तर]] के ज्ञान छै.',
-);
-
 /** Dari (Dari)
  * @author Mjbmr
  */
 $messages['gbz'] = array(
 	'babel-1' => 'Mā ror-ber-e [[$2|$3]] rā [[$1|yānog-e]] pāmā.',
 	'babel-1-n' => 'Mā ror-ber-e [[$2|Dari-e Mazdeyasnā]] rā [[$1|yānog-e]] pāmā.',
-);
-
-/** Dusun Bundu-liwan (Dusun Bundu-liwan)
- * @author FRANCIS5091
- * @author FRANELYA
- */
-$messages['dtp'] = array(
-	'babel' => 'Kointalangan momoguna Babaol',
-	'babel-desc' => 'Poruhango <code>#babel</code> parsaor gugunoon popomilo tutumanud mimpopori bogian kutak momomoguno babaol miampai komilaan poposuang kouroson pongitanan.',
-	'babel-url' => 'Project:Babaol',
-	'babel-footer-url' => ':Katogori:Babil - Momomoguno maya woyoboros',
-	'babel-autocreate-abort' => 'Momomoguno di pinilinu minomoguno do katogori mimpopori-monsoi[[$1|Babil]] om awu milo porijistoron.',
-	'babel-autocreate-reason' => 'Mimpopori momonsoi katogori bolikon [[$1|Babil]].',
-	'babel-autocreate-text-levels' => 'Momomoguno id katogori tinandaan do kitingkat toilaan $1 montok woyoboros $2.',
-	'babel-autocreate-text-main' => 'Momomoguno id katogori tinandaan do kitingkat toilaan do woyoboros $1.',
-	'babel-0' => 'Momomoguno diti [[$1|ingaa]] toilaan kokomoi [[$2|$3]] (toi karati dilo do tokuti no toomod).',
-	'babel-1' => 'Momomoguno diti [[$1|karati do tokuri]] diti woyoboros [[$2|$3]].',
-	'babel-2' => 'Momomoguno diti [[$1|karati tomod]] diti woyoboros [[$2|$3]].',
-	'babel-3' => 'Momomoguno diti [[$1|ogumu toilaan]] diti woyoboros [[$2|$3]].',
-	'babel-4' => 'Momomoguno diti [[$1|osomok kaagal di monunutur mamasok]] diti woyoboros [[$2|$3]].',
-	'babel-5' => 'Momomoguno diti [[$1|akawas toilaan]] diti woyoboros [[$2|$3]].',
-	'babel-N' => 'Momomoguno diti [[$1|mamasok]] om monunutur [[$2|$3]].',
-	'babel-0-n' => 'Momomoguno diti [[$1|ingaa]] toila-ilaan kokomoi [[$2|Dusun]] (toi osusa do mangarati dilo).',
-	'babel-1-n' => 'Momomoguno diti [[$1|karati do tokuri]] diti woyoboros [[$2|Dusun]].',
-	'babel-2-n' => 'Momomoguno diti [[$1|karati tomod]] diti woyoboros [[$2|Dusun]].',
-	'babel-3-n' => 'Momomoguno diti [[$1|ogumu toilaan]] diti woyoboros [[$2|Dusun]].',
-	'babel-4-n' => 'Momomoguno diti [[$1|osomok kaagal di monunutur mamasok]] diti woyoboros [[$2|Dusun]].',
-	'babel-5-n' => 'Momomoguno diti [[$1|akawas toilaan]] diti woyoboros [[$2|Dusun]].',
-	'babel-N-n' => 'Momomoguno diti [[$1|mamasok]] om monunutur [[$2|Dusun]].',
 );
 
 /** Achinese (Acèh)
@@ -378,6 +281,34 @@ $messages['ang'] = array(
 	'babel-1-n' => 'Þes brūcere cann forðian mid [[$1|grundlicgendre]] mǣðe [[$2|Englisces]].',
 	'babel-2-n' => 'Þes brūcere cann forðian mid [[$1|middelre]] mǣðe [[$2|Englisces]].',
 	'babel-3-n' => 'Þes brūcere cann forðian mid [[$1|forþweardre]] mǣðe [[$2|Englisces]].',
+);
+
+/** Angika (अंगिका)
+ * @author Angpradesh
+ */
+$messages['anp'] = array(
+	'babel' => 'बाबेल सदस्य ज़ानकारी',
+	'babel-desc' => 'एगॊ सदस्य के बाबेल सदस्य-बक्सा अपने आप दै लेली उपयुक्त ऐसनॊ <code>#babel</code> पार्सर क्रिया बढाबै छै. जेकरा मॆ खुद बनैलॊ सदस्यबक्सा भी देलॊ जाबॆ सकॆ छै.',
+	'babel-url' => 'Project:बाबेल',
+	'babel-footer-url' => ':Category:बाबेल - भाषावार सदस्य',
+	'babel-autocreate-abort' => 'आपनॆ द्वारा इंगित सदस्यनाम [[$1|Babel]] श्रेणी स्व-निर्माण  लेली उपयोग मॆ छै आरू निबंधित नै करलॊ जाबॆ सकॆ छै.',
+	'babel-autocreate-reason' => 'स्वत: निर्मित [[$1|Babel]] श्रेणी पन्ना.',
+	'babel-autocreate-text-levels' => 'इ श्रेणी केरॊ सदस्य दर्शाबै छै कि हुनकॊ निपुणता स्तर $1 छै $2 लेली.',
+	'babel-autocreate-text-main' => 'इ श्रेणी केरॊ सदस्य दर्शाबै छै कि हुनका $1 भाषा के ज्ञान छै.',
+	'babel-0' => 'इ सदस्य कॆ [[$1|नं.]] $1 ज्ञान छै [[$2|$3]] केरॊ (या एकरा बहुत कठिनाई सॆं समझै छै).',
+	'babel-1' => 'इस सदस्य कॆ [[$2|$3]] केरॊ [[$1|प्राथमिक]] ज्ञान छै.',
+	'babel-2' => 'इस सदस्य कॆ [[$2|$3]] केरॊ [[$1|मध्यम स्तर]] के ज्ञान छै.',
+	'babel-3' => 'इस सदस्य कॆ [[$2|$3]] के [[$1|उच्च स्तर]] के ज्ञान छै.',
+	'babel-4' => 'इस सदस्य कॆ [[$2|$3]] के [[$1|अति-उच्च स्तर]] के ज्ञान छै.',
+	'babel-5' => 'इस सदस्य कॆ [[$2|$3]] के [[$1|व्यावसायिक स्तर]] के ज्ञान छै.',
+	'babel-N' => 'इ सदस्य कॆ [[$2|$3]] के [[$1|स्थानिक स्तर]] के ज्ञान छै.',
+	'babel-0-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के ज्ञान [[$1|नै]] छै (या समझै लेली बहुत प्रयास करै लॆ पड़ै छै.)',
+	'babel-1-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के [[$1|प्राथमिक]] ज्ञान छै.',
+	'babel-2-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के [[$1|मध्यम स्तर]] के ज्ञान छै.',
+	'babel-3-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के [[$1|उच्च स्तर]] के ज्ञान छै.',
+	'babel-4-n' => 'इस सदस्य कॆ [[$2|अगिका]] के [[$1|अति-उच्च स्तर]] के ज्ञान छै.',
+	'babel-5-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के [[$1|व्यावसायिक स्तर]] के ज्ञान छै.',
+	'babel-N-n' => 'इ सदस्य कॆ [[$2|अंगिका]] के [[$1|स्थानिक स्तर]] के ज्ञान छै.',
 );
 
 /** Arabic (العربية)
@@ -521,11 +452,17 @@ $messages['as'] = array(
 
 /** Asturian (Asturianu)
  * @author Esbardu
+ * @author Xuacu
  */
 $messages['ast'] = array(
 	'babel' => "Información babel d'usuariu",
 	'babel-desc' => "Añade la función d'análisis sintáuticu <code>#babel</code> pa permitir la xeneración automática d'una columna userbox babel cola capacidá d'incluyir plantíes al gustu d'ún",
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Usuarios por llingua',
+	'babel-autocreate-abort' => "L'usuariu que conseñasti s'usa pa la creación automática de la categoría [[$1|Babel]] y nun se pue rexistrar.",
+	'babel-autocreate-reason' => 'Creando automáticamente la páxina de la categoría [[$1|Babel]].',
+	'babel-autocreate-text-levels' => "Los usuarios d'esta categoría indiquen que tienen un nivel de conocimientu $1 de la llingua $2.",
+	'babel-autocreate-text-main' => "Los usuarios d'esta categoría indiquen que tienen conocimientos de la llingua $1.",
 	'babel-0' => 'Esti usuariu [[$1|nun]] tien conocimientos de [[$2|$3]] (o entiéndelo con gran dificultá).',
 	'babel-1' => 'Esti usuariu tien un conocimientu [[$1|básicu]] de [[$2|$3]].',
 	'babel-2' => 'Esti usuariu tien un conocimientu [[$1|intermediu]] de [[$2|$3]].',
@@ -872,6 +809,19 @@ $messages['br'] = array(
 	'babel-4-n' => '[[$2|Brezhoneg]] a oar an implijer-mañ [[$1|evel pa vefe bet desket gantañ war barlenn e vamm]].',
 	'babel-5-n' => 'Ul live [[$2|Brezhoneg]] [[$1|a-vicher]] zo gant an implijer-mañ.',
 	'babel-N-n' => '[[$1|A-vihanik]] e oar [[$2|brezhoneg]] an implijer-mañ.',
+);
+
+/** Bráhuí (Bráhuí)
+ * @author Imdadb
+ */
+$messages['brh'] = array(
+	'babel' => 'Babel kárband cáindárí',
+	'babel-0' => 'Dá kárband e [[$2|$3]] [[$1|asul bafak]] (yá kalaí seaŧ poh marek ta).',
+	'babel-1' => 'Dá kárband e [[$2|$3]] ná [[$1|bunyádí]] cáindárí are.',
+	'babel-N' => '[[$2|$3]] dá kárband ná [[$1|lummaí bolí]] e.',
+	'babel-0-n' => 'Dá kárband e [[$2|Bráhuí]] [[$1|asul bafak]] (yá kalaí seaŧ poh marek ta).',
+	'babel-1-n' => 'Dá kárband e [[$2|Bráhuí]] ná [[$1|bunyádí]] cáindárí are.',
+	'babel-N-n' => '[[$2|Bráhuí]] dá kárband ná [[$1|lummaí bolí]] e.',
 );
 
 /** Bosnian (Bosanski)
@@ -1230,6 +1180,35 @@ $messages['dsb'] = array(
 	'babel-4-n' => 'Toś ten wužywaŕ powěda [[$2|dolnoserbšćinu]] kaž [[$1|maminorěcny]].',
 	'babel-5-n' => 'Toś ten wužywaŕ ma [[$1|profesionelne]] znajobnosći [[$2|dolnoserbšćiny]].',
 	'babel-N-n' => 'Toś ten wužywaŕ powěda [[$2|dolnoserbšćinu]] ako [[$1|maminu rěc]].',
+);
+
+/** Dusun Bundu-liwan (Dusun Bundu-liwan)
+ * @author FRANCIS5091
+ * @author FRANELYA
+ */
+$messages['dtp'] = array(
+	'babel' => 'Kointalangan momoguna Babaol',
+	'babel-desc' => 'Poruhango <code>#babel</code> parsaor gugunoon popomilo tutumanud mimpopori bogian kutak momomoguno babaol miampai komilaan poposuang kouroson pongitanan.',
+	'babel-url' => 'Project:Babaol',
+	'babel-footer-url' => ':Katogori:Babil - Momomoguno maya woyoboros',
+	'babel-autocreate-abort' => 'Momomoguno di pinilinu minomoguno do katogori mimpopori-monsoi[[$1|Babil]] om awu milo porijistoron.',
+	'babel-autocreate-reason' => 'Mimpopori momonsoi katogori bolikon [[$1|Babil]].',
+	'babel-autocreate-text-levels' => 'Momomoguno id katogori tinandaan do kitingkat toilaan $1 montok woyoboros $2.',
+	'babel-autocreate-text-main' => 'Momomoguno id katogori tinandaan do kitingkat toilaan do woyoboros $1.',
+	'babel-0' => 'Momomoguno diti [[$1|ingaa]] toilaan kokomoi [[$2|$3]] (toi karati dilo do tokuti no toomod).',
+	'babel-1' => 'Momomoguno diti [[$1|karati do tokuri]] diti woyoboros [[$2|$3]].',
+	'babel-2' => 'Momomoguno diti [[$1|karati tomod]] diti woyoboros [[$2|$3]].',
+	'babel-3' => 'Momomoguno diti [[$1|ogumu toilaan]] diti woyoboros [[$2|$3]].',
+	'babel-4' => 'Momomoguno diti [[$1|osomok kaagal di monunutur mamasok]] diti woyoboros [[$2|$3]].',
+	'babel-5' => 'Momomoguno diti [[$1|akawas toilaan]] diti woyoboros [[$2|$3]].',
+	'babel-N' => 'Momomoguno diti [[$1|mamasok]] om monunutur [[$2|$3]].',
+	'babel-0-n' => 'Momomoguno diti [[$1|ingaa]] toila-ilaan kokomoi [[$2|Dusun]] (toi osusa do mangarati dilo).',
+	'babel-1-n' => 'Momomoguno diti [[$1|karati do tokuri]] diti woyoboros [[$2|Dusun]].',
+	'babel-2-n' => 'Momomoguno diti [[$1|karati tomod]] diti woyoboros [[$2|Dusun]].',
+	'babel-3-n' => 'Momomoguno diti [[$1|ogumu toilaan]] diti woyoboros [[$2|Dusun]].',
+	'babel-4-n' => 'Momomoguno diti [[$1|osomok kaagal di monunutur mamasok]] diti woyoboros [[$2|Dusun]].',
+	'babel-5-n' => 'Momomoguno diti [[$1|akawas toilaan]] diti woyoboros [[$2|Dusun]].',
+	'babel-N-n' => 'Momomoguno diti [[$1|mamasok]] om monunutur [[$2|Dusun]].',
 );
 
 /** Divehi (ދިވެހިބަސް)
@@ -2272,6 +2251,33 @@ $messages['ja'] = array(
 	'babel-4-n' => 'この利用者は[[$1|母語話者に近い]][[$2|日本語]]の知識を有しています。',
 	'babel-5-n' => 'この利用者は[[$1|専門的な]][[$2|日本語]]の知識を有しています。',
 	'babel-N-n' => 'この利用者は[[$2|日本語]]を[[$1|母語]]としています。',
+);
+
+/** Jamaican Creole English (Jamaican Creole English)
+ * @author Yocahuna
+ */
+$messages['jam'] = array(
+	'babel' => 'Biebl yuuza infamieshan',
+	'babel-desc' => 'Ad di <code>#babel</code> paaza fongshan fi lou aatamietid jinarieshan a biebl yuuzabax kalom wid di abiliti fi inkluud kostom templit',
+	'babel-url' => 'Project:Biebl',
+	'babel-autocreate-abort' => 'Di yuuzaniem yu spesifai yuuz fi [[$1|Babel]] kiatigari aato-krieshan ahn kyaahn regista.',
+	'babel-autocreate-reason' => 'Aatamatikali a kriet [[$1|Babel]] kiatigari piej.',
+	'babel-autocreate-text-levels' => 'Yuuza ina dis kiatigeri indikiet se dehn ab skil lebl $1 fi langwij $2.',
+	'babel-autocreate-text-main' => 'Yuuza ina dis kiatigeri indikiet se dehn ab nalij a langwij $1.',
+	'babel-0' => 'Dis yuuza ab [[$1|no]] nalij a [[$2|$3]] (ar andastani wid kansidarobl difikolti).',
+	'babel-1' => 'Di yuuza ab [[$1|biesik]] nalij a [[$2|$3]].',
+	'babel-2' => 'Di yuuza ab [[$1|intamidiet]] nalij a [[$2|$3]].',
+	'babel-3' => 'Di yuuza ab [[$1|advans]] nalij a [[$2|$3]].',
+	'babel-4' => 'Di yuuza ab [[$1|nier nietib]] nalij a [[$2|$3]].',
+	'babel-5' => 'Di yuuza ab [[$1|profeshanal]] nalij a [[$2|$3]].',
+	'babel-N' => 'Di yuuza ab a [[$1|nietib]] andastanin a [[$2|$3]].',
+	'babel-0-n' => 'Dis yuuza ab [[$1|no]] nalij a [[$2|Ingglish]] (ar andastani wid kansidarobl difikolti).',
+	'babel-1-n' => 'Di yuuza ab [[$1|biesik]] nalij a [[$2|Ingglish]].',
+	'babel-2-n' => 'Di yuuza ab [[$1|intamidiet]] nalij a [[$2|Ingglish]].',
+	'babel-3-n' => 'Di yuuza ab [[$1|advans]] nalij a [[$2|Ingglish]].',
+	'babel-4-n' => 'Di yuuza ab [[$1|nier nietib]] nalij a [[$2|Ingglish]].',
+	'babel-5-n' => 'Di yuuza ab [[$1|profeshanal]] nalij a [[$2|Ingglish]].',
+	'babel-N-n' => 'Di yuuza ab a [[$1|nietib]] andastanin a [[$2|Ingglish]].',
 );
 
 /** Lojban (Lojban)
