@@ -537,8 +537,10 @@ $messages['ay'] = array(
  * @author PPerviz
  * @author Purodha
  * @author Vito Genovese
+ * @author Vugar 1981
  */
 $messages['az'] = array(
+	'babel' => 'Babil istifadəçi məlumatları',
 	'babel-url' => 'Project:Babil',
 	'babel-1' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|zəif]] bilir.',
 	'babel-2' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|orta səviyyədə]] bilir.',
@@ -2118,6 +2120,7 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Bennylin
+ * @author IvanLanin
  * @author Meursault2004
  * @author Rex
  */
@@ -2125,6 +2128,7 @@ $messages['id'] = array(
 	'babel' => 'Informasi pengguna Babel',
 	'babel-desc' => 'Menambahkan fungsi parser <code>#babel</code> untuk menampilkan kolom kotak pengguna babel secara otomatis dengan kemampuan menggunakan templat yang dikustomisasi',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Kategori:Babel - Pengguna menurut bahasa',
 	'babel-autocreate-abort' => 'Nama pengguna yang Anda masukkan digunakan untuk pembuatan otomatis kategori [[$1|Babel]] dan tidak dapat didaftarkan.',
 	'babel-autocreate-reason' => 'Otomatis membuat halaman kategori [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Pengguna di kategori ini menandakan mereka memiliki kemampuan $1 untuk bahasa $2.',
