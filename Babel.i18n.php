@@ -1259,6 +1259,7 @@ $messages['eo'] = array(
 	'babel' => 'Babela Informo pri Uzanto',
 	'babel-desc' => 'Aldonas la <code>#babel</code> sintaksanalizilan funkcion por aŭtomate generi kolumnon de babel-uzantoskatolo kun la ebleco inkluzivi sxablonojn de uzanto.',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babelo - Uzantoj laŭ lingvoj',
 	'babel-autocreate-abort' => 'La salutnomo, kiun vi specifis, estas uzata por [[$1|Babel]]-kategoria aŭtomata kreado, kaj ne povas esti registrita.',
 	'babel-autocreate-reason' => 'Aŭtomate kreante kategorio-paĝo por [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Uzantoj en ĉi tiu kategorio indikas ke ili havas spertnivelo $1 por $2.',
