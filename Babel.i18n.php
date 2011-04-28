@@ -542,6 +542,7 @@ $messages['ay'] = array(
 $messages['az'] = array(
 	'babel' => 'Babil istifadəçi məlumatları',
 	'babel-url' => 'Project:Babil',
+	'babel-footer-url' => ':Kateqoriya:Babil - Dillərinə görə istifadəçilər',
 	'babel-0' => 'Bu istifadəçi [[$1|heç]] [[$2|$3]] bilmir (ya da çətin anlayır).',
 	'babel-1' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|zəif]] bilir.',
 	'babel-2' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|orta səviyyədə]] bilir.',
