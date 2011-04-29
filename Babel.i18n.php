@@ -536,6 +536,7 @@ $messages['ay'] = array(
 /** Azerbaijani (Azərbaycanca)
  * @author PPerviz
  * @author Purodha
+ * @author Vago
  * @author Vito Genovese
  * @author Vugar 1981
  */
@@ -543,11 +544,20 @@ $messages['az'] = array(
 	'babel' => 'Babil istifadəçi məlumatları',
 	'babel-url' => 'Project:Babil',
 	'babel-footer-url' => ':Kateqoriya:Babil - Dillərinə görə istifadəçilər',
+	'babel-directionality' => 'ltr',
 	'babel-0' => 'Bu istifadəçi [[$1|heç]] [[$2|$3]] bilmir (ya da çətin anlayır).',
 	'babel-1' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|zəif]] bilir.',
 	'babel-2' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|orta səviyyədə]] bilir.',
 	'babel-3' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|yaxşı]] bilir.',
 	'babel-4' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|ana dili kimi]] bilir.',
+	'babel-5' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|ana dili kimi]] bilir.',
+	'babel-N' => '[[$2|$3]] dili bu istifadəçinin [[$1|ana dilidir]].',
+	'babel-0-n' => 'Bu istifadəçi [[$2|ingilis dilini]] [[$1|heç]] bilmir (ya da çətin anlayır).',
+	'babel-1-n' => 'Bu istifadəçi [[$2|İngilis dilini]] [[$1|zəif]] bilir.',
+	'babel-2-n' => 'Bu istifadəçi [[$2|ingilis dilini]] [[$1|orta səviyyədə]] bilir.',
+	'babel-3-n' => 'Bu istifadəçi [[$2|ingilis dilini]] [[$1|yaxşı]] bilir.',
+	'babel-4-n' => 'Bu istifadəçi [[$2|ingilis dilini]] [[$1|əla]] bilir.',
+	'babel-5-n' => 'Bu istifadəçi [[$2|ingilis dilini]] [[$1|ana dili kimi]] bilir.',
 	'babel-N-n' => '[[$2|Azərbaycan dili]] bu istifadəçinin [[$1|ana dilidir]].',
 );
 
@@ -1493,6 +1503,7 @@ $messages['frp'] = array(
 	'babel' => 'Enformacions Babél sur l’utilisator',
 	'babel-desc' => 'Apond la fonccion du parsor <code>#babel</code> que pèrmèt la crèacion ôtomatica d’una bouèta utilisator Babél avouéc la possibilitât d’y encllure des modèlos locals.',
 	'babel-url' => 'Project:Babél',
+	'babel-footer-url' => ':Category:Babél - Utilisators per lengoua',
 	'babel-autocreate-abort' => 'Lo nom d’utilisator que vos éd buchiê est utilisâ por fâre ôtomaticament les catègories [[$1|Babél]] et pôt pas étre encartâ.',
 	'babel-autocreate-reason' => 'Crèacion ôtomatica de la catègorie [[$1|Babél]].',
 	'babel-autocreate-text-levels' => 'Los utilisators dens ceta catègorie ont endicâ qu’ont lo nivél $1 por la lengoua $2.',
@@ -2843,12 +2854,14 @@ $messages['ltg'] = array(
 
 /** Latvian (Latviešu)
  * @author Dark Eagle
+ * @author Papuass
  * @author Yyy
  */
 $messages['lv'] = array(
 	'babel' => 'Lietotāja informācija (Bābeles tornis)',
 	'babel-desc' => 'Pievieno parsera funkciju <code>#babel</code>, automātiskai kolonnu ar valodu informāciju veidošanai, ka arī ar citu veidņu ievietošanas iespēju',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Lietotāju valodas',
 	'babel-autocreate-abort' => 'Tevis norādītais lietotājvārds tiek lietots [[$1|Babel]] kategoriju automātiskai izveidošanai, tāpēc to nevar piereģistrēt.',
 	'babel-autocreate-reason' => 'Automātiski izveido [[$1|Babel]] kategorijas lapu.',
 	'babel-autocreate-text-levels' => 'Lietotāji šajā kategorijā ir norādījuši, ka tie pārzina $2 valodu $1 līmenī.',
