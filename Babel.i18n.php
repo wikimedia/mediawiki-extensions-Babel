@@ -3137,6 +3137,7 @@ $messages['ms'] = array(
 $messages['mt'] = array(
 	'babel' => 'Informazzjoni tal-utent Babel',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Utenti skont il-lingwa',
 	'babel-autocreate-abort' => "L-isem tal-utent li speċifikajt hu wżat għall-ħolqien awtomatiku ta' kategoriji [[$1|Babel]] u ma jistsax jiġi reġistrat.",
 	'babel-autocreate-reason' => 'Ħolqien awtomatiku tal-paġna tal-kategorija [[$1|Babel]].',
 	'babel-autocreate-text-levels' => "Utenti f'din il-kategorija jindikaw li għandhom livell ta' għarfien $1 għal-lingwa $2.",
@@ -4842,11 +4843,13 @@ $messages['udm'] = array(
  * @author A1
  * @author AS
  * @author Ahonc
+ * @author Тест
  */
 $messages['uk'] = array(
 	'babel' => 'Відомості про мови учасника (Вавилон)',
 	'babel-desc' => 'Додає функцію парсера <code>#babel</code>, яка дозволяє автоматично створювати стовпець про володіння мовами з можливістю включення інших шаблонів',
 	'babel-url' => 'Project:Вавилон',
+	'babel-footer-url' => ':Category:Вавилон - користувачі за мовами',
 	'babel-autocreate-abort' => "Зазначене ім'я учасника використовується для автоматичного створення категорій [[$1|Вавилон]] і не може бути зареєстровано.",
 	'babel-autocreate-reason' => 'Автоматичне створення сторінки категорії [[$1|Вавилон]].',
 	'babel-autocreate-text-levels' => 'Учасники із цієї категорії вказали рівень знань $1 для мови $2.',
