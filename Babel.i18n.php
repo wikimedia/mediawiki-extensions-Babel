@@ -552,12 +552,12 @@ $messages['az'] = array(
 	'babel-4' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|ana dili kimi]] bilir.',
 	'babel-5' => 'Bu istifadəçi [[$2|$3]] dilini [[$1|ana dili kimi]] bilir.',
 	'babel-N' => '[[$2|$3]] dili bu istifadəçinin [[$1|ana dilidir]].',
-	'babel-0-n' => 'Bu istifadəçi [[$2|ingilis dilini]] [[$1|heç]] bilmir (ya da çətin anlayır).',
-	'babel-1-n' => 'Bu istifadəçi [[$2|İngilis dilini]] [[$1|zəif]] bilir.',
-	'babel-2-n' => 'Bu istifadəçi [[$2|ingilis dilini]] [[$1|orta səviyyədə]] bilir.',
-	'babel-3-n' => 'Bu istifadəçi [[$2|ingilis dilini]] [[$1|yaxşı]] bilir.',
-	'babel-4-n' => 'Bu istifadəçi [[$2|ingilis dilini]] [[$1|əla]] bilir.',
-	'babel-5-n' => 'Bu istifadəçi [[$2|ingilis dilini]] [[$1|ana dili kimi]] bilir.',
+	'babel-0-n' => 'Bu istifadəçi [[$2|Azərbaycan dilini]] [[$1|heç]] bilmir (ya da çətin anlayır).',
+	'babel-1-n' => 'Bu istifadəçi [[$2|Azərbaycan dilini]] [[$1|zəif]] bilir.',
+	'babel-2-n' => 'Bu istifadəçi [[$2|Azərbaycan dilini]] [[$1|orta səviyyədə]] bilir.',
+	'babel-3-n' => 'Bu istifadəçi [[$2|Azərbaycan dilini]] [[$1|yaxşı]] bilir.',
+	'babel-4-n' => 'Bu istifadəçi [[$2|Azərbaycan dilini]] [[$1|ana dili]] kimi bilir.',
+	'babel-5-n' => 'Bu istifadəçi [[$2|Azərbaycan dilini]] [[$1|peşəkar səviyyədə]] bilir.',
 	'babel-N-n' => '[[$2|Azərbaycan dili]] bu istifadəçinin [[$1|ana dilidir]].',
 );
 
