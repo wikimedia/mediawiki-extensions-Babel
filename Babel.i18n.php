@@ -1045,19 +1045,19 @@ $messages['csb'] = array(
  * @author ОйЛ
  */
 $messages['cu'] = array(
-	'babel-url' => 'Project:Вавѷлѡ́нъ',
-	'babel-0' => 'Сь́ по́льꙃєватєл҄ь [[$1|нє]] раꙁоумѣ́ѥтъ [[$2|$3]] · и́ли раꙁоумѣ́ѥтъ съ вєли́кꙑ оуси́лии',
-	'babel-1' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|$3]] [[$1|зълѣ́]]',
-	'babel-2' => 'Сь́ по́льꙃєватєл҄ь глаго́лѥтъ [[$2|$3]] [[$1|трьпи́мо]]',
-	'babel-3' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|$3]] [[$1|до́брѣ]]',
-	'babel-4' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|$3]] [[$1|вєльми до́брѣ]]',
-	'babel-N' => 'Сѥмоу́ по́льꙃєватєл҄ю [[$2|$3]] ꙗ́ко [[$1|родьнъ]] ѥ́стъ',
-	'babel-0-n' => 'Сь́ по́льꙃєватєл҄ь [[$1|нє]] раꙁоумѣ́ѥтъ [[$2|словѣ́ньскꙑ]] · и́ли раꙁоумѣ́ѥтъ съ вєли́кꙑ оуси́лии',
-	'babel-1-n' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|словѣ́ньскꙑ]] [[$1|зълѣ́]]',
-	'babel-2-n' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|словѣ́ньскꙑ]] [[$1|трьпи́мо]]',
-	'babel-3-n' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|словѣ́ньскꙑ]] [[$1|до́брѣ]]',
-	'babel-4-n' => 'Сь по́льꙃєватєл҄ь глаго́лѥтъ [[$2|словѣ́ньскꙑ]] [[$1|вєльми до́брѣ]]',
-	'babel-N-n' => 'Сѥмоу́ по́льꙃєватєл҄ю [[$2|словѣ́ньскъ ѩꙁꙑ́къ]] ꙗ́ко [[$1|ро́дьнъ]] ѥ́стъ',
+	'babel-url' => 'Project:Вавѷлѡнъ',
+	'babel-0' => 'сь польꙃєватєл҄ь [[$1|нє]] раꙁоумѣѥтъ [[$2|$3]] · или раꙁоумѣѥтъ съ вєликꙑ оусилии',
+	'babel-1' => 'сь польꙃєватєл҄ь глаголѥтъ [[$2|$3]] [[$1|ꙁълѣ]]',
+	'babel-2' => 'сь польꙃєватєл҄ь глаголѥтъ [[$2|$3]] [[$1|трьпимо]]',
+	'babel-3' => 'сь польꙃєватєл҄ь глаголѥтъ [[$2|$3]] [[$1|добрѣ]]',
+	'babel-4' => 'сь польꙃєватєл҄ь глаголѥтъ [[$2|$3]] [[$1|вєльми добрѣ]]',
+	'babel-N' => 'сѥмоу польꙃєватєл҄ю [[$2|$3]] ꙗко [[$1|родьнъ]] ѥстъ',
+	'babel-0-n' => 'сь польꙃєватєл҄ь [[$1|нє]] раꙁоумѣѥтъ [[$2|словѣньскꙑ]] · или раꙁоумѣѥтъ съ вєликꙑ оусилии',
+	'babel-1-n' => 'сь по́льꙃєватєл҄ь глаголѥтъ [[$2|словѣньскꙑ]] [[$1|ꙁълѣ]]',
+	'babel-2-n' => 'сь польꙃєватєл҄ь глаголѥтъ [[$2|словѣньскꙑ]] [[$1|трьпимо]]',
+	'babel-3-n' => 'сь польꙃєватєл҄ь глаголѥтъ [[$2|словѣньскꙑ]] [[$1|добрѣ]]',
+	'babel-4-n' => 'сь польꙃєватєл҄ь глаголѥтъ [[$2|словѣньскꙑ]] [[$1|вєльми добрѣ]]',
+	'babel-N-n' => 'сѥмоу польꙃєватєл҄ю [[$2|словѣньскъ ѩꙁꙑкъ]] ꙗко [[$1|родьнъ]] ѥстъ',
 );
 
 /** Chuvash (Чӑвашла)
@@ -2211,6 +2211,7 @@ $messages['is'] = array(
 );
 
 /** Italian (Italiano)
+ * @author Beta16
  * @author Cruccone
  * @author Darth Kule
  * @author Melos
@@ -2219,6 +2220,7 @@ $messages['it'] = array(
 	'babel' => 'Babel utente',
 	'babel-desc' => 'Aggiunge la parser function <code>#babel</code> per permettere la generazione automatica di una colonna box utente babel con la possibilità di includere template personalizzati',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Utenti per lingua',
 	'babel-autocreate-abort' => 'Il nome utente specificato è usato per la creazione automatica di categorie [[$1|Babel]] e non può essere registrato.',
 	'babel-autocreate-reason' => 'Creo automaticamente la pagina della categoria [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Gli utenti in questa categoria indicano che hanno un livello di conoscenza $1 della lingua $2.',
@@ -3351,6 +3353,13 @@ $messages['nl'] = array(
 	'babel-4-n' => 'Deze gebruiker beheerst het [[$2|Nederlands]] als ware het zijn [[$1|moedertaal]].',
 	'babel-5-n' => 'Deze gebruiker heeft [[$1|professionele]] kennis van het [[$2|Nederlands]].',
 	'babel-N-n' => 'Deze gebruiker heeft het [[$2|Nederlands]] als [[$1|moedertaal]].',
+);
+
+/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'babel-autocreate-abort' => 'De gebruikersnaam die je hebt opgegeven wordt gebruikt voor het automatisch aanmaken van [[$1|Babel]]-categorieën en kan niet geregistreerd worden.',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
