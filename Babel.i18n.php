@@ -5347,12 +5347,14 @@ $messages['zh-hans'] = array(
  * @author Liangent
  * @author Mark85296341
  * @author Shinjiman
+ * @author Waihorace
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
 	'babel' => '巴別用戶資料',
 	'babel-desc' => '加一個<code>#babel</code>處理功能去容許自動產生一個巴別用戶框欄及包含可自定化的模版',
 	'babel-url' => 'Project:巴別',
+	'babel-footer-url' => ':Category:Babel - 用戶的語言',
 	'babel-autocreate-abort' => '您所指定的用戶名不能被註冊，因其被用作[[$1|巴別]]分類的自動建立。',
 	'babel-autocreate-reason' => '自動建立[[$1|巴別]]分類頁。',
 	'babel-autocreate-text-levels' => '在此分類中的用戶具有語言$2的$1能力。',
