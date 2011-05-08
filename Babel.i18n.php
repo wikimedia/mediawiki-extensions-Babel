@@ -2447,6 +2447,7 @@ $messages['ko'] = array(
 	'babel' => '사용자 언어 정보',
 	'babel-desc' => '일반 틀을 포함할 수 있는 바벨 유저박스 단을 생성할 수 있도록 <code>#babel</code> 파서 기능을 추가',
 	'babel-url' => 'Project:바벨',
+	'babel-footer-url' => ':분류:언어별 사용자',
 	'babel-autocreate-abort' => '당신이 입력한 계정 이름은 [[$1|바벨]] 분류 자동 생성을 위해 사용되고 있어서 등록할 수 없습니다.',
 	'babel-autocreate-reason' => '[[$1|사용자 언어]] 분류를 자동적으로 생성함',
 	'babel-autocreate-text-levels' => '이 분류 안에 있는 사용자는 $2를 $1단계 수준으로 구사할 수 있다는 것을 나타냅니다.',
