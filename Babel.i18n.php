@@ -3568,6 +3568,7 @@ $messages['pdc'] = array(
 	'babel' => 'Babel Yuuser Information',
 	'babel-desc' => 'Ennert die <code>#babel</code>-Parserfunktion fer zum automatische Aalege vun Babel-Yuuserbox-Columns damit eigene Vorlage dezu ze duh meeglich sinn',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Yuuser nooch Schprooche',
 	'babel-autocreate-abort' => 'De Yuuser-Name, wu Du gewaehlt hoscht, werd geyuust fer es automatisch Aalege vun [[$1|Babel]]-Kategorie unn kann net regischtriert werre.',
 	'babel-autocreate-reason' => 'Automatisch aagelegte [[$1|Babel]]-Kategorie.',
 	'babel-autocreate-text-levels' => 'Yuuser in derre Kategorie henn Kenntnis-Level $1 fer die Sprooch $2.',
@@ -3835,6 +3836,14 @@ $messages['pt-br'] = array(
  * @author AlimanRuna
  */
 $messages['qu'] = array(
+	'babel' => 'Ruraqmanta willay Babel',
+	'babel-desc' => "<code>#babel</code> k'uskina antachatam yapan ruraqpa babel t'asranpi wachu kikinmanta kamariyta saqillanapaq kikinchasqa plantillakunata ch'aqtana atichinapaqpas",
+	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Ruraqkuna rimayninkama',
+	'babel-autocreate-abort' => "Nisqayki ruraqpa sutinqa [[$1|Babel]] nisqapaq kikinmanta katiguriya kamarinapaq llamk'aptinmi manam kamariyta atinkichu.",
+	'babel-autocreate-reason' => "Kikinmanta kamarispa [[$1|Babel]] katiguriya p'anqata.",
+	'babel-autocreate-text-levels' => 'Kay katiguriyapi ruraqkunaqa $2 nisqatam $1 yachaywan rimanku nisqankama.',
+	'babel-autocreate-text-main' => 'Kay katiguriyapi ruraqkunaqa $1 nisqatam rimanku nisqankama.',
 	'babel-0' => "Kay ruraqqa [[$2|$3]]ta [[$1|manam]] rimanchu (icha ancha sasallata hap'iqan).",
 	'babel-1' => 'Kay ruraqqa [[$2|$3]]ta [[$1|aslla]] yachaywanmi riman.',
 	'babel-2' => 'Kay ruraqqa [[$2|$3]]ta [[$1|chawpi]] yachaywanmi riman.',
