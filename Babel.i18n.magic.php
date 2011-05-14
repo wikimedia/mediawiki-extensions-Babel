@@ -16,12 +16,12 @@ $magicWords['en'] = array(
 
 /** Arabic (العربية) */
 $magicWords['ar'] = array(
-	'babel' => array( 0, 'بابل', 'babel' ),
+	'babel' => array( 0, 'بابل' ),
 );
 
 /** Aramaic (ܐܪܡܝܐ) */
 $magicWords['arc'] = array(
-	'babel' => array( 0, 'ܒܒܠ', 'babel' ),
+	'babel' => array( 0, 'ܒܒܠ' ),
 );
 
 /** Egyptian Spoken Arabic (مصرى) */
@@ -49,9 +49,19 @@ $magicWords['ja'] = array(
 	'babel' => array( 0, 'バベル' ),
 );
 
+/** Georgian (ქართული) */
+$magicWords['ka'] = array(
+	'babel' => array( 0, 'ბაბილონი' ),
+);
+
 /** Korean (한국어) */
 $magicWords['ko'] = array(
 	'babel' => array( 0, '바벨' ),
+);
+
+/** Macedonian (Македонски) */
+$magicWords['mk'] = array(
+	'babel' => array( 0, 'вавилон' ),
 );
 
 /** Marathi (मराठी) */
@@ -66,7 +76,7 @@ $magicWords['ps'] = array(
 
 /** Russian (Русский) */
 $magicWords['ru'] = array(
-	'babel' => array( 0, 'вавилон', 'babel' ),
+	'babel' => array( 0, 'вавилон' ),
 );
 
 /** Sinhala (සිංහල) */
@@ -74,9 +84,14 @@ $magicWords['si'] = array(
 	'babel' => array( 0, 'බාබෙල්', 'babel' ),
 );
 
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬) */
+$magicWords['sr-ec'] = array(
+	'babel' => array( 0, 'бабел' ),
+);
+
 /** Turkish (Türkçe) */
 $magicWords['tr'] = array(
-	'babel' => array( 0, 'babil', 'babel' ),
+	'babel' => array( 0, 'babil' ),
 );
 
 /** Ukrainian (Українська) */
@@ -86,5 +101,5 @@ $magicWords['uk'] = array(
 
 /** Simplified Chinese (‪中文(简体)‬) */
 $magicWords['zh-hans'] = array(
-	'babel' => array( 0, '巴别', 'babel' ),
+	'babel' => array( 0, '巴别' ),
 );
