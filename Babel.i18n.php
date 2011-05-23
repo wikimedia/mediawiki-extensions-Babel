@@ -312,6 +312,7 @@ $messages['anp'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Ciphers
  * @author Meno25
  * @author OsamaK
  */
@@ -319,6 +320,7 @@ $messages['ar'] = array(
 	'babel' => 'معلومات بابل {{GENDER:$1|للمستخدم|للمستخدمة}}',
 	'babel-desc' => 'يضيف دالة المحلل <code>#babel</code> للسماح بالتوليد التلقائي لعامود صندوق بابل مع إمكانية تضمين قوالب أخرى',
 	'babel-url' => 'Project:بابل',
+	'babel-footer-url' => ': تصنيف:بابل - المستخدمون حسب اللغة',
 	'babel-autocreate-abort' => 'اسم المستخدم الذي حددته مستخدم للإنشاء التلقائي لتصنيفات [[$1|بابل]] ولا يمكن تسجيله.',
 	'babel-autocreate-reason' => 'إنشاء صفحة تصنيف [[$1|بابل]] تلقائيا.',
 	'babel-autocreate-text-levels' => 'المستخدمون في هذا التصنيف مستوى مهارتهم $1 للغة $2.',
@@ -3107,6 +3109,7 @@ $messages['mr'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Aviator
  * @author Kurniasan
  */
@@ -3114,6 +3117,7 @@ $messages['ms'] = array(
 	'babel' => 'Maklumat bahasa pengguna',
 	'babel-desc' => 'Menambah fungsi penghurai <code>#babel</code> untuk membolehkan penjanaan automatik kotak bahasa pengguna dan tempahan templat',
 	'babel-url' => 'Project:Bahasa',
+	'babel-footer-url' => ':Category:Babel - Pengguna mengikut bahasa',
 	'babel-autocreate-abort' => 'Nama pengguna yang anda nyatakan telah ditempah untuk penciptaan automatik kategori [[$1|Bahasa]] dan tidak boleh didaftarkan.',
 	'babel-autocreate-reason' => 'Mencipta laman kategori [[$1|Bahasa]] secara automatik.',
 	'babel-autocreate-text-levels' => 'Pengguna yang tergolong dalam kategori ini mengisyaratkan bahawa mereka memiliki kemahiran aras $1 dalam bahasa $2.',
