@@ -2607,6 +2607,7 @@ $messages['lad'] = array(
 	'babel' => 'Enformasyón de usador de Babel',
 	'babel-desc' => 'Ajustar la <code>#babel</code> fonksyón analitika para dar lecencia a la generancia otomatika de un columna de caxa de usador babel con la abilidad de tener xabblones propios',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Usadores por lîngua',
 	'babel-autocreate-abort' => 'El nombre de usador que escogites se usa para la oto-criación de katēggorías [[$1|Babel]] i no puede ser rejistrado.',
 	'babel-autocreate-reason' => 'Criando otomatika mente, la hoja de katēggorías [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Usadores en este katēggoría declaran que tienen un nivel de kapachidad $1 de la lingua $2.',
