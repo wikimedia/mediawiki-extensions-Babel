@@ -1109,12 +1109,14 @@ $messages['cy'] = array(
  * @author Byrial
  * @author Froztbyte
  * @author Jan Friberg
+ * @author Peter Alberti
  * @author Sarrus
  */
 $messages['da'] = array(
 	'babel' => 'Babelinformation',
 	'babel-desc' => 'Tilføjer parserfunktionen <code>#babel</code> for at tillade automatisk at generere at babelboks med mulighed for at inkludere tilpassede skabeloner',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Brugere efter sprog',
 	'babel-autocreate-abort' => 'Brugernavnet du har angivet benyttes til automatisk oprettelse af [[$1|Babel]]-kategorier og kan ikke registreres.',
 	'babel-autocreate-reason' => 'Opretter automatisk [[$1|Babel]] kategoriside.',
 	'babel-autocreate-text-levels' => 'Brugere i denne kategori angiver, at deres kendskab til $2 er på niveau $1',
