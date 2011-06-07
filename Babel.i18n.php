@@ -4324,11 +4324,17 @@ $messages['sli'] = array(
 /** Albanian (Shqip)
  * @author Dori
  * @author Eagleal
+ * @author Vinie007
  */
 $messages['sq'] = array(
 	'babel' => 'Informacioni Babel i Përdoruesit',
 	'babel-desc' => 'Shton mundësinë <code>#babel</code> për të lejuar krijimin automatik të kutive babel me mundësinë për të shtuar stampa vetjake.',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ': Category: Babel - Përdorues sipas gjuhës',
+	'babel-autocreate-abort' => 'Emrin që ju specifikuar është përdorur për [[$1|Babel]] auto kategori per krijimit dhe nuk mund të regjistruar.',
+	'babel-autocreate-reason' => 'automatikisht per krijimin e [[$1|Babel]] faqe kategori.',
+	'babel-autocreate-text-levels' => 'Përdoruesit në këtë kategori tregojnë se ata kanë aftësi të nivelit $1 për gjuhën e $2 .',
+	'babel-autocreate-text-main' => 'Përdoruesit në këtë kategori tregojnë se ata kanë njohuri të gjuhës $1 .',
 	'babel-0' => 'Ky përdorues [[$1|nuk ka]] njohuri të [[$2|$3]] (ose e kupton me shumë vështirësi).',
 	'babel-1' => 'Ky përdorues ka njohuri [[$1|të kufizuar]] të [[$2|$3]].',
 	'babel-2' => 'Ky përdorues ka njohuri [[$1|thelbësore]] të [[$2|$3]].',
