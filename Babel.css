@@ -10,10 +10,10 @@
  */
 
 /* Babel wrapper layout. */
-table.mw-babel-wrapper {
+/* @noflip */table.mw-babel-wrapper {
 	width:        238px;
-	float:        right;
-	clear:        right;
+	float:        right; /* change this to 'left' on RTL wikis */
+	clear:        right; /* change this to 'left' on RTL wikis */
 	margin:       1em;
 	background-color: white;
 	border-style: solid;
@@ -22,9 +22,9 @@ table.mw-babel-wrapper {
 }
 
 /* Babel box layout */
-div.mw-babel-box {
-	float:  left;
-	clear:  left;
+/* @noflip */div.mw-babel-box {
+	float:  left; /* change this to 'right' on RTL wikis */
+	clear:  left; /* change this to 'right' on RTL wikis */
 	margin: 1px;
 }
 
