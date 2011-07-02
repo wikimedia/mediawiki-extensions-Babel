@@ -56,6 +56,7 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Lloffiwr
+ * @author Od1n
  * @author Purodha
  * @author Raimond Spekking
  * @author Raymond
@@ -75,7 +76,7 @@ provided that the installation chooses to have a footer.
 The corresponding link anchor is the message [[MediaWiki:babel-footer/{{UILANGCODE}}|babel-footer]]<!-- why the hell the following does not work, is still a mystery to me!-->{{msg-mw|Babel-footer|notext=}}.
 
 For installations having a \'Babel users per language\' category tree, its root should be entered here.
-When translating, you can copy the category name from existing Babel systems in your language, but you can es well use a more generic name and leave it to individual installations, how to deal with it.
+When translating, you can copy the category name from existing Babel systems in your language, but you can as well use a more generic name and leave it to individual installations, how to deal with it.
 
 There is no need to alter the name space name <code lang="en">Category</code>.',
 	'babel-autocreate-text-main' => 'Text describing a category, at the top of the category page. 
