@@ -2169,6 +2169,34 @@ $messages['id'] = array(
 	'babel-N-n' => 'Pengguna ini adalah [[$1|penutur ibu]] [[$2|bahasa Indonesia]].',
 );
 
+/** Interlingue (Interlingue)
+ * @author Renan
+ */
+$messages['ie'] = array(
+	'babel' => 'Information Babel de usator',
+	'babel-desc' => 'Addir li function analisator <code>#babel</code> por permisser generation automatisat de un columne de buxe de usator babel che li capabilitá por includer avises customal',
+	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Usatores per lingue',
+	'babel-autocreate-abort' => 'Li nómine de usator que vu specificat es usat por categorie de auto-creation [[$1|Babel]] e ne posse esser registrat.',
+	'babel-autocreate-reason' => 'Automaticamen creant págine de categorie de [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'Usatores in ti categorie indica que ili have nivelle de habilitá $1 por lingue $2.',
+	'babel-autocreate-text-main' => 'Usatores in ti categorie indica que ili have conossentie de lingue $1.',
+	'babel-0' => 'Ti usator ha [[$1|nequant]] conossentie de [[$2|$3]] (o comprende it che considerabil desfacilitá).',
+	'babel-1' => 'Ti usator ha un conossentie [[$1|basic]] de [[$2|$3]].',
+	'babel-2' => 'Ti usator ha un conossentie [[$1|intermediari]] de [[$2|$3]].',
+	'babel-3' => 'Ti usator ha un conossentie [[$1|avansat]] de [[$2|$3]].',
+	'babel-4' => 'Ti usator ha un conossentie [[$1|proxim de un parlator indigen]] de [[$2|$3]].',
+	'babel-5' => 'Ti usator ha un conossentie [[$1|professional]] de [[$2|$3]].',
+	'babel-N' => 'Ti usator ha un comprension [[$1|indigen]] de [[$2|$3]].',
+	'babel-0-n' => 'Ti usator ha [[$1|nequant]] conossentie de [[$2|Interlingue]] (o comprende it che considerabil desfacilitá).',
+	'babel-1-n' => 'Ti usator ha un conossentie [[$1|basic]] de [[$2|Interlingue]].',
+	'babel-2-n' => 'Ti usator ha un conossentie [[$1|intermediari]] de [[$2|Interlingue]].',
+	'babel-3-n' => 'Ti usator ha un conossentie [[$1|avansat]] de [[$2|Interlingue]].',
+	'babel-4-n' => 'Ti usator ha un conossentie [[$1|proxim de un parlator indigen]] de [[$2|Interlingue]].',
+	'babel-5-n' => 'Ti usator ha un conossentie [[$1|professional]] de [[$2|Interlingue]].',
+	'babel-N-n' => 'Ti usator ha un comprension [[$1|indigen]] de [[$2|Interlingue]].',
+);
+
 /** Igbo (Igbo)
  * @author Ukabia
  */
