@@ -595,29 +595,31 @@ $messages['ba'] = array(
 
 /** Bavarian (Boarisch)
  * @author Man77
+ * @author Mucalexx
  */
 $messages['bar'] = array(
-	'babel' => 'Babel-Benutza-Infoamazion',
-	'babel-desc' => "Eagänzt de <code>#babel</code>-Parserfunkzion fia'd automatische Eastellung vu Babel-Benutzaboxen-Zeun mid da Meglichkeid, dass ma eigne Voalång einbindt",
+	'babel' => 'Babel-Benützer-Informazion',
+	'babel-desc' => "Ergänzt de <code>#babel</code>-Parserfunkzion fyr d' automaatische Erstöung voh Babel-Benutzerboxen-Zeun mid da Meeglichkeid, dass ma eigerne Vurlong eihbindt",
 	'babel-url' => 'Project:Babel',
-	'babel-autocreate-abort' => "Da ausgwöihte Benutzanãm wiad fia'd automatische Eastellung vu [[$1|Babel]]-Kategorien braucht. Desweng kã a ned registriad wean.",
-	'babel-autocreate-reason' => 'Automatisch eastöide [[$1|Babel]]-Kategorie.',
-	'babel-autocreate-text-levels' => 'Benutza in dea Kategorie hãm Kenntnisse in da Stufn $1 in da Språch $2.',
-	'babel-autocreate-text-main' => 'Benutza in dea Kategorie hãm Kenntnisse vu da Språch $1.',
-	'babel-0' => 'Dea Benutza kã koa [[$2|$3]] [[$1|ned]] (oda ea vastehd de Språch netta mid gscheide Schwiarichkeitn).',
-	'babel-1' => 'Dea Benutza kã [[$1|a bissl]] [[$2|$3]].',
-	'babel-2' => 'Dea Benutza kã [[$2|$3]] schãu [[$1|relativ guad]].',
-	'babel-3' => 'Dea Benutza kã [[$1|wiakli guad]] [[$2|$3]].',
-	'babel-4' => "Dea Benutza kã [[$2|$3]] [[$1|fåst so guad, wia wãun's sei Muataspråch warad]].",
-	'babel-5' => 'Dea Benutza kã [[$2|$3]] [[$1|wia a Muataspråchla]].',
-	'babel-N' => 'Dem Benutza sei [[$1|Muataspråch]] is [[$2|$3]].',
-	'babel-0-n' => "Dea Benutza kã koa [[$2|Boarisch]] [[$1|ned]] (oda ea vasteht's netta mid gscheide Schwiarichkeitn).",
-	'babel-1-n' => 'Dea Benutza kã [[$1|a bissl]] [[$2|Boarisch]].',
-	'babel-2-n' => 'Dea Benutza kã schã [[$1|relativ guad]] [[$2|Boarisch]].',
-	'babel-3-n' => 'Dea Benutza kã schãu [[$1|wiakli guad]] [[$2|Boarisch]].',
-	'babel-4-n' => "Dea Benutza kã [[$2|Boarisch]] [[$1|schãu fåst so guad, wia wãun's sei Muataspråch warad]].",
-	'babel-5-n' => 'Dea Benutza kã [[$2|Boarisch]] so guad wiar a [[$1|Muataspråchla]].',
-	'babel-N-n' => "Dem Benutza sei [[$1|Muataspråch]] is s'[[$2|Boarische]].",
+	'babel-footer-url' => ':Category:Babel - Benutzer noch Sprooch',
+	'babel-autocreate-abort' => "Da ausgwöde Benutzernåm werd fyr d' automaatische Erstöung voh [[$1|Babel]]-Kategorien braucht. Dessweeng kå a ned registrird wern.",
+	'babel-autocreate-reason' => 'Automaatisch erstöde [[$1|Babel]]-Kategorie.',
+	'babel-autocreate-text-levels' => 'Benutzer in derer Kategorie håm Kenntniss in da Stufm $1 in da Sprooch $2.',
+	'babel-autocreate-text-main' => 'Benutzer in derer Kategorie håm Kenntniss voh da Sprooch $1.',
+	'babel-0' => "Der Benutzer do kå koa [[$2|$3]] [[$1|ned]] (oder er vasteet d' Sprooch netter mid gscheide Schwiarichkeiten).",
+	'babel-1' => 'Der Benutzer kå [[$1|a bisserl]] [[$2|$3]].',
+	'babel-2' => 'Der Benutzer kå [[$2|$3]] schoh [[$1|relativ guad]].',
+	'babel-3' => 'Der Benutzer kå [[$1|wirkle guad]] [[$2|$3]].',
+	'babel-4' => 'Der Benutzer kå [[$2|$3]] [[$1|fost aso guad, wia wånns seih Muadersprooch warad]].',
+	'babel-5' => 'Der Benutzer kå [[$2|$3]] [[$1|wiara Muadersproochler]].',
+	'babel-N' => 'Dem Benutzer seih [[$1|Muadersprooch]] is [[$2|$3]].',
+	'babel-0-n' => 'Der Benutzer kå koa [[$2|Boarisch]] [[$1|ned]] (oder er vasteets netter mid gscheide Schwiarichkeiten).',
+	'babel-1-n' => 'Der Benutzer kå [[$1|a bisserl]] [[$2|Boarisch]].',
+	'babel-2-n' => 'Der Benutzer kå schoh [[$1|relativ guad]] [[$2|Boarisch]].',
+	'babel-3-n' => 'Der Benutzer kå schoh [[$1|wirkle guad]] [[$2|Boarisch]].',
+	'babel-4-n' => 'Der Benutzer kå [[$2|Boarisch]] [[$1|schoh fost aso guad, wia wånns seih Muadersprooch warad]].',
+	'babel-5-n' => 'Der Benutzer kå [[$2|Boarisch]] aso guad wiara [[$1|Muadersproochler]].',
+	'babel-N-n' => 'Dem Benutzer seih [[$1|Muadersprooch]] is [[$2|Boarisch]].',
 );
 
 /** Samogitian (Žemaitėška)
