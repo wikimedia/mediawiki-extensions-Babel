@@ -38,12 +38,19 @@ class BabelAutoCreate {
 			$text = wfMsgForContent( 'babel-autocreate-text-levels', $level, $language );
 		}
 		$article = new Article( $title );
+
+		$user = self::user();
+		# Do not add a message if the username is invalid or if the account that adds it, is blocked
+		if( !$user || $user->isBlocked() ) {
+			return;
+		}
+
 		$article->doEdit(
 			$text,
 			wfMsgForContent( 'babel-autocreate-reason', wfMsgForContent( 'babel-url' ) ),
 			EDIT_FORCE_BOT,
 			false,
-			self::user()
+			$user
 		);
 	}
 
@@ -54,8 +61,8 @@ class BabelAutoCreate {
 	 */
 	public static function user() {
 		if ( !self::$user ) {
-			self::$user = User::newFromName( wfMsgForContent( 'babel-autocreate-user' ), false );
-			if ( !self::$user->isLoggedIn() ) {
+			self::$user = User::newFromName( wfMsgForContent( 'babel-autocreate-user' ) );
+			if ( self::$user && !self::$user->isLoggedIn() ) {
 				self::$user->addToDatabase();
 			}
 		}
