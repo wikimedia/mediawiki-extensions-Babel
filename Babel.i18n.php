@@ -617,7 +617,7 @@ $messages['bar'] = array(
 	'babel-1-n' => 'Der Benutzer kå [[$1|a bisserl]] [[$2|Boarisch]].',
 	'babel-2-n' => 'Der Benutzer kå schoh [[$1|relativ guad]] [[$2|Boarisch]].',
 	'babel-3-n' => 'Der Benutzer kå schoh [[$1|wirkle guad]] [[$2|Boarisch]].',
-	'babel-4-n' => 'Der Benutzer kå [[$2|Boarisch]] [[$1|schoh fost aso guad, wia wånns seih Muadersprooch warad]].',
+	'babel-4-n' => 'Der Benutzer kå [[$2|Boarisch]] [[$1|schoh fost aso guad, wia wånns seih Muadersprooch waarad]].',
 	'babel-5-n' => 'Der Benutzer kå [[$2|Boarisch]] aso guad wiara [[$1|Muadersproochler]].',
 	'babel-N-n' => 'Dem Benutzer seih [[$1|Muadersprooch]] is [[$2|Boarisch]].',
 );
