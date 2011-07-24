@@ -2056,6 +2056,7 @@ $messages['ht'] = array(
 /** Hungarian (Magyar)
  * @author Dani
  * @author Glanthor Reviol
+ * @author Xbspiro
  */
 $messages['hu'] = array(
 	'babel' => 'Bábel szerkesztői információk',
@@ -2073,7 +2074,7 @@ $messages['hu'] = array(
 	'babel-4' => 'Ez a szerkesztő [[$1|közel anyanyelvi]] szinten beszéli a(z) [[$2|$3]] nyelvet.',
 	'babel-5' => 'Ez a szerkesztő [[$1|professzionális]] szinten beszéli a(z) [[$2|$3]] nyelvet.',
 	'babel-N' => 'Ennek a szerkesztőnek [[$2|$3]] az [[$1|anyanyelve]].',
-	'babel-0-n' => 'Ez a szerkesztő [[$1|nem]] beszéli a [[$2|magyar]] nyelvet (vagy csak nagy nagyon nehezen érti meg).',
+	'babel-0-n' => 'Ez a szerkesztő [[$1|nem]] beszéli a [[$2|magyar]] nyelvet (vagy csak nagyon nehezen érti meg).',
 	'babel-1-n' => 'Ez a szerkesztő [[$1|alapszinten]] beszéli a [[$2|magyar]] nyelvet.',
 	'babel-2-n' => 'Ez a szerkesztő [[$1|középszinten]] beszéli a [[$2|magyar]] nyelvet.',
 	'babel-3-n' => 'Ez a szerkesztő [[$1|haladó]] szinten beszéli a [[$2|magyar]] nyelvet.',
