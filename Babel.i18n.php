@@ -1117,7 +1117,7 @@ $messages['cy'] = array(
  */
 $messages['da'] = array(
 	'babel' => 'Babelinformation',
-	'babel-desc' => 'Tilføjer parserfunktionen <code>#babel</code> for at tillade automatisk at generere at babelboks med mulighed for at inkludere tilpassede skabeloner',
+	'babel-desc' => 'Tilføjer parserfunktionen <code>#babel</code> for at tillade automatisk at generere en babelboks med mulighed for at inkludere tilpassede skabeloner',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Brugere efter sprog',
 	'babel-autocreate-abort' => 'Brugernavnet du har angivet benyttes til automatisk oprettelse af [[$1|Babel]]-kategorier og kan ikke registreres.',
@@ -2605,6 +2605,7 @@ $messages['kw'] = array(
  * @author OrbiliusMagister
  * @author Purodha
  * @author SPQRobin
+ * @author Tpt
  * @author UV
  */
 $messages['la'] = array(
@@ -2625,7 +2626,7 @@ $messages['la'] = array(
 	'babel-5' => 'Hic usor [[$1|magistrali]] [[$2|$3]] contribuere potest.',
 	'babel-N' => 'Hic usor [[$1|native]] [[$2|$3]] loquitur.',
 	'babel-0-n' => 'Hic usor [[$1|nullo pacto]] aut aegre [[$2|Latinitate]] contribuere potest.',
-	'babel-1-n' => 'Hic usor [[$1|simplice]] [[$2|Latinitate]] contribuere potest.',
+	'babel-1-n' => 'Hic usor [[$1|simplici]] [[$2|Latinitate]] contribuere potest.',
 	'babel-2-n' => 'Hic usor [[$1|media]] [[$2|Latinitate]] contribuere potest.',
 	'babel-3-n' => 'Hic usor [[$1|callidissima]] [[$2|Latinitate]] contribuere potest.',
 	'babel-4-n' => 'Hic usor regulas grammaticas observans [[$1|optima]] [[$2|Latinitate]] scribere (et interdum loqui) scit.',
