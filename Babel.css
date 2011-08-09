@@ -12,8 +12,8 @@
 /* Babel wrapper layout. */
 /* @noflip */table.mw-babel-wrapper {
 	width:        238px;
-	float:        right; /* change this to 'left' on RTL wikis */
-	clear:        right; /* change this to 'left' on RTL wikis */
+	float:        right;
+	clear:        right;
 	margin:       1em;
 	background-color: white;
 	border-style: solid;
@@ -21,11 +21,29 @@
 	border-color: #99B3FF;
 }
 
+/* @noflip */.mw-content-ltr table.mw-babel-wrapper {
+	float: right;
+	clear: right;
+}
+/* @noflip */.mw-content-rtl table.mw-babel-wrapper {
+	float: left;
+	clear: left;
+}
+
 /* Babel box layout */
 /* @noflip */div.mw-babel-box {
-	float:  left; /* change this to 'right' on RTL wikis */
-	clear:  left; /* change this to 'right' on RTL wikis */
+	float:  left;
+	clear:  left;
 	margin: 1px;
+}
+
+/* @noflip */.mw-content-ltr table.mw-babel-box {
+	float: left;
+	clear: left;
+}
+/* @noflip */.mw-content-rtl table.mw-babel-box {
+	float: right;
+	clear: right;
 }
 
 div.mw-babel-box table {

@@ -40,6 +40,12 @@ $wgAutoloadClasses['BabelLanguageCodes'] = $dir . 'BabelLanguageCodes.class.php'
 $wgAutoloadClasses['BabelStatic']        = $dir . 'BabelStatic.class.php';
 $wgAutoloadClasses['BabelAutoCreate']    = $dir . 'BabelAutoCreate.class.php';
 
+$wgResourceModules['BabelExtension'] = array(
+	'styles' => 'Babel.css',
+	'localBasePath' => dirname( __FILE__ ),
+	'remoteExtPath' => 'Babel',
+);
+
 // Configuration setttings.
 // Language names and codes constant database files, the defaults should suffice.
 $wgBabelLanguageCodesCdb     = $dir . 'codes.cdb';
