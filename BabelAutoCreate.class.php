@@ -37,7 +37,7 @@ class BabelAutoCreate {
 		} else {
 			$text = wfMsgForContent( 'babel-autocreate-text-levels', $level, $language );
 		}
-		$article = new Article( $title );
+		$article = new Article( $title, 0 );
 
 		$user = self::user();
 		# Do not add a message if the username is invalid or if the account that adds it, is blocked
