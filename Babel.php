@@ -40,7 +40,7 @@ $wgAutoloadClasses['BabelLanguageCodes'] = $dir . 'BabelLanguageCodes.class.php'
 $wgAutoloadClasses['BabelStatic']        = $dir . 'BabelStatic.class.php';
 $wgAutoloadClasses['BabelAutoCreate']    = $dir . 'BabelAutoCreate.class.php';
 
-$wgResourceModules['BabelExtension'] = array(
+$wgResourceModules['ext.babel'] = array(
 	'styles' => 'Babel.css',
 	'localBasePath' => dirname( __FILE__ ),
 	'remoteExtPath' => 'Babel',
