@@ -284,7 +284,7 @@ $messages['ang'] = array(
 	'babel-3-n' => 'Þes brūcere cann forðian mid [[$1|forþweardre]] mǣðe [[$2|Englisces]].',
 );
 
-/** Angika (अंगिका)
+/** Angika (अङ्गिका)
  * @author Angpradesh
  */
 $messages['anp'] = array(
@@ -744,6 +744,13 @@ $messages['bh'] = array(
 	'babel' => 'बैबेल प्रयोगकर्ता जानकारी',
 );
 
+/** Bhojpuri (भोजपुरी)
+ * @author Ganesh
+ */
+$messages['bho'] = array(
+	'babel' => 'बैबेल प्रयोगकर्ता जानकारी',
+);
+
 /** Bahasa Banjar (Bahasa Banjar)
  * @author Ezagren
  * @author J Subhi
@@ -830,7 +837,7 @@ $messages['br'] = array(
 	'babel-N-n' => '[[$1|A-vihanik]] e oar [[$2|brezhoneg]] an implijer-mañ.',
 );
 
-/** Bráhuí (Bráhuí)
+/** Brahui (Bráhuí)
  * @author Imdadb
  */
 $messages['brh'] = array(
@@ -1203,7 +1210,7 @@ $messages['dsb'] = array(
 	'babel-N-n' => 'Toś ten wužywaŕ powěda [[$2|dolnoserbšćinu]] ako [[$1|maminu rěc]].',
 );
 
-/** Dusun Bundu-liwan (Dusun Bundu-liwan)
+/** Central Dusun (Dusun Bundu-liwan)
  * @author FRANCIS5091
  * @author FRANELYA
  */
@@ -1743,6 +1750,13 @@ $messages['gl'] = array(
 	'babel-N-n' => 'Este usuario é un falante [[$1|nativo]] de [[$2|galego]].',
 );
 
+/** Gothic (Gothic)
+ * @author Purodha
+ */
+$messages['got'] = array(
+	'babel-url' => 'Project:Babilu',
+);
+
 /** Ancient Greek (Ἀρχαία ἑλληνικὴ)
  * @author Crazymadlover
  * @author LeighvsOptimvsMaximvs
@@ -1920,6 +1934,7 @@ $messages['he'] = array(
 );
 
 /** Hindi (हिन्दी)
+ * @author Bhawani Gautam
  * @author Bhawani Gautam Rhk
  * @author Kaustubh
  */
@@ -2310,7 +2325,7 @@ $messages['ja'] = array(
 	'babel-N-n' => 'この利用者は[[$2|日本語]]を[[$1|母語]]としています。',
 );
 
-/** Jamaican Creole English (Jamaican Creole English)
+/** Jamaican Creole English (Patios)
  * @author Yocahuna
  */
 $messages['jam'] = array(
@@ -2390,7 +2405,7 @@ $messages['ka'] = array(
 	'babel-N-n' => 'ამ მომხმარებლის [[$1|მშობლიური ენა]] არის [[$2|ქართული]].',
 );
 
-/** Kabardian (Cyrillic) (къэбэрдеибзэ/qabardjajəbza (Cyrillic))
+/** Kabardian (Cyrillic) (Адыгэбзэ (Cyrillic))
  * @author Beco1977
  */
 $messages['kbd-cyrl'] = array(
@@ -3338,6 +3353,7 @@ $messages['nds'] = array(
 );
 
 /** Nepali (नेपाली)
+ * @author Bhawani Gautam
  * @author Bhawani Gautam Rhk
  * @author सरोज कुमार ढकाल
  */
@@ -3552,7 +3568,7 @@ $messages['or'] = array(
 	'babel-N-n' => 'ଏହି ବ୍ୟବହାରକାରିଙ୍କ [[$1|ନିଜ]] ଭାଷା ହେଲା [[$2|ଇଂରାଜି]]।',
 );
 
-/** Ossetic (Иронау)
+/** Ossetic (Ирон)
  * @author Amikeco
  */
 $messages['os'] = array(
@@ -4083,7 +4099,7 @@ $messages['sa'] = array(
 	'babel-N-n' => 'एष उपयोजकस्य [[$1|मातृभाषा]] [[$2|संस्कृतम्‌]] अस्ति।',
 );
 
-/** Yakut (Саха тыла)
+/** Sakha (Саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -5356,6 +5372,13 @@ $messages['yue'] = array(
 	'babel-4-n' => '呢位用戶有[[$1|接近母語講者]]嘅[[$2|廣東話]]知識。',
 	'babel-5-n' => '呢位用戶有[[$1|專業]]嘅[[$2|廣東話]]知識。',
 	'babel-N-n' => '呢位用戶明白以[[$1|母語]]為主嘅[[$2|廣東話]]。',
+);
+
+/** Chinese (中文)
+ * @author Purodha
+ */
+$messages['zh'] = array(
+	'babel-url' => 'Project:巴別',
 );
 
 /** Chinese (China) (‪中文(中国大陆)‬)
