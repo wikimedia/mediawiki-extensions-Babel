@@ -3748,6 +3748,15 @@ $messages['pms'] = array(
 	'babel-N-n' => "St'utent-sì a l'ha un livel [[$1|nativ]] ëd [[$2|Piemontèis]].",
 );
 
+/** Western Punjabi (پنجابی)
+ * @author Khalid Mahmood
+ */
+$messages['pnb'] = array(
+	'babel' => 'بابل ورتن والے بارے',
+	'babel-url' => 'ویونت: بابل',
+	'babel-footer-url' => 'گٹھ: بابل - بولی نال ورتن والے',
+);
+
 /** Pontic (Ποντιακά)
  * @author Consta
  * @author Crazymadlover
