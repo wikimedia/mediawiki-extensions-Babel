@@ -15,7 +15,7 @@ class BabelStatic {
 	 */
 	public static function Setup( $parser ) {
 		global $wgOut;
-		$wgOut->addModules( 'ext.babel' );
+		$wgOut->addModuleStyles( 'ext.babel' );
 		$parser->setFunctionHook( 'babel', array( 'Babel', 'Render' ) );
 		return true;
 	}
