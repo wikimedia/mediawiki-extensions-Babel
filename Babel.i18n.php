@@ -4024,12 +4024,14 @@ $messages['rm'] = array(
 
 /** Romanian (Română)
  * @author Cin
+ * @author Firilacroco
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
 	'babel' => 'Informații Babel despre utilizator',
 	'babel-desc' => 'Adaugă funcția de parsare <code>#babel</code> pentru generarea automată a coloanei de cutii de utilizator babel, cu posibilitatea de a include formate personalizate',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Categorie:Babel - Utilizatori după limbă',
 	'babel-0' => 'Acest utilizator [[$1|nu]] are cunoștințe de [[$2|$3]] (sau înțelege cu mare dificultate).',
 	'babel-1' => 'Acest utilizator poate contribui cu un nivel [[$1|de bază]] de [[$2|$3]].',
 	'babel-2' => 'Acest utilizator poate contribui cu un nivel [[$1|intermediar]] de [[$2|$3]].',
