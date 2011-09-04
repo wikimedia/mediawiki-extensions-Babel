@@ -2597,7 +2597,7 @@ $messages['ksh'] = array(
 	'babel-1-n' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} hät [[$1|Jrondlaare]] fon ennem [[$2|ripoaresch Platt]] drop.',
 	'babel-2-n' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} kann med_ennem [[$2|ripoaresch Platt]] [[$1|meddeljoot]] ömjonn.',
 	'babel-3-n' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} kann [[$2|en ripoaresch Shprooch]] [[$1|reschtesch joot]].',
-	'babel-4-n' => 'För heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} es [[$2|e ripoaresch Platt]] [[$1|bahl wi {{GENDER:sing|sing|de|de|ier}} Mottershprooch]].',
+	'babel-4-n' => 'För heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} es [[$2|e ripoaresch Platt]] [[$1|bahl wi {{GENDER:$4|sing|sing|de|de|ier}} Mottershprooch]].',
 	'babel-5-n' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} brur_en [[$2|ripoaresche Sproor]]_[[$1|em Berohf]].',
 	'babel-N-n' => '{{GENDER:$4
 |Heh däm sing [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]]
@@ -4002,6 +4002,7 @@ $messages['rm'] = array(
 	'babel' => "infurmaziuns d'utilisader da Babel",
 	'babel-desc' => "Agiunta la funcziun da generar automaticamain ina chascha cun las indicaziuns da babel davart l'utilisader e che pussibilitescha d'includer agens templates.",
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Utilisaders tenor lingua',
 	'babel-autocreate-abort' => "Il num d'utilisader tschernì vegn utilisà per la creaziun automatica da categorias da [[$1|Babel]] e na po betg vegnir registrà.",
 	'babel-autocreate-reason' => 'Categoria da [[$1|Babel]] creada automaticamain.',
 	'babel-autocreate-text-levels' => 'Ils utilisaders en questa categoria han inditgà il nivel $1 per la lingua $2.',
