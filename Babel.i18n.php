@@ -1702,6 +1702,7 @@ $messages['gd'] = array(
 	'babel' => 'Fiosrachadh Babel mun chleachdaiche',
 	'babel-desc' => 'Cuiridh seo am parser function <code>#babel</code> ris an duilleag gus an dèid colbh babel a chruthachadh mun chleachdaiche seo, le comas gus teamplaidean sònraichte a ghabhail a-steach.',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Cleachdaichean a-rèir cànain',
 	'babel-autocreate-abort' => "Tha an t-ainm-cleachdaiche a shònraich thu 'ga chleachdadh airson fèin-chrutheachadh na roinne [[$1|Babel]] agus cha ghabh a chlàrachadh.",
 	'babel-autocreate-reason' => "A' cruthachadh duilleag roinne [[$1|Babel]] leis fhèin.",
 	'babel-autocreate-text-levels' => 'Tha na cleachdaichean san roinn seo ag innse gu bheil comas ìre $1 aca ann an $2.',
