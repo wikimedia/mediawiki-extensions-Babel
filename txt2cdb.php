@@ -16,9 +16,11 @@ $codes = CdbWriter::open( $codes );
 
 $fr = fopen( dirname( __FILE__ ) . '/codes.txt', 'r' );
 while ( $line = fgets( $fr ) ) {
-	$line = explode( ' ', $line );
+	// Format is code1 code2 "language name"
+	$line = explode( ' ', $line, 3 );
 	$iso1 = trim( $line[0] );
 	$iso3 = trim( $line[1] );
+	// Strip quotes
 	$name = substr( trim( $line[2] ), 1, -1 );
 	if ( $iso1 !== '-' ) {
 		$codes->set( $iso1, $iso1 );
