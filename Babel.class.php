@@ -301,14 +301,11 @@ EOT;
 	 */
 	protected static function mReplaceCategoryVariables( $category, $code ) {
 		global $wgLanguageCode;
-		$vars = array(
+		$category = strtr( $category, array(
 			'%code%' => $code,
 			'%wikiname%' => BabelLanguageCodes::getName( $code, $wgLanguageCode ),
 			'%nativename%' => BabelLanguageCodes::getName( $code )
-		);
-		foreach ( $vars as $find => $replace ) {
-			$category = str_replace( $find, $replace, $category );
-		}
+		) );
 		return $category;
 	}
 
