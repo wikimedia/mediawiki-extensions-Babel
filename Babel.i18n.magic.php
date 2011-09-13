@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Internationalisation file for Babel extension.
  *
@@ -84,7 +83,7 @@ $magicWords['si'] = array(
 	'babel' => array( 0, 'බාබෙල්', 'babel' ),
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
 $magicWords['sr-ec'] = array(
 	'babel' => array( 0, 'бабел' ),
 );
