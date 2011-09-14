@@ -45,6 +45,16 @@ class BabelAutoCreate {
 			return;
 		}
 
+
+		/* $article->doEdit will call $wgParser->parse.
+		 * Calling Parser::parse recursively is baaaadd... (bug 29245)
+		 * @todo FIXME: surely there is a better way?
+		 */
+		global $wgParser, $wgParserConf;
+		$oldParser = $wgParser;
+		$parserClass = $wgParserConf['class'];
+		$wgParser = new $parserClass( $wgParserConf );
+
 		$article->doEdit(
 			$text,
 			wfMsgForContent( 'babel-autocreate-reason', wfMsgForContent( 'babel-url' ) ),
@@ -52,6 +62,8 @@ class BabelAutoCreate {
 			false,
 			$user
 		);
+
+		$wgParser = $oldParser;
 	}
 
 	/**
