@@ -25,6 +25,8 @@ class Babel {
 
 		self::mTemplateLinkBatch( $parameters );
 
+		$parser->getOutput()->addModuleStyles( 'ext.babel' );
+
 		$content = '';
 		$templateParameter[0] = '' ;	// collects name=value parameters to be passed to wiki templates.
 		foreach ( $parameters as $name ) {
@@ -106,6 +108,7 @@ EOT;
 		}
 
 		$batch = new LinkBatch( $titles );
+		$batch->setCaller( __METHOD__ );
 		$batch->execute();
 	}
 
