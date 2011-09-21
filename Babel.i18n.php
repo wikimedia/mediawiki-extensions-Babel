@@ -751,7 +751,7 @@ $messages['bho'] = array(
 	'babel' => 'बैबेल प्रयोगकर्ता जानकारी',
 );
 
-/** Bahasa Banjar (Bahasa Banjar)
+/** Banjar (Bahasa Banjar)
  * @author Ezagren
  * @author J Subhi
  */
@@ -2406,7 +2406,7 @@ $messages['ka'] = array(
 	'babel-N-n' => 'ამ მომხმარებლის [[$1|მშობლიური ენა]] არის [[$2|ქართული]].',
 );
 
-/** Kabardian (Cyrillic) (Адыгэбзэ (Cyrillic))
+/** Адыгэбзэ (Адыгэбзэ)
  * @author Beco1977
  */
 $messages['kbd-cyrl'] = array(
@@ -2414,7 +2414,7 @@ $messages['kbd-cyrl'] = array(
 	'babel-N' => 'Мыш рилажэрэм зэхрехы [[$1|нэ бзэкӀэ]] мы бзээ [[$2|$3]].',
 );
 
-/** کھوار (کھوار)
+/** Khowar (کھوار)
  * @author Rachitrali
  */
 $messages['khw'] = array(
@@ -2436,7 +2436,7 @@ $messages['khw'] = array(
 	'babel-N-n' => 'ھیہ صارف [[$2|انگریزی]] زبانو [[$1|پیدائشی متکلم]] آسور.',
 );
 
-/** Kazakh (Cyrillic) (Қазақша (Cyrillic))
+/** Kazakh (Cyrillic script) (‪Қазақша (кирил)‬)
  * @author AlefZet
  * @author GaiJin
  */
@@ -4269,7 +4269,7 @@ $messages['sd'] = array(
 	'babel-5-n' => 'هن يُوزر کي [[$2|انگريزي]]ءَ جي [[$1|پيشورانه]] ڄاڻ آهي.',
 );
 
-/** Serbo-Croatian (Srpskohrvatski / Српскохрватски)
+/** Serbo-Croatian (Srpskohrvatski)
  * @author OC Ripper
  */
 $messages['sh'] = array(
@@ -4296,7 +4296,7 @@ $messages['sh'] = array(
 	'babel-N-n' => 'Ovaj korisnik razumije [[$2|srpskohrvatski]] kao [[$1|maternji]] jezik.',
 );
 
-/** Tachelhit (Tašlḥiyt)
+/** Tachelhit (Tašlḥiyt/ⵜⴰⵛⵍⵃⵉⵜ)
  * @author Dalinanir
  */
 $messages['shi'] = array(
@@ -4464,7 +4464,7 @@ $messages['sq'] = array(
 	'babel-N-n' => 'Ky përdorues ka njohuri [[$1|amtare]] të [[$2|gjuhës Shqipe]].',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -4492,7 +4492,7 @@ $messages['sr-ec'] = array(
 	'babel-N-n' => '[[$1|Матерњи језик]] {{GENDER:$4|овог корисника|ове кориснице|овог члана}} је [[$2|српски језик]].',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -4748,7 +4748,7 @@ $messages['tet'] = array(
 	'babel-N-n' => "Uza-na'in ne'e iha [[$2|tetun]] nu'udar [[$1|lian inan]].",
 );
 
-/** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
+/** Tajik (Cyrillic script) (Тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -4760,7 +4760,7 @@ $messages['tg-cyrl'] = array(
 	'babel-2' => 'Ин корбар [[$2|$3]]ро дар сатҳи [[$1|миёна]] мефаҳмад.',
 );
 
-/** Tajik (Latin) (Тоҷикӣ (Latin))
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -4949,7 +4949,7 @@ $messages['tt'] = array(
 	'babel-N-n' => 'Бу кулланучы өчен [[$2|татар теле]] [[$1|туган тел]].',
 );
 
-/** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+/** Tatar (Cyrillic script) (Татарча)
  * @author Ильнар
  * @author Рашат Якупов
  */
