@@ -48,7 +48,7 @@ $messages['en'] = array(
 	'babel-cellspacing' => '0', # Do not translate or duplicate this message to other languages.
 	'babel-cellpadding' => '0', # Do not translate or duplicate this message to other languages.
 
-	'babel-portal'   => '$1', # Do not translate or duplicate this message to other languages.
+	'babel-portal'   => '', # Do not translate or duplicate this message to other languages.
 	'babel-template' => 'Template:$1', # Do not translate or duplicate this message to other languages.
 
 	'babel-footer' => 'Users by language',

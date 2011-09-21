@@ -199,8 +199,13 @@ EOT;
 	 */
 	protected static function mGenerateBox( $code, $level ) {
 		$lang =  wfBCP47( $code );
-		$portal = wfMsgForContent( 'babel-portal', $code );
-		$header = "[[$portal|" . $lang . "]]<span class=\"mw-babel-box-level-$level\">-$level</span>";
+		$portal = wfMessage( 'babel-portal', $code )->plain();
+		if ( $portal !== '' ) {
+			$portal = "[[$portal|$lang]]";
+		} else {
+			$portal = $lang;
+		}
+		$header = "$portal<span class=\"mw-babel-box-level-$level\">-$level</span>";
 
 		$code = strtolower( $code );
 		$name = BabelLanguageCodes::getName( $code );
