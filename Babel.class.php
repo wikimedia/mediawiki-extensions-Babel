@@ -28,7 +28,7 @@ class Babel {
 		$parser->getOutput()->addModuleStyles( 'ext.babel' );
 
 		$content = '';
-		$templateParameter[0] = '' ;	// collects name=value parameters to be passed to wiki templates.
+		$templateParameters = array(); // collects name=value parameters to be passed to wiki templates.
 		foreach ( $parameters as $name ) {
 			if (strpos($name, '=') !== false) {
 				$templateParameters[] = $name;
