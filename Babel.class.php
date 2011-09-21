@@ -217,7 +217,7 @@ EOT;
 <div class="mw-babel-box mw-babel-box-$level"$dir_head>
 {|$cellspacing$cellpadding
 !$dir_head | $header
-| dir="$dir_current" lang="$lang" xml:lang="$lang" | $text
+| dir="$dir_current" | $text
 |}
 </div>
 EOT;
