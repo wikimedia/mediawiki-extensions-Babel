@@ -884,6 +884,7 @@ $messages['bs'] = array(
 );
 
 /** Catalan (Català)
+ * @author Aleator
  * @author SMP
  * @author Toniher
  */
@@ -910,6 +911,7 @@ $messages['ca'] = array(
 	'babel-4-n' => 'Aquest usuari té un coneixement [[$1|gairebé natiu]] de [[$2|català]].',
 	'babel-5-n' => 'Aquest usuari té coneixement [[$1|professional]] de la llengua [[$2|catalana]].',
 	'babel-N-n' => 'Aquest usuari és un parlant [[$1|natiu]] de [[$2|català]].',
+	'babel-footer' => 'Usuaris per idioma',
 );
 
 /** Chechen (Нохчийн)
@@ -1151,6 +1153,7 @@ $messages['da'] = array(
 	'babel-4-n' => 'Denne bruger kan [[$2|dansk]] næsten på [[$1|modersmålsniveau]].',
 	'babel-5-n' => 'Denne bruger har [[$1|professionelt]] kendskab til [[$2|dansk]].',
 	'babel-N-n' => 'Denne bruger har [[$2|dansk]] som [[$1|modersmål]].',
+	'babel-footer' => 'Brugere efter sprog',
 );
 
 /** German (Deutsch)
@@ -1413,6 +1416,7 @@ $messages['eu'] = array(
  * @author Ladsgroup
  * @author Mjbmr
  * @author Reza1615
+ * @author ZxxZxxZ
  */
 $messages['fa'] = array(
 	'babel' => 'اطلاعات کاربری بابل',
@@ -1438,6 +1442,9 @@ $messages['fa'] = array(
 	'babel-4-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|نزدیک به زبان مادری]] می‌فهمد.',
 	'babel-5-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|حرفه‌ای]] می‌فهمد.',
 	'babel-N-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|زبان مادری]] می‌فهمد.',
+	'babel-box-cellpadding' => '0',
+	'babel-cellpadding' => '0',
+	'babel-footer' => 'کاربران بر پایهٔ زبان',
 );
 
 /** Finnish (Suomi)
@@ -2291,7 +2298,7 @@ $messages['it'] = array(
 	'babel' => 'Babel utente',
 	'babel-desc' => 'Aggiunge la parser function <code>#babel</code> per permettere la generazione automatica di una colonna box utente babel con la possibilità di includere template personalizzati',
 	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => ':Utenti per lingua',
+	'babel-footer-url' => ':Category:Utenti per lingua',
 	'babel-autocreate-abort' => 'Il nome utente specificato è usato per la creazione automatica di categorie [[$1|Babel]] e non può essere registrato.',
 	'babel-autocreate-reason' => 'Creo automaticamente la pagina della categoria [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Gli utenti in questa categoria indicano che hanno un livello di conoscenza $1 della lingua $2.',
@@ -2310,6 +2317,8 @@ $messages['it'] = array(
 	'babel-4-n' => 'Questo utente può contribuire con un un livello [[$1|quasi madrelingua]] in [[$2|italiano]].',
 	'babel-5-n' => 'Questo utente può contribuire con un un livello [[$1|professionale]] in [[$2|italiano]].',
 	'babel-N-n' => 'Questo utente può contribuire con un un livello [[$1|madrelingua]] in [[$2|italiano]].',
+	'babel-box-cellpadding' => '0',
+	'babel-cellpadding' => '0',
 	'babel-template' => 'Template:Utente $1',
 	'babel-footer' => 'Utenti per lingua',
 );
@@ -2320,6 +2329,7 @@ $messages['it'] = array(
  * @author Kwj2772
  * @author Marine-Blue
  * @author Ohgi
+ * @author 青子守歌
  */
 $messages['ja'] = array(
 	'babel' => 'バベル利用者情報',
@@ -2345,6 +2355,7 @@ $messages['ja'] = array(
 	'babel-4-n' => 'この利用者は[[$1|母語話者に近い]][[$2|日本語]]の知識を有しています。',
 	'babel-5-n' => 'この利用者は[[$1|専門的な]][[$2|日本語]]の知識を有しています。',
 	'babel-N-n' => 'この利用者は[[$2|日本語]]を[[$1|母語]]としています。',
+	'babel-footer' => '言語別の利用者',
 );
 
 /** Jamaican Creole English (Patios)
@@ -2803,6 +2814,7 @@ $messages['li'] = array(
 	'babel' => 'Babel Gebroekersinfermasie',
 	'babel-desc' => "Voog de <code>#babel</code>-parserfónksie toe óm automatische generatie van 'ne babelgebroekersbóks mäögelik te make mit de mäögelikheid óm aangepasde sjablone in te voge",
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Gebroekers nao sjpraok',
 	'babel-autocreate-abort' => "De opgegaeve gebroekersnaam weurt gebroek veur 't automatisch aanmake van [[$1|Babel]]-categorieë en kan neet geregistreerd waere.",
 	'babel-autocreate-reason' => 'Automatisch aanmake [[$1|Babel]]-categoriepagina.',
 	'babel-autocreate-text-levels' => 'Gebroekers in dees categorie gaeve aan dat hun niveau veur de taal $2 $1 is.',
@@ -2821,6 +2833,9 @@ $messages['li'] = array(
 	'babel-4-n' => "Deze gebroeker haet benöl van 't [[$2|Limburgs]] op [[$1|bekans-mojerspraokniveau]].",
 	'babel-5-n' => "Deze gebroeker haet [[$1|perfesjeneel]] benöl van 't [[$2|Limburgs]].",
 	'babel-N-n' => "Deze gebroeker haet benöl van 't [[$2|Limburgs]] op [[$1|mojerspraokniveau]].",
+	'babel-box-cellpadding' => '0',
+	'babel-cellpadding' => '0',
+	'babel-footer' => 'Gebroekers per sjpraok',
 );
 
 /** Līvõ kēļ (Līvõ kēļ)
@@ -3431,15 +3446,16 @@ $messages['ne'] = array(
 /** Dutch (Nederlands)
  * @author GerardM
  * @author Hamaryns
+ * @author MarkAHershberger
  * @author McDutchie
  * @author SPQRobin
  * @author Siebrand
  */
 $messages['nl'] = array(
-	'babel' => 'Babel-gebruikersinformatie',
+	'babel' => 'Taalvaardigheid',
 	'babel-desc' => 'Voegt de <code>#babel</code>-parserfunctie toe om automatische generatie van een babelgebruikersbox mogelijk te maken met de mogelijkheid om aangepaste sjablonen in te voegen',
 	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => ':Category:Babel - Gebruikers naar taal',
+	'babel-footer-url' => 'Categorie:Wikipedia:Babel',
 	'babel-autocreate-abort' => 'De gebruikersnaam die u hebt opgegeven wordt gebruikt voor het automatisch aanmaken van [[$1|Babel]]-categorieën en kan niet geregistreerd worden.',
 	'babel-autocreate-reason' => 'Automatisch aangemaakte [[$1|Babel]]-categorie.',
 	'babel-autocreate-text-levels' => 'Gebruikers in deze categorie geven aan dat hun niveau voor de taal $2 $1 is.',
@@ -3594,6 +3610,7 @@ $messages['oc'] = array(
 );
 
 /** Oriya (ଓଡ଼ିଆ)
+ * @author Mormegil
  * @author Odisha1
  * @author Psubhashish
  */
@@ -3620,6 +3637,8 @@ $messages['or'] = array(
 	'babel-4-n' => 'ଏହି ଇଉଜର [[$2|ଇଂରାଜି]] ଭାଷା  ତାହାର [[$1|ମୁଳ ଲୋକଙ୍କ]] ଭଳି ଜାଣନ୍ତି ।',
 	'babel-5-n' => 'ଏହି ସଭ୍ୟଙ୍କୁ [[$2|ଇଂରାଜୀ]] ଭାଷା [[$1|ଭଲ ଭାବରେ]] ଜଣାଅଛି ।',
 	'babel-N-n' => 'ଏହି ବ୍ୟବହାରକାରିଙ୍କ [[$1|ନିଜ]] ଭାଷା ହେଲା [[$2|ଇଂରାଜି]]।',
+	'babel-box-cellpadding' => '0',
+	'babel-cellpadding' => '0',
 	'babel-footer' => 'ଭାଷା ଅନୁସାରେ ସଭ୍ୟ',
 );
 
@@ -4606,6 +4625,7 @@ $messages['su'] = array(
  * @author Lejonel
  * @author M.M.S.
  * @author Najami
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'babel' => 'Babel-användarinformation',
@@ -4630,6 +4650,7 @@ $messages['sv'] = array(
 	'babel-4-n' => 'Den här användaren talar nästan [[$2|svenska]] som en [[$1|modersmålstalare]].',
 	'babel-5-n' => 'Den här användaren har [[$1|professionella]] kunskaper i [[$2|svenska]].',
 	'babel-N-n' => 'Den här användaren har [[$2|svenska]] som [[$1|modersmål]].',
+	'babel-box-cellpadding' => '0',
 	'babel-cellpadding' => '0',
 	'babel-template' => 'Mall:Användare $1',
 	'babel-footer' => 'Användare efter språk',
@@ -5022,13 +5043,14 @@ $messages['udm'] = array(
  * @author A1
  * @author AS
  * @author Ahonc
+ * @author Microcell
  * @author Тест
  */
 $messages['uk'] = array(
 	'babel' => 'Відомості про мови учасника (Вавилон)',
 	'babel-desc' => 'Додає функцію парсера <code>#babel</code>, яка дозволяє автоматично створювати стовпець про володіння мовами з можливістю включення інших шаблонів',
 	'babel-url' => 'Project:Вавилон',
-	'babel-footer-url' => ':Category:Вавилон - користувачі за мовами',
+	'babel-footer-url' => ':Category:User language',
 	'babel-autocreate-abort' => "Зазначене ім'я учасника використовується для автоматичного створення категорій [[$1|Вавилон]] і не може бути зареєстровано.",
 	'babel-autocreate-reason' => 'Автоматичне створення сторінки категорії [[$1|Вавилон]].',
 	'babel-autocreate-text-levels' => 'Учасники із цієї категорії вказали рівень знань $1 для мови $2.',
@@ -5088,7 +5110,7 @@ $messages['uz'] = array(
  * @author Candalua
  */
 $messages['vec'] = array(
-	'babel' => "Informassion su l'utente de Babel",
+	'babel' => 'Babel utente',
 	'babel-desc' => 'Zonta la funsion parser <code>#babel</code> par permétar la generazion automatica de un riquadro "utente Babel" con la possibilità de inserir template personalizà',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'El nome utente speçificà el xe doparà par la creassion automàtega de categorie [[$1|Babel]] e no se pol registrarlo.',
