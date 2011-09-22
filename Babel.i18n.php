@@ -1121,6 +1121,7 @@ $messages['cy'] = array(
 	'babel-4-n' => 'Mae [[$2|Cymraeg]] [[$1|rhugl]] gan {{GENDER:$4|hwn|hon|y defnyddiwr hwn}}.',
 	'babel-5-n' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr hwn}} yn medru'r [[$2|Gymraeg]] ar lefel [[$1|broffesiynol]].",
 	'babel-N-n' => '[[$2|Cymraeg]] yw [[$1|mamiaith]] {{GENDER:$4|hwn|hon|y defnyddiwr hwn}}.',
+	'babel-footer' => 'Ieithoedd defnyddwyr',
 );
 
 /** Danish (Dansk)
@@ -1442,8 +1443,6 @@ $messages['fa'] = array(
 	'babel-4-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|نزدیک به زبان مادری]] می‌فهمد.',
 	'babel-5-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|حرفه‌ای]] می‌فهمد.',
 	'babel-N-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|زبان مادری]] می‌فهمد.',
-	'babel-box-cellpadding' => '0',
-	'babel-cellpadding' => '0',
 	'babel-footer' => 'کاربران بر پایهٔ زبان',
 );
 
@@ -1834,8 +1833,6 @@ $messages['gsw'] = array(
 	'babel-4-n' => 'Dää Benutzer cha [[$2|Alemannisch]] [[$1|wie ne Muetterspröchler]].',
 	'babel-5-n' => 'Dää Benutzer cha [[$2|Alemannisch]] uf [[$1|professionällem]] Niveau.',
 	'babel-N-n' => 'Däm Benutzer syyni [[$1|Muettersproch]] isch [[$2|Alemannisch]].',
-	'babel-box-cellpadding' => '0',
-	'babel-cellpadding' => '0',
 	'babel-footer' => 'Benutzer no Sproch',
 );
 
@@ -2038,6 +2035,7 @@ $messages['hr'] = array(
 	'babel-4-n' => 'Ovaj suradnik poznaje [[$2|hrvatski jezik]] [[$1|gotovo kao izvorni govornik]].',
 	'babel-5-n' => 'Ovaj suradnik posjeduje [[$1|profesionalno]] znanje [[$2|hrvatskog jezika]].',
 	'babel-N-n' => 'Ovaj suradnik govori [[$2|hrvatskim]] kao [[$1|materinskim jezikom]].',
+	'babel-footer' => 'Suradnici prema jeziku',
 );
 
 /** Upper Sorbian (Hornjoserbsce)
@@ -2317,8 +2315,6 @@ $messages['it'] = array(
 	'babel-4-n' => 'Questo utente può contribuire con un un livello [[$1|quasi madrelingua]] in [[$2|italiano]].',
 	'babel-5-n' => 'Questo utente può contribuire con un un livello [[$1|professionale]] in [[$2|italiano]].',
 	'babel-N-n' => 'Questo utente può contribuire con un un livello [[$1|madrelingua]] in [[$2|italiano]].',
-	'babel-box-cellpadding' => '0',
-	'babel-cellpadding' => '0',
 	'babel-template' => 'Template:Utente $1',
 	'babel-footer' => 'Utenti per lingua',
 );
@@ -2639,6 +2635,14 @@ $messages['ksh'] = array(
 |För dat heh es_en [[$2|ripoaresche Shprooch]] de [[$1|Mottershprooch]]
 |Heh dä ier [[$1|Mottershprooch]] es_en [[$2|ripoaresche Shprooch]]
 }}.',
+	'babel-footer' => 'Metmaacher noh Shprooche',
+);
+
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'babel-template' => 'Template:$1',
 );
 
 /** Cornish (Kernowek)
@@ -2833,8 +2837,6 @@ $messages['li'] = array(
 	'babel-4-n' => "Deze gebroeker haet benöl van 't [[$2|Limburgs]] op [[$1|bekans-mojerspraokniveau]].",
 	'babel-5-n' => "Deze gebroeker haet [[$1|perfesjeneel]] benöl van 't [[$2|Limburgs]].",
 	'babel-N-n' => "Deze gebroeker haet benöl van 't [[$2|Limburgs]] op [[$1|mojerspraokniveau]].",
-	'babel-box-cellpadding' => '0',
-	'babel-cellpadding' => '0',
 	'babel-footer' => 'Gebroekers per sjpraok',
 );
 
@@ -2967,6 +2969,8 @@ $messages['ltg'] = array(
 	'babel-4-n' => 'Itys lītuotuojs [[$2|latgaļu volūdu]] muok [[$1|kūna kai dzymtū volūdu]].',
 	'babel-5-n' => 'Itys lītuotuojs [[$2|latgaļu volūdu]] muok [[$1|profesionalā leidzīnī]].',
 	'babel-N-n' => '[[$2|Latgaļu volūda]] irā ituo lītuotuoja [[$1|dzymtuo volūda]].',
+	'babel-template' => 'Taiss:$1',
+	'babel-footer' => 'Lītuotuoji piec volūdys',
 );
 
 /** Latvian (Latviešu)
@@ -3150,6 +3154,7 @@ $messages['mk'] = array(
 	'babel-4-n' => 'Овој корисник [[$2|македонскиот]] го владее речиси како [[$1|мајчин]].',
 	'babel-5-n' => 'Овој корисник го владее [[$2|македонскиот]] на [[$1|професионално]] ниво.',
 	'babel-N-n' => 'Овој корисник зборува [[$2|македонски]] како [[$1|мајчин јазик]].',
+	'babel-footer' => 'Корисници по јазик',
 );
 
 /** Malayalam (മലയാളം)
@@ -3455,7 +3460,7 @@ $messages['nl'] = array(
 	'babel' => 'Taalvaardigheid',
 	'babel-desc' => 'Voegt de <code>#babel</code>-parserfunctie toe om automatische generatie van een babelgebruikersbox mogelijk te maken met de mogelijkheid om aangepaste sjablonen in te voegen',
 	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => 'Categorie:Wikipedia:Babel',
+	'babel-footer-url' => ':Category:Babel - Gebruikers naar taal',
 	'babel-autocreate-abort' => 'De gebruikersnaam die u hebt opgegeven wordt gebruikt voor het automatisch aanmaken van [[$1|Babel]]-categorieën en kan niet geregistreerd worden.',
 	'babel-autocreate-reason' => 'Automatisch aangemaakte [[$1|Babel]]-categorie.',
 	'babel-autocreate-text-levels' => 'Gebruikers in deze categorie geven aan dat hun niveau voor de taal $2 $1 is.',
@@ -3637,8 +3642,6 @@ $messages['or'] = array(
 	'babel-4-n' => 'ଏହି ଇଉଜର [[$2|ଇଂରାଜି]] ଭାଷା  ତାହାର [[$1|ମୁଳ ଲୋକଙ୍କ]] ଭଳି ଜାଣନ୍ତି ।',
 	'babel-5-n' => 'ଏହି ସଭ୍ୟଙ୍କୁ [[$2|ଇଂରାଜୀ]] ଭାଷା [[$1|ଭଲ ଭାବରେ]] ଜଣାଅଛି ।',
 	'babel-N-n' => 'ଏହି ବ୍ୟବହାରକାରିଙ୍କ [[$1|ନିଜ]] ଭାଷା ହେଲା [[$2|ଇଂରାଜି]]।',
-	'babel-box-cellpadding' => '0',
-	'babel-cellpadding' => '0',
 	'babel-footer' => 'ଭାଷା ଅନୁସାରେ ସଭ୍ୟ',
 );
 
@@ -3960,6 +3963,7 @@ $messages['pt'] = array(
 	'babel-4-n' => '{{GENDER:$4|Este utilizador|Esta utilizadora}} pode contribuir com um nível [[$1|quase nativo]] de [[$2|português]].',
 	'babel-5-n' => '{{GENDER:$4|Este utilizador|Esta utilizadora}} pode contribuir com um nível [[$1|profissional]] de [[$2|português]].',
 	'babel-N-n' => '{{GENDER:$4|Este utilizador|Esta utilizadora}} tem como língua [[$1|materna]] o [[$2|português]].',
+	'babel-footer' => 'Utilizadores por língua',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
@@ -4650,8 +4654,6 @@ $messages['sv'] = array(
 	'babel-4-n' => 'Den här användaren talar nästan [[$2|svenska]] som en [[$1|modersmålstalare]].',
 	'babel-5-n' => 'Den här användaren har [[$1|professionella]] kunskaper i [[$2|svenska]].',
 	'babel-N-n' => 'Den här användaren har [[$2|svenska]] som [[$1|modersmål]].',
-	'babel-box-cellpadding' => '0',
-	'babel-cellpadding' => '0',
 	'babel-template' => 'Mall:Användare $1',
 	'babel-footer' => 'Användare efter språk',
 );
