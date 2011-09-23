@@ -28,7 +28,7 @@ class BabelAutoCreate {
 	 */
 	public static function create( $category, $language, $level = null ) {
 		$category = strip_tags( $category );
-		$title = Title::newFromText( $category, NS_CATEGORY );
+		$title = Title::makeTitleSafe( NS_CATEGORY, $category );
 		if ( $title === null || $title->exists() ) {
 			return;
 		}
