@@ -99,9 +99,9 @@ $1 is a language name.',
 	'babel-4-n' => '{{Babel Message Description|4|native=yes}}',
 	'babel-5-n' => '{{Babel Message Description|5|native=yes}}',
 	'babel-N-n' => '{{Babel Message Description|N|native=yes}}',
-	'babel-box-cellpadding' => 'Inserted as the value of the <code>cellpadding</code> attribute in the HTML table of the outer box.',
-	'babel-cellpadding' => 'Inserted as the value of the <code>cellpadding</code> attribute in the HTML tables of the inner boxes.',
-	'babel-template' => '{{Optional}}',
+	'babel-template' => '{{Optional}}{{doc-important|Do not translate "Template:".}}
+This message contains the template schema for additional templates that can be used in Babel. Parameters:
+* $1 is the parameter value used in the <nowiki>#babel</nowiki> parser tag.',
 	'babel-footer' => 'This text is used in the last entry (footer) of the outer box. It is a link anchor, if {{msg-mw|babel-footer-url}} is not empty, otherwise, it is only text. No footer is generated, when this text is empty.',
 );
 
@@ -484,6 +484,7 @@ $messages['ast'] = array(
 	'babel-4-n' => "Esti usuariu tien un conocimientu [[$1|cuasi nativu]] d'[[$2|asturianu]].",
 	'babel-5-n' => "Esti usuariu tien un conocimientu [[$1|profesional]] d'[[$2|asturianu]].",
 	'babel-N-n' => "Esti usuariu ye un falante [[$1|nativu]] d'[[$2|asturianu]].",
+	'babel-footer' => 'Usuarios por llingua',
 );
 
 /** Kotava (Kotava)
@@ -686,13 +687,14 @@ $messages['be'] = array(
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
+ * @author Zedlik
  */
 $messages['be-tarask'] = array(
 	'babel' => 'Зьвесткі пра мовы, якімі валодае ўдзельнік',
 	'babel-desc' => 'Дадае функцыю парсэра <code>#babel</code>, якая дазваляе аўтаматычна ствараць слупок з інфармацыяй пра мовы з магчымасьцю даданьня нестандартных шаблёнаў',
 	'babel-url' => 'Project:Бабілёнская вежа',
 	'babel-footer-url' => ':Category:Бабілёнская вежа — удзельнікі па мовах',
-	'babel-autocreate-abort' => 'Імя ўдзельніка, якое Вы пазначылі, выкарыстоўваецца для аўтаматычнага стварэньня катэгорыяў [[$1|Баьілёнскай вежы]] і ня можа быць зарэгістравана.',
+	'babel-autocreate-abort' => 'Імя ўдзельніка, якое Вы пазначылі, выкарыстоўваецца для аўтаматычнага стварэньня катэгорыяў [[$1|Бабілёнскай вежы]] і ня можа быць зарэгістравана.',
 	'babel-autocreate-reason' => 'Аўтаматычнае стварэньне катэгорыі для [[$1|Бабілёнскай вежы]].',
 	'babel-autocreate-text-levels' => 'Удзельнікі з гэтай катэгорыі пазначылі ўзровень ведаў $1 для мовы $2.',
 	'babel-autocreate-text-main' => 'Удзельнікі ў гэтай катэгорыі пазначылі веданьне мовы $1.',
@@ -1421,22 +1423,22 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'babel' => 'اطلاعات کاربری بابل',
-	'babel-desc' => 'دستور تجزیه‌گر <code>#babel</code> را اضافه می‌کند که امکان ایجاد خودکار جعبه‌های کاربری بابل با قابلیت گنجاندن الگوهای دلخواه را فراهم می‌کند',
+	'babel-desc' => 'دستور تجزیه‌گر <code>#babel</code> را اضافه می‌کند که امکان ایجاد خودکار جعبه‌های کاربری بابل را با قابلیت گنجاندن الگوهای دلخواه فراهم می‌کند',
 	'babel-url' => 'Project:بابل',
 	'babel-footer-url' => ':Category:بابل - کاربران بر اساس زبان',
 	'babel-autocreate-abort' => 'نام کاربری که مشخص کرده‌اید برای ایجاد خودکار ردهٔ [[$1|بابل]] استفاده شده‌است و نمی‌تواند ثبت شود.',
-	'babel-autocreate-reason' => 'ایجاد خودکار صفحه رده [[$1|بابل]].',
-	'babel-autocreate-text-levels' => 'کاربران این رده توانایی $1 را در زبان $2 دارند',
+	'babel-autocreate-reason' => 'ایجاد خودکار صفحهٔ ردهٔ [[$1|بابل]].',
+	'babel-autocreate-text-levels' => 'کاربران این رده در زبان $2 توانایی $1 دارند',
 	'babel-autocreate-text-main' => 'کاربران این رده دانش زبان $1 را دارند.',
 	'babel-directionality' => 'rtl',
-	'babel-0' => 'این کاربر [[$2|$3]] را در حد [[$1|نمی‌فهمد]] (یا به سختی می‌فهمد).',
+	'babel-0' => 'این کاربر [[$2|$3]] را [[$1|نمی‌فهمد]] (یا به‌سختی می‌فهمد).',
 	'babel-1' => 'این کاربر [[$2|$3]] را در حد [[$1|مقدماتی]] می‌فهمد.',
 	'babel-2' => 'این کاربر [[$2|$3]] را در حد [[$1|متوسط]] می‌فهمد.',
 	'babel-3' => 'این کاربر [[$2|$3]] را در حد [[$1|پیشرفته]] می‌فهمد.',
 	'babel-4' => 'این کاربر [[$2|$3]] را در حد [[$1|نزدیک به زبان مادری]] می‌فهمد.',
 	'babel-5' => 'این کاربر [[$2|$3]] را در حد [[$1|حرفه‌ای]] می‌فهمد.',
 	'babel-N' => 'این کاربر [[$2|$3]] را در حد [[$1|زبان مادری]] می‌فهمد.',
-	'babel-0-n' => 'این کاربر [[$2|فارسی]] را [[$1|نمی‌فهمد]] (یا به سختی می‌فهمد).',
+	'babel-0-n' => 'این کاربر [[$2|فارسی]] را [[$1|نمی‌فهمد]] (یا به‌سختی می‌فهمد).',
 	'babel-1-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|مقدماتی]] می‌فهمد.',
 	'babel-2-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|متوسط]] می‌فهمد.',
 	'babel-3-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|پیشرفته]] می‌فهمد.',
@@ -2176,7 +2178,7 @@ $messages['ia'] = array(
 	'babel-4-n' => 'Iste usator ha cognoscentias a nivello [[$1|quasi native]] de [[$2|interlingua]].',
 	'babel-5-n' => 'Iste usator ha cognoscentias [[$1|professional]] de [[$2|interlingua]].',
 	'babel-N-n' => 'Iste usator ha cognoscentias a nivello [[$1|native]] de [[$2|interlingua]].',
-	'babel-template' => 'Patrono:$1',
+	'babel-template' => 'Template:$1',
 	'babel-footer' => 'Usatores per lingua',
 );
 
@@ -2568,6 +2570,7 @@ $messages['ko'] = array(
 	'babel-4-n' => '이 사용자는 [[$2|한국어]]를 [[$1|모국어에 준하는 수준]]으로 할 수 있습니다.',
 	'babel-5-n' => '이 사용자는 [[$2|한국어]]를 [[$1|전문가 수준]]으로 할 수 있습니다.',
 	'babel-N-n' => '이 사용자는 [[$2|한국어]]가 [[$1|모국어]]입니다.',
+	'babel-footer' => '언어별 사용자',
 );
 
 /** Karachay-Balkar (Къарачай-Малкъар)
@@ -2765,6 +2768,7 @@ $messages['lb'] = array(
 	'babel-4-n' => 'Dëse Benotzer beherrscht [[$2|Lëtzebuergesch]] [[$1|bal wéi seng Mammesprooch]].',
 	'babel-5-n' => 'Dëse Benotzer huet [[$1|professionnell]] Kenntnesser vum [[$2|Lëtzebuergeschen]].',
 	'babel-N-n' => 'Dësem Benotzer seng [[$1|Mammesprooch]] ass [[$2|Lëtzebuergesch]].',
+	'babel-footer' => 'Benotzer pro Sprooch',
 );
 
 /** Lingua Franca Nova (Lingua Franca Nova)
@@ -2969,7 +2973,7 @@ $messages['ltg'] = array(
 	'babel-4-n' => 'Itys lītuotuojs [[$2|latgaļu volūdu]] muok [[$1|kūna kai dzymtū volūdu]].',
 	'babel-5-n' => 'Itys lītuotuojs [[$2|latgaļu volūdu]] muok [[$1|profesionalā leidzīnī]].',
 	'babel-N-n' => '[[$2|Latgaļu volūda]] irā ituo lītuotuoja [[$1|dzymtuo volūda]].',
-	'babel-template' => 'Taiss:$1',
+	'babel-template' => 'Template:$1',
 	'babel-footer' => 'Lītuotuoji piec volūdys',
 );
 
@@ -3185,6 +3189,7 @@ $messages['ml'] = array(
 	'babel-4-n' => 'ഈ ഉപയോക്താവിനു [[$2|മലയാളഭാഷ]] [[$1|മാതൃഭാഷയായിട്ടുപയോഗിക്കുന്നവർക്കുള്ളതിനു സമാനമായ]] ജ്ഞാനമുണ്ട്.',
 	'babel-5-n' => 'ഈ ഉപയോക്താവിനു [[$2|മലയാളഭാഷയിൽ]] [[$1|പണ്ഡിതസമാനമായ]] ജ്ഞാനമുണ്ട്.',
 	'babel-N-n' => 'ഈ ഉപയോക്താവിന്റെ  [[$1|മാതൃഭാഷ]] [[$2|മലയാളമാണ്]].',
+	'babel-footer' => 'ഉപയോക്താക്കൾ ഭാഷാക്രമത്തിൽ',
 );
 
 /** Moldavian (Молдовеняскэ)
@@ -4165,6 +4170,7 @@ $messages['ru'] = array(
 	'babel-4-n' => 'Этот участник владеет [[$2|русским языком]] [[$1|почти как родным]].',
 	'babel-5-n' => 'Этот участник [[$1|профессионально]] владеет [[$2|русским языком]].',
 	'babel-N-n' => 'Для этого участника [[$2|русский язык]] является [[$1|родным]].',
+	'babel-footer' => 'Участники по языкам',
 );
 
 /** Rusyn (Русиньскый)
@@ -4654,7 +4660,7 @@ $messages['sv'] = array(
 	'babel-4-n' => 'Den här användaren talar nästan [[$2|svenska]] som en [[$1|modersmålstalare]].',
 	'babel-5-n' => 'Den här användaren har [[$1|professionella]] kunskaper i [[$2|svenska]].',
 	'babel-N-n' => 'Den här användaren har [[$2|svenska]] som [[$1|modersmål]].',
-	'babel-template' => 'Mall:Användare $1',
+	'babel-template' => 'Template:Användare $1',
 	'babel-footer' => 'Användare efter språk',
 );
 
@@ -5189,6 +5195,7 @@ $messages['vi'] = array(
 	'babel-4-n' => 'Người dùng này có thể hiểu [[$2|tiếng Việt]] [[$1|gần như người Việt]].',
 	'babel-5-n' => 'Người dùng này biết [[$2|tiếng Việt]] với trình độ của một [[$1|chuyên gia]].',
 	'babel-N-n' => 'Thành viên này xem [[$2|tiếng Việt]] là ngôn ngữ [[$1|mẹ đẻ]].',
+	'babel-footer' => 'Thành viên theo ngôn ngữ',
 );
 
 /** Upper Franconian (Mainfränkisch)
