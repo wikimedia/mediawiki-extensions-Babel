@@ -128,6 +128,7 @@ $messages['sxu'] = array(
  * @author Waldir
  */
 $messages['kea'] = array(
+	'babel-url' => 'Project:Babel',
 	'babel-0' => "Kel utilizador li [[$1|ka ta entende]] [[$2|$3]] (o e' ta entendê-l ku txeu difikuldadi).",
 	'babel-1' => 'Kel utilizador li, ta papia [[$2|$3]] ku un nível [[$1|báziku]].',
 	'babel-2' => 'Kel utilizador li, ta papia [[$2|$3]] ku un nível [[$1|médiu]].',
@@ -142,6 +143,7 @@ $messages['kea'] = array(
 	'babel-4-n' => 'Kel utilizador li, ta papia [[$2|kriolu]] [[$1|kuazi sima un falanti nativu]].',
 	'babel-5-n' => 'Kel utilizador li, ta papia [[$2|kriolu]] ku un nível [[$1|prifisiunal]].',
 	'babel-N-n' => 'Kel utilizador li, se língua [[$1|maternu]] e [[$2|kriolu]].',
+	'babel-footer' => 'Utilizadoris pur língua',
 );
 
 /** Moroccan Spoken Arabic (Maġribi)
@@ -171,6 +173,18 @@ $messages['ary'] = array(
 	'babel-4-n' => "Had l-mosṫeĥdim ĝendo mosṫawa [[$1|qrib le loġṫo l-'om]] fe [[$2|l-Meġribiya]].",
 	'babel-5-n' => 'Had l-mosṫeĥdim ĝendo meĝrifa [[$1|ḫṫirafiya]] dyal [[$2|l-Meġribiya]].',
 	'babel-N-n' => "Had l-mosṫeĥdim kayfhem l-loġa [[$2|l-Meġribiya]] bḫal [[$1|loġto l-'om]].",
+);
+
+/** Araona (Araona)
+ * @author Ooswesthoesbes
+ */
+$messages['aro'] = array(
+	'babel-0' => 'Ma-e [[$1|tsa-aita mahue eje]] jejeme [[$2|$3]] poi (o pitsatuda taisi mahue).',
+	'babel-1' => 'Ma-e [[$1|cuatsa-isi]] jejeme [[$2|$3]] poi.',
+	'babel-2' => 'Ma-e [[$1|tsata pezohue eje]] jejeme [[$2|$3]] poi.',
+	'babel-0-n' => 'Ma-e [[$1|tsa-aita mahue eje]] jejeme [[$2|araona]] poi (o pitsatuda taisi mahue).',
+	'babel-1-n' => 'Ma-e [[$1|cuatsa-isi]] jejeme [[$2|araona]] poi.',
+	'babel-2-n' => 'Ma-e [[$1|tsata pezohue eje]] jejeme [[$2|araona]] poi.',
 );
 
 /** Dari (Dari)
@@ -842,6 +856,7 @@ $messages['br'] = array(
 	'babel-4-n' => '[[$2|Brezhoneg]] a oar an implijer-mañ [[$1|evel pa vefe bet desket gantañ war barlenn e vamm]].',
 	'babel-5-n' => 'Ul live [[$2|Brezhoneg]] [[$1|a-vicher]] zo gant an implijer-mañ.',
 	'babel-N-n' => '[[$1|A-vihanik]] e oar [[$2|brezhoneg]] an implijer-mañ.',
+	'babel-footer' => 'Implijerien dre yezh',
 );
 
 /** Brahui (Bráhuí)
@@ -1954,6 +1969,7 @@ $messages['he'] = array(
 	'babel-4-n' => 'משתמש זה מסוגל לתרום ברמה [[$1|קרובה לשפת אם]] של [[$2|עברית]].',
 	'babel-5-n' => 'משתמש זה מסוגל לתרום ברמה [[$1|מקצועית]] של [[$2|עברית]].',
 	'babel-N-n' => 'משתמש זה דובר [[$2|עברית]] כ[[$1|שפת אם]].',
+	'babel-footer' => 'משתתפים לפי כישורי שפה',
 );
 
 /** Hindi (हिन्दी)
@@ -3260,6 +3276,7 @@ $messages['ms'] = array(
 	'babel-4-n' => 'Pengguna ini memiliki kemahiran [[$1|hampir sempurna]] dalam [[$2|bahasa Melayu]].',
 	'babel-5-n' => 'Pengguna ini memiliki kemahiran [[$1|profesional]] dalam [[$2|bahasa Melayu]].',
 	'babel-N-n' => 'Pengguna ini adalah penutur [[$1|asli]] [[$2|bahasa Melayu]].',
+	'babel-footer' => 'Pengguna mengikut bahasa',
 );
 
 /** Maltese (Malti)
@@ -3593,12 +3610,14 @@ $messages['nso'] = array(
 );
 
 /** Occitan (Occitan)
+ * @author Boulaur
  * @author Cedric31
  */
 $messages['oc'] = array(
 	'babel' => 'Entresenhas sus l’utilizaire de Babel',
 	'babel-desc' => "Apond una foncion parser <code>#babel</code> que permet la creacion automatica d'una bóstia d’utilizaire Babèl amb la possibilitat d’i enclure de modèls locals.",
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Utilizaires per lenga',
 	'babel-autocreate-abort' => "Lo nom d'utilizaire qu'avètz picat es utilizat per crear automaticament las categorias [[$1|Babel]] e pòt pas èsser enregistrat.",
 	'babel-autocreate-reason' => 'Creacion automatica de la categoria [[$1|Babel]].',
 	'babel-autocreate-text-levels' => "Los utilizaires dins aquesta categoria an indicat qu'an lo nivèl $1 per la lenga $2.",
@@ -3617,6 +3636,7 @@ $messages['oc'] = array(
 	'babel-4-n' => 'Aqueste utilizaire dispausa de coneissenças pròchas de la [[$1|lenga mairala]] en [[$2|occitan]].',
 	'babel-5-n' => "Aqueste utilizaire dispausa d'un nivèl de coneissenças [[$1|professional]] en [[$2|occitan]].",
 	'babel-N-n' => "Aqueste utilizaire a per [[$1|lenga mairala]] l'[[$2|occitan]].",
+	'babel-footer' => 'Utilizaires per lengas',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
@@ -4429,6 +4449,7 @@ $messages['sk'] = array(
 	'babel-4-n' => 'Tento redaktor má znalosti [[$2|slovenčiny]] [[$1|takmer na úrovni materinského jazyka]].',
 	'babel-5-n' => 'Tento redaktor má [[$1|profesionálne]] znalosti [[$2|slovenčiny]].',
 	'babel-N-n' => 'Tento redaktor má [[$2|slovenčinu]] ako [[$1|materinský jazyk]].',
+	'babel-footer' => 'Používatelia podľa jazyka',
 );
 
 /** Slovenian (Slovenščina)
@@ -4690,7 +4711,7 @@ $messages['sw'] = array(
 	'babel-4-n' => 'Mtumiaji huyu ni mwongeaji wa [[$2|Kiswahili]] cha kiwango cha [[$1|Juu Kabisa]].',
 	'babel-5-n' => 'Mtumiaji huyu ni mwongeaji wa [[$2|Kiswahili]] cha kiwango cha [[$1|Utaalamu]].',
 	'babel-N-n' => 'Mtumiaji huyu ni mwongeaji wa [[$2|Kiswahili]] [[$1|Fasaha]].',
-	'babel-footer' => 'Wanawikipedia lugha kwa lugha',
+	'babel-footer' => 'Watumiaji lugha kwa lugha',
 );
 
 /** Silesian (Ślůnski)
