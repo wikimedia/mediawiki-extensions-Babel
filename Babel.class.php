@@ -199,7 +199,7 @@ EOT;
 	 */
 	protected static function mGenerateBox( $code, $level ) {
 		$lang =  wfBCP47( $code );
-		$portal = wfMessage( 'babel-portal', $code )->plain();
+		$portal = wfMessage( 'babel-portal', $code )->inContentLanguage()->plain();
 		if ( $portal !== '' ) {
 			$portal = "[[$portal|$lang]]";
 		} else {
