@@ -3532,12 +3532,12 @@ $messages['nn'] = array(
 	'babel-4' => 'Denne brukaren kan [[$2|$3]] nesten på [[$1|morsmålnivå]]',
 	'babel-5' => 'Denne brukaren nyttar [[$2|$3]] [[$1|profesjonelt]].',
 	'babel-N' => 'Denne brukaren har [[$2|$3]] som [[$1|morsmål]].',
-	'babel-0-n' => 'Denne brukaren har [[$1|ingen]] kjennskap til [[$2|norsk (nynorsk)]] (eller forstår det berre så vidt).',
-	'babel-1-n' => 'Denne brukaren kan [[$1|litt]] [[$2|norsk (nynorsk)]].',
-	'babel-2-n' => 'Denne brukaren har [[$1|god kjennskap]] til [[$2|norsk (nynorsk)]].',
-	'babel-3-n' => 'Denne brukaren meistrar [[$2|norsk (nynorsk)]] [[$1|flytande]].',
-	'babel-4-n' => 'Denne brukaren snakkar og skriv [[$2|norsk (nynorsk)]] om lag på [[$1|morsmålsnivå]].',
-	'babel-5-n' => 'Denne brukaren har [[$1|profesjonell]] kjennskap til [[$2|norsk (nynorsk)]].',
+	'babel-0-n' => 'Denne brukaren har [[$1|ingen]] kjennskap til [[$2|nynorsk]] (eller forstår det berre så vidt).',
+	'babel-1-n' => 'Denne brukaren kan [[$1|litt]] [[$2|nynorsk]].',
+	'babel-2-n' => 'Denne brukaren har [[$1|god kjennskap]] til [[$2|nynorsk]].',
+	'babel-3-n' => 'Denne brukaren meistrar [[$2|nynorsk]] [[$1|flytande]].',
+	'babel-4-n' => 'Denne brukaren snakkar og skriv [[$2|nynorsk]] om lag på [[$1|morsmålsnivå]].',
+	'babel-5-n' => 'Denne brukaren har [[$1|profesjonell]] kjennskap til [[$2|nynorsk]].',
 	'babel-N-n' => 'Denne brukaren har [[$2|norsk]] som [[$1|morsmål]] og meistrar nynorsk.',
 );
 
@@ -4479,6 +4479,7 @@ $messages['sl'] = array(
 	'babel-4-n' => "Uporabnik govori '''[[$1|slovensko]]''' skoraj '''[[$2|enako dobro kakor prvi jezik]]'''.",
 	'babel-5-n' => 'Uporabnik govori [[$2|slovenščino]] na [[$1|profesionalni]] ravni.',
 	'babel-N-n' => "Ta uporabnik govori '''[[$1|slovenščino]]''' kot '''[[$2|materni jezik]]'''.",
+	'babel-footer' => 'Uporabniki po jeziku',
 );
 
 /** Lower Silesian (Schläsch)
@@ -5194,7 +5195,7 @@ $messages['vep'] = array(
  * @author Vinhtantran
  */
 $messages['vi'] = array(
-	'babel' => 'Thông tin Ngôn ngữ Thành viên',
+	'babel' => 'Thông tin ngôn ngữ thành viên',
 	'babel-desc' => 'Thêm hàm cú pháp <code>#babel</code> để cho phép tự động sinh ra một hộp thông tin ngôn ngữ thành viên và có thể thêm vào những bản mẫu tùy chọn',
 	'babel-url' => 'Project:Ngôn ngữ',
 	'babel-footer-url' => ':Category:Babel – Thành viên theo ngôn ngữ',
