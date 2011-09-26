@@ -23,19 +23,21 @@ class BabelAutoCreate {
 	 * Create category.
 	 *
 	 * @param $category String: Name of category to create.
-	 * @param $language String: Name of language that the category is for.
+	 * @param $language String: Code of language that the category is for.
 	 * @param $level String: Level that the category is for.
 	 */
-	public static function create( $category, $language, $level = null ) {
+	public static function create( $category, $code, $level = null ) {
 		$category = strip_tags( $category );
 		$title = Title::makeTitleSafe( NS_CATEGORY, $category );
 		if ( $title === null || $title->exists() ) {
 			return;
 		}
+		global $wgLanguageCode;
+		$language = BabelLanguageCodes::getName( $code, $wgLanguageCode );
 		if ( $level === null ) {
-			$text = wfMsgForContent( 'babel-autocreate-text-main', $language );
+			$text = wfMsgForContent( 'babel-autocreate-text-main', $language, $code );
 		} else {
-			$text = wfMsgForContent( 'babel-autocreate-text-levels', $level, $language );
+			$text = wfMsgForContent( 'babel-autocreate-text-levels', $level, $language, $code );
 		}
 		$article = new Article( $title, 0 );
 

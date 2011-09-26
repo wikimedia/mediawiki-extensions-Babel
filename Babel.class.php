@@ -280,20 +280,20 @@ EOT;
 	 * @return String: Wikitext to add categories.
 	 */
 	protected static function mGenerateCategories( $code, $level ) {
-		global $wgBabelMainCategory, $wgBabelCategoryNames, $wgLanguageCode;
+		global $wgBabelMainCategory, $wgBabelCategoryNames;
 
 		$r = '';
 
 		if ( $wgBabelMainCategory !== false && $wgBabelCategoryNames[$level] !== false ) {
 			$category = self::mReplaceCategoryVariables( $wgBabelMainCategory, $code );
 			$r .= "[[Category:$category|$level]]";
-			BabelAutoCreate::create( $category, BabelLanguageCodes::getName( $code, $wgLanguageCode ) );
+			BabelAutoCreate::create( $category, $code );
 		}
 
 		if ( $wgBabelCategoryNames[$level] !== false ) {
 			$category = self::mReplaceCategoryVariables( $wgBabelCategoryNames[$level], $code );
 			$r .= "[[Category:$category]]";
-			BabelAutoCreate::create( $category, BabelLanguageCodes::getName( $code, $wgLanguageCode ), $level );
+			BabelAutoCreate::create( $category, $code, $level );
 		}
 
 		return $r;
