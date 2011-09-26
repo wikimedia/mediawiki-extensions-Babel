@@ -339,7 +339,7 @@ $messages['ar'] = array(
 	'babel' => 'معلومات بابل {{GENDER:$1|للمستخدم|للمستخدمة}}',
 	'babel-desc' => 'يضيف دالة المحلل <code>#babel</code> للسماح بالتوليد التلقائي لعامود صندوق بابل مع إمكانية تضمين قوالب أخرى',
 	'babel-url' => 'Project:بابل',
-	'babel-footer-url' => ': تصنيف:بابل - المستخدمون حسب اللغة',
+	'babel-footer-url' => ':Category:بابل - المستخدمون حسب اللغة',
 	'babel-autocreate-abort' => 'اسم المستخدم الذي حددته مستخدم للإنشاء التلقائي لتصنيفات [[$1|بابل]] ولا يمكن تسجيله.',
 	'babel-autocreate-reason' => 'إنشاء صفحة تصنيف [[$1|بابل]] تلقائيا.',
 	'babel-autocreate-text-levels' => 'المستخدمون في هذا التصنيف مستوى مهارتهم $1 للغة $2.',
@@ -360,6 +360,7 @@ $messages['ar'] = array(
 	'babel-4-n' => 'هذا المستخدم يمتلك معرفة [[$1|تقترب من مستوى اللغة الأم]] ب[[$2|العربية]].',
 	'babel-5-n' => 'هذا المستخدم يمتلك معرفة [[$1|احترافية]] ب[[$2|العربية]].',
 	'babel-N-n' => 'هذا المستخدم يمتلك معرفة [[$1|كلغة أم]] ب[[$2|العربية]].',
+	'babel-footer' => 'المستخدمون حسب اللغة',
 );
 
 /** Aramaic (ܐܪܡܝܐ)
@@ -1343,28 +1344,29 @@ $messages['eo'] = array(
  * @author Sanbec
  */
 $messages['es'] = array(
-	'babel' => 'Información de usuario Babel',
-	'babel-desc' => 'Agregar la <code>#babel</code> función analítica para permitir generación automática de una columna de cuadro de usuario Babel con la habilidad de incluir plantillas propias.',
+	'babel' => 'Información de idiomas de usuario',
+	'babel-desc' => 'Añade la función <code>#babel</code> del analizador para permitir la generación automática de una columna de userboxes «babel» con la posibilidad de incluir plantillas personalizadas',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Usuarios por idioma',
-	'babel-autocreate-abort' => 'El nombre de usuario que ha especificado es usado para auto-creación de categorías [[$1|Babel]] y no puede ser registrado.',
-	'babel-autocreate-reason' => 'Creando automáticamente página de categorías [[$1|Babel]].',
-	'babel-autocreate-text-levels' => 'Los usuarios de esta categoría declaran que tienen un nivel de dominio $1 del idioma $2.',
-	'babel-autocreate-text-main' => 'Los usuarios en esta categoría indican que tienen conocimiento del lenguaje $1.',
-	'babel-0' => 'Este usuario [[$1|desconoce]] el [[$2|$3]] (o lo entiende con considerable dificultad).',
+	'babel-autocreate-abort' => 'El nombre de usuario especificado es usado para la creación automática de categorías [[$1|Babel]] y no puede registrarse.',
+	'babel-autocreate-reason' => 'Creando automáticamente la página de categoría [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'Los usuarios de esta categoría indican que tienen un nivel de dominio $1 del idioma $2.',
+	'babel-autocreate-text-main' => 'Los usuarios en esta categoría indican que tienen conocimiento del idioma $1.',
+	'babel-0' => 'Este usuario [[$1|desconoce]] el [[$2|$3]] (o lo entiende con mucha dificultad).',
 	'babel-1' => 'Este usuario tiene un conocimiento [[$1|básico]] del [[$2|$3]].',
 	'babel-2' => 'Este usuario tiene un conocimiento [[$1|intermedio]] del [[$2|$3]].',
 	'babel-3' => 'Este usuario tiene un conocimiento [[$1|avanzado]] del [[$2|$3]].',
 	'babel-4' => 'Este usuario tiene un conocimiento [[$1|casi nativo]] del [[$2|$3]].',
 	'babel-5' => 'Este usuario tiene un conocimiento [[$1|profesional]] del [[$2|$3]]',
 	'babel-N' => 'Este usuario tiene una comprensión [[$1|nativa]] del [[$2|$3]].',
-	'babel-0-n' => 'Este usuario [[$1|desconoce]] el [[$2|español]] (o lo entiende con considerable dificultad).',
+	'babel-0-n' => 'Este usuario [[$1|desconoce]] el [[$2|español]] (o lo entiende con mucha dificultad).',
 	'babel-1-n' => 'Este usuario tiene un conocimiento [[$1|básico]] del [[$2|español]].',
 	'babel-2-n' => 'Este usuario tiene un conocimiento [[$1|intermedio]] del [[$2|español]].',
 	'babel-3-n' => 'Este usuario tiene un conocimiento [[$1|avanzado]] del [[$2|español]].',
 	'babel-4-n' => 'Este usuario tiene un conocimiento [[$1|casi nativo]] del [[$2|español]].',
-	'babel-5-n' => 'Este usuario tiene un conocimiento [[$1|profesional]] del [[$2|Español]].',
+	'babel-5-n' => 'Este usuario tiene un conocimiento [[$1|profesional]] del [[$2|español]].',
 	'babel-N-n' => 'Este usuario tiene una comprensión [[$1|nativa]] del [[$2|español]].',
+	'babel-footer' => 'Usuarios por idioma',
 );
 
 /** Estonian (Eesti)
@@ -3174,6 +3176,7 @@ $messages['mk'] = array(
 	'babel-4-n' => 'Овој корисник [[$2|македонскиот]] го владее речиси како [[$1|мајчин]].',
 	'babel-5-n' => 'Овој корисник го владее [[$2|македонскиот]] на [[$1|професионално]] ниво.',
 	'babel-N-n' => 'Овој корисник зборува [[$2|македонски]] како [[$1|мајчин јазик]].',
+	'babel-template' => 'Template:Корисник $1',
 	'babel-footer' => 'Корисници по јазик',
 );
 
@@ -3542,6 +3545,7 @@ $messages['nn'] = array(
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Event
  * @author Jon Harald Søby
  * @author Laaknor
  * @author Nghtwlkr
@@ -3569,6 +3573,7 @@ $messages['no'] = array(
 	'babel-4-n' => 'Denne brukeren snakker og skriver [[$2|norsk (bokmål)]] på [[$1|morsmålsnivå]].',
 	'babel-5-n' => 'Denne brukeren bruker [[$2|norsk (bokmål)]] [[$1|profesjonelt]].',
 	'babel-N-n' => 'Denne brukeren har [[$2|norsk]] som [[$1|morsmål]] og behersker bokmål.',
+	'babel-footer' => 'Brukere fordelt på språk',
 );
 
 /** Novial (Novial)
@@ -4809,6 +4814,7 @@ $messages['te'] = array(
 	'babel-4-n' => 'ఈ వాడుకరికి [[$2|తెలుగు]] భాషపై [[$1|మాతృభాషపై ఉన్నంత]] అవగాహన ఉంది.',
 	'babel-5-n' => 'ఈ వాడుకరికి [[$2|తెలుగు]] భాషపై [[$1|వృత్తి నైపుణ్యం]] ఉంది.',
 	'babel-N-n' => 'ఈ వాడుకరి [[$1|మాతృభాష]] [[$2|తెలుగు]].',
+	'babel-footer' => 'భాషల వారీగా వాడుకరులు',
 );
 
 /** Tetum (Tetun)
