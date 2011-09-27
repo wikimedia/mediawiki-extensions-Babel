@@ -195,6 +195,13 @@ $messages['gbz'] = array(
 	'babel-1-n' => 'Mā ror-ber-e [[$2|Dari-e Mazdeyasnā]] rā [[$1|yānog-e]] pāmā.',
 );
 
+/** Meänkieli (Meänkieli)
+ * @author Mestos
+ */
+$messages['fit'] = array(
+	'babel-footer' => 'Käyttäjät kielitten mukhaan',
+);
+
 /** Achinese (Acèh)
  * @author Si Gam Acèh
  */
@@ -582,6 +589,7 @@ $messages['az'] = array(
 	'babel-4-n' => 'Bu istifadəçi [[$2|Azərbaycan dilini]] [[$1|ana dili]] kimi bilir.',
 	'babel-5-n' => 'Bu istifadəçi [[$2|Azərbaycan dilini]] [[$1|peşəkar səviyyədə]] bilir.',
 	'babel-N-n' => '[[$2|Azərbaycan dili]] bu istifadəçinin [[$1|ana dilidir]].',
+	'babel-footer' => 'Dillərə görə istifadəçilər',
 );
 
 /** Bashkir (Башҡортса)
@@ -828,6 +836,7 @@ $messages['bn'] = array(
 	'babel-4-n' => 'এ ব্যবহারকারীর [[$2|বাংলা ভাষার]] উপরে [[$1|খুব ভাল]] ধারণা রয়েছে।',
 	'babel-5-n' => 'এ ব্যবহারকারীর [[$2|বাংলা ভাষার]] উপরে [[$1|প্রায় মাতৃভাষার কাছাকাছি]] ধারণা রয়েছে।',
 	'babel-N-n' => 'এ ব্যবহারকারীর [[$2|বাংলা ভাষার]] উপরে [[$1|মাতৃভাষার মতন]] ধারণা রয়েছে।',
+	'babel-footer' => 'ভাষা অনুযায়ী ব্যবহারকারী',
 );
 
 /** Breton (Brezhoneg)
@@ -1584,6 +1593,7 @@ $messages['frr'] = array(
 	'babel' => 'Babel brüker-informasjoon',
 	'babel-desc' => 'Fäiget jü <code>#babel</code>-Parserfunksjoon haanetu for dåt automaatisch måågen foon Babel-brükerbox-rae ma jü möölikhäid, äine forlååge önjtufäigen',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Brükern efter spriak',
 	'babel-autocreate-abort' => 'Di ütkiisde brükernoome as nüsi for dåt automaatisch måågen foon [[$1|Babel]]-kategoriie än koon ai registriird wårde.',
 	'babel-autocreate-reason' => 'Automaatisch mååged [[$1|Babel]]-kategorii.',
 	'babel-autocreate-text-levels' => 'Brükere in jüdeer kategorii heewe waasen aw stuufe $1 önj e spräke $2.',
@@ -1602,6 +1612,7 @@ $messages['frr'] = array(
 	'babel-4-n' => 'Dideere brüker reet ham ma [[$2|Nordfriisk]] aw [[$1|mamenspräklike]] schuchte.',
 	'babel-5-n' => 'Dideere brüker reet ham ma [[$2|Nordfriisk]] aw [[$1|profäsjonäle]] schuchte.',
 	'babel-N-n' => 'Dideere brüker snååket [[$2|Nordfriisk]] as [[$1|mamenspräke]].',
+	'babel-footer' => 'Brükern efter spriak',
 );
 
 /** Friulian (Furlan)
