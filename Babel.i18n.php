@@ -3773,7 +3773,7 @@ $messages['pdc'] = array(
 	'babel' => 'Babel Yuuser Information',
 	'babel-desc' => 'Ennert die <code>#babel</code>-Parserfunktion fer zum automatische Aalege vun Babel-Yuuserbox-Columns damit eigene Vorlage dezu ze duh meeglich sinn',
 	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => ':Category:Babel - Yuuser nooch Schprooche',
+	'babel-footer-url' => ':Category:Benutzer natt Schprooche',
 	'babel-autocreate-abort' => 'De Yuuser-Name, wu Du gewaehlt hoscht, werd geyuust fer es automatisch Aalege vun [[$1|Babel]]-Kategorie unn kann net regischtriert werre.',
 	'babel-autocreate-reason' => 'Automatisch aagelegte [[$1|Babel]]-Kategorie.',
 	'babel-autocreate-text-levels' => 'Yuuser in derre Kategorie henn Kenntnis-Level $1 fer die Sprooch $2.',
@@ -3792,6 +3792,7 @@ $messages['pdc'] = array(
 	'babel-4-n' => 'Daer Yuuser do schwetzt [[$2|Pennsilfaanisch Deitsch]], wie ass [[$1|Muddersproch]].',
 	'babel-5-n' => 'Daer Yuuser do schwetzt [[$2|Pennsilfaanisch Deitsch]] uff [[$1|professionellem]] Level.',
 	'babel-N-n' => 'Dem Yuuser do sei [[$1|Mudderschprooch]] iss [[$2|Pennsilfaanisch Deitsch]].',
+	'babel-footer' => 'Yuuser natt Schprooche',
 );
 
 /** Plautdietsch (Plautdietsch)
