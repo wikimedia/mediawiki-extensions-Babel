@@ -195,6 +195,13 @@ $messages['gbz'] = array(
 	'babel-1-n' => 'Mā ror-ber-e [[$2|Dari-e Mazdeyasnā]] rā [[$1|yānog-e]] pāmā.',
 );
 
+/** толышә зывон (толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'babel-footer' => 'Иштироәкәсон зывононәдә',
+);
+
 /** Meänkieli (Meänkieli)
  * @author Mestos
  */
