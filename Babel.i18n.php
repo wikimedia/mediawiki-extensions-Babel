@@ -677,6 +677,7 @@ $messages['bar'] = array(
 	'babel-4-n' => 'Der Benutzer kå [[$2|Boarisch]] [[$1|schoh fost asó guad, wia wånns seih Muadersprooch waarad]].',
 	'babel-5-n' => 'Der Benutzer kå [[$2|Boarisch]] asó guad wiara [[$1|Muadersproochler]].',
 	'babel-N-n' => 'Dém Benutzer seih [[$1|Muadersprooch]] is [[$2|Boarisch]].',
+	'babel-footer' => 'Benutzer noch Sprooch',
 );
 
 /** Samogitian (Žemaitėška)
