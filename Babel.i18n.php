@@ -713,6 +713,7 @@ $messages['bcc'] = array(
 
 /** Belarusian (Беларуская)
  * @author Yury Tarasievich
+ * @author Тест
  * @author Хомелка
  */
 $messages['be'] = array(
@@ -735,6 +736,7 @@ $messages['be'] = array(
 	'babel-4-n' => 'Ведаю [[$2|беларускую]] мову [[$1|амаль як родную]].',
 	'babel-5-n' => 'Ведаю [[$2|беларускую]] мову [[$1|прафесійна]].',
 	'babel-N-n' => '[[$2|Беларуская]] — [[$1|родная]] мова ўдзельніка.',
+	'babel-footer' => 'Удзельнікі паводле моў',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
