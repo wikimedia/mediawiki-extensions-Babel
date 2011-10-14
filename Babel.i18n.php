@@ -1374,6 +1374,7 @@ $messages['eo'] = array(
 	'babel-4-n' => 'Ĉi tiu uzanto parolas kun [[$1|preskaŭ denaska]] scio de [[$2|Esperanto]].',
 	'babel-5-n' => 'Ĉi tiu uzanto estas [[$1|profesia]] parolanto de [[$2|Esperanto]].',
 	'babel-N-n' => 'Ĉi tiu uzanto estas [[$1|denaska parolanto]] de [[$2|Esperanto]].',
+	'babel-footer' => 'Uzantoj laŭ lingvoj',
 );
 
 /** Spanish (Español)
