@@ -1213,6 +1213,7 @@ $messages['da'] = array(
 	'babel-4-n' => 'Denne bruger kan [[$2|dansk]] næsten på [[$1|modersmålsniveau]].',
 	'babel-5-n' => 'Denne bruger har [[$1|professionelt]] kendskab til [[$2|dansk]].',
 	'babel-N-n' => 'Denne bruger har [[$2|dansk]] som [[$1|modersmål]].',
+	'babel-template' => 'Template:Bruger $1',
 	'babel-footer' => 'Brugere efter sprog',
 );
 
@@ -1808,7 +1809,7 @@ $messages['gd'] = array(
  * @author Toliño
  */
 $messages['gl'] = array(
-	'babel' => 'Información Babel do usuario',
+	'babel' => 'Información Babel {{GENDER:$1|do usuario|da usuaria}}',
 	'babel-desc' => 'Engade a función analítica <code>#babel</code> para permitir a xeración automática dunha caixa de usuario Babel coa posibilidade de incluír modelos personalizados',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Categoría:Babel - Usuarios por lingua',
@@ -4085,10 +4086,10 @@ $messages['pt-br'] = array(
 	'babel-desc' => 'Adiciona a função do analisador parser <code>#babel</code> para permitir a geração automática de um coluna de caixas de babel de um usuário coma possibilidade de incluir predefinições personalizadas',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Categoria:Babel - Usuários por língua',
-	'babel-autocreate-abort' => 'O nome de utilizador que especificou é usado pela criação automática de categorias [[$1|Babel]] e, por isso, não pode ser registrado.',
+	'babel-autocreate-abort' => 'O nome de usuário que especificou é usado pela criação automática de categorias [[$1|Babel]] e, por isso, não pode ser registrado.',
 	'babel-autocreate-reason' => 'Criando automaticamente a página da categoria [[$1|Babel]].',
-	'babel-autocreate-text-levels' => 'Os utilizadores nesta categoria indicam que possuem um nível de conhecimento $1 na língua $2.',
-	'babel-autocreate-text-main' => 'Os utilizadores nesta categoria indicam que possuem conhecimentos da língua $1.',
+	'babel-autocreate-text-levels' => 'Os usuários nesta categoria indicam que possuem um nível de conhecimento $1 na língua $2.',
+	'babel-autocreate-text-main' => 'Os usuários nesta categoria indicam que possuem conhecimentos da língua $1.',
 	'babel-0' => 'Este usuário [[$1|não]] têm conhecimento de [[$2|$3]] (ou compreende com dificuldades consideráveis).',
 	'babel-1' => 'Este usuário têm um [[$1|básico]] conhecimento de [[$2|$3]].',
 	'babel-2' => 'Este usuário têm um conhecimento [[$1|intermediário]] de [[$2|$3]].',
@@ -4096,13 +4097,14 @@ $messages['pt-br'] = array(
 	'babel-4' => 'Este usuário possui um conhecimento [[$1|próximo ao nativo]] de [[$2|$3]].',
 	'babel-5' => 'Este usuário têm um conhecimento [[$1|profissional]] de [[$2|$3]].',
 	'babel-N' => 'Este usuário é um [[$1|falante nativo]] de [[$2|$3]].',
-	'babel-0-n' => 'Este utilizador [[$1|não compreende]] [[$2|português]] (ou compreende com dificuldades consideráveis).',
-	'babel-1-n' => 'Este utilizador pode contribuir com um nível [[$1|básico]] de [[$2|português]].',
-	'babel-2-n' => 'Este utilizador pode contribuir com um nível [[$1|médio]] de [[$2|português]].',
-	'babel-3-n' => 'Este utilizador pode contribuir com um nível [[$1|avançado]] de [[$2|português]].',
-	'babel-4-n' => 'Este utilizador pode contribuir com um nível [[$1|quase nativo]] de [[$2|português]].',
-	'babel-5-n' => 'Este utilizador pode contribuir com um nível [[$1|profissional]] de [[$2|português]].',
-	'babel-N-n' => 'Este utilizador tem como língua [[$1|materna]] o [[$2|português]].',
+	'babel-0-n' => 'Este usuário [[$1|não compreende]] [[$2|português]] (ou compreende com dificuldades consideráveis).',
+	'babel-1-n' => 'Este usuário pode contribuir com um nível [[$1|básico]] de [[$2|português]].',
+	'babel-2-n' => 'Este usuário pode contribuir com um nível [[$1|médio]] de [[$2|português]].',
+	'babel-3-n' => 'Este usuário pode contribuir com um nível [[$1|avançado]] de [[$2|português]].',
+	'babel-4-n' => 'Este usuário pode contribuir com um nível [[$1|quase nativo]] de [[$2|português]].',
+	'babel-5-n' => 'Este usuário pode contribuir com um nível [[$1|profissional]] de [[$2|português]].',
+	'babel-N-n' => 'Este usuário tem como língua [[$1|materna]] o [[$2|português]].',
+	'babel-footer' => 'Usuários por língua',
 );
 
 /** Quechua (Runa Simi)
@@ -4243,6 +4245,7 @@ $messages['roa-tara'] = array(
 	'babel-4-n' => "Stu crestiáne quase quase parle 'u '''[[$2|tarandine]]''' cumme a 'a '''[[$1|lènga madre]]'''.",
 	'babel-5-n' => "Stu crestiáne è proprie 'nu '''[[$1|professore]]''' de '''[[$2|tarandine]]'''.",
 	'babel-N-n' => 'Quìste utende jè de [[$1|madrelènga]] [[$2|tarandine]].',
+	'babel-footer' => 'Utinde pe lènghe',
 );
 
 /** Russian (Русский)
