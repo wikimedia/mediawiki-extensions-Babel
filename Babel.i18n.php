@@ -2246,6 +2246,7 @@ $messages['ia'] = array(
 );
 
 /** Indonesian (Bahasa Indonesia)
+ * @author Aldnonymous
  * @author Bennylin
  * @author IvanLanin
  * @author Meursault2004
@@ -2274,6 +2275,7 @@ $messages['id'] = array(
 	'babel-4-n' => 'Pengguna ini mampu bersumbangsih dengan [[$2|bahasa Indonesia]] [[$1|mendekati penutur ibu]].',
 	'babel-5-n' => 'Pengguna ini memiliki pengetahuan [[$1|profesional]] [[$2|bahasa Indonesia]].',
 	'babel-N-n' => 'Pengguna ini adalah [[$1|penutur ibu]] [[$2|bahasa Indonesia]].',
+	'babel-footer' => 'Pengguna berdasarkan bahasa',
 );
 
 /** Interlingue (Interlingue)
