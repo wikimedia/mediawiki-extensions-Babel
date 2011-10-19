@@ -1539,16 +1539,19 @@ $messages['fi'] = array(
 );
 
 /** Faroese (Føroyskt)
+ * @author Diupwijk
  * @author Quackor
  */
 $messages['fo'] = array(
-	'babel' => 'Bable brúkara upplýsing',
+	'babel' => 'Babel brúkara upplýsing',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Brúkari eftir máli',
 	'babel-0' => 'Hesin brúkarin skilur [[$1|ikki]] [[$2|$3]] (ella skilir tað ikki gott).',
 	'babel-1' => 'Hesin brúkarin hevur [[$1|grundleggjandi]] kunnleika til [[$2|$3]].',
 	'babel-2' => 'Hesin brúkarin hevur [[$1|miðal]] kunnleika til [[$2|$3]].',
-	'babel-3' => 'Hesin brúkarin hevur kunnleika á [[$1|hástigi]] um [[$2]|$3]].',
+	'babel-3' => 'Hesin brúkarin hevur kunnleika á [[$1|hástigi]] um [[$2|$3]].',
 	'babel-N' => 'Hesin brúkarin hevur [[$2|$3]] sum [[$1|móðurmál]].',
+	'babel-footer' => 'Brúkari eftir máli',
 );
 
 /** French (Français)
