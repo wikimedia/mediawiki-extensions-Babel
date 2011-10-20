@@ -1124,7 +1124,9 @@ $messages['csb'] = array(
  * @author ОйЛ
  */
 $messages['cu'] = array(
+	'babel' => 'Вавѷлѡнъ : польꙃєватєлꙗ ѩꙁꙑци',
 	'babel-url' => 'Project:Вавѷлѡнъ',
+	'babel-footer-url' => ':Category:{{ns:project}}:Польꙃєватєлъ ѩꙁꙑци',
 	'babel-0' => 'сь польꙃєватєл҄ь [[$1|нє]] раꙁоумѣѥтъ [[$2|$3]] · или раꙁоумѣѥтъ съ вєликꙑ оусилии',
 	'babel-1' => 'сь польꙃєватєл҄ь глаголѥтъ [[$2|$3]] [[$1|ꙁълѣ]]',
 	'babel-2' => 'сь польꙃєватєл҄ь глаголѥтъ [[$2|$3]] [[$1|трьпимо]]',
@@ -1137,6 +1139,7 @@ $messages['cu'] = array(
 	'babel-3-n' => 'сь польꙃєватєл҄ь глаголѥтъ [[$2|словѣньскꙑ]] [[$1|добрѣ]]',
 	'babel-4-n' => 'сь польꙃєватєл҄ь глаголѥтъ [[$2|словѣньскꙑ]] [[$1|вєльми добрѣ]]',
 	'babel-N-n' => 'сѥмоу польꙃєватєл҄ю [[$2|словѣньскъ ѩꙁꙑкъ]] ꙗко [[$1|родьнъ]] ѥстъ',
+	'babel-footer' => 'Польꙃєватєлъ ѩꙁꙑци',
 );
 
 /** Chuvash (Чӑвашла)
@@ -2334,6 +2337,35 @@ $messages['ig'] = array(
 	'babel-4-n' => 'Onyéá nwere ómárí di kà [[$1|díàlà]] maka [[$2|Ìgbọ]].',
 	'babel-5-n' => 'Onyéá nwere ómárí di [[$1|mkpà]] maka [[$2|Ìgbọ]].',
 	'babel-N-n' => 'Onyéá nwere ómárí [[$1|díàlà]] maka [[$2|Ìgbọ]].',
+);
+
+/** Iloko (Ilokano)
+ * @author Lam-ang
+ */
+$messages['ilo'] = array(
+	'babel' => 'Informasion dagiti agus-usar iti Babel',
+	'babel-desc' => 'Ikkan na iti  "parser"  nga <code>#babel</code> usaren daytoy nga agikabil iti kahon iti agus-usar ti babel para mabalin nga agaramid iti naiduma nga templeta.',
+	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Dagiti agus-usar ti pagsasao',
+	'babel-autocreate-abort' => 'Daytoy nagan ti agus-usar nga intedmo ket usasaren ti [[$1|Babel]] nga agaramid iti kategoria ket saan a mabalin nga mailista.',
+	'babel-autocreate-reason' => 'Agararamid  iti panid nga kategoria [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'Dagiti agus-usar daytoy nga kategoria, mabalin nga ammoda nga usaren ti $1 pagsasao nga $2.',
+	'babel-autocreate-text-main' => 'Dagiti agus-usar daytoy nga kategoria, mabalin nga ammoda ti pagsasao nga $1.',
+	'babel-0' => 'Daytoy nga agus-usar ket [[$1|awan]] ti ammona nga [[$2|$3]] (wenno marigatan unay nga makaawat) .',
+	'babel-1' => 'Daytoy nga agus-usar ket [[$1|bassit]] ti pinakaammona nga [[$2|$3]].',
+	'babel-2' => 'Daytoy nga agus-usar ket [[$1|katinngaan]] ti pinakaammona nga [[$2|$3]].',
+	'babel-3' => 'Daytoy nga agus-usar ket [[$1|nalaing]] ti pinakaammona nga [[$2|$3]].',
+	'babel-4' => 'Daytoy nga agus-usar ket [[$1|naidumduma]]  ti pinakaammona nga [[$2|$3]].',
+	'babel-5' => 'Daytoy nga agus-usar ket [[$1|kasla patneng ti pinagsasaona]] ti pinakaammona nga [[$2|$3]].',
+	'babel-N' => 'Daytoy nga agus-usar ket [[$1|patneng nga agsasao]] ti pinakaammona nga [[$2|$3]].',
+	'babel-0-n' => 'Daytoy nga agus-usar ket [[$1|awan]] ti ammona nga [[$2|Ilokano]] (wenno marigatan unay nga makaawat) .',
+	'babel-1-n' => 'Daytoy nga agus-usar ket [[$1|bassit]] ti pinakaammona nga [[$2|Ilokano]].',
+	'babel-2-n' => 'Daytoy nga agus-usar ket [[$1|katinngaan]] ti pinakaammona nga [[$2|Ilokano]].',
+	'babel-3-n' => 'Daytoy nga agus-usar ket [[$1|nalaing]] ti pinakaammona nga [[$2|Ilokano]].',
+	'babel-4-n' => 'Daytoy nga agus-usar ket [[$1|naidumduma]]  ti pinakaammona nga [[$2|Ilokano]].',
+	'babel-5-n' => 'Daytoy nga agus-usar ket [[$1|kasla patneng ti pinagsasaona]] ti pinakaammona nga [[$2|Ilokano]].',
+	'babel-N-n' => 'Daytoy nga agus-usar ket [[$1|patneng nga agsasao]] ti pinakaammona nga [[$2|Ilokano]].',
+	'babel-footer' => 'Dagiti agususar ti pagsasao',
 );
 
 /** Ido (Ido)
