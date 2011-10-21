@@ -1571,7 +1571,7 @@ $messages['fo'] = array(
  */
 $messages['fr'] = array(
 	'babel' => 'Informations Babel sur l’utilisateur',
-	'babel-desc' => 'Ajoute une fonction parseur <code>#babel</code> permettant la création automatique d’une boîte utilisateur Babel avec la possibilité d’y inclure des modèles locaux',
+	'babel-desc' => 'Ajoute une fonction d’analyseur syntaxique <code>#babel</code> permettant la création automatique d’une boîte utilisateur Babel avec la possibilité d’y inclure des modèles locaux',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Catégorie:Babel - Utilisateurs par langue',
 	'babel-autocreate-abort' => "Le nom d'utilisateur que vous avez entré est utilisé pour créer automatiquement les catégories [[$1|Babel]] et ne peut pas être enregistré.",
