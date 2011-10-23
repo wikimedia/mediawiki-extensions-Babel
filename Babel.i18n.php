@@ -2352,19 +2352,19 @@ $messages['ilo'] = array(
 	'babel-autocreate-text-levels' => 'Dagiti agus-usar daytoy nga kategoria, mabalin nga ammoda nga usaren ti $1 pagsasao nga $2.',
 	'babel-autocreate-text-main' => 'Dagiti agus-usar daytoy nga kategoria, mabalin nga ammoda ti pagsasao nga $1.',
 	'babel-0' => 'Daytoy nga agus-usar ket [[$1|awan]] ti ammona nga [[$2|$3]] (wenno marigatan unay nga makaawat) .',
-	'babel-1' => 'Daytoy nga agus-usar ket [[$1|bassit]] ti pinakaammona nga [[$2|$3]].',
-	'babel-2' => 'Daytoy nga agus-usar ket [[$1|katinngaan]] ti pinakaammona nga [[$2|$3]].',
-	'babel-3' => 'Daytoy nga agus-usar ket [[$1|nalaing]] ti pinakaammona nga [[$2|$3]].',
-	'babel-4' => 'Daytoy nga agus-usar ket [[$1|naidumduma]]  ti pinakaammona nga [[$2|$3]].',
-	'babel-5' => 'Daytoy nga agus-usar ket [[$1|kasla patneng ti pinagsasaona]] ti pinakaammona nga [[$2|$3]].',
-	'babel-N' => 'Daytoy nga agus-usar ket [[$1|patneng nga agsasao]] ti pinakaammona nga [[$2|$3]].',
+	'babel-1' => 'Daytoy nga agus-usar ket [[$1|nababa]] ti pinakaammona nga [[$2|$3]].',
+	'babel-2' => 'Daytoy nga agus-usar ket [[$1|agpakatingnga]] ti pinakaammona nga [[$2|$3]].',
+	'babel-3' => 'Daytoy nga agus-usar ket [[$1|nangato]] ti pinakaammona nga [[$2|$3]].',
+	'babel-4' => 'Daytoy nga agus-usar ket [[$1|kasla patneng]]  ti pinakaammona nga [[$2|$3]].',
+	'babel-5' => 'Daytoy nga agus-usar ket [[$1|propesyonal]] ti pinakaammona nga [[$2|$3]].',
+	'babel-N' => 'Daytoy nga agus-usar ket [[$1|patneng]] pinakaammona nga [[$2|$3]].',
 	'babel-0-n' => 'Daytoy nga agus-usar ket [[$1|awan]] ti ammona nga [[$2|Ilokano]] (wenno marigatan unay nga makaawat) .',
-	'babel-1-n' => 'Daytoy nga agus-usar ket [[$1|bassit]] ti pinakaammona nga [[$2|Ilokano]].',
-	'babel-2-n' => 'Daytoy nga agus-usar ket [[$1|katinngaan]] ti pinakaammona nga [[$2|Ilokano]].',
-	'babel-3-n' => 'Daytoy nga agus-usar ket [[$1|nalaing]] ti pinakaammona nga [[$2|Ilokano]].',
-	'babel-4-n' => 'Daytoy nga agus-usar ket [[$1|naidumduma]]  ti pinakaammona nga [[$2|Ilokano]].',
-	'babel-5-n' => 'Daytoy nga agus-usar ket [[$1|kasla patneng ti pinagsasaona]] ti pinakaammona nga [[$2|Ilokano]].',
-	'babel-N-n' => 'Daytoy nga agus-usar ket [[$1|patneng nga agsasao]] ti pinakaammona nga [[$2|Ilokano]].',
+	'babel-1-n' => 'Daytoy nga agus-usar ket [[$1|nababa]] ti pinakaammona nga [[$2|Ilokano]].',
+	'babel-2-n' => 'Daytoy nga agus-usar ket [[$1|agpakatingnga]] ti pinakaammona nga [[$2|Ilokano]].',
+	'babel-3-n' => 'Daytoy nga agus-usar ket [[$1|nangato]] ti pinakaammona nga [[$2|Ilokano]].',
+	'babel-4-n' => 'Daytoy nga agus-usar ket [[$1|kasla patneng]]  ti pinakaammona nga [[$2|Ilokano]].',
+	'babel-5-n' => 'Daytoy nga agus-usar ket [[$1|propesyonal]] ti pinakaammona nga [[$2|Ilokano]].',
+	'babel-N-n' => 'Daytoy nga agus-usar ket [[$1|patneng]] ti pinakaammona nga [[$2|Ilokano]].',
 	'babel-footer' => 'Dagiti agususar ti pagsasao',
 );
 
@@ -4554,6 +4554,7 @@ $messages['shi'] = array(
  * @author Asiri wiki
  * @author තඹරු විජේසේකර
  * @author නන්දිමිතුරු
+ * @author බිඟුවා
  */
 $messages['si'] = array(
 	'babel' => 'බාබෙල් පරිශීලක තොරතුරු',
@@ -4572,6 +4573,7 @@ $messages['si'] = array(
 	'babel-4-n' => 'මෙම පරිශීලකයාහට [[$2|සිංහල භාෂාව]] පිළිබඳ [[$1|ස්වදේශීය කථකයෙකුට සමීප]] දැනුමක් ඇත.',
 	'babel-5-n' => 'මෙම පරිශීලකයා‍ට [[$2|සිංහල භාෂාව]] පිළිබඳ [[$1| වෘත්තිමය]] දැනුමක් ඇත.',
 	'babel-N-n' => 'මෙම පරිශීලකයාහට [[$2|සිංහල භාෂාව]] පිළිබඳ [[$1|ස්වදේශීය]] දැනුමක් ඇත.',
+	'babel-footer' => 'භාෂාව අනුව පරිශීලකයින්',
 );
 
 /** Slovak (Slovenčina)
@@ -5144,11 +5146,13 @@ $messages['tpi'] = array(
  * @author Bombola
  * @author Joseph
  * @author Karduelis
+ * @author Khutuck
  */
 $messages['tr'] = array(
 	'babel' => 'Babil kullanıcı bilgileri',
 	'babel-desc' => 'Özel şablonlar içerme özelliği olan Babil kullanıcı kutusu sütununun otomatik oluşturulması için <code>#babel</code> derleyici fonksiyonunu ekler',
 	'babel-url' => 'Project:Babil',
+	'babel-footer-url' => ':Kategori:Babil - dillere göre kullanıcılar',
 	'babel-autocreate-abort' => 'Belirttiğiniz kullanıcı adı [[$1|Babil]] kategorisinin otomatik oluşturulması için kullanılıyor ve alınamaz.',
 	'babel-autocreate-reason' => 'Otomatik olarak [[$1|Babil]] kategori sayfası oluşturuluyor.',
 	'babel-autocreate-text-levels' => 'Bu kategorideki kullanıcılar $1 seviyede $2 dilini bildiklerini belirtiyor.',
@@ -5169,6 +5173,7 @@ $messages['tr'] = array(
 	'babel-4-n' => 'Bu kullanıcı [[$1|anadili gibi]] [[$2|Türkçe]] konuşabilir.',
 	'babel-5-n' => 'Bu kullanıcı [[$1|profesyonel]] [[$2|Türkçe]] bilgisine sahiptir.',
 	'babel-N-n' => "Bu kullanıcının [[$1|anadili]] [[$2|Türkçe]]'dir.",
+	'babel-footer' => 'Dillere göre kullanıcılar',
 );
 
 /** Tatar (Татарча/Tatarça)
