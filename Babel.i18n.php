@@ -3967,6 +3967,7 @@ $messages['pms'] = array(
 	'babel-4-n' => "St'utent-sì a l'ha na conossensa [[$1|scasi nativa]] dël [[$2|Piemontèis]].",
 	'babel-5-n' => "St'utent-sì a l'ha na conossensa [[$1|professional]] dël [[$2|Piemontèis]].",
 	'babel-N-n' => "St'utent-sì a l'ha un livel [[$1|nativ]] ëd [[$2|Piemontèis]].",
+	'babel-footer' => 'Utent për lenga',
 );
 
 /** Western Punjabi (پنجابی)
