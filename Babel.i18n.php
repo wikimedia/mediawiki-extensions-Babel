@@ -199,14 +199,14 @@ $messages['gbz'] = array(
  * @author Гусейн
  */
 $messages['tly'] = array(
-	'babel' => 'Бабил иштирокәкәси мәлумот',
+	'babel' => 'Бабил иштирокәкә мәлумот',
 	'babel-desc' => 'Парсери функсијә зијод кардејәдә <code>#babel</code>, изн дојдә де автомати офәје карде сун де зывонон бәрәдә мәлумоти ијән де мымкуноти ҹо ғәлибон дахыл карде',
 	'babel-url' => 'Project:Бабил',
-	'babel-footer-url' => ':Category:Бабил - иштирокәкәсон зывононәдә',
-	'babel-autocreate-abort' => 'Нишо доә быә иштирокәкәси зывон бо [[$1|Бабил]] категоријон автоматик офәјеј истифодә бедә ијән ныбәбе ғејд кардеј.',
+	'babel-footer-url' => ':Category:Бабил - иштирокәкон зывононәдә',
+	'babel-autocreate-abort' => 'Нишо доә быә иштирокәкә ном бо [[$1|Бабил]] категоријон автоматик офәјеј истифодә бедә ијән ныбәбе ғејд кардеј.',
 	'babel-autocreate-reason' => 'Сәһифә автоматик офәјеј [[$1|Бабил]] категоријәдә.',
-	'babel-autocreate-text-levels' => 'Иштирокоәкәсон чы категоријәку  ишорә кардшоне зынәјон сәвијјә $1 бо зывони $2.',
-	'babel-autocreate-text-main' => 'Иштирокәкәсон бы категориәјдә зывони зынәј ишорә кардшоне $1.',
+	'babel-autocreate-text-levels' => 'Иштирокәкон чы категоријәку ишорә кардшоне зынәјон сәвијјә $1 бо зывони $2.',
+	'babel-autocreate-text-main' => 'Иштирокәкон бы категориәјдә зывони зынәј ишорә кардшоне $1.',
 	'babel-0' => 'Ын иштирокәкә [[$1|зынејдәни]] [[$2|$3]] (јаанки чәтин дәрәсејдә).',
 	'babel-1' => 'Ын иштирокәкә [[$1|зәиф]] зынејдә [[$2|$3]].',
 	'babel-2' => 'Ын иштирокәкә [[$1|мијонә сәвијјәдә]] зынејдә [[$2|$3]].',
@@ -220,8 +220,8 @@ $messages['tly'] = array(
 	'babel-3-n' => 'Ын иштироәкә [[$1|чок]] зынејдә [[$2|Толышә зывони]].',
 	'babel-4-n' => 'Ын иштирокәкә бәнә [[$1|моә зывони]] зынејдә [[$2|Толышә зывони]].',
 	'babel-5-n' => 'Ын иштирокәкә [[$1|пешәкор сәвијјәдә]] зынејдә [[$2|Толышә зывони]].',
-	'babel-N-n' => 'Бо ын иштирокәкәси [[$2|Толышә зывон]] [[$1|моә зывоне]].',
-	'babel-footer' => 'Иштироәкәсон зывононәдә',
+	'babel-N-n' => 'Бо ын иштирокәкә [[$2|Толышә зывон]] [[$1|моә зывоне]].',
+	'babel-footer' => 'Иштирокәкон зывононәдә',
 );
 
 /** Meänkieli (Meänkieli)
@@ -1543,17 +1543,27 @@ $messages['fi'] = array(
 
 /** Faroese (Føroyskt)
  * @author Diupwijk
+ * @author EileenSanda
  * @author Quackor
  */
 $messages['fo'] = array(
 	'babel' => 'Babel brúkara upplýsing',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Brúkari eftir máli',
+	'babel-autocreate-abort' => 'Brúkaranavnið, sum tú valdi, verður brúkt til [[$1|Babel]] bólkin til sjálv-upprættan og kann ikki skrásetast.',
+	'babel-autocreate-reason' => 'Sjálvvirkandi skapan av [[$1|Babel]] bólka síða.',
+	'babel-autocreate-text-levels' => 'Brúkarir í hesum bólki vísa at tey hava vitan á stigi $1 fyri máli $2.',
+	'babel-autocreate-text-main' => 'Brúkarir í hesum bólki vísa at teir hava vitan um mál $1.',
 	'babel-0' => 'Hesin brúkarin skilur [[$1|ikki]] [[$2|$3]] (ella skilir tað ikki gott).',
 	'babel-1' => 'Hesin brúkarin hevur [[$1|grundleggjandi]] kunnleika til [[$2|$3]].',
 	'babel-2' => 'Hesin brúkarin hevur [[$1|miðal]] kunnleika til [[$2|$3]].',
 	'babel-3' => 'Hesin brúkarin hevur kunnleika á [[$1|hástigi]] um [[$2|$3]].',
 	'babel-N' => 'Hesin brúkarin hevur [[$2|$3]] sum [[$1|móðurmál]].',
+	'babel-0-n' => 'Hesin brúkarin hevur [[$1|no]] vitan um of [[$2|English]] (ella skilur tað eitt sindur við stórum trupulleikum).',
+	'babel-1-n' => 'Hesin brúkarin hevur [[$1|basic]] vitan um [[$2|Enskt]].',
+	'babel-3-n' => '
+Hesin brúkarin hevur kunnleika á [[$1|hástigi]] til [[$2|Enskt]].',
+	'babel-N-n' => 'Hesin brúkarin hevur [[$2|Enskt]].sum [[$1|móðurmál]].',
 	'babel-footer' => 'Brúkari eftir máli',
 );
 
@@ -2135,6 +2145,7 @@ $messages['hsb'] = array(
 	'babel-4-n' => 'Tutón wužiwar [[$2|hornjoserbšćinu]] kaž [[$1|maćernorěčnik]] wobknježi.',
 	'babel-5-n' => 'Tutón wužiwar ma [[$1|profesionelne]] znajomosće [[$2|hornjoserbšćiny]].',
 	'babel-N-n' => 'Tutón wužiwar rěči [[$2|hornjoserbšćinu]] jako [[$1|maćeršćinu]].',
+	'babel-footer' => 'Wužiwarjo po rěči',
 );
 
 /** Haitian (Kreyòl ayisyen)
