@@ -1094,12 +1094,14 @@ $messages['cs'] = array(
 );
 
 /** Kashubian (Kaszëbsczi)
+ * @author Iketsi
  * @author Kaszeba
  */
 $messages['csb'] = array(
 	'babel' => 'Wieżô Babel brëkòwnika',
 	'babel-desc' => 'Dodôwô fùnkcëjã parsera <code>#babel</code> zezwalającą na aùtomatné ùsôdzanié kastczi brëkòwnika z mòżnotą wstôwianiô swòjich szblonów',
 	'babel-url' => 'Project:Wieżô Babel',
+	'babel-footer-url' => ':Kategòrëjô:Jãzëczi brëkòwników',
 	'babel-autocreate-abort' => 'Wëbróné miono brëkòwnika je brëkòwóné do aùtomatnegò ùsôdzaniô kategòrëji [[$1|wieżë Babel]] ë ni mòże bëc registrowóné.',
 	'babel-autocreate-reason' => 'Starna aùtomatno ùsôdzony kategòrëji [[$1|wieżë Babel]].',
 	'babel-autocreate-text-levels' => 'Brëkòwnicë w ti kategòrëji zeswiôdczają znajemòtã jãzëka $2 jakno $1.',
@@ -1118,6 +1120,7 @@ $messages['csb'] = array(
 	'babel-4-n' => 'Nen brëkòwnik rozmieje [[$2|kaszëbsczi jãzëk]] wnetka jakno [[$1|rodną mòwã]].',
 	'babel-5-n' => 'Nen brëkòwnik rozmieje [[$2|kaszëbsczi jãzëk]] na równi z [[$1|rodną mòwą]].',
 	'babel-N-n' => '[[$2|Kaszëbsczi jãzëk]] je [[$1|rodną mòwą]] negò brëkòwnika.',
+	'babel-footer' => 'Jãzëczi brëkòwników',
 );
 
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
@@ -5658,6 +5661,7 @@ $messages['yi'] = array(
 $messages['yo'] = array(
 	'babel' => 'Ìfitónilétí oníṣe fún Bábẹ́lì',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Ẹ̀ka:Àwọn oníṣe gẹ́gẹ́ bìi èdè wọn',
 	'babel-autocreate-text-levels' => 'Àwọn oníṣe nínú ẹ̀ka yìí tọ́ka pé àwọn ní òye $1 fún èdè $2.',
 	'babel-autocreate-text-main' => 'Àwọn oníṣe nínú ẹ̀ka yìí tọ́ka pé àwọn ní òye nínú èdè $1.',
 	'babel-0' => 'Oníṣe yìí kò ní ìmọ̀ [[$1|rárá]] nínú èdè [[$2|$3]] (tàbí kọ̀ ní òye rẹ̀ dáadáa).',
