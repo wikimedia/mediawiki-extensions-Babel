@@ -1526,7 +1526,7 @@ $messages['fi'] = array(
 	'babel-url' => 'Project:Kielitaito',
 	'babel-autocreate-abort' => 'Antamasi käyttäjätunnus on varattu [[$1|kielitaitoluokkien]] automaattiseen luomiseen, joten et voi rekisteröidä sitä.',
 	'babel-autocreate-reason' => '[[$1|Kielitaidon]] luokkasivun automaattinen luonti.',
-	'babel-autocreate-text-levels' => 'Käyttäjät tässä luokassa ovat ilmoittaneet osaavansa kieltä $1 tasolla $2.',
+	'babel-autocreate-text-levels' => 'Käyttäjät tässä luokassa ovat ilmoittaneet osaavansa kieltä $2 tasolla $1.',
 	'babel-autocreate-text-main' => 'Käyttäjät tässä luokassa ovat ilmoittaneet ymmärtävänsä kieltä $1.',
 	'babel-0' => 'Tämä käyttäjä osaa [[$1|hyvin vähän tai ei lainkaan]] kieltä [[$2|$3]].',
 	'babel-1' => 'Tällä käyttäjällä on kielen [[$2|$3]] [[$1|perustaidot]]',
@@ -2396,9 +2396,30 @@ $messages['io'] = array(
 
 /** Icelandic (Íslenska)
  * @author Purodha
+ * @author Snævar
  */
 $messages['is'] = array(
+	'babel' => 'Málkassi',
 	'babel-url' => 'Project:Málkassi',
+	'babel-footer-url' => ':Category:Babel - Notendur eftir tungumáli',
+	'babel-autocreate-reason' => 'Bý sjálfkrafa til [[$1|Málkassa]] flokk.',
+	'babel-autocreate-text-levels' => 'Notendur í þessum flokk hafa gefið upp að þeir hafi $1-kunnáttu á $2 máli.',
+	'babel-autocreate-text-main' => 'Notendur í þessum flokk hafa gefið upp að þeir hafi kunnáttu á $1 máli.',
+	'babel-0' => 'Þessi notandi talar [[$1|ekki]] [[$2|$3]] (á erfitt með að skilja hana eða kýs að tala hana ekki).',
+	'babel-1' => 'Þessi notandi hefur [[$1|grundvallar]]-kunnáttu á [[$2|$3]] máli.',
+	'babel-2' => 'Þessi notandi hefur [[$1|miðlungs]]-kunnáttu á [[$2|$3]] máli.',
+	'babel-3' => 'Þessi notandi hefur [[$1|yfirburðar]]-kunnáttu á [[$2|$3]] máli.',
+	'babel-4' => 'Þessi notandi talar [[$2|$3]] eins og [[$1|innfæddur]].',
+	'babel-5' => 'Þessi notandi hefur [[$1|atvinnu]]-færni á [[$2|$3]] máli.',
+	'babel-N' => 'Þessi notandi hefur [[$2|$3]] að [[$1|móðurmáli]].',
+	'babel-0-n' => 'Þessi notandi talar [[$1|ekki]] [[$2|íslensku]] (á erfitt með að skilja hana eða kýs að tala hana ekki).',
+	'babel-1-n' => 'Þessi notandi hefur [[$1|grundvallar]]-kunnáttu á [[$2|íslensku]] máli.',
+	'babel-2-n' => 'Þessi notandi hefur [[$1|miðlungs]]-kunnáttu á [[$2|íslensku]] máli.',
+	'babel-3-n' => 'Þessi notandi hefur [[$1|yfirburðar]]-kunnáttu á [[$2|íslensku]] máli.',
+	'babel-4-n' => 'Þessi notandi talar [[$2|íslensku]] eins og [[$1|innfæddur]].',
+	'babel-5-n' => 'Þessi notandi hefur [[$1|atvinnu]]-færni á [[$2|íslensku]] máli.',
+	'babel-N-n' => 'Þessi notandi hefur [[$2|íslensku]] að [[$1|móðurmáli]].',
+	'babel-footer' => 'Notendur eftir tungumáli',
 );
 
 /** Italian (Italiano)
