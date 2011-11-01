@@ -1267,6 +1267,7 @@ $messages['dsb'] = array(
 	'babel' => 'Babelowe wužywarske informacije',
 	'babel-desc' => 'Pśidawa parserowu funkciju <code>#babel</code> za awtomatiske twórjenje słupa babelowych wužywarskich kašćikow, z móžnosću, swójske pśedłogi zapśěgnuś',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Wužywarje pó rěcy',
 	'babel-autocreate-abort' => 'Pódane wužywarske mě wužywa se za awtomatiske wutwórjenje [[$1|Babelowych]] kategorijow a njedajo se registrěrowaś.',
 	'babel-autocreate-reason' => 'Awtomatiske wutwórjenje [[$1|Babeloweje]] kategorije.',
 	'babel-autocreate-text-levels' => 'Wužywarje w toś tej kategoriji pódawaju, až maju stopjeń znajobnosćow $1 za rěc $2.',
@@ -1285,6 +1286,7 @@ $messages['dsb'] = array(
 	'babel-4-n' => 'Toś ten wužywaŕ powěda [[$2|dolnoserbšćinu]] kaž [[$1|maminorěcny]].',
 	'babel-5-n' => 'Toś ten wužywaŕ ma [[$1|profesionelne]] znajobnosći [[$2|dolnoserbšćiny]].',
 	'babel-N-n' => 'Toś ten wužywaŕ powěda [[$2|dolnoserbšćinu]] ako [[$1|maminu rěc]].',
+	'babel-footer' => 'Wužywarje pó rěcy',
 );
 
 /** Central Dusun (Dusun Bundu-liwan)
