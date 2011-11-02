@@ -1564,11 +1564,11 @@ $messages['fo'] = array(
 	'babel-2' => 'Hesin brúkarin hevur [[$1|miðal]] kunnleika til [[$2|$3]].',
 	'babel-3' => 'Hesin brúkarin hevur kunnleika á [[$1|hástigi]] um [[$2|$3]].',
 	'babel-N' => 'Hesin brúkarin hevur [[$2|$3]] sum [[$1|móðurmál]].',
-	'babel-0-n' => 'Hesin brúkarin hevur [[$1|no]] vitan um of [[$2|English]] (ella skilur tað eitt sindur við stórum trupulleikum).',
-	'babel-1-n' => 'Hesin brúkarin hevur [[$1|basic]] vitan um [[$2|Enskt]].',
+	'babel-0-n' => 'Hesin brúkarin hevur [[$1|no]] vitan um of [[$2|føroyskt]] (ella skilur tað eitt sindur við stórum trupulleikum).',
+	'babel-1-n' => 'Hesin brúkarin hevur [[$1|basic]] vitan um [[$2|føroyskt]].',
 	'babel-3-n' => '
-Hesin brúkarin hevur kunnleika á [[$1|hástigi]] til [[$2|Enskt]].',
-	'babel-N-n' => 'Hesin brúkarin hevur [[$2|Enskt]].sum [[$1|móðurmál]].',
+Hesin brúkarin hevur kunnleika á [[$1|hástigi]] til [[$2|føroyskt]].',
+	'babel-N-n' => 'Hesin brúkarin hevur [[$2|føroyskt]] sum [[$1|móðurmál]].',
 	'babel-footer' => 'Brúkari eftir máli',
 );
 
