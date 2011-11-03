@@ -1564,8 +1564,8 @@ $messages['fo'] = array(
 	'babel-2' => 'Hesin brúkarin hevur [[$1|miðal]] kunnleika til [[$2|$3]].',
 	'babel-3' => 'Hesin brúkarin hevur kunnleika á [[$1|hástigi]] um [[$2|$3]].',
 	'babel-N' => 'Hesin brúkarin hevur [[$2|$3]] sum [[$1|móðurmál]].',
-	'babel-0-n' => 'Hesin brúkarin hevur [[$1|no]] vitan um of [[$2|føroyskt]] (ella skilur tað eitt sindur við stórum trupulleikum).',
-	'babel-1-n' => 'Hesin brúkarin hevur [[$1|basic]] vitan um [[$2|føroyskt]].',
+	'babel-0-n' => 'Hesin brúkarin hevur [[$1|onga]] vitan um [[$2|føroyskt]] (ella skilur tað eitt sindur við stórum trupulleikum).',
+	'babel-1-n' => 'Hesin brúkarin hevur [[$1|grundleggjandi]] vitan um [[$2|føroyskt]].',
 	'babel-3-n' => '
 Hesin brúkarin hevur kunnleika á [[$1|hástigi]] til [[$2|føroyskt]].',
 	'babel-N-n' => 'Hesin brúkarin hevur [[$2|føroyskt]] sum [[$1|móðurmál]].',
@@ -2827,8 +2827,8 @@ $messages['kw'] = array(
 $messages['la'] = array(
 	'babel' => 'res usoribus sciendae de Babel',
 	'babel-desc' => '<code>#babel</code> functio additur ut capsa linguarum scientiam usoris describens se ipsa creetur. Formulae aliae ac linguas describentes includi possunt',
-	'babel-url' => 'Project:Babel formulae',
-	'babel-footer-url' => ':Category:Babel - Usores per linguas digesti',
+	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Usores lingua digesti',
 	'babel-autocreate-abort' => 'Nomen a te electum, quod utilis est ad [[$1|Babel]] categorias creandas,  inscribi non potest.',
 	'babel-autocreate-reason' => '[[$1|Babel]] Categoriae pagina ipsa mox  creabitur. Expecta, quaeso.',
 	'babel-autocreate-text-levels' => 'Usores in hac categoria inclusi nuntiant sibi gradum $1 utendi linguam $2 esse',
@@ -2848,6 +2848,7 @@ $messages['la'] = array(
 	'babel-4-n' => 'Hic usor regulas grammaticas observans [[$1|optima]] [[$2|Latinitate]] scribere (et interdum loqui) scit.',
 	'babel-5-n' => 'Hic usor [[$1|magistrali]] [[$2|Latinitate]] contribuere potest',
 	'babel-N-n' => 'Hic usor aut [[$1|vere incredibili]] [[$2|Latinitate]] contribuere potest... aut fortasse mentitur.',
+	'babel-footer' => 'Usores lingua digesti',
 );
 
 /** Ladino (Ladino)
