@@ -3742,7 +3742,7 @@ $messages['nov'] = array(
  * @author Mohau
  */
 $messages['nso'] = array(
-	'babel' => 'Sedi ya Moošomiši wa Babel',
+	'babel' => 'Sedi ya Moošomiši go Babel',
 	'babel-desc' => 'Thwanya <code>#babel</code> "parser function" go dumelela "babel userbox" yeo e dumelalago go hloma "custom templates"',
 	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'Leina-šomiši lago kgethwa ke wena le a šomišwa go sehlopha sa [[$1|Babel]] ka gona go ngwadiša ga go kgonagake.',
@@ -3763,6 +3763,7 @@ $messages['nso'] = array(
 	'babel-4-n' => 'Mošomiši yo o nale tsebo ya [[$1|go felela]] ya [[$2|Sepedi]].',
 	'babel-5-n' => 'Mošomiši yo o nale tsebo ya [[$1|go makgonthe ya sekolo]] ya [[$2|Sepedi]].',
 	'babel-N-n' => 'Mošomiši yo o nale tsebo ya [[$1|babuledi kgonthe bja polelo]] ya [[$2|Sepedi]].',
+	'babel-footer' => 'Bašomiši goya ka maleme',
 );
 
 /** Occitan (Occitan)
