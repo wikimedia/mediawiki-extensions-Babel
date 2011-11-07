@@ -330,9 +330,12 @@ $messages['an'] = array(
  * @author Crazymadlover
  */
 $messages['ang'] = array(
+	'babel-0' => 'Þes brūcere [[$1|ne cann]] sprecan [[$2|$3]] (oððe cann undergietan hit swīðe earfoðe ānlīce).',
 	'babel-1' => 'Þes brūcere cann forðian mid [[$1|grundlicgendre]] mǣðe [[$2|$3]].',
 	'babel-2' => 'Þes brūcere cann forðian mid [[$1|middelre]] mǣðe [[$2|$3]].',
 	'babel-3' => 'Þes brūcere cann forðian mid [[$1|forþweardre]] mǣðe [[$2|$3]].',
+	'babel-N' => 'Þes brūcere is [[$1|gecynde]] [[$2|$3]] sprecere.',
+	'babel-0-n' => 'Þes brūcere [[$1|ne cann]] sprecan [[$2|Englisce]] (oððe cann undergietan hit swīðe earfoðe ānlīce).',
 	'babel-1-n' => 'Þes brūcere cann forðian mid [[$1|grundlicgendre]] mǣðe [[$2|Englisces]].',
 	'babel-2-n' => 'Þes brūcere cann forðian mid [[$1|middelre]] mǣðe [[$2|Englisces]].',
 	'babel-3-n' => 'Þes brūcere cann forðian mid [[$1|forþweardre]] mǣðe [[$2|Englisces]].',
@@ -3020,6 +3023,22 @@ $messages['li'] = array(
 	'babel-footer' => 'Gebroekers per sjpraok',
 );
 
+/** Ligure (Ligure) */
+$messages['lij'] = array(
+	'babel-0' => "St'utente ô [[$1|no]] capisce o [[$2|$3]] (o capisce con ben-ben de difficultæ).",
+	'babel-1' => "St'utente ô l'è'n [[$1|prinçipiante]] de [[$2|$3]].",
+	'babel-2' => "St'utenteô l'è a [[$1|mediô]] levellu de [[$2|$3]].",
+	'babel-3' => "St'utente ô sa asæ de [[$2|$3]], ô l'è [[$1|avançou]].",
+	'babel-4' => "St'utente ô parla [[$2|$3]] quæxi [[$1|comme ûn d'o paize]].",
+	'babel-N' => "St'utentel'è [[$1|nustran]] [[$2|$3]].",
+	'babel-0-n' => "St'utente ô [[$1|no]] capisce o [[$2|lìggûre]] (o capisce con ben-ben de difficultæ).",
+	'babel-1-n' => "St'utente ô l'è'n [[$1|prinçipiante]] de [[$2|lìggûre]].",
+	'babel-2-n' => "St'utenteô l'è a [[$1|mediô]] levellu de [[$2|lìggûre]].",
+	'babel-3-n' => "St'utente ô sa asæ de [[$2|lìggûre]], ô l'è [[$1|avançou]].",
+	'babel-4-n' => "St'utente ô parla [[$2|lìggûre]] quæxi [[$1|comme ûn d'o paize]].",
+	'babel-N-n' => "St'utentel'è [[$1|nustran]] [[$2|lìggûre]].",
+);
+
 /** Līvõ kēļ (Līvõ kēļ)
  * @author Warbola
  */
@@ -5460,6 +5479,24 @@ $messages['vi'] = array(
 	'babel-5-n' => 'Người dùng này biết [[$2|tiếng Việt]] với trình độ của một [[$1|chuyên gia]].',
 	'babel-N-n' => 'Thành viên này xem [[$2|tiếng Việt]] là ngôn ngữ [[$1|mẹ đẻ]].',
 	'babel-footer' => 'Thành viên theo ngôn ngữ',
+);
+
+/** West-Vlams (West-Vlams) */
+$messages['vls'] = array(
+	'babel-footer-url' => ':Category:Babel - Gebrukers noa toaln',
+	'babel-0' => 'Deze gebruker kan [[$1|niet te vet]] vele [[$2|$3]] klappn.',
+	'babel-1' => "Deze gebruker kan e [[$1|hêel klêen bitje]] e koutnansje voern in 't [[$2|$3]].",
+	'babel-2' => "Deze gebruker kan [[$2|$3]] klapp'n van e [[$1|middelmoatig]] niveau.",
+	'babel-3' => "'t Niveau van [[$2|$3]] van deze gebruker es [[$1|styf ôge]].",
+	'babel-4' => 'Dizzn gebruker klapt [[$2|$3]] [[$1|gelik nen echtn]].',
+	'babel-N' => "Dien gebruker ier es [[$1|geboorn en gekwêekt]] in 't [[$2|$3]].",
+	'babel-0-n' => 'Deze gebruker kan [[$1|niet te vet]] vele [[$2|West-Vlams]] klappn.',
+	'babel-1-n' => "Deze gebruker kan e [[$1|hêel klêen bitje]] e koutnansje voern in 't [[$2|West-Vlams]].",
+	'babel-2-n' => "Deze gebruker kan [[$2|West-Vlams]] klapp'n van e [[$1|middelmoatig]] niveau.",
+	'babel-3-n' => "'t Niveau van [[$2|West-Vlams]] van deze gebruker es [[$1|styf ôge]].",
+	'babel-4-n' => 'Dizzn gebruker klapt [[$2|West-Vlams]] [[$1|gelik nen echtn]].',
+	'babel-N-n' => "Dien gebruker ier es [[$1|geboorn en gekwêekt]] in 't [[$2|West-Vlams]].",
+	'babel-footer' => 'Gebrukers noa toaln',
 );
 
 /** Upper Franconian (Mainfränkisch)
