@@ -23,7 +23,7 @@ class BabelAutoCreate {
 	 * Create category.
 	 *
 	 * @param $category String: Name of category to create.
-	 * @param $language String: Code of language that the category is for.
+	 * @param $code String: Code of language that the category is for.
 	 * @param $level String: Level that the category is for.
 	 */
 	public static function create( $category, $code, $level = null ) {
