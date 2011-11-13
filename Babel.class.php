@@ -284,12 +284,14 @@ EOT;
 
 		$r = '';
 
-		if ( $wgBabelMainCategory !== false && $wgBabelCategoryNames[$level] !== false ) {
+		# Add main category
+		if ( $wgBabelMainCategory !== false ) {
 			$category = self::mReplaceCategoryVariables( $wgBabelMainCategory, $code );
 			$r .= "[[Category:$category|$level]]";
 			BabelAutoCreate::create( $category, $code );
 		}
 
+		# Add level category
 		if ( $wgBabelCategoryNames[$level] !== false ) {
 			$category = self::mReplaceCategoryVariables( $wgBabelCategoryNames[$level], $code );
 			$r .= "[[Category:$category]]";
