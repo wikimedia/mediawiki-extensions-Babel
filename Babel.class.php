@@ -68,15 +68,10 @@ class Babel {
 			$top = '! class="mw-babel-header" | ' . $top;
 		}
 		$footer = wfMessage( 'babel-footer', self::$title->getDBkey() )->inContentLanguage();	// TODO: allow user language
-		if ( $footer->isDisabled() ) {
-			$footer = '';
-		} else {
-			$footer = $footer->text();
-			$url = wfMessage( 'babel-footer-url' )->inContentLanguage();
-			if ( ! $url->isDisabled() ) {
-				$footer = '[['.$url->text().'|'.$footer.']]';
-			}
-			$footer = '! class="mw-babel-footer" | ' . $footer;
+		$url = wfMessage( 'babel-footer-url' )->inContentLanguage();
+		$showfooter = '';
+		if ( !$footer->isDisabled() && !$url->isDisabled() ) {
+			$showfooter = '! class="mw-babel-footer" | [['.$url->text().'|'.$footer->text().']]';
 		}
 		$cellspacing = Babel::mHtmlAttrib( 'cellspacing', 'babel-box-cellspacing' );
 		$cellpadding = Babel::mHtmlAttrib( 'cellpadding', 'babel-box-cellpadding' );
@@ -87,7 +82,7 @@ $top
 |-
 | $content
 |-
-$footer
+$showfooter
 |}
 EOT;
 		return $tower;
