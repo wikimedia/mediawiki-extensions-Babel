@@ -254,18 +254,18 @@ EOT;
 
 		$text = wfMsgExt( "babel-$level-n",
 			array( 'language' => $language, 'parsemag' ),
-			$categoryMain, $categoryMain, '', self::$title->getDBkey()
+			$categoryLevel, $categoryMain, '', self::$title->getDBkey()
 		);
 
 		$fallback = wfMsgExt( "babel-$level-n",
 			array( 'language' => Language::getFallbackfor( $language ), 'parsemag' ),
-			$categoryMain, $categoryMain, '', self::$title->getDBkey()
+			$categoryLevel, $categoryMain, '', self::$title->getDBkey()
 		);
 
 		if ( $text == $fallback ) {
 			$text = wfMsgExt( "babel-$level",
 				array( 'language' => $language, 'parsemag' ),
-				$categoryMain, $categoryMain, $name, self::$title->getDBkey()
+				$categoryLevel, $categoryMain, $name, self::$title->getDBkey()
 			);
 		}
 
