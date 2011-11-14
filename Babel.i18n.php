@@ -2585,6 +2585,12 @@ $messages['ka'] = array(
 	'babel-N-n' => 'ამ მომხმარებლის [[$1|მშობლიური ენა]] არის [[$2|ქართული]].',
 );
 
+/** Kara-Kalpak (Qaraqalpaqsha) */
+$messages['kaa'] = array(
+	'babel-4-n' => "Bul qollanıwshı ushın [[$2|qaraqalpaq tili]] ana tilge jaqın da'rejede bolıp esaplanadı.",
+	'babel-N-n' => 'Bul qollanıwshı ushın [[$2|qaraqalpaq tili]] ana til bolıp esaplanadı.',
+);
+
 /** Адыгэбзэ (Адыгэбзэ)
  * @author Beco1977
  */
