@@ -61,6 +61,7 @@ $messages['en'] = array(
  * @author Raimond Spekking
  * @author Raymond
  * @author RobertL
+ * @author SPQRobin
  * @author Siebrand
  * @author The Evil IP address
  */
@@ -79,9 +80,15 @@ For installations having a \'Babel users per language\' category tree, its root 
 When translating, you can copy the category name from existing Babel systems in your language, but you can as well use a more generic name and leave it to individual installations, how to deal with it.
 
 There is no need to alter the name space name <code lang="en">Category</code>.',
+	'babel-autocreate-text-levels' => 'Text describing a category, at the top of the category page. 
+
+* $1 is the level (0 to 5, or N).
+* $2 is a language name.
+* $3 is a language code (optional; for customisation).',
 	'babel-autocreate-text-main' => 'Text describing a category, at the top of the category page. 
 
-$1 is a language name.',
+* $1 is a language name.
+* $2 is a language code (optional; for customisation).',
 	'babel-directionality' => 'Directionality of the language you are translating in (valid  values: "ltr" for left to right (default), or "rtl" for right to left).
 
 \'\'\'Warning: Do not translate "ltr" or "rtl" into your language!\'\'\'',
