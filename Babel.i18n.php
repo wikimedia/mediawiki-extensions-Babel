@@ -2189,6 +2189,7 @@ $messages['ht'] = array(
 
 /** Hungarian (Magyar)
  * @author Dani
+ * @author Dj
  * @author Glanthor Reviol
  * @author Xbspiro
  */
@@ -2215,6 +2216,7 @@ $messages['hu'] = array(
 	'babel-4-n' => 'Ez a szerkesztő [[$1|közel anyanyelvi]] szinten beszéli a [[$2|magyar]] nyelvet.',
 	'babel-5-n' => 'Ez a szerkesztő [[$1|professzionális]] szinten beszéli a [[$2|magyar]] nyelvet.',
 	'babel-N-n' => 'Ennek a szerkesztőnek [[$2|magyar]] az [[$1|anyanyelve]].',
+	'babel-footer' => 'Szerkesztők nyelvek szerint',
 );
 
 /** Armenian (Հայերեն)
@@ -3253,6 +3255,35 @@ $messages['lzz'] = array(
 	'babel-4-n' => 'Am maxmarek [[$1|nananena-muşi steri]] [[$2|Lazuri]] ğarğalaps.',
 	'babel-5-n' => "Am maxmares [[$1|p'rofesyonelurot]] [[$2|Lazuri]] uçkin.",
 	'babel-N-n' => 'Am maxmareşi [[$1|nananena]]-muşi [[$2|Lazuri]] ren.',
+);
+
+/** Basa Banyumasan (Basa Banyumasan)
+ * @author StefanusRA
+ */
+$messages['map-bms'] = array(
+	'babel' => 'Informasi Babel Panganggo',
+	'babel-desc' => 'Nambahna fungsi parser <code>#babel</code> sing marengaké générasi otomatis kolom kothak panganggo babel mawa kamungkinan nglebokna cithakan kustomisasi',
+	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Kategori:Panganggo miturut basa',
+	'babel-autocreate-abort' => 'Jeneng panganggo sing Rika lebokna kuwe digunakna nggo nggawe  kategori otomatis [[$1|Babel]] lan ora teyeng didaftarna.',
+	'babel-autocreate-reason' => 'Otomatis nggawe kaca kategori [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'Panganggo nang kategori kiye nandakna nek dheweke nduwe kemampuan $1 nggo basa $2.',
+	'babel-autocreate-text-main' => 'Panganggo nang kategori kiye nandakna nek dheweke nduwe kemampuan basa $1.',
+	'babel-0' => 'Panganggo kiye [[$1|ora]] duwé kawruh [[$2|$3]] (utawa angèl banget mangertèni).',
+	'babel-1' => 'Panganggo kiye duwé kawruh [[$1|dhasar]] [[$2|$3]].',
+	'babel-2' => 'Panganggo kiye duwé kawruh [[$1|madya]] [[$2|$3]].',
+	'babel-3' => 'Panganggo kiye duwé kawruh [[$1|mahir]] [[$2|$3]].',
+	'babel-4' => 'Panganggo kiye duwé kawruh [[$1|sing meh padha karo panutur ibu]] sekang [[$2|$3]].',
+	'babel-5' => 'Panganggo kiye duwé kawruh [[$1|profésional]] [[$2|$3]].',
+	'babel-N' => 'Panganggo kiye [[$1|panutur ibu]] [[$2|$3]].',
+	'babel-0-n' => 'Panganggo kiye [[$1|ora]] bisa [[$2|basa Banyumasan]] (utawa angèl banget mangertèni).',
+	'babel-1-n' => 'Panganggo kiye duwé kawruh [[$1|dhasar]] [[$2|basa Banyumasan]].',
+	'babel-2-n' => 'Panganggo kiye duwé kawruh [[$1|madya]] [[$2|basa Banyumasan]].',
+	'babel-3-n' => 'Panganggo kiye duwé kawruh [[$1|mahir]] [[$2|basa Banyumasan]].',
+	'babel-4-n' => 'Panganggo kiye duwé kawruh [[$1|sing meh padha karo panutur ibu]] sekang [[$2|basa Banyumasan]].',
+	'babel-5-n' => 'Panganggo kiye duwé kawruh [[$1|profésional]] [[$2|basa Banyumasan]].',
+	'babel-N-n' => 'Panganggo kiye [[$1|panutur ibu]] [[$2|basa Banyumasan]].',
+	'babel-footer' => 'Panganggo miturut basa',
 );
 
 /** Moksha (Мокшень)
@@ -4343,12 +4374,15 @@ $messages['rm'] = array(
  * @author Cin
  * @author Firilacroco
  * @author KlaudiuMihaila
+ * @author Minisarm
  */
 $messages['ro'] = array(
 	'babel' => 'Informații Babel despre utilizator',
 	'babel-desc' => 'Adaugă funcția de parsare <code>#babel</code> pentru generarea automată a coloanei de cutii de utilizator babel, cu posibilitatea de a include formate personalizate',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Categorie:Babel - Utilizatori după limbă',
+	'babel-autocreate-text-levels' => 'Utilizatorii din această categorie cunosc limba  $2 la nivelul  $1.',
+	'babel-autocreate-text-main' => 'Utilizatorii din această categorie cunosc limba  $1.',
 	'babel-0' => 'Acest utilizator [[$1|nu]] are cunoștințe de [[$2|$3]] (sau înțelege cu mare dificultate).',
 	'babel-1' => 'Acest utilizator poate contribui cu un nivel [[$1|de bază]] de [[$2|$3]].',
 	'babel-2' => 'Acest utilizator poate contribui cu un nivel [[$1|intermediar]] de [[$2|$3]].',
@@ -4363,6 +4397,7 @@ $messages['ro'] = array(
 	'babel-4-n' => 'Acest utilizator poate contribui cu un nivel [[$1|aproape nativ]] de [[$2|română]].',
 	'babel-5-n' => 'Acest utilizator contribuie folosind un nivel [[$1|profesional]] de [[$2|română]].',
 	'babel-N-n' => 'Acest utilizator este un vorbitor [[$1|nativ]] al [[$2|limbii române]].',
+	'babel-footer' => 'Utilizatori după limbă',
 );
 
 /** Tarandíne (Tarandíne)
