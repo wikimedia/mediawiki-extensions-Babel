@@ -3947,6 +3947,18 @@ $messages['pap'] = array(
 	'babel' => 'Babel; Informashon di Usuario',
 	'babel-desc' => 'Ta agrega e <code>#babel</code> , ku e funshon di generá un Kaha Babel den e kaha di usuario',
 	'babel-url' => 'Proyecto: Babel',
+	'babel-0' => 'E uzadónan aki [[$1|no]] ta komprondé [[$2|$3]].',
+	'babel-1' => 'E uzadónan aki por papia [[$2|$3]] na un nivel [[$1|básiko]].',
+	'babel-2' => 'E uzadónan aki por papia [[$2|$3]] na un nivel [[$1|intermedio]].',
+	'babel-3' => 'E uzadónan aki por kontribuí na [[$2|$3]] na un nivel [[$1|avansá]].',
+	'babel-4' => 'Pa e uzadónan aki, [[$2|$3]] ta nan di dos idioma.',
+	'babel-N' => 'E uzadónan aki por papia [[$2|$3]] na un nivel [[$1|nativo]].',
+	'babel-0-n' => 'E uzadónan aki [[$1|no]] ta komprondé [[$2|Papiamentu]].',
+	'babel-1-n' => 'E uzadónan aki por papia [[$2|Papiamentu]] na un nivel [[$1|básiko]].',
+	'babel-2-n' => 'E uzadónan aki por papia [[$2|Papiamentu]] na un nivel [[$1|intermedio]].',
+	'babel-3-n' => 'E uzadónan aki por kontribuí na [[$2|Papiamentu]] na un nivel [[$1|avansá]].',
+	'babel-4-n' => 'Pa e uzadónan aki, [[$2|Papiamentu]] ta nan di dos idioma.',
+	'babel-N-n' => 'E uzadónan aki por papia [[$2|Papiamentu]] na un nivel [[$1|nativo]].',
 );
 
 /** Picard (Picard)
@@ -4894,6 +4906,12 @@ $messages['sr-el'] = array(
 	'babel-4-n' => 'Ovaj korisnik [[$1|tečno]] govori [[$2|srpski jezik]].',
 	'babel-5-n' => 'Ovaj korisnik ima [[$1|profesionalno]] znanje [[$2|srpskog jezika]].',
 	'babel-N-n' => '[[$1|Maternji jezik]] ovog korisnika je [[$2|srpski jezik]].',
+);
+
+/** Sranan Tongo (Sranantongo) */
+$messages['srn'] = array(
+	'babel-0' => 'Disi masyin abi [[$1|no takifustani]] fu a [[$2|$3]] (efu kan a frustan nanga pasar muliki).',
+	'babel-0-n' => 'Disi masyin abi [[$1|no takifustani]] fu a [[$2|Sranantongo]] (efu kan a frustan nanga pasar muliki).',
 );
 
 /** Seeltersk (Seeltersk)
@@ -5850,6 +5868,20 @@ $messages['yue'] = array(
 	'babel-4-n' => '呢位用戶有[[$1|接近母語講者]]嘅[[$2|廣東話]]知識。',
 	'babel-5-n' => '呢位用戶有[[$1|專業]]嘅[[$2|廣東話]]知識。',
 	'babel-N-n' => '呢位用戶明白以[[$1|母語]]為主嘅[[$2|廣東話]]。',
+);
+
+/** Zeeuws (Zeêuws) */
+$messages['zea'] = array(
+	'babel-1' => "Deêze gebruker praot en verstaet [[$1|'n bitje]] [[$2|$3]].",
+	'babel-2' => 'Deêze gebruker praot en verstaet [[$1|aoreg]] [[$2|$3]].',
+	'babel-3' => 'Deêze gebruker praot [[$1|vloeiend]] [[$2|$3]].',
+	'babel-4' => "Deêze gebruker praot [[$2|$3]] [[$1|asof't z'n moerstaele is]].",
+	'babel-N' => 'Deêze gebruker eit [[$2|$3]] as [[$1|moerstaele]].',
+	'babel-1-n' => "Deêze gebruker praot en verstaet [[$1|'n bitje]] [[$2|Zeêuws]].",
+	'babel-2-n' => 'Deêze gebruker praot en verstaet [[$1|aoreg]] [[$2|Zeêuws]].',
+	'babel-3-n' => 'Deêze gebruker praot [[$1|vloeiend]] [[$2|Zeêuws]].',
+	'babel-4-n' => "Deêze gebruker praot [[$2|Zeêuws]] [[$1|asof't z'n moerstaele is]].",
+	'babel-N-n' => 'Deêze gebruker eit [[$2|Zeêuws]] as [[$1|moerstaele]].',
 );
 
 /** Chinese (中文)
