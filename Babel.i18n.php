@@ -5180,6 +5180,7 @@ $messages['tg-latn'] = array(
 
 /** Thai (ไทย)
  * @author Akkhaporn
+ * @author Horus
  * @author Manop
  * @author Passawuth
  */
@@ -5206,6 +5207,7 @@ $messages['th'] = array(
 	'babel-4-n' => 'ผู้ใช้คนนี้สามารถใช้[[$2|ภาษาไทย]]ได้เหมือน[[$1|ภาษาแม่]]',
 	'babel-5-n' => 'ผู้ใช้คนนี้สามารถใช้[[$2|ภาษาไทย]]ได้อย่าง[[$1|เชี่ยวชาญ]]',
 	'babel-N-n' => 'ผู้ใช้คนนี้ใช้[[$2|ภาษาไทย]]เป็น[[$1|ภาษาแม่]]',
+	'babel-footer' => 'ผู้ใช้ตามภาษา',
 );
 
 /** Turkmen (Türkmençe)
