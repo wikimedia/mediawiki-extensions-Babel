@@ -2422,7 +2422,7 @@ $messages['io'] = array(
 $messages['is'] = array(
 	'babel' => 'Málkassi',
 	'babel-url' => 'Project:Málkassi',
-	'babel-footer-url' => ':Category:Babel - Notendur eftir tungumáli',
+	'babel-footer-url' => ':Category:Notendur eftir tungumáli',
 	'babel-autocreate-reason' => 'Bý sjálfkrafa til [[$1|Málkassa]] flokk.',
 	'babel-autocreate-text-levels' => 'Notendur í þessum flokk hafa gefið upp að þeir hafi $1-kunnáttu á $2 máli.',
 	'babel-autocreate-text-main' => 'Notendur í þessum flokk hafa gefið upp að þeir hafi kunnáttu á $1 máli.',
@@ -5435,6 +5435,7 @@ $messages['uk'] = array(
 
 /** Urdu (اردو)
  * @author GerardM
+ * @author Istabani
  * @author محبوب عالم
  */
 $messages['ur'] = array(
@@ -5459,6 +5460,7 @@ $messages['ur'] = array(
 	'babel-4-n' => 'یہ صارف [[$2|انگریزی]] کے بارے میں [[$1|پیدائشی متکلم]] کے قریب قریب دانش رکھتا ہے.',
 	'babel-5-n' => 'یہ صارف [[$2|انگریزی]] کا [[$1|پیشہ ورانہ]] دانش رکھتا ہے.',
 	'babel-N-n' => 'یہ صارف [[$2|انگریزی]] کا [[$1|پیدائشی متکلم]] ہے.',
+	'babel-footer' => 'زبان کے اعتبار سے صارف',
 );
 
 /** Uzbek (O'zbek)
