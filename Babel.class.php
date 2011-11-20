@@ -19,6 +19,7 @@ class Babel {
 	 * @return string: Babel tower.
 	 */
 	public static function Render( $parser ) {
+		global $wgBabelUseUserLanguage;
 		$parameters = func_get_args();
 		array_shift( $parameters );
 		self::$title = $parser->getTitle();
@@ -56,7 +57,13 @@ class Babel {
 			}
 		}
 
-		$top = wfMessage( 'babel', self::$title->getDBkey() )->inContentLanguage();	// TODO: allow user language
+		$top = wfMessage( 'babel', self::$title->getDBkey() )->inContentLanguage();
+		if ( $wgBabelUseUserLanguage ) {
+			$top = $top->inLanguage( $parser->getOptions()->getUserLangObj() );
+		} else {
+			$top = $top->inContentLanguage();
+		}
+
 		if ( $top->isDisabled() ) {
 			$top = '';
 		} else {
@@ -67,7 +74,13 @@ class Babel {
 			}
 			$top = '! class="mw-babel-header" | ' . $top;
 		}
-		$footer = wfMessage( 'babel-footer', self::$title->getDBkey() )->inContentLanguage();	// TODO: allow user language
+		$footer = wfMessage( 'babel-footer', self::$title->getDBkey() );
+		if ( $wgBabelUseUserLanguage ) {
+			$footer = $footer->inLanguage( $parser->getOptions()->getUserLangObj() );
+		} else {
+			$footer = $footer->inContentLanguage();
+		}
+
 		$url = wfMessage( 'babel-footer-url' )->inContentLanguage();
 		$showfooter = '';
 		if ( !$footer->isDisabled() && !$url->isDisabled() ) {
