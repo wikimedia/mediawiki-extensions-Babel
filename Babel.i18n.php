@@ -5477,6 +5477,7 @@ $messages['vec'] = array(
 	'babel' => 'Babel utente',
 	'babel-desc' => 'Zonta la funsion parser <code>#babel</code> par permétar la generazion automatica de un riquadro "utente Babel" con la possibilità de inserir template personalizà',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Utenti par lengua',
 	'babel-autocreate-abort' => 'El nome utente speçificà el xe doparà par la creassion automàtega de categorie [[$1|Babel]] e no se pol registrarlo.',
 	'babel-autocreate-reason' => 'Creo automaticamente la pàxena de la categoria [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'I utenti in sta categoria i gà indicà de verghe un livèl de conossensa $1 de la lengua $2.',
@@ -5495,6 +5496,7 @@ $messages['vec'] = array(
 	'babel-4-n' => 'Sto utente qua el parla la [[$2|lengua veneta]] squasi [[$1|come la so lengua mare]].',
 	'babel-5-n' => 'Sto utente qua el parla la [[$2|lengua veneta]] a [[$1|livèi da professionista]].',
 	'babel-N-n' => "Sto utente qua el parla la [[$2|lengua veneta]] [[$1|da co che'l xe nato]].",
+	'babel-footer' => 'Utenti par lengua',
 );
 
 /** Veps (Vepsan kel')
