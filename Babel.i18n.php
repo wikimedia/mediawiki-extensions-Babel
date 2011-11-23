@@ -2512,7 +2512,7 @@ $messages['ja'] = array(
 	'babel-footer' => '言語別の利用者',
 );
 
-/** Jamaican Creole English (Patios)
+/** Jamaican Creole English (Patois)
  * @author Yocahuna
  */
 $messages['jam'] = array(
@@ -3896,6 +3896,7 @@ $messages['oc'] = array(
 );
 
 /** Oriya (ଓଡ଼ିଆ)
+ * @author MKar
  * @author Mormegil
  * @author Odisha1
  * @author Psubhashish
@@ -3922,7 +3923,7 @@ $messages['or'] = array(
 	'babel-3-n' => 'ଏହି ଇଉଜର [[$2|ଇଂରାଜି]] ଭାଷା [[$1|ଭଲକରି]] ଜାଣନ୍ତି ।',
 	'babel-4-n' => 'ଏହି ଇଉଜର [[$2|ଇଂରାଜି]] ଭାଷା  ତାହାର [[$1|ମୁଳ ଲୋକଙ୍କ]] ଭଳି ଜାଣନ୍ତି ।',
 	'babel-5-n' => 'ଏହି ସଭ୍ୟଙ୍କୁ [[$2|ଇଂରାଜୀ]] ଭାଷା [[$1|ଭଲ ଭାବରେ]] ଜଣାଅଛି ।',
-	'babel-N-n' => 'ଏହି ବ୍ୟବହାରକାରିଙ୍କ [[$1|ନିଜ]] ଭାଷା ହେଲା [[$2|ଇଂରାଜି]]।',
+	'babel-N-n' => 'ଏହି ବ୍ୟବହାରକାରିଙ୍କ [[$1|ନିଜ]] ଭାଷା ହେଲା [[$2|ଓଡ଼ିଆ]]।',
 	'babel-footer' => 'ଭାଷା ଅନୁସାରେ ସଭ୍ୟ',
 );
 
@@ -4496,7 +4497,7 @@ $messages['rue'] = array(
 	'babel-N-n' => 'Для сього хосновача [[$2|русинськый язык]] - [[$1|рôдный]].',
 );
 
-/** Sanskrit (संस्कृत)
+/** Sanskrit (संस्कृतम्)
  * @author Kaustubh
  */
 $messages['sa'] = array(
