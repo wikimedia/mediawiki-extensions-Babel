@@ -64,6 +64,7 @@ $messages['en'] = array(
  * @author SPQRobin
  * @author Siebrand
  * @author The Evil IP address
+ * @author Umherirrender
  */
 $messages['qqq'] = array(
 	'babel' => "Header of Babel box. Parameter $1 is the name of the page it is used on, for GENDER support.<!-- The header is shown in the content language of the site, not the interface language set in a user's preferences.
@@ -89,9 +90,11 @@ There is no need to alter the name space name <code lang="en">Category</code>.',
 
 * $1 is a language name.
 * $2 is a language code (optional; for customisation).',
-	'babel-directionality' => 'Directionality of the language you are translating in (valid  values: "ltr" for left to right (default), or "rtl" for right to left).
+	'babel-autocreate-user' => '{{optional}}',
+	'babel-directionality' => '{{optional}}
+Directionality of the language you are translating in (valid  values: "ltr" for left to right (default), or "rtl" for right to left).
 
-\'\'\'Warning: Do not translate "ltr" or "rtl" into your language!\'\'\'',
+{{doc-important|Do not translate "ltr" or "rtl" into your language!}}',
 	'babel-0' => '{{Babel Message Description|0}}',
 	'babel-1' => '{{Babel Message Description|1}}',
 	'babel-2' => '{{Babel Message Description|2}}',
@@ -3451,11 +3454,13 @@ $messages['mo'] = array(
 
 /** Marathi (मराठी)
  * @author Kaustubh
+ * @author Pravins
  */
 $messages['mr'] = array(
 	'babel' => 'बाबेल सदस्य माहिती',
 	'babel-desc' => 'एखाद्या सदस्याच्या बाबेल सदस्यपेट्या आपोआप देण्यासाठी उपयुक्त अशी <code>#babel</code> पार्सर क्रिया वाढवितो. यामध्ये स्वत: निर्माण केलेले सदस्य साचे सुद्धा देता येतात.',
 	'babel-url' => 'Project:बाबेल',
+	'babel-footer-url' => 'भाषाप्रमाणे वापरकर्ते',
 	'babel-0' => 'या सदस्याला [[$2|$3]] चे ज्ञान [[$1|नाही]] (किंवा समजण्यासाठी खूप कष्ट पडतात).',
 	'babel-1' => 'या सदस्याला [[$2|$3]] चे [[$1|प्राथमिक]] ज्ञान आहे.',
 	'babel-2' => 'या सदस्याला [[$2|$3]] चे [[$1|मध्यम स्तराचे]] ज्ञान आहे.',
@@ -3939,6 +3944,35 @@ $messages['os'] = array(
 	'babel-3-n' => 'Ацы архайæг [[$2|иронау]] кæсын æмæ фыссын [[$1|тынг хорз]] зоны.',
 	'babel-4-n' => 'Ацы архаæйджы [[$2|ирон æвзаг]] у [[$1|мадæлон æвзаджы уавæрмæ ’ввæхс]].',
 	'babel-N-n' => '[[$2|Ирон]] у ацы архайæджы [[$1|мадæлон æвзаг]].',
+);
+
+/** Punjabi (ਪੰਜਾਬੀ)
+ * @author Aalam
+ */
+$messages['pa'] = array(
+	'babel' => 'ਬਬੇਲ ਯੂਜ਼ਰ ਜਾਣਕਾਰੀ',
+	'babel-desc' => '<code>#babel</code> ਪਾਰਸਰ ਫੰਕਸ਼ਨ ਜੋੜਨ ਨਾਲ ਬਬੇਲ ਯੂਜ਼ਰ-ਬਾਕਸ ਕਾਲਮ ਵਿੱਚ ਪਸੰਦੀਦਾ ਟੈਪਲੇਟ ਦੀ ਸਮੱਰਥਾ ਤਿਆਰ ਕਰਨ ਲਈ ਸਹਾਇਕ ਹੈ',
+	'babel-url' => 'Project:ਬਬੇਲ',
+	'babel-footer-url' => ':Category:ਬਬੇਲ - ਭਾਸ਼ਾ ਮੁਤਾਬਕ ਯੂਜ਼ਰ',
+	'babel-autocreate-abort' => 'ਤੁਹਾਡੇ ਵਲੋਂ ਦਿੱਤੇ ਯੂਜ਼ਰ ਨੇ [[$1|Babel]] ਕੈਟਾਗਰੀ ਆਪੇ-ਸੋਧ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ ਅਤੇ ਰਜਿਸਟਰ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।',
+	'babel-autocreate-reason' => 'ਆਟਮੋਟਿਕ ਹੀ [[$1|Babel]] ਕੈਟਾਗਰੀ ਪੇਜ਼ ਬਣਾਓ।',
+	'babel-autocreate-text-levels' => 'ਇਹ ਵਰਗ ਦੇ ਯੂਜ਼ਰ ਦਰਸਾਉਂਦੇ ਹਨ ਕਿ ਉਹਨਾਂ ਕੋਲ $2 ਭਾਸ਼ਾ ਲਈ $1 ਪੱਧਰ ਦਾ ਤਜਰਬਾ ਹੈ।',
+	'babel-autocreate-text-main' => 'ਇਹ ਵਰਗ ਦੇ ਯੂਜ਼ਰ ਦਰਸਾਉਂਦੇ ਹਨ ਕਿ ਉਹਨਾਂ ਕੋਲ $1 ਭਾਸ਼ਾ ਦਾ ਗਿਆਨ ਹੈ।',
+	'babel-0' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|$3]] ਦਾ [[$1|no]] ਗਿਆਨ ਨਹੀਂ ਹੈ (ਜਾਂ ਸਮਝਣ ਲਈ ਬਹੁਤ ਔਖਾ ਹੈ)।',
+	'babel-1' => 'ਇਹ ਯੂਜ਼ਰ ਕੋਲ  [[$2|$3]] ਦਾ [[$1|basic]] ਗਿਆਨ ਹੈ।',
+	'babel-2' => 'ਇਹ ਯੂਜ਼ਰ ਕੋਲ [[$2|$3]] ਦਾ [[$1|intermediate]] ਗਿਆਨ ਹੈ।',
+	'babel-3' => 'ਇਹ ਯੂਜ਼ਰ ਕੋਲ [[$2|$3]] ਦਾ [[$1|advanced]] ਗਿਆਨ ਹੈ।',
+	'babel-4' => 'ਇਹ ਯੂਜ਼ਰ ਕੋਲ [[$2|$3]] ਦਾ [[$1|near native speaker]] ਗਿਆਨ ਹੈ।',
+	'babel-5' => 'ਇਹ ਯੂਜ਼ਰ ਕੋਲ [[$2|$3]] ਦਾ [[$1|professional]] ਗਿਆਨ ਹੈ।',
+	'babel-N' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|$3]] ਦੀ [[$1|native]] ਸਮਝ ਹੈ।',
+	'babel-0-n' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|English]] ਦਾ [[$1|no]] ਗਿਆਨ ਨਹੀਂ ਹੈ (ਜਾਂ ਸਮਝਣ ਲਈ ਬਹੁਤ ਔਖਾ ਹੈ)।',
+	'babel-1-n' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|English]] ਦਾ [[$1|basic]] ਗਿਆਨ ਹੈ।',
+	'babel-2-n' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|English]] ਦਾ [[$1|intermediate]] ਗਿਆਨ ਹੈ।',
+	'babel-3-n' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|English]] ਦਾ [[$1|advanced]] ਗਿਆਨ ਹੈ।',
+	'babel-4-n' => 'ਇਹ ਯੂਜ਼ਰ ਕੋਲ [[$2|English]] ਦਾ [[$1|near native speaker]] ਗਿਆਨ ਹੈ।',
+	'babel-5-n' => 'ਇਹ ਯੂਜ਼ਰ ਕੋਲ [[$2|English]] ਦਾ [[$1|professional]] ਗਿਆਨ ਹੈ।',
+	'babel-N-n' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|English]] ਦੀ [[$1|native]] ਸਮਝ ਹੈ।',
+	'babel-footer' => 'ਭਾਸ਼ਾ ਮੁਤਾਬਕ ਯੂਜ਼ਰ',
 );
 
 /** Papiamento (Papiamentu)
