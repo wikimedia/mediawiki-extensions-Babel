@@ -3815,11 +3815,13 @@ $messages['nl-informal'] = array(
  * @author Finnrind
  * @author Gunnernett
  * @author Harald Khan
+ * @author Ranveig
  */
 $messages['nn'] = array(
 	'babel' => 'Babelinformasjon',
 	'babel-desc' => 'Legg til parserfunksjonen <code>#babel</code> for å automatisk lage ein babelboks der ein kan bruka sjølvlaga malar',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Kategori:Babel/Brukarar etter språk',
 	'babel-autocreate-abort' => 'Brukarnamnet du valte er i bruk for automatisk oppretting av [[$1|Babel]]-kategoriar og kan difor ikkje verta registrert.',
 	'babel-autocreate-reason' => 'Oprettar automatisk ei [[$1|Babel]]-kategori-sida.',
 	'babel-autocreate-text-levels' => 'Brukarar i denne kategorien har eit språkdugleiksnivå på $1 for $2.',
@@ -3838,6 +3840,7 @@ $messages['nn'] = array(
 	'babel-4-n' => 'Denne brukaren snakkar og skriv [[$2|nynorsk]] om lag på [[$1|morsmålsnivå]].',
 	'babel-5-n' => 'Denne brukaren har [[$1|profesjonell]] kjennskap til [[$2|nynorsk]].',
 	'babel-N-n' => 'Denne brukaren har [[$2|norsk]] som [[$1|morsmål]] og meistrar nynorsk.',
+	'babel-footer' => 'Brukarar etter språk',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
