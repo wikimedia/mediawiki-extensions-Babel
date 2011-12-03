@@ -1630,28 +1630,28 @@ $messages['fr'] = array(
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
-	'babel' => 'Enformacions Babél sur l’utilisator',
-	'babel-desc' => 'Apond la fonccion du parsor <code>#babel</code> que pèrmèt la crèacion ôtomatica d’una bouèta utilisator Babél avouéc la possibilitât d’y encllure des modèlos locals.',
+	'babel' => 'Enformacions Babél sur l’usanciér',
+	'babel-desc' => 'Apond la fonccion du parsor <code>#babel</code> que pèrmèt la crèacion ôtomatica d’una bouèta usanciér Babél avouéc la possibilitât d’y encllure des modèlos locals.',
 	'babel-url' => 'Project:Babél',
 	'babel-footer-url' => ':Category:Babél - Utilisators per lengoua',
 	'babel-autocreate-abort' => 'Lo nom d’utilisator que vos éd buchiê est utilisâ por fâre ôtomaticament les catègories [[$1|Babél]] et pôt pas étre encartâ.',
 	'babel-autocreate-reason' => 'Crèacion ôtomatica de la catègorie [[$1|Babél]].',
 	'babel-autocreate-text-levels' => 'Los utilisators dens ceta catègorie ont endicâ qu’ont lo nivél $1 por la lengoua $2.',
 	'babel-autocreate-text-main' => 'Los utilisators dens ceta catègorie ont endicâ qu’ont des cognessences en $1.',
-	'babel-0' => 'Ceti utilisator at [[$1|gins]] de cognessence en [[$2|$3]] (ou ben lo comprend avouéc de grôsses dificultâts).',
-	'babel-1' => 'Ceti utilisator at des cognessences [[$1|totes simples]] en [[$2|$3]].',
-	'babel-2' => 'Ceti utilisator at des cognessences [[$1|moyenes]] en [[$2|$3]].',
-	'babel-3' => 'Ceti utilisator at des cognessences [[$1|avanciês]] en [[$2|$3]].',
-	'babel-4' => 'Ceti utilisator at des cognessences prôches de la [[$1|lengoua matèrnâla]] en [[$2|$3]].',
-	'babel-5' => 'Ceti utilisator at des cognessences [[$1|profèssionèles]] en [[$2|$3]].',
-	'babel-N' => 'Ceti utilisator at por [[$1|lengoua matèrnâla]] lo [[$2|$3]].',
-	'babel-0-n' => 'Ceti utilisator at [[$1|gins]] de cognessence en [[$2|arpetan]] (ou ben lo comprend avouéc de grôsses dificultâts).',
-	'babel-1-n' => 'Ceti utilisator at des cognessences [[$1|totes simples]] en [[$2|arpetan]].',
-	'babel-2-n' => 'Ceti utilisator at des cognessences [[$1|moyenes]] en [[$2|arpetan]].',
-	'babel-3-n' => 'Ceti utilisator at des cognessences [[$1|avanciês]] en [[$2|arpetan]].',
-	'babel-4-n' => 'Ceti utilisator at des cognessences prôches de la [[$1|lengoua matèrnâla]] en [[$2|arpetan]].',
-	'babel-5-n' => 'Ceti utilisator at des cognessences [[$1|profèssionèles]] en [[$2|arpetan]].',
-	'babel-N-n' => 'Ceti utilisator at por [[$1|lengoua matèrnâla]] l’[[$2|arpetan]].',
+	'babel-0' => 'Ceti usanciér at [[$1|gins]] de cognessence en [[$2|$3]] (ou ben lo comprend avouéc de grôsses dificultâts).',
+	'babel-1' => 'Ceti usanciér at des cognessences [[$1|totes simples]] en [[$2|$3]].',
+	'babel-2' => 'Ceti usanciér at des cognessences [[$1|moyenes]] en [[$2|$3]].',
+	'babel-3' => 'Ceti usanciér at des cognessences [[$1|avanciês]] en [[$2|$3]].',
+	'babel-4' => 'Ceti usanciér at des cognessences prôches de la [[$1|lengoua matèrnâla]] en [[$2|$3]].',
+	'babel-5' => 'Ceti usanciér at des cognessences [[$1|profèssionèles]] en [[$2|$3]].',
+	'babel-N' => 'Ceti usanciér at por [[$1|lengoua matèrnâla]] lo [[$2|$3]].',
+	'babel-0-n' => 'Ceti usanciér at [[$1|gins]] de cognessence en [[$2|arpetan]] (ou ben lo comprend avouéc de grôsses dificultâts).',
+	'babel-1-n' => 'Ceti usanciér at des cognessences [[$1|totes simples]] en [[$2|arpetan]].',
+	'babel-2-n' => 'Ceti usanciér at des cognessences [[$1|moyenes]] en [[$2|arpetan]].',
+	'babel-3-n' => 'Ceti usanciér at des cognessences [[$1|avanciês]] en [[$2|arpetan]].',
+	'babel-4-n' => 'Ceti usanciér at des cognessences prôches de la [[$1|lengoua matèrnâla]] en [[$2|arpetan]].',
+	'babel-5-n' => 'Ceti usanciér at des cognessences [[$1|profèssionèles]] en [[$2|arpetan]].',
+	'babel-N-n' => 'Ceti usanciér at por [[$1|lengoua matèrnâla]] l’[[$2|arpetan]].',
 	'babel-footer' => 'Utilisators per lengoua',
 );
 
@@ -3493,14 +3493,19 @@ $messages['mo'] = array(
 /** Marathi (मराठी)
  * @author Evision
  * @author Kaustubh
+ * @author Mahitgar
  * @author Pravins
+ * @author Rahuldeshmukh101
  */
 $messages['mr'] = array(
 	'babel' => 'बाबेल सदस्य माहिती',
 	'babel-desc' => 'एखाद्या सदस्याच्या बाबेल सदस्यपेट्या आपोआप देण्यासाठी उपयुक्त अशी <code>#babel</code> पार्सर क्रिया वाढवितो. यामध्ये स्वत: निर्माण केलेले सदस्य साचे सुद्धा देता येतात.',
 	'babel-url' => 'Project:बाबेल',
 	'babel-footer-url' => 'भाषाप्रमाणे वापरकर्ते',
-	'babel-autocreate-abort' => 'आपण सुचविलेले सदस्यनाव बेबल या प्रवर्गाच्या स्वयंनिर्मिती साठी वापरले जाते, त्यामुळे त्याची नोंदणी होऊ शकत नाही.',
+	'babel-autocreate-abort' => 'आपण सुचविलेले सदस्यनाव [[$1|बेबल]] या प्रवर्गाच्या स्वयंनिर्मिती साठी वापरले जाते, त्यामुळे त्याची नोंदणी होऊ शकत नाही.',
+	'babel-autocreate-reason' => '[[$1|बॅबेल]] प्रवर्ग पानाची स्वयं निर्मिती होते आहे',
+	'babel-autocreate-text-levels' => 'या वर्गीकरणातील सदस्य $2 भाषेकरिता $1  कौशल्य पातळी असल्याचे दर्शवीतात',
+	'babel-autocreate-text-main' => 'या वर्गीकरणातील सदस्य $1  भाषेचे ज्ञान असल्याचे दर्शवीतात',
 	'babel-0' => 'या सदस्याला [[$2|$3]] चे ज्ञान [[$1|नाही]] (किंवा समजण्यासाठी खूप कष्ट पडतात).',
 	'babel-1' => 'या सदस्याला [[$2|$3]] चे [[$1|प्राथमिक]] ज्ञान आहे.',
 	'babel-2' => 'या सदस्याला [[$2|$3]] चे [[$1|मध्यम स्तराचे]] ज्ञान आहे.',
@@ -3515,6 +3520,7 @@ $messages['mr'] = array(
 	'babel-4-n' => 'या सदस्याला [[$2|मराठी]] चे [[$1|अति उच्च स्तराचे]] ज्ञान आहे.',
 	'babel-5-n' => 'या सदस्याला [[$2|मराठी]] चे [[$1|व्यावसायिक स्तराचे]] ज्ञान आहे.',
 	'babel-N-n' => 'या सदस्याला [[$2|मराठी]] चे [[$1|स्थानिक स्तराचे]] ज्ञान आहे.',
+	'babel-footer' => 'भाषे नुसार सदस्य',
 );
 
 /** Malay (Bahasa Melayu)
@@ -4402,6 +4408,7 @@ $messages['qu'] = array(
 	'babel-4-n' => 'Kay ruraqqa [[$2|Runa Simita]] [[$1|yaqa mama rimaynin hina]] yachaywanmi riman.',
 	'babel-5-n' => 'Kay ruraqqa [[$2|Runa Simita]] [[$1|amawtap]] yachayninwanmi riman.',
 	'babel-N-n' => 'Kay ruraqpa [[$1|mama siminqa]] [[$2|Runa Simim]].',
+	'babel-footer' => 'Ruraqkuna rimayninkama',
 );
 
 /** Romagnol (Rumagnôl)
