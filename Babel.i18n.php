@@ -185,6 +185,20 @@ $messages['ary'] = array(
 	'babel-N-n' => "Had l-mosṫeĥdim kayfhem l-loġa [[$2|l-Meġribiya]] bḫal [[$1|loġto l-'om]].",
 );
 
+/** Ladin (Ladin) */
+$messages['lld'] = array(
+	'babel-1' => 'Chësc utënt possa contribuì cun n livel [[$1|bas]] de [[$2|$3]].',
+	'babel-2' => 'Chësc utënt possa contribuì cun n livel [[$1|mesan]] de [[$2|$3]].',
+	'babel-3' => 'Chësc utënt possa contribuì cun n livel [[$1|aut]] de [[$2|$3]].',
+	'babel-4' => "Chësc utënt possa contribuì cun n livel [[$1|daujin ala rujeneda de l'oma]] de [[$2|$3]].",
+	'babel-N' => "Chësc utënt possa contribuì cun n livel [[$1|de rujeneda de l'oma]] de [[$2|$3]].",
+	'babel-1-n' => 'Chësc utënt possa contribuì cun n livel [[$1|bas]] de [[$2|ladin]].',
+	'babel-2-n' => 'Chësc utënt possa contribuì cun n livel [[$1|mesan]] de [[$2|ladin]].',
+	'babel-3-n' => 'Chësc utënt possa contribuì cun n livel [[$1|aut]] de [[$2|ladin]].',
+	'babel-4-n' => "Chësc utënt possa contribuì cun n livel [[$1|daujin ala rujeneda de l'oma]] de [[$2|ladin]].",
+	'babel-N-n' => "Chësc utënt possa contribuì cun n livel [[$1|de rujeneda de l'oma]] de [[$2|ladin]].",
+);
+
 /** Araona (Araona)
  * @author Ooswesthoesbes
  */
@@ -3201,6 +3215,7 @@ $messages['ltg'] = array(
 
 /** Latvian (Latviešu)
  * @author Dark Eagle
+ * @author Gleb Borisov
  * @author Papuass
  * @author Yyy
  */
@@ -3220,13 +3235,13 @@ $messages['lv'] = array(
 	'babel-4' => 'Šis lietotājs [[$2|$3]] valodu pārzina [[$1|gandrīz kā dzimto valodu]].',
 	'babel-5' => 'Šis lietotājs [[$2|$3]] valodu pārzina [[$1|profesionālā]] līmenī.',
 	'babel-N' => 'Šim lietotājam [[$2|$3]] valoda ir [[$1|dzimtā valoda]].',
-	'babel-0-n' => 'Šis lietotājs [[$2|Latviešu valodu]] [[$1|neprot]] (vai saprot ar ievērojamām grūtībām).',
-	'babel-1-n' => 'Šis lietotājs [[$2|Latviešu valodu]] prot [[$1|pamatlīmenī]].',
-	'babel-2-n' => 'Šis lietotājs [[$2|Latviešu valodu]] prot [[$1|vidējā]] līmenī.',
-	'babel-3-n' => 'Šis lietotājs [[$2|Latviešu valodu]] prot [[$1|padziļinātā]] līmenī.',
-	'babel-4-n' => 'Šis lietotājs [[$2|Latviešu valodu]] pārzina [[$1|gandrīz kā dzimto valodu]].',
-	'babel-5-n' => 'Šis lietotājs [[$2|Latviešu valodu]] pārzina [[$1|profesionālā]] līmenī.',
-	'babel-N-n' => 'Šim lietotājam [[$2|Latviešu valoda]] ir [[$1|dzimtā valoda]].',
+	'babel-0-n' => 'Šis lietotājs [[$2|latviešu valodu]] [[$1|neprot]] (vai saprot ar ievērojamām grūtībām).',
+	'babel-1-n' => 'Šis lietotājs [[$2|latviešu valodu]] prot [[$1|pamatlīmenī]].',
+	'babel-2-n' => 'Šis lietotājs [[$2|latviešu valodu]] prot [[$1|vidējā]] līmenī.',
+	'babel-3-n' => 'Šis lietotājs [[$2|latviešu valodu]] prot [[$1|padziļinātā]] līmenī.',
+	'babel-4-n' => 'Šis lietotājs [[$2|latviešu valodu]] pārzina [[$1|gandrīz kā dzimto valodu]].',
+	'babel-5-n' => 'Šis lietotājs [[$2|latviešu valodu]] pārzina [[$1|profesionālā]] līmenī.',
+	'babel-N-n' => 'Šim lietotājam [[$2|latviešu valoda]] ir [[$1|dzimtā valoda]].',
 );
 
 /** Literary Chinese (文言)
