@@ -39,15 +39,15 @@ class Babel {
 			$template = wfMessage( 'babel-template', $name )->inContentLanguage()->text();
 			if ( $name === '' ) {
 				continue;
-			} elseif ( self::mPageExists( $template ) ) {
-				// Existent template page has precedence
-				$templateParameters[0] = $template;
-				$template = implode('|', $templateParameters);
-				$content .= self::mGenerateNotaBox( $parser->replaceVariables( "{{{$template}}}" ) );
 			} elseif ( $components !== false ) {
 				// Non-existent page and valid parameter syntax, babel box
 				$content .= self::mGenerateBox( $components['code'], $components['level'] );
 				$content .= self::mGenerateCategories( $components['code'], $components['level'] );
+			} elseif ( self::mPageExists( $template ) ) {
+				// Check for a template
+				$templateParameters[0] = $template;
+				$template = implode('|', $templateParameters);
+				$content .= self::mGenerateNotaBox( $parser->replaceVariables( "{{{$template}}}" ) );
 			} elseif ( self::mValidTitle( $template ) ) {
 				// Non-existent page and invalid parameter syntax, red link.
 				$content .= self::mGenerateNotaBox( '[['.$template.']]' );
