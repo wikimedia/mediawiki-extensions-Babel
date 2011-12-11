@@ -1509,6 +1509,7 @@ $messages['eu'] = array(
 	'babel-4-n' => 'Erabiltzaile honek [[$1|euskaldun zahar baten antzeko mailan]] lagun dezake [[$2|euskara]]z.',
 	'babel-5-n' => 'Erabiltzaile honek [[$2|euskara]] [[$1|aditu]] mailan erabiltzen du.',
 	'babel-N-n' => 'Erabiltzaile hau [[$1|euskaldun zaharra]] da ([[$2|euskara]] du ama hizkuntza).',
+	'babel-footer' => 'Lankideak hizkuntzaren arabera',
 );
 
 /** Persian (فارسی)
