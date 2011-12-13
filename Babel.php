@@ -23,7 +23,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'name'            => 'Babel',
 	'version'         => '1.7.2',
 	'author'          => 'Robert Leverington',
-	'url'             => 'http://www.mediawiki.org/wiki/Extension:Babel',
+	'url'             => 'https://www.mediawiki.org/wiki/Extension:Babel',
 	'descriptionmsg'  => 'babel-desc',
 );
 
