@@ -1265,7 +1265,7 @@ $messages['da'] = array(
  */
 $messages['de'] = array(
 	'babel' => 'Babel – Benutzerinformationen',
-	'babel-desc' => 'Ergänzt die <code>#babel</code>-Parserfunktion zur automatischen Erstellung von Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden',
+	'babel-desc' => 'Ergänzt die Parserfunktion <code>#babel</code> zur automatischen Erstellung von „Babel“-Benutzerboxen mitsamt der Möglichkeit selbstdefinierte Vorlagen einzubinden',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Benutzer nach Sprache',
 	'babel-autocreate-abort' => 'Der ausgewählte Benutzername wird für die automatische Erstellung von [[$1|Babel]]-Kategorien benötigt und kann nicht registriert werden.',
