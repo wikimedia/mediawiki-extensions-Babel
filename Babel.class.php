@@ -191,9 +191,9 @@ EOT;
 	 * @return String: A single non-babel box, in wikitext format.
 	 */
 	protected static function mGenerateNotaBox( $content ) {
-		$dir_head = Babel::mHtmlAttrib( 'dir', 'babel-directionality' );
+		$dir_head = self::$title->getPageLanguage()->getDir();
 		$notabox = <<<EOT
-<div class="mw-babel-notabox"$dir_head>$content</div>
+<div class="mw-babel-notabox" dir="$dir_head">$content</div>
 EOT;
 		return $notabox;
 	}
@@ -220,16 +220,16 @@ EOT;
 		$code = BabelLanguageCodes::getCode( $code );
 		$text = self::mGetText( $name, $code, $level );
 
-		$dir_current = wfMsgExt( 'babel-directionality', array( 'language' => $code ) );
+		$dir_current = wfGetLangObj( $code )->getDir();
 
 		$cellspacing = Babel::mHtmlAttrib( 'cellspacing', 'babel-cellspacing' );
 		$cellpadding = Babel::mHtmlAttrib( 'cellpadding', 'babel-cellpadding' );
-		$dir_head = Babel::mHtmlAttrib( 'dir', 'babel-directionality' );
+		$dir_head = self::$title->getPageLanguage()->getDir();
 
 		$box = <<<EOT
-<div class="mw-babel-box mw-babel-box-$level"$dir_head>
+<div class="mw-babel-box mw-babel-box-$level" dir="$dir_head">
 {|$cellspacing$cellpadding
-!$dir_head | $header
+! dir="$dir_head" | $header
 | dir="$dir_current" | $text
 |}
 </div>
