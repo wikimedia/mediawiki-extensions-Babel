@@ -220,7 +220,7 @@ EOT;
 		$code = BabelLanguageCodes::getCode( $code );
 		$text = self::mGetText( $name, $code, $level );
 
-		$dir_current = wfGetLangObj( $code )->getDir();
+		$dir_current = Language::factory( $code )->getDir();
 
 		$cellspacing = Babel::mHtmlAttrib( 'cellspacing', 'babel-cellspacing' );
 		$cellpadding = Babel::mHtmlAttrib( 'cellpadding', 'babel-cellpadding' );
