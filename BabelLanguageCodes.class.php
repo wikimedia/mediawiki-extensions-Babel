@@ -48,20 +48,8 @@ class BabelLanguageCodes {
 			return false;
 		}
 
-		if ( $language === null ) {
-			$language = $code;
-		}
-
-		// Try CLDR extension, then MediaWiki language names.
-		if ( class_exists( 'LanguageNames' ) ) {
-			$names = LanguageNames::getNames(
-				$language,
-				LanguageNames::FALLBACK_NORMAL,
-				LanguageNames::LIST_MW_AND_CLDR
-			);
-		} else {
-			$names = Language::getLanguageNames();
-		}
+		$language = $language === null ? $code : $language;
+		$names = Language::getTranslatedLanguageNames( $language );
 		if ( isset( $names[$code] ) ) {
 			return $names[ $code ];
 		}
