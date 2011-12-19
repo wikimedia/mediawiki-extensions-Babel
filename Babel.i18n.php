@@ -3776,7 +3776,7 @@ $messages['ne'] = array(
  */
 $messages['nl'] = array(
 	'babel' => 'Taalvaardigheid',
-	'babel-desc' => 'Voegt de <code>#babel</code>-parserfunctie toe om automatische generatie van een babelgebruikersbox mogelijk te maken met de mogelijkheid om aangepaste sjablonen in te voegen',
+	'babel-desc' => 'Voegt de parserfunctie <code>#babel</code> toe om automatische generatie van een babelgebruikersbox mogelijk te maken met de mogelijkheid om aangepaste sjablonen in te voegen',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Gebruikers naar taal',
 	'babel-autocreate-abort' => 'De gebruikersnaam die u hebt opgegeven wordt gebruikt voor het automatisch aanmaken van [[$1|Babel]]-categorieën en kan niet geregistreerd worden.',
