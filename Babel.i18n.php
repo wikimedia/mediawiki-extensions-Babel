@@ -284,6 +284,7 @@ $messages['af'] = array(
 	'babel-4-n' => 'Hierdie gebruiker het kennis van [[$2|Afrikaans]] op [[$1|byna-moedertaalvlak]].',
 	'babel-5-n' => 'Hierdie gebruiker het [[$1|professionele]] kennis van [[$2|Afrikaans]].',
 	'babel-N-n' => 'Hierdie gebruiker het kennis van [[$2|Afrikaans]] op [[$1|moedertaalvlak]].',
+	'babel-footer' => 'Gebruikers per taal',
 );
 
 /** Gheg Albanian (Gegë)
@@ -4469,6 +4470,8 @@ $messages['ro'] = array(
 	'babel-desc' => 'Adaugă funcția de parsare <code>#babel</code> pentru generarea automată a coloanei de cutii de utilizator babel, cu posibilitatea de a include formate personalizate',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Categorie:Babel - Utilizatori după limbă',
+	'babel-autocreate-abort' => 'Numele de utilizator specificat este folosit pentru crearea automată a categoriilor [[$1|Babel]] și nu poate fi înregistrat.',
+	'babel-autocreate-reason' => 'Crearea automată a categoriei [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Utilizatorii din această categorie cunosc limba  $2 la nivelul  $1.',
 	'babel-autocreate-text-main' => 'Utilizatorii din această categorie cunosc limba  $1.',
 	'babel-0' => 'Acest utilizator [[$1|nu]] are cunoștințe de [[$2|$3]] (sau înțelege cu mare dificultate).',
@@ -4963,24 +4966,34 @@ $messages['sr-ec'] = array(
 
 /** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
+ * @author Rancher
  */
 $messages['sr-el'] = array(
 	'babel' => 'Jezičke kutijice',
-	'babel-desc' => 'Dodaje parser-funkciju <code>#babel</code>, koja omogućuje automatizovano dodavanje jezičkih kutijica uz mogućnost uključivanja sopstvenih šablona',
-	'babel-0' => 'Ovaj korisnik [[$1|ne]] zna [[$2|$3]] jezik (ili ga razume sa znatnim poteškoćama)',
-	'babel-1' => 'Ovaj korisnik govori [[$2|$3]] jezik [[$1|početnički]].',
-	'babel-2' => 'Ovaj korisnik [[$1|srednje]] poznaje [[$2|$3]] jezik.',
-	'babel-3' => 'Ovaj korisnik [[$1|dosta dobro]] govori [[$2|$3]] jezik.',
-	'babel-4' => 'Ovaj korisnik [[$1|tečno]] govori [[$2|$3]] jezik.',
-	'babel-5' => 'Ovaj korisnik zna [[$2|$3]] jezik na [[$1|profesionalnom]] nivou.',
-	'babel-N' => '[[$1|Maternji jezik]] ovog korisnika je [[$2|$3]] jezik.',
-	'babel-0-n' => 'Ovaj korisnik [[$1|ne]] zna [[$2|srpski jezik]] (ili ga razume sa znatnim poteškoćama)',
-	'babel-1-n' => 'Ovaj korisnik ima [[$1|osnovno]] poznavanje [[$2|srpskog jezika]].',
-	'babel-2-n' => 'Ovaj korisnik [[$1|srednje]] govori [[$2|srpski jezik]].',
-	'babel-3-n' => 'Ovaj korisnik [[$1|dosta dobro]] govori [[$2|srpski jezik]].',
-	'babel-4-n' => 'Ovaj korisnik [[$1|tečno]] govori [[$2|srpski jezik]].',
-	'babel-5-n' => 'Ovaj korisnik ima [[$1|profesionalno]] znanje [[$2|srpskog jezika]].',
-	'babel-N-n' => '[[$1|Maternji jezik]] ovog korisnika je [[$2|srpski jezik]].',
+	'babel-desc' => 'Dodaje funkciju raščlanjivača <code>#babel</code> koja omogućava samostalno stvaranje kolone s jezičkom kutijicom uz mogućnost dodavanja prilagođenih šablona',
+	'babel-url' => 'Project:Vavilon',
+	'babel-footer-url' => ':Category:Vavilon – Korisnici po jeziku',
+	'babel-autocreate-abort' => 'Korisničko ime koje ste uneli koristi se za samostalno stvaranje kategorije [[$1|Vavilon]] i zato se ne može upisati.',
+	'babel-autocreate-reason' => 'Samostalno stvaranje kategorije [[$1|Vavilon]].',
+	'babel-autocreate-text-levels' => 'Korisnici u ovoj kategoriji imaju znanje $1 $2 jezika.',
+	'babel-autocreate-text-main' => 'Korisnici u ovoj kategoriji imaju znanje $1 jezika.',
+	'babel-autocreate-user' => 'Vavilon – samostvaranje',
+	'babel-0' => '{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} [[$1|ne]] zna [[$2|$3]] jezik (ili ga razume sa znatnim poteškoćama).',
+	'babel-1' => '{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} razume [[$2|$3]] jezik na [[$1|osnovnom]] nivou.',
+	'babel-2' => '{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} razume [[$2|$3]] jezik na [[$1|srednjem]] nivou.',
+	'babel-3' => '{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} razume [[$2|$3]] jezik na [[$1|naprednom]] nivou.',
+	'babel-4' => '{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} [[$1|tečno]] govori [[$2|$3]] jezik.',
+	'babel-5' => '{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} zna [[$2|$3]] jezik na [[$1|profesionalnom]] nivou.',
+	'babel-N' => '[[$1|Maternji jezik]] {{GENDER:$4|ovog korisnika|ove korisnice|ovog korisnika}} je [[$2|$3]].',
+	'babel-0-n' => '{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} [[$1|ne]] zna [[$2|srpski jezik]] (ili ga razume sa znatnim poteškoćama).',
+	'babel-1-n' => '{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} ima [[$1|osnovno]] poznavanje [[$2|srpskog jezika]].',
+	'babel-2-n' => '{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} razume [[$2|srpski jezik]] na [[$1|srednjem]] nivou.',
+	'babel-3-n' => '{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} [[$1|dosta dobro]] poznaje [[$2|srpski jezik]].',
+	'babel-4-n' => '{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} [[$1|tečno]] govori [[$2|srpski jezik]].',
+	'babel-5-n' => '{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} zna [[$2|srpski jezik]] na [[$1|profesionalnom]] nivou.',
+	'babel-N-n' => '[[$1|Maternji jezik]] {{GENDER:$4|ovog korisnika|ove korisnice|ovog korisnika}} je [[$2|srpski]].',
+	'babel-template' => 'Template:Korisnik $1',
+	'babel-footer' => 'Korisnici po jeziku',
 );
 
 /** Sranan Tongo (Sranantongo) */
@@ -5254,6 +5267,7 @@ $messages['tg-latn'] = array(
 	'babel-0' => 'In korbar [[$2|$3]]ro [[$1|namefahmad]] (jo onro bo duşvorī mefahmad).',
 	'babel-1' => 'In korbar [[$2|$3]]ro dar sathi [[$1|muqaddamotī]] mefahmad.',
 	'babel-2' => 'In korbar [[$2|$3]]ro dar sathi [[$1|mijona]] mefahmad.',
+	'babel-4' => "Korbari mazkur ba '''[[$2|$3]]''' dar sathi '''[[$1|xub]]''' monandi qarib zaboni modariaş medonad.",
 );
 
 /** Thai (ไทย)
@@ -6049,6 +6063,7 @@ $messages['zh-hant'] = array(
 	'babel-4-n' => '這位用戶有[[$1|接近母語講者]]的[[$2|傳統中文字]]知識。',
 	'babel-5-n' => '這位用戶有[[$1|專業]]的[[$2|傳統中文字]]知識。',
 	'babel-N-n' => '這位用戶明白以[[$1|母語]]為主的[[$2|傳統中文字]]。',
+	'babel-footer' => '用戶（按語言）',
 );
 
 /** Chinese (Hong Kong) (‪中文(香港)‬)
