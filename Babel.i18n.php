@@ -3847,7 +3847,7 @@ $messages['nn'] = array(
  * @author Laaknor
  * @author Nghtwlkr
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'babel' => 'Babelinformasjon',
 	'babel-desc' => 'Legger til parserfunksjonen <code>#babel</code> for å automatisk generere en babelboks med  mulighet for å inkludere egendefinerte maler',
 	'babel-url' => 'Project:Babel',
