@@ -40,7 +40,7 @@ $magicWords['eo'] = array(
 
 /** Franco-Provençal (Arpetan) */
 $magicWords['frp'] = array(
-	'babel' => array( 0, 'babél', 'babel' ),
+	'babel' => array( 0, 'babél' ),
 );
 
 /** Japanese (日本語) */
@@ -86,6 +86,11 @@ $magicWords['si'] = array(
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
 $magicWords['sr-ec'] = array(
 	'babel' => array( 0, 'бабел' ),
+);
+
+/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+$magicWords['sr-el'] = array(
+	'babel' => array( 0, 'babel' ),
 );
 
 /** Turkish (Türkçe) */
