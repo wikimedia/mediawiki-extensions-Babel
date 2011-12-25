@@ -667,6 +667,7 @@ $messages['ba'] = array(
 	'babel-4-n' => 'Был ҡатнашыусының [[$2|башҡортса]] белеме [[$1|бик яҡшы]] дәрәжәлә.',
 	'babel-5-n' => 'Был ҡулланыусы өсөн [[$2|башкортса]] үҙ [[$1|туған теле кеүек]].',
 	'babel-N-n' => '[[$2|Башҡорт теле]] был ҡатнашыусының [[$1|туған теле]].',
+	'babel-footer' => 'Телдәр буйынса ҡулланыусылар',
 );
 
 /** Bavarian (Boarisch)
@@ -791,12 +792,14 @@ $messages['be-tarask'] = array(
 /** Bulgarian (Български)
  * @author DCLXVI
  * @author Spiritia
+ * @author Vladimir Penov
  * @author Петър Петров
  */
 $messages['bg'] = array(
 	'babel' => 'Вавилонски данни за потребителя',
 	'babel-desc' => 'Прибавяне на парсерна функция <code>#babel</code>, която позволява автоматично създаване на вавилонски потребителски кутийки, а може също да включва и други потребителски шаблони',
 	'babel-url' => 'Project:Вавилон',
+	'babel-footer-url' => ':Категория:Вавилон – потребители по език',
 	'babel-autocreate-abort' => 'Посоченото от вас потребителско име се използва за автоматично създаване на [[$1|вавилонски категории]] и не може да бъде регистрирано.',
 	'babel-autocreate-reason' => 'Автоматично създаване на [[$1|вавилонска категория]].',
 	'babel-autocreate-text-levels' => 'Потребителите в тази категория са посочили, че владеят $2 език на $1 ниво.',
@@ -815,6 +818,7 @@ $messages['bg'] = array(
 	'babel-4-n' => '{{GENDER:$4|Този потребител|Тази потребителка}} владее [[$2|български език]] на ниво [[$1|почти като роден]].',
 	'babel-5-n' => '{{GENDER:$4|Този потребител|Тази потребителка}} има [[$1|професионални]] познания по [[$2|български език]].',
 	'babel-N-n' => 'За {{GENDER:$4|този потребител|тази потребителка}} [[$2|българският език]] се явява [[$1|роден]].',
+	'babel-footer' => 'Потребители по език',
 );
 
 /** Bihari (भोजपुरी)
@@ -1336,6 +1340,7 @@ $messages['dtp'] = array(
 );
 
 /** Greek (Ελληνικά)
+ * @author AK
  * @author Consta
  * @author Glavkos
  * @author Omnipaedista
@@ -1363,6 +1368,7 @@ $messages['el'] = array(
 	'babel-4-n' => 'Αυτός ο χρήστης έχει [[$1|σχεδόν ως μητρική]] του γλώσσα τα [[$2|Ελληνικά]].',
 	'babel-5-n' => 'Αυτός ο χρήστης μπορεί να συνεισφέρει σε [[$1|επαγγελματικού]] επιπέδου [[$2|Ελληνικά]].',
 	'babel-N-n' => 'Αυτός ο χρήστης έχει ως [[$1|μητρική]] του γλώσσα τα [[$2|Ελληνικά]].',
+	'babel-footer' => 'Χρήστες ανά γλώσσα',
 );
 
 /** Esperanto (Esperanto)
@@ -1530,12 +1536,14 @@ $messages['fa'] = array(
  * @author Crt
  * @author Ilaiho
  * @author Jaakonam
+ * @author Nedergard
  * @author Nike
  */
 $messages['fi'] = array(
 	'babel' => 'Käyttäjän kielitaito',
 	'babel-desc' => 'Lisää <code>#babel</code>-funktion, jotta käyttäjän kielitaidosta kertova babel-käyttäjälaatikkosarake voidaan luoda automaattisesti ja sisällyttää räätälöityihin mallineisiin.',
 	'babel-url' => 'Project:Kielitaito',
+	'babel-footer-url' => ':Category:Babel - Käyttäjien kielet',
 	'babel-autocreate-abort' => 'Antamasi käyttäjätunnus on varattu [[$1|kielitaitoluokkien]] automaattiseen luomiseen, joten et voi rekisteröidä sitä.',
 	'babel-autocreate-reason' => '[[$1|Kielitaidon]] luokkasivun automaattinen luonti.',
 	'babel-autocreate-text-levels' => 'Käyttäjät tässä luokassa ovat ilmoittaneet osaavansa kieltä $2 tasolla $1.',
@@ -1554,6 +1562,7 @@ $messages['fi'] = array(
 	'babel-4-n' => 'Tämä käyttäjä osaa [[$2|suomea]] [[$1|melkein äidinkielen tavoin]].',
 	'babel-5-n' => 'Tämä käyttäjä käyttää [[$2|suomea]] [[$1|ammattimaisesti]].',
 	'babel-N-n' => 'Tämä käyttäjä puhuu [[$2|suomea]] [[$1|äidinkielenään]].',
+	'babel-footer' => 'Käyttäjien kielet',
 );
 
 /** Faroese (Føroyskt)
@@ -3164,6 +3173,7 @@ $messages['lt'] = array(
 	'babel-4-n' => 'Šis naudotojas gali rašyti ir skaityti [[$2|lietuvių]] kalba [[$1|beveik kaip gimtąja]]',
 	'babel-5-n' => 'Šis naudotojas gali rašyti ir skaityti [[$1|profesionalia]] [[$2|lietuvių]] kalba',
 	'babel-N-n' => 'Šis naudotojas gali rašyti ir skaityti [[$1|gimtąja]] [[$2|lietuvių]] kalba',
+	'babel-footer' => 'Vartotojai pagal kalbą',
 );
 
 /** Latgalian (Latgaļu)
@@ -3680,6 +3690,38 @@ $messages['nah'] = array(
 	'babel-N-n' => 'In [[$2|nàwatlâtòlli]], [[$1|ìtlàkatkàtlâtòl]] inìn motekìuhtiàni, kiyèknênewilia.',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Event
+ * @author Jon Harald Søby
+ * @author Laaknor
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'babel' => 'Babelinformasjon',
+	'babel-desc' => 'Legger til parserfunksjonen <code>#babel</code> for å automatisk generere en babelboks med  mulighet for å inkludere egendefinerte maler',
+	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Brukere etter språk',
+	'babel-autocreate-abort' => 'Brukernavnet du valgte er i bruk for automatisk oppretting av [[$1|Babel]]-kategorier og kan derfor ikke registreres.',
+	'babel-autocreate-reason' => 'Oppretter automatisk en [[$1|Babel]]-kategoriside.',
+	'babel-autocreate-text-levels' => 'Brukeren i denne kategorien har et språkkunnskapsnivå på $1 for $2.',
+	'babel-autocreate-text-main' => 'Brukeren i denne kategorien kjenner til $1.',
+	'babel-0' => 'Denne brukeren har [[$1|lite eller ingen]] kjennskap til [[$2|$3]] (eller har svært vanskelig for å forstå det).',
+	'babel-1' => 'Denne brukeren kan [[$1|litt]] [[$2|$3]].',
+	'babel-2' => 'Denne brukeren har [[$1|god]] kjennskap til [[$2|$3]].',
+	'babel-3' => 'Denne brukeren behersker [[$2|$3]] [[$1|flytende]].',
+	'babel-4' => 'Denne brukeren snakker [[$2|$3]] på [[$1|morsmålsnivå]].',
+	'babel-5' => 'Denne brukeren bruker [[$2|$3]] [[$1|profesjonelt]].',
+	'babel-N' => 'Denne brukeren har [[$2|$3]] som [[$1|morsmål]].',
+	'babel-0-n' => 'Denne brukeren [[$1|kan ikke]] skrive eller lese [[$2|norsk]] (eller forstår det kun med store vanskeligheter).',
+	'babel-1-n' => 'Denne brukeren kan [[$1|litt]] [[$2|norsk (bokmål)]].',
+	'babel-2-n' => 'Denne brukeren har [[$1|god kjennskap]] til [[$2|norsk (bokmål)]].',
+	'babel-3-n' => 'Denne brukeren behersker [[$2|norsk (bokmål)]] [[$1|flytende]].',
+	'babel-4-n' => 'Denne brukeren snakker og skriver [[$2|norsk (bokmål)]] på [[$1|morsmålsnivå]].',
+	'babel-5-n' => 'Denne brukeren bruker [[$2|norsk (bokmål)]] [[$1|profesjonelt]].',
+	'babel-N-n' => 'Denne brukeren har [[$2|norsk]] som [[$1|morsmål]] og behersker bokmål.',
+	'babel-footer' => 'Brukere fordelt på språk',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -3839,38 +3881,6 @@ $messages['nn'] = array(
 	'babel-5-n' => 'Denne brukaren har [[$1|profesjonell]] kjennskap til [[$2|nynorsk]].',
 	'babel-N-n' => 'Denne brukaren har [[$2|norsk]] som [[$1|morsmål]] og meistrar nynorsk.',
 	'babel-footer' => 'Brukarar etter språk',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Event
- * @author Jon Harald Søby
- * @author Laaknor
- * @author Nghtwlkr
- */
-$messages['nb'] = array(
-	'babel' => 'Babelinformasjon',
-	'babel-desc' => 'Legger til parserfunksjonen <code>#babel</code> for å automatisk generere en babelboks med  mulighet for å inkludere egendefinerte maler',
-	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => ':Category:Babel - Brukere etter språk',
-	'babel-autocreate-abort' => 'Brukernavnet du valgte er i bruk for automatisk oppretting av [[$1|Babel]]-kategorier og kan derfor ikke registreres.',
-	'babel-autocreate-reason' => 'Oppretter automatisk en [[$1|Babel]]-kategoriside.',
-	'babel-autocreate-text-levels' => 'Brukeren i denne kategorien har et språkkunnskapsnivå på $1 for $2.',
-	'babel-autocreate-text-main' => 'Brukeren i denne kategorien kjenner til $1.',
-	'babel-0' => 'Denne brukeren har [[$1|lite eller ingen]] kjennskap til [[$2|$3]] (eller har svært vanskelig for å forstå det).',
-	'babel-1' => 'Denne brukeren kan [[$1|litt]] [[$2|$3]].',
-	'babel-2' => 'Denne brukeren har [[$1|god]] kjennskap til [[$2|$3]].',
-	'babel-3' => 'Denne brukeren behersker [[$2|$3]] [[$1|flytende]].',
-	'babel-4' => 'Denne brukeren snakker [[$2|$3]] på [[$1|morsmålsnivå]].',
-	'babel-5' => 'Denne brukeren bruker [[$2|$3]] [[$1|profesjonelt]].',
-	'babel-N' => 'Denne brukeren har [[$2|$3]] som [[$1|morsmål]].',
-	'babel-0-n' => 'Denne brukeren [[$1|kan ikke]] skrive eller lese [[$2|norsk]] (eller forstår det kun med store vanskeligheter).',
-	'babel-1-n' => 'Denne brukeren kan [[$1|litt]] [[$2|norsk (bokmål)]].',
-	'babel-2-n' => 'Denne brukeren har [[$1|god kjennskap]] til [[$2|norsk (bokmål)]].',
-	'babel-3-n' => 'Denne brukeren behersker [[$2|norsk (bokmål)]] [[$1|flytende]].',
-	'babel-4-n' => 'Denne brukeren snakker og skriver [[$2|norsk (bokmål)]] på [[$1|morsmålsnivå]].',
-	'babel-5-n' => 'Denne brukeren bruker [[$2|norsk (bokmål)]] [[$1|profesjonelt]].',
-	'babel-N-n' => 'Denne brukeren har [[$2|norsk]] som [[$1|morsmål]] og behersker bokmål.',
-	'babel-footer' => 'Brukere fordelt på språk',
 );
 
 /** Novial (Novial)
@@ -4905,6 +4915,7 @@ $messages['sli'] = array(
 /** Albanian (Shqip)
  * @author Dori
  * @author Eagleal
+ * @author Olsi
  * @author Vinie007
  */
 $messages['sq'] = array(
@@ -4930,6 +4941,7 @@ $messages['sq'] = array(
 	'babel-4-n' => 'Ky përdorues ka njohuri [[$1|afërsisht amtare]] të [[$2|gjuhës Shqipe]].',
 	'babel-5-n' => 'Ky përdorues ka njohuri [[$1|profesionale]] të [[$2|gjuhës Shqipe]].',
 	'babel-N-n' => 'Ky përdorues ka njohuri [[$1|amtare]] të [[$2|gjuhës Shqipe]].',
+	'babel-footer' => 'Përdorues sipas gjuhës',
 );
 
 /** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
@@ -5143,6 +5155,7 @@ $messages['szl'] = array(
 /** Tamil (தமிழ்)
  * @author Karthi.dr
  * @author Logicwiki
+ * @author Shanmugamp7
  * @author SivaneshR
  * @author TRYPPN
  * @author Trengarasu
@@ -5151,6 +5164,7 @@ $messages['ta'] = array(
 	'babel' => 'பாபேல் பயனர் தகவல்கள்',
 	'babel-desc' => 'தனிப்பட்ட வார்ப்புருக்கள் உள்ளடங்களாக தானியக்கமாக பாபேல் பயனர் பெட்டிகளை ஆக்குவதை முடுக்கும் வகையில் <code>#babel</code>இலக்கணப் பாகுபடுத்தி சார்பை இணைக்கிறது.',
 	'babel-url' => 'Project:பாபேல்',
+	'babel-footer-url' => ': வகை: Babel - பயனீட்டாளர்கள் மொழி மூலம்.',
 	'babel-autocreate-abort' => 'தாங்கள் குறிப்பிட்ட பயனர் பெயர் [[$1|Babel]] பகுப்பில் பயன்படுத்தப்படும் மேலும் தாங்கள் இதைவைத்து பதிவு செய்யமுடியாது.',
 	'babel-autocreate-reason' => 'தானியக்கமாக [[$1|Babel]] பகுப்பு பக்கம் உருவாக்கபடுகிறது.',
 	'babel-autocreate-text-levels' => 'இப்பகுப்பில் உள்ள பயனர்கள் $2 மொழியில் $1 அளவுக்கு திறமை படைத்தவர்கள் என்பதனைக் குறிப்பிடுகிறது.',
