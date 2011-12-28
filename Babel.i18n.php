@@ -2398,14 +2398,14 @@ $messages['ilo'] = array(
 	'babel-2' => 'Daytoy nga agus-usar ket [[$1|agpakatengnga]] ti pinakaammona iti [[$2|$3]].',
 	'babel-3' => 'Daytoy nga agus-usar ket [[$1|nangato]] ti pinakaammona iti [[$2|$3]].',
 	'babel-4' => 'Daytoy nga agus-usar ket [[$1|kasla patneng]]  ti pinakaammona iti [[$2|$3]].',
-	'babel-5' => 'Daytoy nga agus-usar ket [[$1|propesyonal]] ti pinakaammona iti[[$2|$3]].',
+	'babel-5' => 'Daytoy nga agus-usar ket [[$1|propesional]] ti pinakaammona iti[[$2|$3]].',
 	'babel-N' => 'Daytoy nga agus-usar ket [[$1|patneng]] ti pinakaawat na iti [[$2|$3]].',
 	'babel-0-n' => 'Daytoy nga agus-usar ket [[$1|awan]] ti ammona iti [[$2|Ilokano]] (wenno marigatan unay a makaawat) .',
 	'babel-1-n' => 'Daytoy nga agus-usar ket [[$1|nababa]] ti pinakaammona iti [[$2|Ilokano]].',
 	'babel-2-n' => 'Daytoy nga agus-usar ket [[$1|agpakatengnga]] ti pinakaammona iti [[$2|Ilokano]].',
 	'babel-3-n' => 'Daytoy nga agus-usar ket [[$1|nangato]] ti pinakaammona iti [[$2|Ilokano]].',
 	'babel-4-n' => 'Daytoy nga agus-usar ket [[$1|kasla patneng]]  ti pinakaammona iti [[$2|Ilokano]].',
-	'babel-5-n' => 'Daytoy nga agus-usar ket [[$1|propesyonal]] ti pinakaammona iti [[$2|Ilokano]].',
+	'babel-5-n' => 'Daytoy nga agus-usar ket [[$1|propesional]] ti pinakaammona iti [[$2|Ilokano]].',
 	'babel-N-n' => 'Daytoy nga agus-usar ket [[$1|patneng]] ti pinakaawat na iti [[$2|Ilokano]].',
 	'babel-footer' => 'Dagiti agususar babaen ti pagsasao',
 );
@@ -4807,14 +4807,16 @@ $messages['shi'] = array(
  */
 $messages['si'] = array(
 	'babel' => 'බාබෙල් පරිශීලක තොරතුරු',
+	'babel-desc' => 'බාබෙල් පරිශීලකකොටු තීරුව සමඟ ව්‍යවහාර සැකිලි අඩංගු කිරීමේ හැකියාව ස්වයංක්‍රීයව ජනනය කිරීමට ඉඩදීම සඳහා <code>#babel</code> ව්‍යාකරණ විග්‍රහ කාර්යය එක් කරන්න',
 	'babel-url' => 'Project:බාබෙල්',
 	'babel-footer-url' => ':ප්‍රවර්ගය:බාබෙල් - භාෂාව අනුව පරිශීලකයින්',
 	'babel-autocreate-reason' => '[[$1|බාබෙල්]] ප්‍රවර්ග පිටුව ස්වයංක්‍රීයව තනමින්.',
+	'babel-autocreate-text-levels' => 'මෙම ප්‍රවර්ගයෙහි සිටින පරිශීලකයන්  $2 භාෂාව සඳහා $1  මට්ටමක් තිබෙන බව පෙන්නුම් කරනු ලබයි.',
 	'babel-0' => 'මෙම පරිශීලකයා‍ට [[$2|$3]] පිළිබඳ දැනුමක් [[$1|නැත]].',
 	'babel-1' => 'මෙම පරිශීලකයා‍ට [[$2|$3]] පිළිබඳ [[$1|මූලික]] දැනුමක් ඇත.',
-	'babel-2' => 'මෙම පරිශීලකයා‍ට [[$1|මධ්‍යස්ත]] දැනුමක් ඇත.',
+	'babel-2' => 'මෙම පරිශීලකයාහට [[$2|$3]] පිළිබඳ [[$1|අතරමැදි]] දැනුමක් ඇත.',
 	'babel-3' => 'මෙම පරිශීලකයා‍ට [[$2|$3]] පිළිබඳ [[$1|උසස්]] දැනුමක් ඇත.',
-	'babel-4' => 'මෙම පරිශීලකයා‍ට [[$1|ස්වදේශීය කථකයෙකුට සමීප]] දැනුමක් ඇත.',
+	'babel-4' => 'මෙම පරිශීලකයාහට [[$2|$3]] පිළිබඳ [[$1|ස්වදේශීය කථකයෙකුට සමීප]] දැනුමක් ඇත.',
 	'babel-5' => 'මෙම පරිශීලකයා‍ට [[$2|$3]] පිළිබඳ [[$1| ඉතා උසස්]] දැනුමක් ඇත.',
 	'babel-N' => 'මෙම පරිශීලකයාට [[$2|$3]] පිළිබඳ [[$1|ස්වදේශීය]] අවබෝධයක් ඇත.',
 	'babel-0-n' => 'මෙම පරිශීලකයා‍ට [[$2|සිංහල භාෂාව]] පිළිබඳ දැනුමක් [[$1|නැත]] (හෝ ඉතාමත් අපහසුවෙන් එය තේරුම් ගනියි).',
@@ -5715,6 +5717,7 @@ $messages['vmf'] = array(
 $messages['vo'] = array(
 	'babel' => 'Gebananüns-Babel',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Gebans ma pük',
 	'babel-autocreate-abort' => 'Gebananem fa ol pavilöl pagebon pö jafam itjäfidik [[$1|Babel]]-kladas e no dalon paregistarön.',
 	'babel-autocreate-reason' => '[[$1|Babel]]-kladapad pajafon itjäfidiko',
 	'babel-autocreate-text-levels' => 'Gebans in klad at sagons, das labons nivoda: $1 tefü pük: $2.',
@@ -5733,6 +5736,8 @@ $messages['vo'] = array(
 	'babel-4-n' => 'Geban at labon sevi [[$1|sümik ad ut lomapükana]] [[$2|Volapük]]a.',
 	'babel-5-n' => 'Geban at labon sevi [[$1|calik]] [[$2|Volapük]]a.',
 	'babel-N-n' => 'Geban at labon nivodi [[$1|lomapükik]] [[$2|Volapük]]a.',
+	'babel-template' => 'Template:Geban $1',
+	'babel-footer' => 'Gebans ma pük',
 );
 
 /** Votic (Vaďďa)
