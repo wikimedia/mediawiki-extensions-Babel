@@ -212,6 +212,14 @@ $messages['gbz'] = array(
 	'babel-1-n' => 'Mā ror-ber-e [[$2|Dari-e Mazdeyasnā]] rā [[$1|yānog-e]] pāmā.',
 );
 
+/** Emiliàn (Emiliàn)
+ * @author Reder
+ */
+$messages['egl'] = array(
+	'babel-url' => 'Prugettt:Babel',
+	'babel-footer' => 'Uteint par leingva',
+);
+
 /** толышә зывон (толышә зывон)
  * @author Гусейн
  */
@@ -2437,6 +2445,7 @@ $messages['is'] = array(
 	'babel' => 'Málkassi',
 	'babel-url' => 'Project:Málkassi',
 	'babel-footer-url' => ':Category:Notendur eftir tungumáli',
+	'babel-autocreate-abort' => 'Þetta notendanafn er frátekið fyrir sjálfvirka stofnun [[$1|Málkassa]] flokka og getur ekki verið skráð.',
 	'babel-autocreate-reason' => 'Bý sjálfkrafa til [[$1|Málkassa]] flokk.',
 	'babel-autocreate-text-levels' => 'Notendur í þessum flokk hafa gefið upp að þeir hafi $1-kunnáttu á $2 máli.',
 	'babel-autocreate-text-main' => 'Notendur í þessum flokk hafa gefið upp að þeir hafi kunnáttu á $1 máli.',
@@ -4810,8 +4819,10 @@ $messages['si'] = array(
 	'babel-desc' => 'බාබෙල් පරිශීලකකොටු තීරුව සමඟ ව්‍යවහාර සැකිලි අඩංගු කිරීමේ හැකියාව ස්වයංක්‍රීයව ජනනය කිරීමට ඉඩදීම සඳහා <code>#babel</code> ව්‍යාකරණ විග්‍රහ කාර්යය එක් කරන්න',
 	'babel-url' => 'Project:බාබෙල්',
 	'babel-footer-url' => ':ප්‍රවර්ගය:බාබෙල් - භාෂාව අනුව පරිශීලකයින්',
+	'babel-autocreate-abort' => 'ඔබ විශේෂණය කෙරූ පරිශීලක නාමය [[$1|බාබෙල්]] ප්‍රවර්ග ස්වයං-තැනීම සඳහා භාවිතා කරන අතර ලියාපදිංචි කල නොහැක.',
 	'babel-autocreate-reason' => '[[$1|බාබෙල්]] ප්‍රවර්ග පිටුව ස්වයංක්‍රීයව තනමින්.',
 	'babel-autocreate-text-levels' => 'මෙම ප්‍රවර්ගයෙහි සිටින පරිශීලකයන්  $2 භාෂාව සඳහා $1  මට්ටමක් තිබෙන බව පෙන්නුම් කරනු ලබයි.',
+	'babel-autocreate-text-main' => 'මෙම ප්‍රවර්ගයෙහි සිටින පරිශීලකයන් $1 භාෂාව සඳහා දැනුමක් තිබෙන බව පෙන්නුම් කරනු ලබයි.',
 	'babel-0' => 'මෙම පරිශීලකයා‍ට [[$2|$3]] පිළිබඳ දැනුමක් [[$1|නැත]].',
 	'babel-1' => 'මෙම පරිශීලකයා‍ට [[$2|$3]] පිළිබඳ [[$1|මූලික]] දැනුමක් ඇත.',
 	'babel-2' => 'මෙම පරිශීලකයාහට [[$2|$3]] පිළිබඳ [[$1|අතරමැදි]] දැනුමක් ඇත.',
