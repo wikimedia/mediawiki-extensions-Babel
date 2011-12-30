@@ -5958,6 +5958,7 @@ $messages['yo'] = array(
 	'babel' => 'Ìfitónilétí oníṣe fún Bábẹ́lì',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Ẹ̀ka:Àwọn oníṣe gẹ́gẹ́ bìi èdè wọn',
+	'babel-autocreate-reason' => 'Óúndá ojúewé ẹ̀ka [[$1|Babel]] fúnra rẹ̀.',
 	'babel-autocreate-text-levels' => 'Àwọn oníṣe nínú ẹ̀ka yìí tọ́ka pé àwọn ní òye $1 fún èdè $2.',
 	'babel-autocreate-text-main' => 'Àwọn oníṣe nínú ẹ̀ka yìí tọ́ka pé àwọn ní òye nínú èdè $1.',
 	'babel-0' => 'Oníṣe yìí kò ní ìmọ̀ [[$1|rárá]] nínú èdè [[$2|$3]] (tàbí kọ̀ ní òye rẹ̀ dáadáa).',
@@ -5974,6 +5975,7 @@ $messages['yo'] = array(
 	'babel-4-n' => 'Oníṣe yìí [[$1|bíi pé abínibí]] ni ìmọ̀ rẹ̀ nínú èdè [[$2|Yorùbà]].',
 	'babel-5-n' => 'Oníṣe yìí mọ èdè [[$2|Yorùbá]] dáadáa tó láti fi [[$1|ṣe iṣẹ́]].',
 	'babel-N-n' => 'Oníṣe yìí èdè [[$1|abínibí]] rẹ̀ ni [[$2|Yorùbá]].',
+	'babel-footer' => 'Àwọn oníṣe gẹ́gẹ́bí èdè',
 );
 
 /** Cantonese (粵語)
