@@ -851,6 +851,7 @@ $messages['bjn'] = array(
 	'babel' => 'Panjalasan Babel pamuruk',
 	'babel-desc' => 'Manambahi pungsi parser <code>#babel</code> gasan mambulihakan paulahan sabuah kutak pamuruk utumatis lawan kamampuan gasan mamuruk citakan nang dikustomisasiakan',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => 'Tumbung:Babel - Papamuruk bapadal bahasa',
 	'babel-autocreate-abort' => 'Ngaran pamuruk Pian ini dipuruk gasan tumbung utumatis [[$1|Babel]] wan kada kawa didaptarakan.',
 	'babel-autocreate-reason' => 'Utumatis maulah tumbung tungkaran [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Papamuruk dalam tumbung ini artinya sidin baisi kamampuan $1 gasan bahasa $2.',
@@ -869,6 +870,7 @@ $messages['bjn'] = array(
 	'babel-4-n' => 'Pamuruk ini baisi ilmu [[$1|parak nangkaya pamandir asli]] gasan [[$2|Bahasa Banjar]].',
 	'babel-5-n' => 'Pamuruk ini baisi ilmu [[$1|harat]] gasan [[$2|Bahasa Banjar]].',
 	'babel-N-n' => 'Pamuruk ini [[$1|pamandir asli]] nang paham banar [[$2|Bahasa Banjar]].',
+	'babel-footer' => 'Pamuruk bapadal bahasa',
 );
 
 /** Bengali (বাংলা)
@@ -1590,11 +1592,16 @@ $messages['fo'] = array(
 	'babel-1' => 'Hesin brúkarin hevur [[$1|grundleggjandi]] kunnleika til [[$2|$3]].',
 	'babel-2' => 'Hesin brúkarin hevur [[$1|miðal]] kunnleika til [[$2|$3]].',
 	'babel-3' => 'Hesin brúkarin hevur kunnleika á [[$1|hástigi]] um [[$2|$3]].',
+	'babel-4' => 'Hesin brúkari hevur [[$1|nærum móðurmáls]] kunnleika til [[$2|$3]].',
+	'babel-5' => 'Hesin brúkari hevur [[$1|professionellan]] kunnleika til [[$2|$3]].',
 	'babel-N' => 'Hesin brúkarin hevur [[$2|$3]] sum [[$1|móðurmál]].',
 	'babel-0-n' => 'Hesin brúkarin hevur [[$1|onga]] vitan um [[$2|føroyskt]] (ella skilur tað eitt sindur við stórum trupulleikum).',
 	'babel-1-n' => 'Hesin brúkarin hevur [[$1|grundleggjandi]] vitan um [[$2|føroyskt]].',
+	'babel-2-n' => 'Hesin brúkari hevur [[$1|miðal góðan]] kunnleika til [[$2|føroyskt]].',
 	'babel-3-n' => '
 Hesin brúkarin hevur kunnleika á [[$1|hástigi]] til [[$2|føroyskt]].',
+	'babel-4-n' => 'Hesin brúkari hevur [[$1|nærum móðurmáls]] kunnleika til [[$2|føroyskt]].',
+	'babel-5-n' => 'Hesin brúkari hevur [[$1|professionellan]] kunnleika til [[$2|føroyskt]].',
 	'babel-N-n' => 'Hesin brúkarin hevur [[$2|føroyskt]] sum [[$1|móðurmál]].',
 	'babel-footer' => 'Brúkari eftir máli',
 );
@@ -1616,7 +1623,7 @@ $messages['fr'] = array(
 	'babel-desc' => 'Ajoute une fonction d’analyseur syntaxique <code>#babel</code> permettant la création automatique d’une boîte utilisateur Babel avec la possibilité d’y inclure des modèles locaux',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Catégorie:Babel - Utilisateurs par langue',
-	'babel-autocreate-abort' => "Le nom d'utilisateur que vous avez entré est utilisé pour créer automatiquement les catégories [[$1|Babel]] et ne peut pas être enregistré.",
+	'babel-autocreate-abort' => 'Le nom d’utilisateur que vous avez entré est utilisé pour créer automatiquement les catégories [[$1|Babel]] et ne peut pas être enregistré.',
 	'babel-autocreate-reason' => 'Création automatique de la catégorie [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Les utilisateurs dans cette catégorie ont indiqué qu’ils ont le niveau $1 pour la langue $2.',
 	'babel-autocreate-text-main' => 'Les utilisateurs dans cette catégorie ont indiqué qu’ils ont une connaissance en $1.',
@@ -2970,20 +2977,20 @@ $messages['lez'] = array(
 	'babel-autocreate-reason' => '[[$1|Babel]] категориядин ччин автоматдаказ туькlуьрун',
 	'babel-autocreate-text-levels' => 'И категориядин иштиракчияр $2 чlалан $1-й чирвилин дережа къалурна.',
 	'babel-autocreate-text-main' => 'И категориядин иштиракчияр $1 чlалан  чирвал къалурна.',
-	'babel-0' => 'И иштиракчиди [[$2|$3]] гьич [[$1|чизвач]] (ва я четиндиказ гъавурда гьатзава)',
+	'babel-0' => 'И иштиракчидиз [[$2|$3]] гьич [[$1|чизвач]] (ва я четиндиказ гъавурда гьатзава)',
 	'babel-1' => 'И иштиракчидиз  [[$2|$3]] чlалан   [[$1|сифтегьан]] чирвилер ава.',
 	'babel-2' => 'И иштиракчидиз  [[$2|$3]] чlалан  [[$1|юкьван гьалдин]] чирвилер ава.',
 	'babel-3' => 'И иштиракчидиз  [[$2|$3]] чlалан  [[$1|хъсан]] чирвилер ава.',
-	'babel-4' => 'И иштиракчиди  [[$2|$3]] чlал  [[$1|хьайи чlал хьиз]] чизва.',
+	'babel-4' => 'И иштиракчидиз  [[$2|$3]] чlал  [[$1|хайи чlал хьиз]] чизва.',
 	'babel-5' => 'И иштиракчидиз  [[$2|$3]] чlалан  [[$1|пешекарвилин]] чирвилер ава.',
-	'babel-N' => '[[$2|$3]] чlал и иштиракчидин  [[$1|хьайи чlал]] я.',
+	'babel-N' => '[[$2|$3]] чlал и иштиракчидин  [[$1|хайи чlал]] я.',
 	'babel-0-n' => 'И иштиракчидиз [[$2|Лезги чIал]] гьич [[$1|чизвач]] (ва я четиндиказ гъавурда гьатзава)',
 	'babel-1-n' => 'И иштиракчидиз  [[$2|Лезги чIалан]]   [[$1|сифтегьан]] чирвилер ава.',
 	'babel-2-n' => 'И иштиракчидиз  [[$2|Лезги чlалан ]]   [[$1|юкьван гьалдин]] чирвилер ава.',
 	'babel-3-n' => 'И иштиракчидиз  [[$2|Лезги чIалан]]  [[$1|хъсан]] чирвилер ава.',
-	'babel-4-n' => 'И иштиракчиди  [[$2|Лезги чlал]]   [[$1|хьайи чlал хьиз]] чизва.',
+	'babel-4-n' => 'И иштиракчидиз  [[$2|Лезги чlал]]   [[$1|хайи чlал хьиз]] чизва.',
 	'babel-5-n' => 'И иштиракчидиз  [[$2|Лезги чlалан]]   [[$1|пешекарвилин]] чирвилер ава.',
-	'babel-N-n' => '[[$2|Лезги чlал]]  и иштиракчидин  [[$1|хьайи чlал]] я.',
+	'babel-N-n' => '[[$2|Лезги чlал]]  и иштиракчидин  [[$1|хайи чlал]] я.',
 	'babel-footer' => 'ЧIалариз килигна иштиракчияр',
 );
 
@@ -5116,7 +5123,7 @@ $messages['sv'] = array(
 	'babel-4' => 'Den här användaren kan [[$2|$3]] [[$1|nästan på modersmålsnivå]].',
 	'babel-5' => 'Den här användaren har [[$1|professionella]] kunskaper i [[$2|$3]].',
 	'babel-N' => 'Den här användaren har [[$2|$3]] som [[$1|modersmål]].',
-	'babel-0-n' => 'Den här användaren har [[$1|inga]] kunskaper i [[$2|svenska]] (eller förstår det med en betydande svårighet).',
+	'babel-0-n' => 'Den här användaren har [[$1|inga]] kunskaper i [[$2|svenska]] (eller förstår det bara med en stor svårighet).',
 	'babel-1-n' => 'Den här användaren har [[$1|grundläggande]] kunskaper i [[$2|svenska]].',
 	'babel-2-n' => 'Den här användaren har [[$1|medelgoda]] kunskaper i [[$2|svenska]].',
 	'babel-3-n' => 'Den här användaren har [[$1|avancerade]] kunskaper i [[$2|svenska]].',
@@ -5205,6 +5212,7 @@ $messages['ta'] = array(
 
 /** Tulu (ತುಳು)
  * @author NamwikiTL
+ * @author VASANTH S.N.
  */
 $messages['tcy'] = array(
 	'babel' => 'ಬೇಬಲ್ ಬಳಕೆದಾರೆರ್ನ ಮಾಹಿತಿ',
@@ -5224,6 +5232,7 @@ $messages['tcy'] = array(
 	'babel-4-n' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|ತುಳು]]ತ ಬಗ್ಗೆ [[$1|ಮೂಲಭಾಷಿಕೆರ್ನ ಮಟ್ಟದ]] ಜ್ನಾನ ಉ೦ಡು',
 	'babel-5-n' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|ತುಳು]]ತ ಬಗ್ಗೆ [[$1|ವೃತ್ತಿಪರೆರ್ನ]] ಜ್ನಾನ ಉ೦ಡು',
 	'babel-N-n' => 'ಈ ಬಳಕೆದಾರೆರ್ಗ್ [[$2|ತುಳು]]ತ ಬಗ್ಗೆ [[$1|ಮೂಲಭಾಷಿಕೆರ್ನ]] ಜ್ನಾನ ಉ೦ಡು',
+	'babel-footer' => 'ಭಾಷೆದ ಅನುಸಾರ ಬಳಕೆದಾರೆರ್',
 );
 
 /** Telugu (తెలుగు)
