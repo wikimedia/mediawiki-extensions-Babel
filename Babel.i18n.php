@@ -216,7 +216,7 @@ $messages['gbz'] = array(
  * @author Reder
  */
 $messages['egl'] = array(
-	'babel-url' => 'Prugettt:Babel',
+	'babel-url' => 'Project:Babel',
 	'babel-footer' => 'Uteint par leingva',
 );
 
