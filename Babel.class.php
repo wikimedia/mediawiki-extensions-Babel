@@ -31,7 +31,7 @@ class Babel {
 		$content = '';
 		$templateParameters = array(); // collects name=value parameters to be passed to wiki templates.
 		foreach ( $parameters as $name ) {
-			if (strpos($name, '=') !== false) {
+			if ( strpos( $name, '=' ) !== false ) {
 				$templateParameters[] = $name;
 				continue;
 			}
@@ -46,11 +46,11 @@ class Babel {
 			} elseif ( self::mPageExists( $template ) ) {
 				// Check for a template
 				$templateParameters[0] = $template;
-				$template = implode('|', $templateParameters);
+				$template = implode( '|', $templateParameters );
 				$content .= self::mGenerateNotaBox( $parser->replaceVariables( "{{{$template}}}" ) );
 			} elseif ( self::mValidTitle( $template ) ) {
 				// Non-existent page and invalid parameter syntax, red link.
-				$content .= self::mGenerateNotaBox( '[['.$template.']]' );
+				$content .= self::mGenerateNotaBox( '[[' . $template . ']]' );
 			} else {
 				// Invalid title, output raw.
 				$content .= self::mGenerateNotaBox( $template );
@@ -70,7 +70,7 @@ class Babel {
 			$top = $top->text();
 			$url = wfMessage( 'babel-url' )->inContentLanguage();
 			if ( ! $url->isDisabled() ) {
-				$top = '[['.$url->text().'|'.$top.']]';
+				$top = '[[' . $url->text() . '|' . $top . ']]';
 			}
 			$top = '! class="mw-babel-header" | ' . $top;
 		}
@@ -84,7 +84,7 @@ class Babel {
 		$url = wfMessage( 'babel-footer-url' )->inContentLanguage();
 		$showfooter = '';
 		if ( !$footer->isDisabled() && !$url->isDisabled() ) {
-			$showfooter = '! class="mw-babel-footer" | [['.$url->text().'|'.$footer->text().']]';
+			$showfooter = '! class="mw-babel-footer" | [[' . $url->text() . '|' . $footer->text() . ']]';
 		}
 		$cellspacing = Babel::mHtmlAttrib( 'cellspacing', 'babel-box-cellspacing' );
 		$cellpadding = Babel::mHtmlAttrib( 'cellpadding', 'babel-box-cellpadding' );
@@ -176,7 +176,7 @@ EOT;
 		}
 		// Validate level.
 		$level = strtoupper( $level );
-		if( !isset( $wgBabelCategoryNames[$level] ) ) {
+		if ( !isset( $wgBabelCategoryNames[$level] ) ) {
 			return false;
 		}
 		$return['level'] = $level;
@@ -339,7 +339,7 @@ EOT;
 		if ( $value->isDisabled() ) {
 			$value = '';
 		} else {
-			$value = ' ' . $name . '="' . htmlentities( $value->text(), ENT_COMPAT, 'UTF-8' ) . 
+			$value = ' ' . $name . '="' . htmlentities( $value->text(), ENT_COMPAT, 'UTF-8' ) .
 						'"';		// must get rid of > and " inside value
 		}
 		return $value;

@@ -19,7 +19,7 @@ fgets( $fr );
 while ( $line = fgets( $fr ) ) {
 	$line = explode( "\t", $line );
 	$iso1 = trim( $line[3] );
-	if( $iso1 === '' ) {
+	if ( $iso1 === '' ) {
 		$iso1 = '-';
 	}
 	$iso3 = trim( $line[0] );
