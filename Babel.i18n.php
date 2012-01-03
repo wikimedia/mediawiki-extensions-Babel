@@ -2638,6 +2638,19 @@ $messages['kbd-cyrl'] = array(
 	'babel-N' => 'Мыш рилажэрэм зэхрехы [[$1|нэ бзэкӀэ]] мы бзээ [[$2|$3]].',
 );
 
+/** Kongo (Kongo)
+ * @author Rkupsala
+ */
+$messages['kg'] = array(
+	'babel' => 'Babel: luzâbu ya bandînga',
+	'babel-0' => 'Mûntu yayi zâba tuba [[$2|$3]] [[$1|ve]] (to yandi ke kuwaka yawu na mpasi)',
+	'babel-5' => 'Mûntu yayi zâba tuba [[$2|$3]] na mutîndu ya [[$1|nsêkudi]].',
+	'babel-N' => 'Mûntu yayi zaba tuba [[$2|$3]] [[$1|katuka lubutuku]].',
+	'babel-0-n' => 'Mûntu yayi zâba tuba [[$2|kituba Kôngo]] [[$1|ve]] (to yandi ke kuwaka yawu na mpasi)',
+	'babel-5-n' => 'Mûntu yayi zâba tuba [[$2|kituba Kôngo]] na mutîndu ya [[$1|nsêkudi]].',
+	'babel-N-n' => 'Mûntu yayi zaba tuba [[$2|kituba Kôngo]] [[$1|katuka lubutuku]].',
+);
+
 /** Khowar (کھوار)
  * @author Rachitrali
  */
@@ -6010,7 +6023,9 @@ $messages['yue'] = array(
 	'babel-N-n' => '呢位用戶明白以[[$1|母語]]為主嘅[[$2|廣東話]]。',
 );
 
-/** Zeeuws (Zeêuws) */
+/** Zeeuws (Zeêuws)
+ * @author Ooswesthoesbes
+ */
 $messages['zea'] = array(
 	'babel-1' => "Deêze gebruker praot en verstaet [[$1|'n bitje]] [[$2|$3]].",
 	'babel-2' => 'Deêze gebruker praot en verstaet [[$1|aoreg]] [[$2|$3]].',
@@ -6022,6 +6037,7 @@ $messages['zea'] = array(
 	'babel-3-n' => 'Deêze gebruker praot [[$1|vloeiend]] [[$2|Zeêuws]].',
 	'babel-4-n' => "Deêze gebruker praot [[$2|Zeêuws]] [[$1|asof't z'n moerstaele is]].",
 	'babel-N-n' => 'Deêze gebruker eit [[$2|Zeêuws]] as [[$1|moerstaele]].',
+	'babel-footer' => 'Hebrukers per taele',
 );
 
 /** Chinese (中文)
