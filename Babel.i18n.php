@@ -2454,7 +2454,7 @@ $messages['is'] = array(
 	'babel-footer-url' => ':Category:Notendur eftir tungumáli',
 	'babel-autocreate-abort' => 'Þetta notendanafn er frátekið fyrir sjálfvirka stofnun [[$1|Málkassa]] flokka og getur ekki verið skráð.',
 	'babel-autocreate-reason' => 'Bý sjálfkrafa til [[$1|Málkassa]] flokk.',
-	'babel-autocreate-text-levels' => 'Notendur í þessum flokk hafa gefið upp að þeir hafi $1-kunnáttu á $2 máli.',
+	'babel-autocreate-text-levels' => 'Notendur í þessum flokk hafa gefið upp að þeir hafi $1. stigs kunnáttu á $2',
 	'babel-autocreate-text-main' => 'Notendur í þessum flokk hafa gefið upp að þeir hafi kunnáttu á $1 máli.',
 	'babel-0' => 'Þessi notandi talar [[$1|ekki]] [[$2|$3]] (á erfitt með að skilja hana eða kýs að tala hana ekki).',
 	'babel-1' => 'Þessi notandi hefur [[$1|grundvallar]]-kunnáttu á [[$2|$3]] máli.',
@@ -2642,13 +2642,27 @@ $messages['kbd-cyrl'] = array(
  * @author Rkupsala
  */
 $messages['kg'] = array(
-	'babel' => 'Babel: luzâbu ya bandînga',
+	'babel' => 'Babilone: luzâbu ya bandînga',
+	'babel-url' => 'Project:Babilone',
+	'babel-footer-url' => ':Category:Babilone - Bansadidi na bandînga',
+	'babel-autocreate-abort' => 'Nkûmbu ya nsadidi yina nge me pesa, yawu me bakama samu na [[$1|Babilone]] kalasi. Nge lenda sadila yawu ve.',
+	'babel-autocreate-text-levels' => 'Bântu ya kalasi yayi bâwu zâbisaka ti bâwu zâba tuba ndînga $2 na nivô ya $1',
+	'babel-autocreate-text-main' => 'Bântu ya kalasi yayi bâwu zâbisaka ti bâwu ke zâbaka ndînga $1.',
 	'babel-0' => 'Mûntu yayi zâba tuba [[$2|$3]] [[$1|ve]] (to yandi ke kuwaka yawu na mpasi)',
+	'babel-1' => 'Mûntu yayi zaba tuba [[$1|fyoti]] [[$2|$3]].',
+	'babel-2' => 'Mûntu yayi zâba tuba [[$2|$3]] [[$1|mbote]].',
+	'babel-3' => 'Mûntu yayi zâba tuba [[$2|$3]] [[$1|mbote mîngi]].',
+	'babel-4' => 'Mûntu yayi zâba tuba [[$2|$3]] na mutîndu mosi ya mûntu tubaka yawu [[$1|katuka lubutuku]].',
 	'babel-5' => 'Mûntu yayi zâba tuba [[$2|$3]] na mutîndu ya [[$1|nsêkudi]].',
 	'babel-N' => 'Mûntu yayi zaba tuba [[$2|$3]] [[$1|katuka lubutuku]].',
 	'babel-0-n' => 'Mûntu yayi zâba tuba [[$2|kituba Kôngo]] [[$1|ve]] (to yandi ke kuwaka yawu na mpasi)',
+	'babel-1-n' => 'Mûntu yayi zaba tuba [[$1|fyoti]] [[$2|kituba Kôngo]].',
+	'babel-2-n' => 'Mûntu yayi zâba tuba [[$2|kituba Kôngo]] [[$1|mbote]].',
+	'babel-3-n' => 'Mûntu yayi zâba tuba [[$2|kituba Kôngo]] [[$1|mbote mîngi]].',
+	'babel-4-n' => 'Mûntu yayi zâba tuba [[$2|kituba Kôngo]] na mutîndu ya [[$1|mwana Kôngo]].',
 	'babel-5-n' => 'Mûntu yayi zâba tuba [[$2|kituba Kôngo]] na mutîndu ya [[$1|nsêkudi]].',
 	'babel-N-n' => 'Mûntu yayi zaba tuba [[$2|kituba Kôngo]] [[$1|katuka lubutuku]].',
+	'babel-footer' => 'Bansadidi na bandînga',
 );
 
 /** Khowar (کھوار)
