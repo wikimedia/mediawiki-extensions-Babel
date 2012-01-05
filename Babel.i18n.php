@@ -2454,7 +2454,7 @@ $messages['is'] = array(
 	'babel-footer-url' => ':Category:Notendur eftir tungumáli',
 	'babel-autocreate-abort' => 'Þetta notendanafn er frátekið fyrir sjálfvirka stofnun [[$1|Málkassa]] flokka og getur ekki verið skráð.',
 	'babel-autocreate-reason' => 'Bý sjálfkrafa til [[$1|Málkassa]] flokk.',
-	'babel-autocreate-text-levels' => 'Notendur í þessum flokk hafa gefið upp að þeir hafi $1. stigs kunnáttu á $2',
+	'babel-autocreate-text-levels' => 'Notendur í þessum flokk hafa gefið upp að þeir hafi $1-stigs kunnáttu á $2',
 	'babel-autocreate-text-main' => 'Notendur í þessum flokk hafa gefið upp að þeir hafi kunnáttu á $1 máli.',
 	'babel-0' => 'Þessi notandi talar [[$1|ekki]] [[$2|$3]] (á erfitt með að skilja hana eða kýs að tala hana ekki).',
 	'babel-1' => 'Þessi notandi hefur [[$1|grundvallar]]-kunnáttu á [[$2|$3]] máli.',
@@ -2895,6 +2895,35 @@ $messages['kw'] = array(
 	'babel-4-n' => "Ma'n devnydhyer-ma ow scrifa [[$2|Kernowek]] [[$1|ogas hag avel mabmyeth]].",
 	'babel-5-n' => 'An devnydhyer-ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|galwanjek]].',
 	'babel-N-n' => "Ma'n devnydhyer-ma ow scrifa [[$2|Kernowek]] avel [[$1|mabmyeth]].",
+);
+
+/** Kirghiz (Кыргызча)
+ * @author AidaBishkek
+ */
+$messages['ky'] = array(
+	'babel' => 'Вавилон колдонуучунун мааалыматтары',
+	'babel-desc' => 'Атайын шаблонду камтыган Вавилон колдонуучунун жадыбалын автоматтык түрдө түзүү үчүн  <code>#babel</code> парсер функциясын кошуңуз.',
+	'babel-url' => 'Project:Вавилон',
+	'babel-footer-url' => ':Category:Вавилон - колдонуучулар тил боюнча',
+	'babel-autocreate-abort' => 'Сиз белгилеген колдонуучун аты [[$1|Babel]] категориясын автоматтык түрдө түзүүгө колдонулат жана каттатыла албайт.',
+	'babel-autocreate-reason' => '[[$1|Babel]] категория барагын автоматтык түрдө түзүү.',
+	'babel-autocreate-text-levels' => 'Бул категориядагы колдонуучулар $1 деңгээлде $2 тилин билүүсүн белгилешүүдө.',
+	'babel-autocreate-text-main' => 'Бул категориядагы колдонуучулар $1 тилин билүүсүн белгилешүүдө.',
+	'babel-0' => 'Бул колдонуучу [[$2|$3]] [[$1|эч]] билбейт (же бир кыйла кыйынчылык менен түшүнөт).',
+	'babel-1' => 'Бул колдонуучу [[$2|$3]] [[$1|башталгыч деңгээлде]] билет.',
+	'babel-2' => 'Бул колдонуучу [[$2|$3]] [[$1|орто деңгээлде]] билет.',
+	'babel-3' => 'Бул колдонуучу [[$2|$3]] [[$1|жогорку деңгээлде]] билет.',
+	'babel-4' => 'Бул колдонуучу [[$2|$3]] [[$1|эне тилиндей]] билет.',
+	'babel-5' => 'Бул колдонуучу [[$2|$3]] [[$1|кесипкөй деңгээлде]] билет.',
+	'babel-N' => 'Бул колдонуучунун [[$1|эне тили]] - [[$2|$3]]',
+	'babel-0-n' => 'Бул колдонуучу [[$2|кыргыз тилин]] [[$1|эч]] билбейт (же бир кыйла кыйынчылык менен түшүнөт).',
+	'babel-1-n' => 'Бул колдонуучу [[$2|кыргыз тилин]] [[$1|башталгыч деңгээлде]] билет.',
+	'babel-2-n' => 'Бул колдонуучу [[$2|кыргыз тилин]] [[$1|орто деңгээлде]] билет.',
+	'babel-3-n' => 'Бул колдонуучу [[$2|кыргыз тилин]] [[$1|жогорку деңгээлде]] билет.',
+	'babel-4-n' => 'Бул колдонуучу [[$2|кыргыз тилин]] [[$1|эне тилиндей]] билет.',
+	'babel-5-n' => 'Бул колдонуучу [[$2|кыргыз тилин]] [[$1|кесипкөй деңгээлде]] билет.',
+	'babel-N-n' => 'Бул колдонуучунун [[$1|эне тили]] - [[$2|кыргыз тили]].',
+	'babel-footer' => 'Колдонуучулар тил боюнча',
 );
 
 /** Latin (Latina)
