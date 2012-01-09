@@ -235,14 +235,14 @@ $messages['tly'] = array(
 	'babel-0' => 'Ын иштирокәкә [[$1|зынејдәни]] [[$2|$3]] (јаанки чәтин дәрәсејдә).',
 	'babel-1' => 'Ын иштирокәкә [[$1|зәиф]] зынејдә [[$2|$3]].',
 	'babel-2' => 'Ын иштирокәкә [[$1|мијонә сәвијјәдә]] зынејдә [[$2|$3]].',
-	'babel-3' => 'Ын иштироәкә [[$1|чок]] зынејдә [[$2|$3]].',
+	'babel-3' => 'Ын иштирокәкә [[$1|чок]] зынејдә [[$2|$3]].',
 	'babel-4' => 'Ын иштирокәкә бәнә [[$1|моә зывони]] зынејдә [[$2|$3]].',
 	'babel-5' => 'Ын иштирокәкә [[$1|пешәкорә сәвијјәдә]] зынејдә [[$2|$3]].',
 	'babel-N' => '[[$2|$3]] зывон чы иштирокәкә [[$1|моә зывоне]].',
-	'babel-0-n' => 'Ын иштироәкә [[$1|зынејдәни]] [[$2|Толышә зывони]] (јаанки чәтин дәрәсејдә).',
-	'babel-1-n' => 'Ын иштироәкә [[$1|зәиф]] зынејдә [[$2|Толышә зывони]].',
-	'babel-2-n' => 'Ын иштироәкә [[$1|мијонә сәвијјәдә]] зынејдә [[$2|Толышә зывони]].',
-	'babel-3-n' => 'Ын иштироәкә [[$1|чок]] зынејдә [[$2|Толышә зывони]].',
+	'babel-0-n' => 'Ын иштирокәкә [[$1|зынејдәни]] [[$2|Толышә зывони]] (јаанки чәтин дәрәсејдә).',
+	'babel-1-n' => 'Ын иштирокәкә [[$1|зәиф]] зынејдә [[$2|Толышә зывони]].',
+	'babel-2-n' => 'Ын иштирокәкә [[$1|мијонә сәвијјәдә]] зынејдә [[$2|Толышә зывони]].',
+	'babel-3-n' => 'Ын иштирокәкә [[$1|чок]] зынејдә [[$2|Толышә зывони]].',
 	'babel-4-n' => 'Ын иштирокәкә бәнә [[$1|моә зывони]] зынејдә [[$2|Толышә зывони]].',
 	'babel-5-n' => 'Ын иштирокәкә [[$1|пешәкор сәвијјәдә]] зынејдә [[$2|Толышә зывони]].',
 	'babel-N-n' => 'Бо ын иштирокәкә [[$2|Толышә зывон]] [[$1|моә зывоне]].',
@@ -336,6 +336,11 @@ $messages['an'] = array(
 	'babel' => "Información d'usuario de Babel",
 	'babel-desc' => "Adibe a función <code>#babel</code> de parseyo ta premitir a cheneración automatica d'una colunna de caixas d'usuario de babel, con a posibilidat d'encluyir-ie plantillas personalizatas",
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Usuarios por idioma',
+	'babel-autocreate-abort' => "O nombre d'usuario especificau ye emplegau ta la creyación automatica de categorías [[$1|Babel]] y no se puede rechistrar.",
+	'babel-autocreate-reason' => 'Creyando automaticament a pachina de categoría [[$1|Babel]].',
+	'babel-autocreate-text-levels' => "Os usuarios d'ista categoría declaran que tienen un ran de dominio $1 de l'idioma $2.",
+	'babel-autocreate-text-main' => "Os usuarios en ista categoría declaran que tienen conoixencia de l'idioma $1.",
 	'babel-0' => 'Iste usuario [[$1|no]] conoixe brenca o [[$2|$3]] (u lo entiende malament).',
 	'babel-1' => 'Iste usuario conoixe o [[$2|$3]] con un libel [[$1|basico]].',
 	'babel-2' => 'Iste usuario conoixe o [[$2|$3]] con un libel [[$1|meyo]].',
@@ -350,6 +355,7 @@ $messages['an'] = array(
 	'babel-4-n' => "Iste usuario conoixe l'[[$2|aragonés]] con un libel [[$1|quasi nativo]].",
 	'babel-5-n' => "Iste usuario conoixe l'[[$2|aragonés]] con un libel [[$1|profesional]].",
 	'babel-N-n' => "Iste usuario conoixe l'[[$2|aragonés]] con o libel d'un fablador [[$1|patrimonial]].",
+	'babel-footer' => 'Usuarios por idioma',
 );
 
 /** Old English (Ænglisc)
@@ -903,6 +909,35 @@ $messages['bn'] = array(
 	'babel-footer' => 'ভাষা অনুযায়ী ব্যবহারকারী',
 );
 
+/** Bishnupria Manipuri (ইমার ঠার/বিষ্ণুপ্রিয়া মণিপুরী)
+ * @author Usingha
+ */
+$messages['bpy'] = array(
+	'babel' => 'আতাকুরার বাবেলর বারে',
+	'babel-desc' => 'নিজর করা টেম্পলেটরমা সয়ংক্রিয় বাবেল আতাকুরার বাক্স কলামগত তিলকরানিত <code>#babel</code> পার্সার ফাংসন তিলকর',
+	'babel-url' => 'Project:বাবেল',
+	'babel-footer-url' => ':Category:Babel - ঠারর মাতুঙে আতাকুরা',
+	'babel-autocreate-abort' => 'যে আতাকুরার নাঙহান তি রেপকরিসত অহান [[$1|Babel]] থাকরমা আপ্পানে মিহিল বারো নিবন্ধন করানি সম্ভব নাইল।',
+	'babel-autocreate-reason' => 'আপ্পানে [[$1|Babel]] থাকর পাতাহান হঙিল।',
+	'babel-autocreate-text-levels' => 'এরে থাকর আতাকুরার হেইনিঙপাহান $2 ঠাররকা তানুর হেইনিঙর থাকহান $1।',
+	'babel-autocreate-text-main' => 'এরে থাকর আতাকুরারতা $1 ঠারহানর গজে জ্ঞানহান আসে।',
+	'babel-0' => 'এরে আতাকুরা এগরতা [[$2|$3]] এহার গজে কোন ধারনা [[$1|নেই]] (নাইলে জবর হিনপিয়া হারপার)।',
+	'babel-1' => 'আতাকুরা এগরতা [[$2|$3]]র গজে [[$1|সাধারণ]] ধারণা আসে।',
+	'babel-2' => 'আতাকুরা এগরতা [[$2|$3]]র গজে [[$1|মাধ্যমিক]] ধারণা আসে।',
+	'babel-3' => 'আতাকুরা এগরতা [[$2|$3]]র গজে [[$1|হবা]] ধারণা আসে।',
+	'babel-4' => 'আতাকুরা এগরতা [[$2|$3]]র গজে [[$1|ইমারঠারহানর অসারে]] ধারণা আসে।',
+	'babel-5' => 'আতাকুরা এগরতা [[$2|$3]]র গজে [[$1|জবর হবা]] ধারণা আসে।',
+	'babel-N' => 'আতাকুরা এগরতা [[$2|$3]]র গজে [[$1|ইমারঠারর অসারে]] ধারণা আসে।',
+	'babel-0-n' => 'এরে আতাকুরা এগরতা [[$2|বিষ্ণুপ্রিয়া মণিপুরী ঠারর]]র গজে কোন ধারনা [[$1|নেই]] (নাইলে জবর হিনপিয়া হারপার)।',
+	'babel-1-n' => 'আতাকুরা এগরতা [[$2|বিষ্ণুপ্রিয়া মণিপুরী ঠার]]র গজে [[$1|সাধারণ]] ধারণা আসে।',
+	'babel-2-n' => 'আতাকুরা এগরতা [[$2|বিষ্ণুপ্রিয়া মণিপুরী ঠার]]র গজে [[$1|মাধ্যমিক]] ধারণা আসে।',
+	'babel-3-n' => 'আতাকুরা এগরতা [[$2|বিষ্ণুপ্রিয়া মণিপুরী ঠার]]র গজে [[$1|হবা]] ধারণা আসে।',
+	'babel-4-n' => 'আতাকুরা এগরতা [[$2|বিষ্ণুপ্রিয়া মণিপুরী ঠার]]র গজে [[$1|ইমারঠারহানর অসারে]] ধারণা আসে।',
+	'babel-5-n' => 'আতাকুরা এগরতা [[$2|বিষ্ণুপ্রিয়া মণিপুরী ঠার]]র গজে [[$1|জবর হবা]] ধারণা আসে।',
+	'babel-N-n' => 'আতাকুরা এগরতা [[$2|বিষ্ণুপ্রিয়া মণিপুরী ঠার]]র গজে [[$1|ইমারঠারর অসারে]] ধারণা আসে।',
+	'babel-footer' => 'ঠারর মাতুঙে আতাকুরা',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  * @author Y-M D
@@ -1289,6 +1324,35 @@ $messages['de'] = array(
 	'babel-5-n' => '{{GENDER:$4|Dieser Benutzer|Diese Benutzerin|Dieser Benutzer}} beherrscht [[$2|Deutsch]] auf [[$1|professionellem]] Niveau.',
 	'babel-N-n' => '{{GENDER:$4|Dieser Benutzer|Diese Benutzerin|Dieser Benutzer}} spricht [[$2|Deutsch]] als [[$1|Muttersprache]].',
 	'babel-footer' => 'Benutzer nach Sprache',
+);
+
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'babel' => 'Zanışiye babilê karberi',
+	'babel-desc' => 'xulusa da sablonan dı dêsê babilê karberi otomatik vışatıştı, fonksiyonê <code>#babil</code>i fêno de',
+	'babel-url' => 'Project:Babil',
+	'babel-footer-url' => 'Kategoriye:Babil - Zuwanê karberi',
+	'babel-autocreate-abort' => 'Karbero kı şıma  belı  kerdo, kategoriya dı [[$1|Babil]]i dı ca gêno u peyd zi nê gêrêno.',
+	'babel-autocreate-reason' => 'Kategoriye [[$1|Babil]]i otomatik vırazêno.',
+	'babel-autocreate-text-levels' => 'Karberê qı na kategorideyê, nê zuwani sewiye dê  $1 u $2 derece zanê.',
+	'babel-autocreate-text-main' => 'Karberê qı na kategorideyê  $1 zuwani zanê.',
+	'babel-0' => 'No karber nê zuwani ya [[$1|hêç]] nêzano ya zi [[$2|$3]] (fahm keno feqet kısey nêzano).',
+	'babel-1' => 'no karber [[$1|tenekê]] fahm keno [[$2|$3]].',
+	'babel-2' => 'No karber [[$1|hewl]] zano [[$2|$3]].',
+	'babel-3' => 'No karber [[$1|xeylê]] zanê [[$2|$3]].',
+	'babel-4' => 'No karber [[$1|Zey zuwan]]dê zano [[$2|$3]].',
+	'babel-5' => 'No karber [[$1|profesyonel]] sewiye dı zano [[$2|$3]].',
+	'babel-N' => '[[$1|zuwanè marda]] nê karberi [[$2|$3]].',
+	'babel-0-n' => 'no karber [[$1|hêç]]  [[$2|Zazaki]] nêzano (ya zi fahm keno qıseykerdış nêzano).',
+	'babel-1-n' => 'No karber [[$1|tenekê]] [[$2|Zazaki]] zano.',
+	'babel-2-n' => '[[$2|Zazakiya]] nê karberi [[$1|hewla]].',
+	'babel-3-n' => 'No karber [[$1|weş]] [[$2|zazaki]] zano.',
+	'babel-4-n' => 'No karber [[$2|Zazaki]] zey [[$1|zuwandê marda xo]] zano.',
+	'babel-5-n' => 'No karber [[$1|profesyonel]] sewiye dı [[$2|Zazaki]] zano.',
+	'babel-N-n' => 'Zuwanê [[$1|Marda]] nê karberi [[$2|Zazaki]]o.',
+	'babel-footer' => 'Zuwana heta karberi',
 );
 
 /** Lower Sorbian (Dolnoserbski)
