@@ -6173,17 +6173,18 @@ $messages['zh-cn'] = array(
  * @author Hydra
  * @author Jimmy xu wrk
  * @author Shinjiman
+ * @author Shizhao
  * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'babel' => '用户巴别信息',
 	'babel-desc' => '加一个<code>#babel</code>处理功能去容许自动产生一个巴别用户框栏及包含可自定化的模版',
 	'babel-url' => 'Project:巴别',
-	'babel-footer-url' => ':Category:巴别-用户（按语言）',
+	'babel-footer-url' => ':Category:用户语言',
 	'babel-autocreate-abort' => '您所指定的用户名不能被注册，因其被用作[[$1|巴别]]分类的自动创建。',
 	'babel-autocreate-reason' => '自动建立[[$1|巴别]]分类页。',
-	'babel-autocreate-text-levels' => '在此分类中的用户具有语言$2的$1能力。',
-	'babel-autocreate-text-main' => '此分类中的用户能理解语言$1。',
+	'babel-autocreate-text-levels' => '在此分类中的用户具有$2的$1级能力。',
+	'babel-autocreate-text-main' => '此分类中的用户能理解$1。',
 	'babel-0' => '这位用户[[$1|不懂]]或很难理解[[$2|$3]]。',
 	'babel-1' => '这位用户的[[$2|$3]]达到[[$1|初级水平]]。',
 	'babel-2' => '这位用户的[[$2|$3]]达到[[$1|中级水平]]。',
