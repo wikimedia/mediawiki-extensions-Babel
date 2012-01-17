@@ -813,7 +813,7 @@ $messages['bg'] = array(
 	'babel' => 'Вавилонски данни за потребителя',
 	'babel-desc' => 'Прибавяне на парсерна функция <code>#babel</code>, която позволява автоматично създаване на вавилонски потребителски кутийки, а може също да включва и други потребителски шаблони',
 	'babel-url' => 'Project:Вавилон',
-	'babel-footer-url' => ':Категория:Вавилон – потребители по език',
+	'babel-footer-url' => ':Category:Вавилон – потребители по език',
 	'babel-autocreate-abort' => 'Посоченото от вас потребителско име се използва за автоматично създаване на [[$1|вавилонски категории]] и не може да бъде регистрирано.',
 	'babel-autocreate-reason' => 'Автоматично създаване на [[$1|вавилонска категория]].',
 	'babel-autocreate-text-levels' => 'Потребителите в тази категория са посочили, че владеят $2 език на $1 ниво.',
@@ -2167,6 +2167,35 @@ $messages['hi'] = array(
 	'babel-5-n' => 'इस सदस्यको [[$2|हिन्दी]] का [[$1|व्यावसायिक स्तर]] का ज्ञान है।',
 	'babel-N-n' => 'इस सदस्यको [[$2|हिन्दी]] का [[$1|स्थानिक स्तर]] का ज्ञान है।',
 	'babel-footer' => 'उपयोगकर्ताओं द्वारा भाषा',
+);
+
+/** Fiji Hindi (Latin script) (Fiji Hindi)
+ * @author Girmitya
+ */
+$messages['hif-latn'] = array(
+	'babel' => 'Babel sadasya ke jaankari',
+	'babel-desc' => 'Ii <code>#babel</code> parser function ke jorre hae jisse babel ke sadasya box ke column apne se ban jaawe hae, aue isse custom template banawa jaae sake hae',
+	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Bhasa ke aadhar pe sadasya',
+	'babel-autocreate-abort' => 'Jon sadasya ke naam ke aap diya hae ke [[$1|Babel]] category auto-creation ke khaatir kaam me lawa jaawe hae aur register nai karaa jaae sake hae.',
+	'babel-autocreate-reason' => 'Apne se [[$1|Babel]] vibhag ke banawa jaae hae',
+	'babel-autocreate-text-levels' => 'Ii vibhag ke sadasya ke lage $2 bhasa ke khaatir $1 ke baraabar ke jaankari hae.',
+	'babel-autocreate-text-main' => 'Ii vibhag ke sadasya ii batae hae ki uske lage bhasa $1 ke jaankari hae.',
+	'babel-0' => 'Ii sadasya ke lage [[$2|$3]] ke [[$1|kuchh nai]] jaankari nai hae (nai to ii bhasa ke bahut muskil se samjhe hae).',
+	'babel-1' => 'Ii sadasya ke lage [[$2|$3]] ke [[$1|khaali thorraa]] jaankari hae.',
+	'babel-2' => 'Ii sadasya ke lage [[$2|$3]] ke [[$1|samjhe bhar ke]] jaankari hae.',
+	'babel-3' => 'Ii sadasya ke lage [[$2|$3]] ke [[$1|achchhaa]] jaankari hae.',
+	'babel-4' => 'Ii sadasya ke lage [[$2|$3]] ke [[$1|lagbhag bachpan ke bhasa ke rakam ke]] jaankari hae.',
+	'babel-5' => 'Ii sadasya ke lage [[$2|$3]] ke [[$1|khaas]] jaankari hae.',
+	'babel-N' => 'Ii sadasya ke lage [[$2|$3]] ke [[$1|bachpan ke  bhasa ke rakam ke]] jaankari hae.',
+	'babel-0-n' => 'Ii sadasya ke lage [[$2|English]] ke [[$1|kuchh nai]] jaankari nai hae (nai to ii bhasa ke bahut muskil se samjhe hae).',
+	'babel-1-n' => 'Ii sadasya ke lage [[$2|English]] ke [[$1|khaali thorraa]] jaankari hae.',
+	'babel-2-n' => 'Ii sadasya ke lage [[$2|English]] ke [[$1|samjhe bhar ke]] jaankari hae.',
+	'babel-3-n' => 'Ii sadasya ke lage [[$2|English]] ke [[$1|achchhaa]] jaankari hae.',
+	'babel-4-n' => 'Ii sadasya ke lage [[$2|English]] ke [[$1|lagbhag bachpan ke bhasa ke rakam ke]] jaankari hae.',
+	'babel-5-n' => 'Ii sadasya ke lage [[$2|English]] ke [[$1|khaas]] jaankari hae.',
+	'babel-N-n' => 'Ii sadasya ke lage [[$2|English]] ke [[$1|bachpan ke  bhasa ke rakam ke]] jaankari hae.',
+	'babel-footer' => 'Bhasa ke aadhaar pe sadasya',
 );
 
 /** Hiligaynon (Ilonggo)
