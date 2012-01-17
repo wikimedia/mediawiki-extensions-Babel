@@ -46,9 +46,7 @@ class BabelAutoCreate {
 			return;
 		}
 
-
-		$article = new Article( $title, 0 );
-		if( !$article->getTitle()->quickUserCan( 'create', $user ) ) {
+		if( !$title->quickUserCan( 'create', $user ) ) {
 			return; # The Babel AutoCreate account is not allowed to create the page
 		}
 
@@ -60,6 +58,8 @@ class BabelAutoCreate {
 		$oldParser = $wgParser;
 		$parserClass = $wgParserConf['class'];
 		$wgParser = new $parserClass( $wgParserConf );
+
+		$article = new Article( $title, 0 );
 		$article->doEdit(
 			$text,
 			wfMsgForContent( 'babel-autocreate-reason', wfMsgForContent( 'babel-url' ) ),
