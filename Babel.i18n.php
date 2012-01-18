@@ -753,6 +753,7 @@ $messages['be'] = array(
 	'babel' => 'Моўныя звесткі ўдзельніка',
 	'babel-desc' => 'Дадае парсеру здольнасць разбіраць <code>#babel</code> і аўтаматычна генераваць паласу юзербоксаў і ўлучаць свае шаблоны',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Вавілонская вежа — удзельнікі паводле моў',
 	'babel-autocreate-text-levels' => 'Удзельнікі ў гэтай катэгорыі паказначылі, што яны маюць навык ўзроўню $1 мовы $2.',
 	'babel-autocreate-text-main' => 'Карыстальнікі ў гэтай катэгорыі паказваюць, што яны валодаюць ведамі мовы $1.',
 	'babel-0' => '[[$1|Не разумею]] або ледзьве разумею [[$2|$3]].',
@@ -1922,6 +1923,7 @@ $messages['gd'] = array(
 	'babel-4-n' => "Tha comas labhairt [[$1|cha mhòr mar cuideigin air ag bheil i on ghlùn]] aig a' chleachdaiche seo sa [[$2|Ghàidhlig]].",
 	'babel-5-n' => "Tha comas labhairt [[$1|proifeiseanta]] aig a' chleachdaiche seo sa [[$2|Ghàidhlig]].",
 	'babel-N-n' => "Tha [[$2|Gàidhlig]] [[$1|on ghlùn]] aig a' chleachdaiche seo.",
+	'babel-footer' => 'Cleachdaichean a-rèir cànain',
 );
 
 /** Galician (Galego)
