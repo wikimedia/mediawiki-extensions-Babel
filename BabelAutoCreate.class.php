@@ -13,6 +13,9 @@ class BabelAutoCreate {
 
 	/**
 	 * Abort user creation if the username is that of the autocreation username.
+	 * @param $user User
+	 * @param $message
+	 * @return bool
 	 */
 	public static function RegisterAbort( User $user, &$message ) {
 		$message = wfMsg( 'babel-autocreate-abort', wfMsg( 'babel-url' ) );
