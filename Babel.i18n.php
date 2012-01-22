@@ -3621,6 +3621,16 @@ $messages['mhr'] = array(
 	'babel-N-n' => 'Тиде пайдаланышылан [[$2|марий йылме]] [[$1|шочмо]] улеш.',
 );
 
+/** Maori (Māori)
+ * @author GerardM
+ */
+$messages['mi'] = array(
+	'babel-1-n' => 'He [[$1||tapepa]] rawa [[$2|te reo Māori]] o tēnei tangata.',
+	'babel-2-n' => 'Kua taea e tēnei tangata te [[$1|takawaenga ]] mō [[$2|te reo Māori]].',
+	'babel-3-n' => 'He [[$1|matatau]] tēnei tāngata ki [[$2|te reo Māori]].',
+	'babel-4-n' => 'Ko tēnei tangata he [[$1|tino matatau]] ki te reo [[$2|Māori]].',
+);
+
 /** Macedonian (Македонски)
  * @author Bjankuloski06
  * @author Brest
