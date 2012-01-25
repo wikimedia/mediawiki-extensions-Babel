@@ -2731,10 +2731,16 @@ $messages['ka'] = array(
 	'babel-footer' => 'მომხმარებლები ენის მიხედვით',
 );
 
-/** Kara-Kalpak (Qaraqalpaqsha) */
+/** Kara-Kalpak (Qaraqalpaqsha)
+ * @author Atabek
+ */
 $messages['kaa'] = array(
+	'babel' => "Babıl paydalanıwshılar mag'lıwmatı",
+	'babel-url' => 'Project:Babıl',
+	'babel-footer-url' => ':Category:Babıl - tiller boyınsha paydalanıwshılar',
 	'babel-4-n' => "Bul qollanıwshı ushın [[$2|qaraqalpaq tili]] ana tilge jaqın da'rejede bolıp esaplanadı.",
 	'babel-N-n' => 'Bul qollanıwshı ushın [[$2|qaraqalpaq tili]] ana til bolıp esaplanadı.',
+	'babel-footer' => 'Tiller boyınsha paydalanıwshılar',
 );
 
 /** Адыгэбзэ (Адыгэбзэ)
