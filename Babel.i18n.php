@@ -3918,6 +3918,7 @@ $messages['myv'] = array(
 /** Nahuatl (Nāhuatl)
  * @author Fluence
  * @author Purodha
+ * @author Ricardo gs
  * @author Teòtlalili
  */
 $messages['nah'] = array(
@@ -3943,6 +3944,7 @@ $messages['nah'] = array(
 	'babel-4-n' => 'Inìn motekìuhtiàni tlâtowa in [[$2|nàwatl]] kâxa kèn sè [[$1|chànë]].',
 	'babel-5-n' => 'Inìn motekìuhtiàni [[$1|nàwaìxmatki]], ìka motekìuhtia in [[$2|nàwatlâtòlli]].',
 	'babel-N-n' => 'In [[$2|nàwatlâtòlli]], [[$1|ìtlàkatkàtlâtòl]] inìn motekìuhtiàni, kiyèknênewilia.',
+	'babel-footer' => 'Tlatequitiltilīltin īpal īntlahtōl',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
