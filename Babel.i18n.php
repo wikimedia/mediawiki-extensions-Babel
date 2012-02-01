@@ -4158,6 +4158,7 @@ $messages['nso'] = array(
 	'babel' => 'Sedi ya Moošomiši go Babel',
 	'babel-desc' => 'Thwanya <code>#babel</code> "parser function" go dumelela "babel userbox" yeo e dumelalago go hloma "custom templates"',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Bašomiši ka mmolelo',
 	'babel-autocreate-abort' => 'Leina-šomiši lago kgethwa ke wena le a šomišwa go sehlopha sa [[$1|Babel]] ka gona go ngwadiša ga go kgonagake.',
 	'babel-autocreate-reason' => 'Ka noši hloma [[$1|Babel]] sa letlakala la sehlopha.',
 	'babel-autocreate-text-levels' => 'Bašomiši go sehlopha se ba e hlalosa bane tsebo ya seemo sa $1 go leleme la  $2.',
@@ -4313,6 +4314,7 @@ $messages['pcd'] = array(
 	'babel' => 'Informachons Babel su echl uzeu',
 	'babel-desc' => 'Érquértche el foncchon "analise <code>#babel</code>" pou avoèr el généracion d\'eune colonne "uzeu-boète babel" aveuc el pochibilité éd mètte chés modèles pérsonèls',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Catégorie:Babel - Uzeus par langue',
 	'babel-autocreate-abort' => "Ech nom d'uzeu avinché est imploéïé pou el oeto-créachon del catégorie [[$1|Babel]] don i n'put poin éte inrégistré.",
 	'babel-autocreate-reason' => 'Pache éd créachon oetomatike del catégorie [[$1|Babel]].',
 	'babel-autocreate-text-levels' => "Ches uzeus din l'catégorie-lo, is déloufette qu'is ont un nivieu avinché $1 din l'langue $2.",
@@ -4331,6 +4333,7 @@ $messages['pcd'] = array(
 	'babel-4-n' => "Pou echl uzeu-lo, ch' [[$2|Picard]] ch'est [[$1|quasimint conme l'langue éd chés pérints]].",
 	'babel-5-n' => 'Echl uzeu-lo, il o un  parlache [[$1|proféchionnèl]] in [[$2|picard]].',
 	'babel-N-n' => "Pou echl'uzeu-lo, ch' [[$2|Picard]] ch'est [[$1|l'langue éd ses pérints]].",
+	'babel-footer' => 'Uzeus par langue',
 );
 
 /** Deitsch (Deitsch)
@@ -6411,5 +6414,15 @@ $messages['zh-tw'] = array(
 	'babel-4-n' => '這位用戶有[[$1|接近母語講者]]的[[$2|台式中文]]知識。',
 	'babel-5-n' => '這位用戶有[[$1|專業]]的[[$2|台式中文]]知識。',
 	'babel-N-n' => '[[$2|台式中文]]是這位用戶的的[[$1|母語]]。',
+);
+
+/** Zulu (isiZulu)
+ * @author Mohau
+ */
+$messages['zu'] = array(
+	'babel' => 'Ulwazi lomsebenzisi we Babel',
+	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel -Abasebenzisi ngo limi',
+	'babel-footer' => 'Abasebenzisi ngo limi',
 );
 
