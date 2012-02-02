@@ -3631,7 +3631,7 @@ $messages['mhr'] = array(
  * @author GerardM
  */
 $messages['mi'] = array(
-	'babel-1-n' => 'He [[$1||tapepa]] rawa [[$2|te reo Māori]] o tēnei tangata.',
+	'babel-1-n' => 'He [[$1|tapepa]] rawa [[$2|te reo Māori]] o tēnei tangata.',
 	'babel-2-n' => 'Kua taea e tēnei tangata te [[$1|takawaenga ]] mō [[$2|te reo Māori]].',
 	'babel-3-n' => 'He [[$1|matatau]] tēnei tāngata ki [[$2|te reo Māori]].',
 	'babel-4-n' => 'Ko tēnei tangata he [[$1|tino matatau]] ki te reo [[$2|Māori]].',
@@ -5180,6 +5180,18 @@ $messages['sli'] = array(
 	'babel-N-n' => 'Dieser Benutzer ies a echte schläsche Lerge un spricht [[$2|Schläsch]] als [[$1|Muttersproache]].',
 );
 
+/** Somali (Soomaaliga)
+ * @author GerardM
+ */
+$messages['so'] = array(
+	'babel-0-n' => 'Isticmaalahan waxba kama yaqaano af [[$2|Soomaaliga]] (ama wuxuu ka yaqaanaa wax aad iyo  [[$1|aad u yar]]).',
+	'babel-1-n' => 'Isticmaalahan wuxuu [[$2|Soomaaliga]] ugu hadlaa si [[$1|aad u yar]].',
+	'babel-2-n' => 'Isticmaalahan wuxuu [[$2|Soomaaliga]] ugu hadlaa si [[$1|dhaxdhaxaad ah]].',
+	'babel-3-n' => 'Isticmaalahan wuxuu [[$2|Soomaaliga]] ugu hadlaa si  [[$1|aad u fiican]].',
+	'babel-4-n' => 'Isticmaalahan wuxuu [[$2|Soomaaliga]] ugu hadlaa sida afkiisa  [[$1|hooyo]] oo kale.',
+	'babel-N-n' => 'Isticmaalahan  [[$2|Soomaaliga]] waa  [[$1|afkiisa hooyo]].',
+);
+
 /** Albanian (Shqip)
  * @author Dori
  * @author Eagleal
@@ -6423,6 +6435,20 @@ $messages['zu'] = array(
 	'babel' => 'Ulwazi lomsebenzisi we Babel',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel -Abasebenzisi ngo limi',
+	'babel-0' => 'Lomsebenzisi [[$1|akanalo noluncane]] ulwazi lwe[[$2|$3]] (okanye kunzima kakhulu ukusiqondisisa).',
+	'babel-1' => 'Lomsebenzisi unolwazana [[$1|oluncane]] lwe[[$2|$3]].',
+	'babel-2' => 'Lomsebenzisi unolwazi [[$1|olungengakanani]] lwesi[[$2|$3]].',
+	'babel-3' => 'Lomsebenzisi unolwazi [[$1|oluningi]] lwe[[$2|$3]].',
+	'babel-4' => 'Lomsebenzisi unolwazi [[$1|olucishe lufane nelomuntu ozalwe ekhuluma]] [[$2|$3]].',
+	'babel-5' => 'Lomsebenzisi unolwazi [[$1|lwesemfundo eliphephile]] lwe[[$2|$3]].',
+	'babel-N' => 'Lomsebenzisi [[$1|uzalwe]] ekhuluma [[$2|$3]].',
+	'babel-0-n' => 'Lomsebenzisi [[$1|akanalo noluncane]] ulwazi [[$2|lwesiNgisi]] (okanye kunzima kakhulu ukusiqondisisa).',
+	'babel-1-n' => 'Lomsebenzisi unolwazana [[$1|oluncane]] [[$2|lwesiNgisi]].',
+	'babel-2-n' => 'Lomsebenzisi  unolwazi [[$1|olungengakanani]] [[$2|lwesiNgisi]].',
+	'babel-3-n' => 'Lomsebenzisi unolwazi [[$1|oluningi]] [[$2|lwesiNgisi]].',
+	'babel-4-n' => 'Lomsebenzisi unolwazi [[$1|olucishe lufane nelomuntu ozalwe ekhuluma]] [[$2|lwesiNgisi]].',
+	'babel-5-n' => 'Lomsebenzisi unolwazi [[$1|lwesemfundo eliphephile]] [[$2|lwesiNgisi]].',
+	'babel-N-n' => 'Lomsebenzisi [[$1|uzalwe]] ekhuluma [[$2|lwsiNgisi]].',
 	'babel-footer' => 'Abasebenzisi ngo limi',
 );
 
