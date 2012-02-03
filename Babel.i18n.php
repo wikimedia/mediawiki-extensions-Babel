@@ -2024,11 +2024,13 @@ $messages['gsw'] = array(
 /** Gujarati (ગુજરાતી)
  * @author Ashok modhvadia
  * @author Dineshjk
+ * @author Dsvyas
+ * @author KartikMistry
  */
 $messages['gu'] = array(
 	'babel' => 'બબેલ સભ્ય માહિતી',
 	'babel-desc' => 'કસ્ટમ ઢાંચા સહીત, સ્વસંચાલિત બબેલ સભ્યબોકસ કૉલમ બનાવવા માટે <code>#babel</code> પાર્સર વિધેય ઉમેરે છે.',
-	'babel-url' => 'Project:બબેલ',
+	'babel-url' => 'Project:Babel',
 	'babel-autocreate-abort' => 'તમે જે સભ્યનામ દર્શાવ્યું છે તે [[$1|બબેલ]] શ્રેણીના સ્વયંભુ પ્રાકટ્ય માટે આરક્ષિત છે અને તે નામ પર નોંધણી શક્ય નથી.',
 	'babel-autocreate-reason' => '[[$1|બબેલ]]નું સ્વયંભુ પ્રાકટ્ય થઇ રહ્યું છે.',
 	'babel-autocreate-text-levels' => 'આ શ્રેણીના સભ્યોને $2 ભાષામાં $1 જેટલી પ્રવીણતા છે.',
@@ -2047,6 +2049,7 @@ $messages['gu'] = array(
 	'babel-4-n' => '[[$2|ગુજરાતી]]ની આ સભ્યને [[$1|માતૃભાષા]] જેટલી જાણકારી છે.',
 	'babel-5-n' => 'આ સભ્યને [[$2|ગુજરાતી]] ઉપર [[$1|પ્રભુત્વ]] છે.',
 	'babel-N-n' => '[[$2|ગુજરાતી]] આ સભ્યની [[$1|માતૃભાષા]] છે.',
+	'babel-footer' => 'ભાષા વડે સભ્યો',
 );
 
 /** Manx (Gaelg)
