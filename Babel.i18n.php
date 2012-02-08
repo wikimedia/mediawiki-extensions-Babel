@@ -128,6 +128,20 @@ $messages['sxu'] = array(
 	'babel-N-n' => "Dor Benutzor hior is ä rüscht'schor [[$1|Muddorsprachlor]] vom [[$2|Sächs'sch]]n.",
 );
 
+/** Betawi (Bahasa Betawi)
+ * @author Naval Scene
+ */
+$messages['bew'] = array(
+	'babel' => 'Informasi penggune Babel',
+	'babel-desc' => 'Nambahin fungsi parser <code>#babel</code> untuk nampilin kolom kotak penggune babel secare otomatis, dengan templat nyang bise diobah sesuei keinginan (custom)',
+	'babel-url' => 'Proyek:Babel',
+	'babel-footer-url' => 'Kategori:Babel - Penggune menurut bahase',
+	'babel-autocreate-abort' => 'Name penggune nyang ente pilih udah dipake untuk ngebuat kategori otomatis [[$1|Babel]] dan kagak bise didaptarin',
+	'babel-autocreate-reason' => 'Secare otomatis nyiptain halaman kategori [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'Penggune di kategori eni nganggep die udah punye kemampuan tingkat $1 untuk bahase $2.',
+	'babel-autocreate-text-main' => 'Penggune di kategori eni nganggep die udah punye pengetahuan bahase $1',
+);
+
 /** Kabuverdianu (Kabuverdianu)
  * @author Waldir
  */
