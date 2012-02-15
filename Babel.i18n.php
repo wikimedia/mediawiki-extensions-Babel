@@ -2867,6 +2867,7 @@ $messages['kk-cyrl'] = array(
 $messages['km'] = array(
 	'babel' => 'ព័ត៌មាន​អ្នក​ប្រើ​ប្រាស់​ Babel',
 	'babel-url' => 'Project:បាបេល',
+	'babel-footer-url' => ':Category:Babel - អ្នកប្រើប្រាស់តាមភាសា',
 	'babel-autocreate-reason' => 'កំពុង​បង្កើត​ទំព័រ​ចំណាត់​ថ្នាក់​ក្រុម [[$1|Babel]] ដោយ​ស្វ័យ​ប្រវត្តិ​។​',
 	'babel-autocreate-text-levels' => 'អ្នកប្រើប្រាស់​ទាំងឡាយណា ដែល​ស្ថិតនៅក្នុង​ចំណាត់ថ្នាក់ក្រុម​នេះ បញ្ជាក់​ថា​ពួកគេ​មាន​ការយល់ដឹង​កម្រិត​ $1 សម្រាប់​ភាសា $2 ។',
 	'babel-autocreate-text-main' => 'អ្នកប្រើប្រាស់​ទាំងឡាយណា ដែល​ស្ថិតនៅក្នុង​ចំណាត់ថ្នាក់ក្រុម​នេះ បញ្ជាក់​ថា​ពួកគេ​ចេះ​និយាយ​​ភាសា $1 ។',
@@ -2884,6 +2885,7 @@ $messages['km'] = array(
 	'babel-4-n' => 'អ្នកប្រើប្រាស់នេះមានចំណេះដឹង [[$2|ភាសាខ្មែរ]] [[$1|ប្រហាក់ប្រហែលជនជាតិខ្មែរ]]។',
 	'babel-5-n' => 'អ្នកប្រើប្រាស់នេះចេះ [[$2|ភាសាខ្មែរ]] [[$1|ថ្នាក់អាជីព]]។',
 	'babel-N-n' => 'អ្នកប្រើប្រាស់នេះនិយាយ [[$2|ភាសាខ្មែរ]]ជា[[$1|ភាសាកំណើត]]។',
+	'babel-footer' => 'អ្នកប្រើប្រាស់តាមភាសា',
 );
 
 /** Kannada (ಕನ್ನಡ)
@@ -5816,19 +5818,19 @@ $messages['tyv'] = array(
 	'babel-autocreate-text-levels' => 'Бо категорияның киржикчилери бо $2 дылга билиглериниң бедиин $1 хире айтыкан.',
 	'babel-autocreate-text-main' => 'Бо категорияның киржикчилери дылының билиглериниң бедиин $1 хире айтыкан.',
 	'babel-0' => '[[$2|$3]] — [[$1|билбес]] (азы багай билир)',
-	'babel-1' => 'Бо ажыглакчы [[$1|эге деңнелге]] [[$2|тывалай]] деткий ал.',
+	'babel-1' => 'Бо ажыглакчының [[$2|тывалаары]] [[$1|эге]] деңнелдиг',
 	'babel-2' => '[[$2|$3]] — [[$1|ортумак деңнелдиг]]',
 	'babel-3' => '[[$2|$3]] — [[$1|эки деңнелдиг]]',
 	'babel-4' => '[[$2|$3]] — [[$1|төрээн чыдам]]',
 	'babel-5' => '[[$2|$3]] — [[$1|профессионал деңнелдиг]]',
 	'babel-N' => '[[$2|$3]] — [[$1|төрээн]]',
-	'babel-0-n' => 'Киржикчи  [[$2|орустап]] [[$1|билбес]] (азы арай деп билир).',
-	'babel-1-n' => 'Киржикчи [[$2|орустап]] [[$1|эге билир]].',
-	'babel-2-n' => 'Киржикчи [[$1|ортумак]] [[$2|орустап]] билир.',
-	'babel-3-n' => 'Киржикчи [[$1|хостуг]].[[$2|орустаар]]',
-	'babel-4-n' => 'Киржикчиниң [[$2|орустаары]] [[$1| төрээн чыгам]].',
-	'babel-5-n' => 'Киржикчи [[$1|профессионал]] [[$2|орустап]] билир.',
-	'babel-N-n' => 'Киржикчиге [[$2|Орус дыл]]  — [[$1|төрээн дыл]].',
+	'babel-0-n' => 'Ажыглакчы  [[$2|тывалап]] [[$1|билбес]] (азы арай деп билир).',
+	'babel-1-n' => 'Ажыглакчының [[$2|тывалаары]] [[$1|эге деңнелдиг]].',
+	'babel-2-n' => 'Киржикчиниң [[$2|тывалаары]] [[$1|ортумак]]',
+	'babel-3-n' => 'Киржикчи [[$1|хостуг]].[[$2|тывалаар]]',
+	'babel-4-n' => 'Киржикчиниң [[$2|тывалаары]] [[$1| төрээн чыгам]].',
+	'babel-5-n' => 'Киржикчи [[$1|профессионал]] [[$2|тывалаар]]',
+	'babel-N-n' => 'Киржикчиге [[$2|Тыва дыл]]  — [[$1|төрээн дыл]].',
 	'babel-footer' => 'Дылдар аайы-биле киржикчилер',
 );
 
@@ -6141,6 +6143,35 @@ $messages['wa'] = array(
 	'babel-4-n' => 'Cist(e) uzeu(se) ci kinoxhe [[$1|foirt bén]] li [[$2|walon]].',
 	'babel-5-n' => "Cist(e) uzeu(se) ci kinoxhe li [[$2|walon]] [[$1|come ene djin d' mestî]]",
 	'babel-N-n' => 'Cist uzeu [[$1|cåzant natif]] do [[$2|walon]].',
+);
+
+/** Waray (Winaray)
+ * @author JinJian
+ */
+$messages['war'] = array(
+	'babel' => 'Babel pangilal-an han gumaramit',
+	'babel-desc' => 'Nadugang hin <code>#babel</code> katungdangan sintaktiko nga natugot hinn lugaring nga paghatag hin uska rumbay hin babel nga kahon-han-gumaramit nga may-ada akos maglakip hin mga batakan hin tinuyoan nga paghimo',
+	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Mga gumaramit ha yinaknan',
+	'babel-autocreate-abort' => 'An ngaran-han-gumaramit nga imo ginpiho in gingagamit ha [[$1|Babel]] kaarangay hit lugaring-nga-paghimo ngan diri marerehistro.',
+	'babel-autocreate-reason' => 'Lugaring nga naghihimo hin [[$1|Babel]] kaarangay nga pakli.',
+	'babel-autocreate-text-levels' => 'An mga gumaramit hinin nga kaarangay in nagpapasabot hin ira katupngan $1 nga kabatiran para ha yinaknan nga $2.',
+	'babel-autocreate-text-main' => 'An mga gumaramit hinin nga kaarangay in nagpapasabot nga maaram ha yinaknan nga $1.',
+	'babel-0' => 'Ini nga gumaramit in [[$1|waray]] sarabutan hin [[$2|$3]] (o nagkukuri pagsabot).',
+	'babel-1' => 'Ini nga gumaramit in may-ada [[$1|hamabaw]] nga pananabutan han [[$2|$3]].',
+	'babel-2' => 'Ini nga gumaramit in may-ada [[$1|tunga-tunga]] nga pananabutan han [[$2|$3]].',
+	'babel-3' => 'Ini nga gumaramit in may-ada [[$1|hilarom]] nga pananabutan han [[$2|$3]].',
+	'babel-4' => 'Ini nga gumaramit in may-ada [[$1|haros tuminongnong nga manyarakan]] nga pananabutan han [[$2|$3]].',
+	'babel-5' => 'Ini nga gumaramit in may-ada [[$1|propesyonal]] nga pananabutan han [[$2|$3]].',
+	'babel-N' => 'Ini nga gumaramit in may-ada [[$1|tuminongnong]] nga pananabutan han [[$2|$3]].',
+	'babel-0-n' => 'Ini nga gumaramit in [[$1|waray]] sarabutan hin [[$2|Iningles]] (o nagkukuri pagsabot).',
+	'babel-1-n' => 'Ini nga gumaramit in may-ada [[$1|hamabaw]] nga pananabutan han [[$2|Iningles]].',
+	'babel-2-n' => 'Ini nga gumaramit in may-ada [[$1|tunga-tunga]] nga pananabutan han [[$2|Iningles]].',
+	'babel-3-n' => 'Ini nga gumaramit in may-ada [[$1|hilarom]] nga pananabutan han [[$2|Iningles]].',
+	'babel-4-n' => 'Ini nga gumaramit in may-ada [[$1|haros tuminongnong nga manyarakan]] nga pananabutan han [[$2|Iningles]].',
+	'babel-5-n' => 'Ini nga gumaramit in may-ada [[$1|propesyonal]] nga pananabutan han [[$2|Iningles]].',
+	'babel-N-n' => 'Ini nga gumaramit in may-ada [[$1|tuminongnong]] nga pananabutan han [[$2|Iningles]].',
+	'babel-footer' => 'Mga gumaramit ha yinaknan',
 );
 
 /** Wolof (Wolof)
