@@ -40,17 +40,24 @@ class Babel {
 			if ( $name === '' ) {
 				continue;
 			} elseif ( $components !== false ) {
-				// Non-existent page and valid parameter syntax, babel box
+				// Valid parameter syntax (with lowercase language code), babel box
 				$content .= self::mGenerateBox( $components['code'], $components['level'] );
 				$content .= self::mGenerateCategories( $components['code'], $components['level'] );
 			} elseif ( self::mPageExists( $template ) ) {
-				// Check for a template
+				// Check for an existing template
 				$templateParameters[0] = $template;
 				$template = implode( '|', $templateParameters );
 				$content .= self::mGenerateNotaBox( $parser->replaceVariables( "{{{$template}}}" ) );
 			} elseif ( self::mValidTitle( $template ) ) {
-				// Non-existent page and invalid parameter syntax, red link.
-				$content .= self::mGenerateNotaBox( '[[' . $template . ']]' );
+				// Non-existing page, so try again as a babel box, with converting the code to lowercase
+				$components2 = self::mParseParameter( $name, /* code to lowercase */ true );
+				if ( $components2 !== false ) {
+					$content .= self::mGenerateBox( $components2['code'], $components2['level'] );
+					$content .= self::mGenerateCategories( $components2['code'], $components2['level'] );
+				} else {
+					// Non-existent page and invalid parameter syntax, red link.
+					$content .= self::mGenerateNotaBox( '[[' . $template . ']]' );
+				}
 			} else {
 				// Invalid title, output raw.
 				$content .= self::mGenerateNotaBox( $template );
@@ -146,13 +153,14 @@ EOT;
 	 * Parse a parameter, getting a language code and level.
 	 *
 	 * @param $parameter String: Parameter.
+	 * @param $strtolower Boolean: Whether to convert the language code to lowercase
 	 * @return Array: { 'code' => xx, 'level' => xx }
 	 */
-	protected static function mParseParameter( $parameter ) {
+	protected static function mParseParameter( $parameter, $strtolower = false ) {
 		global $wgBabelDefaultLevel, $wgBabelCategoryNames;
 		$return = array();
 
-		$babelcode = strtolower( $parameter );
+		$babelcode = $strtolower ? strtolower( $parameter ) : $parameter;
 		// Try treating the paramter as a language code (for default level).
 		$code = BabelLanguageCodes::getCode( $babelcode );
 		if ( $code !== false ) {
@@ -168,7 +176,7 @@ EOT;
 		$code  = substr( $parameter, 0, $lastSplit );
 		$level = substr( $parameter, $lastSplit + 1 );
 
-		$babelcode = strtolower( $code );
+		$babelcode = $strtolower ? strtolower( $code ) : $code;
 		// Validate code.
 		$return['code'] = BabelLanguageCodes::getCode( $babelcode );
 		if ( $return['code'] === false ) {
