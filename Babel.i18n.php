@@ -179,34 +179,6 @@ $messages['kea'] = array(
 	'babel-footer' => 'Utilizadoris pur língua',
 );
 
-/** Moroccan Spoken Arabic (Maġribi)
- * @author Enzoreg
- * @author GerardM
- */
-$messages['ary'] = array(
-	'babel' => 'Meĝlomaṫ Babil ĝel l-mosṫeĥdim',
-	'babel-desc' => 'Zid l-fonksyon <code>#babel</code> baċ ṫṣayeb otomaṫikiyan sendoq Babil o ṫeĝmel fih modélaṫ maḫelliyin.',
-	'babel-url' => 'Project:Babel',
-	'babel-autocreate-abort' => "Smiyṫ l-mosṫeĥdim li deĥĥelṫi mosṫeĥdama le l-ĥṫiraĝ l-'otomaṫiki dyal l-katégoryaṫ [[$1|Babil]] o ma imkenlikċ ṫċejlo.",
-	'babel-autocreate-reason' => 'Ĥṫiraĝ otomaṫiki dyal l-katégori [[$1|Babel]].',
-	'babel-autocreate-text-levels' => 'L-mosṫeĥdimin li fe had n-noĝ ĝendhom mosṫawa $1 fe had l-loġa : $2.',
-	'babel-autocreate-text-main' => 'L-mosṫeĥdimin li fe had n-noĝ ĝendhom meĝrifa fe had l-loġa : $1.',
-	'babel-0' => 'Had l-mosṫeĥdim ma ĝendo [[$1|ḫṫa]] meĝrifa fe l-loġa [[$2|l-Meġribiya]] (ola kayfhemha be soĝoba).',
-	'babel-1' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|asasi]] fe [[$2|l-Meġribiya]].',
-	'babel-2' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|meṫweṣṣet]] fe [[$2|l-Meġribiya]].',
-	'babel-3' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|meṫqeddem]] fe [[$2|l-Meġribiya]].',
-	'babel-4' => "Had l-mosṫeĥdim ĝendo mosṫawa [[$1|qrib le loġaṫ l-'om]] fe [[$2|l-Meġribiya]].",
-	'babel-5' => 'Had l-mosṫeĥdim ĝendo meĝrifa [[$1|ḫṫirafiya]] fe [[$2|l-Meġribiya]].',
-	'babel-N' => "Had l-mosṫeĥdim kayfhem l-loġa [[$2|l-Meġribiya]] bḫal [[$1|loġṫo l-'om]].",
-	'babel-0-n' => 'Had l-mosṫeĥdim ma ĝendo [[$1|ḫṫa]] meĝrifa fe l-loġa [[$2|l-Meġribiya]] (ola kayfhemha be soĝoba).',
-	'babel-1-n' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|asasi]] fe [[$2|l-Meġribiya]].',
-	'babel-2-n' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|meṫweṣṣet]] fe [[$2|l-Meġribiya]].',
-	'babel-3-n' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|meṫqeddem]] fe [[$2|l-Meġribiya]].',
-	'babel-4-n' => "Had l-mosṫeĥdim ĝendo mosṫawa [[$1|qrib le loġṫo l-'om]] fe [[$2|l-Meġribiya]].",
-	'babel-5-n' => 'Had l-mosṫeĥdim ĝendo meĝrifa [[$1|ḫṫirafiya]] dyal [[$2|l-Meġribiya]].',
-	'babel-N-n' => "Had l-mosṫeĥdim kayfhem l-loġa [[$2|l-Meġribiya]] bḫal [[$1|loġto l-'om]].",
-);
-
 /** Ladin (Ladin) */
 $messages['lld'] = array(
 	'babel-1' => 'Chësc utënt possa contribuì cun n livel [[$1|bas]] de [[$2|$3]].',
@@ -511,6 +483,34 @@ $messages['arn'] = array(
 	'babel-4-n' => 'Faci kvzawfe [[$1|epe azvmniefi]] ti [[$2|mapuzugun]].',
 	'babel-5-n' => 'Faci kvzawfe ta [[$1|gvnezuamniefegey]] [[$2|Mapuzugun]] mew.',
 	'babel-N-n' => 'Tvfaci ce ñi [[$1|wvnen zugun]] ta [[$2|mapuzugun]].',
+);
+
+/** Moroccan Spoken Arabic (Maġribi)
+ * @author Enzoreg
+ * @author GerardM
+ */
+$messages['ary'] = array(
+	'babel' => 'Meĝlomaṫ Babil ĝel l-mosṫeĥdim',
+	'babel-desc' => 'Zid l-fonksyon <code>#babel</code> baċ ṫṣayeb otomaṫikiyan sendoq Babil o ṫeĝmel fih modélaṫ maḫelliyin.',
+	'babel-url' => 'Project:Babel',
+	'babel-autocreate-abort' => "Smiyṫ l-mosṫeĥdim li deĥĥelṫi mosṫeĥdama le l-ĥṫiraĝ l-'otomaṫiki dyal l-katégoryaṫ [[$1|Babil]] o ma imkenlikċ ṫċejlo.",
+	'babel-autocreate-reason' => 'Ĥṫiraĝ otomaṫiki dyal l-katégori [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'L-mosṫeĥdimin li fe had n-noĝ ĝendhom mosṫawa $1 fe had l-loġa : $2.',
+	'babel-autocreate-text-main' => 'L-mosṫeĥdimin li fe had n-noĝ ĝendhom meĝrifa fe had l-loġa : $1.',
+	'babel-0' => 'Had l-mosṫeĥdim ma ĝendo [[$1|ḫṫa]] meĝrifa fe l-loġa [[$2|l-Meġribiya]] (ola kayfhemha be soĝoba).',
+	'babel-1' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|asasi]] fe [[$2|l-Meġribiya]].',
+	'babel-2' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|meṫweṣṣet]] fe [[$2|l-Meġribiya]].',
+	'babel-3' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|meṫqeddem]] fe [[$2|l-Meġribiya]].',
+	'babel-4' => "Had l-mosṫeĥdim ĝendo mosṫawa [[$1|qrib le loġaṫ l-'om]] fe [[$2|l-Meġribiya]].",
+	'babel-5' => 'Had l-mosṫeĥdim ĝendo meĝrifa [[$1|ḫṫirafiya]] fe [[$2|l-Meġribiya]].',
+	'babel-N' => "Had l-mosṫeĥdim kayfhem l-loġa [[$2|l-Meġribiya]] bḫal [[$1|loġṫo l-'om]].",
+	'babel-0-n' => 'Had l-mosṫeĥdim ma ĝendo [[$1|ḫṫa]] meĝrifa fe l-loġa [[$2|l-Meġribiya]] (ola kayfhemha be soĝoba).',
+	'babel-1-n' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|asasi]] fe [[$2|l-Meġribiya]].',
+	'babel-2-n' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|meṫweṣṣet]] fe [[$2|l-Meġribiya]].',
+	'babel-3-n' => 'Had l-mosṫeĥdim ĝendo mosṫawa [[$1|meṫqeddem]] fe [[$2|l-Meġribiya]].',
+	'babel-4-n' => "Had l-mosṫeĥdim ĝendo mosṫawa [[$1|qrib le loġṫo l-'om]] fe [[$2|l-Meġribiya]].",
+	'babel-5-n' => 'Had l-mosṫeĥdim ĝendo meĝrifa [[$1|ḫṫirafiya]] dyal [[$2|l-Meġribiya]].',
+	'babel-N-n' => "Had l-mosṫeĥdim kayfhem l-loġa [[$2|l-Meġribiya]] bḫal [[$1|loġto l-'om]].",
 );
 
 /** Egyptian Spoken Arabic (مصرى)
@@ -4828,6 +4828,7 @@ $messages['roa-tara'] = array(
 
 /** Russian (Русский)
  * @author EugeneZelenko
+ * @author Express2000
  * @author Ferrer
  * @author Spiritia
  * @author Александр Сигачёв
@@ -4855,6 +4856,7 @@ $messages['ru'] = array(
 	'babel-4-n' => 'Этот участник владеет [[$2|русским языком]] [[$1|почти как родным]].',
 	'babel-5-n' => 'Этот участник [[$1|профессионально]] владеет [[$2|русским языком]].',
 	'babel-N-n' => 'Для этого участника [[$2|русский язык]] является [[$1|родным]].',
+	'babel-template' => 'Template:Пользователь $1',
 	'babel-footer' => 'Участники по языкам',
 );
 
