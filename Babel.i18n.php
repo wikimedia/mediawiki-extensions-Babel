@@ -1013,6 +1013,7 @@ $messages['brh'] = array(
 
 /** Bosnian (Bosanski)
  * @author CERminator
+ * @author Palapa
  */
 $messages['bs'] = array(
 	'babel' => 'Babel korisničke informacije',
@@ -1037,6 +1038,7 @@ $messages['bs'] = array(
 	'babel-4-n' => 'Ovaj korisnik ima [[$1|odlično]] znanje [[$2|bosanskog jezika]].',
 	'babel-5-n' => 'Ovaj korisnik ima [[$1|profesionalno]] znanje [[$2|bosanskog jezika]].',
 	'babel-N-n' => 'Ovaj korisnik ima znanje [[$2|bosanskog]] na nivou [[$1|maternjeg jezika]].',
+	'babel-footer' => 'Korisnici po jezicima',
 );
 
 /** Catalan (Català)
@@ -4010,7 +4012,7 @@ Chia̍h-ê iōng-chiá thang kóng gú-giân $2, thêng-tō͘ $1 kip.',
 	'babel-N' => '這个用者是講[[$2|$3]][[$1|大漢]]。',
 	'babel-0-n' => '這个用者[[$1|袂曉]][[$2|閩南語]]（抑是講感覺誠困難）。',
 	'babel-1-n' => '這个用者會曉[[$1|初級]]的[[$2|閩南語]]。',
-	'babel-2-n' => '這个用者會曉[[$1|中級]]的[[$2|福建話]]。',
+	'babel-2-n' => '這个用者會曉[[$1|中級]]的[[$2|閩南語]]。',
 	'babel-3-n' => '這个用者會曉[[$1|高級]]的[[$2|閩南語]]。',
 	'babel-4-n' => '這个用者講的[[$2|閩南語]]佮[[$1|在地人]]無啥差。',
 	'babel-5-n' => '這个用者會曉的[[$2|閩南語]]會當做[[$1|先生]]。',
