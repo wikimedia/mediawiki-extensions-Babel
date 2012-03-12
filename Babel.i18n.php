@@ -805,10 +805,11 @@ $messages['be'] = array(
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
+ * @author Wizardist
  * @author Zedlik
  */
 $messages['be-tarask'] = array(
-	'babel' => 'Зьвесткі пра мовы, якімі валодае ўдзельнік',
+	'babel' => 'Мовы, якімі валодае {{GENDER:$1|ўдзельнік|ўдзельніца}}',
 	'babel-desc' => 'Дадае функцыю парсэра <code>#babel</code>, якая дазваляе аўтаматычна ствараць слупок з інфармацыяй пра мовы з магчымасьцю даданьня нестандартных шаблёнаў',
 	'babel-url' => 'Project:Бабілёнская вежа',
 	'babel-footer-url' => ':Category:Бабілёнская вежа — удзельнікі па мовах',
