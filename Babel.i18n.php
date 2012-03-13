@@ -3455,6 +3455,13 @@ $messages['ltg'] = array(
 	'babel-footer' => 'Lītuotuoji piec volūdys',
 );
 
+/** Lushai (Mizo ţawng)
+ * @author RMizo
+ */
+$messages['lus'] = array(
+	'babel-footer' => 'Ţawng hman azirin hmangtute',
+);
+
 /** Latvian (Latviešu)
  * @author Dark Eagle
  * @author Gleb Borisov
