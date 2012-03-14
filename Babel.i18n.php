@@ -4002,10 +4002,8 @@ $messages['nan'] = array(
 Babel iōng-chiá ê chu-liāu',
 	'babel-desc' => '加一个<code>#babel</code>分析功能，予伊會自動生一个用戶框佮家己的枋模。
 Ka <code>#babel</code> hun-se̍k kong-lêng, hō͘ i oē chū-tōng sán-seng iōng-chiá ê kheng kap kā-kī ê pang-bô͘.',
-	'babel-url' => 'Project:巴別
-Project:Babel',
-	'babel-footer-url' => ':Category:Babel - 用者的話語
-:Category:Babel – iōng-chiá ê gú-giân',
+	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel – iōng-chiá ê gú-giân',
 	'babel-autocreate-abort' => '你欲的用者名袂當註冊，因為已經予[[$1|巴別]]自動產生分類的時陣用著。',
 	'babel-autocreate-reason' => '自動建立[[$1|巴別]]分類頁。',
 	'babel-autocreate-text-levels' => '佇這个分類的用者有$1級的$2程度。
