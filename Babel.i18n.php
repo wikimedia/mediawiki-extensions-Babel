@@ -5952,10 +5952,33 @@ $messages['ur'] = array(
 );
 
 /** Uzbek (O'zbek)
+ * @author Nataev
  * @author Purodha
  */
 $messages['uz'] = array(
+	'babel' => "Foydalanuvchi bilgan tillar haqida ma'lumot (Bobil)",
+	'babel-desc' => "Avtomatik ravishda tillar haqida o'zgartirsa bo'ladigan ma'lumot ustunini yaratadigan <code>#babel</code> parseri funksiyasini qo'shadi",
 	'babel-url' => 'Project:Bobil',
+	'babel-footer-url' => ":Category:Bobil - tillar bo'yicha foydalanuvchilar",
+	'babel-autocreate-abort' => "Siz ko'rsatgan foydalanuvchi nomi avtomatik ravishda [[$1|Bobil]] turkumlarini yaratish uchun qo'llaniladi va shu sabab qayd qilsa bo'lmaydi.",
+	'babel-autocreate-reason' => 'Avtomatik ravishda [[$1|Bolbil]] turkum sahifasini yaratish.',
+	'babel-autocreate-text-levels' => "Bu turkumdagi foydalanuvchilar $2 til uchun $1 bilim darajasini ko'rsatishgan.",
+	'babel-autocreate-text-main' => "Bu turkumdagi foydalanuvchilar $1 tilni bilishlarini ko'rsatishgan.",
+	'babel-0' => '[[$2|$3]] — [[$1|bilmaydi]]  (yoki qiyinchilik bilan tushunadi)',
+	'babel-1' => "[[$2|$3]] — [[$1|boshlang'ich daraja]]",
+	'babel-2' => "[[$2|$3]] — [[$1|o'rtacha daraja]]",
+	'babel-3' => '[[$2|$3]] — [[$1|yaxshi daraja]]',
+	'babel-4' => '[[$2|$3]] — [[$1|deyarli ona tili kabi]]',
+	'babel-5' => '[[$2|$3]] — [[$1|professional daraja]]',
+	'babel-N' => '[[$2|$3]] — [[$1|ona tili]]',
+	'babel-0-n' => "Bu foydalanuvchi [[$2|o'zbek tilini]] [[$1|bilmaydi]] (yoki qiyinchilik bilan tushunadi).",
+	'babel-1-n' => "Bu foydalanuvchi [[$2|o'zbek tilini]] [[$1|boshlang'ich]] darajada biladi.",
+	'babel-2-n' => "Bu foydalanuvchi [[$2|o'zbek tilini]] [[$1|o'rtacha darajada]] biladi.",
+	'babel-3-n' => "Bu foydalanuvchi [[$2|o'zbek tilini]] [[$1|mukammal]] biladi.",
+	'babel-4-n' => "Bu foydalanuvchi [[$2|o'zbek tilini]] [[$1|deyarli ona tilidek]] biladi.",
+	'babel-5-n' => "Bu foydalanuvchi [[$2|o'zbek tilini]] [[$1|professional darajada]] biladi.",
+	'babel-N-n' => "Bu foydalanuchi uchun [[$2|o'zbek tili]] [[$1|ona tilidir]].",
+	'babel-footer' => "Til bo'yicha foydalanuvchilar",
 );
 
 /** Vèneto (Vèneto)
