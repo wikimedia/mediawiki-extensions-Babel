@@ -2893,12 +2893,13 @@ $messages['km'] = array(
 
 /** Kannada (ಕನ್ನಡ)
  * @author NamwikiTL
+ * @author Nayvik
  * @author VASANTH S.N.
  */
 $messages['kn'] = array(
 	'babel' => 'ಬೇಬಲ್ ಬಳಕೆದಾರರ ಮಾಹಿತಿ',
 	'babel-desc' => '<code>#babel</code> ಪಾರ್ಸರ್ ಫ೦ಕ್ಷನ್ ಅನ್ನು ಸೇರಿಸುತ್ತೆ ಮತ್ತು ಅದು ಕಸ್ಟಮ್ ಬೇಬಲ್ ಟೆ೦ಪ್ಲೇಟ್ ಗಳಿರುವ ಬೇಬಲ್ ಬಳಕೆದಾರರ ಕಾಲ೦ ಅನ್ನು ಸೇರಿಸಲು ಉಪಯುಕ್ತ',
-	'babel-url' => 'ಯೋಜನೆ:ಬೇಬಲ್',
+	'babel-url' => 'Project:ಬೆಬೆಲ್',
 	'babel-0' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|$3]] ಬಗ್ಗೆ [[$1|ಶೂನ್ಯ]] ಜ್ಞಾನವಿದೆ (ಅಥವಾ ಬಹಳ ಕಷ್ಟಪಟ್ಟು ಇದನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುತ್ತಾರೆ)',
 	'babel-1' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|$3]] ಬಗ್ಗೆ [[$1|ಪ್ರಾಥಮಿಕ]] ಜ್ಞಾನವಿದೆ',
 	'babel-2' => 'ಈ ಬಳಕೆದಾರರಿಗೆ [[$2|$3]] ಬಗ್ಗೆ [[$1|ಮಧ್ಯಮ ಮಟ್ಟದ]] ಜ್ಞಾನವಿದೆ',
@@ -6467,10 +6468,11 @@ $messages['zh-cn'] = array(
  * @author Shinjiman
  * @author Shizhao
  * @author Xiaomingyan
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'babel' => '用户巴别信息',
-	'babel-desc' => '加一个<code>#babel</code>处理功能去容许自动产生一个巴别用户框栏及包含可自定化的模版',
+	'babel-desc' => '增加一个<code>#babel</code>处理功能以支持自动产生一个巴别用户框栏及包含可自定化的模版',
 	'babel-url' => 'Project:巴别',
 	'babel-footer-url' => ':Category:用户语言',
 	'babel-autocreate-abort' => '您所指定的用户名不能被注册，因其被用作[[$1|巴别]]分类的自动创建。',
