@@ -3457,9 +3457,32 @@ $messages['ltg'] = array(
 );
 
 /** Lushai (Mizo ţawng)
+ * @author GerardM
  * @author RMizo
  */
 $messages['lus'] = array(
+	'babel' => 'Babel hmangtu chanchin',
+	'babel-desc' => '<code>#babel</code> chhuifiahtu hian hmangtubawm, siamsa thlansa telh thieh turin a belh',
+	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Ţawng azira hmangtute thliarna tihlanna',
+	'babel-autocreate-abort' => 'Hmangtuhming i pêk hi [[$1|Babel]] pawl insiamtirna atana hman a ni a, ziahluh theih a ni lo.',
+	'babel-autocreate-reason' => '[[$1|Babel]] pawl phek insiamtir.',
+	'babel-autocreate-text-levels' => 'He pawla hmangtute hian $2 ţawng tana thiamna level $1 an nei tih an sawi.',
+	'babel-autocreate-text-main' => 'He pawla hmangtute hian $1 ţawng an thiam tih an sawi.',
+	'babel-0' => 'He hmangtu hian [[$2|$3]] ţawng hi  [[$1|pakhatmah]] thiamna  nei lo tih a sawi (a nih loh pawhin harsa fein a hrethiam chauh)',
+	'babel-1' => 'He hmangtu hian [[$2|$3]] ţawng thiamna [[$1|ho të]] a nei.',
+	'babel-2' => 'He hmangtu hian [[$2|$3]] ţawng thiamna [[$1|laihawl]] a nei.',
+	'babel-3' => 'He hmangtu hian [[$2|$3]] ţawng hi a [[$1|thiam näl fe]].',
+	'babel-4' => 'He hmangtu hian [[$2|$3]] ţawng hi [[$1|pianpui ţawng ang deuh thawin]] a thiam.',
+	'babel-5' => 'He hmangtu hian [[$2|$3]] ţawng hi [[$1|eizawnna tlâk]] a thiam.',
+	'babel-N' => 'He hmangtu hian [[$2|$3]] ţawng hi [[$1|pianpui ţawng]] thiamin a thiam.',
+	'babel-0-n' => 'He hmangtu hian [[$2|sap ţawng]] [[$1|pakhatmah]] a thiam lo (a ni ber e).',
+	'babel-1-n' => 'He hmangtu hian [[$2|sap ţawng]]  thiamna [[$1|ho të]] a nei.',
+	'babel-2-n' => 'He hmangtu hian [[$2|sap ţawng]]  thiamna [[$1|laihawl]] a nei.',
+	'babel-3-n' => 'He hmangtu hian [[$2|sap ţawng]]  a [[$1|thiam näl fe]].',
+	'babel-4-n' => 'He hmangtu hian [[$2|sap ţawng]] hi [[$1|pianpui ţawng ang deuh thawin]] a thiam.',
+	'babel-5-n' => 'He hmangtu hian [[$2|sap ţawng]]  hi [[$1|eizawnna tlâk]] a thiam.',
+	'babel-N-n' => 'He hmangtu hian [[$2|sap ţawng]]  hi [[$1|pianpui ţawng]] thiamin a thiam.',
 	'babel-footer' => 'Ţawng hman azirin hmangtute',
 );
 
