@@ -221,35 +221,6 @@ $messages['egl'] = array(
 	'babel-footer' => 'Uteint par leingva',
 );
 
-/** толышә зывон (толышә зывон)
- * @author Гусейн
- */
-$messages['tly'] = array(
-	'babel' => 'Бабил иштирокәкә мәлумот',
-	'babel-desc' => 'Парсери функсијә зијод кардејәдә <code>#babel</code>, изн дојдә де автомати офәје карде сун де зывонон бәрәдә мәлумоти ијән де мымкуноти ҹо ғәлибон дахыл карде',
-	'babel-url' => 'Project:Бабил',
-	'babel-footer-url' => ':Category:Бабил - иштирокәкон зывононәдә',
-	'babel-autocreate-abort' => 'Нишо доә быә иштирокәкә ном бо [[$1|Бабил]] категоријон автоматик офәјеј истифодә бедә ијән ныбәбе ғејд кардеј.',
-	'babel-autocreate-reason' => 'Сәһифә автоматик офәјеј [[$1|Бабил]] категоријәдә.',
-	'babel-autocreate-text-levels' => 'Иштирокәкон чы категоријәку ишорә кардшоне зынәјон сәвијјә $1 бо зывони $2.',
-	'babel-autocreate-text-main' => 'Иштирокәкон бы категориәјдә зывони зынәј ишорә кардшоне $1.',
-	'babel-0' => 'Ын иштирокәкә [[$1|зынејдәни]] [[$2|$3]] (јаанки чәтин дәрәсејдә).',
-	'babel-1' => 'Ын иштирокәкә [[$1|зәиф]] зынејдә [[$2|$3]].',
-	'babel-2' => 'Ын иштирокәкә [[$1|мијонә сәвијјәдә]] зынејдә [[$2|$3]].',
-	'babel-3' => 'Ын иштирокәкә [[$1|чок]] зынејдә [[$2|$3]].',
-	'babel-4' => 'Ын иштирокәкә бәнә [[$1|моә зывони]] зынејдә [[$2|$3]].',
-	'babel-5' => 'Ын иштирокәкә [[$1|пешәкорә сәвијјәдә]] зынејдә [[$2|$3]].',
-	'babel-N' => '[[$2|$3]] зывон чы иштирокәкә [[$1|моә зывоне]].',
-	'babel-0-n' => 'Ын иштирокәкә [[$1|зынејдәни]] [[$2|Толышә зывони]] (јаанки чәтин дәрәсејдә).',
-	'babel-1-n' => 'Ын иштирокәкә [[$1|зәиф]] зынејдә [[$2|Толышә зывони]].',
-	'babel-2-n' => 'Ын иштирокәкә [[$1|мијонә сәвијјәдә]] зынејдә [[$2|Толышә зывони]].',
-	'babel-3-n' => 'Ын иштирокәкә [[$1|чок]] зынејдә [[$2|Толышә зывони]].',
-	'babel-4-n' => 'Ын иштирокәкә бәнә [[$1|моә зывони]] зынејдә [[$2|Толышә зывони]].',
-	'babel-5-n' => 'Ын иштирокәкә [[$1|пешәкор сәвијјәдә]] зынејдә [[$2|Толышә зывони]].',
-	'babel-N-n' => 'Бо ын иштирокәкә [[$2|Толышә зывон]] [[$1|моә зывоне]].',
-	'babel-footer' => 'Иштирокәкон зывононәдә',
-);
-
 /** Meänkieli (Meänkieli)
  * @author Mestos
  */
@@ -603,11 +574,13 @@ $messages['ast'] = array(
 
 /** Kotava (Kotava)
  * @author Sab
+ * @author Wikimistusik
  */
 $messages['avk'] = array(
 	'babel' => 'Babel webesikgiva',
 	'babel-desc' => 'Batcoba va <code>#babel</code> exulerafli loplekur ta mivaskafa gononasbara va Babel webesikborbriz do rotira va doplekura va ilkateza',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => 'Webesik kare ava',
 	'babel-autocreate-abort' => 'Ruidan webesikyolt joke [[$1|Babel]] mivredurafa loma zo faver nume me zo vertokar.',
 	'babel-autocreate-reason' => 'Mivaskafa redura va [[$1|Babel]] lomabu.',
 	'babel-autocreate-text-levels' => 'Webesik ke bata loma bazed da tid $1 ekastinaf icde $2 ava.',
@@ -626,6 +599,7 @@ $messages['avk'] = array(
 	'babel-4-n' => 'Bat webesik kan [[$2|Kotava]] ton [[$1|nasbokavusik]] riwe grugoler.',
 	'babel-5-n' => 'Bat webesik kan [[$2|Kotava]] [[$1|ebekon]] grugoler.',
 	'babel-N-n' => 'Bat webesik kan [[$2|Kotava]] ton [[$1|nasbokavusik]] grugoler.',
+	'babel-footer' => 'Webesik kare ava',
 );
 
 /** Aymara (Aymar aru)
@@ -5758,6 +5732,35 @@ $messages['tl'] = array(
 	'babel-4-n' => 'May [[$1|malakatutubong]] kaalaman sa pagsasalita ng [[$2|Tagalog]] ang tagagamit na ito.',
 	'babel-5-n' => 'May [[$1|dalubhasang]] kaalaman sa [[$2|Tagalog]] ang tagagamit na ito.',
 	'babel-N-n' => 'May [[$1|katutubong]] pang-unawa sa [[$2|Tagalog]] ang tagagamit na ito.',
+);
+
+/** толышә зывон (толышә зывон)
+ * @author Гусейн
+ */
+$messages['tly'] = array(
+	'babel' => 'Бабил иштирокәкә мәлумот',
+	'babel-desc' => 'Парсери функсијә зијод кардејәдә <code>#babel</code>, изн дојдә де автомати офәје карде сун де зывонон бәрәдә мәлумоти ијән де мымкуноти ҹо ғәлибон дахыл карде',
+	'babel-url' => 'Project:Бабил',
+	'babel-footer-url' => ':Category:Бабил - иштирокәкон зывононәдә',
+	'babel-autocreate-abort' => 'Нишо доә быә иштирокәкә ном бо [[$1|Бабил]] категоријон автоматик офәјеј истифодә бедә ијән ныбәбе ғејд кардеј.',
+	'babel-autocreate-reason' => 'Сәһифә автоматик офәјеј [[$1|Бабил]] категоријәдә.',
+	'babel-autocreate-text-levels' => 'Иштирокәкон чы категоријәку ишорә кардшоне зынәјон сәвијјә $1 бо зывони $2.',
+	'babel-autocreate-text-main' => 'Иштирокәкон бы категориәјдә зывони зынәј ишорә кардшоне $1.',
+	'babel-0' => 'Ын иштирокәкә [[$1|зынејдәни]] [[$2|$3]] (јаанки чәтин дәрәсејдә).',
+	'babel-1' => 'Ын иштирокәкә [[$1|зәиф]] зынејдә [[$2|$3]].',
+	'babel-2' => 'Ын иштирокәкә [[$1|мијонә сәвијјәдә]] зынејдә [[$2|$3]].',
+	'babel-3' => 'Ын иштирокәкә [[$1|чок]] зынејдә [[$2|$3]].',
+	'babel-4' => 'Ын иштирокәкә бәнә [[$1|моә зывони]] зынејдә [[$2|$3]].',
+	'babel-5' => 'Ын иштирокәкә [[$1|пешәкорә сәвијјәдә]] зынејдә [[$2|$3]].',
+	'babel-N' => '[[$2|$3]] зывон чы иштирокәкә [[$1|моә зывоне]].',
+	'babel-0-n' => 'Ын иштирокәкә [[$1|зынејдәни]] [[$2|Толышә зывони]] (јаанки чәтин дәрәсејдә).',
+	'babel-1-n' => 'Ын иштирокәкә [[$1|зәиф]] зынејдә [[$2|Толышә зывони]].',
+	'babel-2-n' => 'Ын иштирокәкә [[$1|мијонә сәвијјәдә]] зынејдә [[$2|Толышә зывони]].',
+	'babel-3-n' => 'Ын иштирокәкә [[$1|чок]] зынејдә [[$2|Толышә зывони]].',
+	'babel-4-n' => 'Ын иштирокәкә бәнә [[$1|моә зывони]] зынејдә [[$2|Толышә зывони]].',
+	'babel-5-n' => 'Ын иштирокәкә [[$1|пешәкор сәвијјәдә]] зынејдә [[$2|Толышә зывони]].',
+	'babel-N-n' => 'Бо ын иштирокәкә [[$2|Толышә зывон]] [[$1|моә зывоне]].',
+	'babel-footer' => 'Иштирокәкон зывононәдә',
 );
 
 /** Toki Pona (Toki Pona)
