@@ -436,6 +436,7 @@ $messages['arn'] = array(
 	'babel' => 'Babel kvzawfe ñi kimam',
 	'babel-desc' => 'Yomvmpe ti <code>#babel</code> gvnezuamvn kamañ ñi kisu pepi zewmawam kiñe Babel kvzawfe ñi columna de cuadro pepi nvrvftvkukelu kisu ñi plantilla',
 	'babel-url' => 'Project: Babel',
+	'babel-footer-url' => ':Xokiñ:Babel - Kvzawfe zugun mew',
 	'babel-autocreate-abort' => 'Tici kvzawfe vy tami zicolvn niegey [[$1|Babel]] xokiñ ñi kisu zewmawam, pepi cijkantvkugelay.',
 	'babel-autocreate-reason' => 'Kisu zewmaley [[$1|Babel]] xokiñ ñi aztapvl.',
 	'babel-autocreate-text-levels' => 'Kvzawkvlelu faci xokiñ mu feypi ñi kimniefiñ $1 pvrawe mew ti $2 cezugun mew',
@@ -454,6 +455,7 @@ $messages['arn'] = array(
 	'babel-4-n' => 'Faci kvzawfe [[$1|epe azvmniefi]] ti [[$2|mapuzugun]].',
 	'babel-5-n' => 'Faci kvzawfe ta [[$1|gvnezuamniefegey]] [[$2|Mapuzugun]] mew.',
 	'babel-N-n' => 'Tvfaci ce ñi [[$1|wvnen zugun]] ta [[$2|mapuzugun]].',
+	'babel-footer' => 'Kvzawfe ñi zugun mew',
 );
 
 /** Moroccan Spoken Arabic (Maġribi)
@@ -2618,6 +2620,7 @@ $messages['it'] = array(
  * @author Kwj2772
  * @author Marine-Blue
  * @author Ohgi
+ * @author Shirayuki
  * @author 青子守歌
  */
 $messages['ja'] = array(
@@ -2629,7 +2632,7 @@ $messages['ja'] = array(
 	'babel-autocreate-reason' => '[[$1|バベル]]用カテゴリのページを自動的に作成しています。',
 	'babel-autocreate-text-levels' => 'このカテゴリに属している利用者は$2について$1レベルの能力を有しています。',
 	'babel-autocreate-text-main' => 'このカテゴリに属している利用者は$1についての自身の能力について表明しています。',
-	'babel-autocreate-user' => 'バベル自動作成係',
+	'babel-autocreate-user' => 'バベル自動作成',
 	'babel-0' => 'この利用者は[[$2|$3]]が[[$1|わかりません]](または理解するのがかなり困難です)。',
 	'babel-1' => 'この利用者は[[$1|初級]]の[[$2|$3]]ができます。',
 	'babel-2' => 'この利用者は[[$1|中級]]の[[$2|$3]]ができます。',
@@ -2644,6 +2647,7 @@ $messages['ja'] = array(
 	'babel-4-n' => 'この利用者は[[$1|母語話者に近い]][[$2|日本語]]の知識を有しています。',
 	'babel-5-n' => 'この利用者は[[$1|専門的な]][[$2|日本語]]の知識を有しています。',
 	'babel-N-n' => 'この利用者は[[$2|日本語]]を[[$1|母語]]としています。',
+	'babel-template' => 'Template:利用者 $1',
 	'babel-footer' => '言語別の利用者',
 );
 
