@@ -2625,7 +2625,7 @@ $messages['it'] = array(
  */
 $messages['ja'] = array(
 	'babel' => 'バベル利用者情報',
-	'babel-desc' => 'バベル・ユーザーボックスを自動的に生成する関数 <code>#babel</code> を追加する',
+	'babel-desc' => 'バベル ユーザーボックスを自動的に生成する関数 <code>#babel</code> を追加',
 	'babel-url' => 'Project:バベル',
 	'babel-footer-url' => ':カテゴリ:バベル - 言語別の利用者',
 	'babel-autocreate-abort' => '指定した利用者名は[[$1|バベル]]用カテゴリの自動作成に使用されているため登録できません。',
