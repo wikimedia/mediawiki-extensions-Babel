@@ -157,6 +157,26 @@ $messages['bew'] = array(
 	'babel-footer' => 'Penggune nurutin kebisaan bahasenye',
 );
 
+/** Goan Konkani (Latin script) (Konknni)
+ * @author The Discoverer
+ */
+$messages['gom-latn'] = array(
+	'babel-0' => 'Hea vangddiak [[$2|$3]] [[$1|kollna]]',
+	'babel-1' => 'Hea vangddiak [[$1|thodi]] [[$2|$3]] kollta',
+	'babel-2' => 'Hea vangddeak [[$2|$3]] [[$1|sadhi]] sthorar kollta',
+	'babel-3' => 'Hea vangddiak [[$2|$3]] [[$1|borem]] bhaxen kollta',
+	'babel-4' => 'Hea vangddiak [[$2|$3]] [[$2|khup borem]] bhaxen kollta',
+	'babel-5' => 'Hea vangddeak [[$2|$3]] [[$1|vyavasaik]] sthorar kollta',
+	'babel-N' => '[[$2|$3]] hea vangddiachi [[$1|mai-bhas]] zaun asa',
+	'babel-0-n' => 'Hea vangddiak [[$2|Konknni]] [[$1|kollna]]',
+	'babel-1-n' => 'Hea vangddiak [[$1|thodi]] [[$2|Konknni]] kollta',
+	'babel-2-n' => 'Hea vangddeak [[$2|Konknni]] [[$1|sadhi]] sthorar kollta',
+	'babel-3-n' => 'Hea vangddiak [[$2|Konknni]] [[$1|borem]] bhaxen kollta',
+	'babel-4-n' => 'Hea vangddiak [[$2|Konknni]] [[$2|khup borem]] bhaxen kollta',
+	'babel-5-n' => 'Hea vangddeak [[$2|Konknni]] [[$1|vyavasaik]] sthorar kollta',
+	'babel-N-n' => '[[$2|Konknni]] hea vangddiachi [[$1|mai-bhas]] zaun asa',
+);
+
 /** Kabuverdianu (Kabuverdianu)
  * @author Waldir
  */
