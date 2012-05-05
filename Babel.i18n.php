@@ -165,14 +165,14 @@ $messages['gom-latn'] = array(
 	'babel-1' => 'Hea vangddiak [[$1|thodi]] [[$2|$3]] kollta',
 	'babel-2' => 'Hea vangddeak [[$2|$3]] [[$1|sadhi]] sthorar kollta',
 	'babel-3' => 'Hea vangddiak [[$2|$3]] [[$1|borem]] bhaxen kollta',
-	'babel-4' => 'Hea vangddiak [[$2|$3]] [[$2|khup borem]] bhaxen kollta',
+	'babel-4' => 'Hea vangddiak [[$2|$3]] [[$1|khup borem]] bhaxen kollta',
 	'babel-5' => 'Hea vangddeak [[$2|$3]] [[$1|vyavasaik]] sthorar kollta',
 	'babel-N' => '[[$2|$3]] hea vangddiachi [[$1|mai-bhas]] zaun asa',
 	'babel-0-n' => 'Hea vangddiak [[$2|Konknni]] [[$1|kollna]]',
 	'babel-1-n' => 'Hea vangddiak [[$1|thodi]] [[$2|Konknni]] kollta',
 	'babel-2-n' => 'Hea vangddeak [[$2|Konknni]] [[$1|sadhi]] sthorar kollta',
 	'babel-3-n' => 'Hea vangddiak [[$2|Konknni]] [[$1|borem]] bhaxen kollta',
-	'babel-4-n' => 'Hea vangddiak [[$2|Konknni]] [[$2|khup borem]] bhaxen kollta',
+	'babel-4-n' => 'Hea vangddiak [[$2|Konknni]] [[$1|khup borem]] bhaxen kollta',
 	'babel-5-n' => 'Hea vangddeak [[$2|Konknni]] [[$1|vyavasaik]] sthorar kollta',
 	'babel-N-n' => '[[$2|Konknni]] hea vangddiachi [[$1|mai-bhas]] zaun asa',
 );
@@ -4718,6 +4718,7 @@ $messages['pt'] = array(
  * @author Brunoy Anastasiya Seryozhenko
  * @author Eduardo.mps
  * @author Giro720
+ * @author 555
  */
 $messages['pt-br'] = array(
 	'babel' => 'Informação Babel de Usuário',
@@ -4736,12 +4737,12 @@ $messages['pt-br'] = array(
 	'babel-5' => 'Este usuário têm um conhecimento [[$1|profissional]] de [[$2|$3]].',
 	'babel-N' => 'Este usuário é um [[$1|falante nativo]] de [[$2|$3]].',
 	'babel-0-n' => 'Este usuário [[$1|não compreende]] [[$2|português]] (ou compreende com dificuldades consideráveis).',
-	'babel-1-n' => 'Este usuário pode contribuir com um nível [[$1|básico]] de [[$2|português]].',
-	'babel-2-n' => 'Este usuário pode contribuir com um nível [[$1|médio]] de [[$2|português]].',
-	'babel-3-n' => 'Este usuário pode contribuir com um nível [[$1|avançado]] de [[$2|português]].',
-	'babel-4-n' => 'Este usuário pode contribuir com um nível [[$1|quase nativo]] de [[$2|português]].',
-	'babel-5-n' => 'Este usuário pode contribuir com um nível [[$1|profissional]] de [[$2|português]].',
-	'babel-N-n' => 'Este usuário tem como língua [[$1|materna]] o [[$2|português]].',
+	'babel-1-n' => '{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|básico]] de [[$2|português no dialeto brasileiro]].',
+	'babel-2-n' => '{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|médio]] de [[$2|português no dialeto brasileiro]].',
+	'babel-3-n' => '{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|avançado]] de [[$2|português no dialeto brasileiro]].',
+	'babel-4-n' => '{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|quase nativo]] de [[$2|português no dialeto brasileiro]].',
+	'babel-5-n' => '{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|profissional]] de [[$2|português no dialeto brasileiro]].',
+	'babel-N-n' => '{{GENDER:$4|Este usuário|Esta usuária}} tem como língua [[$1|materna]] o [[$2|dialeto brasileiro da língua portuguesa]].',
 	'babel-footer' => 'Usuários por língua',
 );
 
