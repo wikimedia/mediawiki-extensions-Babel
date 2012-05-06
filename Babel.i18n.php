@@ -4715,10 +4715,10 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (Português do Brasil)
+ * @author 555
  * @author Brunoy Anastasiya Seryozhenko
  * @author Eduardo.mps
  * @author Giro720
- * @author 555
  */
 $messages['pt-br'] = array(
 	'babel' => 'Informação Babel de Usuário',
