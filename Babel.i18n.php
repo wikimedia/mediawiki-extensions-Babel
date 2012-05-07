@@ -881,29 +881,29 @@ $messages['bho'] = array(
  * @author J Subhi
  */
 $messages['bjn'] = array(
-	'babel' => 'Panjalasan Babel pamuruk',
-	'babel-desc' => 'Manambahi pungsi parser <code>#babel</code> gasan mambulihakan paulahan sabuah kutak pamuruk utumatis lawan kamampuan gasan mamuruk citakan nang dikustomisasiakan',
+	'babel' => 'Panjalasan Babel pamakai',
+	'babel-desc' => 'Manambahi pungsi parser <code>#babel</code> gasan mambulihakan paulahan sabuah kutak pamakai utumatis lawan kamampuan gasan mamakai citakan nang dikustomisasiakan',
 	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => 'Tumbung:Babel - Papamuruk bapadal bahasa',
-	'babel-autocreate-abort' => 'Ngaran pamuruk Pian ini dipuruk gasan tumbung utumatis [[$1|Babel]] wan kada kawa didaptarakan.',
+	'babel-footer-url' => 'Tumbung:Babel - Papamakai bapadal bahasa',
+	'babel-autocreate-abort' => 'Ngaran pamakai Pian ini dipakai gasan tumbung utumatis [[$1|Babel]] wan kada kawa didaptarakan.',
 	'babel-autocreate-reason' => 'Utumatis maulah tumbung tungkaran [[$1|Babel]].',
-	'babel-autocreate-text-levels' => 'Papamuruk dalam tumbung ini artinya sidin baisi kamampuan $1 gasan bahasa $2.',
-	'babel-autocreate-text-main' => 'Papamuruk dalam tumbung ini artinya sidin baisi ilmu gasan bahasa $1.',
-	'babel-0' => 'Pamuruk ini [[$1|kada]] baisi ilmu gasan [[$2|$3]] (atawa paham haja tagal pina ngalih banar).',
-	'babel-1' => 'Pamuruk ini baisi ilmu [[$1|pandal]] gasan [[$2|$3]].',
-	'babel-2' => 'Pamuruk ini baisi ilmu [[$1|manangah]] gasan [[$2|$3]].',
-	'babel-3' => 'Pamuruk ini baisi ilmu [[$1|mahir]] gasan [[$2|$3]].',
-	'babel-4' => 'Pamuruk ini baisi ilmu [[$1|parak nangkaya pamandir asli]] gasan [[$2|$3]].',
-	'babel-5' => 'Pamuruk ini baisi ilmu [[$1|harat]] gasan [[$2|$3]].',
-	'babel-N' => 'Pamuruk ini [[$1|pamandir asli]] nang paham banar [[$2|$3]].',
-	'babel-0-n' => 'Pamuruk ini [[$1|kada]] baisi ilmu gasan [[$2|Bahasa Banjar]] (atawa paham haja tagal pina ngalih banar).',
-	'babel-1-n' => 'Pamuruk ini baisi ilmu [[$1|pandal]] gasan  [[$2|Bahasa Banjar]].',
-	'babel-2-n' => 'Pamuruk ini baisi ilmu [[$1|manangah]] gasan [[$2|Bahasa Banjar]].',
-	'babel-3-n' => 'Pamuruk ini baisi ilmu [[$1|mahir]] gasan  [[$2|Bahasa Banjar]].',
-	'babel-4-n' => 'Pamuruk ini baisi ilmu [[$1|parak nangkaya pamandir asli]] gasan [[$2|Bahasa Banjar]].',
-	'babel-5-n' => 'Pamuruk ini baisi ilmu [[$1|harat]] gasan [[$2|Bahasa Banjar]].',
-	'babel-N-n' => 'Pamuruk ini [[$1|pamandir asli]] nang paham banar [[$2|Bahasa Banjar]].',
-	'babel-footer' => 'Pamuruk bapadal bahasa',
+	'babel-autocreate-text-levels' => 'Papamakai dalam tumbung ini artinya sidin baisi kamampuan $1 gasan bahasa $2.',
+	'babel-autocreate-text-main' => 'Papamakai dalam tumbung ini artinya sidin baisi ilmu gasan bahasa $1.',
+	'babel-0' => 'Pamakai ngini [[$1|kada]] baisi ilmu gasan [[$2|$3]] (atawa paham haja tagal pina ngalih banar).',
+	'babel-1' => 'Pamakai ngini baisi ilmu [[$1|pandal]] gasan [[$2|$3]].',
+	'babel-2' => 'Pamakai ngini baisi ilmu [[$1|manangah]] gasan [[$2|$3]].',
+	'babel-3' => 'Pamakai ngini baisi ilmu [[$1|mahir]] gasan [[$2|$3]].',
+	'babel-4' => 'Pamakai ngini baisi ilmu [[$1|parak nangkaya pamandir asli]] gasan [[$2|$3]].',
+	'babel-5' => '  Pamakai ngini baisi ilmu [[$1|harat]] gasan [[$2|$3]].',
+	'babel-N' => 'Pamakai ngini [[$1|pamandir asli]] nang paham banar [[$2|$3]].',
+	'babel-0-n' => 'Pamakai ngini [[$1|kada]] baisi ilmu gasan [[$2|Bahasa Banjar]] (atawa paham haja tagal pina ngalih banar).',
+	'babel-1-n' => 'Pamakai ngini baisi ilmu [[$1|pandal]] gasan  [[$2|Bahasa Banjar]].',
+	'babel-2-n' => 'Pamakai ngini baisi ilmu [[$1|manangah]] gasan [[$2|Bahasa Banjar]].',
+	'babel-3-n' => 'Pamakai ngini baisi ilmu [[$1|mahir]] gasan  [[$2|Bahasa Banjar]].',
+	'babel-4-n' => 'Pamakai ngini baisi ilmu [[$1|parak nangkaya pamandir asli]] gasan [[$2|Bahasa Banjar]].',
+	'babel-5-n' => 'Pamakai ngini baisi ilmu [[$1|harat]] gasan [[$2|Bahasa Banjar]].',
+	'babel-N-n' => 'Pamakai ngini [[$1|pamandir asli]] nang paham banar [[$2|Bahasa Banjar]].',
+	'babel-footer' => 'Papamakai bapadal bahasa',
 );
 
 /** Bengali (বাংলা)
@@ -5860,6 +5860,35 @@ $messages['tr'] = array(
 	'babel-5-n' => 'Bu kullanıcı [[$1|profesyonel]] [[$2|Türkçe]] bilgisine sahiptir.',
 	'babel-N-n' => "Bu kullanıcının [[$1|anadili]] [[$2|Türkçe]]'dir.",
 	'babel-footer' => 'Dillere göre kullanıcılar',
+);
+
+/** Tsonga (Xitsonga)
+ * @author Thuvack
+ */
+$messages['ts'] = array(
+	'babel' => 'Vuxokoxoko bya mutirhi eka Babele',
+	'babel-desc' => 'Yi engetela <code>#babel</code> xiangarhi lexi pfumelelaka xipfuneti kutumbuluxa xirhapa eka bokisa ramutirhisi ra Babele lexi kotaka ku nghenisa swivumbiwa-ntirho leswi tolovelekeke',
+	'babel-url' => 'Project:Babele',
+	'babel-footer-url' => ':Category:Babele - Vatirhisi kuya hiririmi',
+	'babel-autocreate-abort' => 'Vito ra mutirhisi leri u ritsaleke ritirhiseriwa xiyenge [[$1|xa Babele]] lexititumbulukelaka naswona aritsariseki.',
+	'babel-autocreate-reason' => 'Tluka ra ntlawa [[$1|wa Babel]] ratitumbuluxa.',
+	'babel-autocreate-text-levels' => 'Vatirhisi eka ntlawa lowu vana vuthsila bya $1 eka ririmi ra xi $2.',
+	'babel-autocreate-text-main' => 'Vatirhisi eka ntlawa lowu vana vutivi bya ririmi ra xi $1.',
+	'babel-0' => 'Mutirhisi loyi u [[$1|hava]] vutivi bya ririmi ra xi[[$2|$3]] (Kumbe uritwisisa sitsanana).',
+	'babel-1' => 'Mutirhisi loyi una vutivi [[$1|byale hansi]]  hi ririmi ra xi [[$2|$3]].',
+	'babel-2' => 'Mutirhisi loyi una vutivi [[$1|byale xikarhi]]  hi ririmi ra xi [[$2|$3]].',
+	'babel-3' => 'Mutirhisi loyi una vutivi [[$1|byale henhla]]  hi ririmi ra xi [[$2|$3]].',
+	'babel-4' => 'Mutirhisi loyi una vutivi [[$1|byo enta]]  hi ririmi ra xi [[$2|$3]].',
+	'babel-5' => 'Mutirhisi loyi una vutivi [[$1|dyondzeriwa]]  hi ririmi ra xi [[$2|$3]].',
+	'babel-N' => 'Mutirhisi loyi una vutivi [[$1|byo mama]]  hi ririmi ra xi [[$2|$3]].',
+	'babel-0-n' => 'Mutirhisi loyi anga [[$1|ri twisisi]] ririmi ra [[$2|Xitsonga]] (kumbe utwisisa switsanana).',
+	'babel-1-n' => 'Mutirhisi loyi wa [[$1|ri twisisanyana]] ririmi ra [[$2|Xitsonga]].',
+	'babel-2-n' => 'Mutirhisi loyi wa [[$1|ri twisisa]] ririmi ra [[$2|Xitsonga]].',
+	'babel-3-n' => 'Mutirhisi loyi wa [[$1|ri twisisa kahle]] ririmi ra [[$2|Xitsonga]].',
+	'babel-4-n' => 'Mutirhisi loyi wa [[$1|ri twisisa hiku enta]] ririmi ra [[$2|Xitsonga]].',
+	'babel-5-n' => 'Mutirhisi loyi u lo [[$1|ri dyondzela]] ririmi ra [[$2|Xitsonga]].',
+	'babel-N-n' => 'Mutirhisi loyi ulo [[$1|ri mama]] ririmi ra [[$2|Xitsonga]].',
+	'babel-footer' => 'Vatirhisi hikuya hi ririmi',
 );
 
 /** Tatar (Татарча/Tatarça)
