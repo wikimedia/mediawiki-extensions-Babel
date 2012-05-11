@@ -1381,6 +1381,7 @@ $messages['diq'] = array(
 	'babel-4-n' => 'No karber [[$2|Zazaki]] zey [[$1|zuwandê marda xo]] zano.',
 	'babel-5-n' => 'No karber [[$1|profesyonel]] sewiye dı [[$2|Zazaki]] zano.',
 	'babel-N-n' => 'Zuwanê [[$1|Marda]] nê karberi [[$2|Zazaki]]o.',
+	'babel-template' => 'Şablon:User $1',
 	'babel-footer' => 'Zuwana heta karberi',
 );
 
@@ -4385,13 +4386,13 @@ $messages['pa'] = array(
 	'babel-4' => 'ਇਹ ਯੂਜ਼ਰ ਕੋਲ [[$2|$3]] ਦਾ [[$1|near native speaker]] ਗਿਆਨ ਹੈ।',
 	'babel-5' => 'ਇਹ ਯੂਜ਼ਰ ਕੋਲ [[$2|$3]] ਦਾ [[$1|professional]] ਗਿਆਨ ਹੈ।',
 	'babel-N' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|$3]] ਦੀ [[$1|native]] ਸਮਝ ਹੈ।',
-	'babel-0-n' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|English]] ਦਾ [[$1|no]] ਗਿਆਨ ਨਹੀਂ ਹੈ (ਜਾਂ ਸਮਝਣ ਲਈ ਬਹੁਤ ਔਖਾ ਹੈ)।',
-	'babel-1-n' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|English]] ਦਾ [[$1|basic]] ਗਿਆਨ ਹੈ।',
-	'babel-2-n' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|English]] ਦਾ [[$1|intermediate]] ਗਿਆਨ ਹੈ।',
-	'babel-3-n' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|English]] ਦਾ [[$1|advanced]] ਗਿਆਨ ਹੈ।',
-	'babel-4-n' => 'ਇਹ ਯੂਜ਼ਰ ਕੋਲ [[$2|English]] ਦਾ [[$1|near native speaker]] ਗਿਆਨ ਹੈ।',
-	'babel-5-n' => 'ਇਹ ਯੂਜ਼ਰ ਕੋਲ [[$2|English]] ਦਾ [[$1|professional]] ਗਿਆਨ ਹੈ।',
-	'babel-N-n' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|English]] ਦੀ [[$1|native]] ਸਮਝ ਹੈ।',
+	'babel-0-n' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|ਪੰਜਾਬੀ]] ਦਾ ਗਿਆਨ  [[$1|ਨਹੀਂ]] ਹੈ (ਜਾਂ ਸਮਝਣ ਲਈ ਬਹੁਤ ਔਖਾ ਹੈ)।',
+	'babel-1-n' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|ਪੰਜਾਬੀ]] ਦਾ [[$1|ਮੁੱਢਲਾ]] ਗਿਆਨ ਹੈ।',
+	'babel-2-n' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|ਪੰਜਾਬੀ]] ਦਾ [[$1|ਠੀਕ-ਠਾਕ]] ਗਿਆਨ ਹੈ।',
+	'babel-3-n' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|ਪੰਜਾਬੀ]] ਦਾ [[$1|ਮਾਹਿਰ]] ਗਿਆਨ ਹੈ।',
+	'babel-4-n' => 'ਇਹ ਯੂਜ਼ਰ ਕੋਲ [[$2|ਪੰਜਾਬੀ]] ਦਾ [[$1|ਲਗਭਗ ਮੂਲ ਬੁਲਾਰਾ]] ਹੋਣ ਦਾ ਗਿਆਨ ਹੈ।',
+	'babel-5-n' => 'ਇਹ ਯੂਜ਼ਰ ਕੋਲ [[$2|ਪੰਜਾਬੀ]] ਦਾ [[$1|ਪੇਸ਼ੇਵਰ]] ਗਿਆਨ ਹੈ।',
+	'babel-N-n' => 'ਇਹ ਯੂਜ਼ਰ ਨੂੰ [[$2|ਪੰਜਾਬੀ]] ਦੀ [[$1|ਮੂਲ]] ਸਮਝ ਹੈ।',
 	'babel-footer' => 'ਭਾਸ਼ਾ ਮੁਤਾਬਕ ਯੂਜ਼ਰ',
 );
 
@@ -5533,16 +5534,17 @@ $messages['sw'] = array(
 );
 
 /** Silesian (Ślůnski)
+ * @author Przemub
  * @author Purodha
  */
 $messages['szl'] = array(
 	'babel-url' => 'Project:Babel',
-	'babel-0-n' => 'Tyn užytkowńik [[$1|ńy godo]] we [[$2|ślůnskij godce]] (abo mo s ńům wjelge trudnośći).',
-	'babel-1-n' => 'Tyn užytkowńik zno ino [[$1|trocha]] godka [[$2|ślůnsko]].',
-	'babel-2-n' => 'Tyn užytkowńik godo [[$1|středńo]] pů [[$2|ślůnsko]].',
-	'babel-3-n' => 'Tyn užytkowńik godo [[$1|fest dobře]] pů [[$2|ślůnsko]].',
-	'babel-4-n' => 'Tyn užytkowńik zno [[$2|godka ślůnsko]] [[$1|prowje jak uojčysto]].',
-	'babel-N-n' => '[[$2|Ślůnski]] je [[$1|uojčystům godkům]] tygo užytkowńika.',
+	'babel-0-n' => 'Tyn użytkowńik [[$1|ńy godo]] we [[$2|ślůnskij godce]] (abo mo s ńům wjelge trudnośći).',
+	'babel-1-n' => 'Tyn użytkowńik wjy ino [[$1|źdźebko]] [[$2|ślůnsko godka]].',
+	'babel-2-n' => 'Tyn użytkowńik mo [[$1|strzedńe]] wjadůmośći [[$2|ślůnskij godki]].',
+	'babel-3-n' => 'Tyn użytkowńik mo [[$1|fest dobre]] wjadůmośći [[$2|ślůnskij godki]].',
+	'babel-4-n' => 'Tyn użytkowńik wjy [[$2|ślůnsko godka]] [[$1|bezmałaś jak uojczysto]].',
+	'babel-N-n' => '[[$2|Ślůnski]] je [[$1|uojczystům godkům]] tygo użytkowńika.',
 );
 
 /** Tamil (தமிழ்)
@@ -5874,7 +5876,7 @@ $messages['tr'] = array(
  * @author Thuvack
  */
 $messages['ts'] = array(
-	'babel' => 'Vuxokoxoko bya mutirhi eka Babele',
+	'babel' => 'Vuxokoxoko bya mutirhisi eka Babele',
 	'babel-desc' => 'Yi engetela <code>#babel</code> xiangarhi lexi pfumelelaka xipfuneti kutumbuluxa xirhapa eka bokisa ramutirhisi ra Babele lexi kotaka ku nghenisa swivumbiwa-ntirho leswi tolovelekeke',
 	'babel-url' => 'Project:Babele',
 	'babel-footer-url' => ':Category:Babele - Vatirhisi kuya hiririmi',
