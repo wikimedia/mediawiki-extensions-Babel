@@ -4029,33 +4029,12 @@ $messages['nah'] = array(
  * @author Kaihsu
  */
 $messages['nan'] = array(
-	'babel' => '巴別(Babel)用者的資料
-Babel iōng-chiá ê chu-liāu',
-	'babel-desc' => '加一个<code>#babel</code>分析功能，予伊會自動生一个用戶框佮家己的枋模。
-Ka <code>#babel</code> hun-se̍k kong-lêng, hō͘ i oē chū-tōng sán-seng iōng-chiá ê kheng kap kā-kī ê pang-bô͘.',
+	'babel' => 'Babel iōng-chiá ê chu-liāu',
+	'babel-desc' => 'Ka <code>#babel</code> hun-se̍k kong-lêng, hō͘ i oē chū-tōng sán-seng iōng-chiá ê kheng kap kā-kī ê pang-bô͘.',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel – iōng-chiá ê gú-giân',
-	'babel-autocreate-abort' => '你欲的用者名袂當註冊，因為已經予[[$1|巴別]]自動產生分類的時陣用著。',
-	'babel-autocreate-reason' => '自動建立[[$1|巴別]]分類頁。',
-	'babel-autocreate-text-levels' => '佇這个分類的用者有$1級的$2程度。
-Chia̍h-ê iōng-chiá thang kóng gú-giân $2, thêng-tō͘ $1 kip.',
-	'babel-autocreate-text-main' => '這个分類的用者略仔會曉$1。',
-	'babel-0' => '這个用者[[$1|袂曉]][[$2|$3]]（抑是講感覺誠困難）。',
-	'babel-1' => '這个用者會曉[[$1|初級]]的[[$2|$3]]。',
-	'babel-2' => '這个用者會曉[[$1|中級]]的[[$2|$3]]。',
-	'babel-3' => '這个用者會曉[[$1|高級]]的[[$2|$3]]。',
-	'babel-4' => '這个用者講的[[$2|$3]]佮[[$1|在地人]]無啥差。',
-	'babel-5' => '這个用者會曉的[[$2|$3]]到[[$1|專家級]]。',
-	'babel-N' => '這个用者是講[[$2|$3]][[$1|大漢]]。',
-	'babel-0-n' => '這个用者[[$1|袂曉]][[$2|閩南語]]（抑是講感覺誠困難）。',
-	'babel-1-n' => '這个用者會曉[[$1|初級]]的[[$2|閩南語]]。',
-	'babel-2-n' => '這个用者會曉[[$1|中級]]的[[$2|閩南語]]。',
-	'babel-3-n' => '這个用者會曉[[$1|高級]]的[[$2|閩南語]]。',
-	'babel-4-n' => '這个用者講的[[$2|閩南語]]佮[[$1|在地人]]無啥差。',
-	'babel-5-n' => '這个用者會曉的[[$2|閩南語]]會當做[[$1|先生]]。',
-	'babel-N-n' => '這个用者[[$1|自細漢]]就一直講[[$2|閩南語]]。
-Chit-ê iōng-chiá [[$1|tùi sè-hàn]] tō kóng [[$2|Bân-lâm-gú]].',
-	'babel-footer' => '照話語分的用者',
+	'babel-autocreate-text-levels' => 'Chia̍h-ê iōng-chiá thang kóng gú-giân $2, thêng-tō͘ $1 kip.',
+	'babel-N-n' => 'Chit-ê iōng-chiá [[$1|tùi sè-hàn]] tō kóng [[$2|Bân-lâm-gú]].',
 );
 
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
