@@ -554,13 +554,15 @@ $messages['arz'] = array(
 /** Assamese (অসমীয়া)
  * @author Biraj
  * @author Chaipau
+ * @author Gitartha.bordoloi
  */
 $messages['as'] = array(
 	'babel' => 'ব্যবহাৰকাৰীৰ বাবেল তথ্য',
 	'babel-desc' => 'নিজৰ টেম্পলেটত স্বয়ংক্ৰিয় বাবেল ব্যবহাৰকাৰী বক্স যোগ কৰিবলৈ <code>#babel</code> পাৰ্চাৰ ফাংচন যোগ কৰক',
 	'babel-url' => 'Project:বাবেল',
+	'babel-footer-url' => ':Category:Babel - ভাষা অনুযায়ী ব্যৱহাৰকাৰী',
 	'babel-autocreate-abort' => 'আপুনি উল্লেখ কৰা ব্যৱহাৰকাৰী নামটো (ইউজাৰনেম) [[$1|Babel]]ৰ স্বয়ংক্ৰিয় শ্ৰেণীকৰণ কৰিবলৈ ব্যৱহাৰ কৰা হৈছে আৰু পঞ্জীভূক্ত কৰিব পৰা নাযায় ।',
-	'babel-autocreate-reason' => 'স্বয়ংক্ৰিয়ভাৱে সৃষ্টি কৰা বাবেল শ্ৰেণীৰ পৃষ্ঠা ।',
+	'babel-autocreate-reason' => 'স্বয়ংক্ৰিয়ভাৱে [[$1|বাবেল]] শ্ৰেণীৰ পৃষ্ঠা সৃষ্টি কৰা হৈছে।',
 	'babel-autocreate-text-levels' => 'এই শ্ৰেণীৰ ব্যৱহাৰকাৰীৰ $2 ভাষাৰ $1 পৰ্য্যায়ৰ জ্ঞান থকা সূচায় ।',
 	'babel-autocreate-text-main' => 'এই শ্ৰেণীত অন্তৰ্ভূক্ত সকলোবোৰ ব্যৱহাৰকাৰীৰে $1 ভাষাৰ জ্ঞান থকা সূচায় ।',
 	'babel-0' => 'এই ব্যবহাৰকাৰীৰ [[$2|$3]]ৰ ওপৰত কোনো জ্ঞান [[$1|নাই]] (অথবা অশেষ কষ্টৰেহে বুজিব পাৰে)।',
@@ -577,6 +579,7 @@ $messages['as'] = array(
 	'babel-4-n' => 'এই ব্যবহাৰকাৰীৰ [[$2|অসমীয়া]]ৰ ওপৰত [[$1|প্ৰায় মাতৃভাষাৰ সমকক্ষ]] জ্ঞান আছে।',
 	'babel-5-n' => 'এই ব্যবহাৰকাৰীৰ [[$2|অসমীয়া]]ৰ ওপৰত [[$1|বৃত্তিধাৰী]] জ্ঞান আছে ।',
 	'babel-N-n' => 'এই ব্যবহাৰকাৰীৰ [[$2|অসমীয়া]]ৰ ওপৰত [[$1|মাতৃভাষাৰ সমকক্ষ]] জ্ঞান আছে।',
+	'babel-footer' => 'ভাষা অনুযায়ী ব্যৱহাৰকাৰী',
 );
 
 /** Asturian (Asturianu)
@@ -5111,6 +5114,18 @@ $messages['sd'] = array(
 	'babel-5' => 'هن يُوزر کي [[$2|$3]] جي [[$1|پيشورانه]] ڄاڻ آهي.',
 	'babel-1-n' => 'هن يُوزر کي [[$2|انگريزي]]ءَ جي [[$1|بنيادي]] ڄاڻ آهي.',
 	'babel-5-n' => 'هن يُوزر کي [[$2|انگريزي]]ءَ جي [[$1|پيشورانه]] ڄاڻ آهي.',
+);
+
+/** Northern Sami (Sámegiella)
+ * @author GerardM
+ */
+$messages['se'] = array(
+	'babel-1-n' => 'Dát geavaheaddji máhttá [[$1|veaháš]] [[$2|sámegiela]]',
+	'babel-2-n' => 'Dát geavaheaddji máhttá [[$2|sámegiela]] [[$1|viehka bures]]',
+	'babel-3-n' => 'Dát geavaheaddji máhttá [[$2|sámegiela]] [[$1|hui bures]]',
+	'babel-4-n' => 'Dát geavaheaddji máhttá [[$2|sámegiela]] [[$1|dego eatnigiela]]',
+	'babel-5-n' => 'Dát geavaheaddji máhttá [[$2|sámegiela]] [[$1|ámmátlaš dásis]]',
+	'babel-N-n' => ' Dát geavaheaddji máhttá [[$2|sámegiela]] [[$1|eatnigiellan]]',
 );
 
 /** Sango (Sängö)
