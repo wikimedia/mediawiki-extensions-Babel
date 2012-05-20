@@ -1398,7 +1398,7 @@ $messages['diq'] = array(
 	'babel-3-n' => 'No karber [[$1|weş]] [[$2|zazaki]] zano.',
 	'babel-4-n' => 'No karber [[$2|Zazaki]] zey [[$1|zuwandê marda xo]] zano.',
 	'babel-5-n' => 'No karber [[$1|profesyonel]] sewiye dı [[$2|Zazaki]] zano.',
-	'babel-N-n' => 'Zuwanê [[$1|Marda]] nê karberi [[$2|Zazaki]]o.',
+	'babel-N-n' => 'Zıwanê marda [[$1|nê karberi]]  [[$2|Zazaki]]o.',
 	'babel-template' => 'Şablon:User $1',
 	'babel-footer' => 'Zuwana heta karberi',
 );
@@ -5827,7 +5827,7 @@ $messages['tly'] = array(
 	'babel-3' => 'Ын иштирокәкә [[$1|чок]] зынејдә [[$2|$3]].',
 	'babel-4' => 'Ын иштирокәкә бәнә [[$1|моә зывони]] зынејдә [[$2|$3]].',
 	'babel-5' => 'Ын иштирокәкә [[$1|пешәкорә сәвијјәдә]] зынејдә [[$2|$3]].',
-	'babel-N' => '[[$2|$3]] зывон чы иштирокәкә [[$1|моә зывоне]].',
+	'babel-N' => 'Бо ын иштирокәкә [[$2|Толышә зывон]] [[$1|моә зывоне]].',
 	'babel-0-n' => 'Ын иштирокәкә [[$1|зынејдәни]] [[$2|Толышә зывони]] (јаанки чәтин дәрәсејдә).',
 	'babel-1-n' => 'Ын иштирокәкә [[$1|зәиф]] зынејдә [[$2|Толышә зывони]].',
 	'babel-2-n' => 'Ын иштирокәкә [[$1|мијонә сәвијјәдә]] зынејдә [[$2|Толышә зывони]].',
