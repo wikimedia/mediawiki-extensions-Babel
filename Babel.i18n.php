@@ -897,16 +897,17 @@ $messages['bho'] = array(
 /** Banjar (Bahasa Banjar)
  * @author Ezagren
  * @author J Subhi
+ * @author Riemogerz
  */
 $messages['bjn'] = array(
 	'babel' => 'Panjalasan Babel pamakai',
 	'babel-desc' => 'Manambahi pungsi parser <code>#babel</code> gasan mambulihakan paulahan sabuah kutak pamakai utumatis lawan kamampuan gasan mamakai citakan nang dikustomisasiakan',
-	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => 'Tumbung:Babel - Papamakai bapadal bahasa',
-	'babel-autocreate-abort' => 'Ngaran pamakai Pian ini dipakai gasan tumbung utumatis [[$1|Babel]] wan kada kawa didaptarakan.',
+	'babel-url' => 'Pruyik:Babel',
+	'babel-footer-url' => 'Tumbung:Babel - Pamakai bapadal bahasa',
+	'babel-autocreate-abort' => 'Ngaran pamakai Pian naya dipakai gasan tumbung utumatis [[$1|Babel]] wan kada kawa didaptarakan.',
 	'babel-autocreate-reason' => 'Utumatis maulah tumbung tungkaran [[$1|Babel]].',
-	'babel-autocreate-text-levels' => 'Papamakai dalam tumbung ini artinya sidin baisi kamampuan $1 gasan bahasa $2.',
-	'babel-autocreate-text-main' => 'Papamakai dalam tumbung ini artinya sidin baisi ilmu gasan bahasa $1.',
+	'babel-autocreate-text-levels' => 'Pamakai dalam tumbung naya artinya sidin baisi kamampuan $1 gasan bahasa $2.',
+	'babel-autocreate-text-main' => 'Pamakai dalam tumbung naya artinya sidin baisi ilmu gasan bahasa $1.',
 	'babel-0' => 'Pamakai ngini [[$1|kada]] baisi ilmu gasan [[$2|$3]] (atawa paham haja tagal pina ngalih banar).',
 	'babel-1' => 'Pamakai ngini baisi ilmu [[$1|pandal]] gasan [[$2|$3]].',
 	'babel-2' => 'Pamakai ngini baisi ilmu [[$1|manangah]] gasan [[$2|$3]].',
