@@ -256,13 +256,6 @@ $messages['aeb'] = array(
 	'babel-0' => 'هذا المستخدم [[$1|ليس]] لديه معرفة ب[[$2|$3]] (أو يفهمها بصعوبة شديدة).',
 );
 
-/** Meänkieli (Meänkieli)
- * @author Mestos
- */
-$messages['fit'] = array(
-	'babel-footer' => 'Käyttäjät kielitten mukhaan',
-);
-
 /** Achinese (Acèh)
  * @author Si Gam Acèh
  */
@@ -1694,6 +1687,13 @@ $messages['fi'] = array(
 	'babel-5-n' => 'Tämä käyttäjä käyttää [[$2|suomea]] [[$1|ammattimaisesti]].',
 	'babel-N-n' => 'Tämä käyttäjä puhuu [[$2|suomea]] [[$1|äidinkielenään]].',
 	'babel-footer' => 'Käyttäjien kielet',
+);
+
+/** Meänkieli (Meänkieli)
+ * @author Mestos
+ */
+$messages['fit'] = array(
+	'babel-footer' => 'Käyttäjät kielitten mukhaan',
 );
 
 /** Faroese (Føroyskt)
@@ -3497,23 +3497,23 @@ $messages['lus'] = array(
 	'babel-footer-url' => ':Category:Babel - Ţawng azira hmangtute thliarna tihlanna',
 	'babel-autocreate-abort' => 'Hmangtuhming i pêk hi [[$1|Babel]] pawl insiamtirna atana hman a ni a, ziahluh theih a ni lo.',
 	'babel-autocreate-reason' => '[[$1|Babel]] pawl phek insiamtir.',
-	'babel-autocreate-text-levels' => 'He pawla hmangtute hian $2 ţawng tana thiamna level $1 an nei tih an sawi.',
-	'babel-autocreate-text-main' => 'He pawla hmangtute hian $1 ţawng an thiam tih an sawi.',
-	'babel-0' => 'He hmangtu hian [[$2|$3]] ţawng hi  [[$1|pakhatmah]] a thiam lo tih a sawi (a nih loh pawhin harsa fein a hrethiam chauh)',
-	'babel-1' => 'He hmangtu hian [[$2|$3]] ţawng hi [[$1|tlém]] a thiam.',
-	'babel-2' => 'He hmangtu hian [[$2|$3]] ţawng hi a thiam ve [[$1|pangngai]].',
-	'babel-3' => 'He hmangtu hian [[$2|$3]] ţawng hi a [[$1|thiam näl fe]].',
-	'babel-4' => 'He hmangtu hian [[$2|$3]] ţawng hi [[$1|pianpui ţawng ang deuh thawin]] a thiam.',
+	'babel-autocreate-text-levels' => 'He pawla hmangtute hian $2 ṭawng $1 an thiam tih an sawi.',
+	'babel-autocreate-text-main' => 'He pawla hmangtute hian $1 ṭawng an thiam tih an sawi.',
+	'babel-0' => 'He hmangtu hian [[$2|$3]] ṭawng hi  [[$1|pakhatmah]] a thiam lo tih a sawi (a nih loh pawhin harsa fein a hrethiam chauh)',
+	'babel-1' => 'He hmangtu hian [[$2|$3]] ṭawng hi [[$1|tlém]] a thiam.',
+	'babel-2' => 'He hmangtu hian [[$2|$3]] ṭawng hi a thiam ve [[$1|pangngai]].',
+	'babel-3' => 'He hmangtu hian [[$2|$3]] ṭawng hi a [[$1|thiam näl fe]].',
+	'babel-4' => 'He hmangtu hian [[$2|$3]] ṭawng hi [[$1|pianpui ṭawng ang deuh thawin]] a thiam.',
 	'babel-5' => 'He hmangtu hian [[$2|$3]] ţawng hi [[$1|eizawnna tlâk]] a thiam.',
-	'babel-N' => 'He hmangtu hian [[$2|$3]] ţawng a  [[$1|pianpui]]  a ni.',
-	'babel-0-n' => 'He hmangtu hian [[$2|mizo ţawng]] [[$1|pakhatmah]] a thiam lo (a ni ber e).',
-	'babel-1-n' => 'He hmangtu hian [[$2|mizo ţawng]]  [[$1|tlém]] a thiam.',
-	'babel-2-n' => 'He hmangtu hian [[$2|mizo ţawng]]  a thiam ve  [[$1|pangngai]].',
-	'babel-3-n' => 'He hmangtu hian [[$2|mizo ţawng]]  a [[$1|thiam näl fe]].',
-	'babel-4-n' => 'He hmangtu hian [[$2|mizo ţawng]] hi [[$1|pianpui ţawng ang deuh thawin]] a thiam.',
-	'babel-5-n' => 'He hmangtu hian [[$2|mizo ţawng]]  hi [[$1|eizawnna tlâk]] a thiam.',
-	'babel-N-n' => 'He hmangtu hian [[$2|mizo ţawng]]  a [[$1|pianpui]] a ni.',
-	'babel-footer' => 'Ţawng hman azirin hmangtute',
+	'babel-N' => 'He hmangtu hian [[$2|$3]] ṭawng a  [[$1|pianpui]]  a ni.',
+	'babel-0-n' => 'He hmangtu hian [[$2|mizo ṭawng]] [[$1|pakhatmah]] a thiam lo (a ni ber e).',
+	'babel-1-n' => 'He hmangtu hian [[$2|mizo ṭawng]]  [[$1|tlém]] a thiam.',
+	'babel-2-n' => 'He hmangtu hian [[$2|mizo ṭawng]]  a thiam ve  [[$1|pangngai]].',
+	'babel-3-n' => 'He hmangtu hian [[$2|mizo ṭawng]]  a [[$1|thiam näl fe]].',
+	'babel-4-n' => 'He hmangtu hian [[$2|mizo ṭawng]] hi [[$1|pianpui ṭawng ang deuh thawin]] a thiam.',
+	'babel-5-n' => 'He hmangtu hian [[$2|mizo ṭawng]]  hi [[$1|eizawnna tlâk]] a thiam.',
+	'babel-N-n' => 'He hmangtu hian [[$2|mizo ṭawng]]  a [[$1|pianpui]] a ni.',
+	'babel-footer' => 'Ṭawng hman azirin hmangtute',
 );
 
 /** Latvian (Latviešu)
