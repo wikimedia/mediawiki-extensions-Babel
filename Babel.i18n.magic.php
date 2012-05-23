@@ -33,6 +33,11 @@ $magicWords['ce'] = array(
 	'babel' => array( 0, 'къадингир', 'вавилон', 'babel' ),
 );
 
+/** Zazaki (Zazaki) */
+$magicWords['diq'] = array(
+	'babel' => array( 0, 'babil' ),
+);
+
 /** Esperanto (Esperanto) */
 $magicWords['eo'] = array(
 	'babel' => array( 0, 'babelo' ),
@@ -100,7 +105,7 @@ $magicWords['tr'] = array(
 
 /** Ukrainian (Українська) */
 $magicWords['uk'] = array(
-	'babel' => array( 0, 'вавилон', 'вавілон', 'babel' ),
+	'babel' => array( 0, 'вавилон', 'вавілон' ),
 );
 
 /** Simplified Chinese (‪中文(简体)‬) */
