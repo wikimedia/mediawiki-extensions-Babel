@@ -4265,6 +4265,13 @@ $messages['nov'] = array(
 	'babel-4' => 'Dis usere skripte [[$2|$3]] [[$1|preske kom sen patrial lingue]].',
 );
 
+/** Nouormand (Nouormand)
+ * @author WikiEoFrEn
+ */
+$messages['nrm'] = array(
+	'babel-footer' => 'Féchouneux par laungue',
+);
+
 /** Northern Sotho (Sesotho sa Leboa)
  * @author Mohau
  */
