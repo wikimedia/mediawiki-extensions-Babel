@@ -4269,6 +4269,7 @@ $messages['nov'] = array(
  * @author WikiEoFrEn
  */
 $messages['nrm'] = array(
+	'babel' => "Informations d'la babel du faichonneu",
 	'babel-footer' => 'Féchouneux par laungue',
 );
 
@@ -4517,29 +4518,29 @@ $messages['pdt'] = array(
  * @author Manuae
  */
 $messages['pfl'] = array(
-	'babel' => 'Babel-Benutzer-Information',
-	'babel-desc' => 'Ergänzt die <code>#babel</code>-Parserfunktion fer zum automatische Aaleche vun  Babel-Benutzerkäschtel-Zaile mit de Mechlichkäät, äächene Vorlache aizbinne',
+	'babel' => "Babel-B'nudza-Ogaab",
+	'babel-desc' => "Fieschd die <code>#babel</code>-Parserfunktion fas audomadische Oaleesche vun Babel-B'nudzakäschdel-Zaile dzu, mide Meschlischkaid, aischini Vorlache oizbinne",
 	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => ':Category:Babel - Benudser noch Schbroch',
-	'babel-autocreate-abort' => 'De Benutzername, wu Du ausgewählt hoscht, werd gebraucht fer s automatische Aaleche vun [[$1|Babel]]-Kategorie un kann nid regischtriert werre.',
-	'babel-autocreate-reason' => 'Automatisch aagelechte [[$1|Babel]]-Kategorie.',
-	'babel-autocreate-text-levels' => 'Benutzer in derre Kategorie hänn d Kenntnis-Ewene $1 fer die Sproch $2.',
-	'babel-autocreate-text-main' => 'Benutzer in derre Kategorie hänn Kenntnisse vun de Sproch $1.',
-	'babel-0' => 'Der Benutzer kann [[$1|ken]] [[$2|$3]] (oder er versteht s numme mit greßere Schwierichkääte).',
-	'babel-1' => 'Der Benutzer kann [[$1|e bissel]] [[$2|$3]].',
-	'babel-2' => 'Der Benutzer kann [[$1|ganz gut]] [[$2|$3]] .',
-	'babel-3' => 'Der Benutzer kann [[$1|arich gut]] [[$2|$3]].',
-	'babel-4' => 'Der Benutzer kann [[$2|$3]], wie wenn s sai [[$1|Muddersproch]] wär.',
-	'babel-5' => 'Der Benutzer kann [[$2|$3]] uff [[$1|professionellem]] Niveau.',
-	'babel-N' => 'Dem Benutzer sai [[$1|Muddersproch]] isch [[$2|$3]].',
-	'babel-0-n' => 'Der Benutzer kann [[$1|ken]] [[$2|Pälzisch]] (oder er versteht s numme mit greßere Schwierichkääte).',
-	'babel-1-n' => 'Der Benutzer kann [[$1|e bissel]] [[$2|Pälzisch]].',
-	'babel-2-n' => 'Der Benutzer kann [[$1|ganz gut]] [[$2|Pälzisch]] .',
-	'babel-3-n' => 'Der Benutzer kann [[$1|arich gut]] [[$2|Pälzisch]].',
-	'babel-4-n' => 'Der Benutzer kann [[$2|Pälzisch]], wie wenn s sai [[$1|Muddersproch]] wär.',
-	'babel-5-n' => 'Der Benutzer kann [[$2|Pälzisch]] uff [[$1|professionellem]] Niveau.',
-	'babel-N-n' => 'Dem Benutzer sai [[$1|Muddersproch]] isch [[$2|Pälzisch]].',
-	'babel-footer' => 'Benudser noch Schbroch',
+	'babel-footer-url' => ":Category:Babel - B'nudsa noch Schbroch",
+	'babel-autocreate-abort' => "De B'nudzanoame, wu'd g'wehld hoschd, wead fas audomadische Oalesche vun [[$1|Babel]]-Kadegorije gbrauchd un konn ned regischdriad werre.",
+	'babel-autocreate-reason' => 'Audomadisch oagleschdi [[$1|Babel]]-Kadegorije.',
+	'babel-autocreate-text-levels' => "B'nudza inde Kadegorie hawen Fehjischkaide $1 fa die Schbrooch $2.",
+	'babel-autocreate-text-main' => "B'nudsa in de Kadegorie hawen Wisse vunde Schbrooch $1.",
+	'babel-0' => "De B'nudsa babbld [[$1|kä]] [[$2|$3]] (oda hod greeßere Schwiarischkaid dmid).",
+	'babel-1' => "De B'nudsa babbld [[$1|e bissl]] [[$2|$3]].",
+	'babel-2' => "De B'nudsa babbld [[$1|goans gud]] [[$2|$3]] .",
+	'babel-3' => "De B'nudsa babbld [[$1|arisch gud]] [[$2|$3]].",
+	'babel-4' => "De B'nudsa babbld [[$2|$3]], faschd wie sai [[$1|Mudderschbrooch]].",
+	'babel-5' => "De B'nudsa babbld [[$2|$3]] uffm [[$1|fachlische]] Niwo.",
+	'babel-N' => "De B'nudsa babbld [[$2|$3]] als soi [[$1|Mudderschbrooch]].",
+	'babel-0-n' => "De B'nudsa babbld [[$1|kä]] [[$2|Pälzisch]] (oda hod greeßere Schwierischkaide dmid).",
+	'babel-1-n' => "De B'nudsa babbld [[$1|e bissl]] [[$2|Pälzisch]].",
+	'babel-2-n' => "De B'nudsa babbld [[$1|goans gud]] [[$2|Pälzisch]] .",
+	'babel-3-n' => "De B'nudsa babbld [[$1|arisch gud]] [[$2|Pälzisch]].",
+	'babel-4-n' => "De B'nudsa babbld [[$2|Pälzisch]], faschd wie sai [[$1|Mudderschbrooch]].",
+	'babel-5-n' => "De B'nudsa babbld [[$2|Pälzisch]] uffm [[$1|fachlische]] Niwo.",
+	'babel-N-n' => "De B'nudsa babbld [[$2|Pälzisch]] als soi [[$1|Mudderschbrooch]].",
+	'babel-footer' => "B'nudsa noch Schbroch",
 );
 
 /** Polish (Polski)
