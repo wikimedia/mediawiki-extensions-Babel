@@ -402,6 +402,7 @@ $messages['anp'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Abanima
  * @author Ciphers
  * @author Meno25
  * @author OsamaK
@@ -410,7 +411,7 @@ $messages['ar'] = array(
 	'babel' => 'معلومات بابل {{GENDER:$1|للمستخدم|للمستخدمة}}',
 	'babel-desc' => 'يضيف دالة المحلل <code>#babel</code> للسماح بالتوليد التلقائي لعامود صندوق بابل مع إمكانية تضمين قوالب أخرى',
 	'babel-url' => 'Project:بابل',
-	'babel-footer-url' => ':Category:بابل - المستخدمون حسب اللغة',
+	'babel-footer-url' => 'تصنيف:المستخدمون حسب اللغات',
 	'babel-autocreate-abort' => 'اسم المستخدم الذي حددته مستخدم للإنشاء التلقائي لتصنيفات [[$1|بابل]] ولا يمكن تسجيله.',
 	'babel-autocreate-reason' => 'إنشاء صفحة تصنيف [[$1|بابل]] تلقائيا.',
 	'babel-autocreate-text-levels' => 'المستخدمون في هذا التصنيف مستوى مهارتهم $1 للغة $2.',
