@@ -65,15 +65,14 @@ $messages['en'] = array(
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'babel' => "Header of Babel box. Parameter $1 is the name of the page it is used on, for GENDER support.<!-- The header is shown in the content language of the site, not the interface language set in a user's preferences.
--->",
+	'babel' => "Header of Babel box. Parameter $1 is the name of the page it is used on, for GENDER support.",
 	'babel-desc' => '{{desc}}',
 	'babel-url' => 'The page name at which more information about the babel system can be found.
 Do not translate the namespace <code>Project:</code>.',
 	'babel-footer-url' => 'Unless this messge is empty, this is used as link target in the last entry,
 also known as the footer, of the outer Babel-box,
 provided that the installation chooses to have a footer.
-The corresponding link anchor is the message [[MediaWiki:babel-footer/{{UILANGCODE}}|babel-footer]]<!-- why the hell the following does not work, is still a mystery to me!-->{{msg-mw|Babel-footer|notext=}}.
+The corresponding link anchor is the message [[MediaWiki:babel-footer/{{UILANGCODE}}|babel-footer]] {{msg-mw|Babel-footer|notext=}}.
 
 For installations having a \'Babel users per language\' category tree, its root should be entered here.
 When translating, you can copy the category name from existing Babel systems in your language, but you can as well use a more generic name and leave it to individual installations, how to deal with it.
