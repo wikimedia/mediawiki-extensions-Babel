@@ -4272,7 +4272,13 @@ $messages['nov'] = array(
  * @author WikiEoFrEn
  */
 $messages['nrm'] = array(
-	'babel' => "Informations d'la babel du faichonneu",
+	'babel' => 'Retrache des laungages des féchouneus',
+	'babel-url' => 'Project:Babel',
+	'babel-0' => "Ch't'î-chîn ne pâle [[$1|paé]] en [[$2|$3]].",
+	'babel-1' => 'Chu faichonneu prêche [[$1|eun miot]] en [[$2|$3]].',
+	'babel-N' => "La laungue [[$1|native]] du faichonneu est l'[[$2|nourmand]] (ou eun de ses loceis/dgialectes).",
+	'babel-0-n' => "Ch't'î-chîn ne pâle [[$1|paé]] en [[$2|$3]].",
+	'babel-N-n' => "La laungue [[$1|native]] du faichonneu est l'[[$2|nourmand]] (ou eun de ses loceis/dgialectes).",
 	'babel-footer' => 'Féchouneux par laungue',
 );
 
@@ -4521,29 +4527,29 @@ $messages['pdt'] = array(
  * @author Manuae
  */
 $messages['pfl'] = array(
-	'babel' => "Babel-B'nudza-Ogaab",
+	'babel' => 'Babel-Bnudza-Ogaab',
 	'babel-desc' => "Fieschd die <code>#babel</code>-Parserfunktion fas audomadische Oaleesche vun Babel-B'nudzakäschdel-Zaile dzu, mide Meschlischkaid, aischini Vorlache oizbinne",
 	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => ":Category:Babel - B'nudsa noch Schbroch",
-	'babel-autocreate-abort' => "De B'nudzanoame, wu'd g'wehld hoschd, wead fas audomadische Oalesche vun [[$1|Babel]]-Kadegorije gbrauchd un konn ned regischdriad werre.",
+	'babel-footer-url' => ':Category:Babel - Bnudza noch Schbrooch',
+	'babel-autocreate-abort' => "De Bnudzanoame, wu'd g'wehld hoschd, wead fas audomadische Oalesche vun [[$1|Babel]]-Kadegorije gbrauchd un konn ned regischdriad werre.",
 	'babel-autocreate-reason' => 'Audomadisch oagleschdi [[$1|Babel]]-Kadegorije.',
-	'babel-autocreate-text-levels' => "B'nudza inde Kadegorie hawen Fehjischkaide $1 fa die Schbrooch $2.",
-	'babel-autocreate-text-main' => "B'nudsa in de Kadegorie hawen Wisse vunde Schbrooch $1.",
-	'babel-0' => "De B'nudsa babbld [[$1|kä]] [[$2|$3]] (oda hod greeßere Schwiarischkaid dmid).",
-	'babel-1' => "De B'nudsa babbld [[$1|e bissl]] [[$2|$3]].",
-	'babel-2' => "De B'nudsa babbld [[$1|goans gud]] [[$2|$3]] .",
-	'babel-3' => "De B'nudsa babbld [[$1|arisch gud]] [[$2|$3]].",
-	'babel-4' => "De B'nudsa babbld [[$2|$3]], faschd wie sai [[$1|Muddaschbrooch]].",
-	'babel-5' => "De B'nudsa babbld [[$2|$3]] uffm [[$1|fachlische]] Niwo.",
-	'babel-N' => "De B'nudsa babbld [[$2|$3]] als soi [[$1|Muddaschbrooch]].",
-	'babel-0-n' => "De B'nudsa babbld [[$1|kä]] [[$2|Pälzisch]] (oda hod greeßere Schwierischkaide dmid).",
-	'babel-1-n' => "De B'nudsa babbld [[$1|e bissl]] [[$2|Pälzisch]].",
-	'babel-2-n' => "De B'nudsa babbld [[$1|goans gud]] [[$2|Pälzisch]] .",
-	'babel-3-n' => "De B'nudsa babbld [[$1|arisch gud]] [[$2|Pälzisch]].",
-	'babel-4-n' => "De B'nudsa babbld [[$2|Pälzisch]], faschd wie sai [[$1|Muddaschbrooch]].",
-	'babel-5-n' => "De B'nudsa babbld [[$2|Pälzisch]] uffm [[$1|fachlische]] Niwo.",
-	'babel-N-n' => "De B'nudsa babbld [[$2|Pälzisch]] als soi [[$1|Muddaschbrooch]].",
-	'babel-footer' => "B'nudsa noch Schbroch",
+	'babel-autocreate-text-levels' => 'Bnudza inde Kadegorie hawen Fehjischkaide $1 fa die Schbrooch $2.',
+	'babel-autocreate-text-main' => 'Bnudza in de Kadegorie hawen Wisse vunde Schbrooch $1.',
+	'babel-0' => 'De Bnudza babbld [[$1|kä]] [[$2|$3]] (oda hod greeßere Schwiarischkaid dmid).',
+	'babel-1' => 'De Bnudza babbld [[$1|e bissl]] [[$2|$3]].',
+	'babel-2' => 'De Bnudza babbld [[$1|goans gud]] [[$2|$3]] .',
+	'babel-3' => 'De Bnudza babbld [[$1|arisch gud]] [[$2|$3]].',
+	'babel-4' => 'De Bnudza babbld [[$2|$3]], faschd wie sai [[$1|Muddaschbrooch]].',
+	'babel-5' => 'De Bnudza babbld [[$2|$3]] uffm [[$1|fachlische]] Niwo.',
+	'babel-N' => 'De Bnudza babbld [[$2|$3]] als soi [[$1|Muddaschbrooch]].',
+	'babel-0-n' => 'De Bnudza babbld [[$1|kä]] [[$2|Pälzisch]] (oda hod greeßere Schwierischkaide dmid).',
+	'babel-1-n' => 'De Bnudza babbld [[$1|e bissl]] [[$2|Pälzisch]].',
+	'babel-2-n' => 'De Bnudza babbld [[$1|goans gud]] [[$2|Pälzisch]] .',
+	'babel-3-n' => 'De Bnudza babbld [[$1|arisch gud]] [[$2|Pälzisch]].',
+	'babel-4-n' => 'De Bnudza babbld [[$2|Pälzisch]], faschd wie sai [[$1|Muddaschbrooch]].',
+	'babel-5-n' => 'De Bnudza babbld [[$2|Pälzisch]] uffm [[$1|fachlische]] Niwo.',
+	'babel-N-n' => 'De Bnudza babbld [[$2|Pälzisch]] als soi [[$1|Muddaschbrooch]].',
+	'babel-footer' => 'Bnudza noch Schbrooch',
 );
 
 /** Polish (Polski)
