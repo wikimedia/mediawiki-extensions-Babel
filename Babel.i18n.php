@@ -1728,7 +1728,7 @@ Hesin brúkarin hevur kunnleika á [[$1|hástigi]] til [[$2|føroyskt]].',
 	'babel-footer' => 'Brúkari eftir máli',
 );
 
-/** French (Français)
+/** French (français)
  * @author Cedric31
  * @author ChrisPtDe
  * @author Crochet.david
