@@ -1380,7 +1380,7 @@ $messages['diq'] = array(
 	'babel-autocreate-text-levels' => 'Karberê qı na kategorideyê, nê zuwani sewiye dê  $1 u $2 derece zanê.',
 	'babel-autocreate-text-main' => 'Karberê qı na kategorideyê  $1 zuwani zanê.',
 	'babel-0' => 'No karber nê zuwani ya [[$1|hêç]] nêzano ya zi [[$2|$3]] (fahm keno feqet kısey nêzano).',
-	'babel-1' => 'no karber [[$1|tenekê]] fahm keno [[$2|$3]].',
+	'babel-1' => 'No karber [[$2|$3]] [[$1|tenekê]] fahm keno.',
 	'babel-2' => 'No karber [[$1|hewl]] zano [[$2|$3]].',
 	'babel-3' => 'No karber [[$1|xeylê]] zanê [[$2|$3]].',
 	'babel-4' => 'No karber [[$1|Zey zuwan]]dê zano [[$2|$3]].',
@@ -2863,6 +2863,35 @@ $messages['khw'] = array(
 	'babel-4-n' => 'ھیہ صارف [[$2|انگریزی]] زبانو باریا [[$1|پیدائشی متکلم]]و قریب قریب علم لاکھویان.',
 	'babel-5-n' => 'ھیہ صارف [[$2|انگریزی]] زبانو [[$1|پیشہ ورانہ]] علم لاکھویان.',
 	'babel-N-n' => 'ھیہ صارف [[$2|انگریزی]] زبانو [[$1|پیدائشی متکلم]] آسور.',
+);
+
+/** Kirmanjki (Kırmancki)
+ * @author Erdemaslancan
+ */
+$messages['kiu'] = array(
+	'babel' => 'Melumatê babil da karberi',
+	'babel-desc' => 'Xulusa da sablonan dı dêsê babilê karberi otomatik vışatıştı, fonksiyonê <code>#babil</code>i fêno de',
+	'babel-url' => 'Project:Babil',
+	'babel-footer-url' => 'Kategoriye:Babil - Zıwanê karberi',
+	'babel-autocreate-abort' => 'Karbero kı şıma  belı  kerdo, kategoriya dı [[$1|Babil]]i dı ca gêno u peyd zi nê gêrêno.',
+	'babel-autocreate-reason' => 'Kategoriye [[$1|Babil]]i otomatik vırazêno.',
+	'babel-autocreate-text-levels' => 'Karberê ke na kategorideyê, nê zıwani sewiye dê  $1 u $2 derece zanê.',
+	'babel-autocreate-text-main' => 'Karberê ke na kategorideyê  $1 zuwani zanê.',
+	'babel-0' => 'No karber nê zıwani ya [[$1|hêç]] nêzano ya zi [[$2|$3]] (fahm keno feqet kısey nêzano).',
+	'babel-1' => 'No karber [[$2|$3]] [[$1|tenekê]] fahm keno.',
+	'babel-2' => 'No karber [[$1|hewl]] [[$2|$3]] zano .',
+	'babel-3' => 'No karber [[$1|xeylê]] zanê [[$2|$3]].',
+	'babel-4' => 'No karber [[$1|Zey zıwan]] dê xo [[$2|$3]] zano.',
+	'babel-5' => 'No karber [[$1|profesyonel]] sewiye dı [[$2|$3]] zano.',
+	'babel-N' => '[[$1|Zıwanè ]] marda nê karberi [[$2|$3]]o.',
+	'babel-0-n' => 'No karber [[$1|hêç]]  [[$2|Zazaki]] nêzano (ya zi fahm keno feqet nêzano qısey bıkero).',
+	'babel-1-n' => 'No karber [[$1|tenekê]] [[$2|Zazaki]] zano.',
+	'babel-2-n' => '[[$2|Zazakiya]] nê karberi [[$1|hewla]].',
+	'babel-3-n' => 'No karber [[$1|weş]] [[$2|zazaki]] zano.',
+	'babel-4-n' => 'No karber [[$2|Zazaki]] zey [[$1|zıwan]] dê marda xo zano.',
+	'babel-5-n' => 'No karber [[$1|profesyonel]] sewiye dı [[$2|Zazaki]] zano.',
+	'babel-N-n' => 'Zıwanê marda [[$1|nê karberi]]  [[$2|Zazaki]]o.',
+	'babel-footer' => 'Zıwani heta karberi',
 );
 
 /** Kazakh (Cyrillic script) (‪Қазақша (кирил)‬)
