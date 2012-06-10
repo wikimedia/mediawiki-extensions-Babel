@@ -2684,14 +2684,14 @@ $messages['ja'] = array(
 	'babel-autocreate-text-levels' => 'このカテゴリに属している利用者は$2について$1レベルの能力を有しています。',
 	'babel-autocreate-text-main' => 'このカテゴリに属している利用者は$1についての自身の能力について表明しています。',
 	'babel-autocreate-user' => 'バベル自動作成係',
-	'babel-0' => 'この利用者は[[$2|$3]]が[[$1|わかりません]](または理解するのがかなり困難です)。',
+	'babel-0' => 'この利用者は[[$2|$3]]が[[$1|分かりません]](または理解するのがかなり困難です)。',
 	'babel-1' => 'この利用者は[[$1|初級]]の[[$2|$3]]ができます。',
 	'babel-2' => 'この利用者は[[$1|中級]]の[[$2|$3]]ができます。',
 	'babel-3' => 'この利用者は[[$1|上級]]の[[$2|$3]]ができます。',
 	'babel-4' => 'この利用者は[[$1|母語話者に近い]][[$2|$3]]の知識を有しています。',
 	'babel-5' => 'この利用者は[[$1|専門的な]][[$2|$3]]の知識を有しています。',
 	'babel-N' => 'この利用者は[[$2|$3]]を[[$1|母語]]としています。',
-	'babel-0-n' => 'この利用者は[[$2|日本語]]が[[$1|わかりません]](または理解するのがかなり困難です)。',
+	'babel-0-n' => 'この利用者は[[$2|日本語]]が[[$1|分かりません]](または理解するのがかなり困難です)。',
 	'babel-1-n' => 'この利用者は[[$1|初級]]の[[$2|日本語]]ができます。',
 	'babel-2-n' => 'この利用者は[[$1|中級]]の[[$2|日本語]]ができます。',
 	'babel-3-n' => 'この利用者は[[$1|上級]]の[[$2|日本語]]ができます。',
@@ -3079,6 +3079,7 @@ $messages['ksh'] = array(
  */
 $messages['ku-latn'] = array(
 	'babel-template' => 'Template:$1',
+	'babel-footer' => 'Bikarhêner li gorî ziman',
 );
 
 /** Cornish (Kernowek)
@@ -6065,7 +6066,7 @@ $messages['udm'] = array(
 	'babel-url' => 'Project:Вавилон',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author A1
  * @author AS
  * @author Ahonc
@@ -6371,27 +6372,30 @@ $messages['vro'] = array(
 	'babel-N-n' => 'Taa pruukja [[$1|imäkiil]] om [[$2|võro]] kiil.',
 );
 
-/** Walloon (Walon)
+/** Walloon (walon)
  * @author Lucyin
+ * @author Srtxg
  */
 $messages['wa'] = array(
-	'babel' => "racsegnes so l' uzeu d' Babel",
+	'babel' => "Racsegnes Babel so l' uzeu",
+	'babel-footer-url' => ':Category:Babel - Uzeus pa lingaedje',
 	'babel-autocreate-abort' => 'Li no d\' uzeu ki vos avoz dné est ddja eployî dins l\' categoreye [[$1|Babel]] "oto-askepiaedje"; dabôrd, i n\' såreut esse ritnou.',
 	'babel-autocreate-reason' => 'Askepiaedje otomatike del categoreye [[$1|Babel]].',
-	'babel-0' => "Cist(e) uzeu(se) ci n' a [[$1|nole]] kinoxhance do [[$2|$3]] (oudon-bén, nel comprinde k' a schipe)",
-	'babel-1' => "Cist(e) uzeu(se) ci ni sait l' [[$2|$3]] ki come [[$1|onk (ene) ki cmince]].",
-	'babel-2' => 'Cist(e) uzeu(se) ci kinoxhe [[$1|ene miete]] li [[$2|$3]].',
-	'babel-3' => "Cist(e) uzeu(se) ci sait [[$1|bén]] l' [[$2|$3]].",
-	'babel-4' => "Cist(e) uzeu(se) ci sait [[$1|foirt bén]] l' [[$2|$3]].",
-	'babel-5' => "Cist(e) uzeu(se) ci kinoxhe li [[$2|$3]] [[$1|come ene djin d' mestî]]",
-	'babel-N' => 'Cist(e) uzeu(se) est [[$2|$3]]-cåzant [[$1|natif]] .',
-	'babel-0-n' => "Cist(e) uzeu(se) cial ni sait [[$1|nén]] l' [[$2|walon]] (oudon-bén nel comprinde k' a poenne).",
-	'babel-1-n' => "Cist(e) uzeu(se) ci ni sait l' [[$2|walon]] ki come [[$1|onk (ene) ki cmince]].",
-	'babel-2-n' => 'Cist(e) uzeu(se) ci kinoxhe [[$1|ene miete]] li [[$2|walon]].',
-	'babel-3-n' => "Cist(e) uzeu(se) ci sait [[$1|bén]] l' [[$2|walon]].",
-	'babel-4-n' => 'Cist(e) uzeu(se) ci kinoxhe [[$1|foirt bén]] li [[$2|walon]].',
-	'babel-5-n' => "Cist(e) uzeu(se) ci kinoxhe li [[$2|walon]] [[$1|come ene djin d' mestî]]",
-	'babel-N-n' => 'Cist uzeu [[$1|cåzant natif]] do [[$2|walon]].',
+	'babel-0' => "{{GENDER:$4|Cist uzeu|Ciste uzeuse}} ci n' a [[$1|nole]] kinoxhance do [[$2|$3]] (oudon-bén, nel comprinde k' a schipe)",
+	'babel-1' => "{{GENDER:$4|Cist uzeu ci ni sait l' [[$2|$3]] ki come [[$1|onk ki cmince]]|Ciste uzeuse ci ni sait l' [[$2|$3]] ki come [[$1|ene ki cmince]]}}.",
+	'babel-2' => '{{GENDER:$4|Cist uzeu|Ciste uzeuse}} ci kinoxhe [[$1|ene miete]] li [[$2|$3]].',
+	'babel-3' => "{{GENDER:$4|Cist uzeu|Ciste uzeuse}} ci sait [[$1|bén]] l' [[$2|$3]].",
+	'babel-4' => "{{GENDER:$4|Cist uzeu|Ciste uzeuse}} ci sait [[$1|foirt bén]] l' [[$2|$3]].",
+	'babel-5' => "{{GENDER:$4|Cist uzeu|Ciste uzeuse}} ci kinoxhe li [[$2|$3]] [[$1|come ene djin d' mestî]]",
+	'babel-N' => '{{GENDER:$4|Cist uzeu est [[$2|$3]]-cåzant [[$1|natif]]|Ciste uzeuse est [[$2|$3]]-cåzante [[$1|native]]}}.',
+	'babel-0-n' => "{{GENDER:$4|Cist uzeu|Ciste uzeuse}} cial ni sait [[$1|nén]] l'&nbsp;[[$2|walon]] (oudon-bén nel comprinde k' a poenne).",
+	'babel-1-n' => "{{GENDER:$4|Cist uzeu ci ni sait l' [[$2|walon]] ki come [[$1|onk ki cmince]]|Ciste uzeuse ci ni sait l' [[$2|walon]] ki come [[$1|ene ki cmince]]}}.",
+	'babel-2-n' => '{{GENDER:$4|Cist uzeu|Ciste uzeuse}} ci kinoxhe [[$1|ene miete]] li [[$2|walon]].',
+	'babel-3-n' => "{{GENDER:$4|Cist uzeu|Ciste uzeuse}} ci sait [[$1|bén]] l' [[$2|walon]].",
+	'babel-4-n' => '{{GENDER:$4|Cist uzeu|Ciste uzeuse}} ci kinoxhe [[$1|foirt bén]] li [[$2|walon]].',
+	'babel-5-n' => "{{GENDER:$4|Cist uzeu|Ciste uzeuse}} ci kinoxhe li [[$2|walon]] [[$1|come ene djin d' mestî]]",
+	'babel-N-n' => '{{GENDER:$4|Cist uzeu est on [[$1|cåzant natif]]|Ciste uzeuse est ene [[$1|cåzante native]]}} do [[$2|walon]].',
+	'babel-footer' => 'Uzeus pa lingaedje',
 );
 
 /** Waray (Winaray)
