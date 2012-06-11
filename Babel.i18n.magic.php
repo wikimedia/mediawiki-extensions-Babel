@@ -43,7 +43,7 @@ $magicWords['eo'] = array(
 	'babel' => array( 0, 'babelo' ),
 );
 
-/** Franco-Provençal (Arpetan) */
+/** Franco-Provençal (arpetan) */
 $magicWords['frp'] = array(
 	'babel' => array( 0, 'babél' ),
 );
@@ -63,7 +63,7 @@ $magicWords['ko'] = array(
 	'babel' => array( 0, '바벨' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $magicWords['mk'] = array(
 	'babel' => array( 0, 'вавилон' ),
 );
@@ -78,7 +78,7 @@ $magicWords['ps'] = array(
 	'babel' => array( 0, 'بابېل', 'babel' ),
 );
 
-/** Russian (Русский) */
+/** Russian (русский) */
 $magicWords['ru'] = array(
 	'babel' => array( 0, 'вавилон' ),
 );
@@ -88,12 +88,12 @@ $magicWords['si'] = array(
 	'babel' => array( 0, 'බාබෙල්', 'babel' ),
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
 $magicWords['sr-ec'] = array(
 	'babel' => array( 0, 'бабел' ),
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $magicWords['sr-el'] = array(
 	'babel' => array( 0, 'babel' ),
 );
@@ -103,12 +103,12 @@ $magicWords['tr'] = array(
 	'babel' => array( 0, 'babil' ),
 );
 
-/** Ukrainian (Українська) */
+/** Ukrainian (українська) */
 $magicWords['uk'] = array(
 	'babel' => array( 0, 'вавилон', 'вавілон' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $magicWords['zh-hans'] = array(
 	'babel' => array( 0, '巴别' ),
 );
