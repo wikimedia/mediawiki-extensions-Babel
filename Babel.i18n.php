@@ -5854,6 +5854,7 @@ $messages['tl'] = array(
 	'babel-4-n' => 'May [[$1|malakatutubong]] kaalaman sa pagsasalita ng [[$2|Tagalog]] ang tagagamit na ito.',
 	'babel-5-n' => 'May [[$1|dalubhasang]] kaalaman sa [[$2|Tagalog]] ang tagagamit na ito.',
 	'babel-N-n' => 'May [[$1|katutubong]] pang-unawa sa [[$2|Tagalog]] ang tagagamit na ito.',
+	'babel-footer' => 'Mga tagagamit ayon sa wika',
 );
 
 /** Толышә зывон (Толышә зывон)
@@ -6378,9 +6379,13 @@ $messages['vro'] = array(
  */
 $messages['wa'] = array(
 	'babel' => "Racsegnes Babel so l' uzeu",
+	'babel-desc' => "Radjoute ene fonccion d' analijhe sintacsike <code>#babel</code> ki permete li fjhaedje otomatike di boesses ''Babel'' po-z indiker les lingaedjes k' èn uzeu cnoxhe; avou l' possibilité di radjouter locålmint des modeles",
+	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Uzeus pa lingaedje',
 	'babel-autocreate-abort' => 'Li no d\' uzeu ki vos avoz dné est ddja eployî dins l\' categoreye [[$1|Babel]] "oto-askepiaedje"; dabôrd, i n\' såreut esse ritnou.',
 	'babel-autocreate-reason' => 'Askepiaedje otomatike del categoreye [[$1|Babel]].',
+	'babel-autocreate-text-levels' => "Les uzeus d' cisse categoreye ci ont-st ene kinoxhance di livea $1 do lingaedje $2.",
+	'babel-autocreate-text-main' => "Les uzeus d' cisse categoreye ci ont-st ene kinoxhance do lingaedje $1.",
 	'babel-0' => "{{GENDER:$4|Cist uzeu|Ciste uzeuse}} ci n' a [[$1|nole]] kinoxhance do [[$2|$3]] (oudon-bén, nel comprinde k' a schipe)",
 	'babel-1' => "{{GENDER:$4|Cist uzeu ci ni sait l' [[$2|$3]] ki come [[$1|onk ki cmince]]|Ciste uzeuse ci ni sait l' [[$2|$3]] ki come [[$1|ene ki cmince]]}}.",
 	'babel-2' => '{{GENDER:$4|Cist uzeu|Ciste uzeuse}} ci kinoxhe [[$1|ene miete]] li [[$2|$3]].',
