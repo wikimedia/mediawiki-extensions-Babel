@@ -456,7 +456,7 @@ $messages['arc'] = array(
 	'babel-N-n' => 'ܗܢܐ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܐܝܟ ܠܫܢܗ ܐܡܗܝܐ]] ܒ[[$2|ܐܪܡܝܐ]]',
 );
 
-/** Araucanian (Mapudungun)
+/** Araucanian (mapudungun)
  * @author Kaniw
  * @author Lin linao
  */
@@ -575,7 +575,7 @@ $messages['as'] = array(
 	'babel-footer' => 'ভাষা অনুযায়ী ব্যৱহাৰকাৰী',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Esbardu
  * @author Xuacu
  */
@@ -662,7 +662,7 @@ $messages['ay'] = array(
 	'babel-N-n' => 'Jupax apnaqiri [[$2|aymar aru]]xa [[$1|yurawita]] yatiniwa.',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author PPerviz
  * @author Purodha
  * @author Vago
@@ -750,7 +750,7 @@ $messages['bar'] = array(
 	'babel-footer' => 'Benutzer noch Sprooch',
 );
 
-/** Samogitian (Žemaitėška)
+/** Žemaitėška (Žemaitėška)
  * @author Purodha
  */
 $messages['bat-smg'] = array(
@@ -780,7 +780,7 @@ $messages['bcc'] = array(
 	'babel-N-n' => 'ای کاربر [[$2|بلوچی مکرانی]] را در حد [[$1|ماتی زبان]] سرپد بیت.',
 );
 
-/** Belarusian (Беларуская)
+/** Belarusian (беларуская)
  * @author Yury Tarasievich
  * @author Тест
  * @author Хомелка
@@ -841,7 +841,7 @@ $messages['be-tarask'] = array(
 	'babel-footer' => 'Удзельнікі па мовах',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  * @author Spiritia
  * @author Vladimir Penov
@@ -948,7 +948,7 @@ $messages['bn'] = array(
 	'babel-footer' => 'ভাষা অনুযায়ী ব্যবহারকারী',
 );
 
-/** Bishnupria Manipuri (ইমার ঠার/বিষ্ণুপ্রিয়া মণিপুরী)
+/** Bishnupria Manipuri (বিষ্ণুপ্রিয়া মণিপুরী)
  * @author Usingha
  */
 $messages['bpy'] = array(
@@ -977,7 +977,7 @@ $messages['bpy'] = array(
 	'babel-footer' => 'ঠারর মাতুঙে আতাকুরা',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -1020,7 +1020,7 @@ $messages['brh'] = array(
 	'babel-N-n' => '[[$2|Bráhuí]] dá kárband ná [[$1|lummaí bolí]] e.',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  * @author Palapa
  */
@@ -1050,7 +1050,7 @@ $messages['bs'] = array(
 	'babel-footer' => 'Korisnici po jezicima',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Aleator
  * @author SMP
  * @author Toniher
@@ -1096,7 +1096,7 @@ $messages['ce'] = array(
 	'babel-N-n' => 'Хlокху декъашхочо [[$1|шейра]] буьйцу шай [[$2|Нохчийн]] мотт.',
 );
 
-/** Sorani (کوردی)
+/** Sorani Kurdish (کوردی)
  * @author Asoxor
  * @author GerardM
  */
@@ -1166,7 +1166,7 @@ $messages['crh'] = array(
 	'babel-N' => 'Bu qullanıcınıñ [[$1|ana tili]] [[$2|Qırımtatar tili]]dir.',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Danny B.
  * @author Kuvaly
  * @author Li-sung
@@ -1296,7 +1296,7 @@ $messages['cy'] = array(
 	'babel-footer' => 'Ieithoedd defnyddwyr',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Byrial
  * @author Froztbyte
  * @author Jan Friberg
@@ -1526,7 +1526,7 @@ $messages['eo'] = array(
 	'babel-footer' => 'Uzantoj laŭ lingvoj',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Bengoa
  * @author Crazymadlover
  * @author Fitoschido
@@ -1560,7 +1560,7 @@ $messages['es'] = array(
 	'babel-footer' => 'Usuarios por idioma',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Ker
  * @author Pikne
  */
@@ -1590,7 +1590,7 @@ $messages['et'] = array(
 	'babel-footer' => 'Kasutajad keelteoskuse järgi',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
  * @author Theklan
@@ -1656,7 +1656,7 @@ $messages['fa'] = array(
 	'babel-footer' => 'کاربران بر پایهٔ زبان',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Crt
  * @author Ilaiho
  * @author Jaakonam
@@ -1689,14 +1689,14 @@ $messages['fi'] = array(
 	'babel-footer' => 'Käyttäjien kielet',
 );
 
-/** Meänkieli (Meänkieli)
+/** meänkieli (meänkieli)
  * @author Mestos
  */
 $messages['fit'] = array(
 	'babel-footer' => 'Käyttäjät kielitten mukhaan',
 );
 
-/** Faroese (Føroyskt)
+/** Faroese (føroyskt)
  * @author Diupwijk
  * @author EileenSanda
  * @author Quackor
@@ -1765,7 +1765,7 @@ $messages['fr'] = array(
 	'babel-footer' => 'Utilisateurs par langue',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -1825,7 +1825,7 @@ $messages['frr'] = array(
 	'babel-footer' => 'Brükern efter spriak',
 );
 
-/** Friulian (Furlan)
+/** Friulian (furlan)
  * @author Klenje
  */
 $messages['fur'] = array(
@@ -2288,7 +2288,7 @@ $messages['hil'] = array(
 	'babel-N-n' => 'Ini nga naga-usar ay may-ara [[$1|nitibo]] ka-alam sang [[$2|Hiligaynon]].',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Ex13
  * @author Herr Mlinka
  */
@@ -2371,7 +2371,7 @@ $messages['ht'] = array(
 	'babel-N-n' => 'Itilizatè sa pale [[$2|Kreyòl ayisyen]] tankou li te [[$1|lang matènèl l]].',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Dj
  * @author Glanthor Reviol
@@ -2432,7 +2432,7 @@ $messages['hy'] = array(
 	'babel-N-n' => '[[$2|Հայերենը]] այս անձի [[$1|մայրենի լեզուն]] է։',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author Malafaya
  * @author McDutchie
  */
@@ -2599,7 +2599,7 @@ $messages['io'] = array(
 	'babel-5' => 'Ca uzanto havas [[$1|profesionala]] savo pri [[$2|$3]].',
 );
 
-/** Icelandic (Íslenska)
+/** Icelandic (íslenska)
  * @author Purodha
  * @author Snævar
  */
@@ -2628,7 +2628,7 @@ $messages['is'] = array(
 	'babel-footer' => 'Notendur eftir tungumáli',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  * @author Cruccone
  * @author Darth Kule
@@ -3082,7 +3082,7 @@ $messages['ku-latn'] = array(
 	'babel-footer' => 'Bikarhêner li gorî ziman',
 );
 
-/** Cornish (Kernowek)
+/** Cornish (kernowek)
  * @author Kernoweger
  * @author Kw-Moon
  * @author Nicky.ker
@@ -3383,7 +3383,7 @@ $messages['liv'] = array(
 	'babel-N-n' => 'Sīen kȭlbatijizõn um [[$2|līvõ]] kēļ [[$1|sindikēļ]].',
 );
 
-/** Lumbaart (Lumbaart)
+/** lumbaart (lumbaart)
  * @author Dakrismeno
  * @author Sprüngli
  */
@@ -3411,7 +3411,7 @@ $messages['lmo'] = array(
 	'babel-N-n' => "Quel druvat chì l'è de [[$1|maderlengua]] [[$2|Lumbarda]].",
 );
 
-/** Lingala (Lingála)
+/** Lingala (lingála)
  * @author Moyogo
  */
 $messages['ln'] = array(
@@ -3459,7 +3459,7 @@ $messages['lo'] = array(
 	'babel-footer' => 'ຜູ້ໃຊ້ຕາມພາສາ',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Garas
  * @author Homo
@@ -3493,7 +3493,7 @@ $messages['lt'] = array(
 	'babel-footer' => 'Vartotojai pagal kalbą',
 );
 
-/** Latgalian (Latgaļu)
+/** Latgalian (latgaļu)
  * @author Dark Eagle
  */
 $messages['ltg'] = array(
@@ -3548,7 +3548,7 @@ $messages['lus'] = array(
 	'babel-footer' => 'Ṭawng hman azirin hmangtute',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author Dark Eagle
  * @author Gleb Borisov
  * @author Papuass
@@ -3769,7 +3769,7 @@ $messages['mi'] = array(
 	'babel-4-n' => 'Ko tēnei tangata he [[$1|tino matatau]] ki te reo [[$2|Māori]].',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  * @author Brest
  * @author INkubusse
@@ -3833,7 +3833,7 @@ $messages['ml'] = array(
 	'babel-footer' => 'ഉപയോക്താക്കൾ ഭാഷാക്രമത്തിൽ',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Mifos.mn
  */
 $messages['mn'] = array(
@@ -3862,7 +3862,7 @@ $messages['mn'] = array(
 	'babel-footer' => 'Хэлээрх хэрэглэгчид',
 );
 
-/** Moldavian (Молдовеняскэ)
+/** Moldavian (молдовеняскэ)
  * @author Node ue
  */
 $messages['mo'] = array(
@@ -4252,7 +4252,7 @@ $messages['nl-informal'] = array(
 	'babel-autocreate-abort' => 'De gebruikersnaam die je hebt opgegeven wordt gebruikt voor het automatisch aanmaken van [[$1|Babel]]-categorieën en kan niet geregistreerd worden.',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Eirik
  * @author Finnrind
  * @author Gunnernett
@@ -4340,7 +4340,7 @@ $messages['nso'] = array(
 	'babel-footer' => 'Bašomiši goya ka maleme',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Boulaur
  * @author Cedric31
  */
@@ -4581,7 +4581,7 @@ $messages['pfl'] = array(
 	'babel-footer' => 'Bnudza noch Schbrooch',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Karol007
  * @author Sp5uhe
  * @author Ymar
@@ -4753,7 +4753,7 @@ $messages['ps'] = array(
 	'babel-footer' => 'کارنان د ژبې له مخې',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author 555
  * @author Hamilton Abreu
  * @author Malafaya
@@ -4785,7 +4785,7 @@ $messages['pt'] = array(
 	'babel-footer' => 'Utilizadores por língua',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author 555
  * @author Brunoy Anastasiya Seryozhenko
  * @author Eduardo.mps
@@ -4874,7 +4874,7 @@ $messages['rgn'] = array(
 	'babel-N-n' => "Stû l'à [[$2|titê e' Rumagnôl]] da [[$1|su mê]].",
 );
 
-/** Romansh (Rumantsch)
+/** Romansh (rumantsch)
  * @author Gion
  * @author Gion-andri
  */
@@ -4903,7 +4903,7 @@ $messages['rm'] = array(
 	'babel-N-n' => 'Per quest utilisader è [[$2|rumantsch]] la [[$1|lingua materna]].',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Cin
  * @author Firilacroco
  * @author KlaudiuMihaila
@@ -4935,7 +4935,7 @@ $messages['ro'] = array(
 	'babel-footer' => 'Utilizatori după limbă',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  * @author Kwj2772
  */
@@ -4965,7 +4965,7 @@ $messages['roa-tara'] = array(
 	'babel-footer' => 'Utinde pe lènghe',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author EugeneZelenko
  * @author Express2000
  * @author Ferrer
@@ -5041,7 +5041,7 @@ $messages['sa'] = array(
 	'babel-N-n' => 'एष उपयोजकस्य [[$1|मातृभाषा]] [[$2|संस्कृतम्‌]] अस्ति।',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -5083,7 +5083,7 @@ $messages['sat'] = array(
 	'babel-1' => 'Nuido hoṛdo [[$1|buṭa]] reaḱ [[$2|$3]] baḍae menaḱtaya.',
 );
 
-/** Sardinian (Sardu)
+/** Sardinian (sardu)
  * @author Andria
  * @author Marzedu
  */
@@ -5111,7 +5111,7 @@ $messages['sc'] = array(
 	'babel-N-n' => 'Custu usuàriu faeddat su [[$2|Sardu]]  comente [[$1|limba mama]].',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Melos
  * @author Santu
  */
@@ -5163,7 +5163,7 @@ $messages['sd'] = array(
 	'babel-5-n' => 'هن يُوزر کي [[$2|انگريزي]]ءَ جي [[$1|پيشورانه]] ڄاڻ آهي.',
 );
 
-/** Northern Sami (Sámegiella)
+/** Northern Sami (sámegiella)
  * @author GerardM
  */
 $messages['se'] = array(
@@ -5204,7 +5204,7 @@ $messages['sg'] = array(
 	'babel-footer' => 'Ânyîmbâ tî yângâ ôko ôko',
 );
 
-/** Serbo-Croatian (Srpskohrvatski)
+/** Serbo-Croatian (srpskohrvatski / српскохрватски)
  * @author OC Ripper
  */
 $messages['sh'] = array(
@@ -5292,7 +5292,7 @@ $messages['si'] = array(
 	'babel-footer' => 'භාෂාව අනුව පරිශීලකයින්',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  * @author Meno25
  * @author Rudko
@@ -5323,7 +5323,7 @@ $messages['sk'] = array(
 	'babel-footer' => 'Používatelia podľa jazyka',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  * @author Smihael
  */
@@ -5393,7 +5393,7 @@ $messages['so'] = array(
 	'babel-N-n' => 'Isticmaalahan  [[$2|Soomaaliga]] waa  [[$1|afkiisa hooyo]].',
 );
 
-/** Albanian (Shqip)
+/** Albanian (shqip)
  * @author Dori
  * @author Eagleal
  * @author Olsi
@@ -5425,7 +5425,7 @@ $messages['sq'] = array(
 	'babel-footer' => 'Përdorues sipas gjuhës',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -5457,7 +5457,7 @@ $messages['sr-ec'] = array(
 	'babel-footer' => 'Корисници по језику',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  * @author Rancher
  */
@@ -5554,7 +5554,7 @@ $messages['su'] = array(
 	'babel-N-n' => 'Pamaké ieu [[$1|tulen]] bisa [[$2|basa Sunda]] .',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Ainali
  * @author Boivie
  * @author Diupwijk
@@ -5723,7 +5723,7 @@ $messages['te'] = array(
 	'babel-footer' => 'భాషల వారీగా వాడుకరులు',
 );
 
-/** Tetum (Tetun)
+/** Tetum (tetun)
  * @author MF-Warburg
  */
 $messages['tet'] = array(
@@ -5741,7 +5741,7 @@ $messages['tet'] = array(
 	'babel-N-n' => "Uza-na'in ne'e iha [[$2|tetun]] nu'udar [[$1|lian inan]].",
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  * @author ZxxZxxZ
  */
@@ -5755,7 +5755,7 @@ $messages['tg-cyrl'] = array(
 	'babel-4' => "Корбари мазкур ба '''[[$2|тоҷикӣ]]''' дар сатҳи '''[[$1|хуб]]''' монанди қариб забони модариаш медонад.",
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -5857,7 +5857,7 @@ $messages['tl'] = array(
 	'babel-footer' => 'Mga tagagamit ayon sa wika',
 );
 
-/** Толышә зывон (Толышә зывон)
+/** толышә зывон (толышә зывон)
  * @author Гусейн
  */
 $messages['tly'] = array(
@@ -6007,7 +6007,7 @@ $messages['tt'] = array(
 	'babel-N-n' => 'Бу кулланучы өчен [[$2|татар теле]] [[$1|туган тел]].',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Ильнар
  * @author Рашат Якупов
  */
@@ -6130,7 +6130,7 @@ $messages['ur'] = array(
 	'babel-footer' => 'زبان کے اعتبار سے صارف',
 );
 
-/** Uzbek (Oʻzbek)
+/** Uzbek (Oʻzbekcha)
  * @author Nataev
  * @author Purodha
  */
@@ -6160,7 +6160,7 @@ $messages['uz'] = array(
 	'babel-footer' => "Til bo'yicha foydalanuvchilar",
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -6647,7 +6647,7 @@ $messages['zh-cn'] = array(
 	'babel-N-n' => '这位用户明白以[[$1|母语]]为主的[[$2|大陆式中文]]。',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Dalt
  * @author Gzdavidwong
  * @author Hydra
@@ -6683,7 +6683,7 @@ $messages['zh-hans'] = array(
 	'babel-footer' => '用户（按语言）',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Liangent
  * @author Mark85296341
  * @author Shinjiman
