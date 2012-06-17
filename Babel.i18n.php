@@ -5625,7 +5625,19 @@ $messages['sw'] = array(
  * @author Purodha
  */
 $messages['szl'] = array(
+	'babel' => 'Wjeża Babel używacza',
+	'babel-desc' => 'Wkludzuje funkcyje <code>#babel</code> kera automatyczńy tworzi wjeży Babel lo używaczy na jejich zajty.',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => 'Kategoria:Wikipedysty podug godki',
+	'babel-autocreate-abort' => 'Mjano używacza kere podałżeś je używane lo Wjeży [[$1|Babel]] a ńy może być zaregistrowane.',
+	'babel-autocreate-reason' => 'Zajta kategoryji [[$1|Wjeży Babel]]',
+	'babel-autocreate-text-levels' => 'Używacze kerzi sům w tej kategoryji poradzům godać w godce $2 na poźome $1.',
+	'babel-autocreate-text-main' => 'Używacze kerzi sům w tej kategoryji poradzům godać w godce $1.',
+	'babel-0' => 'Tyn użytkowńik [[$1|ńy godo]] w godce [[$2|$3]] (abo mo s ńům wjelge trudnośći).',
+	'babel-1' => 'Tyn użytkowńik wjy ino [[$1|źdźebko]] godke [[$2|$3]].',
+	'babel-2' => 'Tyn użytkowńik mo [[$1|strzedńe]] wjadůmośći godki [[$2|$3]].',
+	'babel-3' => 'Tyn użytkowńik mo [[$1|fest dobre]] wjadůmośći godki [[$2|$3]].',
+	'babel-4' => 'Tyn użytkowńik wjy godke [[$2|$3]] [[$1|bezmałaś jak uojczysto]].',
 	'babel-0-n' => 'Tyn użytkowńik [[$1|ńy godo]] we [[$2|ślůnskij godce]] (abo mo s ńům wjelge trudnośći).',
 	'babel-1-n' => 'Tyn użytkowńik wjy ino [[$1|źdźebko]] [[$2|ślůnsko godka]].',
 	'babel-2-n' => 'Tyn użytkowńik mo [[$1|strzedńe]] wjadůmośći [[$2|ślůnskij godki]].',
