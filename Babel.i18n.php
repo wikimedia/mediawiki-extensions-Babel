@@ -5621,7 +5621,7 @@ $messages['sw'] = array(
 	'babel-footer' => 'Watumiaji lugha kwa lugha',
 );
 
-/** Silesian (Ślůnski)
+/** Silesian (ślůnski)
  * @author Przemub
  * @author Purodha
  */
