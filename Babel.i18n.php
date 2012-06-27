@@ -809,7 +809,7 @@ $messages['be'] = array(
 	'babel-footer' => 'Удзельнікі паводле моў',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -838,7 +838,7 @@ $messages['be-tarask'] = array(
 	'babel-4-n' => '{{GENDER:$4|Гэты ўдзельнік|Гэтая ўдзельніца}} ведае [[$2|беларускую мову]] амаль [[$1|як родную]].',
 	'babel-5-n' => '{{GENDER:$4|Гэты ўдзельнік|Гэтая ўдзельніца}} ведае [[$2|беларускую мову]] на [[$1|прафэсійным]] узроўні.',
 	'babel-N-n' => '[[$2|Беларуская мова]] — [[$1|родная мова]] {{GENDER:$4|гэтага ўдзельніка|гэтай ўдзельніцы}}.',
-	'babel-footer' => 'Удзельнікі па мовах',
+	'babel-footer' => 'Удзельнікі паводле мовы',
 );
 
 /** Bulgarian (български)
