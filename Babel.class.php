@@ -64,12 +64,13 @@ class Babel {
 			}
 		}
 
-		$top = wfMessage( 'babel', self::$title->getDBkey() )->inContentLanguage();
-		if ( $wgBabelUseUserLanguage ) {
-			$top = $top->inLanguage( $parser->getOptions()->getUserLangObj() );
+		if( $wgBabelUseUserLanguage ) {
+			$uiLang = $parser->getOptions()->getUserLangObj();
 		} else {
-			$top = $top->inContentLanguage();
+			$uiLang = self::$title->getPageLanguage();
 		}
+
+		$top = wfMessage( 'babel', self::$title->getDBkey() )->inLanguage( $uiLang );
 
 		if ( $top->isDisabled() ) {
 			$top = '';
@@ -81,12 +82,7 @@ class Babel {
 			}
 			$top = '! class="mw-babel-header" | ' . $top;
 		}
-		$footer = wfMessage( 'babel-footer', self::$title->getDBkey() );
-		if ( $wgBabelUseUserLanguage ) {
-			$footer = $footer->inLanguage( $parser->getOptions()->getUserLangObj() );
-		} else {
-			$footer = $footer->inContentLanguage();
-		}
+		$footer = wfMessage( 'babel-footer', self::$title->getDBkey() )->inLanguage( $uiLang );
 
 		$url = wfMessage( 'babel-footer-url' )->inContentLanguage();
 		$showfooter = '';
