@@ -328,7 +328,7 @@ $messages['am'] = array(
 	'babel-url' => 'Project:ልሳናት',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -1200,7 +1200,7 @@ $messages['cs'] = array(
 	'babel-footer' => 'Uživatelé podle jazyka',
 );
 
-/** Kashubian (Kaszëbsczi)
+/** Kashubian (kaszëbsczi)
  * @author Iketsi
  * @author Kaszeba
  */
@@ -1230,7 +1230,7 @@ $messages['csb'] = array(
 	'babel-footer' => 'Jãzëczi brëkòwników',
 );
 
-/** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
@@ -1279,20 +1279,20 @@ $messages['cy'] = array(
 	'babel-autocreate-reason' => 'Yn creu tudalen gategoreiddio [[$1|Babel]] yn awtomatig.',
 	'babel-autocreate-text-levels' => 'Mae defnyddwyr yn y categori hwn yn crybwyll bod ganddynt gallu ieithyddol ar lefel $1 mewn $2.',
 	'babel-autocreate-text-main' => 'Mae defnyddwyr yn y categori hwn yn crybwyll bod rhywfaint o allu $1 ganddynt.',
-	'babel-0' => "[[$1|Nid]] yw{{GENDER:$4| hwn| hon|'r defnyddiwr hwn}} yn medru [[$2|$3]] (neu mae'n cael hi'n anodd iawn ei deall).",
-	'babel-1' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr hwn}} yn medru [[$2|$3]] ar lefel [[$1|syml]].",
-	'babel-2' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr hwn}} yn medru [[$2|$3]] ar lefel [[$1|ganolradd]].",
-	'babel-3' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr hwn}} yn medru [[$2|$3]] ar lefel [[$1|uwchradd]].",
-	'babel-4' => 'Mae [[$2|$3]] [[$1|rhugl]] gan {{GENDER:$4|hwn|hon|y defnyddiwr hwn}}.',
-	'babel-5' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr hwn}} yn medru [[$2|$3]] ar lefel [[$1|broffesiynol]].",
-	'babel-N' => '[[$2|$3]] yw [[$1|mamiaith]] {{GENDER:$4|hwn|hon|y defnyddiwr hwn}}.',
-	'babel-0-n' => "[[$1|Nid]] yw{{GENDER:$4| hwn| hon|'r defnyddiwr hwn}} yn medru'r [[$2|Gymraeg]] (neu mae'n cael hi'n anodd iawn ei deall).",
-	'babel-1-n' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr hwn}} yn medru'r [[$2|Gymraeg]] ar lefel [[$1|syml]].",
-	'babel-2-n' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr hwn}} yn medru'r [[$2|Gymraeg]] ar lefel [[$1|ganolradd]].",
-	'babel-3-n' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr hwn}} yn medru'r [[$2|Gymraeg]] ar lefel [[$1|uwchradd]].",
-	'babel-4-n' => 'Mae [[$2|Cymraeg]] [[$1|rhugl]] gan {{GENDER:$4|hwn|hon|y defnyddiwr hwn}}.',
-	'babel-5-n' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr hwn}} yn medru'r [[$2|Gymraeg]] ar lefel [[$1|broffesiynol]].",
-	'babel-N-n' => '[[$2|Cymraeg]] yw [[$1|mamiaith]] {{GENDER:$4|hwn|hon|y defnyddiwr hwn}}.',
+	'babel-0' => "[[$1|Nid]] yw{{GENDER:$4| hwn| hon|'r defnyddiwr 'ma}} yn medru [[$2|$3]] (neu mae'n cael hi'n anodd iawn ei deall).",
+	'babel-1' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr 'ma}} yn medru [[$2|$3]] ar lefel [[$1|syml]].",
+	'babel-2' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr 'ma}} yn medru [[$2|$3]] ar lefel [[$1|ganolradd]].",
+	'babel-3' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr 'ma}} yn medru [[$2|$3]] ar lefel [[$1|uwchradd]].",
+	'babel-4' => "Mae [[$2|$3]] [[$1|rhugl]] gan {{GENDER:$4|hwn|hon|y defnyddiwr 'ma}}.",
+	'babel-5' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr 'ma}} yn medru [[$2|$3]] ar lefel [[$1|broffesiynol]].",
+	'babel-N' => "[[$2|$3]] yw [[$1|mamiaith]] {{GENDER:$4|hwn|hon|y defnyddiwr 'ma}}.",
+	'babel-0-n' => "[[$1|Nid]] yw{{GENDER:$4| hwn| hon|'r defnyddiwr 'ma}} yn medru'r [[$2|Gymraeg]] (neu mae'n cael hi'n anodd iawn ei deall).",
+	'babel-1-n' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr 'ma}} yn medru'r [[$2|Gymraeg]] ar lefel [[$1|syml]].",
+	'babel-2-n' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr 'ma}} yn medru'r [[$2|Gymraeg]] ar lefel [[$1|ganolradd]].",
+	'babel-3-n' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr 'ma}} yn medru'r [[$2|Gymraeg]] ar lefel [[$1|uwchradd]].",
+	'babel-4-n' => "Mae [[$2|Cymraeg]] [[$1|rhugl]] gan {{GENDER:$4|hwn|hon|y defnyddiwr 'ma}}.",
+	'babel-5-n' => "Mae{{GENDER:$4| hwn| hon|'r defnyddiwr 'ma}} yn medru'r [[$2|Gymraeg]] ar lefel [[$1|broffesiynol]].",
+	'babel-N-n' => "[[$2|Cymraeg]] yw [[$1|mamiaith]] {{GENDER:$4|hwn|hon|y defnyddiwr 'ma}}.",
 	'babel-footer' => 'Ieithoedd defnyddwyr',
 );
 
@@ -1397,7 +1397,7 @@ $messages['diq'] = array(
 	'babel-footer' => 'Zuwana heta karberi',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -1982,7 +1982,7 @@ $messages['gd'] = array(
 	'babel-footer' => 'Cleachdaichean a-rèir cànain',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -2318,7 +2318,7 @@ $messages['hr'] = array(
 	'babel-footer' => 'Suradnici prema jeziku',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -3045,6 +3045,7 @@ $messages['ksh'] = array(
 	'babel-autocreate-reason' => 'En Saachjrupp fum [[$1|Babel]]-Süßteem es automattesch aanjelaat woode.',
 	'babel-autocreate-text-levels' => 'De Metmaacher un Metmaacherenne en hee dä Saachjrupp han jesaat, se künnte de Shprooch $1 $2.',
 	'babel-autocreate-text-main' => 'Metmaacher en hee dä Saachjrupp han jesaat, se künnte vum $1 jet.',
+	'babel-autocreate-user' => 'Babel-Automomatetsch-Aanlääjer',
 	'babel-0' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} hät [[$1|keij]] Aahnong fon [[$2|$3]], odder ferschteijt di Shprooch esu joot wi jaa nit.',
 	'babel-1' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} hät [[$1|Jrondlaare]] fon [[$2|$3]] drop.',
 	'babel-2' => 'Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} kann [[$1|meddeljoot]] met [[$2|$3]] ömjonn.',
@@ -5000,7 +5001,7 @@ $messages['ru'] = array(
 	'babel-footer' => 'Участники по языкам',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  * @author Tkalyn
  */
