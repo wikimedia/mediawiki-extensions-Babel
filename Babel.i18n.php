@@ -2552,6 +2552,7 @@ $messages['ig'] = array(
 );
 
 /** Iloko (Ilokano)
+ * @author Joemaza
  * @author Lam-ang
  */
 $messages['ilo'] = array(
@@ -2560,7 +2561,7 @@ $messages['ilo'] = array(
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Dagiti agar-aramat babaen ti pagsasao',
 	'babel-autocreate-abort' => 'Ti nagan ti agar-aramat nga intedmo ket ususaren para iti atomatiko a panagpartuat ti [[$1|Babel]] a kategoria ken saan a mabalin a mairehistro.',
-	'babel-autocreate-reason' => 'Atomatiko nga agar-aramid  ti [[$1|Babel]] a kategoria ti panid.',
+	'babel-autocreate-reason' => 'Atomatiko nga agar-aramid iti panid ti [[$1|Babel]] a kategoria.',
 	'babel-autocreate-text-levels' => 'Dagiti agar-aramat iti daytoy a kategoria ket maipatudo nga adda ti kalaingda ti agpang a $1 para iti $2 a pagsasao.',
 	'babel-autocreate-text-main' => 'Dagiti agararamat iti daytoy a kategoria ket maipatudo nga adda pannnakaammoda ti $1 a pagsasao.',
 	'babel-0' => 'Daytoy nga agar-aramat ket [[$1|awan]] ti pannakaammona iti [[$2|$3]] (wenno marigatan unay a makaawat) .',
