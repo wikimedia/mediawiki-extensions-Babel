@@ -16,15 +16,19 @@ class BabelLanguageCodes {
 	 * @return String (language code) or false (invalid language code).
 	 */
 	public static function getCode( $code ) {
+		wfProfileIn( __METHOD__ );
 		global $wgLang, $wgBabelLanguageCodesCdb;
 
 		$mediawiki = $wgLang->getLanguageName( $code );
 		if ( $mediawiki !== '' ) {
+			wfProfileOut( __METHOD__ );
 			return $code;
 		}
 
-		$codes = CdbReader::open( $wgBabelLanguageCodesCdb );
-		return $codes->get( $code );
+		$codesCdb = CdbReader::open( $wgBabelLanguageCodesCdb );
+		$codes = $codesCdb->get( $code );
+		wfProfileOut( __METHOD__ );
+		return $codes;
 	}
 
 	/**
@@ -40,21 +44,26 @@ class BabelLanguageCodes {
 	 * @return String (name of language) or false (invalid language code).
 	 */
 	public static function getName( $code, $language = null ) {
+		wfProfileIn( __METHOD__ );
 		global $wgBabelLanguageNamesCdb;
 
 		// Get correct code, even though it should already be correct.
 		$code = self::getCode( $code );
 		if ( $code === false ) {
+			wfProfileOut( __METHOD__ );
 			return false;
 		}
 
 		$language = $language === null ? $code : $language;
 		$names = Language::getTranslatedLanguageNames( $language );
 		if ( isset( $names[$code] ) ) {
+			wfProfileOut( __METHOD__ );
 			return $names[ $code ];
 		}
 
-		$names = CdbReader::open( $wgBabelLanguageNamesCdb );
-		return $names->get( $code );
+		$namesCdb = CdbReader::open( $wgBabelLanguageNamesCdb );
+		$codes = $namesCdb->get( $code );
+		wfProfileOut( __METHOD__ );
+		return $codes;
 	}
 }
