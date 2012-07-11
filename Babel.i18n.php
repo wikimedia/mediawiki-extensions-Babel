@@ -713,7 +713,7 @@ $messages['az'] = array(
 	'babel-footer' => 'Dillərə görə istifadəçilər',
 );
 
-/** Bashkir (Башҡортса)
+/** Bashkir (башҡортса)
  * @author Assele
  * @author Haqmar
  */
@@ -773,7 +773,7 @@ $messages['bar'] = array(
 	'babel-footer' => 'Benutzer noch Sprooch',
 );
 
-/** Žemaitėška (Žemaitėška)
+/** žemaitėška (žemaitėška)
  * @author Purodha
  */
 $messages['bat-smg'] = array(
@@ -1104,7 +1104,7 @@ $messages['ca'] = array(
 	'babel-footer' => 'Usuaris per idioma',
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Purodha
  * @author Sasan700
  */
@@ -2918,7 +2918,7 @@ $messages['kiu'] = array(
 	'babel-footer' => 'Zıwani heta karberi',
 );
 
-/** Kazakh (Cyrillic script) (‪Қазақша (кирил)‬)
+/** Kazakh (Cyrillic script) (‪қазақша (кирил)‬)
  * @author AlefZet
  * @author GaiJin
  */
@@ -3030,7 +3030,7 @@ $messages['ko'] = array(
 	'babel-footer' => '언어별 사용자',
 );
 
-/** Karachay-Balkar (Къарачай-Малкъар)
+/** Karachay-Balkar (къарачай-малкъар)
  * @author Iltever
  */
 $messages['krc'] = array(
@@ -3263,7 +3263,7 @@ $messages['lb'] = array(
 	'babel-footer' => 'Benotzer pro Sprooch',
 );
 
-/** Lezghian (Лезги)
+/** Lezghian (лезги)
  * @author Migraghvi
  */
 $messages['lez'] = array(
@@ -3704,7 +3704,7 @@ $messages['map-bms'] = array(
 	'babel-footer' => 'Panganggo miturut basa',
 );
 
-/** Moksha (Мокшень)
+/** Moksha (мокшень)
  * @author Jarmanj Turtash
  * @author Khazar II
  */
@@ -3757,7 +3757,7 @@ $messages['mg'] = array(
 	'babel-N-n' => 'Ny teny [[$2|malagasy]] no [[$1|tenim-pirenena nahabe]] ity mpikambana ity.',
 );
 
-/** Eastern Mari (Олык Марий)
+/** Eastern Mari (олык марий)
  * @author Azim
  * @author Сай
  */
@@ -4050,7 +4050,7 @@ $messages['my'] = array(
 	'babel-N-n' => 'ဤအသုံးပြုသူသည် [[$2|မြန်မာဘာသာ]] အပေါ်တွင် [[$1|ဒေသခံအဆင့်]] ကျွမ်းကျင်စွာ နားလည်သည်။',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -4118,9 +4118,8 @@ $messages['nan'] = array(
 	'babel-N-n' => 'Chit-ê iōng-chiá [[$1|tùi sè-hàn]] tō kóng [[$2|Bân-lâm-gú]].',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Event
- * @author Jon Harald Søby
  * @author Laaknor
  * @author Nghtwlkr
  */
@@ -4147,7 +4146,8 @@ $messages['nb'] = array(
 	'babel-4-n' => 'Denne brukeren snakker og skriver [[$2|norsk (bokmål)]] på [[$1|morsmålsnivå]].',
 	'babel-5-n' => 'Denne brukeren bruker [[$2|norsk (bokmål)]] [[$1|profesjonelt]].',
 	'babel-N-n' => 'Denne brukeren har [[$2|norsk]] som [[$1|morsmål]] og behersker bokmål.',
-	'babel-footer' => 'Brukere fordelt på språk',
+	'babel-template' => 'Template:Bruker $1',
+	'babel-footer' => 'Brukere etter språk',
 );
 
 /** Low German (Plattdüütsch)
@@ -6068,7 +6068,7 @@ $messages['tt-cyrl'] = array(
 	'babel-N-n' => 'Бу кулланучы өчен [[$2|татар теле]] [[$1|туган тел]].',
 );
 
-/** Tuvinian (Тыва дыл)
+/** Tuvinian (тыва дыл)
  * @author Agilight
  * @author Sborsody
  */
@@ -6098,7 +6098,7 @@ $messages['tyv'] = array(
 	'babel-footer' => 'Дылдар аайы-биле киржикчилер',
 );
 
-/** Udmurt (Удмурт)
+/** Udmurt (удмурт)
  * @author Purodha
  */
 $messages['udm'] = array(
@@ -6168,7 +6168,7 @@ $messages['ur'] = array(
 	'babel-footer' => 'زبان کے اعتبار سے صارف',
 );
 
-/** Uzbek (Oʻzbekcha)
+/** Uzbek (oʻzbekcha)
  * @author Nataev
  * @author Purodha
  */
@@ -6227,7 +6227,7 @@ $messages['vec'] = array(
 	'babel-footer' => 'Utenti par lengua',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
@@ -6519,7 +6519,7 @@ $messages['wuu'] = array(
 	'babel-N-n' => '箇位用户个[[$2|吴语]]能力达到[[$1|母语水平]]。',
 );
 
-/** Kalmyk (Хальмг)
+/** Kalmyk (хальмг)
  * @author Huuchin
  */
 $messages['xal'] = array(
