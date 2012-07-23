@@ -278,6 +278,29 @@ $messages['aeb'] = array(
 	'babel-0' => 'هذا المستخدم [[$1|ليس]] لديه معرفة ب[[$2|$3]] (أو يفهمها بصعوبة شديدة).',
 );
 
+/** Ṫuroyo (Ṫuroyo)
+ * @author Ariyo
+ */
+$messages['tru'] = array(
+	'babel-footer-url' => ':Category:Babel - aHadome u aLeşonaṭe',
+	'babel-autocreate-text-main' => 'aHadome dkitne buSedrano koḍ³i $1.',
+	'babel-0' => '{{GENDER:$4|uHadomano|iHadomtaṭe|uHadomano}} {{GENDER:$5|lo koḍa³|lo koḍ³o|lo koḍa³}} [[$2|$3]].',
+	'babel-1' => '{{GENDER:$4|uHadomano|iHadomtaṭe|uHadomano}} {{GENDER:$5|koḍa³|koḍ³o|koḍa³}} işmo [[$2|$3]].',
+	'babel-2' => '{{GENDER:$4|uHadomano|iHadomtaṭe|uHadomano}} {{GENDER:$5|koḍa³|koḍ³o|koḍa³}} [[$2|$3]] baş.',
+	'babel-3' => '{{GENDER:$4|uHadomano|iHadomtaṭe|uHadomano}} {{GENDER:$5|koḍa³|koḍ³o|koḍa³}} [[$2|$3]] ṫawo.',
+	'babel-4' => '{{GENDER:$4|uHadomano|iHadomtaṭe|uHadomano}} {{GENDER:$5|koḍa³|koḍ³o|koḍa³}} [[$2|$3]] gişt xed ḥa dyalıf [[$2|$3]] bNa³muṭe.',
+	'babel-5' => '{{GENDER:$4|uHadomano|iHadomtaṭe|uHadomano}} {{GENDER:$5|koḍa³|koḍ³o|koḍa³}} [[$2|$3]] bDerğo ğalabe 3eloyo.',
+	'babel-N' => '{{GENDER:$4|uHadomano|iHadomtaṭe|uHadomano}} {{GENDER:$5|yalıf|iyalıfo|yalıf}} [[$2|$3]] [[$1|{{GENDER:$6|bNa³muṭe|bNa3muṭa|bNa³muṭe}}]].',
+	'babel-0-n' => '	{{GENDER:$4|uHadomano|iHadomtaṭe|uHadomano}} {{GENDER:$5|lo koḍa³|lo koḍ³o|lo koḍa³}} [[$2|Ṫuroyo]].',
+	'babel-1-n' => '{{GENDER:$4|uHadomano|iHadomtaṭe|uHadomano}} {{GENDER:$5|koḍa³|koḍ³o|koḍa³}} işmo [[$2|Ṫuroyo]].',
+	'babel-2-n' => '{{GENDER:$4|uHadomano|iHadomtaṭe|uHadomano}} {{GENDER:$5|koḍa³|koḍ³o|koḍa³}} [[$2|Ṫuroyo]] baş.',
+	'babel-3-n' => '{{GENDER:$4|uHadomano|iHadomtaṭe|uHadomano}} {{GENDER:$5|koḍa³|koḍ³o|koḍa³}} [[$2|Ṫuroyo]] ṫawo',
+	'babel-4-n' => '{{GENDER:$4|uHadomano|iHadomtaṭe|uHadomano}} {{GENDER:$5|koḍa³|koḍ³o|koḍa³}} [[$2|Ṫuroyo]] gişt xed ḥa dyalıf [[$2|Ṫuroyo]] bNa³muṭe.',
+	'babel-5-n' => '{{GENDER:$4|uHadomano|iHadomtaṭe|uHadomano}} {{GENDER:$5|koḍa³|koḍ³o|koḍa³}} [[$2|Ṫuroyo]] bDerğo ğalabe 3eloyo.',
+	'babel-N-n' => '{{GENDER:$4|uHadomano|iHadomtaṭe|uHadomano}} {{GENDER:$5|yalıf|iyalıfo|yalıf}} [[$2|Ṫuroyo]] [[$1|{{GENDER:$6|bNa³muṭe|bNa3muṭa|bNa³muṭe}}]].',
+	'babel-footer' => 'aHadome u aLeşonaṭe',
+);
+
 /** Achinese (Acèh)
  * @author Si Gam Acèh
  */
@@ -569,6 +592,7 @@ $messages['arz'] = array(
 
 /** Assamese (অসমীয়া)
  * @author Biraj
+ * @author Bishnu Saikia
  * @author Chaipau
  * @author Gitartha.bordoloi
  */
@@ -576,7 +600,7 @@ $messages['as'] = array(
 	'babel' => 'ব্যবহাৰকাৰীৰ বাবেল তথ্য',
 	'babel-desc' => 'নিজৰ টেম্পলেটত স্বয়ংক্ৰিয় বাবেল ব্যবহাৰকাৰী বক্স যোগ কৰিবলৈ <code>#babel</code> পাৰ্চাৰ ফাংচন যোগ কৰক',
 	'babel-url' => 'Project:বাবেল',
-	'babel-footer-url' => ':Category:Babel - ভাষা অনুযায়ী ব্যৱহাৰকাৰী',
+	'babel-footer-url' => ':শ্ৰেণী:Babel - ভাষা অনুযায়ী ব্যৱহাৰকাৰী',
 	'babel-autocreate-abort' => 'আপুনি উল্লেখ কৰা ব্যৱহাৰকাৰী নামটো (ইউজাৰনেম) [[$1|Babel]]ৰ স্বয়ংক্ৰিয় শ্ৰেণীকৰণ কৰিবলৈ ব্যৱহাৰ কৰা হৈছে আৰু পঞ্জীভূক্ত কৰিব পৰা নাযায় ।',
 	'babel-autocreate-reason' => 'স্বয়ংক্ৰিয়ভাৱে [[$1|বাবেল]] শ্ৰেণীৰ পৃষ্ঠা সৃষ্টি কৰা হৈছে।',
 	'babel-autocreate-text-levels' => 'এই শ্ৰেণীৰ ব্যৱহাৰকাৰীৰ $2 ভাষাৰ $1 পৰ্য্যায়ৰ জ্ঞান থকা সূচায় ।',
@@ -1369,8 +1393,8 @@ $messages['de'] = array(
 	'babel-desc' => 'Ergänzt die Funktion <code>#babel</code> zur automatischen Erstellung von „Babel“-Benutzerboxen mitsamt der Möglichkeit selbstdefinierte Vorlagen einzubinden',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Benutzer nach Sprache',
-	'babel-autocreate-abort' => 'Der ausgewählte Benutzername wird für die automatische Erstellung von [[$1|Babel]]-Kategorien benötigt und kann nicht registriert werden.',
-	'babel-autocreate-reason' => 'Automatisch erstellte [[$1|Babel]]-Kategorie.',
+	'babel-autocreate-abort' => 'Der angegebene Benutzername wird für die automatische Erstellung von [[$1|Babel]]-Kategorien benötigt und kann nicht registriert werden.',
+	'babel-autocreate-reason' => 'Erstelle automatisch die [[$1|Babel]]-Kategorie.',
 	'babel-autocreate-text-levels' => 'Benutzer in dieser Kategorie haben Kenntnisse der Stufe $1 in der Sprache $2.',
 	'babel-autocreate-text-main' => 'Benutzer in dieser Kategorie haben Kenntnisse der Sprache $1.',
 	'babel-0' => '{{GENDER:$4|Dieser Benutzer|Dieser Benutzerin|Dieser Benutzer}} beherrscht [[$2|$3]] [[$1|nicht]] (oder versteht es nur mit beträchtlichen Schwierigkeiten).',
@@ -1683,6 +1707,7 @@ $messages['fa'] = array(
  * @author Crt
  * @author Ilaiho
  * @author Jaakonam
+ * @author Linnea
  * @author Nedergard
  * @author Nike
  */
@@ -1699,7 +1724,7 @@ $messages['fi'] = array(
 	'babel-1' => 'Tällä käyttäjällä on kielen [[$2|$3]] [[$1|perustaidot]]',
 	'babel-2' => 'Tämä käyttäjä osaa kieltä [[$2|$3]] [[$1|kohtalaisesti]].',
 	'babel-3' => 'Tämä käyttäjä osaa kieltä [[$2|$3]] [[$1|erinomaisesti]].',
-	'babel-4' => 'Tämä käyttäjä osaa kieltä [[$2|$3]] [[$1|äidinkielen tavoin]].',
+	'babel-4' => 'Tämä käyttäjä osaa kieltä [[$2|$3]] [[$1|lähes äidinkielen tavoin]].',
 	'babel-5' => 'Tämä käyttäjä osaa käyttää kieltä [[$2|$3]] [[$1|ammattimaisesti]].',
 	'babel-N' => 'Tämä käyttäjä puhuu kieltä [[$2|$3]] [[$1|äidinkielenään]].',
 	'babel-0-n' => 'Tämä käyttäjä osaa [[$1|hyvin vähän tai ei lainkaan]] [[$2|suomea]].',
@@ -1709,7 +1734,7 @@ $messages['fi'] = array(
 	'babel-4-n' => 'Tämä käyttäjä osaa [[$2|suomea]] [[$1|melkein äidinkielen tavoin]].',
 	'babel-5-n' => 'Tämä käyttäjä käyttää [[$2|suomea]] [[$1|ammattimaisesti]].',
 	'babel-N-n' => 'Tämä käyttäjä puhuu [[$2|suomea]] [[$1|äidinkielenään]].',
-	'babel-footer' => 'Käyttäjien kielet',
+	'babel-footer' => 'Käyttäjät kielittäin',
 );
 
 /** meänkieli (meänkieli)
@@ -5049,8 +5074,15 @@ $messages['rue'] = array(
 
 /** Sanskrit (संस्कृतम्)
  * @author Kaustubh
+ * @author Shubha
  */
 $messages['sa'] = array(
+	'babel' => "'बाबेल'योजकस्य विवरणम्",
+	'babel-url' => 'Project:बाबेल्',
+	'babel-footer-url' => ':Category:बाबेल् - भाषाशः उपयोक्तारः',
+	'babel-autocreate-reason' => '[[$1|बाबेल्]] इत्येतत् वर्गपृष्ठं स्वयं निर्मीयमाणमस्ति ।',
+	'babel-autocreate-text-levels' => 'अस्मिन् वर्गे विद्यमानानां योजकानां कौशलं $2 भाषायां $1 स्तरयुतः इत्यर्थः ।',
+	'babel-autocreate-text-main' => 'अस्मिन् वर्गे विद्यमानाः योजकाः $1 भाषां जानन्ति इत्यर्थः ।',
 	'babel-0' => 'एष उपयोजक: [[$2|$3]] लिखितुं [[$1|न]] शक्नोति (अतीव प्रयत्नान्ते पढितुं शक्नोति च)।',
 	'babel-1' => 'एष उपयोजक: [[$1|प्राथमिक]]-[[$2|$3]] लिखितुं शक्नोति।',
 	'babel-2' => 'एष उपयोजक: [[$1|मध्यम]]-[[$2|$3]] लिखितुं शक्नोति।',
@@ -5065,6 +5097,7 @@ $messages['sa'] = array(
 	'babel-4-n' => 'एष उपयोजक: [[$1|उच्चतम]]-[[$2|संस्कृते]] लिखितुं शक्नोति।',
 	'babel-5-n' => 'एष उपयोजक: [[$1|अति-उच्चतम]]-[[$2|संस्कृते]] लिखितुं शक्नोति।',
 	'babel-N-n' => 'एष उपयोजकस्य [[$1|मातृभाषा]] [[$2|संस्कृतम्‌]] अस्ति।',
+	'babel-footer' => 'भाषाशः उपयोक्तारः',
 );
 
 /** Sakha (саха тыла)
