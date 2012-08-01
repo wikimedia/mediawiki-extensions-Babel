@@ -1419,29 +1419,30 @@ $messages['de'] = array(
  */
 $messages['diq'] = array(
 	'babel' => 'Zanışiye babilê karberi',
-	'babel-desc' => 'xulusa da sablonan dı dêsê babilê karberi otomatik vışatıştı, fonksiyonê <code>#babil</code>i fêno de',
+	'babel-desc' => 'Xulasa da sablonan dı dêsê babilê karberi xob xo vışatıştı, fonksiyonê <code>#babil</code>i fêno de',
 	'babel-url' => 'Project:Babil',
 	'babel-footer-url' => 'Kategori:Babil - Zıwani heta karberi',
 	'babel-autocreate-abort' => 'Karbero kı şıma  belı  kerdo, kategoriya dı [[$1|Babil]]i dı ca gêno u peyd zi nê gêrêno.',
-	'babel-autocreate-reason' => 'Kategoriye [[$1|Babil]]i otomatik vırazêno.',
-	'babel-autocreate-text-levels' => 'Karberê qı na kategorideyê, nê zuwani sewiye dê  $1 u $2 derece zanê.',
-	'babel-autocreate-text-main' => 'Karberê qı na kategorideyê  $1 zuwani zanê.',
-	'babel-0' => 'No karber nê zuwani ya [[$1|hêç]] nêzano ya zi [[$2|$3]] (fahm keno feqet kısey nêzano).',
-	'babel-1' => 'No karber [[$2|$3]] [[$1|tenekê]] fahm keno.',
-	'babel-2' => 'No karber [[$1|hewl]] zano [[$2|$3]].',
-	'babel-3' => 'No karber [[$1|xeylê]] zanê [[$2|$3]].',
-	'babel-4' => 'No karber [[$1|Zey zuwan]]dê zano [[$2|$3]].',
-	'babel-5' => 'No karber [[$1|profesyonel]] sewiye dı zano [[$2|$3]].',
-	'babel-N' => '[[$1|zuwanè marda]] nê karberi [[$2|$3]].',
-	'babel-0-n' => 'No karber [[$1|hêç]]  [[$2|Zazaki]] nêzano (ya zi fahm keno feqet nêzano qısey bıkero).',
-	'babel-1-n' => 'No karber [[$1|tenekê]] [[$2|Zazaki]] zano.',
-	'babel-2-n' => '[[$2|Zazakiya]] nê karberi [[$1|hewla]].',
-	'babel-3-n' => 'No karber [[$1|weş]] [[$2|zazaki]] zano.',
-	'babel-4-n' => 'No karber [[$2|Zazaki]] zey [[$1|zuwandê marda xo]] zano.',
-	'babel-5-n' => 'No karber [[$1|profesyonel]] sewiye dı [[$2|Zazaki]] zano.',
-	'babel-N-n' => 'Zıwanê marda [[$1|nê karberi]]  [[$2|Zazaki]]o.',
-	'babel-template' => 'Şablon:User $1',
-	'babel-footer' => 'Zuwana heta karberi',
+	'babel-autocreate-reason' => 'Kategoriye [[$1|Babil]]i xob xo vırazêno.',
+	'babel-autocreate-text-levels' => 'Karberê ke na kategorideyê, $1 sewiye dê $2 zıwani zanê.',
+	'babel-autocreate-text-main' => 'Karberê ke na kategorideyê vanê ma $1 zanê.',
+	'babel-autocreate-user' => 'Babil OtomatikVıraştış',
+	'babel-0' => 'No karber/Na karbere [[$2|$3]] [[$1|qe(t)]] nêzaneno (nêzanena).',
+	'babel-1' => 'No karber şeno/In karber şena be [[$2|$3]] yê  [[$1|asani]] iştıraq kero.',
+	'babel-2' => 'No karber şeno/Na karber şena [[$2|$3]] yê [[$1|wertêni]] iştıraq kero.',
+	'babel-3' => 'No/In karber şeno/eşkeno be [[$2|$3]] yê  [[$1|raverberdey]] iştıraq kero',
+	'babel-4' => 'No karber/Na karbere [[$2|$3]] zey [[$1|zıwanê ma u piyê xo]] fam keno.',
+	'babel-5' => '[[$1|Zıwanê ma u piyê]] nê karberi / na karbere [[$2|$3]].',
+	'babel-N' => 'Zıwanê [[$1|ma u piyê]] nê karberi/na karbere [[$2|$3]].',
+	'babel-0-n' => 'No karber/Na karbere [[$2|Zazaki]] [[$1|qe(t)]] nêzaneno (nêzanena).',
+	'babel-1-n' => 'No karber şeno/In karber şena be [[$2|Zazaki]] yê  [[$1|asani]] iştıraq kero.',
+	'babel-2-n' => 'No karber şeno/Na karber şena [[$2|Zazaki]] yê [[$1|wertêni]] iştıraq kero.',
+	'babel-3-n' => 'No/In karber şeno/eşkeno be [[$2|Zazaki]] yê  [[$1|raverberdey]] iştıraq kero',
+	'babel-4-n' => 'No karber/Na karbere [[$2|Zazaki]] zey [[$1|zıwanê ma u piyê xo]] fam keno.',
+	'babel-5-n' => '[[$1|Zıwanê ma u piyê]] nê karberi / na karbere [[$2|Zazaki]]o.',
+	'babel-N-n' => 'Zıwanê [[$1|ma u piyê]] nê karberi/na karbere [[$2|Zazaki]]o.',
+	'babel-template' => 'Template:User $1',
+	'babel-footer' => 'Zıwana heta karberi',
 );
 
 /** Lower Sorbian (dolnoserbski)
@@ -1535,11 +1536,12 @@ $messages['el'] = array(
 );
 
 /** British English (British English)
+ * @author Jdforrester
  * @author Pooja.srivastava
  */
 $messages['en-gb'] = array(
-	'babel-autocreate-abort' => 'jo aapne',
-	'babel-autocreate-reason' => 'Aapne aap banane me {{ $! | }} kolahal shreyni panna',
+	'babel-autocreate-abort' => 'The username you specified is used for [[$1|Babel]] category auto-creation and cannot be registered.',
+	'babel-autocreate-reason' => 'Automatically creating [[$1|Babel]] category page.',
 );
 
 /** Esperanto (Esperanto)
@@ -2252,9 +2254,10 @@ $messages['he'] = array(
  * @author Bhawani Gautam Rhk
  * @author Kaustubh
  * @author Pooja.srivastava
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
-	'babel' => 'बाबेल सदस्य ज़ानकारी',
+	'babel' => 'बाबेल सदस्य जानकारी',
 	'babel-desc' => 'एक सदस्यके बाबेल सदस्यबक्से अपनेआप देने के लिय उपयुक्त ऐसी <code>#babel</code> पार्सर क्रिया बढाता हैं। इसमें खुद बनायें सदस्यबक्से भी दिये जा सकतें हैं।',
 	'babel-url' => 'Project:बाबेल',
 	'babel-footer-url' => ':श्रेणी: कोलाहल - उपयोगकर्ता भाषा के आधार पर',
@@ -5925,6 +5928,7 @@ $messages['tl'] = array(
 	'babel-4-n' => 'May [[$1|malakatutubong]] kaalaman sa pagsasalita ng [[$2|Tagalog]] ang tagagamit na ito.',
 	'babel-5-n' => 'May [[$1|dalubhasang]] kaalaman sa [[$2|Tagalog]] ang tagagamit na ito.',
 	'babel-N-n' => 'May [[$1|katutubong]] pang-unawa sa [[$2|Tagalog]] ang tagagamit na ito.',
+	'babel-template' => 'Template:Tagagamit $1',
 	'babel-footer' => 'Mga tagagamit ayon sa wika',
 );
 
@@ -6659,26 +6663,33 @@ $messages['yo'] = array(
 );
 
 /** Cantonese (粵語)
+ * @author Deryck Chan
  * @author Shinjiman
  */
 $messages['yue'] = array(
 	'babel' => '巴別用戶資料',
-	'babel-desc' => '加一個<code>#babel</code>處理功能去容許自動產生一個巴別用戶盒欄及包含可自定化嘅模',
+	'babel-desc' => '裝<code>#babel</code>功能，整啲巴別用戶盒仔出嚟。可以加埋自訂模落去。',
 	'babel-url' => 'Project:巴別',
-	'babel-0' => '呢位用戶[[$1|無]][[$2|$3]]嘅知識（或好難噉去明白佢）。',
+	'babel-footer-url' => ':Category:巴别 - 跟語言分類用戶',
+	'babel-autocreate-abort' => '呢個用戶名已經畀[[$1|巴別]]自動分類系統霸咗，註冊唔到。',
+	'babel-autocreate-reason' => '自動建立緊[[$1|巴別]]分類頁。',
+	'babel-autocreate-text-levels' => '呢個分類入面嘅用戶話佢哋識$2程度嘅$1。',
+	'babel-autocreate-text-main' => '呢個分類入面嘅用戶話佢哋識講$1。',
+	'babel-0' => '呢位用戶[[$1|完全唔識]]（或者唔係好明）[[$2|$3]]。',
 	'babel-1' => '呢位用戶有[[$1|基本]]嘅[[$2|$3]]知識。',
 	'babel-2' => '呢位用戶有[[$1|中等]]嘅[[$2|$3]]知識。',
 	'babel-3' => '呢位用戶有[[$1|高等]]嘅[[$2|$3]]知識。',
-	'babel-4' => '呢位用戶有[[$1|接近母語講者]]嘅[[$2|$3]]知識。',
+	'babel-4' => '呢位用戶有[[$1|接近母語]]程度嘅[[$2|$3]]知識。',
 	'babel-5' => '呢位用戶有[[$1|專業]]嘅[[$2|$3]]知識。',
-	'babel-N' => '呢位用戶明白[[$2|$3]]嘅[[$1|母語]]。',
-	'babel-0-n' => '呢位用戶[[$1|無]][[$2|廣東話]]嘅知識（或好難噉去明白佢）。',
+	'babel-N' => '呢位用戶嘅[[$1|母語]]係[[$2|$3]]。',
+	'babel-0-n' => '呢位用戶[[$1|完全唔識]]（或者唔係好明）[[$2|廣東話]]。',
 	'babel-1-n' => '呢位用戶有[[$1|基本]]嘅[[$2|廣東話]]知識。',
 	'babel-2-n' => '呢位用戶有[[$1|中等]]嘅[[$2|廣東話]]知識。',
 	'babel-3-n' => '呢位用戶有[[$1|高等]]嘅[[$2|廣東話]]知識。',
-	'babel-4-n' => '呢位用戶有[[$1|接近母語講者]]嘅[[$2|廣東話]]知識。',
+	'babel-4-n' => '呢位用戶有[[$1|接近母語程度]]嘅[[$2|廣東話]]知識。',
 	'babel-5-n' => '呢位用戶有[[$1|專業]]嘅[[$2|廣東話]]知識。',
-	'babel-N-n' => '呢位用戶明白以[[$1|母語]]為主嘅[[$2|廣東話]]。',
+	'babel-N-n' => '呢位用戶嘅[[$1|母語]]係[[$2|廣東話]]。',
+	'babel-footer' => '用戶（跟語言分類）',
 );
 
 /** Zeeuws (Zeêuws)
