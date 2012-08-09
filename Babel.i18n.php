@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Internationalisation file for Babel extension.
  *
@@ -20,7 +19,7 @@ $messages['en'] = array(
 	'babel-footer-url'  => ':Category:Babel - Users by language',
 
 	'babel-autocreate-abort'       => 'The username you specified is used for [[$1|Babel]] category auto-creation and cannot be registered.', // $1 is babel-url
-	'babel-autocreate-reason'      => 'Automatically creating [[$1|Babel]] category page.', // $1 is babel-url
+	'babel-autocreate-reason'      => 'Automatically creating [[$1|Babel]] category page.',
 	'babel-autocreate-text-levels' => 'Users in this category indicate they have skill level $1 for language $2.',
 	'babel-autocreate-text-main'   => 'Users in this category indicate they have knowledge of language $1.',
 	'babel-autocreate-user'        => 'Babel AutoCreate',
@@ -78,6 +77,8 @@ For installations having a \'Babel users per language\' category tree, its root 
 When translating, you can copy the category name from existing Babel systems in your language, but you can as well use a more generic name and leave it to individual installations, how to deal with it.
 
 There is no need to alter the name space name <code lang="en">Category</code>.',
+	'babel-autocreate-reason'      => 'Edit summary for an automatically created Babel category page. Parameters:
+* $1 is a page title for information on Babel.',
 	'babel-autocreate-text-levels' => 'Text describing a category, at the top of the category page.
 
 * $1 is the level (0 to 5, or N).

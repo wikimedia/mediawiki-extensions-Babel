@@ -1,11 +1,22 @@
 <?php
 /**
- * Class for automatic rcreate of Babel category pages.
+ * Code for automatic creation of categories.
  *
- * @ingroup Extensions
+ * @file
+ * @author Robert Leverington
+ * @author Robin Pepermans
+ * @author Niklas Laxström
+ * @author Brian Wolff
+ * @author Purodha Blissenbach
+ * @author Sam Reed
+ * @author Siebrand Mazeland
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ */
+
+/**
+ * Class for automatic creation of Babel category pages.
  */
 class BabelAutoCreate {
-
 	/**
 	 * @var User
 	 */
@@ -14,12 +25,14 @@ class BabelAutoCreate {
 	/**
 	 * Abort user creation if the username is that of the autocreation username.
 	 * @param $user User
-	 * @param $message
+	 * @param $errorText
 	 * @return bool
 	 */
-	public static function RegisterAbort( User $user, &$message ) {
-		$message = wfMsg( 'babel-autocreate-abort', wfMsg( 'babel-url' ) );
-		return $user->getName() !== wfMsgForContent( 'babel-autocreate-user' );
+	public static function onAbortNewAccount( User $user, &$errorText ) {
+		$url = wfMessage( 'babel-url' )->text();
+		$errorText = wfMessage( 'babel-autocreate-abort', $url )->parse();
+		$autoCreateUser = wfMessage( 'babel-autocreate-user' )->inContentLanguage()->plain();
+		return $user->getName() !== $autoCreateUser;
 	}
 
 	/**
@@ -39,10 +52,12 @@ class BabelAutoCreate {
 		}
 		global $wgLanguageCode;
 		$language = BabelLanguageCodes::getName( $code, $wgLanguageCode );
+		$params = array( $language, $code );
 		if ( $level === null ) {
-			$text = wfMsgForContent( 'babel-autocreate-text-main', $language, $code );
+			$text = wfMessage( 'babel-autocreate-text-main', $params )->inContentLanguage()->text();
 		} else {
-			$text = wfMsgForContent( 'babel-autocreate-text-levels', $level, $language, $code );
+			array_unshift( $params, $level );
+			$text = wfMessage( 'babel-autocreate-text-levels', $params )->inContentLanguage()->text();
 		}
 
 		$user = self::user();
@@ -52,7 +67,7 @@ class BabelAutoCreate {
 			return;
 		}
 
-		if( !$title->quickUserCan( 'create', $user ) ) {
+		if ( !$title->quickUserCan( 'create', $user ) ) {
 			wfProfileOut( __METHOD__ );
 			return; # The Babel AutoCreate account is not allowed to create the page
 		}
@@ -66,10 +81,11 @@ class BabelAutoCreate {
 		$parserClass = $wgParserConf['class'];
 		$wgParser = new $parserClass( $wgParserConf );
 
+		$url = wfMessage( 'babel-url' )->inContentLanguage()->plain();
 		$article = new Article( $title, 0 );
 		$article->doEdit(
 			$text,
-			wfMsgForContent( 'babel-autocreate-reason', wfMsgForContent( 'babel-url' ) ),
+			wfMessage( 'babel-autocreate-reason', $url )->text(),
 			EDIT_FORCE_BOT,
 			false,
 			$user
@@ -86,7 +102,8 @@ class BabelAutoCreate {
 	 */
 	public static function user() {
 		if ( !self::$user ) {
-			self::$user = User::newFromName( wfMsgForContent( 'babel-autocreate-user' ) );
+			$userName = wfMessage( 'babel-autocreate-user' )->inContentLanguage()->plain();
+			self::$user = User::newFromName( $userName );
 			if ( self::$user && !self::$user->isLoggedIn() ) {
 				self::$user->addToDatabase();
 			}

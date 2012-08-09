@@ -1,10 +1,15 @@
 <?php
+/**
+ * Code for language code and name processing.
+ *
+ * @file
+ * @author Robert Leverington
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ */
 
 /**
  * Handle language code and name processing for the Babel extension, it can also
  * be used by other extension which need such functionality.
- *
- * @ingroup Extensions
  */
 class BabelLanguageCodes {
 	/**

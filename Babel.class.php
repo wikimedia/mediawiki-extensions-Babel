@@ -1,12 +1,22 @@
 <?php
+/**
+ * Contains main code.
+ *
+ * @file
+ * @author Robert Leverington
+ * @author Robin Pepermans
+ * @author Niklas Laxström
+ * @author Brian Wolff
+ * @author Purodha Blissenbach
+ * @author Sam Reed
+ * @author Siebrand Mazeland
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ */
 
 /**
  * Main class for the Babel extension.
- *
- * @ingroup Extensions
  */
 class Babel {
-
 	/**
 	 * @var Title
 	 */
@@ -65,7 +75,7 @@ class Babel {
 			}
 		}
 
-		if( $wgBabelUseUserLanguage ) {
+		if ( $wgBabelUseUserLanguage ) {
 			$uiLang = $parser->getOptions()->getUserLangObj();
 		} else {
 			$uiLang = self::$title->getPageLanguage();
@@ -277,21 +287,18 @@ EOT;
 			$categoryMain = ':Category:' . self::mReplaceCategoryVariables( $wgBabelMainCategory, $language );
 		}
 
-		$text = wfMsgExt( "babel-$level-n",
-			array( 'language' => $language, 'parsemag' ),
+		$text = wfMessage( "babel-$level-n",
 			$categoryLevel, $categoryMain, '', self::$title->getDBkey()
-		);
+		)->inLanguage( $language )->text();
 
-		$fallback = wfMsgExt( "babel-$level-n",
-			array( 'language' => Language::getFallbackfor( $language ), 'parsemag' ),
+		$fallback = wfMessage( "babel-$level-n",
 			$categoryLevel, $categoryMain, '', self::$title->getDBkey()
-		);
+		)->inLanguage( Language::getFallbackfor( $language ) )->text();
 
 		if ( $text == $fallback ) {
-			$text = wfMsgExt( "babel-$level",
-				array( 'language' => $language, 'parsemag' ),
+			$text = wfMessage( "babel-$level",
 				$categoryLevel, $categoryMain, $name, self::$title->getDBkey()
-			);
+			)->inLanguage( $language )->text();
 		}
 
 		wfProfileOut( __METHOD__ );
@@ -361,7 +368,7 @@ EOT;
 			$value = '';
 		} else {
 			$value = ' ' . $name . '="' . htmlentities( $value->text(), ENT_COMPAT, 'UTF-8' ) .
-						'"';		// must get rid of > and " inside value
+						'"'; // must get rid of > and " inside value
 		}
 		return $value;
 	}

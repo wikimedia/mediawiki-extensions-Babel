@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Babel Extension
  *
@@ -21,14 +20,14 @@ if ( !defined( 'MEDIAWIKI' ) ) die( 'Invalid entry point.' );
 $wgExtensionCredits['parserhook'][] = array(
 	'path'            => __FILE__,
 	'name'            => 'Babel',
-	'version'         => '1.7.4',
+	'version'         => '1.8.0',
 	'author'          => 'Robert Leverington',
 	'url'             => 'https://www.mediawiki.org/wiki/Extension:Babel',
 	'descriptionmsg'  => 'babel-desc',
 );
 
-$wgHooks['ParserFirstCallInit'][] = 'BabelStatic::Setup';
-$wgHooks['AbortNewAccount'][]     = 'BabelAutoCreate::RegisterAbort';
+$wgHooks['ParserFirstCallInit'][] = 'BabelStatic::onParserFirstCallInit';
+$wgHooks['AbortNewAccount'][]     = 'BabelAutoCreate::onAbortNewAccount';
 
 $dir = dirname( __FILE__ ) . '/';
 
@@ -41,7 +40,7 @@ $wgAutoloadClasses['BabelStatic']        = $dir . 'BabelStatic.class.php';
 $wgAutoloadClasses['BabelAutoCreate']    = $dir . 'BabelAutoCreate.class.php';
 
 $wgResourceModules['ext.babel'] = array(
-	'styles' => 'Babel.css',
+	'styles' => 'resources/ext.babel.css',
 	'localBasePath' => dirname( __FILE__ ),
 	'remoteExtPath' => 'Babel',
 );
