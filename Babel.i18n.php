@@ -2792,6 +2792,7 @@ $messages['jbo'] = array(
 /** Javanese (Basa Jawa)
  * @author Malafaya
  * @author Meursault2004
+ * @author NoiX180
  */
 $messages['jv'] = array(
 	'babel' => 'Informasi Babel Panganggo',
@@ -2811,6 +2812,7 @@ $messages['jv'] = array(
 	'babel-4-n' => 'Panganggo iki duwé kawruh [[$1|sing nyedhaki panutur ibu]] saka [[$2|basa Jawa]].',
 	'babel-5-n' => 'Panganggo iki duwé kawruh [[$1|profésional]] [[$2|basa Jawa]].',
 	'babel-N-n' => 'Panganggo iki [[$1|panutur ibu]] [[$2|basa Jawa]].',
+	'babel-footer' => 'Panganggo miturut basané',
 );
 
 /** Georgian (ქართული)
