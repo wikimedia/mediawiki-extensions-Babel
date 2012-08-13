@@ -2799,6 +2799,7 @@ $messages['jv'] = array(
 	'babel' => 'Informasi Babel Panganggo',
 	'babel-desc' => 'Nambahaké fungsi parse <code>#babel</code> sing marengaké générasi otomatis kolom kothak panganggo babel mawa kamungkinan nglebokaké cithakan kustomisasi',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Katégori:Babèl - Panganggo miturut basané',
 	'babel-autocreate-text-main' => 'Panganggo saka katégori iki dianggep nduwèni kawruh basa $1.',
 	'babel-0' => 'Panganggo iki [[$1|ora]] duwé kawruh [[$2|$3]] (utawa angèl banget mangertèni).',
 	'babel-1' => 'Panganggo iki duwé kawruh [[$1|dhasar]] [[$2|$3]].',
@@ -4006,6 +4007,7 @@ $messages['ms'] = array(
  */
 $messages['mt'] = array(
 	'babel' => 'Informazzjoni tal-utent Babel',
+	'babel-desc' => "Iżżid il-funzjoni parser <code>#babel</code> sabiex tippermetti l-ġenerazzjoni awtomatika ta' kolonna ta' kaxxa tal-utent babel bil-possibilità li tinkludi mudelli personalizzati",
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Utenti skont il-lingwa',
 	'babel-autocreate-abort' => "L-isem tal-utent li speċifikajt hu wżat għall-ħolqien awtomatiku ta' kategoriji [[$1|Babel]] u ma jistsax jiġi reġistrat.",
@@ -4026,6 +4028,7 @@ $messages['mt'] = array(
 	'babel-4-n' => "Dan l-utent jista' jikkontribwixxi b'livell ta' [[$1|kważi nattiv]] tal-[[$2|Malti]].",
 	'babel-5-n' => "Dan l-utent jista' jikkontribwixxi b'livell [[$1|professjonali]] tal-[[$2|Malti]].",
 	'babel-N-n' => "Dan l-utent jista' jikkontribwixxi b'livell [[$1|nattiv]] tal-[[$2|Malti]].",
+	'babel-footer' => 'Utenti skont il-lingwa',
 );
 
 /** Mirandese (Mirandés)
