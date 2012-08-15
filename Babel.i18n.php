@@ -235,6 +235,28 @@ $messages['lld'] = array(
 	'babel-N-n' => "Chësc utënt possa contribuì cun n livel [[$1|de rujeneda de l'oma]] de [[$2|ladin]].",
 );
 
+/** Manchu (ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ)
+ * @author Šolon
+ */
+$messages['mnc'] = array(
+	'babel' => 'Babail baitalasi i mejige',
+	'babel-0' => 'Ere baitalasi umai [[$2|$3]] be [[$1|ulhime muterakū]].',
+	'babel-1' => 'Ere baitalasi [[$1|fulehe]] [[$2|$3]] i gisureme mutembi.',
+	'babel-2' => 'Ere baitalasi [[$1|biretengge]] [[$2|$3]] i gisureme mutembi.',
+	'babel-3' => 'Ere baitalasi [[$1|urehe]] [[$2|$3]] i gisureme mutembi.',
+	'babel-4' => 'Ere baitalasi [[$1|niyamangga gisun i adalingga]] [[$2|$3]] i gisureme mutembi.',
+	'babel-5' => 'Ere baitalasi [[$1|cohotoi hethe i jergi]] [[$2|$3]] i gisureme mutembi.',
+	'babel-N' => 'Ere baitalasi i [[$1|niyamangga gisun]] oci [[$2|$3]].',
+	'babel-0-n' => 'Ere baitalasi umai [[$2|Manju gisun]] be [[$1|ulhime muterakū]].',
+	'babel-1-n' => 'Ere baitalasi [[$1|fulehe]] [[$2|Manju gisun]] i gisureme mutembi.',
+	'babel-2-n' => 'Ere baitalasi [[$1|biretengge]] [[$2|Manju gisun]] i gisureme mutembi.',
+	'babel-3-n' => 'Ere baitalasi [[$1|urehe]] [[$2|Manju gisun]] i gisureme mutembi.',
+	'babel-4-n' => 'Ere baitalasi [[$1|niyamangga gisun i adalingga]] [[$2|Manju gisun]] i gisureme mutembi.',
+	'babel-5-n' => 'Ere baitalasi [[$1|cohotoi hethe i jergi]] [[$2|Manju gisun]] i gisureme mutembi.',
+	'babel-N-n' => 'Ere baitalasi i [[$1|niyamangga gisun]] oci [[$2|Manju gisun]].',
+	'babel-footer' => 'Baitalasi i baitalara gisun be baicara',
+);
+
 /** Araona (Araona)
  * @author Ooswesthoesbes
  */
