@@ -6207,6 +6207,7 @@ $messages['udm'] = array(
  * @author A1
  * @author AS
  * @author Ahonc
+ * @author Base
  * @author Microcell
  * @author Sodmy
  * @author Тест
@@ -6215,7 +6216,7 @@ $messages['uk'] = array(
 	'babel' => 'Відомості про мови учасника (Вавилон)',
 	'babel-desc' => 'Додає функцію парсера <code>#babel</code>, яка дозволяє автоматично створювати стовпець про володіння мовами з можливістю включення інших шаблонів',
 	'babel-url' => 'Project:Вавилон',
-	'babel-footer-url' => ':Category:User language',
+	'babel-footer-url' => ':Category:User languages',
 	'babel-autocreate-abort' => "Зазначене ім'я учасника використовується для автоматичного створення категорій [[$1|Вавилон]] і не може бути зареєстровано.",
 	'babel-autocreate-reason' => 'Автоматичне створення сторінки категорії [[$1|Вавилон]].',
 	'babel-autocreate-text-levels' => 'Учасники із цієї категорії вказали рівень знань $1 для мови $2.',
