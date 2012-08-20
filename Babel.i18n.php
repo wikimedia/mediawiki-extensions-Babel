@@ -236,11 +236,12 @@ $messages['lld'] = array(
 );
 
 /** Manchu (ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ)
+ * @author Minggantu
  * @author Šolon
  */
 $messages['mnc'] = array(
 	'babel' => 'Babail baitalasi i mejige',
-	'babel-0' => 'Ere baitalasi umai [[$2|$3]] be [[$1|ulhime muterakū]].',
+	'babel-0' => 'Ere baitalasi umai [[$2|$3]] be [[$1|ulhime muterakū]](eici ulhire mangga.)',
 	'babel-1' => 'Ere baitalasi [[$1|fulehe]] [[$2|$3]] i gisureme mutembi.',
 	'babel-2' => 'Ere baitalasi [[$1|biretengge]] [[$2|$3]] i gisureme mutembi.',
 	'babel-3' => 'Ere baitalasi [[$1|urehe]] [[$2|$3]] i gisureme mutembi.',
@@ -1169,6 +1170,7 @@ $messages['ce'] = array(
 /** Sorani Kurdish (کوردی)
  * @author Asoxor
  * @author GerardM
+ * @author Muhammed taha
  */
 $messages['ckb'] = array(
 	'babel' => 'زانیاریی بەکارھێنەریی بابل',
@@ -1193,6 +1195,7 @@ $messages['ckb'] = array(
 	'babel-4-n' => 'ئەم بەکارھێنەرە لە ئاستێکی [[$1|نزیک بە زمانی دایکی]]  [[$2|کوردی (سۆرانی)]] دەزانێت.',
 	'babel-5-n' => 'ئەم بەکارھێنەرە ئاگادارییەکی [[$1|پیشەیی]]ی لە [[$2|کوردی (سۆرانی)]] ھەیە.',
 	'babel-N-n' => 'ئەم بەکارھێنەرە وەک [[$1|زمانی دایکی]] لە [[$2|کوردی (سۆرانی)]] تێدەگات.',
+	'babel-footer' => 'بەکارهێنەران بەپێی زمان',
 );
 
 /** Capiznon (Capiceño)
