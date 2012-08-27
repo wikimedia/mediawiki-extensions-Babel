@@ -101,11 +101,17 @@ class Babel {
 		if ( !$footer->isDisabled() && !$url->isDisabled() ) {
 			$showfooter = '! class="mw-babel-footer" | [[' . $url->text() . '|' . $footer->text() . ']]';
 		}
-		$cellspacing = Babel::mHtmlAttrib( 'cellspacing', 'babel-box-cellspacing' );
-		$cellpadding = Babel::mHtmlAttrib( 'cellpadding', 'babel-box-cellpadding' );
+		$spacing = Babel::mCssAttrib( 'border-spacing', 'babel-box-cellspacing', true );
+		$padding = Babel::mCssAttrib( 'padding', 'babel-box-cellpadding', true );
+		$style = '';
+		if ( $spacing === '' ) {
+			$style = ($padding === '') ? '' : ('style="' . $padding . '"');
+		} else {
+			$style = ($padding === '') ? 'style="' . $spacing . '"' : 'style="' . $padding . ' ' . $spacing . '"';
+		}
 
 		$tower = <<<EOT
-{|$cellspacing$cellpadding class="mw-babel-wrapper"
+{|$style class="mw-babel-wrapper"
 $top
 |-
 | $content
@@ -247,13 +253,20 @@ EOT;
 
 		$dir_current = Language::factory( $code )->getDir();
 
-		$cellspacing = Babel::mHtmlAttrib( 'cellspacing', 'babel-cellspacing' );
-		$cellpadding = Babel::mHtmlAttrib( 'cellpadding', 'babel-cellpadding' );
+		$spacing = Babel::mCssAttrib( 'border-spacing', 'babel-cellspacing', true );
+		$padding = Babel::mCssAttrib( 'padding', 'babel-cellpadding', true );
+		$style = '';
+		if ( $spacing === '' ) {
+			$style = ($padding === '') ? '' : ('style="' . $padding . '"');
+		} else {
+			$style = ($padding === '') ? 'style="' . $spacing . '"' : 'style="' . $padding . ' ' . $spacing . '"';
+		}
+
 		$dir_head = self::$title->getPageLanguage()->getDir();
 
 		$box = <<<EOT
 <div class="mw-babel-box mw-babel-box-$level" dir="$dir_head">
-{|$cellspacing$cellpadding
+{|$style
 ! dir="$dir_head" | $header
 | dir="$dir_current" lang="$lang" | $text
 |}
@@ -362,11 +375,38 @@ EOT;
 	}
 
 	/**
+	 * Determine a CSS attribute, such as "border-spacing", from a localizeable message.
+	 *
+	 * @param $name String: name of CSS attribute.
+	 * @param $key String: Message key of attribute value.
+	 * @param $assumeNumbersArePixels Boolean: if true, treat numbers values as pixels; otherwise, keep values as is (default: false).
+	 * TODO: move this function to a more appropriate place, likely outside the class.
+	 * @return Message|string
+	 */
+	protected static function mCssAttrib( $name, $key, $assumeNumbersArePixels = false ) {
+		$value = wfMessage( $key )->inContentLanguage();
+		if ( $value->isDisabled() ) {
+			$value = '';
+		} else {
+			$value = htmlentities( $value->text(), ENT_COMPAT, 'UTF-8' );
+			if ($assumeNumbersArePixels && is_numeric($value) && $value !== "0") {
+				//Compatibility: previous babel-box-cellpadding and
+				//babel-box-cellspacing entries were in HTML, not CSS
+				//and so used numbers without unity as pixels.
+				$value .= 'px';
+			}
+			$value = ' ' . $name . ': ' . $value . ';';
+		}
+		return $value;
+	}
+
+	/**
 	 * Determine an HTML attribute, such as "cellspacing" or "title", from a localizeable message.
 	 *
 	 * @param $name String: name of HTML attribute.
 	 * @param $key String: Message key of attribute value.
 	 * TODO: move this function to a more appropriate place, likely outside the class.
+	 *       or consider to deprecate it as it's not used anymore.
 	 * @return Message|string
 	 */
 	protected static function mHtmlAttrib( $name, $key ) {
