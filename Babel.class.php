@@ -291,9 +291,10 @@ EOT;
 			$categoryLevel, $categoryMain, '', self::$title->getDBkey()
 		)->inLanguage( $language )->text();
 
+		$fallbackLanguage = Language::getFallbackfor( $language );
 		$fallback = wfMessage( "babel-$level-n",
 			$categoryLevel, $categoryMain, '', self::$title->getDBkey()
-		)->inLanguage( Language::getFallbackfor( $language ) )->text();
+		)->inLanguage( $fallbackLanguage ? $fallbackLanguage : $language )->text();
 
 		if ( $text == $fallback ) {
 			$text = wfMessage( "babel-$level",
