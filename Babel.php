@@ -29,7 +29,7 @@ $wgExtensionCredits['parserhook'][] = array(
 $wgHooks['ParserFirstCallInit'][] = 'BabelStatic::onParserFirstCallInit';
 $wgHooks['AbortNewAccount'][]     = 'BabelAutoCreate::onAbortNewAccount';
 
-$dir = dirname( __FILE__ ) . '/';
+$dir = __DIR__ . '/';
 
 $wgExtensionMessagesFiles['Babel']      = $dir . 'Babel.i18n.php';
 $wgExtensionMessagesFiles['BabelMagic'] = $dir . 'Babel.i18n.magic.php';
@@ -41,7 +41,7 @@ $wgAutoloadClasses['BabelAutoCreate']    = $dir . 'BabelAutoCreate.class.php';
 
 $wgResourceModules['ext.babel'] = array(
 	'styles' => 'resources/ext.babel.css',
-	'localBasePath' => dirname( __FILE__ ),
+	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'Babel',
 );
 

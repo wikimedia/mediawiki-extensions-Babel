@@ -5,16 +5,17 @@
  * Usage: php txt2cdb.php
  */
 
-$dir = dirname( __FILE__ ); $IP = "$dir/../..";
+$dir = __DIR__;
+$IP = "$dir/../..";
 @include( "$dir/../../CorePath.php" ); // Allow override
 require_once( "$IP/maintenance/commandLine.inc" );
 
-$names = dirname( __FILE__ ) . '/names.cdb';
-$codes = dirname( __FILE__ ) . '/codes.cdb';
+$names = "$dir/names.cdb";
+$codes = "$dir/codes.cdb";
 $names = CdbWriter::open( $names );
 $codes = CdbWriter::open( $codes );
 
-$fr = fopen( dirname( __FILE__ ) . '/codes.txt', 'r' );
+$fr = fopen( "$dir/codes.txt", 'r' );
 while ( $line = fgets( $fr ) ) {
 	// Format is code1 code2 "language name"
 	$line = explode( ' ', $line, 3 );

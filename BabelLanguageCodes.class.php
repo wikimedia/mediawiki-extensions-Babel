@@ -22,9 +22,9 @@ class BabelLanguageCodes {
 	 */
 	public static function getCode( $code ) {
 		wfProfileIn( __METHOD__ );
-		global $wgLang, $wgBabelLanguageCodesCdb;
+		global $wgBabelLanguageCodesCdb;
 
-		$mediawiki = $wgLang->getLanguageName( $code );
+		$mediawiki = Language::fetchLanguageName( $code );
 		if ( $mediawiki !== '' ) {
 			wfProfileOut( __METHOD__ );
 			return $code;
@@ -60,7 +60,7 @@ class BabelLanguageCodes {
 		}
 
 		$language = $language === null ? $code : $language;
-		$names = Language::getTranslatedLanguageNames( $language );
+		$names = Language::fetchLanguageNames( $language, 'all' );
 		if ( isset( $names[$code] ) ) {
 			wfProfileOut( __METHOD__ );
 			return $names[ $code ];

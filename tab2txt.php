@@ -6,7 +6,8 @@
  * Usage: <tab file> | php tab2txt.php > codes.txt
  */
 
-$dir = dirname( __FILE__ ); $IP = "$dir/../..";
+$dir = __DIR__;
+$IP = "$dir/../..";
 @include( "$dir/../../CorePath.php" ); // Allow override
 require_once( "$IP/maintenance/commandLine.inc" );
 

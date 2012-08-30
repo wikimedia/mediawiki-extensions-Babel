@@ -82,7 +82,7 @@ class BabelAutoCreate {
 		$wgParser = new $parserClass( $wgParserConf );
 
 		$url = wfMessage( 'babel-url' )->inContentLanguage()->plain();
-		$article = new Article( $title, 0 );
+		$article = new WikiPage( $title );
 		$article->doEdit(
 			$text,
 			wfMessage( 'babel-autocreate-reason', $url )->text(),

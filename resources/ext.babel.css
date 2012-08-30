@@ -15,9 +15,7 @@
 	clear:        right;
 	margin:       1em;
 	background-color: white;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #99B3FF;
+	border: 1px solid #99B3FF;
 }
 
 /* @noflip */.mw-content-ltr table.mw-babel-wrapper {
