@@ -6072,6 +6072,7 @@ $messages['tpi'] = array(
  * @author Joseph
  * @author Karduelis
  * @author Khutuck
+ * @author LuCKY
  */
 $messages['tr'] = array(
 	'babel' => 'Babil kullanıcı bilgileri',
@@ -6089,14 +6090,14 @@ $messages['tr'] = array(
 	'babel-3' => 'Bu kullanıcı [[$1|ileri seviyede]] [[$2|$3]] bilir.',
 	'babel-4' => 'Bu kullanıcı [[$1|anadili gibi]] [[$2|$3]] konuşabilir.',
 	'babel-5' => 'Bu kullanıcı [[$1|profesyonel]] [[$2|$3]] bilgisine sahiptir.',
-	'babel-N' => "Bu kullanıcının [[$1|anadili]] [[$2|$3]]'dir.",
+	'babel-N' => 'Bu kullanıcının [[$1|anadili]] [[$2|$3]]dir.',
 	'babel-0-n' => 'Bu kullanıcı [[$1|hiç]] [[$2|Türkçe]] bilmiyor (ya da bir hayli zor anlıyor).',
 	'babel-1-n' => 'Bu kullanıcı [[$1|temel düzeyde]] [[$2|Türkçe]] bilir.',
 	'babel-2-n' => 'Bu kullanıcı [[$1|orta düzeyde]] [[$2|Türkçe]] bilir.',
 	'babel-3-n' => 'Bu kullanıcı [[$1|ileri seviyede]] [[$2|Türkçe]] bilir.',
 	'babel-4-n' => 'Bu kullanıcı [[$1|anadili gibi]] [[$2|Türkçe]] konuşabilir.',
 	'babel-5-n' => 'Bu kullanıcı [[$1|profesyonel]] [[$2|Türkçe]] bilgisine sahiptir.',
-	'babel-N-n' => "Bu kullanıcının [[$1|anadili]] [[$2|Türkçe]]'dir.",
+	'babel-N-n' => 'Bu kullanıcının [[$1|anadili]] [[$2|Türkçe]]dir.',
 	'babel-footer' => 'Dillere göre kullanıcılar',
 );
 
