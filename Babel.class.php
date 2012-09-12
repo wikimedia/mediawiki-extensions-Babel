@@ -41,6 +41,7 @@ class Babel {
 
 		$content = '';
 		$templateParameters = array(); // collects name=value parameters to be passed to wiki templates.
+		$createCategories = !$parser->mOptions->mIsPreview;
 		foreach ( $parameters as $name ) {
 			if ( strpos( $name, '=' ) !== false ) {
 				$templateParameters[] = $name;
@@ -53,7 +54,7 @@ class Babel {
 			} elseif ( $components !== false ) {
 				// Valid parameter syntax (with lowercase language code), babel box
 				$content .= self::mGenerateBox( $components['code'], $components['level'] );
-				$content .= self::mGenerateCategories( $components['code'], $components['level'] );
+				$content .= self::mGenerateCategories( $components['code'], $components['level'], $createCategories );
 			} elseif ( self::mPageExists( $template ) ) {
 				// Check for an existing template
 				$templateParameters[0] = $template;
@@ -64,7 +65,7 @@ class Babel {
 				$components2 = self::mParseParameter( $name, /* code to lowercase */ true );
 				if ( $components2 !== false ) {
 					$content .= self::mGenerateBox( $components2['code'], $components2['level'] );
-					$content .= self::mGenerateCategories( $components2['code'], $components2['level'] );
+					$content .= self::mGenerateCategories( $components2['code'], $components2['level'], $createCategories );
 				} else {
 					// Non-existent page and invalid parameter syntax, red link.
 					$content .= self::mGenerateNotaBox( '[[' . $template . ']]' );
@@ -311,9 +312,10 @@ EOT;
 	 *
 	 * @param $code String: Language code to use.
 	 * @param $level String or Integer: Level of ability to use.
+	 * @param $createCategories Boolean: If true, creates non existing categories; otherwise, doesn't create them.
 	 * @return String: Wikitext to add categories.
 	 */
-	protected static function mGenerateCategories( $code, $level ) {
+	protected static function mGenerateCategories( $code, $level, $createCategories = true ) {
 		wfProfileIn( __METHOD__ );
 		global $wgBabelMainCategory, $wgBabelCategoryNames;
 
@@ -323,14 +325,18 @@ EOT;
 		if ( $wgBabelMainCategory !== false ) {
 			$category = self::mReplaceCategoryVariables( $wgBabelMainCategory, $code );
 			$r .= "[[Category:$category|$level]]";
-			BabelAutoCreate::create( $category, $code );
+			if ( $createCategories ) {
+				BabelAutoCreate::create( $category, $code );
+			}
 		}
 
 		# Add level category
 		if ( $wgBabelCategoryNames[$level] !== false ) {
 			$category = self::mReplaceCategoryVariables( $wgBabelCategoryNames[$level], $code );
 			$r .= "[[Category:$category]]";
-			BabelAutoCreate::create( $category, $code, $level );
+			if ( $createCategories ) {
+				BabelAutoCreate::create( $category, $code, $level );
+			}
 		}
 
 		wfProfileOut( __METHOD__ );
