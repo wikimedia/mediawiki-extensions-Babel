@@ -6071,6 +6071,7 @@ $messages['tpi'] = array(
 	'babel-4-n' => 'Dispela yusa i save long [[$2|Tok Pisin]] [[$1|kain klostu wanpela lokol]].',
 	'babel-5-n' => 'Dispela yusa i [[$1|man bilong]] save long [[$2|Tok Pisin]].',
 	'babel-N-n' => 'Dispela yusa i save long [[$2|Tok Pisin]] [[$1|kain olsem wanpela lokol]].',
+	'babel-footer' => 'Ol yusa long tokples',
 );
 
 /** Turkish (Türkçe)
