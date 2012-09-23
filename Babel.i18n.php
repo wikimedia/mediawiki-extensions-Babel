@@ -236,6 +236,27 @@ $messages['lld'] = array(
 	'babel-N-n' => "Chësc utënt possa contribuì cun n livel [[$1|de rujeneda de l'oma]] de [[$2|ladin]].",
 );
 
+/** Wayúu (Wayúu)
+ * @author Jewbask
+ */
+$messages['guc'] = array(
+	'babel-url' => 'Project:Babel',
+	'babel-0' => "Chii ka'yataayakalü [[$1|nojorulesuu]] naa'püin tü [[$2|$3]].",
+	'babel-1' => "Chii ka'yataayakalü [[$1|echonsuu]] naa'püin tü [[$2|$3]].",
+	'babel-2' => "Chii ka'yataayakalü [[$1|echonsuu]] naa'püin tü [[$2|$3]].",
+	'babel-3' => "Chii ka'yataayakalü [[$1|anaasu]] nüiki [[$2|$3]].",
+	'babel-4' => "Chii ka'yataayakalü [[$1|anashatasü]] nüiki [[$2|$3]].",
+	'babel-5' => "Chii ka'yataayakalü [[$1|anale’esü]] nüiki [[$2|$3]].",
+	'babel-N' => "Tü [[$2|$3]] [[$1|niia]] nüiki chii ka'yataayakalü.",
+	'babel-0-n' => "Chii ka'yataayakalü [[$1|nojorulesuu]] naa'püin tü [[$2|wayuunaiki]].",
+	'babel-1-n' => "Chii ka'yataayakalü [[$1|echonsuu]] naa'püin tü [[$2|wayuunaiki]].",
+	'babel-2-n' => "Chii ka'yataayakalü [[$1|ees naa'püin]] tü [[$2|wayuunaiki]].",
+	'babel-3-n' => "Chii ka'yataayakalü [[$1|anaasu]] nüiki [[$2|wayuunaikiru'u]].",
+	'babel-4-n' => "Chii ka'yataayakalü [[$1|anashatasü]] nüiki [[$2|wayuunaikiru'u]].",
+	'babel-5-n' => "Chii ka'yataayakalü [[$1|anale’esü]] nüiki [[$2|wayuunaikiru'u]].",
+	'babel-N-n' => "Tü [[$2|wayuunaiki]] [[$1|niia]] nüiki chii ka'yataayakalü.",
+);
+
 /** Manchu (ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ)
  * @author Minggantu
  * @author Šolon
@@ -3265,6 +3286,7 @@ $messages['la'] = array(
 );
 
 /** Ladino (Ladino)
+ * @author Jewbask
  * @author Purodha
  * @author Universal Life
  */
@@ -3284,13 +3306,13 @@ $messages['lad'] = array(
 	'babel-4' => 'Este usador tiene un nivel [[$1|kaji-nativo]] de [[$2|$3]].',
 	'babel-5' => 'Este usador tiene un nivel [[$1|profesyonal]] de [[$2|$3]].',
 	'babel-N' => 'Este usador es un hablante [[$1|nativo]] de [[$2|$3]].',
-	'babel-0-n' => 'Este usador [[$1|no entiende]] el [[$2|Judeo-Español]] <small>(o lo entiende con muncha dificultad)</small>.',
-	'babel-1-n' => 'Este usador tiene un nivel [[$1|elementario]] de [[$2|Judeo-Español]].',
-	'babel-2-n' => 'Este usador tiene un nivel [[$1|medio]] de [[$2|Judeo-Español]].',
-	'babel-3-n' => 'Este usador tiene un nivel [[$1|adelantado]] de [[$2|Judeo-Español]].',
-	'babel-4-n' => 'Este usador tiene un nivel [[$1|kaji-nativo]] de [[$2|Judeo-Español]].',
-	'babel-5-n' => 'Este usador tiene un nivel [[$1|profesyonal]] de [[$2|Judeo-Español]].',
-	'babel-N-n' => 'Este usador es un hablante [[$1|nativo]] de [[$2|Judeo-Español]].',
+	'babel-0-n' => 'Este usador [[$1|no entiende]] el [[$2|Judeo-Espanyol]] <small>(o lo entiende con muncha difikultad)</small>.',
+	'babel-1-n' => 'Este usador tiene un nivel [[$1|elementario]] de [[$2|Judeo-Espanyol]].',
+	'babel-2-n' => 'Este usador tiene un nivel [[$1|medio]] de [[$2|Judeo-Espanyol]].',
+	'babel-3-n' => 'Este usador tiene un nivel [[$1|adelantado]] de [[$2|Judeo-Espanyol]].',
+	'babel-4-n' => 'Este usador tiene un nivel [[$1|kaji-nativo]] de [[$2|Judeo-Espanyol]].',
+	'babel-5-n' => 'Este usador tiene un nivel [[$1|profesyonal]] de [[$2|Judeo-Espanyol]].',
+	'babel-N-n' => 'Este usador es un hablante [[$1|nativo]] de [[$2|Judeo-Espanyol]].',
 	'babel-footer' => 'Usadores según lîngua',
 );
 
