@@ -508,20 +508,20 @@ $messages['ar'] = array(
 	'babel-autocreate-text-levels' => 'المستخدمون في هذا التصنيف مستوى مهارتهم $1 للغة $2.',
 	'babel-autocreate-text-main' => 'المستخدمون في هذا التصنيف لديهم معرفة باللغة $1.',
 	'babel-autocreate-user' => 'إنشاء بابل التلقائي',
-	'babel-0' => 'هذا المستخدم [[$1|ليس]] لديه معرفة ب[[$2|$3]] (أو يفهمها بصعوبة شديدة).',
-	'babel-1' => 'هذا المستخدم يمتلك معرفة [[$1|أساسية]] ب[[$2|$3]].',
-	'babel-2' => 'هذا المستخدم يمتلك معرفة [[$1|متوسطة]] ب[[$2|$3]].',
-	'babel-3' => 'هذا المستخدم يمتلك معرفة [[$1|متقدمة]] ب[[$2|$3]].',
-	'babel-4' => 'هذا المستخدم يمتلك معرفة [[$1|تقترب من مستوى اللغة الأم]] ب[[$2|$3]].',
-	'babel-5' => 'هذا المستخدم يمتلك معرفة [[$1|احترافية]] ب[[$2|$3]].',
-	'babel-N' => 'هذا المستخدم يمتلك معرفة [[$1|كلغة أم]] ب[[$2|$3]].',
-	'babel-0-n' => 'هذا المستخدم [[$1|ليس]] لديه معرفة ب[[$2|العربية]] (أو يفهمها بصعوبة شديدة).',
-	'babel-1-n' => 'هذا المستخدم لديه معرفة [[$1|أساسية]] ب[[$2|العربية]].',
-	'babel-2-n' => 'هذا المستخدم لديه معرفة [[$1|متوسطة]] ب[[$2|العربية]].',
-	'babel-3-n' => 'هذا المستخدم يمتلك معرفة [[$1|متقدمة]] ب[[$2|العربية]].',
-	'babel-4-n' => 'هذا المستخدم يمتلك معرفة [[$1|تقترب من مستوى اللغة الأم]] ب[[$2|العربية]].',
-	'babel-5-n' => 'هذا المستخدم يمتلك معرفة [[$1|احترافية]] ب[[$2|العربية]].',
-	'babel-N-n' => 'هذا المستخدم يمتلك معرفة [[$1|كلغة أم]] ب[[$2|العربية]].',
+	'babel-0' => '{{GENDER:{{PAGENAME}}|هذا المستخدم|هذه المستخدمة}} [[$1|ليس]] {{GENDER:{{PAGENAME}}|لديه|لديها}} معرفة ب[[$2|$3]] (أو {{GENDER:{{PAGENAME}}|يفهمها|تفهمها}} بصعوبة بالغة).',
+	'babel-1' => '{{GENDER:{{PAGENAME}}|هذا المستخدم لديه|هذه المستخدمة لديها}} معرفة [[$1|أساسية]] ب[[$2|$3]].',
+	'babel-2' => '{{GENDER:{{PAGENAME}}|هذا المستخدم لديه|هذه المستخدمة لديها}} معرفة [[$1|متوسطة]] ب[[$2|$3]].',
+	'babel-3' => '{{GENDER:{{PAGENAME}}|هذا المستخدم لديه|هذه المستخدمة لديها}} معرفة [[$1|متقدمة]] ب[[$2|$3]].',
+	'babel-4' => '{{GENDER:{{PAGENAME}}|هذا المستخدم لديه|هذه المستخدمة لديها}} معرفة [[$1|تقترب من مستوى اللغة الأم]] ب[[$2|$3]].',
+	'babel-5' => '{{GENDER:{{PAGENAME}}|هذا المستخدم لديه|هذه المستخدمة لديها}} معرفة [[$1|احترافية]] ب[[$2|$3]].',
+	'babel-N' => '{{GENDER:{{PAGENAME}}|هذا المستخدم|هذه المستخدمة}} [[$1|{{GENDER:{{PAGENAME}}|لغته|لغتها}} الأم]] هي [[$2|$3]].',
+	'babel-0-n' => '{{GENDER:{{PAGENAME}}|هذا المستخدم|هذه المستخدمة}} [[$1|ليس]] {{GENDER:{{PAGENAME}}|لديه|لديها}} معرفة ب[[$2|العربية]] (أو {{GENDER:{{PAGENAME}}|يفهمها|تفهمها}} بصعوبة بالغة).',
+	'babel-1-n' => '{{GENDER:{{PAGENAME}}|هذا المستخدم|هذه المستخدمة}} {{GENDER:{{PAGENAME}}|لديه|لديها}} معرفة [[$1|أساسية]] ب[[$2|العربية]].',
+	'babel-2-n' => '{{GENDER:{{PAGENAME}}|هذا المستخدم لديه|هذه المستخدمة لديها}} معرفة [[$1|متوسطة]] ب[[$2|العربية]].',
+	'babel-3-n' => '{{GENDER:{{PAGENAME}}|هذا المستخدم لديه|هذه المستخدمة لديها}} معرفة [[$1|متقدمة]] ب[[$2|العربية]].',
+	'babel-4-n' => '{{GENDER:{{PAGENAME}}|هذا المستخدم لديه|هذه المستخدمة لديها}} معرفة [[$1|تقترب من مستوى اللغة الأم]] ب[[$2|العربية]].',
+	'babel-5-n' => '{{GENDER:{{PAGENAME}}|هذا المستخدم لديه|هذه المستخدمة لديها}} معرفة [[$1|احترافية]] ب[[$2|العربية]].',
+	'babel-N-n' => '{{GENDER:{{PAGENAME}}|هذا المستخدم|هذه المستخدمة}} [[$1|{{GENDER:{{PAGENAME}}|لغته|لغتها}} الأم]] هي [[$2|العربية]].',
 	'babel-footer' => 'المستخدمون حسب اللغة',
 );
 
@@ -548,7 +548,7 @@ $messages['arc'] = array(
 	'babel-N-n' => 'ܗܢܐ ܡܦܠܚܢܐ ܐܝܬ ܠܗ ܝܕܥܬܐ [[$1|ܐܝܟ ܠܫܢܗ ܐܡܗܝܐ]] ܒ[[$2|ܐܪܡܝܐ]]',
 );
 
-/** Araucanian (mapudungun)
+/** Mapuche (mapudungun)
  * @author Kaniw
  * @author Lin linao
  */
@@ -843,7 +843,7 @@ $messages['bar'] = array(
 	'babel-footer' => 'Benutzer noch Sprooch',
 );
 
-/** žemaitėška (žemaitėška)
+/** Samogitian (žemaitėška)
  * @author Purodha
  */
 $messages['bat-smg'] = array(
@@ -902,7 +902,7 @@ $messages['be'] = array(
 	'babel-footer' => 'Удзельнікі паводле моў',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -3001,7 +3001,7 @@ $messages['kiu'] = array(
 	'babel-footer' => 'Zıwani heta karberi',
 );
 
-/** Kazakh (Cyrillic script) (‪қазақша (кирил)‬)
+/** Kazakh (Cyrillic script) (қазақша (кирил)‎)
  * @author AlefZet
  * @author GaiJin
  */
@@ -3182,7 +3182,7 @@ $messages['ksh'] = array(
 	'babel-footer' => 'Metmaacher noh Shprooche',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -4204,7 +4204,7 @@ $messages['nan'] = array(
 	'babel-N-n' => 'Chit-ê iōng-chiá [[$1|tùi sè-hàn]] tō kóng [[$2|Bân-lâm-gú]].',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Event
  * @author Laaknor
  * @author Nghtwlkr
@@ -4357,14 +4357,14 @@ $messages['nl'] = array(
 	'babel-footer' => 'Gebruikers per taal',
 );
 
-/** ‪Nederlands (informeel)‬ (‪Nederlands (informeel)‬)
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
  * @author Siebrand
  */
 $messages['nl-informal'] = array(
 	'babel-autocreate-abort' => 'De gebruikersnaam die je hebt opgegeven wordt gebruikt voor het automatisch aanmaken van [[$1|Babel]]-categorieën en kan niet geregistreerd worden.',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Eirik
  * @author Finnrind
  * @author Gunnernett
@@ -5579,7 +5579,7 @@ $messages['sq'] = array(
 	'babel-footer' => 'Përdorues sipas gjuhës',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -5611,7 +5611,7 @@ $messages['sr-ec'] = array(
 	'babel-footer' => 'Корисници по језику',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  * @author Rancher
  */
@@ -6827,7 +6827,7 @@ $messages['zh-cn'] = array(
 	'babel-N-n' => '这位用户明白以[[$1|母语]]为主的[[$2|大陆式中文]]。',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Dalt
  * @author Gzdavidwong
  * @author Hydra
@@ -6863,7 +6863,7 @@ $messages['zh-hans'] = array(
 	'babel-footer' => '用户（按语言）',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Liangent
  * @author Mark85296341
  * @author Shinjiman
