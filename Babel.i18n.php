@@ -1585,8 +1585,6 @@ $messages['fa'] = array(
 	'babel-4-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|نزدیک به زبان مادری]] می‌فهمد.',
 	'babel-5-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|حرفه‌ای]] می‌فهمد.',
 	'babel-N-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|زبان مادری]] می‌فهمد.',
-	'babel-box-cellpadding' => '0',
-	'babel-cellpadding' => '0',
 	'babel-template' => 'Template:User $1',
 	'babel-footer' => 'کاربران بر پایهٔ زبان',
 );
@@ -1727,8 +1725,6 @@ $messages['frp'] = array(
 	'babel-4-n' => 'Ceti usanciér at des cognessences prôches de la [[$1|lengoua matèrnâla]] en [[$2|arpetan]].',
 	'babel-5-n' => 'Ceti usanciér at des cognessences [[$1|profèssionèles]] en [[$2|arpetan]].',
 	'babel-N-n' => 'Ceti usanciér at por [[$1|lengoua matèrnâla]] l’[[$2|arpetan]].',
-	'babel-box-cellpadding' => '0',
-	'babel-cellpadding' => '0',
 	'babel-footer' => 'Usanciérs per lengoua',
 );
 
@@ -2040,8 +2036,6 @@ $messages['gsw'] = array(
 	'babel-4-n' => 'Dää Benutzer cha [[$2|Alemannisch]] [[$1|wie ne Muetterspröchler]].',
 	'babel-5-n' => 'Dää Benutzer cha [[$2|Alemannisch]] uf [[$1|professionällem]] Niveau.',
 	'babel-N-n' => 'Däm Benutzer syyni [[$1|Muettersproch]] isch [[$2|Alemannisch]].',
-	'babel-box-cellpadding' => '0',
-	'babel-cellpadding' => '0',
 	'babel-footer' => 'Benutzer no Sproch',
 );
 
@@ -2450,7 +2444,6 @@ $messages['ia'] = array(
 	'babel-4-n' => 'Iste usator ha cognoscentias a nivello [[$1|quasi native]] de [[$2|interlingua]].',
 	'babel-5-n' => 'Iste usator ha cognoscentias [[$1|professional]] de [[$2|interlingua]].',
 	'babel-N-n' => 'Iste usator ha cognoscentias a nivello [[$1|native]] de [[$2|interlingua]].',
-	'babel-portal' => '$1',
 	'babel-template' => 'Template:$1',
 	'babel-footer' => 'Usatores per lingua',
 );
@@ -2653,8 +2646,6 @@ $messages['it'] = array(
 	'babel-4-n' => 'Questo utente può contribuire con un livello [[$1|quasi madrelingua]] in [[$2|italiano]].',
 	'babel-5-n' => 'Questo utente può contribuire con un livello [[$1|professionale]] in [[$2|italiano]].',
 	'babel-N-n' => 'Questo utente può contribuire con un livello [[$1|madrelingua]] in [[$2|italiano]].',
-	'babel-box-cellpadding' => '0',
-	'babel-cellpadding' => '0',
 	'babel-template' => 'Template:Utente $1',
 	'babel-footer' => 'Utenti per lingua',
 );
@@ -3364,8 +3355,6 @@ $messages['li'] = array(
 	'babel-4-n' => "Deze gebroeker haet benöl van 't [[$2|Limburgs]] op [[$1|bekans-mojerspraokniveau]].",
 	'babel-5-n' => "Deze gebroeker haet [[$1|perfesjeneel]] benöl van 't [[$2|Limburgs]].",
 	'babel-N-n' => "Deze gebroeker haet benöl van 't [[$2|Limburgs]] op [[$1|mojerspraokniveau]].",
-	'babel-box-cellpadding' => '0',
-	'babel-cellpadding' => '0',
 	'babel-footer' => 'Gebroekers per sjpraok',
 );
 
@@ -3564,7 +3553,7 @@ $messages['ltg'] = array(
 	'babel-footer' => 'Lītuotuoji piec volūdys',
 );
 
-/** Lushai (Mizo ţawng)
+/** Mizo (Mizo ţawng)
  * @author GerardM
  * @author RMizo
  */
@@ -4488,8 +4477,6 @@ $messages['or'] = array(
 	'babel-4-n' => 'ଏହି ଇଉଜର [[$2|ଇଂରାଜି]] ଭାଷା  ତାହାର [[$1|ମୁଳ ଲୋକଙ୍କ]] ଭଳି ଜାଣନ୍ତି ।',
 	'babel-5-n' => 'ଏହି ସଭ୍ୟଙ୍କୁ [[$2|ଇଂରାଜୀ]] ଭାଷା [[$1|ଭଲ ଭାବରେ]] ଜଣାଅଛି ।',
 	'babel-N-n' => 'ଏହି ବ୍ୟବହାରକାରିଙ୍କ [[$1|ନିଜ]] ଭାଷା ହେଲା [[$2|ଓଡ଼ିଆ]]।',
-	'babel-box-cellpadding' => '0',
-	'babel-cellpadding' => '0',
 	'babel-footer' => 'ଭାଷା ଅନୁସାରେ ସଭ୍ୟ',
 );
 
@@ -5703,8 +5690,6 @@ $messages['sv'] = array(
 	'babel-4-n' => 'Den här användaren talar nästan [[$2|svenska]] som en [[$1|modersmålstalare]].',
 	'babel-5-n' => 'Den här användaren har [[$1|professionella]] kunskaper i [[$2|svenska]].',
 	'babel-N-n' => 'Den här användaren har [[$2|svenska]] som [[$1|modersmål]].',
-	'babel-box-cellpadding' => '0',
-	'babel-cellpadding' => '0',
 	'babel-template' => 'Template:Användare $1',
 	'babel-footer' => 'Användare efter språk',
 );
