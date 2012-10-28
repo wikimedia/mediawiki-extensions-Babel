@@ -37,11 +37,9 @@ class BabelLanguageCodes {
 	}
 
 	/**
-	 * Take a code as input, and attempt to find a language name for it in
-	 * a a given language, uses the order:
-	 *     - CLDR extension
-	 *     - MediaWiki language names
-	 *     - Babel language names CDB
+	 * Take a code as input, and search a language name for it in
+	 * a given language via Language::fetchLanguageNames() or 
+	 * else via the Babel language names CDB
 	 *
 	 * @param $code String: Code to get name for.
 	 * @param $language String: Code of language to attempt to get name in,
@@ -63,7 +61,7 @@ class BabelLanguageCodes {
 		$names = Language::fetchLanguageNames( $language, 'all' );
 		if ( isset( $names[$code] ) ) {
 			wfProfileOut( __METHOD__ );
-			return $names[ $code ];
+			return $names[$code];
 		}
 
 		$namesCdb = CdbReader::open( $wgBabelLanguageNamesCdb );
