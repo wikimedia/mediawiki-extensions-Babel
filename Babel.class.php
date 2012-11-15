@@ -419,4 +419,74 @@ EOT;
 		}
 		return $value;
 	}
+
+	/**
+	 * Gets the list of languages a user has set up with Babel
+	 *
+	 * TODO Can be done much smarter, e.g. by saving the languages in the DB and getting them there
+	 * TODO There could be an API module that returns the result of this function
+	 *
+	 * @param User $user
+	 * @param string $level minimal level as given in $wgBabelCategoryNames
+	 * @return string[] List of language codes
+	 *
+	 * @since Version 1.9.0
+	 */
+	public static function getUserLanguages( User $user, $level = null ) {
+		// Right now the function only returns something if the user is categorized appropriately
+		// (as defined by the $wgBabelMainCategory setting). If categorization is off, this function
+		// will return an empty array.
+		// If Babel would save the languages of the user in a Database table, this workaround using
+		// the categories would not be needed.
+		global $wgBabelMainCategory;
+		// If Babel is not configured as required, return nothing.
+		// Note also that "Set to false to disable main category".
+		if ( $wgBabelMainCategory === false ) {
+			return array();
+		}
+
+		// The string we construct here will be a pony, it will not be a valid category
+		$babelCategoryTitle = Title::makeTitle( NS_CATEGORY, $wgBabelMainCategory );
+		// Quote everything to avoid unexpected matches due to parenthesis form
+		// It is not necessary to quote any additional chars except the special chars for the regex
+		// and perhaps the limiting char, but that should not be respected as anything other than
+		// edge delimiter.
+		$babelCategoryString = preg_quote( $babelCategoryTitle->getPrefixedDBkey(), '/' );
+		// Look for the %code% inside the string and put a group match in the same place
+		// This will only work if the previous works so the string isn't misinterpreted as a regular
+		// expression itself
+		$codeRegex = '/^' . preg_replace( '/%code%/', '(.+?)(-([0-5N]))?', $babelCategoryString ) . '$/';
+
+		$categories = array_keys( $user->getUserPage()->getParentCategories() );
+
+		// We sort on proficiency level
+		$result = array();
+		foreach ( $categories as $category ) {
+			// Only process categories that matches, $match will be created if necessary
+			$res = preg_match( $codeRegex, $category, $match );
+			if ( $res ) {
+				// lowercase the first char, but stay away from the others in case of region codes
+				$code = BabelLanguageCodes::getCode( lcfirst( $match[1] ) );
+				if ( $code !== false ) {
+					$result[$code] = isset( $match[3] ) ? $match[3] : 'N';
+				}
+			}
+		}
+
+		if ( isset( $level ) ) {
+			$level = (string)$level;
+			// filter down the set, note that this uses a text sort!
+			$result = array_filter(
+				$result,
+				function( $value ) use ( $level ) { return ( strcmp( $value, $level ) >= 0 ); }
+			);
+			// sort and retain keys
+			uasort (
+				$result,
+				function( $a, $b ) { return -strcmp( $a, $b ); }
+			);
+		}
+
+		return array_keys( $result );
+	}
 }
