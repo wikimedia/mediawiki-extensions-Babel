@@ -1030,9 +1030,10 @@ $messages['bs'] = array(
  * @author Aleator
  * @author SMP
  * @author Toniher
+ * @author Vriullop
  */
 $messages['ca'] = array(
-	'babel' => "Informació Babel d'usuari",
+	'babel' => "Informació Babel de {{GENDER:$1|l'usuari|la usuària}}",
 	'babel-desc' => "Afegeix la funció d'anàlisi <code>#babel</code> per a permetre la generació automàtica d'una columna babel de quadres d'usuari amb l'habilitat d'incloure plantilles personalitzades.",
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Usuaris per idioma',
@@ -1040,20 +1041,20 @@ $messages['ca'] = array(
 	'babel-autocreate-reason' => 'Creant automàticament la categoria de [[$1|Babel]].',
 	'babel-autocreate-text-levels' => "Els usuaris d'aquesta categoria indiquen que tenen un nivell $1 per l'idioma $2.",
 	'babel-autocreate-text-main' => "Els usuaris d'aquesta categoria indiquen que tenen coneixements de l'idioma $1.",
-	'babel-0' => "Aquest usuari [[$1|no té]] cap coneixement de l'idioma [[$2|$3]] (o bé l'entén amb moltes dificultats).",
-	'babel-1' => "Aquest usuari té un coneixement [[$1|bàsic]] de l'idioma [[$2|$3]].",
-	'babel-2' => "Aquest usuari té un coneixement [[$1|mitjà]] de l'idioma [[$2|$3]].",
-	'babel-3' => "Aquest usuari té un coneixement [[$1|avançat]] de l'idioma [[$2|$3]].",
-	'babel-4' => "Aquest usuari és parlant de l'idioma [[$2|$3]] amb nivell [[$1|gairebé natiu]].",
-	'babel-5' => "Aquest usuari té coneixement [[$1|professional]] de l'idioma [[$2|$3]].",
-	'babel-N' => "Aquest usuari utilitza l'idioma [[$2|$3]] com a parlant [[$1|natiu]].",
-	'babel-0-n' => "Aquest usuari [[$1|no]] té cap coneixement de [[$2|català]] (o bé l'entén amb moltes dificultats).",
-	'babel-1-n' => 'Aquest usuari té un coneixement [[$1|bàsic]] de [[$2|català]].',
-	'babel-2-n' => 'Aquest usuari té un coneixement [[$1|mitjà]] de [[$2|català]].',
-	'babel-3-n' => 'Aquest usuari té un coneixement [[$1|avançat]] de [[$2|català]].',
-	'babel-4-n' => 'Aquest usuari té un coneixement [[$1|gairebé natiu]] de [[$2|català]].',
-	'babel-5-n' => 'Aquest usuari té coneixement [[$1|professional]] de la llengua [[$2|catalana]].',
-	'babel-N-n' => 'Aquest usuari és un parlant [[$1|natiu]] de [[$2|català]].',
+	'babel-0' => "{{GENDER:$4|Aquest usuari|Aquesta usuària}} [[$1|no té]] cap coneixement de l'idioma [[$2|$3]] (o bé l'entén amb moltes dificultats).",
+	'babel-1' => "{{GENDER:$4|Aquest usuari|Aquesta usuària}} té un coneixement [[$1|bàsic]] de l'idioma [[$2|$3]].",
+	'babel-2' => "{{GENDER:$4|Aquest usuari|Aquesta usuària}} té un coneixement [[$1|mitjà]] de l'idioma [[$2|$3]].",
+	'babel-3' => "{{GENDER:$4|Aquest usuari|Aquesta usuària}} té un coneixement [[$1|avançat]] de l'idioma [[$2|$3]].",
+	'babel-4' => "{{GENDER:$4|Aquest usuari|Aquesta usuària}} és parlant de l'idioma [[$2|$3]] amb nivell [[$1|gairebé natiu]].",
+	'babel-5' => "{{GENDER:$4|Aquest usuari|Aquesta usuària}} té coneixement [[$1|professional]] de l'idioma [[$2|$3]].",
+	'babel-N' => "{{GENDER:$4|Aquest usuari|Aquesta usuària}} utilitza l'idioma [[$2|$3]] com a parlant [[$1|natiu]].",
+	'babel-0-n' => "{{GENDER:$4|Aquest usuari|Aquesta usuària}} [[$1|no]] té cap coneixement de [[$2|català]] (o bé l'entén amb moltes dificultats).",
+	'babel-1-n' => '{{GENDER:$4|Aquest usuari|Aquesta usuària}} té un coneixement [[$1|bàsic]] de [[$2|català]].',
+	'babel-2-n' => '{{GENDER:$4|Aquest usuari|Aquesta usuària}} té un coneixement [[$1|mitjà]] de [[$2|català]].',
+	'babel-3-n' => '{{GENDER:$4|Aquest usuari|Aquesta usuària}} té un coneixement [[$1|avançat]] de [[$2|català]].',
+	'babel-4-n' => '{{GENDER:$4|Aquest usuari|Aquesta usuària}} té un coneixement [[$1|gairebé natiu]] de [[$2|català]].',
+	'babel-5-n' => '{{GENDER:$4|Aquest usuari|Aquesta usuària}} té coneixement [[$1|professional]] de la llengua [[$2|catalana]].',
+	'babel-N-n' => '{{GENDER:$4|Aquest usuari|Aquesta usuària}} és un parlant [[$1|natiu]] de [[$2|català]].',
 	'babel-footer' => 'Usuaris per idioma',
 );
 
