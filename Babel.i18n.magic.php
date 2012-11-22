@@ -108,6 +108,11 @@ $magicWords['uk'] = array(
 	'babel' => array( 0, 'вавилон', 'вавілон' ),
 );
 
+/** Urdu (اردو) */
+$magicWords['ur'] = array(
+	'babel' => array( 0, 'بابل' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $magicWords['zh-hans'] = array(
 	'babel' => array( 0, '巴别' ),
