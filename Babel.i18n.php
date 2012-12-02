@@ -5367,6 +5367,16 @@ $messages['sg'] = array(
 	'babel-footer' => 'Ânyîmbâ tî yângâ ôko ôko',
 );
 
+/** Samogitian (žemaitėška)
+ * @author Kusurija
+ */
+$messages['sgs'] = array(
+	'babel-0' => 'Tas nauduotuos [[$1|nasopront]] [[$2|žemaitiu kalbuos]] (a sopronta nuognē mažā).',
+	'babel-1' => 'Tas nauduotuos gal prisėdietė pri pruojekta [[$1|pradėnė līgė]] [[$2|žemaitiu kalbuo]].',
+	'babel-2' => 'Tas nauduotuos gal prisėdietė pri pruojekta [[$1|vėdotėnė līgė]] [[$2|žemaitiu kalbuo]].',
+	'babel-3' => 'Tas nauduotuos gal prisėdietė pri pruojekta [[$1|aukšta līgė]] [[$2|žemaitiu kalbuo]].',
+);
+
 /** Serbo-Croatian (srpskohrvatski / српскохрватски)
  * @author OC Ripper
  */
