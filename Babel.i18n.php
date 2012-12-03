@@ -5371,10 +5371,14 @@ $messages['sg'] = array(
  * @author Kusurija
  */
 $messages['sgs'] = array(
+	'babel-url' => 'Project:Babėliuons',
+	'babel-footer-url' => 'Kateguorėjė:Babėliuons - Nauduotuojē palē kalbas',
 	'babel-0' => 'Tas nauduotuos [[$1|nasopront]] [[$2|žemaitiu kalbuos]] (a sopronta nuognē mažā).',
 	'babel-1' => 'Tas nauduotuos gal prisėdietė pri pruojekta [[$1|pradėnė līgė]] [[$2|žemaitiu kalbuo]].',
 	'babel-2' => 'Tas nauduotuos gal prisėdietė pri pruojekta [[$1|vėdotėnė līgė]] [[$2|žemaitiu kalbuo]].',
 	'babel-3' => 'Tas nauduotuos gal prisėdietė pri pruojekta [[$1|aukšta līgė]] [[$2|žemaitiu kalbuo]].',
+	'babel-4' => 'Tas nauduotuos [[$2|žemaitėškā]] rokoujės zars tāp, būktās ton ruoda būtom anuo [[$1|gėmtojė]].',
+	'babel-N' => 'Tuo nauduotuojė [[$1|gimta kalba]] īr [[$2|žemaitiu]].',
 );
 
 /** Serbo-Croatian (srpskohrvatski / српскохрватски)
