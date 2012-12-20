@@ -20,7 +20,7 @@ if ( !defined( 'MEDIAWIKI' ) ) die( 'Invalid entry point.' );
 $wgExtensionCredits['parserhook'][] = array(
 	'path'            => __FILE__,
 	'name'            => 'Babel',
-	'version'         => '1.8.0',
+	'version'         => '[https://www.mediawiki.org/wiki/MLEB MLEB 2012.12]',
 	'author'          => 'Robert Leverington',
 	'url'             => 'https://www.mediawiki.org/wiki/Extension:Babel',
 	'descriptionmsg'  => 'babel-desc',
