@@ -1778,20 +1778,20 @@ $messages['frp'] = array(
 	'babel-autocreate-reason' => 'Crèacion ôtomatica de la catègorie [[$1|Babél]].',
 	'babel-autocreate-text-levels' => 'Los usanciérs dens ceta catègorie ont endicâ qu’ont lo nivél $1 por la lengoua $2.',
 	'babel-autocreate-text-main' => 'Los usanciérs dens ceta catègorie ont endicâ qu’ont des cognessences en $1.',
-	'babel-0' => 'Ceti usanciér at [[$1|gins]] de cognessence en [[$2|$3]] (ou ben lo comprend avouéc de grôsses dificultâts).',
-	'babel-1' => 'Ceti usanciér at des cognessences [[$1|totes simples]] en [[$2|$3]].',
-	'babel-2' => 'Ceti usanciér at des cognessences [[$1|moyenes]] en [[$2|$3]].',
-	'babel-3' => 'Ceti usanciér at des cognessences [[$1|avanciês]] en [[$2|$3]].',
-	'babel-4' => 'Ceti usanciér at des cognessences prôches de la [[$1|lengoua matèrnâla]] en [[$2|$3]].',
-	'babel-5' => 'Ceti usanciér at des cognessences [[$1|profèssionèles]] en [[$2|$3]].',
-	'babel-N' => 'Ceti usanciér at por [[$1|lengoua matèrnâla]] lo [[$2|$3]].',
-	'babel-0-n' => 'Ceti usanciér at [[$1|gins]] de cognessence en [[$2|arpetan]] (ou ben lo comprend avouéc de grôsses dificultâts).',
-	'babel-1-n' => 'Ceti usanciér at des cognessences [[$1|totes simples]] en [[$2|arpetan]].',
-	'babel-2-n' => 'Ceti usanciér at des cognessences [[$1|moyenes]] en [[$2|arpetan]].',
-	'babel-3-n' => 'Ceti usanciér at des cognessences [[$1|avanciês]] en [[$2|arpetan]].',
-	'babel-4-n' => 'Ceti usanciér at des cognessences prôches de la [[$1|lengoua matèrnâla]] en [[$2|arpetan]].',
-	'babel-5-n' => 'Ceti usanciér at des cognessences [[$1|profèssionèles]] en [[$2|arpetan]].',
-	'babel-N-n' => 'Ceti usanciér at por [[$1|lengoua matèrnâla]] l’[[$2|arpetan]].',
+	'babel-0' => 'Cet’utilisat{{GENDER:$4|or|rice|or}} at [[$1|gins]] de cognessence en [[$2|$3]] (ou ben lo comprend avouéc de grôsses dificultâts).',
+	'babel-1' => 'Cet’utilisat{{GENDER:$4|or|rice|or}} at des cognessences [[$1|totes simples]] en [[$2|$3]].',
+	'babel-2' => 'Cet’utilisat{{GENDER:$4|or|rice|or}} at des cognessences [[$1|moyenes]] en [[$2|$3]].',
+	'babel-3' => 'Cet’utilisat{{GENDER:$4|or|rice|or}} at des cognessences [[$1|avanciêes]] en [[$2|$3]].',
+	'babel-4' => 'Cet’utilisat{{GENDER:$4|or|rice|or}} at des cognessences prôches de la [[$1|lengoua matèrnâla]] en [[$2|$3]].',
+	'babel-5' => 'Cet’utilisat{{GENDER:$4|or|rice|or}} at des cognessences [[$1|profèssionèles]] en [[$2|$3]].',
+	'babel-N' => 'Cet’utilisat{{GENDER:$4|or|rice|or}} at por [[$1|lengoua matèrnâla]] lo [[$2|$3]].',
+	'babel-0-n' => 'Cet’utilisat{{GENDER:$4|or|rice|or}} at [[$1|gins]] de cognessence en [[$2|arpetan]] (ou ben lo comprend avouéc de grôsses dificultâts).',
+	'babel-1-n' => 'Cet’utilisat{{GENDER:$4|or|rice|or}} at des cognessences [[$1|totes simples]] en [[$2|arpetan]].',
+	'babel-2-n' => 'Cet’utilisat{{GENDER:$4|or|rice|or}} at des cognessences [[$1|moyenes]] en [[$2|arpetan]].',
+	'babel-3-n' => 'Cet’utilisat{{GENDER:$4|or|rice|or}} at des cognessences [[$1|avanciêes]] en [[$2|arpetan]].',
+	'babel-4-n' => 'Cet’utilisat{{GENDER:$4|or|rice|or}} at des cognessences prôches de la [[$1|lengoua matèrnâla]] en [[$2|arpetan]].',
+	'babel-5-n' => 'Cet’utilisat{{GENDER:$4|or|rice|or}} at des cognessences [[$1|profèssionèles]] en [[$2|arpetan]].',
+	'babel-N-n' => 'Cet’utilisat{{GENDER:$4|or|rice|or}} at por [[$1|lengoua matèrnâla]] l’[[$2|arpetan]].',
 	'babel-footer' => 'Usanciérs per lengoua',
 );
 
@@ -3873,6 +3873,18 @@ $messages['mi'] = array(
 	'babel-2-n' => 'Kua taea e tēnei tangata te [[$1|takawaenga ]] mō [[$2|te reo Māori]].',
 	'babel-3-n' => 'He [[$1|matatau]] tēnei tāngata ki [[$2|te reo Māori]].',
 	'babel-4-n' => 'Ko tēnei tangata he [[$1|tino matatau]] ki te reo [[$2|Māori]].',
+);
+
+/** Minangkabau (Baso Minangkabau)
+ * @author Naval Scene
+ */
+$messages['min'] = array(
+	'babel-1' => 'Pangguno iko punyo pangatauan [[$1|dasa]] bahaso [[$2|$3]].',
+	'babel-2' => 'Pangguno iko punyo pangatauan [[$1|manangah]] [[$2|$3]].',
+	'babel-3' => 'Pangguno iko punyo pangatauan [[$1|tinggi]] [[$2|$3]].',
+	'babel-4' => 'Pangguno iko punyo pangatauan [[$1|mandakeki panutua ibu]] [[$2|$3]].',
+	'babel-5' => 'Pangguno iko punyo pangatauan [[$1|profesional]] [[$2|$3]].',
+	'babel-N' => 'Pangguno iko adolah [[$1|panutua ibu]] [[$2|$3]].',
 );
 
 /** Macedonian (македонски)
