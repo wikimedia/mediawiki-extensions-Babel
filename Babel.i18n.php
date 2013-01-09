@@ -2823,13 +2823,14 @@ $messages['jv'] = array(
 
 /** Georgian (ქართული)
  * @author BRUTE
+ * @author David1010
  * @author Fina
  * @author Gela
  * @author Malafaya
  * @author Temuri rajavi
  */
 $messages['ka'] = array(
-	'babel' => 'Babel - ის მომხამრებლის ინფომრაცია',
+	'babel' => 'ბაბილონი - მომხმარებლის ინფორმაცია',
 	'babel-desc' => 'დაამატეთ  <code>#babel</code> პარსერის ფუნქცია  babel userbox ის სვეტის  ავტომატიურად შესაქმენლად, რომელსაც ექნება შესაძლებლობა მოიცვას  შაბლონები.',
 	'babel-url' => 'Project:ბაბილონი',
 	'babel-footer-url' => ':კატეგორია:მომხმარებლები ენების მიხედვით',
@@ -3879,6 +3880,7 @@ $messages['mi'] = array(
  * @author Naval Scene
  */
 $messages['min'] = array(
+	'babel-0' => 'Pangguno iko [[$1|indak]] mangarati [[$2|$3]] (atau payah bana mangaratinyo).',
 	'babel-1' => 'Pangguno iko punyo pangatauan [[$1|dasa]] bahaso [[$2|$3]].',
 	'babel-2' => 'Pangguno iko punyo pangatauan [[$1|manangah]] [[$2|$3]].',
 	'babel-3' => 'Pangguno iko punyo pangatauan [[$1|tinggi]] [[$2|$3]].',
