@@ -7110,6 +7110,7 @@ $messages['zh-tw'] = array(
 );
 
 /** Zulu (isiZulu)
+ * @author MF-Warburg
  * @author Mohau
  */
 $messages['zu'] = array(
@@ -7124,11 +7125,11 @@ $messages['zu'] = array(
 	'babel-5' => 'Lomsebenzisi unolwazi [[$1|lwesemfundo eliphephile]] lwe[[$2|$3]].',
 	'babel-N' => 'Lomsebenzisi [[$1|uzalwe]] ekhuluma [[$2|$3]].',
 	'babel-0-n' => 'Lomsebenzisi [[$1|akanalo noluncane]] ulwazi [[$2|lwesiNgisi]] (okanye kunzima kakhulu ukusiqondisisa).',
-	'babel-1-n' => 'Lomsebenzisi unolwazana [[$1|oluncane]] [[$2|lwesiNgisi]].',
-	'babel-2-n' => 'Lomsebenzisi  unolwazi [[$1|olungengakanani]] [[$2|lwesiNgisi]].',
-	'babel-3-n' => 'Lomsebenzisi unolwazi [[$1|oluningi]] [[$2|lwesiNgisi]].',
-	'babel-4-n' => 'Lomsebenzisi unolwazi [[$1|olucishe lufane nelomuntu ozalwe ekhuluma]] [[$2|lwesiNgisi]].',
-	'babel-5-n' => 'Lomsebenzisi unolwazi [[$1|lwesemfundo eliphephile]] [[$2|lwesiNgisi]].',
-	'babel-N-n' => 'Lomsebenzisi [[$1|uzalwe]] ekhuluma [[$2|lwsiNgisi]].',
+	'babel-1-n' => 'Lomsebenzisi unolwazana [[$1|oluncane]] [[$2|lwesiZulu]].',
+	'babel-2-n' => 'Lomsebenzisi  unolwazi [[$1|olungengakanani]] [[$2|lwesiZulu]].',
+	'babel-3-n' => 'Lomsebenzisi unolwazi [[$1|oluningi]] [[$2|lwesiZulu]].',
+	'babel-4-n' => 'Lomsebenzisi unolwazi [[$1|olucishe lufane nelomuntu ozalwe ekhuluma]] [[$2|lwesiZulu]].',
+	'babel-5-n' => 'Lomsebenzisi unolwazi [[$1|lwesemfundo eliphephile]] [[$2|lwesiZulu]].',
+	'babel-N-n' => 'Lomsebenzisi [[$1|uzalwe]] ekhuluma [[$2|lwsiZulu]].',
 	'babel-footer' => 'Abasebenzisi ngo limi',
 );
