@@ -128,7 +128,7 @@ $messages['ace'] = array(
 	'babel-N-n' => 'Ureuëng nguy nyoë nakeuh [[$1|ureuëng marit aseuli]] lam [[$2|bahsa Aceh]].',
 );
 
-/**    زَوُن (   زَوُن)
+/** Tunisian Spoken Arabic (   زَوُن)
  * @author Csisc
  */
 $messages['aeb'] = array(
@@ -675,7 +675,7 @@ $messages['bar'] = array(
 	'babel-footer' => 'Benutzer noch Sprooch',
 );
 
-/** Samogitian (žemaitėška)
+/** bat-smg (žemaitėška)
  * @author Purodha
  */
 $messages['bat-smg'] = array(
@@ -827,7 +827,7 @@ $messages['bg'] = array(
 	'babel-footer' => 'Потребители по език',
 );
 
-/** Bihari (भोजपुरी)
+/** bh (भोजपुरी)
  * @author Ganesh
  */
 $messages['bh'] = array(
@@ -4296,7 +4296,7 @@ $messages['nds'] = array(
 	'babel-N-n' => 'Disse Bruker hett [[$2|Plattdüütsch]] as [[$1|Moderspraak]].',
 );
 
-/** Nedersaksisch (Nedersaksisch)
+/** Nedersaksies (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
