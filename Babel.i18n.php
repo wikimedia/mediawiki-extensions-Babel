@@ -675,13 +675,6 @@ $messages['bar'] = array(
 	'babel-footer' => 'Benutzer noch Sprooch',
 );
 
-/** bat-smg (žemaitėška)
- * @author Purodha
- */
-$messages['bat-smg'] = array(
-	'babel-url' => 'Project:Babėliuons',
-);
-
 /** Southern Balochi (بلوچی مکرانی)
  * @author Mostafadaneshvar
  */
@@ -825,13 +818,6 @@ $messages['bg'] = array(
 	'babel-5-n' => '{{GENDER:$4|Този потребител|Тази потребителка}} има [[$1|професионални]] познания по [[$2|български език]].',
 	'babel-N-n' => 'За {{GENDER:$4|този потребител|тази потребителка}} [[$2|българският език]] се явява [[$1|роден]].',
 	'babel-footer' => 'Потребители по език',
-);
-
-/** bh (भोजपुरी)
- * @author Ganesh
- */
-$messages['bh'] = array(
-	'babel' => 'बैबेल प्रयोगकर्ता जानकारी',
 );
 
 /** Bhojpuri (भोजपुरी)
