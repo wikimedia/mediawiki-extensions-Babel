@@ -13,16 +13,16 @@ $messages = array();
  * @author Purodha
  */
 $messages['en'] = array(
-	'babel'      => 'Babel user information',
+	'babel' => 'Babel user information',
 	'babel-desc' => 'Adds the <code>#babel</code> parser function to allow automated generation of a babel userbox column with the ability to include custom templates',
-	'babel-url'  => 'Project:Babel',
-	'babel-footer-url'  => ':Category:Babel - Users by language',
+	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Users by language',
 
-	'babel-autocreate-abort'       => 'The username you specified is used for [[$1|Babel]] category auto-creation and cannot be registered.', // $1 is babel-url
-	'babel-autocreate-reason'      => 'Automatically creating [[$1|Babel]] category page.',
+	'babel-autocreate-abort' => 'The username you specified is used for [[$1|Babel]] category auto-creation and cannot be registered.', // $1 is babel-url
+	'babel-autocreate-reason' => 'Automatically creating [[$1|Babel]] category page.',
 	'babel-autocreate-text-levels' => 'Users in this category indicate they have skill level $1 for language $2.',
-	'babel-autocreate-text-main'   => 'Users in this category indicate they have knowledge of language $1.',
-	'babel-autocreate-user'        => 'Babel AutoCreate',
+	'babel-autocreate-text-main' => 'Users in this category indicate they have knowledge of language $1.',
+	'babel-autocreate-user' => 'Babel AutoCreate',
 
 	'babel-0' => 'This user has [[$1|no]] knowledge of [[$2|$3]] (or understands it with considerable difficulty).',
 	'babel-1' => 'This user has [[$1|basic]] knowledge of [[$2|$3]].',
@@ -45,7 +45,7 @@ $messages['en'] = array(
 	'babel-cellspacing' => '0', # Do not translate or duplicate this message to other languages.
 	'babel-cellpadding' => '0', # Do not translate or duplicate this message to other languages.
 
-	'babel-portal'   => '', # Do not translate or duplicate this message to other languages.
+	'babel-portal' => '', # Do not translate or duplicate this message to other languages.
 	'babel-template' => 'Template:User $1', # Optional.
 
 	'babel-footer' => 'Users by language',

@@ -89,7 +89,7 @@ class Babel {
 		} else {
 			$top = $top->text();
 			$url = wfMessage( 'babel-url' )->inContentLanguage();
-			if ( ! $url->isDisabled() ) {
+			if ( !$url->isDisabled() ) {
 				$top = '[[' . $url->text() . '|' . $top . ']]';
 			}
 			$top = '! class="mw-babel-header" | ' . $top;
@@ -105,9 +105,9 @@ class Babel {
 		$padding = Babel::mCssAttrib( 'padding', 'babel-box-cellpadding', true );
 		$style = '';
 		if ( $spacing === '' ) {
-			$style = ($padding === '') ? '' : ('style="' . $padding . '"');
+			$style = ( $padding === '' ) ? '' : ( 'style="' . $padding . '"' );
 		} else {
-			$style = ($padding === '') ? 'style="' . $spacing . '"' : 'style="' . $padding . ' ' . $spacing . '"';
+			$style = ( $padding === '' ) ? 'style="' . $spacing . '"' : 'style="' . $padding . ' ' . $spacing . '"';
 		}
 
 		$tower = <<<EOT
@@ -193,7 +193,7 @@ EOT;
 			wfProfileOut( __METHOD__ );
 			return false;
 		}
-		$code  = substr( $parameter, 0, $lastSplit );
+		$code = substr( $parameter, 0, $lastSplit );
 		$level = substr( $parameter, $lastSplit + 1 );
 
 		$babelcode = $strtolower ? strtolower( $code ) : $code;
@@ -237,7 +237,7 @@ EOT;
 	 */
 	protected static function mGenerateBox( $code, $level ) {
 		wfProfileIn( __METHOD__ );
-		$lang =  wfBCP47( $code );
+		$lang = wfBCP47( $code );
 		$portal = wfMessage( 'babel-portal', $code )->inContentLanguage()->plain();
 		if ( $portal !== '' ) {
 			$portal = "[[$portal|$lang]]";
@@ -257,9 +257,9 @@ EOT;
 		$padding = Babel::mCssAttrib( 'padding', 'babel-cellpadding', true );
 		$style = '';
 		if ( $spacing === '' ) {
-			$style = ($padding === '') ? '' : ('style="' . $padding . '"');
+			$style = ( $padding === '' ) ? '' : ( 'style="' . $padding . '"' );
 		} else {
-			$style = ($padding === '') ? 'style="' . $spacing . '"' : 'style="' . $padding . ' ' . $spacing . '"';
+			$style = ( $padding === '' ) ? 'style="' . $spacing . '"' : 'style="' . $padding . ' ' . $spacing . '"';
 		}
 
 		$dir_head = self::$title->getPageLanguage()->getDir();
@@ -389,7 +389,7 @@ EOT;
 			$value = '';
 		} else {
 			$value = htmlentities( $value->text(), ENT_COMPAT, 'UTF-8' );
-			if ($assumeNumbersArePixels && is_numeric($value) && $value !== "0") {
+			if ( $assumeNumbersArePixels && is_numeric( $value ) && $value !== "0" ) {
 				//Compatibility: previous babel-box-cellpadding and
 				//babel-box-cellspacing entries were in HTML, not CSS
 				//and so used numbers without unity as pixels.
@@ -415,7 +415,7 @@ EOT;
 			$value = '';
 		} else {
 			$value = ' ' . $name . '="' . htmlentities( $value->text(), ENT_COMPAT, 'UTF-8' ) .
-						'"'; // must get rid of > and " inside value
+				'"'; // must get rid of > and " inside value
 		}
 		return $value;
 	}
@@ -478,12 +478,16 @@ EOT;
 			// filter down the set, note that this uses a text sort!
 			$result = array_filter(
 				$result,
-				function( $value ) use ( $level ) { return ( strcmp( $value, $level ) >= 0 ); }
+				function ( $value ) use ( $level ) {
+					return ( strcmp( $value, $level ) >= 0 );
+				}
 			);
 			// sort and retain keys
-			uasort (
+			uasort(
 				$result,
-				function( $a, $b ) { return -strcmp( $a, $b ); }
+				function ( $a, $b ) {
+					return -strcmp( $a, $b );
+				}
 			);
 		}
 

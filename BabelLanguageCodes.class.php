@@ -38,7 +38,7 @@ class BabelLanguageCodes {
 
 	/**
 	 * Take a code as input, and search a language name for it in
-	 * a given language via Language::fetchLanguageNames() or 
+	 * a given language via Language::fetchLanguageNames() or
 	 * else via the Babel language names CDB
 	 *
 	 * @param $code String: Code to get name for.

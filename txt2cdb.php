@@ -25,7 +25,9 @@ while ( $line = fgets( $fr ) ) {
 	$name = substr( trim( $line[2] ), 1, -1 );
 	if ( $iso1 !== '-' ) {
 		$codes->set( $iso1, $iso1 );
-		if ( $iso3 !== '-' ) $codes->set( $iso3, $iso1 );
+		if ( $iso3 !== '-' ) {
+			$codes->set( $iso3, $iso1 );
+		}
 		$names->set( $iso1, $name );
 		$names->set( $iso3, $name );
 	} elseif ( $iso3 !== '-' ) {

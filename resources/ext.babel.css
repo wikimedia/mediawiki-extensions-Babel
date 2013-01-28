@@ -10,10 +10,10 @@
 
 /* Babel wrapper layout. */
 /* @noflip */table.mw-babel-wrapper {
-	width:        238px;
-	float:        right;
-	clear:        right;
-	margin:       1em;
+	width: 238px;
+	float: right;
+	clear: right;
+	margin: 1em;
 	background-color: white;
 	border: 1px solid #99B3FF;
 }
@@ -29,8 +29,8 @@
 
 /* Babel box layout */
 /* @noflip */div.mw-babel-box {
-	float:  left;
-	clear:  left;
+	float: left;
+	clear: left;
 	margin: 1px;
 }
 
@@ -38,6 +38,7 @@
 	float: left;
 	clear: left;
 }
+
 /* @noflip */.mw-content-rtl table.mw-babel-box {
 	float: right;
 	clear: right;
@@ -48,15 +49,15 @@ div.mw-babel-box table {
 }
 
 div.mw-babel-box table th {
-	width:       45px;
-	height:      45px;
-	font-size:   14pt;
+	width: 45px;
+	height: 45px;
+	font-size: 14pt;
 	font-family: monospace;
 }
 
 div.mw-babel-box table td {
-	font-size:   8pt;
-	padding:     4pt;
+	font-size: 8pt;
+	padding: 4pt;
 	line-height: 1.25em;
 }
 
@@ -113,7 +114,7 @@ div.mw-babel-box-5 table th {
 	background-color: #CCCC00;
 }
 
-div.mw-babel-box-N table th{
+div.mw-babel-box-N table th {
 	background-color: #6EF7A7;
 }
 
@@ -150,6 +151,7 @@ div.mw-babel-box-N table {
 	text-align: center;
 	font-weight: bold;
 }
+
 .mw.babel-box th.mw-babel-footer {
 	text-align: center;
 	font-weight: normal;

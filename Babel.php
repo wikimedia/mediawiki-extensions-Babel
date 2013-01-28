@@ -15,29 +15,31 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
-if ( !defined( 'MEDIAWIKI' ) ) die( 'Invalid entry point.' );
+if ( !defined( 'MEDIAWIKI' ) ) {
+	die( 'Invalid entry point.' );
+}
 
 $wgExtensionCredits['parserhook'][] = array(
-	'path'            => __FILE__,
-	'name'            => 'Babel',
-	'version'         => '1.8.0',
-	'author'          => 'Robert Leverington',
-	'url'             => 'https://www.mediawiki.org/wiki/Extension:Babel',
-	'descriptionmsg'  => 'babel-desc',
+	'path' => __FILE__,
+	'name' => 'Babel',
+	'version' => '1.8.1',
+	'author' => 'Robert Leverington',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:Babel',
+	'descriptionmsg' => 'babel-desc',
 );
 
 $wgHooks['ParserFirstCallInit'][] = 'BabelStatic::onParserFirstCallInit';
-$wgHooks['AbortNewAccount'][]     = 'BabelAutoCreate::onAbortNewAccount';
+$wgHooks['AbortNewAccount'][] = 'BabelAutoCreate::onAbortNewAccount';
 
 $dir = __DIR__ . '/';
 
-$wgExtensionMessagesFiles['Babel']      = $dir . 'Babel.i18n.php';
+$wgExtensionMessagesFiles['Babel'] = $dir . 'Babel.i18n.php';
 $wgExtensionMessagesFiles['BabelMagic'] = $dir . 'Babel.i18n.magic.php';
 
-$wgAutoloadClasses['Babel']              = $dir . 'Babel.class.php';
+$wgAutoloadClasses['Babel'] = $dir . 'Babel.class.php';
 $wgAutoloadClasses['BabelLanguageCodes'] = $dir . 'BabelLanguageCodes.class.php';
-$wgAutoloadClasses['BabelStatic']        = $dir . 'BabelStatic.class.php';
-$wgAutoloadClasses['BabelAutoCreate']    = $dir . 'BabelAutoCreate.class.php';
+$wgAutoloadClasses['BabelStatic'] = $dir . 'BabelStatic.class.php';
+$wgAutoloadClasses['BabelAutoCreate'] = $dir . 'BabelAutoCreate.class.php';
 
 $wgResourceModules['ext.babel'] = array(
 	'styles' => 'resources/ext.babel.css',
@@ -47,8 +49,8 @@ $wgResourceModules['ext.babel'] = array(
 
 // Configuration setttings.
 // Language names and codes constant database files, the defaults should suffice.
-$wgBabelLanguageCodesCdb     = $dir . 'codes.cdb';
-$wgBabelLanguageNamesCdb     = $dir . 'names.cdb';
+$wgBabelLanguageCodesCdb = $dir . 'codes.cdb';
+$wgBabelLanguageNamesCdb = $dir . 'names.cdb';
 // Array of possible levels, and their category name - variables: %code% %wikiname% %nativename%
 // Set to false to disable categories for a particular level.
 // Alphabetical levels should be in upper case.
