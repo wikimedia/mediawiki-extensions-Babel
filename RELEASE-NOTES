@@ -1,0 +1,4 @@
+== Babel 2013.01 ==
+Released at 2013-01-31.
+
+A function Babel::getUserLanguages() was added to get the user languages (bug 42326).
