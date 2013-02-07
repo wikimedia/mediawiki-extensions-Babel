@@ -103,6 +103,11 @@ $magicWords['tr'] = array(
 	'babel' => array( 0, 'babil' ),
 );
 
+/** Tuvinian (тыва дыл) */
+$magicWords['tyv'] = array(
+	'babel' => array( 0, 'вавилон' ),
+);
+
 /** Ukrainian (українська) */
 $magicWords['uk'] = array(
 	'babel' => array( 0, 'вавилон', 'вавілон' ),

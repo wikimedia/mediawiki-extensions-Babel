@@ -3218,6 +3218,7 @@ $messages['ky'] = array(
 
 /** Latin (Latina)
  * @author John Vandenberg
+ * @author Kaganer
  * @author OrbiliusMagister
  * @author Purodha
  * @author SPQRobin
@@ -3235,14 +3236,14 @@ $messages['la'] = array(
 	'babel-autocreate-text-main' => 'Usores in hac categoria inclusi nuntiant se contribuere posse cum lingua $1',
 	'babel-autocreate-user' => 'Babel AutoCreator',
 	'babel-0' => 'Hic usor [[$1|nullo pacto]] aut aegre [[$2|$3]] contribuere potest.',
-	'babel-1' => 'Hic usor [[$1|simplice]] [[$2|$3]] contribuere potest.',
+	'babel-1' => 'Hic usor [[$1|simplici]] [[$2|$3]] contribuere potest.',
 	'babel-2' => 'Hic usor [[$1|media]] [[$2|$3]] contribuere potest.',
 	'babel-3' => 'Hic usor [[$1|callidissima]] [[$2|$3]] contribuere potest.',
 	'babel-4' => 'Hic usor [[$1|tamquam nativus loquens]] [[$2|$3]] contribuere potest',
 	'babel-5' => 'Hic usor [[$1|magistrali]] [[$2|$3]] contribuere potest.',
 	'babel-N' => 'Hic usor [[$1|native]] [[$2|$3]] loquitur.',
 	'babel-0-n' => 'Hic usor [[$1|nullo pacto]] aut aegre [[$2|Latinitate]] contribuere potest.',
-	'babel-1-n' => 'Hic usor [[$1|simplici]] [[$2|Latinitate]] contribuere potest.',
+	'babel-1-n' => 'Hic usor [[$1|simplici]] [[$2|latinitate]] contribuere potest.',
 	'babel-2-n' => 'Hic usor [[$1|media]] [[$2|Latinitate]] contribuere potest.',
 	'babel-3-n' => 'Hic usor [[$1|callidissima]] [[$2|Latinitate]] contribuere potest.',
 	'babel-4-n' => 'Hic usor regulas grammaticas observans [[$1|optima]] [[$2|Latinitate]] scribere (et interdum loqui) scit.',
