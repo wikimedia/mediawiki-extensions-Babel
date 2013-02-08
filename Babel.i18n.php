@@ -3864,16 +3864,21 @@ $messages['mi'] = array(
 );
 
 /** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
  * @author Naval Scene
  */
 $messages['min'] = array(
-	'babel-0' => 'Pangguno iko [[$1|indak]] mangarati [[$2|$3]] (atau payah bana mangaratinyo).',
-	'babel-1' => 'Pangguno iko punyo pangatauan [[$1|dasa]] bahaso [[$2|$3]].',
-	'babel-2' => 'Pangguno iko punyo pangatauan [[$1|manangah]] [[$2|$3]].',
-	'babel-3' => 'Pangguno iko punyo pangatauan [[$1|tinggi]] [[$2|$3]].',
-	'babel-4' => 'Pangguno iko punyo pangatauan [[$1|mandakeki panutua ibu]] [[$2|$3]].',
-	'babel-5' => 'Pangguno iko punyo pangatauan [[$1|profesional]] [[$2|$3]].',
-	'babel-N' => 'Pangguno iko adolah [[$1|panutua ibu]] [[$2|$3]].',
+	'babel' => 'Informasi bahaso pangguno',
+	'babel-footer-url' => ':Kategori:Pagguno manuruik bahaso',
+	'babel-autocreate-reason' => 'Otomatis mambuek laman kategori [[$1|Babel]].',
+	'babel-0' => 'Pangguno ko [[$1|indak]] mangarati [[$2|$3]] (atau payah bana mangaratinyo).',
+	'babel-1' => 'Pangguno ko lai tau [[$1|sangenek]] jo [[$2|$3]].',
+	'babel-2' => 'Pangguno ko mangarati [[$2|$3]] [[$1|sadang elok]].',
+	'babel-3' => 'Pangguno ko lai mangarati [[$1|bana]] [[$2|$3]].',
+	'babel-4' => 'Pangguno ko mangarati [[$2|$3]] saroman [[$1|urang Minang]].',
+	'babel-5' => 'Pangguno ko [[$1|ahli]] [[$2|$3]].',
+	'babel-N' => 'Pangguno ko [[$1|mangecek]] jo [[$2|$3]].',
+	'babel-footer' => 'Pangguno badasarkan bahaso',
 );
 
 /** Macedonian (македонски)
