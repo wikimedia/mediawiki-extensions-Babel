@@ -1521,7 +1521,7 @@ $messages['eo'] = array(
  */
 $messages['es'] = array(
 	'babel' => 'Información de idiomas de usuario',
-	'babel-desc' => 'Añade la función analítica<code>#babel</code> para permitir la generación automática de una caja de usuario (userboxe) «babel» con la posibilidad de incluir plantillas personalizadas',
+	'babel-desc' => 'Añade la función del analizador <code>#babel</code> para permitir la generación automática de una caja de usuario (userbox) «babel» con la posibilidad de incluir plantillas personalizadas',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Usuarios por idioma',
 	'babel-autocreate-abort' => 'El nombre de usuario especificado es usado para la creación automática de categorías [[$1|Babel]] y no puede registrarse.',
