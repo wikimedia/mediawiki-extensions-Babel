@@ -67,8 +67,8 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'babel' => 'Header of Babel box. Parameter $1 is the name of the page it is used on, for GENDER support.',
 	'babel-desc' => '{{desc|name=Babel|url=http://www.mediawiki.org/wiki/Extension:Babel}}',
-	'babel-url' => 'The page name at which more information about the babel system can be found.
-Do not translate the namespace <code>Project:</code>.',
+	'babel-url' => '{{doc-important|Do not translate the namespace "<code>Project:</code>".}}
+The page name at which more information about the babel system can be found.',
 	'babel-footer-url' => 'Unless this messge is empty, this is used as link target in the last entry,
 also known as the footer, of the outer Babel-box,
 provided that the installation chooses to have a footer.
