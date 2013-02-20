@@ -5165,6 +5165,7 @@ $messages['roa-tara'] = array(
  * @author EugeneZelenko
  * @author Express2000
  * @author Ferrer
+ * @author Gleb Borisov
  * @author Spiritia
  * @author Александр Сигачёв
  */
@@ -5172,7 +5173,7 @@ $messages['ru'] = array(
 	'babel' => 'Сведения о языках участников (Вавилон)',
 	'babel-desc' => 'Добавляет функцию парсера <code>#babel</code>, позволяющую автоматически создавать колонку с информацией о языках с возможностью включения других шаблонов',
 	'babel-url' => 'Project:Вавилон',
-	'babel-footer-url' => ':Category:Вавилон — участники по языкам',
+	'babel-footer-url' => ':Category:Project:Участники по языкам',
 	'babel-autocreate-abort' => 'Указанное имя участника используется для автоматического создания категорий [[$1|Вавилон]] и не может быть зарегистрировано.',
 	'babel-autocreate-reason' => 'Автоматическое создание страницы категории [[$1|Вавилон]].',
 	'babel-autocreate-text-levels' => 'Участники из этой категории указали уровень знаний $1 для языка $2.',
