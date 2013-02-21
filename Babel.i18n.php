@@ -3869,7 +3869,7 @@ $messages['mi'] = array(
  */
 $messages['min'] = array(
 	'babel' => 'Informasi bahaso pangguno',
-	'babel-footer-url' => ':Kategori:Pagguno manuruik bahaso',
+	'babel-footer-url' => ':Kategori:Pangguno manuruik bahaso',
 	'babel-autocreate-reason' => 'Otomatis mambuek laman kategori [[$1|Babel]].',
 	'babel-0' => 'Pangguno ko [[$1|indak]] mangarati [[$2|$3]] (atau payah bana mangaratinyo).',
 	'babel-1' => 'Pangguno ko lai tau [[$1|sangenek]] jo [[$2|$3]].',
