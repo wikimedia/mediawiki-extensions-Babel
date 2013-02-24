@@ -3869,8 +3869,14 @@ $messages['mi'] = array(
  */
 $messages['min'] = array(
 	'babel' => 'Informasi bahaso pangguno',
+	'babel-desc' => 'Menambah fungsi parser <code>#babel</code> untuak manampilkan kotak pangguno babel sacaro otomatis jo kamampuan manggunoan templat buatan',
+	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Kategori:Pangguno manuruik bahaso',
+	'babel-autocreate-abort' => 'Namo pangguno Sanak digunoan untuak mambuek kategori [[$1|Babel]] otomatis dan indak dapek didaftakan.',
 	'babel-autocreate-reason' => 'Otomatis mambuek laman kategori [[$1|Babel]].',
+	'babel-autocreate-text-levels' => 'Pangguno di kategori ko manandoan punyo kamampuan $1 untuak bahaso $2.',
+	'babel-autocreate-text-main' => 'Pangguno di kategori ko punyo kamampuan babahaso $1.',
+	'babel-autocreate-user' => 'Otomatis mambuek Babel',
 	'babel-0' => 'Pangguno ko [[$1|indak]] mangarati [[$2|$3]] (atau payah bana mangaratinyo).',
 	'babel-1' => 'Pangguno ko lai tau [[$1|sangenek]] jo [[$2|$3]].',
 	'babel-2' => 'Pangguno ko mangarati [[$2|$3]] [[$1|sadang elok]].',
@@ -3878,6 +3884,14 @@ $messages['min'] = array(
 	'babel-4' => 'Pangguno ko mangarati [[$2|$3]] saroman [[$1|urang Minang]].',
 	'babel-5' => 'Pangguno ko [[$1|ahli]] [[$2|$3]].',
 	'babel-N' => 'Pangguno ko [[$1|mangecek]] jo [[$2|$3]].',
+	'babel-0-n' => 'Pangguno ko [[$1|indak]] mangarati bahado [[$2|Inggrih]] (atau payah bana mangaratinyo).',
+	'babel-1-n' => 'Pangguno ko lai tau [[$1|sangenek]] jo bahaso [[$2|Inggrih]].',
+	'babel-2-n' => 'Pangguno ko mangarati bahaso [[$2|Inggrih]] [[$1|sadang elok]].',
+	'babel-3-n' => 'Pangguno ko mangarati [[$1|bana]] bahaso [[$2|Inggrih]].',
+	'babel-4-n' => 'Pangguno ko mangarati bahaso [[$2|Inggrih]] saroman [[$1|urang Inggrih]].',
+	'babel-5-n' => 'Pangguno ko [[$1|ahli]] bahaso [[$2|Inggrih]].',
+	'babel-N-n' => 'Pangguno ko [[$1|mangecek]] jo bahaso [[$2|Inggrih]].',
+	'babel-template' => 'Templat:User $1',
 	'babel-footer' => 'Pangguno badasarkan bahaso',
 );
 
