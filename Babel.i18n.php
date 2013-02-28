@@ -120,12 +120,15 @@ This message contains the template schema for additional templates that can be u
 );
 
 /** Achinese (Acèh)
+ * @author Iwan Novirion
  * @author Si Gam Acèh
  */
 $messages['ace'] = array(
+	'babel-autocreate-user' => 'Babel AutoCreate',
 	'babel-0' => 'Ureuëng nguy nyoë [[$1|hana]] muphôm [[$2|$3]] (atawa cit ngön payah that).',
 	'babel-N' => 'Ureuëng nguy nyoë nakeuh [[$1|geumarit aseuli]] lam bahsa [[$2|$3]].',
 	'babel-N-n' => 'Ureuëng nguy nyoë nakeuh [[$1|ureuëng marit aseuli]] lam [[$2|bahsa Aceh]].',
+	'babel-template' => 'Template:User $1',
 );
 
 /** Tunisian Spoken Arabic (   زَوُن)
@@ -1307,6 +1310,7 @@ $messages['da'] = array(
 /** German (Deutsch)
  * @author ChrisiPK
  * @author Forrester
+ * @author Iwan Novirion
  * @author Kghbln
  * @author Metalhead64
  * @author Purodha
@@ -1324,6 +1328,7 @@ $messages['de'] = array(
 	'babel-autocreate-reason' => 'Erstelle automatisch die [[$1|Babel]]-Kategorie.',
 	'babel-autocreate-text-levels' => 'Benutzer in dieser Kategorie haben Kenntnisse der Stufe $1 in der Sprache $2.',
 	'babel-autocreate-text-main' => 'Benutzer in dieser Kategorie haben Kenntnisse der Sprache $1.',
+	'babel-autocreate-user' => 'Babel AutoCreate',
 	'babel-0' => '{{GENDER:$4|Dieser Benutzer|Dieser Benutzerin|Dieser Benutzer}} beherrscht [[$2|$3]] [[$1|nicht]] (oder versteht es nur mit beträchtlichen Schwierigkeiten).',
 	'babel-1' => '{{GENDER:$4|Dieser Benutzer|Diese Benutzerin|Dieser Benutzer}} beherrscht [[$2|$3]] auf [[$1|grundlegendem]] Niveau.',
 	'babel-2' => '{{GENDER:$4|Dieser Benutzer|Diese Benutzerin|Dieser Benutzer}} beherrscht [[$2|$3]] auf [[$1|fortgeschrittenem]] Niveau.',
@@ -1338,6 +1343,7 @@ $messages['de'] = array(
 	'babel-4-n' => '{{GENDER:$4|Dieser Benutzer|Diese Benutzerin|Dieser Benutzer}} beherrscht [[$2|Deutsch]] auf [[$1|muttersprachlichem Niveau]].',
 	'babel-5-n' => '{{GENDER:$4|Dieser Benutzer|Diese Benutzerin|Dieser Benutzer}} beherrscht [[$2|Deutsch]] auf [[$1|professionellem]] Niveau.',
 	'babel-N-n' => '{{GENDER:$4|Dieser Benutzer|Diese Benutzerin|Dieser Benutzer}} spricht [[$2|Deutsch]] als [[$1|Muttersprache]].',
+	'babel-template' => 'Template:User $1',
 	'babel-footer' => 'Benutzer nach Sprache',
 );
 
@@ -2505,6 +2511,7 @@ $messages['ia'] = array(
  * @author Aldnonymous
  * @author Bennylin
  * @author IvanLanin
+ * @author Iwan Novirion
  * @author Meursault2004
  * @author Rex
  */
@@ -2512,11 +2519,12 @@ $messages['id'] = array(
 	'babel' => 'Informasi pengguna Babel',
 	'babel-desc' => 'Menambahkan fungsi parser <code>#babel</code> untuk menampilkan kolom kotak pengguna babel secara otomatis dengan kemampuan menggunakan templat yang dikustomisasi',
 	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => ':Kategori:Pengguna menurut bahasa',
+	'babel-footer-url' => ':Category:Babel - Pengguna menurut bahasa',
 	'babel-autocreate-abort' => 'Nama pengguna yang Anda masukkan digunakan untuk pembuatan otomatis kategori [[$1|Babel]] dan tidak dapat didaftarkan.',
 	'babel-autocreate-reason' => 'Otomatis membuat halaman kategori [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Pengguna di kategori ini menandakan mereka memiliki kemampuan $1 untuk bahasa $2.',
 	'babel-autocreate-text-main' => 'Pengguna di kategori ini menandakan mereka memiliki kemampuan berbahasa $1.',
+	'babel-autocreate-user' => 'Babel AutoCreate',
 	'babel-0' => 'Pengguna ini [[$1|tidak]] mengerti [[$2|$3]] (atau hanya dengan sangat sulit).',
 	'babel-1' => 'Pengguna ini mampu bersumbangsih dengan [[$2|$3]] tingkat [[$1|dasar]].',
 	'babel-2' => 'Pengguna ini mampu bersumbangsih dengan [[$2|$3]] tingkat [[$1|menengah]].',
@@ -2531,6 +2539,7 @@ $messages['id'] = array(
 	'babel-4-n' => 'Pengguna ini mampu bersumbangsih dengan [[$2|bahasa Indonesia]] [[$1|mendekati penutur ibu]].',
 	'babel-5-n' => 'Pengguna ini memiliki pengetahuan [[$1|profesional]] [[$2|bahasa Indonesia]].',
 	'babel-N-n' => 'Pengguna ini adalah [[$1|penutur ibu]] [[$2|bahasa Indonesia]].',
+	'babel-template' => 'Template:User $1',
 	'babel-footer' => 'Pengguna berdasarkan bahasa',
 );
 
@@ -2777,6 +2786,7 @@ $messages['jbo'] = array(
 );
 
 /** Javanese (Basa Jawa)
+ * @author Iwan Novirion
  * @author Malafaya
  * @author Meursault2004
  * @author NoiX180
@@ -2790,6 +2800,7 @@ $messages['jv'] = array(
 	'babel-autocreate-reason' => 'Otomatis nggawé kaca katègori [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Panganggo saka katégori iki dianggep nduwèni kawruh basa $2 undhak $1.',
 	'babel-autocreate-text-main' => 'Panganggo saka katégori iki dianggep nduwèni kawruh basa $1.',
+	'babel-autocreate-user' => 'Babel AutoCreate',
 	'babel-0' => 'Panganggo iki [[$1|ora]] duwé kawruh [[$2|$3]] (utawa angèl banget mangertèni).',
 	'babel-1' => 'Panganggo iki duwé kawruh [[$1|dhasar]] [[$2|$3]].',
 	'babel-2' => 'Panganggo iki duwé kawruh [[$1|madya]] [[$2|$3]].',
@@ -2804,6 +2815,7 @@ $messages['jv'] = array(
 	'babel-4-n' => 'Panganggo iki duwé kawruh [[$1|sing nyedhaki panutur ibu]] saka [[$2|basa Jawa]].',
 	'babel-5-n' => 'Panganggo iki duwé kawruh [[$1|profésional]] [[$2|basa Jawa]].',
 	'babel-N-n' => 'Panganggo iki [[$1|panutur ibu]] [[$2|basa Jawa]].',
+	'babel-template' => 'Template:User $1',
 	'babel-footer' => 'Panganggo miturut basané',
 );
 
@@ -3871,7 +3883,7 @@ $messages['min'] = array(
 	'babel' => 'Informasi bahaso pangguno',
 	'babel-desc' => 'Menambah fungsi parser <code>#babel</code> untuak manampilkan kotak pangguno babel sacaro otomatis jo kamampuan manggunoan templat buatan',
 	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => ':Category:Pangguno manuruik bahaso',
+	'babel-footer-url' => ':Category:Babel - Pangguno manuruik bahaso',
 	'babel-autocreate-abort' => 'Namo pangguno Sanak digunoan untuak mambuek kategori [[$1|Babel]] otomatis dan indak dapek didaftakan.',
 	'babel-autocreate-reason' => 'Otomatis mambuek laman kategori [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Pangguno di kategori ko manandoan punyo kamampuan $1 untuak bahaso $2.',
