@@ -4076,17 +4076,19 @@ $messages['mr'] = array(
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  * @author Aviator
+ * @author Iwan Novirion
  * @author Kurniasan
  */
 $messages['ms'] = array(
 	'babel' => 'Maklumat bahasa pengguna',
 	'babel-desc' => 'Menambah fungsi penghurai <code>#babel</code> untuk membolehkan penjanaan automatik kotak bahasa pengguna dan tempahan templat',
-	'babel-url' => 'Project:Bahasa',
+	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Pengguna mengikut bahasa',
 	'babel-autocreate-abort' => 'Nama pengguna yang anda nyatakan telah ditempah untuk penciptaan automatik kategori [[$1|Bahasa]] dan tidak boleh didaftarkan.',
 	'babel-autocreate-reason' => 'Mencipta laman kategori [[$1|Bahasa]] secara automatik.',
 	'babel-autocreate-text-levels' => 'Pengguna yang tergolong dalam kategori ini mengisyaratkan bahawa mereka memiliki kemahiran aras $1 dalam bahasa $2.',
 	'babel-autocreate-text-main' => 'Pengguna yang tergolong dalam kategori ini mengisyaratkan bahawa mereka memiliki pengetahuan dalam bahasa $1.',
+	'babel-autocreate-user' => 'Babel AutoCreate',
 	'babel-0' => 'Pengguna ini [[$1|tidak mampu]] bertutur dalam (atau sukar memahami) [[$2|$3]].',
 	'babel-1' => 'Pengguna ini memiliki kemahiran [[$1|asas]] dalam [[$2|$3]].',
 	'babel-2' => 'Pengguna ini memiliki kemahiran [[$1|sederhana]] dalam [[$2|$3]].',
@@ -4101,6 +4103,7 @@ $messages['ms'] = array(
 	'babel-4-n' => 'Pengguna ini memiliki kemahiran [[$1|hampir sempurna]] dalam [[$2|bahasa Melayu]].',
 	'babel-5-n' => 'Pengguna ini memiliki kemahiran [[$1|profesional]] dalam [[$2|bahasa Melayu]].',
 	'babel-N-n' => 'Pengguna ini adalah penutur [[$1|asli]] [[$2|bahasa Melayu]].',
+	'babel-template' => 'Template:Pengguna $1',
 	'babel-footer' => 'Pengguna mengikut bahasa',
 );
 
@@ -6433,24 +6436,25 @@ $messages['uk'] = array(
 	'babel-desc' => 'Додає функцію парсера <code>#babel</code>, яка дозволяє автоматично створювати стовпець про володіння мовами з можливістю включення інших шаблонів',
 	'babel-url' => 'Project:Вавилон',
 	'babel-footer-url' => ':Category:Користувачі за мовою',
-	'babel-autocreate-abort' => "Зазначене ім'я учасника використовується для автоматичного створення категорій [[$1|Вавилон]] і не може бути зареєстровано.",
+	'babel-autocreate-abort' => "Зазначене ім'я користувача використовується для автоматичного створення категорій [[$1|Вавилон]] і не може бути зареєстровано.",
 	'babel-autocreate-reason' => 'Автоматичне створення сторінки категорії [[$1|Вавилон]].',
-	'babel-autocreate-text-levels' => 'Учасники із цієї категорії вказали рівень знань $1 для мови $2.',
-	'babel-autocreate-text-main' => 'Учасники в цій категорії вказали знання мови $1.',
-	'babel-0' => 'Цей користувач [[$1|не володіє]] [[$2|$3]] (або розуміє її дуже погано).',
-	'babel-1' => 'Цей користувач володіє [[$2|$3]] на [[$1|початковому рівні]].',
-	'babel-2' => 'Цей користувач володіє [[$2|$3]] на [[$1|середньому рівні]].',
-	'babel-3' => 'Цей користувач володіє [[$2|$3]] на [[$1|високому рівні]].',
-	'babel-4' => 'Цей користувач володіє [[$2|$3]] майже [[$1|як рідною]].',
-	'babel-5' => 'Цей користувач [[$1|професійно]] володіє [[$2|$3]].',
-	'babel-N' => 'Для цього користувача [[$2|$3]] є [[$1|рідною]].',
-	'babel-0-n' => 'Цей користувач [[$1|не володіє]] [[$2|українською мовою]] (або розуміє її дуже погано).',
-	'babel-1-n' => 'Цей користувач володіє [[$2|українською мовою]] на [[$1|початковому рівні]].',
-	'babel-2-n' => 'Цей користувач володіє [[$2|українською мовою]] на [[$1|середньому рівні]].',
-	'babel-3-n' => 'Цей користувач володіє [[$2|українською мовою]] на [[$1|високому рівні]].',
-	'babel-4-n' => 'Цей користувач володіє [[$2|українською мовою]] майже [[$1|як рідною]].',
-	'babel-5-n' => 'Цей користувач [[$1|професійно]] володіє [[$2|українською мовою]].',
-	'babel-N-n' => 'Для цього користувача [[$2|українська мова]] є [[$1|рідною]].',
+	'babel-autocreate-text-levels' => 'Користувачі із цієї категорії вказали рівень знань $1 для мови $2.',
+	'babel-autocreate-text-main' => 'Користувачі в цій категорії вказали знання мови $1.',
+	'babel-0' => '{{GENDER:$4|Цей користувач|Ця користувачка}} [[$1|не володіє]] [[$2|$3]] (або розуміє її дуже погано).',
+	'babel-1' => '{{GENDER:$4|Цей користувач|Ця користувачка}} володіє [[$2|$3]] на [[$1|початковому рівні]].',
+	'babel-2' => '{{GENDER:$4|Цей користувач|Ця користувачка}} володіє [[$2|$3]] на [[$1|середньому рівні]].',
+	'babel-3' => '{{GENDER:$4|Цей користувач|Ця користувачка}} володіє [[$2|$3]] на [[$1|високому рівні]].',
+	'babel-4' => '{{GENDER:$4|Цей користувач|Ця користувачка}} володіє [[$2|$3]] майже [[$1|як рідною]].',
+	'babel-5' => '{{GENDER:$4|Цей користувач|Ця користувачка}} [[$1|професійно]] володіє [[$2|$3]].',
+	'babel-N' => 'Для {{GENDER:$4|цього користувача|цієї користувачки}} [[$2|$3]] є [[$1|рідною]].',
+	'babel-0-n' => '{{GENDER:$4|Цей користувач|Ця користувачка}} [[$1|не володіє]] [[$2|українською мовою]] (або розуміє її дуже погано).',
+	'babel-1-n' => '{{GENDER:$4|Цей користувач|Ця користувачка}} володіє [[$2|українською мовою]] на [[$1|початковому рівні]].',
+	'babel-2-n' => '{{GENDER:$4|Цей користувач|Ця користувачка}} володіє [[$2|українською мовою]] на [[$1|середньому рівні]].',
+	'babel-3-n' => '{{GENDER:$4|Цей користувач|Ця користувачка}} володіє [[$2|українською мовою]] на [[$1|високому рівні]].',
+	'babel-4-n' => '{{GENDER:$4|Цей користувач|Ця користувачка}} володіє [[$2|українською мовою]] майже [[$1|як рідною]].',
+	'babel-5-n' => '{{GENDER:$4|Цей користувач|Ця користувачка}} [[$1|професійно]] володіє [[$2|українською мовою]].',
+	'babel-N-n' => 'Для {{GENDER:$4|цього користувача|цієї користувачки}} [[$2|українська мова]] є [[$1|рідною]].',
+	'babel-template' => 'Template:User $1',
 	'babel-footer' => 'Користувачі за мовою',
 );
 
