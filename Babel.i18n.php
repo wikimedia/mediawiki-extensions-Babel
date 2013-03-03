@@ -4406,6 +4406,7 @@ $messages['new'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author Akoopal
  * @author GerardM
  * @author Hamaryns
  * @author MarkAHershberger
@@ -4432,7 +4433,7 @@ $messages['nl'] = array(
 	'babel-0-n' => 'Deze gebruiker heeft [[$1|geen]] kennis van het [[$2|Nederlands]] (of begrijpt het met grote moeite).',
 	'babel-1-n' => 'Deze gebruiker heeft [[$1|elementaire]] kennis van het [[$2|Nederlands]].',
 	'babel-2-n' => 'Deze gebruiker heeft [[$1|basiskennis]] van het [[$2|Nederlands]].',
-	'babel-3-n' => 'De gebruiker heeft [[$1|gevorderde]] kennis van het [[$2|Nederlands]].',
+	'babel-3-n' => 'Deze gebruiker heeft [[$1|gevorderde]] kennis van het [[$2|Nederlands]].',
 	'babel-4-n' => 'Deze gebruiker beheerst het [[$2|Nederlands]] als ware het zijn [[$1|moedertaal]].',
 	'babel-5-n' => 'Deze gebruiker heeft [[$1|professionele]] kennis van het [[$2|Nederlands]].',
 	'babel-N-n' => 'Deze gebruiker heeft het [[$2|Nederlands]] als [[$1|moedertaal]].',
