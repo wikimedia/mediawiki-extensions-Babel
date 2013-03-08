@@ -301,6 +301,8 @@ EOT;
 			$categoryMain = ':Category:' . self::mReplaceCategoryVariables( $wgBabelMainCategory, $language );
 		}
 
+		// Give grep a chance to find the usages:
+		// babel-0-n, babel-1-n, babel-2-n, babel-3-n, babel-4-n, babel-5-n, babel-N-n
 		$text = wfMessage( "babel-$level-n",
 			$categoryLevel, $categoryMain, '', self::$title->getDBkey()
 		)->inLanguage( $language )->text();
@@ -310,6 +312,8 @@ EOT;
 			$categoryLevel, $categoryMain, '', self::$title->getDBkey()
 		)->inLanguage( $fallbackLanguage ? $fallbackLanguage : $language )->text();
 
+		// Give grep a chance to find the usages:
+		// babel-0, babel-1, babel-2, babel-3, babel-4, babel-5, babel-N
 		if ( $text == $fallback ) {
 			$text = wfMessage( "babel-$level",
 				$categoryLevel, $categoryMain, $name, self::$title->getDBkey()
