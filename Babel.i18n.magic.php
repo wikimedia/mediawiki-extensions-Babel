@@ -48,6 +48,11 @@ $magicWords['frp'] = array(
 	'babel' => array( 0, 'babél' ),
 );
 
+/** Hebrew (עברית) */
+$magicWords['he'] = array(
+	'babel' => array( 0, 'בבל' ),
+);
+
 /** Japanese (日本語) */
 $magicWords['ja'] = array(
 	'babel' => array( 0, 'バベル' ),
