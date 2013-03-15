@@ -678,6 +678,14 @@ $messages['bar'] = array(
 	'babel-footer' => 'Benutzer noch Sprooch',
 );
 
+/** Batak Toba (Batak Toba)
+ * @author Stephensuleeman
+ */
+$messages['bbc-latn'] = array(
+	'babel-0' => 'Parhaseangon [[$1|ndang] marnampunahon parbinotoan [[$2|$3]] (manang mangantusi alai mansai maol).', # Fuzzy
+	'babel-1' => 'Parhaseangon marnampunahon parbinotoan [[$2|$3]] [[$1|dasor]]',
+);
+
 /** Southern Balochi (بلوچی مکرانی)
  * @author Mostafadaneshvar
  */
@@ -3883,7 +3891,7 @@ $messages['min'] = array(
 	'babel' => 'Informasi bahaso pangguno',
 	'babel-desc' => 'Menambah fungsi parser <code>#babel</code> untuak manampilkan kotak pangguno babel sacaro otomatis jo kamampuan manggunoan templat buatan',
 	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => ':Category:Babel - Pangguno manuruik bahaso',
+	'babel-footer-url' => ':Category:Pangguno manuruik bahaso',
 	'babel-autocreate-abort' => 'Namo pangguno Sanak digunoan untuak mambuek kategori [[$1|Babel]] otomatis dan indak dapek didaftakan.',
 	'babel-autocreate-reason' => 'Otomatis mambuek laman kategori [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Pangguno di kategori ko manandoan punyo kamampuan $1 untuak bahaso $2.',
@@ -3903,7 +3911,7 @@ $messages['min'] = array(
 	'babel-4-n' => 'Pangguno ko mangarati bahaso [[$2|Minang]] saroman [[$1|urang Minang]].',
 	'babel-5-n' => 'Pangguno ko [[$1|ahli]] bahaso [[$2|Minang]].',
 	'babel-N-n' => 'Pangguno ko [[$1|mangecek]] jo bahaso [[$2|Minang]].',
-	'babel-template' => 'Template:User $1',
+	'babel-template' => 'Template:Pangguno $1',
 	'babel-footer' => 'Pangguno badasarkan bahaso',
 );
 
@@ -6426,6 +6434,7 @@ $messages['ug-arab'] = array(
  * @author A1
  * @author AS
  * @author Ahonc
+ * @author Andygol
  * @author Base
  * @author Microcell
  * @author Olvin
@@ -6437,7 +6446,7 @@ $messages['uk'] = array(
 	'babel-desc' => 'Додає функцію парсера <code>#babel</code>, яка дозволяє автоматично створювати стовпець про володіння мовами з можливістю включення інших шаблонів',
 	'babel-url' => 'Project:Вавилон',
 	'babel-footer-url' => ':Category:Користувачі за мовою',
-	'babel-autocreate-abort' => "Зазначене ім'я користувача використовується для автоматичного створення категорій [[$1|Вавилон]] і не може бути зареєстровано.",
+	'babel-autocreate-abort' => "Зазначене ім'я користувача використовується для автоматичного створення категорій [[$1|Babel]] і не може бути зареєстровано.",
 	'babel-autocreate-reason' => 'Автоматичне створення сторінки категорії [[$1|Вавилон]].',
 	'babel-autocreate-text-levels' => 'Користувачі із цієї категорії вказали рівень знань $1 для мови $2.',
 	'babel-autocreate-text-main' => 'Користувачі в цій категорії вказали знання мови $1.',
