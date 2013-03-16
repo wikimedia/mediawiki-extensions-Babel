@@ -78,6 +78,8 @@ For installations having a \'Babel users per language\' category tree, its root 
 When translating, you can copy the category name from existing Babel systems in your language, but you can as well use a more generic name and leave it to individual installations, how to deal with it.
 
 There is no need to alter the name space name <code lang="en">Category</code>.',
+	'babel-autocreate-abort' => 'Used as error message. Parameters:
+* $1 - the message {{msg-mw|babel-url}}',
 	'babel-autocreate-reason' => 'Edit summary for an automatically created Babel category page. Parameters:
 * $1 is a page title for information on Babel.',
 	'babel-autocreate-text-levels' => 'Text describing a category, at the top of the category page.
