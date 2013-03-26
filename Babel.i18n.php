@@ -1054,7 +1054,7 @@ $messages['ca'] = array(
 	'babel-3-n' => '{{GENDER:$4|Aquest usuari|Aquesta usuària}} té un coneixement [[$1|avançat]] de [[$2|català]].',
 	'babel-4-n' => '{{GENDER:$4|Aquest usuari|Aquesta usuària}} té un coneixement [[$1|gairebé natiu]] de [[$2|català]].',
 	'babel-5-n' => '{{GENDER:$4|Aquest usuari|Aquesta usuària}} té coneixement [[$1|professional]] de la llengua [[$2|catalana]].',
-	'babel-N-n' => '{{GENDER:$4|Aquest usuari|Aquesta usuària}} és un parlant [[$1|natiu]] de [[$2|català]].',
+	'babel-N-n' => '{{GENDER:$4|Aquest usuari és un|Aquesta usuària és una}} parlant [[$1|{{GENDER:$4|natiu|nativa}}]] de [[$2|català]].',
 	'babel-footer' => 'Usuaris per idioma',
 );
 
