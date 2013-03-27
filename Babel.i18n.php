@@ -4301,12 +4301,14 @@ $messages['nb'] = array(
 );
 
 /** Low German (Plattdüütsch)
+ * @author Joachim Mos
  * @author Slomox
  */
 $messages['nds'] = array(
 	'babel' => 'Babel-Bruker-Infos',
 	'babel-desc' => 'Föögt de <code>#babel</code>-Parserfunkschoon för dat automaatsche Opstellen vun Babel-Brukerboxen to. Verlöövt ok dat Inbinnen vun egene Vörlagen.',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Kategorie:Babel - Bruker noh Spraak',
 	'babel-autocreate-abort' => 'De utwählt Brukernaam warrt för dat automaatsch Opstellen vun [[$1|Babel]]-Kategorien bruukt un kann nich registreert warrn.',
 	'babel-autocreate-reason' => 'Automaatsch opstellt [[$1|Babel]]-Kategorie.',
 	'babel-autocreate-text-levels' => 'Brukers in disse Kategorie köönt de Spraak $2 op Niveau $1 snacken.',
@@ -4325,6 +4327,7 @@ $messages['nds'] = array(
 	'babel-4-n' => 'Disse Bruker versteiht wat vun [[$2|Plattdüütsch]] as wenn dat sien [[$1|Moderspraak]] weer.',
 	'babel-5-n' => 'Disse Bruker versteiht temlich wat vun [[$2|Plattdüütsch]], dat maakt he vun [[$1|Beroop]] ut.',
 	'babel-N-n' => 'Disse Bruker hett [[$2|Plattdüütsch]] as [[$1|Moderspraak]].',
+	'babel-footer' => 'Bruker noh Spraak',
 );
 
 /** Nedersaksies (Nedersaksies)
