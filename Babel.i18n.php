@@ -1486,6 +1486,14 @@ $messages['el'] = array(
 	'babel-footer' => 'Χρήστες ανά γλώσσα',
 );
 
+/** Emiliano-Romagnolo (emiliàn e rumagnòl)
+ * @author Gloria sah
+ */
+$messages['eml'] = array(
+	'babel-N-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|native|natìva]] dl'[[$2|English|Inglēs]].",
+	'babel-footer' => 'Utèint par lèngua',
+);
+
 /** British English (British English)
  * @author Jdforrester
  * @author Pooja.srivastava
