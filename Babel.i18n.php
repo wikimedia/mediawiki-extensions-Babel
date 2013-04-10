@@ -1490,6 +1490,10 @@ $messages['el'] = array(
  * @author Gloria sah
  */
 $messages['eml'] = array(
+	'babel' => 'Informasiòun àj utèint ed Babél',
+	'babel-url' => 'Prugèt:Babél', # Fuzzy
+	'babel-footer-url' => ':Catégorja:Babél - Utèint par lèngua',
+	'babel-autocreate-reason' => 'Créasiòun automàtica ed la pagìna dla catégurìa [[$1|Babél]].',
 	'babel-N-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|native|natìva]] dl'[[$2|English|Inglēs]].",
 	'babel-footer' => 'Utèint par lèngua',
 );
