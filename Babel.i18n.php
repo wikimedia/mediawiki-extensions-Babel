@@ -1489,13 +1489,20 @@ $messages['el'] = array(
 
 /** Emiliano-Romagnolo (emiliàn e rumagnòl)
  * @author Gloria sah
+ * @author PiRSquared17
  */
 $messages['eml'] = array(
 	'babel' => 'Informasiòun àj utèint ed Babél',
 	'babel-url' => 'Prugèt:Babél', # Fuzzy
 	'babel-footer-url' => ':Catégorja:Babél - Utèint par lèngua',
 	'babel-autocreate-reason' => 'Créasiòun automàtica ed la pagìna dla catégurìa [[$1|Babél]].',
-	'babel-N-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|native|natìva]] dl'[[$2|English|Inglēs]].",
+	'babel-0-n' => "Cl'utèint chè al [[$1|'n gh'à brîsa 'na cumprensiòun]] dl' [[$2|Emiliàn]].",
+	'babel-1-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|cìca]] d' [[$2|Emiliàn]].",
+	'babel-2-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|bòuna]] d' [[$2|Emiliàn]].",
+	'babel-3-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|dimòndi bòuna]] d' [[$2|Emiliàn]].",
+	'babel-4-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|avansèda]] d' [[$2|Emiliàn]].",
+	'babel-5-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|profesionèl]] d' [[$2|Emiliàn]].",
+	'babel-N-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|natìva]] d'[[$2|Emiliàn]].",
 	'babel-footer' => 'Utèint par lèngua',
 );
 
