@@ -73,6 +73,11 @@ $magicWords['mk'] = array(
 	'babel' => array( 0, 'вавилон' ),
 );
 
+/** Malayalam (മലയാളം) */
+$magicWords['ml'] = array(
+	'babel' => array( 0, 'ബാബേൽ' ),
+);
+
 /** Marathi (मराठी) */
 $magicWords['mr'] = array(
 	'babel' => array( 0, 'बॅबेल', 'babel' ),
