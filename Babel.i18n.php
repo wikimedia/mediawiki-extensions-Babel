@@ -6445,10 +6445,12 @@ $messages['tyv'] = array(
 );
 
 /** Udmurt (удмурт)
+ * @author Kaganer
  * @author Purodha
  */
 $messages['udm'] = array(
 	'babel-url' => 'Project:Вавилон',
+	'babel-footer' => 'Викиавторъёс кылъёссыя',
 );
 
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
