@@ -1496,13 +1496,20 @@ $messages['eml'] = array(
 	'babel-url' => 'Prugèt:Babél', # Fuzzy
 	'babel-footer-url' => ':Catégorja:Babél - Utèint par lèngua',
 	'babel-autocreate-reason' => 'Créasiòun automàtica ed la pagìna dla catégurìa [[$1|Babél]].',
-	'babel-0-n' => "Cl'utèint chè al [[$1|'n gh'à brîsa 'na cumprensiòun]] dl' [[$2|Emiliàn]].",
-	'babel-1-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|cìca]] d' [[$2|Emiliàn]].",
-	'babel-2-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|bòuna]] d' [[$2|Emiliàn]].",
-	'babel-3-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|dimòndi bòuna]] d' [[$2|Emiliàn]].",
-	'babel-4-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|avansèda]] d' [[$2|Emiliàn]].",
-	'babel-5-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|profesionèl]] d' [[$2|Emiliàn]].",
-	'babel-N-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|natìva]] d'[[$2|Emiliàn]].",
+	'babel-0' => "Cl'utèint chè al [[$1|'n gh'à brîsa 'na cumprensiòun]] dl' [[$2|$3]].",
+	'babel-1' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|cìca]] d' [[$2|$3]].",
+	'babel-2' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|bòuna]] d' [[$2|$3]].",
+	'babel-3' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|dimòndi bòuna]] d' [[$2|$3]].",
+	'babel-4' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|avansèda]] d' [[$2|$3]].",
+	'babel-5' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|profesionèl]] d' [[$2|$3]].",
+	'babel-N' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|natìva]] d'[[$2|$3]].",
+	'babel-0-n' => "Cl'utèint chè al [[$1|'n gh'à brîsa 'na cumprensiòun]] dl' [[$2|Emiliàn e rumagnòl]].",
+	'babel-1-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|cìca]] d' [[$2|Emiliàn e rumagnòl]].",
+	'babel-2-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|bòuna]] d' [[$2|Emiliàn e rumagnòl]].",
+	'babel-3-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|dimòndi bòuna]] d' [[$2|Emiliàn e rumagnòl]].",
+	'babel-4-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|avansèda]] d' [[$2|Emiliàn e rumagnòl]].",
+	'babel-5-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|profesionèl]] d' [[$2|Emiliàn e rumagnòl]].",
+	'babel-N-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|natìva]] d'[[$2|Emiliàn e rumagnòl]].",
 	'babel-footer' => 'Utèint par lèngua',
 );
 
@@ -1855,6 +1862,7 @@ $messages['fur'] = array(
 	'babel' => 'Informazions Babel dal utent',
 	'babel-desc' => 'Zonte la funzion di analisi <code>#babel</code> par permeti la generazion in automatic di une colone box utent babel, cu la pussibitât di includi modei personalizâts',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Utents par lenghe',
 	'babel-autocreate-abort' => 'Il non utent specificât al è doprât pe creazion automatiche di categoriis [[$1|Babel]] e nol pues jessi regjistrât.',
 	'babel-autocreate-reason' => 'Creant in automatic la categorie di [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'I utents in cheste categorie a disin di vê un nivel $1 pe lenghe $2.',
@@ -1873,6 +1881,7 @@ $messages['fur'] = array(
 	'babel-4-n' => 'Chest utent al à une cognossince [[$1|cuasi di marilenghe]] dal [[$2|furlan]].',
 	'babel-5-n' => 'Chest utent al à une cognossince [[$1|professionâl]] dal [[$2|furlan]].',
 	'babel-N-n' => 'Chest utent al è di [[$1|marilenghe]] [[$2|furlane]].',
+	'babel-footer' => 'Utents par lenghe',
 );
 
 /** Western Frisian (Frysk)
