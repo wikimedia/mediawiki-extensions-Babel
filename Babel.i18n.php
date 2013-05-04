@@ -830,7 +830,7 @@ $messages['bg'] = array(
 	'babel-3-n' => '{{GENDER:$4|Този потребител|Тази потребителка}} има [[$1|задълбочени]] познания по [[$2|български език]].',
 	'babel-4-n' => '{{GENDER:$4|Този потребител|Тази потребителка}} владее [[$2|български език]] на ниво [[$1|почти като роден]].',
 	'babel-5-n' => '{{GENDER:$4|Този потребител|Тази потребителка}} има [[$1|професионални]] познания по [[$2|български език]].',
-	'babel-N-n' => 'За {{GENDER:$4|този потребител|тази потребителка}} [[$2|българският език]] се явява [[$1|роден]].',
+	'babel-N-n' => 'За {{GENDER:$4|този потребител|тази потребителка}} [[$2|българският език]] e [[$1|роден]].',
 	'babel-footer' => 'Потребители по език',
 );
 
@@ -1493,9 +1493,13 @@ $messages['el'] = array(
  */
 $messages['eml'] = array(
 	'babel' => 'Informasiòun àj utèint ed Babél',
-	'babel-url' => 'Prugèt:Babél', # Fuzzy
+	'babel-desc' => "Al śòunta 'na funsiòun d'anàliś dla sintàsi <code>#babel</code> ch' la permèt la créasiòun automàtica ed 'na caśèla d'utàint Bàbel cun la pòsibilitè ed śountèregh dj modé lochèl",
+	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Catégorja:Babél - Utèint par lèngua',
+	'babel-autocreate-abort' => "Al nòm d'utèint ch'avĵ mìs dèinter, l'è druè per créèr in automàtic el categorìi [[$1|Babel]] e al 'n pôl brìsa èser registrè.",
 	'babel-autocreate-reason' => 'Créasiòun automàtica ed la pagìna dla catégurìa [[$1|Babél]].',
+	'babel-autocreate-text-levels' => "J utèint int cla categorìa chè j dìśen ch' j gh'àn un livèl $1 per la lìngua $2.",
+	'babel-autocreate-text-main' => "J utèint int cla categorìa chè j dìśen ch' j gh'àn na cumprensiòun dla lìngua $1.",
 	'babel-0' => "Cl'utèint chè al [[$1|'n gh'à brîsa 'na cumprensiòun]] dl' [[$2|$3]].",
 	'babel-1' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|cìca]] d' [[$2|$3]].",
 	'babel-2' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|bòuna]] d' [[$2|$3]].",
