@@ -6206,6 +6206,7 @@ $messages['tl'] = array(
 );
 
 /** толышә зывон (толышә зывон)
+ * @author JHeydar
  * @author Vugar 1981
  * @author Гусейн
  */
@@ -6224,9 +6225,9 @@ $messages['tly'] = array(
 	'babel-3' => 'Ын иштирокәкә [[$1|чок]] зынејдә [[$2|$3]].',
 	'babel-4' => 'Ын иштирокәкә бәнә [[$1|моә зывони]] зынејдә [[$2|$3]].',
 	'babel-5' => 'Ын иштирокәкә [[$1|пешәкорә сәвијјәдә]] зынејдә [[$2|$3]].',
-	'babel-N' => 'Bo ın iştirokəkə [[$2|Tolışə zıvon]] [[$1|moə zıvone]].',
-	'babel-0-n' => 'In iştirokəkə [[$1|zıneydəni]] [[$2|Tolışə zıvoni]] (yaanki çətin dərəseydə).',
-	'babel-1-n' => 'In iştirokəkə [[$1|zəif]] zıneydə [[$2|Tolışə zıvone]].',
+	'babel-N' => 'Bo ın iştirokəkə [[$2|Tolışi]] [[$1|moə zıvone]].',
+	'babel-0-n' => 'In iştirokəkə [[$1|zıneydəni]] [[$2|Tolışi]] (yaanki çətin dərəseydə).',
+	'babel-1-n' => 'In iştirokəkə [[$1|zəif]] zıneydə [[$2|Tolışi]].',
 	'babel-2-n' => 'Ын иштирокәкә [[$1|мијонә сәвијјәдә]] зынејдә [[$2|Толышә зывони]].',
 	'babel-3-n' => 'Ын иштирокәкә [[$1|чок]] зынејдә [[$2|Толышә зывони]].',
 	'babel-4-n' => 'Ын иштирокәкә бәнә [[$1|моә зывони]] зынејдә [[$2|Толышә зывони]].',
