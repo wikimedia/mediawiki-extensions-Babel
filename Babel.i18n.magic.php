@@ -80,7 +80,7 @@ $magicWords['ml'] = array(
 
 /** Marathi (मराठी) */
 $magicWords['mr'] = array(
-	'babel' => array( 0, 'बॅबेल', 'babel' ),
+	'babel' => array( 0, 'बॅबेल' ),
 );
 
 /** Pashto (پښتو) */
