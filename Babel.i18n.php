@@ -1448,11 +1448,33 @@ $messages['dtp'] = array(
 );
 
 /** Emiliàn (Emiliàn)
+ * @author Gloria sah
  * @author Reder
  */
 $messages['egl'] = array(
+	'babel' => 'Informasiòun àj utèint ed Bàbel',
+	'babel-desc' => "Al śòunta 'na funsiòun d'anàliś dla sintàsi <code>#babel</code> ch' la permèt la créasiòun automàtica ed 'na caśèla d'utàint Bàbel cun la pòsibilitè ed śountèregh dj modé lochèl",
 	'babel-url' => 'Project:Babel',
-	'babel-footer' => 'Uteint par leingva',
+	'babel-footer-url' => ':Catégorja:Bàbel - Utèint par lèngua',
+	'babel-autocreate-abort' => "Al nòm d'utèint ch'avĵ mìs dèinter, l'è druè per créèr in automàtic el categorìi [[$1|Babel]] e al 'n pôl brìśa èser registrè.",
+	'babel-autocreate-reason' => 'Créasiòun automàtica ed la pagìna dla catégurìa [[$1|Bàbel]].',
+	'babel-autocreate-text-levels' => "J utèint int cla categurìa chè j dìśen ch' j gh'àn un livèl $1 per la lèngua $2.",
+	'babel-autocreate-text-main' => "J utèint int cla categurìa chè j dìśen ch' j gh'àn na cumprensiòun dla lèngua $1.",
+	'babel-0' => "Cl'utèint chè al [[$1|'n gh'à brîsa 'na cumprensiòun]] dl' [[$2|$3]] (u a l' capìs cun dimòndi dificulté).",
+	'babel-1' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|cìca]] d' [[$2|$3]].",
+	'babel-2' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|bòuna]] d' [[$2|$3]].",
+	'babel-3' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|dimòndi bòuna]] d' [[$2|$3]].",
+	'babel-4' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|avansèda]] d' [[$2|$3]].",
+	'babel-5' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|profesionèl]] d' [[$2|$3]].",
+	'babel-N' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|natìva]] d'[[$2|$3]].",
+	'babel-0-n' => "Cl'utèint chè al [[$1|'n gh'à brîsa]] 'na cumprensiòun  dl' [[$2|Emiliàn]] (u a l' capìs cun dimòndi dificulté).",
+	'babel-1-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|cìca]] d' [[$2|Emiliàn]].",
+	'babel-2-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|bòuna]] d' [[$2|Emiliàn]].",
+	'babel-3-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|dimòndi bòuna]] d' [[$2|Emiliàn]].",
+	'babel-4-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|avansèda]] d' [[$2|Emiliàn]].",
+	'babel-5-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|profesionèl]] d' [[$2|Emiliàn]].",
+	'babel-N-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|natìva]] d'[[$2|Emiliàn]].",
+	'babel-footer' => 'Utèint par lèingva',
 );
 
 /** Greek (Ελληνικά)
@@ -3534,12 +3556,14 @@ $messages['lld'] = array(
 
 /** lumbaart (lumbaart)
  * @author Dakrismeno
+ * @author Gloria sah
  * @author Sprüngli
  */
 $messages['lmo'] = array(
 	'babel' => 'Infurmazion Babel del druvat',
 	'babel-desc' => "Gionta la 'parser function' <code>#babel</code> per permet la generazion utumatega d'un quader \"druvat Babel\" cun la pussibilità da metegh denter 'l templat persunalizaa",
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Catégorja:Babel - Druvat per lingua',
 	'babel-autocreate-abort' => "'L suranom che t'hee specificaa a l'è druvaa per l'auto-creazion de categurij [[$1|Babel]] e 'l pör mía vess registraa.",
 	'babel-autocreate-reason' => 'Creazion utumatega de la pagina de la categurìa [[$1|Babel]].',
 	'babel-autocreate-text-levels' => "I druvat in quela categuria chì i mustren d'avegh un nivel de cunuscenza $1 de la lengua $2.",
@@ -3558,6 +3582,7 @@ $messages['lmo'] = array(
 	'babel-4-n' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|asquas maderlengua]] del [[$2|Lumbard]]",
 	'babel-5-n' => "Quel druvat chì 'l gh'ha una cunuscenza [[$1|prufessiunal]] del [[$2|Lumbard]].",
 	'babel-N-n' => "Quel druvat chì l'è de [[$1|maderlengua]] [[$2|Lumbarda]].",
+	'babel-footer' => 'Druvat per lingua',
 );
 
 /** Lingala (lingála)
@@ -5378,12 +5403,14 @@ $messages['sat'] = array(
 
 /** Sardinian (sardu)
  * @author Andria
+ * @author Gloria sah
  * @author Marzedu
  */
 $messages['sc'] = array(
 	'babel' => 'Babel usuàriu',
 	'babel-desc' => 'Aciungit sa funtzioni parser <code>#babel</code> pro permitiri sa generatzioni automatica de una colunna box usuàriu babel cun sa possibilidade de insertai templates personalitzaus',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Usuàri pi limba',
 	'babel-autocreate-abort' => 'Su nòmene usuàriu ispetzificau est impreau pro sa creatzione automatiga de is categorias [[$1|Babel]] e non podet èssere registradu.',
 	'babel-autocreate-reason' => 'Crea automatigamente sa pàgina de sa categoria [[$1|Babel]]',
 	'babel-autocreate-text-levels' => 'Is usuàrios de custa categoria narant de tènnere unu livellu $1 pro sa limba $2.',
@@ -5402,9 +5429,11 @@ $messages['sc'] = array(
 	'babel-4-n' => "Custu usuàriu faeddat su '''[[$2|Sardu]]''' in modu '''[[$1|perfetu]]'''.",
 	'babel-5-n' => 'Custu usuàriu connoschet su [[$2|Sardu]] a livellu [[$1|profesionale]].',
 	'babel-N-n' => 'Custu usuàriu faeddat su [[$2|Sardu]]  comente [[$1|limba mama]].',
+	'babel-footer' => 'Usuàri pi limba',
 );
 
 /** Sicilian (sicilianu)
+ * @author Gloria sah
  * @author Melos
  * @author Santu
  */
@@ -5412,8 +5441,9 @@ $messages['scn'] = array(
 	'babel' => "Nfurmazzioni di Babel supra a l'utenti",
 	'babel-desc' => 'Junci la parser function <code>#babel</code> pi fari la ginirazzioni autumàtica di na culonna babel utenti cu la pussibbilitati di nclùdiri template pirsunalizzati',
 	'babel-url' => 'Project:Babel',
-	'babel-autocreate-abort' => 'Lu nomu utenti spicificatu è usatu pâ criazzioni autumàtica di catigurìi Babel e non pò èssiri riggistratu.', # Fuzzy
-	'babel-autocreate-reason' => 'Criu autumàticamenti la pàggina dâ catigurìa Babel.', # Fuzzy
+	'babel-footer-url' => ':Category:Babel - Utenti pi lingua',
+	'babel-autocreate-abort' => 'Lu nomu utenti spicificatu è usatu pâ criazzioni autumàtica di catigurìi [[$1|Babel]] e non pò èssiri riggistratu.',
+	'babel-autocreate-reason' => 'Criu autumàticamenti la pàggina dâ catigurìa [[$1|Babel]].',
 	'babel-autocreate-text-levels' => "L'utenti nti sta catigurìa dìciunu ca d'aviri nu liveddu di canuscenza $1 dâ lingua $2.",
 	'babel-autocreate-text-main' => "L'utenti nti sta catigurìa dìciunu ca canùsciunu la lingua $1.",
 	'babel-autocreate-user' => 'Babel AutoCreate',
@@ -5431,6 +5461,7 @@ $messages['scn'] = array(
 	'babel-4-n' => "St'utenti pò cuntribbuiri cu nu liveddu [[$1|quasi matrilingua]] 'n [[$2|sicilianu]].",
 	'babel-5-n' => "St'utenti pò cuntribbuiri cu nu liveddu [[$1|prufussiunali]] 'n [[$2|sicilianu]].",
 	'babel-N-n' => "St'utenti pò cuntribbuiri c'un  liveddu [[$1|matrilingua]] 'n [[$2|sicilianu]].",
+	'babel-footer' => 'Utenti pi lingua',
 );
 
 /** Scots (Scots)
@@ -6211,29 +6242,29 @@ $messages['tl'] = array(
  * @author Гусейн
  */
 $messages['tly'] = array(
-	'babel' => 'Бабил иштирокәкә мәлумот',
-	'babel-desc' => 'Парсери функсијә зијод кардејдә <code>#babel</code>, изн дојдә де автомати сун офәје де зывонон бәрәдә мәлумоти ијән де мымкуноти ҹо ғәлибон дахыл карде',
-	'babel-url' => 'Project:Бабил',
-	'babel-footer-url' => ':Category:Бабил - иштирокәкон зывононәдә',
-	'babel-autocreate-abort' => 'Нишо доә быә иштирокәкә ном бо [[$1|Бабил]] категоријон автоматик офәјеј истифодә бедә ијән ныбәбе ғејд кардеј.',
-	'babel-autocreate-reason' => 'Сәһифә автоматик офәјеј [[$1|Бабил]] категоријәдә.',
-	'babel-autocreate-text-levels' => 'Иштирокәкон чы категоријәку ишорә кардшоне зынәјон сәвијјә $1 бо зывони $2.',
-	'babel-autocreate-text-main' => 'Иштирокәкон бы категориәјдә зывони зынәј ишорә кардшоне $1.',
-	'babel-0' => 'Ын иштирокәкә [[$1|зынејдәни]] [[$2|$3]] (јаанки чәтин дәрәсејдә).',
-	'babel-1' => 'Ын иштирокәкә [[$1|зәиф]] зынејдә [[$2|$3]].',
-	'babel-2' => 'Ын иштирокәкә [[$1|мијонә сәвијјәдә]] зынејдә [[$2|$3]].',
-	'babel-3' => 'Ын иштирокәкә [[$1|чок]] зынејдә [[$2|$3]].',
-	'babel-4' => 'Ын иштирокәкә бәнә [[$1|моә зывони]] зынејдә [[$2|$3]].',
-	'babel-5' => 'Ын иштирокәкә [[$1|пешәкорә сәвијјәдә]] зынејдә [[$2|$3]].',
+	'babel' => 'Babil iştirokəkə məlumot',
+	'babel-desc' => 'Ziyod kardeydə analiz kardey funksiyə <code>#babel</code>, haşteydə avtomatik ofəye sun de zıvonon barədə məlumoti iyən de mımkunoti co ğəlibon daxıl karde',
+	'babel-url' => 'Project:Babil',
+	'babel-footer-url' => ':Category:Babil- iştirokəkon zıvononədə',
+	'babel-autocreate-abort' => 'Nişo doə bıə iştirokəkə nom oko beydə bo [[$1|Babil]] tispiron avtomatik ofəye iyən nıbəzne ğeyd be.',
+	'babel-autocreate-reason' => 'Səhifə avtomatik ofəye [[$1|Babil]] tispirədə.',
+	'babel-autocreate-text-levels' => 'İştirokəkon çe ın tispiriku işorә kardəşone zınəyon səviyyə $1 bo zıvoni $2.',
+	'babel-autocreate-text-main' => 'İştirokəkon bı tispirədə zıvoni zınəy işorə kardəşone $1.',
+	'babel-0' => 'In iştirokəkə [[$1|zıneydəni]] [[$2|$3]] (yaanki çətin dərəseydə).',
+	'babel-1' => 'In iştirokəkə [[$1|zəif]] zıneydә [[$2|$3]].',
+	'babel-2' => 'In iştirokəkə [[$1|miyonə səviyyədə]] zıneydə [[$2|$3]].',
+	'babel-3' => 'In iştirokəkə [[$1|çok]] zıneydə [[$2|$3]].',
+	'babel-4' => 'In iştirokəkə bənə [[$1|moə zıvoni]] zıneydə [[$2|$3]].',
+	'babel-5' => 'In iştirokəkə [[$1|peşəkorə səviyyədə]] zıneydə [[$2|$3]].',
 	'babel-N' => 'Bo ın iştirokəkə [[$2|Tolışi]] [[$1|moə zıvone]].',
 	'babel-0-n' => 'In iştirokəkə [[$1|zıneydəni]] [[$2|Tolışi]] (yaanki çətin dərəseydə).',
 	'babel-1-n' => 'In iştirokəkə [[$1|zəif]] zıneydə [[$2|Tolışi]].',
-	'babel-2-n' => 'Ын иштирокәкә [[$1|мијонә сәвијјәдә]] зынејдә [[$2|Толышә зывони]].',
-	'babel-3-n' => 'Ын иштирокәкә [[$1|чок]] зынејдә [[$2|Толышә зывони]].',
-	'babel-4-n' => 'Ын иштирокәкә бәнә [[$1|моә зывони]] зынејдә [[$2|Толышә зывони]].',
-	'babel-5-n' => 'Ын иштирокәкә [[$1|пешәкор сәвијјәдә]] зынејдә [[$2|Толышә зывони]].',
-	'babel-N-n' => 'Бо ын иштирокәкә [[$2|Толышә зывон]] [[$1|моә зывоне]].',
-	'babel-footer' => 'Иштирокәкон зывононәдә',
+	'babel-2-n' => 'In iştirokəkə [[$1|miyonə səviyyədə]] zıneydə [[$2|Tolışə zıvoni]].',
+	'babel-3-n' => 'In iştirokəkə [[$1|çok]] zıneydə [[$2|Tolışə zıvoni]].',
+	'babel-4-n' => 'In iştirokəkə bənə [[$1|moə zıvoni]] зынејдә [[$2|Tolışə zıvoni]].',
+	'babel-5-n' => 'In iştirokəkə [[$1|peşəkor səviyyədə]] zıneydə [[$2|Tolışə zıvoni]].',
+	'babel-N-n' => 'Bo ın iştirokəkə [[$2|Tolışə zıvon]] [[$1|moə zıvone]].',
+	'babel-footer' => 'İştirokəkon zıvononədə',
 );
 
 /** Toki Pona (Toki Pona)
@@ -6574,12 +6605,13 @@ $messages['uz'] = array(
 
 /** vèneto (vèneto)
  * @author Candalua
+ * @author Gloria sah
  */
 $messages['vec'] = array(
 	'babel' => 'Babel utente',
 	'babel-desc' => 'Zonta la funsion parser <code>#babel</code> par permétar la generazion automatica de un riquadro "utente Babel" con la possibilità de inserir template personalizà',
 	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => ':Category:Utenti par lengua',
+	'babel-footer-url' => ':Category:Babel - Utenti par lengua',
 	'babel-autocreate-abort' => 'El nome utente speçificà el xe doparà par la creassion automàtega de categorie [[$1|Babel]] e no se pol registrarlo.',
 	'babel-autocreate-reason' => 'Creo automaticamente la pàxena de la categoria [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'I utenti in sta categoria i gà indicà de verghe un livèl de conossensa $1 de la lengua $2.',
