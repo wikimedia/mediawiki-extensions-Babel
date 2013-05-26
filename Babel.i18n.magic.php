@@ -30,7 +30,7 @@ $magicWords['arz'] = array(
 
 /** Chechen (нохчийн) */
 $magicWords['ce'] = array(
-	'babel' => array( 0, 'къадингир', 'вавилон', 'babel' ),
+	'babel' => array( 0, 'къадингир', 'вавилон' ),
 );
 
 /** Zazaki (Zazaki) */
