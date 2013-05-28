@@ -5556,6 +5556,7 @@ $messages['sh'] = array(
 	'babel' => 'Babel korisničke informacije',
 	'babel-desc' => 'Dodaje <code>#babel</code> parsersku funkciju koja omogućava automatsko pravljenje babel korisničke kutije u stupcu sa mogućnostima uključivanja prilagođenih šablona/predložaka',
 	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Korisnici po jeziku',
 	'babel-autocreate-abort' => 'Korisničko ime koje ste naveli se koristi za automatsko pravljenje [[$1|Babel]] kategorija i ne može se registrirati.',
 	'babel-autocreate-reason' => 'Automatsko stvaranje stranica [[$1|Babel]] kategorija.',
 	'babel-autocreate-text-levels' => 'Korisnici u ovoj kategoriji su označeni da imaju nivo $1 znanja $2 jezika.',
@@ -5574,6 +5575,7 @@ $messages['sh'] = array(
 	'babel-4-n' => 'Ovaj korisnik razumije [[$2|srpskohrvatski]] [[$1|gotovo kao maternji jezik]].',
 	'babel-5-n' => 'Ovaj korisnik govori [[$2|srpskohrvatski jezik]] na [[$1|profesionalnoj]] razini.',
 	'babel-N-n' => 'Ovaj korisnik razumije [[$2|srpskohrvatski]] kao [[$1|maternji]] jezik.',
+	'babel-footer' => 'Korisnici po jeziku',
 );
 
 /** Tachelhit (Tašlḥiyt/ⵜⴰⵛⵍⵃⵉⵜ)
