@@ -442,7 +442,7 @@ $messages['arz'] = array(
 	'babel-footer' => 'اليوزرات حسب اللغة',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Biraj
  * @author Bishnu Saikia
  * @author Chaipau
@@ -4356,7 +4356,7 @@ $messages['nan'] = array(
 	'babel-footer' => 'Chiàu iōng-chiá ê gú-gián khòaⁿ',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Event
  * @author Laaknor
  * @author Nghtwlkr
@@ -4418,7 +4418,7 @@ $messages['nds'] = array(
 	'babel-footer' => 'Bruker noh Spraak',
 );
 
-/** Nedersaksies (Nedersaksies)
+/** Low Saxon (Netherlands) (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
@@ -4548,7 +4548,7 @@ $messages['nl-informal'] = array(
 	'babel-autocreate-abort' => 'De gebruikersnaam die je hebt opgegeven wordt gebruikt voor het automatisch aanmaken van [[$1|Babel]]-categorieën en kan niet geregistreerd worden.',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Eirik
  * @author Finnrind
  * @author Gunnernett
@@ -4684,7 +4684,7 @@ $messages['oc'] = array(
 	'babel-footer' => 'Utilizaires per lengas',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author MKar
  * @author Mormegil
  * @author Odisha1
