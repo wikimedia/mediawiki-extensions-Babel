@@ -712,6 +712,35 @@ $messages['bcc'] = array(
 	'babel-N-n' => 'ای کاربر [[$2|بلوچی مکرانی]] را در حد [[$1|ماتی زبان]] سرپد بیت.',
 );
 
+/** Bikol Central (Bikol Central)
+ * @author Geopoet
+ */
+$messages['bcl'] = array(
+	'babel' => 'Babel na impormasyon nin paragamit',
+	'babel-desc' => 'Nagdudugang nin <code>#babel</code> sa punksyon nin parabangay tanganing itugot an automatikadong henerasyon kan sarong babel na kahon nin paragamit na kolum na magkaigwa nin abilidad sa pagbali kan mga templatong kustombre',
+	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Kategorya:Babel-Mga paragamit uyon sa lengguwahe',
+	'babel-autocreate-abort' => 'An pangaran nin paragamit na saimong pinagsasambit pinaggagamit para sa [[$1|Babel]] na kategorya nin awtomatikong pagmumukna asin dae puwedeng mairehistro.',
+	'babel-autocreate-reason' => 'Automatikong maimumukna an [[$1|Babel]] na kategoryang pahina.',
+	'babel-autocreate-text-levels' => 'An mga paragamit sa kategoryang ini minapasabot na sinda igwal nin kakayanan na yaon sa grado $1 para sa lengguwaheng $2.',
+	'babel-autocreate-text-main' => 'Mga paragamit sa kategoryang ini minapasabot na sinda igwa nin kaaraman sa lengguwaheng $1.',
+	'babel-0' => 'Ining paragamit [[$1|mayo]]ng kaaraman sa [[$2|$3]](o nakakasabot kaini na igwang konsiderableng kadepesilan).',
+	'babel-1' => 'Ining paragamit igwa nin [[$1|pananday]] na kaaraman sa [[$2|$3]].',
+	'babel-2' => 'Ining paragamit igwa nin [[$1|panundag]] na kaaraman sa [[$2|$3]].',
+	'babel-3' => 'Ining paragamit igwa nin [[$1|mauswag]] kaaraman sa [[$2|$3]].',
+	'babel-4' => 'Ining paragamit igwa nin [[$1|pahapyaw na parataram]] nin kaaraman sa [[$2|$3]].',
+	'babel-5' => 'Ining paragamit igwa nin [[$1|prospeyunal]] na kaaraman sa [[$2|$3]].',
+	'babel-N' => 'Ining paragamit igwa nin [[$1|banyas]] na pagkakasabot sa [[$2|$3]].',
+	'babel-0-n' => 'Ining paragamit [[$1|mayo]]ng kaaraman sa [[$2|Ingles]] (o nakakasabot kaini na igwang konsiderableng kadepesilan).',
+	'babel-1-n' => 'Ining paragamit igwa nin [[$1|pananday]] na kaaraman sa [[$2|Ingles]].',
+	'babel-2-n' => 'Ining paragamit igwa nin [[$1|panundag]] na kaaraman sa [[$2|Ingles]].',
+	'babel-3-n' => 'Ining paragamit igwa nin [[$1|mauswag]] na kaaraman sa [[$2|Ingles]].',
+	'babel-4-n' => 'Ining paragamit igwa nin [[$1|pahapyaw na parataram]] sa kaaraman nin [[$2|Ingles]].',
+	'babel-5-n' => 'Ining paragamit igwa nin [[$1|propesyunal]] na kaaraman sa [[$2|Ingles]].',
+	'babel-N-n' => 'Ining paragamit igwa nin [[$1|banyas]] na pagkasabot sa [[$2|Ingles]].',
+	'babel-footer' => 'Mga paragamit uyon sa lengguwahe',
+);
+
 /** Belarusian (беларуская)
  * @author Yury Tarasievich
  * @author Тест
@@ -2968,10 +2997,10 @@ $messages['kea'] = array(
 $messages['kg'] = array(
 	'babel' => 'Babilone: luzâbu ya bandînga',
 	'babel-url' => 'Project:Babilone',
-	'babel-footer-url' => ':Category:Babilone - Bansadidi na bandînga',
-	'babel-autocreate-abort' => 'Nkûmbu ya nsadidi yina nge me pesa, yawu me bakama samu na [[$1|Babilone]] kalasi. Nge lenda sadila yawu ve.',
-	'babel-autocreate-text-levels' => 'Bântu ya kalasi yayi bâwu zâbisaka ti bâwu zâba tuba ndînga $2 na nivô ya $1',
-	'babel-autocreate-text-main' => 'Bântu ya kalasi yayi bâwu zâbisaka ti bâwu ke zâbaka ndînga $1.',
+	'babel-footer-url' => ':Category:Babilone - Basadi na bandînga',
+	'babel-autocreate-abort' => 'Nkûmbu ya sadi yina nge me pesa, yawu me bakama samu na [[$1|Babilone]]. Nge lênda sadila yawu ve.',
+	'babel-autocreate-text-levels' => 'Bântu ya kimvuka yayi bâwu zâbisaka ti bâwu zâba tuba ndînga $2 na nivô ya $1',
+	'babel-autocreate-text-main' => 'Bântu ya kimvuka yayi bâwu zâbisaka ti bâwu ke zâbaka ndînga $1.',
 	'babel-0' => 'Mûntu yayi zâba tuba [[$2|$3]] [[$1|ve]] (to yandi ke kuwaka yawu na mpasi)',
 	'babel-1' => 'Mûntu yayi zaba tuba [[$1|fyoti]] [[$2|$3]].',
 	'babel-2' => 'Mûntu yayi zâba tuba [[$2|$3]] [[$1|mbote]].',
@@ -2986,7 +3015,7 @@ $messages['kg'] = array(
 	'babel-4-n' => 'Mûntu yayi zâba tuba [[$2|kituba Kôngo]] na mutîndu ya [[$1|mwana Kôngo]].',
 	'babel-5-n' => 'Mûntu yayi zâba tuba [[$2|kituba Kôngo]] na mutîndu ya [[$1|nsêkudi]].',
 	'babel-N-n' => 'Mûntu yayi zaba tuba [[$2|kituba Kôngo]] [[$1|katuka lubutuku]].',
-	'babel-footer' => 'Bansadidi na bandînga',
+	'babel-footer' => 'Basadi na bandînga',
 );
 
 /** Khowar (کھوار)
