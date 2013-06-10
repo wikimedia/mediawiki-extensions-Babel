@@ -1389,9 +1389,10 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Neribij
  */
 $messages['diq'] = array(
-	'babel' => 'Zanışiye babilê karberi',
+	'babel' => 'Melumatê babilê karberî',
 	'babel-desc' => 'Xulasa da sablonan dı dêsê babilê karberi xob xo vışatıştı, fonksiyonê <code>#babil</code>i fêno de',
 	'babel-url' => 'Project:Babil',
 	'babel-footer-url' => 'Kategoriye:Zıwana heta karberi',
@@ -1707,6 +1708,7 @@ $messages['eu'] = array(
 
 /** Persian (فارسی)
  * @author BMRG14
+ * @author Ebraminio
  * @author Huji
  * @author Ladsgroup
  * @author Mjbmr
@@ -1729,13 +1731,13 @@ $messages['fa'] = array(
 	'babel-4' => 'این کاربر [[$2|$3]] را در حد [[$1|نزدیک به زبان مادری]] می‌فهمد.',
 	'babel-5' => 'این کاربر [[$2|$3]] را در حد [[$1|حرفه‌ای]] می‌فهمد.',
 	'babel-N' => 'این کاربر [[$2|$3]] را در حد [[$1|زبان مادری]] می‌فهمد.',
-	'babel-0-n' => 'این کاربر [[$2|پارسی]] را [[$1|نمی‌فهمد]] (یا به سختی می‌فهمد).',
-	'babel-1-n' => 'این کاربر [[$2|پارسی]] را در حد [[$1|پایه]] می‌فهمد.',
-	'babel-2-n' => 'این کاربر [[$2|پارسی]] را در حد [[$1|متوسط]] می‌فهمد.',
-	'babel-3-n' => 'این کاربر [[$2|پارسی]] را در حد [[$1|پیشرفته]] می‌فهمد.',
-	'babel-4-n' => 'این کاربر [[$2|پارسی]] را در حد [[$1|نزدیک به زبان مادری]] می‌فهمد.',
-	'babel-5-n' => 'این کاربر [[$2|پارسی]] را در حد [[$1|حرفه‌ای]] می‌فهمد.',
-	'babel-N-n' => 'این کاربر [[$2|پارسی]] را در حد [[$1|زبان مادری]] می‌فهمد.',
+	'babel-0-n' => 'این کاربر [[$2|فارسی]] را [[$1|نمی‌فهمد]] (یا به‌سختی می‌فهمد).',
+	'babel-1-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|مقدماتی]] می‌فهمد.',
+	'babel-2-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|متوسط]] می‌فهمد.',
+	'babel-3-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|پیشرفته]] می‌فهمد.',
+	'babel-4-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|نزدیک به زبان مادری]] می‌فهمد.',
+	'babel-5-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|حرفه‌ای]] می‌فهمد.',
+	'babel-N-n' => 'این کاربر [[$2|فارسی]] را در حد [[$1|زبان مادری]] می‌فهمد.',
 	'babel-template' => 'Template:User $1',
 	'babel-footer' => 'کاربران بر پایهٔ زبان',
 );
@@ -1885,8 +1887,8 @@ $messages['frp'] = array(
  * @author Pyt
  */
 $messages['frr'] = array(
-	'babel' => 'Babel brüker-informasjoon',
-	'babel-desc' => 'Fäiget jü <code>#babel</code>-Parserfunksjoon haanetu for dåt automaatisch måågen foon Babel-brükerbox-rae ma jü möölikhäid, äine forlååge önjtufäigen',
+	'babel' => 'Babel brüker-informatjuun',
+	'babel-desc' => 'Saat det <code>#babel</code>-funktjuun diartu. Diarmä kön "Babel"-brükerfialen maaget, an uk aanj föörlaagen iinbünjen wurd.',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Brükern efter spriak',
 	'babel-autocreate-abort' => 'Di ütkiisde brükernoome as nüsi for dåt automaatisch måågen foon [[$1|Babel]]-kategoriie än koon ai registriird wårde.',
@@ -3268,27 +3270,27 @@ $messages['ku-latn'] = array(
  */
 $messages['kw'] = array(
 	'babel' => 'Derivadow Babel an devnydhyer',
-	'babel-desc' => 'Y whra keworra an gwythres styryer <code>#babel</code> rag avowa denethyans awtomategys a goloven gist-usyer babel gans an gallos a yncludya scantlyns personelhes',
+	'babel-desc' => 'Keworra an gwythres styryer <code>#babel</code> rag alowa denethyans awtomategys a goloven gist-devnydhyer babel gans an gallos a ynkludya skantlyns personelhes',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Devnydhyoryon herwydh yeth',
-	'babel-autocreate-abort' => 'Usys yw an hanow-usyer res genowgh rag awto-formya scantlyns [[$1|Babel]]; ny yllir y govscrifa.',
-	'babel-autocreate-reason' => 'Ow formya yn awtomatek folen an class [[$1|Babel]].',
-	'babel-autocreate-text-levels' => "Yma devnydhyoryon y'n class-ma ow teclarya bos niver $1 dhedhans rag $2.",
-	'babel-autocreate-text-main' => "Yma devnydhyoryon y'n class-ma ow teclarya bos godhvos a $1 dhedhans.",
-	'babel-0' => '[[$1|Ny wor]] an devnydhyer-ma convedhes [[$2|$3]] (po yma orth y gonvedhes gans caletter dres ehen).',
-	'babel-1' => 'An devnydhyer-ma a wor scrifa [[$2|$3]] orth nivel [[$1|sempel]].',
-	'babel-2' => 'An devnydhyer-ma a wor scrifa [[$2|$3]] orth nivel [[$1|cres]].',
-	'babel-3' => 'An devnydhyer-ma a wor scrifa [[$2|$3]] orth nivel [[$1|avonsys]].',
-	'babel-4' => "Yma'n devnydhyer-ma ow scrifa [[$2|$3]] [[$1|kepar ha mammyeth]].",
+	'babel-autocreate-abort' => 'Devnydhys yw an hanow-devnydhyer res genowgh rag awto-gwruthyl skantlyns [[$1|Babel]] ha ny yllir y govskrifa.',
+	'babel-autocreate-reason' => 'Ow kwruthyl yn awtomatek folen an klass [[$1|Babel]].',
+	'babel-autocreate-text-levels' => "Devnydhyoryon y'n klass-ma a dheklar y's teves niver $1 rag $2.",
+	'babel-autocreate-text-main' => "Devnydhyoryon y'n klass-ma a dheklar y's teves godhvos a $1.",
+	'babel-0' => "[[$1|Ny wor]] an devnydhyer-ma konvedhes [[$2|$3]] (po a'n gor gans kaletter dres ehen).",
+	'babel-1' => 'An devnydhyer-ma a wor skrifa [[$2|$3]] orth nivel [[$1|sempel]].',
+	'babel-2' => 'An devnydhyer-ma a wor skrifa [[$2|$3]] orth nivel [[$1|kres]].',
+	'babel-3' => 'An devnydhyer-ma a wor skrifa [[$2|$3]] orth nivel [[$1|avonsys]].',
+	'babel-4' => 'An devnydhyer-ma a wor skrifa [[$2|$3]] [[$1|kepar ha mammyeth]].',
 	'babel-5' => 'An devnydhyer-ma a wor scrifa [[$2|$3]] orth nivel [[$1|galwansek]].',
 	'babel-N' => '[[$2|$3]] yw [[$1|mammyeth]] an devnydhyer-ma.',
-	'babel-0-n' => '[[$1|Ny wor]] an devnydhyer-ma convedhes [[$2|Kernowek]].',
-	'babel-1-n' => 'An devnydhyer-ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|sempel]].',
-	'babel-2-n' => 'An devnydhyer-ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|cres]].',
-	'babel-3-n' => 'An devnydhyer-ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|avonsys]].',
-	'babel-4-n' => "Yma'n devnydhyer-ma ow scrifa [[$2|Kernowek]] [[$1|kepar ha mammyeth]].",
-	'babel-5-n' => 'An devnydhyer-ma a wor scrifa [[$2|Kernowek]] orth nivel [[$1|galwansek]].',
-	'babel-N-n' => '[[$2|Kernowek]] yw [[$1|mammyeth]] an devnydhyer-ma.',
+	'babel-0-n' => '[[$1|Ny wor]] an devnydhyer-ma konvedhes [[$2|Kernewek]].',
+	'babel-1-n' => 'An devnydhyer-ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|sempel]].',
+	'babel-2-n' => 'An devnydhyer-ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|kres]].',
+	'babel-3-n' => 'An devnydhyer-ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|avonsys]].',
+	'babel-4-n' => 'An devnydhyer-ma a wor skrifa [[$2|Kernewek]] [[$1|kepar ha mammyeth]].',
+	'babel-5-n' => 'An devnydhyer-ma a wor skrifa [[$2|Kernewek]] orth nivel [[$1|galwansek]].',
+	'babel-N-n' => '[[$2|Kernewek]] yw [[$1|mammyeth]] an devnydhyer-ma.',
 	'babel-footer' => 'Devnydhyoryon herwydh yeth',
 );
 
@@ -6607,12 +6609,13 @@ $messages['ur'] = array(
 /** Uzbek (oʻzbekcha)
  * @author Nataev
  * @author Purodha
+ * @author Sociologist
  */
 $messages['uz'] = array(
 	'babel' => "Foydalanuvchi bilgan tillar haqida ma'lumot (Bobil)",
 	'babel-desc' => "Avtomatik ravishda tillar haqida o'zgartirsa bo'ladigan ma'lumot ustunini yaratadigan <code>#babel</code> parseri funksiyasini qo'shadi",
 	'babel-url' => 'Project:Bobil',
-	'babel-footer-url' => ":Category:Bobil - tillar bo'yicha foydalanuvchilar",
+	'babel-footer-url' => ':Category:Bobil - Foydalanuvchilar tillari boʻyicha',
 	'babel-autocreate-abort' => "Siz ko'rsatgan foydalanuvchi nomi avtomatik ravishda [[$1|Bobil]] turkumlarini yaratish uchun qo'llaniladi va shu sabab qayd qilsa bo'lmaydi.",
 	'babel-autocreate-reason' => 'Avtomatik ravishda [[$1|Bolbil]] turkum sahifasini yaratish.',
 	'babel-autocreate-text-levels' => "Bu turkumdagi foydalanuvchilar $2 til uchun $1 bilim darajasini ko'rsatishgan.",
@@ -6631,7 +6634,7 @@ $messages['uz'] = array(
 	'babel-4-n' => "Bu foydalanuvchi [[$2|o'zbek tilini]] [[$1|deyarli ona tilidek]] biladi.",
 	'babel-5-n' => "Bu foydalanuvchi [[$2|o'zbek tilini]] [[$1|professional darajada]] biladi.",
 	'babel-N-n' => "Bu foydalanuchi uchun [[$2|o'zbek tili]] [[$1|ona tilidir]].",
-	'babel-footer' => "Til bo'yicha foydalanuvchilar",
+	'babel-footer' => 'Foydalanuvchilar tillari boʻyicha',
 );
 
 /** vèneto (vèneto)
