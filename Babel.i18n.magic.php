@@ -43,6 +43,11 @@ $magicWords['eo'] = array(
 	'babel' => array( 0, 'babelo' ),
 );
 
+/** Estonian (eesti) */
+$magicWords['et'] = array(
+	'babel' => array( 0, 'paabel' ),
+);
+
 /** Franco-Provençal (arpetan) */
 $magicWords['frp'] = array(
 	'babel' => array( 0, 'babél' ),
