@@ -623,13 +623,14 @@ $messages['azb'] = array(
 
 /** Bashkir (башҡортса)
  * @author Assele
+ * @author Gleb Borisov
  * @author Haqmar
  */
 $messages['ba'] = array(
 	'babel' => 'Ҡулланыусы телдәре (Вавилон)',
 	'babel-desc' => 'Телдәр тураһында мәғлүмәт менән, икенсе ҡалыптар өҫтәргә мөмкинлек биргән Вавилон бағанаһын булдырыусы <code>#babel</code> уҡыу ҡоралын өҫтәй.',
 	'babel-url' => 'Project:Вавилон',
-	'babel-footer-url' => ':Category:Вавилон — Ҡатнашыусылар телдәр буйынса',
+	'babel-footer-url' => ':Category:Ҡатнашыусы телдәре',
 	'babel-autocreate-abort' => 'Һеҙ һайлаған исем [[$1|Вавилон]] категорияларын булдырыу өсөн ҡулланыла һәм теркәлә алмай.',
 	'babel-autocreate-reason' => '[[$1|Вавилон]] категорияһы битен булдырыу',
 	'babel-autocreate-text-levels' => 'Был категориялағы ҡатнашыусылар $2 телен $1 дәрәжәлә белеүен күрһәткән.',
