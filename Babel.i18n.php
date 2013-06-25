@@ -1791,6 +1791,7 @@ $messages['fit'] = array(
  */
 $messages['fo'] = array(
 	'babel' => 'Babel brúkara upplýsing',
+	'babel-desc' => 'Leggur afturat <code>#babel</code> parsarafunksjón fyri at loyva sjálvvirkandi upprættan av babel brúkarakassa við møguleika fyri at taka við tilevnaðar fyrimyndir (skapilónir)',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Brúkari eftir máli',
 	'babel-autocreate-abort' => 'Brúkaranavnið, sum tú valdi, verður brúkt til [[$1|Babel]] bólkin til sjálv-upprættan og kann ikki skrásetast.',
