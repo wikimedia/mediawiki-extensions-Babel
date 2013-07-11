@@ -48,6 +48,11 @@ $magicWords['et'] = array(
 	'babel' => array( 0, 'paabel' ),
 );
 
+/** Persian (فارسی) */
+$magicWords['fa'] = array(
+	'babel' => array( 0, 'بابل' ),
+);
+
 /** Franco-Provençal (arpetan) */
 $magicWords['frp'] = array(
 	'babel' => array( 0, 'babél' ),
