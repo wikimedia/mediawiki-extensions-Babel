@@ -53,6 +53,11 @@ $magicWords['fa'] = array(
 	'babel' => array( 0, 'بابل' ),
 );
 
+/** French (français) */
+$magicWords['fr'] = array(
+	'babel' => array( 0, 'Babel' ),
+);
+
 /** Franco-Provençal (arpetan) */
 $magicWords['frp'] = array(
 	'babel' => array( 0, 'babél' ),
