@@ -3987,7 +3987,7 @@ $messages['mi'] = array(
  */
 $messages['min'] = array(
 	'babel' => 'Informasi bahaso pangguno',
-	'babel-desc' => 'Menambah fungsi parser <code>#babel</code> untuak manampilkan kotak pangguno babel sacaro otomatis jo kamampuan manggunoan templat buatan',
+	'babel-desc' => 'Menambah fungsi parser <code>#babel</code> untuak manampilan kotak pangguno babel sacaro otomatih jo kamampuan manggunoan templat surang',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Pangguno manuruik bahaso',
 	'babel-autocreate-abort' => 'Namo pangguno Sanak digunoan untuak mambuek kategori [[$1|Babel]] otomatis dan indak dapek didaftakan.',
