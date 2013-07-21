@@ -2783,6 +2783,7 @@ $messages['is'] = array(
  * @author Beta16
  * @author Cruccone
  * @author Darth Kule
+ * @author FRacco
  * @author McDutchie
  * @author Melos
  * @author Morel
@@ -2795,8 +2796,8 @@ $messages['it'] = array(
 	'babel-footer-url' => ':Category:Utenti per lingua',
 	'babel-autocreate-abort' => 'Il nome utente specificato è usato per la creazione automatica di categorie [[$1|Babel]] e non può essere registrato.',
 	'babel-autocreate-reason' => 'Creo automaticamente la pagina della categoria [[$1|Babel]].',
-	'babel-autocreate-text-levels' => 'Gli utenti in questa categoria indicano che hanno un livello di conoscenza $1 della lingua $2.',
-	'babel-autocreate-text-main' => 'Gli utenti in questa categoria indicano che conoscono la lingua $1.',
+	'babel-autocreate-text-levels' => 'Gli utenti in questa categoria indicano che parlano $2 con un livello di conoscenza $1.',
+	'babel-autocreate-text-main' => 'Gli utenti in questa categoria indicano che parlano $1.',
 	'babel-0' => 'Questo utente [[$1|non è in grado di comunicare]] in [[$2|$3]] (o lo capisce solo con notevole difficoltà).',
 	'babel-1' => 'Questo utente può contribuire con un livello [[$1|elementare]] in [[$2|$3]].',
 	'babel-2' => 'Questo utente può contribuire con un livello [[$1|intermedio]] in [[$2|$3]].',
@@ -4009,7 +4010,7 @@ $messages['min'] = array(
 	'babel-4-n' => 'Pangguno ko mangarati bahaso [[$2|Minang]] saroman [[$1|urang Minang]].',
 	'babel-5-n' => 'Pangguno ko [[$1|ahli]] bahaso [[$2|Minang]].',
 	'babel-N-n' => 'Pangguno ko [[$1|mangecek]] jo bahaso [[$2|Minang]].',
-	'babel-template' => 'Template:Pangguno $1',
+	'babel-template' => 'Template:User $1',
 	'babel-footer' => 'Pangguno badasarkan bahaso',
 );
 
