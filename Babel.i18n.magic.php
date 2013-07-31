@@ -83,6 +83,11 @@ $magicWords['ko'] = array(
 	'babel' => array( 0, '바벨' ),
 );
 
+/** Minangkabau (Baso Minangkabau) */
+$magicWords['min'] = array(
+	'babel' => array( 0, 'bhs' ),
+);
+
 /** Macedonian (македонски) */
 $magicWords['mk'] = array(
 	'babel' => array( 0, 'вавилон' ),
