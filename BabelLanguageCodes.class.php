@@ -27,12 +27,14 @@ class BabelLanguageCodes {
 		$mediawiki = Language::fetchLanguageName( $code );
 		if ( $mediawiki !== '' ) {
 			wfProfileOut( __METHOD__ );
+
 			return $code;
 		}
 
 		$codesCdb = CdbReader::open( $wgBabelLanguageCodesCdb );
 		$codes = $codesCdb->get( $code );
 		wfProfileOut( __METHOD__ );
+
 		return $codes;
 	}
 
@@ -54,6 +56,7 @@ class BabelLanguageCodes {
 		$code = self::getCode( $code );
 		if ( $code === false ) {
 			wfProfileOut( __METHOD__ );
+
 			return false;
 		}
 
@@ -61,12 +64,14 @@ class BabelLanguageCodes {
 		$names = Language::fetchLanguageNames( $language, 'all' );
 		if ( isset( $names[$code] ) ) {
 			wfProfileOut( __METHOD__ );
+
 			return $names[$code];
 		}
 
 		$namesCdb = CdbReader::open( $wgBabelLanguageNamesCdb );
 		$codes = $namesCdb->get( $code );
 		wfProfileOut( __METHOD__ );
+
 		return $codes;
 	}
 }

@@ -20,7 +20,7 @@ class BabelAutoCreate {
 	/**
 	 * @var User
 	 */
-	static $user = false;
+	protected static $user = false;
 
 	/**
 	 * Abort user creation if the username is that of the autocreation username.
@@ -32,6 +32,7 @@ class BabelAutoCreate {
 		$url = wfMessage( 'babel-url' )->text();
 		$errorText = wfMessage( 'babel-autocreate-abort', $url )->parse();
 		$autoCreateUser = wfMessage( 'babel-autocreate-user' )->inContentLanguage()->plain();
+
 		return $user->getName() !== $autoCreateUser;
 	}
 
@@ -48,6 +49,7 @@ class BabelAutoCreate {
 		$title = Title::makeTitleSafe( NS_CATEGORY, $category );
 		if ( $title === null || $title->exists() ) {
 			wfProfileOut( __METHOD__ );
+
 			return;
 		}
 		global $wgLanguageCode;
@@ -64,11 +66,13 @@ class BabelAutoCreate {
 		# Do not add a message if the username is invalid or if the account that adds it, is blocked
 		if ( !$user || $user->isBlocked() ) {
 			wfProfileOut( __METHOD__ );
+
 			return;
 		}
 
 		if ( !$title->quickUserCan( 'create', $user ) ) {
 			wfProfileOut( __METHOD__ );
+
 			return; # The Babel AutoCreate account is not allowed to create the page
 		}
 
@@ -108,6 +112,7 @@ class BabelAutoCreate {
 				self::$user->addToDatabase();
 			}
 		}
+
 		return self::$user;
 	}
 }

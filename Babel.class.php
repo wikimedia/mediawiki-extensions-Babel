@@ -20,7 +20,7 @@ class Babel {
 	/**
 	 * @var Title
 	 */
-	static $title;
+	protected static $title;
 
 	/**
 	 * Render the Babel tower.
@@ -54,18 +54,28 @@ class Babel {
 			} elseif ( $components !== false ) {
 				// Valid parameter syntax (with lowercase language code), babel box
 				$content .= self::mGenerateBox( $components['code'], $components['level'] );
-				$content .= self::mGenerateCategories( $components['code'], $components['level'], $createCategories );
+				$content .= self::mGenerateCategories(
+					$components['code'],
+					$components['level'],
+					$createCategories
+				);
 			} elseif ( self::mPageExists( $template ) ) {
 				// Check for an existing template
 				$templateParameters[0] = $template;
 				$template = implode( '|', $templateParameters );
 				$content .= self::mGenerateNotaBox( $parser->replaceVariables( "{{{$template}}}" ) );
 			} elseif ( self::mValidTitle( $template ) ) {
-				// Non-existing page, so try again as a babel box, with converting the code to lowercase
-				$components2 = self::mParseParameter( $name, /* code to lowercase */ true );
+				// Non-existing page, so try again as a babel box,
+				// with converting the code to lowercase
+				$components2 = self::mParseParameter( $name, /* code to lowercase */
+					true );
 				if ( $components2 !== false ) {
 					$content .= self::mGenerateBox( $components2['code'], $components2['level'] );
-					$content .= self::mGenerateCategories( $components2['code'], $components2['level'], $createCategories );
+					$content .= self::mGenerateCategories(
+						$components2['code'],
+						$components2['level'],
+						$createCategories
+					);
 				} else {
 					// Non-existent page and invalid parameter syntax, red link.
 					$content .= self::mGenerateNotaBox( '[[' . $template . ']]' );
@@ -99,7 +109,8 @@ class Babel {
 		$url = wfMessage( 'babel-footer-url' )->inContentLanguage();
 		$showfooter = '';
 		if ( !$footer->isDisabled() && !$url->isDisabled() ) {
-			$showfooter = '! class="mw-babel-footer" | [[' . $url->text() . '|' . $footer->text() . ']]';
+			$showfooter = '! class="mw-babel-footer" | [[' .
+				$url->text() . '|' . $footer->text() . ']]';
 		}
 		$spacing = Babel::mCssAttrib( 'border-spacing', 'babel-box-cellspacing', true );
 		$padding = Babel::mCssAttrib( 'padding', 'babel-box-cellpadding', true );
@@ -107,7 +118,9 @@ class Babel {
 		if ( $spacing === '' ) {
 			$style = ( $padding === '' ) ? '' : ( 'style="' . $padding . '"' );
 		} else {
-			$style = ( $padding === '' ) ? 'style="' . $spacing . '"' : 'style="' . $padding . ' ' . $spacing . '"';
+			$style = ( $padding === '' ) ?
+				'style="' . $spacing . '"' :
+				'style="' . $padding . ' ' . $spacing . '"';
 		}
 
 		$tower = <<<EOT
@@ -120,6 +133,7 @@ $showfooter
 |}
 EOT;
 		wfProfileOut( __METHOD__ );
+
 		return $tower;
 	}
 
@@ -152,6 +166,7 @@ EOT;
 	 */
 	protected static function mPageExists( $name ) {
 		$titleObj = Title::newFromText( $name );
+
 		return ( is_object( $titleObj ) && $titleObj->exists() );
 	}
 
@@ -163,6 +178,7 @@ EOT;
 	 */
 	protected static function mValidTitle( $name ) {
 		$titleObj = Title::newFromText( $name );
+
 		return is_object( $titleObj );
 	}
 
@@ -185,12 +201,14 @@ EOT;
 			$return['code'] = $code;
 			$return['level'] = $wgBabelDefaultLevel;
 			wfProfileOut( __METHOD__ );
+
 			return $return;
 		}
 		// Try splitting the paramter in to language and level, split on last hyphen.
 		$lastSplit = strrpos( $parameter, '-' );
 		if ( $lastSplit === false ) {
 			wfProfileOut( __METHOD__ );
+
 			return false;
 		}
 		$code = substr( $parameter, 0, $lastSplit );
@@ -201,16 +219,19 @@ EOT;
 		$return['code'] = BabelLanguageCodes::getCode( $babelcode );
 		if ( $return['code'] === false ) {
 			wfProfileOut( __METHOD__ );
+
 			return false;
 		}
 		// Validate level.
 		$level = strtoupper( $level );
 		if ( !isset( $wgBabelCategoryNames[$level] ) ) {
 			wfProfileOut( __METHOD__ );
+
 			return false;
 		}
 		$return['level'] = $level;
 		wfProfileOut( __METHOD__ );
+
 		return $return;
 	}
 
@@ -225,6 +246,7 @@ EOT;
 		$notabox = <<<EOT
 <div class="mw-babel-notabox" dir="$dir_head">$content</div>
 EOT;
+
 		return $notabox;
 	}
 
@@ -259,7 +281,9 @@ EOT;
 		if ( $spacing === '' ) {
 			$style = ( $padding === '' ) ? '' : ( 'style="' . $padding . '"' );
 		} else {
-			$style = ( $padding === '' ) ? 'style="' . $spacing . '"' : 'style="' . $padding . ' ' . $spacing . '"';
+			$style = ( $padding === '' ) ?
+				'style="' . $spacing . '"' :
+				'style="' . $padding . ' ' . $spacing . '"';
 		}
 
 		$dir_head = self::$title->getPageLanguage()->getDir();
@@ -273,6 +297,7 @@ EOT;
 </div>
 EOT;
 		wfProfileOut( __METHOD__ );
+
 		return $box;
 	}
 
@@ -292,13 +317,15 @@ EOT;
 		if ( $wgBabelCategoryNames[$level] === false ) {
 			$categoryLevel = self::$title->getFullText();
 		} else {
-			$categoryLevel = ':Category:' . self::mReplaceCategoryVariables( $wgBabelCategoryNames[$level], $language );
+			$categoryLevel = ':Category:' .
+				self::mReplaceCategoryVariables( $wgBabelCategoryNames[$level], $language );
 		}
 
 		if ( $wgBabelMainCategory === false ) {
 			$categoryMain = self::$title->getFullText();
 		} else {
-			$categoryMain = ':Category:' . self::mReplaceCategoryVariables( $wgBabelMainCategory, $language );
+			$categoryMain = ':Category:' .
+				self::mReplaceCategoryVariables( $wgBabelMainCategory, $language );
 		}
 
 		// Give grep a chance to find the usages:
@@ -321,6 +348,7 @@ EOT;
 		}
 
 		wfProfileOut( __METHOD__ );
+
 		return $text;
 	}
 
@@ -329,7 +357,8 @@ EOT;
 	 *
 	 * @param $code String: Language code to use.
 	 * @param $level String or Integer: Level of ability to use.
-	 * @param $createCategories Boolean: If true, creates non existing categories; otherwise, doesn't create them.
+	 * @param $createCategories Boolean: If true, creates non existing categories;
+	 * otherwise, doesn't create them.
 	 * @return String: Wikitext to add categories.
 	 */
 	protected static function mGenerateCategories( $code, $level, $createCategories = true ) {
@@ -357,6 +386,7 @@ EOT;
 		}
 
 		wfProfileOut( __METHOD__ );
+
 		return $r;
 	}
 
@@ -375,6 +405,7 @@ EOT;
 			'%wikiname%' => BabelLanguageCodes::getName( $code, $wgLanguageCode ),
 			'%nativename%' => BabelLanguageCodes::getName( $code )
 		) );
+
 		return $category;
 	}
 
@@ -383,8 +414,9 @@ EOT;
 	 *
 	 * @param $name String: name of CSS attribute.
 	 * @param $key String: Message key of attribute value.
-	 * @param $assumeNumbersArePixels Boolean: if true, treat numbers values as pixels; otherwise, keep values as is (default: false).
-	 * TODO: move this function to a more appropriate place, likely outside the class.
+	 * @param $assumeNumbersArePixels Boolean: if true, treat numbers values as pixels;
+	 * otherwise, keep values as is (default: false).
+	 * @todo Move this function to a more appropriate place, likely outside the class.
 	 * @return Message|string
 	 */
 	protected static function mCssAttrib( $name, $key, $assumeNumbersArePixels = false ) {
@@ -401,6 +433,7 @@ EOT;
 			}
 			$value = ' ' . $name . ': ' . $value . ';';
 		}
+
 		return $value;
 	}
 
@@ -421,6 +454,7 @@ EOT;
 			$value = ' ' . $name . '="' . htmlentities( $value->text(), ENT_COMPAT, 'UTF-8' ) .
 				'"'; // must get rid of > and " inside value
 		}
+
 		return $value;
 	}
 
