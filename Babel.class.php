@@ -103,7 +103,7 @@ class Babel {
 		}
 		$spacing = Babel::mCssAttrib( 'border-spacing', 'babel-box-cellspacing', true );
 		$padding = Babel::mCssAttrib( 'padding', 'babel-box-cellpadding', true );
-		$style = '';
+
 		if ( $spacing === '' ) {
 			$style = ( $padding === '' ) ? '' : ( 'style="' . $padding . '"' );
 		} else {
@@ -255,7 +255,7 @@ EOT;
 
 		$spacing = Babel::mCssAttrib( 'border-spacing', 'babel-cellspacing', true );
 		$padding = Babel::mCssAttrib( 'padding', 'babel-cellpadding', true );
-		$style = '';
+
 		if ( $spacing === '' ) {
 			$style = ( $padding === '' ) ? '' : ( 'style="' . $padding . '"' );
 		} else {
