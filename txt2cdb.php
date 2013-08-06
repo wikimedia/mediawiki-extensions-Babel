@@ -7,8 +7,11 @@
 
 $dir = __DIR__;
 $IP = "$dir/../..";
-@include( "$dir/../../CorePath.php" ); // Allow override
-require_once( "$IP/maintenance/commandLine.inc" );
+if ( file_exists( "$dir/../../CorePath.php" ) ) {
+	include "$dir/../../CorePath.php"; // Allow override
+}
+
+require_once "$IP/maintenance/commandLine.inc";
 
 $names = "$dir/names.cdb";
 $codes = "$dir/codes.cdb";

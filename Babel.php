@@ -71,7 +71,8 @@ $wgBabelDefaultLevel = 'N';
 // Use the viewing user's language for babel box header's and footer's
 // May fragment parser cache, but otherwise shouldn't cause problems
 $wgBabelUseUserLanguage = false;
-// A boolean (true or false) indicating whether ISO 639-3 codes should be preferred over ISO 639-1 codes.
+// A boolean (true or false) indicating whether ISO 639-3 codes should be
+// preferred over ISO 639-1 codes.
 $wgBabelPreferISO639_3 = false; // Not yet used.
 
 /* Other settings, to be made in-wiki:
