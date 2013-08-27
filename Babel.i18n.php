@@ -65,7 +65,8 @@ $messages['en'] = array(
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'babel' => 'Header of Babel box. Parameter $1 is the name of the page it is used on, for GENDER support.',
+	'babel' => 'Header of Babel box. Parameters:
+* $1 - (Optional) the name of the page it is used on, for GENDER support',
 	'babel-desc' => '{{desc|name=Babel|url=http://www.mediawiki.org/wiki/Extension:Babel}}',
 	'babel-url' => '{{doc-important|Do not translate the namespace "<code>Project:</code>".}}
 The page name at which more information about the babel system can be found.',
