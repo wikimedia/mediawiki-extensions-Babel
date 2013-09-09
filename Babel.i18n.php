@@ -6927,6 +6927,7 @@ $messages['war'] = array(
 
 /** Wolof (Wolof)
  * @author Ibou
+ * @author Jafeluv
  */
 $messages['wo'] = array(
 	'babel' => 'Ay xibaari ci jëfandikukatu babel bi',
@@ -6945,6 +6946,7 @@ $messages['wo'] = array(
 	'babel-4-n' => 'Bii jëfandikukat dégg na [[$2|wolof]] yu [[$1|jege ku ci juddu]].',
 	'babel-5-n' => 'Bii jëfandikukat dégg na [[$2|wolof]] yu [[$1|xereñ]].',
 	'babel-N-n' => 'Bii jëfandikukat dégg na [[$2|wolof]] ni [[$1|ku ci juddu]].',
+	'babel-footer' => 'Waa-wikipedia ci làkk-ak-làkk',
 );
 
 /** Wu (吴语)
