@@ -1398,10 +1398,11 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Gorizon
  * @author Neribij
  */
 $messages['diq'] = array(
-	'babel' => 'Melumatê babilê karberî',
+	'babel' => 'Zanışgeya babila karberi',
 	'babel-desc' => 'Xulasa da sablonan dı dêsê babilê karberi xob xo vışatıştı, fonksiyonê <code>#babil</code>i fêno de',
 	'babel-url' => 'Project:Babil',
 	'babel-footer-url' => 'Kategoriye:Zıwana heta karberi',
