@@ -3306,7 +3306,7 @@ $messages['kw'] = array(
 	'babel-footer' => 'Devnydhyoryon herwydh yeth',
 );
 
-/** Kirghiz (Кыргызча)
+/** Kyrgyz (Кыргызча)
  * @author AidaBishkek
  * @author Chorobek
  */
