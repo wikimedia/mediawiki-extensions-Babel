@@ -52,6 +52,7 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Dereckson
  * @author Lloffiwr
  * @author Od1n
  * @author Purodha
@@ -70,7 +71,7 @@ $messages['qqq'] = array(
 	'babel-desc' => '{{desc|name=Babel|url=http://www.mediawiki.org/wiki/Extension:Babel}}',
 	'babel-url' => '{{doc-important|Do not translate the namespace "<code>Project:</code>".}}
 The page name at which more information about the babel system can be found.',
-	'babel-footer-url' => 'Unless this messge is empty, this is used as link target in the last entry,
+	'babel-footer-url' => 'Unless this message is empty, this is used as link target in the last entry,
 also known as the footer, of the outer Babel-box,
 provided that the installation chooses to have a footer.
 The corresponding link anchor is the message [[MediaWiki:babel-footer/{{UILANGCODE}}|babel-footer]] {{msg-mw|Babel-footer|notext=}}.
