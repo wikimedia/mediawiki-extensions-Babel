@@ -2138,6 +2138,7 @@ $messages['gom-latn'] = array(
 	'babel-4-n' => 'Hea vangddiak [[$2|Konknni]] [[$1|khup borem]] bhaxen kollta',
 	'babel-5-n' => 'Hea vangddeak [[$2|Konknni]] [[$1|vyavasaik]] sthorar kollta',
 	'babel-N-n' => '[[$2|Konknni]] hea vangddiachi [[$1|mai-bhas]] zaun asa',
+	'babel-footer' => 'Bhasepormonem vapurpeanchim nanvam',
 );
 
 /** Gothic (Gothic)
