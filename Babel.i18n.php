@@ -3678,6 +3678,14 @@ $messages['lo'] = array(
 	'babel-footer' => 'ຜູ້ໃຊ້ຕາມພາສາ',
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'babel-url' => 'پروجه:بابل', # Fuzzy
+	'babel-footer' => 'كارور وا زون',
+);
+
 /** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Garas
