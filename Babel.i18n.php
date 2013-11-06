@@ -3686,7 +3686,12 @@ $messages['lo'] = array(
  * @author Mogoeilor
  */
 $messages['lrc'] = array(
+	'babel' => 'دونسمنیا کارور بابل',
 	'babel-url' => 'پروجه:بابل', # Fuzzy
+	'babel-footer-url' => ':دسه :بابل-کاروریا وا زون',
+	'babel-1' => 'ای کارور دونسمندی د [[$1|basic]]تا [[$2|$3]]داره.',
+	'babel-2' => 'ای کارور دونسمنی د [[$1|intermediate]]تا [[$2|$3]] داره.',
+	'babel-3' => 'ای کارور دونسمنی د [[$1|advanced]] تا [[$2|$3]]داره.',
 	'babel-footer' => 'كارور وا زون',
 );
 
