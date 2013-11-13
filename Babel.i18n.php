@@ -2124,6 +2124,11 @@ $messages['gl'] = array(
  * @author The Discoverer
  */
 $messages['gom-latn'] = array(
+	'babel' => 'Babel vapurpi mahiti',
+	'babel-url' => 'Project:Babel',
+	'babel-footer-url' => ':Category:Babel - Bhase pormonnem vapurpi',
+	'babel-autocreate-text-levels' => 'Hea vorgacheo vapurpeanim khunnaila ki $2 bhasen kushaltaiche $1 pavlar asat',
+	'babel-autocreate-text-main' => 'Hea vorgacheo vapurpeanim khunnaila ki tenka $1 bhas kollta.',
 	'babel-0' => 'Hea vangddiak [[$2|$3]] [[$1|kollna]]',
 	'babel-1' => 'Hea vangddiak [[$1|thodi]] [[$2|$3]] kollta',
 	'babel-2' => 'Hea vangddeak [[$2|$3]] [[$1|sadhi]] sthorar kollta',
