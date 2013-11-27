@@ -31,8 +31,14 @@ class BabelLanguageCodes {
 			return $code;
 		}
 
-		$codesCdb = CdbReader::open( $wgBabelLanguageCodesCdb );
-		$codes = $codesCdb->get( $code );
+		$codes = false;
+		try {
+			$codesCdb = CdbReader::open( $wgBabelLanguageCodesCdb );
+			$codes = $codesCdb->get( $code );
+		} catch ( CdbException $e ) {
+			wfDebug( __METHOD__ . ": CdbException caught, error message was "
+				. $e->getMessage() );
+		}
 		wfProfileOut( __METHOD__ );
 
 		return $codes;
@@ -68,8 +74,14 @@ class BabelLanguageCodes {
 			return $names[$code];
 		}
 
-		$namesCdb = CdbReader::open( $wgBabelLanguageNamesCdb );
-		$codes = $namesCdb->get( $code );
+		$codes = false;
+		try {
+			$namesCdb = CdbReader::open( $wgBabelLanguageNamesCdb );
+			$codes = $namesCdb->get( $code );
+		} catch ( CdbException $e ) {
+			wfDebug( __METHOD__ . ": CdbException caught, error message was "
+				. $e->getMessage() );
+		}
 		wfProfileOut( __METHOD__ );
 
 		return $codes;
