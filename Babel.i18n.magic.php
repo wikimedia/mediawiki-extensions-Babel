@@ -25,7 +25,7 @@ $magicWords['arc'] = array(
 
 /** Egyptian Spoken Arabic (مصرى) */
 $magicWords['arz'] = array(
-	'babel' => array( 0, 'بابل', 'babel' ),
+	'babel' => array( 0, 'بابل' ),
 );
 
 /** Chechen (нохчийн) */
