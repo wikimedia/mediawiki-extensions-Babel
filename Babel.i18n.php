@@ -1183,7 +1183,7 @@ $messages['crh'] = array(
 	'babel-N' => 'Bu qullanıcınıñ [[$1|ana tili]] [[$2|Qırımtatar tili]]dir.',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Danny B.
  * @author Kuvaly
  * @author Li-sung
@@ -1248,7 +1248,7 @@ $messages['csb'] = array(
 	'babel-footer' => 'Jãzëczi brëkòwników',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
