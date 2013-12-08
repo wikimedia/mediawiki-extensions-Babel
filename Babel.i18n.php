@@ -1552,17 +1552,18 @@ $messages['el'] = array(
 
 /** Emiliano-Romagnolo (emiliàn e rumagnòl)
  * @author Gloria sah
+ * @author Lévi
  * @author PiRSquared17
  */
 $messages['eml'] = array(
-	'babel' => 'Informasiòun àj utèint ed Babél',
-	'babel-desc' => "Al śòunta 'na funsiòun d'anàliś dla sintàsi <code>#babel</code> ch' la permèt la créasiòun automàtica ed 'na caśèla d'utàint Bàbel cun la pòsibilitè ed śountèregh dj modé lochèl",
+	'babel' => "Infurmasiòun a j utèint ed 'Babel'",
+	'babel-desc' => "Al zûnta la funsiòun 'parser' <code>#babel</code> ch' la permèt la créasiòun automàtica ed 'na caśèla d'utàint Bàbel cun la pòsibilitè ed śountèregh dj modé lochèl",
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Catégorja:Babél - Utèint par lèngua',
-	'babel-autocreate-abort' => "Al nòm d'utèint ch'avĵ mìs dèinter, l'è druè per créèr in automàtic el categorìi [[$1|Babel]] e al 'n pôl brìsa èser registrè.",
-	'babel-autocreate-reason' => 'Créasiòun automàtica ed la pagìna dla catégurìa [[$1|Babél]].',
-	'babel-autocreate-text-levels' => "J utèint int cla categorìa chè j dìśen ch' j gh'àn un livèl $1 per la lìngua $2.",
-	'babel-autocreate-text-main' => "J utèint int cla categorìa chè j dìśen ch' j gh'àn na cumprensiòun dla lìngua $1.",
+	'babel-autocreate-abort' => "Al nòm utèint ch'é stê més dèinter l'é druvê per fêr in avtomâtich al categoréi [[$1|Babel]] e 'l pōl mia èser registrê.",
+	'babel-autocreate-reason' => "A fâgh in avtomâtich la pàgina 'd la categoréia [[$1|Babel]].",
+	'babel-autocreate-text-levels' => 'J utèint in cla categoréia ché a dîsen che pōlen comunichêr a un livèl $1 per la léngua $2.',
+	'babel-autocreate-text-main' => 'J utèint int cla categorìa chè a dìşen che pōlen comunichêr a livèl $1.',
 	'babel-0' => "Cl'utèint chè al [[$1|'n gh'à brîsa 'na cumprensiòun]] dl' [[$2|$3]].",
 	'babel-1' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|cìca]] d' [[$2|$3]].",
 	'babel-2' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|bòuna]] d' [[$2|$3]].",
@@ -2658,31 +2659,33 @@ $messages['id'] = array(
 );
 
 /** Interlingue (Interlingue)
+ * @author Makuba
  * @author Renan
  */
 $messages['ie'] = array(
-	'babel' => 'Information Babel de usator',
-	'babel-desc' => 'Addir li function analisator <code>#babel</code> por permisser generation automatisat de un columne de buxe de usator babel che li capabilitá por includer avises customal',
+	'babel' => 'Babel – Usatoral informationes',
+	'babel-desc' => 'Addí li syntax-analysator <code>#babel</code> por automatic generation de usatoral buxes de »Babel« con li possibilitá includer self-definit avises.',
 	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => ':Category:Babel - Usatores per lingue',
-	'babel-autocreate-abort' => 'Li nómine de usator que vu specificat es usat por categorie de auto-creation [[$1|Babel]] e ne posse esser registrat.',
-	'babel-autocreate-reason' => 'Automaticamen creant págine de categorie de [[$1|Babel]].',
-	'babel-autocreate-text-levels' => 'Usatores in ti categorie indica que ili have nivelle de habilitá $1 por lingue $2.',
-	'babel-autocreate-text-main' => 'Usatores in ti categorie indica que ili have conossentie de lingue $1.',
-	'babel-0' => 'Ti usator ha [[$1|nequant]] conossentie de [[$2|$3]] (o comprende it che considerabil desfacilitá).',
-	'babel-1' => 'Ti usator ha un conossentie [[$1|basic]] de [[$2|$3]].',
-	'babel-2' => 'Ti usator ha un conossentie [[$1|intermediari]] de [[$2|$3]].',
-	'babel-3' => 'Ti usator ha un conossentie [[$1|avansat]] de [[$2|$3]].',
-	'babel-4' => 'Ti usator ha un conossentie [[$1|proxim de un parlator indigen]] de [[$2|$3]].',
-	'babel-5' => 'Ti usator ha un conossentie [[$1|professional]] de [[$2|$3]].',
-	'babel-N' => 'Ti usator ha un comprension [[$1|indigen]] de [[$2|$3]].',
-	'babel-0-n' => 'Ti usator ha [[$1|nequant]] conossentie de [[$2|Interlingue]] (o comprende it che considerabil desfacilitá).',
-	'babel-1-n' => 'Ti usator ha un conossentie [[$1|basic]] de [[$2|Interlingue]].',
-	'babel-2-n' => 'Ti usator ha un conossentie [[$1|intermediari]] de [[$2|Interlingue]].',
-	'babel-3-n' => 'Ti usator ha un conossentie [[$1|avansat]] de [[$2|Interlingue]].',
-	'babel-4-n' => 'Ti usator ha un conossentie [[$1|proxim de un parlator indigen]] de [[$2|Interlingue]].',
-	'babel-5-n' => 'Ti usator ha un conossentie [[$1|professional]] de [[$2|Interlingue]].',
-	'babel-N-n' => 'Ti usator ha un comprension [[$1|indigen]] de [[$2|Interlingue]].',
+	'babel-footer-url' => ':Category:Babel - Usatores secun lingue',
+	'babel-autocreate-abort' => 'Li usatoral nómine, quel tu ha specificat, es usat por li auto-creation de [[$1|Babel]]-categories e ne posse esser registrat.',
+	'babel-autocreate-reason' => 'Automaticamen creant li págine del [[$1|Babel]]-categories.',
+	'babel-autocreate-text-levels' => 'Usatores in ti categorie indica, que ili have un nivelle de habilitá $1 por lingue $2.',
+	'babel-autocreate-text-main' => 'Usatores in ti categorie indica, que ili have conossenties de lingue $1.',
+	'babel-0' => 'Ti usator have [[$1|nequant]] conossentie de [[$2|$3]] (o comprende it con considerabil desfacilitá).',
+	'babel-1' => 'Ti usator have un [[$1|basic]] conossentie de [[$2|$3]].',
+	'babel-2' => 'Ti usator have un [[$1|intermediari]] conossentie de [[$2|$3]].',
+	'babel-3' => 'Ti usator have un [[$1|avansat]] conossentie de [[$2|$3]].',
+	'babel-4' => 'Ti usator have un conossentie [[$1|proxim a un parlator indigen]] de [[$2|$3]].',
+	'babel-5' => 'Ti usator have un [[$1|professional]] conossentie de [[$2|$3]].',
+	'babel-N' => 'Ti usator have un [[$1|indigen]] comprension de [[$2|$3]].',
+	'babel-0-n' => 'Ti usator have [[$1|nequant]] conossentie de [[$2|Occidental/Interlingue]] (o comprende it con considerabil desfacilitá).',
+	'babel-1-n' => 'Ti usator have un [[$1|basic]] conossentie de [[$2|Occidental/Interlingue]].',
+	'babel-2-n' => 'Ti usator have un [[$1|intermediari]] conossentie de [[$2|Occidental/Interlingue]].',
+	'babel-3-n' => 'Ti usator have un [[$1|avansat]] conossentie de [[$2|Occidental/Interlingue]].',
+	'babel-4-n' => 'Ti usator have un conossentie [[$1|proxim a un parlator indigen]] de [[$2|Occidental/Interlingue]].',
+	'babel-5-n' => 'Ti usator have un [[$1|professional]] conossentie de [[$2|Occidental/Interlingue]].',
+	'babel-N-n' => 'Ti usator have un [[$1|indigen]] comprension de [[$2|Occidental/Interlingue]].',
+	'babel-footer' => 'Usatores secun lingue',
 );
 
 /** Igbo (Igbo)
