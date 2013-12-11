@@ -1325,13 +1325,14 @@ $messages['cy'] = array(
 
 /** Danish (dansk)
  * @author Byrial
+ * @author Christian List
  * @author Froztbyte
  * @author Jan Friberg
  * @author Peter Alberti
  * @author Sarrus
  */
 $messages['da'] = array(
-	'babel' => 'Babelinformation',
+	'babel' => 'Babel brugeroplysninger',
 	'babel-desc' => 'Tilføjer parserfunktionen <code>#babel</code> for at tillade automatisk at generere en babelboks med mulighed for at inkludere tilpassede skabeloner',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Brugere efter sprog',
@@ -1575,10 +1576,10 @@ $messages['eml'] = array(
 	'babel-1-n' => "Cl'utèint ché al pōl dêr 'na mân cun un livèl  [[$1|bâs]] d' [[$2|Emiliàn e rumagnòl]].",
 	'babel-2-n' => "Cl'utèint ché al pōl dêr 'na mân cun un livèl  [[$1|bòun]] d' [[$2|Emiliàn e rumagnól]].",
 	'babel-3-n' => "Cl'utèint ché al pōl dêr 'na mân cun un livèl  [[$1|dimòndi bòun]] d' [[$2|Emiliàn e rumagnòl]].",
-	'babel-4-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|avansèda]] d' [[$2|Emiliàn e rumagnòl]].",
-	'babel-5-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|profesionèl]] d' [[$2|Emiliàn e rumagnòl]].",
-	'babel-N-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|natìva]] d'[[$2|Emiliàn e rumagnòl]].",
-	'babel-footer' => 'Utèint par lèngua',
+	'babel-4-n' => "Cl'utèint ché al pōl dêr 'na mân cun un livèl [[$1|quêşi cme léngua mêdra]] in  [[$2|Emiliàn e rumagnól]].",
+	'babel-5-n' => "Cl'utèint ché al pōl dêr 'na mân cun un livèl [[$1|professionêl]] in [[$2|Emiliàn e rumagnól]].",
+	'babel-N-n' => "Cl'utèint ché al pōl dêr 'na mân cun un livèl ed [[$1| léngua mêdra]] in [[$2|Emiliàn e rumagnól]].",
+	'babel-footer' => 'Utèint per léngua',
 );
 
 /** British English (British English)
