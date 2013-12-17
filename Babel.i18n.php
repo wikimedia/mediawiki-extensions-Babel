@@ -1491,6 +1491,7 @@ $messages['dtp'] = array(
 
 /** Emiliàn (Emiliàn)
  * @author Gloria sah
+ * @author Lévi
  * @author Reder
  */
 $messages['egl'] = array(
@@ -1498,7 +1499,7 @@ $messages['egl'] = array(
 	'babel-desc' => "Al śòunta 'na funsiòun d'anàliś dla sintàsi <code>#babel</code> ch' la permèt la créasiòun automàtica ed 'na caśèla d'utàint Bàbel cun la pòsibilitè ed śountèregh dj modé lochèl",
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Catégorja:Bàbel - Utèint par lèngua',
-	'babel-autocreate-abort' => "Al nòm d'utèint ch'avĵ mìs dèinter, l'è druè per créèr in automàtic el categorìi [[$1|Babel]] e al 'n pôl brìśa èser registrè.",
+	'babel-autocreate-abort' => "Al nòm més dèinter, l'é druvê per fêr in avtomâtich al categoréi [[$1|Babel]] e an pōl mìa èser registrê.",
 	'babel-autocreate-reason' => 'Créasiòun automàtica ed la pagìna dla catégurìa [[$1|Bàbel]].',
 	'babel-autocreate-text-levels' => "J utèint int cla categurìa chè j dìśen ch' j gh'àn un livèl $1 per la lèngua $2.",
 	'babel-autocreate-text-main' => "J utèint int cla categurìa chè j dìśen ch' j gh'àn na cumprensiòun dla lèngua $1.",
