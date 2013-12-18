@@ -5563,6 +5563,15 @@ $messages['sd'] = array(
 	'babel-5-n' => 'هن يُوزر کي [[$2|انگريزي]]ءَ جي [[$1|پيشورانه]] ڄاڻ آهي.',
 );
 
+/** Sassaresu (Sassaresu)
+ * @author Jun Misugi
+ */
+$messages['sdc'] = array(
+	'babel' => "Infuimmazioni babel di l'utenti",
+	'babel-1' => 'Chisthu utenti pó cuntribuì cun un libellu [[$1|símprizi]] di [[$2|$3]].',
+	'babel-1-n' => 'Chisthu utenti pó cuntribuì cun un libellu [[$1|símprizi]] di [[$2|Sassaresu]].',
+);
+
 /** Northern Sami (sámegiella)
  * @author GerardM
  */
