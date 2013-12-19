@@ -5569,7 +5569,9 @@ $messages['sd'] = array(
 $messages['sdc'] = array(
 	'babel' => "Infuimmazioni babel di l'utenti",
 	'babel-1' => 'Chisthu utenti pó cuntribuì cun un libellu [[$1|símprizi]] di [[$2|$3]].',
+	'babel-3' => 'Chisthu utenti pó cuntribuì cun un libellu [[$1|abanzaddu]] di [[$2|$3]].',
 	'babel-1-n' => 'Chisthu utenti pó cuntribuì cun un libellu [[$1|símprizi]] di [[$2|Sassaresu]].',
+	'babel-3-n' => 'Chisthu utenti pó cuntribuì cun un libellu [[$1|abanzaddu]] di [[$2|Sassaresu]].',
 );
 
 /** Northern Sami (sámegiella)
