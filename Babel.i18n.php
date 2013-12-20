@@ -1495,29 +1495,29 @@ $messages['dtp'] = array(
  * @author Reder
  */
 $messages['egl'] = array(
-	'babel' => 'Informasiòun àj utèint ed Bàbel',
-	'babel-desc' => "Al śòunta 'na funsiòun d'anàliś dla sintàsi <code>#babel</code> ch' la permèt la créasiòun automàtica ed 'na caśèla d'utàint Bàbel cun la pòsibilitè ed śountèregh dj modé lochèl",
+	'babel' => 'Babel utèint',
+	'babel-desc' => "Al zûnta la 'parser function' <code>#babel</code> per permèter ed fêr in avtomâtic 'na caşèla utèin 'babèl' cun la pusibilitê ed zuntêregh di mudē personêl fât a piaşèir.",
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Catégorja:Bàbel - Utèint par lèngua',
 	'babel-autocreate-abort' => "Al nòm més dèinter, l'é druvê per fêr in avtomâtich al categoréi [[$1|Babel]] e an pōl mìa èser registrê.",
-	'babel-autocreate-reason' => 'Créasiòun automàtica ed la pagìna dla catégurìa [[$1|Bàbel]].',
-	'babel-autocreate-text-levels' => "J utèint int cla categurìa chè j dìśen ch' j gh'àn un livèl $1 per la lèngua $2.",
-	'babel-autocreate-text-main' => "J utèint int cla categurìa chè j dìśen ch' j gh'àn na cumprensiòun dla lèngua $1.",
-	'babel-0' => "Cl'utèint chè al [[$1|'n gh'à brîsa 'na cumprensiòun]] dl' [[$2|$3]] (u a l' capìs cun dimòndi dificulté).",
-	'babel-1' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|cìca]] d' [[$2|$3]].",
-	'babel-2' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|bòuna]] d' [[$2|$3]].",
-	'babel-3' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|dimòndi bòuna]] d' [[$2|$3]].",
-	'babel-4' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|avansèda]] d' [[$2|$3]].",
-	'babel-5' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|profesionèl]] d' [[$2|$3]].",
-	'babel-N' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|natìva]] d'[[$2|$3]].",
-	'babel-0-n' => "Cl'utèint chè al [[$1|'n gh'à brîsa]] 'na cumprensiòun  dl' [[$2|Emiliàn]] (u a l' capìs cun dimòndi dificulté).",
-	'babel-1-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|cìca]] d' [[$2|Emiliàn]].",
-	'babel-2-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|bòuna]] d' [[$2|Emiliàn]].",
-	'babel-3-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|dimòndi bòuna]] d' [[$2|Emiliàn]].",
-	'babel-4-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|avansèda]] d' [[$2|Emiliàn]].",
-	'babel-5-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|profesionèl]] d' [[$2|Emiliàn]].",
-	'babel-N-n' => "Cl'utèint chè al gh'à 'na cumprensiòun [[$1|natìva]] d'[[$2|Emiliàn]].",
-	'babel-footer' => 'Utèint par lèingva',
+	'babel-autocreate-reason' => "A fâgh in avtomâtich la pàgina 'd la categoréia [[$1|Babel]].",
+	'babel-autocreate-text-levels' => 'J utèint ed cla categoréia che dîşen che pōlen comunichêr in $2 cun un livèl ed cgnusèinsa $1.',
+	'babel-autocreate-text-main' => 'J utèint in cla categoréia ché dîşen che pōlen comunichêr in $1',
+	'babel-0' => "Cl' utèint ché [[$1|an n'é mia bòun ed comunichêr ]] in [[$2|$3]] (o la 'l capés sōl cun grôsi dificultê)",
+	'babel-1' => "Cl'utèint ché al pōl dêr 'na mân cun un livèl [[$1|bâs]] in [[$2|$3]].",
+	'babel-2' => "Cl' utèint ché al pōl dêr 'na mân cun un livèl [[$1|bòun]] in [[$2|$3]].",
+	'babel-3' => "Cl' utèint ché al pōl dêr 'na mân cun un livèl [[$1|dimòndi bòun]] in [[$2|$3]].",
+	'babel-4' => "Cl' utèint ché al pōl dêr 'na mân cun un livèl [[$1|ed quêşi léngva mêdra]] in [[$2|$3]].",
+	'babel-5' => "Cl' utèint ché al pōl dêr 'na mân cun un livèl [[$1|profesionêl]] in [[$2|$3]].",
+	'babel-N' => "Cl' utèint ché al pōl dêr 'na mân cun un livèl [[$1|léngva mêdra]] in [[$2|$3]].",
+	'babel-0-n' => "Cl' utèint ché  [[$1|an n'é mia bòun ed comunichêr]] in [[$2|Emiliàn]] (o la 'l capés sōl cun grôsi dificultê)",
+	'babel-1-n' => "Cl' utèint ché al pōl dêr 'na mân  in [[$2|Emiliàn]] cun un livèl [[$1|bâş]].",
+	'babel-2-n' => "Cl' utèint ché al pōl dêr 'na mân in [[$2|Emiliàn]] cun un livèl [[$1|bòun]].",
+	'babel-3-n' => "Cl' utèint ché al pōl dêr 'na mân in [[$2|Emiliàn]]cun un livèl [[$1|dimòndi bòun]].",
+	'babel-4-n' => "Cl' utèint ché al pōl dêr 'na mân in [[$2|Emiliàn]]cun un livèl [[$1|ed quêşi léngva mêdra]].",
+	'babel-5-n' => "Cl' utèint ché al pōl dêr 'na mân in [[$2|Emiliàn]] cun un livèl [[$1|profesionêl]].",
+	'babel-N-n' => "Cl' utèint ché al pōl dêr 'na mân in [[$2|Emiliàn]]cun un livèl [[$1|léngva mêdra]].",
+	'babel-footer' => 'Utèint per léngva',
 );
 
 /** Greek (Ελληνικά)
@@ -6589,8 +6589,27 @@ $messages['udm'] = array(
 
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
  * @author Sahran
+ * @author Tel'et
  */
 $messages['ug-arab'] = array(
+	'babel' => 'بابىل ئىشلەتكۈچىلەر ئۇچۇرلىرى',
+	'babel-desc' => 'ئانالىز فۇنكىسىيىسى <code>#babel</code> نى قوشسىڭىز، شەخسىي قېلىپقا ئاپتوماتىك ھالدا بابىل ئىشلەتكۈچىلەر رامكىسىنى شەكىللەندۈرۈپ بېرىدۇ.',
+	'babel-url' => 'Project:بابىل',
+	'babel-footer-url' => ':تۈر:بابىل - ئىشلەتكۈچىلەر تىلى بويىچە',
+	'babel-0' => 'بۇ ئىشلەتكۈچى [[$2|$3]] تىلىنى [[$1|بىلمەيدۇ]] (ياكى بەك تەستە چۈشىنىدۇ).',
+	'babel-1' => 'بۇ ئىشلەتكۈچى [[$2|$3]] تىلىنى [[$1|باشلانغۇچ]] سەۋىيىدە بىلىدۇ.',
+	'babel-2' => 'بۇ ئىشلەتكۈچى [[$2|$3]] تىلىنى [[$1|ئوتتۇرىھال]] سەۋىيىدە بىلىدۇ.',
+	'babel-3' => 'بۇ ئىشلەتكۈچى [[$2|$3]] تىلىنى [[$1|يۇقۇرى]] سەۋىيىدە بىلىدۇ.',
+	'babel-4' => 'بۇ ئىشلەتكۈچى [[$2|$3]] تىلىنى [[$1|ئانا تىلغا يېقىن]] سەۋىيىدە بىلىدۇ.',
+	'babel-5' => 'بۇ ئىشلەتكۈچى [[$2|$3]] تىلىنى [[$1|كەسپىي]] سەۋىيىدە بىلىدۇ.',
+	'babel-N' => 'بۇ ئىشلەتكۈچىنىڭ [[$1|ئانا تىلى]] [[$2|$3]] تىلى.',
+	'babel-0-n' => 'بۇ ئىشلەتكۈچى [[$2|ئۇيغۇر تىلىنى]] [[$1|بىلمەيدۇ]] (ياكى بەك تەستە چۈشىنىدۇ).',
+	'babel-1-n' => 'بۇ ئىشلەتكۈچى [[$2|ئۇيغۇر تىلىنى]] [[$1|باشلانغۇچ]] سەۋىيىدە بىلىدۇ.',
+	'babel-2-n' => 'بۇ ئىشلەتكۈچى [[$2|ئۇيغۇر تىلىنى]] [[$1|ئوتتۇرىھال]] سەۋىيىدە بىلىدۇ.',
+	'babel-3-n' => 'بۇ ئىشلەتكۈچى [[$2|ئۇيغۇر تىلىنى]] [[$1|يۇقۇرى]] سەۋىيىدە بىلىدۇ.',
+	'babel-4-n' => 'بۇ ئىشلەتكۈچى [[$2|ئۇيغۇر تىلىنى]] [[$1|ئانا تىلغا يېقىن]] سەۋىيىدە بىلىدۇ.',
+	'babel-5-n' => 'بۇ ئىشلەتكۈچى [[$2|ئۇيغۇر تىلىنى]] [[$1|كەسپىي]] سەۋىيىدە بىلىدۇ.',
+	'babel-N-n' => 'بۇ ئىشلەتكۈچىنىڭ [[$1|ئانا تىلى]] [[$2|ئۇيغۇر تىلى]].',
 	'babel-footer' => 'ئىشلەتكۈچى تىل بويىچە',
 );
 
