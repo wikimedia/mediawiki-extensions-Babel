@@ -1513,10 +1513,10 @@ $messages['egl'] = array(
 	'babel-0-n' => "Cl' utèint ché  [[$1|an n'é mia bòun ed comunichêr]] in [[$2|Emiliàn]] (o la 'l capés sōl cun grôsi dificultê)",
 	'babel-1-n' => "Cl' utèint ché al pōl dêr 'na mân  in [[$2|Emiliàn]] cun un livèl [[$1|bâş]].",
 	'babel-2-n' => "Cl' utèint ché al pōl dêr 'na mân in [[$2|Emiliàn]] cun un livèl [[$1|bòun]].",
-	'babel-3-n' => "Cl' utèint ché al pōl dêr 'na mân in [[$2|Emiliàn]]cun un livèl [[$1|dimòndi bòun]].",
-	'babel-4-n' => "Cl' utèint ché al pōl dêr 'na mân in [[$2|Emiliàn]]cun un livèl [[$1|ed quêşi léngva mêdra]].",
+	'babel-3-n' => "Cl' utèint ché al pōl dêr 'na mân in [[$2|Emiliàn]] cun un livèl [[$1|dimòndi bòun]].",
+	'babel-4-n' => "Cl' utèint ché al pōl dêr 'na mân in [[$2|Emiliàn]] cun un livèl [[$1|ed quêşi léngva mêdra]].",
 	'babel-5-n' => "Cl' utèint ché al pōl dêr 'na mân in [[$2|Emiliàn]] cun un livèl [[$1|profesionêl]].",
-	'babel-N-n' => "Cl' utèint ché al pōl dêr 'na mân in [[$2|Emiliàn]]cun un livèl [[$1|léngva mêdra]].",
+	'babel-N-n' => "Cl' utèint ché al pōl dêr 'na mân in [[$2|Emiliàn]] cun un livèl [[$1|léngva mêdra]].",
 	'babel-footer' => 'Utèint per léngva',
 );
 
@@ -5568,10 +5568,25 @@ $messages['sd'] = array(
  */
 $messages['sdc'] = array(
 	'babel' => "Infuimmazioni babel di l'utenti",
+	'babel-footer-url' => ':Category:Babel - Utenti pa linga',
+	'babel-autocreate-reason' => 'Crea automatiggamenti la categuria [[$1|Babel]].',
+	'babel-autocreate-text-levels' => "Utenti in chistha categuria hani cunnisciènzia di lu libellu $1 i' la linga $2.",
+	'babel-autocreate-text-main' => 'Utenti in chistha categuria hani cunnisciènzia di la linga $1.',
+	'babel-0' => 'Chisthu utenti [[$1|nò]] ha cunnisciènzia di [[$2|$3]] (o soru pó cumprindillu cun difficulthai umbè manna).',
 	'babel-1' => 'Chisthu utenti pó cuntribuì cun un libellu [[$1|símprizi]] di [[$2|$3]].',
+	'babel-2' => 'Chisthu utenti pó cuntribuì cun un libellu [[$1|mèdiu]] di [[$2|$3]].',
 	'babel-3' => 'Chisthu utenti pó cuntribuì cun un libellu [[$1|abanzaddu]] di [[$2|$3]].',
-	'babel-1-n' => 'Chisthu utenti pó cuntribuì cun un libellu [[$1|símprizi]] di [[$2|Sassaresu]].',
-	'babel-3-n' => 'Chisthu utenti pó cuntribuì cun un libellu [[$1|abanzaddu]] di [[$2|Sassaresu]].',
+	'babel-4' => 'Chisthu utenti fabedda [[$2|$3]] [[$1|guasi cumenti una linga madre]].',
+	'babel-5' => 'Chisthu utenti fabedda [[$2|$3]] cun un libellu [[$1|prufissionari]].',
+	'babel-N' => 'Chisthu utenti fabedda [[$2|$3]] cumenti [[$1|linga madre]].',
+	'babel-0-n' => 'Chisthu utenti [[$1|nò]] ha cunnisciènzia di [[$2|sassaresu]] (o soru pó cumprindillu cun difficulthai umbè manna).',
+	'babel-1-n' => 'Chisthu utenti pó cuntribuì cun un libellu [[$1|símprizi]] di [[$2|sassaresu]].',
+	'babel-2-n' => 'Chisthu utenti pó cuntribuì cun un libellu [[$1|mèdiu]] di [[$2|sassaresu]].',
+	'babel-3-n' => 'Chisthu utenti pó cuntribuì cun un libellu [[$1|abanzaddu]] di [[$2|sassaresu]].',
+	'babel-4-n' => 'Chisthu utenti fabedda [[$2|sassaresu]] [[$1|guasi cumenti una linga madre]].',
+	'babel-5-n' => 'Chisthu utenti fabedda [[$2|sassaresu]] cun un libellu [[$1|prufissionari]].',
+	'babel-N-n' => 'Chisthu utenti fabedda [[$2|sassaresu]] cumenti [[$1|linga madre]].',
+	'babel-footer' => 'Utenti pa linga',
 );
 
 /** Northern Sami (sámegiella)
