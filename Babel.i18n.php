@@ -5568,6 +5568,7 @@ $messages['sd'] = array(
  */
 $messages['sdc'] = array(
 	'babel' => "Infuimmazioni babel di l'utenti",
+	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babel - Utenti pa linga',
 	'babel-autocreate-reason' => 'Crea automatiggamenti la categuria [[$1|Babel]].',
 	'babel-autocreate-text-levels' => "Utenti in chistha categuria hani cunnisciènzia di lu libellu $1 i' la linga $2.",
