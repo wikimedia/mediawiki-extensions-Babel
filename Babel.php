@@ -19,29 +19,29 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( 'Invalid entry point.' );
 }
 
-$wgExtensionCredits['parserhook'][] = array(
+$GLOBALS['wgExtensionCredits']['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'Babel',
-	'version' => '1.8.1',
+	'version' => '1.8.2',
 	'author' => 'Robert Leverington',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Babel',
 	'descriptionmsg' => 'babel-desc',
 );
 
-$wgHooks['ParserFirstCallInit'][] = 'BabelStatic::onParserFirstCallInit';
-$wgHooks['AbortNewAccount'][] = 'BabelAutoCreate::onAbortNewAccount';
+$GLOBALS['wgHooks']['ParserFirstCallInit'][] = 'BabelStatic::onParserFirstCallInit';
+$GLOBALS['wgHooks']['AbortNewAccount'][] = 'BabelAutoCreate::onAbortNewAccount';
 
 $dir = __DIR__ . '/';
 
-$wgExtensionMessagesFiles['Babel'] = $dir . 'Babel.i18n.php';
-$wgExtensionMessagesFiles['BabelMagic'] = $dir . 'Babel.i18n.magic.php';
+$GLOBALS['wgExtensionMessagesFiles']['Babel'] = $dir . 'Babel.i18n.php';
+$GLOBALS['wgExtensionMessagesFiles']['BabelMagic'] = $dir . 'Babel.i18n.magic.php';
 
-$wgAutoloadClasses['Babel'] = $dir . 'Babel.class.php';
-$wgAutoloadClasses['BabelLanguageCodes'] = $dir . 'BabelLanguageCodes.class.php';
-$wgAutoloadClasses['BabelStatic'] = $dir . 'BabelStatic.class.php';
-$wgAutoloadClasses['BabelAutoCreate'] = $dir . 'BabelAutoCreate.class.php';
+$GLOBALS['wgAutoloadClasses']['Babel'] = $dir . 'Babel.class.php';
+$GLOBALS['wgAutoloadClasses']['BabelLanguageCodes'] = $dir . 'BabelLanguageCodes.class.php';
+$GLOBALS['wgAutoloadClasses']['BabelStatic'] = $dir . 'BabelStatic.class.php';
+$GLOBALS['wgAutoloadClasses']['BabelAutoCreate'] = $dir . 'BabelAutoCreate.class.php';
 
-$wgResourceModules['ext.babel'] = array(
+$GLOBALS['wgResourceModules']['ext.babel'] = array(
 	'styles' => 'resources/ext.babel.css',
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'Babel',
@@ -49,12 +49,12 @@ $wgResourceModules['ext.babel'] = array(
 
 // Configuration setttings.
 // Language names and codes constant database files, the defaults should suffice.
-$wgBabelLanguageCodesCdb = $dir . 'codes.cdb';
-$wgBabelLanguageNamesCdb = $dir . 'names.cdb';
+$GLOBALS['wgBabelLanguageCodesCdb'] = $dir . 'codes.cdb';
+$GLOBALS['wgBabelLanguageNamesCdb'] = $dir . 'names.cdb';
 // Array of possible levels, and their category name - variables: %code% %wikiname% %nativename%
 // Set to false to disable categories for a particular level.
 // Alphabetical levels should be in upper case.
-$wgBabelCategoryNames = array(
+$GLOBALS['wgBabelCategoryNames'] = array(
 	'0' => '%code%-0',
 	'1' => '%code%-1',
 	'2' => '%code%-2',
@@ -65,15 +65,15 @@ $wgBabelCategoryNames = array(
 );
 // Category name for the main (non-level) category of each language.
 // Set to false to disable main category.
-$wgBabelMainCategory = '%code%';
+$GLOBALS['wgBabelMainCategory'] = '%code%';
 // Default level.
-$wgBabelDefaultLevel = 'N';
+$GLOBALS['wgBabelDefaultLevel'] = 'N';
 // Use the viewing user's language for babel box header's and footer's
 // May fragment parser cache, but otherwise shouldn't cause problems
-$wgBabelUseUserLanguage = false;
+$GLOBALS['wgBabelUseUserLanguage'] = false;
 // A boolean (true or false) indicating whether ISO 639-3 codes should be
 // preferred over ISO 639-1 codes.
-$wgBabelPreferISO639_3 = false; // Not yet used.
+$GLOBALS['wgBabelPreferISO639_3'] = false; // Not yet used.
 
 /* Other settings, to be made in-wiki:
 MediaWiki:Babel-template
