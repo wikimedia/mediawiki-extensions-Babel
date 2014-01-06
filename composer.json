@@ -16,7 +16,7 @@
 	],
 	"support": {
 		"issues": "https://bugzilla.wikimedia.org/",
-		"irc": "irc://irc.freenode.net/mediawiki-i18n",
+		"irc": "irc://irc.freenode.net/mediawiki-i18n"
 	},
 	"require": {
 		"composer/installers": ">=1.0.1"
