@@ -1419,6 +1419,7 @@ $messages['de'] = array(
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
  * @author Gorizon
+ * @author Mirzali
  * @author Neribij
  */
 $messages['diq'] = array(
@@ -1426,7 +1427,7 @@ $messages['diq'] = array(
 	'babel-desc' => 'Menıne de otomatik désé karberi vırazşten da şablonan ré, fonksiyona <code>#babil</code>i kena de',
 	'babel-url' => 'Project:Babil',
 	'babel-footer-url' => ':Category:Zıwana deyne karberi',
-	'babel-autocreate-abort' => 'Karbero kı şıma belı kerdo, kategori da [[$1|Babil]]i dı ca géno u peyd zi négéréno.',
+	'babel-autocreate-abort' => 'Nameyê karberio ke şıma areze kerdo, seba otomatik vıraştışê kategoriya [[$1|Babil]]i gureniyeno û nêşeno bıgêriyo.',
 	'babel-autocreate-reason' => 'Kategoriya [[$1|Babil]]i otomaik vırazéna.',
 	'babel-autocreate-text-levels' => 'Karberé ke na kategoride yé, $1 sewiye dê zıwané $2 zané.',
 	'babel-autocreate-text-main' => 'Karberé ke na kategoride yê vané ma zıwané $1 zam.',
