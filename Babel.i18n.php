@@ -1883,6 +1883,7 @@ $messages['fr'] = array(
 	'babel-4-n' => 'Cet utilisateur dispose de connaissances proches de la [[$1|langue maternelle]] en [[$2|français]].',
 	'babel-5-n' => 'Cet utilisateur dispose d’un niveau de connaissances [[$1|professionnel]] du [[$2|français]].',
 	'babel-N-n' => 'Cet utilisateur a pour [[$1|langue maternelle]] le [[$2|français]].',
+	'babel-template' => 'Modèle:User $1',
 	'babel-footer' => 'Utilisateurs par langue',
 );
 
