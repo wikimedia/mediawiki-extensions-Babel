@@ -6763,7 +6763,7 @@ $messages['uz'] = array(
 	'babel-3-n' => 'Bu foydalanuvchi [[$2|oʻzbek tilini]] [[$1|mukammal]] biladi.',
 	'babel-4-n' => 'Bu foydalanuvchi [[$2|oʻzbek tilini]] [[$1|deyarli ona tilidek]] biladi.',
 	'babel-5-n' => 'Bu foydalanuvchi [[$2|oʻzbek tilini]] [[$1|professional darajada]] biladi.',
-	'babel-N-n' => 'Bu foydalanuvchi uchun [[$2|oʻzbek tili]] [[$1|ona tilidir]].',
+	'babel-N-n' => 'Bu ishtirokchining [[$1|ona tili]] [[$2|oʻzbek tili]]dir.',
 	'babel-footer' => 'Foydalanuvchilar tillari boʻyicha',
 );
 
