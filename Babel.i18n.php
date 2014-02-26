@@ -4094,7 +4094,7 @@ $messages['min'] = array(
  */
 $messages['mk'] = array(
 	'babel' => 'Кориснички информации за јазици',
-	'babel-desc' => 'Ја додава парсерската функција <code>#babel</code> со што се дозволува автоматизирано создавање на колони со кориснички кутии од типот „Вавилон“, со можноста да се додаваат сопствени шаблони',
+	'babel-desc' => 'Ја додава расчленувачка функција <code>#babel</code> со што се дозволува автоматизирано создавање на колони со кориснички кутии од типот „Вавилон“, со можноста да се додаваат сопствени шаблони',
 	'babel-url' => 'Project:Вавилон',
 	'babel-footer-url' => ':Category:Вавилон - Корисници по јазик',
 	'babel-autocreate-abort' => 'Корисничкото име кое го наведовте се користи за автоматско создавање на [[$1|Babel]] категорија и затоа не може да се регистрира.',
@@ -6049,6 +6049,7 @@ $messages['su'] = array(
  * @author Diupwijk
  * @author Jon Harald Søby
  * @author Lejonel
+ * @author Lokal Profil
  * @author M.M.S.
  * @author Najami
  * @author WikiPhoenix
@@ -6073,7 +6074,7 @@ $messages['sv'] = array(
 	'babel-1-n' => 'Den här användaren har [[$1|grundläggande]] kunskaper i [[$2|svenska]].',
 	'babel-2-n' => 'Den här användaren har [[$1|medelgoda]] kunskaper i [[$2|svenska]].',
 	'babel-3-n' => 'Den här användaren har [[$1|avancerade]] kunskaper i [[$2|svenska]].',
-	'babel-4-n' => 'Den här användaren talar nästan [[$2|svenska]] som en [[$1|modersmålstalare]].',
+	'babel-4-n' => 'Den här användaren kan [[$2|svenska]] [[$1|nästan på modersmålsnivå]].',
 	'babel-5-n' => 'Den här användaren har [[$1|professionella]] kunskaper i [[$2|svenska]].',
 	'babel-N-n' => 'Den här användaren har [[$2|svenska]] som [[$1|modersmål]].',
 	'babel-template' => 'Template:Användare $1',
