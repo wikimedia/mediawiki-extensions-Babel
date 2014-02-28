@@ -22,7 +22,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $GLOBALS['wgExtensionCredits']['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'Babel',
-	'version' => '1.8.2',
+	'version' => '[https://www.mediawiki.org/wiki/MLEB MLEB 2014.02]',
 	'author' => 'Robert Leverington',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Babel',
 	'descriptionmsg' => 'babel-desc',
