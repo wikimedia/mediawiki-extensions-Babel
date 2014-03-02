@@ -1612,12 +1612,13 @@ $messages['en-gb'] = array(
 );
 
 /** Esperanto (Esperanto)
+ * @author KuboF
  * @author Malafaya
  * @author Michawiki
  * @author Yekrats
  */
 $messages['eo'] = array(
-	'babel' => 'Babela Informo pri Uzanto',
+	'babel' => 'Babela informo pri uzanto',
 	'babel-desc' => 'Aldonas la <code>#babel</code> sintaksanalizilan funkcion por aŭtomate generi kolumnon de babel-uzantoskatolo kun la ebleco inkluzivi sxablonojn de uzanto.',
 	'babel-url' => 'Project:Babel',
 	'babel-footer-url' => ':Category:Babelo - Uzantoj laŭ lingvoj',
