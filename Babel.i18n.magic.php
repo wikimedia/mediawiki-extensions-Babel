@@ -68,6 +68,11 @@ $magicWords['he'] = array(
 	'babel' => array( 0, 'בבל' ),
 );
 
+/** Hindi (हिन्दी) */
+$magicWords['hi'] = array(
+	'babel' => array( 0, 'बेबल' ),
+);
+
 /** Japanese (日本語) */
 $magicWords['ja'] = array(
 	'babel' => array( 0, 'バベル' ),
