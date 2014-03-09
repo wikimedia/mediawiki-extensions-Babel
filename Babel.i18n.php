@@ -2323,12 +2323,12 @@ $messages['gv'] = array(
  * @author Singularity
  */
 $messages['haw'] = array(
-	'babel' => 'E pili ana i keia mea ho‘ohana ma Babel',
-	'babel-desc' => 'Ho‘ohui ‘oia i ka <code>#babel</code> hana pāsā e ho‘oku‘u i ka hana hana nona iho o ke kolamu o ka pahu o ka mea ho‘ohana o Babel, me ka hiki e helu i nā anakuhi pilikino',
+	'babel' => 'ʻIke mea ho‘ohana Babel',
+	'babel-desc' => 'Ho‘ohui i ka <code>#babel</code> hana pāsā e ho‘oku‘u i ka hikahana o ke kolamu pahu mea ho‘ohana Babel, me ka hiki ʻana e hoʻohui i nā anakuhi pilikino',
 	'babel-url' => 'Project:Babel',
-	'babel-footer-url' => ':Category:Babel - Mea hoʻohana ma o ka ʻōlelo',
-	'babel-autocreate-abort' => 'Ke hoʻohana nei i ka inoa mea hoʻohana no ka māhele hana nona iho [[$1|Babel]] a hiki ʻole ia ke kāinoa ʻia.',
-	'babel-autocreate-reason' => 'Ke hana nona iho nei ka ʻaoʻao māhele [[$1|Babel]].',
+	'babel-footer-url' => ':Mahele:Babel - Mea hoʻohana e ka ʻōlelo',
+	'babel-autocreate-abort' => 'Ke hoʻohana nei i ka inoa mea hoʻohana no ka māhele hikahana [[$1|Babel]] a hiki ʻole ke kāinoa ʻia.',
+	'babel-autocreate-reason' => 'Ke hikahana nei i ka ʻaoʻao mahele [[$1|Babel]].',
 	'babel-autocreate-text-levels' => 'Hōʻike i nā mea hoʻohana i loko o kēia māhele, loaʻa iā lākou i ke kalamania mākau  $1 no ka ʻōlelo $2.',
 	'babel-autocreate-text-main' => 'Hōʻike i nā mea hoʻohana i loko o kēia māhele, loaʻa iā lākou i ka ʻike o ka ʻōlelo $1.',
 	'babel-0' => '[[$1|‘A‘ole hiki]] i kēia mea ho‘ohana ke hā‘awi ma ka [[$2|$3]].',
@@ -2345,6 +2345,7 @@ $messages['haw'] = array(
 	'babel-4-n' => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana kokoke]] i kō ka mānaleo ma ka [[$2|‘ōlelo Hawai‘i]].',
 	'babel-5-n' => 'Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana ‘oihana]] ma ka [[$2|‘ōlelo Hawai‘i]].',
 	'babel-N-n' => 'He [[$1|mānaleo]] kēia kanaka ma ka [[$2|‘ōlelo Hawai‘i]].',
+	'babel-footer' => 'Nā mea hoʻohana e kā ʻōlelo',
 );
 
 /** Hebrew (עברית)
