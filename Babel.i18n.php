@@ -3837,6 +3837,18 @@ $messages['lus'] = array(
 	'babel-footer' => 'Ṭawng hman azirin hmangtute',
 );
 
+/** لری جنووی  (لری جنووی )
+ * @author علی ساکی لرستانی
+ */
+$messages['luz'] = array(
+	'babel' => 'اطلاعات هنه کارور بابل',
+	'babel-3' => 'ای کارور [[خیلی بلله|$1]] ای [[$2|$3]]', # Fuzzy
+	'babel-4' => 'ای کارور نزیک زوون دا بلل ای', # Fuzzy
+	'babel-N' => 'ای کارور [[$1|زوون داس]] [[$2|لری جنووی]] هسی',
+	'babel-3-n' => 'ای کارور دونه لری جنووی نه', # Fuzzy
+	'babel-4-n' => 'ای کارور د نزیک زوون دا بلل ای', # Fuzzy
+);
+
 /** Latvian (latviešu)
  * @author Dark Eagle
  * @author Gleb Borisov
