@@ -63,31 +63,31 @@ div.mw-babel-box table td {
 
 /* Babel box colours. */
 div.mw-babel-box-0 {
-	border: solid #FFBBBB 1px;
+	border: 1px solid #FFBBBB;
 }
 
 div.mw-babel-box-1 {
-	border: solid #E0C0E0 1px;
+	border: 1px solid #E0C0E0;
 }
 
 div.mw-babel-box-2 {
-	border: solid #BCB9EF 1px;
+	border: 1px solid #BCB9EF;
 }
 
 div.mw-babel-box-3 {
-	border: solid #99B3FF 1px;
+	border: 1px solid #99B3FF;
 }
 
 div.mw-babel-box-4 {
-	border: solid #77E0E8 1px;
+	border: 1px solid #77E0E8;
 }
 
 div.mw-babel-box-5 {
-	border: solid #CCCC00 1px;
+	border: 1px solid #CCCC00;
 }
 
 div.mw-babel-box-N {
-	border: solid #6EF7A7 1px;
+	border: 1px solid #6EF7A7;
 }
 
 div.mw-babel-box-0 table th {
