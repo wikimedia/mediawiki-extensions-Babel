@@ -1,0 +1,32 @@
+{
+    "@metadata": {
+        "authors": [
+            "Andria",
+            "Gloria sah",
+            "Marzedu"
+        ]
+    },
+    "babel": "Babel usuàriu",
+    "babel-desc": "Aciungit sa funtzioni parser <code>#babel</code> pro permitiri sa generatzioni automatica de una colunna box usuàriu babel cun sa possibilidade de insertai templates personalitzaus",
+    "babel-url": "Project:Babel",
+    "babel-footer-url": ":Category:Babel - Usuàri pi limba",
+    "babel-autocreate-abort": "Su nòmene usuàriu ispetzificau est impreau pro sa creatzione automatiga de is categorias [[$1|Babel]] e non podet èssere registradu.",
+    "babel-autocreate-reason": "Crea automatigamente sa pàgina de sa categoria [[$1|Babel]]",
+    "babel-autocreate-text-levels": "Is usuàrios de custa categoria narant de tènnere unu livellu $1 pro sa limba $2.",
+    "babel-autocreate-text-main": "Is usuàrios de custa categoria narant de tènnere una connoscientzia de sa limba $1.",
+    "babel-0": "Custu usuàriu [[$1|non]] connoschet su [[$2|$3]] (o ddu cumprendet cun aprentu mannu).",
+    "babel-1": "Custu usuàriu tenet una connoscéntzia [[$1|basica]] de su [[$2|$3]].",
+    "babel-2": "Custu usuàriu tenet una connoscéntzia [[$1|intermedia]] de su [[$2|$3]].",
+    "babel-3": "Custu usuàriu tenet una connoscéntzia [[$1|avanzada]] de su [[$2|$3]].",
+    "babel-4": "Custu usuàriu tenet una connoscéntzia [[$1|cante sa limba mama]] de su [[$2|$3]].",
+    "babel-5": "Custu usuàriu tenet una connoscéntzia [[$1|professionale]] de su [[$2|$3]].",
+    "babel-N": "Custu usuàriu tenet su [[$2|$3]] comente [[$1|limba mama]].",
+    "babel-0-n": "Custu usuàriu [[$1|non cumprendet]] su '''[[$2|Sardu]]''', o ddu cumprendet cun aprentu mannu.",
+    "babel-1-n": "Custu usuàriu podet azudare, ca unu '''[[$1|azicu]]''' de '''[[$2|Sardu]]''' lu connoschet.",
+    "babel-2-n": "Custu usuàriu podet azudare, ca connoschet su '''[[$2|Sardu]]''' e lu '''[[$1|cumprendet]]'''.",
+    "babel-3-n": "Custu usuàriu potet azudare '''[[$1|meda]]''' pro ite ischit faeddare e iscrìere su '''[[$2|Sardu]]'''.",
+    "babel-4-n": "Custu usuàriu faeddat su '''[[$2|Sardu]]''' in modu '''[[$1|perfetu]]'''.",
+    "babel-5-n": "Custu usuàriu connoschet su [[$2|Sardu]] a livellu [[$1|profesionale]].",
+    "babel-N-n": "Custu usuàriu faeddat su [[$2|Sardu]]  comente [[$1|limba mama]].",
+    "babel-footer": "Usuàri pi limba"
+}

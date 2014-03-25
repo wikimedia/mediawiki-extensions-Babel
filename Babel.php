@@ -22,7 +22,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $GLOBALS['wgExtensionCredits']['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'Babel',
-	'version' => '1.8.2',
+	'version' => '1.9.0',
 	'author' => 'Robert Leverington',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Babel',
 	'descriptionmsg' => 'babel-desc',
@@ -33,6 +33,7 @@ $GLOBALS['wgHooks']['AbortNewAccount'][] = 'BabelAutoCreate::onAbortNewAccount';
 
 $dir = __DIR__ . '/';
 
+$GLOBALS['wgMessagesDirs']['Babel'] = __DIR__ . '/i18n';
 $GLOBALS['wgExtensionMessagesFiles']['Babel'] = $dir . 'Babel.i18n.php';
 $GLOBALS['wgExtensionMessagesFiles']['BabelMagic'] = $dir . 'Babel.i18n.magic.php';
 
