@@ -7,7 +7,7 @@
         ]
     },
     "babel": "Foydalanuvchi bilgan tillar haqida maʼlumot (Bobil)",
-    "babel-desc": "Avtomatik ravishda tillar haqida oʻzgartirsa boʻladigan maʼlumot ustunini yaratadigan <code>#babel</code> parseri funksiyasini qoʻshadi",
+    "babel-desc": "Avtomatik ravishda tillar haqida oʻzgartirsa boʻladigan maʼlumot ustunini yaratadigan \u003Ccode\u003E#babel\u003C/code\u003E parseri funksiyasini qoʻshadi",
     "babel-url": "Project:Bobil",
     "babel-footer-url": ":Category:Bobil - Foydalanuvchilar tillar boʻyicha",
     "babel-autocreate-abort": "Siz koʻrsatgan foydalanuvchi nomi avtomatik ravishda [[$1|Bobil]] turkumlarini yaratish uchun qoʻllaniladi va uni qayd qilsa boʻlmaydi.",

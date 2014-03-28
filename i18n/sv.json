@@ -13,7 +13,7 @@
         ]
     },
     "babel": "Babel-användarinformation",
-    "babel-desc": "Lägger till parserfunktionen <code>#babel</code> för att tillåta att det automatiskt skapas en babelboxkolumn med möjligheten att lägga till anpassade mallar",
+    "babel-desc": "Lägger till parserfunktionen \u003Ccode\u003E#babel\u003C/code\u003E för att tillåta att det automatiskt skapas en babelboxkolumn med möjligheten att lägga till anpassade mallar",
     "babel-url": "Project:Babel",
     "babel-footer-url": ":Kategori:Babel - Användare efter språk",
     "babel-autocreate-abort": "Användarnamnet du valde används för automatiskt skapande av [[$1|Babel]]-kategorier och kan därför inte registreras.",

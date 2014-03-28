@@ -5,7 +5,7 @@
         ]
     },
     "babel": "Babel korisničke informacije",
-    "babel-desc": "Dodaje <code>#babel</code> parsersku funkciju koja omogućava automatsko pravljenje babel korisničke kutije u stupcu sa mogućnostima uključivanja prilagođenih šablona/predložaka",
+    "babel-desc": "Dodaje \u003Ccode\u003E#babel\u003C/code\u003E parsersku funkciju koja omogućava automatsko pravljenje babel korisničke kutije u stupcu sa mogućnostima uključivanja prilagođenih šablona/predložaka",
     "babel-url": "Project:Babel",
     "babel-footer-url": ":Category:Babel - Korisnici po jeziku",
     "babel-autocreate-abort": "Korisničko ime koje ste naveli se koristi za automatsko pravljenje [[$1|Babel]] kategorija i ne može se registrirati.",
