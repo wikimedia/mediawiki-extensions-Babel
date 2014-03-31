@@ -157,3 +157,8 @@ $magicWords['ur'] = array(
 $magicWords['zh-hans'] = array(
 	'babel' => array( 0, '巴别' ),
 );
+
+/** Traditional Chinese (中文（繁體）‎) */
+$magicWords['zh-hant'] = array(
+	'babel' => array( 0, '巴別' ),
+);
