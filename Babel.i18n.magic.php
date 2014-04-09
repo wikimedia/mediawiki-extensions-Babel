@@ -43,6 +43,11 @@ $magicWords['eo'] = array(
 	'babel' => array( 0, 'babelo' ),
 );
 
+/** Spanish (español) */
+$magicWords['es'] = array(
+	'babel' => array( 0, 'babel' ),
+);
+
 /** Estonian (eesti) */
 $magicWords['et'] = array(
 	'babel' => array( 0, 'paabel' ),
@@ -61,6 +66,11 @@ $magicWords['fr'] = array(
 /** Franco-Provençal (arpetan) */
 $magicWords['frp'] = array(
 	'babel' => array( 0, 'babél' ),
+);
+
+/** Hawaiian (Hawai`i) */
+$magicWords['haw'] = array(
+	'babel' => array( 0, 'babela' ),
 );
 
 /** Hebrew (עברית) */
