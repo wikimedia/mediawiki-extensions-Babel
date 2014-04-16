@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Siebrand"
-        ]
-    },
-    "babel-autocreate-abort": "De gebruikersnaam die je hebt opgegeven wordt gebruikt voor het automatisch aanmaken van [[$1|Babel]]-categorieën en kan niet geregistreerd worden."
+	"@metadata": {
+		"authors": [
+			"Siebrand"
+		]
+	},
+	"babel-autocreate-abort": "De gebruikersnaam die je hebt opgegeven wordt gebruikt voor het automatisch aanmaken van [[$1|Babel]]-categorieën en kan niet geregistreerd worden."
 }
