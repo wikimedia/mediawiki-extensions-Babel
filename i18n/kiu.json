@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Erdemaslancan"
+			"Erdemaslancan",
+			"Mirzali"
 		]
 	},
 	"babel": "Melumatê babil da karberi",
 	"babel-desc": "Xulusa da sablonan dı dêsê babilê karberi otomatik vışatıştı, fonksiyonê <code>#babil</code>i fêno de",
 	"babel-url": "Project:Babil",
-	"babel-footer-url": "Kategoriye:Babil - Zıwanê karberi",
+	"babel-footer-url": ":Kategoriye:Babil - Gorê zonu ra karberi",
 	"babel-autocreate-abort": "Karbero kı şıma  belı  kerdo, kategoriya dı [[$1|Babil]]i dı ca gêno u peyd zi nê gêrêno.",
 	"babel-autocreate-reason": "Kategoriye [[$1|Babil]]i otomatik vırazêno.",
 	"babel-autocreate-text-levels": "Karberê ke na kategorideyê, nê zıwani sewiye dê  $1 u $2 derece zanê.",
