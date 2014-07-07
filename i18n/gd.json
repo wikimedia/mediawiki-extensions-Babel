@@ -4,7 +4,8 @@
 			"Akerbeltz",
 			"Caoimhin",
 			"Sionnach",
-			"Steafan31"
+			"Steafan31",
+			"GunChleoc"
 		]
 	},
 	"babel": "Fiosrachadh Babel mun chleachdaiche",
@@ -15,6 +16,7 @@
 	"babel-autocreate-reason": "A' cruthachadh duilleag roinne [[$1|Babel]] leis fhèin.",
 	"babel-autocreate-text-levels": "Tha na cleachdaichean san roinn seo ag innse gu bheil comas ìre $1 aca ann an $2.",
 	"babel-autocreate-text-main": "Tha na cleachdaichean san roinn seo ag innse gu bheil iad eòlach air a' chànan a leanas: $1.",
+	"babel-autocreate-user": "Cruthachadh fèin-obrachail Babel",
 	"babel-0": "[[$1|Cha tuig]] an cleachdaiche seo [[$2|$3]] idir (no chan eil {{GENDER:$4|e|i}} 'ga tuigsinn ach air èiginn).",
 	"babel-1": "Tha comas labhairt [[$1|bunaiteach]] sa [[$2|$3|Ghàidhlig]] aig a' chleachdaiche seo.",
 	"babel-2": "Tha comas labhairt [[$1|meadhanach]] aig a' chleachdaiche seo sa [[$2|$3|Ghàidhlig]].",
@@ -29,5 +31,6 @@
 	"babel-4-n": "Tha comas labhairt [[$1|cha mhòr mar cuideigin air ag bheil i on ghlùn]] aig a' chleachdaiche seo sa [[$2|Ghàidhlig]].",
 	"babel-5-n": "Tha comas labhairt [[$1|proifeiseanta]] aig a' chleachdaiche seo sa [[$2|Ghàidhlig]].",
 	"babel-N-n": "Tha [[$2|Gàidhlig]] [[$1|on ghlùn]] aig a' chleachdaiche seo.",
+	"babel-template": "Template:User $1",
 	"babel-footer": "Cleachdaichean a-rèir cànain"
 }
