@@ -133,6 +133,11 @@ $magicWords['si'] = array(
 	'babel' => array( 0, 'බාබෙල්', 'babel' ),
 );
 
+/** Slovak (slovenčina) */
+$magicWords['sk'] = array(
+	'babel' => array( 0, 'babylon' ),
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎) */
 $magicWords['sr-ec'] = array(
 	'babel' => array( 0, 'бабел' ),
