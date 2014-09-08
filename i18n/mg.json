@@ -4,9 +4,10 @@
 			"Jagwar"
 		]
 	},
-	"babel": "Fampandrenesana momba ny mpampiasa ny '''Babel'''",
+	"babel": "Torohaim-pikambana Babel",
 	"babel-desc": "Manampy ny Parser function <code>#babel</code> mampamela ny fanamboarana userbox hoazy. Afaka mampiditra endrika tsy natao tany amin'ny mediawiki ilay izy",
 	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Sokajy:Babel - Mpikambana araka ny tenim-pirenena",
 	"babel-autocreate-abort": "Ilay anaram-pikambana nampidirinao mba hanao sokajy [[$1|Babel]] hoazy tsy afaka tehirizina",
 	"babel-autocreate-reason": "Natao hoazy ilay sokajy [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Niteny ny mpikambana anatin'ity sokajy ity fa $1 hono ny lentany amin'ny fiteny $2.",
@@ -24,5 +25,6 @@
 	"babel-3-n": "Ity mpikambana ity dia [[$1|havanana]] amin'ny teny [[$2|frantsay]].",
 	"babel-4-n": "Ity mpikambana ity dia miteny [[$2|malagasy]] [[$1|mira-lenta amin'ny tenin-dreniny]].",
 	"babel-5-n": "Ity mpikambana ity dia miteny [[$2|malagasy]] [[$1|ara-asa]]",
-	"babel-N-n": "Ny teny [[$2|malagasy]] no [[$1|tenim-pirenena nahabe]] ity mpikambana ity."
+	"babel-N-n": "Ny teny [[$2|malagasy]] no [[$1|tenim-pirenena nahabe]] ity mpikambana ity.",
+	"babel-footer": "Mpikambana araka ny tenim-pirenena"
 }
