@@ -26,5 +26,6 @@
 	"babel-3-n": "Pamaké ieu [[$1|mahér]] [[$2|basa Sunda]].",
 	"babel-4-n": "Pamaké ieu tiasa [[$2|basa Sunda]] anu [[$1|sampurna]].",
 	"babel-5-n": "Pamaké ieu tiasa [[$2|basa Sunda]] anu [[$1|mahér tur sampurna]].",
-	"babel-N-n": "Pamaké ieu [[$1|tulen]] bisa [[$2|basa Sunda]] ."
+	"babel-N-n": "Pamaké ieu [[$1|tulen]] bisa [[$2|basa Sunda]] .",
+	"babel-footer": "Pamaké dumasar basana"
 }
