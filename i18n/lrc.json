@@ -2,15 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Bonevarluri",
-			"Mogoeilor"
+			"Mogoeilor",
+			"Hosseinblue"
 		]
 	},
 	"babel": "دونسمنیا کارور بابل",
 	"babel-desc": "<کد>#بابل<کد/> نه وه تابع حیردکننه سی اجازه دئن سی خودکار راس کردن ستین جعوه کاروری وا فعال کردن قالویا مرسوم اضاف بکید",
-	"babel-url": "پروجه:بابل",
-	"babel-footer-url": ":دسه :بابل-کاریاریا وا زون",
+	"babel-url": "Project:بابل",
+	"babel-footer-url": ":Category:بابل-کاریاریا وا زون",
 	"babel-autocreate-abort": "نوم کاریاری که شما سی دسه خودساخته[[$1|Babel]] د نظر گرتیته و نبوئه ثوت نام با.",
-	"babel-autocreate-reason": "دسه بلگه راس کردن بابل د حالت خودانجوم",
+	"babel-autocreate-reason": "دسه بلگه [[$1|Babel]]راس کردن د حالت خودانجم",
 	"babel-autocreate-text-levels": "کاریاریا ای دسته نشو می ئن که کاردونی د سطح $1 سی زون $2 دارن",
 	"babel-autocreate-text-main": "کاریاریاای دسه نشو می ئن که زونه $1 بللن",
 	"babel-0": "ای کاریار فئمسنی د حد [[$1|no]] سی [[$2|$3]] داره(یا وه سختی ونه حالینش بوئه)",
