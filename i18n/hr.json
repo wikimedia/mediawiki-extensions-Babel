@@ -6,7 +6,7 @@
 			"Conquistador"
 		]
 	},
-	"babel": "Babilonske suradničke informacije",
+	"babel": "babilonske suradničke informacije",
 	"babel-desc": "Dodaje parsersku funkciju <code>#babel</code> da omogući automatsko generiranje stupca s babilonskim suradničkim okvirima s mogućnošću uključenja predložaka po želji",
 	"babel-url": "Project:Babilon",
 	"babel-footer-url": ":Kategorija:Babilon – suradnici po jeziku",
