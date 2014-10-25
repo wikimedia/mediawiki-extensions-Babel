@@ -164,9 +164,16 @@ EOT;
 	 * @return string[] [ category => sort key ]
 	 */
 	public function getCategories() {
-		global $wgBabelMainCategory, $wgBabelCategoryNames;
+		global $wgBabelMainCategory, $wgBabelCategoryNames, $wgBabelCategorizeNamespaces;
 
 		$r = [];
+
+		if (
+			$wgBabelCategorizeNamespaces !== null &&
+			!$this->title->inNamespaces( $wgBabelCategorizeNamespaces )
+		) {
+			return $r;
+		}
 
 		# Add main category
 		if ( $wgBabelMainCategory !== false ) {

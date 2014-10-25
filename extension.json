@@ -42,6 +42,7 @@
 		"UserGetReservedNames": "BabelAutoCreate::onUserGetReservedNames"
 	},
 	"config": {
+		"BabelCategorizeNamespaces": null,
 		"BabelCategoryNames": {
 			"0": "%code%-0",
 			"1": "%code%-1",
