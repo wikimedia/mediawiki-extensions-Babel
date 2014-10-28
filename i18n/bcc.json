@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Mostafadaneshvar",
-			"RigiMahnoor"
+			"RigiMahnoor",
+			"Baloch Afghanistan"
 		]
 	},
 	"babel": "اطلاعات کاربری بابل",
 	"babel-desc": "اضافه کنت <code>#babel</code>  عملگر وانوک په اجازه داتن په یک ستون جعبه کاربری گون توانایی اضافه کتن وتی تمپلتان",
 	"babel-url": "Project:بابل",
-	"babel-footer-url": ":Category:بابل - کاربران گون زبان",
+	"babel-footer-url": ":Category:بابل - کار زوروکان گون زبانان",
 	"babel-autocreate-abort": "نام کاربری که مالوم کتگیت پر وتکارین تیارکتن ردهٔ [[$1|بابل]] کارمرز بیتگ انت و نبیت که ثبت بیت.",
 	"babel-autocreate-reason": "وتکارین اڈکتن ردهٔ تاکء[[$1|بابل]].",
 	"babel-autocreate-text-levels": "ائ ردهء کاربران مان زبان $2 کارزانتی$1 دارنت.",
