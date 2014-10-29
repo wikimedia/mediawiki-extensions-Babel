@@ -4,5 +4,20 @@
 			"C.R."
 		]
 	},
-	"babel": "Nfurmaziune babel utente"
+	"babel": "Nfurmaziune babel utente",
+	"babel-desc": "Jògne 'a funzione d'analise <code>#babel</code> pe' ve permettere 'a generazione automatezzata 'e 'na culonna babel cu 'a possibbeletà 'e 'ncludere template personalizzate",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Category:Babel - Utente pe' llengua",
+	"babel-autocreate-abort": "'O nomme utente c'avite specificato è ausato p' 'a categurìa d'auto crijazione 'e [[$1|Babel]] e nun se pùo riggistra.",
+	"babel-autocreate-reason": "Automatecamente crianno 'a paggena 'e categurìa [[$1|Babel]].",
+	"babel-autocreate-text-levels": "L'utente ca stann'a dint'a sta categurìa indicano c'avessero nu buono livello $1 p' 'a lengua $2.",
+	"babel-autocreate-text-main": "L'utente ca stann'a dint'a sta categurìa indicano c'avessero nu buono livello d' 'a lengua $1.",
+	"babel-0": "Chist'utente [[$1|nun]] ave canuscenza 'e [[$2|$3]] (o 'a capisce malamente).",
+	"babel-1": "St'utente ave nu livello [[$1|base]] 'e [[$2|$3]].",
+	"babel-2": "St'utente ave nu livello [[$1|mezo]] 'e [[$2|$3]].",
+	"babel-3": "St'utente ave nu livello [[$1|aveto]] 'e [[$2|$3]].",
+	"babel-4": "St'utente ave nu livello comme fosse quase [[$1|nativo]] 'e [[$2|$3]].",
+	"babel-5": "St'utente ave na canuscenza [[$1|professional]] 'e [[$2|$3]].",
+	"babel-N": "St'utente ave nu livello [[$1|nativo]] 'e [[$2|$3]].",
+	"babel-0-n": "St'utente nun ave [[$1|nisciuna]] canoscenza 'e [[$2|Ngrese]] (o pure 'o capisce ma facesse troppa fatica)."
 }
