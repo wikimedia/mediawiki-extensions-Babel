@@ -17,7 +17,14 @@
 	"babel-2": "St'utente ave nu livello [[$1|mezo]] 'e [[$2|$3]].",
 	"babel-3": "St'utente ave nu livello [[$1|aveto]] 'e [[$2|$3]].",
 	"babel-4": "St'utente ave nu livello comme fosse quase [[$1|nativo]] 'e [[$2|$3]].",
-	"babel-5": "St'utente ave na canuscenza [[$1|professional]] 'e [[$2|$3]].",
-	"babel-N": "St'utente ave nu livello [[$1|nativo]] 'e [[$2|$3]].",
-	"babel-0-n": "St'utente nun ave [[$1|nisciuna]] canoscenza 'e [[$2|Ngrese]] (o pure 'o capisce ma facesse troppa fatica)."
+	"babel-5": "St'utente ave na canuscenza [[$1|professionale]] 'e [[$2|$3]].",
+	"babel-N": "St'utente è de [[$1|madrelengua]] [[$2|$3]].",
+	"babel-0-n": "St'utente nun ave [[$1|nisciuna]] canoscenza 'e lengua [[$2|napulitana]] (o pure 'a capisce ma facesse troppa fatica).",
+	"babel-1-n": "St'utente ave nu livello [[$1|base]] 'e llengua [[$2|napulitana]].",
+	"babel-2-n": "St'utente ave nu livello [[$1|mezo]] 'e llengua [[$2|napulitana]].",
+	"babel-3-n": "St'utente ave nu livello [[$1|aveto]] 'e llengua [[$2|napulitana]].",
+	"babel-4-n": "St'utente ave nu livello comme fosse quase [[$1|nativo]] 'e [[$2|napulitano]].",
+	"babel-5-n": "St'utente ave na canuscenza [[$1|professionale]] 'e [[$2|napulitano]].",
+	"babel-N-n": "St'utente è de [[$1|madrelèngua]] [[$2|napulitano]].",
+	"babel-footer": "Utente pe' llengua"
 }
