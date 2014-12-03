@@ -31,16 +31,14 @@ $GLOBALS['wgExtensionCredits']['parserhook'][] = array(
 $GLOBALS['wgHooks']['ParserFirstCallInit'][] = 'BabelStatic::onParserFirstCallInit';
 $GLOBALS['wgHooks']['AbortNewAccount'][] = 'BabelAutoCreate::onAbortNewAccount';
 
-$dir = __DIR__ . '/';
-
 $GLOBALS['wgMessagesDirs']['Babel'] = __DIR__ . '/i18n';
-$GLOBALS['wgExtensionMessagesFiles']['Babel'] = $dir . 'Babel.i18n.php';
-$GLOBALS['wgExtensionMessagesFiles']['BabelMagic'] = $dir . 'Babel.i18n.magic.php';
+$GLOBALS['wgExtensionMessagesFiles']['Babel'] = __DIR__ . '/Babel.i18n.php';
+$GLOBALS['wgExtensionMessagesFiles']['BabelMagic'] = __DIR__ . '/Babel.i18n.magic.php';
 
-$GLOBALS['wgAutoloadClasses']['Babel'] = $dir . 'Babel.class.php';
-$GLOBALS['wgAutoloadClasses']['BabelLanguageCodes'] = $dir . 'BabelLanguageCodes.class.php';
-$GLOBALS['wgAutoloadClasses']['BabelStatic'] = $dir . 'BabelStatic.class.php';
-$GLOBALS['wgAutoloadClasses']['BabelAutoCreate'] = $dir . 'BabelAutoCreate.class.php';
+$GLOBALS['wgAutoloadClasses']['Babel'] = __DIR__ . '/Babel.class.php';
+$GLOBALS['wgAutoloadClasses']['BabelLanguageCodes'] = __DIR__ . '/BabelLanguageCodes.class.php';
+$GLOBALS['wgAutoloadClasses']['BabelStatic'] = __DIR__ . '/BabelStatic.class.php';
+$GLOBALS['wgAutoloadClasses']['BabelAutoCreate'] = __DIR__ . '/BabelAutoCreate.class.php';
 
 $GLOBALS['wgResourceModules']['ext.babel'] = array(
 	'styles' => 'resources/ext.babel.css',
@@ -50,8 +48,8 @@ $GLOBALS['wgResourceModules']['ext.babel'] = array(
 
 // Configuration setttings.
 // Language names and codes constant database files, the defaults should suffice.
-$GLOBALS['wgBabelLanguageCodesCdb'] = $dir . 'codes.cdb';
-$GLOBALS['wgBabelLanguageNamesCdb'] = $dir . 'names.cdb';
+$GLOBALS['wgBabelLanguageCodesCdb'] = __DIR__ . '/codes.cdb';
+$GLOBALS['wgBabelLanguageNamesCdb'] = __DIR__ . '/names.cdb';
 // Array of possible levels, and their category name - variables: %code% %wikiname% %nativename%
 // Set to false to disable categories for a particular level.
 // Alphabetical levels should be in upper case.
