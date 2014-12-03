@@ -7,6 +7,9 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
+use Cdb\Exception as CdbException;
+use Cdb\Reader as CdbReader;
+
 /**
  * Handle language code and name processing for the Babel extension, it can also
  * be used by other extension which need such functionality.
