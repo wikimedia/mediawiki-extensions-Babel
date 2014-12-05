@@ -5,6 +5,9 @@
 			"John Reid"
 		]
 	},
+	"babel": "Babel uiser information",
+	"babel-desc": "Eiks the <code>#babel</code> parser function tae allou autæmatit generation o ae babel uiserkist column wi the abeelitie tae incluid custom templates",
+	"babel-url": "Project:Babel",
 	"babel-1": "This uiser can contreebute wi ae [[$1|laich]] level o [[$2|$3]].",
 	"babel-2": "This uiser can contreebute wi ae [[$1|middlin]] level o [[$2|$3]].",
 	"babel-3": "This uiser can contreebute wi ae [[$1|heich]] level o [[$2|$3]].",
