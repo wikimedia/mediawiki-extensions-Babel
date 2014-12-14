@@ -7,11 +7,12 @@
 			"Shinjiman",
 			"Waihorace",
 			"Wrightbus",
-			"Cwlin0416"
+			"Cwlin0416",
+			"Cwek"
 		]
 	},
 	"babel": "Babel 使用者資訊",
-	"babel-desc": "提供 <code>#babel</code> 分析函數可自動產生一個能夠使用自訂樣板的使用者語言資訊欄。",
+	"babel-desc": "提供 <code>#babel</code> 分析函數可自動產生一個能夠使用自訂模板的使用者語言資訊欄。",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - 使用者 (依語言)",
 	"babel-autocreate-abort": "您所指定的使用者會用於自動建立 [[$1|Babel]] 分類使用，無法被註冊使用。",
