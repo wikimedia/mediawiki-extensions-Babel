@@ -101,6 +101,23 @@ class BabelTest extends MediaWikiTestCase {
 		);
 	}
 
+	public function testRenderPlain() {
+		$wikiText = Babel::Render( $this->getParser(), 'plain=1|en' );
+		$this->assertSame(
+			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
+			. "\n"
+			. '{|style=" padding: (babel-cellpadding);  border-spacing: (babel-cellspacing);"'
+			. "\n"
+			. '! dir="ltr" | [[(babel-portal: en)|en]]<span class="mw-babel-box-level-N">-N</span>'
+			. "\n"
+			. '| dir="ltr" lang="en" | This user has a [[:Category:en-N|native]] understanding of '
+			. '[[:Category:en|English]].'
+			. "\n|}\n"
+			. '</div>[[Category:en|N]][[Category:en-N]]',
+			$wikiText
+		);
+	}
+
 	public function testRenderRedLink() {
 		$wikiText = Babel::Render( $this->getParser(), 'redLink' );
 		$this->assertContains(
