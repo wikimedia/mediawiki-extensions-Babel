@@ -44,7 +44,7 @@ try {
 		}
 	}
 } catch ( CdbException $e ) {
-	throw new MWException( $e->getMessage() );
+	throw new Exception( $e->getMessage() );
 }
 
 fclose( $fr );
