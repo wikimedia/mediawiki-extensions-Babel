@@ -3,7 +3,8 @@
 		"authors": [
 			"Gapo",
 			"Kwj2772",
-			"아라"
+			"아라",
+			"IRTC1015"
 		]
 	},
 	"babel": "사용자 언어 정보",
@@ -11,7 +12,7 @@
 	"babel-url": "Project:바벨",
 	"babel-footer-url": ":분류:언어별 사용자",
 	"babel-autocreate-abort": "입력한 계정 이름은 [[$1|바벨]] 분류 자동 만들기를 위해 사용되고 있어서 등록할 수 없습니다.",
-	"babel-autocreate-reason": "[[$1|사용자 언어]] 분류를 자동적으로 만들었습니다.",
+	"babel-autocreate-reason": "[[$1|사용자 언어]] 분류를 자동으로 만들었습니다.",
 	"babel-autocreate-text-levels": "이 분류 안에 있는 사용자는 $2를 $1단계 수준으로 구사할 수 있다는 것을 나타냅니다.",
 	"babel-autocreate-text-main": "이 분류 안에 있는 사용자는 $1를 구사할 수 있습니다.",
 	"babel-autocreate-user": "바벨 자동 만듦",
