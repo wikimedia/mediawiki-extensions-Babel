@@ -26,6 +26,7 @@ $GLOBALS['wgExtensionCredits']['parserhook'][] = array(
 	'author' => 'Robert Leverington',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Babel',
 	'descriptionmsg' => 'babel-desc',
+	'license-name' => 'GPL-2.0+',
 );
 
 $GLOBALS['wgHooks']['ParserFirstCallInit'][] = 'BabelStatic::onParserFirstCallInit';
