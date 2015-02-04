@@ -44,12 +44,9 @@ class BabelAutoCreate {
 	 * @param $level String: Level that the category is for.
 	 */
 	public static function create( $category, $code, $level = null ) {
-		wfProfileIn( __METHOD__ );
 		$category = strip_tags( $category );
 		$title = Title::makeTitleSafe( NS_CATEGORY, $category );
 		if ( $title === null || $title->exists() ) {
-			wfProfileOut( __METHOD__ );
-
 			return;
 		}
 		global $wgLanguageCode;
@@ -65,14 +62,10 @@ class BabelAutoCreate {
 		$user = self::user();
 		# Do not add a message if the username is invalid or if the account that adds it, is blocked
 		if ( !$user || $user->isBlocked() ) {
-			wfProfileOut( __METHOD__ );
-
 			return;
 		}
 
 		if ( !$title->quickUserCan( 'create', $user ) ) {
-			wfProfileOut( __METHOD__ );
-
 			return; # The Babel AutoCreate account is not allowed to create the page
 		}
 
@@ -96,7 +89,6 @@ class BabelAutoCreate {
 		);
 
 		$wgParser = $oldParser;
-		wfProfileOut( __METHOD__ );
 	}
 
 	/**
