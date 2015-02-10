@@ -29,7 +29,6 @@ class Babel {
 	 * @return string: Babel tower.
 	 */
 	public static function Render( $parser ) {
-		wfProfileIn( __METHOD__ );
 		global $wgBabelUseUserLanguage;
 		$parameters = func_get_args();
 		array_shift( $parameters );
@@ -132,7 +131,6 @@ $top
 $showfooter
 |}
 EOT;
-		wfProfileOut( __METHOD__ );
 
 		return $tower;
 	}
@@ -143,7 +141,6 @@ EOT;
 	 * @param $parameters Array: Templates to perform the link batch on.
 	 */
 	protected static function mTemplateLinkBatch( $parameters ) {
-		wfProfileIn( __METHOD__ );
 		$titles = array();
 		foreach ( $parameters as $name ) {
 			$title = Title::newFromText( wfMessage( 'babel-template', $name )->inContentLanguage()->text() );
@@ -155,7 +152,6 @@ EOT;
 		$batch = new LinkBatch( $titles );
 		$batch->setCaller( __METHOD__ );
 		$batch->execute();
-		wfProfileOut( __METHOD__ );
 	}
 
 	/**
@@ -190,7 +186,6 @@ EOT;
 	 * @return Array: { 'code' => xx, 'level' => xx }
 	 */
 	protected static function mParseParameter( $parameter, $strtolower = false ) {
-		wfProfileIn( __METHOD__ );
 		global $wgBabelDefaultLevel, $wgBabelCategoryNames;
 		$return = array();
 
@@ -200,15 +195,11 @@ EOT;
 		if ( $code !== false ) {
 			$return['code'] = $code;
 			$return['level'] = $wgBabelDefaultLevel;
-			wfProfileOut( __METHOD__ );
-
 			return $return;
 		}
 		// Try splitting the paramter in to language and level, split on last hyphen.
 		$lastSplit = strrpos( $parameter, '-' );
 		if ( $lastSplit === false ) {
-			wfProfileOut( __METHOD__ );
-
 			return false;
 		}
 		$code = substr( $parameter, 0, $lastSplit );
@@ -218,19 +209,14 @@ EOT;
 		// Validate code.
 		$return['code'] = BabelLanguageCodes::getCode( $babelcode );
 		if ( $return['code'] === false ) {
-			wfProfileOut( __METHOD__ );
-
 			return false;
 		}
 		// Validate level.
 		$level = strtoupper( $level );
 		if ( !isset( $wgBabelCategoryNames[$level] ) ) {
-			wfProfileOut( __METHOD__ );
-
 			return false;
 		}
 		$return['level'] = $level;
-		wfProfileOut( __METHOD__ );
 
 		return $return;
 	}
@@ -258,7 +244,6 @@ EOT;
 	 * @return String: A single babel box, in wikitext format.
 	 */
 	protected static function mGenerateBox( $code, $level ) {
-		wfProfileIn( __METHOD__ );
 		$lang = wfBCP47( $code );
 		$portal = wfMessage( 'babel-portal', $code )->inContentLanguage()->plain();
 		if ( $portal !== '' ) {
@@ -296,7 +281,6 @@ EOT;
 |}
 </div>
 EOT;
-		wfProfileOut( __METHOD__ );
 
 		return $box;
 	}
@@ -311,7 +295,6 @@ EOT;
 	 * @return String: Text for display, in wikitext format.
 	 */
 	protected static function mGetText( $name, $language, $level ) {
-		wfProfileIn( __METHOD__ );
 		global $wgBabelMainCategory, $wgBabelCategoryNames;
 
 		if ( $wgBabelCategoryNames[$level] === false ) {
@@ -347,8 +330,6 @@ EOT;
 			)->inLanguage( $language )->text();
 		}
 
-		wfProfileOut( __METHOD__ );
-
 		return $text;
 	}
 
@@ -362,7 +343,6 @@ EOT;
 	 * @return String: Wikitext to add categories.
 	 */
 	protected static function mGenerateCategories( $code, $level, $createCategories = true ) {
-		wfProfileIn( __METHOD__ );
 		global $wgBabelMainCategory, $wgBabelCategoryNames;
 
 		$r = '';
@@ -384,8 +364,6 @@ EOT;
 				BabelAutoCreate::create( $category, $code, $level );
 			}
 		}
-
-		wfProfileOut( __METHOD__ );
 
 		return $r;
 	}

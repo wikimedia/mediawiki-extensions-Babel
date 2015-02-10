@@ -24,13 +24,10 @@ class BabelLanguageCodes {
 	 * @return String (language code) or false (invalid language code).
 	 */
 	public static function getCode( $code ) {
-		wfProfileIn( __METHOD__ );
 		global $wgBabelLanguageCodesCdb;
 
 		$mediawiki = Language::fetchLanguageName( $code );
 		if ( $mediawiki !== '' ) {
-			wfProfileOut( __METHOD__ );
-
 			return $code;
 		}
 
@@ -42,7 +39,6 @@ class BabelLanguageCodes {
 			wfDebug( __METHOD__ . ": CdbException caught, error message was "
 				. $e->getMessage() );
 		}
-		wfProfileOut( __METHOD__ );
 
 		return $codes;
 	}
@@ -58,22 +54,17 @@ class BabelLanguageCodes {
 	 * @return String (name of language) or false (invalid language code).
 	 */
 	public static function getName( $code, $language = null ) {
-		wfProfileIn( __METHOD__ );
 		global $wgBabelLanguageNamesCdb;
 
 		// Get correct code, even though it should already be correct.
 		$code = self::getCode( $code );
 		if ( $code === false ) {
-			wfProfileOut( __METHOD__ );
-
 			return false;
 		}
 
 		$language = $language === null ? $code : $language;
 		$names = Language::fetchLanguageNames( $language, 'all' );
 		if ( isset( $names[$code] ) ) {
-			wfProfileOut( __METHOD__ );
-
 			return $names[$code];
 		}
 
@@ -85,7 +76,6 @@ class BabelLanguageCodes {
 			wfDebug( __METHOD__ . ": CdbException caught, error message was "
 				. $e->getMessage() );
 		}
-		wfProfileOut( __METHOD__ );
 
 		return $codes;
 	}
