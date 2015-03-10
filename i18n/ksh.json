@@ -27,5 +27,6 @@
 	"babel-4-n": "För heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} es [[$2|e ripoaresch Platt]] [[$1|bahl wi {{GENDER:$4|sing|sing|de|de|ier}} Mottershprooch]].",
 	"babel-5-n": "Heh {{GENDER:$4|dä|dat|dä Medmaacher|dat|di}} brur_en [[$2|ripoaresche Sprohr]]_[[$1|em Berohf]].",
 	"babel-N-n": "{{GENDER:$4\n|Heh däm sing [[$1|Motterschprohch]] es_en [[$2|ripoaresche Schprohch]]\n|Heh däm sing [[$1|Motterschprohch]] es_en [[$2|ripoaresche Schprohch]]\n|För heh dä Medmaacher es_en [[$2|ripoaresche Schprohch]] de [[$1|Motterschprohch]]\n|För dat heh es_en [[$2|ripoaresche Schprooch]] de [[$1|Motterschprohch]]\n|Heh dä ier [[$1|Motterschprohch]] es_en [[$2|ripoaresche Schprohch]]\n}}.",
+	"babel-template": "Template:{{ns:2}} $1",
 	"babel-footer": "Metmaacher noh Shprooche"
 }
