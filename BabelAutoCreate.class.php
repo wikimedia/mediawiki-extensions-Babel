@@ -22,18 +22,10 @@ class BabelAutoCreate {
 	 */
 	protected static $user = false;
 
-	/**
-	 * Abort user creation if the username is that of the autocreation username.
-	 * @param $user User
-	 * @param $errorText
-	 * @return bool
-	 */
-	public static function onAbortNewAccount( User $user, &$errorText ) {
-		$url = wfMessage( 'babel-url' )->text();
-		$errorText = wfMessage( 'babel-autocreate-abort', $url )->parse();
-		$autoCreateUser = wfMessage( 'babel-autocreate-user' )->inContentLanguage()->plain();
+	public static function onUserGetReservedNames( &$names ) {
+		$names[] = 'msg:babel-autocreate-user';
 
-		return $user->getName() !== $autoCreateUser;
+		return true;
 	}
 
 	/**

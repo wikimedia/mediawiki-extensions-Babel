@@ -30,7 +30,7 @@ $GLOBALS['wgExtensionCredits']['parserhook'][] = array(
 );
 
 $GLOBALS['wgHooks']['ParserFirstCallInit'][] = 'BabelStatic::onParserFirstCallInit';
-$GLOBALS['wgHooks']['AbortNewAccount'][] = 'BabelAutoCreate::onAbortNewAccount';
+$GLOBALS['wgHooks']['UserGetReservedNames'][] = 'BabelAutoCreate::onUserGetReservedNames';
 
 $GLOBALS['wgMessagesDirs']['Babel'] = __DIR__ . '/i18n';
 $GLOBALS['wgExtensionMessagesFiles']['Babel'] = __DIR__ . '/Babel.i18n.php';
