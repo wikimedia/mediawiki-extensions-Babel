@@ -7,9 +7,6 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
-use Cdb\Exception as CdbException;
-use Cdb\Reader as CdbReader;
-
 /**
  * Handle language code and name processing for the Babel extension, it can also
  * be used by other extension which need such functionality.
@@ -33,9 +30,9 @@ class BabelLanguageCodes {
 
 		$codes = false;
 		try {
-			$codesCdb = CdbReader::open( $wgBabelLanguageCodesCdb );
+			$codesCdb = Cdb\Reader::open( $wgBabelLanguageCodesCdb );
 			$codes = $codesCdb->get( $code );
-		} catch ( CdbException $e ) {
+		} catch ( Cdb\Exception $e ) {
 			wfDebug( __METHOD__ . ": CdbException caught, error message was "
 				. $e->getMessage() );
 		}
@@ -70,9 +67,9 @@ class BabelLanguageCodes {
 
 		$codes = false;
 		try {
-			$namesCdb = CdbReader::open( $wgBabelLanguageNamesCdb );
+			$namesCdb = Cdb\Reader::open( $wgBabelLanguageNamesCdb );
 			$codes = $namesCdb->get( $code );
-		} catch ( CdbException $e ) {
+		} catch ( Cdb\Exception $e ) {
 			wfDebug( __METHOD__ . ": CdbException caught, error message was "
 				. $e->getMessage() );
 		}

@@ -81,3 +81,10 @@ MediaWiki:Babel-template
 MediaWiki:Babel-portal
     The name format of the portal link for each language.
 */
+
+// BC MW <= 1.24
+if ( !class_exists( 'Cdb\Exception' ) && class_exists( 'CdbException' ) ) {
+	class_alias( 'CdbException', 'Cdb\Exception' );
+	class_alias( 'CdbReader', 'Cdb\Reader' );
+	class_alias( 'CdbWriter', 'Cdb\Writer' );
+}

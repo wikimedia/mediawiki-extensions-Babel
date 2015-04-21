@@ -11,9 +11,6 @@ if ( file_exists( "$dir/../../CorePath.php" ) ) {
 	include "$dir/../../CorePath.php"; // Allow override
 }
 
-use Cdb\Exception as CdbException;
-use Cdb\Writer as CdbWriter;
-
 require_once "$IP/maintenance/commandLine.inc";
 
 $names = "$dir/names.cdb";
@@ -21,8 +18,8 @@ $codes = "$dir/codes.cdb";
 $fr = fopen( "$dir/codes.txt", 'r' );
 
 try {
-	$names = CdbWriter::open( $names );
-	$codes = CdbWriter::open( $codes );
+	$names = Cdb\Writer::open( $names );
+	$codes = Cdb\Writer::open( $codes );
 
 	while ( $line = fgets( $fr ) ) {
 		// Format is code1 code2 "language name"
@@ -43,7 +40,7 @@ try {
 			$names->set( $iso3, $name );
 		}
 	}
-} catch ( CdbException $e ) {
+} catch ( Cdb\Exception $e ) {
 	throw new Exception( $e->getMessage() );
 }
 
