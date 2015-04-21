@@ -7,15 +7,13 @@
 
 $dir = __DIR__;
 $IP = "$dir/../..";
-if ( file_exists( "$dir/../../CorePath.php" ) ) {
-	include "$dir/../../CorePath.php"; // Allow override
-}
 
 use Cdb\Exception as CdbException;
 use Cdb\Writer as CdbWriter;
 
 require_once "$IP/maintenance/commandLine.inc";
 
+$dir = __DIR__;
 $names = "$dir/names.cdb";
 $codes = "$dir/codes.cdb";
 $fr = fopen( "$dir/codes.txt", 'r' );
