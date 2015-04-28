@@ -42,6 +42,7 @@ $GLOBALS['wgAutoloadClasses']['BabelStatic'] = __DIR__ . '/BabelStatic.class.php
 $GLOBALS['wgAutoloadClasses']['BabelAutoCreate'] = __DIR__ . '/BabelAutoCreate.class.php';
 
 $GLOBALS['wgResourceModules']['ext.babel'] = array(
+	'position' => 'top',
 	'styles' => 'resources/ext.babel.css',
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'Babel',
