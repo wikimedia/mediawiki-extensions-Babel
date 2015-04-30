@@ -1,0 +1,5 @@
+== Babel 2015.04 ==
+Released at 2015-04-30.
+
+=== Highlights ===
+* T95157: Restore compatibility with MediaWiki 1.24 and older version.
