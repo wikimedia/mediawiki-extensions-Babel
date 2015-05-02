@@ -33,6 +33,11 @@ $magicWords['ce'] = array(
 	'babel' => array( 0, 'вавилон' ),
 );
 
+/** Chuvash (Чӑвашла) */
+$magicWords['cv'] = array(
+	'babel' => array( 0, 'babel' ),
+);
+
 /** Zazaki (Zazaki) */
 $magicWords['diq'] = array(
 	'babel' => array( 0, 'babil' ),
