@@ -10,7 +10,6 @@
 	"babel-desc": "Dodaje parsersku funkciju <code>#babel</code> da omogući automatsko generiranje stupca s babilonskim suradničkim okvirima s mogućnošću uključenja predložaka po želji",
 	"babel-url": "Project:Babilon",
 	"babel-footer-url": ":Kategorija:Suradnički jezici",
-	"babel-autocreate-abort": "Navedeno suradničko ime rabi se za automatsko stvaranje kategorije [[$1|Babilon]] i ne može se registrirati.",
 	"babel-autocreate-reason": "Automatsko stvaranje stranice kategorije [[$1|babel]].",
 	"babel-autocreate-text-levels": "Suradnici u ovoj kategoriji ukazuju da su vješti na razini $1 za jezik $2.",
 	"babel-autocreate-text-main": "Suradnici u ovoj kategoriji ukazuju da imaju znanje jezika $1.",
