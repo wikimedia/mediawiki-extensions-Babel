@@ -23,7 +23,7 @@ $magicWords['arc'] = array(
 	'babel' => array( 0, 'ܒܒܠ' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $magicWords['arz'] = array(
 	'babel' => array( 0, 'بابل' ),
 );
@@ -68,7 +68,7 @@ $magicWords['fr'] = array(
 	'babel' => array( 0, 'Babel' ),
 );
 
-/** Franco-Provençal (arpetan) */
+/** Arpitan (arpetan) */
 $magicWords['frp'] = array(
 	'babel' => array( 0, 'babél' ),
 );
