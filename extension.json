@@ -1,0 +1,58 @@
+{
+	"name": "Babel",
+	"version": "1.9.1",
+	"author": "Robert Leverington",
+	"url": "https://www.mediawiki.org/wiki/Extension:Babel",
+	"descriptionmsg": "babel-desc",
+	"license-name": "GPL-2.0+",
+	"type": "parserhook",
+	"callback": "Babel::registerExtension",
+	"MessagesDirs": {
+		"Babel": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"BabelMagic": "Babel.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"Babel": "Babel.class.php",
+		"BabelLanguageCodes": "BabelLanguageCodes.class.php",
+		"BabelStatic": "BabelStatic.class.php",
+		"BabelAutoCreate": "BabelAutoCreate.class.php"
+	},
+	"ResourceModules": {
+		"ext.babel": {
+			"position": "top",
+			"styles": "resources/ext.babel.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Babel"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"BabelStatic::onParserFirstCallInit"
+		],
+		"UserGetReservedNames": [
+			"BabelAutoCreate::onUserGetReservedNames"
+		]
+	},
+	"config": {
+		"BabelCategoryNames": {
+			"0": "%code%-0",
+			"1": "%code%-1",
+			"2": "%code%-2",
+			"3": "%code%-3",
+			"4": "%code%-4",
+			"5": "%code%-5",
+			"N": "%code%-N"
+		},
+		"BabelMainCategory": "%code%",
+		"BabelDefaultLevel": "N",
+		"BabelUseUserLanguage": false,
+		"BabelPreferISO639_3": false
+	},
+	"manifest_version": 1
+}
