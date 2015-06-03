@@ -7,14 +7,14 @@
 			"Fluence",
 			"GerardM",
 			"Sanbec",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"Macofe"
 		]
 	},
-	"babel": "Información de idiomas de usuario",
+	"babel": "Información de idiomas {{GENDER:$1|del usuario|de la usuaria}}",
 	"babel-desc": "Añade la función del analizador <code>#babel</code> para permitir la generación automática de una caja de usuario (userbox) «babel» con la posibilidad de incluir plantillas personalizadas",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Usuarios por idioma",
-	"babel-autocreate-abort": "El nombre de usuario especificado es usado para la creación automática de categorías [[$1|Babel]] y no puede registrarse.",
 	"babel-autocreate-reason": "Creando automáticamente la página de categoría [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Los usuarios de esta categoría indican que tienen un nivel de dominio $1 del idioma $2.",
 	"babel-autocreate-text-main": "Los usuarios en esta categoría indican que tienen conocimiento del idioma $1.",
