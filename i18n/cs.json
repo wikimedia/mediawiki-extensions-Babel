@@ -10,12 +10,11 @@
 			"Mr. Richard Bolla"
 		]
 	},
-	"babel": "Babel – jazykové znalosti {{GENDER:$1|uživatele|uživatelky|uživatele}}",
+	"babel": "Babylon – informace o&nbsp;{{GENDER:$1|uživateli|uživatelce|uživateli}}",
 	"babel-desc": "Přidává funkci <code><nowiki>{{#babel:}}</nowiki></code>, umožňující automatickou tvorbu rámečku s informacemi o jazykových schopnostech uživatele s možností používat vlastní šablony.",
 	"babel-url": "Project:Babylon",
-	"babel-footer-url": ":Kategorie:Babylón – Uživatelé podle jazyka",
-	"babel-autocreate-abort": "Vámi uvedené uživatelské jméno se používá pro automatické zakládání kategorií pro [[$1|Babel]] a nelze si ho registrovat.",
-	"babel-autocreate-reason": "Automatické založení stránky kategorie pro [[$1|Babel]]",
+	"babel-footer-url": ":Kategorie:Babylon – Uživatelé podle jazyka",
+	"babel-autocreate-reason": "Automatické založení stránky kategorie pro [[$1|Babylon]]",
 	"babel-autocreate-text-levels": "Uživatelé v této kategorii označili svou úroveň znalostí jazyka $2 jako $1.",
 	"babel-autocreate-text-main": "Uživatelé v této kategorii prohlásili, že mají jisté znalosti jazyka $1.",
 	"babel-0": "{{GENDER:$4|Tento uživatel|Tato uživatelka|Tento uživatel}} [[$1|nerozumí]] [[$2|$3]] (nebo rozumí se značnými problémy).",
