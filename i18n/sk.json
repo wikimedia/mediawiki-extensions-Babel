@@ -4,14 +4,14 @@
 			"Helix84",
 			"Meno25",
 			"Rudko",
-			"Sudo77(new)"
+			"Sudo77(new)",
+			"Danny B."
 		]
 	},
 	"babel": "Babylon - informácie o používateľovi",
 	"babel-desc": "Pridáva funkciu syntaktického analyzátora <code>#babel</code>, ktorá umožňuje automatickú tvorbu babylonských šablón používateľov s možnosťou používať prispôsobené šablóny.",
 	"babel-url": "Project:Babylon",
-	"babel-footer-url": ":Kategória:Wikipédia:Redaktori podľa jazyka",
-	"babel-autocreate-abort": "Používateľ, ktorého ste zadali sa používa na automatickú tvorbu kategórií [[$1|Babylonu]] a nie je možné ho zaregistrovať.",
+	"babel-footer-url": ":Kategória:Bybylon - Redaktori podľa jazyka",
 	"babel-autocreate-reason": "Automaticky sa vytvára stránka kategórie [[$1|Babylon]].",
 	"babel-autocreate-text-levels": "Používatelia v tejto kategórii označili svoju úroveň v jazyku $2 ako $1.",
 	"babel-autocreate-text-main": "Používatelia v tejto kategórii označili, že poznajú jazyk $1.",
