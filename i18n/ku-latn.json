@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Bikarhêner"
 		]
 	},
+	"babel-url": "Project:Babîl",
+	"babel-footer-url": "ːKategorîːBabîl - Bikarhênerên li gorî zimanê",
 	"babel-template": "Template:$1",
 	"babel-footer": "Bikarhêner li gorî ziman"
 }
