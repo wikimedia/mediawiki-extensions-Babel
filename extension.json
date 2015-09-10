@@ -47,7 +47,8 @@
 			"3": "%code%-3",
 			"4": "%code%-4",
 			"5": "%code%-5",
-			"N": "%code%-N"
+			"N": "%code%-N",
+			"_merge_strategy": "array_plus"
 		},
 		"BabelMainCategory": "%code%",
 		"BabelDefaultLevel": "N",
