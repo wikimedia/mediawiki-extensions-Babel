@@ -56,10 +56,8 @@ $GLOBALS['wgResourceModules']['ext.babel'] = array(
 	'remoteExtPath' => 'Babel',
 );
 
-// Configuration setttings.
-// Language names and codes constant database files, the defaults should suffice.
-$GLOBALS['wgBabelLanguageCodesCdb'] = __DIR__ . '/codes.cdb';
-$GLOBALS['wgBabelLanguageNamesCdb'] = __DIR__ . '/names.cdb';
+// Configuration settings.
+
 // Array of possible levels, and their category name - variables: %code% %wikiname% %nativename%
 // Set to false to disable categories for a particular level.
 // Alphabetical levels should be in upper case.

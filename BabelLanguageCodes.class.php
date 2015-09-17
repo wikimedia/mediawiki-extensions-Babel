@@ -21,8 +21,6 @@ class BabelLanguageCodes {
 	 * @return String (language code) or false (invalid language code).
 	 */
 	public static function getCode( $code ) {
-		global $wgBabelLanguageCodesCdb;
-
 		$mediawiki = Language::fetchLanguageName( $code );
 		if ( $mediawiki !== '' ) {
 			return $code;
@@ -30,7 +28,7 @@ class BabelLanguageCodes {
 
 		$codes = false;
 		try {
-			$codesCdb = Cdb\Reader::open( $wgBabelLanguageCodesCdb );
+			$codesCdb = Cdb\Reader::open( __DIR__ . '/codes.cdb' );
 			$codes = $codesCdb->get( $code );
 		} catch ( Cdb\Exception $e ) {
 			wfDebug( __METHOD__ . ": CdbException caught, error message was "
@@ -51,8 +49,6 @@ class BabelLanguageCodes {
 	 * @return String (name of language) or false (invalid language code).
 	 */
 	public static function getName( $code, $language = null ) {
-		global $wgBabelLanguageNamesCdb;
-
 		// Get correct code, even though it should already be correct.
 		$code = self::getCode( $code );
 		if ( $code === false ) {
@@ -67,7 +63,7 @@ class BabelLanguageCodes {
 
 		$codes = false;
 		try {
-			$namesCdb = Cdb\Reader::open( $wgBabelLanguageNamesCdb );
+			$namesCdb = Cdb\Reader::open( __DIR__ . '/names.cdb' );
 			$codes = $namesCdb->get( $code );
 		} catch ( Cdb\Exception $e ) {
 			wfDebug( __METHOD__ . ": CdbException caught, error message was "

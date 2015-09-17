@@ -22,13 +22,6 @@ class Babel {
 	 */
 	protected static $title;
 
-	public static function registerExtension() {
-		global $wgBabelLanguageCodesCdb, $wgBabelLanguageNamesCdb;
-
-		$wgBabelLanguageCodesCdb = __DIR__ . '/codes.cdb';
-		$wgBabelLanguageNamesCdb = __DIR__ . '/names.cdb';
-	}
-
 	/**
 	 * Render the Babel tower.
 	 *
