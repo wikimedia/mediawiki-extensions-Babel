@@ -15,7 +15,7 @@
 		]
 	},
 	"babel": "Babel – Benutzerinformationen",
-	"babel-desc": "Ergänzt die Funktion <code>#babel</code> zur automatischen Erstellung von „Babel“-Benutzerboxen und erlaubt, selbstdefinierte Vorlagen einzubinden",
+	"babel-desc": "Eine zusätzliche Parserfunktion <code>#babel</code> erstellt „Babel“-Benutzerboxen automatisch und erlaubt, selbstdefinierte Vorlagen einzubinden",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Benutzer nach Sprache",
 	"babel-autocreate-reason": "Erstelle automatisch die [[$1|Babel]]-Kategorie.",
