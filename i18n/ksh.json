@@ -5,7 +5,7 @@
 		]
 	},
 	"babel": "{{GENDER:$1|Däm $1 sing|Däm $1 sing|Däm Metmaacher $1 sing|Däm $1 sing|Dä Metmaacheren $1 ier}} Schprohche_Weße",
-	"babel-desc": "Brengk de Paaserfongxjohn <codelang=\"en\" xml:lang=\"en\" dir=\"ltr\">#babel</code>, womet me automatesch ene Babel-Metmaacher-Kaste opboue kann, un dohbeij och selfßjemaate Schablohne nozze kann.",
+	"babel-desc": "Brengk de Paaserfongxjohn <code lang=\"en\" xml:lang=\"en\" dir=\"ltr\">#babel</code>, womet me automatesch ene Babel-Metmaacher-Kaßte opboue kann, un dohbeij och selfßjemahte Schablohne nöze kann.",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Metmaacher noh Schprohche",
 	"babel-autocreate-reason": "En Saachjropp fum [[$1|Babel]]-Süßtehm es automattesch aanjelaat woode.",
