@@ -11,7 +11,6 @@
 	"babel-desc": "Menambah fungsi penghurai <code>#babel</code> untuk membolehkan penjanaan automatik kotak bahasa pengguna dan tempahan templat",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Pengguna mengikut bahasa",
-	"babel-autocreate-abort": "Nama pengguna yang anda nyatakan telah ditempah untuk penciptaan automatik kategori [[$1|Bahasa]] dan tidak boleh didaftarkan.",
 	"babel-autocreate-reason": "Mencipta laman kategori [[$1|Bahasa]] secara automatik.",
 	"babel-autocreate-text-levels": "Pengguna yang tergolong dalam kategori ini mengisyaratkan bahawa mereka memiliki kemahiran aras $1 dalam bahasa $2.",
 	"babel-autocreate-text-main": "Pengguna yang tergolong dalam kategori ini mengisyaratkan bahawa mereka memiliki pengetahuan dalam bahasa $1.",

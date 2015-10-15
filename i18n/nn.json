@@ -13,7 +13,6 @@
 	"babel-desc": "Legg til parserfunksjonen <code>#babel</code> for å automatisk lage ein babelboks der ein kan bruka sjølvlaga malar",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Kategori:Babel/Brukarar etter språk",
-	"babel-autocreate-abort": "Brukarnamnet du valte er i bruk for automatisk oppretting av [[$1|Babel]]-kategoriar og kan difor ikkje verta registrert.",
 	"babel-autocreate-reason": "Oprettar automatisk ei [[$1|Babel]]-kategori-sida.",
 	"babel-autocreate-text-levels": "Brukarar i denne kategorien har eit språkdugleiksnivå på $1 for $2.",
 	"babel-autocreate-text-main": "Brukarar i denne kategorien kjenner til $1.",

@@ -8,7 +8,6 @@
 	"babel-desc": "ຕື່ມລະຫັດ <code>#babel</code> parser function ເພື່ອໃຫ້ສາມາດສ້າງ a babel userbox column with the ability to include custom templates ແບບອະໂຕມາຕິກ",
 	"babel-url": "ໂຄງການ: Babel",
 	"babel-footer-url": "ປະເພດ: Babel - ຜູ້ໃຊ້ງານຈາມພາສາ",
-	"babel-autocreate-abort": "The username ທີ່ທ່ານເຈາະຈົງແມ່ນໃຊ້ສຳລັບ [[$1|Babel]] ປະເພດ ສ້າງແບບອັດຕະໂນມັດ -ການສ້າງນີ້ແມ່ນບໍສາມາດລົງທະບຽນໄດ້",
 	"babel-autocreate-reason": "ປະເພດໜ້າ [[$1|Babel]] ສ້າງແບບອັດຕະໂນມັດ",
 	"babel-autocreate-text-levels": "ຜູ້ໍ້ໃຊ້ໃນໝວດນີ້ ສະແດວງ່າ ພວກເຂົາມີທັກສະລະດັບ $1 ສຳລັບພາສາ $2.",
 	"babel-autocreate-text-main": "ຜູ້ໍ້ໃຊ້ໃນໝວດນີ້ ສະແດງວ່າ ພວກເຂົາມີຄວາມຮູ້ຂອງພາສາ  $1.",

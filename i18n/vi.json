@@ -9,7 +9,6 @@
 	"babel-desc": "Thêm hàm cú pháp <code>#babel</code> để cho phép tự động sinh ra một hộp thông tin ngôn ngữ thành viên và có thể thêm vào những bản mẫu tùy chọn",
 	"babel-url": "Project:Ngôn ngữ",
 	"babel-footer-url": ":Category:Babel – Thành viên theo ngôn ngữ",
-	"babel-autocreate-abort": "Bạn không thể mở tài khoản với tên bạn đã yêu cầu vì nó dùng để tự động tạo thể loại [[$1|Babel]].",
 	"babel-autocreate-reason": "Tự động tạo trang thể loại [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Người dùng trong thể loại này cho thấy họ thành thạo ngôn ngữ $2 ở mức $1.",
 	"babel-autocreate-text-main": "Người dùng trong thể loại này cho thấy họ có kiến thức về ngôn ngữ $1.",

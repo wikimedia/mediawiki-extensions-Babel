@@ -7,7 +7,6 @@
 	"babel": "Anformaçon Babel de Outelizador",
 	"babel-desc": "Ajunta la funçon de l analisador parser <code>#babel</code> pa premitir la criaçon outomatica dua coluna de caixas de outelizador babel cula possiblidade de ancluir modelos pessonalizadas",
 	"babel-url": "Project:Babel",
-	"babel-autocreate-abort": "L nome de outelizador que deziste ye ousado pula criaçon outomática de catadories [[$1|Babel]] i, por esso, nun puode ser registrado.",
 	"babel-autocreate-reason": "A criar outomaticamiente la páigina de la catadorie [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Ls outelizadores nesta catadorie dízen que ténen un nible de coincimiento $1 na lhéngua $2.",
 	"babel-autocreate-text-main": "Ls outelizadores nesta catadorie dízen que ténen coincimientos de la lhéngua $1.",

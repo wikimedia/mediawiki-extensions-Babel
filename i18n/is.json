@@ -8,7 +8,6 @@
 	"babel": "Málkassi",
 	"babel-url": "Project:Málkassi",
 	"babel-footer-url": ":Category:Notendur eftir tungumáli",
-	"babel-autocreate-abort": "Þetta notendanafn er frátekið fyrir sjálfvirka stofnun [[$1|Málkassa]] flokka og getur ekki verið skráð.",
 	"babel-autocreate-reason": "Bý sjálfkrafa til [[$1|Málkassa]] flokk.",
 	"babel-autocreate-text-levels": "Notendur í þessum flokk hafa gefið upp að þeir hafi $1-stigs kunnáttu á $2",
 	"babel-autocreate-text-main": "Notendur í þessum flokk hafa gefið upp að þeir hafi kunnáttu á $1 máli.",

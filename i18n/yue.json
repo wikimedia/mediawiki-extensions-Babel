@@ -9,7 +9,6 @@
 	"babel-desc": "裝<code>#babel</code>功能，整啲巴別用戶盒仔出嚟。可以加埋自訂模落去。",
 	"babel-url": "Project:巴別",
 	"babel-footer-url": ":Category:巴别 - 跟語言分類用戶",
-	"babel-autocreate-abort": "呢個用戶名已經畀[[$1|巴別]]自動分類系統霸咗，註冊唔到。",
 	"babel-autocreate-reason": "自動建立緊[[$1|巴別]]分類頁。",
 	"babel-autocreate-text-levels": "呢個分類入面嘅用戶話佢哋識$2程度嘅$1。",
 	"babel-autocreate-text-main": "呢個分類入面嘅用戶話佢哋識講$1。",

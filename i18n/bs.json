@@ -9,7 +9,6 @@
 	"babel-desc": "Dodaje <code>#babel</code> parsersku funkciju koja omogućava automatsko pravljenje babel korisničke kutije u stupcu sa mogućnostima uključivanja prilagođenih šablona",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Korisnici po jeziku",
-	"babel-autocreate-abort": "Korisničko ime koje ste naveli se koristi za automatsko pravljenje [[$1|Babel]] kategorija i ne može biti registrovano.",
 	"babel-autocreate-reason": "Automatski napravljena stranica [[$1|Babel]] kategorije.",
 	"babel-autocreate-text-levels": "Korisnici u ovoj kategoriji su naveli da imaju nivo $1 znanja $2 jezika.",
 	"babel-autocreate-text-main": "Korisnici u ovoj kategoriji su označeni da imaju znanje $1 jezika.",

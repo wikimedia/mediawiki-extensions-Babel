@@ -9,7 +9,6 @@
 	"babel-desc": "Lisab parsimisfunktsiooni <code>#babel</code>, mis võimaldab kasutaja keelteoskuse infokasti lisamist.",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel – Kasutajad keelteoskuse järgi",
-	"babel-autocreate-abort": "Kasutajanime, mille sisestasid, kasutatakse [[$1|Babeli]] kategooriate automaatseks genereerimiseks, mistõttu seda ei ole võimalik registreerida.",
 	"babel-autocreate-reason": "[[$1|Babeli]] kategoorialehe automaatne genereerimine.",
 	"babel-autocreate-text-levels": "Kasutajad selles kategoorias on märkinud, et valdavad $2 keelt tasemel $1.",
 	"babel-autocreate-text-main": "Kasutajad selles kategoorias on märkinud, et valdavad $1 keelt.",

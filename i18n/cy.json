@@ -9,7 +9,6 @@
 	"babel-desc": "Yn ychwanegu'r ffwythiant dosrannu <code>#babel</code> er mwyn gosod blwch ieithoedd y defnyddiwr yn awtomatig, a chyda'r modd i gynnwys nodiadau pwrpasol",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Categori:Ieithoedd defnyddwyr",
-	"babel-autocreate-abort": "Defnyddir yr enw defnyddiwr y dewisoch ar gyfer creu categori [[$1|Babel]] yn awtomatig, ac ni ellir ei gofrestri.",
 	"babel-autocreate-reason": "Yn creu tudalen gategoreiddio [[$1|Babel]] yn awtomatig.",
 	"babel-autocreate-text-levels": "Mae defnyddwyr yn y categori hwn yn crybwyll bod ganddynt gallu ieithyddol ar lefel $1 mewn $2.",
 	"babel-autocreate-text-main": "Mae defnyddwyr yn y categori hwn yn crybwyll bod rhywfaint o allu $1 ganddynt.",

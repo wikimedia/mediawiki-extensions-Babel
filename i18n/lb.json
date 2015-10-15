@@ -9,7 +9,6 @@
 	"babel-desc": "Setzt d'<code>#babel</code> Parserfunktioun derbäi, fir déi automatesch Generatioun vun enger Babel-Benotzerbox Kolonn, mat der Méiglechkeet fir eege Schablounen anzebannen",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Kategorie:Babel - Benotzer no Sprooch",
-	"babel-autocreate-abort": "De Benotzernumm deen Dir uginn hutt, gëtt fir d'automatescht Uleeë vu [[$1|Babel]]-Kategorië benotzt a kann net gespäichert ginn.",
 	"babel-autocreate-reason": "Automatesch eng [[$1|Babel]]-Kategorie-Säit maachen.",
 	"babel-autocreate-text-levels": "Benotzer an dëser Kategorie ginn un datt si an der Sprooch $2 den Niveau $1 hunn.",
 	"babel-autocreate-text-main": "Benotzer an dëser Kategorie ginn un datt si Kenntnesser vun der Sprooch $1 hunn.",

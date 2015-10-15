@@ -8,7 +8,6 @@
 	"babel-desc": "Ližadab <code>#babel</code>-parseran funkcii, kudamb laskeb säta avtomatižešti pacaz informacijanke keliš, kudambha sab ližata toižid-ki šablonoid",
 	"babel-url": "Project:Vavilon",
 	"babel-footer-url": ":Category:Babel - Kävutajad keliden mödhe",
-	"babel-autocreate-abort": "Teil kirjutadud ühtnijan nimi kävutadas [[$1|Babel]]-projektan kategorijoiden avtomatižen sädandan täht, i sikš sidä ei sa registriruida.",
 	"babel-autocreate-reason": "[[$1|Babel]]-projektan avtomatine lehtpolen sädand.",
 	"babel-autocreate-text-levels": "Necen kategorijan kävutajad oma ozutadud tedonmär $1 $2-kelen täht.",
 	"babel-autocreate-text-main": "Necen kategorijan kävutajad ozutiba $1-kelen tedmine.",

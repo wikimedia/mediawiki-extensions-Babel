@@ -11,7 +11,6 @@
 	"babel-desc": "Afegeix la funció d'anàlisi <code>#babel</code> per a permetre la generació automàtica d'una columna babel de quadres d'usuari amb l'habilitat d'incloure plantilles personalitzades.",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Usuaris per idioma",
-	"babel-autocreate-abort": "El nom d'usuari especificat s'utilitza per a la creació automàtica de categories [[$1|Babel]].",
 	"babel-autocreate-reason": "Creant automàticament la categoria de [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Els usuaris d'aquesta categoria indiquen que tenen un nivell $1 per l'idioma $2.",
 	"babel-autocreate-text-main": "Els usuaris d'aquesta categoria indiquen que tenen coneixements de l'idioma $1.",

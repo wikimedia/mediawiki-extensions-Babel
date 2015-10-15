@@ -8,7 +8,6 @@
 	"babel-desc": "Engade a función analítica <code>#babel</code> para permitir a xeración automática dunha caixa de usuario Babel coa posibilidade de incluír modelos personalizados",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Categoría:Babel - Usuarios por lingua",
-	"babel-autocreate-abort": "O nome de usuario especificado é usado para a creación automática de categorías [[$1|Babel]], polo que non pode ser rexistrado.",
 	"babel-autocreate-reason": "Creación automática da categoría [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Os usuarios que están nesta categoría teñen un nivel $1 de destreza en lingua $2.",
 	"babel-autocreate-text-main": "Os usuarios desta categoría teñen un alto coñecemento da lingua $1.",

@@ -8,7 +8,6 @@
 	"babel": "Inpormasyon sang Babel naga-usar",
 	"babel-desc": "Gadugang sang <code>#babel</code> parser nga gagana para magamit nga henerasyon automatiko sang babel userbox kolum upod sang abilidad para maintra sa kustom templeyts",
 	"babel-url": "Project:Babel",
-	"babel-autocreate-abort": "Ang usarngalan nga imo gina-klaro ay ginagamit para [[$1|Babel]] auto-himo nga kategorya kag indi ni pwede marehistro.",
 	"babel-autocreate-reason": "Automatiko nga ginahimo [[$1|Babel]] pahina kategorya.",
 	"babel-autocreate-text-levels": "Mga naga-usar sa sini nga kategorya nagapakita nga may-ara sila kasarang lebel $1 para sa lengwahe $2.",
 	"babel-autocreate-text-main": "Mga user sa sini nga kategorya nagapakita nga may-ara sila ka-alam lebel $1.",

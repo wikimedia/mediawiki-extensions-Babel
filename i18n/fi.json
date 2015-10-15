@@ -14,7 +14,6 @@
 	"babel-desc": "Lisää <code>#babel</code>-funktion, jotta käyttäjän kielitaidosta kertova babel-käyttäjälaatikkosarake voidaan luoda automaattisesti ja sisällyttää räätälöityihin mallineisiin.",
 	"babel-url": "Project:Kielitaito",
 	"babel-footer-url": ":Category:Babel - Käyttäjät kielittäin",
-	"babel-autocreate-abort": "Antamasi käyttäjätunnus on varattu [[$1|kielitaitoluokkien]] automaattiseen luomiseen, joten et voi rekisteröidä sitä.",
 	"babel-autocreate-reason": "[[$1|Kielitaidon]] luokkasivun automaattinen luonti.",
 	"babel-autocreate-text-levels": "Käyttäjät tässä luokassa ovat ilmoittaneet osaavansa kieltä $2 tasolla $1.",
 	"babel-autocreate-text-main": "Käyttäjät tässä luokassa ovat ilmoittaneet ymmärtävänsä kieltä $1.",

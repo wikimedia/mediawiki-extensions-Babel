@@ -11,7 +11,6 @@
 	"babel-desc": "<code>#babel</code> értelmes függvény bábel-információkat tartalmazó oszlop automatikus generálásához, saját sablononok beillesztésének lehetőségével",
 	"babel-url": "Project:Bábel",
 	"babel-footer-url": ":Category:Bábel – Felhasználók nyelvek szerint",
-	"babel-autocreate-abort": "Az általad választott nevet a [[$1|bábelkategóriák]] automatikus létrehozásához használjuk, így nem lehet regisztrálni.",
 	"babel-autocreate-reason": "[[$1|Bábel]]kategória-oldal automatikus létrehozása.",
 	"babel-autocreate-text-levels": "Az ebben a kategóriában szereplő szerkesztők $1 szinten beszélik a(z) $2 nyelvet.",
 	"babel-autocreate-text-main": "Az ebben a kategóriában szereplő szerkesztők valamilyen szinten beszélik a(z) $1 nyelvet.",

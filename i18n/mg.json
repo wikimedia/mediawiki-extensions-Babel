@@ -8,7 +8,6 @@
 	"babel-desc": "Manampy ny Parser function <code>#babel</code> mampamela ny fanamboarana userbox hoazy. Afaka mampiditra endrika tsy natao tany amin'ny mediawiki ilay izy",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Sokajy:Babel - Mpikambana araka ny tenim-pirenena",
-	"babel-autocreate-abort": "Ilay anaram-pikambana nampidirinao mba hanao sokajy [[$1|Babel]] hoazy tsy afaka tehirizina",
 	"babel-autocreate-reason": "Natao hoazy ilay sokajy [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Niteny ny mpikambana anatin'ity sokajy ity fa $1 hono ny lentany amin'ny fiteny $2.",
 	"babel-autocreate-text-main": "Ny mpikambana anatin'ity sokajy ity niteny fa $1 hono ny fahaizany.",

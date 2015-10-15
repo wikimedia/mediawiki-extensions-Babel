@@ -4,7 +4,6 @@
 			"Tacsipacsi"
 		]
 	},
-	"babel-autocreate-abort": "Az ön által választott nevet a [[$1|bábelkategóriák]] automatikus létrehozásához használjuk, így nem lehet regisztrálni.",
 	"babel-0": "Ez a szerkesztő [[$1|nem]] beszéli a(z) [[$2|$3]] nyelvet (vagy csak nagy nagyon nehezen érti meg).",
 	"babel-1": "Ez a szerkesztő [[$1|alapszinten]] beszéli a(z) [[$2|$3]] nyelvet.",
 	"babel-2": "Ez a szerkesztő [[$1|középszinten]] beszéli a(z) [[$2|$3]] nyelvet.",

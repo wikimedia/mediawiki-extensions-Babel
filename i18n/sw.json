@@ -8,7 +8,6 @@
 	"babel": "Maelezo ya Babeli ya mtumiaji",
 	"babel-url": "Project:Babeli",
 	"babel-footer-url": ":Jamii:Wanawikipedia lugha kwa lugha",
-	"babel-autocreate-abort": "Huwezi kusajili jina la mtumiaji ulilotaja kwa sababu linatumika tayari katika shughuli ya kuanzisha jamii za [[$1|Babeli]] kiotomati.",
 	"babel-autocreate-reason": "Ukurasa wa jamii ya [[$1|Babeli]] unaanzishwa moja kwa moja.",
 	"babel-autocreate-text-levels": "Watumiaji katika jamii hii wanaonyesha kwamba wanaongea lugha ya $2 kwa kiwango cha $1.",
 	"babel-autocreate-text-main": "Watumiaji katika jamii hii wanadai kwamba wana ujuzi wa lugha ya $1.",

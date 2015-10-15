@@ -16,7 +16,6 @@
 	"babel-desc": "Lägger till parserfunktionen <code>#babel</code> för att tillåta att det automatiskt skapas en babelboxkolumn med möjligheten att lägga till anpassade mallar",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Kategori:Babel - Användare efter språk",
-	"babel-autocreate-abort": "Användarnamnet du valde används för automatiskt skapande av [[$1|Babel]]-kategorier och kan därför inte registreras.",
 	"babel-autocreate-reason": "Skapar automatiskt en [[$1|Babel]]-kategorisida.",
 	"babel-autocreate-text-levels": "Användare i den här kategorin visar att de kan språket $2 på en kunskapsnivå av $1.",
 	"babel-autocreate-text-main": "Användare i den här kategorin visar att de har kunskap i språket $1.",

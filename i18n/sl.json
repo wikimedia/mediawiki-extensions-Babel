@@ -9,7 +9,6 @@
 	"babel-desc": "Doda funkcijo <code>#babel</code>, ki omogoča avtomatizirano ustvarjanje babilonskih uporabniških polj z zmožnostjo vključevanja predlog po meri",
 	"babel-url": "Project:Babilon",
 	"babel-footer-url": ":Kategorija:Babel – Uporabniki po jeziku",
-	"babel-autocreate-abort": "Uporabniško ime, ki ste ga določili, se uporablja za samodejno ustvarjanje kategorij [[$1|Babel]] in ga ni mogoče registirati.",
 	"babel-autocreate-reason": "Samodejno ustvarjanje [[$1|babilonske]] kategorije.",
 	"babel-autocreate-text-levels": "Uporabniki navedeni v tej kategoriji imajo naslednjo jezikovno sposobnost $1 $2.",
 	"babel-autocreate-text-main": "Uporabniki navedeni v tej kategoriji imajo znanje jezika »$1«.",

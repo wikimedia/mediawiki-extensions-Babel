@@ -9,7 +9,6 @@
 	"babel-desc": "Dodaje funkciju raščlanjivača <code>#babel</code> koja omogućava samostalno stvaranje kolone s jezičkom kutijicom uz mogućnost dodavanja prilagođenih šablona",
 	"babel-url": "Project:Vavilon",
 	"babel-footer-url": ":Category:Vavilon – Korisnici po jeziku",
-	"babel-autocreate-abort": "Korisničko ime koje ste uneli koristi se za samostalno stvaranje kategorije [[$1|Vavilon]] i zato se ne može upisati.",
 	"babel-autocreate-reason": "Samostalno stvaranje kategorije [[$1|Vavilon]].",
 	"babel-autocreate-text-levels": "Korisnici u ovoj kategoriji imaju znanje $1 $2 jezika.",
 	"babel-autocreate-text-main": "Korisnici u ovoj kategoriji imaju znanje $1 jezika.",

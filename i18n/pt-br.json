@@ -11,7 +11,6 @@
 	"babel-desc": "Adiciona a função do analisador parser <code>#babel</code> para permitir a geração automática de um coluna de caixas de babel de um usuário coma possibilidade de incluir predefinições personalizadas",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Categoria:Babel - Usuários por língua",
-	"babel-autocreate-abort": "O nome de usuário que especificou é usado pela criação automática de categorias [[$1|Babel]] e, por isso, não pode ser registrado.",
 	"babel-autocreate-reason": "Criando automaticamente a página da categoria [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Os usuários nesta categoria indicam que possuem um nível de conhecimento $1 na língua $2.",
 	"babel-autocreate-text-main": "Os usuários nesta categoria indicam que possuem conhecimentos da língua $1.",

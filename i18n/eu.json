@@ -10,7 +10,6 @@
 	"babel-desc": "<code>#babel</code> sintaxi-analizatzaile (parser) funtzioa gehitzen du automatikoki sorturiko babel lankide-kutxen zutabea baimeduz eta lankide txantiloiak sartzea baimenduz",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Erabiltzaileak hizkuntzaren arabear",
-	"babel-autocreate-abort": "Sartu duzun lankide izena [[$1|Babel]] kategorien auto-sorkuntzarako erabiltzen da eta ezin da erregistratu.",
 	"babel-autocreate-reason": "Automatikoki sorturiko [[$1|Babel]] kategoria orrialdea.",
 	"babel-autocreate-text-levels": "Kategoria honetako lankideek $1 maila dutela $2 hizkuntzan adierazten du.",
 	"babel-autocreate-text-main": "Kategoria honetan dauden lankideek $1 hizkuntzaren jakintza dute.",

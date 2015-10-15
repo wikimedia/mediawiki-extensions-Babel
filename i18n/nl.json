@@ -14,7 +14,6 @@
 	"babel-desc": "Voegt de parserfunctie <code>#babel</code> toe om automatische generatie van een babelgebruikersbox mogelijk te maken met de mogelijkheid om aangepaste sjablonen in te voegen",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Gebruikers naar taal",
-	"babel-autocreate-abort": "De gebruikersnaam die u hebt opgegeven wordt gebruikt voor het automatisch aanmaken van [[$1|Babel]]-categorieën en kan niet geregistreerd worden.",
 	"babel-autocreate-reason": "Automatisch aangemaakte [[$1|Babel]]-categorie.",
 	"babel-autocreate-text-levels": "Gebruikers in deze categorie geven aan dat hun niveau voor de taal $2 $1 is.",
 	"babel-autocreate-text-main": "Gebruikers in deze categorie geven aan dat zij kennis van de taal $1 hebben.",

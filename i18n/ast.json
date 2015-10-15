@@ -9,7 +9,6 @@
 	"babel-desc": "Añade la función d'análisis sintáuticu <code>#babel</code> pa permitir la xeneración automática d'una columna userbox babel cola capacidá d'incluyir plantíes al gustu d'ún",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Usuarios por llingua",
-	"babel-autocreate-abort": "L'usuariu que conseñasti s'usa pa la creación automática de la categoría [[$1|Babel]] y nun se pue rexistrar.",
 	"babel-autocreate-reason": "Creando automáticamente la páxina de la categoría [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Los usuarios d'esta categoría indiquen que tienen un nivel de conocimientu $1 de la llingua $2.",
 	"babel-autocreate-text-main": "Los usuarios d'esta categoría indiquen que tienen conocimientos de la llingua $1.",

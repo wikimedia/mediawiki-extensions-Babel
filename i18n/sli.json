@@ -8,7 +8,6 @@
 	"babel": "Babel-Benutzer-Information",
 	"babel-desc": "Ergänzt de <code>#babel</code>-Parserfunktion zur automatischen Erstellung vo Babel-Benutzerboxen-Zeilen mit der Möglichkeit, eigene Vorlagen einzubinden",
 	"babel-url": "Project:Babel",
-	"babel-autocreate-abort": "Dar oausgewählte Nutzername werd fier de automatische Arstellung voo [[$1|Babel]]-Kategoria benötigt un kaon nä registriert werda.",
 	"babel-autocreate-reason": "Automatisch arstellte [[$1|Babel]]-Kategorie.",
 	"babel-autocreate-text-levels": "Benutzer ei dieser Kategorie haben den Kenntnis-Level $1 für die Sproache $2.",
 	"babel-autocreate-text-main": "Benutzer ei dieser Kategorie haben Kenntnisse der Sproache $1.",
