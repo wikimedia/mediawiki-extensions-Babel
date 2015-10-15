@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"babel": "Bäbel",
+	"babel-1": "İ kärbar, [[$2|$3]] gab zenə miyən [[$1|täzekr]] isse.",
+	"babel-2": "İ kärbarə [[$2|$3]], [[$1|bad niye]].",
+	"babel-4": "İ kärbar, [[$2|$3]] xu [[$1|märi zəvänə moson]] gab zene.",
+	"babel-N": "ی کابرˇ [[$1|ماری زوان،]] [[$2|$3]] ايسسه.",
+	"babel-1-n": "İ kärbar, [[$2|Giləki]] gab zenə miyən [[$1|täzekr]] isse.",
+	"babel-2-n": "İ kärbarə [[$2|Giləki]], [[$1|bad niye]].",
+	"babel-3-n": "ای کاربر، گیلکی ره خجیر گب زئنه.",
+	"babel-4-n": "İ kärbar, [[$2|Giləkiye]] xu [[$1|märi zəvänə moson]] gab zene.",
+	"babel-N-n": "ی کابرˇ [[$1|ماری زوان،]] [[$2|گيلکی]] ايسسه."
+}
