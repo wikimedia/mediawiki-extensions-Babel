@@ -40,7 +40,7 @@ class Babel {
 
 		$content = '';
 		$templateParameters = array(); // collects name=value parameters to be passed to wiki templates.
-		$createCategories = !$parser->mOptions->getIsPreview();
+		$createCategories = !$parser->getOptions()->getIsPreview();
 		foreach ( $parameters as $name ) {
 			if ( strpos( $name, '=' ) !== false ) {
 				$templateParameters[] = $name;
