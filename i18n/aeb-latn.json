@@ -1,4 +1,10 @@
 {
+	"@metadata": {
+		"authors": [
+			"Csisc",
+			"GeekEmad"
+		]
+	},
 	"babel": "Linformasyon mtagħ Babel għallutilizateur",
 	"babel-0": "Lutilizateur hadha [[$1|ma yefhemch]] [[$2|$3]] (wella yefhem àmma bessif)",
 	"babel-1": "Lutilizateur hadha yefhem [[$1|chway]] [[$2|$3]].",
