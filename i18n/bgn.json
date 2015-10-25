@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Baloch Afghanistan"
+			"Baloch Afghanistan",
+			"Ibrahim khashrowdi"
 		]
 	},
+	"babel": "بابلئ کار زُوروکین مالومات",
 	"babel-url": "Project:بابل",
+	"babel-footer-url": ":Category:بابل - کار زُوروکان شه زبانئ روگا",
+	"babel-autocreate-reason": "[[$1|بابل]]ئ تهرِ تاکدیمئ اتوماتیکین جۆڑ کورتین.",
 	"babel-footer": "کار زوروکان بئ اساس زبان"
 }
