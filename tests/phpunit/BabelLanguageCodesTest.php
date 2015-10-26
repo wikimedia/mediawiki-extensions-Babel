@@ -26,6 +26,9 @@ class BabelLanguageCodesTest extends PHPUnit_Framework_TestCase {
 		return array(
 			array( 'invalidLanguageCode', false ),
 			array( 'en', 'en' ),
+			array( 'eng', 'en' ),
+			array( 'en-gb', 'en-gb' ),
+			array( 'de', 'de' ),
 		);
 	}
 
@@ -41,6 +44,9 @@ class BabelLanguageCodesTest extends PHPUnit_Framework_TestCase {
 			array( 'invalidLanguageCode', null, false ),
 			array( 'en', null, 'English' ),
 			array( 'en', 'en', 'English' ),
+			array( 'eng', null, 'English' ),
+			array( 'en-gb', null, 'British English' ),
+			array( 'de', null, 'Deutsch' ),
 		);
 	}
 
