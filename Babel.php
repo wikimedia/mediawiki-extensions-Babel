@@ -30,7 +30,7 @@ if ( function_exists( 'wfLoadExtension' ) ) {
 $GLOBALS['wgExtensionCredits']['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'Babel',
-	'version' => '1.9.1',
+	'version' => '[https://www.mediawiki.org/wiki/MLEB MLEB 2015.10]',
 	'author' => 'Robert Leverington',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Babel',
 	'descriptionmsg' => 'babel-desc',

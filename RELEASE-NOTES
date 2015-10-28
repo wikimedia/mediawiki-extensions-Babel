@@ -1,0 +1,7 @@
+== Babel 2015.10 ==
+Released at 2015-10-28.
+
+=== Highlights ===
+* Extension is no longer automatically loaded when installed via composer.
+* Support for extension registration was added.
+* Configuration options for CDB file locations were removed.
