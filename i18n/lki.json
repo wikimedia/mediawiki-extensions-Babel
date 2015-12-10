@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hosseinblue"
+			"Hosseinblue",
+			"Arash71"
 		]
 	},
-	"babel": "زانستن دربارۀ بهرۀگر-کاربر بابل",
+	"babel": "زانستن دربارۀ کاربةر بابل",
 	"babel-desc": "دستور تجزیه گر<code>#babel</code> اضافۀ مۀکه گه مآوو یه سرۀ جعبۀل کاربری بابل دؤرس که گه توانایی سازین الگؤۀل تازۀ درئ",
 	"babel-url": "Project:بابل",
 	"babel-footer-url": ":Category: بابل-بهرۀگر یا کاربرۀل ئه رؤی زوون",
