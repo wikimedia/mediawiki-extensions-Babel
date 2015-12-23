@@ -4,10 +4,11 @@
 			"Hamilton Abreu",
 			"Malafaya",
 			"Waldir",
-			"555"
+			"555",
+			"Opraco"
 		]
 	},
-	"babel": "Informação Babel de Utilizador",
+	"babel": "Informação Babel {{GENDER:$1|do utilizador|da utilizadora|do(a) utilizador(a)}}",
 	"babel-desc": "Adiciona a função <code>#babel</code> ao analisador sintáctico, para permitir a geração automatizada de uma coluna de caixas babel com a possibilidade de incluir predefinições personalizadas",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Categoria:Babel - Utilizadores por língua",
