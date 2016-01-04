@@ -30,30 +30,46 @@ class BabelTest extends MediaWikiTestCase {
 		$this->insertPage( 'User:User-1', '[[Category:en]]' );
 	}
 
-	public function testRender() {
+	private function getParser() {
 		$options = new ParserOptions();
 		$options->setIsPreview( true );
 
 		$parser = $this->getMockBuilder( 'Parser' )
 			->disableOriginalConstructor()
 			->getMock();
+
 		$parser->expects( $this->any() )
 			->method( 'getOptions' )
 			->will( $this->returnValue( $options ) );
+
 		$parser->expects( $this->any() )
 			->method( 'getTitle' )
 			->will( $this->returnValue( Title::newFromText( 'User:User-1' ) ) );
+
 		$parser->expects( $this->any() )
 			->method( 'getOutput' )
 			->will( $this->returnValue( new ParserOutput() ) );
 
-		$wikiText = Babel::Render( $parser, 'en' );
+		return $parser;
+	}
+
+	public function testRenderEmptyBox() {
+		$wikiText = Babel::Render( $this->getParser(), '' );
 		$this->assertSame(
 			'{|style=" padding: (babel-box-cellpadding);  border-spacing: (babel-box-cellspacing);" class="mw-babel-wrapper"'
 			. "\n"
 			. '! class="mw-babel-header" | [[(babel-url)|(babel: User-1)]]'
-			. "\n|-\n"
-			. '| <div class="mw-babel-box mw-babel-box-N" dir="ltr">'
+			. "\n|-\n| \n|-\n"
+			.  '! class="mw-babel-footer" | [[(babel-footer-url)|(babel-footer: User-1)]]'
+			. "\n|}",
+			$wikiText
+		);
+	}
+
+	public function testRenderDefaultLevel() {
+		$wikiText = Babel::Render( $this->getParser(), 'en' );
+		$this->assertContains(
+			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
 			. "\n"
 			. '{|style=" padding: (babel-cellpadding);  border-spacing: (babel-cellspacing);"'
 			. "\n"
@@ -61,10 +77,39 @@ class BabelTest extends MediaWikiTestCase {
 			. "\n"
 			. '| dir="ltr" lang="en" | This user has a [[:Category:en-N|native]] understanding of [[:Category:en|English]].'
 			. "\n|}\n"
-			. '</div>[[Category:en|N]][[Category:en-N]]'
-			. "\n|-\n"
-			.  '! class="mw-babel-footer" | [[(babel-footer-url)|(babel-footer: User-1)]]'
-			. "\n|}",
+			. '</div>[[Category:en|N]][[Category:en-N]]',
+			$wikiText
+		);
+	}
+
+	public function testRenderCustomLevel() {
+		$wikiText = Babel::Render( $this->getParser(), 'EN-1' );
+		$this->assertContains(
+			'<div class="mw-babel-box mw-babel-box-1" dir="ltr">'
+			. "\n"
+			. '{|style=" padding: (babel-cellpadding);  border-spacing: (babel-cellspacing);"'
+			. "\n"
+			. '! dir="ltr" | [[(babel-portal: EN)|en]]<span class="mw-babel-box-level-1">-1</span>'
+			. "\n"
+			. '| dir="ltr" lang="en" | This user has [[:Category:en-1|basic]] knowledge of [[:Category:en|English]].'
+			. "\n|}\n"
+			. '</div>[[Category:EN|1]][[Category:EN-1]]',
+			$wikiText
+		);
+	}
+
+	public function testRenderRedLink() {
+		$wikiText = Babel::Render( $this->getParser(), 'redLink' );
+		$this->assertContains(
+			'<div class="mw-babel-notabox" dir="ltr">[[(babel-template: redLink)]]</div>',
+			$wikiText
+		);
+	}
+
+	public function testRenderInvalidTitle() {
+		$wikiText = Babel::Render( $this->getParser(), '<invalidTitle>' );
+		$this->assertContains(
+			'<div class="mw-babel-notabox" dir="ltr">(babel-template: <invalidTitle>)</div>',
 			$wikiText
 		);
 	}
