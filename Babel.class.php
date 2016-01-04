@@ -25,10 +25,11 @@ class Babel {
 	/**
 	 * Render the Babel tower.
 	 *
-	 * @param $parser Parser.
+	 * @param Parser $parser
+	 * @param string [$parameter,...]
 	 * @return string: Babel tower.
 	 */
-	public static function Render( $parser ) {
+	public static function Render( Parser $parser ) {
 		global $wgBabelUseUserLanguage;
 		$parameters = func_get_args();
 		array_shift( $parameters );
@@ -138,9 +139,9 @@ EOT;
 	/**
 	 * Performs a link batch on a series of templates.
 	 *
-	 * @param $parameters Array: Templates to perform the link batch on.
+	 * @param string[] $parameters Templates to perform the link batch on.
 	 */
-	protected static function mTemplateLinkBatch( $parameters ) {
+	protected static function mTemplateLinkBatch( array $parameters ) {
 		$titles = array();
 		foreach ( $parameters as $name ) {
 			$title = Title::newFromText( wfMessage( 'babel-template', $name )->inContentLanguage()->text() );
