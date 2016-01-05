@@ -39,52 +39,7 @@ class Babel {
 
 		$parser->getOutput()->addModuleStyles( 'ext.babel' );
 
-		$content = '';
-		$templateParameters = array(); // collects name=value parameters to be passed to wiki templates.
-		$createCategories = !$parser->getOptions()->getIsPreview();
-		foreach ( $parameters as $name ) {
-			if ( strpos( $name, '=' ) !== false ) {
-				$templateParameters[] = $name;
-				continue;
-			}
-			$components = self::mParseParameter( $name );
-			$template = wfMessage( 'babel-template', $name )->inContentLanguage()->text();
-			if ( $name === '' ) {
-				continue;
-			} elseif ( $components !== false ) {
-				// Valid parameter syntax (with lowercase language code), babel box
-				$content .= self::mGenerateBox( $components['code'], $components['level'] );
-				$content .= self::mGenerateCategories(
-					$components['code'],
-					$components['level'],
-					$createCategories
-				);
-			} elseif ( self::mPageExists( $template ) ) {
-				// Check for an existing template
-				$templateParameters[0] = $template;
-				$template = implode( '|', $templateParameters );
-				$content .= self::mGenerateNotaBox( $parser->replaceVariables( "{{{$template}}}" ) );
-			} elseif ( self::mValidTitle( $template ) ) {
-				// Non-existing page, so try again as a babel box,
-				// with converting the code to lowercase
-				$components2 = self::mParseParameter( $name, /* code to lowercase */
-					true );
-				if ( $components2 !== false ) {
-					$content .= self::mGenerateBox( $components2['code'], $components2['level'] );
-					$content .= self::mGenerateCategories(
-						$components2['code'],
-						$components2['level'],
-						$createCategories
-					);
-				} else {
-					// Non-existent page and invalid parameter syntax, red link.
-					$content .= self::mGenerateNotaBox( '[[' . $template . ']]' );
-				}
-			} else {
-				// Invalid title, output raw.
-				$content .= self::mGenerateNotaBox( $template );
-			}
-		}
+		$content = self::mGenerateContentTower( $parser, $parameters );
 
 		if ( $wgBabelUseUserLanguage ) {
 			$uiLang = $parser->getOptions()->getUserLangObj();
@@ -134,6 +89,77 @@ $showfooter
 EOT;
 
 		return $tower;
+	}
+
+	/**
+	 * @param Parser $parser
+	 * @param string[] $parameters
+	 *
+	 * @return string Wikitext
+	 */
+	private static function mGenerateContentTower( Parser $parser, array $parameters ) {
+		$content = '';
+		$templateParameters = array(); // collects name=value parameters to be passed to wiki templates.
+
+		foreach ( $parameters as $name ) {
+			if ( strpos( $name, '=' ) !== false ) {
+				$templateParameters[] = $name;
+				continue;
+			}
+
+			$content .= self::mGenerateContent( $parser, $name, $templateParameters );
+		}
+
+		return $content;
+	}
+
+	/**
+	 * @param Parser $parser
+	 * @param string $name
+	 * @param string[] $templateParameters
+	 *
+	 * @return string Wikitext
+	 */
+	private static function mGenerateContent( Parser $parser, $name, array $templateParameters ) {
+		$createCategories = !$parser->getOptions()->getIsPreview();
+		$components = self::mParseParameter( $name );
+		$template = wfMessage( 'babel-template', $name )->inContentLanguage()->text();
+
+		if ( $name === '' ) {
+			return '';
+		} elseif ( $components !== false ) {
+			// Valid parameter syntax (with lowercase language code), babel box
+			return self::mGenerateBox( $components['code'], $components['level'] )
+				. self::mGenerateCategories(
+					$components['code'],
+					$components['level'],
+					$createCategories
+				);
+		} elseif ( self::mPageExists( $template ) ) {
+			// Check for an existing template
+			$templateParameters[0] = $template;
+			$template = implode( '|', $templateParameters );
+			return self::mGenerateNotaBox( $parser->replaceVariables( "{{{$template}}}" ) );
+		} elseif ( self::mValidTitle( $template ) ) {
+			// Non-existing page, so try again as a babel box,
+			// with converting the code to lowercase
+			$components2 = self::mParseParameter( $name, /* code to lowercase */
+				true );
+			if ( $components2 !== false ) {
+				return self::mGenerateBox( $components2['code'], $components2['level'] )
+					. self::mGenerateCategories(
+						$components2['code'],
+						$components2['level'],
+						$createCategories
+					);
+			} else {
+				// Non-existent page and invalid parameter syntax, red link.
+				return self::mGenerateNotaBox( '[[' . $template . ']]' );
+			}
+		} else {
+			// Invalid title, output raw.
+			return self::mGenerateNotaBox( $template );
+		}
 	}
 
 	/**
