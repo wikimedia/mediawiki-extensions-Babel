@@ -17,7 +17,7 @@
 	"babel-footer-url": ":Category:Babel - Usuarios por idioma",
 	"babel-autocreate-reason": "Creando automáticamente la página de categoría [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Los usuarios de esta categoría indican que tienen un nivel de dominio $1 del idioma $2.",
-	"babel-autocreate-text-main": "Los usuarios en esta categoría indican que tienen conocimiento del idioma $1.",
+	"babel-autocreate-text-main": "Los usuarios en esta categoría indican su conocimiento del idioma $1.",
 	"babel-0": "{{GENDER:$4|Este usuario|Esta usuaria}} [[$1|no]] tiene ningún conocimiento del [[$2|$3]] (o lo entiende con mucha dificultad).",
 	"babel-1": "{{GENDER:$4|Este usuario|Esta usuaria}} tiene un conocimiento [[$1|básico]] del [[$2|$3]].",
 	"babel-2": "{{GENDER:$4|Este usuario|Esta usuaria}} tiene un conocimiento [[$1|intermedio]] del [[$2|$3]].",
