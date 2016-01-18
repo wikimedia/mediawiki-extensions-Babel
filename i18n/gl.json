@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño"
+			"Toliño",
+			"Elisardojm"
 		]
 	},
 	"babel": "Información Babel {{GENDER:$1|do usuario|da usuaria}}",
@@ -10,7 +11,7 @@
 	"babel-footer-url": ":Categoría:Babel - Usuarios por lingua",
 	"babel-autocreate-reason": "Creación automática da categoría [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Os usuarios que están nesta categoría teñen un nivel $1 de destreza en lingua $2.",
-	"babel-autocreate-text-main": "Os usuarios desta categoría teñen un alto coñecemento da lingua $1.",
+	"babel-autocreate-text-main": "Os usuarios desta categoría indican o seu coñecemento da lingua $1.",
 	"babel-0": "{{GENDER:$4|Este usuario|Esta usuaria}} [[$1|non]] ten ningún coñecemento de [[$2|$3]] (ou ten dificultades para entendelo).",
 	"babel-1": "{{GENDER:$4|Este usuario|Esta usuaria}} ten un coñecemento [[$1|básico]] de [[$2|$3]].",
 	"babel-2": "{{GENDER:$4|Este usuario|Esta usuaria}} ten un coñecemento [[$1|intermedio]] de [[$2|$3]].",

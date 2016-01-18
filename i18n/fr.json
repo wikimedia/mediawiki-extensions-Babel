@@ -11,7 +11,8 @@
 			"UV",
 			"Urhixidur",
 			"Verdy p",
-			"Zebulon84"
+			"Zebulon84",
+			"Gomoko"
 		]
 	},
 	"babel": "Informations Babel sur l’utilisateur",
@@ -20,7 +21,7 @@
 	"babel-footer-url": ":Catégorie:Babel - Utilisateurs par langue",
 	"babel-autocreate-reason": "Création automatique de la catégorie [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Les utilisateurs dans cette catégorie ont indiqué qu’ils ont le niveau $1 pour la langue $2.",
-	"babel-autocreate-text-main": "Les utilisateurs dans cette catégorie ont indiqué qu’ils ont une connaissance en $1.",
+	"babel-autocreate-text-main": "Les utilisateurs dans cette catégorie ont indiqué leur connaissance de la langue $1.",
 	"babel-0": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} n’a [[$1|aucune]] connaissance en [[$2|$3]] (ou le comprend avec de grandes difficultés).",
 	"babel-1": "Cet utilisateur peut contribuer avec un niveau [[$1|élémentaire]] en [[$2|$3]].",
 	"babel-2": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} a une connaissance [[$1|moyenne]] en [[$2|$3]].",

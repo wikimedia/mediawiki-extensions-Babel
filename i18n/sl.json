@@ -11,7 +11,7 @@
 	"babel-footer-url": ":Kategorija:Babel – Uporabniki po jeziku",
 	"babel-autocreate-reason": "Samodejno ustvarjanje [[$1|babilonske]] kategorije.",
 	"babel-autocreate-text-levels": "Uporabniki navedeni v tej kategoriji imajo naslednjo jezikovno sposobnost $1 $2.",
-	"babel-autocreate-text-main": "Uporabniki navedeni v tej kategoriji imajo znanje jezika »$1«.",
+	"babel-autocreate-text-main": "Uporabniki navedeni v tej kategoriji imajo znanje jezika $1.",
 	"babel-0": "Ta uporabnik [[$1|nima]] znanja [[$2|$3]] (ali pa ima težave z razumevanjem).",
 	"babel-1": "Ta uporabnik ima [[$1|osnovno]] znanje [[$2|$3]].",
 	"babel-2": "Uporabnik [[$1|srednje dobro]] govori [[$2|$3]].",
