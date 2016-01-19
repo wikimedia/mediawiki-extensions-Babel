@@ -5,7 +5,8 @@
 			"Malafaya",
 			"Waldir",
 			"555",
-			"Opraco"
+			"Opraco",
+			"Vitorvicentevalente"
 		]
 	},
 	"babel": "Informação Babel {{GENDER:$1|do utilizador|da utilizadora|do(a) utilizador(a)}}",
@@ -14,7 +15,7 @@
 	"babel-footer-url": ":Categoria:Babel - Utilizadores por língua",
 	"babel-autocreate-reason": "A criar automaticamente a página da categoria [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Os utilizadores nesta categoria indicam que têm um nível de conhecimento $1 na língua $2.",
-	"babel-autocreate-text-main": "Os utilizadores nesta categoria indicam que têm conhecimentos da língua $1.",
+	"babel-autocreate-text-main": "Os utilizadores nesta categoria indicam o seu nível de conhecimentos do idioma $1.",
 	"babel-0": "{{GENDER:$4|Este utilizador|Esta utilizadora}} [[$1|não compreende]] [[$2|$3]] (ou compreende com dificuldades consideráveis).",
 	"babel-1": "{{GENDER:$4|Este utilizador|Esta utilizadora}} pode contribuir com um nível [[$1|básico]] de [[$2|$3]].",
 	"babel-2": "{{GENDER:$4|Este utilizador|Esta utilizadora}} pode contribuir com um nível [[$1|médio]] de [[$2|$3]].",
