@@ -56,7 +56,8 @@ class BabelTest extends MediaWikiTestCase {
 	public function testRenderEmptyBox() {
 		$wikiText = Babel::Render( $this->getParser(), '' );
 		$this->assertSame(
-			'{|style=" padding: (babel-box-cellpadding);  border-spacing: (babel-box-cellspacing);" class="mw-babel-wrapper"'
+			'{|style=" padding: (babel-box-cellpadding);  border-spacing: (babel-box-cellspacing);"'
+			. ' class="mw-babel-wrapper"'
 			. "\n"
 			. '! class="mw-babel-header" | [[(babel-url)|(babel: User-1)]]'
 			. "\n|-\n| \n|-\n"
@@ -75,7 +76,8 @@ class BabelTest extends MediaWikiTestCase {
 			. "\n"
 			. '! dir="ltr" | [[(babel-portal: en)|en]]<span class="mw-babel-box-level-N">-N</span>'
 			. "\n"
-			. '| dir="ltr" lang="en" | This user has a [[:Category:en-N|native]] understanding of [[:Category:en|English]].'
+			. '| dir="ltr" lang="en" | This user has a [[:Category:en-N|native]] understanding of '
+			. '[[:Category:en|English]].'
 			. "\n|}\n"
 			. '</div>[[Category:en|N]][[Category:en-N]]',
 			$wikiText
@@ -91,7 +93,8 @@ class BabelTest extends MediaWikiTestCase {
 			. "\n"
 			. '! dir="ltr" | [[(babel-portal: EN)|en]]<span class="mw-babel-box-level-1">-1</span>'
 			. "\n"
-			. '| dir="ltr" lang="en" | This user has [[:Category:en-1|basic]] knowledge of [[:Category:en|English]].'
+			. '| dir="ltr" lang="en" | This user has [[:Category:en-1|basic]] knowledge of '
+			. '[[:Category:en|English]].'
 			. "\n|}\n"
 			. '</div>[[Category:EN|1]][[Category:EN-1]]',
 			$wikiText

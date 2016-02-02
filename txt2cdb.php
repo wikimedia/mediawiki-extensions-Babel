@@ -19,7 +19,12 @@ try {
 	$names = Cdb\Writer::open( $names );
 	$codes = Cdb\Writer::open( $codes );
 
-	while ( $line = fgets( $fr ) ) {
+	while ( true ) {
+		$line = fgets( $fr );
+		if ( !$line ) {
+			break;
+		}
+
 		// Format is code1 code2 "language name"
 		$line = explode( ' ', $line, 3 );
 		$iso1 = trim( $line[0] );

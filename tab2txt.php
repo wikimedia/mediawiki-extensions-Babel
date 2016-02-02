@@ -16,7 +16,12 @@ $fw = fopen( 'php://stdout', 'w' );
 // Read and discard header line.
 fgets( $fr );
 
-while ( $line = fgets( $fr ) ) {
+while ( true ) {
+	$line = fgets( $fr );
+	if ( !$line ) {
+		break;
+	}
+
 	$line = explode( "\t", $line );
 	$iso1 = trim( $line[3] );
 	if ( $iso1 === '' ) {

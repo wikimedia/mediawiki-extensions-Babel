@@ -431,9 +431,9 @@ EOT;
 		} else {
 			$value = htmlentities( $value->text(), ENT_COMPAT, 'UTF-8' );
 			if ( $assumeNumbersArePixels && is_numeric( $value ) && $value !== "0" ) {
-				//Compatibility: previous babel-box-cellpadding and
-				//babel-box-cellspacing entries were in HTML, not CSS
-				//and so used numbers without unity as pixels.
+				// Compatibility: previous babel-box-cellpadding and
+				// babel-box-cellspacing entries were in HTML, not CSS
+				// and so used numbers without unity as pixels.
 				$value .= 'px';
 			}
 			$value = ' ' . $name . ': ' . $value . ';';
