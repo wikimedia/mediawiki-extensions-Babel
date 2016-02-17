@@ -22,17 +22,17 @@ class BabelAutoCreateTest extends MediaWikiTestCase {
 	protected function setUp() {
 		parent::setUp();
 
-		$this->setMwGlobals( array(
+		$this->setMwGlobals( [
 			'wgContLang' => Language::factory( 'qqx' ),
-		) );
+		] );
 	}
 
 	public function testOnUserGetReservedNames() {
-		$names = array();
-		$this->assertSame( array(), $names, 'Precondition' );
+		$names = [];
+		$this->assertSame( [], $names, 'Precondition' );
 
 		$this->assertTrue( BabelAutoCreate::onUserGetReservedNames( $names ) );
-		$this->assertSame( array( 'msg:babel-autocreate-user' ), $names );
+		$this->assertSame( [ 'msg:babel-autocreate-user' ], $names );
 	}
 
 	/**
@@ -46,16 +46,16 @@ class BabelAutoCreateTest extends MediaWikiTestCase {
 	}
 
 	public function createProvider() {
-		return array(
-			array(
+		return [
+			[
 				'category-1', 'en', null,
 				'(babel-autocreate-text-main: English, en)'
-			),
-			array(
+			],
+			[
 				'category-2', 'en', 'level-2',
 				'(babel-autocreate-text-levels: level-2, English, en)'
-			),
-		);
+			],
+		];
 	}
 
 	public function testUser() {

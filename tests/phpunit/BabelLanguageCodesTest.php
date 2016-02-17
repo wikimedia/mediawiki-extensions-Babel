@@ -23,13 +23,13 @@ class BabelLanguageCodesTest extends PHPUnit_Framework_TestCase {
 	}
 
 	public function getCodeProvider() {
-		return array(
-			array( 'invalidLanguageCode', false ),
-			array( 'en', 'en' ),
-			array( 'eng', 'en' ),
-			array( 'en-gb', 'en-gb' ),
-			array( 'de', 'de' ),
-		);
+		return [
+			[ 'invalidLanguageCode', false ],
+			[ 'en', 'en' ],
+			[ 'eng', 'en' ],
+			[ 'en-gb', 'en-gb' ],
+			[ 'de', 'de' ],
+		];
 	}
 
 	/**
@@ -40,14 +40,14 @@ class BabelLanguageCodesTest extends PHPUnit_Framework_TestCase {
 	}
 
 	public function getNameProvider() {
-		return array(
-			array( 'invalidLanguageCode', null, false ),
-			array( 'en', null, 'English' ),
-			array( 'en', 'en', 'English' ),
-			array( 'eng', null, 'English' ),
-			array( 'en-gb', null, 'British English' ),
-			array( 'de', null, 'Deutsch' ),
-		);
+		return [
+			[ 'invalidLanguageCode', null, false ],
+			[ 'en', null, 'English' ],
+			[ 'en', 'en', 'English' ],
+			[ 'eng', null, 'English' ],
+			[ 'en-gb', null, 'British English' ],
+			[ 'de', null, 'Deutsch' ],
+		];
 	}
 
 }

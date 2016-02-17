@@ -21,7 +21,7 @@ class BabelStaticTest extends PHPUnit_Framework_TestCase {
 			->getMock();
 		$parser->expects( $this->once() )
 			->method( 'setFunctionHook' )
-			->with( 'babel', array( 'Babel', 'Render' ) )
+			->with( 'babel', [ 'Babel', 'Render' ] )
 			->will( $this->returnValue( true ) );
 
 		BabelStatic::onParserFirstCallInit( $parser );

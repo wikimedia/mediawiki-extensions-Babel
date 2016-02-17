@@ -24,9 +24,9 @@ class BabelTest extends MediaWikiTestCase {
 	protected function setUp() {
 		parent::setUp();
 
-		$this->setMwGlobals( array(
+		$this->setMwGlobals( [
 			'wgContLang' => Language::factory( 'qqx' ),
-		) );
+		] );
 		$this->insertPage( 'User:User-1', '[[Category:en]]' );
 	}
 
@@ -120,9 +120,9 @@ class BabelTest extends MediaWikiTestCase {
 	public function testGetUserLanguages() {
 		$user = User::newFromName( 'User-1' );
 		$languages = Babel::getUserLanguages( $user );
-		$this->assertSame( array(
+		$this->assertSame( [
 			'en',
-		), $languages );
+		], $languages );
 	}
 
 }

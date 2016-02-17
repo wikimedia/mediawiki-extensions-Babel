@@ -43,7 +43,7 @@ class BabelAutoCreate {
 		}
 		global $wgLanguageCode;
 		$language = BabelLanguageCodes::getName( $code, $wgLanguageCode );
-		$params = array( $language, $code );
+		$params = [ $language, $code ];
 		if ( $level === null ) {
 			$text = wfMessage( 'babel-autocreate-text-main', $params )->inContentLanguage()->text();
 		} else {

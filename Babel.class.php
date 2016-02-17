@@ -99,7 +99,7 @@ EOT;
 	 */
 	private static function mGenerateContentTower( Parser $parser, array $parameters ) {
 		$content = '';
-		$templateParameters = array(); // collects name=value parameters to be passed to wiki templates.
+		$templateParameters = []; // collects name=value parameters to be passed to wiki templates.
 
 		foreach ( $parameters as $name ) {
 			if ( strpos( $name, '=' ) !== false ) {
@@ -168,7 +168,7 @@ EOT;
 	 * @param string[] $parameters Templates to perform the link batch on.
 	 */
 	protected static function mTemplateLinkBatch( array $parameters ) {
-		$titles = array();
+		$titles = [];
 		foreach ( $parameters as $name ) {
 			$title = Title::newFromText( wfMessage( 'babel-template', $name )->inContentLanguage()->text() );
 			if ( is_object( $title ) ) {
@@ -214,7 +214,7 @@ EOT;
 	 */
 	protected static function mParseParameter( $parameter, $strtolower = false ) {
 		global $wgBabelDefaultLevel, $wgBabelCategoryNames;
-		$return = array();
+		$return = [];
 
 		$babelcode = $strtolower ? strtolower( $parameter ) : $parameter;
 		// Try treating the paramter as a language code (for default level).
@@ -405,11 +405,11 @@ EOT;
 	 */
 	protected static function mReplaceCategoryVariables( $category, $code ) {
 		global $wgLanguageCode;
-		$category = strtr( $category, array(
+		$category = strtr( $category, [
 			'%code%' => $code,
 			'%wikiname%' => BabelLanguageCodes::getName( $code, $wgLanguageCode ),
 			'%nativename%' => BabelLanguageCodes::getName( $code )
-		) );
+		] );
 
 		return $category;
 	}
@@ -485,7 +485,7 @@ EOT;
 		// If Babel is not configured as required, return nothing.
 		// Note also that "Set to false to disable main category".
 		if ( $wgBabelMainCategory === false ) {
-			return array();
+			return [];
 		}
 
 		// The string we construct here will be a pony, it will not be a valid category
@@ -503,7 +503,7 @@ EOT;
 		$categories = array_keys( $user->getUserPage()->getParentCategories() );
 
 		// We sort on proficiency level
-		$result = array();
+		$result = [];
 		foreach ( $categories as $category ) {
 			// Only process categories that matches, $match will be created if necessary
 			$res = preg_match( $codeRegex, $category, $match );
