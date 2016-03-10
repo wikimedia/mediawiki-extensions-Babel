@@ -3,7 +3,8 @@
 		"authors": [
 			"Nataev",
 			"Purodha",
-			"Sociologist"
+			"Sociologist",
+			"Ximik1991"
 		]
 	},
 	"babel": "Foydalanuvchi bilgan tillar haqida maʼlumot (Bobil)",
@@ -12,7 +13,7 @@
 	"babel-footer-url": ":Category:Bobil - Foydalanuvchilar tillar boʻyicha",
 	"babel-autocreate-reason": "Avtomatik ravishda [[$1|Bolbil]] turkum sahifasini yaratish.",
 	"babel-autocreate-text-levels": "Bu turkumdagi foydalanuvchilar $2 til uchun $1 bilim darajasini koʻrsatishgan.",
-	"babel-autocreate-text-main": "Bu turkumdagi foydalanuvchilar $1 tilni bilishlarini koʻrsatishgan.",
+	"babel-autocreate-text-main": "Bu turkumdagi foydalanuvchilar $1 tilini bilishlarini koʻrsatishgan.",
 	"babel-0": "[[$2|$3]] — [[$1|bilmaydi]] (yoki qiyinchilik bilan tushunadi)",
 	"babel-1": "[[$2|$3]] — [[$1|boshlangʻich daraja]]",
 	"babel-2": "[[$2|$3]] — [[$1|oʻrtacha daraja]]",
