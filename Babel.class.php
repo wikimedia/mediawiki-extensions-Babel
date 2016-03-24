@@ -41,6 +41,10 @@ class Babel {
 
 		$content = self::mGenerateContentTower( $parser, $parameters );
 
+		if ( preg_match( '/^plain\s*=\s*\S/', reset( $parameters ) ) ) {
+			return $content;
+		}
+
 		if ( $wgBabelUseUserLanguage ) {
 			$uiLang = $parser->getOptions()->getUserLangObj();
 		} else {
