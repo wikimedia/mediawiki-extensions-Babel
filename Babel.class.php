@@ -130,40 +130,51 @@ EOT;
 		$template = wfMessage( 'babel-template', $name )->inContentLanguage()->text();
 
 		if ( $name === '' ) {
-			return '';
+			$box = new NullBabelBox();
 		} elseif ( $components !== false ) {
 			// Valid parameter syntax (with lowercase language code), babel box
-			return self::mGenerateBox( $components['code'], $components['level'] )
-				. self::mGenerateCategories(
-					$components['code'],
-					$components['level'],
-					$createCategories
-				);
+			$box = new LanguageBabelBox(
+				self::$title,
+				$components['code'],
+				$components['level'],
+				$createCategories
+			);
 		} elseif ( self::mPageExists( $template ) ) {
 			// Check for an existing template
 			$templateParameters[0] = $template;
 			$template = implode( '|', $templateParameters );
-			return self::mGenerateNotaBox( $parser->replaceVariables( "{{{$template}}}" ) );
+			$box = new NotBabelBox(
+				self::$title->getPageLanguage()->getDir(),
+				$parser->replaceVariables( "{{{$template}}}" )
+			);
 		} elseif ( self::mValidTitle( $template ) ) {
 			// Non-existing page, so try again as a babel box,
 			// with converting the code to lowercase
 			$components2 = self::mParseParameter( $name, /* code to lowercase */
 				true );
 			if ( $components2 !== false ) {
-				return self::mGenerateBox( $components2['code'], $components2['level'] )
-					. self::mGenerateCategories(
-						$components2['code'],
-						$components2['level'],
-						$createCategories
-					);
+				$box = new LanguageBabelBox(
+					self::$title,
+					$components2['code'],
+					$components2['level'],
+					$createCategories
+				);
 			} else {
 				// Non-existent page and invalid parameter syntax, red link.
-				return self::mGenerateNotaBox( '[[' . $template . ']]' );
+				$box = new NotBabelBox(
+					self::$title->getPageLanguage()->getDir(),
+					'[[' . $template . ']]'
+				);
 			}
 		} else {
 			// Invalid title, output raw.
-			return self::mGenerateNotaBox( $template );
+			$box = new NotBabelBox(
+				self::$title->getPageLanguage()->getDir(),
+				$template
+			);
 		}
+
+		return $box->render();
 	}
 
 	/**
@@ -253,172 +264,6 @@ EOT;
 	}
 
 	/**
-	 * Generate an inner item which is not a babel box.
-	 *
-	 * @param string $content What's inside the box, in wikitext format.
-	 * @return string A single non-babel box, in wikitext format.
-	 */
-	protected static function mGenerateNotaBox( $content ) {
-		$dir_head = self::$title->getPageLanguage()->getDir();
-		$notabox = <<<EOT
-<div class="mw-babel-notabox" dir="$dir_head">$content</div>
-EOT;
-
-		return $notabox;
-	}
-
-	/**
-	 * Generate a babel box for the given language and level.
-	 *
-	 * @param string $code Language code to use.
-	 * @param string|int $level Level of ability to use.
-	 * @return string A single babel box, in wikitext format.
-	 */
-	protected static function mGenerateBox( $code, $level ) {
-		$lang = wfBCP47( $code );
-		$portal = wfMessage( 'babel-portal', $code )->inContentLanguage()->plain();
-		if ( $portal !== '' ) {
-			$portal = "[[$portal|$lang]]";
-		} else {
-			$portal = $lang;
-		}
-		$header = "$portal<span class=\"mw-babel-box-level-$level\">-$level</span>";
-
-		$code = strtolower( $code );
-		$name = BabelLanguageCodes::getName( $code );
-		$code = BabelLanguageCodes::getCode( $code );
-		$text = self::mGetText( $name, $code, $level );
-
-		$dir_current = Language::factory( $code )->getDir();
-
-		$spacing = Babel::mCssAttrib( 'border-spacing', 'babel-cellspacing', true );
-		$padding = Babel::mCssAttrib( 'padding', 'babel-cellpadding', true );
-
-		if ( $spacing === '' ) {
-			$style = ( $padding === '' ) ? '' : ( 'style="' . $padding . '"' );
-		} else {
-			$style = ( $padding === '' ) ?
-				'style="' . $spacing . '"' :
-				'style="' . $padding . ' ' . $spacing . '"';
-		}
-
-		$dir_head = self::$title->getPageLanguage()->getDir();
-
-		$box = <<<EOT
-<div class="mw-babel-box mw-babel-box-$level" dir="$dir_head">
-{|$style
-! dir="$dir_head" | $header
-| dir="$dir_current" lang="$lang" | $text
-|}
-</div>
-EOT;
-
-		return $box;
-	}
-
-	/**
-	 * Get the text to display in the language box for specific language and
-	 * level.
-	 *
-	 * @param string $name
-	 * @param string $language Language code of language to use.
-	 * @param string $level Level to use.
-	 * @return string Text for display, in wikitext format.
-	 */
-	protected static function mGetText( $name, $language, $level ) {
-		global $wgBabelMainCategory, $wgBabelCategoryNames;
-
-		if ( $wgBabelCategoryNames[$level] === false ) {
-			$categoryLevel = self::$title->getFullText();
-		} else {
-			$categoryLevel = ':Category:' .
-				self::mReplaceCategoryVariables( $wgBabelCategoryNames[$level], $language );
-		}
-
-		if ( $wgBabelMainCategory === false ) {
-			$categoryMain = self::$title->getFullText();
-		} else {
-			$categoryMain = ':Category:' .
-				self::mReplaceCategoryVariables( $wgBabelMainCategory, $language );
-		}
-
-		// Give grep a chance to find the usages:
-		// babel-0-n, babel-1-n, babel-2-n, babel-3-n, babel-4-n, babel-5-n, babel-N-n
-		$text = wfMessage( "babel-$level-n",
-			$categoryLevel, $categoryMain, '', self::$title->getDBkey()
-		)->inLanguage( $language )->text();
-
-		$fallbackLanguage = Language::getFallbackfor( $language );
-		$fallback = wfMessage( "babel-$level-n",
-			$categoryLevel, $categoryMain, '', self::$title->getDBkey()
-		)->inLanguage( $fallbackLanguage ? $fallbackLanguage : $language )->text();
-
-		// Give grep a chance to find the usages:
-		// babel-0, babel-1, babel-2, babel-3, babel-4, babel-5, babel-N
-		if ( $text == $fallback ) {
-			$text = wfMessage( "babel-$level",
-				$categoryLevel, $categoryMain, $name, self::$title->getDBkey()
-			)->inLanguage( $language )->text();
-		}
-
-		return $text;
-	}
-
-	/**
-	 * Generate categories for the given language and level.
-	 *
-	 * @param string $code Language code to use.
-	 * @param string|int $level Level of ability to use.
-	 * @param bool $createCategories If true, creates non existing categories;
-	 *  otherwise, doesn't create them.
-	 * @return string Wikitext to add categories.
-	 */
-	protected static function mGenerateCategories( $code, $level, $createCategories = true ) {
-		global $wgBabelMainCategory, $wgBabelCategoryNames;
-
-		$r = '';
-
-		# Add main category
-		if ( $wgBabelMainCategory !== false ) {
-			$category = self::mReplaceCategoryVariables( $wgBabelMainCategory, $code );
-			$r .= "[[Category:$category|$level]]";
-			if ( $createCategories ) {
-				BabelAutoCreate::create( $category, $code );
-			}
-		}
-
-		# Add level category
-		if ( $wgBabelCategoryNames[$level] !== false ) {
-			$category = self::mReplaceCategoryVariables( $wgBabelCategoryNames[$level], $code );
-			$r .= "[[Category:$category]]";
-			if ( $createCategories ) {
-				BabelAutoCreate::create( $category, $code, $level );
-			}
-		}
-
-		return $r;
-	}
-
-	/**
-	 * Replace the placeholder variables from the category names configurtion
-	 * array with actual values.
-	 *
-	 * @param string $category Category name (containing variables).
-	 * @param string $code Language code of category.
-	 * @return string Category name with variables replaced.
-	 */
-	protected static function mReplaceCategoryVariables( $category, $code ) {
-		global $wgLanguageCode;
-		$category = strtr( $category, [
-			'%code%' => $code,
-			'%wikiname%' => BabelLanguageCodes::getName( $code, $wgLanguageCode ),
-			'%nativename%' => BabelLanguageCodes::getName( $code )
-		] );
-
-		return $category;
-	}
-
-	/**
 	 * Determine a CSS attribute, such as "border-spacing", from a localizeable message.
 	 *
 	 * @param string $name Name of CSS attribute.
@@ -428,7 +273,7 @@ EOT;
 	 * @todo Move this function to a more appropriate place, likely outside the class.
 	 * @return Message|string
 	 */
-	protected static function mCssAttrib( $name, $key, $assumeNumbersArePixels = false ) {
+	public static function mCssAttrib( $name, $key, $assumeNumbersArePixels = false ) {
 		$value = wfMessage( $key )->inContentLanguage();
 		if ( $value->isDisabled() ) {
 			$value = '';

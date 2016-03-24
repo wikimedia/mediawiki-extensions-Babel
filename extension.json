@@ -18,7 +18,11 @@
 		"Babel": "Babel.class.php",
 		"BabelLanguageCodes": "BabelLanguageCodes.class.php",
 		"BabelStatic": "BabelStatic.class.php",
-		"BabelAutoCreate": "BabelAutoCreate.class.php"
+		"BabelAutoCreate": "BabelAutoCreate.class.php",
+		"BabelBox": "BabelBox/BabelBox.php",
+		"LanguageBabelBox": "BabelBox/LanguageBabelBox.php",
+		"NotBabelBox": "BabelBox/NotBabelBox.php",
+		"NullBabelBox": "BabelBox/NullBabelBox.php"
 	},
 	"ResourceModules": {
 		"ext.babel": {
