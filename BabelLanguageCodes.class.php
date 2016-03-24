@@ -17,8 +17,8 @@ class BabelLanguageCodes {
 	 * checks the MediaWiki language codes for a match, otherwise checks the
 	 * Babel language codes CDB (preferring ISO 639-1 over ISO 639-3).
 	 *
-	 * @param $code String: Code to try and get a "better" code for.
-	 * @return String (language code) or false (invalid language code).
+	 * @param string $code Code to try and get a "better" code for.
+	 * @return string|bool Language code, or false for invalid language code.
 	 */
 	public static function getCode( $code ) {
 		$mediawiki = Language::fetchLanguageName( $code );
@@ -43,10 +43,10 @@ class BabelLanguageCodes {
 	 * a given language via Language::fetchLanguageNames() or
 	 * else via the Babel language names CDB
 	 *
-	 * @param $code String: Code to get name for.
-	 * @param $language String: Code of language to attempt to get name in,
-	 *                  defaults to language of code.
-	 * @return String (name of language) or false (invalid language code).
+	 * @param string $code Code to get name for.
+	 * @param string $language Code of language to attempt to get name in,
+	 *  defaults to language of code.
+	 * @return string|bool Name of language, or false for invalid language code.
 	 */
 	public static function getName( $code, $language = null ) {
 		// Get correct code, even though it should already be correct.

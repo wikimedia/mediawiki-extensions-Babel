@@ -31,9 +31,9 @@ class BabelAutoCreate {
 	/**
 	 * Create category.
 	 *
-	 * @param $category String: Name of category to create.
-	 * @param $code String: Code of language that the category is for.
-	 * @param $level String: Level that the category is for.
+	 * @param string $category Name of category to create.
+	 * @param string $code Code of language that the category is for.
+	 * @param string $level Level that the category is for.
 	 */
 	public static function create( $category, $code, $level = null ) {
 		$category = strip_tags( $category );
@@ -86,7 +86,7 @@ class BabelAutoCreate {
 	/**
 	 * Get user object.
 	 *
-	 * @return User object: User object for autocreate user.
+	 * @return User User object for autocreate user.
 	 */
 	public static function user() {
 		if ( !self::$user ) {

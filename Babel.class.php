@@ -27,7 +27,7 @@ class Babel {
 	 *
 	 * @param Parser $parser
 	 * @param string [$parameter,...]
-	 * @return string: Babel tower.
+	 * @return string Babel tower.
 	 */
 	public static function Render( Parser $parser ) {
 		global $wgBabelUseUserLanguage;
@@ -184,8 +184,8 @@ EOT;
 	/**
 	 * Identify whether or not a page exists.
 	 *
-	 * @param $name String: Name of the page to check.
-	 * @return Boolean: Indication of whether the page exists.
+	 * @param string $name Name of the page to check.
+	 * @return bool Indication of whether the page exists.
 	 */
 	protected static function mPageExists( $name ) {
 		$titleObj = Title::newFromText( $name );
@@ -196,8 +196,8 @@ EOT;
 	/**
 	 * Identify whether or not the passed string would make a valid page name.
 	 *
-	 * @param $name string: Name of page to check.
-	 * @return Boolean: Indication of whether or not the title is valid.
+	 * @param string $name Name of page to check.
+	 * @return bool Indication of whether or not the title is valid.
 	 */
 	protected static function mValidTitle( $name ) {
 		$titleObj = Title::newFromText( $name );
@@ -208,9 +208,9 @@ EOT;
 	/**
 	 * Parse a parameter, getting a language code and level.
 	 *
-	 * @param $parameter String: Parameter.
-	 * @param $strtolower Boolean: Whether to convert the language code to lowercase
-	 * @return Array: { 'code' => xx, 'level' => xx }
+	 * @param string $parameter Parameter.
+	 * @param bool $strtolower Whether to convert the language code to lowercase
+	 * @return array [ 'code' => xx, 'level' => xx ]
 	 */
 	protected static function mParseParameter( $parameter, $strtolower = false ) {
 		global $wgBabelDefaultLevel, $wgBabelCategoryNames;
@@ -251,8 +251,8 @@ EOT;
 	/**
 	 * Generate an inner item which is not a babel box.
 	 *
-	 * @param $content String: what's inside the box, in wikitext format.
-	 * @return String: A single non-babel box, in wikitext format.
+	 * @param string $content What's inside the box, in wikitext format.
+	 * @return string A single non-babel box, in wikitext format.
 	 */
 	protected static function mGenerateNotaBox( $content ) {
 		$dir_head = self::$title->getPageLanguage()->getDir();
@@ -266,9 +266,9 @@ EOT;
 	/**
 	 * Generate a babel box for the given language and level.
 	 *
-	 * @param $code String: Language code to use.
-	 * @param $level String or Integer: Level of ability to use.
-	 * @return String: A single babel box, in wikitext format.
+	 * @param string $code Language code to use.
+	 * @param string|int $level Level of ability to use.
+	 * @return string A single babel box, in wikitext format.
 	 */
 	protected static function mGenerateBox( $code, $level ) {
 		$lang = wfBCP47( $code );
@@ -316,10 +316,10 @@ EOT;
 	 * Get the text to display in the language box for specific language and
 	 * level.
 	 *
-	 * @param $name string
-	 * @param $language String: Language code of language to use.
-	 * @param $level String: Level to use.
-	 * @return String: Text for display, in wikitext format.
+	 * @param string $name
+	 * @param string $language Language code of language to use.
+	 * @param string $level Level to use.
+	 * @return string Text for display, in wikitext format.
 	 */
 	protected static function mGetText( $name, $language, $level ) {
 		global $wgBabelMainCategory, $wgBabelCategoryNames;
@@ -363,11 +363,11 @@ EOT;
 	/**
 	 * Generate categories for the given language and level.
 	 *
-	 * @param $code String: Language code to use.
-	 * @param $level String or Integer: Level of ability to use.
-	 * @param $createCategories Boolean: If true, creates non existing categories;
-	 * otherwise, doesn't create them.
-	 * @return String: Wikitext to add categories.
+	 * @param string $code Language code to use.
+	 * @param string|int $level Level of ability to use.
+	 * @param bool $createCategories If true, creates non existing categories;
+	 *  otherwise, doesn't create them.
+	 * @return string Wikitext to add categories.
 	 */
 	protected static function mGenerateCategories( $code, $level, $createCategories = true ) {
 		global $wgBabelMainCategory, $wgBabelCategoryNames;
@@ -399,9 +399,9 @@ EOT;
 	 * Replace the placeholder variables from the category names configurtion
 	 * array with actual values.
 	 *
-	 * @param $category String: Category name (containing variables).
-	 * @param $code String: Language code of category.
-	 * @return String: Category name with variables replaced.
+	 * @param string $category Category name (containing variables).
+	 * @param string $code Language code of category.
+	 * @return string Category name with variables replaced.
 	 */
 	protected static function mReplaceCategoryVariables( $category, $code ) {
 		global $wgLanguageCode;
@@ -417,10 +417,10 @@ EOT;
 	/**
 	 * Determine a CSS attribute, such as "border-spacing", from a localizeable message.
 	 *
-	 * @param $name String: name of CSS attribute.
-	 * @param $key String: Message key of attribute value.
-	 * @param $assumeNumbersArePixels Boolean: if true, treat numbers values as pixels;
-	 * otherwise, keep values as is (default: false).
+	 * @param string $name Name of CSS attribute.
+	 * @param string $key Message key of attribute value.
+	 * @param bool $assumeNumbersArePixels If true, treat numbers values as pixels;
+	 *  otherwise, keep values as is (default: false).
 	 * @todo Move this function to a more appropriate place, likely outside the class.
 	 * @return Message|string
 	 */
@@ -445,8 +445,8 @@ EOT;
 	/**
 	 * Determine an HTML attribute, such as "cellspacing" or "title", from a localizeable message.
 	 *
-	 * @param $name String: name of HTML attribute.
-	 * @param $key String: Message key of attribute value.
+	 * @param string $name Name of HTML attribute.
+	 * @param string $key Message key of attribute value.
 	 * TODO: move this function to a more appropriate place, likely outside the class.
 	 *       or consider to deprecate it as it's not used anymore.
 	 * @return Message|string
@@ -470,7 +470,7 @@ EOT;
 	 * TODO There could be an API module that returns the result of this function
 	 *
 	 * @param User $user
-	 * @param string $level minimal level as given in $wgBabelCategoryNames
+	 * @param string $level Minimal level as given in $wgBabelCategoryNames
 	 * @return string[] List of language codes
 	 *
 	 * @since Version 1.9.0
