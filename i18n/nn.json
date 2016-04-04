@@ -6,7 +6,8 @@
 			"Gunnernett",
 			"Harald Khan",
 			"Njardarlogar",
-			"Ranveig"
+			"Ranveig",
+			"Jeblad"
 		]
 	},
 	"babel": "Babelinformasjon",
@@ -15,7 +16,7 @@
 	"babel-footer-url": ":Kategori:Babel/Brukarar etter språk",
 	"babel-autocreate-reason": "Oprettar automatisk ei [[$1|Babel]]-kategoriside.",
 	"babel-autocreate-text-levels": "Brukarar i denne kategorien har eit språkdugleiksnivå på $1 for $2.",
-	"babel-autocreate-text-main": "Brukarar i denne kategorien kjenner til $1.",
+	"babel-autocreate-text-main": "Brukarar i denne kategorien kjenner til språket $1.",
 	"babel-0": "Denne brukaren har [[$1|små eller ingen]] kunnskapar i [[$2|$3]].",
 	"babel-1": "Denne brukaren har [[$1|litt]] kjennskap til [[$2|$3]].",
 	"babel-2": "Denne brukaren kan [[$1|ganske godt]] [[$2|$3]].",
