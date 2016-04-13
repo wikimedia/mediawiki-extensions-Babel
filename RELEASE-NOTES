@@ -1,0 +1,6 @@
+== Babel 2016.04 ==
+Released at 2016-04-13.
+
+=== Noteworthy changes ===
+* Extension now uses extension registration. You should replace require_once in LocalSettings.php with wfLoadExtension( 'Babel' );
+* You can now use plain=1 as first parameter to <nowiki>{{#babel:}}</nowiki> to skip header and footer.
