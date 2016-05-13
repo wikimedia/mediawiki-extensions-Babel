@@ -13,6 +13,10 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
+use MediaWiki\Babel\BabelBox\LanguageBabelBox;
+use MediaWiki\Babel\BabelBox\NotBabelBox;
+use MediaWiki\Babel\BabelBox\NullBabelBox;
+
 /**
  * Main class for the Babel extension.
  */

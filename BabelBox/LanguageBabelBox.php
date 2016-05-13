@@ -13,6 +13,14 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
+namespace MediaWiki\Babel\BabelBox;
+
+use Babel;
+use BabelAutoCreate;
+use BabelLanguageCodes;
+use Language;
+use Title;
+
 /**
  * Class for babel language boxes.
  */
