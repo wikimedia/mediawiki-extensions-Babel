@@ -91,9 +91,13 @@ class BabelAutoCreate {
 	public static function user() {
 		if ( !self::$user ) {
 			$userName = wfMessage( 'babel-autocreate-user' )->inContentLanguage()->plain();
-			self::$user = User::newFromName( $userName );
-			if ( self::$user && !self::$user->isLoggedIn() ) {
-				self::$user->addToDatabase();
+			if ( method_exists( 'User', 'newSystemUser' ) ) {
+				self::$user = User::newSystemUser( $userName, [ 'steal' => true ] );
+			} else {
+				self::$user = User::newFromName( $userName );
+				if ( self::$user && !self::$user->isLoggedIn() ) {
+					self::$user->addToDatabase();
+				}
 			}
 		}
 
