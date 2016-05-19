@@ -57,7 +57,7 @@ class LanguageBabelBox implements BabelBox {
 	 */
 	public function __construct( Title $title, $code, $level, $createCategories = true ) {
 		$this->title = $title;
-		$this->code = $code;
+		$this->code = wfBCP47( $code );
 		$this->level = $level;
 		$this->createCategories = $createCategories;
 	}
@@ -70,16 +70,14 @@ class LanguageBabelBox implements BabelBox {
 	public function render() {
 		$code = $this->code;
 
-		$lang = wfBCP47( $code );
 		$portal = wfMessage( 'babel-portal', $code )->inContentLanguage()->plain();
 		if ( $portal !== '' ) {
-			$portal = "[[$portal|$lang]]";
+			$portal = "[[$portal|$code]]";
 		} else {
-			$portal = $lang;
+			$portal = $code;
 		}
 		$header = "$portal<span class=\"mw-babel-box-level-{$this->level}\">-{$this->level}</span>";
 
-		$code = strtolower( $code );
 		$name = BabelLanguageCodes::getName( $code );
 		$code = BabelLanguageCodes::getCode( $code );
 		$text = self::getText( $this->title, $name, $code, $this->level );
@@ -103,7 +101,7 @@ class LanguageBabelBox implements BabelBox {
 <div class="mw-babel-box mw-babel-box-{$this->level}" dir="$dir_head">
 {|$style
 ! dir="$dir_head" | $header
-| dir="$dir_current" lang="$lang" | $text
+| dir="$dir_current" lang="$code" | $text
 |}
 </div>
 EOT;
