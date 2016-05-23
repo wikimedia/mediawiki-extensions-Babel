@@ -35,12 +35,9 @@
 		"remoteExtPath": "Babel"
 	},
 	"Hooks": {
-		"ParserFirstCallInit": [
-			"BabelStatic::onParserFirstCallInit"
-		],
-		"UserGetReservedNames": [
-			"BabelAutoCreate::onUserGetReservedNames"
-		]
+		"ParserFirstCallInit": "BabelStatic::onParserFirstCallInit",
+		"UnitTestsList": "BabelStatic::onUnitTestsList",
+		"UserGetReservedNames": "BabelAutoCreate::onUserGetReservedNames"
 	},
 	"config": {
 		"BabelCategoryNames": {

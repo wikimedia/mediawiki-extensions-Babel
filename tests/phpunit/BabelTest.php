@@ -102,7 +102,7 @@ class BabelTest extends MediaWikiTestCase {
 	}
 
 	public function testRenderPlain() {
-		$wikiText = Babel::Render( $this->getParser(), 'plain=1|en' );
+		$wikiText = Babel::Render( $this->getParser(), 'plain=1', 'en' );
 		$this->assertSame(
 			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
 			. "\n"
