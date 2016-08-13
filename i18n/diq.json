@@ -5,7 +5,8 @@
 			"Gorizon",
 			"Mirzali",
 			"Neribij",
-			"Marmase"
+			"Marmase",
+			"Kumkumuk"
 		]
 	},
 	"babel": "Melumatê karberiyê Babili",
@@ -14,7 +15,7 @@
 	"babel-footer-url": ":Kategoriye:Babil - Goreyê zıwanan ra karberi",
 	"babel-autocreate-reason": "Kategoriya [[$1|Babil]]i otomaik vırazéna.",
 	"babel-autocreate-text-levels": "Karberé ke na kategoride yé, $1 sewiye dê zıwané $2 zané.",
-	"babel-autocreate-text-main": "Karberé ke na kategoride yê vané ma zıwané $1 zam.",
+	"babel-autocreate-text-main": "Karberé ke na kategori de yê vané ma zıwané $1 zam.",
 	"babel-autocreate-user": "Babil OtomatikVıraştış",
 	"babel-0": "No/Na karber [[$1|héç]] [[$2|$3]]  nézana (yana çetın fahm kena).",
 	"babel-1": "No/Na karber [[$1|zayıf]] sewiya de [[$2|$3]] zana.",
