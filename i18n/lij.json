@@ -17,13 +17,13 @@
 	"babel-3": "St'utente o conosce o [[$2|$3]] a 'n livello [[$1|avançou]] .",
 	"babel-4": "St'utente o parla [[$2|$3]] quæxi [[$1|comme ûn d'o paize]].",
 	"babel-5": "St'utente o conosce o [[$2|$3]] a 'n livello [[$1|profescionâ]].",
-	"babel-N": "St'utente o l'ha [[$1|tettao o]] [[$2|$3]] [[$1|in fascioeua]].",
+	"babel-N": "St'utente o [[$2|$3]] o l'ha [[$1|teto'n fascioeua]].",
 	"babel-0-n": "St'utente o [[$1|no l'acapisce]] o [[$2|ligure]] (ò o l'acapisce con benben de difficurtæ).",
 	"babel-1-n": "St'utente o g'ha 'na conoscensa do [[$2|ligure]] [[$1|elementâ]].",
 	"babel-2-n": "St'utente o conosce o [[$2|ligure]] a un livello [[$1|mezan]].",
 	"babel-3-n": "St'utente o conosce o [[$2|ligure]] a un livello [[$1|avançou]].",
 	"babel-4-n": "St'utente o parla [[$2|ligure]] [[$1|squæxi comme-un do paize]].",
 	"babel-5-n": "St'utente o conosce o [[$2|ligure]] a 'n livello [[$1|profescionâ]].",
-	"babel-N-n": "St'utente o l'è [[$1|de lengoa moæ]] [[$2|liggure]].",
+	"babel-N-n": "St'utente o [[$2|liggure]] o l'ha [[$1|teto'n fascioeua]].",
 	"babel-footer": "Utenti pe lengua"
 }
