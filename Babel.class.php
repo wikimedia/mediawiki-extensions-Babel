@@ -296,27 +296,6 @@ EOT;
 	}
 
 	/**
-	 * Determine an HTML attribute, such as "cellspacing" or "title", from a localizeable message.
-	 *
-	 * @param string $name Name of HTML attribute.
-	 * @param string $key Message key of attribute value.
-	 * TODO: move this function to a more appropriate place, likely outside the class.
-	 *       or consider to deprecate it as it's not used anymore.
-	 * @return Message|string
-	 */
-	protected static function mHtmlAttrib( $name, $key ) {
-		$value = wfMessage( $key )->inContentLanguage();
-		if ( $value->isDisabled() ) {
-			$value = '';
-		} else {
-			$value = ' ' . $name . '="' . htmlentities( $value->text(), ENT_COMPAT, 'UTF-8' ) .
-				'"'; // must get rid of > and " inside value
-		}
-
-		return $value;
-	}
-
-	/**
 	 * Gets the list of languages a user has set up with Babel
 	 *
 	 * TODO Can be done much smarter, e.g. by saving the languages in the DB and getting them there
