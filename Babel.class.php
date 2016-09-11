@@ -229,7 +229,7 @@ EOT;
 	 *
 	 * @param string $parameter Parameter.
 	 * @param bool $strtolower Whether to convert the language code to lowercase
-	 * @return array [ 'code' => xx, 'level' => xx ]
+	 * @return array|bool [ 'code' => xx, 'level' => xx ] false on failure
 	 */
 	protected static function mParseParameter( $parameter, $strtolower = false ) {
 		global $wgBabelDefaultLevel, $wgBabelCategoryNames;
