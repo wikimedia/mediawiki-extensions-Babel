@@ -54,6 +54,10 @@ class BabelTest extends MediaWikiTestCase {
 			->method( 'getOutput' )
 			->will( $this->returnValue( new ParserOutput() ) );
 
+		$parser->expects( $this->any() )
+			->method( 'getDefaultSort' )
+			->will( $this->returnValue( '' ) );
+
 		return $parser;
 	}
 
@@ -63,6 +67,17 @@ class BabelTest extends MediaWikiTestCase {
 	 */
 	private function assertBabelBoxCount( $expectedCount, $haystack ) {
 		$this->assertSame( $expectedCount, substr_count( $haystack, '<div class="mw-babel-box' ) );
+	}
+
+	/**
+	 * @param Parser $parser
+	 * @param string $cat
+	 * @param string $sortKey
+	 */
+	private function assertHasCategory( $parser, $cat, $sortKey ) {
+		$cats = $parser->getOutput()->getCategories();
+		$this->assertArrayHasKey( $cat, $cats );
+		$this->assertSame( $sortKey, $cats[$cat] );
 	}
 
 	public function testRenderEmptyBox() {
@@ -80,7 +95,8 @@ class BabelTest extends MediaWikiTestCase {
 	}
 
 	public function testRenderDefaultLevel() {
-		$wikiText = Babel::Render( $this->getParser(), 'en' );
+		$parser = $this->getParser();
+		$wikiText = Babel::Render( $parser, 'en' );
 		$this->assertBabelBoxCount( 1, $wikiText );
 		$this->assertContains(
 			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
@@ -92,13 +108,16 @@ class BabelTest extends MediaWikiTestCase {
 			. '| dir="ltr" lang="en" | This user has a [[:Category:en-N|native]] understanding of '
 			. '[[:Category:en|English]].'
 			. "\n|}\n"
-			. '</div>[[Category:en|N]][[Category:en-N]]',
+			. '</div>',
 			$wikiText
 		);
+		$this->assertHasCategory( $parser, 'en', 'N' );
+		$this->assertHasCategory( $parser, 'en-N', '' );
 	}
 
 	public function testRenderCustomLevel() {
-		$wikiText = Babel::Render( $this->getParser(), 'EN-1', 'zh-Hant' );
+		$parser = $this->getParser();
+		$wikiText = Babel::Render( $parser, 'EN-1', 'zh-Hant' );
 		$this->assertBabelBoxCount( 2, $wikiText );
 		$this->assertContains(
 			'<div class="mw-babel-box mw-babel-box-1" dir="ltr">'
@@ -110,9 +129,11 @@ class BabelTest extends MediaWikiTestCase {
 			. '| dir="ltr" lang="en" | This user has [[:Category:en-1|basic]] knowledge of '
 			. '[[:Category:en|English]].'
 			. "\n|}\n"
-			. '</div>[[Category:en|1]][[Category:en-1]]',
+			. '</div>',
 			$wikiText
 		);
+		$this->assertHasCategory( $parser, 'en', '1' );
+		$this->assertHasCategory( $parser, 'en-1', '' );
 		$this->assertContains(
 			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
 			. "\n"
@@ -124,13 +145,16 @@ class BabelTest extends MediaWikiTestCase {
 			. '| dir="ltr" lang="zh-Hant" | This user has a [[:Category:zh-Hant-N|native]] '
 			. 'understanding of [[:Category:zh-Hant|]].'
 			. "\n|}\n"
-			. '</div>[[Category:zh-Hant|N]][[Category:zh-Hant-N]]',
+			. '</div>',
 			$wikiText
 		);
+		$this->assertHasCategory( $parser, 'zh-Hant', 'N' );
+		$this->assertHasCategory( $parser, 'zh-Hant-N', '' );
 	}
 
 	public function testRenderPlain() {
-		$wikiText = Babel::Render( $this->getParser(), 'plain=1', 'en' );
+		$parser = $this->getParser();
+		$wikiText = Babel::Render( $parser, 'plain=1', 'en' );
 		$this->assertSame(
 			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
 			. "\n"
@@ -141,9 +165,11 @@ class BabelTest extends MediaWikiTestCase {
 			. '| dir="ltr" lang="en" | This user has a [[:Category:en-N|native]] understanding of '
 			. '[[:Category:en|English]].'
 			. "\n|}\n"
-			. '</div>[[Category:en|N]][[Category:en-N]]',
+			. '</div>',
 			$wikiText
 		);
+		$this->assertHasCategory( $parser, 'en', 'N' );
+		$this->assertHasCategory( $parser, 'en-N', '' );
 	}
 
 	public function testRenderRedLink() {
