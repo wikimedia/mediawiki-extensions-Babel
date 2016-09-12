@@ -22,4 +22,11 @@ class NullBabelBox implements BabelBox {
 		return '';
 	}
 
+	/**
+	 * @return string[]
+	 */
+	public function getCategories() {
+		return [];
+	}
+
 }

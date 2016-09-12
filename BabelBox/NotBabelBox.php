@@ -54,4 +54,11 @@ EOT;
 		return $notabox;
 	}
 
+	/**
+	 * @return string[]
+	 */
+	public function getCategories() {
+		return [];
+	}
+
 }

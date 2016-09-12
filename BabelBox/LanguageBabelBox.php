@@ -106,8 +106,6 @@ class LanguageBabelBox implements BabelBox {
 </div>
 EOT;
 
-		$box .= $this->generateCategories();
-
 		return $box;
 	}
 
@@ -128,14 +126,14 @@ EOT;
 			$categoryLevel = $title->getFullText();
 		} else {
 			$categoryLevel = ':Category:' .
-				self::replaceCategoryVariables( $wgBabelCategoryNames[$level], $language );
+				self::getCategoryName( $wgBabelCategoryNames[$level], $language );
 		}
 
 		if ( $wgBabelMainCategory === false ) {
 			$categoryMain = $title->getFullText();
 		} else {
 			$categoryMain = ':Category:' .
-				self::replaceCategoryVariables( $wgBabelMainCategory, $language );
+				self::getCategoryName( $wgBabelMainCategory, $language );
 		}
 
 		// Give grep a chance to find the usages:
@@ -163,17 +161,17 @@ EOT;
 	/**
 	 * Generate categories for the language box.
 	 *
-	 * @return string Wikitext to add categories.
+	 * @return string[] [ category => sort key ]
 	 */
-	private function generateCategories() {
+	public function getCategories() {
 		global $wgBabelMainCategory, $wgBabelCategoryNames;
 
-		$r = '';
+		$r = [];
 
 		# Add main category
 		if ( $wgBabelMainCategory !== false ) {
-			$category = self::replaceCategoryVariables( $wgBabelMainCategory, $this->code );
-			$r .= "[[Category:$category|{$this->level}]]";
+			$category = self::getCategoryName( $wgBabelMainCategory, $this->code );
+			$r[$category] = $this->level;
 			if ( $this->createCategories ) {
 				BabelAutoCreate::create( $category, $this->code );
 			}
@@ -181,8 +179,9 @@ EOT;
 
 		# Add level category
 		if ( $wgBabelCategoryNames[$this->level] !== false ) {
-			$category = self::replaceCategoryVariables( $wgBabelCategoryNames[$this->level], $this->code );
-			$r .= "[[Category:$category]]";
+			$category = self::getCategoryName( $wgBabelCategoryNames[$this->level], $this->code );
+			// Use default sort key
+			$r[$category] = false;
 			if ( $this->createCategories ) {
 				BabelAutoCreate::create( $category, $this->code, $this->level );
 			}
@@ -199,7 +198,7 @@ EOT;
 	 * @param string $code Language code of category.
 	 * @return string Category name with variables replaced.
 	 */
-	private static function replaceCategoryVariables( $category, $code ) {
+	private static function getCategoryName( $category, $code ) {
 		global $wgLanguageCode;
 		$category = strtr( $category, [
 			'%code%' => $code,
@@ -207,7 +206,8 @@ EOT;
 			'%nativename%' => BabelLanguageCodes::getName( $code )
 		] );
 
-		return $category;
+		// Normalize using Title
+		return Title::makeTitle( NS_CATEGORY, $category )->getDBkey();
 	}
 
 }

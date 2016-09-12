@@ -178,6 +178,15 @@ EOT;
 			);
 		}
 
+		$pOutput = $parser->getOutput();
+		foreach ( $box->getCategories() as $cat => $sortKey ) {
+			if ( $sortKey === false ) {
+				$sortKey = $parser->getDefaultSort();
+			}
+
+			$pOutput->addCategory( $cat, $sortKey );
+		}
+
 		return $box->render();
 	}
 
