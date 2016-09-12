@@ -357,7 +357,7 @@ EOT;
 			}
 		}
 
-		if ( isset( $level ) ) {
+		if ( $level !== null ) {
 			$level = (string)$level;
 			// filter down the set, note that this uses a text sort!
 			$result = array_filter(
