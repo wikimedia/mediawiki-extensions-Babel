@@ -33,5 +33,8 @@
 	"babel-cellpadding": "0",
 	"babel-portal": "",
 	"babel-template": "Template:User $1",
-	"babel-footer": "Users by language"
+	"babel-footer": "Users by language",
+	"apihelp-query+babel-description": "Get information about what languages the user knows",
+	"apihelp-query+babel-param-user": "User to get information about",
+	"apihelp-query+babel-example-1": "Get the Babel information for user <kbd>Example</kbd>"
 }

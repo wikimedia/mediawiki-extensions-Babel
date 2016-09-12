@@ -19,11 +19,15 @@
 		"BabelLanguageCodes": "BabelLanguageCodes.class.php",
 		"BabelStatic": "BabelStatic.class.php",
 		"BabelAutoCreate": "BabelAutoCreate.class.php",
+		"MediaWiki\\Babel\\ApiQueryBabel": "includes/ApiQueryBabel.php",
 		"MediaWiki\\Babel\\Database": "includes/Database.php",
 		"MediaWiki\\Babel\\BabelBox\\BabelBox": "BabelBox/BabelBox.php",
 		"MediaWiki\\Babel\\BabelBox\\LanguageBabelBox": "BabelBox/LanguageBabelBox.php",
 		"MediaWiki\\Babel\\BabelBox\\NotBabelBox": "BabelBox/NotBabelBox.php",
 		"MediaWiki\\Babel\\BabelBox\\NullBabelBox": "BabelBox/NullBabelBox.php"
+	},
+	"APIMetaModules": {
+		"babel": "MediaWiki\\Babel\\ApiQueryBabel"
 	},
 	"ResourceModules": {
 		"ext.babel": {

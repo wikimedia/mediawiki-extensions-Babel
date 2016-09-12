@@ -314,9 +314,28 @@ EOT;
 	}
 
 	/**
-	 * Gets the list of languages a user has set up with Babel
+	 * Gets the language information a user has set up with Babel
 	 *
-	 * TODO There could be an API module that returns the result of this function
+	 * @param User $user
+	 * @return string[] [ language code => level ]
+	 */
+	public static function getUserLanguageInfo( User $user ) {
+		global $wgBabelMainCategory, $wgBabelUseDatabase;
+
+		if ( $wgBabelUseDatabase ) {
+			$result = self::getUserLanguagesDB( $user );
+		} elseif ( $wgBabelMainCategory ) {
+			$result = self::getUserLanguagesCat( $user );
+		} else {
+			return [];
+		}
+
+		ksort( $result );
+		return $result;
+	}
+
+	/**
+	 * Gets the list of languages a user has set up with Babel
 	 *
 	 * @param User $user
 	 * @param string $level Minimal level as given in $wgBabelCategoryNames
@@ -325,13 +344,8 @@ EOT;
 	 * @since Version 1.9.0
 	 */
 	public static function getUserLanguages( User $user, $level = null ) {
-		global $wgBabelMainCategory, $wgBabelUseDatabase;
-
-		if ( $wgBabelUseDatabase ) {
-			$result = self::getUserLanguagesDB( $user );
-		} elseif ( $wgBabelMainCategory ) {
-			$result = self::getUserLanguagesCat( $user );
-		} else {
+		$result = self::getUserLanguageInfo( $user );
+		if ( !$result ) {
 			return [];
 		}
 

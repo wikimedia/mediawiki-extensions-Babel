@@ -35,7 +35,7 @@ class BabelTest extends MediaWikiTestCase {
 		$user = User::newFromName( 'User-1' );
 		$user->addToDatabase();
 		$title = $user->getUserPage();
-		$this->insertPage( $title->getPrefixedText(), '{{#babel:en-1}}' );
+		$this->insertPage( $title->getPrefixedText(), '{{#babel:en-1|es-2|de}}' );
 		$page = WikiPage::factory( $title );
 		// Force a run of LinksUpdate
 		$updates = $page->getContent()->getSecondaryDataUpdates( $title );
@@ -219,9 +219,34 @@ class BabelTest extends MediaWikiTestCase {
 	public function testGetUserLanguages( $settings ) {
 		$this->setMwGlobals( $settings );
 		$user = User::newFromName( 'User-1' );
-		$languages = Babel::getUserLanguages( $user );
 		$this->assertSame( [
+			'de',
 			'en',
+			'es',
+		], Babel::getUserLanguages( $user ) );
+
+		// Filter based on level
+		$this->assertSame( [
+			'de',
+			'es',
+		], Babel::getUserLanguages( $user, '2' ) );
+
+		$this->assertSame( [
+			'de',
+		], Babel::getUserLanguages( $user, '3' ) );
+
+		// Non-numerical level
+		$this->assertSame( [
+			'de',
+		], Babel::getUserLanguages( $user, 'N' ) );
+	}
+	public function testGetUserLanguageInfo() {
+		$user = User::newFromName( 'User-1' );
+		$languages = Babel::getUserLanguageInfo( $user );
+		$this->assertSame( [
+			'de' => 'N',
+			'en' => '1',
+			'es' => '2',
 		], $languages );
 	}
 }
