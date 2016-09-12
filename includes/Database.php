@@ -69,17 +69,48 @@ class Database {
 	 */
 	public function setForUser( $id, array $data ) {
 		$dbw = $this->getDB( DB_MASTER );
-		$dbw->delete( 'babel', [ 'babel_user' => $id ], __METHOD__ );
 
-		$rows = [];
+		$newRows = [];
 		foreach ( $data as $lang => $level ) {
-			$rows[] = [
+			$newRows[$lang] = [
 				'babel_lang' => $lang,
 				'babel_level' => $level,
 				'babel_user' => $id
 			];
 		}
 
-		$dbw->insert( 'babel', $rows, __METHOD__ );
+		$rowsDelete = [];
+		$res = $dbw->select(
+			'babel',
+			[ 'babel_lang', 'babel_level' ],
+			[ 'babel_user' => $id ],
+			__METHOD__
+		);
+		foreach ( $res as $row ) {
+			if ( isset( $newRows[$row->babel_lang] ) ) {
+				if ( $newRows[$row->babel_lang]['babel_level'] === $row->babel_level ) {
+					// Matching row already exists
+					unset( $newRows[$row->babel_lang] );
+				}
+			} else {
+				$rowsDelete[] = $row->babel_lang;
+			}
+		}
+
+		if ( $rowsDelete ) {
+			$dbw->delete(
+				'babel',
+				[ 'babel_user' => $id, 'babel_lang' => $rowsDelete ],
+				__METHOD__
+			);
+		}
+		if ( $newRows ) {
+			$dbw->replace(
+				'babel',
+				[ [ 'babel_user', 'babel_lang' ] ],
+				array_values( $newRows ),
+				__METHOD__
+			);
+		}
 	}
 }
