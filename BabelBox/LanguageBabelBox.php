@@ -144,7 +144,7 @@ EOT;
 			$categoryLevel, $categoryMain, '', $title->getDBkey()
 		)->inLanguage( $language )->text();
 
-		$fallbackLanguage = Language::getFallbackfor( $language );
+		$fallbackLanguage = Language::getFallbackFor( $language );
 		$fallback = wfMessage( "babel-$level-n",
 			$categoryLevel, $categoryMain, '', $title->getDBkey()
 		)->inLanguage( $fallbackLanguage ? $fallbackLanguage : $language )->text();
