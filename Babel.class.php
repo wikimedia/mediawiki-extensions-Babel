@@ -121,6 +121,12 @@ EOT;
 		return $content;
 	}
 
+	private static function setExtensionData( ParserOutput $parserOutput, $code, $level ) {
+		$data = $parserOutput->getExtensionData( 'babel' ) ?: [];
+		$data[$code] = $level;
+		$parserOutput->setExtensionData( 'babel', $data );
+	}
+
 	/**
 	 * @param Parser $parser
 	 * @param string $name
@@ -132,6 +138,7 @@ EOT;
 		$createCategories = !$parser->getOptions()->getIsPreview();
 		$components = self::mParseParameter( $name );
 		$template = wfMessage( 'babel-template', $name )->inContentLanguage()->text();
+		$parserOutput = $parser->getOutput();
 
 		if ( $name === '' ) {
 			$box = new NullBabelBox();
@@ -143,6 +150,7 @@ EOT;
 				$components['level'],
 				$createCategories
 			);
+			self::setExtensionData( $parserOutput, $components['code'], $components['level'] );
 		} elseif ( self::mPageExists( $template ) ) {
 			// Check for an existing template
 			$templateParameters[0] = $template;
@@ -163,6 +171,8 @@ EOT;
 					$components2['level'],
 					$createCategories
 				);
+				self::setExtensionData( $parserOutput,
+					$components2['code'], $components2['level'] );
 			} else {
 				// Non-existent page and invalid parameter syntax, red link.
 				$box = new NotBabelBox(
@@ -178,13 +188,12 @@ EOT;
 			);
 		}
 
-		$pOutput = $parser->getOutput();
 		foreach ( $box->getCategories() as $cat => $sortKey ) {
 			if ( $sortKey === false ) {
 				$sortKey = $parser->getDefaultSort();
 			}
 
-			$pOutput->addCategory( $cat, $sortKey );
+			$parserOutput->addCategory( $cat, $sortKey );
 		}
 
 		return $box->render();
@@ -307,7 +316,6 @@ EOT;
 	/**
 	 * Gets the list of languages a user has set up with Babel
 	 *
-	 * TODO Can be done much smarter, e.g. by saving the languages in the DB and getting them there
 	 * TODO There could be an API module that returns the result of this function
 	 *
 	 * @param User $user
@@ -317,17 +325,44 @@ EOT;
 	 * @since Version 1.9.0
 	 */
 	public static function getUserLanguages( User $user, $level = null ) {
-		// Right now the function only returns something if the user is categorized appropriately
-		// (as defined by the $wgBabelMainCategory setting). If categorization is off, this function
-		// will return an empty array.
-		// If Babel would save the languages of the user in a Database table, this workaround using
-		// the categories would not be needed.
-		global $wgBabelMainCategory;
-		// If Babel is not configured as required, return nothing.
-		// Note also that "Set to false to disable main category".
-		if ( $wgBabelMainCategory === false ) {
+		global $wgBabelMainCategory, $wgBabelUseDatabase;
+
+		if ( $wgBabelUseDatabase ) {
+			$result = self::getUserLanguagesDB( $user );
+		} elseif ( $wgBabelMainCategory ) {
+			$result = self::getUserLanguagesCat( $user );
+		} else {
 			return [];
 		}
+
+		if ( $level !== null ) {
+			$level = (string)$level;
+			// filter down the set, note that this uses a text sort!
+			$result = array_filter(
+				$result,
+				function ( $value ) use ( $level ) {
+					return ( strcmp( $value, $level ) >= 0 );
+				}
+			);
+			// sort and retain keys
+			uasort(
+				$result,
+				function ( $a, $b ) {
+					return -strcmp( $a, $b );
+				}
+			);
+		}
+
+		return array_keys( $result );
+	}
+
+	private static function getUserLanguagesDB( User $user ) {
+		$babelDB = new MediaWiki\Babel\Database();
+		return $babelDB->getForUser( $user->getId() );
+	}
+
+	private static function getUserLanguagesCat( User $user ) {
+		global $wgBabelMainCategory;
 
 		// The string we construct here will be a pony, it will not be a valid category
 		$babelCategoryTitle = Title::makeTitle( NS_CATEGORY, $wgBabelMainCategory );
@@ -357,24 +392,6 @@ EOT;
 			}
 		}
 
-		if ( $level !== null ) {
-			$level = (string)$level;
-			// filter down the set, note that this uses a text sort!
-			$result = array_filter(
-				$result,
-				function ( $value ) use ( $level ) {
-					return ( strcmp( $value, $level ) >= 0 );
-				}
-			);
-			// sort and retain keys
-			uasort(
-				$result,
-				function ( $a, $b ) {
-					return -strcmp( $a, $b );
-				}
-			);
-		}
-
-		return array_keys( $result );
+		return $result;
 	}
 }

@@ -19,6 +19,7 @@
 		"BabelLanguageCodes": "BabelLanguageCodes.class.php",
 		"BabelStatic": "BabelStatic.class.php",
 		"BabelAutoCreate": "BabelAutoCreate.class.php",
+		"MediaWiki\\Babel\\Database": "includes/Database.php",
 		"MediaWiki\\Babel\\BabelBox\\BabelBox": "BabelBox/BabelBox.php",
 		"MediaWiki\\Babel\\BabelBox\\LanguageBabelBox": "BabelBox/LanguageBabelBox.php",
 		"MediaWiki\\Babel\\BabelBox\\NotBabelBox": "BabelBox/NotBabelBox.php",
@@ -36,6 +37,8 @@
 	},
 	"Hooks": {
 		"ParserFirstCallInit": "BabelStatic::onParserFirstCallInit",
+		"LinksUpdate": "BabelStatic::onLinksUpdate",
+		"LoadExtensionSchemaUpdates": "BabelStatic::onLoadExtensionSchemaUpdates",
 		"UserGetReservedNames": "BabelAutoCreate::onUserGetReservedNames"
 	},
 	"config": {
@@ -52,7 +55,8 @@
 		"BabelMainCategory": "%code%",
 		"BabelDefaultLevel": "N",
 		"BabelUseUserLanguage": false,
-		"BabelPreferISO639_3": false
+		"BabelPreferISO639_3": false,
+		"BabelUseDatabase": false
 	},
 	"manifest_version": 1
 }

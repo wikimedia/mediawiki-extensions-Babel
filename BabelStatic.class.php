@@ -23,4 +23,37 @@ class BabelStatic {
 
 		return true;
 	}
+
+	/**
+	 * @param DatabaseUpdater $updater
+	 */
+	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
+		$updater->addExtensionTable( 'babel', __DIR__ . '/babel.sql' );
+	}
+
+	/**
+	 * @param LinksUpdate $linksUpdate
+	 */
+	public static function onLinksUpdate( LinksUpdate $linksUpdate ) {
+		global $wgBabelUseDatabase;
+		if ( !$wgBabelUseDatabase ) {
+			return;
+		}
+
+		$title = $linksUpdate->getTitle();
+		// Has to be a root userpage
+		if ( !$title->inNamespace( NS_USER ) || !$title->getRootTitle()->equals( $title ) ) {
+			return;
+		}
+
+		// And the user has to exist
+		$user = User::newFromName( $title->getText() );
+		if ( !$user || !$user->getId() ) {
+			return;
+		}
+
+		$babelDB = new MediaWiki\Babel\Database();
+		$data = $linksUpdate->getParserOutput()->getExtensionData( 'babel' ) ?: [];
+		$babelDB->setForUser( $user->getId(), $data );
+	}
 }
