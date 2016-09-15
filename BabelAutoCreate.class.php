@@ -72,8 +72,9 @@ class BabelAutoCreate {
 
 		$url = wfMessage( 'babel-url' )->inContentLanguage()->plain();
 		$article = new WikiPage( $title );
-		$article->doEdit(
-			$text,
+
+		$article->doEditContent(
+			ContentHandler::makeContent( $text, $title ),
 			wfMessage( 'babel-autocreate-reason', $url )->text(),
 			EDIT_FORCE_BOT,
 			false,
