@@ -3,6 +3,7 @@
 namespace Babel\Tests;
 
 use Babel;
+use DeferredUpdates;
 use Language;
 use MediaWikiTestCase;
 use Parser;
@@ -10,6 +11,7 @@ use ParserOptions;
 use ParserOutput;
 use Title;
 use User;
+use WikiPage;
 
 /**
  * @covers Babel
@@ -27,8 +29,19 @@ class BabelTest extends MediaWikiTestCase {
 
 		$this->setMwGlobals( [
 			'wgContLang' => Language::factory( 'qqx' ),
+			// Note that individual tests will change this
+			'wgBabelUseDatabase' => true,
 		] );
-		$this->insertPage( 'User:User-1', '[[Category:en]]' );
+		$user = User::newFromName( 'User-1' );
+		$user->addToDatabase();
+		$title = $user->getUserPage();
+		$this->insertPage( $title->getPrefixedText(), '{{#babel:en-1}}' );
+		$page = WikiPage::factory( $title );
+		// Force a run of LinksUpdate
+		$updates = $page->getContent()->getSecondaryDataUpdates( $title );
+		foreach ( $updates as $update ) {
+			$update->doUpdate();
+		}
 	}
 
 	/**
@@ -190,12 +203,25 @@ class BabelTest extends MediaWikiTestCase {
 		);
 	}
 
-	public function testGetUserLanguages() {
+	/**
+	 * Data provider to run a test with both db enabled and disabled
+	 */
+	public static function provideSettings() {
+		return [
+			[ [ 'wgBabelUseDatabase' => true ] ],
+			[ [ 'wgBabelUseDatabase' => false ] ],
+		];
+	}
+
+	/**
+	 * @dataProvider provideSettings
+	 */
+	public function testGetUserLanguages( $settings ) {
+		$this->setMwGlobals( $settings );
 		$user = User::newFromName( 'User-1' );
 		$languages = Babel::getUserLanguages( $user );
 		$this->assertSame( [
 			'en',
 		], $languages );
 	}
-
 }
