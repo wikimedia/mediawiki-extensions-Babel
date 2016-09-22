@@ -37,5 +37,8 @@
 	"babel-5-n": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} dispose d’un niveau de connaissances [[$1|professionnel]] du [[$2|français]].",
 	"babel-N-n": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} a pour [[$1|langue maternelle]] le [[$2|français]].",
 	"babel-template": "Modèle:User $1",
-	"babel-footer": "Utilisateurs par langue"
+	"babel-footer": "Utilisateurs par langue",
+	"apihelp-query+babel-description": "Obtenir des informations sur les langues connues de l’utilisateur",
+	"apihelp-query+babel-param-user": "Utilisateur sur lequel obtenir des informations",
+	"apihelp-query+babel-example-1": "Obtenir les informations de Babel pour l’utilisateur <kbd>Example</kbd>"
 }
