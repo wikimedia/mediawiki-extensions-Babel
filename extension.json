@@ -60,7 +60,9 @@
 		"BabelDefaultLevel": "N",
 		"BabelUseUserLanguage": false,
 		"BabelPreferISO639_3": false,
-		"BabelUseDatabase": false
+		"BabelUseDatabase": false,
+		"BabelCentralDb": false,
+		"BabelCentralApi": false
 	},
 	"manifest_version": 1
 }

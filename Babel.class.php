@@ -16,6 +16,7 @@
 use MediaWiki\Babel\BabelBox\LanguageBabelBox;
 use MediaWiki\Babel\BabelBox\NotBabelBox;
 use MediaWiki\Babel\BabelBox\NullBabelBox;
+use MediaWiki\Logger\LoggerFactory;
 
 /**
  * Main class for the Babel extension.
@@ -371,8 +372,61 @@ EOT;
 	}
 
 	private static function getUserLanguagesDB( User $user ) {
+		global $wgBabelCentralApi, $wgBabelCentralDb;
+
 		$babelDB = new MediaWiki\Babel\Database();
-		return $babelDB->getForUser( $user->getId() );
+		$result = $babelDB->getForUser( $user->getId() );
+		// If local data or no central source, return
+		if ( $result || !$wgBabelCentralApi || !$wgBabelCentralDb ) {
+			return $result;
+		}
+
+		if ( $wgBabelCentralDb === wfWikiID() ) {
+			// We are the central wiki, so no fallback we can do
+			return [];
+		}
+
+		$lookup = CentralIdLookup::factory();
+		if ( !$lookup->isAttached( $user )
+			|| !$lookup->isAttached( $user, $wgBabelCentralDb )
+		) {
+			return [];
+		}
+
+		$logger = LoggerFactory::getInstance( 'Babel' );
+		$url = wfAppendQuery( $wgBabelCentralApi, [
+			'action' => 'query',
+			'meta' => 'babel',
+			'babuser' => $user->getName(),
+			'format' => 'json',
+			'formatversion' => 2
+		] );
+		$logger->debug( 'Making request to {url}', [ 'url' => $url ] );
+		$req = MWHttpRequest::factory( $url, [ 'timeout' => 10 ], __METHOD__ );
+		$status = $req->execute();
+		if ( !$status->isOK() ) {
+			$logger->error( 'Request to {url} failed: {error}',
+				[ 'url' => $url, 'error' => $status->getWikiText( false, false, 'en' ) ]
+			);
+			return [];
+		}
+
+		$content = $req->getContent();
+		$json = FormatJson::decode( $content, true );
+		if ( !is_array( $json ) ) {
+			$logger->error( 'Invalid JSON from {url}: {content}', [ 'url' => $url, 'content' => $content ] );
+			return [];
+		}
+
+		if ( isset( $json['error'] ) && $json['error']['code'] === 'babbaduser' ) {
+			// This shouldn't happen since we checked with CentralIdLookup first...
+			return [];
+		} elseif ( isset( $json['error'] ) ) {
+			$logger->error( 'API error: {code} {info}', $json['error'] );
+			return [];
+		}
+
+		return $json['query']['babel'];
 	}
 
 	private static function getUserLanguagesCat( User $user ) {

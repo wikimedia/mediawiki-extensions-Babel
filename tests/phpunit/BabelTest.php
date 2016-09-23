@@ -31,6 +31,8 @@ class BabelTest extends MediaWikiTestCase {
 			'wgContLang' => Language::factory( 'qqx' ),
 			// Note that individual tests will change this
 			'wgBabelUseDatabase' => true,
+			'wgBabelCentralApi' => false,
+			'wgBabelCentralDb' => false,
 		] );
 		$user = User::newFromName( 'User-1' );
 		$user->addToDatabase();
