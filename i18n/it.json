@@ -8,7 +8,8 @@
 			"McDutchie",
 			"Melos",
 			"Morel",
-			"Nemo bis"
+			"Nemo bis",
+			"Anto"
 		]
 	},
 	"babel": "Babel utente",
@@ -35,5 +36,6 @@
 	"babel-template": "Template:Utente $1",
 	"babel-footer": "Utenti per lingua",
 	"apihelp-query+babel-description": "Ottenere informazioni su quali lingue l'utente conosce",
-	"apihelp-query+babel-param-user": "Utente sul quale ottenere informazioni"
+	"apihelp-query+babel-param-user": "Utente sul quale ottenere informazioni",
+	"apihelp-query+babel-example-1": "Ottieni l'informazione Babel per l'utente <kbd>Esempio</kbd>"
 }
