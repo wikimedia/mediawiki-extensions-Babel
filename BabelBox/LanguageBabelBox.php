@@ -51,7 +51,7 @@ class LanguageBabelBox implements BabelBox {
 	 *
 	 * @param Title $title
 	 * @param string $code Language code to use.
-	 * @param string|int $level Level of ability to use.
+	 * @param string $level Level of ability to use.
 	 * @param bool $createCategories If true, creates non existing categories;
 	 *  otherwise, doesn't create them.
 	 */
@@ -176,7 +176,7 @@ EOT;
 		}
 
 		# Add main category
-		if ( $wgBabelMainCategory !== false ) {
+		if ( $wgBabelMainCategory !== false && $this->level !== '0' ) {
 			$category = self::getCategoryName( $wgBabelMainCategory, $this->code );
 			$r[$category] = $this->level;
 			if ( $this->createCategories ) {

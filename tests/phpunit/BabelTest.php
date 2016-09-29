@@ -95,6 +95,15 @@ class BabelTest extends MediaWikiTestCase {
 		$this->assertSame( $sortKey, $cats[$cat] );
 	}
 
+	/**
+	 * @param Parser $parser
+	 * @param string $cat
+	 */
+	private function assertNotHasCategory( $parser, $cat ) {
+		$cats = $parser->getOutput()->getCategories();
+		$this->assertArrayNotHasKey( $cat, $cats );
+	}
+
 	public function testRenderEmptyBox() {
 		$wikiText = Babel::Render( $this->getParser(), '' );
 		$this->assertSame(
@@ -205,6 +214,12 @@ class BabelTest extends MediaWikiTestCase {
 		);
 	}
 
+	public function testRenderNoSkillNoCategory() {
+		$parser = $this->getParser();
+		$wikiText = Babel::Render( $parser, 'en-0' );
+		$this->assertNotHasCategory( $parser, 'en' );
+	}
+
 	/**
 	 * Data provider to run a test with both db enabled and disabled
 	 */
@@ -242,6 +257,7 @@ class BabelTest extends MediaWikiTestCase {
 			'de',
 		], Babel::getUserLanguages( $user, 'N' ) );
 	}
+
 	public function testGetUserLanguageInfo() {
 		$user = User::newFromName( 'User-1' );
 		$languages = Babel::getUserLanguageInfo( $user );
