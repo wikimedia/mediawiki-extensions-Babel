@@ -60,7 +60,6 @@
 		"BabelMainCategory": "%code%",
 		"BabelDefaultLevel": "N",
 		"BabelUseUserLanguage": false,
-		"BabelPreferISO639_3": false,
 		"BabelUseDatabase": false,
 		"BabelCentralDb": false,
 		"BabelCentralApi": false
