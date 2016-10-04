@@ -35,11 +35,6 @@ class BabelStatic {
 	 * @param LinksUpdate $linksUpdate
 	 */
 	public static function onLinksUpdate( LinksUpdate $linksUpdate ) {
-		global $wgBabelUseDatabase;
-		if ( !$wgBabelUseDatabase ) {
-			return;
-		}
-
 		$title = $linksUpdate->getTitle();
 		// Has to be a root userpage
 		if ( !$title->inNamespace( NS_USER ) || !$title->getRootTitle()->equals( $title ) ) {
