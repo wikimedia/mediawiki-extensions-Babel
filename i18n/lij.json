@@ -25,5 +25,8 @@
 	"babel-4-n": "St'utente o parla [[$2|ligure]] [[$1|squæxi comme-un do paize]].",
 	"babel-5-n": "St'utente o conosce o [[$2|ligure]] a 'n livello [[$1|profescionâ]].",
 	"babel-N-n": "St'utente o [[$2|liggure]] o l'ha [[$1|teto'n fascioeua]].",
-	"babel-footer": "Utenti pe lengua"
+	"babel-footer": "Utenti pe lengua",
+	"apihelp-query+babel-description": "Otegni informaçioin insce quæ lengue l'utente o conosce",
+	"apihelp-query+babel-param-user": "Utente in sciô quæ otegnî informaçioin",
+	"apihelp-query+babel-example-1": "Otegni informaçioin Babel pe l'utente <kbd>Example</kbd>"
 }
