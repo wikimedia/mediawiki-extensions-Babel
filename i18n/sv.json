@@ -34,5 +34,6 @@
 	"babel-5-n": "Den här användaren har [[$1|professionella]] kunskaper i [[$2|svenska]].",
 	"babel-N-n": "Den här användaren har [[$2|svenska]] som [[$1|modersmål]].",
 	"babel-template": "Template:Användare $1",
-	"babel-footer": "Användare efter språk"
+	"babel-footer": "Användare efter språk",
+	"apihelp-query+babel-param-user": "Användare att hämta information om"
 }
