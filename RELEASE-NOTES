@@ -1,0 +1,11 @@
+== Babel 2016.10 ==
+Released at 2016-10-28.
+
+=== Noteworthy changes ===
+* Kunal Mehta made is possible to store babel languages in the database for efficient querying if a configuration option is enabled.
+* Kunal Mehta added an WebAPI module to query user's babel languages.
+* Kunal Mehta made it possible to read user's babel languages from a central wiki if a configuration option is enabled. T95877
+* Ricordisamoa added a configuration option that can be used to set namespace limits to restrict for which pages are automatically categorized to babel categories. T69334
+* Niklas Laxström removed references to non-existing configuration option BabelPreferISO639_3.
+* Kunal Mehta made the new babel database table to start populating automatically if it exists.
+* Kunal Mehta changed the main babel category no longer include users who set the skill level to zero. T146909
