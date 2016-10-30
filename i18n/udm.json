@@ -2,9 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Kaganer",
-			"Purodha"
+			"Purodha",
+			"Irus"
 		]
 	},
 	"babel-url": "Project:Вавилон",
+	"babel-autocreate-reason": "Бам кылдытон категория автоматической [[$1|Вавилон]].",
+	"babel-autocreate-text-levels": "Та категорие пырись уровенен тодон-валан возьматэмын $1 кыл понна \"$2\" - лы.",
+	"babel-autocreate-text-main": "Та категорие пырись кылъёсты тодон-валанзэ возьматыса $1.",
+	"babel-autocreate-user": "Babel AutoCreate",
 	"babel-footer": "Викиавторъёс кылъёссыя"
 }
