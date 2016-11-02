@@ -34,5 +34,6 @@
 	"babel-N-n": "Šis naudotojas gali rašyti ir skaityti [[$1|gimtąja]] [[$2|lietuvių]] kalba",
 	"babel-footer": "Naudotojai pagal kalbą",
 	"apihelp-query+babel-description": "Gauti informaciją, kokias kalbas naudotojas žino",
+	"apihelp-query+babel-param-user": "Vartotojas, apie kurį gausite informaciją",
 	"apihelp-query+babel-example-1": "Gauti Babelio informaciją vartotojui <kbd>Example</kbd>"
 }
