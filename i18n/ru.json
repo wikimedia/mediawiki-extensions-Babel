@@ -11,7 +11,8 @@
 			"Spiritia",
 			"Александр Сигачёв",
 			"Туллук",
-			"Irus"
+			"Irus",
+			"Facenapalm"
 		]
 	},
 	"babel": "Сведения о языках участников (Вавилон)",
@@ -39,5 +40,6 @@
 	"babel-template": "Template:Участник $1",
 	"babel-footer": "Участники по языкам",
 	"apihelp-query+babel-description": "Получить информацию о том, какие языки пользователь знает",
-	"apihelp-query+babel-param-user": "Пользователю получить информацию о"
+	"apihelp-query+babel-param-user": "Пользователю получить информацию о",
+	"apihelp-query+babel-example-1": "Получить сведения о языках участника <kbd>Example</kbd>"
 }
