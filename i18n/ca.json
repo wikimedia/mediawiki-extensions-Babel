@@ -4,14 +4,15 @@
 			"Aleator",
 			"SMP",
 			"Toniher",
-			"Vriullop"
+			"Vriullop",
+			"Fitoschido"
 		]
 	},
 	"babel": "Informació Babel de {{GENDER:$1|l'usuari|la usuària}}",
 	"babel-desc": "Afegeix la funció d'anàlisi <code>#babel</code> per a permetre la generació automàtica d'una columna babel de quadres d'usuari amb l'habilitat d'incloure plantilles personalitzades.",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Usuaris per idioma",
-	"babel-autocreate-reason": "Creant automàticament la categoria de [[$1|Babel]].",
+	"babel-autocreate-reason": "Creació automàtica de la categoria de [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Els usuaris d'aquesta categoria indiquen que tenen un nivell $1 per l'idioma $2.",
 	"babel-autocreate-text-main": "Els usuaris d'aquesta categoria indiquen que tenen coneixements de l'idioma $1.",
 	"babel-0": "{{GENDER:$4|Aquest usuari|Aquesta usuària}} [[$1|no té]] cap coneixement de l'idioma [[$2|$3]] (o bé l'entén amb moltes dificultats).",
