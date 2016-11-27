@@ -21,7 +21,6 @@
 namespace MediaWiki\Babel;
 
 use LoadBalancer;
-use MediaWiki\MediaWikiServices;
 
 class Database {
 
@@ -31,8 +30,7 @@ class Database {
 	private $loadBalancer;
 
 	public function __construct() {
-		$this->loadBalancer = MediaWikiServices::getInstance()
-			->getDBLoadBalancer();
+		$this->loadBalancer = wfGetLB();
 	}
 
 	/**
