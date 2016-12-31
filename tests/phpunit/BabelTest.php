@@ -33,6 +33,7 @@ class BabelTest extends MediaWikiTestCase {
 			'wgBabelUseDatabase' => true,
 			'wgBabelCentralApi' => false,
 			'wgBabelCentralDb' => false,
+			'wgCapitalLinks' => false,
 		] );
 		$user = User::newFromName( 'User-1' );
 		$user->addToDatabase();
@@ -166,8 +167,8 @@ class BabelTest extends MediaWikiTestCase {
 			. '! dir="ltr" | [[(babel-portal: zh-Hant)|zh-Hant]]'
 			. '<span class="mw-babel-box-level-N">-N</span>'
 			. "\n"
-			. '| dir="ltr" lang="zh-Hant" | This user has a [[:Category:zh-Hant-N|native]] '
-			. 'understanding of [[:Category:zh-Hant|]].'
+			. '| dir="ltr" lang="zh-Hant" | 這位使用者會[[:Category:zh-Hant-N|母語]]水準的 '
+			. '[[:Category:zh-Hant|繁體中文]]。'
 			. "\n|}\n"
 			. '</div>',
 			$wikiText

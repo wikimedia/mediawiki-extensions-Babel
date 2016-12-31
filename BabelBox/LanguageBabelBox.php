@@ -19,6 +19,7 @@ use Babel;
 use BabelAutoCreate;
 use BabelLanguageCodes;
 use Language;
+use MWException;
 use Title;
 
 /**
@@ -136,23 +137,25 @@ EOT;
 				self::getCategoryName( $wgBabelMainCategory, $language );
 		}
 
+		$languageForMw = strtolower( $language );
+
 		// Give grep a chance to find the usages:
 		// babel-0-n, babel-1-n, babel-2-n, babel-3-n, babel-4-n, babel-5-n, babel-N-n
 		$text = wfMessage( "babel-$level-n",
 			$categoryLevel, $categoryMain, '', $title->getDBkey()
-		)->inLanguage( $language )->text();
+		)->inLanguage( $languageForMw )->text();
 
-		$fallbackLanguage = Language::getFallbackFor( $language );
+		$fallbackLanguage = Language::getFallbackFor( $languageForMw );
 		$fallback = wfMessage( "babel-$level-n",
 			$categoryLevel, $categoryMain, '', $title->getDBkey()
-		)->inLanguage( $fallbackLanguage ? $fallbackLanguage : $language )->text();
+		)->inLanguage( $fallbackLanguage ? $fallbackLanguage : $languageForMw )->text();
 
 		// Give grep a chance to find the usages:
 		// babel-0, babel-1, babel-2, babel-3, babel-4, babel-5, babel-N
 		if ( $text == $fallback ) {
 			$text = wfMessage( "babel-$level",
 				$categoryLevel, $categoryMain, $name, $title->getDBkey()
-			)->inLanguage( $language )->text();
+			)->inLanguage( $languageForMw )->text();
 		}
 
 		return $text;
@@ -201,6 +204,7 @@ EOT;
 	 * Replace the placeholder variables from the category names configurtion
 	 * array with actual values.
 	 *
+	 * @throws MWException if the category name is not a valid title
 	 * @param string $category Category name (containing variables).
 	 * @param string $code Language code of category.
 	 * @return string Category name with variables replaced.
@@ -214,7 +218,11 @@ EOT;
 		] );
 
 		// Normalize using Title
-		return Title::makeTitle( NS_CATEGORY, $category )->getDBkey();
+		$title = Title::makeTitleSafe( NS_CATEGORY, $category );
+		if ( !$title ) {
+			throw new MWException( "Invalid babel category name '$category'" );
+		}
+		return $title->getDBkey();
 	}
 
 }

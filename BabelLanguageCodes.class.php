@@ -54,6 +54,7 @@ class BabelLanguageCodes {
 		if ( $code === false ) {
 			return false;
 		}
+		$code = strtolower( $code );
 
 		$language = $language === null ? $code : $language;
 		$names = Language::fetchLanguageNames( $language, 'all' );
