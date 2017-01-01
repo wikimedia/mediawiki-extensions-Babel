@@ -75,7 +75,7 @@ class BabelAutoCreate {
 
 		$article->doEditContent(
 			ContentHandler::makeContent( $text, $title ),
-			wfMessage( 'babel-autocreate-reason', $url )->text(),
+			wfMessage( 'babel-autocreate-reason', $url )->inContentLanguage()->text(),
 			EDIT_FORCE_BOT,
 			false,
 			$user
