@@ -124,14 +124,14 @@ EOT;
 		global $wgBabelMainCategory, $wgBabelCategoryNames;
 
 		if ( $wgBabelCategoryNames[$level] === false ) {
-			$categoryLevel = $title->getFullText();
+			$categoryLevel = ':' . $title->getFullText();
 		} else {
 			$categoryLevel = ':Category:' .
 				self::getCategoryName( $wgBabelCategoryNames[$level], $language );
 		}
 
 		if ( $wgBabelMainCategory === false ) {
-			$categoryMain = $title->getFullText();
+			$categoryMain = ':' . $title->getFullText();
 		} else {
 			$categoryMain = ':Category:' .
 				self::getCategoryName( $wgBabelMainCategory, $language );
