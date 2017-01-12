@@ -29,6 +29,7 @@ class BabelLanguageCodesTest extends PHPUnit_Framework_TestCase {
 			[ 'eng', 'en' ],
 			[ 'en-gb', 'en-gb' ],
 			[ 'de', 'de' ],
+			[ 'be-x-old', 'be-tarask' ],
 		];
 	}
 

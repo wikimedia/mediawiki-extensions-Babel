@@ -21,11 +21,22 @@ class BabelLanguageCodes {
 	 * @return string|bool Language code, or false for invalid language code.
 	 */
 	public static function getCode( $code ) {
+		// Is the code one of MediaWiki's legacy fake codes? If so, return the modern
+		// equivalent code (T101086)
+		if ( method_exists( 'LanguageCode', 'getDeprecatedCodeMapping' ) ) {
+			$mapping = LanguageCode::getDeprecatedCodeMapping();
+			if ( isset( $mapping[strtolower( $code )] ) ) {
+				return $mapping[strtolower( $code )];
+			}
+		}
+
+		// Is the code known to MediaWiki?
 		$mediawiki = Language::fetchLanguageName( $code );
 		if ( $mediawiki !== '' ) {
 			return $code;
 		}
 
+		// Otherwise, fall back to the ISO 639 codes database
 		$codes = false;
 		try {
 			$codesCdb = Cdb\Reader::open( __DIR__ . '/codes.cdb' );
