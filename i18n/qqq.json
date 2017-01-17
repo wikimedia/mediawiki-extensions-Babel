@@ -12,7 +12,8 @@
 			"Shirayuki",
 			"Siebrand",
 			"The Evil IP address",
-			"Umherirrender"
+			"Umherirrender",
+			"KartikMistry"
 		]
 	},
 	"babel": "Header of Babel box. Parameters:\n* $1 - (Optional) the name of the page it is used on, for GENDER support",
@@ -21,7 +22,7 @@
 	"babel-footer-url": "Unless this message is empty, this is used as link target in the last entry,\nalso known as the footer, of the outer Babel-box,\nprovided that the installation chooses to have a footer.\nThe corresponding link anchor is the message [[MediaWiki:babel-footer/{{UILANGCODE}}|babel-footer]] {{msg-mw|Babel-footer|notext=}}.\n\nFor installations having a 'Babel users per language' category tree, its root should be entered here.\nWhen translating, you can copy the category name from existing Babel systems in your language, but you can as well use a more generic name and leave it to individual installations, how to deal with it.\n\nThere is no need to alter the name space name <code lang=\"en\">Category</code>.",
 	"babel-autocreate-reason": "Edit summary for an automatically created Babel category page. Parameters:\n* $1 is a page title for information on Babel.",
 	"babel-autocreate-text-levels": "Text describing a category, at the top of the category page.\n\n* $1 is the level (0 to 5, or N).\n* $2 is a language name.\n* $3 is a language code (optional; for customisation).",
-	"babel-autocreate-text-main": "Text describing a category, at the top of the category page.\n\n* $1 is a language name.\n* $2 is a language code (optional; for customisation).",
+	"babel-autocreate-text-main": "Text describing a category, at the top of the category page.\n\n* $1 is a language name.",
 	"babel-autocreate-user": "{{optional}}",
 	"babel-0": "{{Babel Message Description|0}}",
 	"babel-1": "{{Babel Message Description|1}}",
