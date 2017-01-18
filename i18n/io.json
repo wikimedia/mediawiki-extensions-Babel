@@ -6,7 +6,7 @@
 		]
 	},
 	"babel-url": "Project:Babel",
-	"babel-0": "Ca uzanto havas [[$1|nula]] savo pri [[$2|$3]] (o komprenas olu kun kelka desfacileso).",
+	"babel-0": "Ca uzero havas [[$1|nula]] savo pri [[$2|$3]] (o komprenas olu kun kelka desfacileso).",
 	"babel-1": "Ca uzero havas [[$1|bazala]] savo pri [[$2|$3]].",
 	"babel-2": "Ca uzero havas [[$1|meza]] savo pri [[$2|$3]].",
 	"babel-3": "Ca uzero havas [[$1|bona]] savo pri [[$2|$3]].",
