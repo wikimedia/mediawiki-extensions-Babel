@@ -1,0 +1,7 @@
+== Babel 2017.01 ==
+Released at 2017-01-25.
+
+=== Noteworthy changes ===
+* Kunal Mehta fixed compatibility with MediaWiki 1.27 version.
+* This, that and the other fixed categorization of 'pt-br' and similar language codes.
+* This, that and the other fixed Babel AutoCreate's edit summaries to use content language instead of user's UI language.
