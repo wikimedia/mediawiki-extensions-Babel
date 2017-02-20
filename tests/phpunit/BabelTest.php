@@ -39,6 +39,8 @@ class BabelTest extends MediaWikiTestCase {
 		$user->addToDatabase();
 		$title = $user->getUserPage();
 		$this->insertPage( $title->getPrefixedText(), '{{#babel:en-1|es-2|de}}' );
+		// Test on a category page too (
+		$this->insertPage( Title::newFromText( 'Category:X1', '{{#babel:en-1|es-2|de}}' ) );
 		$page = WikiPage::factory( $title );
 		// Force a run of LinksUpdate
 		$updates = $page->getContent()->getSecondaryDataUpdates( $title );
@@ -48,9 +50,10 @@ class BabelTest extends MediaWikiTestCase {
 	}
 
 	/**
+	 * @param Title $title
 	 * @return Parser
 	 */
-	private function getParser() {
+	private function getParser( Title $title ) {
 		$options = new ParserOptions();
 		$options->setIsPreview( true );
 
@@ -64,7 +67,7 @@ class BabelTest extends MediaWikiTestCase {
 
 		$parser->expects( $this->any() )
 			->method( 'getTitle' )
-			->will( $this->returnValue( Title::newFromText( 'User:User-1' ) ) );
+			->will( $this->returnValue( $title ) );
 
 		$parser->expects( $this->any() )
 			->method( 'getOutput' )
@@ -106,21 +109,36 @@ class BabelTest extends MediaWikiTestCase {
 	}
 
 	public function testRenderEmptyBox() {
-		$wikiText = Babel::Render( $this->getParser(), '' );
+		$title = Title::newFromText( 'User:User-1' );
+		$parser = $this->getParser( $title );
+		$wikiText = Babel::Render( $parser, '' );
 		$this->assertSame(
 			'{|style=" padding: (babel-box-cellpadding);  border-spacing: (babel-box-cellspacing);"'
 			. ' class="mw-babel-wrapper"'
 			. "\n"
 			. '! class="mw-babel-header" | [[(babel-url)|(babel: User-1)]]'
 			. "\n|-\n| \n|-\n"
-			.  '! class="mw-babel-footer" | [[(babel-footer-url)|(babel-footer: User-1)]]'
+			. '! class="mw-babel-footer" | [[(babel-footer-url)|(babel-footer: User-1)]]'
 			. "\n|}",
 			$wikiText
 		);
 	}
 
-	public function testRenderDefaultLevel() {
-		$parser = $this->getParser();
+	/**
+	 * Provides different page names, such as pages in the Category namespace.
+	 */
+	public static function providePageNames() {
+		return [
+			[ 'User:User-1' ],
+			[ 'Category:X1' ],
+		];
+	}
+
+	/**
+	 * @dataProvider providePageNames
+	 */
+	public function testRenderDefaultLevel( $pageName ) {
+		$parser = $this->getParser( Title::newFromText( $pageName ) );
 		$wikiText = Babel::Render( $parser, 'en' );
 		$this->assertBabelBoxCount( 1, $wikiText );
 		$this->assertContains(
@@ -136,12 +154,40 @@ class BabelTest extends MediaWikiTestCase {
 			. '</div>',
 			$wikiText
 		);
+
 		$this->assertHasCategory( $parser, 'en', 'N' );
 		$this->assertHasCategory( $parser, 'en-N', '' );
 	}
 
+	/**
+	 * @dataProvider providePageNames
+	 */
+	public function testRenderDefaultLevelNoCategory( $pageName ) {
+		$this->setMwGlobals( [ 'wgBabelMainCategory' => false ] );
+
+		$parser = $this->getParser( Title::newFromText( $pageName ) );
+		$wikiText = Babel::Render( $parser, 'en' );
+		$this->assertBabelBoxCount( 1, $wikiText );
+		$this->assertContains(
+			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
+			. "\n"
+			. '{|style=" padding: (babel-cellpadding);  border-spacing: (babel-cellspacing);"'
+			. "\n"
+			. '! dir="ltr" | [[(babel-portal: en)|en]]<span class="mw-babel-box-level-N">-N</span>'
+			. "\n"
+			. '| dir="ltr" lang="en" | This user has a [[:Category:en-N|native]] understanding of '
+			. "[[:$pageName|English]]."
+			. "\n|}\n"
+			. '</div>',
+			$wikiText
+		);
+
+		$this->assertNotHasCategory( $parser, 'en' );
+		$this->assertHasCategory( $parser, 'en-N', '' );
+	}
+
 	public function testRenderCustomLevel() {
-		$parser = $this->getParser();
+		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
 		$wikiText = Babel::Render( $parser, 'EN-1', 'zh-Hant' );
 		$this->assertBabelBoxCount( 2, $wikiText );
 		$this->assertContains(
@@ -157,8 +203,10 @@ class BabelTest extends MediaWikiTestCase {
 			. '</div>',
 			$wikiText
 		);
+
 		$this->assertHasCategory( $parser, 'en', '1' );
 		$this->assertHasCategory( $parser, 'en-1', '' );
+
 		$this->assertContains(
 			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
 			. "\n"
@@ -173,12 +221,13 @@ class BabelTest extends MediaWikiTestCase {
 			. '</div>',
 			$wikiText
 		);
+
 		$this->assertHasCategory( $parser, 'zh-Hant', 'N' );
 		$this->assertHasCategory( $parser, 'zh-Hant-N', '' );
 	}
 
 	public function testRenderPlain() {
-		$parser = $this->getParser();
+		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
 		$wikiText = Babel::Render( $parser, 'plain=1', 'en' );
 		$this->assertSame(
 			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
@@ -193,12 +242,14 @@ class BabelTest extends MediaWikiTestCase {
 			. '</div>',
 			$wikiText
 		);
+
 		$this->assertHasCategory( $parser, 'en', 'N' );
 		$this->assertHasCategory( $parser, 'en-N', '' );
 	}
 
 	public function testRenderRedLink() {
-		$wikiText = Babel::Render( $this->getParser(), 'redLink' );
+		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
+		$wikiText = Babel::Render( $parser, 'redLink' );
 		$this->assertBabelBoxCount( 0, $wikiText );
 		$this->assertContains(
 			'<div class="mw-babel-notabox" dir="ltr">[[(babel-template: redLink)]]</div>',
@@ -207,7 +258,8 @@ class BabelTest extends MediaWikiTestCase {
 	}
 
 	public function testRenderInvalidTitle() {
-		$wikiText = Babel::Render( $this->getParser(), '<invalidTitle>' );
+		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
+		$wikiText = Babel::Render( $parser, '<invalidTitle>' );
 		$this->assertBabelBoxCount( 0, $wikiText );
 		$this->assertContains(
 			'<div class="mw-babel-notabox" dir="ltr">(babel-template: <invalidTitle>)</div>',
@@ -216,7 +268,7 @@ class BabelTest extends MediaWikiTestCase {
 	}
 
 	public function testRenderNoSkillNoCategory() {
-		$parser = $this->getParser();
+		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
 		$wikiText = Babel::Render( $parser, 'en-0' );
 		$this->assertNotHasCategory( $parser, 'en' );
 	}
