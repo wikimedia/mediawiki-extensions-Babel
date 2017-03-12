@@ -3,7 +3,8 @@
 		"authors": [
 			"Ex13",
 			"Herr Mlinka",
-			"Conquistador"
+			"Conquistador",
+			"Bugoslav"
 		]
 	},
 	"babel": "babilonske suradničke informacije",
@@ -12,7 +13,7 @@
 	"babel-footer-url": ":Kategorija:Suradnički jezici",
 	"babel-autocreate-reason": "Automatsko stvaranje stranice kategorije [[$1|babel]].",
 	"babel-autocreate-text-levels": "Suradnici u ovoj kategoriji ukazuju da su vješti na razini $1 za jezik $2.",
-	"babel-autocreate-text-main": "Suradnici u ovoj kategoriji ukazuju da imaju znanje jezika $1.",
+	"babel-autocreate-text-main": "Suradnici u ovoj kategoriji naznačili su poznavanje jezika: $1.",
 	"babel-0": "{{GENDER:$4|Ovaj suradnik|Ova suradnica}} [[$1|ne]] zna [[$2|$3]] (ili ga razumije prilično otežano).",
 	"babel-1": "{{GENDER:$4|Ovaj suradnik|Ova suradnica}} ima [[$1|osnovno]] znanje [[$2|$3]].",
 	"babel-2": "{{GENDER:$4|Ovaj suradnik|Ova suradnica}} ima [[$1|osrednje]] znanje [[$2|$3]].",
