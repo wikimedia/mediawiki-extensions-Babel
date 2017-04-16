@@ -14,8 +14,8 @@
 	float: right;
 	clear: right;
 	margin: 0;
-	background-color: white;
-	border: 1px solid #99B3FF;
+	background-color: #fff;
+	border: 1px solid #99b3ff;
 }
 
 /* @noflip */.mw-content-ltr table.mw-babel-wrapper {
@@ -63,87 +63,87 @@ div.mw-babel-box table td {
 
 /* Babel box colours. */
 div.mw-babel-box-0 {
-	border: 1px solid #FFBBBB;
+	border: 1px solid #fbb;
 }
 
 div.mw-babel-box-1 {
-	border: 1px solid #E0C0E0;
+	border: 1px solid #e0c0e0;
 }
 
 div.mw-babel-box-2 {
-	border: 1px solid #BCB9EF;
+	border: 1px solid #bcb9ef;
 }
 
 div.mw-babel-box-3 {
-	border: 1px solid #99B3FF;
+	border: 1px solid #99b3ff;
 }
 
 div.mw-babel-box-4 {
-	border: 1px solid #77E0E8;
+	border: 1px solid #77e0e8;
 }
 
 div.mw-babel-box-5 {
-	border: 1px solid #CCCC00;
+	border: 1px solid #cc0;
 }
 
 div.mw-babel-box-N {
-	border: 1px solid #6EF7A7;
+	border: 1px solid #6ef7a7;
 }
 
 div.mw-babel-box-0 table th {
-	background-color: #FFBBBB;
+	background-color: #fbb;
 }
 
 div.mw-babel-box-1 table th {
-	background-color: #E0C0E0;
+	background-color: #e0c0e0;
 }
 
 div.mw-babel-box-2 table th {
-	background-color: #BCB9EF;
+	background-color: #bcb9ef;
 }
 
 div.mw-babel-box-3 table th {
-	background-color: #99B3FF;
+	background-color: #99b3ff;
 }
 
 div.mw-babel-box-4 table th {
-	background-color: #77E0E8;
+	background-color: #77e0e8;
 }
 
 div.mw-babel-box-5 table th {
-	background-color: #CCCC00;
+	background-color: #cc0;
 }
 
 div.mw-babel-box-N table th {
-	background-color: #6EF7A7;
+	background-color: #6ef7a7;
 }
 
 div.mw-babel-box-0 table {
-	background-color: #FFEEEE;
+	background-color: #fee;
 }
 
 div.mw-babel-box-1 table {
-	background-color: #F3E0F3;
+	background-color: #f3e0f3;
 }
 
 div.mw-babel-box-2 table {
-	background-color: #E9E5F9;
+	background-color: #e9e5f9;
 }
 
 div.mw-babel-box-3 table {
-	background-color: #E0E8FF;
+	background-color: #e0e8ff;
 }
 
 div.mw-babel-box-4 table {
-	background-color: #D0F8FF;
+	background-color: #d0f8ff;
 }
 
 div.mw-babel-box-5 table {
-	background-color: #FFFF99;
+	background-color: #ff9;
 }
 
 div.mw-babel-box-N table {
-	background-color: #C5FCDC;
+	background-color: #c5fcdc;
 }
 
 /* header and footer */
