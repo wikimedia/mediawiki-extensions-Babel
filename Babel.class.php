@@ -315,7 +315,10 @@ EOT;
 	}
 
 	/**
-	 * Gets the language information a user has set up with Babel
+	 * Gets the language information a user has set up with Babel.
+	 * This function gets the actual info directly from categories
+	 * or database. For performance, it is recommended to use
+	 * getCachedUserLanguageInfo instead.
 	 *
 	 * @param User $user
 	 * @return string[] [ language code => level ]
@@ -324,19 +327,96 @@ EOT;
 		global $wgBabelMainCategory, $wgBabelUseDatabase;
 
 		if ( $wgBabelUseDatabase ) {
-			$result = self::getUserLanguagesDB( $user );
+			$userLanguageInfo = self::getUserLanguagesDB( $user );
 		} elseif ( $wgBabelMainCategory ) {
-			$result = self::getUserLanguagesCat( $user );
+			$userLanguageInfo = self::getUserLanguagesCat( $user );
 		} else {
-			return [];
+			$userLanguageInfo = [];
 		}
 
-		ksort( $result );
-		return $result;
+		ksort( $userLanguageInfo );
+
+		return $userLanguageInfo;
 	}
 
 	/**
-	 * Gets the list of languages a user has set up with Babel
+	 * Gets the language information a user has set up with Babel,
+	 * from the cache. It's recommended to use this when this will
+	 * be called frequently.
+	 *
+	 * @param User $user
+	 * @return string[] [ language code => level ]
+	 *
+	 * @since Version 1.10.0
+	 */
+	public static function getCachedUserLanguageInfo( User $user ) {
+		$cache = ObjectCache::getMainWANInstance();
+		$userId = $user->getId();
+
+		$cachedUserLanguageInfo = $cache->getWithSetCallback(
+			$cache->makeKey( 'babel', 'userLanguages', $userId ),
+			$cache::TTL_MINUTE * 30,
+			function ( $oldValue, &$ttl, array &$setOpts ) use ( $userId, $user ) {
+				wfDebug( "Babel: cache miss for user $userId\n" );
+
+				return self::getUserLanguageInfo( $user );
+			}
+		);
+
+		return $cachedUserLanguageInfo;
+	}
+
+	/**
+	 * Gets only the languages codes list out of the user language info.
+	 *
+	 * @param string[] [ language code => level ], the return value of getUserLanguageInfo.
+	 * @param string $level Minimal level as given in $wgBabelCategoryNames
+	 * @return string[] List of language codes
+	 *
+	 * @since Version 1.10.0
+	 */
+	private static function getLanguages( $languageInfo, $level ) {
+		if ( !$languageInfo ) {
+			return [];
+		}
+
+		if ( $level !== null ) {
+			$level = (string)$level;
+			// filter down the set, note that this uses a text sort!
+			$languageInfo = array_filter(
+				$languageInfo,
+				function ( $value ) use ( $level ) {
+					return ( strcmp( $value, $level ) >= 0 );
+				}
+			);
+			// sort and retain keys
+			uasort(
+				$languageInfo,
+				function ( $a, $b ) {
+					return -strcmp( $a, $b );
+				}
+			);
+		}
+
+		return array_keys( $languageInfo );
+	}
+
+	/**
+	 * Gets the cached list of languages a user has set up with Babel.
+	 *
+	 * @param User $user
+	 * @param string $level Minimal level as given in $wgBabelCategoryNames
+	 * @return string[] List of language codes
+	 *
+	 * @since Version 1.10.0
+	 */
+	public static function getCachedUserLanguages( User $user, $level = null ) {
+		return self::getLanguages( self::getCachedUserLanguageInfo( $user ), $level );
+	}
+
+	/**
+	 * Gets the list of languages a user has set up with Babel.
+	 * For performance it is recommended to use getCachedUserLanguages.
 	 *
 	 * @param User $user
 	 * @param string $level Minimal level as given in $wgBabelCategoryNames
@@ -345,30 +425,7 @@ EOT;
 	 * @since Version 1.9.0
 	 */
 	public static function getUserLanguages( User $user, $level = null ) {
-		$result = self::getUserLanguageInfo( $user );
-		if ( !$result ) {
-			return [];
-		}
-
-		if ( $level !== null ) {
-			$level = (string)$level;
-			// filter down the set, note that this uses a text sort!
-			$result = array_filter(
-				$result,
-				function ( $value ) use ( $level ) {
-					return ( strcmp( $value, $level ) >= 0 );
-				}
-			);
-			// sort and retain keys
-			uasort(
-				$result,
-				function ( $a, $b ) {
-					return -strcmp( $a, $b );
-				}
-			);
-		}
-
-		return array_keys( $result );
+		return self::getLanguages( self::getUserLanguageInfo( $user ), $level );
 	}
 
 	private static function getUserLanguagesDB( User $user ) {
