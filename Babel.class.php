@@ -352,15 +352,19 @@ EOT;
 	public static function getCachedUserLanguageInfo( User $user ) {
 		$cache = ObjectCache::getMainWANInstance();
 		$userId = $user->getId();
+		$key = $cache->makeKey( 'babel', 'userLanguages', $userId );
 
 		$cachedUserLanguageInfo = $cache->getWithSetCallback(
-			$cache->makeKey( 'babel', 'userLanguages', $userId ),
+			$key,
 			$cache::TTL_MINUTE * 30,
 			function ( $oldValue, &$ttl, array &$setOpts ) use ( $userId, $user ) {
 				wfDebug( "Babel: cache miss for user $userId\n" );
 
 				return self::getUserLanguageInfo( $user );
-			}
+			},
+			[
+				'checkKeys' => [ $key ],
+			]
 		);
 
 		return $cachedUserLanguageInfo;

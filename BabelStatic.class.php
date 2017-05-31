@@ -49,6 +49,10 @@ class BabelStatic {
 
 		$babelDB = new MediaWiki\Babel\Database();
 		$data = $linksUpdate->getParserOutput()->getExtensionData( 'babel' ) ?: [];
-		$babelDB->setForUser( $user->getId(), $data );
+		$changed = $babelDB->setForUser( $user->getId(), $data );
+		if ( $changed ) {
+			$cache = ObjectCache::getMainWANInstance();
+			$cache->touchCheckKey( $cache->makeKey( 'babel', 'userLanguages', $user->getId() ) );
+		}
 	}
 }

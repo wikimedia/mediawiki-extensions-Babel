@@ -64,6 +64,7 @@ class Database {
 	/**
 	 * @param string $id
 	 * @param string[] $data [ lang => level ]
+	 * @return bool true if changes to the db were made
 	 */
 	public function setForUser( $id, array $data ) {
 		$dbw = $this->getDB( DB_MASTER );
@@ -71,7 +72,7 @@ class Database {
 			// Populate data as long as the table exists, so
 			// we can pre-populate the database before switching
 			// reads to the database
-			return;
+			return false;
 		}
 
 		$newRows = [];
@@ -116,5 +117,7 @@ class Database {
 				__METHOD__
 			);
 		}
+
+		return $rowsDelete || $newRows;
 	}
 }
