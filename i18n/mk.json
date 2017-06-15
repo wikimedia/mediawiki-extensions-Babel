@@ -31,6 +31,7 @@
 	"babel-template": "Template:Корисник $1",
 	"babel-footer": "Корисници по јазик",
 	"apihelp-query+babel-description": "Дава информации за тоа кои јазици ги знае корисникот",
+	"apihelp-query+babel-summary": "Дава сознанија кои јазици корисникот ги познава",
 	"apihelp-query+babel-param-user": "За кој корисник да се дадат информациите",
 	"apihelp-query+babel-example-1": "Давање на информации од „Вавилон“ за корисникот <kbd>Пример</kbd>"
 }
