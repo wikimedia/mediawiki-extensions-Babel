@@ -29,6 +29,7 @@
 	"babel-template": "Template:$1",
 	"babel-footer": "Usatores per lingua",
 	"apihelp-query+babel-description": "Obtener information sur le linguas que le usator cognosce",
+	"apihelp-query+babel-summary": "Obtener information sur le linguas que le usator cognosce",
 	"apihelp-query+babel-param-user": "Le usator sur le qual obtener information",
 	"apihelp-query+babel-example-1": "Obtener information Babel pro usator <kbd>Example</kbd>"
 }
