@@ -39,7 +39,8 @@
 	"babel-N-n": "Для {{GENDER:$4|этого участника|этой участницы}} [[$2|русский язык]] является [[$1|родным]].",
 	"babel-template": "Template:Участник $1",
 	"babel-footer": "Участники по языкам",
-	"apihelp-query+babel-description": "Получить информацию о том, какие языки пользователь знает",
-	"apihelp-query+babel-param-user": "Пользователю получить информацию о",
+	"apihelp-query+babel-description": "Получение информации о том, какими языками участник владеет",
+	"apihelp-query+babel-summary": "Получение информации о том, какими языками участник владеет",
+	"apihelp-query+babel-param-user": "Участник, о котором необходимо получить информацию",
 	"apihelp-query+babel-example-1": "Получить сведения о языках участника <kbd>Example</kbd>"
 }
