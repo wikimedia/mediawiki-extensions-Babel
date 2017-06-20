@@ -31,7 +31,7 @@ class Babel {
 	 * Render the Babel tower.
 	 *
 	 * @param Parser $parser
-	 * @param string [$parameter,...]
+	 * @param string $parameter,...
 	 * @return string Babel tower.
 	 */
 	public static function Render( Parser $parser ) {
