@@ -28,9 +28,9 @@
 		"jakub-onderka/php-console-highlighter": "0.3.2"
 	},
 	"scripts": {
-		"fix": "phpcbf --ignore=vendor --ignore=extensions",
+		"fix": "phpcbf",
 		"test": [
-			"parallel-lint . --exclude vendor --exclude extensions",
+			"parallel-lint . --exclude vendor --exclude node_modules --exclude extensions",
 			"phpcs -p -s"
 		]
 	}
