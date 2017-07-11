@@ -353,6 +353,11 @@ EOT;
 		$cache = ObjectCache::getMainWANInstance();
 		$userId = $user->getId();
 		$key = $cache->makeKey( 'babel', 'userLanguages', $userId );
+		$checkKeys = [ $key ];
+		$centralId = CentralIdLookup::factory()->centralIdFromLocalUser( $user );
+		if ( $centralId ) {
+			$checkKeys[] = $cache->makeGlobalKey( 'babel', 'userLanguages', $centralId );
+		}
 
 		$cachedUserLanguageInfo = $cache->getWithSetCallback(
 			$key,
@@ -363,7 +368,7 @@ EOT;
 				return self::getUserLanguageInfo( $user );
 			},
 			[
-				'checkKeys' => [ $key ],
+				'checkKeys' => $checkKeys,
 			]
 		);
 
