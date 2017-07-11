@@ -124,7 +124,7 @@ EOT;
 
 	private static function setExtensionData( ParserOutput $parserOutput, $code, $level ) {
 		$data = $parserOutput->getExtensionData( 'babel' ) ?: [];
-		$data[$code] = $level;
+		$data[wfBCP47( $code )] = $level;
 		$parserOutput->setExtensionData( 'babel', $data );
 	}
 
