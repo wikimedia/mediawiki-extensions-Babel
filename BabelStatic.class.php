@@ -35,6 +35,8 @@ class BabelStatic {
 	 * @param LinksUpdate $linksUpdate
 	 */
 	public static function onLinksUpdate( LinksUpdate $linksUpdate ) {
+		global $wgBabelCentralDb;
+
 		$title = $linksUpdate->getTitle();
 		// Has to be a root userpage
 		if ( !$title->inNamespace( NS_USER ) || !$title->getRootTitle()->equals( $title ) ) {
@@ -53,6 +55,13 @@ class BabelStatic {
 		if ( $changed ) {
 			$cache = ObjectCache::getMainWANInstance();
 			$cache->touchCheckKey( $cache->makeKey( 'babel', 'userLanguages', $user->getId() ) );
+			if ( $wgBabelCentralDb === wfWikiID() ) {
+				// If this is the central wiki, invalidate all of the local caches
+				$centralId = CentralIdLookup::factory()->centralIdFromLocalUser( $user );
+				if ( $centralId ) {
+					$cache->touchCheckKey( $cache->makeGlobalKey( 'babel', 'userLanguages', $centralId ) );
+				}
+			}
 		}
 	}
 }
