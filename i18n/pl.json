@@ -4,7 +4,8 @@
 			"Karol007",
 			"Sp5uhe",
 			"Ymar",
-			"Woytecr"
+			"Woytecr",
+			"InternerowyGołąb"
 		]
 	},
 	"babel": "Wieża Babel użytkownika",
@@ -30,6 +31,7 @@
 	"babel-N-n": "[[$2|Polski]] jest [[$1|językiem ojczystym]] {{GENDER:$4|tego użytkownika|tej użytkowniczki}}.",
 	"babel-footer": "Użytkownicy według języka",
 	"apihelp-query+babel-description": "Pobiera informacje o tym, jakie użytkownik zna języki",
+	"apihelp-query+babel-summary": "Uzyskaj informacje o językach, które zna użytkownik",
 	"apihelp-query+babel-param-user": "Użytkownik, o którym pobrać informacje",
 	"apihelp-query+babel-example-1": "Pobranie informacji Babel dla użytkownika <kbd>Example</kbd>"
 }
