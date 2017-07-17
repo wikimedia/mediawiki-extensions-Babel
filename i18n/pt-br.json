@@ -10,7 +10,7 @@
 			"Felipe L. Ewald"
 		]
 	},
-	"babel": "Informação Babel {{GENDER:$1|do usuário|da usuária|do(a) usuário(a)}}",
+	"babel": "Informação do usuário Babel",
 	"babel-desc": "Adiciona a função do analisador parser <code>#babel</code> para permitir a geração automática de um coluna de caixas de babel de um usuário coma possibilidade de incluir predefinições personalizadas",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Categoria:Babel - Usuários por língua",
