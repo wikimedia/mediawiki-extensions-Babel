@@ -11,7 +11,8 @@
 			"Revolus",
 			"The Evil IP address",
 			"Umherirrender",
-			"J. 'mach' wust"
+			"J. 'mach' wust",
+			"Crazy1880"
 		]
 	},
 	"babel": "Babel – Benutzerinformationen",
@@ -39,6 +40,7 @@
 	"babel-template": "Template:User $1",
 	"babel-footer": "Benutzer nach Sprache",
 	"apihelp-query+babel-description": "Ruft Informationen darüber ab, welche Sprachen der Benutzer beherrscht.",
+	"apihelp-query+babel-summary": "Ruft Informationen darüber ab, welche Sprachen der Benutzer beherrscht.",
 	"apihelp-query+babel-param-user": "Benutzer, für den die Informationen abgerufen werden sollen.",
 	"apihelp-query+babel-example-1": "Ruft die Babel-Informationen für den Benutzer <kbd>Beispiel</kbd> ab"
 }
