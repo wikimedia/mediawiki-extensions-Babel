@@ -76,8 +76,8 @@ class Babel {
 			$showfooter = '! class="mw-babel-footer" | [[' .
 				$url->text() . '|' . $footer->text() . ']]';
 		}
-		$spacing = Babel::mCssAttrib( 'border-spacing', 'babel-box-cellspacing', true );
-		$padding = Babel::mCssAttrib( 'padding', 'babel-box-cellpadding', true );
+		$spacing = self::mCssAttrib( 'border-spacing', 'babel-box-cellspacing', true );
+		$padding = self::mCssAttrib( 'padding', 'babel-box-cellpadding', true );
 
 		if ( $spacing === '' ) {
 			$style = ( $padding === '' ) ? '' : ( 'style="' . $padding . '"' );
