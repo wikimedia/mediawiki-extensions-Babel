@@ -1,0 +1,12 @@
+== Babel 2017.07 ==
+Released at 2017-07-26.
+
+=== Noteworthy changes ===
+* Information about the languages that the user knows is now cached to improve
+performance. To load the data from the cache, use getCachedUserLanguageInfo()
+instead of getUserLanguageInfo(), and getCachedUserLanguages() instead of
+getUserLanguages().
+* Language code are normalized when they are stored in the database. So, for
+example, "ZH" and "zh" are now stored as the same code.
+* It is now possible to load Babel information from a Babel box on a global
+user page.
