@@ -7,7 +7,7 @@
 			"Bugoslav"
 		]
 	},
-	"babel": "babilonske suradničke informacije",
+	"babel": "Babilonske suradničke informacije",
 	"babel-desc": "Dodaje parsersku funkciju <code>#babel</code> da omogući automatsko generiranje stupca s babilonskim suradničkim okvirima s mogućnošću uključenja predložaka po želji",
 	"babel-url": "Project:Babilon",
 	"babel-footer-url": ":Kategorija:Suradnički jezici",
