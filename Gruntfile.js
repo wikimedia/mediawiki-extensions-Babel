@@ -12,19 +12,20 @@ module.exports = function ( grunt ) {
 
 	grunt.initConfig( {
 		banana: {
-			all: ["i18n/"]
+			all: ['i18n/']
 		},
 		jsonlint: {
 			all: [
-				"**/*.json",
-				".stylelintrc",
-				"!node_modules/**"
+				'**/*.json',
+				'!node_modules/**',
+				'!vendor/**'
 			]
 		},
 		stylelint: {
 			all: [
 				'**/*.css',
-				'!node_modules/**'
+				'!node_modules/**',
+				'!vendor/**'
 			]
 		}
 	} );
