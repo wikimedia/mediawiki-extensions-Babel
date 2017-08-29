@@ -71,7 +71,7 @@ class LanguageBabelBox implements BabelBox {
 	public function render() {
 		$code = $this->code;
 
-		$portal = wfMessage( 'babel-portal', $code )->inContentLanguage()->plain();
+		$portal = wfMessage( 'babel-portal', $code )->inContentLanguage()->text();
 		if ( $portal !== '' ) {
 			$portal = "[[$portal|$code]]";
 		} else {
