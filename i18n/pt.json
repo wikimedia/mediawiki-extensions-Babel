@@ -10,7 +10,7 @@
 		]
 	},
 	"babel": "Informação Babel {{GENDER:$1|do utilizador|da utilizadora}}",
-	"babel-desc": "Adiciona a função <code>#babel</code> ao analisador sintáctico, para permitir a geração automatizada de uma coluna de caixas babel com a possibilidade de incluir predefinições personalizadas",
+	"babel-desc": "Adiciona a função <code>#babel</code> ao analisador sintático, para permitir a geração automatizada de uma coluna de caixas babel com a possibilidade de incluir predefinições personalizadas",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Categoria:Babel - Utilizadores por língua",
 	"babel-autocreate-reason": "A criar automaticamente a página da categoria [[$1|Babel]].",
