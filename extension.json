@@ -1,7 +1,13 @@
 {
 	"name": "Babel",
-	"version": "1.10.0",
-	"author": "Robert Leverington",
+	"version": "1.10.1",
+	"author": [
+		"Robert Leverington",
+		"Thiemo Mättig",
+		"Legoktm",
+		"Nikerabbit",
+		"Amir Aharoni"
+	],
 	"url": "https://www.mediawiki.org/wiki/Extension:Babel",
 	"descriptionmsg": "babel-desc",
 	"license-name": "GPL-2.0+",
