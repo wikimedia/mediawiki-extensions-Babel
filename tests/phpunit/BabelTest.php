@@ -3,7 +3,6 @@
 namespace Babel\Tests;
 
 use Babel;
-use DeferredUpdates;
 use Language;
 use MediaWikiTestCase;
 use Parser;
