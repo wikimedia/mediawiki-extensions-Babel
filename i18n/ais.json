@@ -6,5 +6,7 @@
 		]
 	},
 	"babel": "Babel misaungayay a cesyun",
-	"babel-footer": "misaungayay (ahizan tu kamu)"
+	"babel-url": "Project:Babel",
+	"babel-footer": "misaungayay (ahizan tu kamu)",
+	"apihelp-query+babel-param-user": "amiala mahizaay cesyun a misaungayay"
 }
