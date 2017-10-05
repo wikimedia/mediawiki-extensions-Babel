@@ -7,6 +7,7 @@
 	},
 	"babel": "Babel misaungayay a cesyun",
 	"babel-url": "Project:Babel",
+	"babel-autocreate-reason": "lunuk patizeng [[$1|Babel]] kakuniza kasabelih.",
 	"babel-footer": "misaungayay (ahizan tu kamu)",
 	"apihelp-query+babel-description": "maala mahizaay misaungayay  matineng canan a kamu cesyun",
 	"apihelp-query+babel-param-user": "amiala mahizaay cesyun a misaungayay"
