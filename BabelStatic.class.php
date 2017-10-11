@@ -14,7 +14,7 @@ class BabelStatic {
 	/**
 	 * Registers the parser function hook.
 	 *
-	 * @param $parser Parser
+	 * @param Parser $parser
 	 *
 	 * @return bool True.
 	 */

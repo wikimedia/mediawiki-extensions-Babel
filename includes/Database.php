@@ -34,7 +34,7 @@ class Database {
 	}
 
 	/**
-	 * @param $index
+	 * @param int $index
 	 * @return \IDatabase
 	 */
 	protected function getDB( $index ) {
