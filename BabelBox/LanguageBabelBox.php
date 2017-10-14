@@ -15,7 +15,6 @@
 
 namespace MediaWiki\Babel\BabelBox;
 
-use Babel;
 use BabelAutoCreate;
 use BabelLanguageCodes;
 use Language;
@@ -85,22 +84,11 @@ class LanguageBabelBox implements BabelBox {
 
 		$dir_current = Language::factory( $code )->getDir();
 
-		$spacing = Babel::mCssAttrib( 'border-spacing', 'babel-cellspacing', true );
-		$padding = Babel::mCssAttrib( 'padding', 'babel-cellpadding', true );
-
-		if ( $spacing === '' ) {
-			$style = ( $padding === '' ) ? '' : ( 'style="' . $padding . '"' );
-		} else {
-			$style = ( $padding === '' ) ?
-				'style="' . $spacing . '"' :
-				'style="' . $padding . ' ' . $spacing . '"';
-		}
-
 		$dir_head = $this->title->getPageLanguage()->getDir();
 
 		$box = <<<EOT
 <div class="mw-babel-box mw-babel-box-{$this->level}" dir="$dir_head">
-{|$style
+{|
 ! dir="$dir_head" | $header
 | dir="$dir_current" lang="$code" | $text
 |}
