@@ -41,7 +41,11 @@
 	},
 	"ResourceModules": {
 		"ext.babel": {
-			"styles": "resources/ext.babel.css"
+			"styles": "resources/ext.babel.css",
+			"targets": [
+				"mobile",
+				"desktop"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
