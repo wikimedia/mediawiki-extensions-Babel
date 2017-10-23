@@ -19,7 +19,7 @@
 		]
 	},
 	"babel": "Informations Babel sur l’{{GENDER:$1|utilisateur|utilisatrice|utilisateur}}",
-	"babel-desc": "Ajoute une fonction d’analyseur syntaxique <code>#babel</code> permettant la création automatique d’une boîte utilisateur Babel avec la possibilité d’y inclure des modèles locaux",
+	"babel-desc": "Ajoute la fonction de l’analyseur syntaxique <code>#babel</code> permettant la création automatique d’une colonne de boîtes utilisateur Babel avec la possibilité d’inclure des modèles locaux",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Catégorie:Babel - Utilisateurs par langue",
 	"babel-autocreate-reason": "Création automatique de la page des catégories [[$1|Babel]].",
