@@ -11,7 +11,7 @@ use PHPUnit_Framework_TestCase;
  * @group Babel
  *
  * @licence GNU GPL v2+
- * @author Thiemo Mättig
+ * @author Thiemo Kreuz
  */
 class BabelLanguageCodesTest extends PHPUnit_Framework_TestCase {
 
