@@ -76,19 +76,9 @@ class Babel {
 			$showfooter = '! class="mw-babel-footer" | [[' .
 				$url->text() . '|' . $footer->text() . ']]';
 		}
-		$spacing = self::mCssAttrib( 'border-spacing', 'babel-box-cellspacing', true );
-		$padding = self::mCssAttrib( 'padding', 'babel-box-cellpadding', true );
-
-		if ( $spacing === '' ) {
-			$style = ( $padding === '' ) ? '' : ( 'style="' . $padding . '"' );
-		} else {
-			$style = ( $padding === '' ) ?
-				'style="' . $spacing . '"' :
-				'style="' . $padding . ' ' . $spacing . '"';
-		}
 
 		$tower = <<<EOT
-{|$style class="mw-babel-wrapper"
+{|class="mw-babel-wrapper"
 $top
 |-
 | $content
@@ -284,34 +274,6 @@ EOT;
 		$return['level'] = $level;
 
 		return $return;
-	}
-
-	/**
-	 * Determine a CSS attribute, such as "border-spacing", from a localizeable message.
-	 *
-	 * @param string $name Name of CSS attribute.
-	 * @param string $key Message key of attribute value.
-	 * @param bool $assumeNumbersArePixels If true, treat numbers values as pixels;
-	 *  otherwise, keep values as is (default: false).
-	 * @todo Move this function to a more appropriate place, likely outside the class.
-	 * @return Message|string
-	 */
-	public static function mCssAttrib( $name, $key, $assumeNumbersArePixels = false ) {
-		$value = wfMessage( $key )->inContentLanguage();
-		if ( $value->isDisabled() ) {
-			$value = '';
-		} else {
-			$value = htmlentities( $value->text(), ENT_COMPAT, 'UTF-8' );
-			if ( $assumeNumbersArePixels && is_numeric( $value ) && $value !== "0" ) {
-				// Compatibility: previous babel-box-cellpadding and
-				// babel-box-cellspacing entries were in HTML, not CSS
-				// and so used numbers without unity as pixels.
-				$value .= 'px';
-			}
-			$value = ' ' . $name . ': ' . $value . ';';
-		}
-
-		return $value;
 	}
 
 	/**

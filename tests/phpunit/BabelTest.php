@@ -112,8 +112,7 @@ class BabelTest extends MediaWikiTestCase {
 		$parser = $this->getParser( $title );
 		$wikiText = Babel::Render( $parser, '' );
 		$this->assertSame(
-			'{|style=" padding: (babel-box-cellpadding);  border-spacing: (babel-box-cellspacing);"'
-			. ' class="mw-babel-wrapper"'
+			'{|class="mw-babel-wrapper"'
 			. "\n"
 			. '! class="mw-babel-header" | [[(babel-url)|(babel: User-1)]]'
 			. "\n|-\n| \n|-\n"
@@ -143,7 +142,7 @@ class BabelTest extends MediaWikiTestCase {
 		$this->assertContains(
 			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
 			. "\n"
-			. '{|style=" padding: (babel-cellpadding);  border-spacing: (babel-cellspacing);"'
+			. '{|'
 			. "\n"
 			. '! dir="ltr" | [[(babel-portal: en)|en]]<span class="mw-babel-box-level-N">-N</span>'
 			. "\n"
@@ -170,7 +169,7 @@ class BabelTest extends MediaWikiTestCase {
 		$this->assertContains(
 			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
 			. "\n"
-			. '{|style=" padding: (babel-cellpadding);  border-spacing: (babel-cellspacing);"'
+			. '{|'
 			. "\n"
 			. '! dir="ltr" | [[(babel-portal: en)|en]]<span class="mw-babel-box-level-N">-N</span>'
 			. "\n"
@@ -192,7 +191,7 @@ class BabelTest extends MediaWikiTestCase {
 		$this->assertContains(
 			'<div class="mw-babel-box mw-babel-box-1" dir="ltr">'
 			. "\n"
-			. '{|style=" padding: (babel-cellpadding);  border-spacing: (babel-cellspacing);"'
+			. '{|'
 			. "\n"
 			. '! dir="ltr" | [[(babel-portal: en)|en]]<span class="mw-babel-box-level-1">-1</span>'
 			. "\n"
@@ -209,7 +208,7 @@ class BabelTest extends MediaWikiTestCase {
 		$this->assertContains(
 			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
 			. "\n"
-			. '{|style=" padding: (babel-cellpadding);  border-spacing: (babel-cellspacing);"'
+			. '{|'
 			. "\n"
 			. '! dir="ltr" | [[(babel-portal: zh-Hant)|zh-Hant]]'
 			. '<span class="mw-babel-box-level-N">-N</span>'
@@ -231,7 +230,7 @@ class BabelTest extends MediaWikiTestCase {
 		$this->assertSame(
 			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
 			. "\n"
-			. '{|style=" padding: (babel-cellpadding);  border-spacing: (babel-cellspacing);"'
+			. '{|'
 			. "\n"
 			. '! dir="ltr" | [[(babel-portal: en)|en]]<span class="mw-babel-box-level-N">-N</span>'
 			. "\n"
