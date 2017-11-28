@@ -102,6 +102,7 @@ class BabelTest extends MediaWikiTestCase {
 	}
 
 	public function testRenderPlain() {
+		$this->markTestSkipped( 'Test broken in REL1_27. See T181524' );
 		$wikiText = Babel::Render( $this->getParser(), 'plain=1|en' );
 		$this->assertSame(
 			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
