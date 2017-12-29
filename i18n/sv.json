@@ -36,5 +36,8 @@
 	"babel-N-n": "Den här användaren har [[$2|svenska]] som [[$1|modersmål]].",
 	"babel-template": "Template:Användare $1",
 	"babel-footer": "Användare efter språk",
-	"apihelp-query+babel-param-user": "Användare att hämta information om"
+	"apihelp-query+babel-description": "Hämta information om vilka språk användaren kan",
+	"apihelp-query+babel-summary": "Hämta information om vilka språk användaren kan",
+	"apihelp-query+babel-param-user": "Användare att hämta information om",
+	"apihelp-query+babel-example-1": "Hämta Babel-information för användaren <kbd>Example</kbd>"
 }
