@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Giromin Cangiaxo"
+			"Giromin Cangiaxo",
+			"S4b1nuz E.656"
 		]
 	},
 	"babel": "Babel utente",
@@ -11,21 +12,21 @@
 	"babel-autocreate-reason": "Creo aotomaticamente a pagina da categoria [[$1|Babel]].",
 	"babel-autocreate-text-levels": "I utenti inte questa categoria indican ch'ariescian a comunicâ in $2 co-in livello de conoscensa $1.",
 	"babel-autocreate-text-main": "I utenti inte sta categoria indican o so livello de conoscensa in $1.",
-	"babel-0": "St'utente o [[$1|o no l'acapisce]] o [[$2|$3]] (ò o l'acapisce con benben de difficurtæ).",
-	"babel-1": "St'utente ô l'è 'n [[$1|prinçipiante]] de [[$2|$3]].",
-	"babel-2": "St'utente o conosce o [[$2|$3]] a un livello [[$1|mezan]] .",
-	"babel-3": "St'utente o conosce o [[$2|$3]] a 'n livello [[$1|avançou]] .",
-	"babel-4": "St'utente o parla [[$2|$3]] quæxi [[$1|comme ûn d'o paize]].",
-	"babel-5": "St'utente o conosce o [[$2|$3]] a 'n livello [[$1|profescionâ]].",
-	"babel-N": "St'utente o [[$2|$3]] o l'ha [[$1|teto'n fascioeua]].",
-	"babel-0-n": "St'utente o [[$1|no l'acapisce]] o [[$2|ligure]] (ò o l'acapisce con benben de difficurtæ).",
-	"babel-1-n": "St'utente o g'ha 'na conoscensa do [[$2|ligure]] [[$1|elementâ]].",
-	"babel-2-n": "St'utente o conosce o [[$2|ligure]] a un livello [[$1|mezan]].",
-	"babel-3-n": "St'utente o conosce o [[$2|ligure]] a un livello [[$1|avançou]].",
-	"babel-4-n": "St'utente o parla [[$2|ligure]] [[$1|squæxi comme-un do paize]].",
-	"babel-5-n": "St'utente o conosce o [[$2|ligure]] a 'n livello [[$1|profescionâ]].",
-	"babel-N-n": "St'utente o [[$2|liggure]] o l'ha [[$1|teto'n fascioeua]].",
-	"babel-footer": "Utenti pe lengua",
+	"babel-0": "Quésto uténte o [[$1|no l'é in gràddo de comunicâ]] in [[$2|$3]] (ò o capisce solo con tanta dificoltæ).",
+	"babel-1": "Quésto uténte chi o pêu contriboî con un livéllo [[$1|elementâre]] in [[$2|$3]].",
+	"babel-2": "Quésto uténte chi o pêu contriboî con un livéllo [[$1|intermedio]] in [[$2|$3]].",
+	"babel-3": "Quésto uténte chi o pêu contriboî con un livéllo [[$1|avansòu]] in [[$2|$3]].",
+	"babel-4": "Quésto uténte chi o pêu contriboî con un livéllo [[$1|squæxi madreléngoa]] in [[$2|$3]].",
+	"babel-5": "Quésto uténte chi o pêu contriboî con un livéllo [[$1|profescionâle]] in [[$2|$3]].",
+	"babel-N": "Quésto uténte chi o pêu contriboî con un livéllo de [[$1|madreléngoa]] in [[$2|$3]].",
+	"babel-0-n": "Quésto uténte o [[$1|no l'é in gràddo de comunicâ]] in [[$2|lìgure]] (ò o capisce solo con tanta dificoltæ).",
+	"babel-1-n": "Quésto uténte chi o pêu contriboî con un livéllo [[$1|elementâre]] in [[$2|lìgure]].",
+	"babel-2-n": "Quésto uténte chi o pêu contriboî con un livéllo [[$1|intermedio]] in [[$2|lìgure]].",
+	"babel-3-n": "Quésto uténte chi o pêu contriboî con un livéllo [[$1|avansòu]] in [[$2|lìgure]].",
+	"babel-4-n": "Quésto uténte chi o pêu contriboî con un livéllo [[$1|squæxi madreléngoa]] in [[$2|lìgure]].",
+	"babel-5-n": "Quésto uténte chi o pêu contriboî con un livéllo [[$1|profescionâle]] in [[$2|lìgure]].",
+	"babel-N-n": "Quésto uténte chi o pêu contriboî con un livéllo de [[$1|madreléngoa]] in [[$2|lìgure]].",
+	"babel-footer": "Uténti pe léngoa",
 	"apihelp-query+babel-description": "Otegni informaçioin insce quæ lengue l'utente o conosce",
 	"apihelp-query+babel-param-user": "Utente in sciô quæ otegnî informaçioin",
 	"apihelp-query+babel-example-1": "Otegni informaçioin Babel pe l'utente <kbd>Example</kbd>"
