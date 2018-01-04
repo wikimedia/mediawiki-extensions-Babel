@@ -20,7 +20,8 @@
 
 namespace MediaWiki\Babel;
 
-use LoadBalancer;
+use Wikimedia\Rdbms\IDatabase;
+use Wikimedia\Rdbms\LoadBalancer;
 
 class Database {
 
@@ -35,7 +36,7 @@ class Database {
 
 	/**
 	 * @param int $index
-	 * @return \IDatabase
+	 * @return IDatabase
 	 */
 	protected function getDB( $index ) {
 		return $this->loadBalancer->getLazyConnectionRef( $index );
