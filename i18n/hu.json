@@ -30,7 +30,8 @@
 	"babel-5-n": "Ez a szerkesztő [[$1|professzionális]] szinten beszéli a [[$2|magyar]] nyelvet.",
 	"babel-N-n": "Ennek a szerkesztőnek [[$2|magyar]] az [[$1|anyanyelve]].",
 	"babel-footer": "Szerkesztők nyelvek szerint",
-	"apihelp-query+babel-description": "Információk arról, hogy egy adott felhasználó milyen nyelveken beszél.",
+	"apihelp-query+babel-description": "Információk lekérése a felhasználó által beszélt nyelvekről",
+	"apihelp-query+babel-summary": "Információk lekérése a felhasználó által beszélt nyelvekről",
 	"apihelp-query+babel-param-user": "Lekérdezendő felhasználó",
 	"apihelp-query+babel-example-1": "Bábel-információk lekérése <kbd>Example</kbd>-ről"
 }
