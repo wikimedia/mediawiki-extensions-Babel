@@ -6,7 +6,8 @@
 			"Kaustubh",
 			"Pooja.srivastava",
 			"Siddhartha Ghai",
-			"Sfic"
+			"Sfic",
+			"Innocentbunny"
 		]
 	},
 	"babel": "बेबल सदस्य जानकारी",
@@ -34,6 +35,7 @@
 	"babel-template": "Template:सदस्य $1",
 	"babel-footer": "भाषा अनुसार सदस्य",
 	"apihelp-query+babel-description": "सदस्य कितनी भाषाओं को जानता है, इस बारे में जानकारी लें",
+	"apihelp-query+babel-summary": "उपयोक्ता द्वारा ज्ञात भाषाओँ की सूचना अर्जित करें",
 	"apihelp-query+babel-param-user": "सदस्य के बारे में जानकारी लें",
 	"apihelp-query+babel-example-1": "सदस्य <kbd>उदाहरण</kbd> के बारे में बबेल जानकारी लें"
 }
