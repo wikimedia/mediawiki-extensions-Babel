@@ -7,7 +7,7 @@
 		"Language"
 	],
 	"homepage": "https://www.mediawiki.org/wiki/Extension:Babel",
-	"license": "GPL-2.0+",
+	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
 			"name": "Robert Leverington",
