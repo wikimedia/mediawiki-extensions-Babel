@@ -28,5 +28,6 @@
 	"babel-4-n": "Šis lietotājs [[$2|latviešu valodu]] pārzina [[$1|gandrīz kā dzimto valodu]].",
 	"babel-5-n": "Šis lietotājs [[$2|latviešu valodu]] pārzina [[$1|profesionālā]] līmenī.",
 	"babel-N-n": "Šim lietotājam [[$2|latviešu valoda]] ir [[$1|dzimtā valoda]].",
-	"babel-footer": "Lietotāji pēc valodas"
+	"babel-footer": "Lietotāji pēc valodas",
+	"apihelp-query+babel-param-user": "Lietotājs, par ko iegūt informāciju"
 }
