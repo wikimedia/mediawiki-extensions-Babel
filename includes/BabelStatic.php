@@ -28,7 +28,7 @@ class BabelStatic {
 	 * @param DatabaseUpdater $updater
 	 */
 	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
-		$updater->addExtensionTable( 'babel', __DIR__ . '/babel.sql' );
+		$updater->addExtensionTable( 'babel', __DIR__ . '/../babel.sql' );
 	}
 
 	/**

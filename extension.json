@@ -22,16 +22,16 @@
 		"BabelMagic": "Babel.i18n.magic.php"
 	},
 	"AutoloadClasses": {
-		"Babel": "Babel.class.php",
-		"BabelLanguageCodes": "BabelLanguageCodes.class.php",
-		"BabelStatic": "BabelStatic.class.php",
-		"BabelAutoCreate": "BabelAutoCreate.class.php",
+		"Babel": "includes/Babel.php",
+		"BabelLanguageCodes": "includes/BabelLanguageCodes.php",
+		"BabelStatic": "includes/BabelStatic.php",
+		"BabelAutoCreate": "includes/BabelAutoCreate.php",
 		"MediaWiki\\Babel\\ApiQueryBabel": "includes/ApiQueryBabel.php",
 		"MediaWiki\\Babel\\Database": "includes/Database.php",
-		"MediaWiki\\Babel\\BabelBox\\BabelBox": "BabelBox/BabelBox.php",
-		"MediaWiki\\Babel\\BabelBox\\LanguageBabelBox": "BabelBox/LanguageBabelBox.php",
-		"MediaWiki\\Babel\\BabelBox\\NotBabelBox": "BabelBox/NotBabelBox.php",
-		"MediaWiki\\Babel\\BabelBox\\NullBabelBox": "BabelBox/NullBabelBox.php"
+		"MediaWiki\\Babel\\BabelBox\\BabelBox": "includes/BabelBox/BabelBox.php",
+		"MediaWiki\\Babel\\BabelBox\\LanguageBabelBox": "includes/BabelBox/LanguageBabelBox.php",
+		"MediaWiki\\Babel\\BabelBox\\NotBabelBox": "includes/BabelBox/NotBabelBox.php",
+		"MediaWiki\\Babel\\BabelBox\\NullBabelBox": "includes/BabelBox/NullBabelBox.php"
 	},
 	"APIMetaModules": {
 		"babel": "MediaWiki\\Babel\\ApiQueryBabel"

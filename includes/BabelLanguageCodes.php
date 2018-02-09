@@ -39,7 +39,7 @@ class BabelLanguageCodes {
 		// Otherwise, fall back to the ISO 639 codes database
 		$codes = false;
 		try {
-			$codesCdb = Cdb\Reader::open( __DIR__ . '/codes.cdb' );
+			$codesCdb = Cdb\Reader::open( __DIR__ . '/../codes.cdb' );
 			$codes = $codesCdb->get( $code );
 		} catch ( Cdb\Exception $e ) {
 			wfDebug( __METHOD__ . ": CdbException caught, error message was "
@@ -75,7 +75,7 @@ class BabelLanguageCodes {
 
 		$codes = false;
 		try {
-			$namesCdb = Cdb\Reader::open( __DIR__ . '/names.cdb' );
+			$namesCdb = Cdb\Reader::open( __DIR__ . '/../names.cdb' );
 			$codes = $namesCdb->get( $code );
 		} catch ( Cdb\Exception $e ) {
 			wfDebug( __METHOD__ . ": CdbException caught, error message was "
