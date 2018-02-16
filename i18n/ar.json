@@ -31,8 +31,8 @@
 	"babel-5-n": "{{GENDER:{{PAGENAME}}|هذا المستخدم لديه|هذه المستخدمة لديها}} معرفة [[$1|احترافية]] ب[[$2|العربية]].",
 	"babel-N-n": "{{GENDER:{{PAGENAME}}|هذا المستخدم|هذه المستخدمة}} [[$1|{{GENDER:{{PAGENAME}}|لغته|لغتها}} الأم]] هي [[$2|العربية]].",
 	"babel-footer": "المستخدمون حسب اللغة",
-	"apihelp-query+babel-description": "الحصول على معلومات حول أي اللغات يعرفها المستخدم",
-	"apihelp-query+babel-summary": "الحصول على معلومات حول أي اللغات يعرفها المستخدم.",
-	"apihelp-query+babel-param-user": "المستخدم للحصول على المعلومات عنه",
-	"apihelp-query+babel-example-1": "الحصول على معلومات بابل للمستخدم <kbd>Example</kbd>"
+	"apihelp-query+babel-description": "الحصول على معلومات حول اللغات التي يعرفها المستخدم",
+	"apihelp-query+babel-summary": "الحصول على معلومات حول اللغات التي يعرفها المستخدم.",
+	"apihelp-query+babel-param-user": "المستخدم المطلوب الحصول على المعلومات عنه",
+	"apihelp-query+babel-example-1": "الحصول على معلومات بابل للمستخدم <kbd>مثال</kbd>"
 }
