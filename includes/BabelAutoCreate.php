@@ -41,47 +41,38 @@ class BabelAutoCreate {
 		if ( $title === null || $title->exists() ) {
 			return;
 		}
-		global $wgLanguageCode;
-		$language = BabelLanguageCodes::getName( $code, $wgLanguageCode );
-		$params = [ $language, $code ];
-		if ( $level === null ) {
-			$text = wfMessage( 'babel-autocreate-text-main', $params )->inContentLanguage()->text();
-		} else {
-			array_unshift( $params, $level );
-			$text = wfMessage( 'babel-autocreate-text-levels', $params )->inContentLanguage()->text();
-		}
+		DeferredUpdates::addCallableUpdate( function () use ( $category, $code, $level, $title ) {
+			global $wgLanguageCode;
+			$language = BabelLanguageCodes::getName( $code, $wgLanguageCode );
+			$params = [ $language, $code ];
+			if ( $level === null ) {
+				$text = wfMessage( 'babel-autocreate-text-main', $params )->inContentLanguage()->text();
+			} else {
+				array_unshift( $params, $level );
+				$text = wfMessage( 'babel-autocreate-text-levels', $params )->inContentLanguage()->text();
+			}
 
-		$user = self::user();
-		# Do not add a message if the username is invalid or if the account that adds it, is blocked
-		if ( !$user || $user->isBlocked() ) {
-			return;
-		}
+			$user = self::user();
+			# Do not add a message if the username is invalid or if the account that adds it, is blocked
+			if ( !$user || $user->isBlocked() ) {
+				return;
+			}
 
-		if ( !$title->quickUserCan( 'create', $user ) ) {
-			return; # The Babel AutoCreate account is not allowed to create the page
-		}
+			if ( !$title->quickUserCan( 'create', $user ) ) {
+				return; # The Babel AutoCreate account is not allowed to create the page
+			}
 
-		/* $article->doEdit will call $wgParser->parse.
-		 * Calling Parser::parse recursively is baaaadd... (bug 29245)
-		 * @todo FIXME: surely there is a better way?
-		 */
-		global $wgParser, $wgParserConf;
-		$oldParser = $wgParser;
-		$parserClass = $wgParserConf['class'];
-		$wgParser = new $parserClass( $wgParserConf );
+			$url = wfMessage( 'babel-url' )->inContentLanguage()->plain();
+			$article = new WikiPage( $title );
 
-		$url = wfMessage( 'babel-url' )->inContentLanguage()->plain();
-		$article = new WikiPage( $title );
-
-		$article->doEditContent(
-			ContentHandler::makeContent( $text, $title ),
-			wfMessage( 'babel-autocreate-reason', $url )->inContentLanguage()->text(),
-			EDIT_FORCE_BOT,
-			false,
-			$user
-		);
-
-		$wgParser = $oldParser;
+			$article->doEditContent(
+				ContentHandler::makeContent( $text, $title ),
+				wfMessage( 'babel-autocreate-reason', $url )->inContentLanguage()->text(),
+				EDIT_FORCE_BOT,
+				false,
+				$user
+			);
+		} );
 	}
 
 	/**
