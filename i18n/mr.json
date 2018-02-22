@@ -6,7 +6,8 @@
 			"Mahitgar",
 			"Pravins",
 			"Rahuldeshmukh101",
-			"V.narsikar"
+			"V.narsikar",
+			"Sureshkhole"
 		]
 	},
 	"babel": "बॅबेल सदस्य माहिती",
@@ -32,6 +33,7 @@
 	"babel-N-n": "या सदस्याला [[$2|मराठी]] चे [[$1|स्थानिक स्तराचे]] ज्ञान आहे.",
 	"babel-footer": "भाषेनुसार सदस्य",
 	"apihelp-query+babel-description": "सदस्य कोणती भाषा जाणतो याबद्दल माहिती मिळवा",
+	"apihelp-query+babel-summary": "सदस्य कोणती भाषा जाणतो याबद्दल माहिती मिळवा",
 	"apihelp-query+babel-param-user": "सदस्याने ही माहिती प्राप्त करावी",
 	"apihelp-query+babel-example-1": "<kbd>उदाहरण</kbd>या सदस्याबद्दलची बॅबेल माहिती मिळवा"
 }
