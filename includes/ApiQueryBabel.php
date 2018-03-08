@@ -37,11 +37,7 @@ class ApiQueryBabel extends ApiQueryBase {
 		$userName = $params['user'];
 		$user = User::newFromName( $userName );
 		if ( !$user || !$user->getId() ) {
-			if ( is_callable( [ $this, 'dieWithError' ] ) ) {
-				$this->dieWithError( [ 'nosuchusershort', wfEscapeWikiText( $userName ) ], 'baduser' );
-			} else {
-				$this->dieUsage( 'User does not exist', 'baduser' );
-			}
+			$this->dieWithError( [ 'nosuchusershort', wfEscapeWikiText( $userName ) ], 'baduser' );
 			return;
 		}
 
