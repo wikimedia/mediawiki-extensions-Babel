@@ -9,7 +9,7 @@ use BabelLanguageCodes;
  *
  * @group Babel
  *
- * @licence GNU GPL v2+
+ * @license GNU GPL v2+
  * @author Thiemo Kreuz
  */
 class BabelLanguageCodesTest extends \PHPUnit\Framework\TestCase {
