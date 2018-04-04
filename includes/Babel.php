@@ -340,7 +340,8 @@ EOT;
 	/**
 	 * Gets only the languages codes list out of the user language info.
 	 *
-	 * @param string[] [ language code => level ], the return value of getUserLanguageInfo.
+	 * @param string[] $languageInfo [ language code => level ], the return value of
+	 *   getUserLanguageInfo.
 	 * @param string $level Minimal level as given in $wgBabelCategoryNames
 	 * @return string[] List of language codes
 	 *
