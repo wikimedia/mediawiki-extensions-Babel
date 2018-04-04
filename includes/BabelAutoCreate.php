@@ -18,7 +18,7 @@
  */
 class BabelAutoCreate {
 	/**
-	 * @var User
+	 * @var User|false
 	 */
 	protected static $user = false;
 
