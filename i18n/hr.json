@@ -4,7 +4,8 @@
 			"Ex13",
 			"Herr Mlinka",
 			"Conquistador",
-			"Bugoslav"
+			"Bugoslav",
+			"MaGa"
 		]
 	},
 	"babel": "Babilonske suradničke informacije",
@@ -28,5 +29,5 @@
 	"babel-4-n": "{{GENDER:$4|Ovaj suradnik|Ova suradnica}} poznaje [[$2|hrvatski jezik]] [[$1|gotovo kao izvorni govornik]].",
 	"babel-5-n": "{{GENDER:$4|Ovaj suradnik|Ova suradnica}} posjeduje [[$1|profesionalno]] znanje [[$2|hrvatskog jezika]].",
 	"babel-N-n": "{{GENDER:$4|Ovaj suradnik|Ova suradnica}} govori [[$2|hrvatski]] kao [[$1|materinski jezik]].",
-	"babel-footer": "suradnici po jeziku"
+	"babel-footer": "Suradnici prema jeziku"
 }
