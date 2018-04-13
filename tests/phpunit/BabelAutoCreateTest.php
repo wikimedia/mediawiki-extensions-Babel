@@ -14,7 +14,7 @@ use WikiPage;
  * @group Babel
  * @group Database
  *
- * @license GNU GPL v2+
+ * @license GPL-2.0-or-later
  * @author Thiemo Kreuz
  */
 class BabelAutoCreateTest extends MediaWikiTestCase {
