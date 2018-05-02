@@ -36,6 +36,15 @@ class BabelTest extends MediaWikiTestCase {
 		] );
 		$user = User::newFromName( 'User-1' );
 		$user->addToDatabase();
+
+		// Avoid auto-creation of categories, since that may cause recursive parser invocation.
+		$this->createCategoryPage( 'en' );
+		$this->createCategoryPage( 'en-1' );
+		$this->createCategoryPage( 'es' );
+		$this->createCategoryPage( 'es-2' );
+		$this->createCategoryPage( 'de' );
+		$this->createCategoryPage( 'de-N' );
+
 		$title = $user->getUserPage();
 		$this->insertPage( $title->getPrefixedText(), '{{#babel:en-1|es-2|de}}' );
 		// Test on a category page too (
@@ -45,6 +54,16 @@ class BabelTest extends MediaWikiTestCase {
 		$updates = $page->getContent()->getSecondaryDataUpdates( $title );
 		foreach ( $updates as $update ) {
 			$update->doUpdate();
+		}
+	}
+
+	/**
+	 * @param string $name
+	 */
+	private function createCategoryPage( $name ) {
+		$category = Title::makeTitle( NS_CATEGORY, $name );
+		if ( !$category->exists() ) {
+			$this->insertPage( $category, 'Test dummy' );
 		}
 	}
 
