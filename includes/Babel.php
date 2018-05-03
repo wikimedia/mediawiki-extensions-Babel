@@ -432,7 +432,7 @@ EOT;
 		] );
 		$logger->debug( 'Making request to {url}', [ 'url' => $url ] );
 		$req = MWHttpRequest::factory( $url, [ 'timeout' => 10 ], __METHOD__ );
-		$status = $req->execute();
+		$status = Status::wrap( $req->execute() );
 		if ( !$status->isOK() ) {
 			$logger->error( 'Request to {url} failed: {error}',
 				[ 'url' => $url, 'error' => $status->getWikiText( false, false, 'en' ) ]
