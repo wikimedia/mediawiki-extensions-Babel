@@ -405,7 +405,8 @@ EOT;
 
 		$babelDB = new MediaWiki\Babel\Database();
 		$result = $babelDB->getForUser( $user->getId() );
-		// If local data or no central source, return
+		/** If local data or no central source, return */
+		/** @suppress PhanTypeComparisonFromArray false positive */
 		if ( $result || !$wgBabelCentralApi || !$wgBabelCentralDb ) {
 			return $result;
 		}
