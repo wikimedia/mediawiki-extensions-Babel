@@ -55,7 +55,7 @@ class BabelLanguageCodes {
 	 * else via the Babel language names CDB
 	 *
 	 * @param string $code Code to get name for.
-	 * @param string $language Code of language to attempt to get name in,
+	 * @param string|null $language Code of language to attempt to get name in,
 	 *  defaults to language of code.
 	 * @return string|bool Name of language, or false for invalid language code.
 	 */

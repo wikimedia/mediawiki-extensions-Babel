@@ -377,7 +377,7 @@ EOT;
 	 * Gets the cached list of languages a user has set up with Babel.
 	 *
 	 * @param User $user
-	 * @param string $level Minimal level as given in $wgBabelCategoryNames
+	 * @param string|null $level Minimal level as given in $wgBabelCategoryNames
 	 * @return string[] List of language codes
 	 *
 	 * @since Version 1.10.0
@@ -391,7 +391,7 @@ EOT;
 	 * For performance it is recommended to use getCachedUserLanguages.
 	 *
 	 * @param User $user
-	 * @param string $level Minimal level as given in $wgBabelCategoryNames
+	 * @param string|null $level Minimal level as given in $wgBabelCategoryNames
 	 * @return string[] List of language codes
 	 *
 	 * @since Version 1.9.0
