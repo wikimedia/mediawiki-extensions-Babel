@@ -57,7 +57,7 @@ class LanguageBabelBox implements BabelBox {
 	 */
 	public function __construct( Title $title, $code, $level, $createCategories = true ) {
 		$this->title = $title;
-		$this->code = wfBCP47( $code );
+		$this->code = BabelLanguageCodes::bcp47( $code );
 		$this->level = $level;
 		$this->createCategories = $createCategories;
 	}

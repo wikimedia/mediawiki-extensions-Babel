@@ -114,7 +114,7 @@ EOT;
 
 	private static function setExtensionData( ParserOutput $parserOutput, $code, $level ) {
 		$data = $parserOutput->getExtensionData( 'babel' ) ?: [];
-		$data[wfBCP47( $code )] = $level;
+		$data[ BabelLanguageCodes::bcp47( $code ) ] = $level;
 		$parserOutput->setExtensionData( 'babel', $data );
 	}
 
