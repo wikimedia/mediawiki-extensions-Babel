@@ -40,6 +40,7 @@
 .mw-babel-box table {
 	border-spacing: 0;
 	width: 100%;
+	margin: 0 !important; /* stylelint-disable-line declaration-no-important */
 }
 
 .mw-babel-box th {
