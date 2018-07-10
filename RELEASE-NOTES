@@ -1,0 +1,5 @@
+== Babel 2018.07 ==
+Released at 2018-07-10.
+
+=== Noteworthy changes ===
+* Fixed Mobileview (T178782)
