@@ -121,13 +121,15 @@ EOT;
 		// collects name=value parameters to be passed to wiki templates.
 		$templateParameters = [];
 
+		$generateCategories = !preg_match( '/^nocat\s*=\s*\S/', reset( $parameters ) );
+
 		foreach ( $parameters as $name ) {
 			if ( strpos( $name, '=' ) !== false ) {
 				$templateParameters[] = $name;
 				continue;
 			}
 
-			$content .= self::mGenerateContent( $parser, $name, $templateParameters );
+			$content .= self::mGenerateContent( $parser, $name, $templateParameters, $generateCategories );
 		}
 
 		return $content;
@@ -147,15 +149,17 @@ EOT;
 	 * @param Parser $parser
 	 * @param string $name
 	 * @param string[] $templateParameters
-	 *
+	 * @param bool $generateCategories Whether to add categories
 	 * @return string Wikitext
 	 */
 	private static function mGenerateContent(
 		Parser $parser,
 		string $name,
-		array $templateParameters
+		array $templateParameters,
+		bool $generateCategories
 	): string {
 		$components = self::mParseParameter( $name );
+
 		$template = wfMessage( 'babel-template', $name )->inContentLanguage()->text();
 		$parserOutput = $parser->getOutput();
 
@@ -203,8 +207,9 @@ EOT;
 				$template
 			);
 		}
-
-		$box->addCategories( $parserOutput );
+		if ( $generateCategories ) {
+			$box->addCategories( $parserOutput );
+		}
 
 		return $box->render();
 	}
