@@ -12,28 +12,68 @@
  * be used by other extension which need such functionality.
  */
 class BabelLanguageCodes {
+
+	static private $mapToMediaWikiCodeCache = null;
+	/**
+	 * Map BCP 47 codes or old deprecated internal codes to current MediaWiki
+	 * internal codes (which may not be standard BCP 47 codes).
+	 *
+	 * @param string $code Code to try and get an internal code for
+	 * @return string|bool Language code, or false if code is not mapped
+	 * @suppress PhanUndeclaredStaticMethod phan can't figure out we're
+	 *  testing for a method present in a future MediaWiki release
+	 */
+	private static function mapToMediaWikiCode( $code ) {
+		if ( !self::$mapToMediaWikiCodeCache ) {
+			self::$mapToMediaWikiCodeCache = [];
+			// Is the code a proper BCP 47 code for one of MediaWiki's nonstandard codes?
+			// If so, return the internal MediaWiki code.
+			if ( method_exists( 'LanguageCode', 'getNonstandardLanguageCodeMapping' ) ) {
+				$mapping = LanguageCode::getNonstandardLanguageCodeMapping();
+				foreach ( $mapping as $mwCode => $bcp47code ) {
+					// Careful, because the nonstandardlanguagecodemapping
+					// also maps deprecated codes to bcp-47 equivalents; we
+					// don't want to return a deprecated code.
+					self::$mapToMediaWikiCodeCache[ strtolower( $bcp47code ) ] =
+						LanguageCode::replaceDeprecatedCodes( $mwCode );
+				}
+			}
+			// Is the code one of MediaWiki's legacy fake codes? If so, return the modern
+			// equivalent code (T101086)
+			if ( method_exists( 'LanguageCode', 'getDeprecatedCodeMapping' ) ) {
+				$mapping = LanguageCode::getDeprecatedCodeMapping();
+				foreach ( $mapping as $deprecatedCode => $mwCode ) {
+					self::$mapToMediaWikiCodeCache[ strtolower( $deprecatedCode ) ] =
+						$mwCode;
+				}
+			}
+		}
+		if ( isset( self::$mapToMediaWikiCodeCache[ strtolower( $code ) ] ) ) {
+			return self::$mapToMediaWikiCodeCache[ strtolower( $code ) ];
+		}
+		return false;
+	}
+
 	/**
 	 * Takes a language code, and attempt to obtain a better variant of it,
 	 * checks the MediaWiki language codes for a match, otherwise checks the
 	 * Babel language codes CDB (preferring ISO 639-1 over ISO 639-3).
 	 *
 	 * @param string $code Code to try and get a "better" code for.
-	 * @return string|bool Language code, or false for invalid language code.
+	 * @return string|bool Mediawiki-internal language code, or false
+	 *   for invalid language code.
 	 */
 	public static function getCode( $code ) {
-		// Is the code one of MediaWiki's legacy fake codes? If so, return the modern
-		// equivalent code (T101086)
-		if ( method_exists( 'LanguageCode', 'getDeprecatedCodeMapping' ) ) {
-			$mapping = LanguageCode::getDeprecatedCodeMapping();
-			if ( isset( $mapping[strtolower( $code )] ) ) {
-				return $mapping[strtolower( $code )];
-			}
+		// Map BCP 47 codes and/or deprecated codes to internal MediaWiki codes
+		$mediawiki = self::mapToMediaWikiCode( $code );
+		if ( $mediawiki !== false ) {
+			return $mediawiki;
 		}
 
 		// Is the code known to MediaWiki?
 		$mediawiki = Language::fetchLanguageName( $code );
 		if ( $mediawiki !== '' ) {
-			return $code;
+			return strtolower( $code );
 		}
 
 		// Otherwise, fall back to the ISO 639 codes database
@@ -96,5 +136,26 @@ class BabelLanguageCodes {
 		}
 
 		return $codes;
+	}
+
+	/**
+	 * Return an appropriate category name, given a MediaWiki-internal
+	 * language code.  MediaWiki-internal codes are all-lowercase, but
+	 * historically our category codes have been partially uppercase
+	 * in the style of BCP 47.  Eventually we should probably use true
+	 * BCP 47 for category names, but historically we've had internal
+	 * codes like `simple` which we don't want to rename to `en-simple`
+	 * quite yet.
+	 *
+	 * @param string $code MediaWiki-internal code.
+	 * @return string A backwards-compatible category name for this code.
+	 * @since 1.32
+	 */
+	public static function getCategoryCode( $code ) {
+		if ( strpos( $code, '-' ) !== false ) {
+			return self::bcp47( $code );
+		} else {
+			return $code;
+		}
 	}
 }

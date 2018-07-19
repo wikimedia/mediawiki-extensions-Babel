@@ -114,7 +114,7 @@ EOT;
 
 	private static function setExtensionData( ParserOutput $parserOutput, $code, $level ) {
 		$data = $parserOutput->getExtensionData( 'babel' ) ?: [];
-		$data[ BabelLanguageCodes::bcp47( $code ) ] = $level;
+		$data[ BabelLanguageCodes::getCategoryCode( $code ) ] = $level;
 		$parserOutput->setExtensionData( 'babel', $data );
 	}
 
@@ -485,7 +485,8 @@ EOT;
 				// lowercase the first char, but stay away from the others in case of region codes
 				$code = BabelLanguageCodes::getCode( lcfirst( $match[1] ) );
 				if ( $code !== false ) {
-					$result[$code] = isset( $match[3] ) ? $match[3] : 'N';
+					$catCode = BabelLanguageCodes::getCategoryCode( $code );
+					$result[$catCode] = isset( $match[3] ) ? $match[3] : 'N';
 				}
 			}
 		}
