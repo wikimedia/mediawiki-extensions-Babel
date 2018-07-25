@@ -3,7 +3,6 @@
 namespace Babel\Tests;
 
 use BabelAutoCreate;
-use Language;
 use MediaWikiTestCase;
 use Title;
 use WikiPage;
@@ -22,9 +21,7 @@ class BabelAutoCreateTest extends MediaWikiTestCase {
 	protected function setUp() {
 		parent::setUp();
 
-		$this->setMwGlobals( [
-			'wgContLang' => Language::factory( 'qqx' ),
-		] );
+		$this->setContentLang( 'qqx' );
 	}
 
 	public function testOnUserGetReservedNames() {

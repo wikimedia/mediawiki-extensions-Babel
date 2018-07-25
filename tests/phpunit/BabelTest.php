@@ -3,7 +3,6 @@
 namespace Babel\Tests;
 
 use Babel;
-use Language;
 use MediaWikiTestCase;
 use Parser;
 use ParserOptions;
@@ -26,8 +25,8 @@ class BabelTest extends MediaWikiTestCase {
 	protected function setUp() {
 		parent::setUp();
 
+		$this->setContentLang( 'qqx' );
 		$this->setMwGlobals( [
-			'wgContLang' => Language::factory( 'qqx' ),
 			// Note that individual tests will change this
 			'wgBabelUseDatabase' => true,
 			'wgBabelCentralApi' => false,
