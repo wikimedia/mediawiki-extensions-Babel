@@ -28,6 +28,7 @@
 	"babel-N-n": "St'utente è de [[$1|madrelèngua]] [[$2|napulitana]].",
 	"babel-footer": "Utente pe' lengua",
 	"apihelp-query+babel-description": "Piglia nfurmaziune ncopp' 'e llengue ca sapesse l'utente",
+	"apihelp-query+babel-summary": "Piglia 'e nfurmaziune ncopp' 'e llengue ca l'utente canosce",
 	"apihelp-query+babel-param-user": "Utente a se piglià nfurmaziune",
 	"apihelp-query+babel-example-1": "Piglia 'infurmaziune Babbel 'a ll'utente <kbd>Esempio</kbd>"
 }
