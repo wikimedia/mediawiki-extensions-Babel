@@ -4,7 +4,7 @@
 			"LeGuyanaisPure"
 		]
 	},
-	"babel": "Enfòrmasyon Babel asou {{GENDER:$1|itilizatò}}-a",
+	"babel": "Lenfòrmasyon Babel asou {{GENDER:$1|itilizatò}}-a",
 	"babel-desc": "Ajouté fongsyon-an di annanlizò sentagsik-a <code>#babel</code> ki ka pèrmèt kréyasyon otonmatik-a di roun kolonn di bwèt itilizatò Babel ké posibilité-a di enkli dé modèl lokal",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Katégori:Babel - Itilizatò pa lanng",
@@ -26,8 +26,8 @@
 	"babel-5-n": "{{GENDER:$4|Sa itilizatò}} ka dispozé di roun nivo di konnésans ki [[$1|profésyonnèl]] di [[$2|Kriyòl Gwiyannen]].",
 	"babel-N-n": "{{GENDER:$4|Sa itilizatò}} gen pou [[$1|lanng matèrnèl]] [[$2|Kriyòl Gwiyannen]]-an.",
 	"babel-footer": "Itilizatò pa lanng",
-	"apihelp-query+babel-description": "Òbténi dé enfòrmasyon asou lanng-yan ki konnèt pa itilizatò-a",
-	"apihelp-query+babel-summary": "Òbténi dé enfòrmasyon asou lanng-yan ki itilizatò-a ka konnèt",
-	"apihelp-query+babel-param-user": "Itilizatò apropo dikèl òbténi dé enfòrmasyon",
-	"apihelp-query+babel-example-1": "Òbténi enfòrmasyon-yan di Babel pou itilizatò-a <kbd>Example</kbd>"
+	"apihelp-query+babel-description": "Òbténi dé lenfòrmasyon asou lanng-yan ki konnèt pa itilizatò-a",
+	"apihelp-query+babel-summary": "Òbténi dé lenfòrmasyon asou lanng-yan ki itilizatò-a ka konnèt",
+	"apihelp-query+babel-param-user": "Itilizatò apropo dikèl òbténi dé lenfòrmasyon",
+	"apihelp-query+babel-example-1": "Òbténi lenfòrmasyon-yan di Babel pou itilizatò-a <kbd>Example</kbd>"
 }
