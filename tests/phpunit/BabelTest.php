@@ -43,11 +43,24 @@ class BabelTest extends MediaWikiTestCase {
 		$this->createCategoryPage( 'es-2' );
 		$this->createCategoryPage( 'de' );
 		$this->createCategoryPage( 'de-N' );
+		$this->createCategoryPage( 'simple' );
+		$this->createCategoryPage( 'simple-1' );
+		$this->createCategoryPage( 'zh-Hant' );
+		$this->createCategoryPage( 'zh-Hant-3' );
+		// These are only used if there is a bug in language code normalization,
+		// but missing categories here would obscure any underlying bug by
+		// failing with a hard to diagnose recursive parser invocation.
+		$this->createCategoryPage( 'en-simple' );
+		$this->createCategoryPage( 'en-simple-1' );
 
 		$title = $user->getUserPage();
-		$this->insertPage( $title->getPrefixedText(), '{{#babel:en-1|es-2|de}}' );
+		$this->insertPage(
+			$title->getPrefixedText(), '{{#babel:en-1|es-2|de|SIMPLE-1|zh-hant-3}}'
+		);
 		// Test on a category page too (
-		$this->insertPage( Title::newFromText( 'Category:X1', '{{#babel:en-1|es-2|de}}' ) );
+		$this->insertPage( Title::newFromText(
+			'Category:X1', '{{#babel:en-1|es-2|de|simple-1|zh-Hant-3}}'
+		) );
 		$page = WikiPage::factory( $title );
 		// Force a run of LinksUpdate
 		$updates = $page->getContent()->getSecondaryDataUpdates( $title );
@@ -305,35 +318,45 @@ class BabelTest extends MediaWikiTestCase {
 	public function testGetUserLanguages( $settings ) {
 		$this->setMwGlobals( $settings );
 		$user = User::newFromName( 'User-1' );
-		$this->assertSame( [
+		$this->assertArrayEquals( [
 			'de',
 			'en',
 			'es',
+			'simple',
+			'zh-Hant',
 		], Babel::getUserLanguages( $user ) );
 
 		// Filter based on level
-		$this->assertSame( [
+		$this->assertArrayEquals( [
 			'de',
+			'zh-Hant',
 			'es',
 		], Babel::getUserLanguages( $user, '2' ) );
 
-		$this->assertSame( [
+		$this->assertArrayEquals( [
 			'de',
+			'zh-Hant',
 		], Babel::getUserLanguages( $user, '3' ) );
 
 		// Non-numerical level
-		$this->assertSame( [
+		$this->assertArrayEquals( [
 			'de',
 		], Babel::getUserLanguages( $user, 'N' ) );
 	}
 
-	public function testGetUserLanguageInfo() {
+	/**
+	 * @dataProvider provideSettings
+	 */
+	public function testGetUserLanguageInfo( $settings ) {
+		$this->setMwGlobals( $settings );
 		$user = User::newFromName( 'User-1' );
 		$languages = Babel::getUserLanguageInfo( $user );
-		$this->assertSame( [
+		$this->assertArrayEquals( [
 			'de' => 'N',
 			'en' => '1',
 			'es' => '2',
-		], $languages );
+			'simple' => '1',
+			'zh-Hant' => '3',
+		], $languages, false, true );
 	}
 }
