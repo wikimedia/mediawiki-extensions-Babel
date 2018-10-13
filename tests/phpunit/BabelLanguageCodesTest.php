@@ -38,7 +38,6 @@ class BabelLanguageCodesTest extends \PHPUnit\Framework\TestCase {
 			$testData = array_merge( $testData, [
 				[ 'en-simple', 'simple' ],
 				[ 'cbk', 'cbk-zam' ],
-				[ 'nrf', 'nrm' ],
 			] );
 		}
 		return $testData;
