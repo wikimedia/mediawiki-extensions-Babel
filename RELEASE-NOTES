@@ -1,0 +1,6 @@
+== Babel 2018.10 ==
+Released at 2018-10-29.
+
+=== Noteworthy changes ===
+* Update ISO 639 database from iso639-3.sil.org
+* Keep BCP 47 and MediaWiki-internal codes separate (T199941)
