@@ -8,7 +8,7 @@
  * @file
  * @ingroup Extensions
  *
- * @link http://www.mediawiki.org/wiki/Extension:Babel
+ * @link https://www.mediawiki.org/wiki/Extension:Babel
  *
  * @author Robert Leverington <robert@rhl.me.uk>
  * @copyright Copyright © 2008 - 2011 Robert Leverington.
