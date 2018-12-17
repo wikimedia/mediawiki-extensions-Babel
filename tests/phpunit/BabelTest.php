@@ -87,7 +87,7 @@ class BabelTest extends MediaWikiTestCase {
 		$options = new ParserOptions();
 		$options->setIsPreview( true );
 
-		$parser = $this->getMockBuilder( 'Parser' )
+		$parser = $this->getMockBuilder( Parser::class )
 			->disableOriginalConstructor()
 			->getMock();
 
@@ -123,7 +123,7 @@ class BabelTest extends MediaWikiTestCase {
 	 * @param string $cat
 	 * @param string $sortKey
 	 */
-	private function assertHasCategory( $parser, $cat, $sortKey ) {
+	private function assertHasCategory( Parser $parser, $cat, $sortKey ) {
 		$cats = $parser->getOutput()->getCategories();
 		$this->assertArrayHasKey( $cat, $cats );
 		$this->assertSame( $sortKey, $cats[$cat] );
@@ -133,7 +133,7 @@ class BabelTest extends MediaWikiTestCase {
 	 * @param Parser $parser
 	 * @param string $cat
 	 */
-	private function assertNotHasCategory( $parser, $cat ) {
+	private function assertNotHasCategory( Parser $parser, $cat ) {
 		$cats = $parser->getOutput()->getCategories();
 		$this->assertArrayNotHasKey( $cat, $cats );
 	}
@@ -315,7 +315,7 @@ class BabelTest extends MediaWikiTestCase {
 	/**
 	 * @dataProvider provideSettings
 	 */
-	public function testGetUserLanguages( $settings ) {
+	public function testGetUserLanguages( array $settings ) {
 		$this->setMwGlobals( $settings );
 		$user = User::newFromName( 'User-1' );
 		$this->assertArrayEquals( [
@@ -347,7 +347,7 @@ class BabelTest extends MediaWikiTestCase {
 	/**
 	 * @dataProvider provideSettings
 	 */
-	public function testGetUserLanguageInfo( $settings ) {
+	public function testGetUserLanguageInfo( array $settings ) {
 		$this->setMwGlobals( $settings );
 		$user = User::newFromName( 'User-1' );
 		$languages = Babel::getUserLanguageInfo( $user );
