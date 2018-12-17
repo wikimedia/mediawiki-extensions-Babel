@@ -15,13 +15,9 @@ class BabelStatic {
 	 * Registers the parser function hook.
 	 *
 	 * @param Parser $parser
-	 *
-	 * @return bool True.
 	 */
 	public static function onParserFirstCallInit( Parser $parser ) {
 		$parser->setFunctionHook( 'babel', [ 'Babel', 'Render' ] );
-
-		return true;
 	}
 
 	/**
