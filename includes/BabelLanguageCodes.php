@@ -152,8 +152,8 @@ class BabelLanguageCodes {
 	public static function getCategoryCode( $code ) {
 		if ( strpos( $code, '-' ) !== false ) {
 			return self::bcp47( $code );
-		} else {
-			return $code;
 		}
+
+		return $code;
 	}
 }

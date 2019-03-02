@@ -136,7 +136,7 @@ EOT;
 		$fallbackLanguage = Language::getFallbackFor( $code );
 		$fallback = wfMessage( "babel-$level-n",
 			$categoryLevel, $categoryMain, '', $title->getDBkey()
-		)->inLanguage( $fallbackLanguage ? $fallbackLanguage : $code )->text();
+		)->inLanguage( $fallbackLanguage ?: $code )->text();
 
 		// Give grep a chance to find the usages:
 		// babel-0, babel-1, babel-2, babel-3, babel-4, babel-5, babel-N

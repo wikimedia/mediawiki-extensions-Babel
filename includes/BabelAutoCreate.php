@@ -41,7 +41,7 @@ class BabelAutoCreate {
 		if ( $title === null || $title->exists() ) {
 			return;
 		}
-		DeferredUpdates::addCallableUpdate( function () use ( $category, $code, $level, $title ) {
+		DeferredUpdates::addCallableUpdate( function () use ( $code, $level, $title ) {
 			global $wgLanguageCode;
 			$language = BabelLanguageCodes::getName( $code, $wgLanguageCode );
 			$params = [ $language, $code ];
