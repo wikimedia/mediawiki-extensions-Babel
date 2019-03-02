@@ -20,8 +20,6 @@ class BabelLanguageCodes {
 	 *
 	 * @param string $code Code to try and get an internal code for
 	 * @return string|bool Language code, or false if code is not mapped
-	 * @suppress PhanUndeclaredStaticMethod phan can't figure out we're
-	 *  testing for a method present in a future MediaWiki release
 	 */
 	private static function mapToMediaWikiCode( $code ) {
 		if ( !self::$mapToMediaWikiCodeCache ) {

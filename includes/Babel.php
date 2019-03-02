@@ -30,11 +30,12 @@ class Babel {
 	/**
 	 * Render the Babel tower.
 	 *
+	 * @suppress PhanCommentParamWithoutRealParam Usual troubles with variadic functions
 	 * @param Parser $parser
 	 * @param string $parameter,...
 	 * @return string Babel tower.
 	 */
-	public static function Render( Parser $parser ) {
+	public static function Render( Parser $parser /* $parameter */ ) {
 		global $wgBabelUseUserLanguage;
 		$parameters = func_get_args();
 		array_shift( $parameters );
@@ -406,7 +407,6 @@ EOT;
 		$babelDB = new MediaWiki\Babel\Database();
 		$result = $babelDB->getForUser( $user->getId() );
 		/** If local data or no central source, return */
-		/** @suppress PhanTypeComparisonFromArray false positive */
 		if ( $result || !$wgBabelCentralApi || !$wgBabelCentralDb ) {
 			return $result;
 		}
