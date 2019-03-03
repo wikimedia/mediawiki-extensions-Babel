@@ -30,15 +30,12 @@ class Babel {
 	/**
 	 * Render the Babel tower.
 	 *
-	 * @suppress PhanCommentParamWithoutRealParam Usual troubles with variadic functions
 	 * @param Parser $parser
-	 * @param string $parameter,...
+	 * @param string ...$parameters
 	 * @return string Babel tower.
 	 */
-	public static function Render( Parser $parser /* $parameter */ ) {
+	public static function Render( Parser $parser, ...$parameters ) {
 		global $wgBabelUseUserLanguage;
-		$parameters = func_get_args();
-		array_shift( $parameters );
 		self::$title = $parser->getTitle();
 
 		self::mTemplateLinkBatch( $parameters );
