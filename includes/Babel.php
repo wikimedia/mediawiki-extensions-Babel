@@ -483,7 +483,7 @@ EOT;
 				$code = BabelLanguageCodes::getCode( lcfirst( $match[1] ) );
 				if ( $code !== false ) {
 					$catCode = BabelLanguageCodes::getCategoryCode( $code );
-					$result[$catCode] = isset( $match[3] ) ? $match[3] : 'N';
+					$result[$catCode] = $match[3] ?? 'N';
 				}
 			}
 		}
