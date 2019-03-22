@@ -16,6 +16,7 @@
 use MediaWiki\Babel\BabelBox\LanguageBabelBox;
 use MediaWiki\Babel\BabelBox\NotBabelBox;
 use MediaWiki\Babel\BabelBox\NullBabelBox;
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Logger\LoggerFactory;
 
 /**
@@ -310,7 +311,7 @@ EOT;
 	 * @since Version 1.10.0
 	 */
 	public static function getCachedUserLanguageInfo( User $user ) {
-		$cache = ObjectCache::getMainWANInstance();
+		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 		$userId = $user->getId();
 		$key = $cache->makeKey( 'babel', 'userLanguages', $userId );
 		$checkKeys = [ $key ];
