@@ -39,7 +39,7 @@ class BabelAutoCreateTest extends MediaWikiTestCase {
 		BabelAutoCreate::create( $category, $code, $level );
 		$page = WikiPage::factory( Title::newFromText( 'Category:' . $category ) );
 		$this->assertTrue( $page->exists() );
-		$this->assertSame( $expected, $page->getContent()->getNativeData() );
+		$this->assertSame( $expected, $page->getContent()->getText() );
 	}
 
 	public function createProvider() {
