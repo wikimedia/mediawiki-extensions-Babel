@@ -3,12 +3,14 @@
 		"authors": [
 			"Crazymadlover",
 			"SK-luuut",
-			"Snakesteuben"
+			"Snakesteuben",
+			"PiefPafPier"
 		]
 	},
-	"babel": "Babel-meidoggersynformaasje",
+	"babel": "Meidoggerynfo Babel",
 	"babel-desc": "Foeget de <code>#babel</code> automatyske opdielerfunksje ta om it automatysk meitsjen fan in Babel meidoggerskolom ta stean mei de mooglikheid om eigen berjochten ta te foegjen.",
 	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Category:Babel - Meidoggers op taal",
 	"babel-autocreate-reason": "Makket automatysk in [[$1|Babel]]-kategory oan.",
 	"babel-autocreate-text-levels": "Meidoggers yn dizze kategory jouwe oan dat harren taalkennis foar $2 $1 is.",
 	"babel-autocreate-text-main": "Meidoggers yn dizze kategory jouwe oan dat hja kennis fan $1 hawwe.",
@@ -25,5 +27,6 @@
 	"babel-3-n": "It [[$2|Frysk]] fan dizze meidogger is [[$1|treflik]].",
 	"babel-4-n": "It [[$2|Frysk]] is benei de [[$1|memmetaal]] fan dizze meidogger.",
 	"babel-5-n": "De kennis fan it [[$2|Frysk]] fan dizze meidogger is [[$1|beropsmatich]].",
-	"babel-N-n": "It [[$2|Frysk]] is de [[$1|memmetaal]] fan dizze meidogger."
+	"babel-N-n": "It [[$2|Frysk]] is de [[$1|memmetaal]] fan dizze meidogger.",
+	"babel-footer": "Meidoggers op taal"
 }
