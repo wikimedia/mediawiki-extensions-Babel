@@ -9,7 +9,6 @@ use ParserOptions;
 use ParserOutput;
 use Title;
 use User;
-use WikiPage;
 
 /**
  * @covers Babel
@@ -47,26 +46,11 @@ class BabelTest extends MediaWikiTestCase {
 		$this->createCategoryPage( 'simple-1' );
 		$this->createCategoryPage( 'zh-Hant' );
 		$this->createCategoryPage( 'zh-Hant-3' );
-		// These are only used if there is a bug in language code normalization,
-		// but missing categories here would obscure any underlying bug by
-		// failing with a hard to diagnose recursive parser invocation.
-		$this->createCategoryPage( 'en-simple' );
-		$this->createCategoryPage( 'en-simple-1' );
 
 		$title = $user->getUserPage();
 		$this->insertPage(
 			$title->getPrefixedText(), '{{#babel:en-1|es-2|de|SIMPLE-1|zh-hant-3}}'
 		);
-		// Test on a category page too (
-		$this->insertPage( Title::newFromText(
-			'Category:X1', '{{#babel:en-1|es-2|de|simple-1|zh-Hant-3}}'
-		) );
-		$page = WikiPage::factory( $title );
-		// Force a run of LinksUpdate
-		$updates = $page->getContent()->getSecondaryDataUpdates( $title );
-		foreach ( $updates as $update ) {
-			$update->doUpdate();
-		}
 	}
 
 	/**
