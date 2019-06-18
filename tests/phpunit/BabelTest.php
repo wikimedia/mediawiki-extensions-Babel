@@ -3,6 +3,7 @@
 namespace Babel\Tests;
 
 use Babel;
+use MediaWiki\MediaWikiServices;
 use MediaWikiTestCase;
 use Parser;
 use ParserOptions;
@@ -21,46 +22,54 @@ use User;
  */
 class BabelTest extends MediaWikiTestCase {
 
+	public function addDBDataOnce() {
+		// The '#babel' parser function normally auto-creates category pages via
+		// a DeferredUpdate. In PHPUnit context, because of wgCommandLineMode
+		// being true, DeferredUpdates are not actually "deferred". They run
+		// immediately. This is a problem because this would mean when we parse
+		// wikitext, BabelAutoCreate would parse and save another wiki page,
+		// whilst still inside a parser function. This is not allowed in MediaWiki
+		// and Parser::parse protects against this with an exception.
+		//
+		// FIXME: Make BabelAutoCreate less dependent on global state so we can simply
+		// disable this feature while testing, we don't need these pages for the test.
+		//
+		// We cannot simply make DeferredUpdates "deferred" (by disabling wgCommandLineMode),
+		// because that also means updates from core itself (such as the saving of category
+		// links) would be deferred, which we do need to observe below.
+		//
+		// Workaround this by mocking LinkCache to that BabelAutoCreate/Title::exists()
+		// perceives these as existing already and will skip auto-creation logic.
+		$this->setMwGlobals( 'wgCapitalLinks', false );
+		MediaWikiServices::getInstance()->resetServiceForTesting( 'NamespaceInfo' );
+		$linkCache = new \LinkCache(
+			MediaWikiServices::getInstance()->getTitleFormatter(),
+			$this->createMock( \WANObjectCache::class ),
+			$this->createMock( \NamespaceInfo::class )
+		);
+		foreach ( [ 'en', 'en-N', 'en-1', 'es', 'es-2', 'de', 'de-N',
+			'simple', 'simple-1', 'zh-Hant', 'zh-Hant-3'
+		] as $name ) {
+			$linkCache->addGoodLinkObj( 1, new \TitleValue( NS_CATEGORY, $name ) );
+		}
+		$this->setService( 'LinkCache', $linkCache );
+
+		$user = User::newFromName( 'User-1' );
+		$user->addToDatabase();
+		$this->insertPage( 'User:User-1', '{{#babel:en-1|es-2|de|SIMPLE-1|zh-hant-3}}' );
+	}
+
 	protected function setUp() {
 		parent::setUp();
 
 		$this->setContentLang( 'qqx' );
 		$this->setMwGlobals( [
-			// Note that individual tests will change this
+			// Individual tests may change these
 			'wgBabelUseDatabase' => true,
 			'wgBabelCentralApi' => false,
 			'wgBabelCentralDb' => false,
 			'wgCapitalLinks' => false,
 		] );
-		$user = User::newFromName( 'User-1' );
-		$user->addToDatabase();
-
-		// Avoid auto-creation of categories, since that may cause recursive parser invocation.
-		$this->createCategoryPage( 'en' );
-		$this->createCategoryPage( 'en-1' );
-		$this->createCategoryPage( 'es' );
-		$this->createCategoryPage( 'es-2' );
-		$this->createCategoryPage( 'de' );
-		$this->createCategoryPage( 'de-N' );
-		$this->createCategoryPage( 'simple' );
-		$this->createCategoryPage( 'simple-1' );
-		$this->createCategoryPage( 'zh-Hant' );
-		$this->createCategoryPage( 'zh-Hant-3' );
-
-		$title = $user->getUserPage();
-		$this->insertPage(
-			$title->getPrefixedText(), '{{#babel:en-1|es-2|de|SIMPLE-1|zh-hant-3}}'
-		);
-	}
-
-	/**
-	 * @param string $name
-	 */
-	private function createCategoryPage( $name ) {
-		$category = Title::makeTitle( NS_CATEGORY, $name );
-		if ( !$category->exists() ) {
-			$this->insertPage( $category, 'Test dummy' );
-		}
 	}
 
 	/**
@@ -70,27 +79,13 @@ class BabelTest extends MediaWikiTestCase {
 	private function getParser( Title $title ) {
 		$options = new ParserOptions();
 		$options->setIsPreview( true );
+		$output = new ParserOutput();
 
-		$parser = $this->getMockBuilder( Parser::class )
-			->disableOriginalConstructor()
-			->getMock();
-
-		$parser->expects( $this->any() )
-			->method( 'getOptions' )
-			->will( $this->returnValue( $options ) );
-
-		$parser->expects( $this->any() )
-			->method( 'getTitle' )
-			->will( $this->returnValue( $title ) );
-
-		$parser->expects( $this->any() )
-			->method( 'getOutput' )
-			->will( $this->returnValue( new ParserOutput() ) );
-
-		$parser->expects( $this->any() )
-			->method( 'getDefaultSort' )
-			->will( $this->returnValue( '' ) );
-
+		$parser = $this->createMock( Parser::class );
+		$parser->method( 'getOptions' )->willReturn( $options );
+		$parser->method( 'getTitle' )->willReturn( $title );
+		$parser->method( 'getOutput' )->willReturn( $output );
+		$parser->method( 'getDefaultSort' )->willReturn( '' );
 		return $parser;
 	}
 
@@ -291,8 +286,8 @@ class BabelTest extends MediaWikiTestCase {
 	 */
 	public static function provideSettings() {
 		return [
-			[ [ 'wgBabelUseDatabase' => true ] ],
-			[ [ 'wgBabelUseDatabase' => false ] ],
+			'lang info from db' => [ [ 'wgBabelUseDatabase' => true ] ],
+			'lang info from categories' => [ [ 'wgBabelUseDatabase' => false ] ],
 		];
 	}
 
