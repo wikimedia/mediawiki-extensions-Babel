@@ -5,7 +5,8 @@
 			"Joseph",
 			"Karduelis",
 			"Khutuck",
-			"LuCKY"
+			"LuCKY",
+			"Hedda"
 		]
 	},
 	"babel": "Babil kullanıcı bilgileri",
@@ -14,7 +15,7 @@
 	"babel-footer-url": ":Kategori:Babil - dillere göre kullanıcılar",
 	"babel-autocreate-reason": "Otomatik olarak [[$1|Babil]] kategori sayfası oluşturuluyor.",
 	"babel-autocreate-text-levels": "Bu kategorideki kullanıcılar $1 seviyede $2 dilini bildiklerini belirtiyor.",
-	"babel-autocreate-text-main": "Bu kategorideki kullanıcılar $1 dilini bildiklerini belirtiyor.",
+	"babel-autocreate-text-main": "Bu kategorideki kullanıcılar, $1 dil bilgisini gösterir.",
 	"babel-autocreate-user": "Babil OtomatikOluştur",
 	"babel-0": "Bu kullanıcı [[$1|hiç]] [[$2|$3]] bilmiyor (ya da bir hayli zor anlıyor).",
 	"babel-1": "Bu kullanıcı [[$1|temel düzeyde]] [[$2|$3]] bilir.",
@@ -30,5 +31,9 @@
 	"babel-4-n": "Bu kullanıcı [[$1|anadili gibi]] [[$2|Türkçe]] konuşabilir.",
 	"babel-5-n": "Bu kullanıcı [[$1|profesyonel]] [[$2|Türkçe]] bilgisine sahiptir.",
 	"babel-N-n": "Bu kullanıcının [[$1|anadili]] [[$2|Türkçe]]dir.",
-	"babel-footer": "Dillere göre kullanıcılar"
+	"babel-footer": "Dillere göre kullanıcılar",
+	"apihelp-query+babel-description": "Kullanıcının hangi dilleri bildiği hakkında bilgi edinin",
+	"apihelp-query+babel-summary": "Kullanıcının hangi dilleri bildiği hakkında bilgi edinin",
+	"apihelp-query+babel-param-user": "Hakkında bilgi edinilecek kullanıcı",
+	"apihelp-query+babel-example-1": "<kbd>Örnek</kbd> kullanıcısı için Babil bilgisini alın"
 }
