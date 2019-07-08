@@ -40,9 +40,5 @@
 	"babel-N-n": "{{Babel Message Description|N|native=yes}}",
 	"babel-portal": "{{notranslate}}",
 	"babel-template": "{{Optional}}{{doc-important|Do not translate \"Template:\".}}\nThis message contains the template schema for additional templates that can be used in Babel. Parameters:\n* $1 is the parameter value used in the <nowiki>#babel</nowiki> parser tag.",
-	"babel-footer": "This text is used in the last entry (footer) of the outer box. It is a link anchor, if {{msg-mw|babel-footer-url}} is not empty, otherwise, it is only text. No footer is generated, when this text is empty.",
-	"apihelp-query+babel-description": "{{doc-apihelp-description|query+babel}}",
-	"apihelp-query+babel-summary": "{{doc-apihelp-summary|query+babel}}",
-	"apihelp-query+babel-param-user": "{{doc-apihelp-param|query+babel|user}}",
-	"apihelp-query+babel-example-1": "{{doc-apihelp-example|query+babel}}"
+	"babel-footer": "This text is used in the last entry (footer) of the outer box. It is a link anchor, if {{msg-mw|babel-footer-url}} is not empty, otherwise, it is only text. No footer is generated, when this text is empty."
 }
