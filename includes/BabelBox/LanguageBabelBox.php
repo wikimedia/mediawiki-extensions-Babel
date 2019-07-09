@@ -18,6 +18,7 @@ namespace MediaWiki\Babel\BabelBox;
 use BabelAutoCreate;
 use BabelLanguageCodes;
 use Language;
+use LanguageCode;
 use MWException;
 use Title;
 
@@ -71,7 +72,7 @@ class LanguageBabelBox implements BabelBox {
 	public function render() {
 		$code = $this->code;
 		$catCode = BabelLanguageCodes::getCategoryCode( $code );
-		$bcp47 = BabelLanguageCodes::bcp47( $code );
+		$bcp47 = LanguageCode::bcp47( $code );
 
 		$portal = wfMessage( 'babel-portal', $catCode )->inContentLanguage()->text();
 		if ( $portal !== '' ) {

@@ -3,6 +3,7 @@
 namespace Babel\Tests;
 
 use BabelLanguageCodes;
+use LanguageCode;
 
 /**
  * @covers BabelLanguageCodes
@@ -31,7 +32,7 @@ class BabelLanguageCodesTest extends \PHPUnit\Framework\TestCase {
 			[ 'be-x-old', 'be-tarask' ],
 		];
 		// True BCP 47 normalization was added in MW 1.32
-		if ( BabelLanguageCodes::bcp47( 'simple' ) === 'en-simple' ) {
+		if ( LanguageCode::bcp47( 'simple' ) === 'en-simple' ) {
 			// ensure BCP 47-compliant codes are mapped to MediaWiki's
 			// nonstandard internal codes
 			$testData = array_merge( $testData, [

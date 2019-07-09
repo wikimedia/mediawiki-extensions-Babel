@@ -88,19 +88,6 @@ class BabelLanguageCodes {
 	}
 
 	/**
-	 * Get the normalised IETF language tag.
-	 * @param string $code The language code.
-	 * @deprecated This provides backward compatibility; replace with
-	 *   \LanguageCode::bcp47() once MW 1.30 is no longer supported.
-	 */
-	public static function bcp47( $code ) {
-		if ( !is_callable( [ 'LanguageCode', 'bcp47' ] ) ) {
-			return wfBCP47( $code );
-		}
-		return LanguageCode::bcp47( $code );
-	}
-
-	/**
 	 * Take a code as input, and search a language name for it in
 	 * a given language via Language::fetchLanguageNames() or
 	 * else via the Babel language names CDB
@@ -151,7 +138,7 @@ class BabelLanguageCodes {
 	 */
 	public static function getCategoryCode( $code ) {
 		if ( strpos( $code, '-' ) !== false ) {
-			return self::bcp47( $code );
+			return LanguageCode::bcp47( $code );
 		}
 
 		return $code;
