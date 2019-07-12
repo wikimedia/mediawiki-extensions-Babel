@@ -32,8 +32,5 @@
 	"babel-5-n": "Denne bruger har [[$1|professionelt]] kendskab til [[$2|dansk]].",
 	"babel-N-n": "Denne bruger har [[$2|dansk]] som [[$1|modersmål]].",
 	"babel-template": "Template:Bruger $1",
-	"babel-footer": "Brugere efter sprog",
-	"apihelp-query+babel-description": "Hent oplysninger om hvilke sprog brugeren kender",
-	"apihelp-query+babel-summary": "Hent oplysninger om hvilke sprog brugeren kender",
-	"apihelp-query+babel-param-user": "Bruger der skal hentes information om"
+	"babel-footer": "Brugere efter sprog"
 }

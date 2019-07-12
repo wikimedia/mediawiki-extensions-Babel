@@ -29,7 +29,5 @@
 	"babel-4-n": "Hierdie gebruiker het kennis van [[$2|Afrikaans]] op [[$1|byna-moedertaalvlak]].",
 	"babel-5-n": "Hierdie gebruiker het [[$1|professionele]] kennis van [[$2|Afrikaans]].",
 	"babel-N-n": "Hierdie gebruiker het kennis van [[$2|Afrikaans]] op [[$1|moedertaalvlak]].",
-	"babel-footer": "Gebruikers per taal",
-	"apihelp-query+babel-description": "Kry inligting oor watter tale die gebruiker ken",
-	"apihelp-query+babel-summary": "Kry inligting oor watter tale die gebruiker ken"
+	"babel-footer": "Gebruikers per taal"
 }

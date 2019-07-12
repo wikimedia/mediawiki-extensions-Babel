@@ -31,9 +31,5 @@
 	"babel-4-n": "{{GENDER:$4|Este utilizador|Esta utilizadora}} tem um nível [[$1|quase nativo]] de [[$2|português]].",
 	"babel-5-n": "{{GENDER:$4|Este utilizador|Esta utilizadora}} tem um nível [[$1|profissional]] de [[$2|português]].",
 	"babel-N-n": "{{GENDER:$4|Este utilizador|Esta utilizadora}} tem como língua [[$1|materna]] o [[$2|português]].",
-	"babel-footer": "Utilizadores por língua",
-	"apihelp-query+babel-description": "Obter informação sobre as línguas que o utilizador conhece",
-	"apihelp-query+babel-summary": "Obter informação sobre as línguas que o utilizador conhece",
-	"apihelp-query+babel-param-user": "O utilizador sobre o qual a informação será recolhida",
-	"apihelp-query+babel-example-1": "Obter a informação Babel para o utilizador <kbd>Example</kbd>"
+	"babel-footer": "Utilizadores por língua"
 }

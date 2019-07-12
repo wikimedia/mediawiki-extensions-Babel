@@ -29,9 +29,5 @@
 	"babel-4-n": "Acest utilizator poate contribui cu un nivel [[$1|aproape nativ]] de [[$2|română]].",
 	"babel-5-n": "Acest utilizator contribuie folosind un nivel [[$1|profesional]] de [[$2|română]].",
 	"babel-N-n": "Acest utilizator este un vorbitor [[$1|nativ]] al [[$2|limbii române]].",
-	"babel-footer": "Utilizatori după limbă",
-	"apihelp-query+babel-description": "Obține informații despre limbile cunoscute de utilizator",
-	"apihelp-query+babel-summary": "Obține informații despre limbile cunoscute de utilizator",
-	"apihelp-query+babel-param-user": "Utilizatorul despre care să se obțină informații",
-	"apihelp-query+babel-example-1": "Obțineți informații Babel pentru utilizatorul <kbd>Exemplu</kbd>"
+	"babel-footer": "Utilizatori după limbă"
 }

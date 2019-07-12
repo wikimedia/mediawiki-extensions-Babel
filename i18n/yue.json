@@ -27,8 +27,5 @@
 	"babel-4-n": "呢位用戶有[[$1|接近母語程度]]嘅[[$2|廣東話]]知識。",
 	"babel-5-n": "呢位用戶有[[$1|專業]]嘅[[$2|廣東話]]知識。",
 	"babel-N-n": "呢位用戶嘅[[$1|母語]]係[[$2|廣東話]]。",
-	"babel-footer": "用戶（跟語言分類）",
-	"apihelp-query+babel-description": "攞用戶識咩嘢語言嘅資訊",
-	"apihelp-query+babel-param-user": "要攞相關資訊嘅用戶",
-	"apihelp-query+babel-example-1": "攞用戶 <kbd>Example</kbd> 嘅 Babel 資訊"
+	"babel-footer": "用戶（跟語言分類）"
 }

@@ -28,9 +28,5 @@
 	"babel-5-n": "Pemakék ini pacak bebaso [[$2|Pelémbang]] tingkat [[$1|tinggi]] .",
 	"babel-N-n": "Pemakék ini [[$1|aslinyo]] bebaso [[$2|Pelémbang]].",
 	"babel-template": "Pemakék $1",
-	"babel-footer": "Jingok pemakék dari basonyo",
-	"apihelp-query+babel-description": "Gari baso apo yang pacak dipakék pemakék ini",
-	"apihelp-query+babel-summary": "Gari baso apo yang pacak dipakék pemakék ini",
-	"apihelp-query+babel-param-user": "Pemakék yang informasinyo nak dijingok",
-	"apihelp-query+babel-example-1": "Jingok informasi Babel dari pemakék <kbd>Contoh</kbd>"
+	"babel-footer": "Jingok pemakék dari basonyo"
 }

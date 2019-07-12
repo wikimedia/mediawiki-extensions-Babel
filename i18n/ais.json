@@ -26,8 +26,5 @@
 	"babel-4-n": "tina misaungayay matineng [[$1|micapi tu kamu nu ina]] tanusukay [[$2|kamu nu Sakizaya]]",
 	"babel-5-n": "tina misaungayay matineng [[$1|mitesekay]] da’su a [[$2|kamu nu Sakizaya]].",
 	"babel-N-n": "tina misaungayay matineng[[$1|kamu-nina]] da’su a [[$2|kamu nu Sakizaya]].",
-	"babel-footer": "misaungayay (ahizan tu kamu)",
-	"apihelp-query+babel-description": "maala mahizaay misaungayay  matineng canan a kamu cesyun",
-	"apihelp-query+babel-param-user": "amiala mahizaay cesyun a misaungayay",
-	"apihelp-query+babel-example-1": "mialaan tu misaungayay <kbd>Example</kbd> a Babel cesyun"
+	"babel-footer": "misaungayay (ahizan tu kamu)"
 }

@@ -33,9 +33,5 @@
 	"babel-5-n": "{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|profissional]] de [[$2|português no dialeto brasileiro]].",
 	"babel-N-n": "{{GENDER:$4|Este usuário|Esta usuária}} tem como língua [[$1|materna]] o [[$2|dialeto brasileiro da língua portuguesa]].",
 	"babel-template": "Template:Usuário $1",
-	"babel-footer": "Usuários por língua",
-	"apihelp-query+babel-description": "Obter informações sobre quais línguas o(a) usuário(a) conhece",
-	"apihelp-query+babel-summary": "Obter informações sobre quais línguas o(a) usuário(a) conhece",
-	"apihelp-query+babel-param-user": "Usuário(a) do(a) qual serão obtidas as informações",
-	"apihelp-query+babel-example-1": "Obter informações do Babel sobre <kbd>Example</kbd>"
+	"babel-footer": "Usuários por língua"
 }

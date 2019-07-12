@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"NoiX180"
+		]
+	},
+	"apihelp-query+babel-description": "Golèk katerangan bab basa sing dingertèni panganggo",
+	"apihelp-query+babel-summary": "Golèk katerangan bab basa sing dingertèni panganggo",
+	"apihelp-query+babel-param-user": "Panganggo sing arep digolèki katerangané",
+	"apihelp-query+babel-example-1": "Golèk katerangan Babel tumrap panganggo <kbd>Conto</kbd>"
+}

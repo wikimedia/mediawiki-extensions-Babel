@@ -31,9 +31,5 @@
 	"babel-4-n": "Ĉi tiu uzanto parolas kun [[$1|preskaŭ denaska]] scio de [[$2|Esperanto]].",
 	"babel-5-n": "Ĉi tiu uzanto estas [[$1|profesia]] parolanto de [[$2|Esperanto]].",
 	"babel-N-n": "Ĉi tiu uzanto estas [[$1|denaska parolanto]] de [[$2|Esperanto]].",
-	"babel-footer": "Uzantoj laŭ lingvoj",
-	"apihelp-query+babel-description": "Akiri informon pri kiujn lingvojn la uzanto scias",
-	"apihelp-query+babel-summary": "Akiri informon pri kiujn lingvojn la uzanto scias",
-	"apihelp-query+babel-param-user": "Uzanto pri kiu oni volas scii",
-	"apihelp-query+babel-example-1": "Akiri la Babel-informon pri uzanto <kbd>Example</kbd>"
+	"babel-footer": "Uzantoj laŭ lingvoj"
 }

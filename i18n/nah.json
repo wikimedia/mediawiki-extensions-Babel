@@ -29,9 +29,5 @@
 	"babel-4-n": "Inin tequitiuhqui tlahtoa in [[$2|nahuatl]] cahxa quen ce [[$1|chaneh]].",
 	"babel-5-n": "Inin tequitiuhqui quipiya [[$1|tetlamachilli]] tlaixihmachiliztli itech [[$2|nahuatlahtolli]].",
 	"babel-N-n": "Inin tequitiuhqui quipiya quen [[$1|nantlahtolli]] in [[$2|nahuatlahtolli]].",
-	"babel-footer": "Tequitiuhqueh ipal intlahtol",
-	"apihelp-query+babel-description": "Ticahxiltiz in neixmachiliztli itechpa tlahtolli in quixmati",
-	"apihelp-query+babel-summary": "Ticahxiltiz in neixmachiliztli itechpa tlahtolli in quixmati",
-	"apihelp-query+babel-param-user": "Inin tequitiuhqui quipiya neixmachiliztli",
-	"apihelp-query+babel-example-1": "Ticahxiltiz ineixmachiliz itech tequitiuhqui <kbd>Example</kbd>"
+	"babel-footer": "Tequitiuhqueh ipal intlahtol"
 }

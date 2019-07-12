@@ -27,7 +27,5 @@
 	"babel-4-n": "Bat webesik kan [[$2|Kotava]] ton [[$1|nazbokavusik]] lewe grugoler.",
 	"babel-5-n": "Bat webesik kan [[$2|Kotava]] [[$1|ebekon]] grugoler.",
 	"babel-N-n": "Bat webesik kan [[$2|Kotava]] ton [[$1|nazbokavusik]] grugoler.",
-	"babel-footer": "Webesik kare ava",
-	"apihelp-query+babel-description": "Seotara va giva icde ava grupena gan favesik",
-	"apihelp-query+babel-summary": "Seotara va giva icde ava grupena gan favesik"
+	"babel-footer": "Webesik kare ava"
 }

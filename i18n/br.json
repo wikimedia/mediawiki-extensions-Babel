@@ -26,8 +26,5 @@
 	"babel-4-n": "[[$2|Brezhoneg]] a oar an implijer-mañ [[$1|evel pa vefe bet desket gantañ war barlenn e vamm]].",
 	"babel-5-n": "Ul live [[$2|Brezhoneg]] [[$1|a-vicher]] zo gant an implijer-mañ.",
 	"babel-N-n": "[[$1|A-vihanik]] e oar [[$2|brezhoneg]] an implijer-mañ.",
-	"babel-footer": "Implijerien dre yezh",
-	"apihelp-query+babel-description": "Gouzout peseurt yezhoù a oar an implijer",
-	"apihelp-query+babel-param-user": "Implijer da gaout titouroù diwar e benn",
-	"apihelp-query+babel-example-1": "Gouzout an titouroù Babel evit an implijer <kbd>Example</kbd>"
+	"babel-footer": "Implijerien dre yezh"
 }

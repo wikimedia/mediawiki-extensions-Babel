@@ -38,9 +38,5 @@
 	"babel-5-n": "{{GENDER:$4|Dieser Benutzer|Diese Benutzerin}} beherrscht [[$2|Deutsch]] auf [[$1|professionellem]] Niveau.",
 	"babel-N-n": "{{GENDER:$4|Dieser Benutzer|Diese Benutzerin}} spricht [[$2|Deutsch]] als [[$1|Muttersprache]].",
 	"babel-template": "Template:User $1",
-	"babel-footer": "Benutzer nach Sprache",
-	"apihelp-query+babel-description": "Ruft Informationen darüber ab, welche Sprachen der Benutzer beherrscht.",
-	"apihelp-query+babel-summary": "Ruft Informationen darüber ab, welche Sprachen der Benutzer beherrscht.",
-	"apihelp-query+babel-param-user": "Benutzer, für den die Informationen abgerufen werden sollen.",
-	"apihelp-query+babel-example-1": "Ruft die Babel-Informationen für den Benutzer <kbd>Beispiel</kbd> ab"
+	"babel-footer": "Benutzer nach Sprache"
 }

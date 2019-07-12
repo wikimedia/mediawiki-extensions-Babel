@@ -29,9 +29,5 @@
 	"babel-4-n": "Erabiltzaile honek [[$1|euskaldun zahar baten antzeko mailan]] lagun dezake [[$2|euskara]]z.",
 	"babel-5-n": "Erabiltzaile honek [[$2|euskara]] [[$1|aditu]] mailan erabiltzen du.",
 	"babel-N-n": "Erabiltzaile hau [[$1|euskaldun zaharra]] da ([[$2|euskara]] du ama hizkuntza).",
-	"babel-footer": "Lankideak hizkuntzaren arabera",
-	"apihelp-query+babel-description": "Eskuratu lakideak dakizkien hizkuntzen inguruko informazioa",
-	"apihelp-query+babel-summary": "Lankideak dakizkien hizkuntzen inguruko informazioa jaso",
-	"apihelp-query+babel-param-user": "Zein lankideren informazioa lortu",
-	"apihelp-query+babel-example-1": "<kbd>Adibide</kbd> lankidearen Babel informazioa lortu"
+	"babel-footer": "Lankideak hizkuntzaren arabera"
 }

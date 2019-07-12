@@ -25,9 +25,5 @@
 	"babel-4-n": "Wogwiritsa ntchitoyo ali [[$1|pafupi ndi wolankhulira]] akudziŵa bwino za [[$2|Chichewa]].",
 	"babel-5-n": "Wosutayu ali ndi [[$1|nzeru zapamwamba]] chachikulu cha [[$2|Chichewa]].",
 	"babel-N-n": "Wogwiritsa ntchitoyu [[$1|amamvetsa]] bwino za [[$2|Chichewa]].",
-	"babel-footer": "Ogwiritsa ntchito ndi chinenero",
-	"apihelp-query+babel-description": "Pezani zambiri pazinenero zomwe wosuta amadziwa",
-	"apihelp-query+babel-summary": "Pezani zambiri pazinenero zomwe wosuta amadziwa",
-	"apihelp-query+babel-param-user": "Mtumiki kuti mudziwe zambiri",
-	"apihelp-query+babel-example-1": "Pezani zambiri za Babel kwa mtumiaji <kbd>Chitsanzo</kbd>"
+	"babel-footer": "Ogwiritsa ntchito ndi chinenero"
 }

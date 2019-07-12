@@ -24,8 +24,5 @@
 	"babel-4-n": "Chisthu utenti fabedda [[$2|sassaresu]] [[$1|guasi cumenti una linga madre]].",
 	"babel-5-n": "Chisthu utenti fabedda [[$2|sassaresu]] cun un libellu [[$1|prufissionari]].",
 	"babel-N-n": "Chisthu utenti fabedda [[$2|sassaresu]] cumenti [[$1|linga madre]].",
-	"babel-footer": "Utenti pa linga",
-	"apihelp-query+babel-description": "Infoimmazioni chi lingui fabedda l'utenti",
-	"apihelp-query+babel-summary": "Infoimmazioni chi lingui fabedda l'utenti",
-	"apihelp-query+babel-example-1": "Pa infoimmazioni pa l'utenti <kbd>Esémpiu</kbd>"
+	"babel-footer": "Utenti pa linga"
 }

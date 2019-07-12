@@ -26,9 +26,5 @@
 	"babel-4-n": "St'utente tene nu livello quase comme fosse [[$1|nativo]] 'e [[$2|napulitano]].",
 	"babel-5-n": "St'utente tene na canuscenza [[$1|prufessionale]] 'e [[$2|napulitano]].",
 	"babel-N-n": "St'utente è de [[$1|madrelèngua]] [[$2|napulitana]].",
-	"babel-footer": "Utente pe' lengua",
-	"apihelp-query+babel-description": "Piglia 'nfurmaziune ncopp{{v}}e llengue ca l'utente canosce",
-	"apihelp-query+babel-summary": "Piglia 'nfurmaziune ncopp{{v}}e llengue ca l'utente canosce",
-	"apihelp-query+babel-param-user": "Utente a se piglià 'nfurmaziune",
-	"apihelp-query+babel-example-1": "Piglia 'nfurmaziune Babbel 'e ll'utente <kbd>Esempio</kbd>"
+	"babel-footer": "Utente pe' lengua"
 }

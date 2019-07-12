@@ -27,8 +27,5 @@
 	"babel-4-n": "St'uténte chi o peu contriboî co-in livéllo [[$1|squæxi madreléngoa]] in [[$2|lìgure]].",
 	"babel-5-n": "St'uténte chi o peu contriboî co-in livéllo [[$1|profescionâle]] in [[$2|lìgure]].",
 	"babel-N-n": "St'uténte chi o peu contriboî co-in livéllo de [[$1|madreléngoa]] in [[$2|lìgure]].",
-	"babel-footer": "Uténti pe léngoa",
-	"apihelp-query+babel-description": "Otegni informaçioin insce quæ lengue l'utente o conosce",
-	"apihelp-query+babel-param-user": "Utente in sciô quæ otegnî informaçioin",
-	"apihelp-query+babel-example-1": "Otegni informaçioin Babel pe l'utente <kbd>Example</kbd>"
+	"babel-footer": "Uténti pe léngoa"
 }

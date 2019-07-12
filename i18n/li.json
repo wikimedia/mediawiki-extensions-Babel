@@ -26,9 +26,5 @@
 	"babel-4-n": "Deze gebroeker behiersj 't [[$2|Limburgs]] ofwen 't zien [[$1|moderspraok]] woor.",
 	"babel-5-n": "Deze gebroeker haet 'n [[$1|perfesjeneel]] kènnis van 't [[$2|Limburgs]].",
 	"babel-N-n": "Deze gebroeker haet 't [[$2|Limburgs]] es zien [[$1|moderspraok]].",
-	"babel-footer": "Gebroekers per sjpraok",
-	"apihelp-query+babel-description": "Krieg infermasie euver welche spraoke de gebroeker kèntj",
-	"apihelp-query+babel-summary": "Krieg infermasie euver welche spraoke de gebroeker kèntj",
-	"apihelp-query+babel-param-user": "Gebroeker wo me infermasie euver krieg",
-	"apihelp-query+babel-example-1": "Veure Babel-infermasie veure gebroeker <kbd>Veurbild</kbd>"
+	"babel-footer": "Gebroekers per sjpraok"
 }
