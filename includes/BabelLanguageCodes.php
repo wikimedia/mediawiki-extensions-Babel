@@ -14,6 +14,7 @@
 class BabelLanguageCodes {
 
 	private static $mapToMediaWikiCodeCache = null;
+
 	/**
 	 * Map BCP 47 codes or old deprecated internal codes to current MediaWiki
 	 * internal codes (which may not be standard BCP 47 codes).
