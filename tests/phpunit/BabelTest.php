@@ -44,7 +44,7 @@ class BabelTest extends MediaWikiTestCase {
 		MediaWikiServices::getInstance()->resetServiceForTesting( 'NamespaceInfo' );
 		$linkCache = new \LinkCache(
 			MediaWikiServices::getInstance()->getTitleFormatter(),
-			$this->createMock( \WANObjectCache::class ),
+			\WANObjectCache::newEmpty(),
 			$this->createMock( \NamespaceInfo::class )
 		);
 		foreach ( [ 'en', 'en-N', 'en-1', 'es', 'es-2', 'de', 'de-N',
