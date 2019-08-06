@@ -3,7 +3,8 @@
 		"authors": [
 			"OC Ripper",
 			"Kolega2357",
-			"Conquistador"
+			"Conquistador",
+			"Vlad5250"
 		]
 	},
 	"babel": "Babilonske korisničke informacije",
@@ -12,7 +13,7 @@
 	"babel-footer-url": ":Kategorija:Babel - Korisnici po jeziku",
 	"babel-autocreate-reason": "Automatsko stvaranje stranice kategorije [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Korisnici u ovoj kategoriji ukazuju da su vješti na razini $1 za jezik $2.",
-	"babel-autocreate-text-main": "Korisnici u ovoj kategoriji su označeni da imaju znanje $1 jezika.",
+	"babel-autocreate-text-main": "Korisnici u ovoj kategoriji označavaju poznavanje jezika „$1“.",
 	"babel-0": "Ovaj korisnik [[$1|ne]] zna [[$2|$3]] (ili razumije sa znatnim poteškoćama).",
 	"babel-1": "Ovaj korisnik zna [[$2|$3]] na [[$1|osnovnoj]] razini.",
 	"babel-2": "Ovaj korisnik zna [[$2|$3]] na [[$1|srednjoj]] razini.",
