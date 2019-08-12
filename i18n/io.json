@@ -8,6 +8,7 @@
 	},
 	"babel-url": "Project:Babel",
 	"babel-footer-url": "Kategorio:Babel - Uzeri segun linguo",
+	"babel-autocreate-text-main": "Uzeri en ca kategorio informas lia konoco pri la linguo $1.",
 	"babel-0": "Ca uzero havas [[$1|nula]] savo pri [[$2|$3]] (o komprenas olu kun kelka desfacileso).",
 	"babel-1": "Ca uzero havas [[$1|bazala]] savo pri [[$2|$3]].",
 	"babel-2": "Ca uzero havas [[$1|meza]] savo pri [[$2|$3]].",
