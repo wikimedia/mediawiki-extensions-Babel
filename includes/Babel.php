@@ -244,14 +244,14 @@ EOT;
 		$return = [];
 
 		$babelcode = $strtolower ? strtolower( $parameter ) : $parameter;
-		// Try treating the paramter as a language code (for default level).
+		// Try treating the parameter as a language code (for default level).
 		$code = BabelLanguageCodes::getCode( $babelcode );
 		if ( $code !== false ) {
 			$return['code'] = $code;
 			$return['level'] = $wgBabelDefaultLevel;
 			return $return;
 		}
-		// Try splitting the paramter in to language and level, split on last hyphen.
+		// Try splitting the parameter in to language and level, split on last hyphen.
 		$lastSplit = strrpos( $parameter, '-' );
 		if ( $lastSplit === false ) {
 			return false;
