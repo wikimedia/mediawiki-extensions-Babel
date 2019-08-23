@@ -6,7 +6,8 @@
 			"Rudko",
 			"Sudo77(new)",
 			"Danny B.",
-			"Teslaton"
+			"Teslaton",
+			"Spider 001757"
 		]
 	},
 	"babel": "Babylon – informácie o&nbsp;{{GENDER:$1|používateľovi|používateľke}}",
@@ -15,7 +16,7 @@
 	"babel-footer-url": ":Kategória:Babylon – Používatelia podľa jazyka",
 	"babel-autocreate-reason": "Automaticky sa vytvára stránka kategórie [[$1|Babylon]].",
 	"babel-autocreate-text-levels": "Používatelia v tejto kategórii označili svoju úroveň v jazyku $2 ako $1.",
-	"babel-autocreate-text-main": "Používatelia v tejto kategórii označili, že poznajú jazyk $1.",
+	"babel-autocreate-text-main": "Používatelia v tejto kategórii sa prihlásili k znalosti jazyka $1.",
 	"babel-0": "Tento používateľ [[$1|nemá]] znalosti [[$2|{{GRAMMAR:genitív|$3}}]] (alebo jej rozumie so značnými problémami).",
 	"babel-1": "Tento používateľ má [[$1|základné]] znalosti [[$2|{{GRAMMAR:genitív|$3}}]].",
 	"babel-2": "Tento používateľ má [[$1|stredné]] znalosti [[$2|{{GRAMMAR:genitív|$3}}]].",
