@@ -59,7 +59,7 @@ class BabelTest extends MediaWikiTestCase {
 		$this->insertPage( 'User:User-1', '{{#babel:en-1|es-2|de|SIMPLE-1|zh-hant-3}}' );
 	}
 
-	protected function setUp() {
+	protected function setUp() : void {
 		parent::setUp();
 
 		$this->setContentLang( 'qqx' );

@@ -18,7 +18,7 @@ use WikiPage;
  */
 class BabelAutoCreateTest extends MediaWikiTestCase {
 
-	protected function setUp() {
+	protected function setUp() : void {
 		parent::setUp();
 
 		$this->setContentLang( 'qqx' );
