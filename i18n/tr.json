@@ -7,14 +7,15 @@
 			"Khutuck",
 			"LuCKY",
 			"Hedda",
-			"Grkn gll"
+			"Grkn gll",
+			"Vito Genovese"
 		]
 	},
-	"babel": "Babel kullanıcı bilgileri",
+	"babel": "Babil kullanıcı bilgileri",
 	"babel-desc": "Özel şablonlar içerme özelliği olan Babil kullanıcı kutusu sütununun otomatik oluşturulması için <code>#babel</code> derleyici fonksiyonunu ekler",
-	"babel-url": "Project:Babel",
+	"babel-url": "Project:Babil",
 	"babel-footer-url": ":Kategori:Babil - dillere göre kullanıcılar",
-	"babel-autocreate-reason": "Otomatik olarak [[$1|Babel]] kategori sayfası oluşturuluyor.",
+	"babel-autocreate-reason": "Otomatik olarak [[$1|Babil]] kategori sayfası oluşturuluyor.",
 	"babel-autocreate-text-levels": "Bu kategorideki kullanıcılar $1 seviyede $2 dilini bildiklerini belirtiyor.",
 	"babel-autocreate-text-main": "Bu kategorideki kullanıcılar, $1 dil bilgisini gösterir.",
 	"babel-autocreate-user": "Babil OtomatikOluştur",
