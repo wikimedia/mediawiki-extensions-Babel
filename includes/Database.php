@@ -64,7 +64,7 @@ class Database {
 	}
 
 	/**
-	 * @param string $id
+	 * @param int $id
 	 * @param string[] $data [ lang => level ]
 	 * @return bool true if changes to the db were made
 	 */
