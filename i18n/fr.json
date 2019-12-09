@@ -38,7 +38,7 @@
 	"babel-1-n": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} dispose de connaissances [[$1|de base]] en [[$2|français]].",
 	"babel-2-n": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} dispose de connaissances [[$1|intermédiaires]] en [[$2|français]].",
 	"babel-3-n": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} dispose de connaissances [[$1|avancées]] en [[$2|français]].",
-	"babel-4-n": "Cet⸱te utilisat⸱eur⸱rice dispose de connaissances [[$1|proches de la langue maternelle]] en [[$2|français]].",
+	"babel-4-n": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} dispose de connaissances [[$1|proches de la langue maternelle]] en [[$2|français]].",
 	"babel-5-n": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} dispose de connaissances [[$1|professionnelles]] en [[$2|français]].",
 	"babel-N-n": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} a pour [[$1|langue maternelle]] le [[$2|français]].",
 	"babel-template": "Modèle:User $1",
