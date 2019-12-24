@@ -1,4 +1,5 @@
 <?php
+declare( strict_types = 1 );
 
 namespace Babel\Tests\Unit;
 
@@ -16,7 +17,7 @@ use Parser;
  */
 class BabelStaticTest extends \MediaWikiUnitTestCase {
 
-	public function testOnParserFirstCallInit() {
+	public function testOnParserFirstCallInit(): void {
 		$parser = $this->getMockBuilder( Parser::class )
 			->disableOriginalConstructor()
 			->getMock();

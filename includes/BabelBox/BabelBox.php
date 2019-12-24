@@ -6,6 +6,8 @@
  * @license GPL-2.0-or-later
  */
 
+declare( strict_types = 1 );
+
 namespace MediaWiki\Babel\BabelBox;
 
 /**
@@ -18,7 +20,7 @@ interface BabelBox {
 	 *
 	 * @return string HTML
 	 */
-	public function render();
+	public function render(): string;
 
 	/**
 	 * Return categories that should be added to
@@ -28,6 +30,6 @@ interface BabelBox {
 	 *
 	 * @return string[] [ category => sort key ], sort key is false for default
 	 */
-	public function getCategories();
+	public function getCategories(): array;
 
 }

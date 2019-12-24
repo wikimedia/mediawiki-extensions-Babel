@@ -13,6 +13,8 @@
  * @license GPL-2.0-or-later
  */
 
+declare( strict_types = 1 );
+
 use MediaWiki\MediaWikiServices;
 
 /**
@@ -20,11 +22,11 @@ use MediaWiki\MediaWikiServices;
  */
 class BabelAutoCreate {
 	/**
-	 * @var User|false
+	 * @var User|null|false
 	 */
 	protected static $user = false;
 
-	public static function onUserGetReservedNames( &$names ) {
+	public static function onUserGetReservedNames( array &$names ): bool {
 		$names[] = 'msg:babel-autocreate-user';
 
 		return true;
@@ -37,7 +39,7 @@ class BabelAutoCreate {
 	 * @param string $code Code of language that the category is for.
 	 * @param string|null $level Level that the category is for.
 	 */
-	public static function create( $category, $code, $level = null ) {
+	public static function create( string $category, string $code, string $level = null ): void {
 		$category = strip_tags( $category );
 		$title = Title::makeTitleSafe( NS_CATEGORY, $category );
 		if ( $title === null || $title->exists() ) {
@@ -94,9 +96,9 @@ class BabelAutoCreate {
 	/**
 	 * Get user object.
 	 *
-	 * @return User User object for autocreate user.
+	 * @return User|null User object for autocreate user, null if invalid.
 	 */
-	public static function user() {
+	public static function user(): ?User {
 		if ( !self::$user ) {
 			$userName = wfMessage( 'babel-autocreate-user' )->inContentLanguage()->plain();
 			self::$user = User::newSystemUser( $userName, [ 'steal' => true ] );

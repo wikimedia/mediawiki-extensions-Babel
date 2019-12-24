@@ -1,4 +1,5 @@
 <?php
+declare( strict_types = 1 );
 
 namespace Babel\Tests;
 
@@ -23,7 +24,7 @@ use User;
  */
 class BabelTest extends MediaWikiIntegrationTestCase {
 
-	public function addDBDataOnce() {
+	public function addDBDataOnce(): void {
 		// The '#babel' parser function normally auto-creates category pages via
 		// a DeferredUpdate. In PHPUnit context, because of wgCommandLineMode
 		// being true, DeferredUpdates are not actually "deferred". They run
@@ -84,7 +85,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	 * @param Title $title
 	 * @return Parser
 	 */
-	private function getParser( Title $title ) {
+	private function getParser( Title $title ): Parser {
 		$options = ParserOptions::newFromAnon();
 		$options->setIsPreview( true );
 		$output = new ParserOutput();
@@ -101,7 +102,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	 * @param int $expectedCount
 	 * @param string $haystack
 	 */
-	private function assertBabelBoxCount( $expectedCount, $haystack ) {
+	private function assertBabelBoxCount( int $expectedCount, string $haystack ): void {
 		$this->assertSame( $expectedCount, substr_count( $haystack, '<div class="mw-babel-box' ) );
 	}
 
@@ -110,7 +111,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	 * @param string $cat
 	 * @param string $sortKey
 	 */
-	private function assertHasCategory( Parser $parser, $cat, $sortKey ) {
+	private function assertHasCategory( Parser $parser, string $cat, string $sortKey ): void {
 		$cats = $parser->getOutput()->getCategories();
 		$this->assertArrayHasKey( $cat, $cats );
 		$this->assertSame( $sortKey, $cats[$cat] );
@@ -120,12 +121,12 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	 * @param Parser $parser
 	 * @param string $cat
 	 */
-	private function assertNotHasCategory( Parser $parser, $cat ) {
+	private function assertNotHasCategory( Parser $parser, string $cat ): void {
 		$cats = $parser->getOutput()->getCategories();
 		$this->assertArrayNotHasKey( $cat, $cats );
 	}
 
-	public function testRenderEmptyBox() {
+	public function testRenderEmptyBox(): void {
 		$title = Title::newFromText( 'User:User-1' );
 		$parser = $this->getParser( $title );
 		$wikiText = Babel::Render( $parser, '' );
@@ -143,7 +144,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	/**
 	 * Provides different page names, such as pages in the Category namespace.
 	 */
-	public static function providePageNames() {
+	public static function providePageNames(): array {
 		return [
 			[ 'User:User-1' ],
 			[ 'Category:X1' ],
@@ -153,7 +154,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	/**
 	 * @dataProvider providePageNames
 	 */
-	public function testRenderDefaultLevel( $pageName ) {
+	public function testRenderDefaultLevel( string $pageName ): void {
 		$parser = $this->getParser( Title::newFromText( $pageName ) );
 		$wikiText = Babel::Render( $parser, 'en' );
 		$this->assertBabelBoxCount( 1, $wikiText );
@@ -179,7 +180,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	/**
 	 * @dataProvider providePageNames
 	 */
-	public function testRenderDefaultLevelNoCategory( $pageName ) {
+	public function testRenderDefaultLevelNoCategory( string $pageName ): void {
 		$this->setMwGlobals( [ 'wgBabelMainCategory' => false ] );
 
 		$title = Title::newFromText( $pageName );
@@ -205,7 +206,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->assertHasCategory( $parser, 'en-N', '' );
 	}
 
-	public function testRenderCustomLevel() {
+	public function testRenderCustomLevel(): void {
 		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
 		$wikiText = Babel::Render( $parser, 'EN-1', 'zh-Hant' );
 		$this->assertBabelBoxCount( 2, $wikiText );
@@ -247,7 +248,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->assertHasCategory( $parser, 'zh-Hant-N', '' );
 	}
 
-	public function testRenderPlain() {
+	public function testRenderPlain(): void {
 		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
 		$wikiText = Babel::Render( $parser, 'plain=1', 'en' );
 		$this->assertSame(
@@ -269,7 +270,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->assertHasCategory( $parser, 'en-N', '' );
 	}
 
-	public function testRenderRedLink() {
+	public function testRenderRedLink(): void {
 		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
 		$wikiText = Babel::Render( $parser, 'redLink' );
 		$this->assertBabelBoxCount( 0, $wikiText );
@@ -279,7 +280,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		);
 	}
 
-	public function testRenderInvalidTitle() {
+	public function testRenderInvalidTitle(): void {
 		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
 		$wikiText = Babel::Render( $parser, '<invalidTitle>' );
 		$this->assertBabelBoxCount( 0, $wikiText );
@@ -289,7 +290,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		);
 	}
 
-	public function testRenderNoSkillNoCategory() {
+	public function testRenderNoSkillNoCategory(): void {
 		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
 		$wikiText = Babel::Render( $parser, 'en-0' );
 		$this->assertNotHasCategory( $parser, 'en' );
@@ -298,7 +299,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	/**
 	 * Data provider to run a test with both db enabled and disabled
 	 */
-	public static function provideSettings() {
+	public static function provideSettings(): array {
 		return [
 			'lang info from db' => [ [ 'wgBabelUseDatabase' => true ] ],
 			'lang info from categories' => [ [ 'wgBabelUseDatabase' => false ] ],
@@ -308,7 +309,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	/**
 	 * @dataProvider provideSettings
 	 */
-	public function testGetUserLanguages( array $settings ) {
+	public function testGetUserLanguages( array $settings ): void {
 		$this->setMwGlobals( $settings );
 		$user = User::newFromName( 'User-1' );
 		$this->assertArrayEquals( [
@@ -340,7 +341,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	/**
 	 * @dataProvider provideSettings
 	 */
-	public function testGetUserLanguageInfo( array $settings ) {
+	public function testGetUserLanguageInfo( array $settings ): void {
 		$this->setMwGlobals( $settings );
 		$user = User::newFromName( 'User-1' );
 		$languages = Babel::getUserLanguageInfo( $user );

@@ -6,6 +6,8 @@
  * @license GPL-2.0-or-later
  */
 
+declare( strict_types = 1 );
+
 namespace MediaWiki\Babel\BabelBox;
 
 /**
@@ -18,14 +20,14 @@ class NullBabelBox implements BabelBox {
 	 *
 	 * @return string Empty string
 	 */
-	public function render() {
+	public function render(): string {
 		return '';
 	}
 
 	/**
 	 * @return string[]
 	 */
-	public function getCategories() {
+	public function getCategories(): array {
 		return [];
 	}
 

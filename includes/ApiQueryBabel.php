@@ -18,6 +18,8 @@
  * @file
  */
 
+declare( strict_types = 1 );
+
 namespace MediaWiki\Babel;
 
 use ApiBase;
@@ -28,11 +30,11 @@ use Babel;
 use User;
 
 class ApiQueryBabel extends ApiQueryBase {
-	public function __construct( ApiQuery $queryModule, $moduleName ) {
+	public function __construct( ApiQuery $queryModule, string $moduleName ) {
 		parent::__construct( $queryModule, $moduleName, 'bab' );
 	}
 
-	public function execute() {
+	public function execute(): void {
 		$params = $this->extractRequestParams();
 		$userName = $params['user'];
 		$user = User::newFromName( $userName );
@@ -51,7 +53,7 @@ class ApiQueryBabel extends ApiQueryBase {
 		);
 	}
 
-	public function getAllowedParams( /* $flags = 0 */ ) {
+	public function getAllowedParams( /* $flags = 0 */ ): array {
 		return [
 			'user' => [
 				ApiBase::PARAM_REQUIRED => true,
@@ -63,7 +65,7 @@ class ApiQueryBabel extends ApiQueryBase {
 	/**
 	 * @inheritDoc
 	 */
-	protected function getExamplesMessages() {
+	protected function getExamplesMessages(): array {
 		return [
 			'action=query&meta=babel&babuser=Example'
 				=> 'apihelp-query+babel-example-1',

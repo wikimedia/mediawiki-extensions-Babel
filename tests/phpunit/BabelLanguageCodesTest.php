@@ -1,4 +1,5 @@
 <?php
+declare( strict_types = 1 );
 
 namespace Babel\Tests;
 
@@ -18,11 +19,11 @@ class BabelLanguageCodesTest extends \PHPUnit\Framework\TestCase {
 	/**
 	 * @dataProvider getCodeProvider
 	 */
-	public function testGetCode( $code, $expected ) {
+	public function testGetCode( string $code, $expected ): void {
 		$this->assertSame( $expected, BabelLanguageCodes::getCode( $code ) );
 	}
 
-	public function getCodeProvider() {
+	public function getCodeProvider(): array {
 		$testData = [
 			[ 'invalidLanguageCode', false ],
 			[ 'en', 'en' ],
@@ -46,11 +47,11 @@ class BabelLanguageCodesTest extends \PHPUnit\Framework\TestCase {
 	/**
 	 * @dataProvider getNameProvider
 	 */
-	public function testGetName( $code, $language, $expected ) {
+	public function testGetName( string $code, ?string $language, $expected ): void {
 		$this->assertSame( $expected, BabelLanguageCodes::getName( $code, $language ) );
 	}
 
-	public function getNameProvider() {
+	public function getNameProvider(): array {
 		return [
 			[ 'invalidLanguageCode', null, false ],
 			[ 'en', null, 'English' ],
@@ -65,11 +66,11 @@ class BabelLanguageCodesTest extends \PHPUnit\Framework\TestCase {
 	/**
 	 * @dataProvider getCategoryCodeProvider
 	 */
-	public function testGetCategoryCode( $code, $expected ) {
+	public function testGetCategoryCode( string $code, string $expected ): void {
 		$this->assertSame( $expected, BabelLanguageCodes::getCategoryCode( $code ) );
 	}
 
-	public function getCategoryCodeProvider() {
+	public function getCategoryCodeProvider(): array {
 		return [
 			[ 'en', 'en' ],
 			[ 'de', 'de' ],

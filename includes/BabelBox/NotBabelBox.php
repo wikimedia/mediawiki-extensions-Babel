@@ -13,6 +13,8 @@
  * @license GPL-2.0-or-later
  */
 
+declare( strict_types = 1 );
+
 namespace MediaWiki\Babel\BabelBox;
 
 /**
@@ -36,7 +38,7 @@ class NotBabelBox implements BabelBox {
 	 * @param string $dir HTML 'dir' attribute
 	 * @param string $content What's inside the box, in wikitext format.
 	 */
-	public function __construct( $dir, $content ) {
+	public function __construct( string $dir, string $content ) {
 		$this->dir = $dir;
 		$this->content = $content;
 	}
@@ -46,7 +48,7 @@ class NotBabelBox implements BabelBox {
 	 *
 	 * @return string A single non-babel box, in wikitext format.
 	 */
-	public function render() {
+	public function render(): string {
 		$notabox = <<<EOT
 <div class="mw-babel-notabox" dir="{$this->dir}">{$this->content}</div>
 EOT;
@@ -57,7 +59,7 @@ EOT;
 	/**
 	 * @return string[]
 	 */
-	public function getCategories() {
+	public function getCategories(): array {
 		return [];
 	}
 

@@ -7,6 +7,8 @@
  * @license GPL-2.0-or-later
  */
 
+declare( strict_types = 1 );
+
 /**
  * Handle language code and name processing for the Babel extension, it can also
  * be used by other extension which need such functionality.
@@ -22,7 +24,7 @@ class BabelLanguageCodes {
 	 * @param string $code Code to try and get an internal code for
 	 * @return string|bool Language code, or false if code is not mapped
 	 */
-	private static function mapToMediaWikiCode( $code ) {
+	private static function mapToMediaWikiCode( string $code ) {
 		if ( !self::$mapToMediaWikiCodeCache ) {
 			self::$mapToMediaWikiCodeCache = [];
 			// Is the code a proper BCP 47 code for one of MediaWiki's nonstandard codes?
@@ -59,7 +61,7 @@ class BabelLanguageCodes {
 	 * @return string|bool Mediawiki-internal language code, or false
 	 *   for invalid language code.
 	 */
-	public static function getCode( $code ) {
+	public static function getCode( string $code ) {
 		// Map BCP 47 codes and/or deprecated codes to internal MediaWiki codes
 		$mediawiki = self::mapToMediaWikiCode( $code );
 		if ( $mediawiki !== false ) {
@@ -94,7 +96,7 @@ class BabelLanguageCodes {
 	 *  defaults to language of code.
 	 * @return string|bool Name of language, or false for invalid language code.
 	 */
-	public static function getName( $code, $language = null ) {
+	public static function getName( string $code, string $language = null ) {
 		// Get correct code, even though it should already be correct.
 		$code = self::getCode( $code );
 		if ( $code === false ) {
@@ -131,7 +133,7 @@ class BabelLanguageCodes {
 	 * @return string A backwards-compatible category name for this code.
 	 * @since 1.32
 	 */
-	public static function getCategoryCode( $code ) {
+	public static function getCategoryCode( string $code ): string {
 		if ( strpos( $code, '-' ) !== false ) {
 			return LanguageCode::bcp47( $code );
 		}

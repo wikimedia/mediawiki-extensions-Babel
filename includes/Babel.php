@@ -13,6 +13,8 @@
  * @license GPL-2.0-or-later
  */
 
+declare( strict_types = 1 );
+
 use MediaWiki\Babel\BabelBox\LanguageBabelBox;
 use MediaWiki\Babel\BabelBox\NotBabelBox;
 use MediaWiki\Babel\BabelBox\NullBabelBox;
@@ -34,7 +36,7 @@ class Babel {
 	 * @param string ...$parameters
 	 * @return string Babel tower.
 	 */
-	public static function Render( Parser $parser, ...$parameters ) {
+	public static function Render( Parser $parser, string ...$parameters ): string {
 		global $wgBabelUseUserLanguage;
 		self::$title = $parser->getTitle();
 
@@ -94,7 +96,7 @@ EOT;
 	 *
 	 * @return string Wikitext
 	 */
-	private static function mGenerateContentTower( Parser $parser, array $parameters ) {
+	private static function mGenerateContentTower( Parser $parser, array $parameters ): string {
 		$content = '';
 		$templateParameters = []; // collects name=value parameters to be passed to wiki templates.
 
@@ -110,7 +112,11 @@ EOT;
 		return $content;
 	}
 
-	private static function setExtensionData( ParserOutput $parserOutput, $code, $level ) {
+	private static function setExtensionData(
+		ParserOutput $parserOutput,
+		string $code,
+		string $level
+	): void {
 		$data = $parserOutput->getExtensionData( 'babel' ) ?: [];
 		$data[ BabelLanguageCodes::getCategoryCode( $code ) ] = $level;
 		$parserOutput->setExtensionData( 'babel', $data );
@@ -123,7 +129,11 @@ EOT;
 	 *
 	 * @return string Wikitext
 	 */
-	private static function mGenerateContent( Parser $parser, $name, array $templateParameters ) {
+	private static function mGenerateContent(
+		Parser $parser,
+		string $name,
+		array $templateParameters
+	): string {
 		$createCategories = !$parser->getOptions()->getIsPreview();
 		$components = self::mParseParameter( $name );
 		$template = wfMessage( 'babel-template', $name )->inContentLanguage()->text();
@@ -193,7 +203,7 @@ EOT;
 	 *
 	 * @param string[] $parameters Templates to perform the link batch on.
 	 */
-	protected static function mTemplateLinkBatch( array $parameters ) {
+	protected static function mTemplateLinkBatch( array $parameters ): void {
 		$titles = [];
 		foreach ( $parameters as $name ) {
 			$title = Title::newFromText( wfMessage( 'babel-template', $name )->inContentLanguage()->text() );
@@ -213,7 +223,7 @@ EOT;
 	 * @param string $name Name of the page to check.
 	 * @return bool Indication of whether the page exists.
 	 */
-	protected static function mPageExists( $name ) {
+	protected static function mPageExists( string $name ): bool {
 		$titleObj = Title::newFromText( $name );
 
 		return ( is_object( $titleObj ) && $titleObj->exists() );
@@ -225,7 +235,7 @@ EOT;
 	 * @param string $name Name of page to check.
 	 * @return bool Indication of whether or not the title is valid.
 	 */
-	protected static function mValidTitle( $name ) {
+	protected static function mValidTitle( string $name ): bool {
 		$titleObj = Title::newFromText( $name );
 
 		return is_object( $titleObj );
@@ -238,7 +248,7 @@ EOT;
 	 * @param bool $strtolower Whether to convert the language code to lowercase
 	 * @return array|bool [ 'code' => xx, 'level' => xx ] false on failure
 	 */
-	protected static function mParseParameter( $parameter, $strtolower = false ) {
+	protected static function mParseParameter( string $parameter, bool $strtolower = false ) {
 		global $wgBabelDefaultLevel, $wgBabelCategoryNames;
 		$return = [];
 
@@ -283,7 +293,7 @@ EOT;
 	 * @param User $user
 	 * @return string[] [ language code => level ]
 	 */
-	public static function getUserLanguageInfo( User $user ) {
+	public static function getUserLanguageInfo( User $user ): array {
 		$userLanguageInfo = self::getUserLanguagesDB( $user );
 
 		ksort( $userLanguageInfo );
@@ -301,7 +311,7 @@ EOT;
 	 *
 	 * @since Version 1.10.0
 	 */
-	public static function getCachedUserLanguageInfo( User $user ) {
+	public static function getCachedUserLanguageInfo( User $user ): array {
 		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 		$userId = $user->getId();
 		$key = $cache->makeKey( 'babel-local-languages', $userId );
@@ -340,18 +350,17 @@ EOT;
 	 *
 	 * @param string[] $languageInfo [ language code => level ], the return value of
 	 *   getUserLanguageInfo.
-	 * @param string $level Minimal level as given in $wgBabelCategoryNames
+	 * @param string|null $level Minimal level as given in $wgBabelCategoryNames
 	 * @return string[] List of language codes
 	 *
 	 * @since Version 1.10.0
 	 */
-	private static function getLanguages( $languageInfo, $level ) {
+	private static function getLanguages( array $languageInfo, ?string $level ): array {
 		if ( !$languageInfo ) {
 			return [];
 		}
 
 		if ( $level !== null ) {
-			$level = (string)$level;
 			// filter down the set, note that this uses a text sort!
 			$languageInfo = array_filter(
 				$languageInfo,
@@ -380,7 +389,7 @@ EOT;
 	 *
 	 * @since Version 1.10.0
 	 */
-	public static function getCachedUserLanguages( User $user, $level = null ) {
+	public static function getCachedUserLanguages( User $user, string $level = null ): array {
 		return self::getLanguages( self::getCachedUserLanguageInfo( $user ), $level );
 	}
 
@@ -394,11 +403,11 @@ EOT;
 	 *
 	 * @since Version 1.9.0
 	 */
-	public static function getUserLanguages( User $user, $level = null ) {
+	public static function getUserLanguages( User $user, string $level = null ): array {
 		return self::getLanguages( self::getUserLanguageInfo( $user ), $level );
 	}
 
-	private static function getUserLanguagesDB( User $user ) {
+	private static function getUserLanguagesDB( User $user ): array {
 		global $wgBabelCentralDb;
 
 		$babelDB = new MediaWiki\Babel\Database();

@@ -13,6 +13,8 @@
  * @license GPL-2.0-or-later
  */
 
+declare( strict_types = 1 );
+
 namespace MediaWiki\Babel\BabelBox;
 
 use BabelAutoCreate;
@@ -57,7 +59,12 @@ class LanguageBabelBox implements BabelBox {
 	 * @param bool $createCategories If true, creates non existing categories;
 	 *  otherwise, doesn't create them.
 	 */
-	public function __construct( Title $title, $code, $level, $createCategories = true ) {
+	public function __construct(
+		Title $title,
+		string $code,
+		string $level,
+		bool $createCategories = true
+	) {
 		$this->title = $title;
 		$this->code = BabelLanguageCodes::getCode( $code ) ?? $code;
 		$this->level = $level;
@@ -69,7 +76,7 @@ class LanguageBabelBox implements BabelBox {
 	 *
 	 * @return string A babel box for the given language and level.
 	 */
-	public function render() {
+	public function render(): string {
 		$code = $this->code;
 		$catCode = BabelLanguageCodes::getCategoryCode( $code );
 		$bcp47 = LanguageCode::bcp47( $code );
@@ -111,7 +118,12 @@ EOT;
 	 * @param string $level Level to use.
 	 * @return string Text for display, in wikitext format.
 	 */
-	private static function getText( Title $title, $name, $code, $level ) {
+	private static function getText(
+		Title $title,
+		string $name,
+		string $code,
+		string $level
+	): string {
 		global $wgBabelMainCategory, $wgBabelCategoryNames;
 
 		if ( $wgBabelCategoryNames[$level] === false ) {
@@ -155,7 +167,7 @@ EOT;
 	 *
 	 * @return string[] [ category => sort key ]
 	 */
-	public function getCategories() {
+	public function getCategories(): array {
 		global $wgBabelMainCategory, $wgBabelCategoryNames, $wgBabelCategorizeNamespaces;
 
 		$r = [];
@@ -198,7 +210,7 @@ EOT;
 	 * @return string Category name with variables replaced.
 	 * @throws MWException if the category name is not a valid title
 	 */
-	private static function getCategoryName( $category, $code ) {
+	private static function getCategoryName( string $category, string $code ): string {
 		global $wgLanguageCode;
 		$category = strtr( $category, [
 			'%code%' => BabelLanguageCodes::getCategoryCode( $code ),

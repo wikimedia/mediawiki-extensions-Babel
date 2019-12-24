@@ -7,6 +7,8 @@
  * @license GPL-2.0-or-later
  */
 
+declare( strict_types = 1 );
+
 use MediaWiki\MediaWikiServices;
 
 /**
@@ -18,7 +20,7 @@ class BabelStatic {
 	 *
 	 * @param Parser $parser
 	 */
-	public static function onParserFirstCallInit( Parser $parser ) {
+	public static function onParserFirstCallInit( Parser $parser ): void {
 		$parser->setFunctionHook( 'babel', [ 'Babel', 'Render' ] );
 	}
 
@@ -63,7 +65,7 @@ class BabelStatic {
 	/**
 	 * @param LinksUpdate $linksUpdate
 	 */
-	public static function onLinksUpdate( LinksUpdate $linksUpdate ) {
+	public static function onLinksUpdate( LinksUpdate $linksUpdate ): void {
 		global $wgBabelCentralDb;
 
 		$title = $linksUpdate->getTitle();

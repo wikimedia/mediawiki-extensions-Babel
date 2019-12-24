@@ -1,4 +1,5 @@
 <?php
+declare( strict_types = 1 );
 
 namespace Babel\Tests;
 
@@ -23,7 +24,7 @@ class BabelAutoCreateTest extends MediaWikiIntegrationTestCase {
 		$this->setContentLang( 'qqx' );
 	}
 
-	public function testOnUserGetReservedNames() {
+	public function testOnUserGetReservedNames(): void {
 		$names = [];
 		$this->assertSame( [], $names, 'Precondition' );
 
@@ -34,7 +35,12 @@ class BabelAutoCreateTest extends MediaWikiIntegrationTestCase {
 	/**
 	 * @dataProvider createProvider
 	 */
-	public function testCreate( $category, $code, $level, $expected ) {
+	public function testCreate(
+		string $category,
+		string $code,
+		?string $level,
+		string $expected
+	): void {
 		BabelAutoCreate::create( $category, $code, $level );
 		$page = $this->getServiceContainer()->getWikiPageFactory()->newFromTitle(
 			Title::newFromText( 'Category:' . $category )
@@ -43,7 +49,7 @@ class BabelAutoCreateTest extends MediaWikiIntegrationTestCase {
 		$this->assertSame( $expected, $page->getContent()->getText() );
 	}
 
-	public function createProvider() {
+	public function createProvider(): array {
 		return [
 			[
 				'category-1', 'en', null,
@@ -56,7 +62,7 @@ class BabelAutoCreateTest extends MediaWikiIntegrationTestCase {
 		];
 	}
 
-	public function testUser() {
+	public function testUser(): void {
 		$user = BabelAutoCreate::user();
 		$this->assertInstanceOf( 'User', $user );
 	}

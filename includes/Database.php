@@ -18,6 +18,8 @@
  * @file
  */
 
+declare( strict_types = 1 );
+
 namespace MediaWiki\Babel;
 
 use MediaWiki\MediaWikiServices;
@@ -40,7 +42,7 @@ class Database {
 	 * @param string|bool $wiki Database name if querying a different wiki
 	 * @return IDatabase
 	 */
-	protected function getDB( $index, $wiki = false ) {
+	protected function getDB( int $index, $wiki = false ): IDatabase {
 		return $this->loadBalancerFactory->getMainLB( $wiki )
 			->getLazyConnectionRef( $index, [], $wiki );
 	}
@@ -49,7 +51,7 @@ class Database {
 	 * @param int $id user id
 	 * @return string[] [ lang => level ]
 	 */
-	public function getForUser( $id ) {
+	public function getForUser( int $id ): array {
 		$rows = $this->getDB( DB_REPLICA )->select(
 			'babel',
 			[ 'babel_lang', 'babel_level' ],
@@ -70,7 +72,7 @@ class Database {
 	 * @param string $username
 	 * @return string[] [ lang => level ]
 	 */
-	public function getForRemoteUser( $wiki, $username ) {
+	public function getForRemoteUser( string $wiki, string $username ): array {
 		$rows = $this->getDB( DB_REPLICA, $wiki )->select(
 			[ 'babel', 'user' ],
 			[ 'babel_lang', 'babel_level' ],
@@ -97,7 +99,7 @@ class Database {
 	 * @param string[] $data [ lang => level ]
 	 * @return bool true if changes to the db were made
 	 */
-	public function setForUser( $id, array $data ) {
+	public function setForUser( int $id, array $data ): bool {
 		$dbw = $this->getDB( DB_PRIMARY );
 
 		$newRows = [];
