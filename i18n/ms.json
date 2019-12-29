@@ -5,7 +5,8 @@
 			"Aviator",
 			"Iwan Novirion",
 			"Kurniasan",
-			"Jeluang Terluang"
+			"Jeluang Terluang",
+			"CyberTroopers"
 		]
 	},
 	"babel": "Maklumat bahasa pengguna",
@@ -14,7 +15,7 @@
 	"babel-footer-url": ":Category:Babel - Pengguna mengikut bahasa",
 	"babel-autocreate-reason": "Mencipta laman kategori [[$1|Bahasa]] secara automatik.",
 	"babel-autocreate-text-levels": "Pengguna yang tergolong dalam kategori ini mengisyaratkan bahawa mereka memiliki kemahiran aras $1 dalam bahasa $2.",
-	"babel-autocreate-text-main": "Pengguna yang tergolong dalam kategori ini mengisyaratkan bahawa mereka memiliki pengetahuan dalam bahasa $1.",
+	"babel-autocreate-text-main": "Pengguna yang tergolong dalam kategori ini menandakan bahawa mereka memiliki pengetahuan dalam bahasa $1.",
 	"babel-autocreate-user": "Babel AutoCreate",
 	"babel-0": "Pengguna ini [[$1|tidak mampu]] bertutur dalam (atau sukar memahami) [[$2|$3]].",
 	"babel-1": "Pengguna ini memiliki kemahiran [[$1|asas]] dalam [[$2|$3]].",
