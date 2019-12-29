@@ -47,10 +47,7 @@ class BabelLanguageCodes {
 				}
 			}
 		}
-		if ( isset( self::$mapToMediaWikiCodeCache[ strtolower( $code ) ] ) ) {
-			return self::$mapToMediaWikiCodeCache[ strtolower( $code ) ];
-		}
-		return false;
+		return self::$mapToMediaWikiCodeCache[ strtolower( $code ) ] ?? false;
 	}
 
 	/**
