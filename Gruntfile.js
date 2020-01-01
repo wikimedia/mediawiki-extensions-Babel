@@ -12,7 +12,14 @@ module.exports = function ( grunt ) {
 	grunt.loadNpmTasks( 'grunt-stylelint' );
 
 	grunt.initConfig( {
-		banana: conf.MessagesDirs,
+		banana: Object.assign(
+			conf.MessagesDirs,
+			{
+				options: {
+					requireLowerCase: 'initial'
+				}
+			}
+		),
 		stylelint: {
 			all: [
 				'**/*.css',
