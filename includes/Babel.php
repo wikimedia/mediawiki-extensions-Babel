@@ -16,8 +16,8 @@
 use MediaWiki\Babel\BabelBox\LanguageBabelBox;
 use MediaWiki\Babel\BabelBox\NotBabelBox;
 use MediaWiki\Babel\BabelBox\NullBabelBox;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Logger\LoggerFactory;
+use MediaWiki\MediaWikiServices;
 
 /**
  * Main class for the Babel extension.
