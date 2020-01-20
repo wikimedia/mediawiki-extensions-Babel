@@ -149,7 +149,7 @@ class BabelTest extends MediaWikiTestCase {
 		$parser = $this->getParser( Title::newFromText( $pageName ) );
 		$wikiText = Babel::Render( $parser, 'en' );
 		$this->assertBabelBoxCount( 1, $wikiText );
-		$this->assertContains(
+		$this->assertStringContainsString(
 			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
 			. "\n"
 			. '{|'
@@ -176,7 +176,7 @@ class BabelTest extends MediaWikiTestCase {
 		$parser = $this->getParser( Title::newFromText( $pageName ) );
 		$wikiText = Babel::Render( $parser, 'en' );
 		$this->assertBabelBoxCount( 1, $wikiText );
-		$this->assertContains(
+		$this->assertStringContainsString(
 			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
 			. "\n"
 			. '{|'
@@ -198,7 +198,7 @@ class BabelTest extends MediaWikiTestCase {
 		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
 		$wikiText = Babel::Render( $parser, 'EN-1', 'zh-Hant' );
 		$this->assertBabelBoxCount( 2, $wikiText );
-		$this->assertContains(
+		$this->assertStringContainsString(
 			'<div class="mw-babel-box mw-babel-box-1" dir="ltr">'
 			. "\n"
 			. '{|'
@@ -215,7 +215,7 @@ class BabelTest extends MediaWikiTestCase {
 		$this->assertHasCategory( $parser, 'en', '1' );
 		$this->assertHasCategory( $parser, 'en-1', '' );
 
-		$this->assertContains(
+		$this->assertStringContainsString(
 			'<div class="mw-babel-box mw-babel-box-N" dir="ltr">'
 			. "\n"
 			. '{|'
@@ -259,7 +259,7 @@ class BabelTest extends MediaWikiTestCase {
 		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
 		$wikiText = Babel::Render( $parser, 'redLink' );
 		$this->assertBabelBoxCount( 0, $wikiText );
-		$this->assertContains(
+		$this->assertStringContainsString(
 			'<div class="mw-babel-notabox" dir="ltr">[[(babel-template: redLink)]]</div>',
 			$wikiText
 		);
@@ -269,7 +269,7 @@ class BabelTest extends MediaWikiTestCase {
 		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
 		$wikiText = Babel::Render( $parser, '<invalidTitle>' );
 		$this->assertBabelBoxCount( 0, $wikiText );
-		$this->assertContains(
+		$this->assertStringContainsString(
 			'<div class="mw-babel-notabox" dir="ltr">(babel-template: <invalidTitle>)</div>',
 			$wikiText
 		);
