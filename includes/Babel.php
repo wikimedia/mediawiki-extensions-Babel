@@ -285,15 +285,7 @@ EOT;
 	 * @return string[] [ language code => level ]
 	 */
 	public static function getUserLanguageInfo( User $user ) {
-		global $wgBabelMainCategory, $wgBabelUseDatabase;
-
-		if ( $wgBabelUseDatabase ) {
-			$userLanguageInfo = self::getUserLanguagesDB( $user );
-		} elseif ( $wgBabelMainCategory ) {
-			$userLanguageInfo = self::getUserLanguagesCat( $user );
-		} else {
-			$userLanguageInfo = [];
-		}
+		$userLanguageInfo = self::getUserLanguagesDB( $user );
 
 		ksort( $userLanguageInfo );
 
@@ -455,40 +447,5 @@ EOT;
 		}
 
 		return $json['query']['babel'];
-	}
-
-	private static function getUserLanguagesCat( User $user ) {
-		global $wgBabelMainCategory;
-
-		// The string we construct here will be a pony, it will not be a valid category
-		$babelCategoryTitle = Title::makeTitle( NS_CATEGORY, $wgBabelMainCategory );
-		// Quote everything to avoid unexpected matches due to parenthesis form
-		// It is not necessary to quote any additional chars except the special chars for the regex
-		// and perhaps the limiting char, but that should not be respected as anything other than
-		// edge delimiter.
-		$babelCategoryString = preg_quote( $babelCategoryTitle->getPrefixedDBkey(), '/' );
-		// Look for the %code% inside the string and put a group match in the same place
-		// This will only work if the previous works so the string isn't misinterpreted as a regular
-		// expression itself
-		$codeRegex = '/^' . preg_replace( '/%code%/', '(.+?)(-([0-5N]))?', $babelCategoryString ) . '$/';
-
-		$categories = array_keys( $user->getUserPage()->getParentCategories() );
-
-		// We sort on proficiency level
-		$result = [];
-		foreach ( $categories as $category ) {
-			// Only process categories that matches, $match will be created if necessary
-			$res = preg_match( $codeRegex, $category, $match );
-			if ( $res ) {
-				// lowercase the first char, but stay away from the others in case of region codes
-				$code = BabelLanguageCodes::getCode( lcfirst( $match[1] ) );
-				if ( $code !== false ) {
-					$catCode = BabelLanguageCodes::getCategoryCode( $code );
-					$result[$catCode] = $match[3] ?? 'N';
-				}
-			}
-		}
-
-		return $result;
 	}
 }

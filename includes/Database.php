@@ -70,12 +70,6 @@ class Database {
 	 */
 	public function setForUser( $id, array $data ) {
 		$dbw = $this->getDB( DB_MASTER );
-		if ( !$dbw->tableExists( 'babel' ) ) {
-			// Populate data as long as the table exists, so
-			// we can pre-populate the database before switching
-			// reads to the database
-			return false;
-		}
 
 		$newRows = [];
 		foreach ( $data as $lang => $level ) {

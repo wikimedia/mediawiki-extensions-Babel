@@ -74,7 +74,6 @@
 		"BabelMainCategory": "%code%",
 		"BabelDefaultLevel": "N",
 		"BabelUseUserLanguage": false,
-		"BabelUseDatabase": false,
 		"BabelCentralDb": false,
 		"BabelCentralApi": false
 	},
