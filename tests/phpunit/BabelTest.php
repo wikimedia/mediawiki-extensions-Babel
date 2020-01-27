@@ -65,7 +65,6 @@ class BabelTest extends MediaWikiTestCase {
 		$this->setContentLang( 'qqx' );
 		$this->setMwGlobals( [
 			// Individual tests may change these
-			'wgBabelCentralApi' => false,
 			'wgBabelCentralDb' => false,
 			'wgCapitalLinks' => false,
 		] );
