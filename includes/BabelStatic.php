@@ -52,12 +52,12 @@ class BabelStatic {
 		$changed = $babelDB->setForUser( $user->getId(), $data );
 		if ( $changed ) {
 			$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
-			$cache->touchCheckKey( $cache->makeKey( 'babel', 'userLanguages', $user->getId() ) );
+			$cache->touchCheckKey( $cache->makeKey( 'babel-local-languages', $user->getId() ) );
 			if ( $wgBabelCentralDb === wfWikiID() ) {
 				// If this is the central wiki, invalidate all of the local caches
 				$centralId = CentralIdLookup::factory()->centralIdFromLocalUser( $user );
 				if ( $centralId ) {
-					$cache->touchCheckKey( $cache->makeGlobalKey( 'babel', 'userLanguages', $centralId ) );
+					$cache->touchCheckKey( $cache->makeGlobalKey( 'babel-central-languages', $centralId ) );
 				}
 			}
 		}

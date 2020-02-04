@@ -305,11 +305,11 @@ EOT;
 	public static function getCachedUserLanguageInfo( User $user ) {
 		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 		$userId = $user->getId();
-		$key = $cache->makeKey( 'babel', 'userLanguages', $userId );
+		$key = $cache->makeKey( 'babel-local-languages', $userId );
 		$checkKeys = [ $key ];
 		$centralId = CentralIdLookup::factory()->centralIdFromLocalUser( $user );
 		if ( $centralId ) {
-			$checkKeys[] = $cache->makeGlobalKey( 'babel', 'userLanguages', $centralId );
+			$checkKeys[] = $cache->makeGlobalKey( 'babel-central-languages', $centralId );
 		}
 
 		$cachedUserLanguageInfo = $cache->getWithSetCallback(
