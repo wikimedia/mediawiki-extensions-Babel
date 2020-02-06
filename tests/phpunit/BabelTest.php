@@ -66,6 +66,7 @@ class BabelTest extends MediaWikiTestCase {
 		$this->setMwGlobals( [
 			// Individual tests may change these
 			'wgBabelUseDatabase' => true,
+			'wgBabelCentralApi' => false,
 			'wgBabelCentralDb' => false,
 			'wgCapitalLinks' => false,
 		] );

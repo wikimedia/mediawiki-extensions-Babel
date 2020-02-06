@@ -37,11 +37,10 @@ class Database {
 
 	/**
 	 * @param int $index
-	 * @param string|bool $wiki Database name if querying a different wiki
 	 * @return IDatabase
 	 */
-	protected function getDB( $index, $wiki = false ) {
-		return $this->loadBalancer->getLazyConnectionRef( $index, [], $wiki );
+	protected function getDB( $index ) {
+		return $this->loadBalancer->getLazyConnectionRef( $index );
 	}
 
 	/**
@@ -54,33 +53,6 @@ class Database {
 			[ 'babel_lang', 'babel_level' ],
 			[ 'babel_user' => $id ],
 			__METHOD__
-		);
-
-		$return = [];
-		foreach ( $rows as $row ) {
-			$return[$row->babel_lang] = $row->babel_level;
-		}
-
-		return $return;
-	}
-
-	/**
-	 * @param string $wiki Database name
-	 * @param string $username
-	 * @return string[] [ lang => level ]
-	 */
-	public function getForRemoteUser( $wiki, $username ) {
-		$rows = $this->getDB( DB_REPLICA, $wiki )->select(
-			[ 'babel', 'user' ],
-			[ 'babel_lang', 'babel_level' ],
-			[
-				'user_name' => $username
-			],
-			__METHOD__,
-			[],
-			[
-				'user' => [ 'INNER JOIN', 'babel_user=user_id' ]
-			]
 		);
 
 		$return = [];
