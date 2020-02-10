@@ -31,5 +31,6 @@
 	"babel-4-n": "Ĉi tiu uzanto parolas kun [[$1|preskaŭ denaska]] scio de [[$2|Esperanto]].",
 	"babel-5-n": "Ĉi tiu uzanto estas [[$1|profesia]] parolanto de [[$2|Esperanto]].",
 	"babel-N-n": "Ĉi tiu uzanto estas [[$1|denaska parolanto]] de [[$2|Esperanto]].",
+	"babel-template": "Template:Uzanto $1",
 	"babel-footer": "Uzantoj laŭ lingvoj"
 }
