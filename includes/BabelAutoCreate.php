@@ -13,6 +13,8 @@
  * @license GPL-2.0-or-later
  */
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * Class for automatic creation of Babel category pages.
  */
@@ -58,7 +60,8 @@ class BabelAutoCreate {
 				return;
 			}
 
-			if ( !$title->quickUserCan( 'create', $user ) ) {
+			if ( !MediaWikiServices::getInstance()->getPermissionManager()
+				->quickUserCan( 'create', $user, $title ) ) {
 				return; # The Babel AutoCreate account is not allowed to create the page
 			}
 
