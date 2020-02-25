@@ -53,7 +53,7 @@ class BabelLanguageCodes {
 	/**
 	 * Takes a language code, and attempt to obtain a better variant of it,
 	 * checks the MediaWiki language codes for a match, otherwise checks the
-	 * Babel language codes CDB (preferring ISO 639-1 over ISO 639-3).
+	 * internal Babel language codes (preferring ISO 639-1 over ISO 639-3) map.
 	 *
 	 * @param string $code Code to try and get a "better" code for.
 	 * @return string|bool Mediawiki-internal language code, or false
@@ -73,22 +73,21 @@ class BabelLanguageCodes {
 		}
 
 		// Otherwise, fall back to the ISO 639 codes database
-		$codes = false;
-		try {
-			$codesCdb = Cdb\Reader::open( __DIR__ . '/../codes.cdb' );
-			$codes = $codesCdb->get( $code );
-		} catch ( Cdb\Exception $e ) {
-			wfDebug( __METHOD__ . ": CdbException caught, error message was "
-				. $e->getMessage() );
+		static $isoCodes = false;
+		if ( !$isoCodes ) {
+			$isoCodes = require __DIR__ . '/../codes.php';
+		}
+		if ( isset( $isoCodes[$code] ) ) {
+			return $isoCodes[$code];
 		}
 
-		return $codes;
+		return false;
 	}
 
 	/**
 	 * Take a code as input, and search a language name for it in
 	 * a given language via Language::fetchLanguageNames() or
-	 * else via the Babel language names CDB
+	 * else via the internal Babel language names map.
 	 *
 	 * @param string $code Code to get name for.
 	 * @param string|null $language Code of language to attempt to get name in,
@@ -109,16 +108,14 @@ class BabelLanguageCodes {
 			return $names[$code];
 		}
 
-		$codes = false;
-		try {
-			$namesCdb = Cdb\Reader::open( __DIR__ . '/../names.cdb' );
-			$codes = $namesCdb->get( $code );
-		} catch ( Cdb\Exception $e ) {
-			wfDebug( __METHOD__ . ": CdbException caught, error message was "
-				. $e->getMessage() );
+		static $isoNames = false;
+		if ( !$isoNames ) {
+			$isoNames = require __DIR__ . '/../names.php';
 		}
-
-		return $codes;
+		if ( isset( $isoNames[$code] ) ) {
+			return $isoNames[$code];
+		}
+		return false;
 	}
 
 	/**

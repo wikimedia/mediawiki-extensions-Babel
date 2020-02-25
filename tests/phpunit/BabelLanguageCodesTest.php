@@ -59,6 +59,7 @@ class BabelLanguageCodesTest extends \PHPUnit\Framework\TestCase {
 			[ 'eng', null, 'English' ],
 			[ 'en-gb', null, 'British English' ],
 			[ 'de', null, 'Deutsch' ],
+			[ 'aaq', null, 'Eastern Abnaki' ],
 		];
 	}
 
