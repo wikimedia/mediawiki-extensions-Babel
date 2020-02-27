@@ -11,7 +11,7 @@
 	"babel-footer-url": ":Category:Babel - Mga gumaramit ha pinulongan",
 	"babel-autocreate-reason": "Lugaring nga naghihimo hin [[$1|Babel]] kaarangay nga pakli.",
 	"babel-autocreate-text-levels": "An mga gumaramit hinin nga kaarangay in nagpapasabot hin ira katupngan $1 nga kabatiran para ha yinaknan nga $2.",
-	"babel-autocreate-text-main": "An mga gumaramit hinin nga kaarangay in nagpapasabot nga maaram han pinulongan nga $1.",
+	"babel-autocreate-text-main": "An mga gumaramit hinin nga kaarangay in nagpapasabot nga han ira pagkamaaram han pinulongan nga $1.",
 	"babel-0": "Ini nga gumaramit in [[$1|waray]] sarabutan hin [[$2|$3]] (o nagkukuri pagsabot).",
 	"babel-1": "Ini nga gumaramit in may-ada [[$1|hamabaw]] nga pananabutan han [[$2|$3]].",
 	"babel-2": "Ini nga gumaramit in may-ada [[$1|tunga-tunga]] nga pananabutan han [[$2|$3]].",
