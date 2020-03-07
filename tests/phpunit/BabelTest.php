@@ -75,7 +75,7 @@ class BabelTest extends MediaWikiTestCase {
 	 * @return Parser
 	 */
 	private function getParser( Title $title ) {
-		$options = new ParserOptions();
+		$options = ParserOptions::newFromAnon();
 		$options->setIsPreview( true );
 		$output = new ParserOutput();
 
