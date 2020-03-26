@@ -193,10 +193,10 @@ EOT;
 	 * Replace the placeholder variables from the category names configurtion
 	 * array with actual values.
 	 *
-	 * @throws MWException if the category name is not a valid title
 	 * @param string $category Category name (containing variables).
 	 * @param string $code Mediawiki-internal language code of category.
 	 * @return string Category name with variables replaced.
+	 * @throws MWException if the category name is not a valid title
 	 */
 	private static function getCategoryName( $category, $code ) {
 		global $wgLanguageCode;
