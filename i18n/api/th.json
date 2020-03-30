@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"apihelp-query+babel-description": "รับข้อมูลเกี่ยวกับภาษาที่ผู้ใช้เข้าใจ",
+	"apihelp-query+babel-summary": "รับข้อมูลเกี่ยวกับภาษาที่ผู้ใช้เข้าใจ",
+	"apihelp-query+babel-param-user": "ผู้ใช้ที่ต้องการรับข้อมูล"
+}
