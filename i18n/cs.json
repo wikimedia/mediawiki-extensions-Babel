@@ -1,15 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Clon",
 			"Danny B.",
 			"Kuvaly",
 			"Li-sung",
 			"Littledogboy",
 			"Matěj Grabovský",
-			"Mormegil",
-			"Mr. Richard Bolla",
 			"Matěj Suchánek",
-			"Clon"
+			"Mormegil",
+			"Mr. Richard Bolla"
 		]
 	},
 	"babel": "Babylon – informace o&nbsp;{{GENDER:$1|uživateli|uživatelce|uživateli}}",

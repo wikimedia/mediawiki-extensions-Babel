@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"babel-1": "Chësc utënt possa contribuì cun n livel [[$1|bas]] de [[$2|$3]].",
 	"babel-2": "Chësc utënt possa contribuì cun n livel [[$1|mesan]] de [[$2|$3]].",
 	"babel-3": "Chësc utënt possa contribuì cun n livel [[$1|aut]] de [[$2|$3]].",

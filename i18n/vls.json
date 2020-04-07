@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"babel-footer-url": ":Category:Babel - Gebrukers noa toaln",
 	"babel-0": "Deze gebruker kan [[$1|niet te vet]] vele [[$2|$3]] klappn.",
 	"babel-1": "Deze gebruker kan e [[$1|hêel klêen bitje]] e koutnansje voern in 't [[$2|$3]].",

@@ -3,9 +3,9 @@
 		"authors": [
 			"EugeneZelenko",
 			"Jim-by",
+			"Red Winged Duck",
 			"Wizardist",
-			"Zedlik",
-			"Red Winged Duck"
+			"Zedlik"
 		]
 	},
 	"babel": "Мовы, якімі валодае {{GENDER:$1|ўдзельнік|ўдзельніца}}",

@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Event",
-			"Laaknor",
-			"Nghtwlkr",
-			"Jeblad",
 			"Danmichaelo",
-			"Jon Harald Søby"
+			"Event",
+			"Jeblad",
+			"Jon Harald Søby",
+			"Laaknor",
+			"Nghtwlkr"
 		]
 	},
 	"babel": "Babel-brukerinformasjon",

@@ -2,11 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Aleator",
-			"SMP",
-			"Toniher",
-			"Vriullop",
 			"Fitoschido",
-			"Ssola"
+			"SMP",
+			"Ssola",
+			"Toniher",
+			"Vriullop"
 		]
 	},
 	"babel": "Informació Babel de {{GENDER:$1|l'usuari|la usuària}}",

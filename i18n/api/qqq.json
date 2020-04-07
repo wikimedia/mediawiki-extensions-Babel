@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kunal Mehta",
-			"Brad Jorsch"
+			"Brad Jorsch",
+			"Kunal Mehta"
 		]
 	},
 	"apihelp-query+babel-description": "{{doc-apihelp-description|query+babel}}",

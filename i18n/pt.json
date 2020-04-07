@@ -3,11 +3,11 @@
 		"authors": [
 			"Hamilton Abreu",
 			"Malafaya",
-			"Waldir",
-			"555",
 			"Opraco",
 			"Vitorvicentevalente",
-			"Waldyrious"
+			"Waldir",
+			"Waldyrious",
+			555
 		]
 	},
 	"babel": "Informação Babel {{GENDER:$1|do utilizador|da utilizadora}}",

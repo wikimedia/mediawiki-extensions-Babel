@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Dereckson",
+			"KartikMistry",
 			"Lloffiwr",
 			"Od1n",
 			"Purodha",
@@ -12,8 +13,7 @@
 			"Shirayuki",
 			"Siebrand",
 			"The Evil IP address",
-			"Umherirrender",
-			"KartikMistry"
+			"Umherirrender"
 		]
 	},
 	"babel": "Header of Babel box. Parameters:\n* $1 - (Optional) the name of the page it is used on, for GENDER support",
