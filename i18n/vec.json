@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Candalua",
+			"Fierodelveneto",
 			"Gloria sah"
 		]
 	},
@@ -11,7 +12,7 @@
 	"babel-footer-url": ":Category:Babel - Utenti par lengua",
 	"babel-autocreate-reason": "Creo automaticamente la pàxena de la categoria [[$1|Babel]].",
 	"babel-autocreate-text-levels": "I utenti in sta categoria i gà indicà de verghe un livèl de conossensa $1 de la lengua $2.",
-	"babel-autocreate-text-main": "I utenti in sta categoria i gà indicà che i conosse la lengua $1.",
+	"babel-autocreate-text-main": "I utenti in sta categoria i dixe el so łiveło de conosensa in $1.",
 	"babel-0": "Sto utente qua [[$1|no'l parla]] par gnente el [[$2|$3]] (o el lo capisse con gran fadiga).",
 	"babel-1": "Sto utente qua el parla [[$1|na s-cianta]] el [[$2|$3]].",
 	"babel-2": "Sto utente qua el parla [[$1|'bastansa ben]] el [[$2|$3]].",
