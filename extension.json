@@ -29,13 +29,10 @@
 		"Babel": "includes/Babel.php",
 		"BabelLanguageCodes": "includes/BabelLanguageCodes.php",
 		"BabelStatic": "includes/BabelStatic.php",
-		"BabelAutoCreate": "includes/BabelAutoCreate.php",
-		"MediaWiki\\Babel\\ApiQueryBabel": "includes/ApiQueryBabel.php",
-		"MediaWiki\\Babel\\Database": "includes/Database.php",
-		"MediaWiki\\Babel\\BabelBox\\BabelBox": "includes/BabelBox/BabelBox.php",
-		"MediaWiki\\Babel\\BabelBox\\LanguageBabelBox": "includes/BabelBox/LanguageBabelBox.php",
-		"MediaWiki\\Babel\\BabelBox\\NotBabelBox": "includes/BabelBox/NotBabelBox.php",
-		"MediaWiki\\Babel\\BabelBox\\NullBabelBox": "includes/BabelBox/NullBabelBox.php"
+		"BabelAutoCreate": "includes/BabelAutoCreate.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Babel\\": "includes/"
 	},
 	"APIMetaModules": {
 		"babel": "MediaWiki\\Babel\\ApiQueryBabel"
