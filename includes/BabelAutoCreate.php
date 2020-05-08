@@ -14,7 +14,6 @@
  */
 
 use MediaWiki\MediaWikiServices;
-use MediaWiki\Revision\SlotRecord;
 
 /**
  * Class for automatic creation of Babel category pages.
@@ -67,17 +66,15 @@ class BabelAutoCreate {
 			}
 
 			$url = wfMessage( 'babel-url' )->inContentLanguage()->plain();
-			$wikipage = new WikiPage( $title );
+			$article = new WikiPage( $title );
 
-			$updater = $wikipage->newPageUpdater( $user );
-			$updater->setContent(
-				SlotRecord::MAIN,
-				ContentHandler::makeContent( $text, $title )
+			$article->doEditContent(
+				ContentHandler::makeContent( $text, $title ),
+				wfMessage( 'babel-autocreate-reason', $url )->inContentLanguage()->text(),
+				EDIT_FORCE_BOT,
+				false,
+				$user
 			);
-			$comment = CommentStoreComment::newUnsavedComment(
-				wfMessage( 'babel-autocreate-reason', $url )->inContentLanguage()
-			);
-			$updater->saveRevision( $comment, EDIT_FORCE_BOT );
 		} );
 	}
 
