@@ -68,8 +68,7 @@
 				"3": "%code%-3",
 				"4": "%code%-4",
 				"5": "%code%-5",
-				"N": "%code%-N",
-				"_merge_strategy": "array_plus"
+				"N": "%code%-N"
 			},
 			"merge_strategy": "array_plus"
 		},
