@@ -57,21 +57,34 @@
 		"UserGetReservedNames": "BabelAutoCreate::onUserGetReservedNames"
 	},
 	"config": {
-		"BabelCategorizeNamespaces": null,
-		"BabelCategoryNames": {
-			"0": "%code%-0",
-			"1": "%code%-1",
-			"2": "%code%-2",
-			"3": "%code%-3",
-			"4": "%code%-4",
-			"5": "%code%-5",
-			"N": "%code%-N",
-			"_merge_strategy": "array_plus"
+		"BabelCategorizeNamespaces": {
+			"value": null
 		},
-		"BabelMainCategory": "%code%",
-		"BabelDefaultLevel": "N",
-		"BabelUseUserLanguage": false,
-		"BabelCentralDb": false
+		"BabelCategoryNames": {
+			"value": {
+				"0": "%code%-0",
+				"1": "%code%-1",
+				"2": "%code%-2",
+				"3": "%code%-3",
+				"4": "%code%-4",
+				"5": "%code%-5",
+				"N": "%code%-N",
+				"_merge_strategy": "array_plus"
+			},
+			"merge_strategy": "array_plus"
+		},
+		"BabelMainCategory": {
+			"value": "%code%"
+		},
+		"BabelDefaultLevel": {
+			"value": "N"
+		},
+		"BabelUseUserLanguage": {
+			"value": false
+		},
+		"BabelCentralDb": {
+			"value": false
+		}
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
