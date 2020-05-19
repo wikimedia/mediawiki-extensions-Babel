@@ -9,5 +9,12 @@ CREATE TABLE /*_*/babel (
 	PRIMARY KEY ( babel_user, babel_lang )
 ) /*$wgDBTableOptions*/;
 
+INSERT INTO  /*_*/babel_tmp(babel_user, babel_lang, babel_level)
+    SELECT babel_user, babel_lang, babel_level FROM  /*_*/babel;
+
+DROP TABLE /*_*/babel;
+
+ALTER TABLE /*_*/babel_tmp RENAME TO /*_*/babel;
+
 -- Query all users who know a language at a specific level
 CREATE INDEX /*i*/babel_lang_level ON /*_*/babel (babel_lang, babel_level);

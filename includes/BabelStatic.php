@@ -26,7 +26,27 @@ class BabelStatic {
 	 * @param DatabaseUpdater $updater
 	 */
 	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
-		$updater->addExtensionTable( 'babel', __DIR__ . '/../babel.sql' );
+		$dir = dirname( __DIR__ ) . '/';
+		$updater->addExtensionTable( 'babel', $dir . 'babel.sql' );
+
+		if ( $updater->getDB()->getType() === 'mysql' ) {
+			$updater->modifyExtensionField(
+				'babel',
+				'babel_lang',
+				$dir . 'sql/babel-babel_lang-length-type.sql'
+			);
+			$updater->modifyExtensionField(
+				'babel',
+				'babel_level',
+				$dir . 'sql/babel-babel_level-type.sql'
+			);
+		} elseif ( $updater->getDB()->getType() === 'sqlite' ) {
+			$updater->modifyExtensionField(
+				'babel',
+				'babel_lang',
+				$dir . 'sql/babel-babel_lang-length.sqlite.sql'
+			);
+		}
 	}
 
 	/**
