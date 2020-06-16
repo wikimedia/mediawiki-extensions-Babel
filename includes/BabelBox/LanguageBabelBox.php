@@ -190,7 +190,7 @@ EOT;
 	}
 
 	/**
-	 * Replace the placeholder variables from the category names configurtion
+	 * Replace the placeholder variables from the category names configuration
 	 * array with actual values.
 	 *
 	 * @param string $category Category name (containing variables).
