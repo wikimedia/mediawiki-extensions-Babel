@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anugrahgori"
+		]
+	},
+	"babel": "Turia Mbabeli sanura",
+	"babel-desc": "Nönö <code>#babel</code> parser function ena'ö tola tefazökhi a babel userbox column with the ability to include custom templates",
+	"babel-url": "Project:Mbabeli",
+	"babel-footer-url": ":Fanete:Mbabeli - Sanura molo'ö Li ni'ila nia",
+	"babel-autocreate-reason": "Fazökhi otomatis [[$1|Babel]] nga'örö fanete.",
+	"babel-autocreate-text-levels": "Tetandra wa sanura ba wanete da'a fa'atola nia fa Li $2 ya'ia da'ö $1",
+	"babel-autocreate-text-main": "Tetandra wa sanura ba wanete andre fa'atola nia ba Li $1",
+	"babel-0": "[[$1|Lö]] i'ila ma fagamböambö sibai sanura andre ba wohede ba Li [[$2|$3]]",
+	"babel-1": "I'ila [[$1|ma'ifu]] wehede ba Li [[$2|$3]] sanura andre",
+	"babel-2": "I'ila [[$1|ma'ifu]] wehede ba Li [[$2|$3]] sanura andre.",
+	"babel-3": "[[$1|Oya]] i'ila  wehede ba Li [[$2|$3]] sanura andre.",
+	"babel-4": "[[$1|Onekhe]] fa Li [[$2|$3]] sanura andre.",
+	"babel-5": "[[$1|Tola]] fahuhuo sanura andre föna zato ba Li [[$2|$3]] .",
+	"babel-N": "I'oguna'ö [[$2|$3]] sanura andre [[$1|i'otarai me ideide]].",
+	"babel-0-n": "[[$1|Lö i'ila]] mato ma'ifu fa [[$2|Li Hagöri]] sanura andre (ma abua si'ai khö nia wangi'ila).",
+	"babel-1-n": "I'ila [[$1|ma'ifu]] wehede ba Li [[$2|$3]] sanura andre.",
+	"babel-2-n": "I'ila [[$1|ma'ifu]] wehede ba Li [[$2|Niha]] sanura andre.",
+	"babel-3-n": "[[$1|Oya]] i'ila  wehede ba Li [[$2|Niha]] sanura andre.",
+	"babel-4-n": "[[$1|Onekhe]] fa Li [[$2|Niha]] sanura andre.",
+	"babel-5-n": "[[$1|Tola]] fahuhuo sanura andre föna zato ba Li [[$2|Hagöri]] .",
+	"babel-N-n": "I'oguna'ö [[$2|Li Niha]] sanura andre [[$1|i'otarai me ideide]].",
+	"babel-footer": "Sanura molo'ö Li ni'oguna'ö nia"
+}
