@@ -8,5 +8,5 @@
 	"apihelp-query+babel-description": "Kullanıcının bildiği diller hakkında bilgi alın",
 	"apihelp-query+babel-summary": "Kullanıcının bildiği diller hakkında bilgi alın",
 	"apihelp-query+babel-param-user": "Hakkında bilgi edinilecek kullanıcı",
-	"apihelp-query+babel-example-1": "<kbd>Örnek</kbd> kullanıcısı için Babil bilgisini alın"
+	"apihelp-query+babel-example-1": "<kbd>Example</kbd> kullanıcısı için Babil bilgisini alın"
 }
