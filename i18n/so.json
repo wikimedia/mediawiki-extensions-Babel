@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abdullahi",
 			"GerardM"
 		]
 	},
+	"babel-footer-url": ":Qeybta:Babel - Isticmaalayaasha luqad ahaan",
 	"babel-0-n": "Isticmaalahan waxba kama yaqaano af [[$2|Soomaaliga]] (ama wuxuu ka yaqaanaa wax aad iyo  [[$1|aad u yar]]).",
 	"babel-1-n": "Isticmaalahan wuxuu [[$2|Soomaaliga]] ugu hadlaa si [[$1|aad u yar]].",
 	"babel-2-n": "Isticmaalahan wuxuu [[$2|Soomaaliga]] ugu hadlaa si [[$1|dhaxdhaxaad ah]].",
