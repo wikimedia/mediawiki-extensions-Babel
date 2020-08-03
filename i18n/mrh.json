@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kiathy",
 			"Teitei Para"
 		]
 	},
@@ -13,7 +14,7 @@
 	"babel-autocreate-text-main": "He pho liata hmâhtuhpazy cha reihchâ $1 liata ama pahnona a palâsa.",
 	"babel-0": "He hmâhtuhpa he cha [[$2|$3]] nata azaopa ta pahnona hnei [[$1|vei]]   (acv thapi ta ru keipa ta ano âvâh).",
 	"babel-1": "He hmâhtuhpa he cha [[$2|$3]] nata azaopa ta [[$1|âhnai chaipa]] pahnona a hnei.",
-	"babel-2": "He hmâhtuhpa he cha [[$2|$3] nata azaopa ta pahnona [[$1|âdaihpa]] a hnei.",
+	"babel-2": "He hmâhtuhpa he cha [[$2|$3]] nata azaopa ta pahnona [[$1|âdaihpa]] a hnei.",
 	"babel-3": "He hmâhtuhpa he cha [[$2|$3]] nata azaopa ta [[$1|âsâh kawpa]] pahnona a hnei.",
 	"babel-4": "He hmâhtuhpa he cha [[$2|$3]] nata azaopa ta [[$1|pikhei reih tlu ta]] pahnona a hnei.",
 	"babel-5": "He hmâhtuhpa he cha [[$2|$3]] nata azaopa ta [[$1|asâhchaipa]] pahnona a hnei.",
