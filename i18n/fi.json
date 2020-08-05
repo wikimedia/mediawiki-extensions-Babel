@@ -8,7 +8,8 @@
 			"Linnea",
 			"Nedergard",
 			"Nike",
-			"Pxos"
+			"Pxos",
+			"Pyscowicz"
 		]
 	},
 	"babel": "Käyttäjän kielitaito",
@@ -26,11 +27,11 @@
 	"babel-5": "Tämä käyttäjä osaa käyttää kieltä [[$2|$3]] [[$1|ammattimaisesti]].",
 	"babel-N": "Tämän käyttäjän [[$1|äidinkieli]] on [[$2|$3]].",
 	"babel-0-n": "Tämä käyttäjä osaa [[$1|hyvin vähän tai ei lainkaan]] [[$2|suomea]].",
-	"babel-1-n": "Tämä käyttäjä puhuu [[$2|suomea]] [[$1|vähän]].",
+	"babel-1-n": "Tämä käyttäjä osaa [[$2|suomea]] [[$1|vähän]].",
 	"babel-2-n": "Tämä käyttäjä osaa [[$2|suomea]] [[$1|kohtalaisesti]].",
 	"babel-3-n": "Tämä käyttäjä osaa [[$2|suomea]] [[$1|erinomaisesti]].",
 	"babel-4-n": "Tämä käyttäjä osaa [[$2|suomea]] [[$1|melkein äidinkielen tavoin]].",
-	"babel-5-n": "Tämä käyttäjä käyttää [[$2|suomea]] [[$1|ammattimaisesti]].",
+	"babel-5-n": "Tämä käyttäjä osaa [[$2|suomea]] [[$1|ammattimaisesti]].",
 	"babel-N-n": "Tämän käyttäjän [[$1|äidinkieli]] on [[$2|suomi]].",
 	"babel-footer": "Käyttäjät kielittäin"
 }

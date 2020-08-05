@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyscowicz"
+		]
+	},
+	"apihelp-query+babel-description": "Hanki tietoa siitä, mitä kieliä käyttäjä osaa",
+	"apihelp-query+babel-summary": "Hanki tietoa siitä, mitä kieliä käyttäjä osaa"
+}
