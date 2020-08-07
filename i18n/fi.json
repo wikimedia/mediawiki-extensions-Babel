@@ -33,5 +33,6 @@
 	"babel-4-n": "Tämä käyttäjä osaa [[$2|suomea]] [[$1|melkein äidinkielen tavoin]].",
 	"babel-5-n": "Tämä käyttäjä osaa [[$2|suomea]] [[$1|ammattimaisesti]].",
 	"babel-N-n": "Tämän käyttäjän [[$1|äidinkieli]] on [[$2|suomi]].",
+	"babel-template": "Template:Käyttäjä $1",
 	"babel-footer": "Käyttäjät kielittäin"
 }
