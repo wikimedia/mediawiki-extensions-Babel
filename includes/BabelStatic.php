@@ -26,25 +26,36 @@ class BabelStatic {
 	 * @param DatabaseUpdater $updater
 	 */
 	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
-		$dir = dirname( __DIR__ ) . '/';
-		$updater->addExtensionTable( 'babel', $dir . 'babel.sql' );
+		$dir = dirname( __DIR__ ) . '/sql/';
+		$dbType = $updater->getDB()->getType();
 
-		if ( $updater->getDB()->getType() === 'mysql' ) {
+		if ( $dbType === 'mysql' ) {
+			$updater->addExtensionTable( 'babel',
+				$dir . 'tables-generated.sql'
+			);
 			$updater->modifyExtensionField(
 				'babel',
 				'babel_lang',
-				$dir . 'sql/babel-babel_lang-length-type.sql'
+				$dir . 'babel-babel_lang-length-type.sql'
 			);
 			$updater->modifyExtensionField(
 				'babel',
 				'babel_level',
-				$dir . 'sql/babel-babel_level-type.sql'
+				$dir . 'babel-babel_level-type.sql'
 			);
-		} elseif ( $updater->getDB()->getType() === 'sqlite' ) {
+		} elseif ( $dbType === 'sqlite' ) {
+			$updater->addExtensionTable( 'babel',
+				$dir . 'sqlite/tables-generated.sql'
+			);
+
 			$updater->modifyExtensionField(
 				'babel',
 				'babel_lang',
-				$dir . 'sql/babel-babel_lang-length.sqlite.sql'
+				$dir . 'sqlite/babel-babel_lang-length.sql'
+			);
+		} elseif ( $dbType === 'postgres' ) {
+			$updater->addExtensionTable( 'babel',
+				$dir . 'postgres/tables-generated.sql'
 			);
 		}
 	}
