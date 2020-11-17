@@ -3,6 +3,7 @@
 		"authors": [
 			"Andria",
 			"Gloria sah",
+			"L2212",
 			"Marzedu",
 			"Taxandru"
 		]
@@ -22,9 +23,9 @@
 	"babel-5": "Custu impitadore tenet una connoscéntzia [[$1|professionale]] de su [[$2|$3]].",
 	"babel-N": "Custu impitadore faeddat su [[$2|$3]] comente [[$1|limba mama]].",
 	"babel-0-n": "Custu impitadore [[$1|non cumprendet]] su '''[[$2|Sardu]]''', o ddu cumprendet cun aprentu mannu.",
-	"babel-1-n": "Custu impitadore podet azudare, ca unu '''[[$1|azicu]]''' de '''[[$2|Sardu]]''' lu connoschet.",
-	"babel-2-n": "Custu impitadore podet azudare, ca connoschet su '''[[$2|Sardu]]''' e lu '''[[$1|cumprendet]]'''.",
-	"babel-3-n": "Custu impitadore potet azudare '''[[$1|meda]]''' pro ite ischit faeddare e iscrìere su '''[[$2|Sardu]]'''.",
+	"babel-1-n": "Custu impitadore podet agiudare, ca unu '''[[$1|azicu]]''' de '''[[$2|Sardu]]''' lu connoschet.",
+	"babel-2-n": "Custu impitadore podet agiudare, ca connoschet su '''[[$2|Sardu]]''' e lu '''[[$1|cumprendet]]'''.",
+	"babel-3-n": "Custu impitadore podet agiudare '''[[$1|meda]]''', ca ischit faeddare e iscrìere su '''[[$2|Sardu]]''' comente si tocat.",
 	"babel-4-n": "Custu impitadore faeddat su '''[[$2|Sardu]]''' in modu '''[[$1|perfetu]]'''.",
 	"babel-5-n": "Custu impitadore connoschet su [[$2|Sardu]] a livellu [[$1|profesionale]].",
 	"babel-N-n": "Custu impitadore faeddat su [[$2|Sardu]] comente [[$1|limba mama]].",
