@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"JHeydar",
 			"Patriot Kur",
 			"Vugar 1981",
@@ -12,10 +13,10 @@
 	"babel-url": "Project:Babil",
 	"babel-footer-url": ":Category:Babil - iştirokəkon zıvononədə",
 	"babel-autocreate-reason": "Səhifə avtomatik ofəye [[$1|Babil]] tispirədə.",
-	"babel-autocreate-text-levels": "İştirokəkon çe ın tispiriku işorә kardəşone zınəyon səviyyə $1 bo zıvoni $2.",
+	"babel-autocreate-text-levels": "İştirokəkon çe ın tispiriku işorə kardəşone zınəyon səviyyə $1 bo zıvoni $2.",
 	"babel-autocreate-text-main": "İştirokəkon bı tispirədə zıvoni zınəy işorə kardəşone $1.",
 	"babel-0": "In iştirokəkə [[$1|zıneydəni]] [[$2|$3]] (yaanki çətin dərəseydə).",
-	"babel-1": "In iştirokəkə [[$1|zəif]] zıneydә [[$2|$3]].",
+	"babel-1": "In iştirokəkə [[$1|zəif]] zıneydə [[$2|$3]].",
 	"babel-2": "In iştirokəkə [[$1|miyonə səviyyədə]] zıneydə [[$2|$3]].",
 	"babel-3": "In iştirokəkə [[$1|çok]] zıneydə [[$2|$3]].",
 	"babel-4": "In iştirokəkə bənə [[$1|moə zıvoni]] zıneydə [[$2|$3]].",
