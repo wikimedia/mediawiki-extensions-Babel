@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kambai Akau"
+		]
+	},
+	"babel": "Nkhang a̠tyuta̠m Babila",
+	"babel-desc": "A̠ mbeang <code>#babel</code> kyangta̠m wa̠i a ghwon ghwut ma̠ng a̠kwati-a̠tyuta̠m babila ka di̠ mi̠n tyimbwak ma̠ng cet mbeang a̠yaatemplet jhyi a̠gwam",
+	"babel-url": "Project:Babila",
+	"babel-footer-url": ":Category:Babel - Á̠nienta̠m di̠n vak a̠lyem",
+	"babel-autocreate-reason": "Á̠ shyia̠ di̠ khwuk peji sa [[$1|Babila]] hu di̠ mi̠n tyimbwak.",
+	"babel-autocreate-text-levels": "Á̠nienta̠m mi̠ sot jini tyaat nyia̠ ba̠ byia̠ lyenta̠m shi $1 mat a̠lyem $2.",
+	"babel-autocreate-text-main": "Á̠nienta̠m mi̠ sot jini tyaat lyen kyang mba hu mami a̠lyem $1.",
+	"babel-0": "A̠tyuta̠m wuni [[$1|nwai]] byia̠ lyen [[$2|$3]] (ku a̠ kwan di̠n fi̠k nji a̠wot ma̠ng vwan a̠khwu ma̠ a̠da̠dei).",
+	"babel-1": "A̠tyuta̠m wuni byia̠ lyen [[$1|a̠tsan]] si̠ [[$2|$3]] ji.",
+	"babel-2": "A̠tyuta̠m wuni byia̠ lyen [[$1|a̠tyia̠ka̠]] si̠ [[$2|$3]] ji.",
+	"babel-3": "A̠tyuta̠m wuni byia̠ lyen [[$1|á̠zanson]] si̠ [[$2|$3]] ji.",
+	"babel-4": "A̠tyuta̠m wuni byia̠ lyen [[$1|kpa̠mkpaan a̠tyulyiat byina̠byin]] si̠ [[$2|$3]] ji.",
+	"babel-5": "A̠tyuta̠m wuni byia̠ lyen [[$1|a̠gwak]] si̠ [[$2|$3]] ji.",
+	"babel-N": "A̠tyuta̠m wuni byia̠ fi̠k [[$1|byina̠byin]] si̠ [[$2|$3]].",
+	"babel-0-n": "A̠tyuta̠m wuni [[$1|nwai]] byia̠ lyen [[$2|Shong]] (ku a̠ kwan di̠n fi̠k nji a̠wot ma̠ng vwan a̠khwu ma̠ a̠da̠dei).",
+	"babel-1-n": "A̠tyuta̠m wuni byia̠ lyen [[$1|a̠tsan]] si̠ [[$2|Shong]] ji.",
+	"babel-2-n": "A̠tyuta̠m wuni byia̠ lyen [[$1|a̠tyia̠ka̠u]] si̠ [[$2|Shong]] ji.",
+	"babel-3-n": "A̠tyuta̠m wuni byia̠ lyen [[$1|á̠zanson]] si̠ [[$2|Shong]] ji.",
+	"babel-4-n": "A̠tyuta̠m wuni byia̠ lyen [[$1|kpa̠mkpaan a̠tyulyiat byina̠byin]] si̠ [[$2|Shong]] ji.",
+	"babel-5-n": "A̠tyuta̠m wuni byia̠ lyen [[$1|a̠gwak]] si̠ [[$2|Shong]] ji.",
+	"babel-N-n": "A̠tyuta̠m wuni byia̠ fi̠k [[$1|byina̠byin]] si̠ [[$2|Shong]] ji.",
+	"babel-footer": "Á̠nienta̠m di̠n vak a̠lyem"
+}
