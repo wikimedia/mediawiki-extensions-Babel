@@ -19,11 +19,11 @@
 	"babel-4": "Asmras ad dars yat tussna yaẓn i [[$1|tin umsawal anṣli]] n [[$2|$3]].",
 	"babel-5": "Asmras ad dars yat tussna [[$1|iqqurn]] n [[$2|$3]].",
 	"babel-N": "Asmras ad tga dars [[$2|$3]] [[$1|tutlayt taymmat]].",
-	"babel-0-n": "{{GENDER:$4|Asmras|Tasmrast}} ad [[$1|ur]] dars kra n tussna ɣ [[$2|Taclḥit)]] (nɣ ar tt ittrmas s tmmara iggutn).",
-	"babel-1-n": "{{GENDER:$4|Asmras|Tasmrast}} ad dars yat tussna [[$1|tasilant]] ɣ [[$2|Taclḥit]].",
-	"babel-2-n": "{{GENDER:$4|Asmras|Tasmrast}} ad dars tusna s [[$1|uswir anamas]] ɣ [[$2|Taclḥit]].",
-	"babel-3-n": "{{GENDER:$4|Asmras|Tasmrast}} ad dars yat tussna [[$1|yattuyn]] ɣ [[$2|Taclḥit]].",
-	"babel-4-n": "{{GENDER:$4|Asmras|Tasmrast}} ad dars yat tussna yaẓn i [[$1|tin umssiwl anṣli]] ɣ [[$2|Taclḥit]].",
-	"babel-5-n": "{{GENDER:$4|Asmras|Tasmrast}} ad dars yat tussna [[$1|iqqurn]] ɣ [[$2|Taclḥit]].",
-	"babel-N-n": "{{GENDER:$4|Asmras|Tasmrast}} ad tga dars [[$2|Taclḥit]] [[$1|tutlayt taymmat]]."
+	"babel-0-n": "Asmras ad [[$1|ur]] dars kra n tussna ɣ [[$2|Taclḥit)]] (nɣ ar tt ittrmas s tmmara iggutn).",
+	"babel-1-n": "Asmras ad dars yat tussna [[$1|tasilant]] ɣ [[$2|Taclḥit]].",
+	"babel-2-n": "Asmras ad dars tussna s [[$1|uswir anammas]] ɣ [[$2|Taclḥit]].",
+	"babel-3-n": "Asmras ad dars yat tussna [[$1|yattuyn]] ɣ [[$2|Taclḥit]].",
+	"babel-4-n": "Asmras ad dars yat tussna yaẓn i [[$1|tin umssiwl anṣli]] ɣ [[$2|Taclḥit]].",
+	"babel-5-n": "Asmras ad dars yat tussna [[$1|iqqurn]] ɣ [[$2|Taclḥit]].",
+	"babel-N-n": "Asmras ad tga dars [[$2|Taclḥit]] [[$1|tutlayt taymmat]]."
 }
