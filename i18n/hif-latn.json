@@ -7,7 +7,6 @@
 	},
 	"babel": "Babel sadasya ke jaankari",
 	"babel-desc": "Ii <code>#babel</code> parser function ke jorre hae jisse babel ke sadasya box ke column apne se ban jaawe hae, aue isse custom template banawa jaae sake hae",
-	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Bhasa ke aadhar pe sadasya",
 	"babel-autocreate-reason": "Apne se [[$1|Babel]] vibhag ke banawa jaae hae",
 	"babel-autocreate-text-levels": "Ii vibhag ke sadasya ke lage $2 bhasa ke khaatir $1 ke baraabar ke jaankari hae.",
