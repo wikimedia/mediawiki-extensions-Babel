@@ -10,5 +10,8 @@
 	},
 	"globals": {
 		"mediaWiki": false
+	},
+	"rules": {
+		"compat/compat": "warn"
 	}
 }
