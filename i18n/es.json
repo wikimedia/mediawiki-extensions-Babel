@@ -29,7 +29,7 @@
 	"babel-4": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} tiene un conocimiento [[$1|casi nativo]] del [[$2|$3]].",
 	"babel-5": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} tiene un conocimiento [[$1|profesional]] del [[$2|$3]].",
 	"babel-N": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} tiene una comprensión [[$1|nativa]] del [[$2|$3]].",
-	"babel-0-n": "Este usuario tiene un [[$1|no]] de aprendizaje de [[$2|English]] (o lo entiende con dificultad)",
+	"babel-0-n": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} [[$1|no]] tiene ningún conocimiento del [[$2|español]] (o lo entiende con mucha dificultad).",
 	"babel-1-n": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} tiene un conocimiento [[$1|básico]] del [[$2|español]].",
 	"babel-2-n": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} tiene un conocimiento [[$1|intermedio]] del [[$2|español]].",
 	"babel-3-n": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} tiene un conocimiento [[$1|avanzado]] del [[$2|español]].",
