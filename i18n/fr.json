@@ -27,6 +27,7 @@
 	"babel-autocreate-reason": "Création automatique de la page de catégorie [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Les utilisateurs dans cette catégorie ont indiqué qu’ils ont le niveau $1 pour la langue $2.",
 	"babel-autocreate-text-main": "Les utilisateurs dans cette catégorie ont indiqué leur connaissance de la langue $1.",
+	"babel-autocreate-user": "Babel AutoCreate",
 	"babel-0": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} n’a [[$1|aucune]] connaissance en [[$2|$3]] (ou le comprend avec de grandes difficultés).",
 	"babel-1": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} dispose de connaissances [[$1|de base]] en [[$2|$3]].",
 	"babel-2": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} dispose de connaissances [[$1|intermédiaires]] en [[$2|$3]].",
