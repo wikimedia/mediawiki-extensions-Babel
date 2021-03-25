@@ -1,6 +1,6 @@
 <?php
 
-namespace Babel\Tests;
+namespace Babel\Tests\Unit;
 
 use BabelStatic;
 
@@ -12,7 +12,7 @@ use BabelStatic;
  * @license GPL-2.0-or-later
  * @author Thiemo Kreuz
  */
-class BabelStaticTest extends \PHPUnit\Framework\TestCase {
+class BabelStaticTest extends \MediaWikiUnitTestCase {
 
 	public function testOnParserFirstCallInit() {
 		$parser = $this->getMockBuilder( 'Parser' )
