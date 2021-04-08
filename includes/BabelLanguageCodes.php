@@ -27,7 +27,7 @@ class BabelLanguageCodes {
 			self::$mapToMediaWikiCodeCache = [];
 			// Is the code a proper BCP 47 code for one of MediaWiki's nonstandard codes?
 			// If so, return the internal MediaWiki code.
-			if ( method_exists( 'LanguageCode', 'getNonstandardLanguageCodeMapping' ) ) {
+			if ( method_exists( LanguageCode::class, 'getNonstandardLanguageCodeMapping' ) ) {
 				$mapping = LanguageCode::getNonstandardLanguageCodeMapping();
 				foreach ( $mapping as $mwCode => $bcp47code ) {
 					// Careful, because the nonstandardlanguagecodemapping
@@ -39,7 +39,7 @@ class BabelLanguageCodes {
 			}
 			// Is the code one of MediaWiki's legacy fake codes? If so, return the modern
 			// equivalent code (T101086)
-			if ( method_exists( 'LanguageCode', 'getDeprecatedCodeMapping' ) ) {
+			if ( method_exists( LanguageCode::class, 'getDeprecatedCodeMapping' ) ) {
 				$mapping = LanguageCode::getDeprecatedCodeMapping();
 				foreach ( $mapping as $deprecatedCode => $mwCode ) {
 					self::$mapToMediaWikiCodeCache[ strtolower( $deprecatedCode ) ] =
