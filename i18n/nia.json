@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anugrahgori"
+			"Anugrahgori",
+			"Slaia"
 		]
 	},
 	"babel": "Turia Mbabeli zangoguna",
 	"babel-desc": "Nönö <code>#babel</code> parser function ena'ö tola tefazökhi a babel userbox column with the ability to include custom templates",
 	"babel-url": "Project:Mbabeli",
-	"babel-footer-url": ":Fanete:Mbabeli - Sanura molo'ö Li ni'ila nia",
-	"babel-autocreate-reason": "Fazökhi otomatis [[$1|Babel]] nga'örö fanete.",
+	"babel-footer-url": ":Kategori:Babel - Sanura molo'ö li",
+	"babel-autocreate-reason": "Fazökhi otomatis [[$1|Babel]] nga'örö kategori.",
 	"babel-autocreate-text-levels": "Tetandra wa sanura ba wanete da'a fa'atola nia fa Li $2 ya'ia da'ö $1",
 	"babel-autocreate-text-main": "Tetandra wa sanura ba wanete andre fa'atola nia ba Li $1",
 	"babel-0": "[[$1|Lö]] i'ila ma fagamböambö sibai sanura andre ba wohede ba Li [[$2|$3]]",
