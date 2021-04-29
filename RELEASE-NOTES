@@ -1,0 +1,6 @@
+== Babel 2021.04 ==
+Released at 2021-04-29.
+
+=== Noteworthy changes ===
+* Fixed Mediawiki requirement. Requires >= 1.34.0.
+* Maintenance and localization updates.
