@@ -347,14 +347,14 @@ EOT;
 			// filter down the set, note that this uses a text sort!
 			$languageInfo = array_filter(
 				$languageInfo,
-				function ( $value ) use ( $level ) {
+				static function ( $value ) use ( $level ) {
 					return ( strcmp( $value, $level ) >= 0 );
 				}
 			);
 			// sort and retain keys
 			uasort(
 				$languageInfo,
-				function ( $a, $b ) {
+				static function ( $a, $b ) {
 					return -strcmp( $a, $b );
 				}
 			);
