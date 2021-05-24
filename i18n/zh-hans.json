@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Dalt",
+			"FakeGreenHand",
 			"Gzdavidwong",
 			"Hydra",
 			"Jimmy xu wrk",
@@ -13,11 +14,11 @@
 			"大小李子"
 		]
 	},
-	"babel": "用户语文水平",
-	"babel-desc": "增加一个<code>#babel</code>处理功能以支持自动产生一个巴别用户框栏及包含可自定化的模版",
-	"babel-url": "Project:语文",
+	"babel": "用户语言信息",
+	"babel-desc": "增加<code>#babel</code>解析器函数，以自动产生巴别用户框，并可自定义其模板",
+	"babel-url": "Project:巴别",
 	"babel-footer-url": ":Category:巴别-用户（按语言）",
-	"babel-autocreate-reason": "自动建立[[$1|巴别]]分类页。",
+	"babel-autocreate-reason": "自动创建[[$1|巴别]]分类页。",
 	"babel-autocreate-text-levels": "在此分类中的用户具有$2的$1级能力。",
 	"babel-autocreate-text-main": "此分类中的用户能理解$1。",
 	"babel-0": "这位用户[[$1|不懂]]或很难理解[[$2|$3]]。",
