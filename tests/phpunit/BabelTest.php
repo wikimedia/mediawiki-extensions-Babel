@@ -3,7 +3,6 @@
 namespace Babel\Tests;
 
 use Babel;
-use MediaWiki\MediaWikiServices;
 use MediaWikiTestCase;
 use Parser;
 use ParserOptions;
@@ -38,21 +37,16 @@ class BabelTest extends MediaWikiTestCase {
 		// because that also means updates from core itself (such as the saving of category
 		// links) would be deferred, which we do need to observe below.
 		//
-		// Workaround this by mocking LinkCache to that BabelAutoCreate/Title::exists()
-		// perceives these as existing already and will skip auto-creation logic.
+		// Work around this by faking entries in LinkCache so that Title::exists()
+		// returns true in BabelAutoCreate and no auto-creation is attempted.
 		$this->setMwGlobals( 'wgCapitalLinks', false );
-		MediaWikiServices::getInstance()->resetServiceForTesting( 'NamespaceInfo' );
-		$linkCache = new \LinkCache(
-			MediaWikiServices::getInstance()->getTitleFormatter(),
-			\WANObjectCache::newEmpty(),
-			$this->createMock( \NamespaceInfo::class )
-		);
+
+		$linkCache = $this->getServiceContainer()->getLinkCache();
 		foreach ( [ 'en', 'en-N', 'en-1', 'es', 'es-2', 'de', 'de-N',
 			'simple', 'simple-1', 'zh-Hant', 'zh-Hant-3'
 		] as $name ) {
 			$linkCache->addGoodLinkObj( 1, new \TitleValue( NS_CATEGORY, $name ) );
 		}
-		$this->setService( 'LinkCache', $linkCache );
 
 		$user = User::newFromName( 'User-1' );
 		$user->addToDatabase();
