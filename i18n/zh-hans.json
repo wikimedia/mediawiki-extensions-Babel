@@ -14,12 +14,12 @@
 			"大小李子"
 		]
 	},
-	"babel": "用户语言信息",
-	"babel-desc": "增加<code>#babel</code>解析器函数，以自动产生巴别用户框，并可自定义其模板",
+	"babel": "用户巴别信息",
+	"babel-desc": "添加<code>#babel</code>解析器函数，以自动产生巴别用户框，并可自定义其模板",
 	"babel-url": "Project:巴别",
 	"babel-footer-url": ":Category:巴别-用户（按语言）",
 	"babel-autocreate-reason": "自动创建[[$1|巴别]]分类页。",
-	"babel-autocreate-text-levels": "在此分类中的用户具有$2的$1级能力。",
+	"babel-autocreate-text-levels": "此分类中的用户表示他们具有$2的$1级能力。",
 	"babel-autocreate-text-main": "此分类中的用户能理解$1。",
 	"babel-0": "这位用户[[$1|不懂]]或很难理解[[$2|$3]]。",
 	"babel-1": "这位用户的[[$2|$3]]达到[[$1|初级水平]]。",
