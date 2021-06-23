@@ -15,8 +15,7 @@
 		}
 	],
 	"support": {
-		"issues": "https://phabricator.wikimedia.org/tag/mediawiki-extensions-babel/",
-		"irc": "irc://irc.libera.chat/mediawiki-i18n"
+		"issues": "https://phabricator.wikimedia.org/tag/mediawiki-extensions-babel/"
 	},
 	"require": {
 		"php": ">=7.1",
