@@ -3,11 +3,13 @@
 namespace Babel\Tests;
 
 use Babel;
+use MediaWiki\MediaWikiServices;
 use MediaWikiTestCase;
 use Parser;
 use ParserOptions;
 use ParserOutput;
 use Title;
+use TitleValue;
 use User;
 
 /**
@@ -41,11 +43,25 @@ class BabelTest extends MediaWikiTestCase {
 		// returns true in BabelAutoCreate and no auto-creation is attempted.
 		$this->setMwGlobals( 'wgCapitalLinks', false );
 
-		$linkCache = $this->getServiceContainer()->getLinkCache();
+		$linkCache = MediaWikiServices::getInstance()->getLinkCache();
 		foreach ( [ 'en', 'en-N', 'en-1', 'es', 'es-2', 'de', 'de-N',
-			'simple', 'simple-1', 'zh-Hant', 'zh-Hant-3'
-		] as $name ) {
-			$linkCache->addGoodLinkObj( 1, new \TitleValue( NS_CATEGORY, $name ) );
+					  'simple', 'simple-1', 'zh-Hant', 'zh-Hant-3'
+				  ] as $name ) {
+			$page = new TitleValue( NS_CATEGORY, $name );
+			// TODO: use LinkCacheTestTrait once the minimum MW version is 1.37
+			$linkCache->addGoodLinkObjFromRow( $page, (object)[
+				'page_id' => 1,
+				'page_namespace' => $page->getNamespace(),
+				'page_title' => $page->getDBkey(),
+				'page_len' => -1,
+				'page_is_redirect' => 0,
+				'page_latest' => 0,
+				'page_content_model' => null,
+				'page_lang' => null,
+				'page_restrictions' => null,
+				'page_is_new' => 0,
+				'page_touched' => '',
+			] );
 		}
 
 		$user = User::newFromName( 'User-1' );
