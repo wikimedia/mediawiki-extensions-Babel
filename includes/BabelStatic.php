@@ -86,7 +86,13 @@ class BabelStatic {
 			$cache->touchCheckKey( $cache->makeKey( 'babel-local-languages', $user->getId() ) );
 			if ( $wgBabelCentralDb === wfWikiID() ) {
 				// If this is the central wiki, invalidate all of the local caches
-				$centralId = CentralIdLookup::factory()->centralIdFromLocalUser( $user );
+				if ( method_exists( MediaWikiServices::class, 'getCentralIdLookupFactory' ) ) {
+					// MW1.37+
+					$centralId = MediaWikiServices::getInstance()->getCentralIdLookupFactory()
+						->getLookup()->centralIdFromLocalUser( $user );
+				} else {
+					$centralId = CentralIdLookup::factory()->centralIdFromLocalUser( $user );
+				}
 				if ( $centralId ) {
 					$cache->touchCheckKey( $cache->makeGlobalKey( 'babel-central-languages', $centralId ) );
 				}

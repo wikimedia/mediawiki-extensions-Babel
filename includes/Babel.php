@@ -306,7 +306,15 @@ EOT;
 		$userId = $user->getId();
 		$key = $cache->makeKey( 'babel-local-languages', $userId );
 		$checkKeys = [ $key ];
-		$centralId = CentralIdLookup::factory()->centralIdFromLocalUser( $user );
+
+		if ( method_exists( MediaWikiServices::class, 'getCentralIdLookupFactory' ) ) {
+			// MW1.37+
+			$centralId = MediaWikiServices::getInstance()->getCentralIdLookupFactory()
+				->getLookup()->centralIdFromLocalUser( $user );
+		} else {
+			$centralId = CentralIdLookup::factory()->centralIdFromLocalUser( $user );
+		}
+
 		if ( $centralId ) {
 			$checkKeys[] = $cache->makeGlobalKey( 'babel-central-languages', $centralId );
 		}
@@ -405,7 +413,13 @@ EOT;
 			return [];
 		}
 
-		$lookup = CentralIdLookup::factory();
+		if ( method_exists( MediaWikiServices::class, 'getCentralIdLookupFactory' ) ) {
+			// MW1.37+
+			$lookup = MediaWikiServices::getInstance()->getCentralIdLookupFactory()->getLookup();
+		} else {
+			$lookup = CentralIdLookup::factory();
+		}
+
 		if ( !$lookup->isAttached( $user )
 			|| !$lookup->isAttached( $user, $wgBabelCentralDb )
 		) {
