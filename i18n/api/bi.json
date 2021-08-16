@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"MinecraftAustralia"
+		]
+	},
+	"apihelp-query+babel-description": "Gid infomesen baot wanem lanwis dis man i save toktok",
+	"apihelp-query+babel-summary": "Gid infomesen baot wanem lanwis dis man i save toktok",
+	"apihelp-query+babel-param-user": "Man tu gid infomesen baot",
+	"apihelp-query+babel-example-1": "Gid da Babel infomesen for man <kbd>Eksampol</kbd>"
+}

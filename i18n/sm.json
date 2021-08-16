@@ -1,9 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
+			"MinecraftAustralia",
 			"Purodha"
 		]
 	},
+	"babel": "Faʻamatalaga a le tagata faʻaaoga Babelu",
+	"babel-url": "Project:Babel",
 	"babel-1": "Lenei tagata mafai sao ma se laugatasi le [[$1|mea muamua]] o [[$2|$3]].",
-	"babel-1-n": "Lenei tagata mafai sao ma se laugatasi le [[$1|mea muamua]] o [[$2|gagana samoa]]."
+	"babel-2": "O lenei tagata faʻaaoga e iai le poto masani [[$1|nisi]] i le [[$2|$3]].",
+	"babel-0-n": "Lenei tagata faʻaaoga e leai se malamalama i le gagana Samoa (pe malamalama i ai ma le faigata tele).",
+	"babel-1-n": "Lenei tagata mafai sao ma se laugatasi le [[$1|mea muamua]] o [[$2|gagana samoa]].",
+	"babel-2-n": "Lenei tagata mafai sao ma se laugatasi le [[$1|feololo]] o [[$2|gagana Samoa]].",
+	"babel-3-n": "Lenei tagata faʻaaoga ua i ai le malamalama [[$1|loloto]] i le [[$2|gagana Samoa]].",
+	"babel-template": "Template:Tagata faʻaaoga $1",
+	"babel-footer": "Tagata faʻaaoga ile gagana"
 }

@@ -1,17 +1,32 @@
 {
 	"@metadata": {
 		"authors": [
+			"MinecraftAustralia",
 			"Purodha"
 		]
 	},
+	"babel": "Babel man infomesen",
+	"babel-desc": "Adem <code>#babel</code> funkjon blong pasa (kompuita) tu alawem otometim jeneresen blong Babel manbokis kolum wetem da abiliti tu inkludim kastom templets",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Grup:Babel - Man long lanwis",
+	"babel-autocreate-reason": "Otomatikli meikim [[$1|Babel]] grup peij.",
+	"babel-autocreate-text-levels": "Man blong dis grup indiket oli gat skil level $1 blong lanwis $2.",
+	"babel-autocreate-text-main": "Man blong dis grup indiket nolej blong dem blong lanwis $1.",
+	"babel-autocreate-user": "Babel OtoMeikim",
+	"babel-0": "Man ia i save raetem [[$1|no]] long toktok ia [[$2|$3]] (o toktok nogud).",
 	"babel-1": "Man ia i save raetem [[$1|smol]] long toktok ia [[$2|$3]].",
 	"babel-2": "Man ia i save raetem [[$1|medel]] long [[$2|$3]].",
 	"babel-3": "Man ia i save raetem [[$1|gud]] long [[$2|$3]].",
 	"babel-4": "Man ia i luksave toktok ia [[$2|$3]] long fasin we i [[$1|kolosap olsem manples]].",
+	"babel-5": "Man ia i save raetem [[$1|smol]] long toktok ia [[$2|$3]].",
 	"babel-N": "Man ia i luksave toktok ia [[$2|$3]] long fasin blong [[$1|manples]].",
+	"babel-0-n": "Man ia i save raetem [[$1|smol]] long toktok ia [[$2|Bislama]] (o toktok nogud).",
 	"babel-1-n": "Man ia i save raetem [[$1|smol]] long toktok ia [[$2|Bislama]].",
 	"babel-2-n": "Man ia i save raetem [[$1|medel]] long [[$2|Bislama]].",
 	"babel-3-n": "Man ia i save raetem [[$1|gud]] long [[$2|Bislama]].",
 	"babel-4-n": "Man ia i luksave toktok ia [[$2|Bislama]] long fasin we i [[$1|kolosap olsem manples]].",
-	"babel-N-n": "Man ia i luksave toktok ia [[$2|Bislama]] long fasin blong [[$1|manples]]."
+	"babel-5-n": "Man ia i save raetem [[$1|big]] long toktok ia [[$2|$3]].",
+	"babel-N-n": "Man ia i luksave toktok ia [[$2|Bislama]] long fasin blong [[$1|manples]].",
+	"babel-template": "Templet:Man $1",
+	"babel-footer": "Man long tokples"
 }
