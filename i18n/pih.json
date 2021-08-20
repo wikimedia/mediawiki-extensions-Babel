@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"MinecraftAustralia"
+		]
+	},
+	"babel": "Babel yuusa infameishan",
+	"babel-desc": "Aeds t' <code>#babel</babel> paasa funkshen tuu el ortometik maken o a Babel user boks column lorngf' t' el duet tuu inkluud  custom templets",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Category:Babel - Yuusas by laenghwij",
+	"babel-autocreate-reason": "Ortometikli mekin [[$1|Babel]] ketagorii peij.",
+	"babel-autocreate-text-levels": "Yuusas iin des kategorii indikeit dem gat skil lewl $1 f' t' $2 laenghwij.",
+	"babel-autocreate-text-main": "Yuusas iin des kategorii indikeit dems noeledj o t' $1 laenghwij.",
+	"babel-autocreate-user": "Babel AutoCreate",
+	"babel-0": "Des user haes [[$1|noe]] noeledj o [[$2|$3]] (or andastaen et lorngf' difikulti).",
+	"babel-1": "Des yuusa haes [[$1|beisik]] noeledj o [[$2|$3]].",
+	"babel-2": "Des yuusa haes [[$1|iintamiidiet]] noeledj o [[$2|$3]].",
+	"babel-3": "Des yuusa haes [[$1|adwaans'd]] noeledj o [[$2|$3]].",
+	"babel-4": "Des yuusa haes [[$1|neya neitiw torka]] noeledj o [[$2|$3]].",
+	"babel-5": "Des yuusa haes [[$1|profesh'nel]] noeledj o [[$2|$3]].",
+	"babel-N": "Des yuusa haes [[$1|neitiw]] noeledj o [[$2|$3]].",
+	"babel-0-n": "Des user haes [[$1|noe]] noeledj o [[$2|$3]] (or andastaen et lorngf' difikulti).",
+	"babel-1-n": "Des yuusa haes [[$1|beisik]] noeledj o [[$2|Pitkern-Norfuk]].",
+	"babel-2-n": "Des yuusa haes [[$1|iintamiidiet]] noeledj o [[$2|Pitkern-Norfuk]].",
+	"babel-3-n": "Des yuusa haes [[$1|adwaans'd]] noeledj o [[$2|$3]].",
+	"babel-4-n": "Des yuusa haes [[$1|neya neitiw torka]] noeledj o [[$2|Pitkern-Norfuk]].",
+	"babel-5-n": "Des yuusa haes [[$1|profesh'nel]] noeledj o [[$2|Pitkern-Norfuk]].",
+	"babel-N-n": "Des yuusa haes [[$1|neitw]] noeledj o [[$2|Pitkern-Norfuk]].",
+	"babel-template": "Template:Yuusa $1",
+	"babel-footer": "Yuusas bai laenghwij"
+}
