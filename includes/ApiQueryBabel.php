@@ -38,7 +38,6 @@ class ApiQueryBabel extends ApiQueryBase {
 		$user = User::newFromName( $userName );
 		if ( !$user || !$user->getId() ) {
 			$this->dieWithError( [ 'nosuchusershort', wfEscapeWikiText( $userName ) ], 'baduser' );
-			return;
 		}
 
 		$data = Babel::getUserLanguageInfo( $user );
