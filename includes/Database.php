@@ -98,7 +98,7 @@ class Database {
 	 * @return bool true if changes to the db were made
 	 */
 	public function setForUser( $id, array $data ) {
-		$dbw = $this->getDB( DB_MASTER );
+		$dbw = $this->getDB( DB_PRIMARY );
 
 		$newRows = [];
 		foreach ( $data as $lang => $level ) {
