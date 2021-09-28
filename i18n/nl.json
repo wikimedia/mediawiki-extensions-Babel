@@ -8,6 +8,7 @@
 			"Mainframe98",
 			"MarkAHershberger",
 			"McDutchie",
+			"Robin van der Vliet",
 			"SPQRobin",
 			"Siebrand"
 		]
@@ -33,5 +34,6 @@
 	"babel-4-n": "Deze gebruiker beheerst het [[$2|Nederlands]] als ware het zijn [[$1|moedertaal]].",
 	"babel-5-n": "Deze gebruiker heeft [[$1|professionele]] kennis van het [[$2|Nederlands]].",
 	"babel-N-n": "Deze gebruiker heeft het [[$2|Nederlands]] als [[$1|moedertaal]].",
+	"babel-template": "Template:Gebruiker $1",
 	"babel-footer": "Gebruikers per taal"
 }
