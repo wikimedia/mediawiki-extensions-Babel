@@ -3,7 +3,7 @@
 namespace Babel\Tests;
 
 use BabelAutoCreate;
-use MediaWikiTestCase;
+use MediaWikiIntegrationTestCase;
 use Title;
 use WikiPage;
 
@@ -16,7 +16,7 @@ use WikiPage;
  * @license GPL-2.0-or-later
  * @author Thiemo Kreuz
  */
-class BabelAutoCreateTest extends MediaWikiTestCase {
+class BabelAutoCreateTest extends MediaWikiIntegrationTestCase {
 
 	protected function setUp(): void {
 		parent::setUp();

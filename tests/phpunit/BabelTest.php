@@ -4,7 +4,7 @@ namespace Babel\Tests;
 
 use Babel;
 use MediaWiki\MediaWikiServices;
-use MediaWikiTestCase;
+use MediaWikiIntegrationTestCase;
 use Parser;
 use ParserOptions;
 use ParserOutput;
@@ -21,7 +21,7 @@ use User;
  * @license GPL-2.0-or-later
  * @author Thiemo Kreuz
  */
-class BabelTest extends MediaWikiTestCase {
+class BabelTest extends MediaWikiIntegrationTestCase {
 
 	public function addDBDataOnce() {
 		// The '#babel' parser function normally auto-creates category pages via
