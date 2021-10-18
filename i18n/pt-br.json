@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"!Silent",
 			"Brunoy Anastasiya Seryozhenko",
 			"Eduardo.mps",
 			"Felipe L. Ewald",
@@ -26,12 +27,12 @@
 	"babel-5": "Este usuário têm um conhecimento [[$1|profissional]] de [[$2|$3]].",
 	"babel-N": "Este usuário é um [[$1|falante nativo]] de [[$2|$3]].",
 	"babel-0-n": "Este usuário [[$1|não compreende]] [[$2|português]] (ou compreende com dificuldades consideráveis).",
-	"babel-1-n": "{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|básico]] de [[$2|português no dialeto brasileiro]].",
-	"babel-2-n": "{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|médio]] de [[$2|português no dialeto brasileiro]].",
-	"babel-3-n": "{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|avançado]] de [[$2|português no dialeto brasileiro]].",
-	"babel-4-n": "{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|quase nativo]] de [[$2|português no dialeto brasileiro]].",
-	"babel-5-n": "{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|profissional]] de [[$2|português no dialeto brasileiro]].",
-	"babel-N-n": "{{GENDER:$4|Este usuário|Esta usuária}} tem como língua [[$1|materna]] o [[$2|dialeto brasileiro da língua portuguesa]].",
+	"babel-1-n": "{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|básico]] de [[$2|português brasileiro]].",
+	"babel-2-n": "{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|médio]] de [[$2|português brasileiro]].",
+	"babel-3-n": "{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|avançado]] de [[$2|português brasileiro]].",
+	"babel-4-n": "{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|quase nativo]] de [[$2|português brasileiro]].",
+	"babel-5-n": "{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|profissional]] de [[$2|português brasileiro]].",
+	"babel-N-n": "{{GENDER:$4|Este usuário|Esta usuária}} tem como língua [[$1|materna]] o [[$2|português brasileiro]].",
 	"babel-template": "Template:Usuário $1",
 	"babel-footer": "Usuários por língua"
 }
