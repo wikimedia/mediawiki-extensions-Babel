@@ -56,7 +56,7 @@ class BabelAutoCreate {
 
 			$user = self::user();
 			# Do not add a message if the username is invalid or if the account that adds it, is blocked
-			if ( !$user || $user->isBlocked() ) {
+			if ( !$user || $user->getBlock() ) {
 				return;
 			}
 
