@@ -154,8 +154,9 @@ class BabelTest extends MediaWikiTestCase {
 			. "\n"
 			. '! dir="ltr" | [[(babel-portal: en)|en]]<span class="mw-babel-box-level-N">-N</span>'
 			. "\n"
-			. '| dir="ltr" lang="en" | This user has a [[:Category:en-N|native]] understanding of '
-			. '[[:Category:en|English]].'
+			. '| dir="ltr" lang="en" | '
+			. wfMessage( 'babel-N-n', ':Category:en-N', ':Category:en' )
+				->inLanguage( 'en' )->text()
 			. "\n|}\n"
 			. '</div>',
 			$wikiText
@@ -171,7 +172,8 @@ class BabelTest extends MediaWikiTestCase {
 	public function testRenderDefaultLevelNoCategory( $pageName ) {
 		$this->setMwGlobals( [ 'wgBabelMainCategory' => false ] );
 
-		$parser = $this->getParser( Title::newFromText( $pageName ) );
+		$title = Title::newFromText( $pageName );
+		$parser = $this->getParser( $title );
 		$wikiText = Babel::Render( $parser, 'en' );
 		$this->assertBabelBoxCount( 1, $wikiText );
 		$this->assertStringContainsString(
@@ -181,8 +183,9 @@ class BabelTest extends MediaWikiTestCase {
 			. "\n"
 			. '! dir="ltr" | [[(babel-portal: en)|en]]<span class="mw-babel-box-level-N">-N</span>'
 			. "\n"
-			. '| dir="ltr" lang="en" | This user has a [[:Category:en-N|native]] understanding of '
-			. "[[:$pageName|English]]."
+			. '| dir="ltr" lang="en" | '
+			. wfMessage( 'babel-N-n', ':Category:en-N', ':' . $title->getFullText() )
+				->inLanguage( 'en' )->text()
 			. "\n|}\n"
 			. '</div>',
 			$wikiText
@@ -203,8 +206,9 @@ class BabelTest extends MediaWikiTestCase {
 			. "\n"
 			. '! dir="ltr" | [[(babel-portal: en)|en]]<span class="mw-babel-box-level-1">-1</span>'
 			. "\n"
-			. '| dir="ltr" lang="en" | This user has [[:Category:en-1|basic]] knowledge of '
-			. '[[:Category:en|English]].'
+			. '| dir="ltr" lang="en" | '
+			. wfMessage( 'babel-1-n', ':Category:en-1', ':Category:en' )
+				->inLanguage( 'en' )->text()
 			. "\n|}\n"
 			. '</div>',
 			$wikiText
@@ -221,8 +225,9 @@ class BabelTest extends MediaWikiTestCase {
 			. '! dir="ltr" | [[(babel-portal: zh-Hant)|zh-Hant]]'
 			. '<span class="mw-babel-box-level-N">-N</span>'
 			. "\n"
-			. '| dir="ltr" lang="zh-Hant" | 這位使用者會[[:Category:zh-Hant-N|母語]]水準的 '
-			. '[[:Category:zh-Hant|繁體中文]]。'
+			. '| dir="ltr" lang="zh-Hant" | '
+			. wfMessage( 'babel-N-n', ':Category:zh-Hant-N', ':Category:zh-Hant' )
+				->inLanguage( 'zh-hant' )->text()
 			. "\n|}\n"
 			. '</div>',
 			$wikiText
@@ -242,8 +247,9 @@ class BabelTest extends MediaWikiTestCase {
 			. "\n"
 			. '! dir="ltr" | [[(babel-portal: en)|en]]<span class="mw-babel-box-level-N">-N</span>'
 			. "\n"
-			. '| dir="ltr" lang="en" | This user has a [[:Category:en-N|native]] understanding of '
-			. '[[:Category:en|English]].'
+			. '| dir="ltr" lang="en" | '
+			. wfMessage( 'babel-N-n', ':Category:en-N', ':Category:en' )
+				->inLanguage( 'en' )->text()
 			. "\n|}\n"
 			. '</div>',
 			$wikiText
