@@ -12,5 +12,6 @@
 	"babel-N": "Taam kevttee [[$1|eenikielâ]] lii [[$2|$3]].",
 	"babel-1-n": "Taat kevttee máttá [[$1|váhá]] [[$2|anarâškielâ]].",
 	"babel-3-n": "Taat kevttee máttá [[$2|anarâškielâ]] [[$1|uáli jo pyereest]].",
-	"babel-5-n": "Taat kevttee máttá [[$2|anarâškielâ]] [[$1|áámmátlâš tääsist]]."
+	"babel-5-n": "Taat kevttee máttá [[$2|anarâškielâ]] [[$1|áámmátlâš tääsist]].",
+	"babel-footer": "Kevtteeh kielâ mield"
 }
