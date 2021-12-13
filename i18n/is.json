@@ -7,6 +7,7 @@
 		]
 	},
 	"babel": "Málkassi",
+	"babel-desc": "Bætir við <code>#babel</code> þáttunar aðgerðinni til að leyfa að skapa sjálfvirkt babel notendabox með möguleikanum að innifela sérstök snið",
 	"babel-url": "Project:Málkassi",
 	"babel-footer-url": ":Category:Notendur eftir tungumáli",
 	"babel-autocreate-reason": "Bý sjálfkrafa til [[$1|Málkassa]] flokk.",

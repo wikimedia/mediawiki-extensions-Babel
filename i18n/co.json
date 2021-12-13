@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Purodha",
-			"Αντιγόνη"
+			"Αντιγόνη",
+			"Jun Misugi"
 		]
 	},
 	"babel": "Babele",
 	"babel-url": "Project:Babele",
 	"babel-footer-url": ":Category:Utilizatori per lingua",
-	"babel-autocreate-text-main": "Sti utilizatori hanu cunniscenze di u $1, ponullu capì è parlà (cun un livellu sfarente).",
+	"babel-autocreate-text-main": "L'utilizatori in ista categurìa hanu cunniscenze di a lingua $1.",
 	"babel-0": "Stu utilizatore [[$1|ùn capisce micca]] u [[$2|$3]].",
 	"babel-1": "Stu participante pò cuntribuì cù un livellu [[$1|elementare]] di [[$2|$3]].",
 	"babel-2": "Stu participante pò cuntribuì cù un livellu [[$1|mediu]] di [[$2|$3]].",

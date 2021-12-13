@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Dragonòt",
-			"GerardM"
+			"GerardM",
+			"Borichèt"
 		]
 	},
 	"babel": "Anformassion Babel ëd l'utent",
@@ -11,7 +12,7 @@
 	"babel-footer-url": ":Category:Babel - Utent për lenga",
 	"babel-autocreate-reason": "Creassion automàtica dla pàgina dla categorìa [[$1|Babel]].",
 	"babel-autocreate-text-levels": "J'utent an sta categorìa-sì a mosto che a l'han un livel ëd conossensa $1 dla lenga $2.",
-	"babel-autocreate-text-main": "J'utent an sta categorìa-sì a mosto che a conosso la lenga $1.",
+	"babel-autocreate-text-main": "J'utent an sta categorìa a smon-o soa conossensa dla lenga $1.",
 	"babel-0": "St'utent-sì a l'ha [[$1|gnun-e]] conossense dël [[$2|$3]] (o a lo capiss con motobin ëd dificoltà).",
 	"babel-1": "St'utent-sì a l'ha na conossensa [[$1|limità]] dël [[$2|$3]].",
 	"babel-2": "St'utent-sì a l'ha na conossensa [[$1|antërmedia]] dël [[$2|$3]].",
