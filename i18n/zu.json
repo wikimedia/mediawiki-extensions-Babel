@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"MF-Warburg",
-			"Mohau"
+			"Mohau",
+			"Amire80"
 		]
 	},
 	"babel": "Ulwazi lomsebenzisi we Babel",
@@ -16,7 +17,7 @@
 	"babel-5": "Lomsebenzisi unolwazi [[$1|lwesemfundo eliphephile]] lwe[[$2|$3]].",
 	"babel-N": "Lomsebenzisi [[$1|uzalwe]] ekhuluma [[$2|$3]].",
 	"babel-0-n": "Lomsebenzisi [[$1|akanalo noluncane]] ulwazi [[$2|lwesiNgisi]] (okanye kunzima kakhulu ukusiqondisisa).",
-	"babel-1-n": "Lomsebenzisi unolwazana [[$1|oluncane]] [[$2|lwesiZulu]].",
+	"babel-1-n": "Lomsebenzisi unolwazana [[$1|oluncane]] [[$2|ngesiZulu]].",
 	"babel-2-n": "Lomsebenzisi  unolwazi [[$1|olungengakanani]] [[$2|lwesiZulu]].",
 	"babel-3-n": "Lomsebenzisi unolwazi [[$1|oluningi]] [[$2|lwesiZulu]].",
 	"babel-4-n": "Lomsebenzisi unolwazi [[$1|olucishe lufane nelomuntu ozalwe ekhuluma]] [[$2|lwesiZulu]].",
