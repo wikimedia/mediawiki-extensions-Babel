@@ -5,7 +5,6 @@ namespace Babel\Tests;
 use BabelAutoCreate;
 use MediaWikiIntegrationTestCase;
 use Title;
-use WikiPage;
 
 /**
  * @covers BabelAutoCreate
@@ -37,7 +36,9 @@ class BabelAutoCreateTest extends MediaWikiIntegrationTestCase {
 	 */
 	public function testCreate( $category, $code, $level, $expected ) {
 		BabelAutoCreate::create( $category, $code, $level );
-		$page = WikiPage::factory( Title::newFromText( 'Category:' . $category ) );
+		$page = $this->getServiceContainer()->getWikiPageFactory()->newFromTitle(
+			Title::newFromText( 'Category:' . $category )
+		);
 		$this->assertTrue( $page->exists() );
 		$this->assertSame( $expected, $page->getContent()->getText() );
 	}
