@@ -8,7 +8,7 @@
 
 $dir = __DIR__;
 $IP = "$dir/../..";
-require_once "$IP/maintenance/commandLine.inc";
+require_once "$IP/maintenance/CommandLineInc.php";
 
 $fr = fopen( 'php://stdin', 'r' );
 $fw = fopen( 'php://stdout', 'w' );
