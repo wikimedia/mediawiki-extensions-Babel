@@ -84,7 +84,7 @@ class BabelStatic {
 		if ( $changed ) {
 			$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 			$cache->touchCheckKey( $cache->makeKey( 'babel-local-languages', $user->getId() ) );
-			if ( $wgBabelCentralDb === wfWikiID() ) {
+			if ( $wgBabelCentralDb === WikiMap::getCurrentWikiId() ) {
 				// If this is the central wiki, invalidate all of the local caches
 				if ( method_exists( MediaWikiServices::class, 'getCentralIdLookupFactory' ) ) {
 					// MW1.37+

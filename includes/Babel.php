@@ -408,7 +408,7 @@ EOT;
 			return $result;
 		}
 
-		if ( $wgBabelCentralDb === wfWikiID() ) {
+		if ( $wgBabelCentralDb === WikiMap::getCurrentWikiId() ) {
 			// We are the central wiki, so no fallback we can do
 			return [];
 		}
