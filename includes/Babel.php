@@ -40,7 +40,7 @@ class Babel {
 
 		self::mTemplateLinkBatch( $parameters );
 
-		$parser->getOutput()->addModuleStyles( 'ext.babel' );
+		$parser->getOutput()->addModuleStyles( [ 'ext.babel' ] );
 
 		$content = self::mGenerateContentTower( $parser, $parameters );
 
