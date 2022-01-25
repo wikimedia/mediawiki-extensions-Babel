@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Karapananguasú Kururú Teremembé"
+		]
+	},
+	"babel": "Babel puruçara kuauçawa'etá",
+	"babel-desc": "Umburipíri <code>#babel</code> parser yũreçawa uxiari irupĩtuwa pirí munhãgawa yepé \"babel userbox column\" çui purupawa irũ umburimuaka mupikaçawa tenũde'etá purawakawara çui",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Manũgara:Babel - Puruçara'etá nhẽẽga rupí",
+	"babel-autocreate-reason": "Umunhã uikú irupĩtuwarupí sowa manũgara [[$1|Babel]] rupí.",
+	"babel-autocreate-text-levels": "Puruçara'etá kuá manũgara rupí taumupika taurikú waá yepé kuauçawa $1 nhẽẽga $2 rupí.",
+	"babel-autocreate-text-main": "Puruçara kuá manũgara rupí taumupika taurikú waá kuauçawa $1 rupí.",
+	"babel-autocreate-user": "Babel AutoCreate",
+	"babel-0": "Kuá puruçara [[$1|ti uçẽdú]] [[$2|$3]] (ã uçẽdú yawá siya iwaçuçawa'etá irũ).",
+	"babel-1": "Kuá puruçara urikú yepé [[$1|yupirũgara]] kuauçawa [[$2|$3]] rupí.",
+	"babel-2": "Kuá puruçara urikú yepé [[$1|miterupé]] kuauçawa [[$2|$3]] rupí.",
+	"babel-3": "Kuá puruçara urikú yepé [[$1|sotenũdewa]] kuauçawa [[$2|$3]] rupí.",
+	"babel-4": "Kuá puruçara urikú yepé [[$1|kuauçawa çerãna]] ikewara [[$2|$3]] rupí.",
+	"babel-5": "Kuá puruçara urikú yepé kuauçawa [[$1|murakiçara]] [[$2|$3]] rupí.",
+	"babel-N": "Kuá puruçara urikú yepé [[$1|çẽduçawa]] ikewara [[$2|$3]] rupí.",
+	"babel-0-n": "Kuá puruçara [[$1|ti uçẽdú]] [[$2|nhẽẽgatú]] (ã uçẽdú yawá siya iwaçuçawa'etá irũ).",
+	"babel-1-n": "Kuá puruçara urikú yepé [[$1|yupirũgara]] kuauçawa [[$2|Nhẽẽgatú]] rupí.",
+	"babel-2-n": "Kuá puruçara urikú yepé [[$1|miterupé]] kuauçawa [[$2|Nhẽẽgatú]] rupí.",
+	"babel-3-n": "Kuá puruçara urikú yepé [[$1|sotenũdewa]] kuauçawa [[$2|Nhẽẽgatú]] rupí.",
+	"babel-4-n": "Kuá puruçara urikú yepé [[$1|kuauçawa çerãna]] ikewara [[$2|Nhẽẽgatú]] rupí.",
+	"babel-5-n": "Kuá puruçara urikú yepé [[$1|murakiçara]] kuauçawa [[$2|Nhẽẽgatú]] rupí.",
+	"babel-N-n": "Kuá puruçara urikú yepé [[$1|çẽduçawa]] ikewara [[$2|Nhẽẽgatú]] rupí.",
+	"babel-template": "Template:Puruçara $1",
+	"babel-footer": "Puruçara'etá nhẽẽga'etá rupí"
+}
