@@ -6,8 +6,11 @@
  * Usage: <tab file> | php tab2txt.php > codes.txt
  */
 
-$dir = __DIR__;
-$IP = "$dir/../..";
+if ( getenv( 'MW_INSTALL_PATH' ) ) {
+	$IP = getenv( 'MW_INSTALL_PATH' );
+} else {
+	$IP = __DIR__ . '/../..';
+}
 require_once "$IP/maintenance/CommandLineInc.php";
 
 $fr = fopen( 'php://stdin', 'r' );

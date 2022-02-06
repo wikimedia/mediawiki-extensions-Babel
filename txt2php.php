@@ -5,10 +5,13 @@
  * Usage: php txt2php.php
  */
 
- use Wikimedia\StaticArrayWriter;
+use Wikimedia\StaticArrayWriter;
 
-$dir = __DIR__;
-$IP = "$dir/../..";
+if ( getenv( 'MW_INSTALL_PATH' ) ) {
+	$IP = getenv( 'MW_INSTALL_PATH' );
+} else {
+	$IP = __DIR__ . '/../..';
+}
 
 require_once "$IP/maintenance/CommandLineInc.php";
 
