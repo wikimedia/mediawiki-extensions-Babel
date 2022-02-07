@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"খাত্তাব হাসান"
+		]
+	},
+	"apihelp-query+babel-description": "ব্যবহারকারী কোন ভাষা জানে সে সম্পর্কে তথ্য পান",
+	"apihelp-query+babel-summary": "ব্যবহারকারী কোন ভাষা জানে সে সম্পর্কে তথ্য পান",
+	"apihelp-query+babel-param-user": "ব্যবহারকারী সম্পর্কে তথ্য পেতে",
+	"apihelp-query+babel-example-1": "ব্যবহারকারীর জন্য বাবেল তথ্য পান <kbd>উদাহরণ</kbd>"
+}
