@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ukabia"
+			"Ukabia",
+			"Tochiprecious"
 		]
 	},
 	"babel": "Ihe Babul ejiá mari onyeá",
 	"babel-desc": "Nè tí <code>#babel</code> ihe ndotù Í nyé uzor maka okìké nke orúnotu nke ogologo  babel nweríkí tinyé ihü nka nke ékèrè eké",
 	"babel-url": "Project:Babul",
+	"babel-footer-url": ":Category:Babel - Ndị jị asụsụ a eme ihe.",
 	"babel-autocreate-reason": "Odạlạ né ké [[$1|Babel]] ébé ihü nọr.",
 	"babel-autocreate-text-levels": "Ndi na banife nọr na ébé nke sị há nwèrè ǹkà rúrú $1 màkà asụsụ $2.",
 	"babel-autocreate-text-main": "Ọ'bànifé nor na ébéanọr á sị hé nwèrè ómárí màkà asụsụ $1.",
