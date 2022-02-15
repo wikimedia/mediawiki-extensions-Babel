@@ -3,11 +3,11 @@ declare( strict_types = 1 );
 
 namespace Babel\Tests;
 
-use BabelLanguageCodes;
 use LanguageCode;
+use MediaWiki\Babel\BabelLanguageCodes;
 
 /**
- * @covers BabelLanguageCodes
+ * @covers \MediaWiki\Babel\BabelLanguageCodes
  *
  * @group Babel
  *

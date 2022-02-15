@@ -17,10 +17,10 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel\BabelBox;
 
-use BabelAutoCreate;
-use BabelLanguageCodes;
 use Language;
 use LanguageCode;
+use MediaWiki\Babel\BabelAutoCreate;
+use MediaWiki\Babel\BabelLanguageCodes;
 use MWException;
 use Title;
 

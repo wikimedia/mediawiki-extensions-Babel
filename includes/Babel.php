@@ -18,6 +18,7 @@ declare( strict_types = 1 );
 use MediaWiki\Babel\BabelBox\LanguageBabelBox;
 use MediaWiki\Babel\BabelBox\NotBabelBox;
 use MediaWiki\Babel\BabelBox\NullBabelBox;
+use MediaWiki\Babel\BabelLanguageCodes;
 use MediaWiki\MediaWikiServices;
 
 /**

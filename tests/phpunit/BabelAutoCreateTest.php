@@ -3,12 +3,12 @@ declare( strict_types = 1 );
 
 namespace Babel\Tests;
 
-use BabelAutoCreate;
+use MediaWiki\Babel\BabelAutoCreate;
 use MediaWikiIntegrationTestCase;
 use Title;
 
 /**
- * @covers BabelAutoCreate
+ * @covers \MediaWiki\Babel\BabelAutoCreate
  *
  * @group Babel
  * @group Database

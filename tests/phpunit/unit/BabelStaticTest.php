@@ -4,11 +4,11 @@ declare( strict_types = 1 );
 namespace Babel\Tests\Unit;
 
 use Babel;
-use BabelStatic;
+use MediaWiki\Babel\BabelStatic;
 use Parser;
 
 /**
- * @covers BabelStatic
+ * @covers \MediaWiki\Babel\BabelStatic
  *
  * @group Babel
  *

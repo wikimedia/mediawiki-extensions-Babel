@@ -9,6 +9,11 @@
 
 declare( strict_types = 1 );
 
+namespace MediaWiki\Babel;
+
+use Language;
+use LanguageCode;
+
 /**
  * Handle language code and name processing for the Babel extension, it can also
  * be used by other extension which need such functionality.

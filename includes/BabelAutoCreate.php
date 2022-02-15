@@ -15,7 +15,14 @@
 
 declare( strict_types = 1 );
 
+namespace MediaWiki\Babel;
+
+use ContentHandler;
+use DeferredUpdates;
 use MediaWiki\MediaWikiServices;
+use Title;
+use User;
+use WikiPage;
 
 /**
  * Class for automatic creation of Babel category pages.
@@ -63,8 +70,10 @@ class BabelAutoCreate {
 			}
 
 			if ( !MediaWikiServices::getInstance()->getPermissionManager()
-				->quickUserCan( 'create', $user, $title ) ) {
-				return; # The Babel AutoCreate account is not allowed to create the page
+				->quickUserCan( 'create', $user, $title )
+			) {
+				# The Babel AutoCreate account is not allowed to create the page
+				return;
 			}
 
 			$url = wfMessage( 'babel-url' )->inContentLanguage()->plain();

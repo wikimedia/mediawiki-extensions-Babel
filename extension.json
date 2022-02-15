@@ -26,10 +26,7 @@
 		"BabelMagic": "Babel.i18n.magic.php"
 	},
 	"AutoloadClasses": {
-		"Babel": "includes/Babel.php",
-		"BabelLanguageCodes": "includes/BabelLanguageCodes.php",
-		"BabelStatic": "includes/BabelStatic.php",
-		"BabelAutoCreate": "includes/BabelAutoCreate.php"
+		"Babel": "includes/Babel.php"
 	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Babel\\": "includes/"
@@ -51,10 +48,10 @@
 		"remoteExtPath": "Babel"
 	},
 	"Hooks": {
-		"ParserFirstCallInit": "BabelStatic::onParserFirstCallInit",
-		"LinksUpdate": "BabelStatic::onLinksUpdate",
-		"LoadExtensionSchemaUpdates": "BabelStatic::onLoadExtensionSchemaUpdates",
-		"UserGetReservedNames": "BabelAutoCreate::onUserGetReservedNames"
+		"ParserFirstCallInit": "MediaWiki\\Babel\\BabelStatic::onParserFirstCallInit",
+		"LinksUpdate": "MediaWiki\\Babel\\BabelStatic::onLinksUpdate",
+		"LoadExtensionSchemaUpdates": "MediaWiki\\Babel\\BabelStatic::onLoadExtensionSchemaUpdates",
+		"UserGetReservedNames": "MediaWiki\\Babel\\BabelAutoCreate::onUserGetReservedNames"
 	},
 	"config": {
 		"BabelCategorizeNamespaces": {

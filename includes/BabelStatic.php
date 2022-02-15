@@ -9,7 +9,15 @@
 
 declare( strict_types = 1 );
 
+namespace MediaWiki\Babel;
+
+use CentralIdLookup;
+use DatabaseUpdater;
+use MediaWiki\Deferred\LinksUpdate\LinksUpdate;
 use MediaWiki\MediaWikiServices;
+use Parser;
+use User;
+use WikiMap;
 
 /**
  * Static functions for Babel extension.
@@ -80,7 +88,7 @@ class BabelStatic {
 			return;
 		}
 
-		$babelDB = new MediaWiki\Babel\Database();
+		$babelDB = new Database();
 		$data = $linksUpdate->getParserOutput()->getExtensionData( 'babel' ) ?: [];
 		$changed = $babelDB->setForUser( $user->getId(), $data );
 		if ( $changed ) {
