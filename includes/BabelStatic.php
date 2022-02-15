@@ -11,6 +11,7 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel;
 
+use Babel;
 use CentralIdLookup;
 use DatabaseUpdater;
 use MediaWiki\Deferred\LinksUpdate\LinksUpdate;
@@ -29,7 +30,7 @@ class BabelStatic {
 	 * @param Parser $parser
 	 */
 	public static function onParserFirstCallInit( Parser $parser ): void {
-		$parser->setFunctionHook( 'babel', [ 'Babel', 'Render' ] );
+		$parser->setFunctionHook( 'babel', [ Babel::class, 'Render' ] );
 	}
 
 	/**

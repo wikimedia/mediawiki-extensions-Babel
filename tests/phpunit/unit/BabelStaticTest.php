@@ -24,7 +24,7 @@ class BabelStaticTest extends \MediaWikiUnitTestCase {
 		$parser->expects( $this->once() )
 			->method( 'setFunctionHook' )
 			->with( 'babel', [ Babel::class, 'Render' ] )
-			->will( $this->returnValue( true ) );
+			->willReturn( true );
 
 		BabelStatic::onParserFirstCallInit( $parser );
 	}

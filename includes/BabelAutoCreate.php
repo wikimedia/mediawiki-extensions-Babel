@@ -81,24 +81,12 @@ class BabelAutoCreate {
 
 			$content = ContentHandler::makeContent( $text, $title );
 			$editSummary = wfMessage( 'babel-autocreate-reason', $url )->inContentLanguage()->text();
-			if ( method_exists( $article, 'doUserEditContent' ) ) {
-				// MW 1.36+
-				$article->doUserEditContent(
-					$content,
-					$user,
-					$editSummary,
-					EDIT_FORCE_BOT
-				);
-			} else {
-				// doUserEditContent not available yet, only introduced in 1.36
-				$article->doEditContent(
-					$content,
-					$editSummary,
-					EDIT_FORCE_BOT,
-					false,
-					$user
-				);
-			}
+			$article->doUserEditContent(
+				$content,
+				$user,
+				$editSummary,
+				EDIT_FORCE_BOT
+			);
 		} );
 	}
 
