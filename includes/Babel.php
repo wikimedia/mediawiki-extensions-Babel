@@ -198,10 +198,15 @@ EOT;
 
 		foreach ( $box->getCategories() as $cat => $sortKey ) {
 			if ( $sortKey === false ) {
-				$sortKey = $parser->getDefaultSort();
+				if ( method_exists( $parserOutput, 'getPageProperty' ) ) {
+					$sortKey = $parserOutput->getPageProperty( 'defaultsort' );
+				} else {
+					// MW < 1.38
+					$sortKey = $parser->getDefaultSort();
+				}
 			}
 
-			$parserOutput->addCategory( $cat, $sortKey );
+			$parserOutput->addCategory( $cat, $sortKey ?? '' );
 		}
 
 		return $box->render();
