@@ -5,8 +5,8 @@
 			"SADIQUI"
 		]
 	},
-	"apihelp-query+babel-description": "الحصول على معلومات على اللغات اللي كيعرفها المستخدم",
+	"apihelp-query+babel-description": "حصل على معلومات على لّوغات لي كيعرف ليها لخدايمي",
 	"apihelp-query+babel-summary": "حصل على معلومات على لّوغات لي كيعرف ليها لخدايمي",
 	"apihelp-query+babel-param-user": "لخدايمي لي خاص يتجبدو عليه معلومات",
-	"apihelp-query+babel-example-1": "الحصول على معلومات بابل ديال المستخدم <kbd>مثال</kbd>"
+	"apihelp-query+babel-example-1": "لحصول على معلومات بابل د لخدايمي <kbd>ميتال</kbd>"
 }
