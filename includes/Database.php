@@ -44,7 +44,7 @@ class Database {
 	 */
 	protected function getDB( int $index, $wiki = false ): IDatabase {
 		return $this->loadBalancerFactory->getMainLB( $wiki )
-			->getLazyConnectionRef( $index, [], $wiki );
+			->getConnectionRef( $index, [], $wiki );
 	}
 
 	/**
