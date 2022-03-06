@@ -26,7 +26,8 @@
 		"BabelMagic": "Babel.i18n.magic.php"
 	},
 	"AutoloadClasses": {
-		"Babel": "includes/Babel.php"
+		"Babel": "includes/Babel.php",
+		"MediaWiki\\Babel\\Babel": "includes/Babel.php"
 	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Babel\\": "includes/"

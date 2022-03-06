@@ -3,7 +3,7 @@ declare( strict_types = 1 );
 
 namespace Babel\Tests\Unit;
 
-use Babel;
+use MediaWiki\Babel\Babel;
 use MediaWiki\Babel\BabelStatic;
 use Parser;
 

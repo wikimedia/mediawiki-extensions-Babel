@@ -26,7 +26,6 @@ use ApiBase;
 use ApiQuery;
 use ApiQueryBase;
 use ApiResult;
-use Babel;
 use User;
 
 class ApiQueryBabel extends ApiQueryBase {

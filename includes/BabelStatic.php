@@ -11,7 +11,6 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel;
 
-use Babel;
 use CentralIdLookup;
 use DatabaseUpdater;
 use MediaWiki\Deferred\LinksUpdate\LinksUpdate;

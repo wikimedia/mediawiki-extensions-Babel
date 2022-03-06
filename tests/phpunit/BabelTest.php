@@ -3,7 +3,7 @@ declare( strict_types = 1 );
 
 namespace Babel\Tests;
 
-use Babel;
+use MediaWiki\Babel\Babel;
 use MediaWiki\MediaWikiServices;
 use MediaWikiIntegrationTestCase;
 use Parser;
@@ -14,7 +14,7 @@ use TitleValue;
 use User;
 
 /**
- * @covers Babel
+ * @covers \MediaWiki\Babel\Babel
  *
  * @group Babel
  * @group Database

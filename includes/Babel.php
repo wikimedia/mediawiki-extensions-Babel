@@ -15,11 +15,19 @@
 
 declare( strict_types = 1 );
 
+namespace MediaWiki\Babel;
+
+use CentralIdLookup;
+use LinkBatch;
 use MediaWiki\Babel\BabelBox\LanguageBabelBox;
 use MediaWiki\Babel\BabelBox\NotBabelBox;
 use MediaWiki\Babel\BabelBox\NullBabelBox;
-use MediaWiki\Babel\BabelLanguageCodes;
 use MediaWiki\MediaWikiServices;
+use Parser;
+use ParserOutput;
+use Title;
+use User;
+use WikiMap;
 
 /**
  * Main class for the Babel extension.
@@ -411,7 +419,7 @@ EOT;
 	private static function getUserLanguagesDB( User $user ): array {
 		global $wgBabelCentralDb;
 
-		$babelDB = new MediaWiki\Babel\Database();
+		$babelDB = new Database();
 		$result = $babelDB->getForUser( $user->getId() );
 		/** If local data or no central source, return */
 		if ( $result || !$wgBabelCentralDb ) {
@@ -439,3 +447,5 @@ EOT;
 		return $babelDB->getForRemoteUser( $wgBabelCentralDb, $user->getName() );
 	}
 }
+
+class_alias( Babel::class, 'Babel' );
