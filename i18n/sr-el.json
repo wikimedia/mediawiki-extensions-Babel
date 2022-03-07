@@ -16,7 +16,7 @@
 	"babel-autocreate-user": "Vavilon – samostvaranje",
 	"babel-0": "{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} [[$1|ne]] zna [[$2|$3]] jezik (ili ga razume sa znatnim poteškoćama).",
 	"babel-1": "{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} ima [[$1|osnovno]] znanje [[$2|srpskog jezika]].",
-	"babel-2": "{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} razume [[$2|$3]] jezik na [[$1|srednjem]] nivou.",
+	"babel-2": "{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} razume [[$2|srpski jezik]] na [[$1|srednjem]] nivou.",
 	"babel-3": "{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} razume [[$2|$3]] jezik na [[$1|naprednom]] nivou.",
 	"babel-4": "{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} [[$1|tečno]] govori [[$2|$3]] jezik.",
 	"babel-5": "{{GENDER:$4|Ovaj korisnik|Ova korisnica|Ovaj korisnik}} zna [[$2|$3]] jezik na [[$1|profesionalnom]] nivou.",
