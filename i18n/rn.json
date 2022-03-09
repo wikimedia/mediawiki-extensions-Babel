@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gilbert Ndihokubwayo"
+		]
+	},
+	"babel": "Amakuru y'uwukoresha Babeli",
+	"babel-desc": "Vyongereza igikorwa c'uwutunganya <code>#babel</code> kugirango hemerwe urunganwe rwa babeli rukoresha umurongo hamwe n'ubushobozi bwo kwongeramwo inyandikorugero.",
+	"babel-url": "Project:Babeli",
+	"babel-footer-url": ":Umuce:Babeli - Abakoresha hakurikijwe ururimi",
+	"babel-autocreate-reason": "Ukwirema [[$1|Babeli]] kw'urupapuro rw'umuce.",
+	"babel-autocreate-text-levels": "Abakoresha bo muri uno muce berekana ko bafise urugero rw'ubumenye rungana $1 mu rurimi $2.",
+	"babel-autocreate-text-main": "Abakoresha muri uno muce berekana ubumenyi bwabo bw'ururimi $1.",
+	"babel-0": "Uwu mukoresha afise ubumenyi [[$1|no]] mu [[$2|$3]] (canke arutegera bigoranye cane).",
+	"babel-1": "Uwu mukoresha afise ubumenyi [[$1|buke]] mu [[$2|$3]].",
+	"babel-2": "Uwu mukoresha afise ubumenyi [[$1|bubayabaye]] mu [[$2|$3]].",
+	"babel-3": "Uwu mukoresha afise ubumenyi [[$1|bwinshi]] mu [[$2|$3]].",
+	"babel-4": "Uwu mukoresha afise ubumenyi [[$1|bwegereje ururimi kavukire]] mu [[$2|$3]].",
+	"babel-5": "Uwu mukoresha afise ubumenyi [[$1|inzobere]] mu [[$2|$3]].",
+	"babel-N": "Uwu mukoresha afise ugutahura [[$1|kavukire]] mu [[$2|$3]].",
+	"babel-0-n": "Uwu mukoresha [[$1|ntagira]] ubumenyi mu [[$2|Kirundi]] (canke agitegera bigoranye).",
+	"babel-1-n": "Uwu mukoresha afise ubumenyi [[$1|buke]] mu [[$2|Kirundi]].",
+	"babel-2-n": "Uwu mukoresha afise ubumenyi [[$1|bubayabaye]] mu [[$2|Kirundi]].",
+	"babel-3-n": "Uwu mukoresha afise ubumenyi [[$1|bwinshi]] mu [[$2|Kirundi]].",
+	"babel-4-n": "Uwu mukoresha afise ubumenyi [[$1|bwegereje ururimi kavukire]] mu [[$2|Kirundi]].",
+	"babel-5-n": "Uwu mukoresha afise ubumenyi [[$1|professional]] mu [[$2|Kirundi]].",
+	"babel-N-n": "Uwu mukoresha afise ugutahura [[$1|kavukire]] mu [[$2|Kirundi]].",
+	"babel-footer": "Abakoresha hakurikijwe ururimi"
+}
