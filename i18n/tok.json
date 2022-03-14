@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robin van der Vliet"
+		]
+	},
+	"babel-0": "jan ni li [[$1|sona ala]] e [[$2|$3]].",
+	"babel-1": "jan ni li [[$1|sona lili]] e [[$2|$3]].",
+	"babel-2": "jan ni li [[$1|sona pi ike ala]] e [[$2|$3]].",
+	"babel-3": "jan ni li [[$1|sona pona]] e [[$2|$3]].",
+	"babel-4": "jan ni li sona e [[$2|$3]] [[$1|sama toki mama ona]].",
+	"babel-5": "jan ni li kepeken [[$2|$3]] [[$1|lon pali]] ona. pali ni li wile e sona wawa a pi $3.",
+	"babel-N": "[[$2|$3]] li [[$1|toki mama]] pi jan ni.",
+	"babel-0-n": "jan ni li [[$1|sona ala]] e [[$2|toki pona]].",
+	"babel-1-n": "jan ni li [[$1|sona lili]] e [[$2|toki pona]].",
+	"babel-2-n": "jan ni li [[$1|sona pi ike ala]] e [[$2|toki pona]].",
+	"babel-3-n": "jan ni li [[$1|sona pona]] e [[$2|toki pona]].",
+	"babel-4-n": "jan ni li sona e [[$2|toki pona]] [[$1|sama toki mama ona]].",
+	"babel-5-n": "jan ni li kepeken [[$2|toki pona]] [[$1|lon pali]] ona. pali ni li wile e sona wawa a pi toki pona.",
+	"babel-N-n": "[[$2|toki pona]] li [[$1|toki mama]] pi jan ni.",
+	"babel-template": "Template:jan $1"
+}
