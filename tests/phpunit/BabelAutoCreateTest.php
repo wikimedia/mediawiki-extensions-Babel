@@ -6,6 +6,7 @@ namespace Babel\Tests;
 use MediaWiki\Babel\BabelAutoCreate;
 use MediaWikiIntegrationTestCase;
 use Title;
+use User;
 
 /**
  * @covers \MediaWiki\Babel\BabelAutoCreate
@@ -64,7 +65,7 @@ class BabelAutoCreateTest extends MediaWikiIntegrationTestCase {
 
 	public function testUser(): void {
 		$user = BabelAutoCreate::user();
-		$this->assertInstanceOf( 'User', $user );
+		$this->assertInstanceOf( User::class, $user );
 	}
 
 }
