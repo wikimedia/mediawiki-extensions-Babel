@@ -14,7 +14,7 @@
 	"babel-4": "Esta usor es [[$1|la plu perfeta capas]] de [[$2|$3]].",
 	"babel-5": "Esta usor es [[$1|profesal capas]] de [[$2|$3]].",
 	"babel-N": "Esta usor ave [[$2|$3]] se [[$1|lingua propre]].",
-	"babel-0-n": "This user has [[$1|no]] knowledge of [[$2|Elefen (Lingua Franca Nova)]] (or understands it with considerable difficulty).",
+	"babel-0-n": "Esta usor ave [[$1|no capas]] de [[$2|Lingua Franca Nova]].",
 	"babel-1-n": "Esta usor es [[$1|poca capas]] de [[$2|Lingua Franca Nova]].",
 	"babel-2-n": "Esta usor es [[$1|medial capas]] de [[$2|Lingua Franca Nova]].",
 	"babel-3-n": "Esta usor es [[$1|bon capas]] de [[$2|Lingua Franca Nova]].",
