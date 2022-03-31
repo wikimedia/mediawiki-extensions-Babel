@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Samatics"
+		]
+	},
+	"babel": "Nudọnamẹ Babel zantọ tọn",
+	"babel-desc": "Yi ohia <code>#babel</code> dogọ́ apotin Babel tọn lọ po nugopipe lọ po nado yi ohia towe titi dogọ́ na ẹn",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Adà:Babel - Zinzantọ sọgbe hẹ ogbè",
+	"babel-autocreate-reason": "Adà weda [[$1|Babel]] tọn to yinyin didá na ede.",
+	"babel-autocreate-text-levels": "Nuyizantọ he tin to adà ehe mẹ lẹ sọgan dọ ye tindo azọ́nyinyọnẹn jẹ oba $1 mẹ gando ogbè $2 go.",
+	"babel-autocreate-text-main": "Nuyizantọ he to adà ehe mẹ lẹ dohia dọ ye tindo oyọnẹn to ogbè $1 mẹ.",
+	"babel-0": "Nuyizatọ ehe ma tindo oyọnẹn [[$1|depope]] gando [[$2|$3]] go (Kavi tindo nukunnumojẹnumẹ vude poun gando e go).",
+	"babel-1": "Nuyizantọ ehe tindo oyọnẹn [[$1|dandan tọn]] gando [[$2|$3]] go.",
+	"babel-2": "Nuyizantọ he tin oyọnẹn [[$1|adà de]] gando [[$2|$3]] go.",
+	"babel-3": "Nuyizantọ ehe tindo oyọnẹn  [[$1|yinukọn]] gando [[$2|$3]] go.",
+	"babel-4": "Nuyizantọ ehe tindo oyọnẹn [[$1|sẹpọ vi-jiji akọ̀]] [[$2|$3]] tọn",
+	"babel-5": "Nuyizantọ ehe tindo oyọnẹn he pegan [[$1|nado sọgan wazọ́n]] to [[$2|$3]] me.",
+	"babel-N": "Nuyizantọ ehe yin [[$1|ovi akọ̀]] [[$2|$3]] tọn tọn.",
+	"babel-0-n": "Nuyizantọ ehe ma tindo oyọnẹn  [[$1|depope]] gando ogbè [[$2|Gungbe]] tọn go (Kavi tindo nukunnumojẹnumẹ vude poun gando e go).",
+	"babel-1-n": "Nuyizantọ ehe tindo oyọnẹn [[$1|dandan tọn lẹ]] gando [[$2|Gungbe]] go.",
+	"babel-2-n": "Nuyizantọ ehe tindo oyọnẹn [[$1|adà de]] gándo [[$2|Gungbe]] go.",
+	"babel-3-n": "Nuyizantọ ehe tindo oyọnẹn [[$1|yinukọn]] gando [[$2|Gungbe]] go.",
+	"babel-4-n": "Nuyizantọ ehe tindo oyọnẹn [[$1|sẹpọ vi-jiji akọ̀]] [[$2|Gungbe]] tọn go.",
+	"babel-5-n": "Nuyizantọ ehe tindo oyọnẹn he pegan nado [[$1|sọgan wazọ́n]] to [[$2|Gungbe]] mẹ.",
+	"babel-N-n": "Nuyizantọ ehe yin [[$1|ovi akọ̀]] [[$2|Gungbe]] tọn yin.",
+	"babel-footer": "Zinzantọ sọgbe hẹ ogbè"
+}
