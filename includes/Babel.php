@@ -429,3 +429,5 @@ EOT;
 		return $babelDB->getForRemoteUser( $wgBabelCentralDb, $user->getName() );
 	}
 }
+
+class_alias( Babel::class, 'MediaWiki\\Babel\\Babel' );

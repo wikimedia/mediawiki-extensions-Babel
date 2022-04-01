@@ -29,7 +29,8 @@
 		"Babel": "includes/Babel.php",
 		"BabelLanguageCodes": "includes/BabelLanguageCodes.php",
 		"BabelStatic": "includes/BabelStatic.php",
-		"BabelAutoCreate": "includes/BabelAutoCreate.php"
+		"BabelAutoCreate": "includes/BabelAutoCreate.php",
+		"MediaWiki\\Babel\\Babel": "includes/Babel.php"
 	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Babel\\": "includes/"
