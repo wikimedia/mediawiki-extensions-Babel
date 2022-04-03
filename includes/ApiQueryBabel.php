@@ -22,11 +22,11 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel;
 
-use ApiBase;
 use ApiQuery;
 use ApiQueryBase;
 use ApiResult;
 use User;
+use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiQueryBabel extends ApiQueryBase {
 	public function __construct( ApiQuery $queryModule, string $moduleName ) {
@@ -55,8 +55,8 @@ class ApiQueryBabel extends ApiQueryBase {
 	public function getAllowedParams( /* $flags = 0 */ ): array {
 		return [
 			'user' => [
-				ApiBase::PARAM_REQUIRED => true,
-				ApiBase::PARAM_TYPE => 'user',
+				ParamValidator::PARAM_REQUIRED => true,
+				ParamValidator::PARAM_TYPE => 'user',
 			]
 		];
 	}
