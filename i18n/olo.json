@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Denö",
-			"Mashoi7"
+			"Mashoi7",
+			"Moj"
 		]
 	},
 	"babel": "Käyttäjän kielinero",
@@ -12,7 +13,7 @@
 	"babel-autocreate-text-levels": "Käyttäjät täs kategouries ollah jiävitty, ku maltetah kieldy $2 tazol $1.",
 	"babel-autocreate-text-main": "Käyttäjät täs kategouries ollah jiävitty, ku ellendetäh kieldy $1.",
 	"babel-0": "Tämä käyttäi maltau [[$1|ylen vähä libo nivouze]] kieldy [[$2|$3]].",
-	"babel-1": "Täl käyttäjäl on kielen [[$2|$3]] [[$1|perustiijot]]",
+	"babel-1": "Täl käyttäjäl on kielen [[$2|$3]] [[$1|perustiijot]].",
 	"babel-2": "Tämä käyttäi maltau kieldy [[$2|$3]] [[$1|keskimiäräzesti]].",
 	"babel-3": "Tämä käyttäi maltau kieldy [[$2|$3]] [[$1|ylen hyvin]].",
 	"babel-4": "Tämä käyttäi maltau kieldy [[$2|$3]] [[$1|läs muamankielen jytyi]].",
