@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrisportelli"
+			"Chrisportelli",
+			"ToniSant"
 		]
 	},
 	"babel": "Informazzjoni tal-utent Babel",
@@ -10,7 +11,7 @@
 	"babel-footer-url": ":Category:Babel - Utenti skont il-lingwa",
 	"babel-autocreate-reason": "Ħolqien awtomatiku tal-paġna tal-kategorija [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Utenti f'din il-kategorija jindikaw li għandhom livell ta' għarfien $1 għal-lingwa $2.",
-	"babel-autocreate-text-main": "Utenti f'din il-kategorija jindikaw li għandhom għarfien tal-lingwa $1.",
+	"babel-autocreate-text-main": "Utenti f'din il-kategorija jindikaw li għandhom għarfien ta' din il-lingwa: $1.",
 	"babel-0": "Dan l-utent [[$1|m'huwiex kapaċi jikkomunika]] bil-[[$2|$3]] (jew jifhmu b'diffikultà konsiderevoli).",
 	"babel-1": "Dan l-utent jista' jikkontribwixxi b'livell [[$1|bażiku]] tal-[[$2|$3]].",
 	"babel-2": "Dan l-utent jista' jikkontribwixxi b'livell [[$1|intermedju]] tal-[[$2|$3]].",
