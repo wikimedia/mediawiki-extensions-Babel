@@ -1,4 +1,5 @@
 {
+	"name": "Babel",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
