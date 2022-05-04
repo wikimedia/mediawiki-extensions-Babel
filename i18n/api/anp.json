@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Proabscorp!"
+		]
+	},
+	"apihelp-query+babel-description": "सदस्य कतनै भासा सिनी क जानै छै, हैय बारै मँ जानकारी ला",
+	"apihelp-query+babel-summary": "उपयोक्ता द्वारा ज्ञात भासा सिनी क सूचना अर्जित करौ",
+	"apihelp-query+babel-param-user": "सदस्य केरौ बारै मँ जानकारी ला",
+	"apihelp-query+babel-example-1": "सदस्य <kbd>उदाहरण</kbd> केरौ बारै मँ बबेल जानकारी ला"
+}
