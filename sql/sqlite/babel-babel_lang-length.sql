@@ -1,4 +1,4 @@
-CREATE TABLE /*_*/babel (
+CREATE TABLE /*_*/babel_tmp (
 	-- user id
 	babel_user int UNSIGNED NOT NULL,
 	-- language code
