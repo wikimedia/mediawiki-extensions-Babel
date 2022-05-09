@@ -59,7 +59,6 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 				'page_latest' => 0,
 				'page_content_model' => null,
 				'page_lang' => null,
-				'page_restrictions' => null,
 				'page_is_new' => 0,
 				'page_touched' => '',
 			] );
