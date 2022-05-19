@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Robertjamal12",
+			"Suzieturkson"
+		]
+	},
+	"babel": "Babel dwuamdzifo ho nsɛm",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Nkyekɛmu:Babel - Dwumadzifo kasa",
+	"babel-autocreate-text-levels": "Dwumadzifo a wɔwɔ dɛm kuw kyerɛ dɛ wɔwɔ nyimdzii $1 ma kasa $2.",
+	"babel-autocreate-text-main": "Dwumadzifo a wɔwɔ dɛm kuw yi mu kyerɛ hɔn kasa $1 ho nyimdzee.",
+	"babel-1": "Dɛm dwumadzinyi yi wɔ [[$1|ahyɛase]] ho nyimdz wɔ [[$2|$3]].",
+	"babel-2": "Dɛm dwumadzinyi yi wɔ [[$1|egyinantamu]] nyimdzee [[$2|$3]].",
+	"babel-3": "Dɛm dwumadzinyi yi wɔ nyimdzee a [[$1|ɔkɔ nkan]] wɔ [[$2|$3]].",
+	"babel-4": "Dɛm dwumadzinyi wɔ [[$1|kasa no ho]] nyimdzee [[$2|$3]].",
+	"babel-5": "Dɛm dwumadzinyi yi wɔ nyimdzee [[$1|mapa]] wɔ [[$2|$3]].",
+	"babel-N": "Dɛm dwumadzinyi yi wɔ [[$1|kurowmanyi]] ntseasee wɔ [[$2|$3]].",
+	"babel-0-n": "Dɛm dwumadzinyi yi [[$1|nnyi]] [[$2|Mfantse]] ho nyimdzee (anaa ne ntseasee yɛ no dzen).",
+	"babel-1-n": "Dɔm dwumadzinyi yi wɔ [[$1|ahyɛase]] nyimdzee wɔ [[$2|Mfantse]].",
+	"babel-2-n": "Dɛm dwumadzinyi yi wɔ [[$1|egyinantamu]] nyimdzee wɔ [[$2|Mfantse]].",
+	"babel-3-n": "Dɛm dwumadzinyi yi wɔ [[$1|kankɔ]] nyimdzee wɔ [[$2|Mfantse]].",
+	"babel-4-n": "Dɛm dwumadzinyi yi wɔ [[$1|kurowmanyi nyimdzee]] wɔ [[$2|Mfantse]].",
+	"babel-5-n": "Dɛm dwumadzinyi yi wɔ [[$1|nyimdzee mapa]] wɔ [[$2|Mfantse]].",
+	"babel-N-n": "Dɛm dwumadzinyi yi wɔ [[$1|kurowmanyi]] ntseasee wɔ [[$2|Mfantse]].",
+	"babel-footer": "Dwumadzifo ɛwɔ kasa ahorow mu"
+}
