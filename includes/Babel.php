@@ -23,10 +23,10 @@ use MediaWiki\Babel\BabelBox\LanguageBabelBox;
 use MediaWiki\Babel\BabelBox\NotBabelBox;
 use MediaWiki\Babel\BabelBox\NullBabelBox;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\User\UserIdentity;
 use Parser;
 use ParserOutput;
 use Title;
-use User;
 use WikiMap;
 
 /**
@@ -304,10 +304,10 @@ EOT;
 	 * or database. For performance, it is recommended to use
 	 * getCachedUserLanguageInfo instead.
 	 *
-	 * @param User $user
+	 * @param UserIdentity $user
 	 * @return string[] [ language code => level ]
 	 */
-	public static function getUserLanguageInfo( User $user ): array {
+	public static function getUserLanguageInfo( UserIdentity $user ): array {
 		$userLanguageInfo = self::getUserLanguagesDB( $user );
 
 		ksort( $userLanguageInfo );
@@ -320,12 +320,12 @@ EOT;
 	 * from the cache. It's recommended to use this when this will
 	 * be called frequently.
 	 *
-	 * @param User $user
+	 * @param UserIdentity $user
 	 * @return string[] [ language code => level ]
 	 *
 	 * @since Version 1.10.0
 	 */
-	public static function getCachedUserLanguageInfo( User $user ): array {
+	public static function getCachedUserLanguageInfo( UserIdentity $user ): array {
 		$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
 		$userId = $user->getId();
 		$key = $cache->makeKey( 'babel-local-languages', $userId );
@@ -397,13 +397,16 @@ EOT;
 	/**
 	 * Gets the cached list of languages a user has set up with Babel.
 	 *
-	 * @param User $user
+	 * @param UserIdentity $user
 	 * @param string|null $level Minimal level as given in $wgBabelCategoryNames
 	 * @return string[] List of language codes
 	 *
 	 * @since Version 1.10.0
 	 */
-	public static function getCachedUserLanguages( User $user, string $level = null ): array {
+	public static function getCachedUserLanguages(
+		UserIdentity $user,
+		string $level = null
+	): array {
 		return self::getLanguages( self::getCachedUserLanguageInfo( $user ), $level );
 	}
 
@@ -411,17 +414,17 @@ EOT;
 	 * Gets the list of languages a user has set up with Babel.
 	 * For performance it is recommended to use getCachedUserLanguages.
 	 *
-	 * @param User $user
+	 * @param UserIdentity $user
 	 * @param string|null $level Minimal level as given in $wgBabelCategoryNames
 	 * @return string[] List of language codes
 	 *
 	 * @since Version 1.9.0
 	 */
-	public static function getUserLanguages( User $user, string $level = null ): array {
+	public static function getUserLanguages( UserIdentity $user, string $level = null ): array {
 		return self::getLanguages( self::getUserLanguageInfo( $user ), $level );
 	}
 
-	private static function getUserLanguagesDB( User $user ): array {
+	private static function getUserLanguagesDB( UserIdentity $user ): array {
 		global $wgBabelCentralDb;
 
 		$babelDB = new Database();

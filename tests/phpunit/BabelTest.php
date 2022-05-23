@@ -310,6 +310,8 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	 */
 	public function testGetUserLanguages( array $settings ): void {
 		$this->setMwGlobals( $settings );
+		// Using a full User object so it can be created by name, exists in the database
+		// so that the babel preferences can be stored there too
 		$user = User::newFromName( 'User-1' );
 		$this->assertArrayEquals( [
 			'de',
@@ -342,6 +344,8 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	 */
 	public function testGetUserLanguageInfo( array $settings ): void {
 		$this->setMwGlobals( $settings );
+		// Using a full User object so it can be created by name, exists in the database
+		// so that the babel preferences can be stored there too
 		$user = User::newFromName( 'User-1' );
 		$languages = Babel::getUserLanguageInfo( $user );
 		$this->assertArrayEquals( [

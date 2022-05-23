@@ -37,6 +37,8 @@ class ApiQueryBabel extends ApiQueryBase {
 		$params = $this->extractRequestParams();
 		$userName = $params['user'];
 		$user = User::newFromName( $userName );
+		// TODO getUserLanguageInfo() only needs a UserIdentity, switch to
+		// UserIdentityLookup instead
 		if ( !$user || !$user->getId() ) {
 			$this->dieWithError( [ 'nosuchusershort', wfEscapeWikiText( $userName ) ], 'baduser' );
 		}
