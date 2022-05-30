@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Muhammed taha"
+			"Muhammed taha",
+			"Roj im"
 		]
 	},
-	"apihelp-query+babel-description": "زانیاری دەربارەی ئەو زمانانە بەدەستبھێنە کە بەکارھێنەرەکە دەیزانێت",
-	"apihelp-query+babel-summary": "زانیاری دەربارەی ئەو زمانانە بەدەستبھێنە کە بەکارھێنەرەکە دەیزانێت",
+	"apihelp-query+babel-description": "زانیاری دەربارەی ئەو زمانانە بەدەست بھێنە کە بەکارھێنەرەکە دەیزانێت",
+	"apihelp-query+babel-summary": "زانیاری دەربارەی ئەو زمانانە بەدەست بھێنە کە بەکارھێنەرەکە دەیزانێت",
 	"apihelp-query+babel-param-user": "بەکارھێنەر بۆ داواکردنی زانیاری دەربارەی",
-	"apihelp-query+babel-example-1": "زانیاری بابل بەدەستبھێنە بۆ بەکارھێنەر <kbd>نموونە</kbd>"
+	"apihelp-query+babel-example-1": "زانیاریی بابل بەدەستب ھێنە بۆ بەکارھێنەر <kbd>نموونە</kbd>"
 }
