@@ -8,12 +8,13 @@
 		]
 	},
 	"babel": "Meidoggerynfo Babel",
-	"babel-desc": "Foeget de <code>#babel</code>-ferwurkingsfunksje ta om Babel-meidoggerboksen automatysk oanmeitsje te litten, mei de mooglikheid om eigen berjochten ta te foegjen.",
+	"babel-desc": "Foeget de <code>#babel</code>-ferwurkingsfunksje ta om Babel-meidoggerboksen automatysk oanmeitsje te litten, mei de mooglikheid en foegje eigen berjochten ta.",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Meidoggers op taal",
 	"babel-autocreate-reason": "Automatysk oanmeitsjen fan [[$1|Babel]]-kategory.",
 	"babel-autocreate-text-levels": "Meidoggers yn dizze kategory jouwe oan dat harren taalkennis foar $2 $1 is.",
 	"babel-autocreate-text-main": "Meidoggers yn dizze kategory jouwe oan dat hja kennis fan $1 hawwe.",
+	"babel-autocreate-user": "Babel Oanmakker",
 	"babel-0": "Dizze {{GENDER:$4|meidogger|meidochster}} hat [[$1|gjin]] kennis fan it [[$2|$3]] (of ferstiet it allinnich mei in soad tûkelteammen).",
 	"babel-1": "It [[$2|$3]] fan dizze {{GENDER:$4|meidogger|meidochster}} is [[$1|minimaal]].",
 	"babel-2": "It [[$2|$3]] fan dizze {{GENDER:$4|meidogger|meidochster}} is [[$1|ridlik]].",
@@ -28,5 +29,6 @@
 	"babel-4-n": "It [[$2|Frysk]] is benei de [[$1|memmetaal]] fan dizze {{GENDER:$4|meidogger|meidochster}}.",
 	"babel-5-n": "It [[$2|Frysk]] fan dizze {{GENDER:$4|meidogger|meidochster}} is [[$1|beropsmjittich]].",
 	"babel-N-n": "It [[$2|Frysk]] is de [[$1|memmetaal]] fan dizze {{GENDER:$4|meidogger|meidochster}}.",
+	"babel-template": "Template:Meidogger $1",
 	"babel-footer": "Meidoggers op taal"
 }
