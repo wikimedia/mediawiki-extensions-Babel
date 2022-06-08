@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Waldyrious"
+		]
+	},
+	"apihelp-query+babel-description": "Risebi informason sobri linguas ki un uzuáriu ta konxi",
+	"apihelp-query+babel-summary": "Risebi informason sobri linguas ki un uzuáriu ta konxi",
+	"apihelp-query+babel-param-user": "Uzuáriu ke pa risebi se informason",
+	"apihelp-query+babel-example-1": "Risebi informason di Babel di uzuáriu <kbd>Example</kbd>"
+}
