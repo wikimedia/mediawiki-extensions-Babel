@@ -30,6 +30,5 @@
 	"babel-4-n": "Tha comas labhairt [[$1|cha mhòr mar cuideigin air ag bheil i on ghlùn]] aig a' chleachdaiche seo sa [[$2|Ghàidhlig]].",
 	"babel-5-n": "Tha comas labhairt [[$1|proifeiseanta]] aig a' chleachdaiche seo sa [[$2|Ghàidhlig]].",
 	"babel-N-n": "Tha [[$2|Gàidhlig]] [[$1|on ghlùn]] aig a' chleachdaiche seo.",
-	"babel-template": "Template:User $1",
 	"babel-footer": "Cleachdaichean a-rèir cànain"
 }

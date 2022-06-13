@@ -37,6 +37,5 @@
 	"babel-4-n": "{{GENDER:$4|Dieser Benutzer|Diese Benutzerin}} beherrscht [[$2|Deutsch]] auf [[$1|muttersprachlichem Niveau]].",
 	"babel-5-n": "{{GENDER:$4|Dieser Benutzer|Diese Benutzerin}} beherrscht [[$2|Deutsch]] auf [[$1|professionellem]] Niveau.",
 	"babel-N-n": "{{GENDER:$4|Dieser Benutzer|Diese Benutzerin}} spricht [[$2|Deutsch]] als [[$1|Muttersprache]].",
-	"babel-template": "Template:User $1",
 	"babel-footer": "Benutzer nach Sprache"
 }
