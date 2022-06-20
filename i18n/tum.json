@@ -1,16 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Tumbuka Arch"
 		]
 	},
 	"babel": "Babelu ya mgwiliski ntchito",
 	"babel-desc": "Ikusazga <code>#babel</code> ntchito yakuzomelezga  babelu kuti isande ma bokosi ghakupangika ghekha na ghakuchita kupanga",
 	"babel-url": "Project:Babelu",
-	"babel-footer-url": ":Category:Babelu - Ẇagwiliski ntchito mu viyowoyelo",
+	"babel-footer-url": ":Category:Babelu - Ŵagwiliski ntchito mu viyowoyelo",
 	"babel-autocreate-reason": "Kujipanga jani palekha [[$1|Babel]].",
-	"babel-autocreate-text-levels": "Ẇagwiliski ntchito mu mtundu uwu ŵakulongola ŵana luso $1 la chiyowoyelo $2.",
-	"babel-autocreate-text-main": "Ẇagwiliski ntchito mu mtundu uwu ŵakulongola umanyi $1.",
+	"babel-autocreate-text-levels": "Ŵagwiliski ntchito mu mtundu uwu ŵakulongola ŵana luso $1 la chiyowoyelo $2.",
+	"babel-autocreate-text-main": "Ŵagwiliski ntchito mu mtundu uwu ŵakulongola umanyi $1.",
 	"babel-0": "Mgwiliski ntchito uyu [[$1|walije]] kumanya za [[$2|$3]] (panji wakupulika mwakusuzgikila).",
 	"babel-1": "Mgwiliski ntchito uyu [[$1|wakumanya]] vinandi va [[$2|$3]].",
 	"babel-2": "Mgwiliski ntchito uyu wana zeru za [[$1|pakati]] za [[$2|$3]].",
@@ -25,5 +26,5 @@
 	"babel-4-n": "Mgwiliski ntchito uyu wana zeru zapafufupi nga ni [[$1|lilimi lake]] la [[$2|chiTumbuka]].",
 	"babel-5-n": "Mgwiliski ntchito uyu wana zeru  [[$1|zapachanya]] za [[$2|chiTumbuka]].",
 	"babel-N-n": "Mgwiliski ntchito uyu wana [[$1|lilimi]] la [[$2|chiTumbuka]].",
-	"babel-footer": "Ẇagwiliski ntchito m'chiyowoyelo"
+	"babel-footer": "Ŵagwiliski ntchito m'chiyowoyelo"
 }
