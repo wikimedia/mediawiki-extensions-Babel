@@ -22,7 +22,6 @@ use DeferredUpdates;
 use MediaWiki\MediaWikiServices;
 use Title;
 use User;
-use WikiPage;
 
 /**
  * Class for automatic creation of Babel category pages.
@@ -77,7 +76,7 @@ class BabelAutoCreate {
 			}
 
 			$url = wfMessage( 'babel-url' )->inContentLanguage()->plain();
-			$article = new WikiPage( $title );
+			$article = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
 
 			$content = ContentHandler::makeContent( $text, $title );
 			$editSummary = wfMessage( 'babel-autocreate-reason', $url )->inContentLanguage()->text();
