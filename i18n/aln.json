@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Ammartivari",
-			"Bresta"
+			"Bresta",
+			"1233qwer1234qwer4",
+			"Vanished 456321456"
 		]
 	},
 	"babel": "Informatat e përdoruesit në babel",
@@ -15,7 +17,7 @@
 	"babel-1": "Ky përdorues ka njohuni [[$1|bazike]] në [[$2|$3]].",
 	"babel-2": "Ky përdorues ka njohuni [[$1|mesatare]] në [[$2|$3]].",
 	"babel-3": "Ky përdorues ka njohuni [[$1|të përparueme]] në [[$2|$3]].",
-	"babel-4": "Ky përdorues ka njohuni [[$1|të afërta me folës amtar]] në [[$2|$3]]",
+	"babel-4": "Ky përdorues ka njohuni [[$1|të afërta me folës amtar]] në [[$2|$3]].",
 	"babel-5": "Ky përdorues ka njohuni [[$1|profesionale]] në [[$2|$3]].",
 	"babel-N": "Ky përdorues e kupton [[$2|$3]] si gjuhë [[$1|amtare]].",
 	"babel-0-n": "Ky përdorues [[$1|nuk ka]] njohuni në [[$2|Gegnisht]] (apo e kupton me shumë fshtirësi).",
