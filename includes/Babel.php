@@ -17,7 +17,6 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel;
 
-use CentralIdLookup;
 use LinkBatch;
 use MediaWiki\Babel\BabelBox\LanguageBabelBox;
 use MediaWiki\Babel\BabelBox\NotBabelBox;
@@ -330,14 +329,8 @@ EOT;
 		$userId = $user->getId();
 		$key = $cache->makeKey( 'babel-local-languages', $userId );
 		$checkKeys = [ $key ];
-
-		if ( method_exists( MediaWikiServices::class, 'getCentralIdLookupFactory' ) ) {
-			// MW1.37+
-			$centralId = MediaWikiServices::getInstance()->getCentralIdLookupFactory()
+		$centralId = MediaWikiServices::getInstance()->getCentralIdLookupFactory()
 				->getLookup()->centralIdFromLocalUser( $user );
-		} else {
-			$centralId = CentralIdLookup::factory()->centralIdFromLocalUser( $user );
-		}
 
 		if ( $centralId ) {
 			$checkKeys[] = $cache->makeGlobalKey( 'babel-central-languages', $centralId );
@@ -439,13 +432,7 @@ EOT;
 			return [];
 		}
 
-		if ( method_exists( MediaWikiServices::class, 'getCentralIdLookupFactory' ) ) {
-			// MW1.37+
-			$lookup = MediaWikiServices::getInstance()->getCentralIdLookupFactory()->getLookup();
-		} else {
-			$lookup = CentralIdLookup::factory();
-		}
-
+		$lookup = MediaWikiServices::getInstance()->getCentralIdLookupFactory()->getLookup();
 		if ( !$lookup->isAttached( $user )
 			|| !$lookup->isAttached( $user, $wgBabelCentralDb )
 		) {

@@ -11,7 +11,6 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel;
 
-use CentralIdLookup;
 use DatabaseUpdater;
 use MediaWiki\Deferred\LinksUpdate\LinksUpdate;
 use MediaWiki\MediaWikiServices;
@@ -93,17 +92,13 @@ class BabelStatic {
 		$data = $linksUpdate->getParserOutput()->getExtensionData( 'babel' ) ?: [];
 		$changed = $babelDB->setForUser( $user->getId(), $data );
 		if ( $changed ) {
-			$cache = MediaWikiServices::getInstance()->getMainWANObjectCache();
+			$mwInstance = MediaWikiServices::getInstance();
+			$cache = $mwInstance->getMainWANObjectCache();
 			$cache->touchCheckKey( $cache->makeKey( 'babel-local-languages', $user->getId() ) );
 			if ( $wgBabelCentralDb === WikiMap::getCurrentWikiId() ) {
 				// If this is the central wiki, invalidate all of the local caches
-				if ( method_exists( MediaWikiServices::class, 'getCentralIdLookupFactory' ) ) {
-					// MW1.37+
-					$centralId = MediaWikiServices::getInstance()->getCentralIdLookupFactory()
-						->getLookup()->centralIdFromLocalUser( $user );
-				} else {
-					$centralId = CentralIdLookup::factory()->centralIdFromLocalUser( $user );
-				}
+				$centralId = $mwInstance->getCentralIdLookupFactory()
+					->getLookup()->centralIdFromLocalUser( $user );
 				if ( $centralId ) {
 					$cache->touchCheckKey( $cache->makeGlobalKey( 'babel-central-languages', $centralId ) );
 				}
