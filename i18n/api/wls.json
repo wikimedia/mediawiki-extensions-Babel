@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lea.Fakauvea"
+			"Lea.Fakauvea",
+			"Lea.fakauvea"
 		]
 	},
-	"apihelp-query+babel-description": "Fehu'i pe ko te 'u lea fea e ilo'i e te kaiga",
-	"apihelp-query+babel-summary": "Fehu'i pe ko te 'u lea fea e ilo'i e te kaiga",
-	"apihelp-query+babel-param-user": "E ma'u logo te kaiga o 'uhiga mo",
-	"apihelp-query+babel-example-1": "Ma'u logo o 'uhiga mo te 'u lea a te kaiga"
+	"apihelp-query+babel-description": "Vaka'i pe ko te 'u lea fea e ilo'i e ia",
+	"apihelp-query+babel-summary": "Vaka'i pe ko te 'u lea fea e ilo'i e ia",
+	"apihelp-query+babel-param-user": "Ko ia e ke kumi logo o 'uhiga mo ia",
+	"apihelp-query+babel-example-1": "Ma'u te 'u lea e ilo'i e ia"
 }
