@@ -25,20 +25,26 @@ namespace MediaWiki\Babel;
 use ApiQuery;
 use ApiQueryBase;
 use ApiResult;
-use User;
+use MediaWiki\User\UserIdentityLookup;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiQueryBabel extends ApiQueryBase {
-	public function __construct( ApiQuery $queryModule, string $moduleName ) {
+	/** @var UserIdentityLookup */
+	private $userIdentityLookup;
+
+	public function __construct(
+		ApiQuery $queryModule,
+		string $moduleName,
+		UserIdentityLookup $userIdentityLookup
+	) {
 		parent::__construct( $queryModule, $moduleName, 'bab' );
+		$this->userIdentityLookup = $userIdentityLookup;
 	}
 
 	public function execute(): void {
 		$params = $this->extractRequestParams();
 		$userName = $params['user'];
-		$user = User::newFromName( $userName );
-		// TODO getUserLanguageInfo() only needs a UserIdentity, switch to
-		// UserIdentityLookup instead
+		$user = $this->userIdentityLookup->getUserIdentityByName( $userName );
 		if ( !$user || !$user->getId() ) {
 			$this->dieWithError( [ 'nosuchusershort', wfEscapeWikiText( $userName ) ], 'baduser' );
 		}

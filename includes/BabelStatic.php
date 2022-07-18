@@ -15,7 +15,6 @@ use DatabaseUpdater;
 use MediaWiki\Deferred\LinksUpdate\LinksUpdate;
 use MediaWiki\MediaWikiServices;
 use Parser;
-use User;
 use WikiMap;
 
 /**
@@ -82,23 +81,24 @@ class BabelStatic {
 			return;
 		}
 
+		$mwInstance = MediaWikiServices::getInstance();
+		$userIdentityLookup = $mwInstance->getUserIdentityLookup();
 		// And the user has to exist
-		$user = User::newFromName( $title->getText() );
-		if ( !$user || !$user->getId() ) {
+		$userIdentity = $userIdentityLookup->getUserIdentityByName( $title->getText() );
+		if ( $userIdentity === null || !$userIdentity->isRegistered() ) {
 			return;
 		}
 
 		$babelDB = new Database();
 		$data = $linksUpdate->getParserOutput()->getExtensionData( 'babel' ) ?: [];
-		$changed = $babelDB->setForUser( $user->getId(), $data );
+		$changed = $babelDB->setForUser( $userIdentity->getId(), $data );
 		if ( $changed ) {
-			$mwInstance = MediaWikiServices::getInstance();
 			$cache = $mwInstance->getMainWANObjectCache();
-			$cache->touchCheckKey( $cache->makeKey( 'babel-local-languages', $user->getId() ) );
+			$cache->touchCheckKey( $cache->makeKey( 'babel-local-languages', $userIdentity->getId() ) );
 			if ( $wgBabelCentralDb === WikiMap::getCurrentWikiId() ) {
 				// If this is the central wiki, invalidate all of the local caches
 				$centralId = $mwInstance->getCentralIdLookupFactory()
-					->getLookup()->centralIdFromLocalUser( $user );
+					->getLookup()->centralIdFromLocalUser( $userIdentity );
 				if ( $centralId ) {
 					$cache->touchCheckKey( $cache->makeGlobalKey( 'babel-central-languages', $centralId ) );
 				}

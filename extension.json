@@ -33,7 +33,12 @@
 		"MediaWiki\\Babel\\": "includes/"
 	},
 	"APIMetaModules": {
-		"babel": "MediaWiki\\Babel\\ApiQueryBabel"
+		"babel": {
+			"class": "MediaWiki\\Babel\\ApiQueryBabel",
+			"services": [
+				"UserIdentityLookup"
+			]
+		}
 	},
 	"ResourceModules": {
 		"ext.babel": {

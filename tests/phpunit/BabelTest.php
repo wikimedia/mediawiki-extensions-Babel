@@ -11,7 +11,6 @@ use ParserOptions;
 use ParserOutput;
 use Title;
 use TitleValue;
-use User;
 
 /**
  * @covers \MediaWiki\Babel\Babel
@@ -44,7 +43,8 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		// returns true in BabelAutoCreate and no auto-creation is attempted.
 		$this->setMwGlobals( 'wgCapitalLinks', false );
 
-		$linkCache = MediaWikiServices::getInstance()->getLinkCache();
+		$mwInstance = MediaWikiServices::getInstance();
+		$linkCache = $mwInstance->getLinkCache();
 		foreach ( [ 'en', 'en-N', 'en-1', 'es', 'es-2', 'de', 'de-N',
 					  'simple', 'simple-1', 'zh-Hant', 'zh-Hant-3'
 				  ] as $name ) {
@@ -64,7 +64,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 			] );
 		}
 
-		$user = User::newFromName( 'User-1' );
+		$user = $mwInstance->getUserFactory()->newFromName( 'User-1' );
 		$user->addToDatabase();
 		$this->insertPage( 'User:User-1', '{{#babel:en-1|es-2|de|SIMPLE-1|zh-hant-3}}' );
 	}
@@ -72,11 +72,11 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	protected function setUp(): void {
 		parent::setUp();
 
-		$this->setContentLang( 'qqx' );
 		$this->setMwGlobals( [
 			// Individual tests may change these
 			'wgBabelCentralDb' => false,
 			'wgCapitalLinks' => false,
+			'wgLanguageCode' => 'qqx'
 		] );
 	}
 
@@ -312,31 +312,33 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->setMwGlobals( $settings );
 		// Using a full User object so it can be created by name, exists in the database
 		// so that the babel preferences can be stored there too
-		$user = User::newFromName( 'User-1' );
+		$mwInstance = MediaWikiServices::getInstance();
+		$userIdentity = $mwInstance->getUserIdentityLookup()->getUserIdentityByName( 'User-1' );
+
 		$this->assertArrayEquals( [
 			'de',
 			'en',
 			'es',
 			'simple',
 			'zh-Hant',
-		], Babel::getUserLanguages( $user ) );
+		], Babel::getUserLanguages( $userIdentity ) );
 
 		// Filter based on level
 		$this->assertArrayEquals( [
 			'de',
 			'zh-Hant',
 			'es',
-		], Babel::getUserLanguages( $user, '2' ) );
+		], Babel::getUserLanguages( $userIdentity, '2' ) );
 
 		$this->assertArrayEquals( [
 			'de',
 			'zh-Hant',
-		], Babel::getUserLanguages( $user, '3' ) );
+		], Babel::getUserLanguages( $userIdentity, '3' ) );
 
 		// Non-numerical level
 		$this->assertArrayEquals( [
 			'de',
-		], Babel::getUserLanguages( $user, 'N' ) );
+		], Babel::getUserLanguages( $userIdentity, 'N' ) );
 	}
 
 	/**
@@ -346,8 +348,10 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->setMwGlobals( $settings );
 		// Using a full User object so it can be created by name, exists in the database
 		// so that the babel preferences can be stored there too
-		$user = User::newFromName( 'User-1' );
-		$languages = Babel::getUserLanguageInfo( $user );
+		$mwInstance = MediaWikiServices::getInstance();
+		$userIdentity = $mwInstance->getUserIdentityLookup()->getUserIdentityByName( 'User-1' );
+
+		$languages = Babel::getUserLanguageInfo( $userIdentity );
 		$this->assertArrayEquals( [
 			'de' => 'N',
 			'en' => '1',
