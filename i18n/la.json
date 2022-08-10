@@ -6,6 +6,7 @@
 			"OrbiliusMagister",
 			"Purodha",
 			"SPQRobin",
+			"Sakretsu",
 			"Tpt",
 			"UV",
 			"Unbrutal"
@@ -30,7 +31,7 @@
 	"babel-1-n": "Hic usor [[$1|simplici]] [[$2|lingua Latina]] conferre potest.",
 	"babel-2-n": "Hic usor [[$2|lingua Latina]] [[$1|mediae difficultatis]] conferre potest.",
 	"babel-3-n": "Hic usor [[$1|probe]] ac [[$2|Latine]] conferre potest.",
-	"babel-4-n": "Hic usor [[$2|Latine]] similiter ac sermone patrio scit et [[$1|Latinisissme]] conferre potest.",
+	"babel-4-n": "Hic usor [[$2|Latine]] similiter ac sermone patrio scit et [[$1|Latinissime]] conferre potest.",
 	"babel-5-n": "Hic usor [[$1|artifex]] est [[$2|Latine scribendi]].",
 	"babel-N-n": "Hic usor [[$1|vere singularis]] est [[$2|orator Latinus]] … siquidem ei credimus.",
 	"babel-footer": "Usores lingua digesti"
