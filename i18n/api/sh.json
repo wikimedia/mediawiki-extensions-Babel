@@ -4,6 +4,8 @@
 			"Vlad5250"
 		]
 	},
+	"apihelp-query+babel-description": "Dobijte informacije o tome koje jezike korisnik poznaje",
+	"apihelp-query+babel-summary": "Dobijte informacije o tome koje jezike korisnik poznaje",
 	"apihelp-query+babel-param-user": "Za kojeg korisnika da se daju informacije",
 	"apihelp-query+babel-example-1": "Davanje informacija od „Babel“ za korisnika <kbd>Primjer</kbd>"
 }
