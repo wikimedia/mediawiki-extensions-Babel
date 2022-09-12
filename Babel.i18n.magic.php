@@ -143,12 +143,12 @@ $magicWords['sk'] = [
 	'babel' => [ 0, 'babylon' ],
 ];
 
-/** Serbian (Cyrillic script) (српски (ћирилица)‎) */
+/** Serbian (Cyrillic script) (српски (ћирилица)) */
 $magicWords['sr-ec'] = [
 	'babel' => [ 0, 'бабел' ],
 ];
 
-/** Serbian (Latin script) (srpski (latinica)‎) */
+/** Serbian (Latin script) (srpski (latinica)) */
 $magicWords['sr-el'] = [
 	'babel' => [ 0, 'babel' ],
 ];
@@ -173,12 +173,12 @@ $magicWords['ur'] = [
 	'babel' => [ 0, 'بابل' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Simplified Chinese (中文（简体）) */
 $magicWords['zh-hans'] = [
 	'babel' => [ 0, '巴别' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $magicWords['zh-hant'] = [
 	'babel' => [ 0, '巴別' ],
 ];
