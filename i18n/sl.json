@@ -9,7 +9,7 @@
 		]
 	},
 	"babel": "Uporabnikov Babilon",
-	"babel-desc": "Doda funkcijo <code>#babel</code>, ki omogoča avtomatizirano ustvarjanje babilonskih uporabniških polj z zmožnostjo vključevanja predlog po meri",
+	"babel-desc": "Doda funkcijo <code>#babel</code>, ki omogoča avtomatizirano ustvarjanje babilonskih uporabniških polj z možnostjo vključevanja predlog po meri",
 	"babel-url": "Project:Babilon",
 	"babel-footer-url": ":Kategorija:Uporabniški jeziki",
 	"babel-autocreate-reason": "Samodejno ustvarjanje [[$1|babilonske]] kategorije.",
