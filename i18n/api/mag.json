@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"ऐक्टिवेटेड्"
+		]
+	},
+	"apihelp-query+babel-description": "सदस्स काउन भासा जानहई इ बारेमे जानकारी ल",
+	"apihelp-query+babel-summary": "सदस्स काउन भासा जानहई इ बारेमे जानकारी ल",
+	"apihelp-query+babel-param-user": "सदस्सके बारेमे जानकारी ल",
+	"apihelp-query+babel-example-1": "सदस्स <kbd>उदाहरन</kbd> के बारेमे बाबेल् जानकारी ल"
+}
