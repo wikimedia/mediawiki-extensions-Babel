@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hanberke"
+			"Hanberke",
+			"TayfunEt."
 		]
 	},
 	"babel": "Babyl ulanyjy maglumaty",
 	"babel-desc": "Ýörite şablonlary öz içine almak häsiýeti bar bolan Babyl ulanyjy gutusy sütüniniň awtomatik usulda döredilmegi üçin <code>#babel</code> parser funksiýasyny goşýar",
 	"babel-url": "Project:Babyl",
+	"babel-footer-url": ":Kategoriýa:Babel - Dil boýunça ulanyjylar",
 	"babel-autocreate-reason": "Awtomatik usulda [[$1|Babyl]] kategoriýa sahypasy döredilýär.",
 	"babel-autocreate-text-levels": "Bu kategoriýadaky ulanyjylar $1 derejede $2 dilini bilýändiklerini görkezýär.",
 	"babel-autocreate-text-main": "Bu kategoriýadaky ulanyjylar $1 dilini bilýändiklerini görkezýär.",
@@ -23,5 +25,6 @@
 	"babel-3-n": "Bu ulanyjy [[$1|ýokary derejede]] [[$2|Türkmençe]] bilýär.",
 	"babel-4-n": "Bu ulanyjy [[$1|öz ene dili ýaly]] [[$2|Türkmençe]] bilýär.",
 	"babel-5-n": "Bu ulanyjy [[$1|professional derejede]] [[$2|Türkmençe]] bilýär.",
-	"babel-N-n": "Bu ulanyjynyň [[$1|öz ene dili]] [[$2|Türkmençe]]dir."
+	"babel-N-n": "Bu ulanyjynyň [[$1|öz ene dili]] [[$2|Türkmençe]]dir.",
+	"babel-footer": "Dil boýunça ulanyjylar"
 }
