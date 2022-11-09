@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ibou",
-			"Jafeluv"
+			"Jafeluv",
+			"Ourytima"
 		]
 	},
 	"babel": "Ay xibaari ci jëfandikukatu babel bi",
@@ -20,6 +21,6 @@
 	"babel-3-n": "Bii jëfandikukat dégg na [[$2|wolof]] bu [[$1|baax]].",
 	"babel-4-n": "Bii jëfandikukat dégg na [[$2|wolof]] yu [[$1|jege ku ci juddu]].",
 	"babel-5-n": "Bii jëfandikukat dégg na [[$2|wolof]] yu [[$1|xereñ]].",
-	"babel-N-n": "Bii jëfandikukat dégg na [[$2|wolof]] ni [[$1|ku ci juddu]].",
+	"babel-N-n": "Bii jëfandikukat dégg na [[$2|wolof]]  ndakh dafa [[$1|ci juddu]].",
 	"babel-footer": "Waa-wikipedia ci làkk-ak-làkk"
 }
