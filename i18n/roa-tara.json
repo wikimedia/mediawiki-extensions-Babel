@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Joetaras",
-			"Kwj2772"
+			"Kwj2772",
+			"S4b1nuz E.656"
 		]
 	},
 	"babel": "Babel 'mbormaziune sus a l'utende",
@@ -12,19 +13,19 @@
 	"babel-autocreate-reason": "Stoche a ccreje automatecamende 'a pàgene de categorije [[$1|Babel]].",
 	"babel-autocreate-text-levels": "L'utinde jndr'à sta categorije indichescene ca lore onne 'nu levèlle $1 pa lènghe $2.",
 	"babel-autocreate-text-main": "Le utinde jndr'à sta categorije indichescene ca onne 'na canoscenze d'a lènghe $1.",
-	"babel-0": "'Stu crestiáne ste'''[[$1|'nderre a le carvune]]''' cu 'u '''[[$2|$3]]'''.",
-	"babel-1": "'Stu crestiáne pô ajutà' cu 'na canoscènze '''[[$1|tèrra-tèrre]]''' d'u '''[[$2|$3]]'''.",
-	"babel-2": "'Stu crestiáne pô ajutà' cu 'nna canoscènze '''[[$1|'ndermèdie]]''' d'u '''[[$2|$3]]'''.",
-	"babel-3": "'Stu crestiáne pô ajutà' cu 'nna canoscènze '''[[$1|accellènde]]''' d'u '''[[$2|$3]]'''.",
-	"babel-4": "Stu crestiáne quase quase parle 'u '''[[$2|$3]]''' cumme a 'a '''[[$1|lènga madre]]'''.",
-	"babel-5": "Stu crestiáne è proprie 'nu '''[[$1|professore]]''' de '''[[$2|$3]]'''.",
+	"babel-0": "Quìste utende ste[[$1|'nderre a le carvune]] cu 'u [[$2|$3]] (o 'u capisce cu nu sacche de difficoltà).",
+	"babel-1": "Quìste utende pô ajutà' cu 'na canoscènze [[$1|tèrra-tèrre]] d'u [[$2|$3]].",
+	"babel-2": "Quìste utende pô ajutà' cu 'nna canoscènze [[$1|'ndermèdie]] d'u [[$2|$3]].",
+	"babel-3": "Quìste utende pô ajutà' cu 'nna canoscènze [[$1|accellènde]] d'u [[$2|$3]].",
+	"babel-4": "Quìste utende quase quase parle 'u [[$2|$3]] cumme a 'a [[$1|lènga madre]].",
+	"babel-5": "Quìste utende jè proprie 'nu [[$1|professore]] de [[$2|$3]].",
 	"babel-N": "Quìste utende jè de [[$1|madrelènga]] [[$2|$3]].",
-	"babel-0-n": "'Stu crestiáne ste'''[[$1|'nderre a le carvune]]''' cu 'u '''[[$2|tarandine]]''' (o 'u capisce cu nu sacche de difficoltà).",
-	"babel-1-n": "'Stu crestiáne pô ajutà' cu 'na canoscènze '''[[$1|tèrra-tèrre]]''' d'u '''[[$2|tarandine]]'''.",
-	"babel-2-n": "'Stu crestiáne pô ajutà' cu 'nna canoscènze '''[[$1|'ndermèdie]]''' d'u '''[[$2|tarandine]]'''.",
-	"babel-3-n": "'Stu crestiáne pô ajutà' cu 'nna canoscènze '''[[$1|accellènde]]''' d'u '''[[$2|tarandine]]'''.",
-	"babel-4-n": "Stu crestiáne quase quase parle 'u '''[[$2|tarandine]]''' cumme a 'a '''[[$1|lènga madre]]'''.",
-	"babel-5-n": "Stu crestiáne è proprie 'nu '''[[$1|professore]]''' de '''[[$2|tarandine]]'''.",
-	"babel-N-n": "Quìste utende jè de [[$1|madrelènga]] [[$2|tarandine]].",
+	"babel-0-n": "Quìste utende ste[[$1|'nderre a le carvune]] cu 'u [[$2|tarandíne]] (o 'u capisce cu nu sacche de difficoltà).",
+	"babel-1-n": "Quìste utende pô ajutà' cu 'na canoscènze [[$1|tèrra-tèrre]] d'u [[$2|tarandíne]].",
+	"babel-2-n": "Quìste utende pô ajutà' cu 'nna canoscènze [[$1|'ndermèdie]] d'u [[$2|tarandíne]].",
+	"babel-3-n": "Quìste utende pô ajutà' cu 'nna canoscènze [[$1|accellènde]] d'u [[$2|tarandíne]].",
+	"babel-4-n": "Quìste utende quase quase parle 'u [[$2|tarandíne]] cumme a 'a [[$1|lènga madre]].",
+	"babel-5-n": "Quìste utende jè proprie 'nu [[$1|professore]] de [[$2|tarandíne]].",
+	"babel-N-n": "Quìste utende jè de [[$1|madrelènga]] [[$2|tarandíne]].",
 	"babel-footer": "Utinde pe lènghe"
 }

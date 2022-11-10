@@ -41,7 +41,7 @@
 	"babel-3-n": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} dispose de connaissances [[$1|avancées]] en [[$2|français]].",
 	"babel-4-n": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} dispose de connaissances [[$1|proches de la langue maternelle]] en [[$2|français]].",
 	"babel-5-n": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} dispose de connaissances [[$1|professionnelles]] en [[$2|français]].",
-	"babel-N-n": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice}} a pour [[$1|langue maternelle]] le [[$2|français]].",
+	"babel-N-n": "Cet{{GENDER:$4||te}} utilisat{{GENDER:$4|eur|rice}} a pour [[$1|langue maternelle]] le [[$2|français]].",
 	"babel-template": "Modèle:User $1",
 	"babel-footer": "Utilisateurs par langue"
 }
