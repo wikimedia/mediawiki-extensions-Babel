@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Musindi250"
+		]
+	},
+	"apihelp-query+babel-description": "Bona amakuru yerekeye indimi umukoresha azi",
+	"apihelp-query+babel-summary": "Bona amakuru agaragaza indimi umukoresha azi",
+	"apihelp-query+babel-param-user": "Umukoresha kugirango abone amakuru kubyerekeye",
+	"apihelp-query+babel-example-1": "Bona amakuru ya Babel y'umukoresha <kbd>Urugero</kbd>"
+}

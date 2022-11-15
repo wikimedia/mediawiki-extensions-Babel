@@ -2,12 +2,22 @@
 	"@metadata": {
 		"authors": [
 			"Atabek",
-			"Nurlan"
+			"Nurlan",
+			"Ajiniyaz Nurniyazov"
 		]
 	},
 	"babel": "Babıl paydalanıwshılar maǵlıwmatı",
 	"babel-url": "Project:Babıl",
 	"babel-footer-url": ":Category:Babıl - tiller boyınsha paydalanıwshılar",
+	"babel-autocreate-text-levels": "Bul topardaǵı paydalanıwshılar $2 til ushın $1 uqıp dárejesine iye ekenligin bildiredi.",
+	"babel-autocreate-text-main": "Bul topardaǵı paydalanıwshılar $1 tilin biliwlerin málimleydi.",
+	"babel-0": "Bul paydalanıwshı [[$1|bilmeydi]][[$2|$3]] azmaz biledi (yamasa onı birqansha qıyınshılıq menen túsinedi).",
+	"babel-1": "Bul paydalanıwshı [[$1|baslawısh]] [[$2|$3]] boyınsha kónlikpege iye.",
+	"babel-2": "Bul paydalanıwshı [[$1|orta]] [[$2|$3]] boyınsha bilimge iye.",
+	"babel-3": "Bul paydalanıwshı [[$1|joqarı]] [[$2|$3]] boyınsha  bilimge iye.",
+	"babel-4": "Bul paydalanıwshı [[$1|óz ana tili kibi]] [[$2|$3]] tillerin biledi.",
+	"babel-5": "Bul paydalanıwshı [[$1|professional]] [[$2|$3]] boyınsha bilimge iye.",
+	"babel-N": "Bul paydalanıwshı [[$1|ana tili]] [[$2|$3]] haqqında túsinikke iye.",
 	"babel-4-n": "Bul qollanıwshı ushın [[$2|qaraqalpaq tili]] ana tilge jaqın dárejede bolıp esaplanadı.",
 	"babel-N-n": "Bul qollanıwshı ushın [[$2|qaraqalpaq tili]] ana til bolıp esaplanadı.",
 	"babel-footer": "Users by language"
