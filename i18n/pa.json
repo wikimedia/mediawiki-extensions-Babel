@@ -5,14 +5,15 @@
 			"Babanwalia",
 			"Raj Singh",
 			"TariButtar",
-			"VibhasKS"
+			"VibhasKS",
+			"Bgo eiu"
 		]
 	},
 	"babel": "ਬੈਬਲ ਵਰਤੋਂਕਾਰ ਜਾਣਕਾਰੀ",
 	"babel-desc": "<code>#babel</code> ਪਾਰਸਰ ਫੰਕਸ਼ਨ ਜੋੜਨ ਨਾਲ ਬਬੇਲ ਯੂਜ਼ਰ-ਬਾਕਸ ਕਾਲਮ ਵਿੱਚ ਪਸੰਦੀਦਾ ਟੈਪਲੇਟ ਦੀ ਸਮੱਰਥਾ ਤਿਆਰ ਕਰਨ ਲਈ ਸਹਾਇਕ ਹੈ",
 	"babel-url": "Project:ਬਬੇਲ",
 	"babel-footer-url": ":Category:ਬੈਬਲ - ਬੋਲੀ ਮੁਤਾਬਕ ਵਰਤੋਂਕਾਰ",
-	"babel-autocreate-reason": "ਆਟਮੋਟਿਕ ਹੀ [[$1|Babel]] ਕੈਟਾਗਰੀ ਪੇਜ਼ ਬਣਾਓ।",
+	"babel-autocreate-reason": "ਆਟਮੋਟਿਕ ਹੀ [[$1|Babel]] ਸ਼੍ਰੈਣੀ ਪੇਜ਼ ਬਣਾਓ।",
 	"babel-autocreate-text-levels": "ਇਹ ਵਰਗ ਦੇ ਵਰਤੋਂਕਾਰ ਦਰਸਾਉਂਦੇ ਹਨ ਕਿ ਉਹਨਾਂ ਕੋਲ $2 ਬੋਲੀ ਵਾਸਤੇ $1 ਪੱਧਰ ਦਾ ਤਜਰਬਾ ਹੈ।",
 	"babel-autocreate-text-main": "ਇਸ ਵਰਗ ਦੇ ਵਰਤੋਂਕਾਰ ਦਰਸਾਉਂਦੇ ਹਨ ਕਿ ਉਹਨਾਂ ਕੋਲ $1 ਬੋਲੀ ਦਾ ਗਿਆਨ ਹੈ।",
 	"babel-0": "ਇਸ ਵਰਤੋਂਕਾਰ ਕੋਲ਼ [[$2|$3]] ਦਾ [[$1|ਕੋਈ]] ਗਿਆਨ ਨਹੀਂ ਹੈ (ਜਾਂ ਸਮਝਣ ਲਈ ਬਹੁਤ ਔਖਾ ਹੈ)।",
