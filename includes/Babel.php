@@ -17,7 +17,6 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel;
 
-use LinkBatch;
 use MediaWiki\Babel\BabelBox\LanguageBabelBox;
 use MediaWiki\Babel\BabelBox\NotBabelBox;
 use MediaWiki\Babel\BabelBox\NullBabelBox;
@@ -225,7 +224,7 @@ EOT;
 			}
 		}
 
-		$batch = new LinkBatch( $titles );
+		$batch = MediaWikiServices::getInstance()->getLinkBatchFactory()->newLinkBatch( $titles );
 		$batch->setCaller( __METHOD__ );
 		$batch->execute();
 	}
