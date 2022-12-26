@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jagwar"
+		]
+	},
+	"apihelp-query+babel-description": "Mahazo fampahalalana momba ny fiteny fantatry ny mpikambana",
+	"apihelp-query+babel-summary": "Mahazo fampahalalana momba ny fiteny fantatry ny mpikambana",
+	"apihelp-query+babel-param-user": "Mpikambana tadiavana fampahalalana",
+	"apihelp-query+babel-example-1": "Haka ny fampahalalana Babel ho an'ny mpikambana <kbd>ohatra</kbd>"
+}
