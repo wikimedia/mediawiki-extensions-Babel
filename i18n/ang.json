@@ -2,16 +2,22 @@
 	"@metadata": {
 		"authors": [
 			"Crazymadlover",
-			"Gott wisst"
+			"Gott wisst",
+			"Rocioun"
 		]
 	},
-	"babel-0": "Þes brūcend [[$1|ne cann]] sprecan [[$2|$3]] (oððe cann undergietan hit efne swīðe earfoðe).",
-	"babel-1": "Þes brūcend cann forðian mid [[$1|grundlicgendre]] mǣðe [[$2|$3]].",
-	"babel-2": "Þes brūcend cann forðian mid [[$1|middelre]] mǣðe [[$2|$3]].",
-	"babel-3": "Þes brūcend cann forðian mid [[$1|forþweardre]] mǣðe [[$2|$3]].",
-	"babel-N": "Þes brūcend cann [[$2|$3]] [[$1|inlendisclīce]].",
-	"babel-0-n": "Þes brūcere [[$1|ne cann]] sprecan [[$2|Englisce]] (oððe cann undergietan hit efne swīðe earfoðe).",
-	"babel-1-n": "Þes brūcere cann forðian mid [[$1|grundlicgendre]] mǣðe [[$2|Englisces]].",
-	"babel-2-n": "Þes brūcere cann forðian mid [[$1|middelre]] mǣðe [[$2|Englisces]].",
-	"babel-3-n": "Þes brūcere cann forðian mid [[$1|forþweardre]] mǣðe [[$2|Englisces]]."
+	"babel-0": "{{GENDER:$4|Þes brucere|Þeos bruceren}} [[$1|ne]] understent [[$2|$3]] (oþþe understent sƿiðe heardlice).",
+	"babel-1": "{{GENDER:$4|Þes brucere|Þeos bruceren}} understent [[$2|$3]] [[$1|na micele]].",
+	"babel-2": "{{GENDER:$4|Þes brucere|Þeos bruceren}} understent [[$2|$3]] [[$1|gemetlice]].",
+	"babel-3": "{{GENDER:$4|Þes brucere|Þeos bruceren}} understent [[$2|$3]] [[$1|forneah cræftiglice]].",
+	"babel-4": "{{GENDER:$4|Þes brucere|Þeos bruceren}} understent [[$2|$3]] [[$1|forneah sƿa inlenda]].",
+	"babel-5": "{{GENDER:$4|Þes brucere|Þeos bruceren}} understent [[$2|$3]] [[$1|sƿiðe cræftiglice]].",
+	"babel-N": "[[$2|$3]] bið [[$1|inlendisc geþeode]] {{GENDER:$4|þisses bruceres|þisse brucerenes}}.",
+	"babel-0-n": "{{GENDER:$4|Þes brucere|Þeos bruceren}} [[$1|ne]] understent [[$2|Ænglisc geþeode]] (oþþe understent hit sƿiðe heardlice).",
+	"babel-1-n": "{{GENDER:$4|Þes brucere|Þeos bruceren}} understent [[$2|Ænglisc geþeode]] [[$1|na micele]].",
+	"babel-2-n": "{{GENDER:$4|Þes brucere|Þeos bruceren}} understent [[$2|Ænglisc geþeode]] [[$1|gemetlice]].",
+	"babel-3-n": "{{GENDER:$4|Þes brucere|Þeos bruceren}} understent [[$2|Ænglisc geþeode]] [[$1|forneah cræftiglice]].",
+	"babel-4-n": "{{GENDER:$4|Þes brucere|Þeos bruceren}} understent [[$2|Ænglisc geþeode]] [[$1|forneah sƿa inlenda]].",
+	"babel-5-n": "{{GENDER:$4|Þes brucere|Þeos bruceren}} understent [[$2|Ænglisc geþeode]] [[$1|sƿiðe cræftiglice]].",
+	"babel-N-n": "[[$2|Ænglisc geþeode]] bið [[$1|inlendisc geþeode]] {{GENDER:$4|þisses bruceres|þisse brucerenes}}."
 }
