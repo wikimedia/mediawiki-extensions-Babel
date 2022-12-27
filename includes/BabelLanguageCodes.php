@@ -11,8 +11,9 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel;
 
-use Language;
 use LanguageCode;
+use MediaWiki\Languages\LanguageNameUtils;
+use MediaWiki\MediaWikiServices;
 
 /**
  * Handle language code and name processing for the Babel extension, it can also
@@ -71,7 +72,7 @@ class BabelLanguageCodes {
 		}
 
 		// Is the code known to MediaWiki?
-		$mediawiki = Language::fetchLanguageName( $code );
+		$mediawiki = MediaWikiServices::getInstance()->getLanguageNameUtils()->getLanguageName( $code );
 		if ( $mediawiki !== '' ) {
 			return strtolower( $code );
 		}
@@ -87,7 +88,7 @@ class BabelLanguageCodes {
 
 	/**
 	 * Take a code as input, and search a language name for it in
-	 * a given language via Language::fetchLanguageNames() or
+	 * a given language via LanguageNameUtils:getLanguageNames() or
 	 * else via the internal Babel language names map.
 	 *
 	 * @param string $code Code to get name for.
@@ -104,7 +105,8 @@ class BabelLanguageCodes {
 		$code = strtolower( $code );
 
 		$language = $language === null ? $code : $language;
-		$names = Language::fetchLanguageNames( $language, 'all' );
+		$names = MediaWikiServices::getInstance()->getLanguageNameUtils()
+			->getLanguageNames( $language, LanguageNameUtils::ALL );
 		if ( isset( $names[$code] ) ) {
 			return $names[$code];
 		}
