@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"apihelp-query+babel-description": "Pridobi podatke o tem, katere jezike pozna uporabnik",
+	"apihelp-query+babel-summary": "Pridobi informacije o tem, katere jezike pozna uporabnik",
+	"apihelp-query+babel-param-user": "Uporabnik, čigar podatki naj se pridobijo",
+	"apihelp-query+babel-example-1": "Pridobi podatke o Babilonu za uporabnika <kbd>Zgled</kbd>"
+}
