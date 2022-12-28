@@ -21,6 +21,7 @@ use Language;
 use LanguageCode;
 use MediaWiki\Babel\BabelAutoCreate;
 use MediaWiki\Babel\BabelLanguageCodes;
+use MediaWiki\MediaWikiServices;
 use MWException;
 use Title;
 
@@ -92,7 +93,7 @@ class LanguageBabelBox implements BabelBox {
 		$name = BabelLanguageCodes::getName( $code );
 		$text = self::getText( $this->title, $name, $code, $this->level );
 
-		$dir_current = Language::factory( $code )->getDir();
+		$dir_current = MediaWikiServices::getInstance()->getLanguageFactory()->getLanguage( $code )->getDir();
 
 		$dir_head = $this->title->getPageLanguage()->getDir();
 
