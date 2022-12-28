@@ -17,7 +17,6 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel\BabelBox;
 
-use Language;
 use LanguageCode;
 use MediaWiki\Babel\BabelAutoCreate;
 use MediaWiki\Babel\BabelLanguageCodes;
@@ -147,10 +146,10 @@ EOT;
 			$categoryLevel, $categoryMain, '', $title->getDBkey()
 		)->inLanguage( $code )->text();
 
-		$fallbackLanguage = Language::getFallbackFor( $code );
+		$fallbackLanguage = MediaWikiServices::getInstance()->getLanguageFallback()->getFirst( $code );
 		$fallback = wfMessage( "babel-$level-n",
 			$categoryLevel, $categoryMain, '', $title->getDBkey()
-		)->inLanguage( $fallbackLanguage ?: $code )->text();
+		)->inLanguage( $fallbackLanguage ?? $code )->text();
 
 		// Give grep a chance to find the usages:
 		// babel-0, babel-1, babel-2, babel-3, babel-4, babel-5, babel-N
