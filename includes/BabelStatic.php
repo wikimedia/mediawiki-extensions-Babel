@@ -69,10 +69,9 @@ class BabelStatic {
 	}
 
 	/**
-	 * Do not add typehint for $linksUpdate until MLEB supports MW < 1.38. See: T306863
 	 * @param LinksUpdate $linksUpdate
 	 */
-	public static function onLinksUpdate( $linksUpdate ): void {
+	public static function onLinksUpdate( LinksUpdate $linksUpdate ): void {
 		global $wgBabelCentralDb;
 
 		$title = $linksUpdate->getTitle();

@@ -3,6 +3,7 @@ declare( strict_types = 1 );
 
 namespace Babel\Tests;
 
+use LinkCacheTestTrait;
 use MediaWiki\Babel\Babel;
 use MediaWiki\MediaWikiServices;
 use MediaWikiIntegrationTestCase;
@@ -22,6 +23,7 @@ use TitleValue;
  * @author Thiemo Kreuz
  */
 class BabelTest extends MediaWikiIntegrationTestCase {
+	use LinkCacheTestTrait;
 
 	public function addDBDataOnce(): void {
 		// The '#babel' parser function normally auto-creates category pages via
@@ -44,24 +46,10 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->setMwGlobals( 'wgCapitalLinks', false );
 
 		$mwInstance = MediaWikiServices::getInstance();
-		$linkCache = $mwInstance->getLinkCache();
 		foreach ( [ 'en', 'en-N', 'en-1', 'es', 'es-2', 'de', 'de-N',
 					  'simple', 'simple-1', 'zh-Hant', 'zh-Hant-3'
 				  ] as $name ) {
-			$page = new TitleValue( NS_CATEGORY, $name );
-			// TODO: use LinkCacheTestTrait once the minimum MW version is 1.37
-			$linkCache->addGoodLinkObjFromRow( $page, (object)[
-				'page_id' => 1,
-				'page_namespace' => $page->getNamespace(),
-				'page_title' => $page->getDBkey(),
-				'page_len' => -1,
-				'page_is_redirect' => 0,
-				'page_latest' => 0,
-				'page_content_model' => null,
-				'page_lang' => null,
-				'page_is_new' => 0,
-				'page_touched' => '',
-			] );
+			$this->addGoodLinkObject( 1, new TitleValue( NS_CATEGORY, $name ) );
 		}
 
 		$user = $mwInstance->getUserFactory()->newFromName( 'User-1' );
@@ -93,7 +81,6 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$parser->method( 'getOptions' )->willReturn( $options );
 		$parser->method( 'getTitle' )->willReturn( $title );
 		$parser->method( 'getOutput' )->willReturn( $output );
-		$parser->method( 'getDefaultSort' )->willReturn( '' );
 		return $parser;
 	}
 
