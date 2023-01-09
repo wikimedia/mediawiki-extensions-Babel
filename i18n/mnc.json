@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Minggantu",
 			"Šolon"
 		]
 	},
 	"babel": "Babail baitalasi i mejige",
-	"babel-0": "Ere baitalasi umai [[$2|$3]] be [[$1|ulhime muterakū]](eici ulhire mangga.)",
+	"babel-0": "Ere baitalasi umai [[$2|$3]] be [[$1|ulhime muterakū]] (eici ulhire mangga).",
 	"babel-1": "Ere baitalasi [[$1|fulehe]] [[$2|$3]] i gisureme mutembi.",
 	"babel-2": "Ere baitalasi [[$1|biretengge]] [[$2|$3]] i gisureme mutembi.",
 	"babel-3": "Ere baitalasi [[$1|urehe]] [[$2|$3]] i gisureme mutembi.",
