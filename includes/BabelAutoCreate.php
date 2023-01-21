@@ -56,10 +56,10 @@ class BabelAutoCreate {
 			$language = BabelLanguageCodes::getName( $code, $wgLanguageCode );
 			$params = [ $language, $code ];
 			if ( $level === null ) {
-				$text = wfMessage( 'babel-autocreate-text-main', $params )->inContentLanguage()->text();
+				$text = wfMessage( 'babel-autocreate-text-main', $params )->inContentLanguage()->plain();
 			} else {
 				array_unshift( $params, $level );
-				$text = wfMessage( 'babel-autocreate-text-levels', $params )->inContentLanguage()->text();
+				$text = wfMessage( 'babel-autocreate-text-levels', $params )->inContentLanguage()->plain();
 			}
 
 			$user = self::user();
