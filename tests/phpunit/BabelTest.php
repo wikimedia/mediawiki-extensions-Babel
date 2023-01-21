@@ -74,6 +74,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 
 		$this->setMwGlobals( [
 			// Individual tests may change these
+			'wgBabelAllowOverride' => false,
 			'wgBabelCentralDb' => false,
 			'wgCapitalLinks' => false,
 			'wgLanguageCode' => 'qqx'
@@ -336,5 +337,40 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 			'simple' => '1',
 			'zh-Hant' => '3',
 		], $languages, false, true );
+	}
+
+	public function testCategoryOverride(): void {
+		$this->setMwGlobals( 'wgBabelAllowOverride', true );
+		$title = Title::newFromText( 'User:User-1' );
+		$parser = $this->getParser( $title );
+		$wikiText = Babel::Render( $parser, 'en-1' );
+		$this->assertStringContainsString( "babel-category-override:_en-1,_en,_1", $wikiText );
+		$this->assertStringContainsString( "babel-category-override:_en,_en,_", $wikiText );
+		$this->assertHasCategory( $parser, '(babel-category-override:_en,_en,_)', '1' );
+		$this->assertHasCategory( $parser, '(babel-category-override:_en-1,_en,_1)', '' );
+		$this->assertArrayHasKey( "Babel-category-override", $parser->getOutput()->getTemplates()[NS_MEDIAWIKI] );
+		$this->assertFalse( Title::makeTitle( "(babel-category-override:_en,_en,_)", NS_CATEGORY )->exists() );
+	}
+
+	public function provideInvalidTitles(): array {
+		return [ [ "<><><" ], [ "" ], [ "foo|bar" ] ];
+	}
+
+	/**
+	 * @dataProvider provideInvalidTitles
+	 */
+	public function testFailedOverride( $invalidTitle ): void {
+		$this->setMwGlobals( [
+			'wgBabelAllowOverride' => true,
+			'wgLanguageCode' => 'en'
+		] );
+		$this->getServiceContainer()->getService( "MessageCache" )->enable();
+		$this->insertPage( "MediaWiki:Babel-category-override", $invalidTitle );
+
+		$title = Title::newFromText( 'User:User-1' );
+		$parser = $this->getParser( $title );
+		$wikiText = Babel::Render( $parser, 'en-1' );
+		$this->assertStringNotContainsString( $wikiText, "Category:en" );
+		$this->assertSame( [], $parser->getOutput()->getCategories() );
 	}
 }

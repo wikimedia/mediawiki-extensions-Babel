@@ -44,7 +44,7 @@ class Babel {
 	 * @return string Babel tower.
 	 */
 	public static function Render( Parser $parser, string ...$parameters ): string {
-		global $wgBabelUseUserLanguage;
+		global $wgBabelUseUserLanguage, $wgBabelAllowOverride;
 		self::$title = $parser->getTitle();
 
 		self::mTemplateLinkBatch( $parameters );
@@ -93,7 +93,20 @@ $top
 $showFooter
 |}
 EOT;
-
+		if ( $wgBabelAllowOverride ) {
+			// Make sure the page shows up as transcluding MediaWiki:babel-category-override
+			$title = Title::makeTitle( NS_MEDIAWIKI, "Babel-category-override" );
+			$revision = $parser->fetchCurrentRevisionRecordOfTitle( $title );
+			if ( $revision === null ) {
+				$revid = null;
+			} else {
+				$revid = $revision->getId();
+			}
+			// Passing null here when the page doesn't exist matches what the core parser does
+			// even though the documentation of the method says otherwise.
+			// @phan-suppress-next-line PhanTypeMismatchArgumentNullable
+			$parser->getOutput()->addTemplate( $title, $title->getArticleID(), $revid );
+		}
 		return $tower;
 	}
 

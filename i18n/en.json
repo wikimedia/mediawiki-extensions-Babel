@@ -29,5 +29,6 @@
 	"babel-N-n": "This user has a [[$1|native]] understanding of [[$2|English]].",
 	"babel-portal": "",
 	"babel-template": "Template:User $1",
-	"babel-footer": "Users by language"
+	"babel-footer": "Users by language",
+	"babel-category-override": "$1"
 }

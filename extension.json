@@ -86,6 +86,9 @@
 		},
 		"BabelCentralDb": {
 			"value": false
+		},
+		"BabelAllowOverride": {
+			"value": true
 		}
 	},
 	"manifest_version": 2

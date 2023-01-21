@@ -21,7 +21,6 @@ use LanguageCode;
 use MediaWiki\Babel\BabelAutoCreate;
 use MediaWiki\Babel\BabelLanguageCodes;
 use MediaWiki\MediaWikiServices;
-use MWException;
 use Title;
 
 /**
@@ -122,21 +121,8 @@ EOT;
 		string $code,
 		string $level
 	): string {
-		global $wgBabelMainCategory, $wgBabelCategoryNames;
-
-		if ( $wgBabelCategoryNames[$level] === false ) {
-			$categoryLevel = ':' . $title->getFullText();
-		} else {
-			$categoryLevel = ':Category:' .
-				self::getCategoryName( $wgBabelCategoryNames[$level], $code );
-		}
-
-		if ( $wgBabelMainCategory === false ) {
-			$categoryMain = ':' . $title->getFullText();
-		} else {
-			$categoryMain = ':Category:' .
-				self::getCategoryName( $wgBabelMainCategory, $code );
-		}
+		$categoryLevel = self::getCategoryLink( $title, $level, $code );
+		$categoryMain = self::getCategoryLink( $title, null, $code );
 
 		// Give grep a chance to find the usages:
 		// babel-0-n, babel-1-n, babel-2-n, babel-3-n, babel-4-n, babel-5-n, babel-N-n
@@ -166,7 +152,7 @@ EOT;
 	 * @return string[] [ category => sort key ]
 	 */
 	public function getCategories(): array {
-		global $wgBabelMainCategory, $wgBabelCategoryNames, $wgBabelCategorizeNamespaces;
+		global $wgBabelCategorizeNamespaces;
 
 		$r = [];
 
@@ -178,22 +164,18 @@ EOT;
 		}
 
 		# Add main category
-		if ( $wgBabelMainCategory !== false && $this->level !== '0' ) {
-			$category = self::getCategoryName( $wgBabelMainCategory, $this->code );
-			$r[$category] = $this->level;
-			if ( $this->createCategories ) {
-				BabelAutoCreate::create( $category, $this->code );
+		if ( $this->level !== '0' ) {
+			$category = self::getCategoryName( null, $this->code, $this->createCategories );
+			if ( $category !== null ) {
+				$r[$category] = $this->level;
 			}
 		}
 
 		# Add level category
-		if ( $wgBabelCategoryNames[$this->level] !== false ) {
-			$category = self::getCategoryName( $wgBabelCategoryNames[$this->level], $this->code );
+		$category = self::getCategoryName( $this->level, $this->code, $this->createCategories );
+		if ( $category !== null ) {
 			// Use default sort key
 			$r[$category] = false;
-			if ( $this->createCategories ) {
-				BabelAutoCreate::create( $category, $this->code, $this->level );
-			}
 		}
 
 		return $r;
@@ -203,25 +185,62 @@ EOT;
 	 * Replace the placeholder variables from the category names configuration
 	 * array with actual values.
 	 *
-	 * @param string $category Category name (containing variables).
+	 * @param ?string $level Level of babel category in question, or null for the main category
 	 * @param string $code Mediawiki-internal language code of category.
-	 * @return string Category name with variables replaced.
-	 * @throws MWException if the category name is not a valid title
+	 * @param bool $createCategories Whether to create any referenced categories that don't yet exist
+	 * @return string|null Category name with variables replaced and possibly
+	 * overriden by the wiki, or null if no category is desired.
 	 */
-	private static function getCategoryName( string $category, string $code ): string {
-		global $wgLanguageCode;
-		$category = strtr( $category, [
+	private static function getCategoryName( ?string $level, string $code, bool $createCategories = false ): ?string {
+		global $wgLanguageCode, $wgBabelAllowOverride, $wgBabelMainCategory, $wgBabelCategoryNames;
+
+		$categoryDef = $level !== null ? $wgBabelCategoryNames[$level] : $wgBabelMainCategory;
+		if ( $categoryDef === false ) {
+			return null;
+		}
+
+		$category = strtr( $categoryDef, [
 			'%code%' => BabelLanguageCodes::getCategoryCode( $code ),
 			'%wikiname%' => BabelLanguageCodes::getName( $code, $wgLanguageCode ),
 			'%nativename%' => BabelLanguageCodes::getName( $code )
 		] );
 
+		$oldCategory = $category;
+
+		// Chance to locally override categorization
+		if ( $wgBabelAllowOverride ) {
+			$category = wfMessage( "babel-category-override",
+				$category, $code, $level
+			)->inContentLanguage()->text();
+		}
+		// Now autocreate the category unless it was overridden locally
+		// (to reduce the risk if a compromised admin edits MediaWiki:Babel-category-override)
+		if ( $category === $oldCategory && $createCategories ) {
+			BabelAutoCreate::create( $category, $code, $level );
+		}
 		// Normalize using Title
 		$title = Title::makeTitleSafe( NS_CATEGORY, $category );
 		if ( !$title ) {
-			throw new MWException( "Invalid babel category name '$category'" );
+			// babel-category-override return an invalid page name
+			return null;
 		}
+
 		return $title->getDBkey();
 	}
 
+	/**
+	 * Returns the right link target for a category (either the category itself or the
+	 * title given to get a self-link)
+	 * @param Title $title
+	 * @param ?string $level Level of babel category in question, or null for the main category
+	 * @param string $code Mediawiki-internal language code of category.
+	 * @return string Link target to use for the given category
+	 */
+	private static function getCategoryLink( Title $title, ?string $level, string $code ): string {
+		$category = self::getCategoryName( $level, $code );
+		if ( $category !== null ) {
+			return ":Category:" . $category;
+		}
+		return ":" . $title->getFullText();
+	}
 }
