@@ -71,7 +71,7 @@ class BabelLanguageCodes {
 		// Map BCP 47 codes and/or deprecated codes to internal MediaWiki codes
 		$mediawiki = self::mapToMediaWikiCode( $code );
 		if ( $mediawiki !== false ) {
-			return $mediawiki;
+			$code = $mediawiki;
 		}
 
 		// Is the code known to MediaWiki?

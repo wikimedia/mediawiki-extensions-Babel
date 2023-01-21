@@ -32,6 +32,8 @@ class BabelLanguageCodesTest extends TestCase {
 			[ 'en-gb', 'en-gb' ],
 			[ 'de', 'de' ],
 			[ 'be-x-old', 'be-tarask' ],
+			// Make sure this special case gets handled properly, instead of returning an unrecognized code
+			[ 'en-x-rtl', false ]
 		];
 		// True BCP 47 normalization was added in MW 1.32
 		if ( LanguageCode::bcp47( 'simple' ) === 'en-simple' ) {
