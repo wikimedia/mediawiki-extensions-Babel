@@ -282,21 +282,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->assertNotHasCategory( $parser, 'en' );
 	}
 
-	/**
-	 * Data provider to run a test with both db enabled and disabled
-	 */
-	public static function provideSettings(): array {
-		return [
-			'lang info from db' => [ [ 'wgBabelUseDatabase' => true ] ],
-			'lang info from categories' => [ [ 'wgBabelUseDatabase' => false ] ],
-		];
-	}
-
-	/**
-	 * @dataProvider provideSettings
-	 */
-	public function testGetUserLanguages( array $settings ): void {
-		$this->setMwGlobals( $settings );
+	public function testGetUserLanguages(): void {
 		// Using a full User object so it can be created by name, exists in the database
 		// so that the babel preferences can be stored there too
 		$mwInstance = MediaWikiServices::getInstance();
@@ -328,11 +314,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		], Babel::getUserLanguages( $userIdentity, 'N' ) );
 	}
 
-	/**
-	 * @dataProvider provideSettings
-	 */
-	public function testGetUserLanguageInfo( array $settings ): void {
-		$this->setMwGlobals( $settings );
+	public function testGetUserLanguageInfo(): void {
 		// Using a full User object so it can be created by name, exists in the database
 		// so that the babel preferences can be stored there too
 		$mwInstance = MediaWikiServices::getInstance();

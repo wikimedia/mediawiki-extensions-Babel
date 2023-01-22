@@ -293,8 +293,8 @@ EOT;
 
 	/**
 	 * Gets the language information a user has set up with Babel.
-	 * This function gets the actual info directly from categories
-	 * or database. For performance, it is recommended to use
+	 * This function gets the actual info directly from the database.
+	 * For performance, it is recommended to use
 	 * getCachedUserLanguageInfo instead.
 	 *
 	 * @param UserIdentity $user
