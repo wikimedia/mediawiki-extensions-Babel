@@ -42,24 +42,15 @@ class BabelAutoCreate {
 	 * Create category.
 	 *
 	 * @param string $category Name of category to create.
-	 * @param string $code Code of language that the category is for.
-	 * @param string|null $level Level that the category is for.
+	 * @param string $text Text to use when creating the category.
 	 */
-	public static function create( string $category, string $code, string $level = null ): void {
+	public static function create( string $category, string $text ): void {
 		$category = strip_tags( $category );
 		$title = Title::makeTitleSafe( NS_CATEGORY, $category );
-		if ( $title === null || $title->exists() ) {
-			return;
-		}
-		DeferredUpdates::addCallableUpdate( function () use ( $code, $level, $title ) {
-			global $wgLanguageCode;
-			$language = BabelLanguageCodes::getName( $code, $wgLanguageCode );
-			$params = [ $language, $code ];
-			if ( $level === null ) {
-				$text = wfMessage( 'babel-autocreate-text-main', $params )->inContentLanguage()->plain();
-			} else {
-				array_unshift( $params, $level );
-				$text = wfMessage( 'babel-autocreate-text-levels', $params )->inContentLanguage()->plain();
+		DeferredUpdates::addCallableUpdate( function () use ( $title, $text ) {
+			// Extra exists check here in case the category was created while this code was running
+			if ( $title === null || $title->exists() ) {
+				return;
 			}
 
 			$user = self::user();
@@ -101,5 +92,24 @@ class BabelAutoCreate {
 		}
 
 		return self::$user;
+	}
+
+	/**
+	 * Returns the text to use when creating a babel category with the given code and level
+	 * @param string $code Code of language that the category is for.
+	 * @param string|null $level Level that the category is for.
+	 * @return string The text to use to create the category.
+	 */
+	public static function getCategoryText( string $code, ?string $level ): string {
+		global $wgLanguageCode;
+		$language = BabelLanguageCodes::getName( $code, $wgLanguageCode );
+		$params = [ $language, $code ];
+		if ( $level === null ) {
+			$text = wfMessage( 'babel-autocreate-text-main', $params )->inContentLanguage()->plain();
+		} else {
+			array_unshift( $params, $level );
+			$text = wfMessage( 'babel-autocreate-text-levels', $params )->inContentLanguage()->plain();
+		}
+		return $text;
 	}
 }

@@ -75,6 +75,14 @@ class BabelStatic {
 		global $wgBabelCentralDb;
 
 		$title = $linksUpdate->getTitle();
+		$toCreate = $linksUpdate->getParserOutput()->getExtensionData( 'babel-tocreate' ) ?: [];
+
+		// Create categories
+		foreach ( $toCreate as $category => $value ) {
+			$text = $linksUpdate->getParserOutput()->getExtensionData( "babel-category-text-{$category}" );
+			BabelAutoCreate::create( $category, $text );
+		}
+
 		// Has to be a root userpage
 		if ( !$title->inNamespace( NS_USER ) || !$title->getRootTitle()->equals( $title ) ) {
 			return;

@@ -17,6 +17,8 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel\BabelBox;
 
+use ParserOutput;
+
 /**
  * Class for inner items which are not babel boxes.
  */
@@ -54,11 +56,7 @@ class NotBabelBox implements BabelBox {
 EOT;
 	}
 
-	/**
-	 * @return string[]
-	 */
-	public function getCategories(): array {
-		return [];
+	public function addCategories( ParserOutput $parserOutput ): void {
 	}
 
 }

@@ -155,7 +155,6 @@ EOT;
 		string $name,
 		array $templateParameters
 	): string {
-		$createCategories = !$parser->getOptions()->getIsPreview();
 		$components = self::mParseParameter( $name );
 		$template = wfMessage( 'babel-template', $name )->inContentLanguage()->text();
 		$parserOutput = $parser->getOutput();
@@ -168,7 +167,6 @@ EOT;
 				self::$title,
 				$components['code'],
 				$components['level'],
-				$createCategories
 			);
 			self::setExtensionData( $parserOutput, $components['code'], $components['level'] );
 		} elseif ( self::mPageExists( $template ) ) {
@@ -188,7 +186,6 @@ EOT;
 					self::$title,
 					$components2['code'],
 					$components2['level'],
-					$createCategories
 				);
 				self::setExtensionData( $parserOutput,
 					$components2['code'], $components2['level'] );
@@ -207,13 +204,7 @@ EOT;
 			);
 		}
 
-		foreach ( $box->getCategories() as $cat => $sortKey ) {
-			if ( $sortKey === false ) {
-				$sortKey = $parserOutput->getPageProperty( 'defaultsort' );
-			}
-
-			$parserOutput->addCategory( $cat, $sortKey ?? '' );
-		}
+		$box->addCategories( $parserOutput );
 
 		return $box->render();
 	}

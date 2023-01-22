@@ -10,6 +10,8 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel\BabelBox;
 
+use ParserOutput;
+
 /**
  * Interface for babel boxes.
  */
@@ -23,13 +25,10 @@ interface BabelBox {
 	public function render(): string;
 
 	/**
-	 * Return categories that should be added to
-	 * the ParserOutput. Note that calling this
-	 * method may have side effects, like auto
-	 * creating those categories.
+	 * Adds categories to the given ParserOutput.
 	 *
-	 * @return string[] [ category => sort key ], sort key is false for default
+	 * @param ParserOutput $output Parser output to add categories to
 	 */
-	public function getCategories(): array;
+	public function addCategories( ParserOutput $output ): void;
 
 }

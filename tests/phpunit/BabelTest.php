@@ -350,6 +350,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->assertHasCategory( $parser, '(babel-category-override:_en-1,_en,_1)', '' );
 		$this->assertArrayHasKey( "Babel-category-override", $parser->getOutput()->getTemplates()[NS_MEDIAWIKI] );
 		$this->assertFalse( Title::makeTitle( "(babel-category-override:_en,_en,_)", NS_CATEGORY )->exists() );
+		$this->assertNull( $parser->getOutput()->getExtensionData( 'babel-tocreate' ) );
 	}
 
 	public function provideInvalidTitles(): array {

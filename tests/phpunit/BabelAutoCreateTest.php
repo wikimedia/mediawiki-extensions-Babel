@@ -34,30 +34,24 @@ class BabelAutoCreateTest extends MediaWikiIntegrationTestCase {
 	}
 
 	/**
-	 * @dataProvider createProvider
+	 * @dataProvider getCategoryTextProvider
 	 */
-	public function testCreate(
-		string $category,
+	public function testGetCategoryText(
 		string $code,
 		?string $level,
 		string $expected
 	): void {
-		BabelAutoCreate::create( $category, $code, $level );
-		$page = $this->getServiceContainer()->getWikiPageFactory()->newFromTitle(
-			Title::newFromText( 'Category:' . $category )
-		);
-		$this->assertTrue( $page->exists() );
-		$this->assertSame( $expected, $page->getContent()->getText() );
+		$this->assertEquals( BabelAutoCreate::getCategoryText( $code, $level ), $expected );
 	}
 
-	public function createProvider(): array {
+	public function getCategoryTextProvider(): array {
 		return [
 			[
-				'category-1', 'en', null,
+				'en', null,
 				'(babel-autocreate-text-main: English, en)'
 			],
 			[
-				'category-2', 'en', 'level-2',
+				'en', 'level-2',
 				'(babel-autocreate-text-levels: level-2, English, en)'
 			],
 		];
@@ -66,6 +60,15 @@ class BabelAutoCreateTest extends MediaWikiIntegrationTestCase {
 	public function testUser(): void {
 		$user = BabelAutoCreate::user();
 		$this->assertInstanceOf( User::class, $user );
+	}
+
+	public function testCreate() {
+		BabelAutoCreate::create( 'categoryname', 'category text' );
+		$page = $this->getServiceContainer()->getWikiPageFactory()->newFromTitle(
+			Title::newFromText( 'Category:categoryname' )
+		);
+		$this->assertTrue( $page->exists() );
+		$this->assertSame( 'category text', $page->getContent()->getText() );
 	}
 
 }
