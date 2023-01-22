@@ -283,8 +283,6 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	}
 
 	public function testGetUserLanguages(): void {
-		// Using a full User object so it can be created by name, exists in the database
-		// so that the babel preferences can be stored there too
 		$mwInstance = MediaWikiServices::getInstance();
 		$userIdentity = $mwInstance->getUserIdentityLookup()->getUserIdentityByName( 'User-1' );
 
@@ -315,8 +313,6 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	}
 
 	public function testGetUserLanguageInfo(): void {
-		// Using a full User object so it can be created by name, exists in the database
-		// so that the babel preferences can be stored there too
 		$mwInstance = MediaWikiServices::getInstance();
 		$userIdentity = $mwInstance->getUserIdentityLookup()->getUserIdentityByName( 'User-1' );
 
