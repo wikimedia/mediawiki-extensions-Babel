@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tryvix1509"
+		]
+	},
+	"apihelp-query+babel-description": "Nhận thông tin về ngôn ngữ mà người dùng biết",
+	"apihelp-query+babel-summary": "Nhận thông tin về ngôn ngữ mà người dùng biết",
+	"apihelp-query+babel-param-user": "Thành viên để lấy thông tin",
+	"apihelp-query+babel-example-1": "Lấy thông tin Babel cho thành viên <kbd>Ví dụ</kbd>"
+}
