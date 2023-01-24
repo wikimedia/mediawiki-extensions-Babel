@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wintima Akudugu"
+		]
+	},
+	"babel": "Babel user information",
+	"babel-desc": "Ajoute la fonction de l’analyseur syntaxique <code>#babel</code> permettant la création automatique d’une colonne de boîtes utilisateur Babel avec la possibilité d’inclure des modèles locaux",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Catégorie:Babel – Utilisateurs par langue"
+}
