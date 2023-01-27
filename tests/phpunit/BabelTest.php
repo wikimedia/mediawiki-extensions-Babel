@@ -374,4 +374,14 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->assertStringNotContainsString( $wikiText, "Category:en" );
 		$this->assertSame( [], $parser->getOutput()->getCategories() );
 	}
+
+	public function testOverrideMessage(): void {
+		$this->setMwGlobals( 'wgLanguageCode', 'en' );
+		$this->getServiceContainer()->getService( "MessageCache" )->enable();
+		$this->insertPage( "MediaWiki:Babel-1-n", "Overridden message" );
+		$title = Title::newFromText( 'User:User-1' );
+		$parser = $this->getParser( $title );
+		$wikiText = Babel::Render( $parser, 'zxx-1' );
+		$this->assertStringNotContainsString( "English", $wikiText );
+	}
 }

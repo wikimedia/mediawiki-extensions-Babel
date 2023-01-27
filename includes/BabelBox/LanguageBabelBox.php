@@ -104,7 +104,10 @@ EOT;
 
 	/**
 	 * Get the text to display in the language box for specific language and
-	 * level.
+	 * level. If MediaWiki:Babel-<level>-n (the message that includes the
+	 * language autonym) is translated into the given language, use that
+	 * otherwise use MediaWiki:Babel-<level> (the message that takes the
+	 * language name as a parameter)
 	 *
 	 * @param Title $title
 	 * @param string $name
@@ -128,9 +131,15 @@ EOT;
 		)->inLanguage( $code )->text();
 
 		$fallbackLanguage = MediaWikiServices::getInstance()->getLanguageFallback()->getFirst( $code );
+		// Because of T75473, the above wfMessage call will ignore any
+		// MediaWiki namespace overrides for fallback languages. Hence, we
+		// must explicitly ignore them here, or else the comparison will fail,
+		// resulting in a message claiming that the user knows the fallback
+		// language (probably English), rather than the language
+		// they actually specified.
 		$fallback = wfMessage( "babel-$level-n",
 			$categoryLevel, $categoryMain, '', $title->getDBkey()
-		)->inLanguage( $fallbackLanguage ?? $code )->text();
+		)->useDatabase( false )->inLanguage( $fallbackLanguage ?? $code )->text();
 
 		// Give grep a chance to find the usages:
 		// babel-0, babel-1, babel-2, babel-3, babel-4, babel-5, babel-N
