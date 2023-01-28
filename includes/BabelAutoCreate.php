@@ -10,6 +10,7 @@
  * @author Purodha Blissenbach
  * @author Sam Reed
  * @author Siebrand Mazeland
+ * @author Winston Sung
  * @license GPL-2.0-or-later
  */
 
@@ -47,6 +48,10 @@ class BabelAutoCreate {
 	public static function create( string $category, string $text ): void {
 		$category = strip_tags( $category );
 		$title = Title::makeTitleSafe( NS_CATEGORY, $category );
+		# T170654: We need to check whether non-existing category page in one language variant actually
+		#  exists in another language variant when a language supports multiple language variants.
+		MediaWikiServices::getInstance()->getLanguageConverterFactory()->getLanguageConverter()
+			->findVariantLink( $category, $title, true );
 		DeferredUpdates::addCallableUpdate( function () use ( $title, $text ) {
 			// Extra exists check here in case the category was created while this code was running
 			if ( $title === null || $title->exists() ) {
