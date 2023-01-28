@@ -45,14 +45,26 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		// returns true in BabelAutoCreate and no auto-creation is attempted.
 		$this->setMwGlobals( 'wgCapitalLinks', false );
 
-		$mwInstance = MediaWikiServices::getInstance();
-		foreach ( [ 'en', 'en-N', 'en-1', 'es', 'es-2', 'de', 'de-N',
-					  'simple', 'simple-1', 'zh-Hant', 'zh-Hant-3'
-				  ] as $name ) {
+		$names = [
+			'en',
+			'en-N',
+			'en-1',
+			'es',
+			'es-2',
+			'de',
+			'de-N',
+			'simple',
+			'simple-1',
+			'zh-Hant',
+			'zh-Hant-3',
+		];
+
+		$services = MediaWikiServices::getInstance();
+		foreach ( $names as $name ) {
 			$this->addGoodLinkObject( 1, new TitleValue( NS_CATEGORY, $name ) );
 		}
 
-		$user = $mwInstance->getUserFactory()->newFromName( 'User-1' );
+		$user = $services->getUserFactory()->newFromName( 'User-1' );
 		$user->addToDatabase();
 		$this->insertPage( 'User:User-1', '{{#babel:en-1|es-2|de|SIMPLE-1|zh-hant-3}}' );
 	}

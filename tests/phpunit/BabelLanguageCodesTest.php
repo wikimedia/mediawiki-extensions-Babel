@@ -5,6 +5,7 @@ namespace Babel\Tests;
 
 use LanguageCode;
 use MediaWiki\Babel\BabelLanguageCodes;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @covers \MediaWiki\Babel\BabelLanguageCodes
@@ -14,7 +15,7 @@ use MediaWiki\Babel\BabelLanguageCodes;
  * @license GPL-2.0-or-later
  * @author Thiemo Kreuz
  */
-class BabelLanguageCodesTest extends \PHPUnit\Framework\TestCase {
+class BabelLanguageCodesTest extends TestCase {
 
 	/**
 	 * @dataProvider getCodeProvider

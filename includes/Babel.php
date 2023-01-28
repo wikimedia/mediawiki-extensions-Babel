@@ -78,9 +78,9 @@ class Babel {
 		$footer = wfMessage( 'babel-footer', self::$title->getDBkey() )->inLanguage( $uiLang );
 
 		$url = wfMessage( 'babel-footer-url' )->inContentLanguage();
-		$showfooter = '';
+		$showFooter = '';
 		if ( !$footer->isDisabled() && !$url->isDisabled() ) {
-			$showfooter = '! class="mw-babel-footer" | [[' .
+			$showFooter = '! class="mw-babel-footer" | [[' .
 				$url->text() . '|' . $footer->text() . ']]';
 		}
 
@@ -90,7 +90,7 @@ $top
 |-
 | $content
 |-
-$showfooter
+$showFooter
 |}
 EOT;
 
@@ -105,7 +105,8 @@ EOT;
 	 */
 	private static function mGenerateContentTower( Parser $parser, array $parameters ): string {
 		$content = '';
-		$templateParameters = []; // collects name=value parameters to be passed to wiki templates.
+		// collects name=value parameters to be passed to wiki templates.
+		$templateParameters = [];
 
 		foreach ( $parameters as $name ) {
 			if ( strpos( $name, '=' ) !== false ) {
@@ -168,8 +169,7 @@ EOT;
 		} elseif ( self::mValidTitle( $template ) ) {
 			// Non-existing page, so try again as a babel box,
 			// with converting the code to lowercase
-			$components2 = self::mParseParameter( $name, /* code to lowercase */
-				true );
+			$components2 = self::mParseParameter( $name, true );
 			if ( $components2 !== false ) {
 				$box = new LanguageBabelBox(
 					self::$title,
@@ -237,10 +237,10 @@ EOT;
 	}
 
 	/**
-	 * Identify whether or not the passed string would make a valid page name.
+	 * Identify whether the passed string would make a valid page name.
 	 *
 	 * @param string $name Name of page to check.
-	 * @return bool Indication of whether or not the title is valid.
+	 * @return bool Indication of whether the title is valid.
 	 */
 	protected static function mValidTitle( string $name ): bool {
 		$titleObj = Title::newFromText( $name );
@@ -259,9 +259,9 @@ EOT;
 		global $wgBabelDefaultLevel, $wgBabelCategoryNames;
 		$return = [];
 
-		$babelcode = $strtolower ? strtolower( $parameter ) : $parameter;
+		$babelCode = $strtolower ? strtolower( $parameter ) : $parameter;
 		// Try treating the parameter as a language code (for default level).
-		$code = BabelLanguageCodes::getCode( $babelcode );
+		$code = BabelLanguageCodes::getCode( $babelCode );
 		if ( $code !== false ) {
 			$return['code'] = $code;
 			$return['level'] = $wgBabelDefaultLevel;
@@ -275,9 +275,9 @@ EOT;
 		$code = substr( $parameter, 0, $lastSplit );
 		$level = substr( $parameter, $lastSplit + 1 );
 
-		$babelcode = $strtolower ? strtolower( $code ) : $code;
+		$babelCode = $strtolower ? strtolower( $code ) : $code;
 		// Validate code.
-		$return['code'] = BabelLanguageCodes::getCode( $babelcode );
+		$return['code'] = BabelLanguageCodes::getCode( $babelCode );
 		if ( $return['code'] === false ) {
 			return false;
 		}
@@ -330,7 +330,7 @@ EOT;
 			$checkKeys[] = $cache->makeGlobalKey( 'babel-central-languages', $centralId );
 		}
 
-		$cachedUserLanguageInfo = $cache->getWithSetCallback(
+		return $cache->getWithSetCallback(
 			$key,
 			$cache::TTL_MINUTE * 30,
 			function ( $oldValue, &$ttl, array &$setOpts ) use ( $userId, $user ) {
@@ -342,8 +342,6 @@ EOT;
 				'checkKeys' => $checkKeys,
 			]
 		);
-
-		return $cachedUserLanguageInfo;
 	}
 
 	/**
@@ -399,7 +397,7 @@ EOT;
 
 	/**
 	 * Gets the list of languages a user has set up with Babel.
-	 * For performance it is recommended to use getCachedUserLanguages.
+	 * For performance reasons, it is recommended to use getCachedUserLanguages.
 	 *
 	 * @param UserIdentity $user
 	 * @param string|null $level Minimal level as given in $wgBabelCategoryNames

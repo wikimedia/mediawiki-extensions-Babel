@@ -96,7 +96,7 @@ class LanguageBabelBox implements BabelBox {
 
 		$dir_head = $this->title->getPageLanguage()->getDir();
 
-		$box = <<<EOT
+		return <<<EOT
 <div class="mw-babel-box mw-babel-box-{$this->level}" dir="$dir_head">
 {|
 ! dir="$dir_head" | $header
@@ -104,8 +104,6 @@ class LanguageBabelBox implements BabelBox {
 |}
 </div>
 EOT;
-
-		return $box;
 	}
 
 	/**

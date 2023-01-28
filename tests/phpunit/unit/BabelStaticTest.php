@@ -5,6 +5,7 @@ namespace Babel\Tests\Unit;
 
 use MediaWiki\Babel\Babel;
 use MediaWiki\Babel\BabelStatic;
+use MediaWikiUnitTestCase;
 use Parser;
 
 /**
@@ -15,7 +16,7 @@ use Parser;
  * @license GPL-2.0-or-later
  * @author Thiemo Kreuz
  */
-class BabelStaticTest extends \MediaWikiUnitTestCase {
+class BabelStaticTest extends MediaWikiUnitTestCase {
 
 	public function testOnParserFirstCallInit(): void {
 		$parser = $this->getMockBuilder( Parser::class )

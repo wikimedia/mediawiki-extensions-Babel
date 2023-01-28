@@ -21,6 +21,9 @@ use MediaWiki\MediaWikiServices;
  */
 class BabelLanguageCodes {
 
+	/**
+	 * @var array|null
+	 */
 	private static $mapToMediaWikiCodeCache = null;
 
 	/**
@@ -104,7 +107,7 @@ class BabelLanguageCodes {
 		}
 		$code = strtolower( $code );
 
-		$language = $language === null ? $code : $language;
+		$language = $language ?? $code;
 		$names = MediaWikiServices::getInstance()->getLanguageNameUtils()
 			->getLanguageNames( $language, LanguageNameUtils::ALL );
 		if ( isset( $names[$code] ) ) {

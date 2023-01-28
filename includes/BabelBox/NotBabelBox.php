@@ -49,11 +49,9 @@ class NotBabelBox implements BabelBox {
 	 * @return string A single non-babel box, in wikitext format.
 	 */
 	public function render(): string {
-		$notabox = <<<EOT
+		return <<<EOT
 <div class="mw-babel-notabox" dir="{$this->dir}">{$this->content}</div>
 EOT;
-
-		return $notabox;
 	}
 
 	/**
