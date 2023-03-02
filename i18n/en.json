@@ -30,5 +30,7 @@
 	"babel-portal": "",
 	"babel-template": "Template:User $1",
 	"babel-footer": "Users by language",
-	"babel-category-override": "$1"
+	"babel-category-override": "$1",
+	"babel-template-params-category": "Pages using babel with named parameters",
+	"babel-template-params-category-desc": "The page passes a name=value parameter to the #babel parser function. The behavior of these parameters [[phab:T327847|may change in the near future]]."
 }

@@ -120,16 +120,21 @@ EOT;
 		$content = '';
 		// collects name=value parameters to be passed to wiki templates.
 		$templateParameters = [];
+		$first = true;
 
 		$generateCategories = !preg_match( '/^nocat\s*=\s*\S/', reset( $parameters ) );
 
 		foreach ( $parameters as $name ) {
 			if ( strpos( $name, '=' ) !== false ) {
 				$templateParameters[] = $name;
+				if ( !$first || !preg_match( '/^(plain|nocat)\s*=\s*\S/', $name ) ) {
+					$parser->addTrackingCategory( "babel-template-params-category" );
+				}
 				continue;
 			}
 
 			$content .= self::mGenerateContent( $parser, $name, $templateParameters, $generateCategories );
+			$first = false;
 		}
 
 		return $content;

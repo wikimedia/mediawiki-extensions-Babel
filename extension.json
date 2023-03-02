@@ -97,5 +97,8 @@
 			"value": true
 		}
 	},
+	"TrackingCategories": [
+		"babel-template-params-category"
+	],
 	"manifest_version": 2
 }
