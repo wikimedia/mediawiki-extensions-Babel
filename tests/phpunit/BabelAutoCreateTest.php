@@ -41,7 +41,7 @@ class BabelAutoCreateTest extends MediaWikiIntegrationTestCase {
 		?string $level,
 		string $expected
 	): void {
-		$this->assertEquals( BabelAutoCreate::getCategoryText( $code, $level ), $expected );
+		$this->assertEquals( $expected, BabelAutoCreate::getCategoryText( $code, $level ) );
 	}
 
 	public function getCategoryTextProvider(): array {
