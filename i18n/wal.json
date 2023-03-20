@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ella Lachow"
+		]
+	},
+	"babel": "Baabel yaraa naqaashaa",
+	"babel-desc": "Meezetodo templeetiyaa oyqqana danddayiyaa 'userbox' geetettiya bawu oottiyaagee merettana mala danddayissiyaa birshshiyaagaa <code>#babel</code> gujjees.",
+	"babel-url": "Project: Baabeeliyaa",
+	"babel-footer-url": ":Moodettaa:Baabeeliyaa - Yarata doonaa maaraan",
+	"babel-autocreate-reason": "Moodettaa sinttaa bawu medhiyoogaa [[$1|Baabeeliyaa]]",
+	"babel-autocreate-text-levels": "Ha modettan de'iya yarati bessiyoy $2 donaassi etassi doonaa hiillaa xekkay $1.",
+	"babel-autocreate-text-main": "Ha moodettan de'iya yarati bessiyoy etassi $1 doonan de'iya eraa likkiyaa.",
+	"babel-0": "Ha yaraassi [[$2|$3]] ayba erikka [[$1|baawa]] (woykko metootiiddi erees).",
+	"babel-1": "Hagan [[$2|$3]] ha yaraassi [[$1|baaso]] eray de'ees.",
+	"babel-2": "Hagan [[$2|$3]] ha yaraassi [[$1|giddo]] eray de'ees.",
+	"babel-3": "Hagan [[$2|$3]] ha yaraassi [[$1|loohida]] eray de'ees.",
+	"babel-4": "Hagan [[$2|$3]] ha yaraassi [[$1|yeleta doonaadan]] eray de'ees.",
+	"babel-5": "Hagan [[$2|$3]] ha yaraassi [[$1|ooso]] eray de'ees.",
+	"babel-N": "Hagan [[$2|$3]] ha yaraassi [[$1|yeleta doonaa]] eray de'ees.",
+	"babel-0-n": "Ha yaraassi [[$2|$3]] ayba erikka [[$1|baawa]] (woykko metootiiddi erees).",
+	"babel-1-n": "Ha {{GENDER:yaraassi|yareessi}} [[$2|Wolayttatto doonan]] [[$1|baaso]] eray de'ees.",
+	"babel-2-n": "Ha yaraassi [[$2|Wolayttatto doonan]] [[$1|giddo]] eray de'ees.",
+	"babel-3-n": "Ha yaraassi [[$2|Wolayttatto doonan]] [[$1|loohida]] eray de'ees.",
+	"babel-4-n": "Ha yaraassi [[$2|Wolayttatto doonan]] [[$1|yeleta doonaadan]] eray de'ees.",
+	"babel-5-n": "Ha yaraassi [[$2|Wolayttatto doonan]] [[$1|ooso]] eray de'ees.",
+	"babel-N-n": "Ha yaraassi [[$2|Wolayttatto doonan]] [[$1|yeleta doonaa]] eray de'ees.",
+	"babel-footer": "Yarata doonaa maaraan"
+}
