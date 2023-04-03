@@ -9,7 +9,7 @@
 	"babel-desc": "Adds the <code>#babel</code> parser function to allow automated generation of a babel userbox column with the ability to include custom templates",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Users by language",
-	"babel-autocreate-reason": "Automatically creating [[$1|Babel]] category page.",
+	"babel-autocreate-reason": "Automatically creating [[$1|Babel]] category page",
 	"babel-autocreate-text-levels": "Users in this category indicate they have skill level $1 for language $2.",
 	"babel-autocreate-text-main": "Users in this category indicate their knowledge of language $1.",
 	"babel-autocreate-user": "Babel AutoCreate",
