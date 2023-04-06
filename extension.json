@@ -14,7 +14,7 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "parserhook",
 	"requires": {
-		"MediaWiki": ">= 1.39.0"
+		"MediaWiki": ">= 1.40.0"
 	},
 	"MessagesDirs": {
 		"Babel": [
@@ -42,11 +42,7 @@
 	},
 	"ResourceModules": {
 		"ext.babel": {
-			"styles": "resources/ext.babel.css",
-			"targets": [
-				"mobile",
-				"desktop"
-			]
+			"styles": "resources/ext.babel.css"
 		}
 	},
 	"ResourceFileModulePaths": {
