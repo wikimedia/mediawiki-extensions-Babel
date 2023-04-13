@@ -12,7 +12,7 @@
 	"babel-desc": "Cuiridh seo am parser function <code>#babel</code> ris an duilleag gus an dèid colbh babel a chruthachadh mun chleachdaiche seo, le comas gus teamplaidean sònraichte a ghabhail a-steach.",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Cleachdaichean a-rèir cànain",
-	"babel-autocreate-reason": "A' cruthachadh duilleag roinne [[$1|Babel]] leis fhèin.",
+	"babel-autocreate-reason": "A' cruthachadh duilleag roinne [[$1|Babel]] leis fhèin",
 	"babel-autocreate-text-levels": "Tha na cleachdaichean san roinn seo ag innse gu bheil comas ìre $1 aca ann an $2.",
 	"babel-autocreate-text-main": "Tha na cleachdaichean san roinn seo ag innse gu bheil iad eòlach air a' chànan a leanas: $1.",
 	"babel-autocreate-user": "Cruthachadh fèin-obrachail Babel",

@@ -9,7 +9,7 @@
 	"babel-desc": "Föögt de <code>#babel</code>-Parserfunkschoon för dat automaatsche Opstellen vun Babel-Brukerboxen to. Verlöövt ok dat Inbinnen vun egene Vörlagen.",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Kategorie:Babel - Brukers na Spraak",
-	"babel-autocreate-reason": "Automaatsch opstellt [[$1|Babel]]-Kategorie.",
+	"babel-autocreate-reason": "Automaatsch opstellt [[$1|Babel]]-Kategorie",
 	"babel-autocreate-text-levels": "Brukers in disse Kategorie köönt de Spraak $2 op Niveau $1 snacken.",
 	"babel-autocreate-text-main": "Brukers in disse Kategorie kennt vun de Spraak $1 wat af.",
 	"babel-0": "Disse Bruker versteiht [[$1|nix]] vun [[$2|$3]] (oder versteiht dat blot mit ganz grote Swierigkeiten).",

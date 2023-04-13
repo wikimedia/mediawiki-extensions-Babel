@@ -10,7 +10,7 @@
 	"babel-desc": "Add een di <code>#babel</code> parser function weh put een a babel userbox column fi yuh. Any custom template weh yuh have can use wid it.",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - People sort by language weh dem talk",
-	"babel-autocreate-reason": "Category page fi [[$1|Babel]] a generate.",
+	"babel-autocreate-reason": "Category page fi [[$1|Babel]] a generate",
 	"babel-autocreate-text-levels": "People dem inna dis category seh dem $2 $1.",
 	"babel-autocreate-text-main": "People dem inna dis category can chat $1.",
 	"babel-0": "Dis ya (oo)man [[$2|$3]] [[$1|soft]].",

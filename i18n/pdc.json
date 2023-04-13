@@ -8,7 +8,7 @@
 	"babel-desc": "Ennert die <code>#babel</code>-Parserfunktion fer zum automatische Aalege vun Babel-Yuuserbox-Columns damit eigene Vorlage dezu ze duh meeglich sinn",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Benutzer natt Schprooche",
-	"babel-autocreate-reason": "Automatisch aagelegte [[$1|Babel]]-Abdeeling.",
+	"babel-autocreate-reason": "Automatisch aagelegte [[$1|Babel]]-Abdeeling",
 	"babel-autocreate-text-levels": "Yuuser in derre Abdeeling henn Kenntnis-Level $1 fer die Sprooch $2.",
 	"babel-autocreate-text-main": "Yuuser in derre Abdeeling schwetze $1.",
 	"babel-0": "Daer Yuuser do schwetzt [[$1|ken]] [[$2|$3]].",

@@ -15,7 +15,7 @@
 	"babel-desc": "Menambahkan fungsi parser <code>#babel</code> untuk menampilkan kolom kotak pengguna babel secara otomatis dengan kemampuan menggunakan templat yang dikustomisasi",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Pengguna menurut bahasa",
-	"babel-autocreate-reason": "Otomatis membuat halaman kategori [[$1|Babel]].",
+	"babel-autocreate-reason": "Otomatis membuat halaman kategori [[$1|Babel]]",
 	"babel-autocreate-text-levels": "Pengguna dalam kategori ini menandakan bahwa mereka memiliki kemampuan $1 untuk bahasa $2.",
 	"babel-autocreate-text-main": "Pengguna dalam kategori ini menandakan bahwa mereka memiliki kemampuan berbahasa $1.",
 	"babel-autocreate-user": "Babel AutoCreate",

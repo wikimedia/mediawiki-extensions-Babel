@@ -12,7 +12,7 @@
 	"babel-desc": "Dodaje funkcję parsera <code>#babel</code> ułatwiającą tworzenie ramki informującej o językowych lub innych umiejętnościach użytkownika",
 	"babel-url": "Project:Wieża Babel",
 	"babel-footer-url": ":Category:Babel",
-	"babel-autocreate-reason": "Strona automatycznie utworzonej kategorii [[$1|wieży Babel]].",
+	"babel-autocreate-reason": "Strona automatycznie utworzonej kategorii [[$1|wieży Babel]]",
 	"babel-autocreate-text-levels": "Użytkownicy znajdujący się w tej kategorii deklarują znajomość języka $2 na poziomie $1.",
 	"babel-autocreate-text-main": "Użytkownicy znajdujący się w tej kategorii deklarują znajomość języka $1.",
 	"babel-0": "{{GENDER:$4|Ten użytkownik|Ta użytkowniczka}} [[$1|nie rozumie]] języka [[$2|$3]] (albo ma z nim olbrzymie trudności).",

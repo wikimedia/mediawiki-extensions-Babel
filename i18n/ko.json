@@ -15,7 +15,7 @@
 	"babel-desc": "사용자 지정 틀을 포함할 수 있는 바벨 유저박스 단을 만들 수 있도록 <code>#babel</code> 파서 함수를 추가합니다",
 	"babel-url": "Project:바벨",
 	"babel-footer-url": ":분류:언어별 사용자",
-	"babel-autocreate-reason": "[[$1|사용자 언어]] 분류를 자동으로 만들었습니다.",
+	"babel-autocreate-reason": "[[$1|사용자 언어]] 분류를 자동으로 만들었습니다",
 	"babel-autocreate-text-levels": "이 분류 안에 있는 사용자는 $2를 $1단계 수준으로 구사할 수 있다는 것을 나타냅니다.",
 	"babel-autocreate-text-main": "이 분류 안에 있는 사용자는 $1를 구사할 수 있습니다.",
 	"babel-autocreate-user": "바벨 자동만듦",

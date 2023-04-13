@@ -16,7 +16,7 @@
 	"babel-desc": "Aggiunge la parser function <code>#babel</code> per permettere la generazione automatica di una colonna box utente babel con la possibilità di includere template personalizzati",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Utenti per lingua",
-	"babel-autocreate-reason": "Creo automaticamente la pagina della categoria [[$1|Babel]].",
+	"babel-autocreate-reason": "Creo automaticamente la pagina della categoria [[$1|Babel]]",
 	"babel-autocreate-text-levels": "Gli utenti in questa categoria indicano che riescono a comunicare in $2 con un livello di conoscenza $1.",
 	"babel-autocreate-text-main": "Gli utenti in questa categoria indicano il loro livello di conoscenza in $1.",
 	"babel-0": "Questo utente [[$1|non è in grado di comunicare]] in [[$2|$3]] (o lo capisce solo con notevole difficoltà).",

@@ -13,7 +13,7 @@
 	"babel-desc": "Legger til parserfunksjonen <code>#babel</code> for å automatisk generere en babelboks med mulighet for å inkludere egendefinerte maler",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Brukere etter språk",
-	"babel-autocreate-reason": "Oppretter automatisk en [[$1|Babel]]-kategoriside.",
+	"babel-autocreate-reason": "Oppretter automatisk en [[$1|Babel]]-kategoriside",
 	"babel-autocreate-text-levels": "Brukere i denne kategorien viser at de har kjennskap til språket $2 på nivå $1.",
 	"babel-autocreate-text-main": "Brukere i denne kategorien viser at de har kjennskap til språket $1.",
 	"babel-0": "Denne brukeren har [[$1|lite eller ingen]] kjennskap til [[$2|$3]] (eller har svært vanskelig for å forstå det).",

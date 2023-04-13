@@ -11,7 +11,7 @@
 	"babel-desc": "Dodaje parsersku funkciju <code>#babel</code> da omogući automatsko generiranje stupca s babilonskim korisničkim okvirima s mogućnošću uključenja predložaka po želji",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Kategorija:Babel - Korisnici po jeziku",
-	"babel-autocreate-reason": "Automatsko stvaranje stranice kategorije [[$1|Babel]].",
+	"babel-autocreate-reason": "Automatsko stvaranje stranice kategorije [[$1|Babel]]",
 	"babel-autocreate-text-levels": "Korisnici u ovoj kategoriji ukazuju da su vješti na razini $1 za jezik $2.",
 	"babel-autocreate-text-main": "Korisnici u ovoj kategoriji označavaju poznavanje jezika „$1“.",
 	"babel-0": "Ovaj korisnik [[$1|ne]] zna [[$2|$3]] (ili razumije sa znatnim poteškoćama).",

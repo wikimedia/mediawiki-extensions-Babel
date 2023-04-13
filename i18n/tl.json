@@ -9,7 +9,7 @@
 	"babel-desc": "Dinadagdag ang parser function na <code>#babel</code> para payagan ang agarang paggawa ng hanay ng babel userbox na kayang magsama ng mga custom na padron",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Tagagamit base sa wika",
-	"babel-autocreate-reason": "Agad na gumawa ng pahina ng kategorya ng [[$1|Babel]].",
+	"babel-autocreate-reason": "Agad na gumawa ng pahina ng kategorya ng [[$1|Babel]]",
 	"babel-autocreate-text-levels": "Ang mga tagagamit na nasa kategoryang ito ay nagsabing na ang antas ng kakayahan nila sa wika na $2 ay $1.",
 	"babel-autocreate-text-main": "Ang mga tagagamit na nasa kategoryang ito ay nagsabing ng antas ng kaalaman nila sa wika na $1.",
 	"babel-autocreate-user": "Babel Likhain-ng-Kusa",

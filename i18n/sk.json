@@ -14,7 +14,7 @@
 	"babel-desc": "Pridáva funkciu syntaktického analyzátora <code>#babel</code>, ktorá umožňuje automatickú tvorbu babylonských šablón používateľov s možnosťou používať prispôsobené šablóny.",
 	"babel-url": "Project:Babylon",
 	"babel-footer-url": ":Kategória:Babylon – Používatelia podľa jazyka",
-	"babel-autocreate-reason": "Automaticky sa vytvára stránka kategórie [[$1|Babylon]].",
+	"babel-autocreate-reason": "Automaticky sa vytvára stránka kategórie [[$1|Babylon]]",
 	"babel-autocreate-text-levels": "Používatelia v tejto kategórii označili svoju úroveň v jazyku $2 ako $1.",
 	"babel-autocreate-text-main": "Používatelia v tejto kategórii sa prihlásili k znalosti jazyka $1.",
 	"babel-0": "Tento používateľ [[$1|nemá]] znalosti [[$2|{{GRAMMAR:genitív|$3}}]] (alebo jej rozumie so značnými problémami).",

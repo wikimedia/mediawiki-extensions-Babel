@@ -9,7 +9,7 @@
 	"babel-desc": "加只<code>#babel</code>处理功能，允许自动产生一只babel用户框栏，包含可自定义个模版",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:巴别-用户（按闲话）",
-	"babel-autocreate-reason": "自动建立[[$1|Babel]]分类页。",
+	"babel-autocreate-reason": "自动建立[[$1|Babel]]分类页",
 	"babel-autocreate-text-levels": "垃拉箇只分类里向个用户具有语言$2个$1能力。",
 	"babel-autocreate-text-main": "箇只分类里向个用户能够理解语言$1。",
 	"babel-0": "箇位用户[[$1|呒没]][[$2|$3]]个知识（或者觉着渠交关难懂）。",

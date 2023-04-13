@@ -10,7 +10,7 @@
 	"babel-desc": "Ajunta la funçon de l analisador parser <code>#babel</code> pa premitir la criaçon outomática dua queluna de caixas de outelizador babel cula possiblidade de ancluir modelos personalizados",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Catadorie:Babel - Outelizadores por lhéngua",
-	"babel-autocreate-reason": "A criar outomaticamiente la páigina de la catadorie [[$1|Babel]].",
+	"babel-autocreate-reason": "A criar outomaticamiente la páigina de la catadorie [[$1|Babel]]",
 	"babel-autocreate-text-levels": "Ls outelizadores nesta catadorie dízen que ténen un nible de coincimiento $1 na lhéngua $2.",
 	"babel-autocreate-text-main": "Ls outelizadores nesta catadorie dízen que ténen coincimientos de la lhéngua $1.",
 	"babel-0": "{{GENDER:$4|Este outelizador|Esta outelizadora}} [[$1|nun antende]] [[$2|$3]] (ó antende cun muitas deficuldades).",

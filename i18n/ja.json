@@ -18,7 +18,7 @@
 	"babel-desc": "カスタム テンプレートを埋め込めるバベル ユーザーボックスを、自動的に生成する関数 <code>#babel</code> を追加する",
 	"babel-url": "Project:バベル",
 	"babel-footer-url": ":カテゴリ:バベル - 言語別の利用者",
-	"babel-autocreate-reason": "[[$1|バベル]]用カテゴリのページを自動作成しています。",
+	"babel-autocreate-reason": "[[$1|バベル]]用カテゴリのページを自動作成しています",
 	"babel-autocreate-text-levels": "このカテゴリに属している利用者は$2についてレベル $1 の能力を有しています。",
 	"babel-autocreate-text-main": "このカテゴリに属している利用者は、自身の$1の言語能力について、表明しています。",
 	"babel-autocreate-user": "バベル自動作成係",

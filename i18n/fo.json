@@ -10,7 +10,7 @@
 	"babel-desc": "Leggur afturat <code>#babel</code> parsarafunksjón fyri at loyva sjálvvirkandi upprættan av babel brúkarakassa við møguleika fyri at taka við tilevnaðar fyrimyndir (skapilónir)",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Brúkari eftir máli",
-	"babel-autocreate-reason": "Sjálvvirkandi skapan av [[$1|Babel]] bólka síða.",
+	"babel-autocreate-reason": "Sjálvvirkandi skapan av [[$1|Babel]] bólka síða",
 	"babel-autocreate-text-levels": "Brúkarir í hesum bólki vísa at tey hava vitan á stigi $1 fyri máli $2.",
 	"babel-autocreate-text-main": "Brúkarir í hesum bólki vísa at teir hava vitan um mál $1.",
 	"babel-0": "Hesin brúkarin skilur [[$1|ikki]] [[$2|$3]] (ella skilir tað ikki gott).",

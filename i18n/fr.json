@@ -24,7 +24,7 @@
 	"babel-desc": "Ajoute la fonction de l’analyseur syntaxique <code>#babel</code> permettant la création automatique d’une colonne de boîtes utilisateur Babel avec la possibilité d’inclure des modèles locaux",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Catégorie:Babel – Utilisateurs par langue",
-	"babel-autocreate-reason": "Création automatique de la page de catégorie [[$1|Babel]].",
+	"babel-autocreate-reason": "Création automatique de la page de catégorie [[$1|Babel]]",
 	"babel-autocreate-text-levels": "Les utilisateurs dans cette catégorie ont indiqué qu’ils ont le niveau $1 pour la langue $2.",
 	"babel-autocreate-text-main": "Les utilisateurs dans cette catégorie ont indiqué leur connaissance de la langue $1.",
 	"babel-autocreate-user": "Babel AutoCreate",

@@ -6,7 +6,7 @@
 		]
 	},
 	"babel-url": "Project:Kielitaito",
-	"babel-autocreate-reason": "[[$1|Kielitaidon]] katekuurisivun auttomaattinen luonti.",
+	"babel-autocreate-reason": "[[$1|Kielitaidon]] katekuurisivun auttomaattinen luonti",
 	"babel-autocreate-text-levels": "Käyttäjät tässä katekuurissa ovat ilmottaneet ossaavansa kieltä $2 tasolla $1.",
 	"babel-autocreate-text-main": "Käyttäjät tässä katekuurissa ovat ilmottaneet ymmärtävänsä kieltä $1.",
 	"babel-0": "Tämä käyttäjä ossaa [[$1|hyvin vähän tai ei lainkhaan]] kieltä [[$2|$3]].",

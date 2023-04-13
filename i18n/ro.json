@@ -12,7 +12,7 @@
 	"babel-desc": "Adaugă funcția de parsare <code>#babel</code> pentru generarea automată a coloanei de cutii de utilizator babel, cu posibilitatea de a include formate personalizate",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Categorie:Babel - Utilizatori după limbă",
-	"babel-autocreate-reason": "Crearea automată a categoriei [[$1|Babel]].",
+	"babel-autocreate-reason": "Crearea automată a categoriei [[$1|Babel]]",
 	"babel-autocreate-text-levels": "Utilizatorii din această categorie cunosc limba  $2 la nivelul  $1.",
 	"babel-autocreate-text-main": "Utilizatorii din această categorie cunosc limba $1.",
 	"babel-0": "Acest utilizator [[$1|nu]] are cunoștințe de [[$2|$3]] (sau înțelege cu mare dificultate).",

@@ -13,7 +13,7 @@
 	"babel-desc": "Nambah fungsi parser <code>#babel</code> supaya bisa ngasilaké kolem userbox kanthi otomatis uga bisa ngatutaké cithakan-cithakan kustomisasi",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Kategori:Babèl - Naraguna miturut basané",
-	"babel-autocreate-reason": "Otomatis nggawé kaca kategori [[$1|Babèl]].",
+	"babel-autocreate-reason": "Otomatis nggawé kaca kategori [[$1|Babèl]]",
 	"babel-autocreate-text-levels": "Naraguna saka katégori iki dianggep nduwèni kawruh basa $2 undhak $1.",
 	"babel-autocreate-text-main": "Naraguna ing kategori iki tegesé wong-wong kang padha bisa basa $1",
 	"babel-autocreate-user": "Babel AutoCreate",
