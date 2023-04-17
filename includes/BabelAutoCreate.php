@@ -106,12 +106,19 @@ class BabelAutoCreate {
 	 * Returns the text to use when creating a babel category with the given code and level
 	 * @param string $code Code of language that the category is for.
 	 * @param string|null $level Level that the category is for.
+	 * @param string|null $parent An eventual parent category to add to the newly-created category if one is created.
 	 * @return string The text to use to create the category.
 	 */
-	public static function getCategoryText( string $code, ?string $level ): string {
+	public static function getCategoryText( string $code, ?string $level, ?string $parent ): string {
 		global $wgLanguageCode;
 		$language = BabelLanguageCodes::getName( $code, $wgLanguageCode );
-		$params = [ $language, $code ];
+		if ( !$parent ) {
+			$parent = "";
+		} else {
+			$sortkey = $level ?? $code;
+			$parent = "[[Category:$parent|{$sortkey}]]";
+		}
+		$params = [ $language, $code, $parent ];
 		if ( $level === null ) {
 			$text = wfMessage( 'babel-autocreate-text-main', $params )->inContentLanguage()->plain();
 		} else {

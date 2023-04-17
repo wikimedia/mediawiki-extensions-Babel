@@ -185,13 +185,21 @@ EOT;
 			return;
 		}
 
-		# Add the main category
+		$footerPage = Title::newFromText( wfMessage( 'babel-footer-url' )->inContentLanguage()->text() );
+		if ( $footerPage != null && $footerPage->inNamespace( NS_CATEGORY ) ) {
+			$footerCategory = $footerPage->getDBkey();
+		} else {
+			$footerCategory = null;
+		}
+		# Add main category
 		if ( $this->level !== '0' ) {
-			$this->addCategory( $parserOutput, $this->code, null, $this->level );
+			$mainCategory = $this->addCategory( $parserOutput, $this->code, null, $this->level, $footerCategory );
+		} else {
+			$mainCategory = null;
 		}
 
 		# Add level category
-		$this->addCategory( $parserOutput, $this->code, $this->level, false );
+		$this->addCategory( $parserOutput, $this->code, $this->level, false, $mainCategory );
 	}
 
 	/**
@@ -201,14 +209,16 @@ EOT;
 	 * @param string $code Code of language that the category is for.
 	 * @param string|null $level Level that the category is for.
 	 * @param string|bool $sortkey The sortkey to use for the category, or false to use the default sort
+	 * @param string|null $parent An eventual parent category to add to the newly-created category if one is created.
+	 * @return string|null The name of the category that was eventually added
 	 */
 	private function addCategory( ParserOutput $parserOutput,
-		string $code, ?string $level, $sortkey
-	) {
+		string $code, ?string $level, $sortkey, ?string $parent
+	): ?string {
 		$isOverridden = false;
 		$category = self::getCategoryName( $level, $code, $isOverridden );
 		if ( $category === null ) {
-			return;
+			return null;
 		}
 		if ( $sortkey === false ) {
 			$sortkey = $parserOutput->getPageProperty( 'defaultsort' );
@@ -219,12 +229,13 @@ EOT;
 			// Now arrange for autocreation (in LinksUpdate hook) unless the category was overridden locally
 			// (to reduce the risk if a compromised admin edits MediaWiki:Babel-category-override)
 			$title = Title::makeTitleSafe( NS_CATEGORY, $category );
-			$text = BabelAutoCreate::getCategoryText( $code, $level );
+			$text = BabelAutoCreate::getCategoryText( $code, $level, $parent );
 			if ( !$isOverridden && !$title->exists() ) {
 				$parserOutput->appendExtensionData( "babel-tocreate", $category );
 				$parserOutput->setExtensionData( "babel-category-text-$category", $text );
 			}
 		}
+		return $category;
 	}
 
 	/**

@@ -32,20 +32,25 @@ class BabelAutoCreateTest extends MediaWikiIntegrationTestCase {
 	public function testGetCategoryText(
 		string $code,
 		?string $level,
+		?string $parent,
 		string $expected
 	): void {
-		$this->assertEquals( $expected, BabelAutoCreate::getCategoryText( $code, $level ) );
+		$this->assertEquals( $expected, BabelAutoCreate::getCategoryText( $code, $level, $parent ) );
 	}
 
 	public static function getCategoryTextProvider(): array {
 		return [
 			[
-				'en', null,
-				'(babel-autocreate-text-main: English, en)'
+				'en', null, 'top',
+				'(babel-autocreate-text-main: English, en, [[Category:top|en]])'
 			],
 			[
-				'en', 'level-2',
-				'(babel-autocreate-text-levels: level-2, English, en)'
+				'en', 'level-2', 'en',
+				'(babel-autocreate-text-levels: level-2, English, en, [[Category:en|level-2]])'
+			],
+			[
+				'en', 'level-2', null,
+				'(babel-autocreate-text-levels: level-2, English, en, )'
 			],
 		];
 	}
