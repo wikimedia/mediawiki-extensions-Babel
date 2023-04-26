@@ -1,0 +1,7 @@
+== Babel 2023.04 ==
+Released at 2023-04-26.
+
+=== Highlights ===
+* Fix "User categories creation should be able to use templates" ({{phab|T211665}}, {{gerrit|881947}})
+* Add ability to override Babel categories ({{gerrit|881944}})
+* Fix "Some language tags show wrong language ("English") in Babel boxes" ({{phab|T64714}}, {{gerrit|884400}})
