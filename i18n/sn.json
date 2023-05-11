@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Masiziva"
+		]
+	},
+	"babel": "Horokodzwa ye Bhabheri ye mushandisi",
+	"babel-url": "Project:Bhabheri",
+	"babel-footer-url": ":Mupanguro:Bhabheri - Vashandisi zvichienderana nemutauro",
+	"babel-autocreate-text-levels": "Vashandisi vari mumupanguro munomu vanoratidza kuti vanogona zvepachinzvimbo chechi $1 pamutauro $2.",
+	"babel-autocreate-text-main": "Vashandisi vari mumupanguro munomu vanoratidza nezve ruzivo rwavo rwe mutauro we $1.",
+	"babel-0": "Mushandisi uyu [[$1|haana]] ruzivo rwe [[$2|$3]] (kana kuti anokonekana kakuru pakuchinzwisisa).",
+	"babel-1": "Mushandisi uyu ane ruzivo [[$1|rwechekutanga]] rwe [[$2|$3]].",
+	"babel-2": "Mushandisi uyu ane ruzivo [[$1|rwechechipakati]] rwe [[$2|$3]].",
+	"babel-3": "Mushandisi uyu ane ruzivo [[$1|rwukurukwazvo]] rwe [[$2|$3]].",
+	"babel-4": "Mushandisi uyu ane ruzivo [[$1|rwunenge rwechizvarwa]] rwe [[$2|$3]].",
+	"babel-5": "Mushandisi uyu ane ruzivo [[$1|rwechinyanzvi]] rwe [[$2|$3]].",
+	"babel-N": "Mushandisi uyu ane nzwisiso ye [[$1|chizvarwa]] ye [[$2|$3]].",
+	"babel-0-n": "Mushandisi uyu [[$1|haan]] ruzivo rwe [[$2|Chingezi]] (kana kuti anokonekana kakuru pakuchinzwisisa).",
+	"babel-1-n": "Mushandisi uyu ane ruzivo [[$1|rwechekutanga]] rwe [[$2|Chingezi]].",
+	"babel-2-n": "Mushandisi uyu ane ruzivo [[$1|rwechechipakati]] rwe [[$2|Chingezi]].",
+	"babel-3-n": "Mushandisi uyu ane ruzivo [[$1|rwukurukwazvo]] rwe [[$2|Chingezi]].",
+	"babel-4-n": "Mushandisi uyu ane ruzivo [[$1|rwunenge rwechizvarwa]] rwe [[$2|Chingezi]].",
+	"babel-5-n": "Mushandisi uyu ane ruzivo [[$1|rwechinyanzvi]] rwe [[$2|Chingezi]].",
+	"babel-N-n": "Mushandisi uyu ane nzwisiso ye [[$1|chizvarwa]] ye [[$2|Chingezi]].",
+	"babel-footer": "Vashandisi zvichienderana nemutauro"
+}
