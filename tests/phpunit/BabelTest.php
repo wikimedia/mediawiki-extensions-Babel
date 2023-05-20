@@ -353,7 +353,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->assertNull( $parser->getOutput()->getExtensionData( 'babel-tocreate' ) );
 	}
 
-	public function provideInvalidTitles(): array {
+	public static function provideInvalidTitles(): array {
 		return [ [ "<><><" ], [ "" ], [ "foo|bar" ] ];
 	}
 

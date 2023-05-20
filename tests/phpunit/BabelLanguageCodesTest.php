@@ -24,7 +24,7 @@ class BabelLanguageCodesTest extends TestCase {
 		$this->assertSame( $expected, BabelLanguageCodes::getCode( $code ) );
 	}
 
-	public function getCodeProvider(): array {
+	public static function getCodeProvider(): array {
 		$testData = [
 			[ 'invalidLanguageCode', false ],
 			[ 'en', 'en' ],
@@ -54,7 +54,7 @@ class BabelLanguageCodesTest extends TestCase {
 		$this->assertSame( $expected, BabelLanguageCodes::getName( $code, $language ) );
 	}
 
-	public function getNameProvider(): array {
+	public static function getNameProvider(): array {
 		return [
 			[ 'invalidLanguageCode', null, false ],
 			[ 'en', null, 'English' ],
@@ -73,7 +73,7 @@ class BabelLanguageCodesTest extends TestCase {
 		$this->assertSame( $expected, BabelLanguageCodes::getCategoryCode( $code ) );
 	}
 
-	public function getCategoryCodeProvider(): array {
+	public static function getCategoryCodeProvider(): array {
 		return [
 			[ 'en', 'en' ],
 			[ 'de', 'de' ],
