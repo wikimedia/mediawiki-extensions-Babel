@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zolgoyo"
+		]
+	},
+	"babel": "Babel qullanuwşı bĭlgĭlerĭ",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Kategori:Babel - Tĭlge köre qullanuwşılar",
+	"babel-0": "Bo qullanuwşı [[$2|$3]] [[$1|añlamay]] (yada añlamaqta zorlana).",
+	"babel-1": "Bo qullanuwşı [[$2|$3]] [[$1|añlay]].",
+	"babel-2": "Bo qullanuwşı [[$1|aruw]] [[$2|$3]] bĭle.",
+	"babel-3": "Bo qullanuwşı [[$1|köp aruw]] [[$2|$3]] bĭle.",
+	"babel-4": "Bo qullanuwşı [[$1|ana tĭlĭne yaqın]] [[$2|$3]] bĭle.",
+	"babel-5": "Bo qullanuwşı [[$1|profesyonel]] [[$2|$3]] bĭle.",
+	"babel-N": "Bo qullanuwşınıñ [[$1|ana tĭlĭ]] [[$2|$3]].",
+	"babel-footer": "Tĭlge köre qullanuwşılar"
+}
