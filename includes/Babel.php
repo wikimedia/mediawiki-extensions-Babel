@@ -302,7 +302,7 @@ EOT;
 	 * getCachedUserLanguageInfo instead.
 	 *
 	 * @param UserIdentity $user
-	 * @return string[] [ language code => level ]
+	 * @return string[] [ language code => level ], sorted by language code
 	 */
 	public static function getUserLanguageInfo( UserIdentity $user ): array {
 		$userLanguageInfo = self::getUserLanguagesDB( $user );
@@ -318,7 +318,7 @@ EOT;
 	 * be called frequently.
 	 *
 	 * @param UserIdentity $user
-	 * @return string[] [ language code => level ]
+	 * @return string[] [ language code => level ], sorted by language code
 	 *
 	 * @since Version 1.10.0
 	 */
@@ -354,7 +354,8 @@ EOT;
 	 * @param string[] $languageInfo [ language code => level ], the return value of
 	 *   getUserLanguageInfo.
 	 * @param string|null $level Minimal level as given in $wgBabelCategoryNames
-	 * @return string[] List of language codes
+	 * @return string[] List of language codes. Sorted by level if $level is not null,
+	 *  otherwise sorted by language code
 	 *
 	 * @since Version 1.10.0
 	 */
@@ -388,7 +389,8 @@ EOT;
 	 *
 	 * @param UserIdentity $user
 	 * @param string|null $level Minimal level as given in $wgBabelCategoryNames
-	 * @return string[] List of language codes
+	 * @return string[] List of language codes. Sorted by level if $level is not null,
+	 *  otherwise sorted by language code
 	 *
 	 * @since Version 1.10.0
 	 */
@@ -405,7 +407,8 @@ EOT;
 	 *
 	 * @param UserIdentity $user
 	 * @param string|null $level Minimal level as given in $wgBabelCategoryNames
-	 * @return string[] List of language codes
+	 * @return string[] List of language codes. Sorted by level if $level is not null,
+	 *  otherwise sorted by language code
 	 *
 	 * @since Version 1.9.0
 	 */

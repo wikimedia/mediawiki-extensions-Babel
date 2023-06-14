@@ -299,7 +299,8 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$mwInstance = MediaWikiServices::getInstance();
 		$userIdentity = $mwInstance->getUserIdentityLookup()->getUserIdentityByName( 'User-1' );
 
-		$this->assertArrayEquals( [
+		// Sorted by language code
+		$this->assertSame( [
 			'de',
 			'en',
 			'es',
@@ -307,20 +308,21 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 			'zh-Hant',
 		], Babel::getUserLanguages( $userIdentity ) );
 
-		// Filter based on level
-		$this->assertArrayEquals( [
+		// Filter based on level, sorted by language level
+		$this->assertSame( [
 			'de',
 			'zh-Hant',
 			'es',
 		], Babel::getUserLanguages( $userIdentity, '2' ) );
 
-		$this->assertArrayEquals( [
+		// Filter based on level, sorted by language level
+		$this->assertSame( [
 			'de',
 			'zh-Hant',
 		], Babel::getUserLanguages( $userIdentity, '3' ) );
 
 		// Non-numerical level
-		$this->assertArrayEquals( [
+		$this->assertSame( [
 			'de',
 		], Babel::getUserLanguages( $userIdentity, 'N' ) );
 	}
@@ -330,13 +332,14 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$userIdentity = $mwInstance->getUserIdentityLookup()->getUserIdentityByName( 'User-1' );
 
 		$languages = Babel::getUserLanguageInfo( $userIdentity );
-		$this->assertArrayEquals( [
+		// Sorted by language code
+		$this->assertSame( [
 			'de' => 'N',
 			'en' => '1',
 			'es' => '2',
 			'simple' => '1',
 			'zh-Hant' => '3',
-		], $languages, false, true );
+		], $languages );
 	}
 
 	public function testCategoryOverride(): void {
