@@ -10,8 +10,11 @@
 		]
 	},
 	"babel": "Babil istifadəçi məlumatları",
+	"babel-desc": "Xüsusi şablonları daxil etmək imkanı ilə babel istifadəçi qutusu sütununun avtomatlaşdırılmış şəkildə yaradılmasına icazə vermək üçün <code>#babel</code> təhlili funksiyasını əlavə edir",
 	"babel-url": "Project:Babil",
 	"babel-footer-url": ":Kateqoriya:Babil - Dillərinə görə istifadəçilər",
+	"babel-autocreate-text-levels": "Bu kateqoriyadakı istifadəçilər $2 üçün $1 bacarıq səviyyəsinə malik olduqlarını bildirirlər.",
+	"babel-autocreate-text-main": "Bu kateqoriyadakı istifadəçilər $1 biliklərini göstərirlər.",
 	"babel-0": "Bu istifadəçi [[$1|heç]] [[$2|$3]] bilmir (ya da çətin anlayır).",
 	"babel-1": "Bu istifadəçi [[$2|$3]] dilini [[$1|zəif]] bilir.",
 	"babel-2": "Bu istifadəçi [[$2|$3]] dilini [[$1|orta səviyyədə]] bilir.",
