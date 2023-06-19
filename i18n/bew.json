@@ -6,10 +6,10 @@
 		]
 	},
 	"babel": "Inpormasi pemaké Babel",
-	"babel-desc": "Nambahin pungsi pemilah <code>#babel</code> bakal ngijinin pembuatan otomatis kolom kotak pemaké babel paké kegapaan nyang nyerèntain blatan seterahan kita",
+	"babel-desc": "Nambahin pungsi pemilah <code>#babel</code> bakal ngijinin pembuatan otomatis kolom kotak pemaké babel paké kegapaan nyang nyerèntain blatan cènglian",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": "Katègori:Babel - Pemaké bedasarin basanya",
-	"babel-autocreate-reason": "Dengen sendèwèknya ngeja halaman katègori [[$1|Babel]]",
+	"babel-autocreate-reason": "Otomatis ngeja halaman katègori [[$1|Babel]]",
 	"babel-autocreate-text-levels": "Pemaké nyang di ni katègori tandanya dia ada punya kemonèsan trap (tingkat) $1 di basa $2.",
 	"babel-autocreate-text-main": "Pemaké nyang di ni katègori tandanya dia ada punya kemonèsan di basa $1.",
 	"babel-0": "Ni pemaké [[$1|kaga']] ngarti acan [[$2|$3]] (atawa ngarti seemprit, cuman susah banget).",
