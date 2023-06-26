@@ -4,7 +4,6 @@
 			"Strainu"
 		]
 	},
-	"apihelp-query+babel-description": "Obține informații despre limbile cunoscute de utilizator",
 	"apihelp-query+babel-summary": "Obține informații despre limbile cunoscute de utilizator",
 	"apihelp-query+babel-param-user": "Utilizatorul despre care să se obțină informații",
 	"apihelp-query+babel-example-1": "Obțineți informații Babel pentru utilizatorul <kbd>Exemplu</kbd>"

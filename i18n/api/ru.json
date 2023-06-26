@@ -4,7 +4,6 @@
 			"Facenapalm"
 		]
 	},
-	"apihelp-query+babel-description": "Получение информации о том, какими языками участник владеет",
 	"apihelp-query+babel-summary": "Получение информации о том, какими языками участник владеет",
 	"apihelp-query+babel-param-user": "Участник, о котором необходимо получить информацию",
 	"apihelp-query+babel-example-1": "Получить сведения о языках участника <kbd>Example</kbd>"
