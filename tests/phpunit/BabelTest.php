@@ -387,4 +387,20 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$wikiText = Babel::Render( $parser, 'zxx-1' );
 		$this->assertStringNotContainsString( "English", $wikiText );
 	}
+
+	public function testAutoCreationEnabled(): void {
+		$this->setMwGlobals( 'wgBabelAutoCreate', true );
+		$title = Title::newFromText( 'User:User-1' );
+		$parser = $this->getParser( $title );
+		$wikiText = Babel::Render( $parser, 'zxx-1' );
+		$this->assertNotNull( $parser->getOutput()->getExtensionData( 'babel-tocreate' ) );
+	}
+
+	public function testAutoCreationDisabled(): void {
+		$this->setMwGlobals( 'wgBabelAutoCreate', false );
+		$title = Title::newFromText( 'User:User-1' );
+		$parser = $this->getParser( $title );
+		$wikiText = Babel::Render( $parser, 'zxx-1' );
+		$this->assertNull( $parser->getOutput()->getExtensionData( 'babel-tocreate' ) );
+	}
 }

@@ -187,6 +187,7 @@ EOT;
 	private function addCategory( ParserOutput $parserOutput,
 		string $code, ?string $level, $sortkey
 	) {
+		global $wgBabelAutoCreate;
 		$isOverridden = false;
 		$category = self::getCategoryName( $level, $code, $isOverridden );
 		if ( $category === null ) {
@@ -197,13 +198,15 @@ EOT;
 		}
 		$parserOutput->addCategory( $category, $sortkey ?? '' );
 
-		// Now arrange for autocreation (in LinksUpdate hook) unless the category was overridden locally
-		// (to reduce the risk if a compromised admin edits MediaWiki:Babel-category-override)
-		$title = Title::makeTitleSafe( NS_CATEGORY, $category );
-		$text = BabelAutoCreate::getCategoryText( $code, $level );
-		if ( !$isOverridden && !$title->exists() ) {
-			$parserOutput->appendExtensionData( "babel-tocreate", $category );
-			$parserOutput->setExtensionData( "babel-category-text-$category", $text );
+		if ( $wgBabelAutoCreate ) {
+			// Now arrange for autocreation (in LinksUpdate hook) unless the category was overridden locally
+			// (to reduce the risk if a compromised admin edits MediaWiki:Babel-category-override)
+			$title = Title::makeTitleSafe( NS_CATEGORY, $category );
+			$text = BabelAutoCreate::getCategoryText( $code, $level );
+			if ( !$isOverridden && !$title->exists() ) {
+				$parserOutput->appendExtensionData( "babel-tocreate", $category );
+				$parserOutput->setExtensionData( "babel-category-text-$category", $text );
+			}
 		}
 	}
 

@@ -89,6 +89,9 @@
 		},
 		"BabelAllowOverride": {
 			"value": true
+		},
+		"BabelAutoCreate": {
+			"value": true
 		}
 	},
 	"manifest_version": 2
