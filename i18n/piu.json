@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pintupi Luritja Guy"
+		]
+	},
+	"babel": "Wangka Babel palyalpala",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Category:Babel - Palyalpalanya wangkangku",
+	"babel-autocreate-reason": "Piipa [[$1|Babel]] kutjulaku palyaṉi",
+	"babel-autocreate-user": "Babel AutoCreate",
+	"babel-0": "Palyalpala ngaatja nintitjarra [[$1|wiya]] [[$2|$3]]ku (tjinguru palyuna tayiti tjinguru kulintjaku).",
+	"babel-1": "Palyalpala ngaatja ninti [[$1|wiima]] [[$2|$3]].",
+	"babel-2": "Palyalpala ngaatja ninti [[$1|ngururrpa]] [[$2|$3]].",
+	"babel-3": "Palyalpala ngaatja ninti [[$1|palya]] [[$2|$3]].",
+	"babel-4": "Palyalpala ngaatja ninti [[$1|palyalingku]] [[$2|$3]].",
+	"babel-5": "Palyalpala ngaatja ninti [[$1|yatjikilingku]] [[$2|$3]].",
+	"babel-N": "Palyalpala ngaatja [[$2|$3]] wangkapayi [[$1|palumpa wangka]] pilinypa.",
+	"babel-0-n": "Palyalpala ngaatja nintitjarra [[$1|wiya]] [[$2|Pintupi-Luritja]]ku (tjinguru palyuna tayiti tjinguru kulintjaku).",
+	"babel-1-n": "Palyalpala ngaatja ninti [[$1|wiima]] [[$2|Pintupi-Luritja]].",
+	"babel-2-n": "Palyalpala ngaatja ninti [[$1|ngururrpa]] [[$2|Pintupi-Luritja]].",
+	"babel-3-n": "Palyalpala ngaatja ninti [[$1|palya]] [[$2|Pintupi-Luritja]].",
+	"babel-4-n": "Palyalpala ngaatja ninti [[$1|palyalingku]] [[$2|Pintupi-Luritja]].",
+	"babel-5-n": "Palyalpala ngaatja ninti [[$1|yatjikilingku]] [[$2|Pintupi-Luritja]].",
+	"babel-N-n": "Palyalpala ngaatja [[$2|Pintupi-Luritja]] wangkapayi [[$1|palumpa wangka]] pilinypa.",
+	"babel-template": "Template:Palyalpala $1"
+}
