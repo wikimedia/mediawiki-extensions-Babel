@@ -1,12 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"GerardM"
+			"GerardM",
+			"Kimberli Mäkäräinen (WMNO)"
 		]
 	},
 	"babel": "Gielladieđut",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel – Geavaheaddjit giela mielde",
+	"babel-autocreate-reason": "[[$1|Gielladáiddu]] kategoriijasiidu ráhkaduvvui automáhtalaččat",
 	"babel-0": "Dát geavaheaddji máhttá [[$2|$3]] [[$1|hui veaháš dahje ii máhte dan ollege]].",
 	"babel-1": "Dát geavaheaddji máhttá [[$1|veaháš]] [[$2|$3]].",
 	"babel-2": "Dát geavaheaddji máhttá [[$2|$3]] [[$1|viehka bures]].",
