@@ -21,7 +21,7 @@ namespace MediaWiki\Babel;
 use ContentHandler;
 use DeferredUpdates;
 use MediaWiki\MediaWikiServices;
-use MediaWiki\Title\Title;
+use Title;
 use User;
 
 /**
