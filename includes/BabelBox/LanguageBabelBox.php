@@ -21,8 +21,8 @@ use LanguageCode;
 use MediaWiki\Babel\BabelAutoCreate;
 use MediaWiki\Babel\BabelLanguageCodes;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use ParserOutput;
-use Title;
 
 /**
  * Class for babel language boxes.

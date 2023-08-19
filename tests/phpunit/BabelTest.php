@@ -6,11 +6,11 @@ namespace Babel\Tests;
 use LinkCacheTestTrait;
 use MediaWiki\Babel\Babel;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use MediaWikiIntegrationTestCase;
 use Parser;
 use ParserOptions;
 use ParserOutput;
-use Title;
 use TitleValue;
 
 /**
