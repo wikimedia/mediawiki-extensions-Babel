@@ -111,9 +111,8 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	 * @param string $sortKey
 	 */
 	private function assertHasCategory( Parser $parser, string $cat, string $sortKey ): void {
-		$cats = $parser->getOutput()->getCategories();
-		$this->assertArrayHasKey( $cat, $cats );
-		$this->assertSame( $sortKey, $cats[$cat] );
+		$this->assertContains( $cat, $parser->getOutput()->getCategoryNames() );
+		$this->assertSame( $sortKey, $parser->getOutput()->getCategorySortKey( $cat ) );
 	}
 
 	/**
@@ -121,8 +120,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	 * @param string $cat
 	 */
 	private function assertNotHasCategory( Parser $parser, string $cat ): void {
-		$cats = $parser->getOutput()->getCategories();
-		$this->assertArrayNotHasKey( $cat, $cats );
+		$this->assertNotContains( $cat, $parser->getOutput()->getCategoryNames() );
 	}
 
 	public function testRenderEmptyBox(): void {
@@ -375,7 +373,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$parser = $this->getParser( $title );
 		$wikiText = Babel::Render( $parser, 'en-1' );
 		$this->assertStringNotContainsString( $wikiText, "Category:en" );
-		$this->assertSame( [], $parser->getOutput()->getCategories() );
+		$this->assertSame( [], $parser->getOutput()->getCategoryNames() );
 	}
 
 	public function testOverrideMessage(): void {
