@@ -6,5 +6,6 @@
 	},
 	"apihelp-query+babel-description": "Ҡатнашыуцы пеләтеген телләр туры мәләмәт алғалы.",
 	"apihelp-query+babel-summary": "Ҡатнашыуцы пеләтеген телләрне туры мәләмәт алғалы",
-	"apihelp-query+babel-param-user": "Мәләмәт алыу өцөн ҡатнашыуцы"
+	"apihelp-query+babel-param-user": "Мәләмәт алыу өцөн ҡатнашыуцы",
+	"apihelp-query+babel-example-1": "Ҡатнашыуцының телләре турынта пелтермә пелгәле <kbd>Example</kbd>"
 }
