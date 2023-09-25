@@ -30,12 +30,6 @@ use User;
 class BabelAutoCreate {
 	public const MSG_USERNAME = 'babel-autocreate-user';
 
-	public static function onUserGetReservedNames( array &$names ): bool {
-		$names[] = 'msg:' . self::MSG_USERNAME;
-
-		return true;
-	}
-
 	/**
 	 * Create category.
 	 *

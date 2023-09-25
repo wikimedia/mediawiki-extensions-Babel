@@ -25,14 +25,6 @@ class BabelAutoCreateTest extends MediaWikiIntegrationTestCase {
 		$this->setContentLang( 'qqx' );
 	}
 
-	public function testOnUserGetReservedNames(): void {
-		$names = [];
-		$this->assertSame( [], $names, 'Precondition' );
-
-		$this->assertTrue( BabelAutoCreate::onUserGetReservedNames( $names ) );
-		$this->assertSame( [ 'msg:' . BabelAutoCreate::MSG_USERNAME ], $names );
-	}
-
 	/**
 	 * @dataProvider getCategoryTextProvider
 	 */

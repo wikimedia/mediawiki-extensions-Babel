@@ -1,7 +1,5 @@
 <?php
 /**
- * Static functions for extension.
- *
  * @file
  * @author Robert Leverington
  * @license GPL-2.0-or-later
@@ -11,67 +9,35 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel;
 
-use DatabaseUpdater;
 use MediaWiki\Deferred\LinksUpdate\LinksUpdate;
+use MediaWiki\Hook\LinksUpdateHook;
+use MediaWiki\Hook\ParserFirstCallInitHook;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\User\Hook\UserGetReservedNamesHook;
 use Parser;
 use WikiMap;
 
 /**
- * Static functions for Babel extension.
+ * Hook handler functions for Babel extension.
  */
-class BabelStatic {
+class Hooks implements
+	ParserFirstCallInitHook,
+	LinksUpdateHook,
+	UserGetReservedNamesHook
+{
 	/**
 	 * Registers the parser function hook.
 	 *
 	 * @param Parser $parser
 	 */
-	public static function onParserFirstCallInit( Parser $parser ): void {
+	public function onParserFirstCallInit( $parser ): void {
 		$parser->setFunctionHook( 'babel', [ Babel::class, 'Render' ] );
-	}
-
-	/**
-	 * @param DatabaseUpdater $updater
-	 */
-	public static function onLoadExtensionSchemaUpdates( DatabaseUpdater $updater ) {
-		$dir = dirname( __DIR__ ) . '/sql/';
-		$dbType = $updater->getDB()->getType();
-
-		if ( $dbType === 'mysql' ) {
-			$updater->addExtensionTable( 'babel',
-				$dir . 'tables-generated.sql'
-			);
-			$updater->modifyExtensionField(
-				'babel',
-				'babel_lang',
-				$dir . 'babel-babel_lang-length-type.sql'
-			);
-			$updater->modifyExtensionField(
-				'babel',
-				'babel_level',
-				$dir . 'babel-babel_level-type.sql'
-			);
-		} elseif ( $dbType === 'sqlite' ) {
-			$updater->addExtensionTable( 'babel',
-				$dir . 'sqlite/tables-generated.sql'
-			);
-
-			$updater->modifyExtensionField(
-				'babel',
-				'babel_lang',
-				$dir . 'sqlite/babel-babel_lang-length.sql'
-			);
-		} elseif ( $dbType === 'postgres' ) {
-			$updater->addExtensionTable( 'babel',
-				$dir . 'postgres/tables-generated.sql'
-			);
-		}
 	}
 
 	/**
 	 * @param LinksUpdate $linksUpdate
 	 */
-	public static function onLinksUpdate( LinksUpdate $linksUpdate ): void {
+	public function onLinksUpdate( $linksUpdate ): void {
 		global $wgBabelCentralDb;
 
 		$title = $linksUpdate->getTitle();
@@ -111,5 +77,12 @@ class BabelStatic {
 				}
 			}
 		}
+	}
+
+	/**
+	 * @param array &$names
+	 */
+	public function onUserGetReservedNames( &$names ): void {
+		$names[] = 'msg:' . BabelAutoCreate::MSG_USERNAME;
 	}
 }

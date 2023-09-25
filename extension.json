@@ -54,10 +54,18 @@
 		"remoteExtPath": "Babel"
 	},
 	"Hooks": {
-		"ParserFirstCallInit": "MediaWiki\\Babel\\BabelStatic::onParserFirstCallInit",
-		"LinksUpdate": "MediaWiki\\Babel\\BabelStatic::onLinksUpdate",
-		"LoadExtensionSchemaUpdates": "MediaWiki\\Babel\\BabelStatic::onLoadExtensionSchemaUpdates",
-		"UserGetReservedNames": "MediaWiki\\Babel\\BabelAutoCreate::onUserGetReservedNames"
+		"ParserFirstCallInit": "main",
+		"LinksUpdate": "main",
+		"LoadExtensionSchemaUpdates": "schema",
+		"UserGetReservedNames": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Babel\\Hooks"
+		},
+		"schema": {
+			"class": "MediaWiki\\Babel\\SchemaHooks"
+		}
 	},
 	"config": {
 		"BabelCategorizeNamespaces": {
