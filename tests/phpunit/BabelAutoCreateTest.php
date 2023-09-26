@@ -30,7 +30,7 @@ class BabelAutoCreateTest extends MediaWikiIntegrationTestCase {
 		$this->assertSame( [], $names, 'Precondition' );
 
 		$this->assertTrue( BabelAutoCreate::onUserGetReservedNames( $names ) );
-		$this->assertSame( [ 'msg:babel-autocreate-user' ], $names );
+		$this->assertSame( [ 'msg:' . BabelAutoCreate::MSG_USERNAME ], $names );
 	}
 
 	/**

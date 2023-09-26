@@ -28,8 +28,10 @@ use User;
  * Class for automatic creation of Babel category pages.
  */
 class BabelAutoCreate {
+	public const MSG_USERNAME = 'babel-autocreate-user';
+
 	public static function onUserGetReservedNames( array &$names ): bool {
-		$names[] = 'msg:babel-autocreate-user';
+		$names[] = 'msg:' . self::MSG_USERNAME;
 
 		return true;
 	}
@@ -86,7 +88,7 @@ class BabelAutoCreate {
 	 * @return User|null User object for autocreate user, null if invalid.
 	 */
 	public static function user(): ?User {
-		$userName = wfMessage( 'babel-autocreate-user' )->inContentLanguage()->plain();
+		$userName = wfMessage( self::MSG_USERNAME )->inContentLanguage()->plain();
 		return User::newSystemUser( $userName, [ 'steal' => true ] );
 	}
 
