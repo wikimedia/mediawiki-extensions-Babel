@@ -9,7 +9,8 @@
 			"Kumkumuk",
 			"Marmase",
 			"Mirzali",
-			"Neribij"
+			"Neribij",
+			"Amire80"
 		]
 	},
 	"babel": "Melumatê karberiyê Babili",
@@ -27,7 +28,7 @@
 	"babel-4": "No karber/Na karbere [[$2|$3]] zey [[$1|zıwanê ma u piyê xo]] fam keno.",
 	"babel-5": "No/Na karber [[$1|profesyonel]] sewiya de [[$2|$3]] zano.",
 	"babel-N": "Zıwané [[$1|may u pérdé]] na/né karberi [[$2|$3]] yo.",
-	"babel-0-n": "No/Na karber [[$1|héç]] [[$2|Zazaki]]  nézana (yana çetın fahm kena).",
+	"babel-0-n": "No/Na karber [[$1|héç]] [[$2|Zazaki]] nézana (yana çetın fahm kena).",
 	"babel-1-n": "No/Na karber [[$1|zayıf]] sewiya de [[$2|Zazaki]] zana.",
 	"babel-2-n": "No karber sewiya [[$1|miyanêne]] de [[$2|Zazaki]] zano.",
 	"babel-3-n": "{{GENDER:$4|No karber|Na karbere}} sewiya [[$1|aver]]i de [[$2|Zazaki]] zano/zana.",
