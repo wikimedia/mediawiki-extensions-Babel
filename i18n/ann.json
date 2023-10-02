@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Katelem"
+			"Katelem",
+			"Amire80"
 		]
 	},
 	"babel": "Etip \"Babel\" ofolek òsikwaan̄",
@@ -18,7 +19,7 @@
 	"babel-4": "Òsikwaan̄ yi îriọọn̄ [[$2|$3]] [[$1|igbet bọn-owot]].",
 	"babel-5": "Òsikwaan̄ yi îriọọn̄ [[$2|$3]] kire ebi [[$1|usọ]].",
 	"babel-N": "Òsikwaan̄ yi îriọọn̄ [[$2|$3]] kire [[$1|bọn-owot]].",
-	"babel-0-n": "Òsikwaan̄ yi [[$1|ìkariọọn̄]] usem [[$2|Obolo]] (sà ìre  îkiyọt enenen ọmọ igogobo itet).",
+	"babel-0-n": "Òsikwaan̄ yi [[$1|ìkariọọn̄]] usem [[$2|Obolo]] (sà ìre îkiyọt enenen ọmọ igogobo itet).",
 	"babel-1-n": "Òsikwaan̄ yi îriọọn̄ [[$2|Obolo]] [[$1|sọnja]].",
 	"babel-2-n": "Òsikwaan̄ yi îriọọn̄ usem [[$2|Obolo]] sọn̄ [[$1|oke-oke]].",
 	"babel-3-n": "Òsikwaan̄ yi îriọọn̄ [[$2|Obolo]] [[$1|idọk sọnja]].",
