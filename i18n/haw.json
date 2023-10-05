@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Kolonahe",
 			"Singularity"
 		]
@@ -10,7 +11,7 @@
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Mahele:Babel - Mea hoʻohana e ka ʻōlelo",
 	"babel-autocreate-reason": "Ke hikahana nei i ka ʻaoʻao mahele [[$1|Babel]]",
-	"babel-autocreate-text-levels": "Hōʻike i nā mea hoʻohana i loko o kēia māhele, loaʻa iā lākou i ke kalamania mākau  $1 no ka ʻōlelo $2.",
+	"babel-autocreate-text-levels": "Hōʻike i nā mea hoʻohana i loko o kēia māhele, loaʻa iā lākou i ke kalamania mākau $1 no ka ʻōlelo $2.",
 	"babel-autocreate-text-main": "Hōʻike i nā mea hoʻohana i loko o kēia māhele, loaʻa iā lākou i ka ʻike o ka ʻōlelo $1.",
 	"babel-0": "[[$1|‘A‘ole hiki]] i kēia mea ho‘ohana ke hā‘awi ma ka [[$2|$3]].",
 	"babel-1": "Hiki i kēia mea ho‘ohana ke hā‘awi me [[$1|kahi kūlana ha‘aha‘a]] ma ka [[$2|$3]].",

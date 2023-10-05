@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Thuvack"
 		]
 	},
@@ -12,12 +13,12 @@
 	"babel-autocreate-text-levels": "Vatirhisi eka ntlawa lowu vana vuthsila bya $1 eka ririmi ra xi $2.",
 	"babel-autocreate-text-main": "Vatirhisi eka ntlawa lowu vana vutivi bya ririmi ra xi $1.",
 	"babel-0": "Mutirhisi loyi u [[$1|hava]] vutivi bya ririmi ra xi[[$2|$3]] (Kumbe uritwisisa sitsanana).",
-	"babel-1": "Mutirhisi loyi una vutivi [[$1|byale hansi]]  hi ririmi ra xi [[$2|$3]].",
-	"babel-2": "Mutirhisi loyi una vutivi [[$1|byale xikarhi]]  hi ririmi ra xi [[$2|$3]].",
-	"babel-3": "Mutirhisi loyi una vutivi [[$1|byale henhla]]  hi ririmi ra xi [[$2|$3]].",
-	"babel-4": "Mutirhisi loyi una vutivi [[$1|byo enta]]  hi ririmi ra xi [[$2|$3]].",
-	"babel-5": "Mutirhisi loyi una vutivi [[$1|dyondzeriwa]]  hi ririmi ra xi [[$2|$3]].",
-	"babel-N": "Mutirhisi loyi una vutivi [[$1|byo mama]]  hi ririmi ra xi [[$2|$3]].",
+	"babel-1": "Mutirhisi loyi una vutivi [[$1|byale hansi]] hi ririmi ra xi [[$2|$3]].",
+	"babel-2": "Mutirhisi loyi una vutivi [[$1|byale xikarhi]] hi ririmi ra xi [[$2|$3]].",
+	"babel-3": "Mutirhisi loyi una vutivi [[$1|byale henhla]] hi ririmi ra xi [[$2|$3]].",
+	"babel-4": "Mutirhisi loyi una vutivi [[$1|byo enta]] hi ririmi ra xi [[$2|$3]].",
+	"babel-5": "Mutirhisi loyi una vutivi [[$1|dyondzeriwa]] hi ririmi ra xi [[$2|$3]].",
+	"babel-N": "Mutirhisi loyi una vutivi [[$1|byo mama]] hi ririmi ra xi [[$2|$3]].",
 	"babel-0-n": "Mutirhisi loyi anga [[$1|ri twisisi]] ririmi ra [[$2|Xitsonga]] (kumbe utwisisa switsanana).",
 	"babel-1-n": "Mutirhisi loyi wa [[$1|ri twisisanyana]] ririmi ra [[$2|Xitsonga]].",
 	"babel-2-n": "Mutirhisi loyi wa [[$1|ri twisisa]] ririmi ra [[$2|Xitsonga]].",

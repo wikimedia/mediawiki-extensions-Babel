@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"An13sa",
 			"Kobazulo",
 			"Sator",
@@ -22,7 +23,7 @@
 	"babel-4": "Lankide honek [[$2|$3]]z [[$1|euskaldun zahar baten antzeko]] maila du.",
 	"babel-5": "Lankide honek [[$2|$3]]zko [[$1|ezagutza profesionala]] du.",
 	"babel-N": "Lankide honek [[$2|$3]] du [[$1|ama hizkuntza]].",
-	"babel-0-n": "Erabiltzaile honek [[$2|euskara]]rik [[$1|ez du  ulertzen]] (edo nekez ulertzen du).",
+	"babel-0-n": "Erabiltzaile honek [[$2|euskara]]rik [[$1|ez du ulertzen]] (edo nekez ulertzen du).",
 	"babel-1-n": "Erabiltzaile honek [[$1|oinarrizko mailan]] lagun dezake [[$2|euskara]]z.",
 	"babel-2-n": "Erabiltzaile honek [[$1|maila ertainean]] lagun dezake [[$2|euskara]]z.",
 	"babel-3-n": "Erabiltzaile honek [[$2|euskara]]z [[$1|maila aurreratuan]] lagun dezake.",

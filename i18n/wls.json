@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Lea.Fakauvea",
 			"Lea.fakauvea"
 		]
@@ -25,6 +26,6 @@
 	"babel-3-n": "Eau ilo'i [[$1|lelei]] te [[$2|Lea faka'uvea]].",
 	"babel-4-n": "Eau ilo'i [[$1|lelei 'osi]] te [[$2|Lea faka'uvea]].",
 	"babel-5-n": "Eau [[$1|poto i te gaue]] i te [[$2|Lea faka'uvea]].",
-	"babel-N-n": "Eau [[$1|mahino lelei 'osi]] ki te  [[$2|Lea faka'uvea]].",
+	"babel-N-n": "Eau [[$1|mahino lelei 'osi]] ki te [[$2|Lea faka'uvea]].",
 	"babel-footer": "Nātou e ilo'i te lea"
 }

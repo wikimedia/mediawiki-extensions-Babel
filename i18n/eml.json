@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Gloria sah",
 			"Lévi",
 			"PiRSquared17"
@@ -14,17 +15,17 @@
 	"babel-autocreate-text-levels": "J utèint in cla categoréia ché a dîsen che pōlen comunichêr a un livèl $1 per la léngua $2.",
 	"babel-autocreate-text-main": "J utèint int cla categorìa chè a dìşen che cgnùsen la lengva a livèl $1.",
 	"babel-0": "Cl'utèint ché [[$1|an n'é mìa in grêd ed comunichêr]] in [[$2|$3]] (o i capés sōl cun grôsa dificultê).",
-	"babel-1": "Cl'utèint ché al pōl dêr 'na mân cun un livèl  [[$1|bâs]] in [[$2|$3]].",
-	"babel-2": "Cl'utèint ché al pōl dêr 'na mân cun un  [[$1|bòun]] livèl in [[$2|$3]].",
+	"babel-1": "Cl'utèint ché al pōl dêr 'na mân cun un livèl [[$1|bâs]] in [[$2|$3]].",
+	"babel-2": "Cl'utèint ché al pōl dêr 'na mân cun un [[$1|bòun]] livèl in [[$2|$3]].",
 	"babel-3": "Cl'utèint ché al pōl dêr 'na mân cun un livèl [[$1|dimòndi bòun]] in [[$2|$3]].",
-	"babel-4": "Cl'utèint ché al pōl dêr 'na mân cun un livèl  [[$1|quêşi cme léngua mêdra]] in [[$2|$3]].",
+	"babel-4": "Cl'utèint ché al pōl dêr 'na mân cun un livèl [[$1|quêşi cme léngua mêdra]] in [[$2|$3]].",
 	"babel-5": "Cl'utèint ché al pōl dêr 'na mân cun un livèl [[$1|professionêl]] in [[$2|$3]].",
 	"babel-N": "Cl'utèint ché al pōl dêr 'na mân cun un livèl ed [[$1| léngua mêdra]] in [[$2|$3]].",
 	"babel-0-n": "Cl'utèint ché [[$1|an n'é mìa in grêd ed comunichêr]] in [[$2|Emiliàn e rumagnòl]].",
-	"babel-1-n": "Cl'utèint ché al pōl dêr 'na mân cun un livèl  [[$1|bâs]] d' [[$2|Emiliàn e rumagnòl]].",
-	"babel-2-n": "Cl'utèint ché al pōl dêr 'na mân cun un livèl  [[$1|bòun]] d' [[$2|Emiliàn e rumagnól]].",
-	"babel-3-n": "Cl'utèint ché al pōl dêr 'na mân cun un livèl  [[$1|dimòndi bòun]] d' [[$2|Emiliàn e rumagnòl]].",
-	"babel-4-n": "Cl'utèint ché al pōl dêr 'na mân cun un livèl [[$1|quêşi cme léngua mêdra]] in  [[$2|Emiliàn e rumagnól]].",
+	"babel-1-n": "Cl'utèint ché al pōl dêr 'na mân cun un livèl [[$1|bâs]] d' [[$2|Emiliàn e rumagnòl]].",
+	"babel-2-n": "Cl'utèint ché al pōl dêr 'na mân cun un livèl [[$1|bòun]] d' [[$2|Emiliàn e rumagnól]].",
+	"babel-3-n": "Cl'utèint ché al pōl dêr 'na mân cun un livèl [[$1|dimòndi bòun]] d' [[$2|Emiliàn e rumagnòl]].",
+	"babel-4-n": "Cl'utèint ché al pōl dêr 'na mân cun un livèl [[$1|quêşi cme léngua mêdra]] in [[$2|Emiliàn e rumagnól]].",
 	"babel-5-n": "Cl'utèint ché al pōl dêr 'na mân cun un livèl [[$1|professionêl]] in [[$2|Emiliàn e rumagnól]].",
 	"babel-N-n": "Cl'utèint ché al pōl dêr 'na mân cun un livèl ed [[$1| léngua mêdra]] in [[$2|Emiliàn e rumagnól]].",
 	"babel-footer": "Lèngui d'uteint"
