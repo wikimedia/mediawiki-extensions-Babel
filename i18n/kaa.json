@@ -3,7 +3,8 @@
 		"authors": [
 			"Atabek",
 			"Nurlan",
-			"Ajiniyaz Nurniyazov"
+			"Ajiniyaz Nurniyazov",
+			"Amire80"
 		]
 	},
 	"babel": "Babel paydalanıwshı maǵlıwmatı",
@@ -14,7 +15,7 @@
 	"babel-0": "Bul paydalanıwshı [[$1|bilmeydi]][[$2|$3]] azmaz biledi (yamasa onı birqansha qıyınshılıq menen túsinedi).",
 	"babel-1": "Bul paydalanıwshı [[$1|baslawısh]] [[$2|$3]] boyınsha kónlikpege iye.",
 	"babel-2": "Bul paydalanıwshı [[$1|orta]] [[$2|$3]] boyınsha bilimge iye.",
-	"babel-3": "Bul paydalanıwshı [[$1|joqarı]] [[$2|$3]] boyınsha  bilimge iye.",
+	"babel-3": "Bul paydalanıwshı [[$1|joqarı]] [[$2|$3]] boyınsha bilimge iye.",
 	"babel-4": "Bul paydalanıwshı [[$1|óz ana tili kibi]] [[$2|$3]] tillerin biledi.",
 	"babel-5": "Bul paydalanıwshı [[$1|professional]] [[$2|$3]] boyınsha bilimge iye.",
 	"babel-N": "Bul paydalanıwshı [[$1|ana tili]] [[$2|$3]] haqqında túsinikke iye.",
