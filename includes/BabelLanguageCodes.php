@@ -107,7 +107,7 @@ class BabelLanguageCodes {
 		}
 		$code = strtolower( $code );
 
-		$language = $language ?? $code;
+		$language ??= $code;
 		$names = MediaWikiServices::getInstance()->getLanguageNameUtils()
 			->getLanguageNames( $language, LanguageNameUtils::ALL );
 		if ( isset( $names[$code] ) ) {
