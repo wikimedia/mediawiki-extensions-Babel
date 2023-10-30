@@ -1,106 +1,106 @@
 {
-	"name": "Babel",
-	"version": "1.12.0",
-	"author": [
-		"Robert Leverington",
-		"Thiemo Kreuz",
-		"Legoktm",
-		"Nikerabbit",
-		"Amir Aharoni",
-		"Ricordisamoa"
-	],
-	"url": "https://www.mediawiki.org/wiki/Extension:Babel",
-	"descriptionmsg": "babel-desc",
-	"license-name": "GPL-2.0-or-later",
-	"type": "parserhook",
-	"requires": {
-		"MediaWiki": ">= 1.39.0"
-	},
-	"MessagesDirs": {
-		"Babel": [
-			"i18n",
-			"i18n/api"
-		]
-	},
-	"ExtensionMessagesFiles": {
-		"BabelMagic": "Babel.i18n.magic.php"
-	},
-	"AutoloadClasses": {
-		"Babel": "includes/Babel.php",
-		"MediaWiki\\Babel\\Babel": "includes/Babel.php"
-	},
-	"AutoloadNamespaces": {
-		"MediaWiki\\Babel\\": "includes/"
-	},
-	"APIMetaModules": {
-		"babel": {
-			"class": "MediaWiki\\Babel\\ApiQueryBabel",
-			"services": [
-				"UserIdentityLookup"
-			]
-		}
-	},
-	"ResourceModules": {
-		"ext.babel": {
-			"styles": "resources/ext.babel.css",
-			"targets": [
-				"mobile",
-				"desktop"
-			]
-		}
-	},
-	"ResourceFileModulePaths": {
-		"localBasePath": "",
-		"remoteExtPath": "Babel"
-	},
-	"Hooks": {
-		"ParserFirstCallInit": "main",
-		"LinksUpdate": "main",
-		"LoadExtensionSchemaUpdates": "schema",
-		"UserGetReservedNames": "main"
-	},
-	"HookHandlers": {
-		"main": {
-			"class": "MediaWiki\\Babel\\Hooks"
-		},
-		"schema": {
-			"class": "MediaWiki\\Babel\\SchemaHooks"
-		}
-	},
-	"config": {
-		"BabelCategorizeNamespaces": {
-			"value": null
-		},
-		"BabelCategoryNames": {
-			"value": {
-				"0": "%code%-0",
-				"1": "%code%-1",
-				"2": "%code%-2",
-				"3": "%code%-3",
-				"4": "%code%-4",
-				"5": "%code%-5",
-				"N": "%code%-N"
-			},
-			"merge_strategy": "array_plus"
-		},
-		"BabelMainCategory": {
-			"value": "%code%"
-		},
-		"BabelDefaultLevel": {
-			"value": "N"
-		},
-		"BabelUseUserLanguage": {
-			"value": false
-		},
-		"BabelCentralDb": {
-			"value": false
-		},
-		"BabelAllowOverride": {
-			"value": true
-		},
-		"BabelAutoCreate": {
-			"value": true
-		}
-	},
-	"manifest_version": 2
+    "name": "Babel",
+    "version": "1.12.0 [https://www.mediawiki.org/wiki/MLEB MLEB 2023.10]",
+    "author": [
+        "Robert Leverington",
+        "Thiemo Kreuz",
+        "Legoktm",
+        "Nikerabbit",
+        "Amir Aharoni",
+        "Ricordisamoa"
+    ],
+    "url": "https://www.mediawiki.org/wiki/Extension:Babel",
+    "descriptionmsg": "babel-desc",
+    "license-name": "GPL-2.0-or-later",
+    "type": "parserhook",
+    "requires": {
+        "MediaWiki": ">= 1.39.0"
+    },
+    "MessagesDirs": {
+        "Babel": [
+            "i18n",
+            "i18n/api"
+        ]
+    },
+    "ExtensionMessagesFiles": {
+        "BabelMagic": "Babel.i18n.magic.php"
+    },
+    "AutoloadClasses": {
+        "Babel": "includes/Babel.php",
+        "MediaWiki\\Babel\\Babel": "includes/Babel.php"
+    },
+    "AutoloadNamespaces": {
+        "MediaWiki\\Babel\\": "includes/"
+    },
+    "APIMetaModules": {
+        "babel": {
+            "class": "MediaWiki\\Babel\\ApiQueryBabel",
+            "services": [
+                "UserIdentityLookup"
+            ]
+        }
+    },
+    "ResourceModules": {
+        "ext.babel": {
+            "styles": "resources/ext.babel.css",
+            "targets": [
+                "mobile",
+                "desktop"
+            ]
+        }
+    },
+    "ResourceFileModulePaths": {
+        "localBasePath": "",
+        "remoteExtPath": "Babel"
+    },
+    "Hooks": {
+        "ParserFirstCallInit": "main",
+        "LinksUpdate": "main",
+        "LoadExtensionSchemaUpdates": "schema",
+        "UserGetReservedNames": "main"
+    },
+    "HookHandlers": {
+        "main": {
+            "class": "MediaWiki\\Babel\\Hooks"
+        },
+        "schema": {
+            "class": "MediaWiki\\Babel\\SchemaHooks"
+        }
+    },
+    "config": {
+        "BabelCategorizeNamespaces": {
+            "value": null
+        },
+        "BabelCategoryNames": {
+            "value": {
+                "0": "%code%-0",
+                "1": "%code%-1",
+                "2": "%code%-2",
+                "3": "%code%-3",
+                "4": "%code%-4",
+                "5": "%code%-5",
+                "N": "%code%-N"
+            },
+            "merge_strategy": "array_plus"
+        },
+        "BabelMainCategory": {
+            "value": "%code%"
+        },
+        "BabelDefaultLevel": {
+            "value": "N"
+        },
+        "BabelUseUserLanguage": {
+            "value": false
+        },
+        "BabelCentralDb": {
+            "value": false
+        },
+        "BabelAllowOverride": {
+            "value": true
+        },
+        "BabelAutoCreate": {
+            "value": true
+        }
+    },
+    "manifest_version": 2
 }
