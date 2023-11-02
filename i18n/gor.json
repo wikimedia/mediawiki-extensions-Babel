@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Marwan Mohamad",
-			"Rachmat04"
+			"Rachmat04",
+			"LaMagiaaa"
 		]
 	},
 	"babel": "Informasi Babel lo ta ohu'uwo",
@@ -27,6 +28,6 @@
 	"babel-4-n": "Tiyo botiya motota mobisala [[$1|mohumayawa mongotiyombu]] [[$2|Hulontalo]].",
 	"babel-5-n": "Tito botiya [[$1|motota da'a]] mobisala [[$2|Hulontalo]].",
 	"babel-N-n": "Tito botiya [[$1|motota]] wawu ahali [[$2|Hulontalo]].",
-	"babel-template": "Templat:Ta ohu'uwo $1",
+	"babel-template": "Template:Ta ohu'uwo $1",
 	"babel-footer": "Ta ohu'uwo modudu'a bahasa"
 }
