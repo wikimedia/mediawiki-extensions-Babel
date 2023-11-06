@@ -3,7 +3,8 @@
 		"authors": [
 			"Lucyin",
 			"Reptilien.19831209BE1",
-			"Srtxg"
+			"Srtxg",
+			"LaMagiaaa"
 		]
 	},
 	"babel": "Racsegnes Babel so l' {{GENDER:$1|uzeu|uzeuse|uzeu}}",
@@ -27,6 +28,6 @@
 	"babel-4-n": "{{GENDER:$4|Cist uzeu|Ciste uzeuse}} ci kinoxhe [[$1|foirt bén]] li [[$2|walon]].",
 	"babel-5-n": "{{GENDER:$4|Cist uzeu|Ciste uzeuse}} ci kinoxhe li [[$2|walon]] [[$1|come ene djin d' mestî]]",
 	"babel-N-n": "{{GENDER:$4|Cist uzeu est on [[$1|cåzant natif]]|Ciste uzeuse est ene [[$1|cåzante native]]}} do [[$2|walon]].",
-	"babel-template": "Modele:Uzeu $1",
+	"babel-template": "Template:Uzeu $1",
 	"babel-footer": "Uzeus pa lingaedje"
 }
