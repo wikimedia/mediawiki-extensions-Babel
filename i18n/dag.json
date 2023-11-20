@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Attah Mohammed",
+			"Issahiddris98"
+		]
+	},
+	"babel": "Ŋʋn mali babil tumdi tuma lahabali",
+	"babel-desc": "Zaŋ pahi <code>#babel</code> ka di tooi sɔŋ nam baabil tuun' tumda adaka yaɣili ka di tooi sɔŋ ka tɛmplɛɛti pahi",
+	"babel-url": "Tuma: vuri-yobu",
+	"babel-footer-url": ":pubu:Babil  - zaŋ tuun' tumdiba zuliya",
+	"babel-autocreate-reason": "Otomatik nambu [[$1|Babel]] yaɣa paaji\n1 more\nParamitanima ŋɔ pala bɛ ni zaŋ shɛli pahi:",
+	"babel-autocreate-text-levels": "Ŋun mali tumdi tuma yaɣili wuhiya Ni bɛ mali baŋsim dubu kamani $1 zaŋ chaŋ zuliya $2.",
+	"babel-1": "Ŋun mali ŋa tumdi tuma ŋɔ \n[[$1|basic]] mali baŋsim [[$2|$3]].",
+	"babel-2": "Ŋun mali tumdi tuma ŋɔ malila sunsuuni baŋsim zaŋ jɛndi   [[$2|$3]].",
+	"babel-4": "Ŋun mali tumdi ŋɔ [[$1|dii pala ŋun nya zuliya tɔɣisira]] baŋsim zaŋ kpa [[$2|$3]].",
+	"babel-5": "Ŋun tumdi ŋɔ [[$1| nyɛla baŋda]] ŋun mali baŋsim [[$2|$3]]."
+}
