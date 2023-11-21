@@ -18,6 +18,12 @@
 	"babel-4": "Tuntuna wa tarı la [[$1| lɛm la tiŋa la puan nɛra]] mi'ilum bɔna [[$2|$3]].",
 	"babel-5": "Tuntuna wa tarı la [[$1|, baŋerɛ zo'e zo'e]] mi'ilum bɔna [[$2|$3]].",
 	"babel-N": "Tuntuna wa tarı la [[$1|tiŋa la puan]] bɔkerɛ bɔna [[$2|$3]].",
-	"babel-0-n": "Tuntuna kana ka tari [[$2|English]] (bii bɔkerɛ n toi)",
-	"babel-1-n": "Tuntuna kana tari la [[$1|basic]] mi'ilum [[$2|English]]."
+	"babel-0-n": "Tuntuna kana ka tari [[$1|no]] mi'ilum [[$2|English]](bii bɔkerɛ n toi)",
+	"babel-1-n": "Tuntuna wa tarı la [[$1| pɔsega]] mi'ilum bɔna [[$2| solimiine]].",
+	"babel-2-n": "Tuntuna wa tarı la [[$1|tiŋasuka]] mi'ilum bɔna [[$2|solimiine]].",
+	"babel-3-n": "Tuntuna wa tarı la [[$1| Adeŋɛ te'ele]] mi'ilum bɔna [[$2|solimiine]].",
+	"babel-4-n": "Tuntuna wa tarı la [[$1| lɛm la tiŋa la puan nɛra]] mi'ilum bɔna [[$2|$3]].",
+	"babel-5-n": "Tuntuna wa tarı la [[$1|, baŋerɛ zo'e zo'e]] mi'ilum bɔna [[$2|$3]].",
+	"babel-N-n": "Tuntuna wa tarı la [[$1|tiŋa la puan]] bɔkerɛ bɔna [[$2|$3]].",
+	"babel-footer": "Tuntuneba dɔla yetɔgum puan"
 }
