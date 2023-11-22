@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Attah Mohammed",
+			"Issahiddris98"
+		]
+	},
+	"babel": "Ŋʋn mali babil tumdi tuma lahabali",
+	"babel-desc": "Zaŋ pahi <code>#babel</code> ka di tooi sɔŋ nam baabil tuun' tumda adaka yaɣili ka di tooi sɔŋ ka tɛmplɛɛti pahi",
+	"babel-url": "Tuma:vuri-yobu",
+	"babel-footer-url": ":pubu:Babil  - zaŋ tuun' tumdiba zuliya",
+	"babel-autocreate-reason": "Otomatik nambu [[$1|Babel]] yaɣa paaji\n1 more\nParamitanima ŋɔ pala bɛ ni zaŋ shɛli pahi:",
+	"babel-autocreate-text-levels": "Ŋun mali tumdi tuma yaɣili wuhiya Ni bɛ mali baŋsim dubu kamani $1 zaŋ chaŋ zuliya $2.",
+	"babel-autocreate-text-main": "Ban mali yaɣili tumdi ŋɔ nyɛla ban wuhi baŋsim  yaɣ' shɛli baŋsim bɛ ni mali $1",
+	"babel-0": "Lala ŋun su  [[$1|no]] mali baŋsim kamani [[$2|$3]] (ban mali gbaau or bee ka ka yɛligɔla).",
+	"babel-1": "Ŋun mali ŋa tumdi tuma ŋɔ \n[[$1|basic]] mali baŋsim [[$2|$3]].",
+	"babel-2": "Ŋun mali ŋa tumdi tuma ŋɔ \n[[$1|basic]] mali baŋsim [[$2|$3]].",
+	"babel-3": "Ŋun mali tumdi maalila [[$1 Ti tooni]] baŋsim zaŋ chaŋ [[$2|$3]].",
+	"babel-4": "Ŋun mali tumdi ŋɔ [[$1|dii pala ŋun nya zuliya tɔɣisira]] baŋsim zaŋ kpa [[$2|$3]].",
+	"babel-5": "Ŋun tumdi ŋɔ [[$1| nyɛla baŋda]] ŋun mali baŋsim [[$2|$3]].",
+	"babel-N": "Ŋun su ŋɔ mali [[$1|nyɛla tiŋbia]] baŋda zaŋ chaŋ [[$2|$3]].",
+	"babel-0-n": "Ŋun su ŋɔ maali [[$1|no]] baŋsim zaŋ chaŋ [[$2|Silimiinsili]] (bee m-baŋ li yaɣi ka muɣisigu shɛli kani).",
+	"babel-1-n": "Ŋun mali tumdi ŋɔ nyɛla[[$1|basic]] baŋsim kamani [[$2|English]].",
+	"babel-2-n": "Ŋun mali tumdi ŋɔ nyɛla [[$1|intermediate]] ŋun mali baŋsim [[$2|English]].",
+	"babel-3-n": "Ŋun su tuma ŋɔ [[$|advance]] baŋsim zaŋ jɛndi [[$2|English]].",
+	"babel-4-n": "Ŋun su yaɣili ŋɔ [[$1|near native speaker]] baŋsim yaɣili  of [[$2|English]].",
+	"babel-5-n": "Ŋun mali ŋa tumdi [[$1|professional]] baŋsim kamani [[$2|English]].",
+	"babel-N-n": "Ŋun mali yaɣili tumdi ŋɔ  [[$1|native]] understanding of [[$2|English]].",
+	"babel-footer": "Ban mali zuliya ŋɔ tumda"
+}
