@@ -11,7 +11,6 @@ use Parser;
 use ParserOptions;
 use ParserOutput;
 use Title;
-use TitleValue;
 
 /**
  * @covers \MediaWiki\Babel\Babel
@@ -26,44 +25,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	use LinkCacheTestTrait;
 
 	public function addDBDataOnce(): void {
-		// The '#babel' parser function normally auto-creates category pages via
-		// a DeferredUpdate. In PHPUnit context, because of wgCommandLineMode
-		// being true, DeferredUpdates are not actually "deferred". They run
-		// immediately. This is a problem because this would mean when we parse
-		// wikitext, BabelAutoCreate would parse and save another wiki page,
-		// whilst still inside a parser function. This is not allowed in MediaWiki
-		// and Parser::parse protects against this with an exception.
-		//
-		// FIXME: Make BabelAutoCreate less dependent on global state so we can simply
-		// disable this feature while testing, we don't need these pages for the test.
-		//
-		// We cannot simply make DeferredUpdates "deferred" (by disabling wgCommandLineMode),
-		// because that also means updates from core itself (such as the saving of category
-		// links) would be deferred, which we do need to observe below.
-		//
-		// Work around this by faking entries in LinkCache so that Title::exists()
-		// returns true in BabelAutoCreate and no auto-creation is attempted.
-		$this->setMwGlobals( 'wgCapitalLinks', false );
-
-		$names = [
-			'en',
-			'en-N',
-			'en-1',
-			'es',
-			'es-2',
-			'de',
-			'de-N',
-			'simple',
-			'simple-1',
-			'zh-Hant',
-			'zh-Hant-3',
-		];
-
 		$services = MediaWikiServices::getInstance();
-		foreach ( $names as $name ) {
-			$this->addGoodLinkObject( 1, new TitleValue( NS_CATEGORY, $name ) );
-		}
-
 		$user = $services->getUserFactory()->newFromName( 'User-1' );
 		$user->addToDatabase();
 		$this->insertPage( 'User:User-1', '{{#babel:en-1|es-2|de|SIMPLE-1|zh-hant-3}}' );
