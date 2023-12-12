@@ -8,9 +8,6 @@
 		"browser": true,
 		"jquery": true
 	},
-	"globals": {
-		"mediaWiki": false
-	},
 	"rules": {
 		"compat/compat": "warn"
 	}
