@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Soumaya",
-			"Dnshitobu"
+			"Dnshitobu",
+			"Abdul Fatawu 352",
+			"Raizkgh"
 		]
 	},
 	"babel": "Babel sõorã sõor",
@@ -17,7 +19,7 @@
 	"babel-3": "Sõngd-kãngã tara bãngr sẽn yaa sõma n yɩɩd [[$1]] n paas [[$2]] n paas.",
 	"babel-4": "Sõngd-kãngã tara [[$1|near native speaker]] bãngr[[$2|$3]]",
 	"babel-5": "Sõngd-kãngã tara bãngr sẽn yaa kãseng ne [[$1]] sẽn yaa [[$2]] sẽn yaa n pa tõe n maan woto ye.",
-	"babel-N": "Sõngd-kãngã tara [[$1| ne nãsg]] sẽn yaa [[$1|ne nãsd-nãsg[[$2|$3]].",
+	"babel-N": "Tʋmtʋmda tara [[$1|tẽng-biga]] m bãngr [[$2|$3]]",
 	"babel-0-n": "Sõngd-kãngã tara [[$1|no]] bãngre[[$2|English]](a wʋmda a goamã ne zu-loees wʋsgo).",
 	"babel-1-n": "Sõngd-kãngã tara bãngr sẽn yaa kãseng ne [[$1]] sẽn yaa [[$2]] sẽn yaa n pa tõe n maan woto ye.",
 	"babel-2-n": "Sõngd-kãngã tara [[$1|inttermediate]]sẽn mi  sẽn gomd [[$2|English]] wã.",
