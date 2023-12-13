@@ -3,12 +3,13 @@
 		"authors": [
 			"Amire80",
 			"Iberia2011",
-			"Nkrctp"
+			"Nkrctp",
+			"Lookruk"
 		]
 	},
 	"babel": "ຂໍ້ມູນຜູ້ໃຊ້ Babel",
 	"babel-desc": "ຕື່ມລະຫັດ <code>#babel</code> parser function ເພື່ອໃຫ້ສາມາດສ້າງ a babel userbox column with the ability to include custom templates ແບບອະໂຕມາຕິກ",
-	"babel-url": "ໂຄງການ: Babel",
+	"babel-url": "Project:ບາເບລ",
 	"babel-footer-url": "ປະເພດ: Babel - ຜູ້ໃຊ້ງານຈາມພາສາ",
 	"babel-autocreate-reason": "ປະເພດໜ້າ [[$1|Babel]] ສ້າງແບບອັດຕະໂນມັດ",
 	"babel-autocreate-text-levels": "ຜູ້ໍ້ໃຊ້ໃນໝວດນີ້ ສະແດວງ່າ ພວກເຂົາມີທັກສະລະດັບ $1 ສຳລັບພາສາ $2.",
