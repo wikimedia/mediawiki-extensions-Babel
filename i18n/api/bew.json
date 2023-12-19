@@ -5,7 +5,7 @@
 		]
 	},
 	"apihelp-query+babel-description": "Dapetin inpormasi pasal basa apa aja nyang ni pemaké bisa",
-	"apihelp-query+babel-summary": "Dapetin inpormasi pasal basa apa aja nyang ni pemaké bisa",
+	"apihelp-query+babel-summary": "Dapetin pengabaran pasal basa apa aja nyang ni pemaké monès",
 	"apihelp-query+babel-param-user": "Pemaké nyang inpormasinya bakal didapetin",
-	"apihelp-query+babel-example-1": "Dapetin inpormasi Babel bakal pemaké <kbd>Tulad</kbd>"
+	"apihelp-query+babel-example-1": "Dapetin pengabaran Babil bakal pemaké <kbd>Tulad</kbd>"
 }
