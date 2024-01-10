@@ -5,11 +5,11 @@
 			"Léon973"
 		]
 	},
-	"babel": "Lenfòrmasyon Babel asou {{GENDER:$1|itilizatò}}-a",
-	"babel-desc": "Ajouté fongsyon-an di annanlizò sentagsik-a <code>#babel</code> ki ka pèrmèt kréyasyon otonmatik-a di roun kolonn di bwèt itilizatò Babel ké posibilité-a di enkli dé modèl lokal",
+	"babel": "Lenfòrmasyon Babel asou {{GENDER:$1|itilizatò}}",
+	"babel-desc": "Ajouté fongsyon-an di annanlizò sentagsik-a <code>#babel</code> ki ka pèrmèt kréyasyon otonmatik di roun kolonn di bwèt itilizatò Babel ké posibilité-a di enkli tchèk modèl lokal",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Katégori:Babel - Itilizatò pa lanng",
-	"babel-autocreate-reason": "Kréyasyon otonmatik di paj-a dé katégori [[$1|Babel]]",
+	"babel-autocreate-reason": "Kréyasyon otonmatik di paj-a di katégori [[$1|Babel]]",
 	"babel-autocreate-text-levels": "Itilizatò-ya ki annan sa katégori endiké ki yé gen nivèl-a $1 pou lanng $2.",
 	"babel-autocreate-text-main": "Itilizatò-ya ki annan sa katégori endiké yé konnésans di lanng-an $1.",
 	"babel-0": "{{GENDER:$4|Sa itilizatò}} gen [[$1|pyès]] konnésans an [[$2|$3]] (oben ka konprann li ké rounlo difikilté).",
