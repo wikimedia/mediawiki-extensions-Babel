@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Afalau"
+		]
+	},
+	"apihelp-query+babel-summary": "Nôl gwybodaeth am ieithoedd y defnyddiwr",
+	"apihelp-query+babel-param-user": "Defnyddiwr i gael gwybodaeth amdano",
+	"apihelp-query+babel-example-1": "Nôl gwybodaeth Babel ar gyfer defnyddiwr <kbd>Enghraifft</kbd>"
+}
