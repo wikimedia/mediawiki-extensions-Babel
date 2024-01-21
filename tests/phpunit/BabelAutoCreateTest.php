@@ -4,8 +4,8 @@ declare( strict_types = 1 );
 namespace Babel\Tests;
 
 use MediaWiki\Babel\BabelAutoCreate;
+use MediaWiki\Title\Title;
 use MediaWikiIntegrationTestCase;
-use Title;
 use User;
 
 /**
