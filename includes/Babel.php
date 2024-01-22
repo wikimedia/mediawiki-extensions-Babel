@@ -23,9 +23,9 @@ use MediaWiki\Babel\BabelBox\NullBabelBox;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
+use MediaWiki\WikiMap\WikiMap;
 use Parser;
 use ParserOutput;
-use WikiMap;
 
 /**
  * Main class for the Babel extension.

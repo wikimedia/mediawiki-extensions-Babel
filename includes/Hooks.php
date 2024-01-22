@@ -14,8 +14,8 @@ use MediaWiki\Hook\LinksUpdateHook;
 use MediaWiki\Hook\ParserFirstCallInitHook;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\User\Hook\UserGetReservedNamesHook;
+use MediaWiki\WikiMap\WikiMap;
 use Parser;
-use WikiMap;
 
 /**
  * Hook handler functions for Babel extension.
