@@ -9,6 +9,7 @@
 			"Karduelis",
 			"Khutuck",
 			"LuCKY",
+			"Nataev",
 			"Vito Genovese"
 		]
 	},
@@ -34,5 +35,5 @@
 	"babel-4-n": "Bu kullanıcı [[$1|anadili gibi]] [[$2|Türkçe]] konuşabilir.",
 	"babel-5-n": "Bu kullanıcı [[$1|profesyonel]] [[$2|Türkçe]] bilgisine sahiptir.",
 	"babel-N-n": "Bu kullanıcının [[$1|anadili]] [[$2|Türkçe]]dir.",
-	"babel-footer": "Dillere göre kullanıcılar"
+	"babel-footer": "Konuşabildikleri dillere göre Vikipedistler"
 }
