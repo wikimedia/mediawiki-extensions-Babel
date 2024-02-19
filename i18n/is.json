@@ -4,11 +4,12 @@
 			"Purodha",
 			"Snævar",
 			"Sveinn í Felli",
-			"Amire80"
+			"Amire80",
+			"Stefán Örvar Sigmundsson"
 		]
 	},
 	"babel": "Málkassi",
-	"babel-desc": "Bætir við <code>#babel</code> þáttunar aðgerðinni til að leyfa að skapa sjálfvirkt babel notendabox með möguleikanum að innifela sérstök snið",
+	"babel-desc": "Bætir við <code>#babel</code>-þáttaraaðgerð til að heimila sjálfvirka framleiðslu babel-notandakassadálks með getuna til að innifela sérsnídd snið",
 	"babel-url": "Project:Málkassi",
 	"babel-footer-url": ":Category:Notendur eftir tungumáli",
 	"babel-autocreate-reason": "Bý sjálfkrafa til [[$1|Málkassa]] flokk.",
