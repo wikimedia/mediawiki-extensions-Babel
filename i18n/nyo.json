@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahiise2"
+		]
+	},
+	"babel-0": "Onu omukozesa [[$1|tayetegereza]] busa [[$2|$3]] (rundi ayetegereza n'akasarre).",
+	"babel-1": "Onu omukozesa aina obumanyi [[$1|oburahuka]] bw'[[$2|$3]].",
+	"babel-2": "Onu omukozesa aina obumanyi bwa [[$1|hagati]] bw'[[$2|$3]].",
+	"babel-3": "Onu omukozesa aine obumanyi [[$1|obugumire]] bw'[[$2|$3]]."
+}
