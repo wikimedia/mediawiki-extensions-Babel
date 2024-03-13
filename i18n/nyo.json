@@ -7,5 +7,15 @@
 	"babel-0": "Onu omukozesa [[$1|tayetegereza]] busa [[$2|$3]] (rundi ayetegereza n'akasarre).",
 	"babel-1": "Onu omukozesa aina obumanyi [[$1|oburahuka]] bw'[[$2|$3]].",
 	"babel-2": "Onu omukozesa aina obumanyi bwa [[$1|hagati]] bw'[[$2|$3]].",
-	"babel-3": "Onu omukozesa aine obumanyi [[$1|obugumire]] bw'[[$2|$3]]."
+	"babel-3": "Onu omukozesa aina obumanyi [[$1|obugumire]] bw'[[$2|$3]].",
+	"babel-4": "Onu omukozesa aina obumanyi [[$1|obuherraine n'obw'enyakabara]] bw'[[$2|$3]].",
+	"babel-5": "Onu omukozesa aina obumanyi bw'[[$1|amacwacwa]] bw'[[$2|$3]].",
+	"babel-N": "Onu omukozesa aina obumanyi bw'[[$1|enyakabara]] bw'[[$2|$3]].",
+	"babel-0-n": "Onu omukozesa [[$1|tayetegereza]] busa [[$2|Orunyoro]] (rundi ayetegereza n'akasarre).",
+	"babel-1-n": "Onu omukozesa aina obumanyi [[$1|oburahuka]] bw'[[$2|Orunyoro]].",
+	"babel-2-n": "Onu omukozesa aina obumanyi bwa [[$1|hagati]] bw'[[$2|Orunyoro]].",
+	"babel-3-n": "Onu omukozesa aina obumanyi [[$1|obugumire]] bw'[[$2|Orunyoro]].",
+	"babel-4-n": "Onu omukozesa aina obumanyi [[$1|obuherraine n'obw'enyakabara]] bw'[[$2|Orunyoro]].",
+	"babel-5-n": "Onu omukozesa aina obumanyi bw'[[$1|amacwacwa]] bw'[[$2|Orunyoro]].",
+	"babel-N-n": "Onu omukozesa aina obumanyi bw'[[$1|enyakabara]] bw'[[$2|Orunyoro]]."
 }
