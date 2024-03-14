@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kisare",
 			"Lloffiwr",
 			"Malangali",
 			"Wangombe"
 		]
 	},
 	"babel": "Maelezo ya Babeli ya mtumiaji",
-	"babel-desc": "Huongeza chaguo za kukokotoa za <code>#babel</code> ili kuruhusu uzalishaji kiotomatiki wa safu wima ya kisanduku cha mtumiaji wa babel wenye uwezo wa kujumuisha violezo maalum.",
+	"babel-desc": "Huongeza chaguo za kukokotoa za <code>#babel</code> ili kuruhusu uzalishaji kiotomatiki wa safu wima ya kisanduku cha mtumiaji wa babel, wenye uwezo wa kujumuisha violezo maalumu.",
 	"babel-url": "Project:Babeli",
 	"babel-footer-url": ":Jamii:Wanawikipedia lugha kwa lugha",
 	"babel-autocreate-reason": "Ukurasa wa jamii ya [[$1|Babeli]] unaanzishwa moja kwa moja",
