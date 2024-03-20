@@ -3,7 +3,8 @@
 		"authors": [
 			"Wintima Akudugu",
 			"Agurwin Isaac",
-			"Bugirbiig"
+			"Bugirbiig",
+			"Amire80"
 		]
 	},
 	"babel": "Beebil tʋmtʋm labaar",
@@ -15,14 +16,14 @@
 	"babel-autocreate-text-main": "Tʋmtʋmnib banɛ bɛ bakir kaŋa ni pa'ali ba mi'ilim buudi $1 ni.",
 	"babel-0": "Tʋntʋn kaŋa mɔr [[$1|no]] baŋiri bɛ [[$2|$3]] (bɛɛ o gban'adi li gbin ka daʋŋ bɛ bi'ela).",
 	"babel-1": "Tʋmtʋm kaŋa mɔrnɛ [[$1|pin'ilʋg]] baŋir linɛ an [[$2|$3]]",
-	"babel-2": "Tʋmtʋm kaŋa mɔrnɛ [[$1|tensʋk]] baŋir linɛ  an [[$2|$3]] ni.",
+	"babel-2": "Tʋmtʋm kaŋa mɔrnɛ [[$1|tensʋk]] baŋir linɛ an [[$2|$3]] ni.",
 	"babel-3": "Tʋntʋn kaŋa mɔrnɛ [[$1sʋ'ʋŋa]] baŋir bɛ [[$2|$3]].",
 	"babel-4": "Tʋntʋn kaŋ mɔr [[$1|nwɛnɛ buudi la dimi pian'ad si'em]] baŋir [[$2|$3]] ni.",
 	"babel-5": "Tʋntʋn kaŋa mɔrnɛ [[$1|mi'i sʋ'ʋŋa]] baŋir [[$2|$3]] ni.",
 	"babel-N": "Tʋntʋn kaŋ mɔrnɛ [[$1| buudi la dim]] gban'ad gbin si'em [[$2|$3]].",
 	"babel-0-n": "Tʋntʋn kaŋa mɔrnɛ [[$1|ayei]]baŋir bɛ [[$2|Na'asaal]] (bɛɛ gban'adi li gbin ka daʋŋ bi'ela bɛ).",
 	"babel-1-n": "Tʋntʋn kaŋa mɔrnɛ [[$1|pin'ilug]] baŋiri bɛ [[$2|Na'asaalin]].",
-	"babel-2-n": "Tʋntʋn kaŋa mɔrnɛ  [[$1|tensuk]] baŋiri bɛ [[$2|Na'asaalin]].",
+	"babel-2-n": "Tʋntʋn kaŋa mɔrnɛ [[$1|tensuk]] baŋiri bɛ [[$2|Na'asaalin]].",
 	"babel-3-n": "Tʋntʋn kaŋa mɔrnɛ [[$1|sʋ'ʋŋa]] baŋiri bɛ [[$2|Na'asaalin]].",
 	"babel-4-n": "Tʋntʋn kaŋa mɔrnɛ [[$1|nwɛnɛ buudi la dimi pian'ad si'em]] baŋiri bɛ [[$2|Na'asaalin]].",
 	"babel-5-n": "Tʋntʋn kaŋa mɔrnɛ [[$1|mi'i sʋ'ʋŋa]] baŋiri bɛ [[$2|Na'asaalin]].",
