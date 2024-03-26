@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"~aanzx"
+		]
+	},
+	"apihelp-query+babel-summary": "ಬಳಕೆದಾರರಿಗೆ ಯಾವ ಭಾಷೆಗಳು ತಿಳಿದಿವೆ ಎಂಬುದರ ಬಗ್ಗೆ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಿರಿ",
+	"apihelp-query+babel-param-user": "ಬಳಕೆದಾರರ ಬಗ್ಗೆ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಿರಿ",
+	"apihelp-query+babel-example-1": "ಬಳಕೆದಾರರ <kbd>ಉದಾಹರಣೆಗಾಗಿ</kbd> ಬಾಬೆಲ್ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಿರಿ"
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kuldeepburjbhalaike"
+		]
+	},
+	"apihelp-query+babel-summary": "ਵਰਤੋਂਕਾਰ ਕਿਹੜੀਆਂ ਭਾਸ਼ਾਵਾਂ ਜਾਣਦਾ ਹੈ ਇਸ ਬਾਰੇ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕਰੋ",
+	"apihelp-query+babel-param-user": "ਬਾਰੇ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਵਰਤੋਂਕਾਰ",
+	"apihelp-query+babel-example-1": "ਵਰਤੋਂਕਾਰ <kbd>ਉਦਾਹਰਨ</kbd> ਦੀ ਬੈਬਲ ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕਰੋ"
+}
