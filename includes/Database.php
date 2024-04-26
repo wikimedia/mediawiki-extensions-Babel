@@ -52,12 +52,12 @@ class Database {
 	 * @return string[] [ lang => level ]
 	 */
 	public function getForUser( int $id ): array {
-		$rows = $this->getDB( DB_REPLICA )->select(
-			'babel',
-			[ 'babel_lang', 'babel_level' ],
-			[ 'babel_user' => $id ],
-			__METHOD__
-		);
+		$rows = $this->getDB( DB_REPLICA )->newSelectQueryBuilder()
+			->select( [ 'babel_lang', 'babel_level' ] )
+			->from( 'babel' )
+			->where( [ 'babel_user' => $id ] )
+			->caller( __METHOD__ )
+			->fetchResultSet();
 
 		$return = [];
 		foreach ( $rows as $row ) {
@@ -73,18 +73,15 @@ class Database {
 	 * @return string[] [ lang => level ]
 	 */
 	public function getForRemoteUser( string $wiki, string $username ): array {
-		$rows = $this->getDB( DB_REPLICA, $wiki )->select(
-			[ 'babel', 'user' ],
-			[ 'babel_lang', 'babel_level' ],
-			[
+		$rows = $this->getDB( DB_REPLICA, $wiki )->newSelectQueryBuilder()
+			->select( [ 'babel_lang', 'babel_level' ] )
+			->from( 'babel' )
+			->join( 'user', null, 'babel_user=user_id' )
+			->where( [
 				'user_name' => $username
-			],
-			__METHOD__,
-			[],
-			[
-				'user' => [ 'INNER JOIN', 'babel_user=user_id' ]
-			]
-		);
+			] )
+			->caller( __METHOD__ )
+			->fetchResultSet();
 
 		$return = [];
 		foreach ( $rows as $row ) {
@@ -112,12 +109,12 @@ class Database {
 		}
 
 		$rowsDelete = [];
-		$res = $dbw->select(
-			'babel',
-			[ 'babel_lang', 'babel_level' ],
-			[ 'babel_user' => $id ],
-			__METHOD__
-		);
+		$res = $dbw->newSelectQueryBuilder()
+			->select( [ 'babel_lang', 'babel_level' ] )
+			->from( 'babel' )
+			->where( [ 'babel_user' => $id ] )
+			->caller( __METHOD__ )
+			->fetchResultSet();
 		foreach ( $res as $row ) {
 			if ( isset( $newRows[$row->babel_lang] ) ) {
 				if ( $newRows[$row->babel_lang]['babel_level'] === $row->babel_level ) {
