@@ -3,6 +3,7 @@
 		"authors": [
 			"Anto",
 			"Beta16",
+			"CalendulaAsteraceae",
 			"Cruccone",
 			"Darth Kule",
 			"FRacco",
@@ -26,13 +27,13 @@
 	"babel-4": "Questo utente può contribuire con un livello [[$1|quasi madrelingua]] in [[$2|$3]].",
 	"babel-5": "Questo utente può contribuire con un livello [[$1|professionale]] in [[$2|$3]].",
 	"babel-N": "Questo utente può contribuire con un livello [[$1|madrelingua]] in [[$2|$3]].",
-	"babel-0-n": "Questo utente [[$1|non è in grado di comunicare]] in [[$2|italiano]] (o lo capisce solo con notevole difficoltà).",
-	"babel-1-n": "Questo utente può contribuire con un livello [[$1|elementare]] in [[$2|italiano]].",
-	"babel-2-n": "Questo utente può contribuire con un livello [[$1|intermedio]] in [[$2|italiano]].",
-	"babel-3-n": "Questo utente può contribuire con un livello [[$1|avanzato]] in [[$2|italiano]].",
-	"babel-4-n": "Questo utente può contribuire con un livello [[$1|quasi madrelingua]] in [[$2|italiano]].",
-	"babel-5-n": "Questo utente può contribuire con un livello [[$1|professionale]] in [[$2|italiano]].",
-	"babel-N-n": "Questo utente può contribuire con un livello [[$1|madrelingua]] in [[$2|italiano]].",
+	"babel-0-n": "{{GENDER:$4|Questo utente|Questa utente|Quest'utente}} [[$1|non è in grado di comunicare]] in [[$2|italiano]] (o lo capisce solo con notevole difficoltà).",
+	"babel-1-n": "{{GENDER:$4|Questo utente|Questa utente|Quest'utente}} può contribuire con un livello [[$1|elementare]] in [[$2|italiano]].",
+	"babel-2-n": "{{GENDER:$4|Questo utente|Questa utente|Quest'utente}} può contribuire con un livello [[$1|intermedio]] in [[$2|italiano]].",
+	"babel-3-n": "{{GENDER:$4|Questo utente|Questa utente|Quest'utente}} può contribuire con un livello [[$1|avanzato]] in [[$2|italiano]].",
+	"babel-4-n": "{{GENDER:$4|Questo utente|Questa utente|Quest'utente}} può contribuire con un livello [[$1|quasi madrelingua]] in [[$2|italiano]].",
+	"babel-5-n": "{{GENDER:$4|Questo utente|Questa utente|Quest'utente}} può contribuire con un livello [[$1|professionale]] in [[$2|italiano]].",
+	"babel-N-n": "{{GENDER:$4|Questo utente|Questa utente|Quest'utente}} può contribuire con un livello [[$1|madrelingua]] in [[$2|italiano]].",
 	"babel-template": "Template:Utente $1",
 	"babel-footer": "Utenti per lingua"
 }
