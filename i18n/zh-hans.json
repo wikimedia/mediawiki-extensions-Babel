@@ -1,11 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Anterdc99",
 			"Dalt",
 			"FakeGreenHand",
 			"Gzdavidwong",
 			"Hydra",
 			"Jimmy xu wrk",
+			"Lakejason0",
 			"Liuxinyu970226",
 			"Shinjiman",
 			"Shizhao",
@@ -35,5 +37,7 @@
 	"babel-4-n": "这位用户的[[$2|简体中文]]达到[[$1|接近母语水平]]。",
 	"babel-5-n": "这位用户的[[$2|简体中文]]达到[[$1|专业水平]]。",
 	"babel-N-n": "[[$2|简体中文]]是这位用户的[[$1|母语]]。",
-	"babel-footer": "用户（按语言）"
+	"babel-footer": "用户（按语言）",
+	"babel-template-params-category": "使用具名参数的babel的页面",
+	"babel-template-params-category-desc": "此页面将name=value参数传递给#babel解析器函数。这些参数的行为[[phab:T327847|在不久的将来可能会发生变化]]。"
 }

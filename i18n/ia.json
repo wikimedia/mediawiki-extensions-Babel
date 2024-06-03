@@ -27,5 +27,7 @@
 	"babel-5-n": "Iste usator ha cognoscentias [[$1|professional]] de [[$2|interlingua]].",
 	"babel-N-n": "Iste usator ha cognoscentias a nivello [[$1|native]] de [[$2|interlingua]].",
 	"babel-template": "Template:$1",
-	"babel-footer": "Usatores per lingua"
+	"babel-footer": "Usatores per lingua",
+	"babel-template-params-category": "Paginas que usa Babel con parametros nominate",
+	"babel-template-params-category-desc": "Le pagina passa un parametro nomine=valor al function del analysator syntactic #babel. Le comportamento de iste parametros [[phab:T327847|pote cambiar in le proxime futuro]]."
 }

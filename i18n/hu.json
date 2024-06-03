@@ -9,7 +9,7 @@
 		]
 	},
 	"babel": "Bábel szerkesztői információk",
-	"babel-desc": "<code>#babel</code> értelmes függvény bábel-információkat tartalmazó oszlop automatikus generálásához, saját sablononok beillesztésének lehetőségével",
+	"babel-desc": "<code>#babel</code> elemzőfüggvény bábelinformációkat tartalmazó oszlop automatikus generálásához, saját sablonok beillesztésének lehetőségével",
 	"babel-url": "Project:Bábel",
 	"babel-footer-url": ":Category:Bábel – Felhasználók nyelvek szerint",
 	"babel-autocreate-reason": "[[$1|Bábel]]kategória-oldal automatikus létrehozása",
@@ -29,5 +29,7 @@
 	"babel-4-n": "Ez a szerkesztő [[$1|közel anyanyelvi]] szinten beszéli a [[$2|magyar]] nyelvet.",
 	"babel-5-n": "Ez a szerkesztő [[$1|professzionális]] szinten beszéli a [[$2|magyar]] nyelvet.",
 	"babel-N-n": "Ennek a szerkesztőnek [[$2|magyar]] az [[$1|anyanyelve]].",
-	"babel-footer": "Szerkesztők nyelvek szerint"
+	"babel-footer": "Szerkesztők nyelvek szerint",
+	"babel-template-params-category": "Bábelt nevesített paraméterekkel használó lapok",
+	"babel-template-params-category-desc": "A lap egy név=érték formátumú paramétert ad át a <code>#babel</code> elemzőfüggvénynek. Ezeknek a paramétereknek a működése [[phab:T327847|változhat a közeljövőben]]."
 }

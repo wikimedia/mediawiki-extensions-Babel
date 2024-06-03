@@ -35,5 +35,7 @@
 	"babel-5-n": "Deze gebruiker heeft [[$1|professionele]] kennis van het [[$2|Nederlands]].",
 	"babel-N-n": "Deze gebruiker heeft het [[$2|Nederlands]] als [[$1|moedertaal]].",
 	"babel-template": "Template:Gebruiker $1",
-	"babel-footer": "Gebruikers per taal"
+	"babel-footer": "Gebruikers per taal",
+	"babel-template-params-category": "Pagina's die Babel met parameters op naam gebruiken",
+	"babel-template-params-category-desc": "De pagina geeft een parameter van de vorm naam=waarde door aan de parserfunctie #babel. Het gedrag van deze parameters [[phab:T327847|kan in de nabije toekomst veranderen]]."
 }
