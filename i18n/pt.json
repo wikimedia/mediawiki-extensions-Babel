@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			555,
 			"Hamilton Abreu",
 			"Malafaya",
 			"Opraco",
 			"Vitorvicentevalente",
 			"Waldir",
-			"Waldyrious",
-			555
+			"Waldyrious"
 		]
 	},
 	"babel": "Informação Babel {{GENDER:$1|do utilizador|da utilizadora}}",
