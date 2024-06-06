@@ -9,7 +9,7 @@
 		]
 	},
 	"babel": "Bábel szerkesztői információk",
-	"babel-desc": "<code>#babel</code> értelmes függvény bábel-információkat tartalmazó oszlop automatikus generálásához, saját sablononok beillesztésének lehetőségével",
+	"babel-desc": "<code>#babel</code> elemzőfüggvény bábelinformációkat tartalmazó oszlop automatikus generálásához, saját sablonok beillesztésének lehetőségével",
 	"babel-url": "Project:Bábel",
 	"babel-footer-url": ":Category:Bábel – Felhasználók nyelvek szerint",
 	"babel-autocreate-reason": "[[$1|Bábel]]kategória-oldal automatikus létrehozása",

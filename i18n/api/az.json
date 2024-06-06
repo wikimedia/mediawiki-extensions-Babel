@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nemoralis"
+		]
+	},
+	"apihelp-query+babel-summary": "İstifadəçinin hansı dilləri bildiyi barədə məlumat əldə et",
+	"apihelp-query+babel-param-user": "haqqında məlumat alınacaq istifadəçi"
+}
