@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"IJzeren Jan"
+		]
+	},
+	"babel": "Jezyčne sposobnosti koristnika",
+	"babel-desc": "Doda funkciju parsera <code>#babel</code>, ktora pozvaljaje avtomatično stvorjenje ramok s informacijeju o jezyčnyh sposobnostah koristnika s možnostju vključenja vlastnyh šablonov",
+	"babel-url": "Project:Babilon",
+	"babel-footer-url": ":Kategorija:Babilon – Koristniki po jezyku",
+	"babel-autocreate-reason": "Avtomatično stvorjenje stranice dlja kategorije [[$1|Babilon]]",
+	"babel-autocreate-text-levels": "Koristniki v tutoj kategoriji ukazyvajut, že znajut jezyk $2 na uravnju $1.",
+	"babel-autocreate-text-main": "Koristniki v tutoj kategoriji ukazyvajut, že znajut jezyk $1.",
+	"babel-0": "{{GENDER:$4|Tutoj koristnik|Tuta koristnica}} [[$1|ne znaje]] ili ledva razuměje [[$2|$3]].",
+	"babel-1": "{{GENDER:$4|Tutoj koristnik|Tuta koristnica}} znaje [[$2|$3]] na [[$1|osnovnom]] uravnju.",
+	"babel-2": "{{GENDER:$4|Tutoj koristnik|Tuta koristnica}} znaje [[$2|$3]] na [[$1|srědnjem]] uravnju.",
+	"babel-3": "{{GENDER:$4|Tutoj koristnik|Tuta koristnica}} znaje [[$2|$3]] na [[$1|vysokom]] uravnju.",
+	"babel-4": "{{GENDER:$4|Tutoj koristnik|Tuta koristnica}} znaje [[$2|$3]] na uravnju [[$1|sravnimom s rodnym govoriteljem]].",
+	"babel-5": "{{GENDER:$4|Tutoj koristnik|Tuta koristnica}} znaje [[$2|$3]] na [[$1|profesionalnom]] uravnju.",
+	"babel-N": "[[$2|$3]] jest [[$1|rodny]] jezyk {{GENDER:$4|Tutogo koristnika|Tutoj koristnice}}.",
+	"babel-0-n": "{{GENDER:$4|Tutoj koristnik|Tuta koristnica}} [[$1|ne znaje]] ili ledva razuměje [[$2|medžuslovjansky jezyk]].",
+	"babel-1-n": "{{GENDER:$4|Tutoj koristnik|Tuta koristnica}} posluživaje se [[$2|medžuslovjanskym jezykom]] na [[$1|osnovnom]] uravnju.",
+	"babel-2-n": "{{GENDER:$4|Tutoj koristnik|Tuta koristnica}} posluživaje se [[$2|medžuslovjanskym jezykom]] na [[$1|srědnjem]] uravnju.",
+	"babel-3-n": "{{GENDER:$4|Tutoj koristnik|Tuta koristnica}} posluživaje se [[$2|medžuslovjanskym jezykom]] na [[$1|vysokom]] uravnju.",
+	"babel-4-n": "{{GENDER:$4|Tutoj koristnik|Tuta koristnica}} posluživaje se [[$2|medžuslovjanskym jezykom]] na uravnju [[$1|sravnimom s rodnym govoriteljem]] .",
+	"babel-5-n": "{{GENDER:$4|Tutoj koristnik|Tuta koristnica}} posluživaje se [[$2|medžuslovjanskym jezykom]] na [[$1|profesionalnom]] uravnju.",
+	"babel-N-n": "{{GENDER:$4|Tutoj koristnik|Tuta koristnica}} posluživaje se [[$2|medžuslovjanskym jezykom]] na uravnju [[$1|rodnogo govoritelja]].",
+	"babel-footer": "Koristniki po jezyku"
+}
