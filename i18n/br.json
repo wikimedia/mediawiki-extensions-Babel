@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Fulup",
+			"Huñvreüs",
 			"Y-M D"
 		]
 	},
@@ -26,5 +27,6 @@
 	"babel-4-n": "[[$2|Brezhoneg]] a oar an implijer-mañ [[$1|evel pa vefe bet desket gantañ war barlenn e vamm]].",
 	"babel-5-n": "Ul live [[$2|Brezhoneg]] [[$1|a-vicher]] zo gant an implijer-mañ.",
 	"babel-N-n": "[[$1|A-vihanik]] e oar [[$2|brezhoneg]] an implijer-mañ.",
-	"babel-footer": "Implijerien dre yezh"
+	"babel-footer": "Implijerien dre yezh",
+	"babel-template-params-category": "Pajennoù a ra gant babel gant arventennoù anvet"
 }
