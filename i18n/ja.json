@@ -9,6 +9,7 @@
 			"Shirayuki",
 			"Sujiniku",
 			"Vigorous action",
+			"Waki285",
 			"Yusuke1109",
 			"ネイ",
 			"青子守歌"
@@ -37,5 +38,7 @@
 	"babel-5-n": "この利用者は[[$1|専門的な]][[$2|日本語]]の知識を有しています。",
 	"babel-N-n": "この利用者は[[$2|日本語]]を[[$1|母語]]としています。",
 	"babel-template": "Template:利用者 $1",
-	"babel-footer": "言語別の利用者"
+	"babel-footer": "言語別の利用者",
+	"babel-template-params-category": "名前付き引数を持つBabelを使用するページ",
+	"babel-template-params-category-desc": "このページは、name=value 引数を #babel パーサー関数に渡します。これらの引数の動作は[[phab:T327847|近い将来変更される可能性があります]]。"
 }
