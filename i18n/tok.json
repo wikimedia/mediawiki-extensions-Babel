@@ -1,9 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"Faian36"
 		]
 	},
+	"babel": "sona toki pi jan ni",
+	"babel-desc": "sitelen <code>#babel</code> la ilo li pana e poki sona jan. jan li ken \nkepeken TEMPLATE ante lon poki.",
+	"babel-url": "Project:Babel",
+	"babel-autocreate-text-levels": "jan li lon kulupu ni la sona ona pi toki $2 li nanpa $1.",
+	"babel-autocreate-text-main": "jan li lon kulupu ni la ona li sona toki $1.",
 	"babel-0": "jan ni li [[$1|sona ala]] e [[$2|$3]].",
 	"babel-1": "jan ni li [[$1|sona lili]] e [[$2|$3]].",
 	"babel-2": "jan ni li [[$1|sona pi ike ala]] e [[$2|$3]].",
