@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"IJzeren Jan"
+		]
+	},
+	"apihelp-query+babel-summary": "Dostati informaciju o jezykah, ktore koristnik znaje",
+	"apihelp-query+babel-param-user": "Koristnik, o ktorom trěba dostati informacije",
+	"apihelp-query+babel-example-1": "Dostati informacije o Babilonu za koristnika <kbd>Example</kbd>"
+}
