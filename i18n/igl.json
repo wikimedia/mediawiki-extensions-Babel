@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"AgnesAbah"
+			"AgnesAbah",
+			"Apple TD"
 		]
 	},
 	"babel": "Babel óla énéèkwù",
@@ -16,12 +17,12 @@
 	"babel-4": "Éné ékwu kí dé i [[$1| íchí ñwu ki ya ka ché mé rí]] I la ní úma [[$2|$3]].",
 	"babel-5": "Éne ékwu kí de í ché ní uma[[$1|nyo’yo]] nwi [[$2|$3]]",
 	"babel-N": "Ené ekwu kí de í [[$1|ché]] ma nyo’yo [[$2|$3]]",
-	"babel-0-n": "Éné ékwu kí dé í [[$1| í ní]] úma [[$2|enefu]] ñ ( bakí uma ñwu ché gbí tí pé)",
-	"babel-1-n": "Éne ékwu kí de í ché ní uma[[$1|keke]] nwi [[$2|enefu]]",
-	"babel-2-n": "Éné éku kìdeyí í [[$1|ígbejù]] gbè é [[$2|énefuñ]]",
-	"babel-3-n": "Éné éku í [[$1| nyo’yo]] gbé é[[$2|énefu]]",
-	"babel-4-n": "Éné ékwu kí dé i [[$1| íchí ñwu ki ya ka ché mé rí]] I la ní úma ichí [[$2|Enefu]].",
-	"babel-5-n": "Éne ékwu kí de í ché ní uma[[$1|nyo’yo]] nwi [[$2|enefu]]",
-	"babel-N-n": "éné ekwu kí dé í chí [[$1|native]] umà efù [[$2|English]].",
+	"babel-0-n": "Éné ékwu kí dé í [[$1| í ní]] úma [[$2|Ígáláà]] ñ ( bakí uma ñwu ché gbí tí pé)",
+	"babel-1-n": "Éne ékwu kí de í ché ní uma[[$1|keke]] nwi [[$2|Ígáláà]]",
+	"babel-2-n": "Éné éku kìdeyí í [[$1|ígbejù]] gbè é [[$2|Ígáláà]]",
+	"babel-3-n": "Éné éku í [[$1| nyo’yo]] gbé é[[$2|Ígáláà]]",
+	"babel-4-n": "Éné ékwu kí dé i [[$1| íchí ñwu ki ya ka ché mé rí]] I la ní úma ichí [[$2|Ígáláà]].",
+	"babel-5-n": "Éne ékwu kí de í ché ní uma[[$1|nyo’yo]] nwi [[$2|Ígáláà]]",
+	"babel-N-n": "Éné ekwu kí dé í chí [[$1|native]] umà efù [[$2|Ígáláà]].",
 	"babel-footer": "Amí ichi ené ékwù"
 }
