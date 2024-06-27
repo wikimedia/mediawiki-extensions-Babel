@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Qiorly"
+		]
+	},
+	"apihelp-query+babel-summary": "Достати информацију о језыках, кторе користник знаје",
+	"apihelp-query+babel-param-user": "Користник, о ктором трєба достати информације",
+	"apihelp-query+babel-example-1": "Достати информације оБабиблону за користника <kbd>Example</kbd>"
+}
