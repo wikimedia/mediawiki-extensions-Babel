@@ -5,7 +5,6 @@ namespace Babel\Tests;
 
 use LinkCacheTestTrait;
 use MediaWiki\Babel\Babel;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use MediaWikiIntegrationTestCase;
 use Parser;
@@ -25,7 +24,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	use LinkCacheTestTrait;
 
 	public function addDBDataOnce(): void {
-		$services = MediaWikiServices::getInstance();
+		$services = $this->getServiceContainer();
 		$user = $services->getUserFactory()->newFromName( 'User-1' );
 		$user->addToDatabase();
 		$this->insertPage( 'User:User-1', '{{#babel:en-1|es-2|de|SIMPLE-1|zh-hant-3}}' );
@@ -256,8 +255,8 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	}
 
 	public function testGetUserLanguages(): void {
-		$mwInstance = MediaWikiServices::getInstance();
-		$userIdentity = $mwInstance->getUserIdentityLookup()->getUserIdentityByName( 'User-1' );
+		$services = $this->getServiceContainer();
+		$userIdentity = $services->getUserIdentityLookup()->getUserIdentityByName( 'User-1' );
 
 		// Sorted by language code
 		$this->assertSame( [
@@ -288,8 +287,8 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	}
 
 	public function testGetUserLanguageInfo(): void {
-		$mwInstance = MediaWikiServices::getInstance();
-		$userIdentity = $mwInstance->getUserIdentityLookup()->getUserIdentityByName( 'User-1' );
+		$services = $this->getServiceContainer();
+		$userIdentity = $services->getUserIdentityLookup()->getUserIdentityByName( 'User-1' );
 
 		$languages = Babel::getUserLanguageInfo( $userIdentity );
 		// Sorted by language code
