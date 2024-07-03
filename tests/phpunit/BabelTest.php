@@ -33,12 +33,12 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	protected function setUp(): void {
 		parent::setUp();
 
-		$this->setMwGlobals( [
+		$this->overrideConfigValues( [
 			// Individual tests may change these
-			'wgBabelAllowOverride' => false,
-			'wgBabelCentralDb' => false,
-			'wgCapitalLinks' => false,
-			'wgLanguageCode' => 'qqx'
+			'BabelAllowOverride' => false,
+			'BabelCentralDb' => false,
+			'CapitalLinks' => false,
+			'LanguageCode' => 'qqx'
 		] );
 	}
 
@@ -139,7 +139,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	 * @dataProvider providePageNames
 	 */
 	public function testRenderDefaultLevelNoCategory( string $pageName ): void {
-		$this->setMwGlobals( [ 'wgBabelMainCategory' => false ] );
+		$this->overrideConfigValue( 'BabelMainCategory', false );
 
 		$title = Title::newFromText( $pageName );
 		$parser = $this->getParser( $title );
@@ -302,7 +302,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	}
 
 	public function testCategoryOverride(): void {
-		$this->setMwGlobals( 'wgBabelAllowOverride', true );
+		$this->overrideConfigValue( 'BabelAllowOverride', true );
 		$title = Title::newFromText( 'User:User-1' );
 		$parser = $this->getParser( $title );
 		$wikiText = Babel::Render( $parser, 'en-1' );
@@ -323,9 +323,9 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	 * @dataProvider provideInvalidTitles
 	 */
 	public function testFailedOverride( $invalidTitle ): void {
-		$this->setMwGlobals( [
-			'wgBabelAllowOverride' => true,
-			'wgLanguageCode' => 'en'
+		$this->overrideConfigValues( [
+			'BabelAllowOverride' => true,
+			'LanguageCode' => 'en'
 		] );
 		$this->getServiceContainer()->getService( "MessageCache" )->enable();
 		$this->insertPage( "MediaWiki:Babel-category-override", $invalidTitle );
@@ -338,7 +338,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	}
 
 	public function testOverrideMessage(): void {
-		$this->setMwGlobals( 'wgLanguageCode', 'en' );
+		$this->overrideConfigValue( 'LanguageCode', 'en' );
 		$this->getServiceContainer()->getService( "MessageCache" )->enable();
 		$this->insertPage( "MediaWiki:Babel-1-n", "Overridden message" );
 		$title = Title::newFromText( 'User:User-1' );
@@ -348,7 +348,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	}
 
 	public function testAutoCreationEnabled(): void {
-		$this->setMwGlobals( 'wgBabelAutoCreate', true );
+		$this->overrideConfigValue( 'BabelAutoCreate', true );
 		$title = Title::newFromText( 'User:User-1' );
 		$parser = $this->getParser( $title );
 		$wikiText = Babel::Render( $parser, 'zxx-1' );
@@ -356,7 +356,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	}
 
 	public function testAutoCreationDisabled(): void {
-		$this->setMwGlobals( 'wgBabelAutoCreate', false );
+		$this->overrideConfigValue( 'BabelAutoCreate', false );
 		$title = Title::newFromText( 'User:User-1' );
 		$parser = $this->getParser( $title );
 		$wikiText = Babel::Render( $parser, 'zxx-1' );
