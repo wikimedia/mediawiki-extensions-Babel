@@ -5,8 +5,8 @@ namespace Babel\Tests;
 
 use MediaWiki\Babel\BabelAutoCreate;
 use MediaWiki\Title\Title;
+use MediaWiki\User\User;
 use MediaWikiIntegrationTestCase;
-use User;
 
 /**
  * @covers \MediaWiki\Babel\BabelAutoCreate

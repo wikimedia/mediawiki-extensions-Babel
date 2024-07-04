@@ -22,7 +22,7 @@ use ContentHandler;
 use DeferredUpdates;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
-use User;
+use MediaWiki\User\User;
 
 /**
  * Class for automatic creation of Babel category pages.
