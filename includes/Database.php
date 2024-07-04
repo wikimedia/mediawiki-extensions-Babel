@@ -127,19 +127,19 @@ class Database {
 		}
 
 		if ( $rowsDelete ) {
-			$dbw->delete(
-				'babel',
-				[ 'babel_user' => $id, 'babel_lang' => $rowsDelete ],
-				__METHOD__
-			);
+			$dbw->newDeleteQueryBuilder()
+				->deleteFrom( 'babel' )
+				->where( [ 'babel_user' => $id, 'babel_lang' => $rowsDelete ] )
+				->caller( __METHOD__ )
+				->execute();
 		}
 		if ( $newRows ) {
-			$dbw->replace(
-				'babel',
-				[ [ 'babel_user', 'babel_lang' ] ],
-				array_values( $newRows ),
-				__METHOD__
-			);
+			$dbw->newReplaceQueryBuilder()
+				->replaceInto( 'babel' )
+				->uniqueIndexFields( [ 'babel_user', 'babel_lang' ] )
+				->rows( array_values( $newRows ) )
+				->caller( __METHOD__ )
+				->execute();
 		}
 
 		return $rowsDelete || $newRows;
