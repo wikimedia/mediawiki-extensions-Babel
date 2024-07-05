@@ -93,7 +93,7 @@ class LanguageBabelBox implements BabelBox {
 		$dir_head = $this->title->getPageLanguage()->getDir();
 
 		return <<<EOT
-<div class="mw-babel-box mw-babel-box-{$this->level} mw-babel-box-{$catCode}" dir="$dir_head">
+<div class="mw-babel-box mw-babel-box-{$this->level} mw-babel-box-{$catCode} notheme" dir="$dir_head">
 {|
 ! dir="$dir_head" | $header
 | dir="$dir_current" lang="$bcp47" | $text
