@@ -4,10 +4,12 @@
 			"Ajiniyaz Nurniyazov",
 			"Amire80",
 			"Atabek",
-			"Nurlan"
+			"Nurlan",
+			"Inabat Allanova"
 		]
 	},
 	"babel": "Babel paydalanıwshı maǵlıwmatı",
+	"babel-desc": "Avtomat tárizde tiller haqqında ózgertse bolatuǵın maǵlıwmat ústinin jaratatuǵın <code>#babel</code> parseri funkciyasın qosadı",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Paydalanıwshılar til boyınsha",
 	"babel-autocreate-text-levels": "Bul topardaǵı paydalanıwshılar $2 til ushın $1 uqıp dárejesine iye ekenligin bildiredi.",
