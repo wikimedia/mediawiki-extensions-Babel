@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ella Lachow"
+			"Ella Lachow",
+			"Malaalaa"
 		]
 	},
 	"babel": "Baabel yaraa naqaashaa",
@@ -25,5 +26,6 @@
 	"babel-4-n": "Ha yaraassi [[$2|Wolayttatto doonan]] [[$1|yeleta doonaadan]] eray de'ees.",
 	"babel-5-n": "Ha yaraassi [[$2|Wolayttatto doonan]] [[$1|ooso]] eray de'ees.",
 	"babel-N-n": "Ha yaraassi [[$2|Wolayttatto doonan]] [[$1|yeleta doonaa]] eray de'ees.",
-	"babel-footer": "Yarata doonaa maaraan"
+	"babel-footer": "Yarata doonaa maaraan",
+	"babel-template-params-category": "Baabeeliya go'ettiya sinttata"
 }
