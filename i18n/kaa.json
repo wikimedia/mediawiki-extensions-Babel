@@ -4,10 +4,12 @@
 			"Atabek",
 			"Nurlan",
 			"Ajiniyaz Nurniyazov",
-			"Amire80"
+			"Amire80",
+			"Inabat Allanova"
 		]
 	},
 	"babel": "Babel paydalanıwshı maǵlıwmatı",
+	"babel-desc": "Avtomat tárizde tiller haqqında ózgertse bolatuǵın maǵlıwmat ústinin jaratatuǵın <code>#babel</code> parseri funkciyasın qosadı",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Paydalanıwshılar til boyınsha",
 	"babel-autocreate-text-levels": "Bul topardaǵı paydalanıwshılar $2 til ushın $1 uqıp dárejesine iye ekenligin bildiredi.",
@@ -19,7 +21,12 @@
 	"babel-4": "Bul paydalanıwshı [[$1|óz ana tili kibi]] [[$2|$3]] tillerin biledi.",
 	"babel-5": "Bul paydalanıwshı [[$1|professional]] [[$2|$3]] boyınsha bilimge iye.",
 	"babel-N": "Bul paydalanıwshı [[$1|ana tili]] [[$2|$3]] haqqında túsinikke iye.",
+	"babel-0-n": "Bul paydalanıwshı [[$2|qaraqalpaq tilin]] [[$1|ulıwma bilmeydi]] (yamasa onı úlken qıyınshılıq penen túsinedi).",
+	"babel-1-n": "Bul paydalanıwshı [[$2|qaraqalpaq tilin]] [[$1|baslawısh dárejede]] biledi.",
+	"babel-2-n": "Bul paydalanıwshı [[$2|qaraqalpaq tilin]] [[$1|orta dárejede]] biledi.",
+	"babel-3-n": "Bul paydalanıwshı [[$2|qaraqalpaq tilin]] [[$1|joqarı dárejede]] biledi.",
 	"babel-4-n": "Bul paydalanıwshı [[$2|qaraqalpaq tilin]][[$1| derlik ana tili sıyaqlı]] biledi.",
+	"babel-5-n": "Bul paydalanıwshı [[$2|qaraqalpaq tilin]] [[$1|professional dárejede]] biledi.",
 	"babel-N-n": "Bul paydalanıwshınıń [[$1|ana tili]] [[$2|qaraqalpaq tili]].",
 	"babel-footer": "Paydalanıwshılar til boyınsha"
 }
