@@ -9,7 +9,8 @@
 			"Nedergard",
 			"Nike",
 			"Pxos",
-			"Pyscowicz"
+			"Pyscowicz",
+			"Samoasambia"
 		]
 	},
 	"babel": "Käyttäjän kielitaito",
@@ -34,5 +35,6 @@
 	"babel-5-n": "Tämä käyttäjä osaa [[$2|suomea]] [[$1|ammattimaisesti]].",
 	"babel-N-n": "Tämän käyttäjän [[$1|äidinkieli]] on [[$2|suomi]].",
 	"babel-template": "Template:Käyttäjä $1",
-	"babel-footer": "Käyttäjät kielittäin"
+	"babel-footer": "Käyttäjät kielittäin",
+	"babel-template-params-category": "Sivut, jotka käyttävät babelia nimetyillä parametreilla"
 }
