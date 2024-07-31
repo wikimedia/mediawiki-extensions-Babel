@@ -58,7 +58,10 @@
 		"main": {
 			"class": "MediaWiki\\Babel\\Hooks",
 			"services": [
-				"MainConfig"
+				"MainConfig",
+				"UserIdentityLookup",
+				"CentralIdLookupFactory",
+				"MainWANObjectCache"
 			]
 		},
 		"schema": {

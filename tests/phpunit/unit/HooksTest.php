@@ -7,8 +7,11 @@ use HashConfig;
 use MediaWiki\Babel\Babel;
 use MediaWiki\Babel\BabelAutoCreate;
 use MediaWiki\Babel\Hooks;
+use MediaWiki\User\CentralId\CentralIdLookupFactory;
+use MediaWiki\User\UserIdentityLookup;
 use MediaWikiUnitTestCase;
 use Parser;
+use WANObjectCache;
 
 /**
  * @covers \MediaWiki\Babel\Hooks
@@ -20,6 +23,15 @@ use Parser;
  */
 class HooksTest extends MediaWikiUnitTestCase {
 
+	private function newInstance() {
+		return new Hooks(
+			new HashConfig,
+			$this->createMock( UserIdentityLookup::class ),
+			$this->createMock( CentralIdLookupFactory::class ),
+			$this->createMock( WANObjectCache::class )
+		);
+	}
+
 	public function testOnParserFirstCallInit(): void {
 		$parser = $this->getMockBuilder( Parser::class )
 			->disableOriginalConstructor()
@@ -29,14 +41,14 @@ class HooksTest extends MediaWikiUnitTestCase {
 			->with( 'babel', [ Babel::class, 'Render' ] )
 			->willReturn( true );
 
-		( new Hooks( new HashConfig ) )->onParserFirstCallInit( $parser );
+		$this->newInstance()->onParserFirstCallInit( $parser );
 	}
 
 	public function testOnUserGetReservedNames(): void {
 		$names = [];
 		$this->assertSame( [], $names, 'Precondition' );
 
-		( new Hooks( new HashConfig ) )->onUserGetReservedNames( $names );
+		$this->newInstance()->onUserGetReservedNames( $names );
 		$this->assertSame( [ 'msg:' . BabelAutoCreate::MSG_USERNAME ], $names );
 	}
 
