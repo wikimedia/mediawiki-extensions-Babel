@@ -37,9 +37,14 @@ class Babel {
 	 */
 	protected static $title;
 
+	/**
+	 * Get a Config instance to use
+	 *
+	 * @todo Use proper Dependency Injection.
+	 * @return Config
+	 */
 	private static function getConfig(): Config {
-		// TODO: Use proper dependency injection.
-		return MediaWikiServices::getInstance()->getMainConfig();
+		return BabelServices::wrap( MediaWikiServices::getInstance() )->getConfig();
 	}
 
 	/**

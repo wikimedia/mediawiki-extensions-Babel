@@ -20,6 +20,7 @@ namespace MediaWiki\Babel\BabelBox;
 use LanguageCode;
 use MediaWiki\Babel\BabelAutoCreate;
 use MediaWiki\Babel\BabelLanguageCodes;
+use MediaWiki\Babel\BabelServices;
 use MediaWiki\Config\Config;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
@@ -73,9 +74,14 @@ class LanguageBabelBox implements BabelBox {
 		$this->level = $level;
 	}
 
+	/**
+	 * Get a Config instance to use
+	 *
+	 * @todo Use proper Dependency Injection.
+	 * @return Config
+	 */
 	private static function getConfig(): Config {
-		// TODO: Use proper dependency injection.
-		return MediaWikiServices::getInstance()->getMainConfig();
+		return BabelServices::wrap( MediaWikiServices::getInstance() )->getConfig();
 	}
 
 	/**
@@ -235,7 +241,7 @@ EOT;
 
 		$categoryDef = $level !== null ? self::getConfig()->get( 'BabelCategoryNames' )[$level] :
 			self::getConfig()->get( 'BabelMainCategory' );
-		if ( $categoryDef === false ) {
+		if ( $categoryDef === false || $categoryDef === '' ) {
 			return null;
 		}
 
