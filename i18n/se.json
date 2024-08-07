@@ -2,13 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"GerardM",
-			"Kimberli Mäkäräinen (WMNO)"
+			"Kimberli Mäkäräinen (WMNO)",
+			"WMNO sámeprošeakta"
 		]
 	},
 	"babel": "Gielladieđut",
+	"babel-desc": "Lasiha dulkonfunkšuvnna <code>#babel</code> automáhtalaččat genereren dihte babelbovssá mas lea vejolašvuohta fátmmastit iežas meroštallojuvvon málliid.",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel – Geavaheaddjit giela mielde",
 	"babel-autocreate-reason": "[[$1|Gielladáiddu]] kategoriijasiidu ráhkaduvvui automáhtalaččat",
+	"babel-autocreate-text-levels": "Geavaheaddjit dán kategoriijas čájehit ahte sii hálddašit $2 giela $1. dásis.",
+	"babel-autocreate-text-main": "Geavaheaddjit dán kategoriijas čájehit ahte sii hálddašit $1 giela.",
 	"babel-0": "Dát geavaheaddji máhttá [[$2|$3]] [[$1|hui veaháš dahje ii máhte dan ollege]].",
 	"babel-1": "Dát geavaheaddji máhttá [[$1|veaháš]] [[$2|$3]].",
 	"babel-2": "Dát geavaheaddji máhttá [[$2|$3]] [[$1|viehka bures]].",
