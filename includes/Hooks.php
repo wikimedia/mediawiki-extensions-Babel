@@ -9,6 +9,7 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel;
 
+use MediaWiki\Config\Config;
 use MediaWiki\Deferred\LinksUpdate\LinksUpdate;
 use MediaWiki\Hook\LinksUpdateHook;
 use MediaWiki\Hook\ParserFirstCallInitHook;
@@ -25,6 +26,13 @@ class Hooks implements
 	LinksUpdateHook,
 	UserGetReservedNamesHook
 {
+
+	private Config $config;
+
+	public function __construct( Config $config ) {
+		$this->config = $config;
+	}
+
 	/**
 	 * Registers the parser function hook.
 	 *
@@ -38,8 +46,6 @@ class Hooks implements
 	 * @param LinksUpdate $linksUpdate
 	 */
 	public function onLinksUpdate( $linksUpdate ): void {
-		global $wgBabelCentralDb;
-
 		$title = $linksUpdate->getTitle();
 		$toCreate = $linksUpdate->getParserOutput()->getExtensionData( 'babel-tocreate' ) ?: [];
 
@@ -68,7 +74,7 @@ class Hooks implements
 		if ( $changed ) {
 			$cache = $mwInstance->getMainWANObjectCache();
 			$cache->touchCheckKey( $cache->makeKey( 'babel-local-languages', $userIdentity->getId() ) );
-			if ( $wgBabelCentralDb === WikiMap::getCurrentWikiId() ) {
+			if ( $this->config->get( 'BabelCentralDb' ) === WikiMap::getCurrentWikiId() ) {
 				// If this is the central wiki, invalidate all of the local caches
 				$centralId = $mwInstance->getCentralIdLookupFactory()
 					->getLookup()->centralIdFromLocalUser( $userIdentity );

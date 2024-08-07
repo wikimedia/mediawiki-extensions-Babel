@@ -56,7 +56,10 @@
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "MediaWiki\\Babel\\Hooks"
+			"class": "MediaWiki\\Babel\\Hooks",
+			"services": [
+				"MainConfig"
+			]
 		},
 		"schema": {
 			"class": "MediaWiki\\Babel\\SchemaHooks"

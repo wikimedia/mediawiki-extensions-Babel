@@ -20,6 +20,7 @@ namespace MediaWiki\Babel;
 use MediaWiki\Babel\BabelBox\LanguageBabelBox;
 use MediaWiki\Babel\BabelBox\NotBabelBox;
 use MediaWiki\Babel\BabelBox\NullBabelBox;
+use MediaWiki\Config\Config;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
@@ -36,6 +37,11 @@ class Babel {
 	 */
 	protected static $title;
 
+	private static function getConfig(): Config {
+		// TODO: Use proper dependency injection.
+		return MediaWikiServices::getInstance()->getMainConfig();
+	}
+
 	/**
 	 * Render the Babel tower.
 	 *
@@ -44,7 +50,6 @@ class Babel {
 	 * @return string Babel tower.
 	 */
 	public static function Render( Parser $parser, string ...$parameters ): string {
-		global $wgBabelUseUserLanguage, $wgBabelAllowOverride;
 		self::$title = $parser->getTitle();
 
 		self::mTemplateLinkBatch( $parameters );
@@ -57,7 +62,7 @@ class Babel {
 			return $content;
 		}
 
-		if ( $wgBabelUseUserLanguage ) {
+		if ( self::getConfig()->get( 'BabelUseUserLanguage' ) ) {
 			$uiLang = $parser->getOptions()->getUserLangObj();
 		} else {
 			$uiLang = self::$title->getPageLanguage();
@@ -93,7 +98,7 @@ $top
 $showFooter
 |}
 EOT;
-		if ( $wgBabelAllowOverride ) {
+		if ( self::getConfig()->get( 'BabelAllowOverride' ) ) {
 			// Make sure the page shows up as transcluding MediaWiki:babel-category-override
 			$title = Title::makeTitle( NS_MEDIAWIKI, "Babel-category-override" );
 			$revision = $parser->fetchCurrentRevisionRecordOfTitle( $title );
@@ -173,6 +178,7 @@ EOT;
 		} elseif ( $components !== false ) {
 			// Valid parameter syntax (with lowercase language code), babel box
 			$box = new LanguageBabelBox(
+				self::getConfig(),
 				self::$title,
 				$components['code'],
 				$components['level'],
@@ -192,6 +198,7 @@ EOT;
 			$components2 = self::mParseParameter( $name, true );
 			if ( $components2 !== false ) {
 				$box = new LanguageBabelBox(
+					self::getConfig(),
 					self::$title,
 					$components2['code'],
 					$components2['level'],
@@ -270,7 +277,6 @@ EOT;
 	 * @return array|bool [ 'code' => xx, 'level' => xx ] false on failure
 	 */
 	protected static function mParseParameter( string $parameter, bool $strtolower = false ) {
-		global $wgBabelDefaultLevel, $wgBabelCategoryNames;
 		$return = [];
 
 		$babelCode = $strtolower ? strtolower( $parameter ) : $parameter;
@@ -278,7 +284,7 @@ EOT;
 		$code = BabelLanguageCodes::getCode( $babelCode );
 		if ( $code !== false ) {
 			$return['code'] = $code;
-			$return['level'] = $wgBabelDefaultLevel;
+			$return['level'] = self::getConfig()->get( 'BabelDefaultLevel' );
 			return $return;
 		}
 		// Try splitting the parameter in to language and level, split on last hyphen.
@@ -297,7 +303,8 @@ EOT;
 		}
 		// Validate level.
 		$level = strtoupper( $level );
-		if ( !isset( $wgBabelCategoryNames[$level] ) ) {
+		$categoryNames = self::getConfig()->get( 'BabelCategoryNames' );
+		if ( !isset( $categoryNames[$level] ) ) {
 			return false;
 		}
 		$return['level'] = $level;
@@ -427,28 +434,28 @@ EOT;
 	}
 
 	private static function getUserLanguagesDB( UserIdentity $user ): array {
-		global $wgBabelCentralDb;
+		$centralDb = self::getConfig()->get( 'BabelCentralDb' );
 
 		$babelDB = new Database();
 		$result = $babelDB->getForUser( $user->getId() );
 		/** If local data or no central source, return */
-		if ( $result || !$wgBabelCentralDb ) {
+		if ( $result || !$centralDb ) {
 			return $result;
 		}
 
-		if ( $wgBabelCentralDb === WikiMap::getCurrentWikiId() ) {
+		if ( $centralDb === WikiMap::getCurrentWikiId() ) {
 			// We are the central wiki, so no fallback we can do
 			return [];
 		}
 
 		$lookup = MediaWikiServices::getInstance()->getCentralIdLookupFactory()->getLookup();
 		if ( !$lookup->isAttached( $user )
-			|| !$lookup->isAttached( $user, $wgBabelCentralDb )
+			|| !$lookup->isAttached( $user, $centralDb )
 		) {
 			return [];
 		}
 
-		return $babelDB->getForRemoteUser( $wgBabelCentralDb, $user->getName() );
+		return $babelDB->getForRemoteUser( $centralDb, $user->getName() );
 	}
 }
 

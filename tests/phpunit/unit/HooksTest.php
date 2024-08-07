@@ -3,6 +3,7 @@ declare( strict_types = 1 );
 
 namespace Babel\Tests\Unit;
 
+use HashConfig;
 use MediaWiki\Babel\Babel;
 use MediaWiki\Babel\BabelAutoCreate;
 use MediaWiki\Babel\Hooks;
@@ -28,14 +29,14 @@ class HooksTest extends MediaWikiUnitTestCase {
 			->with( 'babel', [ Babel::class, 'Render' ] )
 			->willReturn( true );
 
-		( new Hooks )->onParserFirstCallInit( $parser );
+		( new Hooks( new HashConfig ) )->onParserFirstCallInit( $parser );
 	}
 
 	public function testOnUserGetReservedNames(): void {
 		$names = [];
 		$this->assertSame( [], $names, 'Precondition' );
 
-		( new Hooks )->onUserGetReservedNames( $names );
+		( new Hooks( new HashConfig ) )->onUserGetReservedNames( $names );
 		$this->assertSame( [ 'msg:' . BabelAutoCreate::MSG_USERNAME ], $names );
 	}
 

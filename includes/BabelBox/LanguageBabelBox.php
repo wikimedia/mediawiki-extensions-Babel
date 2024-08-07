@@ -20,6 +20,7 @@ namespace MediaWiki\Babel\BabelBox;
 use LanguageCode;
 use MediaWiki\Babel\BabelAutoCreate;
 use MediaWiki\Babel\BabelLanguageCodes;
+use MediaWiki\Config\Config;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use ParserOutput;
@@ -28,6 +29,8 @@ use ParserOutput;
  * Class for babel language boxes.
  */
 class LanguageBabelBox implements BabelBox {
+
+	private Config $config;
 
 	/**
 	 * @var Title
@@ -52,19 +55,27 @@ class LanguageBabelBox implements BabelBox {
 	/**
 	 * Construct a babel box for the given language and level.
 	 *
+	 * @param Config $config
 	 * @param Title $title
 	 * @param string $code Language code to use.
 	 *   This is a mediawiki-internal code (not necessarily a valid BCP-47 code)
 	 * @param string $level Level of ability to use.
 	 */
 	public function __construct(
+		Config $config,
 		Title $title,
 		string $code,
 		string $level
 	) {
+		$this->config = $config;
 		$this->title = $title;
 		$this->code = BabelLanguageCodes::getCode( $code ) ?? $code;
 		$this->level = $level;
+	}
+
+	private static function getConfig(): Config {
+		// TODO: Use proper dependency injection.
+		return MediaWikiServices::getInstance()->getMainConfig();
 	}
 
 	/**
@@ -158,11 +169,10 @@ EOT;
 	 * @param ParserOutput $parserOutput Output to add categories to
 	 */
 	public function addCategories( ParserOutput $parserOutput ): void {
-		global $wgBabelCategorizeNamespaces;
-
+		$namespaces = $this->config->get( 'BabelCategorizeNamespaces' );
 		if (
-			$wgBabelCategorizeNamespaces !== null &&
-			!$this->title->inNamespaces( $wgBabelCategorizeNamespaces )
+			$namespaces !== null &&
+			!$this->title->inNamespaces( $namespaces )
 		) {
 			return;
 		}
@@ -187,7 +197,6 @@ EOT;
 	private function addCategory( ParserOutput $parserOutput,
 		string $code, ?string $level, $sortkey
 	) {
-		global $wgBabelAutoCreate;
 		$isOverridden = false;
 		$category = self::getCategoryName( $level, $code, $isOverridden );
 		if ( $category === null ) {
@@ -198,7 +207,7 @@ EOT;
 		}
 		$parserOutput->addCategory( $category, $sortkey ?? '' );
 
-		if ( $wgBabelAutoCreate ) {
+		if ( $this->config->get( 'BabelAutoCreate' ) ) {
 			// Now arrange for autocreation (in LinksUpdate hook) unless the category was overridden locally
 			// (to reduce the risk if a compromised admin edits MediaWiki:Babel-category-override)
 			$title = Title::makeTitleSafe( NS_CATEGORY, $category );
@@ -222,9 +231,10 @@ EOT;
 	 * overridden by the wiki, or null if no category is desired.
 	 */
 	private static function getCategoryName( ?string $level, string $code, bool &$isOverridden ): ?string {
-		global $wgLanguageCode, $wgBabelAllowOverride, $wgBabelMainCategory, $wgBabelCategoryNames;
+		global $wgLanguageCode;
 
-		$categoryDef = $level !== null ? $wgBabelCategoryNames[$level] : $wgBabelMainCategory;
+		$categoryDef = $level !== null ? self::getConfig()->get( 'BabelCategoryNames' )[$level] :
+			self::getConfig()->get( 'BabelMainCategory' );
 		if ( $categoryDef === false ) {
 			return null;
 		}
@@ -238,7 +248,7 @@ EOT;
 		$oldCategory = $category;
 
 		// Chance to locally override categorization
-		if ( $wgBabelAllowOverride ) {
+		if ( self::getConfig()->get( 'BabelAllowOverride' ) ) {
 			$category = wfMessage( "babel-category-override",
 				$category, $code, $level
 			)->inContentLanguage()->text();
