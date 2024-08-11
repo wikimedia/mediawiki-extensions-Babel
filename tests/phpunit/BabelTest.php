@@ -5,6 +5,7 @@ namespace Babel\Tests;
 
 use LinkCacheTestTrait;
 use MediaWiki\Babel\Babel;
+use MediaWiki\MainConfigNames;
 use MediaWiki\Title\Title;
 use MediaWikiIntegrationTestCase;
 use Parser;
@@ -37,8 +38,8 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 			// Individual tests may change these
 			'BabelAllowOverride' => false,
 			'BabelCentralDb' => false,
-			'CapitalLinks' => false,
-			'LanguageCode' => 'qqx'
+			MainConfigNames::CapitalLinks => false,
+			MainConfigNames::LanguageCode => 'qqx',
 		] );
 	}
 
@@ -325,7 +326,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	public function testFailedOverride( $invalidTitle ): void {
 		$this->overrideConfigValues( [
 			'BabelAllowOverride' => true,
-			'LanguageCode' => 'en'
+			MainConfigNames::LanguageCode => 'en',
 		] );
 		$this->getServiceContainer()->getService( "MessageCache" )->enable();
 		$this->insertPage( "MediaWiki:Babel-category-override", $invalidTitle );
@@ -338,7 +339,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	}
 
 	public function testOverrideMessage(): void {
-		$this->overrideConfigValue( 'LanguageCode', 'en' );
+		$this->overrideConfigValue( MainConfigNames::LanguageCode, 'en' );
 		$this->getServiceContainer()->getService( "MessageCache" )->enable();
 		$this->insertPage( "MediaWiki:Babel-1-n", "Overridden message" );
 		$title = Title::newFromText( 'User:User-1' );
