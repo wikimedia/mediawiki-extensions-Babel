@@ -39,5 +39,7 @@
 	"babel-4-n": "這位使用者有[[$1|接近母語使用者]]水平的[[$2|繁體中文]]知識。",
 	"babel-5-n": "這位使用者有[[$1|專業]]水平的[[$2|繁體中文]]知識。",
 	"babel-N-n": "[[$2|繁體中文]]是這位使用者的[[$1|母語]]。",
-	"babel-footer": "使用者 (依語言)"
+	"babel-footer": "使用者 (依語言)",
+	"babel-template-params-category": "使用具名參數 babel 的頁面",
+	"babel-template-params-category-desc": "頁面將傳遞 name=value 參數給 #babel 解析函式。這些參數的行為[[phab:T327847|在往後可能會有變動]]。"
 }
