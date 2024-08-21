@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Song GK"
+		]
+	},
+	"babel": "Infomasyen penggena Babel",
+	"babel-desc": "Nambahka fungsi parser <code>#babel</code> ngambika ngemendarka pengawa ngasilka ruai kutak penggena babel automatik enggau pengulih nyengkaum template kustom.",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Category:Babel - Penggena nitihka jaku",
+	"babel-autocreate-reason": "Ngaga lambar kategori [[$1|Babel]] enggau automatik",
+	"babel-autocreate-text-levels": "Penggena dalam kategori tu nandaka sida ngembuan pengulih aras $1 ungkup jaku $2.",
+	"babel-autocreate-text-main": "Penggena dalam kategori tu nandaka sida ngembuan penemu dalam jaku $1.",
+	"babel-0": "Penggena tu [[$1|nadai]] penemu dalam (tauka tusah deka mereti) [[$2|$3]]",
+	"babel-1": "Penggena tu ngembuan penemu [[$1|paung]] dalam [[$2|$3]].",
+	"babel-2": "Penggena tu ngembuan penemu [[$1|mimit]] dalam [[$2|$3]].",
+	"babel-3": "Penggena tu ngembuan penemu [[$1|tinggi]] dalam [[$2|$3]].",
+	"babel-4": "Penggena tu ngembuan penemu [[$1|nyau ka landik]] dalam [[$2|$3]].",
+	"babel-5": "Penggena tu ngembuan penemu [[$1|profesional]] dalam [[$2|$3]].",
+	"babel-N": "Penggena tu pejaku [[$1|asal]] [[$2|$3]].",
+	"babel-0-n": "Penggena tu [[$1|nadai]] penemu dalam (tauka tusah deka mereti) [[$2|jaku Iban]]",
+	"babel-1-n": "Penggena tu ngembuan penemu [[$1|paung]] dalam [[$2|jaku Iban]].",
+	"babel-2-n": "Penggena tu ngembuan penemu [[$1|mimit]] dalam [[$2|jaku Iban]].",
+	"babel-3-n": "Penggena tu ngembuan penemu [[$1|tinggi]] dalam [[$2|jaku Iban]].",
+	"babel-4-n": "Penggena tu ngembuan penemu [[$1|nyau ka landik]] dalam [[$2|jaku Iban]].",
+	"babel-5-n": "Penggena tu ngembuan penemu [[$1|profesional]] dalam [[$2|jaku Iban]].",
+	"babel-N-n": "Penggena tu pejaku [[$1|asal]] [[$2|jaku Iban]].",
+	"babel-footer": "Penggena nitihka jaku"
+}
