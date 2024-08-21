@@ -30,5 +30,7 @@
 	"babel-4-n": "Acest utilizator poate contribui cu un nivel [[$1|aproape nativ]] de [[$2|română]].",
 	"babel-5-n": "Acest utilizator contribuie folosind un nivel [[$1|profesional]] de [[$2|română]].",
 	"babel-N-n": "Acest utilizator este un vorbitor [[$1|nativ]] al [[$2|limbii române]].",
-	"babel-footer": "Utilizatori după limbă"
+	"babel-footer": "Utilizatori după limbă",
+	"babel-template-params-category": "Pagini care folosesc babel cu parametri cu nume",
+	"babel-template-params-category-desc": "Pagina transmite un parametru nume=valoare funcției de parser #babel. Comportamentul acestor parametri [[phab:T327847|se poate schimba în viitorul apropiat]]."
 }
