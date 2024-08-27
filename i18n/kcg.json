@@ -26,5 +26,7 @@
 	"babel-4-n": "A̱tyunta̱m wuni byia̱ lyen tat [[$1|kpa̱mkpaan ma̱ng a̱tyulyiat byin-a̱byin]] wa di̱n [[$2|Tyap]] ji.",
 	"babel-5-n": "A̱tyunta̱m wuni byia̱ lyen tat [[$1|a̱gwak]] wa di̱n [[$2|Tyap]] ji.",
 	"babel-N-n": "A̱tyunta̱m wuni byia̱ fi̱k [[$1|byin-a̱byin]] ja di̱n [[$2|Tyap]] ji.",
-	"babel-footer": "Á̱nietnta̱m di̱n vak a̱lyem"
+	"babel-footer": "Á̱nietnta̱m di̱n vak a̱lyem",
+	"babel-template-params-category": "Ngwat na̱ nyian ta̱m ma̱ng babet nang á̱ ku nwuak lyulyoot nkap hu a̱ni",
+	"babel-template-params-category-desc": "Wat hu swak a̱lyoot=paramita a̱fi̱ng hu nat mi̱ kyangta̱m parser #babel hu. Za̱kwa mperimita jini [[phab:T327847|bye shai á̱zanson ma̱ a̱da̱dei]]."
 }
