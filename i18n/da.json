@@ -7,7 +7,8 @@
 			"Jan Friberg",
 			"Peter Alberti",
 			"Saederup92",
-			"Sarrus"
+			"Sarrus",
+			"Steenth"
 		]
 	},
 	"babel": "Babel brugeroplysninger",
@@ -32,5 +33,6 @@
 	"babel-5-n": "Denne bruger har [[$1|professionelt]] kendskab til [[$2|dansk]].",
 	"babel-N-n": "Denne bruger har [[$2|dansk]] som [[$1|modersmål]].",
 	"babel-template": "Template:Bruger $1",
-	"babel-footer": "Brugere efter sprog"
+	"babel-footer": "Brugere efter sprog",
+	"babel-template-params-category": "Sider, der bruger babel med navngivne parametre"
 }
