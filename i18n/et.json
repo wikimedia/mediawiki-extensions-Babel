@@ -26,5 +26,7 @@
 	"babel-4-n": "See kasutaja valdab [[$2|eesti keelt]] [[$1|peaaegu nagu emakeelt]].",
 	"babel-5-n": "See kasutaja valdab [[$2|eesti keelt]] [[$1|professionaalsel tasemel]].",
 	"babel-N-n": "See kasutaja valdab [[$2|eesti keelt]] [[$1|emakeelena]].",
-	"babel-footer": "Kasutajad keelteoskuse järgi"
+	"babel-footer": "Kasutajad keelteoskuse järgi",
+	"babel-template-params-category": "Funktsioonis \"babel\" nimega parameetreid kasutavad leheküljed",
+	"babel-template-params-category-desc": "See lehekülg kasutab parserifunktsioonis #babel parameetrit kujul nimi=väärtus. Nende parameetrite toimimine [[phab:T327847|võib lähemal ajal muutuda]]."
 }
