@@ -9,6 +9,7 @@
 			"GerardM",
 			"LaMagiaaa",
 			"Macofe",
+			"No se",
 			"Sanbec",
 			"Suchichi02",
 			"Suecarmol",
@@ -37,5 +38,6 @@
 	"babel-4-n": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} tiene un conocimiento [[$1|casi nativo]] del [[$2|español]].",
 	"babel-5-n": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} tiene un conocimiento [[$1|profesional]] del [[$2|español]].",
 	"babel-N-n": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} tiene una comprensión [[$1|nativa]] del [[$2|español]].",
-	"babel-footer": "Usuarios por idioma"
+	"babel-footer": "Usuarios por idioma",
+	"babel-template-params-category": "Páginas que utilizan Babel con parámetros nombrados"
 }
