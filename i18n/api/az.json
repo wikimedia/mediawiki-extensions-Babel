@@ -5,5 +5,6 @@
 		]
 	},
 	"apihelp-query+babel-summary": "İstifadəçinin hansı dilləri bildiyi barədə məlumat əldə et",
-	"apihelp-query+babel-param-user": "haqqında məlumat alınacaq istifadəçi"
+	"apihelp-query+babel-param-user": "haqqında məlumat alınacaq istifadəçi",
+	"apihelp-query+babel-example-1": "İstifadəçi <kbd>Nümunəsi</kbd> üçün Babel məlumatını əldə edin"
 }
