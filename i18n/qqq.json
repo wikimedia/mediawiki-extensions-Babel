@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Dereckson",
 			"Epok",
 			"KartikMistry",
@@ -59,7 +60,7 @@
 	"communityconfiguration-babel-babelcategorynames-n-label": "Field label for Babel Community Configuration. Shown at Special:CommunityConfiguration/Babel.",
 	"communityconfiguration-babel-babelmaincategory-label": "Field label for Babel Community Configuration. Shown at Special:CommunityConfiguration/Babel.",
 	"communityconfiguration-babel-babelmaincategory-description": "Description for a field in Babel Community Configuration. Shown at Special:CommunityConfiguration/Babel.",
-	"communityconfiguration-babel-babelmaincategory-help-text": "Help text for a field in Babel Community Configuration. Shown at Special:CommunityConfiguration/Babel.",
+	"communityconfiguration-babel-babelmaincategory-help-text": "Help text for a field in Babel Community Configuration. Shown at Special:CommunityConfiguration/Babel. Refers to {{msg-mw|Communityconfiguration-babel-babelcategorynames-label}}.",
 	"communityconfiguration-babel-babeldefaultlevel-label": "Field label for Babel Community Configuration. Shown at Special:CommunityConfiguration/Babel.",
 	"communityconfiguration-babel-babeldefaultlevel-description": "Description for a field in Babel Community Configuration. Shown at Special:CommunityConfiguration/Babel.",
 	"communityconfiguration-babel-babeldefaultlevel-option-0-label": "Field label for Babel Community Configuration. Shown at Special:CommunityConfiguration/Babel.",

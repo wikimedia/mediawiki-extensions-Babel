@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Les Meloures",
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"babel": "Babel-Benotzer-Informatioun",
@@ -27,5 +28,25 @@
 	"babel-4-n": "Dëse Benotzer beherrscht [[$2|Lëtzebuergesch]] [[$1|bal wéi seng Mammesprooch]].",
 	"babel-5-n": "Dëse Benotzer huet [[$1|professionnell]] Kenntnesser vum [[$2|Lëtzebuergeschen]].",
 	"babel-N-n": "Dësem Benotzer seng [[$1|Mammesprooch]] ass [[$2|Lëtzebuergesch]].",
-	"babel-footer": "Benotzer pro Sprooch"
+	"babel-footer": "Benotzer pro Sprooch",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Niveau 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Niveau 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Niveau 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Niveau 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Niveau 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Niveau 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Niveau N",
+	"communityconfiguration-babel-babelmaincategory-label": "Haaptkategorie",
+	"communityconfiguration-babel-babeldefaultlevel-label": "Standardsproochniveau",
+	"communityconfiguration-babel-babeldefaultlevel-option-0-label": "Niveau 0",
+	"communityconfiguration-babel-babeldefaultlevel-option-1-label": "Niveau 1",
+	"communityconfiguration-babel-babeldefaultlevel-option-2-label": "Niveau 2",
+	"communityconfiguration-babel-babeldefaultlevel-option-3-label": "Niveau 3",
+	"communityconfiguration-babel-babeldefaultlevel-option-4-label": "Niveau 4",
+	"communityconfiguration-babel-babeldefaultlevel-option-5-label": "Niveau 5",
+	"communityconfiguration-babel-babeldefaultlevel-option-n-label": "Niveau N",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Benotzersprooch benotzen",
+	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Fir all Nummraim eidel loossen.",
+	"communityconfiguration-babel-babelautocreate-control-label": "Babel-Kategorien automatesch uleeën"
 }
