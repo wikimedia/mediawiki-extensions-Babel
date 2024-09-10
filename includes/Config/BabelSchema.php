@@ -8,9 +8,6 @@ use MediaWiki\Extension\CommunityConfiguration\Schemas\MediaWiki\MediaWikiDefini
 // phpcs:disable Generic.NamingConventions.UpperCaseConstantName.ClassConstantNotUpperCase
 class BabelSchema extends JsonSchema {
 
-	/** @var string[] Array of recognised language knowledge levels. */
-	private const LANGUAGE_LEVELS = [ '0', '1', '2', '3', '4', '5', 'N' ];
-
 	public const BabelCategoryNames = [
 		self::TYPE => self::TYPE_OBJECT,
 		self::PROPERTIES => [
@@ -48,12 +45,6 @@ class BabelSchema extends JsonSchema {
 	public const BabelMainCategory = [
 		self::TYPE => self::TYPE_STRING,
 		self::DEFAULT => 'User %code%',
-	];
-
-	public const BabelDefaultLevel = [
-		self::TYPE => self::TYPE_STRING,
-		self::ENUM => self::LANGUAGE_LEVELS,
-		self::DEFAULT => 'N',
 	];
 
 	public const BabelUseUserLanguage = [

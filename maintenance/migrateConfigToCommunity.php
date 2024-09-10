@@ -48,7 +48,6 @@ class MigrateConfigToCommunity extends LoggedUpdateMaintenance {
 		$newConfig = (object)[
 			'BabelCategoryNames' => (object)$config->get( 'BabelCategoryNames' ),
 			'BabelMainCategory' => $config->get( 'BabelMainCategory' ),
-			'BabelDefaultLevel' => $config->get( 'BabelDefaultLevel' ),
 			'BabelUseUserLanguage' => $config->get( 'BabelUseUserLanguage' ),
 			'BabelAutoCreate' => $config->get( 'BabelAutoCreate' ),
 			'BabelCategorizeNamespaces' => $config->get( 'BabelCategorizeNamespaces' ),
