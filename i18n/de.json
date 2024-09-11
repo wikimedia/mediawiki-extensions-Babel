@@ -38,7 +38,7 @@
 	"babel-5-n": "{{GENDER:$4|Dieser Benutzer|Diese Benutzerin}} beherrscht [[$2|Deutsch]] auf [[$1|professionellem]] Niveau.",
 	"babel-N-n": "{{GENDER:$4|Dieser Benutzer|Diese Benutzerin}} spricht [[$2|Deutsch]] als [[$1|Muttersprache]].",
 	"babel-footer": "Benutzer nach Sprache",
-	"babel-template-params-category": "Seiten, die Babel mit benannten Parametern verwenden",
+	"babel-template-params-category": "Seiten, die #babel mit benannten Parametern verwenden",
 	"babel-template-params-category-desc": "Die Seite übergibt einen Name=Wert-Parameter an die #babel-Parserfunktion. Das Verhalten dieser Parameter [[phab:T327847|kann sich in naher Zukunft ändern]].",
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-description": "Passe die von der Parser-Funktion #babel erzeugten Kategorien an.",
