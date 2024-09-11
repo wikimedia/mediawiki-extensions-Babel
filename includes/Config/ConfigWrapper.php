@@ -1,5 +1,7 @@
 <?php
 
+declare( strict_types = 1 );
+
 namespace MediaWiki\Babel\Config;
 
 use MediaWiki\Config\Config;
@@ -28,7 +30,7 @@ class ConfigWrapper implements Config {
 	/**
 	 * @inheritDoc
 	 */
-	public function has( $name ) {
+	public function has( $name ): bool {
 		return $this->configReader->has( $name );
 	}
 }
