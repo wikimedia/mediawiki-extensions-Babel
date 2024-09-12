@@ -15,6 +15,7 @@
 			"Louperivois",
 			"NickK",
 			"TTO",
+			"Terio legale",
 			"UV",
 			"Urhixidur",
 			"Verdy p",
@@ -46,6 +47,7 @@
 	"babel-N-n": "Cet{{GENDER:$4||te}} utilisat{{GENDER:$4|eur|rice}} a pour [[$1|langue maternelle]] le [[$2|français]].",
 	"babel-template": "Template:User $1",
 	"babel-footer": "Utilisateurs par langue",
+	"babel-template-params-category": "Les pages utilisant #babel avec les paramètres nommés",
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Niveau 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "Niveau 1",
@@ -55,14 +57,6 @@
 	"communityconfiguration-babel-babelcategorynames-5-label": "Niveau 5",
 	"communityconfiguration-babel-babelcategorynames-n-label": "Niveau N",
 	"communityconfiguration-babel-babelmaincategory-label": "Catégorie principale",
-	"communityconfiguration-babel-babeldefaultlevel-label": "Niveau de langue par défaut",
-	"communityconfiguration-babel-babeldefaultlevel-description": "Niveau de capacité par défaut à utiliser lorsqu'aucun n'est spécifié",
-	"communityconfiguration-babel-babeldefaultlevel-option-0-label": "Niveau 0",
-	"communityconfiguration-babel-babeldefaultlevel-option-1-label": "Niveau 1",
-	"communityconfiguration-babel-babeldefaultlevel-option-2-label": "Niveau 2",
-	"communityconfiguration-babel-babeldefaultlevel-option-3-label": "Niveau 3",
-	"communityconfiguration-babel-babeldefaultlevel-option-4-label": "Niveau 4",
-	"communityconfiguration-babel-babeldefaultlevel-option-5-label": "Niveau 5",
-	"communityconfiguration-babel-babeldefaultlevel-option-n-label": "Niveau N",
-	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Utiliser la langue de l'utilisateur"
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Utiliser la langue de l'utilisateur",
+	"communityconfiguration-babel-babelautocreate-control-label": "Créer automatiquement des catégories Babel"
 }

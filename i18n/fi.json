@@ -48,13 +48,5 @@
 	"communityconfiguration-babel-babelcategorynames-5-label": "Taso 5",
 	"communityconfiguration-babel-babelcategorynames-n-label": "Taso N",
 	"communityconfiguration-babel-babelmaincategory-label": "Pääluokka",
-	"communityconfiguration-babel-babeldefaultlevel-label": "Oletuskielitaso",
-	"communityconfiguration-babel-babeldefaultlevel-option-0-label": "Taso 0",
-	"communityconfiguration-babel-babeldefaultlevel-option-1-label": "Taso 1",
-	"communityconfiguration-babel-babeldefaultlevel-option-2-label": "Taso 2",
-	"communityconfiguration-babel-babeldefaultlevel-option-3-label": "Taso 3",
-	"communityconfiguration-babel-babeldefaultlevel-option-4-label": "Taso 4",
-	"communityconfiguration-babel-babeldefaultlevel-option-5-label": "Taso 5",
-	"communityconfiguration-babel-babeldefaultlevel-option-n-label": "Taso N",
 	"communityconfiguration-babel-babelcategorizenamespaces-label": "Nimiavaruudet, joihin Babel-luokkia tulisi lisätä"
 }

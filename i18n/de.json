@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Brettchenweber",
 			"ChrisiPK",
 			"Crazy1880",
 			"Forrester",
@@ -54,18 +55,9 @@
 	"communityconfiguration-babel-babelmaincategory-label": "Hauptkategorie",
 	"communityconfiguration-babel-babelmaincategory-description": "Name der Hauptkategorie (nicht Level) für jede Sprache, zu der alle Benutzer dieser Sprache hinzugefügt werden.",
 	"communityconfiguration-babel-babelmaincategory-help-text": "Akzeptiert dasselbe Format wie „Kategorienamen pro Sprachniveau“ oben.",
-	"communityconfiguration-babel-babeldefaultlevel-label": "Standardsprachniveau",
-	"communityconfiguration-babel-babeldefaultlevel-description": "Standardfähigkeitsstufe, die verwendet wird, wenn keine angegeben ist",
-	"communityconfiguration-babel-babeldefaultlevel-option-0-label": "Level 0",
-	"communityconfiguration-babel-babeldefaultlevel-option-1-label": "Level 1",
-	"communityconfiguration-babel-babeldefaultlevel-option-2-label": "Level 2",
-	"communityconfiguration-babel-babeldefaultlevel-option-3-label": "Level 3",
-	"communityconfiguration-babel-babeldefaultlevel-option-4-label": "Level 4",
-	"communityconfiguration-babel-babeldefaultlevel-option-5-label": "Level 5",
-	"communityconfiguration-babel-babeldefaultlevel-option-n-label": "Level N",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Benutzersprache verwenden",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Ob die Benutzeroberflächensprache für die Kopf- und Fußzeilennachricht verwendet werden soll. Wenn „false“ (Standard), wird die Sprache des Seiteninhalts verwendet. Dies liegt daran, dass die Verwendung der Benutzeroberflächensprache den Parsercache fragmentieren kann.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Namensraum, in denen Babel-Kategorien hinzugefügt werden sollten",
+	"communityconfiguration-babel-babelcategorizenamespaces-label": "Namensräume, in denen Babel-Kategorien hinzugefügt werden sollten",
 	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Für alle Namensräume leer lassen.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Babel-Kategorien automatisch erstellen"
 }
