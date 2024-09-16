@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anakmalaysia"
+			"Anakmalaysia",
+			"Hakimi97"
 		]
 	},
 	"apihelp-query+babel-description": "Ketahui bahasa-bahasa yang difahami pengguna ini",
-	"apihelp-query+babel-summary": "Ketahui bahasa-bahasa yang difahami oleh pengguna ini"
+	"apihelp-query+babel-summary": "Ketahui bahasa-bahasa yang difahami oleh pengguna ini",
+	"apihelp-query+babel-param-user": "Pengguna untuk mendapatkan maklumat berkenaan",
+	"apihelp-query+babel-example-1": "Dapatkan maklumat Babel untuk pengguna <kbd>Contoh</kbd>"
 }
