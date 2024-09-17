@@ -31,5 +31,5 @@
 	"babel-N-n": "Bul paydalanıwshınıń [[$1|ana tili]] [[$2|qaraqalpaq tili]].",
 	"babel-footer": "Paydalanıwshılar til boyınsha",
 	"babel-template-params-category": "Babel parametrlerge iye paydalanıwshı betler",
-	"babel-template-params-category-desc": "Bette name=value parametri #babel parser funkciyasına ótedi. Bul parametrlerdiń háreketi [[phab:T327847|jaqın keleshekte ózgeriwi múmkin]]."
+	"babel-template-params-category-desc": "Bette name=value parametri babel parser funkciyasına ótedi. Bul parametrlerdiń háreketi [[phab:T327847|jaqın keleshekte ózgeriwi múmkin]]."
 }

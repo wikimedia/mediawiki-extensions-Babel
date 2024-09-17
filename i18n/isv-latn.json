@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"IJzeren Jan"
 		]
 	},
@@ -27,5 +28,5 @@
 	"babel-N-n": "{{GENDER:$4|Tutoj koristnik|Tuta koristnica}} posluživaje se [[$2|medžuslovjanskym jezykom]] na uravnju [[$1|rodnogo govoritelja]].",
 	"babel-footer": "Koristniki po jezyku",
 	"babel-template-params-category": "Stranice, ktore upotrěbjajut Babilon s imenovanymi parametrami",
-	"babel-template-params-category-desc": "Stranica prědavaje parser-funkciji #babel parametr name=značenje. Provodženje tutyh parametrov [[phab:T327847|može izměniti se v blizkoj budučnosti]]."
+	"babel-template-params-category-desc": "Stranica prědavaje parser-funkciji babel parametr name=značenje. Provodženje tutyh parametrov [[phab:T327847|može izměniti se v blizkoj budučnosti]]."
 }

@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"555",
+			"Amire80",
 			"Hamilton Abreu",
 			"Malafaya",
 			"Opraco",
@@ -33,5 +34,5 @@
 	"babel-N-n": "{{GENDER:$4|Este utilizador|Esta utilizadora}} tem como língua [[$1|materna]] o [[$2|português]].",
 	"babel-footer": "Utilizadores por língua",
 	"babel-template-params-category": "Páginas que usam Babel com parâmetros designados",
-	"babel-template-params-category-desc": "A página passa um parâmetro nome=valor à função #babel do analisador sintático. O comportamento destes parâmetros [[phab:T327847|pode ser alterado num futuro próximo]]."
+	"babel-template-params-category-desc": "A página passa um parâmetro nome=valor à função babel do analisador sintático. O comportamento destes parâmetros [[phab:T327847|pode ser alterado num futuro próximo]]."
 }

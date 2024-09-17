@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"A2093064",
+			"Amire80",
 			"Cwek",
 			"Cwlin0416",
 			"Justincheng12345",
@@ -41,5 +42,5 @@
 	"babel-N-n": "[[$2|繁體中文]]是這位使用者的[[$1|母語]]。",
 	"babel-footer": "使用者 (依語言)",
 	"babel-template-params-category": "使用具名參數 babel 的頁面",
-	"babel-template-params-category-desc": "頁面將傳遞 name=value 參數給 #babel 解析函式。這些參數的行為[[phab:T327847|在往後可能會有變動]]。"
+	"babel-template-params-category-desc": "頁面將傳遞 name=value 參數給 babel 解析函式。這些參數的行為[[phab:T327847|在往後可能會有變動]]。"
 }

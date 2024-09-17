@@ -32,5 +32,5 @@
 	"babel-N-n": "Acest utilizator este un vorbitor [[$1|nativ]] al [[$2|limbii române]].",
 	"babel-footer": "Utilizatori după limbă",
 	"babel-template-params-category": "Pagini care folosesc babel cu parametri cu nume",
-	"babel-template-params-category-desc": "Pagina transmite un parametru nume=valoare funcției de parser #babel. Comportamentul acestor parametri [[phab:T327847|se poate schimba în viitorul apropiat]]."
+	"babel-template-params-category-desc": "Pagina transmite un parametru nume=valoare funcției de parser babel. Comportamentul acestor parametri [[phab:T327847|se poate schimba în viitorul apropiat]]."
 }

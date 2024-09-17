@@ -9,6 +9,7 @@
 			"Jimmy xu wrk",
 			"Lakejason0",
 			"Liuxinyu970226",
+			"Midleading",
 			"Shinjiman",
 			"Shizhao",
 			"Xiaomingyan",
@@ -39,5 +40,7 @@
 	"babel-N-n": "[[$2|简体中文]]是这位用户的[[$1|母语]]。",
 	"babel-footer": "用户（按语言）",
 	"babel-template-params-category": "使用具名参数的babel的页面",
-	"babel-template-params-category-desc": "此页面将name=value参数传递给#babel解析器函数。这些参数的行为[[phab:T327847|在不久的将来可能会发生变化]]。"
+	"babel-template-params-category-desc": "此页面将name=value参数传递给babel解析器函数。这些参数的行为[[phab:T327847|在不久的将来可能会发生变化]]。",
+	"communityconfiguration-babel-babelmaincategory-label": "主分类",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "使用用户语言"
 }

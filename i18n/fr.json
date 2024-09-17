@@ -47,7 +47,7 @@
 	"babel-N-n": "Cet{{GENDER:$4||te}} utilisat{{GENDER:$4|eur|rice}} a pour [[$1|langue maternelle]] le [[$2|français]].",
 	"babel-template": "Template:User $1",
 	"babel-footer": "Utilisateurs par langue",
-	"babel-template-params-category": "Les pages utilisant #babel avec les paramètres nommés",
+	"babel-template-params-category": "Les pages utilisant babel avec les paramètres nommés",
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Niveau 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "Niveau 1",

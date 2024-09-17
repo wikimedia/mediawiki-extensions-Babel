@@ -37,9 +37,11 @@
 	"babel-template": "Template:Käyttäjä $1",
 	"babel-footer": "Käyttäjät kielittäin",
 	"babel-template-params-category": "Sivut, jotka käyttävät babelia nimetyillä parametreilla",
+	"babel-template-params-category-desc": "Sivu välittää parametrin name=value babel-jäsenninfunktiolle. Näiden parametrien käyttäytyminen [[phab:T327847|saattaa muuttua lähitulevaisuudessa]].",
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-description": "Mukauta #babel-jäsenninfunktion tuottamia luokkia.",
 	"communityconfiguration-babel-babelcategorynames-label": "Luokkien nimet kielitason mukaan",
+	"communityconfiguration-babel-babelcategorynames-description": "Mahdollisia muuttujia ovat: <code>%code%</code> (kielikoodi), <code>%wikiname%</code> (kielen nimi wikin sisältökielellä) ja <code>%nativename%</code> (kielen omakielinen nimi)",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Taso 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "Taso 1",
 	"communityconfiguration-babel-babelcategorynames-2-label": "Taso 2",
@@ -48,5 +50,9 @@
 	"communityconfiguration-babel-babelcategorynames-5-label": "Taso 5",
 	"communityconfiguration-babel-babelcategorynames-n-label": "Taso N",
 	"communityconfiguration-babel-babelmaincategory-label": "Pääluokka",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Nimiavaruudet, joihin Babel-luokkia tulisi lisätä"
+	"communityconfiguration-babel-babelmaincategory-description": "Nimi kunkin kielen pääluokalle (ei tasoluokille), johon lisätään kaikki kyseisen kielen käyttäjät.",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Käytä käyttäjäkieltä",
+	"communityconfiguration-babel-babelcategorizenamespaces-label": "Nimiavaruudet, joihin Babel-luokkia tulisi lisätä",
+	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Jätä tyhjäksi kaikille nimiavaruuksille.",
+	"communityconfiguration-babel-babelautocreate-control-label": "Luo Babel-luokat automaattisesti"
 }

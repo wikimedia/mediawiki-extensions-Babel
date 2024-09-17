@@ -33,5 +33,5 @@
 	"babel-template": "Template:Bruker $1",
 	"babel-footer": "Brukere etter språk",
 	"babel-template-params-category": "Sider som bruker babel med navngitte parametre",
-	"babel-template-params-category-desc": "Siden sender en parameter av typen navn=verdi til parserfunksjonen #babel. Oppførselen til disse parameterne [[phab:T327847|kan endres i nær fremtid]]."
+	"babel-template-params-category-desc": "Siden sender en parameter av typen navn=verdi til parserfunksjonen babel. Oppførselen til disse parameterne [[phab:T327847|kan endres i nær fremtid]]."
 }

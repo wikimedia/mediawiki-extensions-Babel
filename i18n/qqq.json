@@ -45,7 +45,7 @@
 	"babel-template": "{{Optional}}{{doc-important|Do not translate \"<code>Template:</code>\".}}\nThis message contains the template schema for additional templates that can be used in Babel. Parameters:\n* $1 is the parameter value used in the <nowiki>#babel</nowiki> parser tag.",
 	"babel-footer": "This text is used in the last entry (footer) of the outer box. It is a link anchor, if {{msg-mw|babel-footer-url}} is not empty, otherwise, it is only text. No footer is generated, when this text is empty.",
 	"babel-category-override": "{{notranslate}}",
-	"babel-template-params-category": "{{Tracking category name}}",
+	"babel-template-params-category": "{{Tracking category name}}\nDon't use the \"#\" character here. It won't work correctly in a category name. However, it is recommended to use the \"babel\" name without translation because it's a name of a function.",
 	"babel-template-params-category-desc": "Description on [[Special:TrackingCategories]] for the {{msg-mw|babel-template-params-category}} tracking category",
 	"communityconfiguration-babel-title": "Name of the Community Configuration provider. Shown at Special:CommunityConfiguration.",
 	"communityconfiguration-babel-description": "Description of the Community Configuration provider. Shown at Special:CommunityConfiguration.",

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Qiorly"
 		]
 	},
@@ -27,5 +28,5 @@
 	"babel-N-n": "{{GENDER:$4|Tutoj koristnik|Tuta koristnica}} послуживаје се [[$2|меджусловјанскым језыком]] на уравнју [[$1|родного говорителја]].",
 	"babel-footer": "Користники по језыку",
 	"babel-template-params-category": "Странице, кторе употрєбјајут Babilon с именоваными параметрами",
-	"babel-template-params-category-desc": "Та страница прєда name=value параметр в #babel функцију парсера. Поступанје тых параметров [[phab:T327847|може измєнити в ближноју будучностју]]"
+	"babel-template-params-category-desc": "Та страница прєда name=value параметр в babel функцију парсера. Поступанје тых параметров [[phab:T327847|може измєнити в ближноју будучностју]]"
 }

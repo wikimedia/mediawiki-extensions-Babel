@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"InternerowyGołąb",
 			"Karol007",
 			"Msz2001",
@@ -32,7 +33,7 @@
 	"babel-N-n": "[[$2|Polski]] jest [[$1|językiem ojczystym]] {{GENDER:$4|tego użytkownika|tej użytkowniczki}}.",
 	"babel-footer": "Użytkownicy według języka",
 	"babel-template-params-category": "Strony używające Babel z nazwanymi parametrami",
-	"babel-template-params-category-desc": "Strona przekazuje parametr w formie nazwa=wartość do funkcji parsera #babel. Zachowanie tych parametrów [[phab:T327847|może ulec zmianie w najbliższej przyszłości]].",
+	"babel-template-params-category-desc": "Strona przekazuje parametr w formie nazwa=wartość do funkcji parsera babel. Zachowanie tych parametrów [[phab:T327847|może ulec zmianie w najbliższej przyszłości]].",
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-description": "Dostosuj kategorie generowane przez funkcję parsera #babel.",
 	"communityconfiguration-babel-babelcategorynames-label": "Nazwy kategorii według poziomu języka",

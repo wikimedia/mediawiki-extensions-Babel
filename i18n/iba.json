@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Song GK"
 		]
 	},
@@ -27,5 +28,5 @@
 	"babel-N-n": "Penggena tu pejaku [[$1|asal]] [[$2|jaku Iban]].",
 	"babel-footer": "Penggena nitihka jaku",
 	"babel-template-params-category": "Lambar ngena babel beseretai parameter benama",
-	"babel-template-params-category-desc": "Laman nya ngelempaika parameter nama=nilai ngagai fungsyen parser #babel. Ulah parameter tu [[phab:T327847|engka berubah dalam timpuh ti semak]]."
+	"babel-template-params-category-desc": "Laman nya ngelempaika parameter nama=nilai ngagai fungsyen parser babel. Ulah parameter tu [[phab:T327847|engka berubah dalam timpuh ti semak]]."
 }
