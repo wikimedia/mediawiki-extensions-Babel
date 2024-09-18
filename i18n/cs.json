@@ -33,5 +33,7 @@
 	"babel-4-n": "{{GENDER:$4|Tento uživatel|Tato uživatelka}} má znalosti [[$2|češtiny]] [[$1|téměř na úrovni rodilého mluvčího]].",
 	"babel-5-n": "{{GENDER:$4|Tento uživatel|Tato uživatelka}} má [[$1|profesionální]] znalosti [[$2|češtiny]].",
 	"babel-N-n": "{{GENDER:$4|Tento uživatel|Tato uživatelka}} je [[$1|{{GENDER:$4|rodilý|rodilá}} mluvčí]] [[$2|češtiny]].",
-	"babel-footer": "Uživatelé podle jazyka"
+	"babel-footer": "Uživatelé podle jazyka",
+	"babel-template-params-category": "Stránky používající babel s pojmenovanými parametry",
+	"babel-template-params-category-desc": "Tato stránka předává do funkce parseru #babel parametr jméno=hodnota. Chování takových parametrů [[phab:T327847|se může v blízké budoucnosti změnit]]."
 }
