@@ -14,7 +14,8 @@
 			"Shizhao",
 			"Xiaomingyan",
 			"Yfdyh000",
-			"大小李子"
+			"大小李子",
+			"沈澄心"
 		]
 	},
 	"babel": "用户巴别信息",
@@ -41,6 +42,7 @@
 	"babel-footer": "用户（按语言）",
 	"babel-template-params-category": "使用具名参数的babel的页面",
 	"babel-template-params-category-desc": "此页面将name=value参数传递给babel解析器函数。这些参数的行为[[phab:T327847|在不久的将来可能会发生变化]]。",
+	"communityconfiguration-babel-title": "巴别",
 	"communityconfiguration-babel-babelmaincategory-label": "主分类",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "使用用户语言"
 }
