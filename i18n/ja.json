@@ -42,7 +42,7 @@
 	"babel-template": "Template:利用者 $1",
 	"babel-footer": "言語別の利用者",
 	"babel-template-params-category": "名前付き引数を持つBabelを使用するページ",
-	"babel-template-params-category-desc": "このページは、name=value 引数を babel パーサー関数に渡します。これらの引数の動作は[[phab:T327847|近い将来変更される可能性があります]]。",
+	"babel-template-params-category-desc": "このページは、name=value 引数を #babel パーサー関数に渡します。これらの引数の動作は[[phab:T327847|近い将来変更される可能性があります]]。",
 	"communityconfiguration-babel-title": "バベル",
 	"communityconfiguration-babel-description": "#babel パーサー関数によって生成されるカテゴリをカスタマイズする。",
 	"communityconfiguration-babel-babelcategorynames-label": "言語レベルごとのカテゴリ名",

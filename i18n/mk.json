@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Bjankuloski06",
 			"Brest",
 			"INkubusse"
@@ -31,7 +32,7 @@
 	"babel-template": "Template:Корисник $1",
 	"babel-footer": "Корисници по јазик",
 	"babel-template-params-category": "Страници што користат babel со именувани параметри",
-	"babel-template-params-category-desc": "Страницата дава параметар name=вредност во расчленувачката функција babel. Поведението на овие параметри [[phab:T327847|може да се измени во блиска иднина]].",
+	"babel-template-params-category-desc": "Страницата дава параметар name=вредност во расчленувачката функција #babel. Поведението на овие параметри [[phab:T327847|може да се измени во блиска иднина]].",
 	"communityconfiguration-babel-title": "Вавилон",
 	"communityconfiguration-babel-description": "Прилагодете ги категориите што ги создава рачленувачката функција #babel.",
 	"communityconfiguration-babel-babelcategorynames-label": "Имиња на категории по јазично ниво",

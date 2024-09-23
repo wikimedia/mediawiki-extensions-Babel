@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"4shadoww",
+			"Amire80",
 			"Crt",
 			"Ilaiho",
 			"Jaakonam",
@@ -37,7 +38,7 @@
 	"babel-template": "Template:Käyttäjä $1",
 	"babel-footer": "Käyttäjät kielittäin",
 	"babel-template-params-category": "Sivut, jotka käyttävät babelia nimetyillä parametreilla",
-	"babel-template-params-category-desc": "Sivu välittää parametrin name=value babel-jäsenninfunktiolle. Näiden parametrien käyttäytyminen [[phab:T327847|saattaa muuttua lähitulevaisuudessa]].",
+	"babel-template-params-category-desc": "Sivu välittää parametrin name=value #babel-jäsenninfunktiolle. Näiden parametrien käyttäytyminen [[phab:T327847|saattaa muuttua lähitulevaisuudessa]].",
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-description": "Mukauta #babel-jäsenninfunktion tuottamia luokkia.",
 	"communityconfiguration-babel-babelcategorynames-label": "Luokkien nimet kielitason mukaan",

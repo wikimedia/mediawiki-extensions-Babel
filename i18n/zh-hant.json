@@ -42,7 +42,7 @@
 	"babel-N-n": "[[$2|繁體中文]]是這位使用者的[[$1|母語]]。",
 	"babel-footer": "使用者 (依語言)",
 	"babel-template-params-category": "使用具名參數 babel 的頁面",
-	"babel-template-params-category-desc": "頁面將傳遞 name=value 參數給 babel 解析函式。這些參數的行為[[phab:T327847|在往後可能會有變動]]。",
+	"babel-template-params-category-desc": "頁面將傳遞 name=value 參數給 #babel 解析函式。這些參數的行為[[phab:T327847|在往後可能會有變動]]。",
 	"communityconfiguration-babel-title": "巴別",
 	"communityconfiguration-babel-description": "自訂由 #babel 解析器函式產生的分類。",
 	"communityconfiguration-babel-babelcategorynames-label": "各語言等級的分類名稱",

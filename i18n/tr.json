@@ -38,7 +38,7 @@
 	"babel-N-n": "Bu kullanıcının [[$1|anadili]] [[$2|Türkçe]]dir.",
 	"babel-footer": "Konuşabildikleri dillere göre Vikipedistler",
 	"babel-template-params-category": "Adlandırılmış değişkenli babil kullanan sayfalar",
-	"babel-template-params-category-desc": "Sayfa, #babil ayrıştırıcı işlevine bir ad=değer değişkeni iletiyor. Bu değişkenlerin davranışı [[phab:T327847|yakın gelecekte değişebilir]].",
+	"babel-template-params-category-desc": "Sayfa, #babel ayrıştırıcı işlevine bir name=değer değişkeni iletiyor. Bu değişkenlerin davranışı [[phab:T327847|yakın gelecekte değişebilir]].",
 	"communityconfiguration-babel-title": "Babil",
 	"communityconfiguration-babel-description": "#babil ayrıştırıcı işlevince oluşturulan kategorileri özelleştirin.",
 	"communityconfiguration-babel-babelcategorynames-label": "Dil düzeyine göre kategori adları",

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"NMW03",
 			"Nemoralis",
 			"PPerviz",
@@ -35,7 +36,7 @@
 	"babel-N-n": "[[$2|Azərbaycan dili]] bu istifadəçinin [[$1|ana dilidir]].",
 	"babel-footer": "Dillərinə görə vikipediyaçılar",
 	"babel-template-params-category": "Adlandırılmış parametrlərlə babel istifadə edən səhifələr",
-	"babel-template-params-category-desc": "Səhifə babel parser funksiyasına name=value parametrini ötürür. Bu parametrlərin davranışı [[phab:T327847|yaxın gələcəkdə dəyişə bilər]].",
+	"babel-template-params-category-desc": "Səhifə #babel parser funksiyasına name=value parametrini ötürür. Bu parametrlərin davranışı [[phab:T327847|yaxın gələcəkdə dəyişə bilər]].",
 	"communityconfiguration-babel-title": "Babil",
 	"communityconfiguration-babel-description": "#babel parser funksiyası tərəfindən yaradılan kateqoriyaları fərdiləşdirin.",
 	"communityconfiguration-babel-babelcategorynames-label": "Dil səviyyəsinə görə kateqoriya adları",

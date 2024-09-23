@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Anakmalaysia",
 			"Aviator",
 			"CyberTroopers",
@@ -35,7 +36,7 @@
 	"babel-template": "Template:Pengguna $1",
 	"babel-footer": "Pengguna mengikut bahasa",
 	"babel-template-params-category": "Laman menggunakan babel dengan parameter bernama",
-	"babel-template-params-category-desc": "Laman tersebut menghantar parameter name=value ke fungsi parser babel. Tingkah laku parameter ini [[phab:T327847|mungkin berubah dalam masa terdekat]].",
+	"babel-template-params-category-desc": "Laman tersebut menghantar parameter name=value ke fungsi parser #babel. Tingkah laku parameter ini [[phab:T327847|mungkin berubah dalam masa terdekat]].",
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-description": "Sesuaikan kategori yang dijana oleh fungsi parser #babel.",
 	"communityconfiguration-babel-babelcategorynames-label": "Nama kategori setiap peringkat bahasa",

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Danmichaelo",
 			"Event",
 			"Jeblad",
@@ -33,5 +34,24 @@
 	"babel-template": "Template:Bruker $1",
 	"babel-footer": "Brukere etter språk",
 	"babel-template-params-category": "Sider som bruker babel med navngitte parametre",
-	"babel-template-params-category-desc": "Siden sender en parameter av typen navn=verdi til parserfunksjonen babel. Oppførselen til disse parameterne [[phab:T327847|kan endres i nær fremtid]]."
+	"babel-template-params-category-desc": "Siden sender en parameter av typen name=verdi til parserfunksjonen #babel. Oppførselen til disse parameterne [[phab:T327847|kan endres i nær fremtid]].",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-description": "Tilpass kategoriene som genereres av parserfunksjonen #babel.",
+	"communityconfiguration-babel-babelcategorynames-label": "Kategorinavn per språknivå",
+	"communityconfiguration-babel-babelcategorynames-description": "Mulige variable elementer er: <code>%code%</code> (språkkode), <code>%wikiname%</code> (navnet på språket på wikiens innholdsspråk), og <code>%nativename%</code> (språkets navn på seg selv). La denne være tom for å deaktivere.",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Nivå 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Nivå 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Nivå 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Nivå 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Nivå 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Nivå 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Nivå N",
+	"communityconfiguration-babel-babelmaincategory-label": "Hovedkategori",
+	"communityconfiguration-babel-babelmaincategory-description": "Navnet på hovedkategorien for hvert språk som alle brukere av det språket legges til i.",
+	"communityconfiguration-babel-babelmaincategory-help-text": "Godtar samme format som «Kategorinavn per språknivå» ovenfor.",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Bruk brukerspråk",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Hvorvidt brukerens grensesnittspråk skal brukes på topp- og bunnbeskjeden. Hvis den er false (standard) vil den være på sidens innholdsspråk. Dette er fordi bruk av brukerspråk kan fragmentere mellomlageret.",
+	"communityconfiguration-babel-babelcategorizenamespaces-label": "Navnerommet Babel-kategorier skal legges til i",
+	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "La denne være tom for alle navnerom.",
+	"communityconfiguration-babel-babelautocreate-control-label": "Opprett Babel-kategorier automatisk"
 }

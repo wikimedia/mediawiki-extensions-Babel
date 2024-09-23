@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"咽頭べさ"
 		]
 	},
@@ -29,7 +30,7 @@
 	"babel-template": "Template:Lang ai wa $1",
 	"babel-footer": "Ga hku nna lang ai ni",
 	"babel-template-params-category": "babel hpe lang ai laika man ni gaw mying shamying da ai parameter ni hte",
-	"babel-template-params-category-desc": "Laika man gaw babel parser ngu ai bungli de mying=manu ngu ai parameter hpe jaw ya ai. Ndai parameters ni a akyang lailen gaw [[phab:T327847|n na shi ai aten hta galai shai wa chye ai]].",
+	"babel-template-params-category-desc": "Laika man gaw #babel parser ngu ai bungli de name=manu ngu ai parameter hpe jaw ya ai. Ndai parameters ni a akyang lailen gaw [[phab:T327847|n na shi ai aten hta galai shai wa chye ai]].",
 	"communityconfiguration-babel-title": "Babela",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Madang 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "Madang 1",

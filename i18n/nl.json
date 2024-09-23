@@ -38,7 +38,7 @@
 	"babel-template": "Template:Gebruiker $1",
 	"babel-footer": "Gebruikers per taal",
 	"babel-template-params-category": "Pagina's die Babel met parameters op naam gebruiken",
-	"babel-template-params-category-desc": "De pagina geeft een parameter van de vorm naam=waarde door aan de parserfunctie babel. Het gedrag van deze parameters [[phab:T327847|kan in de nabije toekomst veranderen]].",
+	"babel-template-params-category-desc": "De pagina geeft een parameter van de vorm name=waarde door aan de parserfunctie #babel. Het gedrag van deze parameters [[phab:T327847|kan in de nabije toekomst veranderen]].",
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-description": "De door de parserfunctie #babel gegenereerde categorieën aanpassen.",
 	"communityconfiguration-babel-babelcategorynames-label": "Categorienamen per taalniveau",
