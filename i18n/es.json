@@ -13,7 +13,9 @@
 			"Suchichi02",
 			"Suecarmol",
 			"Vivaelcelta",
-			"WikiiiTranslator"
+			"WikiiiTranslator",
+			"Amire80",
+			"No se"
 		]
 	},
 	"babel": "Información de idiomas {{GENDER:$1|del usuario|de la usuaria}}",
@@ -37,5 +39,6 @@
 	"babel-4-n": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} tiene un conocimiento [[$1|casi nativo]] del [[$2|español]].",
 	"babel-5-n": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} tiene un conocimiento [[$1|profesional]] del [[$2|español]].",
 	"babel-N-n": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} tiene una comprensión [[$1|nativa]] del [[$2|español]].",
+	"babel-template": "Template:Usuario $1",
 	"babel-footer": "Usuarios por idioma"
 }
