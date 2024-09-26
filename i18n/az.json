@@ -10,7 +10,8 @@
 			"Vago",
 			"Vito Genovese",
 			"Vugar 1981",
-			"Wealszy"
+			"Wealszy",
+			"Əkrəm Cəfər"
 		]
 	},
 	"babel": "Babil istifadəçi məlumatları",
@@ -34,6 +35,7 @@
 	"babel-4-n": "Bu istifadəçi [[$2|Azərbaycan dilini]] [[$1|ana dili]] kimi bilir.",
 	"babel-5-n": "Bu istifadəçi [[$2|Azərbaycan dilini]] [[$1|peşəkar səviyyədə]] bilir.",
 	"babel-N-n": "[[$2|Azərbaycan dili]] bu istifadəçinin [[$1|ana dilidir]].",
+	"babel-template": "Şablon:İstifadəçi $1",
 	"babel-footer": "Dillərinə görə vikipediyaçılar",
 	"babel-template-params-category": "Adlandırılmış parametrlərlə babel istifadə edən səhifələr",
 	"babel-template-params-category-desc": "Səhifə #babel parser funksiyasına name=value parametrini ötürür. Bu parametrlərin davranışı [[phab:T327847|yaxın gələcəkdə dəyişə bilər]].",
