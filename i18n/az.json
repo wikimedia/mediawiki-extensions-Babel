@@ -8,7 +8,10 @@
 			"Vugar 1981",
 			"NMW03",
 			"Serkanland",
-			"Wealszy"
+			"Wealszy",
+			"Amire80",
+			"Nemoralis",
+			"Əkrəm Cəfər"
 		]
 	},
 	"babel": "Babil istifadəçi məlumatları",
@@ -31,5 +34,6 @@
 	"babel-4-n": "Bu istifadəçi [[$2|Azərbaycan dilini]] [[$1|ana dili]] kimi bilir.",
 	"babel-5-n": "Bu istifadəçi [[$2|Azərbaycan dilini]] [[$1|peşəkar səviyyədə]] bilir.",
 	"babel-N-n": "[[$2|Azərbaycan dili]] bu istifadəçinin [[$1|ana dilidir]].",
+	"babel-template": "Şablon:İstifadəçi $1",
 	"babel-footer": "Dillərinə görə vikipediyaçılar"
 }
