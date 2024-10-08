@@ -44,6 +44,8 @@
 	"babel-template-params-category": "使用具名参数的babel的页面",
 	"babel-template-params-category-desc": "此页面将name=value参数传递给#babel解析器函数。这些参数的行为[[phab:T327847|在不久的将来可能会发生变化]]。",
 	"communityconfiguration-babel-title": "巴别",
+	"communityconfiguration-babel-description": "自定义由#babel解析器函数产生的分类。",
+	"communityconfiguration-babel-babelcategorynames-label": "各语言等级的分类名称",
 	"communityconfiguration-babel-babelmaincategory-label": "主分类",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "使用用户语言"
 }
