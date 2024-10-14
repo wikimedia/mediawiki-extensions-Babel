@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Elefentiste",
 			"Purodha",
 			"Robin van der Vliet",
 			"StevenJ81"
@@ -21,5 +22,16 @@
 	"babel-4-n": "Esta usor es [[$1|la plu perfeta capas]] de [[$2|Lingua Franca Nova]].",
 	"babel-5-n": "Esta usor es [[$1|profesal capas]] de [[$2|Lingua Franca Nova]].",
 	"babel-N-n": "Esta usor ave [[$2|Lingua Franca Nova]] se [[$1|lingua propre]].",
-	"babel-template": "Template:Usor $1"
+	"babel-template": "Template:Usor $1",
+	"babel-footer": "Usores par lingua",
+	"babel-template-params-category": "Pajes cual usa babel con parametres nomida",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Nivel 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Nivel 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Nivel 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Nivel 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Nivel 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Nivel 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Nivel N",
+	"communityconfiguration-babel-babelmaincategory-label": "Categoria xef",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Usa lingua de usor"
 }

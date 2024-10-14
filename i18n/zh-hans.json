@@ -47,5 +47,7 @@
 	"communityconfiguration-babel-description": "自定义由#babel解析器函数产生的分类。",
 	"communityconfiguration-babel-babelcategorynames-label": "各语言等级的分类名称",
 	"communityconfiguration-babel-babelmaincategory-label": "主分类",
-	"communityconfiguration-babel-babeluseuserlanguage-control-label": "使用用户语言"
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "使用用户语言",
+	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "留空为所有命名空间",
+	"communityconfiguration-babel-babelautocreate-control-label": "自动创建巴别分类"
 }
