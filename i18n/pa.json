@@ -34,5 +34,19 @@
 	"babel-5-n": "ਇਸ ਵਰਤੋਂਕਾਰ ਕੋਲ਼ [[$2|ਪੰਜਾਬੀ]] ਦਾ [[$1|ਪੇਸ਼ੇਵਰ]] ਗਿਆਨ ਹੈ।",
 	"babel-N-n": "ਇਸ ਵਰਤੋਂਕਾਰ ਕੋਲ਼ [[$2|ਪੰਜਾਬੀ]] ਦੀ [[$1|ਮੂਲ]] ਸਮਝ ਹੈ।",
 	"babel-footer": "ਭਾਸ਼ਾ ਅਨੁਸਾਰ ਵਰਤੋਂਕਾਰ",
-	"communityconfiguration-babel-babelmaincategory-label": "ਮੁੱਢਲੀ ਸ਼੍ਰੇਣੀ"
+	"babel-template-params-category": "ਨਾਮ ਵਾਲੇ ਮਾਪਦੰਡਾਂ ਦੇ ਨਾਲ ਬੇਬਲ ਦੀ ਵਰਤੋਂ ਕਰਨ ਵਾਲੇ ਸਫ਼ੇ",
+	"communityconfiguration-babel-title": "ਬੇਬਲ",
+	"communityconfiguration-babel-babelcategorynames-label": "ਭਾਸ਼ਾ ਪੱਧਰ ਅਨੁਸਾਰ ਸ਼੍ਰੇਣੀ ਦੇ ਨਾਂ",
+	"communityconfiguration-babel-babelcategorynames-0-label": "ਪੱਧਰ 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "ਪੱਧਰ ੧",
+	"communityconfiguration-babel-babelcategorynames-2-label": "ਪੱਧਰ ੨",
+	"communityconfiguration-babel-babelcategorynames-3-label": "ਪੱਧਰ ੩",
+	"communityconfiguration-babel-babelcategorynames-4-label": "ਪੱਧਰ ੪",
+	"communityconfiguration-babel-babelcategorynames-5-label": "ਪੱਧਰ ੫",
+	"communityconfiguration-babel-babelcategorynames-n-label": "ਪੱਧਰ ਜੱਦੀ",
+	"communityconfiguration-babel-babelmaincategory-label": "ਮੁੱਢਲੀ ਸ਼੍ਰੇਣੀ",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "ਵਰਤੋਂਕਾਰ ਭਾਸ਼ਾ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+	"communityconfiguration-babel-babelcategorizenamespaces-label": "ਨਾਂ-ਥਾਂ ਜਿੱਥੇ ਬੇਬਲ ਸ਼੍ਰੇਣੀਆਂ ਸ਼ਾਮਲ ਕੀਤੀਆਂ ਜਾਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ",
+	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "ਸਾਰੇ ਨਾਂ-ਥਾਂ ਲਈ ਖਾਲੀ ਛੱਡੋ।",
+	"communityconfiguration-babel-babelautocreate-control-label": "ਆਪਣੇ ਆਪ ਹੀ ਬੇਬਲ ਸ਼੍ਰੇਣੀਆਂ ਬਣਾਓ"
 }
