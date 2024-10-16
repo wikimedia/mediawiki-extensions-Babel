@@ -3,7 +3,8 @@
 		"authors": [
 			"Purodha",
 			"Robin van der Vliet",
-			"StevenJ81"
+			"StevenJ81",
+			"Elefentiste"
 		]
 	},
 	"babel-url": "Project:Babel",
@@ -21,5 +22,6 @@
 	"babel-4-n": "Esta usor es [[$1|la plu perfeta capas]] de [[$2|Lingua Franca Nova]].",
 	"babel-5-n": "Esta usor es [[$1|profesal capas]] de [[$2|Lingua Franca Nova]].",
 	"babel-N-n": "Esta usor ave [[$2|Lingua Franca Nova]] se [[$1|lingua propre]].",
-	"babel-template": "Template:Usor $1"
+	"babel-template": "Template:Usor $1",
+	"babel-footer": "Usores par lingua"
 }
