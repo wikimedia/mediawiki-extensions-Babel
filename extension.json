@@ -52,6 +52,9 @@
 	"AutoloadNamespaces": {
 		"MediaWiki\\Babel\\": "includes/"
 	},
+	"TestAutoloadClasses": {
+		"MediaWiki\\Extension\\CommunityConfiguration\\Tests\\SchemaProviderTestCase": "../CommunityConfiguration/tests/phpunit/integration/SchemaProviderTestCase.php"
+	},
 	"APIMetaModules": {
 		"babel": {
 			"class": "MediaWiki\\Babel\\ApiQueryBabel",
