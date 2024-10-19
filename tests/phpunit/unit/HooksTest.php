@@ -3,10 +3,10 @@ declare( strict_types = 1 );
 
 namespace Babel\Tests\Unit;
 
-use HashConfig;
 use MediaWiki\Babel\Babel;
 use MediaWiki\Babel\BabelAutoCreate;
 use MediaWiki\Babel\Hooks;
+use MediaWiki\Config\HashConfig;
 use MediaWiki\User\CentralId\CentralIdLookupFactory;
 use MediaWiki\User\UserIdentityLookup;
 use MediaWikiUnitTestCase;
