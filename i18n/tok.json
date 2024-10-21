@@ -8,7 +8,7 @@
 		]
 	},
 	"babel": "sona toki pi jan ni",
-	"babel-desc": "sitelen <code>#babel</code> la ilo li pana e poki sona jan. jan li ken \nkepeken TEMPLATE ante lon poki.",
+	"babel-desc": "toki <code>#babel</code> la ilo li ken e poki sona lon lipu jan. ni li ken sona toki li ken sona ante kin.",
 	"babel-url": "Project:Babel",
 	"babel-autocreate-text-levels": "jan li lon kulupu ni la sona ona pi toki $2 li nanpa $1.",
 	"babel-autocreate-text-main": "jan li lon kulupu ni la ona li sona toki $1.",
@@ -22,9 +22,9 @@
 	"babel-0-n": "mi [[$1|sona ala]] e [[$2|toki pona]].",
 	"babel-1-n": "mi [[$1|sona lili]] e [[$2|toki pona]].",
 	"babel-2-n": "mi [[$1|sona pi ike ala]] e [[$2|toki pona]].",
-	"babel-3-n": "jan ni li [[$1|sona pona]] e [[$2|toki pona]].",
-	"babel-4-n": "jan ni li sona e [[$2|toki pona]] [[$1|sama toki mama ona]].",
-	"babel-5-n": "jan ni li kepeken [[$2|toki pona]] [[$1|lon pali]] ona. pali ni li wile e sona wawa a pi toki pona.",
+	"babel-3-n": "mi [[$1|sona pona]] e [[$2|toki pona]].",
+	"babel-4-n": "mi [[$1|sona pi pona wawa]] e [[$2|toki pona]].",
+	"babel-5-n": "mi kepeken [[$2|toki pona]] [[$1|lon pali]] mi. pali ni li wile e sona wawa a pi toki pona.",
 	"babel-N-n": "[[$1|toki mama]] mi li [[$2|toki pona]].",
 	"babel-template": "Template:jan $1"
 }
