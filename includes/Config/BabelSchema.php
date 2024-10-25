@@ -7,6 +7,7 @@ use MediaWiki\Extension\CommunityConfiguration\Schemas\MediaWiki\MediaWikiDefini
 
 // phpcs:disable Generic.NamingConventions.UpperCaseConstantName.ClassConstantNotUpperCase
 class BabelSchema extends JsonSchema {
+	public const VERSION = '1.0.0';
 
 	public const BabelCategoryNames = [
 		self::TYPE => self::TYPE_OBJECT,
