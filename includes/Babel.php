@@ -418,7 +418,7 @@ EOT;
 	 */
 	public static function getCachedUserLanguages(
 		UserIdentity $user,
-		string $level = null
+		?string $level = null
 	): array {
 		return self::getLanguages( self::getCachedUserLanguageInfo( $user ), $level );
 	}
@@ -434,7 +434,7 @@ EOT;
 	 *
 	 * @since Version 1.9.0
 	 */
-	public static function getUserLanguages( UserIdentity $user, string $level = null ): array {
+	public static function getUserLanguages( UserIdentity $user, ?string $level = null ): array {
 		return self::getLanguages( self::getUserLanguageInfo( $user ), $level );
 	}
 
