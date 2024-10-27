@@ -99,7 +99,7 @@ class BabelLanguageCodes {
 	 *  defaults to language of code.
 	 * @return string|bool Name of language, or false for invalid language code.
 	 */
-	public static function getName( string $code, string $language = null ) {
+	public static function getName( string $code, ?string $language = null ) {
 		// Get correct code, even though it should already be correct.
 		$code = self::getCode( $code );
 		if ( $code === false ) {
