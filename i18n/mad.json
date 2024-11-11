@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Munajad.MH"
+		]
+	},
+	"babel": "Informasi pangangghuy Babel",
+	"babel-desc": "Nambâi fungsi parser <code>#babel</code> ka'angghuy ngangghâl'aghi kolom kotak pangangghuy babel halè otomatis kelabân kèngengnga maghuna template sè èkustomisasi",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Category:Babel - Pangangghuy alèngghâ bhâsa",
+	"babel-autocreate-reason": "Otomatis aghâbây kaca kategori [[$1|Babel]]",
+	"babel-autocreate-text-levels": "Pangangghuy ḍâlem category panèka atladhâ kelamon sadhâjâ ngaghungi odhil $1 ka'angghuy bhâsa $2.",
+	"babel-autocreate-text-main": "Pangangghuy ḍâlem kategori panèka atladhâ manabi sadhâjâèpon aghâdhuwân odhil abhâsa $1.",
+	"babel-autocreate-user": "Babel AutoCreate",
+	"babel-0": "Pangangghuy rèya [[$1|ṭa' enḍi']] pangonengan [[$2|$3]] (otabâ mahamina'a kelabân cè' sarana).",
+	"babel-1": "Pangangghuy riya anḍi' pangonèngan [[$1|lèngghâ]] [[$2|$3]].",
+	"babel-2": "Pangangghuy riya anḍi' pangonèngan [[$1|pèndhân]] [[$2|$3]].",
+	"babel-3": "Pangangghuy Panèka aghâdhuwân pangonèngan [[$1|ondhâk totongghâ]] [[$2|$3]].",
+	"babel-4": "Pangangghuy ka'dinto ngaghungi pangonèngan [[$1|samaghâs pangdhâbu tobin]] [[$2|$3]].",
+	"babel-5": "Pangangghuy ka'dinto asrèra'aghi pandhika sè angghâdhuwân èlmu pamiyèrsan [[$1|ahli]] [[$2|$3]].",
+	"babel-N": "Pangangghuy ka'dinto asrèra'aghi sang [[$1|pandhika èbhu]] [[$2|$3]].",
+	"babel-0-n": "Pangangghuy rèya [[$1|ṭa' enḍi']] pangonengan [[$2|$3]] (otabâ amahamina kelabân cè' sarana).",
+	"babel-1-n": "Pangangghuy riya anḍi' pangonèngan [[$1|dhâsar]][[$2|$3]].",
+	"babel-2-n": "Pangangghuy riya anḍi' pangonèngan [[$1|parpèndhân]] [[$2|$3]].",
+	"babel-footer": "Pangangghuy alèngghâ bhâsa",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Ondhâk 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Ondhâk 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Ondhâk 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Ondhâk 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Ondhâk 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Ondhâk 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Ondhâk N"
+}

@@ -36,6 +36,7 @@
 	"babel-template-params-category": "ਨਾਮ ਵਾਲੇ ਮਾਪਦੰਡਾਂ ਦੇ ਨਾਲ ਬੇਬਲ ਦੀ ਵਰਤੋਂ ਕਰਨ ਵਾਲੇ ਸਫ਼ੇ",
 	"communityconfiguration-babel-title": "ਬੇਬਲ",
 	"communityconfiguration-babel-babelcategorynames-label": "ਭਾਸ਼ਾ ਪੱਧਰ ਅਨੁਸਾਰ ਸ਼੍ਰੇਣੀ ਦੇ ਨਾਂ",
+	"communityconfiguration-babel-babelcategorynames-description": "ਸੰਭਵੀ ਤਬਦੀਲੀ ਤੱਤ ਹਨ: <code>%code%</code> (ਭਾਸ਼ਾ ਕੋਡ), <code>%wikiname%</code> (ਵਿਕੀ ਦੀ ਸਮੱਗਰੀ ਭਾਸ਼ਾ ਵਿੱਚ ਭਾਸ਼ਾ ਦਾ ਨਾਂ) ਅਤੇ <code>%nativename%</code> (ਇਸਦੀ ਭਾਸ਼ਾ ਵਿੱਚ ਭਾਸ਼ਾ ਦਾ ਨਾਂ) । ਅਸਮਰੱਥ ਬਣਾਉਣ ਲਈ ਖਾਲੀ ਛੱਡੋ।",
 	"communityconfiguration-babel-babelcategorynames-0-label": "ਪੱਧਰ 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "ਪੱਧਰ ੧",
 	"communityconfiguration-babel-babelcategorynames-2-label": "ਪੱਧਰ ੨",
@@ -44,7 +45,10 @@
 	"communityconfiguration-babel-babelcategorynames-5-label": "ਪੱਧਰ ੫",
 	"communityconfiguration-babel-babelcategorynames-n-label": "ਪੱਧਰ ਜੱਦੀ",
 	"communityconfiguration-babel-babelmaincategory-label": "ਮੁੱਢਲੀ ਸ਼੍ਰੇਣੀ",
+	"communityconfiguration-babel-babelmaincategory-description": "ਹਰੇਕ ਭਾਸ਼ਾ ਲਈ ਮੁੱਖ (ਗੈਰ-ਪੱਧਰੀ) ਸ਼੍ਰੇਣੀ ਦਾ ਨਾਂ ਜਿਸ ਵਿੱਚ ਉਸ ਭਾਸ਼ਾ ਦੇ ਸਾਰੇ ਵਰਤੋਂਕਾਰ ਸ਼ਾਮਲ ਕੀਤੇ ਜਾਂਦੇ ਹਨ।",
+	"communityconfiguration-babel-babelmaincategory-help-text": "ਉੱਪਰ ਦਿੱਤੇ \"ਸ਼੍ਰੇਣੀ ਦੇ ਨਾਂ ਪ੍ਰਤੀ ਭਾਸ਼ਾ ਪੱਧਰ\" ਦੇ ਰੂਪ ਵਿੱਚ ਉਸੇ ਤਰਤੀਬ ਨੂੰ ਸਵੀਕਾਰ ਕਰਦਾ ਹੈ।",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "ਵਰਤੋਂਕਾਰ ਭਾਸ਼ਾ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "ਕੀ ਸਿਰਲੇਖ ਅਤੇ ਪੈੜਲੇਖ ਸੁਨੇਹੇ ਲਈ ਵਰਤੋਂਕਾਰ interface ਭਾਸ਼ਾ ਦੀ ਵਰਤੋਂ ਕਰਨੀ ਹੈ। ਜੇਕਰ ਗਲਤ (ਮੂਲ) ਹੈ, ਤਾਂ ਇਹ ਸਫ਼ਾ ਸਮੱਗਰੀ ਭਾਸ਼ਾ ਵਿੱਚ ਹੋਵੇਗਾ। ਅਜਿਹਾ ਇਸ ਲਈ ਹੈ ਕਿਉਂਕਿ ਵਰਤੋਂਕਾਰ interface ਭਾਸ਼ਾ ਦੀ ਵਰਤੋਂ ਕਰਨ ਨਾਲ parser cache ਟੋਟੇ-ਟੋਟੇ ਹੋ ਸਕਦੀ ਹੈ।",
 	"communityconfiguration-babel-babelcategorizenamespaces-label": "ਨਾਂ-ਥਾਂ ਜਿੱਥੇ ਬੇਬਲ ਸ਼੍ਰੇਣੀਆਂ ਸ਼ਾਮਲ ਕੀਤੀਆਂ ਜਾਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ",
 	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "ਸਾਰੇ ਨਾਂ-ਥਾਂ ਲਈ ਖਾਲੀ ਛੱਡੋ।",
 	"communityconfiguration-babel-babelautocreate-control-label": "ਆਪਣੇ ਆਪ ਹੀ ਬੇਬਲ ਸ਼੍ਰੇਣੀਆਂ ਬਣਾਓ"
