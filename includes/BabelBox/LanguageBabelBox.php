@@ -256,7 +256,7 @@ EOT;
 		// Chance to locally override categorization
 		if ( self::getConfig()->get( 'BabelAllowOverride' ) ) {
 			$category = wfMessage( "babel-category-override",
-				$category, $code, $level
+				$category, $code, $level ?? ''
 			)->inContentLanguage()->text();
 			if ( $category !== $oldCategory ) {
 				$isOverridden = true;
