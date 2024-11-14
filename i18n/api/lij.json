@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Giromin Cangiaxo"
+			"Giromin Cangiaxo",
+			"N. Longo"
 		]
 	},
-	"apihelp-query+babel-param-user": "Utente in sciô quæ otegnî informaçioin",
-	"apihelp-query+babel-example-1": "Otegni informaçioin Babel pe l'utente <kbd>Example</kbd>"
+	"apihelp-query+babel-summary": "Òtegnî de informaçioìn in scê léngoe conosciûe da l'uténte",
+	"apihelp-query+babel-param-user": "Uténte in sciô quæ òtegnî de informaçioìn",
+	"apihelp-query+babel-example-1": "Òtegnî informaçioìn Babel pe l'uténte <kbd>Example</kbd>"
 }
