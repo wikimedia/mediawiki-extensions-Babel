@@ -90,7 +90,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$parser = $this->getParser( $title );
 		$wikiText = Babel::render( $parser, '' );
 		$this->assertSame(
-			'{|class="mw-babel-wrapper notheme"'
+			'{|class="mw-babel-wrapper"'
 			. "\n"
 			. '! class="mw-babel-header" | [[(babel-url)|(babel: User-1)]]'
 			. "\n|-\n| \n|-\n"
@@ -118,7 +118,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$wikiText = Babel::render( $parser, 'en' );
 		$this->assertBabelBoxCount( 1, $wikiText );
 		$this->assertStringContainsString(
-			'<div class="mw-babel-box mw-babel-box-N mw-babel-box-en notheme" dir="ltr">'
+			'<div class="mw-babel-box mw-babel-box-N mw-babel-box-en" dir="ltr">'
 			. "\n"
 			. '{|'
 			. "\n"
@@ -147,7 +147,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$wikiText = Babel::render( $parser, 'en' );
 		$this->assertBabelBoxCount( 1, $wikiText );
 		$this->assertStringContainsString(
-			'<div class="mw-babel-box mw-babel-box-N mw-babel-box-en notheme" dir="ltr">'
+			'<div class="mw-babel-box mw-babel-box-N mw-babel-box-en" dir="ltr">'
 			. "\n"
 			. '{|'
 			. "\n"
@@ -170,7 +170,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$wikiText = Babel::render( $parser, 'EN-1', 'zh-Hant' );
 		$this->assertBabelBoxCount( 2, $wikiText );
 		$this->assertStringContainsString(
-			'<div class="mw-babel-box mw-babel-box-1 mw-babel-box-en notheme" dir="ltr">'
+			'<div class="mw-babel-box mw-babel-box-1 mw-babel-box-en" dir="ltr">'
 			. "\n"
 			. '{|'
 			. "\n"
@@ -188,7 +188,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->assertHasCategory( $parser, 'en-1', '' );
 
 		$this->assertStringContainsString(
-			'<div class="mw-babel-box mw-babel-box-N mw-babel-box-zh-Hant notheme" dir="ltr">'
+			'<div class="mw-babel-box mw-babel-box-N mw-babel-box-zh-Hant" dir="ltr">'
 			. "\n"
 			. '{|'
 			. "\n"
@@ -211,7 +211,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
 		$wikiText = Babel::render( $parser, 'plain=1', 'en' );
 		$this->assertSame(
-			'<div class="mw-babel-box mw-babel-box-N mw-babel-box-en notheme" dir="ltr">'
+			'<div class="mw-babel-box mw-babel-box-N mw-babel-box-en" dir="ltr">'
 			. "\n"
 			. '{|'
 			. "\n"

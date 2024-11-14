@@ -103,7 +103,7 @@ class Babel {
 		}
 
 		$tower = <<<EOT
-{|class="mw-babel-wrapper notheme"
+{|class="mw-babel-wrapper"
 $top
 |-
 | $content

@@ -1,0 +1,198 @@
+/**
+ * Stylesheet for Babel extension.
+ *
+ * You can override the CSS code on the MediaWiki:Common.css page
+ * on your wiki to adjust colours etc.
+ *
+ * @file
+ * @ingroup Extensions
+ */
+@import 'mediawiki.skin.variables.less';
+
+:root,
+.skin-invert,
+.notheme {
+	--babel-box-0-border: #fbb;
+	--babel-box-0-background: #fee;
+	--babel-box-1-border: #e0c0e0;
+	--babel-box-1-background: #f3e0f3;
+	--babel-box-2-border: #bcb9ef;
+	--babel-box-2-background: #e9e4f9;
+	--babel-box-3-border: #99b3ff;
+	--babel-box-3-background: #e0e8ff;
+	--babel-box-4-border: #77e0e8;
+	--babel-box-4-background: #d0f8ff;
+	--babel-box-5-border: #ffcf4d;
+	--babel-box-5-background: #ffefa6;
+	--babel-box-N-border: #6ef7a7;
+	--babel-box-N-background: #c5fcdc;
+}
+
+// Mixin to avoid duplication further down
+.babel-dark-mode() {
+	--babel-box-0-border: #692626;
+	--babel-box-0-background: @background-color-base;
+	--babel-box-1-border: #4b2b4b;
+	--babel-box-1-background: @background-color-base;
+	--babel-box-2-border: #3f3b71;
+	--babel-box-2-background: @background-color-base;
+	--babel-box-3-border: #314a95;
+	--babel-box-3-background: @background-color-base;
+	--babel-box-4-border: #004851;
+	--babel-box-4-background: @background-color-base;
+	--babel-box-5-border: #5c2d00;
+	--babel-box-5-background: @background-color-base;
+	--babel-box-N-border: #004c00;
+	--babel-box-N-background: @background-color-base;
+}
+
+@media screen {
+	html.skin-theme-clientpref-night {
+		.babel-dark-mode();
+	}
+}
+
+@media screen and ( prefers-color-scheme: dark ) {
+	html.skin-theme-clientpref-os {
+		.babel-dark-mode();
+	}
+}
+
+/* Babel wrapper layout. */
+/* @noflip */
+.mw-babel-wrapper {
+	background-color: @background-color-base;
+	border: @border-width-base @border-style-base @border-color-progressive;
+	border-spacing: @spacing-0;
+	box-sizing: @box-sizing-base;
+	padding: @spacing-0;
+	margin: 1px;
+	width: @size-full;
+}
+
+/* header and footer */
+.mw-babel-header {
+	font-weight: bold;
+	text-align: center;
+}
+
+.mw-babel-footer {
+	font-size: @font-size-x-small;
+	font-weight: normal;
+	text-align: center;
+}
+
+/* Babel box layout */
+.mw-babel-box {
+	margin: 1px;
+	border: @border-width-base @border-style-base;
+}
+
+.mw-babel-box table {
+	border-spacing: @spacing-0;
+	width: @size-full;
+	margin: @spacing-0 !important; /* stylelint-disable-line declaration-no-important */
+}
+
+.mw-babel-box th {
+	font-size: @font-size-x-large;
+	height: @size-275;
+	min-width: @size-275;
+	text-align: center;
+	width: @size-275;
+}
+
+.mw-babel-box td {
+	line-height: @line-height-xxx-small;
+	font-size: @font-size-x-small;
+	padding: 0.5em;
+	width: @size-full;
+}
+
+.mw-babel-notabox {
+	clear: both;
+}
+
+@media all and ( min-width: 480px ) {
+
+	/* @noflip */
+	.mw-babel-wrapper {
+		float: right;
+		clear: right;
+		width: 238px;
+	}
+
+	/* @noflip */
+	.mw-content-ltr .mw-babel-wrapper {
+		float: right;
+		clear: right;
+	}
+
+	/* @noflip */
+	.mw-content-rtl .mw-babel-wrapper {
+		float: left;
+		clear: left;
+	}
+
+	/* @noflip */
+	.mw-babel-box {
+		float: right;
+		clear: right;
+		width: 238px;
+	}
+
+	/* @noflip */
+	.mw-content-ltr .mw-babel-box {
+		float: right;
+		clear: right;
+	}
+
+	/* @noflip */
+	.mw-content-rtl .mw-babel-box {
+		float: left;
+		clear: left;
+	}
+}
+
+.mw-babel-box-template( @level ) {
+	@babel-border: ~'var(--babel-box-@{level}-border)';
+	@babel-background: ~'var(--babel-box-@{level}-background)';
+	border-color: @babel-border;
+
+	table {
+		background-color: @babel-background;
+
+		th {
+			background-color: @babel-border;
+		}
+	}
+}
+
+/* Babel box colours. */
+.mw-babel-box-0 {
+	.mw-babel-box-template( 0 );
+}
+
+.mw-babel-box-1 {
+	.mw-babel-box-template( 1 );
+}
+
+.mw-babel-box-2 {
+	.mw-babel-box-template( 2 );
+}
+
+.mw-babel-box-3 {
+	.mw-babel-box-template( 3 );
+}
+
+.mw-babel-box-4 {
+	.mw-babel-box-template( 4 );
+}
+
+.mw-babel-box-5 {
+	.mw-babel-box-template( 5 );
+}
+
+.mw-babel-box-N {
+	.mw-babel-box-template( N );
+}
