@@ -10,13 +10,14 @@
 			"Khutuck",
 			"LuCKY",
 			"Vito Genovese",
-			"Nataev"
+			"Nataev",
+			"Superyetkin"
 		]
 	},
 	"babel": "Babil kullanıcı bilgileri",
 	"babel-desc": "Özel şablonlar içerme özelliği olan Babil kullanıcı kutusu sütununun otomatik oluşturulması için <code>#babel</code> derleyici işlevlerini ekler",
 	"babel-url": "Project:Babil",
-	"babel-footer-url": ":Kategori:Babil - dillere göre kullanıcılar",
+	"babel-footer-url": ":Kategori:Konuşabildikleri dillere göre Vikipedistler",
 	"babel-autocreate-reason": "Otomatik olarak [[$1|Babil]] kategori sayfası oluşturuluyor.",
 	"babel-autocreate-text-levels": "Bu kategorideki kullanıcılar $1 seviyede $2 dilini bildiklerini belirtiyor.",
 	"babel-autocreate-text-main": "Bu kategorideki kullanıcılar, $1 dil bilgisini gösterir.",
