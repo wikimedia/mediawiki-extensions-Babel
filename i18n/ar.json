@@ -31,5 +31,15 @@
 	"babel-5-n": "{{GENDER:{{PAGENAME}}|هذا المستخدم لديه|هذه المستخدمة لديها}} معرفة [[$1|احترافية]] ب[[$2|العربية]].",
 	"babel-N-n": "{{GENDER:{{PAGENAME}}|هذا المستخدم|هذه المستخدمة}} [[$1|{{GENDER:{{PAGENAME}}|لغته|لغتها}} الأم]] هي [[$2|العربية]].",
 	"babel-template": "Template:مستخدم $1",
-	"babel-footer": "المستخدمون حسب اللغة"
+	"babel-footer": "المستخدمون حسب اللغة",
+	"communityconfiguration-babel-title": "بابل",
+	"communityconfiguration-babel-babelcategorynames-0-label": "المستوى 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "المستوى 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "المستوى 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "المستوى 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "المستوى 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "المستوى 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "المستوى N",
+	"communityconfiguration-babel-babelmaincategory-label": "التصنيف الرئيسي",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "استخدم لغة المستخدم"
 }
