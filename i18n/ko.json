@@ -36,5 +36,9 @@
 	"babel-N-n": "이 사용자는 [[$2|한국어]]가 [[$1|모어]]입니다.",
 	"babel-footer": "언어별 사용자",
 	"babel-template-params-category": "이름 있는 매개변수를 사용한 babel 페이지",
+	"babel-template-params-category-desc": "페이지는 #바벨 파서 함수에 name=value 매개변수를 전달. 이 매개변수의 행동은 [[phab:T327847|가까운 미래에 달라질 수 있음]].",
+	"communityconfiguration-babel-title": "바벨",
+	"communityconfiguration-babel-description": "#바벨 분석 기능에서 생성된 분류 조정.",
+	"communityconfiguration-babel-babelcategorynames-label": "언어 수준별 분류명",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "사용자 언어 사용"
 }
