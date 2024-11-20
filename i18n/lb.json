@@ -30,6 +30,8 @@
 	"babel-N-n": "Dësem Benotzer seng [[$1|Mammesprooch]] ass [[$2|Lëtzebuergesch]].",
 	"babel-footer": "Benotzer pro Sprooch",
 	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-babelcategorynames-label": "Kategorienimm pro Sproochniveau",
+	"communityconfiguration-babel-babelcategorynames-description": "Méiglech variabel Elementer sinn: <code>%code%</code> (Sproochcode), <code>%wikiname%</code> (den Numm vun der Sprooch an der Sprooch vum Inhalt vun der Wiki) an <code>%nativename%</code> (den Numm vun der Sprooch an der Sprooch selwer). Eidel loosse fir ze desaktivéieren.",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Niveau 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "Niveau 1",
 	"communityconfiguration-babel-babelcategorynames-2-label": "Niveau 2",
@@ -39,6 +41,7 @@
 	"communityconfiguration-babel-babelcategorynames-n-label": "Niveau N",
 	"communityconfiguration-babel-babelmaincategory-label": "Haaptkategorie",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Benotzersprooch benotzen",
+	"communityconfiguration-babel-babelcategorizenamespaces-label": "Nummraim, an deene Babel-Kategorië sollen derbäigesat ginn",
 	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Fir all Nummraim eidel loossen.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Babel-Kategorien automatesch uleeën"
 }
