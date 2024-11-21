@@ -22,10 +22,10 @@ use MediaWiki\Babel\BabelBox\NotBabelBox;
 use MediaWiki\Babel\BabelBox\NullBabelBox;
 use MediaWiki\Config\Config;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Parser\Parser;
 use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
 use MediaWiki\WikiMap\WikiMap;
-use Parser;
 use ParserOutput;
 
 /**
@@ -55,7 +55,12 @@ class Babel {
 	 * @return string Babel tower.
 	 */
 	public static function Render( Parser $parser, string ...$parameters ): string {
-		self::$title = $parser->getTitle();
+		$pageReference = $parser->getPage();
+		if ( $pageReference !== null ) {
+			self::$title = Title::newFromPageReference( $pageReference );
+		} else {
+			self::$title = Title::makeTitle( NS_SPECIAL, 'BadTitle/Missing' );
+		}
 
 		self::mTemplateLinkBatch( $parameters );
 

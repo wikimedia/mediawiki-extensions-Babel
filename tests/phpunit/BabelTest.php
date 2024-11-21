@@ -54,7 +54,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 
 		$parser = $this->createMock( Parser::class );
 		$parser->method( 'getOptions' )->willReturn( $options );
-		$parser->method( 'getTitle' )->willReturn( $title );
+		$parser->method( 'getPage' )->willReturn( $title );
 		$parser->method( 'getOutput' )->willReturn( $output );
 		return $parser;
 	}
