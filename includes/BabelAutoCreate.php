@@ -18,11 +18,15 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel;
 
-use ContentHandler;
 use DeferredUpdates;
+use MediaWiki\CommentStore\CommentStoreComment;
+use MediaWiki\Content\ContentHandler;
+use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Revision\SlotRecord;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
+use RecentChange;
 
 /**
  * Class for automatic creation of Babel category pages.
@@ -44,6 +48,7 @@ class BabelAutoCreate {
 		MediaWikiServices::getInstance()->getLanguageConverterFactory()->getLanguageConverter()
 			->findVariantLink( $category, $title, true );
 		DeferredUpdates::addCallableUpdate( function () use ( $title, $text ) {
+			$mwServices = MediaWikiServices::getInstance();
 			// Extra exists check here in case the category was created while this code was running
 			if ( $title === null || $title->exists() ) {
 				return;
@@ -55,24 +60,35 @@ class BabelAutoCreate {
 				return;
 			}
 
-			if ( !MediaWikiServices::getInstance()->getPermissionManager()
+			if ( !$mwServices->getPermissionManager()
 				->quickUserCan( 'create', $user, $title )
 			) {
 				# The Babel AutoCreate account is not allowed to create the page
 				return;
 			}
 
-			$url = wfMessage( 'babel-url' )->inContentLanguage()->plain();
-			$article = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
+			$pageUpdater = $mwServices
+				->getWikiPageFactory()
+				->newFromTitle( $title )
+				->newPageUpdater( $user )
+				->setContent( SlotRecord::MAIN, ContentHandler::makeContent( $text, $title ) )
+				->setFlags( EDIT_FORCE_BOT );
 
-			$content = ContentHandler::makeContent( $text, $title );
-			$editSummary = wfMessage( 'babel-autocreate-reason', $url )->inContentLanguage()->text();
-			$article->doUserEditContent(
-				$content,
-				$user,
-				$editSummary,
-				EDIT_FORCE_BOT
+			$config = $mwServices->getMainConfig();
+
+			$useNPPatrol = $config->get( MainConfigNames::UseNPPatrol );
+			$useRCPatrol = $config->get( MainConfigNames::UseRCPatrol );
+			$needsPatrol = $useRCPatrol || $useNPPatrol;
+
+			if ( $needsPatrol && $user->authorizeWrite( 'autopatrol', $title ) ) {
+				$pageUpdater->setRcPatrolStatus( RecentChange::PRC_AUTOPATROLLED );
+			}
+
+			$url = wfMessage( 'babel-url' )->inContentLanguage()->plain();
+			$commentStoreComment = CommentStoreComment::newUnsavedComment(
+				wfMessage( 'babel-autocreate-reason', $url )
 			);
+			$pageUpdater->saveRevision( $commentStoreComment );
 		} );
 	}
 
