@@ -4,6 +4,7 @@ declare( strict_types = 1 );
 namespace Babel\Tests;
 
 use MediaWiki\Babel\BabelAutoCreate;
+use MediaWiki\MainConfigNames;
 use MediaWiki\Title\Title;
 use MediaWiki\User\User;
 use MediaWikiIntegrationTestCase;
@@ -22,7 +23,7 @@ class BabelAutoCreateTest extends MediaWikiIntegrationTestCase {
 	protected function setUp(): void {
 		parent::setUp();
 
-		$this->setContentLang( 'qqx' );
+		$this->overrideConfigValue( MainConfigNames::LanguageCode, 'qqx' );
 	}
 
 	/**
