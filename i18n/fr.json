@@ -48,7 +48,7 @@
 	"babel-N-n": "Cet{{GENDER:$4||te}} utilisat{{GENDER:$4|eur|rice}} a pour [[$1|langue maternelle]] le [[$2|français]].",
 	"babel-template": "Template:User $1",
 	"babel-footer": "Utilisateurs par langue",
-	"babel-template-params-category": "Les pages utilisant babel avec les paramètres nommés",
+	"babel-template-params-category": "Pages utilisant la fonction babel avec des paramètres nommés",
 	"babel-template-params-category-desc": "La page transmet un paramètre name=value à la fonction d'analyse #babel. Le comportement de ces paramètres [[phab:T327847|peut changer dans un futur proche]].",
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-description": "Personnalise les catégories générées par la fonction d'analyse #babel.",
