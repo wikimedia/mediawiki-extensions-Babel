@@ -5,10 +5,10 @@
 			"Amoramah"
 		]
 	},
-	"babel": "'Babel\" tuntuna lasebaarɛ.",
+	"babel": "\"Babel\" tuntuna lasebaarɛ.",
 	"babel-desc": "Pa'asɛ <code>#babel</code> \"Parisee\" n tuni se'em ti la basɛ ti amiŋa maalegɔ n dei \"Babel\" tuntuna daka \"column\" naɛ la se'em ti fu wam ta'am dikɛ lagum la \"custum templates\"",
 	"babel-url": "Project:Babel",
-	"babel-footer-url": ":Category: Babel\"- tuntuneba dɔla yetɔgum puan.",
+	"babel-footer-url": ":Category:Babel- tuntuneba dɔla yetɔgum puan",
 	"babel-autocreate-reason": "Amiŋa maalegɔ [[$1|Babel]] buuri buuri pɛgerɛ.",
 	"babel-autocreate-text-levels": "Tuntuneba n boi buuri buuri wa puan pa'ali ti ba tarı la mi'ilum bɔna $1 n boi yetɔgum $2.",
 	"babel-autocreate-text-main": "Tuntuneba n boi buuri buuri wa puan pa'ali ti ba tarı la mi'ilum bɔna yetɔgum $1 puan.",
@@ -19,12 +19,12 @@
 	"babel-4": "Tuntuna wa tarı la [[$1| lɛm la tiŋa la puan nɛra]] mi'ilum bɔna [[$2|$3]].",
 	"babel-5": "Tuntuna wa tarı la [[$1|, baŋerɛ zo'e zo'e]] mi'ilum bɔna [[$2|$3]].",
 	"babel-N": "Tuntuna wa tarı la [[$1|tiŋa la puan]] bɔkerɛ bɔna [[$2|$3]].",
-	"babel-0-n": "Tuntuna kana ka tari [[$1|no]] mi'ilum [[$2|English]](bii bɔkerɛ n toi)",
-	"babel-1-n": "Tuntuna wa tarı la [[$1| pɔsega]] mi'ilum bɔna [[$2| solimiine]].",
-	"babel-2-n": "Tuntuna wa tarı la [[$1|tiŋasuka]] mi'ilum bɔna [[$2|solimiine]].",
-	"babel-3-n": "Tuntuna wa tarı la [[$1| Adeŋɛ te'ele]] mi'ilum bɔna [[$2|solimiine]].",
-	"babel-4-n": "Tuntuna wa tarı la [[$1| lɛm la tiŋa la puan nɛra]] mi'ilum bɔna [[$2|$3]].",
-	"babel-5-n": "Tuntuna wa tarı la [[$1|, baŋerɛ zo'e zo'e]] mi'ilum bɔna [[$2|$3]].",
-	"babel-N-n": "Tuntuna wa tarı la [[$1|tiŋa la puan]] bɔkerɛ bɔna [[$2|$3]].",
+	"babel-0-n": "Tuntuna kana ka tari [[$1|no]] mi'ilum [[$2|farefare]] (bii bɔkerɛ n toi)",
+	"babel-1-n": "Tuntuna wa tarı la [[$1|pɔsega]] mi'ilum bɔna [[$2|farefare]].",
+	"babel-2-n": "Tuntuna wa tarı la [[$1|tiŋasuka]] mi'ilum bɔna [[$2|farefare]].",
+	"babel-3-n": "Tuntuna wa tarı la [[$1| Adeŋɛ te'ele]] mi'ilum bɔna [[$2|farefare]].",
+	"babel-4-n": "Tuntuna wa tarı la [[$1| lɛm la tiŋa la puan nɛra]] mi'ilum bɔna [[$2|farefare]].",
+	"babel-5-n": "Tuntuna wa tarı la [[$1|, baŋerɛ zo'e zo'e]] mi'ilum bɔna [[$2|farefare]].",
+	"babel-N-n": "Tuntuna wa tarı la [[$1|tiŋa la puan]] bɔkerɛ bɔna [[$2|farefare]].",
 	"babel-footer": "Tuntuneba dɔla yetɔgum puan"
 }
