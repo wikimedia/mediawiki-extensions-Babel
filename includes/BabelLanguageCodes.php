@@ -40,7 +40,7 @@ class BabelLanguageCodes {
 			// If so, return the internal MediaWiki code.
 			$mapping = LanguageCode::getNonstandardLanguageCodeMapping();
 			foreach ( $mapping as $mwCode => $bcp47code ) {
-				// Careful, because the nonstandardlanguagecodemapping
+				// Careful, because the non-standard language code mapping
 				// also maps deprecated codes to bcp-47 equivalents; we
 				// don't want to return a deprecated code.
 				self::$mapToMediaWikiCodeCache[ strtolower( $bcp47code ) ] =
@@ -126,7 +126,7 @@ class BabelLanguageCodes {
 	 * Return an appropriate category name, given a MediaWiki-internal
 	 * language code.  MediaWiki-internal codes are all-lowercase, but
 	 * historically our category codes have been partially uppercase
-	 * in the style of BCP 47.  Eventually we should probably use true
+	 * in the style of BCP 47. Eventually, we should probably use true
 	 * BCP 47 for category names, but historically we've had internal
 	 * codes like `simple` which we don't want to rename to `en-simple`
 	 * quite yet.

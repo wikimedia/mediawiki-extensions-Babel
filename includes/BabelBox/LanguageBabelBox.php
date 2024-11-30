@@ -185,13 +185,13 @@ EOT;
 			return;
 		}
 
-		# Add main category
+		# Add the main category
 		if ( $this->level !== '0' ) {
-			self::addCategory( $parserOutput, $this->code, null, $this->level );
+			$this->addCategory( $parserOutput, $this->code, null, $this->level );
 		}
 
 		# Add level category
-		self::addCategory( $parserOutput, $this->code, $this->level, false );
+		$this->addCategory( $parserOutput, $this->code, $this->level, false );
 	}
 
 	/**
@@ -268,7 +268,7 @@ EOT;
 		// Normalize using Title
 		$title = Title::makeTitleSafe( NS_CATEGORY, $category );
 		if ( !$title ) {
-			// babel-category-override return an invalid page name
+			// babel-category-override returned an invalid page name
 			return null;
 		}
 

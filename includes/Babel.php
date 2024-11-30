@@ -258,7 +258,7 @@ EOT;
 	}
 
 	/**
-	 * Identify whether or not a page exists.
+	 * Identify whether a page exists.
 	 *
 	 * @param string $name Name of the page to check.
 	 * @return bool Indication of whether the page exists.
@@ -272,7 +272,7 @@ EOT;
 	/**
 	 * Identify whether the passed string would make a valid page name.
 	 *
-	 * @param string $name Name of page to check.
+	 * @param string $name Name of the page to check.
 	 * @return bool Indication of whether the title is valid.
 	 */
 	protected static function mValidTitle( string $name ): bool {

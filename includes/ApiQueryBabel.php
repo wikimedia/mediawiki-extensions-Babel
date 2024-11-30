@@ -60,7 +60,8 @@ class ApiQueryBabel extends ApiQueryBase {
 		);
 	}
 
-	public function getAllowedParams( /* $flags = 0 */ ): array {
+	/** @inheritDoc */
+	public function getAllowedParams(): array {
 		return [
 			'user' => [
 				ParamValidator::PARAM_REQUIRED => true,
@@ -69,9 +70,7 @@ class ApiQueryBabel extends ApiQueryBase {
 		];
 	}
 
-	/**
-	 * @inheritDoc
-	 */
+	/** @inheritDoc */
 	protected function getExamplesMessages(): array {
 		return [
 			'action=query&meta=babel&babuser=Example'
