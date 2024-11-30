@@ -22,6 +22,7 @@ use MediaWiki\Babel\BabelAutoCreate;
 use MediaWiki\Babel\BabelLanguageCodes;
 use MediaWiki\Babel\BabelServices;
 use MediaWiki\Config\Config;
+use MediaWiki\Language\Language;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use ParserOutput;
@@ -37,6 +38,8 @@ class LanguageBabelBox implements BabelBox {
 	 * @var Title
 	 */
 	private $title;
+
+	private Language $targetLanguage;
 
 	/**
 	 * @var string
@@ -58,6 +61,7 @@ class LanguageBabelBox implements BabelBox {
 	 *
 	 * @param Config $config
 	 * @param Title $title
+	 * @param Language $targetLanguage Target language of the parse.
 	 * @param string $code Language code to use.
 	 *   This is a mediawiki-internal code (not necessarily a valid BCP-47 code)
 	 * @param string $level Level of ability to use.
@@ -65,11 +69,13 @@ class LanguageBabelBox implements BabelBox {
 	public function __construct(
 		Config $config,
 		Title $title,
+		Language $targetLanguage,
 		string $code,
 		string $level
 	) {
 		$this->config = $config;
 		$this->title = $title;
+		$this->targetLanguage = $targetLanguage;
 		$this->code = BabelLanguageCodes::getCode( $code ) ?? $code;
 		$this->level = $level;
 	}
@@ -107,7 +113,7 @@ class LanguageBabelBox implements BabelBox {
 
 		$dir_current = MediaWikiServices::getInstance()->getLanguageFactory()->getLanguage( $code )->getDir();
 
-		$dir_head = $this->title->getPageLanguage()->getDir();
+		$dir_head = $this->targetLanguage->getDir();
 
 		return <<<EOT
 <div class="mw-babel-box mw-babel-box-{$this->level} mw-babel-box-{$catCode} notheme" dir="$dir_head">

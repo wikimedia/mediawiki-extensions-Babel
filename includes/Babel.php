@@ -84,7 +84,7 @@ class Babel {
 		if ( self::getConfig()->get( 'BabelUseUserLanguage' ) ) {
 			$uiLang = $this->parser->getOptions()->getUserLangObj();
 		} else {
-			$uiLang = $this->title->getPageLanguage();
+			$uiLang = $this->parser->getTargetLanguage();
 		}
 
 		$top = wfMessage( 'babel', $this->title->getDBkey() )->inLanguage( $uiLang );
@@ -196,6 +196,7 @@ EOT;
 			$box = new LanguageBabelBox(
 				self::getConfig(),
 				$this->title,
+				$this->parser->getTargetLanguage(),
 				$components['code'],
 				$components['level'],
 			);
@@ -205,7 +206,7 @@ EOT;
 			$templateParameters[0] = $template;
 			$template = implode( '|', $templateParameters );
 			$box = new NotBabelBox(
-				$this->title->getPageLanguage()->getDir(),
+				$this->parser->getTargetLanguage()->getDir(),
 				$this->parser->replaceVariables( "{{{$template}}}" )
 			);
 		} elseif ( self::mValidTitle( $template ) ) {
@@ -216,6 +217,7 @@ EOT;
 				$box = new LanguageBabelBox(
 					self::getConfig(),
 					$this->title,
+					$this->parser->getTargetLanguage(),
 					$components2['code'],
 					$components2['level'],
 				);
@@ -224,14 +226,14 @@ EOT;
 			} else {
 				// Non-existent page and invalid parameter syntax, red link.
 				$box = new NotBabelBox(
-					$this->title->getPageLanguage()->getDir(),
+					$this->parser->getTargetLanguage()->getDir(),
 					'[[' . $template . ']]'
 				);
 			}
 		} else {
 			// Invalid title, output raw.
 			$box = new NotBabelBox(
-				$this->title->getPageLanguage()->getDir(),
+				$this->parser->getTargetLanguage()->getDir(),
 				$template
 			);
 		}

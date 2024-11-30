@@ -56,6 +56,9 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$parser->method( 'getOptions' )->willReturn( $options );
 		$parser->method( 'getPage' )->willReturn( $title );
 		$parser->method( 'getOutput' )->willReturn( $output );
+		$parser->method( 'getTargetLanguage' )->willReturn(
+			$this->getServiceContainer()->getLanguageFactory()->getLanguage( 'qqx' )
+		);
 		return $parser;
 	}
 
