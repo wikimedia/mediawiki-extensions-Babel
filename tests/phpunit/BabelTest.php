@@ -6,6 +6,7 @@ namespace Babel\Tests;
 use LinkCacheTestTrait;
 use MediaWiki\Babel\Babel;
 use MediaWiki\MainConfigNames;
+use MediaWiki\Page\PageReference;
 use MediaWiki\Title\Title;
 use MediaWikiIntegrationTestCase;
 use Parser;
@@ -43,18 +44,14 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		] );
 	}
 
-	/**
-	 * @param Title $title
-	 * @return Parser
-	 */
-	private function getParser( Title $title ): Parser {
+	private function getParser( PageReference $page ): Parser {
 		$options = ParserOptions::newFromAnon();
 		$options->setIsPreview( true );
 		$output = new ParserOutput();
 
 		$parser = $this->createMock( Parser::class );
 		$parser->method( 'getOptions' )->willReturn( $options );
-		$parser->method( 'getPage' )->willReturn( $title );
+		$parser->method( 'getPage' )->willReturn( $page );
 		$parser->method( 'getOutput' )->willReturn( $output );
 		$parser->method( 'getTargetLanguage' )->willReturn(
 			$this->getServiceContainer()->getLanguageFactory()->getLanguage( 'qqx' )

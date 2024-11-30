@@ -22,6 +22,8 @@ use MediaWiki\Babel\BabelBox\NotBabelBox;
 use MediaWiki\Babel\BabelBox\NullBabelBox;
 use MediaWiki\Config\Config;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Page\PageReference;
+use MediaWiki\Page\PageReferenceValue;
 use MediaWiki\Parser\Parser;
 use MediaWiki\Title\Title;
 use MediaWiki\User\UserIdentity;
@@ -32,10 +34,7 @@ use ParserOutput;
  * Main class for the Babel extension.
  */
 class Babel {
-	/**
-	 * @var Title
-	 */
-	private $title;
+	private PageReference $page;
 	private Parser $parser;
 
 	/**
@@ -61,12 +60,7 @@ class Babel {
 
 	private function __construct( Parser $parser ) {
 		$this->parser = $parser;
-		$pageReference = $parser->getPage();
-		if ( $pageReference !== null ) {
-			$this->title = Title::newFromPageReference( $pageReference );
-		} else {
-			$this->title = Title::makeTitle( NS_SPECIAL, 'BadTitle/Missing' );
-		}
+		$this->page = $parser->getPage() ?? PageReferenceValue::localReference( NS_SPECIAL, 'BadTitle/Missing' );
 	}
 
 	/** @param string[] $parameters */
@@ -87,7 +81,7 @@ class Babel {
 			$uiLang = $this->parser->getTargetLanguage();
 		}
 
-		$top = wfMessage( 'babel', $this->title->getDBkey() )->inLanguage( $uiLang );
+		$top = wfMessage( 'babel', $this->page->getDBkey() )->inLanguage( $uiLang );
 
 		if ( $top->isDisabled() ) {
 			$top = '';
@@ -99,7 +93,7 @@ class Babel {
 			}
 			$top = '! class="mw-babel-header" | ' . $top;
 		}
-		$footer = wfMessage( 'babel-footer', $this->title->getDBkey() )->inLanguage( $uiLang );
+		$footer = wfMessage( 'babel-footer', $this->page->getDBkey() )->inLanguage( $uiLang );
 
 		$url = wfMessage( 'babel-footer-url' )->inContentLanguage();
 		$showFooter = '';
@@ -195,7 +189,7 @@ EOT;
 			// Valid parameter syntax (with lowercase language code), babel box
 			$box = new LanguageBabelBox(
 				self::getConfig(),
-				$this->title,
+				$this->page,
 				$this->parser->getTargetLanguage(),
 				$components['code'],
 				$components['level'],
@@ -216,7 +210,7 @@ EOT;
 			if ( $components2 !== false ) {
 				$box = new LanguageBabelBox(
 					self::getConfig(),
-					$this->title,
+					$this->page,
 					$this->parser->getTargetLanguage(),
 					$components2['code'],
 					$components2['level'],
