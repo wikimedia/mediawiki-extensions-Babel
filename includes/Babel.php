@@ -35,7 +35,8 @@ class Babel {
 	/**
 	 * @var Title
 	 */
-	protected static $title;
+	private $title;
+	private Parser $parser;
 
 	/**
 	 * Get a Config instance to use
@@ -55,30 +56,38 @@ class Babel {
 	 * @return string Babel tower.
 	 */
 	public static function Render( Parser $parser, string ...$parameters ): string {
+		return ( new Babel( $parser ) )->doRender( $parameters );
+	}
+
+	private function __construct( Parser $parser ) {
+		$this->parser = $parser;
 		$pageReference = $parser->getPage();
 		if ( $pageReference !== null ) {
-			self::$title = Title::newFromPageReference( $pageReference );
+			$this->title = Title::newFromPageReference( $pageReference );
 		} else {
-			self::$title = Title::makeTitle( NS_SPECIAL, 'BadTitle/Missing' );
+			$this->title = Title::makeTitle( NS_SPECIAL, 'BadTitle/Missing' );
 		}
+	}
 
+	/** @param string[] $parameters */
+	private function doRender( array $parameters ): string {
 		self::mTemplateLinkBatch( $parameters );
 
-		$parser->getOutput()->addModuleStyles( [ 'ext.babel' ] );
+		$this->parser->getOutput()->addModuleStyles( [ 'ext.babel' ] );
 
-		$content = self::mGenerateContentTower( $parser, $parameters );
+		$content = $this->mGenerateContentTower( $parameters );
 
 		if ( preg_match( '/^plain\s*=\s*\S/', reset( $parameters ) ) ) {
 			return $content;
 		}
 
 		if ( self::getConfig()->get( 'BabelUseUserLanguage' ) ) {
-			$uiLang = $parser->getOptions()->getUserLangObj();
+			$uiLang = $this->parser->getOptions()->getUserLangObj();
 		} else {
-			$uiLang = self::$title->getPageLanguage();
+			$uiLang = $this->title->getPageLanguage();
 		}
 
-		$top = wfMessage( 'babel', self::$title->getDBkey() )->inLanguage( $uiLang );
+		$top = wfMessage( 'babel', $this->title->getDBkey() )->inLanguage( $uiLang );
 
 		if ( $top->isDisabled() ) {
 			$top = '';
@@ -90,7 +99,7 @@ class Babel {
 			}
 			$top = '! class="mw-babel-header" | ' . $top;
 		}
-		$footer = wfMessage( 'babel-footer', self::$title->getDBkey() )->inLanguage( $uiLang );
+		$footer = wfMessage( 'babel-footer', $this->title->getDBkey() )->inLanguage( $uiLang );
 
 		$url = wfMessage( 'babel-footer-url' )->inContentLanguage();
 		$showFooter = '';
@@ -111,7 +120,7 @@ EOT;
 		if ( self::getConfig()->get( 'BabelAllowOverride' ) ) {
 			// Make sure the page shows up as transcluding MediaWiki:babel-category-override
 			$title = Title::makeTitle( NS_MEDIAWIKI, "Babel-category-override" );
-			$revision = $parser->fetchCurrentRevisionRecordOfTitle( $title );
+			$revision = $this->parser->fetchCurrentRevisionRecordOfTitle( $title );
 			if ( $revision === null ) {
 				$revid = null;
 			} else {
@@ -120,18 +129,17 @@ EOT;
 			// Passing null here when the page doesn't exist matches what the core parser does
 			// even though the documentation of the method says otherwise.
 			// @phan-suppress-next-line PhanTypeMismatchArgumentNullable
-			$parser->getOutput()->addTemplate( $title, $title->getArticleID(), $revid );
+			$this->parser->getOutput()->addTemplate( $title, $title->getArticleID(), $revid );
 		}
 		return $tower;
 	}
 
 	/**
-	 * @param Parser $parser
 	 * @param string[] $parameters
 	 *
 	 * @return string Wikitext
 	 */
-	private static function mGenerateContentTower( Parser $parser, array $parameters ): string {
+	private function mGenerateContentTower( array $parameters ): string {
 		$content = '';
 		// collects name=value parameters to be passed to wiki templates.
 		$templateParameters = [];
@@ -143,12 +151,12 @@ EOT;
 			if ( strpos( $name, '=' ) !== false ) {
 				$templateParameters[] = $name;
 				if ( !$first || !preg_match( '/^(plain|nocat)\s*=\s*\S/', $name ) ) {
-					$parser->addTrackingCategory( "babel-template-params-category" );
+					$this->parser->addTrackingCategory( "babel-template-params-category" );
 				}
 				continue;
 			}
 
-			$content .= self::mGenerateContent( $parser, $name, $templateParameters, $generateCategories );
+			$content .= $this->mGenerateContent( $name, $templateParameters, $generateCategories );
 			$first = false;
 		}
 
@@ -166,14 +174,12 @@ EOT;
 	}
 
 	/**
-	 * @param Parser $parser
 	 * @param string $name
 	 * @param string[] $templateParameters
 	 * @param bool $generateCategories Whether to add categories
 	 * @return string Wikitext
 	 */
-	private static function mGenerateContent(
-		Parser $parser,
+	private function mGenerateContent(
 		string $name,
 		array $templateParameters,
 		bool $generateCategories
@@ -181,7 +187,7 @@ EOT;
 		$components = self::mParseParameter( $name );
 
 		$template = wfMessage( 'babel-template', $name )->inContentLanguage()->text();
-		$parserOutput = $parser->getOutput();
+		$parserOutput = $this->parser->getOutput();
 
 		if ( $name === '' ) {
 			$box = new NullBabelBox();
@@ -189,7 +195,7 @@ EOT;
 			// Valid parameter syntax (with lowercase language code), babel box
 			$box = new LanguageBabelBox(
 				self::getConfig(),
-				self::$title,
+				$this->title,
 				$components['code'],
 				$components['level'],
 			);
@@ -199,8 +205,8 @@ EOT;
 			$templateParameters[0] = $template;
 			$template = implode( '|', $templateParameters );
 			$box = new NotBabelBox(
-				self::$title->getPageLanguage()->getDir(),
-				$parser->replaceVariables( "{{{$template}}}" )
+				$this->title->getPageLanguage()->getDir(),
+				$this->parser->replaceVariables( "{{{$template}}}" )
 			);
 		} elseif ( self::mValidTitle( $template ) ) {
 			// Non-existing page, so try again as a babel box,
@@ -209,7 +215,7 @@ EOT;
 			if ( $components2 !== false ) {
 				$box = new LanguageBabelBox(
 					self::getConfig(),
-					self::$title,
+					$this->title,
 					$components2['code'],
 					$components2['level'],
 				);
@@ -218,14 +224,14 @@ EOT;
 			} else {
 				// Non-existent page and invalid parameter syntax, red link.
 				$box = new NotBabelBox(
-					self::$title->getPageLanguage()->getDir(),
+					$this->title->getPageLanguage()->getDir(),
 					'[[' . $template . ']]'
 				);
 			}
 		} else {
 			// Invalid title, output raw.
 			$box = new NotBabelBox(
-				self::$title->getPageLanguage()->getDir(),
+				$this->title->getPageLanguage()->getDir(),
 				$template
 			);
 		}
