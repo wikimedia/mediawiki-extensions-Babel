@@ -7,11 +7,11 @@ use LinkCacheTestTrait;
 use MediaWiki\Babel\Babel;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Page\PageReference;
+use MediaWiki\Parser\Parser;
+use MediaWiki\Parser\ParserOutput;
 use MediaWiki\Title\Title;
 use MediaWikiIntegrationTestCase;
-use Parser;
 use ParserOptions;
-use ParserOutput;
 
 /**
  * @covers \MediaWiki\Babel\Babel
