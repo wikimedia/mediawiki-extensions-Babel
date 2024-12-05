@@ -10,7 +10,7 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel;
 
-use DatabaseUpdater;
+use MediaWiki\Installer\DatabaseUpdater;
 use MediaWiki\Installer\Hook\LoadExtensionSchemaUpdatesHook;
 
 class SchemaHooks implements LoadExtensionSchemaUpdatesHook {

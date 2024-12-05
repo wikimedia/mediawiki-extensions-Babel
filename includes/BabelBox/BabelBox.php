@@ -10,7 +10,7 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel\BabelBox;
 
-use ParserOutput;
+use MediaWiki\Parser\ParserOutput;
 
 /**
  * Interface for babel boxes.

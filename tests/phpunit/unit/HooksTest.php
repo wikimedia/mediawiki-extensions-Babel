@@ -7,10 +7,10 @@ use MediaWiki\Babel\Babel;
 use MediaWiki\Babel\BabelAutoCreate;
 use MediaWiki\Babel\Hooks;
 use MediaWiki\Config\HashConfig;
+use MediaWiki\Parser\Parser;
 use MediaWiki\User\CentralId\CentralIdLookupFactory;
 use MediaWiki\User\UserIdentityLookup;
 use MediaWikiUnitTestCase;
-use Parser;
 use WANObjectCache;
 
 /**

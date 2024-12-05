@@ -18,9 +18,9 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel;
 
-use DeferredUpdates;
 use MediaWiki\CommentStore\CommentStoreComment;
 use MediaWiki\Content\ContentHandler;
+use MediaWiki\Deferred\DeferredUpdates;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;

@@ -25,8 +25,8 @@ use MediaWiki\Config\Config;
 use MediaWiki\Language\Language;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Page\PageReference;
+use MediaWiki\Parser\ParserOutput;
 use MediaWiki\Title\Title;
-use ParserOutput;
 
 /**
  * Class for babel language boxes.

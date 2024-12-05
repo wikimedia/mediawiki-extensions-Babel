@@ -13,11 +13,11 @@ use MediaWiki\Config\Config;
 use MediaWiki\Deferred\LinksUpdate\LinksUpdate;
 use MediaWiki\Hook\LinksUpdateHook;
 use MediaWiki\Hook\ParserFirstCallInitHook;
+use MediaWiki\Parser\Parser;
 use MediaWiki\User\CentralId\CentralIdLookupFactory;
 use MediaWiki\User\Hook\UserGetReservedNamesHook;
 use MediaWiki\User\UserIdentityLookup;
 use MediaWiki\WikiMap\WikiMap;
-use Parser;
 use WANObjectCache;
 
 /**

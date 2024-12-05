@@ -10,7 +10,7 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel\BabelBox;
 
-use ParserOutput;
+use MediaWiki\Parser\ParserOutput;
 
 /**
  * Class for inner items which render as empty strings.
