@@ -36,21 +36,8 @@ class LanguageBabelBox implements BabelBox {
 	private Config $config;
 	private PageReference $page;
 	private Language $targetLanguage;
-
-	/**
-	 * @var string
-	 */
-	private $code;
-
-	/**
-	 * @var string
-	 */
-	private $level;
-
-	/**
-	 * @var bool
-	 */
-	private $createCategories;
+	private string $code;
+	private string $level;
 
 	/**
 	 * Construct a babel box for the given language and level.
@@ -72,7 +59,8 @@ class LanguageBabelBox implements BabelBox {
 		$this->config = $config;
 		$this->page = $page;
 		$this->targetLanguage = $targetLanguage;
-		$this->code = BabelLanguageCodes::getCode( $code ) ?? $code;
+		$babelLanguageCode = BabelLanguageCodes::getCode( $code );
+		$this->code = $babelLanguageCode === false ? $code : $babelLanguageCode;
 		$this->level = $level;
 	}
 
