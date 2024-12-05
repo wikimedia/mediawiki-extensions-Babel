@@ -17,12 +17,12 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel\BabelBox;
 
-use LanguageCode;
 use MediaWiki\Babel\BabelAutoCreate;
 use MediaWiki\Babel\BabelLanguageCodes;
 use MediaWiki\Babel\BabelServices;
 use MediaWiki\Config\Config;
 use MediaWiki\Language\Language;
+use MediaWiki\Language\LanguageCode;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Page\PageReference;
 use MediaWiki\Parser\ParserOutput;

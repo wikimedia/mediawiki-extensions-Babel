@@ -22,9 +22,9 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel;
 
-use ApiQuery;
-use ApiQueryBase;
-use ApiResult;
+use MediaWiki\Api\ApiQuery;
+use MediaWiki\Api\ApiQueryBase;
+use MediaWiki\Api\ApiResult;
 use MediaWiki\User\UserIdentityLookup;
 use Wikimedia\ParamValidator\ParamValidator;
 

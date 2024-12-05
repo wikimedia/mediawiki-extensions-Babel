@@ -2,11 +2,11 @@
 
 namespace MediaWiki\Babel\Maintenance;
 
-use LoggedUpdateMaintenance;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\CommunityConfiguration\CommunityConfigurationServices;
 use MediaWiki\Extension\CommunityConfiguration\Provider\IConfigurationProvider;
 use MediaWiki\Json\FormatJson;
+use MediaWiki\Maintenance\LoggedUpdateMaintenance;
 use MediaWiki\Permissions\UltimateAuthority;
 use MediaWiki\Status\StatusFormatter;
 use MediaWiki\User\User;

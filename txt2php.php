@@ -7,7 +7,7 @@
 
 namespace MediaWiki\Babel;
 
-use Maintenance;
+use MediaWiki\Maintenance\Maintenance;
 use Wikimedia\StaticArrayWriter;
 
 require_once getenv( 'MW_INSTALL_PATH' ) !== false

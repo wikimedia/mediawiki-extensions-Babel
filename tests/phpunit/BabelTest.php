@@ -8,10 +8,10 @@ use MediaWiki\Babel\Babel;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Page\PageReference;
 use MediaWiki\Parser\Parser;
+use MediaWiki\Parser\ParserOptions;
 use MediaWiki\Parser\ParserOutput;
 use MediaWiki\Title\Title;
 use MediaWikiIntegrationTestCase;
-use ParserOptions;
 
 /**
  * @covers \MediaWiki\Babel\Babel

@@ -2,8 +2,8 @@
 
 namespace MediaWiki\Babel;
 
-use ExtensionRegistry;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Registration\ExtensionRegistry;
 
 class Utils {
 

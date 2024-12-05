@@ -11,7 +11,7 @@ declare( strict_types = 1 );
 
 namespace MediaWiki\Babel;
 
-use LanguageCode;
+use MediaWiki\Language\LanguageCode;
 use MediaWiki\Languages\LanguageNameUtils;
 use MediaWiki\MediaWikiServices;
 

@@ -3,8 +3,8 @@ declare( strict_types = 1 );
 
 namespace Babel\Tests;
 
-use LanguageCode;
 use MediaWiki\Babel\BabelLanguageCodes;
+use MediaWiki\Language\LanguageCode;
 use PHPUnit\Framework\TestCase;
 
 /**
