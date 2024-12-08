@@ -54,7 +54,7 @@ class Babel {
 	 * @param string ...$parameters
 	 * @return string Babel tower.
 	 */
-	public static function Render( Parser $parser, string ...$parameters ): string {
+	public static function render( Parser $parser, string ...$parameters ): string {
 		return ( new Babel( $parser ) )->doRender( $parameters );
 	}
 

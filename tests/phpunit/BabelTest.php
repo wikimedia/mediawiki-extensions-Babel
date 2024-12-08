@@ -88,7 +88,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	public function testRenderEmptyBox(): void {
 		$title = Title::newFromText( 'User:User-1' );
 		$parser = $this->getParser( $title );
-		$wikiText = Babel::Render( $parser, '' );
+		$wikiText = Babel::render( $parser, '' );
 		$this->assertSame(
 			'{|class="mw-babel-wrapper notheme"'
 			. "\n"
@@ -115,7 +115,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 	 */
 	public function testRenderDefaultLevel( string $pageName ): void {
 		$parser = $this->getParser( Title::newFromText( $pageName ) );
-		$wikiText = Babel::Render( $parser, 'en' );
+		$wikiText = Babel::render( $parser, 'en' );
 		$this->assertBabelBoxCount( 1, $wikiText );
 		$this->assertStringContainsString(
 			'<div class="mw-babel-box mw-babel-box-N mw-babel-box-en notheme" dir="ltr">'
@@ -144,7 +144,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 
 		$title = Title::newFromText( $pageName );
 		$parser = $this->getParser( $title );
-		$wikiText = Babel::Render( $parser, 'en' );
+		$wikiText = Babel::render( $parser, 'en' );
 		$this->assertBabelBoxCount( 1, $wikiText );
 		$this->assertStringContainsString(
 			'<div class="mw-babel-box mw-babel-box-N mw-babel-box-en notheme" dir="ltr">'
@@ -167,7 +167,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 
 	public function testRenderCustomLevel(): void {
 		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
-		$wikiText = Babel::Render( $parser, 'EN-1', 'zh-Hant' );
+		$wikiText = Babel::render( $parser, 'EN-1', 'zh-Hant' );
 		$this->assertBabelBoxCount( 2, $wikiText );
 		$this->assertStringContainsString(
 			'<div class="mw-babel-box mw-babel-box-1 mw-babel-box-en notheme" dir="ltr">'
@@ -209,7 +209,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 
 	public function testRenderPlain(): void {
 		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
-		$wikiText = Babel::Render( $parser, 'plain=1', 'en' );
+		$wikiText = Babel::render( $parser, 'plain=1', 'en' );
 		$this->assertSame(
 			'<div class="mw-babel-box mw-babel-box-N mw-babel-box-en notheme" dir="ltr">'
 			. "\n"
@@ -231,7 +231,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 
 	public function testRenderRedLink(): void {
 		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
-		$wikiText = Babel::Render( $parser, 'redLink' );
+		$wikiText = Babel::render( $parser, 'redLink' );
 		$this->assertBabelBoxCount( 0, $wikiText );
 		$this->assertStringContainsString(
 			'<div class="mw-babel-notabox" dir="ltr">[[(babel-template: redLink)]]</div>',
@@ -241,7 +241,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 
 	public function testRenderInvalidTitle(): void {
 		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
-		$wikiText = Babel::Render( $parser, '<invalidTitle>' );
+		$wikiText = Babel::render( $parser, '<invalidTitle>' );
 		$this->assertBabelBoxCount( 0, $wikiText );
 		$this->assertStringContainsString(
 			'<div class="mw-babel-notabox" dir="ltr">(babel-template: <invalidTitle>)</div>',
@@ -251,7 +251,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 
 	public function testRenderNoSkillNoCategory(): void {
 		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
-		$wikiText = Babel::Render( $parser, 'en-0' );
+		$wikiText = Babel::render( $parser, 'en-0' );
 		$this->assertNotHasCategory( $parser, 'en' );
 	}
 
@@ -306,7 +306,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->overrideConfigValue( 'BabelAllowOverride', true );
 		$title = Title::newFromText( 'User:User-1' );
 		$parser = $this->getParser( $title );
-		$wikiText = Babel::Render( $parser, 'en-1' );
+		$wikiText = Babel::render( $parser, 'en-1' );
 		$this->assertStringContainsString( "babel-category-override:_en-1,_en,_1", $wikiText );
 		$this->assertStringContainsString( "babel-category-override:_en,_en,_", $wikiText );
 		$this->assertHasCategory( $parser, '(babel-category-override:_en,_en,_)', '1' );
@@ -333,7 +333,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 
 		$title = Title::newFromText( 'User:User-1' );
 		$parser = $this->getParser( $title );
-		$wikiText = Babel::Render( $parser, 'en-1' );
+		$wikiText = Babel::render( $parser, 'en-1' );
 		$this->assertStringNotContainsString( $wikiText, "Category:en" );
 		$this->assertSame( [], $parser->getOutput()->getCategoryNames() );
 	}
@@ -344,7 +344,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->insertPage( "MediaWiki:Babel-1-n", "Overridden message" );
 		$title = Title::newFromText( 'User:User-1' );
 		$parser = $this->getParser( $title );
-		$wikiText = Babel::Render( $parser, 'zxx-1' );
+		$wikiText = Babel::render( $parser, 'zxx-1' );
 		$this->assertStringNotContainsString( "English", $wikiText );
 	}
 
@@ -352,7 +352,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->overrideConfigValue( 'BabelAutoCreate', true );
 		$title = Title::newFromText( 'User:User-1' );
 		$parser = $this->getParser( $title );
-		$wikiText = Babel::Render( $parser, 'zxx-1' );
+		$wikiText = Babel::render( $parser, 'zxx-1' );
 		$this->assertNotNull( $parser->getOutput()->getExtensionData( 'babel-tocreate' ) );
 	}
 
@@ -360,7 +360,7 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->overrideConfigValue( 'BabelAutoCreate', false );
 		$title = Title::newFromText( 'User:User-1' );
 		$parser = $this->getParser( $title );
-		$wikiText = Babel::Render( $parser, 'zxx-1' );
+		$wikiText = Babel::render( $parser, 'zxx-1' );
 		$this->assertNull( $parser->getOutput()->getExtensionData( 'babel-tocreate' ) );
 	}
 }

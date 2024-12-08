@@ -52,7 +52,7 @@ class Hooks implements
 	 * @param Parser $parser
 	 */
 	public function onParserFirstCallInit( $parser ): void {
-		$parser->setFunctionHook( 'babel', [ Babel::class, 'Render' ] );
+		$parser->setFunctionHook( 'babel', [ Babel::class, 'render' ] );
 	}
 
 	/**
