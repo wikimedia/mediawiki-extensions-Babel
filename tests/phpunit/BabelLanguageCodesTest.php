@@ -26,14 +26,14 @@ class BabelLanguageCodesTest extends TestCase {
 
 	public static function getCodeProvider(): array {
 		$testData = [
-			[ 'invalidLanguageCode', false ],
+			[ 'invalidLanguageCode', null ],
 			[ 'en', 'en' ],
 			[ 'eng', 'en' ],
 			[ 'en-gb', 'en-gb' ],
 			[ 'de', 'de' ],
 			[ 'be-x-old', 'be-tarask' ],
 			// Make sure this special case gets handled properly, instead of returning an unrecognized code
-			[ 'en-x-rtl', false ]
+			[ 'en-x-rtl', null ]
 		];
 		// True BCP 47 normalization was added in MW 1.32
 		if ( LanguageCode::bcp47( 'simple' ) === 'en-simple' ) {

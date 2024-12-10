@@ -294,7 +294,7 @@ EOT;
 		$babelCode = $strtolower ? strtolower( $parameter ) : $parameter;
 		// Try treating the parameter as a language code (for default level).
 		$code = BabelLanguageCodes::getCode( $babelCode );
-		if ( $code !== false ) {
+		if ( $code !== null ) {
 			$return['code'] = $code;
 			$return['level'] = self::getConfig()->get( 'BabelDefaultLevel' );
 			return $return;
@@ -310,7 +310,7 @@ EOT;
 		$babelCode = $strtolower ? strtolower( $code ) : $code;
 		// Validate code.
 		$return['code'] = BabelLanguageCodes::getCode( $babelCode );
-		if ( $return['code'] === false ) {
+		if ( $return['code'] === null ) {
 			return false;
 		}
 		// Validate level.

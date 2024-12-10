@@ -64,10 +64,10 @@ class BabelLanguageCodes {
 	 * internal Babel language codes (preferring ISO 639-1 over ISO 639-3) map.
 	 *
 	 * @param string $code Code to try and get a "better" code for.
-	 * @return string|bool Mediawiki-internal language code, or false
+	 * @return string|null Mediawiki-internal language code, or null
 	 *   for invalid language code.
 	 */
-	public static function getCode( string $code ) {
+	public static function getCode( string $code ): ?string {
 		// Map BCP 47 codes and/or deprecated codes to internal MediaWiki codes
 		$mediawiki = self::mapToMediaWikiCode( $code );
 		if ( $mediawiki !== false ) {
@@ -86,7 +86,7 @@ class BabelLanguageCodes {
 			$isoCodes = require __DIR__ . '/../codes.php';
 		}
 
-		return $isoCodes[$code] ?? false;
+		return $isoCodes[$code] ?? null;
 	}
 
 	/**
@@ -102,7 +102,7 @@ class BabelLanguageCodes {
 	public static function getName( string $code, ?string $language = null ) {
 		// Get correct code, even though it should already be correct.
 		$code = self::getCode( $code );
-		if ( $code === false ) {
+		if ( $code === null ) {
 			return false;
 		}
 		$code = strtolower( $code );

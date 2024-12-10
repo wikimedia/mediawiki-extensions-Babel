@@ -59,8 +59,7 @@ class LanguageBabelBox implements BabelBox {
 		$this->config = $config;
 		$this->page = $page;
 		$this->targetLanguage = $targetLanguage;
-		$babelLanguageCode = BabelLanguageCodes::getCode( $code );
-		$this->code = $babelLanguageCode === false ? $code : $babelLanguageCode;
+		$this->code = BabelLanguageCodes::getCode( $code ) ?? $code;
 		$this->level = $level;
 	}
 
