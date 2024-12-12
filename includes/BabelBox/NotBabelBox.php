@@ -23,16 +23,8 @@ use MediaWiki\Parser\ParserOutput;
  * Class for inner items which are not babel boxes.
  */
 class NotBabelBox implements BabelBox {
-
-	/**
-	 * @var string
-	 */
-	private $dir;
-
-	/**
-	 * @var string
-	 */
-	private $content;
+	private string $dir;
+	private string $content;
 
 	/**
 	 * Construct a non-babel box.
