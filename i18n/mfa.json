@@ -4,5 +4,24 @@
 			"Mirlim"
 		]
 	},
-	"babel": "Maklumak bahaso jóng gguno"
+	"babel": "Maklumak baso jóng gguno",
+	"babel-desc": "Nnamboh fungsi nngura <code>#babel</code> nok buwi ko priduk janoe kotok baso jóng gguno nga sdiri de tepohe templek",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Kategori:Babel - Jóng gguno ikók baso",
+	"babel-autocreate-reason": "Buwak lame ketegori [[$1|Bahaso]] nga sdiri",
+	"babel-0": "Jóng gguno ni [[$1|tok léh nok]] kkecek (dokpóng rohok nok pehe) [[$2|$3]].",
+	"babel-1": "Jóng gguno ni mahé [[$1|bo-bo ado]] dale [[$2|$3]].",
+	"babel-2": "Jóng gguno ni [[$1|tengoh-tengoh]] mahé dale [[$2|$3]].",
+	"babel-3": "Jóng gguno ni mahé [[$1|sngoti]] dale [[$2|$3]].",
+	"babel-4": "Jóng gguno ni mahé [[$1|lekak llolo]] dale [[$2|$3]].",
+	"babel-5": "Jóng gguno ni mahé tarah [[$1|profesiona]] dale [[$2|$3]].",
+	"babel-N": "Jóng gguno ni ore kecek [[$2|$3]] [[$1|asa]].",
+	"babel-0-n": "Jóng gguno ni [[$1|tok léh nok]] kkecek (dokpóng rohok nok pehe) [[$2|baso Klate-Ttaning]].",
+	"babel-1-n": "Jóng gguno ni mahé [[$1|bo-bo ado]] dale [[$2|baso Klate-Ttaning]].",
+	"babel-2-n": "Jóng gguno ni [[$1|tengoh-tengoh]] mahé dale [[$2|baso Klate-Ttaning]].",
+	"babel-3-n": "Jóng gguno ni mahé [[$1|sngoti]] dale [[$2|baso Klate-Ttaning]].",
+	"babel-4-n": "Jóng gguno ni mahé [[$1|lekak llolo]] dale [[$2|baso Klate-Ttaning]].",
+	"babel-5-n": "Jóng gguno ni mahé tarah [[$1|profesiona]] dale [[$2|baso Klate-Ttaning]].",
+	"babel-N-n": "Jóng gguno ni ore kecek [[$2|baso Klate-Ttaning]] [[$1|asa]].",
+	"babel-footer": "Jóng gguno ikók baso"
 }
