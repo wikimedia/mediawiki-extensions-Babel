@@ -29,8 +29,7 @@ use MediaWiki\User\UserIdentityLookup;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiQueryBabel extends ApiQueryBase {
-	/** @var UserIdentityLookup */
-	private $userIdentityLookup;
+	private UserIdentityLookup $userIdentityLookup;
 
 	public function __construct(
 		ApiQuery $queryModule,
