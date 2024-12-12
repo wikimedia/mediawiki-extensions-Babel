@@ -27,11 +27,7 @@ use Wikimedia\Rdbms\IDatabase;
 use Wikimedia\Rdbms\LBFactory;
 
 class Database {
-
-	/**
-	 * @var LBFactory
-	 */
-	private $loadBalancerFactory;
+	private LBFactory $loadBalancerFactory;
 
 	public function __construct() {
 		$this->loadBalancerFactory = MediaWikiServices::getInstance()->getDBLoadBalancerFactory();
