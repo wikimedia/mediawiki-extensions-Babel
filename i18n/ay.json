@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Erebedhel"
+			"Erebedhel",
+			"AleElDestructor"
 		]
 	},
 	"babel": "Wawil apnaqirxata uñt'ayawi",
 	"babel-desc": "<code>#babel</code> arthapi suk'atat uñakipawi lurt'awix yapxatiwa, mäwawil apnaqirina llatatax uñacht'arawi turkatax apantachi q'aphawimpiwa achurpayachayiti luräni.",
-	"babel-url": "Project:Wawil",
+	"babel-url": "Project:Wawilu",
 	"babel-autocreate-reason": "[[$1|Wawil]]-na patawi uñstawi uñstayarachayaski.",
 	"babel-autocreate-text-levels": "Patawinax apnaqiripacha $1 q'aphawi $2 arutakiwa sistu.",
 	"babel-autocreate-text-main": "Patawinax apnaqiripacha $1 aru yatiniwa sistu.",

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"babel": "用戶信息",
+	"babel-desc": "添加<code>#babel</code>解析器功能，來支持自動形成蜀萆用戶框，固加會使包括自定義模板。",
+	"babel-url": "Project:用戶信息",
+	"babel-footer-url": ":類別:用戶信息——用戶使語言分類",
+	"babel-footer": "用戶，使語言分類"
+}
