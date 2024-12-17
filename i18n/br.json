@@ -28,5 +28,15 @@
 	"babel-5-n": "Ul live [[$2|Brezhoneg]] [[$1|a-vicher]] zo gant an implijer-mañ.",
 	"babel-N-n": "[[$1|A-vihanik]] e oar [[$2|brezhoneg]] an implijer-mañ.",
 	"babel-footer": "Implijerien dre yezh",
-	"babel-template-params-category": "Pajennoù a ra gant babel gant arventennoù anvet"
+	"babel-template-params-category": "Pajennoù a ra gant babel gant arventennoù anvet",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Live 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Live 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Live 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Live 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Live 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Live 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Live N",
+	"communityconfiguration-babel-babelmaincategory-label": "Rummad pennañ",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Ober gant yezh an implijer"
 }
