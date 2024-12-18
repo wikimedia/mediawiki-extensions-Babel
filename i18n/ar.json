@@ -32,7 +32,11 @@
 	"babel-N-n": "{{GENDER:{{PAGENAME}}|هذا المستخدم|هذه المستخدمة}} [[$1|{{GENDER:{{PAGENAME}}|لغته|لغتها}} الأم]] هي [[$2|العربية]].",
 	"babel-template": "Template:مستخدم $1",
 	"babel-footer": "المستخدمون حسب اللغة",
+	"babel-template-params-category": "الصفحات التي تستخدم babel مع المعلمات المسماة",
+	"babel-template-params-category-desc": "تمرر الصفحة معلمة name=value إلى دالة المحلل #babel. قد يتغير سلوك هذه المعلمات [[phab:T327847|في المستقبل القريب]].",
 	"communityconfiguration-babel-title": "بابل",
+	"communityconfiguration-babel-description": "تخصيص الفئات التي تم إنشاؤها بواسطة وظيفة المحلل #babel.",
+	"communityconfiguration-babel-babelcategorynames-label": "أسماء الفئات حسب مستوى اللغة",
 	"communityconfiguration-babel-babelcategorynames-0-label": "المستوى 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "المستوى 1",
 	"communityconfiguration-babel-babelcategorynames-2-label": "المستوى 2",
@@ -41,5 +45,11 @@
 	"communityconfiguration-babel-babelcategorynames-5-label": "المستوى 5",
 	"communityconfiguration-babel-babelcategorynames-n-label": "المستوى N",
 	"communityconfiguration-babel-babelmaincategory-label": "التصنيف الرئيسي",
-	"communityconfiguration-babel-babeluseuserlanguage-control-label": "استخدم لغة المستخدم"
+	"communityconfiguration-babel-babelmaincategory-description": "اسم الفئة الرئيسية (غير المستوية) لكل لغة والتي تمت إضافة جميع مستخدمي تلك اللغة إليها.",
+	"communityconfiguration-babel-babelmaincategory-help-text": "يقبل نفس التنسيق مثل \"أسماء الفئات حسب مستوى اللغة\" أعلاه.",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "استخدم لغة المستخدم",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "ما إذا كان سيتم استخدام لغة واجهة المستخدم لرسالة الرأس والتذييل. إذا كانت القيمة false (افتراضية)، فستكون بلغة محتوى الصفحة. وذلك لأن استخدام لغة واجهة المستخدم قد يؤدي إلى تجزئة ذاكرة التخزين المؤقت للمحلل.",
+	"communityconfiguration-babel-babelcategorizenamespaces-label": "المساحات الاسمية التي يجب إضافة فئات Babel إليها",
+	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "اتركه فارغًا لجميع المساحات الأساسية.",
+	"communityconfiguration-babel-babelautocreate-control-label": "إنشاء فئات Babel تلقائيًا"
 }
