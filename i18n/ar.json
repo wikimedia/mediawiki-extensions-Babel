@@ -37,6 +37,7 @@
 	"communityconfiguration-babel-title": "بابل",
 	"communityconfiguration-babel-description": "تخصيص الفئات التي تم إنشاؤها بواسطة وظيفة المحلل #babel.",
 	"communityconfiguration-babel-babelcategorynames-label": "أسماء الفئات حسب مستوى اللغة",
+	"communityconfiguration-babel-babelcategorynames-description": "العناصر المتغيرة المحتملة هي: <code>%code%</code> (كود اللغة)، <code>%wikiname%</code> (اسم اللغة في لغة محتوى الويكي)، و <code>%nativename%</code> (اسم اللغة في لغتها). اتركها فارغة لتعطيلها.",
 	"communityconfiguration-babel-babelcategorynames-0-label": "المستوى 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "المستوى 1",
 	"communityconfiguration-babel-babelcategorynames-2-label": "المستوى 2",
