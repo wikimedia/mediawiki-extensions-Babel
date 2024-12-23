@@ -9,13 +9,13 @@
 			"Xbspiro"
 		]
 	},
-	"babel": "Bábel felhasználói információ",
+	"babel": "Bábel felhasználói információk",
 	"babel-desc": "<code>#babel</code> elemzőfüggvény bábelinformációkat tartalmazó oszlop automatikus generálásához, saját sablonok beillesztésének lehetőségével",
 	"babel-url": "Project:Bábel",
 	"babel-footer-url": ":Category:Bábel – Felhasználók nyelvek szerint",
 	"babel-autocreate-reason": "[[$1|Bábel]]kategória-oldal automatikus létrehozása",
-	"babel-autocreate-text-levels": "Ebbe a kategóriába szereplő felhasználóknak $1 szintű tudásuk van a $2 nyelven.\n $4",
-	"babel-autocreate-text-main": "Az ebben a kategóriában szereplő szerkesztők valamilyen szinten beszélik a(z) $1 nyelvet.\n$3",
+	"babel-autocreate-text-levels": "Az ebben a kategóriában szereplő felhasználók $1 szinten beszélik a(z) $2 nyelvet.\n$4",
+	"babel-autocreate-text-main": "Az ebben a kategóriában szereplő felhasználók valamilyen szinten beszélik a(z) $1 nyelvet.\n$3",
 	"babel-0": "Ez a felhasználó [[$1|nem]] beszéli a(z) [[$2|$3]] nyelvet (vagy csak nagy nagyon nehezen érti meg).",
 	"babel-1": "Ez a felhasználó [[$1|alapszinten]] beszéli a(z) [[$2|$3]] nyelvet.",
 	"babel-2": "Ez a felhasználó [[$1|középszinten]] beszéli a(z) [[$2|$3]] nyelvet.",
@@ -48,7 +48,7 @@
 	"communityconfiguration-babel-babelmaincategory-description": "A fő (nem szint szerinti) nyelvenkénti kategória neve, amibe az adott nyelvet beszélő összes felhasználó bekerül.",
 	"communityconfiguration-babel-babelmaincategory-help-text": "Ugyanazt a formátumot fogadja el, mint a fenti „Kategórianevek nyelvi szintenként”.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Felhasználói felület nyelvének használata",
-	"communityconfiguration-babel-babeluseuserlanguage-help-text": "A felhasználói felület nyelvét használja-e, a fejléc és a lábléc üzenetéhez. Ha hamis (alapértelmezett), akkor a lap tartalmának nyelvén lesz. Ez azért van mert a felhasználói felület nyelvének használata közben, töredezheti az elemző gyorstárát.",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "A felhasználói felület nyelvén jelenjen-e meg a fejléc és a lábléc üzenete. Ha hamis (alapértelmezett), akkor a fejléc és lábléc a lap tartalomnyelvén jelenik meg. A felhasználói felület nyelvének használata töredezetté teheti a wikiszöveg-elemző gyorsítótárát.",
 	"communityconfiguration-babel-babelcategorizenamespaces-label": "Névterek, amikben a Bábel kategóriái hozzáadódnak",
 	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Hagyd üresen az összes névtérhez.",
 	"communityconfiguration-babel-babelautocreate-control-label": "A Bábel kategóriáinak automatikus létrehozása"

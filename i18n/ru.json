@@ -10,6 +10,7 @@
 			"Gleb Borisov",
 			"Irus",
 			"Kaganer",
+			"Köpleres",
 			"MaxBioHazard",
 			"Ole Yves",
 			"Spiritia",
@@ -23,8 +24,8 @@
 	"babel-url": "Project:Вавилон",
 	"babel-footer-url": ":Category:{{ns:Project}}:Участники по языкам",
 	"babel-autocreate-reason": "Автоматическое создание страницы категории [[$1|Вавилон]]",
-	"babel-autocreate-text-levels": "Участники из этой категории указали уровень знаний $1 для языка «$2».",
-	"babel-autocreate-text-main": "Участники в этой категории указали знание языка «$1».",
+	"babel-autocreate-text-levels": "Участники из этой категории указали уровень знаний $1 для языка «$2».\n$4",
+	"babel-autocreate-text-main": "Участники в этой категории указали знание языка «$1».\n$3",
 	"babel-autocreate-user": "Babel AutoCreate",
 	"babel-0": "[[$2|$3]] — [[$1|не владеет]] (или с трудом понимает)",
 	"babel-1": "[[$2|$3]] — [[$1|начальный уровень]]",
@@ -42,5 +43,8 @@
 	"babel-N-n": "[[$2|Русский]] — [[$1|родной]] язык {{GENDER:$4|этого участника|этой участницы}}.",
 	"babel-template": "Template:Участник $1",
 	"babel-footer": "Участники по языкам",
-	"babel-template-params-category": "Страницы, использующие синтаксис Вавилона с именованными параметрами"
+	"babel-template-params-category": "Страницы, использующие синтаксис Вавилона с именованными параметрами",
+	"babel-template-params-category-desc": "Страница передаёт параметр name=value в функцию парсера #babel. Поведение этих параметров [[phab:T327847|может измениться в ближайшем будущем]].",
+	"communityconfiguration-babel-babelcategorynames-description": "Возможные переменные элементы: <code>%code%</code> (код языка), <code>%wikiname%</code> (название языка в языке содержания вики) и <code>%nativename%</code> (название языка на самом языке). Оставьте пустым, чтобы отключить.",
+	"communityconfiguration-babel-babelmaincategory-label": "Главная категория"
 }

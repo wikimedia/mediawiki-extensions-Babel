@@ -11,7 +11,8 @@
 			"McDutchie",
 			"Melos",
 			"Morel",
-			"Nemo bis"
+			"Nemo bis",
+			"Valepert"
 		]
 	},
 	"babel": "Babel utente",
@@ -36,5 +37,7 @@
 	"babel-5-n": "{{GENDER:$4|Questo utente|Questa utente|Quest'utente}} può contribuire con un livello [[$1|professionale]] in [[$2|italiano]].",
 	"babel-N-n": "{{GENDER:$4|Questo utente|Questa utente|Quest'utente}} può contribuire con un livello [[$1|madrelingua]] in [[$2|italiano]].",
 	"babel-template": "Template:Utente $1",
-	"babel-footer": "Utenti per lingua"
+	"babel-footer": "Utenti per lingua",
+	"babel-template-params-category": "Pagine che utilizzano Babel con parametri nominati",
+	"babel-template-params-category-desc": "La pagina passa un parametro nome=valore alla funzione parser #babel. Il comportamento di questi parametri [[phab:T327847|potrebbe cambiare in futuro]]."
 }
