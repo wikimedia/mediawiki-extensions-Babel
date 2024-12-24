@@ -15,7 +15,8 @@
 			"Spiritia",
 			"Stjn",
 			"Александр Сигачёв",
-			"Туллук"
+			"Туллук",
+			"Köpleres"
 		]
 	},
 	"babel": "Сведения о языках участников (Вавилон)",
@@ -42,5 +43,8 @@
 	"babel-N-n": "[[$2|Русский]] — [[$1|родной]] язык {{GENDER:$4|этого участника|этой участницы}}.",
 	"babel-template": "Template:Участник $1",
 	"babel-footer": "Участники по языкам",
-	"babel-template-params-category": "Страницы, использующие синтаксис Вавилона с именованными параметрами"
+	"babel-template-params-category": "Страницы, использующие синтаксис Вавилона с именованными параметрами",
+	"babel-template-params-category-desc": "Страница передаёт параметр name=value в функцию парсера #babel. Поведение этих параметров [[phab:T327847|может измениться в ближайшем будущем]].",
+	"communityconfiguration-babel-babelcategorynames-description": "Возможные переменные элементы: <code>%code%</code> (код языка), <code>%wikiname%</code> (название языка в языке содержания вики) и <code>%nativename%</code> (название языка на самом языке). Оставьте пустым, чтобы отключить.",
+	"communityconfiguration-babel-babelmaincategory-label": "Главная категория"
 }

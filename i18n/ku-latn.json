@@ -4,12 +4,18 @@
 			"Balyozxane",
 			"Bikarhêner",
 			"George Animal",
-			"Ghybu"
+			"Ghybu",
+			"TheJoyfulTentmaker"
 		]
 	},
 	"babel": "Agahiyên bikarhênerê Babîlê",
 	"babel-url": "Project:Babîl",
 	"babel-footer-url": ":Kategorî:Babîl - Bikarhênerên li gorî zimanê",
+	"babel-1": "Ev bikarhêner [[$2|$3]] [[$1|hinekî]] dizane.",
+	"babel-2": "Ev bikarhêner [[$2|$3]] [[$1|normal]] dizane.",
+	"babel-3": "Ev bikarhêner [[$2|$3]] [[$1|baş]] dizane.",
+	"babel-4": "Ev bikarhêner [[$2|$3]] [[$1|wekî zimanê dayikî]] dizane.",
+	"babel-5": "Ev bikarhêner [[$2|$3]] [[$1|wekî zimanê dayikî]] dizane.",
 	"babel-N": "Zimanê [[$1|zikmakî]] yê {{GENDER:{{BASEPAGENAME}}|vî bikarhênerî|vê bikarhênerê|vî/vê bikarhênerî/ê}} [[$2|$3]] ye.",
 	"babel-template": "Şablon:Bikarhêner $1",
 	"babel-footer": "Bikarhêner li gorî zimanê"
