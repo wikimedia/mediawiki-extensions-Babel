@@ -27,5 +27,19 @@
 	"babel-4-n": "Pemakî ni paca' tereti bebaso [[$2|Pelémbang]] la [[$1|peca' wong tulénnyo]] la itu.",
 	"babel-5-n": "Pemakî ni ceto nian paca' tereti bebaso [[$2|Pelémbang]] sampî la [[$1|bederot-derot]] singgonyo.",
 	"babel-N-n": "Pemakî ni ceto nian [[$1|tulén ngomong]] bebaso [[$2|Pelémbang]].",
-	"babel-footer": "Pemakî melo' basonyo"
+	"babel-footer": "Pemakî melo' basonyo",
+	"babel-template-params-category": "Laman makî babel dengen paramétér benamo",
+	"babel-template-params-category-desc": "Laman ni la ceto ado paramétér namo=pontén di pungsi parser #babel. Pi'il paramétér ni [[phab:T327847|paca' baé beroba denget-denget kagé']].",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-description": "Setél déwé' bangso gawa'an yang kagé' digawé' samo pungsi parser #babel.",
+	"communityconfiguration-babel-babelcategorynames-label": "Namo-namo bangso saben tingkat baso",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Tingkat 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Tingkat 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Tingkat 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Tingkat 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Tingkat 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Tingkat 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Tingkat N",
+	"communityconfiguration-babel-babelmaincategory-label": "Bangso utamo",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Pakî baso pemakî"
 }

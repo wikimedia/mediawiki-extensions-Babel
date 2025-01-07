@@ -29,7 +29,10 @@
 	"babel-N-n": "[[$1|A-vihanik]] e oar [[$2|brezhoneg]] an implijer-mañ.",
 	"babel-footer": "Implijerien dre yezh",
 	"babel-template-params-category": "Pajennoù a ra gant babel gant arventennoù anvet",
+	"babel-template-params-category-desc": "Treuzkas a ra ar bajenn un arventenn name=value d'ar fonksion dielfennañ #babel. Emzalc'h an arventennoù-mañ [[phab:T327847|a c'hallfe cheñch a-benn nebeut]].",
 	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-description": "Personelaat ar rummadoù krouet gant ar fonksion dielfennañ #babel.",
+	"communityconfiguration-babel-babelcategorynames-label": "Anvioù rummad dre live yezh",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Live 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "Live 1",
 	"communityconfiguration-babel-babelcategorynames-2-label": "Live 2",
@@ -38,5 +41,10 @@
 	"communityconfiguration-babel-babelcategorynames-5-label": "Live 5",
 	"communityconfiguration-babel-babelcategorynames-n-label": "Live N",
 	"communityconfiguration-babel-babelmaincategory-label": "Rummad pennañ",
-	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Ober gant yezh an implijer"
+	"communityconfiguration-babel-babelmaincategory-description": "Anv ar rummad pennañ (nann-live) evit pep yezh m'eo ouzhpennet holl implijerien ar yezh-se.",
+	"communityconfiguration-babel-babelmaincategory-help-text": "Degemer a ra ar memes furmad hag \"Anvioù rummad dre live yezh\" a-us.",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Ober gant yezh an implijer",
+	"communityconfiguration-babel-babelcategorizenamespaces-label": "Esaouennoù anv ma tlefer ouzhpennañ rummadoù Babel",
+	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Lezit goullo evit an holl esaouennoù anv.",
+	"communityconfiguration-babel-babelautocreate-control-label": "Krouiñ rummadoù Babel ent emgefre"
 }
