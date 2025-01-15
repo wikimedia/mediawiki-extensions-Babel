@@ -4,6 +4,13 @@
 			"DedeKurnn"
 		]
 	},
+	"babel": "Inpormasi pumakay Babel",
+	"babel-desc": "Nambahko pungsi parser <code>#babel</code> guway ngejajakko kolom kutak pumakay babel secagha otomatis jama kemampuwan makay citakan say tikostumisasi",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Category:Babel - Pumakay nughut bahasa",
+	"babel-autocreate-reason": "Otomatis nyani halaman kaban [[$1|Babel]]",
+	"babel-autocreate-text-levels": "Pumakay lom kaban hinji tandani tiyan ngedok kemampuwan tikkat $1 guway bahasa $2.\n$4",
+	"babel-autocreate-text-main": "Pumakay di lom kaban hinji tandani pumahaman tiyan lom bahasa $1.\n$3",
 	"babel-0": "Pumakay sinji [[$1|mak ngedok]] pumahaman [[$2|$3]] (atawa payah haga mahamini).",
 	"babel-1": "Pumakay sinji ngedok pumahaman [[$1|dasar]] [[$2|$3]].",
 	"babel-2": "Pumakay sinji ngedok pumahaman [[$1|nengah]] [[$2|$3]].",
@@ -17,5 +24,16 @@
 	"babel-3-n": "Pumakay sinji ngedok pumahaman [[$1|tikkat lanjut]] [[$2|Bahasa Lampung Pesisir]].",
 	"babel-4-n": "Pumakay sinji ngedok pumahaman [[$1|say ghadu haga ngeghedikko penutur asli]] [[$2|Bahasa Lampung Pesisir]].",
 	"babel-5-n": "Pumakay sinji ngedok pumahaman [[$1|propésiyonal]] [[$2|Bahasa Lampung Pesisir]].",
-	"babel-N-n": "Pumakay sinji yakdolah [[$1|penutur asli]] [[$2|Bahasa Lampung]]."
+	"babel-N-n": "Pumakay sinji yakdolah [[$1|penutur asli]] [[$2|Bahasa Lampung]].",
+	"babel-footer": "Pumakay budasaghko bahasa",
+	"babel-template-params-category": "Halaman makay babel jama gelagh paraméter",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Tikkat 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Tikkat 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Tikkat 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Tikkat 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Tikkat 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Tikkat 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Tikkat N",
+	"communityconfiguration-babel-babelmaincategory-label": "Kaban utama"
 }
