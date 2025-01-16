@@ -4,7 +4,7 @@ namespace MediaWiki\Babel\Maintenance;
 
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\CommunityConfiguration\CommunityConfigurationServices;
-use MediaWiki\Extension\CommunityConfiguration\Provider\IConfigurationProvider;
+use MediaWiki\Extension\CommunityConfiguration\Provider\ConfigurationProviderFactory;
 use MediaWiki\Json\FormatJson;
 use MediaWiki\Maintenance\LoggedUpdateMaintenance;
 use MediaWiki\Permissions\UltimateAuthority;
@@ -20,7 +20,7 @@ require_once "$IP/maintenance/Maintenance.php";
 class MigrateConfigToCommunity extends LoggedUpdateMaintenance {
 
 	private StatusFormatter $statusFormatter;
-	private IConfigurationProvider $provider;
+	private ConfigurationProviderFactory $providerFactory;
 
 	public function __construct() {
 		parent::__construct();
@@ -37,11 +37,20 @@ class MigrateConfigToCommunity extends LoggedUpdateMaintenance {
 			->getStatusFormatter( RequestContext::getMain() );
 
 		$ccServices = CommunityConfigurationServices::wrap( $this->getServiceContainer() );
-		$this->provider = $ccServices->getConfigurationProviderFactory()->newProvider( 'Babel' );
+		$this->providerFactory = $ccServices->getConfigurationProviderFactory();
 	}
 
 	protected function doDBUpdates() {
 		$this->initServices();
+
+		if ( !$this->providerFactory->isProviderSupported( 'Babel' ) ) {
+			$this->fatalError(
+				'The `Babel` CommunityConfiguration provider is not supported; ' .
+				'maybe BabelUseCommunityConfiguration is not set to true?'
+			);
+		}
+
+		$provider = $this->providerFactory->newProvider( 'Babel' );
 		$dryRun = $this->hasOption( 'dry-run' );
 
 		$config = $this->getConfig();
@@ -56,7 +65,7 @@ class MigrateConfigToCommunity extends LoggedUpdateMaintenance {
 		if ( $dryRun ) {
 			$this->output( FormatJson::encode( $newConfig, true ) . PHP_EOL );
 		} else {
-			$status = $this->provider->storeValidConfiguration(
+			$status = $provider->storeValidConfiguration(
 				$newConfig,
 				new UltimateAuthority( User::newSystemUser( User::MAINTENANCE_SCRIPT_USER ) )
 			);
