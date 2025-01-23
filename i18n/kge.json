@@ -9,8 +9,8 @@
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Pangguna nurut bahasa",
 	"babel-autocreate-reason": "Otomatis ngguwai halaman kategori [[$1|Babel]]",
-	"babel-autocreate-text-levels": "Pangguna dilom kategori hasa nandako bahwa tiyan uwat kamampuan $1 untuk basa $2.",
-	"babel-autocreate-text-main": "Pangguna dilom kategori hasa nandako bahwa tiyan uwat kamampuan bubasa $1.",
+	"babel-autocreate-text-levels": "Pamakay dilom kaban hasa nandako aman tiyan uwat kamampuan $1 untuk basa $2.",
+	"babel-autocreate-text-main": "Pamakay dilom kaban hasa nandako aman tiyan uwat kamampuan bubasa $1.",
 	"babel-0": "Pangguna hasa [[$1|makka]] pangapandaian [[$2|$3]] (atawa sarokot untuk mahamina).",
 	"babel-1": "Pangguna hasa uwat pangapandaian [[$1|dasar]] [[$2|$3]].",
 	"babel-2": "Pangguna hasa uwat pangapandaian [[$1|nongah]] [[$2|$3]].",
@@ -25,5 +25,6 @@
 	"babel-4-n": "Pangguna hasa uwat pangapandaian [[$1|ngarodiki panutur asli]] [[$2|Basa Kumoring]].",
 	"babel-5-n": "Pangguna hasa uwat pangapandaian [[$1|profesional]] [[$2|Basa Kumoring]].",
 	"babel-N-n": "Pangguna hasa joda da [[$1|panutur asli]] [[$2|Basa Kumoring]].",
-	"babel-footer": "Pangguna budasarko basa"
+	"babel-footer": "Pangguna budasarko basa",
+	"babel-template-params-category": "Halaman say makay babel rik paramitir bugolar"
 }
