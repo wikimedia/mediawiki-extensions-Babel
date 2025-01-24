@@ -3,7 +3,6 @@
 namespace MediaWiki\Babel\Config;
 
 use MediaWiki\Extension\CommunityConfiguration\Schema\JsonSchema;
-use MediaWiki\Extension\CommunityConfiguration\Schemas\MediaWiki\MediaWikiDefinitions;
 
 // phpcs:disable Generic.NamingConventions.UpperCaseConstantName.ClassConstantNotUpperCase
 class BabelSchema extends JsonSchema {
@@ -51,12 +50,6 @@ class BabelSchema extends JsonSchema {
 	public const BabelUseUserLanguage = [
 		self::TYPE => self::TYPE_BOOLEAN,
 		self::DEFAULT => false,
-	];
-
-	public const BabelCategorizeNamespaces = [
-		self::REF => [
-			'class' => MediaWikiDefinitions::class, 'field' => 'Namespaces'
-		]
 	];
 
 	public const BabelAutoCreate = [

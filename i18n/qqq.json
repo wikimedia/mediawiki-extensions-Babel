@@ -63,7 +63,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Help text for a field in Babel Community Configuration. Shown at Special:CommunityConfiguration/Babel. Refers to {{msg-mw|Communityconfiguration-babel-babelcategorynames-label}}.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Field label for Babel Community Configuration. Shown at Special:CommunityConfiguration/Babel.",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Help text for a field in Babel Community Configuration. Shown at Special:CommunityConfiguration/Babel.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Description for a field in Babel Community Configuration. Shown at Special:CommunityConfiguration/Babel.",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Help text for a field in Babel Community Configuration. Shown at Special:CommunityConfiguration/Babel.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Field label for Babel Community Configuration. Shown at Special:CommunityConfiguration/Babel."
 }

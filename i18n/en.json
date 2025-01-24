@@ -49,7 +49,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Accepts the same format as \"Category names per language level\" above.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Use user language",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Whether to use the user interface language for the header and footer message. If false (default), it will be in the page content language. This is because using the user interface language may fragment the parser cache.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Namespaces where Babel categories should be added",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Leave empty for all namespaces.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Automatically create Babel categories"
 }
