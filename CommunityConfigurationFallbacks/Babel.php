@@ -14,8 +14,5 @@ return (object) array(
   ),
    'BabelMainCategory' => 'User %code%',
    'BabelUseUserLanguage' => false,
-   'BabelCategorizeNamespaces' => 
-  array (
-  ),
    'BabelAutoCreate' => true,
 );

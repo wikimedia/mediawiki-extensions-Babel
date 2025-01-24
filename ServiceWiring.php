@@ -10,7 +10,8 @@ return [
 	'Babel.Config' => static function ( MediaWikiServices $services ): Config {
 		if ( Utils::useCommunityConfiguration() ) {
 			return new ConfigWrapper(
-				CommunityConfigurationServices::wrap( $services )->getMediaWikiConfigReader()
+				CommunityConfigurationServices::wrap( $services )->getMediaWikiConfigReader(),
+				$services->getMainConfig()
 			);
 		} else {
 			return MediaWikiServices::getInstance()->getMainConfig();
