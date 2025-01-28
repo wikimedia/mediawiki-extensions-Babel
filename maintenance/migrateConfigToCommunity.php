@@ -55,7 +55,12 @@ class MigrateConfigToCommunity extends LoggedUpdateMaintenance {
 
 		$config = $this->getConfig();
 		$newConfig = (object)[
-			'BabelCategoryNames' => (object)$config->get( 'BabelCategoryNames' ),
+			'BabelCategoryNames' => (object)array_map(
+				// Community configuration does not support multi-typed configs
+				// An empty string is interpreted as "no category" (same as false). See T384941.
+				static fn ( $categoryName ) => $categoryName !== false ? $categoryName : '',
+				$config->get( 'BabelCategoryNames' )
+			),
 			'BabelMainCategory' => $config->get( 'BabelMainCategory' ),
 			'BabelUseUserLanguage' => $config->get( 'BabelUseUserLanguage' ),
 			'BabelAutoCreate' => $config->get( 'BabelAutoCreate' ),
