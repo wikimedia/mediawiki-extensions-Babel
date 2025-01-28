@@ -57,7 +57,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Akzeptiert dasselbe Format wie „Kategorienamen pro Sprachniveau“ oben.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Benutzersprache verwenden",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Ob die Benutzeroberflächensprache für die Kopf- und Fußzeilennachricht verwendet werden soll. Wenn „false“ (Standard), wird die Sprache des Seiteninhalts verwendet. Dies liegt daran, dass die Verwendung der Benutzeroberflächensprache den Parsercache fragmentieren kann.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Namensräume, in denen Babel-Kategorien hinzugefügt werden sollten",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Für alle Namensräume leer lassen.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Babel-Kategorien automatisch erstellen"
 }

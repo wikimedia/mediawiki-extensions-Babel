@@ -54,7 +54,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Accepteert hetzelfde formaat als ‘Categorienamen per taalniveau’ hierboven.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "De taal van de gebruiker gebruiken",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Of de taal van de gebruikersinterface moet worden gebruikt voor het kop- en voetbericht. Als dit op false staat (standaard), wordt dit in de taal van de pagina-inhoud gedaan. Dit omdat het gebruik van de taal van de gebruikersinterface de parser-cache kan fragmenteren.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Naamruimten waarin de Babel-categorieën toegevoegd moeten worden",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Laat leeg voor alle naamruimten.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Automatisch babel-categorieën aanmaken"
 }

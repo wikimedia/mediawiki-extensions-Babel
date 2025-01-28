@@ -58,7 +58,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "接受與上方「各語言等級的分類名稱」相同的格式。",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "使用使用者的語言",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "是否使用頁首和頁尾訊息的使用者介面語言。若為 false（預設），會改採用頁面內容語言。這是因為使用使用者介面語言，會將解析器快取分段化。",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "應新增巴別分類的命名空間",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "所有命名空間留空。",
 	"communityconfiguration-babel-babelautocreate-control-label": "自動建立巴別分類"
 }

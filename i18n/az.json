@@ -54,7 +54,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Yuxarıdakı \"Dil səviyyəsinə görə kateqoriya adları\" ilə eyni formatı qəbul edir.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "İstifadəçi dilindən istifadə et",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Başlıq və altbaşlıq mesajı üçün istifadəçi interfeysi dilindən istifadə edilib-edilməməsi. Yanlışdırsa (defolt), o, səhifənin məzmun dilində olacaq. Bunun səbəbi, istifadəçi interfeysi dilindən istifadə parser keşini parçalaya bilər.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Babel kateqoriyalarının əlavə edilməli olduğu ad fəzaları",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Bütün ad fəzaları üçün boş buraxın.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Avtomatik olaraq babel kateqoriyaları yarat"
 }

@@ -46,7 +46,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Sobhâh format sè sami akadhi \"Nyama category bâng-sèbângan ondhâk bhâsa\" neng aṭṭas.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Angghuy bhâsa pangangghuyya",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Napa ngangghuyâ bhâsa antarsrèra ghâbây serrat header tor footerra?. Manabi klèro (default), mèla sistem mangghuyâ bhâsana konten kaca. Hal nèka amarghâ pangangghuyân bhâsa antarsrèra sang pangangghuy amènangan maprènca jhijhirân cache parser.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Namespaces sèka'dimma sajumlah category Babel semastèna èsèmbu otabâ ètambâ'aghi",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Dhinaè lowang ka sadhâjâ namespace",
 	"communityconfiguration-babel-babelautocreate-control-label": "Sahalè otomatis ngangghit sajumlah category Babel"
 }

@@ -58,7 +58,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Приймає той самий формат, що й «Назви категорій для рівня мови» вище.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Використовувати мову користувача",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Чи використовувати мову інтерфейсу користувача для повідомлення верхнього та нижнього колонтитулів. Якщо false (за замовчуванням), вони будуть мовою вмісту сторінки. Це пояснюється тим, що використання мови інтерфейсу користувача може фрагментувати кеш парсера.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Простори назв, у яких потрібно додати категорії Babel",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Залиште порожнім для всіх просторів назв.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Автоматично створювати категорії Babel"
 }

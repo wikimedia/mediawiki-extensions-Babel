@@ -50,7 +50,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "يقبل نفس التنسيق مثل \"أسماء الفئات حسب مستوى اللغة\" أعلاه.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "استخدم لغة المستخدم",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "ما إذا كان سيتم استخدام لغة واجهة المستخدم لرسالة الرأس والتذييل. إذا كانت القيمة false (افتراضية)، فستكون بلغة محتوى الصفحة. وذلك لأن استخدام لغة واجهة المستخدم قد يؤدي إلى تجزئة ذاكرة التخزين المؤقت للمحلل.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "المساحات الاسمية التي يجب إضافة فئات Babel إليها",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "اتركه فارغًا لجميع المساحات الأساسية.",
 	"communityconfiguration-babel-babelautocreate-control-label": "إنشاء فئات Babel تلقائيًا"
 }

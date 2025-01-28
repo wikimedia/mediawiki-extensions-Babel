@@ -50,7 +50,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "מקבל את אותו התחביר כמו \"שמות קטגוריות לפי רמת שפה\" למעלה.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "להשתמש בשפת המשתמש",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "האם להשתמש בשפת ממשק המשתמש עבור הודעת הכותרת העליונה והתחתונה. אם זה false (ברירת מחדל), זה יהיה בשפת תוכן הדף. הסיבה לכך היא ששימוש בשפת ממשק המשתמש עלול לפצח את מטמון המפענח.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "מרחבי שם שיש להוסיף בהם קטגוריות Babel",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "להשאיר ריק כדי שזה יפעל בכל מרחבי השם",
 	"communityconfiguration-babel-babelautocreate-control-label": "ליצור באופן אוטומטי קטגוריות Babel"
 }

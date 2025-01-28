@@ -46,7 +46,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Accepta le mesme formato que “Nomines de categorias per nivello de lingua” supra.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Usar le lingua del usator",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Si se debe usar le lingua de interfacie del usator pro le messages de capite e pede. Si es false (le valor predefinite), illos essera in le lingua de contento del pagina. Le ration de isto es que usar le lingua de interfacie del usator pote fragmentar le cache del analysator syntactic.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Spatios de nomines ubi le categorias Babel debe esser addite",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Lassar vacue pro tote le spatios de nomines.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Crear automaticamente le categorias Babel"
 }

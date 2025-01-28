@@ -52,7 +52,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Menerima format yang sama seperti \"Nama kategori setiap tahap bahasa\" di atas.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Gunakan bahasa pengguna",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Sama ada hendak menggunakan bahasa antara muka pengguna untuk mesej pengepala dan pengaki. Jika palsu (lalai), ia akan berada dalam bahasa kandungan laman. Ini kerana penggunan bahasa antara muka pengguna boleh memecah cache penghurai.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Ruang nama yang kategori Babel harus ditambah",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Biarkan kosong untuk semua ruang nama.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Cipta kategori Babel secara automatik"
 }

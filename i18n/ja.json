@@ -58,7 +58,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "上の「言語レベルごとのカテゴリ名」と同じ形式を受け入れる。",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "ユーザー言語を使用する",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "ヘッダーとフッターのメッセージにユーザーインターフェース言語を使用するかどうか。 false (既定) の場合、ページコンテンツ言語になります。これはユーザーインターフェース言語を使用するとパーサーキャッシュが断片化する可能性があるためです。",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "バベルカテゴリを追加すべき名前空間",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "すべての名前空間の場合は空欄のままにします。",
 	"communityconfiguration-babel-babelautocreate-control-label": "自動的にバベルカテゴリを作成する"
 }

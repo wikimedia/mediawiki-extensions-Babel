@@ -66,7 +66,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Accepte le même format que « Noms des catégories par niveau de langue » ci-dessus.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Utiliser la langue de l'utilisateur",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "S'il faut utiliser la langue de l'interface utilisateur pour le message d'en-tête et de pied de page. Si la valeur est false (par défaut), elle sera dans la langue du contenu de la page. En effet, l'utilisation de la langue de l'interface utilisateur peut fragmenter le cache de l'analyseur.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Espaces de noms où les catégories Babel doivent être ajoutées",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Laissez vide pour tous les espaces de noms.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Créer automatiquement des catégories Babel"
 }

@@ -55,7 +55,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Yukarıdaki \"Dil düzeyine göre kategori adları\" ile aynı biçemi kabul eder.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Kullanıcı dilini kullan",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Başlık ve altbilgi iletisi için kullanıcı arayüzü dilinin kullanılıp kullanılmayacağı. Yanlışsa (varsayılan), sayfanın içerik dilinde olacaktır. Bunun nedeni, kullanıcı arayüzü dilinin kullanılmasının ayrıştırıcı önbelleğini parçalayabilmesidir.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Babel kategorilerinin eklenmesi gereken ad alanları",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Tüm ad alanları için boş bırakın.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Babel kategorilerini kendiliğinden oluştur"
 }

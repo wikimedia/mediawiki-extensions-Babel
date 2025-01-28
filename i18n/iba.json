@@ -44,7 +44,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Nerima format ti sama baka \"Nama kategori tiap tikas jaku\" ba atas.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Kena jaku pengena",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Sekalika deka ngena jaku entara mua penggena ungkup pesan ulu enggau kaki. Enti salah (default), iya deka dalam jaku isi lambar. Kebuah pia laban ngena jaku antara muka pengena tau ngasuh cache parser bepechah-belah.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Ruai nama alai kategori Babel patut ditambah",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Tinggalka puang ungkup semua ruai nama.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Gaga kategori Babel enggau automatik"
 }

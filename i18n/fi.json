@@ -52,7 +52,5 @@
 	"communityconfiguration-babel-babelmaincategory-label": "Pääluokka",
 	"communityconfiguration-babel-babelmaincategory-description": "Nimi kunkin kielen pääluokalle (ei tasoluokille), johon lisätään kaikki kyseisen kielen käyttäjät.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Käytä käyttäjäkieltä",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Nimiavaruudet, joihin Babel-luokkia tulisi lisätä",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Jätä tyhjäksi kaikille nimiavaruuksille.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Luo Babel-luokat automaattisesti"
 }

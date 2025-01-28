@@ -44,7 +44,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Narima format say goh-goh rik \"Golar kaban per tingkat basa\" dinggak.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Pakay basa pamakay",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Apiko haga makay basa antarpudak pamakay untuk cawa header rik footer. Aman salah (default), jadi haga makay basa konten halaman. Hal sija lah pamakay basa antarpudak pamakay dapok mocoh cache parser.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Ruwang golar citakan kaban Babel porlu titambahko",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Ilingko bangkang untuk kaunyin ruwang golar.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Guway kaban Babel sacara otomatis"
 }

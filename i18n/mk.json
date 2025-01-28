@@ -48,7 +48,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Го прифаќа истиот формат како „Имиња на категории по јазично ниво“ погоре.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Користи кориснички јазик",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Дали да се користи јазикот на корисничкиот посредник за порака во заглавието и подножјето. Ако е „false“ (по основно), тоа ќе биде јазикот на содржината на страницата. Ова е бидејќи јазикот на корисничкиот посредник може да го расцепи расчленувачкиот меѓусклад.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Во кои именски простори да се стават категориите за Вавилон",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Оставете празно за сите именски простори.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Автоматски создај категории за Вавилон"
 }

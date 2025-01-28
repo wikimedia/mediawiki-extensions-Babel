@@ -45,7 +45,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Acepta o mesmo formato que os \"Nomes das categorías por nivel de lingua\" anteriores.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Utilizar a lingua do usuario",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Indica se se debe utilizar a lingua da interface do usuario para a mensaxe de cabeceira e pé de páxina. Se é falso (predeterminado), estarán na lingua do contido da páxina. Isto débese a que o uso da lingua da interface do usuario pode fragmentar a caché do analizador.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Espazos de nomes nos que se deben engadir as categorías de Babel",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Déixao en branco para todos os espazos de nomes.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Crear automaticamente as categorías de Babel"
 }

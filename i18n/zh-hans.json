@@ -59,7 +59,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "允许使用和上方“各语言等级的分类名称”相同的格式代码。",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "使用用户语言",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "是否使用用户界面语言来显示页首和页尾消息。如设为false（默认值），将会以页面内容语言显示。存在此选项是因为使用用户界面语言可能会使解析器缓存碎片化。",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "新增巴别分类的命名空间",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "留空为所有命名空间",
 	"communityconfiguration-babel-babelautocreate-control-label": "自动创建巴别分类"
 }

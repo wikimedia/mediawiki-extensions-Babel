@@ -47,7 +47,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "O l'acétta o mæximo formâto do \"Nómmi de categorîe pe livéllo de conoscénsa da léngoa\" mensonòu de d'âto.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Dêuviâ a léngoa de l'uténte.",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Se dêuviâ a léngoa d'interfàccia de l'uténte pò-u mesàggio d'intestaçión e de pê de pàgina. Se fâso (default), saiâ inta léngoa do contegnûo da pàgina. Quésto o l'avêgne perché l'ûzo da léngoa d'interfàccia de l'uténte o poriéiva framentâ a cache do parser.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Namespace dónde e categorîe Babel doviéivan êse azónte",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Làscia vêuo pe tùtti i namespace.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Creâ in outomàtico e categorîe Babel"
 }

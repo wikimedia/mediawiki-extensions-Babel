@@ -50,7 +50,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Godtar samme format som «Kategorinavn per språknivå» ovenfor.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Bruk brukerspråk",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Hvorvidt brukerens grensesnittspråk skal brukes på topp- og bunnbeskjeden. Hvis den er false (standard) vil den være på sidens innholdsspråk. Dette er fordi bruk av brukerspråk kan fragmentere mellomlageret.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Navnerommet Babel-kategorier skal legges til i",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "La denne være tom for alle navnerom.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Opprett Babel-kategorier automatisk"
 }

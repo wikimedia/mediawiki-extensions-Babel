@@ -49,7 +49,5 @@
 	"communityconfiguration-babel-babelmaincategory-help-text": "Ugyanazt a formátumot fogadja el, mint a fenti „Kategórianevek nyelvi szintenként”.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Felhasználói felület nyelvének használata",
 	"communityconfiguration-babel-babeluseuserlanguage-help-text": "A felhasználói felület nyelvén jelenjen-e meg a fejléc és a lábléc üzenete. Ha hamis (alapértelmezett), akkor a fejléc és lábléc a lap tartalomnyelvén jelenik meg. A felhasználói felület nyelvének használata töredezetté teheti a wikiszöveg-elemző gyorsítótárát.",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Névterek, amikben a Bábel kategóriái hozzáadódnak",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Hagyd üresen az összes névtérhez.",
 	"communityconfiguration-babel-babelautocreate-control-label": "A Bábel kategóriáinak automatikus létrehozása"
 }

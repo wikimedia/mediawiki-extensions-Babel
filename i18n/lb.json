@@ -42,7 +42,5 @@
 	"communityconfiguration-babel-babelcategorynames-n-label": "Niveau N",
 	"communityconfiguration-babel-babelmaincategory-label": "Haaptkategorie",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Benotzersprooch benotzen",
-	"communityconfiguration-babel-babelcategorizenamespaces-label": "Nummraim, an deene Babel-Kategorië sollen derbäigesat ginn",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Fir all Nummraim eidel loossen.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Babel-Kategorien automatesch uleeën"
 }
