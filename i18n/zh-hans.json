@@ -15,7 +15,8 @@
 			"Xiaomingyan",
 			"Yfdyh000",
 			"大小李子",
-			"沈澄心"
+			"沈澄心",
+			"Diskdance"
 		]
 	},
 	"babel": "用户巴别信息",
@@ -45,6 +46,7 @@
 	"communityconfiguration-babel-title": "巴别",
 	"communityconfiguration-babel-description": "自定义由#babel解析器函数产生的分类。",
 	"communityconfiguration-babel-babelcategorynames-label": "各语言等级的分类名称",
+	"communityconfiguration-babel-babelcategorynames-description": "可以使用的变量元素有：<code>%code%</code>（语言代码）、<code>%wikiname%</code>（以wiki内容语言显示的语言名称），以及<code>%nativename%</code>（以该语言自身显示的语言名称）。留空以禁用。",
 	"communityconfiguration-babel-babelcategorynames-0-label": "等级0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "等级1",
 	"communityconfiguration-babel-babelcategorynames-2-label": "等级2",
@@ -53,7 +55,10 @@
 	"communityconfiguration-babel-babelcategorynames-5-label": "等级5",
 	"communityconfiguration-babel-babelcategorynames-n-label": "等级N",
 	"communityconfiguration-babel-babelmaincategory-label": "主分类",
+	"communityconfiguration-babel-babelmaincategory-description": "主分类（非等级分类）的名称，所有使用该语言的用户都会加入至分类中。",
+	"communityconfiguration-babel-babelmaincategory-help-text": "允许使用和上方“各语言等级的分类名称”相同的格式代码。",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "使用用户语言",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "是否使用用户界面语言来显示页首和页尾消息。如设为false（默认值），将会以页面内容语言显示。存在此选项是因为使用用户界面语言可能会使解析器缓存碎片化。",
 	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "留空为所有命名空间",
 	"communityconfiguration-babel-babelautocreate-control-label": "自动创建巴别分类"
 }
