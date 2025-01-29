@@ -29,6 +29,12 @@ class MigrateConfigToCommunity extends LoggedUpdateMaintenance {
 		$this->requireExtension( 'CommunityConfiguration' );
 
 		$this->addOption( 'dry-run', 'Print the migration summary.' );
+		$this->addOption(
+			'summary-note',
+			'A note to be included in the edit summary (for example, a link to an announcement ' .
+			'page or a bug tracker; use wikitext syntax for internal links)',
+			false, true
+		);
 	}
 
 	private function initServices(): void {
@@ -72,9 +78,14 @@ class MigrateConfigToCommunity extends LoggedUpdateMaintenance {
 		if ( $dryRun ) {
 			$this->output( FormatJson::encode( $newConfig, true ) . PHP_EOL );
 		} else {
+			$summary = 'Migrating server configuration to an on-wiki JSON file';
+			if ( $this->hasOption( 'summary-note' ) ) {
+				$summary .= ' (' . $this->getOption( 'summary-note' ) . ')';
+			}
 			$status = $provider->storeValidConfiguration(
 				$newConfig,
-				new UltimateAuthority( User::newSystemUser( User::MAINTENANCE_SCRIPT_USER ) )
+				new UltimateAuthority( User::newSystemUser( User::MAINTENANCE_SCRIPT_USER ) ),
+				$summary
 			);
 			if ( $status->isOK() ) {
 				$this->output( 'Done!' . PHP_EOL );
