@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Es Krim 5 Juta Rasa"
+		]
+	},
+	"apihelp-query+babel-summary": "Sopok informasi pasal basa apiya say dikapanday pamakay",
+	"apihelp-query+babel-param-user": "Pamakay untuk andapokko informasi tentang",
+	"apihelp-query+babel-example-1": "Sopok informasi Babel untuk pamakay <kbd>Cuntuh</kbd>"
+}
