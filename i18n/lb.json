@@ -32,7 +32,7 @@
 	"babel-footer": "Benotzer no Sprooch",
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-babelcategorynames-label": "Kategorienimm pro Sproochniveau",
-	"communityconfiguration-babel-babelcategorynames-description": "Méiglech variabel Elementer sinn: <code>%code%</code> (Sproochcode), <code>%wikiname%</code> (den Numm vun der Sprooch an der Sprooch vum Inhalt vun der Wiki) an <code>%nativename%</code> (den Numm vun der Sprooch an der Sprooch selwer). Eidel loosse fir ze desaktivéieren.",
+	"communityconfiguration-babel-babelcategorynames-description": "Méiglech Variabelen-Elementer sinn: <code>%code%</code> (Sproochcode), <code>%wikiname%</code> (den Numm vun der Sprooch an der Sprooch vum Inhalt vun der Wiki) an <code>%nativename%</code> (den Numm vun der Sprooch an der Sprooch selwer). Eidel loosse fir ze desaktivéieren.",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Niveau 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "Niveau 1",
 	"communityconfiguration-babel-babelcategorynames-2-label": "Niveau 2",

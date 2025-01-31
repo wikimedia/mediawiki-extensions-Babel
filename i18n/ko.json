@@ -38,7 +38,18 @@
 	"babel-template-params-category": "이름 있는 매개변수를 사용한 babel 페이지",
 	"babel-template-params-category-desc": "페이지는 #바벨 파서 함수에 name=value 매개변수를 전달. 이 매개변수의 행동은 [[phab:T327847|가까운 미래에 달라질 수 있음]].",
 	"communityconfiguration-babel-title": "바벨",
-	"communityconfiguration-babel-description": "#바벨 분석 기능에서 생성된 분류 조정.",
-	"communityconfiguration-babel-babelcategorynames-label": "언어 수준별 분류명",
-	"communityconfiguration-babel-babeluseuserlanguage-control-label": "사용자 언어 사용"
+	"communityconfiguration-babel-description": "파서 함수 '#babel'을 통해 생성된 분류를 사용자에 맞게 구성합니다.",
+	"communityconfiguration-babel-babelcategorynames-label": "언어 레벨별 분류 이름",
+	"communityconfiguration-babel-babelcategorynames-description": "가능한 변수 요소는 다음과 같습니다: <code>%code%</code> (언어 코드), <code>%wikiname%</code> (위키 콘텐츠 언어로 된 언어 이름), <code>%nativename%</code> (해당 언어로 된 언어 이름). 비워두면 비활성화됩니다.",
+	"communityconfiguration-babel-babelcategorynames-1-label": "레벨 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "레벨 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "레벨 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "레벨 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "레벨 5",
+	"communityconfiguration-babel-babelmaincategory-label": "주요 분류",
+	"communityconfiguration-babel-babelmaincategory-description": "해당 언어를 사용하는 모든 사용자가 추가되는 각 언어의 주요(레벨이 아닌) 분류의 이름입니다.",
+	"communityconfiguration-babel-babelmaincategory-help-text": "위의 \"언어 레벨별 분류 이름\"과 동일한 형식을 허용합니다.",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "사용자 언어 사용",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "헤더 및 푸터 메시지에 사용자 인터페이스 언어를 사용할지 여부입니다. false(기본값)인 경우 페이지 콘텐츠 언어로 표시됩니다. 이는 사용자 인터페이스 언어를 사용하면 파서 캐시가 파편화될 수 있기 때문입니다.",
+	"communityconfiguration-babel-babelautocreate-control-label": "바벨 분류 자동 생성"
 }
