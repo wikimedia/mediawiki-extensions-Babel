@@ -44,6 +44,7 @@
 	"communityconfiguration-babel-babelmaincategory-description": "Anv ar rummad pennañ (nann-live) evit pep yezh m'eo ouzhpennet holl implijerien ar yezh-se.",
 	"communityconfiguration-babel-babelmaincategory-help-text": "Degemer a ra ar memes furmad hag \"Anvioù rummad dre live yezh\" a-us.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Ober gant yezh an implijer",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Ha graet e vo gant yezh an etrefas implijer evit kemennadenn talbenn ha traoñ ar bajenn. Mard eo faos (dre ziouer), e vo ar gemennadenn e yezh endalc'had ar bajenn. Se zo peogwir e c'hall implijout yezh etrefas an implijer  bruzunañ krubuilh an dielfenner.",
 	"communityconfiguration-babel-babelcategorizenamespaces-label": "Esaouennoù anv ma tlefer ouzhpennañ rummadoù Babel",
 	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Lezit goullo evit an holl esaouennoù anv.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Krouiñ rummadoù Babel ent emgefre"

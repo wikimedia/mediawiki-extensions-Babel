@@ -32,6 +32,8 @@
 	"babel-N-n": "[[$1|Матерњи језик]] {{GENDER:$4|овог корисника|ове кориснице|овог корисника}} је [[$2|српски]].",
 	"babel-template": "Template:Корисник $1",
 	"babel-footer": "Корисници по језику",
+	"communityconfiguration-babel-title": "Вавилон",
 	"communityconfiguration-babel-babelmaincategory-label": "Главна категорија",
-	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Оставити празно за све именске просторе."
+	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Оставити празно за све именске просторе.",
+	"communityconfiguration-babel-babelautocreate-control-label": "Аутоматски направи Вавилон категорије"
 }
