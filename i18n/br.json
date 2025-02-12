@@ -33,6 +33,7 @@
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-description": "Personelaat ar rummadoù krouet gant ar fonksion dielfennañ #babel.",
 	"communityconfiguration-babel-babelcategorynames-label": "Anvioù rummad dre live yezh",
+	"communityconfiguration-babel-babelcategorynames-description": "Elfennoù varienn a c’hall bezañ: <code>%code%</code> (kod yezh), <code>%wikiname%</code> (anv ar yezh e yezh endalc'had ar wiki), ha <code>%nativename%</code> (anv ar yezh en he yezh). Lezit goullo evit diweredekaat.",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Live 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "Live 1",
 	"communityconfiguration-babel-babelcategorynames-2-label": "Live 2",
