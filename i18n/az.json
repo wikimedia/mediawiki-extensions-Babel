@@ -40,7 +40,7 @@
 	"babel-template-params-category": "Adlandırılmış parametrlərlə babel istifadə edən səhifələr",
 	"babel-template-params-category-desc": "Səhifə #babel parser funksiyasına name=value parametrini ötürür. Bu parametrlərin davranışı [[phab:T327847|yaxın gələcəkdə dəyişə bilər]].",
 	"communityconfiguration-babel-title": "Babil",
-	"communityconfiguration-babel-description": "#babel parser funksiyası tərəfindən yaradılan kateqoriyaları fərdiləşdirin.",
+	"communityconfiguration-babel-description": "<nowiki>#babel</nowiki> parser funksiyası tərəfindən yaradılan kateqoriyaları fərdiləşdirin.",
 	"communityconfiguration-babel-babelcategorynames-label": "Dil səviyyəsinə görə kateqoriya adları",
 	"communityconfiguration-babel-babelcategorynames-description": "Mümkün dəyişən elementlər bunlardır: <code>%code%</code> (dil kodu), <code>%wikiname%</code> (vikinin məzmun dilində dilin adı) və <code>%nativename%</code> (onun dilindəki dilin adı). Deaktiv etmək üçün boş buraxın.",
 	"communityconfiguration-babel-babelcategorynames-0-label": "0-cı səviyyə",
