@@ -11,7 +11,8 @@
 			"LuCKY",
 			"Nataev",
 			"Vito Genovese",
-			"Superyetkin"
+			"Superyetkin",
+			"Nemoralis"
 		]
 	},
 	"babel": "Babil kullanıcı bilgileri",
@@ -40,7 +41,7 @@
 	"babel-template-params-category": "Adlandırılmış değişkenli babil kullanan sayfalar",
 	"babel-template-params-category-desc": "Sayfa, #babel ayrıştırıcı işlevine bir name=değer değişkeni iletiyor. Bu değişkenlerin davranışı [[phab:T327847|yakın gelecekte değişebilir]].",
 	"communityconfiguration-babel-title": "Babil",
-	"communityconfiguration-babel-description": "#babil ayrıştırıcı işlevince oluşturulan kategorileri özelleştirin.",
+	"communityconfiguration-babel-description": "<nowiki>#</nowiki>babil ayrıştırıcı işlevince oluşturulan kategorileri özelleştirin.",
 	"communityconfiguration-babel-babelcategorynames-label": "Dil düzeyine göre kategori adları",
 	"communityconfiguration-babel-babelcategorynames-description": "Olası değişken ögeleri şunlardır: <code>%code%</code> (dil kodu), <code>%wikiname%</code> (dilin vikinin içerik dilindeki adı) ve <code>%nativename%</code> (dilin kendi dilindeki adı). Devre dışı bırakmak için boş bırakın.",
 	"communityconfiguration-babel-babelcategorynames-0-label": "0. düzey",

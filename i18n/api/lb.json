@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Volvox"
+			"Volvox",
+			"Tacsipacsi"
 		]
 	},
 	"apihelp-query+babel-param-user": "Benotzer, fir deen d'Informatiounen ugefrot ginn",
-	"apihelp-query+babel-example-1": "Babel-Informatioune fir de Benotzer <kbd>Beispill</kbd> kréien"
+	"apihelp-query+babel-example-1": "Babel-Informatioune fir de Benotzer <kbd>Example</kbd> kréien"
 }

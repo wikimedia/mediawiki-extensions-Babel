@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Kguirnela",
-			"Tagimata"
+			"Tagimata",
+			"Exec8"
 		]
 	},
 	"babel": "Inpormasyon sang Babel naga-usar",
 	"babel-desc": "Gadugang sang <code>#babel</code> parser nga gagana para magamit nga henerasyon automatiko sang babel userbox kolum upod sang abilidad para maintra sa kustom templeyts",
 	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Kategorya:Babel - Mga nagagamit suno sa lenguahe",
 	"babel-autocreate-reason": "Automatiko nga ginahimo [[$1|Babel]] pahina kategorya",
 	"babel-autocreate-text-levels": "Mga naga-usar sa sini nga kategorya nagapakita nga may-ara sila kasarang lebel $1 para sa lengwahe $2.",
 	"babel-autocreate-text-main": "Mga user sa sini nga kategorya nagapakita nga may-ara sila ka-alam lebel $1.",
@@ -24,5 +26,25 @@
 	"babel-3-n": "Ini nga naga-usar ay may-ara [[$1|madalum]] ka-alam sang [[$2|Hiligaynon]].",
 	"babel-4-n": "Ini nga naga-usar ay may-ara [[$1|lapit sa gahambal nga nitibo]] ka-alam sang [[$2|Hiligaynon]].",
 	"babel-5-n": "Ini nga naga-usar ay may-ara [[$1|propesyonal]] ka-alam sang [[$2|Hiligaynon]].",
-	"babel-N-n": "Ini nga naga-usar ay may-ara [[$1|nitibo]] ka-alam sang [[$2|Hiligaynon]]."
+	"babel-N-n": "Ini nga naga-usar ay may-ara [[$1|nitibo]] ka-alam sang [[$2|Hiligaynon]].",
+	"babel-footer": "Mga tiggamit suno sa lenguahe",
+	"babel-template-params-category": "Mga pahina nga nagagamit sang babel nga may ginhingadlan nga mga parametro",
+	"babel-template-params-category-desc": "Ang pahina nagapasa sang name=value parameter sa #babel parser function. Ang pamatasan sining mga parametro [[phab:T327847|mahimo magbag-o sa malapit nga palaabuton]].",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-description": "Ipasadya ang mga kategorya nga ginhimo sang #babel parser function.",
+	"communityconfiguration-babel-babelcategorynames-label": "Mga ngalan sang kategorya kada lebel sang lenguahe",
+	"communityconfiguration-babel-babelcategorynames-description": "Ang posible nga mga elemento sang variable amo ang: <code>%code%</code> (kodigo sang lenguahe), <code>%wikiname%</code> (ang ngalan sang lenguahe sa lenguahe sang kaundan sang wiki), kag <code>%nativename%</code> (ang ngalan sang lenguahe sa iya lenguahe). Ibilin nga blangko aron ma-disable.",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Lebel 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Lebel 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Lebel 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Lebel 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Lebel 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Lebel 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Lebel N",
+	"communityconfiguration-babel-babelmaincategory-label": "Panguna nga kategorya",
+	"communityconfiguration-babel-babelmaincategory-description": "Ngalan sang panguna (indi lebel) nga kategorya para sa tagsa ka lenguahe nga sa diin ang tanan nga nagagamit sina nga lenguahe gindugang.",
+	"communityconfiguration-babel-babelmaincategory-help-text": "Nagabaton sang pareho nga format subong sang \"Mga ngalan sang kategorya kada lebel sang lenguahe\" sa ibabaw.",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Gamita ang lenguahe sang user",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Kon bala gamiton ang lenguahe sang user interface para sa header kag footer nga mensahe. Kon indi matuod (default), ini mangin sa lenguahe sang kaundan sang pahina. Ini bangud ang paggamit sang lenguahe sang user interface mahimo nga mag-fragment sang parser cache.",
+	"communityconfiguration-babel-babelautocreate-control-label": "Awtomatiko nga maghimo sang mga kategorya sang Babel"
 }
