@@ -40,7 +40,7 @@
 	"babel-template-params-category-desc": "Sivu välittää parametrin name=value #babel-jäsenninfunktiolle. Näiden parametrien käyttäytyminen [[phab:T327847|saattaa muuttua lähitulevaisuudessa]].",
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-description": "Mukauta #babel-jäsenninfunktion tuottamia luokkia.",
-	"communityconfiguration-babel-babelcategorynames-label": "Luokkien nimet kielitason mukaan",
+	"communityconfiguration-babel-babelcategorynames-label": "Luokkien nimet kielitasottain",
 	"communityconfiguration-babel-babelcategorynames-description": "Mahdollisia muuttujia ovat: <code>%code%</code> (kielikoodi), <code>%wikiname%</code> (kielen nimi wikin sisältökielellä) ja <code>%nativename%</code> (kielen omakielinen nimi)",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Taso 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "Taso 1",
@@ -51,6 +51,7 @@
 	"communityconfiguration-babel-babelcategorynames-n-label": "Taso N",
 	"communityconfiguration-babel-babelmaincategory-label": "Pääluokka",
 	"communityconfiguration-babel-babelmaincategory-description": "Nimi kunkin kielen pääluokalle (ei tasoluokille), johon lisätään kaikki kyseisen kielen käyttäjät.",
+	"communityconfiguration-babel-babelmaincategory-help-text": "Hyväksyy samoja muuttujia kuin yllä olevat ”Luokkien nimet kielitasottain” -kohdan kentät",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Käytä käyttäjäkieltä",
 	"communityconfiguration-babel-babelautocreate-control-label": "Luo Babel-luokat automaattisesti"
 }
