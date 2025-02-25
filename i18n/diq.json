@@ -10,7 +10,8 @@
 			"LaMagiaaa",
 			"Marmase",
 			"Mirzali",
-			"Neribij"
+			"Neribij",
+			"GolyatGeri"
 		]
 	},
 	"babel": "Melumatê karberiyê Babili",
@@ -36,5 +37,15 @@
 	"babel-5-n": "Karber [[$1|profesyonel]] sewiya de [[$2|Zazaki]] zano.",
 	"babel-N-n": "Zıwané [[$1|may u pér]] dê karberi [[$2|Zazaki]] yo.",
 	"babel-template": "Template:Karber $1",
-	"babel-footer": "Goreyê zıwanan ra karberi"
+	"babel-footer": "Goreyê zıwanan ra karberi",
+	"communityconfiguration-babel-title": "Babil",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Sewiye  0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Sewiye 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Sewiye 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Sewiye 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Sewiye 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Sewiye 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Sewiye N",
+	"communityconfiguration-babel-babelmaincategory-label": "Esas kategori",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Zıwanê karberi bıgurne"
 }

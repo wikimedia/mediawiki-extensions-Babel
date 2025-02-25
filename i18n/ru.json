@@ -16,7 +16,8 @@
 			"Stjn",
 			"Александр Сигачёв",
 			"Туллук",
-			"Köpleres"
+			"Köpleres",
+			"Mitte27"
 		]
 	},
 	"babel": "Сведения о языках участников (Вавилон)",
@@ -45,6 +46,19 @@
 	"babel-footer": "Участники по языкам",
 	"babel-template-params-category": "Страницы, использующие синтаксис Вавилона с именованными параметрами",
 	"babel-template-params-category-desc": "Страница передаёт параметр name=value в функцию парсера #babel. Поведение этих параметров [[phab:T327847|может измениться в ближайшем будущем]].",
+	"communityconfiguration-babel-title": "Вавилон",
+	"communityconfiguration-babel-description": "Настройте категории, сгенерированные функцией парсера #babel.",
+	"communityconfiguration-babel-babelcategorynames-label": "Названия категорий по уровню владения языком",
 	"communityconfiguration-babel-babelcategorynames-description": "Возможные переменные элементы: <code>%code%</code> (код языка), <code>%wikiname%</code> (название языка в языке содержания вики) и <code>%nativename%</code> (название языка на самом языке). Оставьте пустым, чтобы отключить.",
-	"communityconfiguration-babel-babelmaincategory-label": "Главная категория"
+	"communityconfiguration-babel-babelcategorynames-0-label": "Уровень 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Уровень 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Уровень 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Уровень 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Уровень 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Уровень 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Уровень родного языка",
+	"communityconfiguration-babel-babelmaincategory-label": "Главная категория",
+	"communityconfiguration-babel-babelmaincategory-description": "Название основной (без уровней) категории для каждого языка, к которой добавляются все пользователи конкретного языка.",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Использовать язык пользователя",
+	"communityconfiguration-babel-babelautocreate-control-label": "Автоматически создать категории Babel"
 }

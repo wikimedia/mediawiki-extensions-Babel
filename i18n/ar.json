@@ -5,7 +5,8 @@
 			"Ciphers",
 			"Meno25",
 			"OsamaK",
-			"فلورانس"
+			"فلورانس",
+			"Dyolf77 (WMF)"
 		]
 	},
 	"babel": "معلومات بابل المستخدم",
@@ -35,7 +36,7 @@
 	"babel-template-params-category": "الصفحات التي تستخدم babel مع المعلمات المسماة",
 	"babel-template-params-category-desc": "تمرر الصفحة معلمة name=value إلى دالة المحلل #babel. قد يتغير سلوك هذه المعلمات [[phab:T327847|في المستقبل القريب]].",
 	"communityconfiguration-babel-title": "بابل",
-	"communityconfiguration-babel-description": "تخصيص الفئات التي تم إنشاؤها بواسطة وظيفة المحلل #babel.",
+	"communityconfiguration-babel-description": "تخصيص التصانيف التي تم إنشاؤها بواسطة وظيفة المحلل #babel.",
 	"communityconfiguration-babel-babelcategorynames-label": "أسماء الفئات حسب مستوى اللغة",
 	"communityconfiguration-babel-babelcategorynames-description": "العناصر المتغيرة المحتملة هي: <code>%code%</code> (كود اللغة)، <code>%wikiname%</code> (اسم اللغة في لغة محتوى الويكي)، و <code>%nativename%</code> (اسم اللغة في لغتها). اتركها فارغة لتعطيلها.",
 	"communityconfiguration-babel-babelcategorynames-0-label": "المستوى 0",
