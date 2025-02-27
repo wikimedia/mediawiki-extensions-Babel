@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Halle"
+		]
+	},
+	"babel": "A'almaj t'aan ti' máax ku meyajtiko'ob Babel",
+	"babel-0": "Le máaka' yaan ti' [[$1|ma']] u yojel [[$2|$3]] (wa ku na'atik yéetel ya'ab talamil).",
+	"babel-1": "Le máaka' yaan ti' [[$1|básico]] k'ajóolil ti' [[$2|$3]].",
+	"babel-2": "Le máaka' yaan ti' [[$1|intermedio]] k'ajóolil ti' [[$2|$3]]."
+}
