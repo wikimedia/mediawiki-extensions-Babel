@@ -5,43 +5,26 @@ declare( strict_types = 1 );
 namespace MediaWiki\Babel\Config;
 
 use MediaWiki\Config\Config;
-use MediaWiki\Extension\CommunityConfiguration\Access\MediaWikiConfigReader;
+use MediaWiki\Extension\CommunityConfiguration\Access\MediaWikiConfigRouter;
 
 class ConfigWrapper implements Config {
 
-	private MediaWikiConfigReader $configReader;
-	private Config $globalConfig;
-
-	/**
-	 * @var string[] List of config names excluded from Community Configuration due to technical
-	 * challenges (see tasks linked below).
-	 * @todo Resolve the challenges and make all community configurable
-	 * @internal Exposed only for ConfigWrapperTest
-	 */
-	public const SERVER_SIDE_CONFIGS = [
-		// T383905
-		'BabelCategorizeNamespaces',
-	];
+	private MediaWikiConfigRouter $configRouter;
 
 	public function __construct(
-		MediaWikiConfigReader $configReader,
-		Config $globalConfig
+		MediaWikiConfigRouter $configRouter
 	) {
-		$this->configReader = $configReader;
-		$this->globalConfig = $globalConfig;
+		$this->configRouter = $configRouter;
 	}
 
 	/**
 	 * @inheritDoc
 	 */
 	public function get( $name ) {
-		if ( in_array( $name, self::SERVER_SIDE_CONFIGS ) ) {
-			return $this->globalConfig->get( $name );
-		}
-
-		$value = $this->configReader->get( $name );
+		$value = $this->configRouter->get( $name );
 		if ( is_object( $value ) ) {
-			// Convert the BabelCategoryNames key to an array rather than an object. See T369608
+			// CommunityConfiguration passes objects instead of associative arrays (which Babel
+			// expects). This affects eg. BabelCategoryNames. See T369608.
 			$value = wfObjectToArray( $value );
 		}
 		return $value;
@@ -51,10 +34,6 @@ class ConfigWrapper implements Config {
 	 * @inheritDoc
 	 */
 	public function has( $name ): bool {
-		if ( in_array( $name, self::SERVER_SIDE_CONFIGS ) ) {
-			return $this->globalConfig->has( $name );
-		}
-
-		return $this->configReader->has( $name );
+		return $this->configRouter->has( $name );
 	}
 }
