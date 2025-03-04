@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
 	"babel": "د بابل د کارن مالومات",
@@ -25,5 +26,7 @@
 	"babel-4-n": "دا کارن تر [[$1|مورنۍ کچې]] په [[$2|پښتو]] ژبې پوهېږي.",
 	"babel-5-n": "دا کارن تر [[$1|کارپوهنيزې کچې]] په [[$2|پښتو]] ژبې پوهېږي.",
 	"babel-N-n": "د دې کارن [[$1|مورنۍ]] ژبه [[$2|پښتو]] ده.",
-	"babel-footer": "کارنان د ژبې له مخې"
+	"babel-footer": "کارنان د ژبې له مخې",
+	"babel-template-params-category": "مخونه چې بابېل له نومول شويو پاراميترونو سره کاروي",
+	"communityconfiguration-babel-title": "بابېل"
 }

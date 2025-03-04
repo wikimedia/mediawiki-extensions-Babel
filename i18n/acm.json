@@ -25,5 +25,14 @@
 	"babel-4-n": "هاذه النفر يفتهم [[$2|انكليزي]] [[$1|بمستوه قريب من لغته]].",
 	"babel-5-n": "هاذه النفر [[$1|قوي]] [[$2|بالانكليزي]].",
 	"babel-N-n": "هاذه النفر يفتهم [[$2|انكليزي]] [[$1|حاله حال لغته الاساسيه]].",
-	"babel-footer": "النفرات من اللغه"
+	"babel-footer": "النفرات من اللغه",
+	"communityconfiguration-babel-title": "بابل",
+	"communityconfiguration-babel-babelcategorynames-0-label": "مستوه 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "مستوه 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "مستوه 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "مستوه 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "مستوه 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "مستوه 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "مستوه N",
+	"communityconfiguration-babel-babelmaincategory-label": "صنف رئيسي"
 }
