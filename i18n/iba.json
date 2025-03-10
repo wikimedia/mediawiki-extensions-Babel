@@ -10,7 +10,7 @@
 	"babel-footer-url": ":Category:Babel - Pengena nitihka jaku",
 	"babel-autocreate-reason": "Ngaga lambar kategori [[$1|Babel]] enggau automatik",
 	"babel-autocreate-text-levels": "Pengena dalam kategori tu nandaka sida ngembuan pengulih tikas $1 ungkup jaku $2.",
-	"babel-autocreate-text-main": "Pengena dalam kategori tu nandaka sida ngembuan penemu dalam jaku $1.",
+	"babel-autocreate-text-main": "Pengena dalam kategori tu nandaka sida ngembuan penemu dalam jaku $1.\n$3",
 	"babel-0": "Pengena tu [[$1|nadai]] penemu dalam (tauka tusah deka mereti) [[$2|$3]]",
 	"babel-1": "Pengena tu ngembuan penemu [[$1|paung]] dalam [[$2|$3]].",
 	"babel-2": "Pengena tu ngembuan penemu [[$1|mimit]] dalam [[$2|$3]].",
