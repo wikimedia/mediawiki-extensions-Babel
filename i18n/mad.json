@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Munajad.MH"
+			"Munajad.MH",
+			"Boesenbergia"
 		]
 	},
 	"babel": "Informasi pangangghuy Babel",
 	"babel-desc": "Nambâi fungsi parser <code>#babel</code> ka'angghuy ngangghâl'aghi kolom kotak pangangghuy babel halè otomatis kelabân kèngengnga maghuna template sè èkustomisasi",
 	"babel-url": "Project:Babel",
-	"babel-footer-url": ":Category:Babel - Pangangghuy alèngghâ bhâsa",
+	"babel-footer-url": ":Category:Babel - Pangangghuy mènorot bhâsa",
 	"babel-autocreate-reason": "Otomatis aghâbây kaca kategori [[$1|Babel]]",
 	"babel-autocreate-text-levels": "Pangangghuy ḍâlem category panèka atora jhâ' sadhâjâna ngaghungi odhil $1 ka'angghuy abhâsa ghât-loghât $2.",
 	"babel-autocreate-text-main": "Pangangghuy ḍâlem kategori panèka atladhâ manabi sadhâjâèpon ngaghungi odhil abhâsa $1.",
