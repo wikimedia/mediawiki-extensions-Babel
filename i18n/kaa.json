@@ -30,5 +30,17 @@
 	"babel-N-n": "Bul paydalanıwshınıń [[$1|ana tili]] [[$2|qaraqalpaq tili]].",
 	"babel-footer": "Paydalanıwshılar til boyınsha",
 	"babel-template-params-category": "Babel parametrlerge iye paydalanıwshı betler",
-	"babel-template-params-category-desc": "Bette name=value parametri #babel parser funkciyasına ótedi. Bul parametrlerdiń háreketi [[phab:T327847|jaqın keleshekte ózgeriwi múmkin]]."
+	"babel-template-params-category-desc": "Bette name=value parametri #babel parser funkciyasına ótedi. Bul parametrlerdiń háreketi [[phab:T327847|jaqın keleshekte ózgeriwi múmkin]].",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-babelcategorynames-label": "Hárbir til dárejesine qaray kategoriya atları",
+	"communityconfiguration-babel-babelcategorynames-0-label": "0 dáreje",
+	"communityconfiguration-babel-babelcategorynames-1-label": "I dáreje",
+	"communityconfiguration-babel-babelcategorynames-2-label": "II dáreje",
+	"communityconfiguration-babel-babelcategorynames-3-label": "III dáreje",
+	"communityconfiguration-babel-babelcategorynames-4-label": "IV dáreje",
+	"communityconfiguration-babel-babelcategorynames-5-label": "V dáreje",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Ana tili",
+	"communityconfiguration-babel-babelmaincategory-label": "Tiykarǵı kategoriya",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Paydalanıwshı tilin qollanıń",
+	"communityconfiguration-babel-babelautocreate-control-label": "Babel kategoriyaların avtomatik tárizde jaratıw"
 }
