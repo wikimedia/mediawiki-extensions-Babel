@@ -1,146 +1,147 @@
 {
-	"name": "Babel",
-	"author": [
-		"Robert Leverington",
-		"Thiemo Kreuz",
-		"Kunal Mehta",
-		"Nikerabbit",
-		"Amir Aharoni",
-		"Ricordisamoa"
-	],
-	"url": "https://www.mediawiki.org/wiki/Extension:Babel",
-	"descriptionmsg": "babel-desc",
-	"license-name": "GPL-2.0-or-later",
-	"type": "parserhook",
-	"requires": {
-		"MediaWiki": ">= 1.43.0"
-	},
-	"attributes": {
-		"CommunityConfiguration": {
-			"Providers": {
-				"Babel": {
-					"type": "mw-config",
-					"store": {
-						"type": "wikipage",
-						"args": [
-							"MediaWiki:BabelConfig.json"
-						]
-					},
-					"validator": {
-						"type": "jsonschema",
-						"args": [
-							"MediaWiki\\Babel\\Config\\BabelSchema"
-						]
-					}
-				}
-			}
-		}
-	},
-	"MessagesDirs": {
-		"Babel": [
-			"i18n",
-			"i18n/api"
-		]
-	},
-	"ExtensionMessagesFiles": {
-		"BabelMagic": "Babel.i18n.magic.php"
-	},
-	"AutoloadClasses": {
-		"Babel": "includes/Babel.php",
-		"MediaWiki\\Babel\\Babel": "includes/Babel.php"
-	},
-	"AutoloadNamespaces": {
-		"MediaWiki\\Babel\\": "includes/"
-	},
-	"TestAutoloadClasses": {
-		"MediaWiki\\Extension\\CommunityConfiguration\\Tests\\SchemaProviderTestCase": "../CommunityConfiguration/tests/phpunit/integration/SchemaProviderTestCase.php",
-		"MediaWiki\\Babel\\Maintenance\\MigrateConfigToCommunity": "maintenance/migrateConfigToCommunity.php"
-	},
-	"APIMetaModules": {
-		"babel": {
-			"class": "MediaWiki\\Babel\\ApiQueryBabel",
-			"services": [
-				"UserIdentityLookup"
-			]
-		}
-	},
-	"ResourceModules": {
-		"ext.babel": {
-			"styles": "resources/ext.babel.less"
-		}
-	},
-	"ResourceFileModulePaths": {
-		"localBasePath": "",
-		"remoteExtPath": "Babel"
-	},
-	"Hooks": {
-		"ParserFirstCallInit": "main",
-		"LinksUpdate": "main",
-		"LoadExtensionSchemaUpdates": "schema",
-		"UserGetReservedNames": "main",
-		"CommunityConfigurationProvider_initList": "communityconfiguration"
-	},
-	"HookHandlers": {
-		"main": {
-			"class": "MediaWiki\\Babel\\Hooks",
-			"services": [
-				"MainConfig",
-				"UserIdentityLookup",
-				"CentralIdLookupFactory",
-				"MainWANObjectCache"
-			]
-		},
-		"schema": {
-			"class": "MediaWiki\\Babel\\SchemaHooks"
-		},
-		"communityconfiguration": {
-			"class": "MediaWiki\\Babel\\Config\\CommunityConfigurationHooks"
-		}
-	},
-	"config": {
-		"BabelUseCommunityConfiguration": {
-			"value": false,
-			"description": "Should CommunityConfiguration extension be used to provide configuration?"
-		},
-		"BabelCategorizeNamespaces": {
-			"value": null
-		},
-		"BabelCategoryNames": {
-			"value": {
-				"0": "%code%-0",
-				"1": "%code%-1",
-				"2": "%code%-2",
-				"3": "%code%-3",
-				"4": "%code%-4",
-				"5": "%code%-5",
-				"N": "%code%-N"
-			},
-			"merge_strategy": "array_plus"
-		},
-		"BabelMainCategory": {
-			"value": "%code%"
-		},
-		"BabelDefaultLevel": {
-			"value": "N"
-		},
-		"BabelUseUserLanguage": {
-			"value": false
-		},
-		"BabelCentralDb": {
-			"value": false
-		},
-		"BabelAllowOverride": {
-			"value": true
-		},
-		"BabelAutoCreate": {
-			"value": true
-		}
-	},
-	"TrackingCategories": [
-		"babel-template-params-category"
-	],
-	"ServiceWiringFiles": [
-		"ServiceWiring.php"
-	],
-	"manifest_version": 2
+    "name": "Babel",
+    "author": [
+        "Robert Leverington",
+        "Thiemo Kreuz",
+        "Kunal Mehta",
+        "Nikerabbit",
+        "Amir Aharoni",
+        "Ricordisamoa"
+    ],
+    "url": "https://www.mediawiki.org/wiki/Extension:Babel",
+    "descriptionmsg": "babel-desc",
+    "license-name": "GPL-2.0-or-later",
+    "type": "parserhook",
+    "requires": {
+        "MediaWiki": ">= 1.43.0"
+    },
+    "attributes": {
+        "CommunityConfiguration": {
+            "Providers": {
+                "Babel": {
+                    "type": "mw-config",
+                    "store": {
+                        "type": "wikipage",
+                        "args": [
+                            "MediaWiki:BabelConfig.json"
+                        ]
+                    },
+                    "validator": {
+                        "type": "jsonschema",
+                        "args": [
+                            "MediaWiki\\Babel\\Config\\BabelSchema"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "MessagesDirs": {
+        "Babel": [
+            "i18n",
+            "i18n/api"
+        ]
+    },
+    "ExtensionMessagesFiles": {
+        "BabelMagic": "Babel.i18n.magic.php"
+    },
+    "AutoloadClasses": {
+        "Babel": "includes/Babel.php",
+        "MediaWiki\\Babel\\Babel": "includes/Babel.php"
+    },
+    "AutoloadNamespaces": {
+        "MediaWiki\\Babel\\": "includes/"
+    },
+    "TestAutoloadClasses": {
+        "MediaWiki\\Extension\\CommunityConfiguration\\Tests\\SchemaProviderTestCase": "../CommunityConfiguration/tests/phpunit/integration/SchemaProviderTestCase.php",
+        "MediaWiki\\Babel\\Maintenance\\MigrateConfigToCommunity": "maintenance/migrateConfigToCommunity.php"
+    },
+    "APIMetaModules": {
+        "babel": {
+            "class": "MediaWiki\\Babel\\ApiQueryBabel",
+            "services": [
+                "UserIdentityLookup"
+            ]
+        }
+    },
+    "ResourceModules": {
+        "ext.babel": {
+            "styles": "resources/ext.babel.less"
+        }
+    },
+    "ResourceFileModulePaths": {
+        "localBasePath": "",
+        "remoteExtPath": "Babel"
+    },
+    "Hooks": {
+        "ParserFirstCallInit": "main",
+        "LinksUpdate": "main",
+        "LoadExtensionSchemaUpdates": "schema",
+        "UserGetReservedNames": "main",
+        "CommunityConfigurationProvider_initList": "communityconfiguration"
+    },
+    "HookHandlers": {
+        "main": {
+            "class": "MediaWiki\\Babel\\Hooks",
+            "services": [
+                "MainConfig",
+                "UserIdentityLookup",
+                "CentralIdLookupFactory",
+                "MainWANObjectCache"
+            ]
+        },
+        "schema": {
+            "class": "MediaWiki\\Babel\\SchemaHooks"
+        },
+        "communityconfiguration": {
+            "class": "MediaWiki\\Babel\\Config\\CommunityConfigurationHooks"
+        }
+    },
+    "config": {
+        "BabelUseCommunityConfiguration": {
+            "value": false,
+            "description": "Should CommunityConfiguration extension be used to provide configuration?"
+        },
+        "BabelCategorizeNamespaces": {
+            "value": null
+        },
+        "BabelCategoryNames": {
+            "value": {
+                "0": "%code%-0",
+                "1": "%code%-1",
+                "2": "%code%-2",
+                "3": "%code%-3",
+                "4": "%code%-4",
+                "5": "%code%-5",
+                "N": "%code%-N"
+            },
+            "merge_strategy": "array_plus"
+        },
+        "BabelMainCategory": {
+            "value": "%code%"
+        },
+        "BabelDefaultLevel": {
+            "value": "N"
+        },
+        "BabelUseUserLanguage": {
+            "value": false
+        },
+        "BabelCentralDb": {
+            "value": false
+        },
+        "BabelAllowOverride": {
+            "value": true
+        },
+        "BabelAutoCreate": {
+            "value": true
+        }
+    },
+    "TrackingCategories": [
+        "babel-template-params-category"
+    ],
+    "ServiceWiringFiles": [
+        "ServiceWiring.php"
+    ],
+    "manifest_version": 2,
+    "version": "[https://www.mediawiki.org/wiki/MLEB MLEB 2025.03]"
 }
