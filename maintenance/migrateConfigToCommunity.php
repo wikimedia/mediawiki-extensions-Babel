@@ -46,6 +46,7 @@ class MigrateConfigToCommunity extends LoggedUpdateMaintenance {
 		$this->providerFactory = $ccServices->getConfigurationProviderFactory();
 	}
 
+	/** @inheritDoc */
 	protected function doDBUpdates() {
 		$this->initServices();
 
