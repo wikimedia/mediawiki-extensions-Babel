@@ -44,5 +44,7 @@
 	"babel-template-params-category": "Páginas que utilizan Babel con parámetros nombrados",
 	"babel-template-params-category-desc": "La página pasa un parámetro nombre=valor a la función del analizador #babel. El comportamiento de estos parámetros [[phab:T327847|puede cambiar en el futuro cercano]].",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Nivel 0",
-	"communityconfiguration-babel-babelcategorynames-1-label": "Nivel 1"
+	"communityconfiguration-babel-babelcategorynames-1-label": "Nivel 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Nivel 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Nivel 3"
 }
