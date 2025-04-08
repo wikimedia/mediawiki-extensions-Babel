@@ -5,6 +5,13 @@
 		]
 	},
 	"babel": "Qullanıcı tilleri malümatı (Babil)",
+	"babel-0": "Bu qulanıcı [[$2|$3]] ya [[$1|iç bilmey]] ya da zar-zornen añlay.",
+	"babel-1": "Bu qullanıcı [[$2|$3]] [[$1|azçıq]] bile.",
+	"babel-2": "Bu qullanıcı [[$2|$3]] [[$1|orta seviyede]] bile.",
+	"babel-3": "Bu qullanıcı [[$2|$3]] [[$1|yahşı]] bile.",
+	"babel-4": "Bu qullanıcı [[$2|$3]] [[$1|ana tili kibi]] bile.",
+	"babel-5": "Bu qullanıcı [[$2|$3]] [[$1|ihtisasiy seviyede]] bile.",
+	"babel-N": "Bu qullanıcınıñ [[$1|ana tili]] [[$2|$3]].",
 	"babel-0-n": "Bu qulanıcı [[$2|qırımtatar tilini]] ya [[$1|iç bilmey]] ya da zar-zornen añlay.",
 	"babel-1-n": "Bu qullanıcı [[$2|qırımtatar tilini]] [[$1|azçıq]] bile.",
 	"babel-2-n": "Bu qullanıcı [[$2|qırımtatar tilini]] [[$1|orta seviyede]] bile.",
@@ -12,5 +19,13 @@
 	"babel-4-n": "Bu qullanıcı [[$2|qırımtatar tilini]] [[$1|ana tili kibi]] bile.",
 	"babel-5-n": "Bu qullanıcı [[$2|qırımtatar tilini]] [[$1|ihtisasiy seviyede]] bile.",
 	"babel-N-n": "Bu qullanıcınıñ [[$1|ana tili]] [[$2|qırımtatar tili]]dir.",
-	"babel-footer": "Tillerine köre qullanıcılar"
+	"babel-footer": "Tillerine köre qullanıcılar",
+	"communityconfiguration-babel-babelcategorynames-0-label": "0-ıncı seviye",
+	"communityconfiguration-babel-babelcategorynames-1-label": "1-inci seviye",
+	"communityconfiguration-babel-babelcategorynames-2-label": "2-nci seviye",
+	"communityconfiguration-babel-babelcategorynames-3-label": "3-ünci seviye",
+	"communityconfiguration-babel-babelcategorynames-4-label": "4-ünci seviye",
+	"communityconfiguration-babel-babelcategorynames-5-label": "5-inci seviye",
+	"communityconfiguration-babel-babelcategorynames-n-label": "N seviyesi",
+	"communityconfiguration-babel-babelmaincategory-label": "Esas kategoriya"
 }
