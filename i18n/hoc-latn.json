@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Singkiring57"
+		]
+	},
+	"babel": "Babel User Chinirgal",
+	"babel-desc": "Babel User Column apaćsepen te baioḱ lagit́ <code>#babel</code> Parser Function tukamoḱa, enare Jivsanaṅ Template ko emtukam daeoḱa.",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Bara:Babel - Jagar lekate User ko",
+	"babel-autocreate-reason": "Apaćsepen [[$1|Babel]] Bara Sakam baioḱ tana",
+	"babel-autocreate-text-levels": "Nen Bara ren User ko $2 Jagar reaḱ tako $1 Level daesẽa menaḱa menteko ingul akat́a.\n$4",
+	"babel-autocreate-text-main": "Nen Bara ren User ko tako $1 Jagar reaḱ etosẽakô ingul akat́a.\n$3",
+	"babel-0": "Nen User do [[$2|$3]] [[$1|ka]]ć etoana (baredo esu ã́ṭo teć urumsaṕ daea).",
+	"babel-1": "Nen User do [[$2|$3]] [[$1|epewṕ]]geć etoana.",
+	"babel-2": "Nen User do [[$2|$3]] [[$1|taraìkir]]geć etoana.",
+	"babel-3": "Nen User do [[$2|$3]] [[$1|ikir]]geć etoana.",
+	"babel-4": "Nen User do [[$2|$3]] [[$1|unduṕjagar noḱ]]geć etoana.",
+	"babel-5": "Nen User do [[$2|$3]] [[$1|nalhpaeṭi re leka]]ć etoana.",
+	"babel-N": "Nen User do [[$2|$3]] [[$1|Unduṕjagar ]]lekać etoana.",
+	"babel-0-n": "Nen User do [[$2|Hoojagar]] [[$1|ka]]ć etoana (baredo esu ã́to teć urumsaṕ daea).",
+	"babel-1-n": "Nen User do [[$2|Hoojagar]] [[$1|epewṕ]]geć etoana.",
+	"babel-2-n": "Nen User do [[$2|Hoojagar]] [[$1|taraìkir]]geć etoana.",
+	"babel-3-n": "Nen User do [[$2|Hoojagar]] [[$1|ikir]]geć etoana.",
+	"babel-4-n": "Nen User do [[$2|Hoojagar]] [[$1|Unduṕjagar leka noḱ]]geć etoana.",
+	"babel-5-n": "Nen User do [[$2|Hoojagar]] [[$1|Nalhpaeṭi re leka]]geć etoana.",
+	"babel-N-n": "Nen User do [[$2|Hoojagar]] [[$1|Unduṕjagar leka]]geć etoana.",
+	"babel-footer": "Agujoṅjagar lekate User ko",
+	"babel-template-params-category": "Nutum akan Parameter loḱ Babel agujoṅe Sakam ko",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Level 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Level 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Level 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Level 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Level 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Level 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Level N",
+	"communityconfiguration-babel-babelmaincategory-label": "Mutul Bara",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "User'aḱ Jagar agujoṅe",
+	"communityconfiguration-babel-babelautocreate-control-label": "Apaćsepen te Babel Bara ko baiè"
+}
