@@ -5,6 +5,13 @@
 		]
 	},
 	"babel": "Qullanıcı tilleri malümatı (Babil)",
+	"babel-0": "Bu qulanıcı [[$2|$3]] ya [[$1|iç bilmey]] ya da zar-zornen añlay.",
+	"babel-1": "Bu qullanıcı [[$2|$3]] [[$1|azçıq]] bile.",
+	"babel-2": "Bu qullanıcı [[$2|$3]] [[$1|orta seviyede]] bile.",
+	"babel-3": "Bu qullanıcı [[$2|$3]] [[$1|yahşı]] bile.",
+	"babel-4": "Bu qullanıcı [[$2|$3]] [[$1|ana tili kibi]] bile.",
+	"babel-5": "Bu qullanıcı [[$2|$3]] [[$1|ihtisasiy seviyede]] bile.",
+	"babel-N": "Bu qullanıcınıñ [[$1|ana tili]] [[$2|$3]].",
 	"babel-0-n": "Bu qulanıcı [[$2|qırımtatar tilini]] ya [[$1|iç bilmey]] ya da zar-zornen añlay.",
 	"babel-1-n": "Bu qullanıcı [[$2|qırımtatar tilini]] [[$1|azçıq]] bile.",
 	"babel-2-n": "Bu qullanıcı [[$2|qırımtatar tilini]] [[$1|orta seviyede]] bile.",
