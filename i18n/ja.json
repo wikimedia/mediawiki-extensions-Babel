@@ -43,7 +43,7 @@
 	"babel-template-params-category": "名前付き引数を持つBabelを使用するページ",
 	"babel-template-params-category-desc": "このページは、name=value 引数を #babel パーサー関数に渡します。これらの引数の動作は[[phab:T327847|近い将来変更される可能性があります]]。",
 	"communityconfiguration-babel-title": "バベル",
-	"communityconfiguration-babel-description": "#babel パーサー関数によって生成されるカテゴリをカスタマイズする。",
+	"communityconfiguration-babel-description": "<nowiki>#</nowiki>babel パーサー関数によって生成されるカテゴリをカスタマイズする。",
 	"communityconfiguration-babel-babelcategorynames-label": "言語レベルごとのカテゴリ名",
 	"communityconfiguration-babel-babelcategorynames-description": "可能な変数要素: <code>%code%</code> (言語コード)、 <code>%wikiname%</code> (ウィキのコンテンツ言語での言語名)、および <code>%nativename%</code> (その言語での言語名)。無効化するには空白のままにします。",
 	"communityconfiguration-babel-babelcategorynames-0-label": "レベル 0",
