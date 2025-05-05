@@ -31,5 +31,6 @@
 	"babel-N-n": "[[$2|Нохчийн мотт]] — хӀокху декъашхочуьнан [[$1|ненан]] мотт бу.",
 	"babel-template": "Кеп:Декъашхо $1",
 	"babel-footer": "Декъашхой метташца",
-	"babel-template-params-category": "Вавилонан синтаксис лелош йолу агӀонаш цӀерш йолу параметрашца"
+	"babel-template-params-category": "Вавилонан синтаксис лелош йолу агӀонаш цӀерш йолу параметрашца",
+	"communityconfiguration-babel-title": "Вавилон"
 }
