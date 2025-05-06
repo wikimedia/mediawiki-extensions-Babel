@@ -28,10 +28,11 @@
 	"babel-N-n": "د دې کارن [[$1|مورنۍ]] ژبه [[$2|پښتو]] ده.",
 	"babel-footer": "کارنان د ژبې له مخې",
 	"babel-template-params-category": "مخونه چې بابېل له نومول شويو پارامېترونو سره کاروي",
-	"babel-template-params-category-desc": "دا مخ د #babel parser فعالیت ته د name=value پارامیټر لېږدوي. د دې پارامیټرونو چلند [[phab:T327847|ممکن په نږدې راتلونکي کې بدلون ومومي]].",
+	"babel-template-params-category-desc": "دا مخ د #babel parser فعالیت ته د name=value پارامیټر لېږدوي. د دې پارامیټرونو چلند [[phab:T327847|شايد نږدې راتلونکي کې بدلون ومومي]].",
 	"communityconfiguration-babel-title": "بابېل",
 	"communityconfiguration-babel-description": "د #بابېل شنونکي چارې لخوا رامنځته شوې وېشنيزې ترتيبول",
 	"communityconfiguration-babel-babelcategorynames-label": "د ژبې په کچه د وېشنيزو نومونه",
+	"communityconfiguration-babel-babelcategorynames-description": "شوني بدلېدونکي توکي دا دي:<code>%کوډ%</code> (ژبکوډ)، <code>%ويکي‌نوم%</code> ( په ويکي کې د ويکي‌منځپانگې د ژبې نوم) او <code>%خپلژبيزنوم%</code> (د ژبې نوم د هماغه ژبې په وينگ). ناچارنولو لپاره يې تش پرېږدئ.",
 	"communityconfiguration-babel-babelcategorynames-0-label": "۰ کچه",
 	"communityconfiguration-babel-babelcategorynames-1-label": "۱ کچه",
 	"communityconfiguration-babel-babelcategorynames-2-label": "۲ کچه",
@@ -43,5 +44,6 @@
 	"communityconfiguration-babel-babelmaincategory-description": "د هرې ژبې لپاره د ارې (بې-کچې) وېشنيزې نوم چې د دې ژبې ټول کارنان پکې ورگډېږي.",
 	"communityconfiguration-babel-babelmaincategory-help-text": "پورته \"د ژبې په کچه د وېشنيزو نومونه\" په څېر ورته بڼه مني.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "کارن ژبه کارول",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "ايا د سرليک او پای ليک پيغامونو لپاره د کارنمخ ژبه وکاروي. که ناسم وي(تلواله)؛ نو دا به د مخ د منځپانگې په ژبه وي. دا ځکه چې د کارن د مخبڼې ژبه کارول شايد پارسر کيچ مات کړي.",
 	"communityconfiguration-babel-babelautocreate-control-label": "په خپلکارې بڼه بابېل وېشنيزې جوړول"
 }
