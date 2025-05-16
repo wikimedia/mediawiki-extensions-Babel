@@ -32,5 +32,15 @@
 	"babel-template": "Кеп:Декъашхо $1",
 	"babel-footer": "Декъашхой метташца",
 	"babel-template-params-category": "Вавилонан синтаксис лелош йолу агӀонаш цӀерш йолу параметрашца",
-	"communityconfiguration-babel-title": "Вавилон"
+	"communityconfiguration-babel-title": "Вавилон",
+	"communityconfiguration-babel-babelcategorynames-0-label": "ТӀегӀа 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "ТӀегӀа 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "ТӀегӀа 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "ТӀегӀа 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "ТӀегӀа 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "ТӀегӀа 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Ненан меттан тӀегӀа",
+	"communityconfiguration-babel-babelmaincategory-label": "Коьрта категори",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Декъашхочун мотт лелабе",
+	"communityconfiguration-babel-babelautocreate-control-label": "Авто кхолла Babel категореш"
 }
