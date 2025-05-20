@@ -32,5 +32,22 @@
 	"babel-template": "Кеп:Декъашхо $1",
 	"babel-footer": "Декъашхой метташца",
 	"babel-template-params-category": "Вавилонан синтаксис лелош йолу агӀонаш цӀерш йолу параметрашца",
-	"communityconfiguration-babel-title": "Вавилон"
+	"babel-template-params-category-desc": "АгӀо дӀало name=valu параметр #babel парсер функцина. Оцу параметрийн лелар [[phab:T327847|гергарчу хенахь хийцадала тарло]].",
+	"communityconfiguration-babel-title": "Вавилон",
+	"communityconfiguration-babel-description": "#babel parser функцино генераци йина категореш нисйе.",
+	"communityconfiguration-babel-babelcategorynames-label": "Меттан говзаллин тӀегӀанца категорийн цӀераш",
+	"communityconfiguration-babel-babelcategorynames-description": "Хийца тарлуш йолу элементаш йу: <code>%code%</code> (меттан код), <code>%wikiname%</code> (вики чулацаман маттахь меттан цӀе), ткъа иштта <code>%nativename%</code> (меттан цӀе ша маттахь). ДӀайайа йаьсса йита.",
+	"communityconfiguration-babel-babelcategorynames-0-label": "ТӀегӀа 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "ТӀегӀа 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "ТӀегӀа 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "ТӀегӀа 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "ТӀегӀа 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "ТӀегӀа 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Ненан меттан тӀегӀа",
+	"communityconfiguration-babel-babelmaincategory-label": "Коьрта категори",
+	"communityconfiguration-babel-babelmaincategory-description": "ХӀора маттана коьрта (тӀегӀанаш доцу) категорин цӀе, шена тӀетоьхна массо а билгалчу меттан декъашхой.",
+	"communityconfiguration-babel-babelmaincategory-help-text": "ТӀеоьцу лакхахь \"Меттан тӀегӀанехь категорийн цӀераш\" санна формат.",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Декъашхочун мотт лелабе",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Коьртачу а, лахарчу а хаамна лелоран интерфейсан мотт лело беза йа ца беза. Нагахь санна false делахь (Ӏад йитаран кепаца), иза хир йу агӀонан чулацаман маттахь. ХӀунда аьлча интерфейсан мотт лелоро парсеран кэш-ан фрагментаци йан тарло.",
+	"communityconfiguration-babel-babelautocreate-control-label": "Авто кхолла Babel категореш"
 }
