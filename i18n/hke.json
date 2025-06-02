@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Muisha wiki hke"
+		]
+	},
+	"babel": "Babeli ya mukolesa",
+	"babel-url": "Project:Babeli",
+	"babel-footer-url": ":Mutinda:Babeli - Bakolesa ku muneenere",
+	"babel-0": "Amukolesa uno echi amuneenere [[$2|$3]] mu luero[[$1|no]] (neri ataumpfo kushe).",
+	"babel-1": "Amukolesa uno echi [[$2|$3]] mu luero [[$1|mulimi]].",
+	"babel-2": "Amukolesa uno echi [[$2|$3]] mu luero lwa [[$1|katikati]]",
+	"babel-3": "Amukolesa uno [[$1|muhunduhundu]] wa [[$2|$3]].",
+	"babel-4": "Amukolesa uno echi [[$2|$3]] ngakuno [[$1|nga ninamuneenere]]",
+	"babel-5": "Amukolesa uno [[$1|muhunduhundu]] mwa [[$2|$3]].",
+	"babel-N": "Amukolesa uno [[$1|nina]] [[$2|$3]].",
+	"babel-0-n": "Amukolesa uno [[$1|atechi]] [[|Kingeresa]] (neri ataumpfakyo kushe).",
+	"babel-1-n": "Amukolesa uno echi [[$2|$3]] mu luero [[$1|mulimi]].",
+	"babel-2-n": "Amukolesa uno anaumpfa [[$2|kingeresa]] [[$1|kake]].",
+	"babel-3-n": "Amukolesa uno [[$1|muhunduhundu]] mwa [[$2|Kingeresa]].",
+	"babel-4-n": "Amukolesa uno echi [[$2|English]] [[$1|nga ninamuneenere]].",
+	"babel-5-n": "Amukolesa uno [[$1|muhunduhundu]] mwa [[$2|Kingeresa]].",
+	"babel-N-n": "Amukolesa uno [[$1|nina]] [[$2|Kingeresa]].",
+	"babel-footer": "Bakolesa ku muneenenre"
+}
