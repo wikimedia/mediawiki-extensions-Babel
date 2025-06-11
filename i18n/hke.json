@@ -4,7 +4,7 @@
 			"Muisha wiki hke"
 		]
 	},
-	"babel": "Babeli ya mukolesa",
+	"babel": "Kuluenda Babeli ya mukolesa",
 	"babel-url": "Project:Babeli",
 	"babel-footer-url": ":Mutinda:Babeli - Bakolesa ku muneenere",
 	"babel-autocreate-reason": "Kashashali ka mutinda wa [[$1|Babel]] katangira",
@@ -17,7 +17,7 @@
 	"babel-4": "Amukolesa uno echi [[$2|$3]] ngakuno [[$1|nga ninamuneenere]]",
 	"babel-5": "Amukolesa uno [[$1|muhunduhundu]] mwa [[$2|$3]].",
 	"babel-N": "Amukolesa uno [[$1|nina]] [[$2|$3]].",
-	"babel-0-n": "Amukolesa uno [[$1|atechi]] [[|Kingeresa]] (neri ataumpfakyo kushe).",
+	"babel-0-n": "Amukolesa uno [[$1|atechi]] [[$2|Kingeresa]] (neri ataumpfakyo kushe).",
 	"babel-1-n": "Amukolesa uno echi [[$2|$3]] mu luero [[$1|mulimi]].",
 	"babel-2-n": "Amukolesa uno anaumpfa [[$2|kingeresa]] [[$1|kake]].",
 	"babel-3-n": "Amukolesa uno [[$1|muhunduhundu]] mwa [[$2|Kingeresa]].",
