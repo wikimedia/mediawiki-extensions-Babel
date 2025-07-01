@@ -5,7 +5,8 @@
 			"Ibrahim",
 			"ToJack",
 			"Whytheonlyone",
-			"ZxxZxxZ"
+			"ZxxZxxZ",
+			"Farorud"
 		]
 	},
 	"babel": "Иттилооти забонии корбар",
@@ -30,5 +31,16 @@
 	"babel-4-n": "Корбари мазкур [[$1|тоҷикиро]] чун [[$2|забони модариаш медонад]].",
 	"babel-5-n": "Корбари мазкур дар сатҳи [[$1|олӣ]] [[$2|тоҷикиро]] мефаҳмад.",
 	"babel-N-n": "Забони [[$1|модарии]] ин корбар [[$2|тоҷикӣ]] аст.",
-	"babel-footer": "Корбарон аз рӯи забонҳо"
+	"babel-footer": "Корбарон аз рӯи забонҳо",
+	"babel-template-params-category": "Саҳифаҳои истифодабарандаи Вавилон бо параметри номидашуда",
+	"communityconfiguration-babel-title": "Вавилон",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Дараҷаи 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Дараҷаи 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Дараҷаи 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Дараҷаи 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Дараҷаи 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Дараҷаи 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Дараҷаи забони модарӣ",
+	"communityconfiguration-babel-babelmaincategory-label": "Гурӯҳи асосӣ",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Истифодаи забони корбар"
 }
