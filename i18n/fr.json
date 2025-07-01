@@ -10,6 +10,7 @@
 			"Epok",
 			"Gomoko",
 			"Goombiis",
+			"GrandEscogriffe",
 			"Grondin",
 			"IAlex",
 			"JackPotte",
@@ -28,7 +29,7 @@
 			"Zebulon84"
 		]
 	},
-	"babel": "Informations Babel sur l’utilisat{{GENDER:$1|eur|rice|eur·ice}}",
+	"babel": "Informations Babel sur l’utilisat{{GENDER:$1|eur|rice}}",
 	"babel-desc": "Ajoute la fonction de l’analyseur syntaxique <code>#babel</code> permettant la création automatique d’une colonne de boîtes utilisateur Babel avec la possibilité d’inclure des modèles locaux",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Catégorie:Babel – Utilisateurs par langue",
@@ -49,7 +50,7 @@
 	"babel-3-n": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice|Cet·te  utilisateur·rice}} dispose de connaissances [[$1|avancées]] en [[$2|français]].",
 	"babel-4-n": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice|Cet·te  utilisateur·rice}} dispose de connaissances [[$1|proches de la langue maternelle]] en [[$2|français]].",
 	"babel-5-n": "{{GENDER:$4|Cet utilisateur|Cette utilisatrice|Cet·te  utilisateur·rice}} dispose de connaissances [[$1|professionnelles]] en [[$2|français]].",
-	"babel-N-n": "Cet{{GENDER:$4||te|·te}} utilisat{{GENDER:$4|eur|rice|eur·rice}} a pour [[$1|langue maternelle]] le [[$2|français]].",
+	"babel-N-n": "Cet{{GENDER:$4||te}} utilisat{{GENDER:$4|eur|rice}} a pour [[$1|langue maternelle]] le [[$2|français]].",
 	"babel-template": "Template:User $1",
 	"babel-footer": "Utilisateurs par langue",
 	"babel-template-params-category": "Pages utilisant la fonction babel avec des paramètres nommés",
