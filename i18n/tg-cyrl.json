@@ -5,7 +5,8 @@
 			"Ibrahim",
 			"ToJack",
 			"Whytheonlyone",
-			"ZxxZxxZ"
+			"ZxxZxxZ",
+			"Farorud"
 		]
 	},
 	"babel": "Иттилооти забонии корбар",
@@ -13,8 +14,8 @@
 	"babel-url": "Project:Забонҳои корбар",
 	"babel-footer-url": ":Гурӯҳ:Бобил - корбарон аз рӯи забонҳо",
 	"babel-autocreate-reason": "Сохтани автоматӣ саҳифаи гурӯҳӣ [[$1|Бобил]]",
-	"babel-autocreate-text-levels": "Корбарон дар ин гурӯҳ нишон медиҳандки, дар унҳо ҳунарӣ $1 барои забони $2 ҳаст.",
-	"babel-autocreate-text-main": "Корбарони ин гурӯҳ нишон медиҳанд дониши забони $1.",
+	"babel-autocreate-text-levels": "Корбарон дар ин гурӯҳ нишон медиҳандки, дар онҳо ҳунари дараҷаи $1 барои забони $2 ҳаст. $4",
+	"babel-autocreate-text-main": "Корбарони ин гурӯҳ нишон медиҳанд дониши забони $1. $3",
 	"babel-autocreate-user": "Эҷоди бобул ба таври худкор",
 	"babel-0": "Ин корбар [[$2|$3]]ро [[$1|намефаҳмад]] (ё онро бо душворӣ мефаҳмад).",
 	"babel-1": "Ин корбар [[$2|$3]]ро дар сатҳи [[$1|муқаддамотӣ]] мефаҳмад.",
@@ -30,5 +31,16 @@
 	"babel-4-n": "Корбари мазкур [[$1|тоҷикиро]] чун [[$2|забони модариаш медонад]].",
 	"babel-5-n": "Корбари мазкур дар сатҳи [[$1|олӣ]] [[$2|тоҷикиро]] мефаҳмад.",
 	"babel-N-n": "Забони [[$1|модарии]] ин корбар [[$2|тоҷикӣ]] аст.",
-	"babel-footer": "Корбарон аз рӯи забонҳо"
+	"babel-footer": "Корбарон аз рӯи забонҳо",
+	"babel-template-params-category": "Саҳифаҳои истифодабарандаи Вавилон бо параметри номидашуда",
+	"communityconfiguration-babel-title": "Вавилон",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Дараҷаи 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Дараҷаи 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Дараҷаи 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Дараҷаи 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Дараҷаи 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Дараҷаи 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Дараҷаи забони модарӣ",
+	"communityconfiguration-babel-babelmaincategory-label": "Гурӯҳи асосӣ",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Истифодаи забони корбар"
 }
