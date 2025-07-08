@@ -25,10 +25,11 @@
 			"Danÿa",
 			"Bananax47",
 			"C. Scheler",
-			"Tacsipacsi"
+			"Tacsipacsi",
+			"GrandEscogriffe"
 		]
 	},
-	"babel": "Informations Babel sur l’utilisat{{GENDER:$1|eur|rice|eur·ice}}",
+	"babel": "Informations Babel sur l’utilisat{{GENDER:$1|eur|rice}}",
 	"babel-desc": "Ajoute la fonction de l’analyseur syntaxique <code>#babel</code> permettant la création automatique d’une colonne de boîtes utilisateur Babel avec la possibilité d’inclure des modèles locaux",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Catégorie:Babel – Utilisateurs par langue",
