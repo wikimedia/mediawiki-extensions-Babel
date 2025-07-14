@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"CROIX2"
+		]
+	},
+	"babel": "Bab'l yuuza infaamieshan",
+	"babel-desc": "Min add de <code>#babel</code> luk funxshan fu let automatik generayshan a de bab'l yuuzabox kal'm wid de abilitee fu inkluud kast'm templet dem",
+	"babel-url": "Project:Bab'l",
+	"babel-footer-url": ":Category:Bab'l - Yuuza dem bai langwij",
+	"babel-0": "Dis yuuza hab [[$1|no]] naalij a [[$2|$3]] (or (s)hi bad bad a ih).",
+	"babel-1": "Dis yuuza hab [[$1|likl]] naalij a [[$2|$3]].",
+	"babel-2": "Dis yuuza hab [[$1|staatin]] naalij a [[$2|$3]].",
+	"babel-3": "Dis yuuza hab [[$1|gud gud]] naalij a [[$2|$3]].",
+	"babel-4": "Dis yuuza hab [[$1|neer \"bahn-yah\"]] naalij a [[$2|$3]].",
+	"babel-5": "Dis yuuza hab [[$1|profeshanal]] naalij a [[$2|$3]].",
+	"babel-N": "Dis yuuza [[$1|\"baan een\"]] de [[$2|$3]] langwij.",
+	"babel-0-n": "Dis yuuza hab [[$1|no]] naalij a [[$2|Aanteegan an' Baabyuudan]] (or (s)hi bad bad a ih).",
+	"babel-1-n": "Dis yuuza hab [[$1|likl]] naalij a [[$2|Aanteegan an' Baabyuudan]].",
+	"babel-2-n": "Dis yuuza hab [[$1|staatin]] naalij a [[$2|Aanteegan an' Baabyuudan]].",
+	"babel-3-n": "Dis yuuza hab [[$1|gud gud]] naalij a [[$2|Aanteegan an' Baabyuudan]].",
+	"babel-4-n": "Dis yuuza hab [[$1|neer \"bahn-yah\"]] naalij a [[$2|Aanteegan an' Baabyuudan]].",
+	"babel-5-n": "Dis yuuza hab [[$1|profeshanal]] naalij a [[$2|Aanteegan an' Baabyuudan]].",
+	"babel-N-n": "Dis yuuza [[$1|\"baan een\"]] de [[$2|Aanteegan an' Baabyuudan]] langwij.",
+	"babel-footer": "Yuuza dem bai langwij"
+}
