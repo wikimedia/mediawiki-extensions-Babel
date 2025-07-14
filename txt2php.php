@@ -10,9 +10,11 @@ namespace MediaWiki\Babel;
 use MediaWiki\Maintenance\Maintenance;
 use Wikimedia\StaticArrayWriter;
 
+// @codeCoverageIgnoreStart
 require_once getenv( 'MW_INSTALL_PATH' ) !== false
 	? getenv( 'MW_INSTALL_PATH' ) . "/maintenance/Maintenance.php"
 	: __DIR__ . '/../../../maintenance/Maintenance.php';
+// @codeCoverageIgnoreEnd
 
 // phpcs:ignore MediaWiki.Files.ClassMatchesFilename.WrongCase
 class TXT2PHP extends Maintenance {
@@ -65,5 +67,7 @@ class TXT2PHP extends Maintenance {
 	}
 }
 
+// @codeCoverageIgnoreStart
 $maintClass = TXT2PHP::class;
 require_once RUN_MAINTENANCE_IF_MAIN;
+// @codeCoverageIgnoreEnd

@@ -10,9 +10,11 @@ namespace MediaWiki\Babel;
 
 use MediaWiki\Maintenance\Maintenance;
 
+// @codeCoverageIgnoreStart
 require_once getenv( 'MW_INSTALL_PATH' ) !== false
 	? getenv( 'MW_INSTALL_PATH' ) . "/maintenance/Maintenance.php"
 	: __DIR__ . '/../../../maintenance/Maintenance.php';
+// @codeCoverageIgnoreEnd
 
 // phpcs:ignore MediaWiki.Files.ClassMatchesFilename.WrongCase
 class TAB2TXT extends Maintenance {
@@ -48,5 +50,7 @@ class TAB2TXT extends Maintenance {
 	}
 }
 
+// @codeCoverageIgnoreStart
 $maintClass = TAB2TXT::class;
 require_once RUN_MAINTENANCE_IF_MAIN;
+// @codeCoverageIgnoreEnd
