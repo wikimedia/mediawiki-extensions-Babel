@@ -15,7 +15,8 @@
 			"Suchichi02",
 			"Suecarmol",
 			"Vivaelcelta",
-			"WikiiiTranslator"
+			"WikiiiTranslator",
+			"JorgeElias2302"
 		]
 	},
 	"babel": "Información de idiomas {{GENDER:$1|del usuario|de la usuaria}}",
@@ -23,8 +24,8 @@
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Usuarios por idioma",
 	"babel-autocreate-reason": "Creando automáticamente la página de categoría [[$1|Babel]]",
-	"babel-autocreate-text-levels": "Los usuarios de esta categoría indican que tienen un nivel de dominio $1 del idioma $2.",
-	"babel-autocreate-text-main": "Los usuarios en esta categoría indican su conocimiento del idioma $1.",
+	"babel-autocreate-text-levels": "Los usuarios de esta categoría indican que tienen un nivel de habilidad $1 para el idioma $2.\n$4",
+	"babel-autocreate-text-main": "Los usuarios de esta categoría indican su conocimiento del idioma $1.\n$3",
 	"babel-0": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} [[$1|no]] tiene ningún conocimiento del [[$2|$3]] (o lo entiende con mucha dificultad).",
 	"babel-1": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} tiene un conocimiento [[$1|básico]] del [[$2|$3]].",
 	"babel-2": "{{GENDER:$4|Este usuario|Esta usuaria|Esta persona}} tiene un conocimiento [[$1|intermedio]] del [[$2|$3]].",
@@ -43,6 +44,9 @@
 	"babel-footer": "Usuarios por idioma",
 	"babel-template-params-category": "Páginas que utilizan Babel con parámetros nombrados",
 	"babel-template-params-category-desc": "La página pasa un parámetro nombre=valor a la función del analizador #babel. El comportamiento de estos parámetros [[phab:T327847|puede cambiar en el futuro cercano]].",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-description": "Personaliza las categorías generadas por la función del analizador #babel.",
+	"communityconfiguration-babel-babelcategorynames-label": "Nombres de categorías por nivel de idioma",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Nivel 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "Nivel 1",
 	"communityconfiguration-babel-babelcategorynames-2-label": "Nivel 2",
