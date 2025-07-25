@@ -14,7 +14,7 @@ return [
 				$services->getMainConfig()
 			);
 		} else {
-			return MediaWikiServices::getInstance()->getMainConfig();
+			return $services->getMainConfig();
 		}
 	},
 ];
