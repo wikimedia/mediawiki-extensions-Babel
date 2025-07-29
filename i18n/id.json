@@ -34,5 +34,16 @@
 	"babel-5-n": "Pengguna ini memiliki pengetahuan [[$1|profesional]] [[$2|bahasa Indonesia]].",
 	"babel-N-n": "Pengguna ini merupakan [[$1|penutur asli]] [[$2|bahasa Indonesia]].",
 	"babel-template": "Templat:Pengguna $1",
-	"babel-footer": "Pengguna berdasarkan bahasa"
+	"babel-footer": "Pengguna berdasarkan bahasa",
+	"babel-template-params-category": "Halaman menggunakan babel dengan parameter bernama",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Tingkat 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Tingkat 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Tingkat 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Tingkat 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Tingkat 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Tingkat 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Tingkat N",
+	"communityconfiguration-babel-babelmaincategory-label": "Kategori utama",
+	"communityconfiguration-babel-babelmaincategory-help-text": "Menerima format yang sama seperti \"Nama kategori per tingkat bahasa\" di atas.",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Gunakan bahasa pengguna"
 }
