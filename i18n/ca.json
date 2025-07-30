@@ -6,7 +6,8 @@
 			"SMP",
 			"Ssola",
 			"Toniher",
-			"Vriullop"
+			"Vriullop",
+			"Sma1997"
 		]
 	},
 	"babel": "Informació Babel de {{GENDER:$1|l'usuari|la usuària}}",
@@ -31,6 +32,9 @@
 	"babel-5-n": "{{GENDER:$4|Aquest usuari|Aquesta usuària}} té coneixement [[$1|professional]] de la llengua [[$2|catalana]].",
 	"babel-N-n": "{{GENDER:$4|Aquest usuari és un|Aquesta usuària és una}} parlant [[$1|{{GENDER:$4|natiu|nativa}}]] de [[$2|català]].",
 	"babel-footer": "Usuaris per idioma",
+	"babel-template-params-category": "Pàgines utilitzant babel amb paràmetres amb nom",
+	"babel-template-params-category-desc": "La pàgina passa un paràmetre name=value a la funció d'anàlisi sintàctica #babel. El comportament d'aquests paràmetres [[phab:T327847|pot canviar en un futur proper]].",
+	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-description": "Personalització de les categories generades per la funció d'anàlisi #babel.",
 	"communityconfiguration-babel-babelcategorynames-label": "Noms de les categories per nivell de llengua",
 	"communityconfiguration-babel-babelcategorynames-description": "Els elements variables possibles són: <code>%code%</code> (codi de llengua), <code>%wikiname%</code> (nom de la llengua segons l'ús en la llengua local del wiki) i <code>%nativename%</code> (nom de la llengua segons l'ús en aquesta llengua). Deixeu-ho en blanc per a desactivar-les.",
