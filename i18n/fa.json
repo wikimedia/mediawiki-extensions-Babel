@@ -10,7 +10,8 @@
 			"Mjbmr",
 			"Reza1615",
 			"Rtemis",
-			"ZxxZxxZ"
+			"ZxxZxxZ",
+			"Darafsh"
 		]
 	},
 	"babel": "اطلاعات کاربری بابل",
@@ -34,5 +35,24 @@
 	"babel-4-n": "این کاربر [[$2|فارسی]] را در حد [[$1|نزدیک به زبان مادری]] می‌فهمد.",
 	"babel-5-n": "این کاربر [[$2|فارسی]] را در حد [[$1|حرفه‌ای]] می‌فهمد.",
 	"babel-N-n": "این کاربر [[$2|فارسی]] را در حد [[$1|زبان مادری]] می‌فهمد.",
-	"babel-footer": "کاربران بر پایهٔ زبان"
+	"babel-footer": "کاربران بر پایهٔ زبان",
+	"babel-template-params-category": "صفحه‌های استفاده‌کننده از بابل با پارامترهای نام‌گذاری‌شده",
+	"babel-template-params-category-desc": "این صفحه یک پارامتر name=value به تابع تجزیه‌کنندهٔ #babel ارسال می‌کند. رفتار این پارامترها [[phab:T327847|ممکن است در آینده نزدیک تغییر کند]].",
+	"communityconfiguration-babel-title": "بابل",
+	"communityconfiguration-babel-description": "سفارشی‌سازی رده‌های ایجادشده توسط تابع تجزیه‌کنندهٔ #babel.",
+	"communityconfiguration-babel-babelcategorynames-label": "نام رده‌ها بر اساس سطح زبان",
+	"communityconfiguration-babel-babelcategorynames-description": "عناصر متغیر ممکن عبارت‌اند از: <code>%code%</code> (کد زبان)، <code>%wikiname%</code> (نام زبان به زبان محتوای ویکی)، و <code>%nativename%</code> (نام زبان به زبان خودش). برای غیرفعال کردن، خالی بگذارید.",
+	"communityconfiguration-babel-babelcategorynames-0-label": "سطح ۰",
+	"communityconfiguration-babel-babelcategorynames-1-label": "سطح ۱",
+	"communityconfiguration-babel-babelcategorynames-2-label": "سطح ۲",
+	"communityconfiguration-babel-babelcategorynames-3-label": "سطح ۳",
+	"communityconfiguration-babel-babelcategorynames-4-label": "سطح ۴",
+	"communityconfiguration-babel-babelcategorynames-5-label": "سطح ۵",
+	"communityconfiguration-babel-babelcategorynames-n-label": "سطح زبان مادری",
+	"communityconfiguration-babel-babelmaincategory-label": "ردهٔ اصلی",
+	"communityconfiguration-babel-babelmaincategory-description": "نام ردهٔ اصلی (غیرسطحی) برای هر زبان که همهٔ کاربران آن زبان به آن افزوده می‌شوند.",
+	"communityconfiguration-babel-babelmaincategory-help-text": "همان قالب «نام رده‌ها بر اساس سطح زبان» بالا را می‌پذیرد.",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "استفاده از زبان کاربر",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "این‌که آیا برای پیام سرصفحه و پاصفحه از زبان رابط کاربری استفاده شود یا نه. اگر مقدار آن false باشد (پیش‌فرض)، زبان محتوای صفحه استفاده خواهد شد. دلیل این موضوع این است که استفاده از زبان رابط کاربری ممکن است حافظهٔ نهان تجزیه‌کننده را پراکنده کند.",
+	"communityconfiguration-babel-babelautocreate-control-label": "ایجاد خودکار رده‌های بابل"
 }
