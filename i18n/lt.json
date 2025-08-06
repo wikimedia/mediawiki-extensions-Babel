@@ -37,6 +37,13 @@
 	"babel-5-n": "Šis naudotojas gali rašyti ir skaityti [[$1|profesionalia]] [[$2|lietuvių]] kalba.",
 	"babel-N-n": "Šis naudotojas gali rašyti ir skaityti [[$1|gimtąja]] [[$2|lietuvių]] kalba.",
 	"babel-footer": "Naudotojai pagal kalbą",
+	"communityconfiguration-babel-babelcategorynames-0-label": "0 lygis",
+	"communityconfiguration-babel-babelcategorynames-1-label": "1 lygis",
+	"communityconfiguration-babel-babelcategorynames-2-label": "2 lygis",
+	"communityconfiguration-babel-babelcategorynames-3-label": "3 lygis",
+	"communityconfiguration-babel-babelcategorynames-4-label": "4 lygis",
+	"communityconfiguration-babel-babelcategorynames-5-label": "5 lygis",
+	"communityconfiguration-babel-babelcategorynames-n-label": "N lygis",
 	"communityconfiguration-babel-babelmaincategory-label": "Pagrindinė kategorija",
 	"communityconfiguration-babel-babelautocreate-control-label": "Automatiškai kurti Babelio kategorijas"
 }
