@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"apihelp-query+babel-summary": "د هغه ژبو اړوند مالومات ترلاسه کول چې کارن پرې پوهېږي",
+	"apihelp-query+babel-param-user": "کارن چې په اړه يې بايد مالومات ترلاسه شي",
+	"apihelp-query+babel-example-1": "د <kbd>نمونې</kbd> کارن لپاره بابېل مالومات ترلاسه‌کول"
+}
