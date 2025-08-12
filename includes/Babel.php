@@ -34,8 +34,7 @@ use MediaWiki\WikiMap\WikiMap;
  * Main class for the Babel extension.
  */
 class Babel {
-	private PageReference $page;
-	private Parser $parser;
+	private readonly PageReference $page;
 
 	/**
 	 * Get a Config instance to use
@@ -58,8 +57,9 @@ class Babel {
 		return ( new Babel( $parser ) )->doRender( $parameters );
 	}
 
-	private function __construct( Parser $parser ) {
-		$this->parser = $parser;
+	private function __construct(
+		private readonly Parser $parser,
+	) {
 		$this->page = $parser->getPage() ?? PageReferenceValue::localReference( NS_SPECIAL, 'BadTitle/Missing' );
 	}
 

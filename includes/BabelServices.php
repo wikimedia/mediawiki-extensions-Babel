@@ -7,10 +7,9 @@ use MediaWiki\MediaWikiServices;
 
 class BabelServices {
 
-	private MediaWikiServices $coreServices;
-
-	public function __construct( MediaWikiServices $coreServices ) {
-		$this->coreServices = $coreServices;
+	public function __construct(
+		private readonly MediaWikiServices $coreServices,
+	) {
 	}
 
 	/**

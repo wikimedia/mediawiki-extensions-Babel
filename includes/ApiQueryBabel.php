@@ -29,15 +29,12 @@ use MediaWiki\User\UserIdentityLookup;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiQueryBabel extends ApiQueryBase {
-	private UserIdentityLookup $userIdentityLookup;
-
 	public function __construct(
 		ApiQuery $queryModule,
 		string $moduleName,
-		UserIdentityLookup $userIdentityLookup
+		private readonly UserIdentityLookup $userIdentityLookup,
 	) {
 		parent::__construct( $queryModule, $moduleName, 'bab' );
-		$this->userIdentityLookup = $userIdentityLookup;
 	}
 
 	public function execute(): void {

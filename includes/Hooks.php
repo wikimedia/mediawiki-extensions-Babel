@@ -29,21 +29,12 @@ class Hooks implements
 	UserGetReservedNamesHook
 {
 
-	private Config $config;
-	private UserIdentityLookup $userIdentityLookup;
-	private CentralIdLookupFactory $centralIdLookupFactory;
-	private WANObjectCache $mainWANObjectCache;
-
 	public function __construct(
-		Config $config,
-		UserIdentityLookup $userIdentityLookup,
-		CentralIdLookupFactory $centralIdLookupFactory,
-		WANObjectCache $mainWANObjectCache
+		private readonly Config $config,
+		private readonly UserIdentityLookup $userIdentityLookup,
+		private readonly CentralIdLookupFactory $centralIdLookupFactory,
+		private readonly WANObjectCache $mainWANObjectCache,
 	) {
-		$this->config = $config;
-		$this->userIdentityLookup = $userIdentityLookup;
-		$this->centralIdLookupFactory = $centralIdLookupFactory;
-		$this->mainWANObjectCache = $mainWANObjectCache;
 	}
 
 	/**

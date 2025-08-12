@@ -23,18 +23,16 @@ use MediaWiki\Parser\ParserOutput;
  * Class for inner items which are not babel boxes.
  */
 class NotBabelBox implements BabelBox {
-	private string $dir;
-	private string $content;
-
 	/**
 	 * Construct a non-babel box.
 	 *
 	 * @param string $dir HTML 'dir' attribute
 	 * @param string $content What's inside the box, in wikitext format.
 	 */
-	public function __construct( string $dir, string $content ) {
-		$this->dir = $dir;
-		$this->content = $content;
+	public function __construct(
+		private readonly string $dir,
+		private readonly string $content,
+	) {
 	}
 
 	/**

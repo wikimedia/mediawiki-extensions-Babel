@@ -9,12 +9,9 @@ use MediaWiki\Extension\CommunityConfiguration\Access\MediaWikiConfigRouter;
 
 class ConfigWrapper implements Config {
 
-	private MediaWikiConfigRouter $configRouter;
-
 	public function __construct(
-		MediaWikiConfigRouter $configRouter
+		private readonly MediaWikiConfigRouter $configRouter,
 	) {
-		$this->configRouter = $configRouter;
 	}
 
 	/**

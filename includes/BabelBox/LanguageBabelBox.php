@@ -33,11 +33,7 @@ use MediaWiki\Title\Title;
  */
 class LanguageBabelBox implements BabelBox {
 
-	private Config $config;
-	private PageReference $page;
-	private Language $targetLanguage;
-	private string $code;
-	private string $level;
+	private readonly string $code;
 
 	/**
 	 * Construct a babel box for the given language and level.
@@ -50,17 +46,13 @@ class LanguageBabelBox implements BabelBox {
 	 * @param string $level Level of ability to use.
 	 */
 	public function __construct(
-		Config $config,
-		PageReference $page,
-		Language $targetLanguage,
+		private readonly Config $config,
+		private readonly PageReference $page,
+		private readonly Language $targetLanguage,
 		string $code,
-		string $level
+		private readonly string $level,
 	) {
-		$this->config = $config;
-		$this->page = $page;
-		$this->targetLanguage = $targetLanguage;
 		$this->code = BabelLanguageCodes::getCode( $code ) ?? $code;
-		$this->level = $level;
 	}
 
 	/**
