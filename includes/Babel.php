@@ -470,5 +470,3 @@ EOT;
 		return $babelDB->getForRemoteUser( $centralDb, $user->getName() );
 	}
 }
-
-class_alias( Babel::class, 'Babel' );
