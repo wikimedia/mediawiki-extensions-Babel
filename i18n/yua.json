@@ -1,19 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Halle"
+			"Halle",
+			"Péepen17"
 		]
 	},
 	"babel": "A'almaj t'aan ti' máax ku meyajtiko'ob Babel",
-	"babel-0": "Le máaka' yaan ti' [[$1|ma']] u yojel [[$2|$3]] (wa ku na'atik yéetel ya'ab talamil).",
-	"babel-1": "Le máaka' yaan ti' [[$1|básico]] k'ajóolil ti' [[$2|$3]].",
-	"babel-2": "Le máaka' yaan ti' [[$1|intermedio]] k'ajóolil ti' [[$2|$3]].",
-	"babel-3": "Le máaka' yaan ti' [[$1|áabansado]] k'ajóolil ti' [[$2|$3]].",
-	"babel-4": "Le máaka' yaan ti' [[$1|naats' ti' le t'aan nativo]] u k'ajóolil [[$2|$3]].",
-	"babel-5": "Le máaka' yaan ti' [[$1|próofesional]] k'ajóolil ti' [[$2|$3]].",
-	"babel-0-n": "Le máaka' yaan ti' [[$1|ma']] u yojel [[$2|Maaya T'aan]] (wa ku na'atik yéetel ya'ab talamil).",
-	"babel-1-n": "Le máaka' yaan ti' [[$1|básico]] k'ajóolil ti' [[$2|Maaya T'aan]].",
-	"babel-2-n": "Le máaka' yaan ti' [[$1|intermedio]] k'ajóolil ti' [[$2|Maaya T'aan]].",
-	"babel-3-n": "Le máaka' yaan ti' [[$1|áabansado]] k'ajóolil ti' [[$2|Maaya T'aan]].",
-	"babel-4-n": "Le máaka' yaan ti' [[$1|naats' ti' le t'aan nativo]] u k'ajóolil [[$2|Maaya T'aan]]."
+	"babel-desc": "Ku ts'áabal le función <code>#babel</code> parser uti'al u cha'ik u beeta'al jump'éel columna babel userbox yéetel u páajtalil u ts'a'abal plantillas personalizadas",
+	"babel-url": "Proyecto: Babel",
+	"babel-footer-url": ":u tsoolil:Babel - Usuario yo'ok'lal u t'aanil",
+	"babel-autocreate-reason": "U beetpajal tu juunal u múuch'il u paginail [[ $1 |Babel]].",
+	"babel-autocreate-text-levels": "Le máaxo'ob ku meyajtiko'ob le categoríaa' ku ya'aliko'ob yaanti'ob u páaajtalil $1 uti'al u t'aano'ob  $2.\n$4",
+	"babel-autocreate-text-main": "Le máaxo'ob ku meyajtiko'ob le categoríaa' ku ya'aliko'ob u k'ajóolo'ob le t'aano' $1 .\n $3",
+	"babel-1": "Le máaka' yaan ti' jump'éel jeets' tuukul[[ $1 ]] ti' [[ $2 | $3 ]].",
+	"babel-3": "Le máaka' yaan ti' [[ $1 |ka'anal]] tuukul ti' [[ $2 | $3 ]].",
+	"babel-2-n": "Le máaka' [[ $1 |chúumuk yaan u]] na'at ti' [[ $2 |inglés]]."
 }
