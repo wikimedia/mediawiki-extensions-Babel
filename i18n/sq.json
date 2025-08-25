@@ -5,7 +5,8 @@
 			"Dori",
 			"Eagleal",
 			"Olsi",
-			"Vinie007"
+			"Vinie007",
+			"Xhulianoo"
 		]
 	},
 	"babel": "Informacioni Babel i Përdoruesit",
@@ -29,5 +30,5 @@
 	"babel-4-n": "{{GENDER:$4|Ky përdorues|Kjo përdoruese}} ka njohuri [[$1|afërsisht amtare]] të [[$2|gjuhës shqipe]].",
 	"babel-5-n": "{{GENDER:$4|Ky përdorues|Kjo përdoruese}} ka njohuri [[$1|profesionale]] të [[$2|gjuhës shqipe]].",
 	"babel-N-n": "{{GENDER:$4|Ky përdorues|Kjo përdoruese}} ka njohuri [[$1|amtare]] të [[$2|gjuhës shqipe]].",
-	"babel-footer": "Përdorues sipas gjuhës"
+	"babel-footer": "Përdoruesit sipas gjuhës"
 }
