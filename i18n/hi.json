@@ -35,5 +35,18 @@
 	"babel-5-n": "इस सदस्य को [[$2|हिन्दी]] का [[$1|व्यावसायिक स्तर]] का ज्ञान है।",
 	"babel-N-n": "इस सदस्य को [[$2|हिन्दी]] का [[$1|मातृभाषा के समान]] ज्ञान है।",
 	"babel-template": "Template:सदस्य $1",
-	"babel-footer": "भाषा अनुसार सदस्य"
+	"babel-footer": "भाषा अनुसार सदस्य",
+	"babel-template-params-category": "नामकृत पैरामीटरों के साथ बेबल का उपयोग करने वाले पृष्ठ",
+	"babel-template-params-category-desc": "यह पृष्ठ #babel पार्सर को एक name=value पैरामीटर प्रदान करता है। इन पैरामीटरों का व्यवहार [[phab:T327847|भविष्य में बदल सकता]] है।",
+	"communityconfiguration-babel-title": "बेबल",
+	"communityconfiguration-babel-description": "#babel पार्सर फ़ंक्शन द्वारा उत्पन्न श्रेणियाँ अनुकूलित करें।",
+	"communityconfiguration-babel-babelcategorynames-label": "भाषा स्तर के अनुसार श्रेणी के नाम",
+	"communityconfiguration-babel-babelcategorynames-0-label": "स्तर 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "स्तर 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "स्तर 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "स्तर 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "स्तर 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "स्तर 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "स्तर N",
+	"communityconfiguration-babel-babelmaincategory-label": "मुख्य श्रेणी"
 }

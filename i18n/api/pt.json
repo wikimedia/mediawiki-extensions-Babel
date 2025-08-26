@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Hamilton Abreu",
-			"Mansil alfalb"
+			"Mansil alfalb",
+			"Tacsipacsi"
 		]
 	},
 	"apihelp-query+babel-summary": "Obter informação sobre os idiomas que o utilizador conhece",
 	"apihelp-query+babel-param-user": "O utilizador para informação sobre",
-	"apihelp-query+babel-example-1": "Obter a informação Babel para o utilizador <kbd>Exemplo</kbd>"
+	"apihelp-query+babel-example-1": "Obter a informação Babel para o utilizador <kbd>Example</kbd>"
 }
