@@ -8,13 +8,14 @@
 			"Vitorvicentevalente",
 			"Waldir",
 			"Waldyrious",
-			"Mansil alfalb"
+			"Mansil alfalb",
+			"Tacsipacsi"
 		]
 	},
 	"babel": "Informação do utilizador Babel",
 	"babel-desc": "Adiciona a função <code>#babel</code> ao analisador sintático, para permitir a geração automatizada de uma coluna de caixas babel com a possibilidade de incluir predefinições personalizadas",
-	"babel-url": "Projeto: Babel",
-	"babel-footer-url": ":Categoria: Babel - Utilizadores por idioma",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Category:Babel - Utilizadores por idioma",
 	"babel-autocreate-reason": "A criar automaticamente a página da categoria [[$1|Babel]]",
 	"babel-autocreate-text-levels": "Os utilizadores nesta categoria indicam que eles têm um nível de conhecimento $1 para o idioma $2.\n$4",
 	"babel-autocreate-text-main": "Os utilizadores nesta categoria indicam que têm conhecimentos do idioma $1.\n$3",
