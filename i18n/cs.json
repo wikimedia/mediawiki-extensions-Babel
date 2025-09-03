@@ -9,7 +9,8 @@
 			"Matěj Grabovský",
 			"Matěj Suchánek",
 			"Mormegil",
-			"Mr. Richard Bolla"
+			"Mr. Richard Bolla",
+			"WikipedistaOndra"
 		]
 	},
 	"babel": "Babylon – informace o&nbsp;{{GENDER:$1|uživateli|uživatelce|uživateli}}",
@@ -35,5 +36,18 @@
 	"babel-N-n": "{{GENDER:$4|Tento uživatel|Tato uživatelka}} je [[$1|{{GENDER:$4|rodilý|rodilá}} mluvčí]] [[$2|češtiny]].",
 	"babel-footer": "Uživatelé podle jazyka",
 	"babel-template-params-category": "Stránky používající babel s pojmenovanými parametry",
-	"babel-template-params-category-desc": "Tato stránka předává do funkce parseru #babel parametr jméno=hodnota. Chování takových parametrů [[phab:T327847|se může v blízké budoucnosti změnit]]."
+	"babel-template-params-category-desc": "Tato stránka předává do funkce parseru #babel parametr jméno=hodnota. Chování takových parametrů [[phab:T327847|se může v blízké budoucnosti změnit]].",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-description": "Přizpůsobte si kategorie generované funkcí parseru #babel.",
+	"communityconfiguration-babel-babelcategorynames-label": "Názvy kategorií podle jazykové úrovně",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Úroveň 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Úroveň 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Úroveň 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Úroveň 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Úroveň 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Úroveň 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Úroveň N",
+	"communityconfiguration-babel-babelmaincategory-label": "Hlavní kategorie",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Použít jazyk uživatele",
+	"communityconfiguration-babel-babelautocreate-control-label": "Automaticky vytvářet kategorie Babel"
 }
