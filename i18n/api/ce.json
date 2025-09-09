@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"apihelp-query+babel-summary": "Декъашхочун муьлха меттанаш хаарх лаьцна информаци схьаэцар",
+	"apihelp-query+babel-param-user": "Декъашхочунах лаьцна информаци схьаэца йеза",
+	"apihelp-query+babel-example-1": "<kbd>Example</kbd> декъашхочунна меттан хаамаш схьаэца"
+}
