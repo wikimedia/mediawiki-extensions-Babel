@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Naval Scene",
-			"Bangrapip"
+			"Bangrapip",
+			"Jawadywn"
 		]
 	},
 	"babel": "Pengabaran pemaké Babil",
 	"babel-desc": "Nambahin pungsi penguyur <code>#babel</code> bakal ngijinin pembikinan sendèwèk kolom kotak pemaké babil paké kegapaan nyang nyerèntain sablonan cènglian",
 	"babel-url": "Project:Babel",
-	"babel-footer-url": "Katègori:Babel - Pemaké bedasarin basanya",
+	"babel-footer-url": ":Category:Babil - Pemaké ngikut basanya",
 	"babel-autocreate-reason": "Secare otomatis nyiptain halaman kategori [[$1|Babel]].",
 	"babel-autocreate-text-levels": "Pemaké nyang di ni bangsaan tandanya dia ada punya kemonèsan trap $1 di basa $2.",
 	"babel-autocreate-text-main": "Pemaké nyang di ni bangsaan tandanya dia ngelah kemonèsan di basa $1.",
@@ -26,5 +27,5 @@
 	"babel-4-n": "Ni pemaké ada punya kemonèsan [[$2|basa Betawi]] trap (tingkat) [[$1|ampir kaya' orang aslinya]].",
 	"babel-5-n": "Ni pemaké ada punya kemonèsan [[$2|basa Betawi]] trap (tingkat) [[$1|ahli (propésionil)]].",
 	"babel-N-n": "Ni pemaké èmang [[$1|orang aslinya]] ngomong [[$2|basa Betawi]].",
-	"babel-footer": "Pemaké bedasarin basanya"
+	"babel-footer": "Pemaké ngikut basanya"
 }
