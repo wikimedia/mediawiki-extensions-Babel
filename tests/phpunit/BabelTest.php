@@ -314,14 +314,10 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->assertHasCategory( $parser, '(babel-category-override:_en-1,_en,_1)', '' );
 		$this->assertFalse( Title::makeTitle( NS_CATEGORY, "(babel-category-override:_en,_en,_)" )->exists() );
 		$this->assertNull( $parser->getOutput()->getExtensionData( 'babel-tocreate' ) );
-		$hasTemplate = false;
-		foreach ( $parser->getOutput()->getLinkList( ParserOutputLinkTypes::TEMPLATE ) as [ 'link' => $link ] ) {
-			if ( $link->getNamespace() === NS_MEDIAWIKI && $link->getDBkey() === 'Babel-category-override' ) {
-				$hasTemplate = true;
-				break;
-			}
-		}
-		$this->assertTrue( $hasTemplate );
+		$this->assertTrue( array_any(
+			$parser->getOutput()->getLinkList( ParserOutputLinkTypes::TEMPLATE, NS_MEDIAWIKI ),
+			static fn ( $item ) => $item['link']->getDBkey() === 'Babel-category-override'
+		), "MediaWiki:Babel-category-override not found in template links" );
 	}
 
 	public static function provideInvalidTitles(): array {
