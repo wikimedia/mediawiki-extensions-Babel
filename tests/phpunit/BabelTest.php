@@ -10,6 +10,7 @@ use MediaWiki\Page\PageReference;
 use MediaWiki\Parser\Parser;
 use MediaWiki\Parser\ParserOptions;
 use MediaWiki\Parser\ParserOutput;
+use MediaWiki\Parser\ParserOutputLinkTypes;
 use MediaWiki\Title\Title;
 use MediaWikiIntegrationTestCase;
 
@@ -311,9 +312,16 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 		$this->assertStringContainsString( "babel-category-override:_en,_en,_", $wikiText );
 		$this->assertHasCategory( $parser, '(babel-category-override:_en,_en,_)', '1' );
 		$this->assertHasCategory( $parser, '(babel-category-override:_en-1,_en,_1)', '' );
-		$this->assertArrayHasKey( "Babel-category-override", $parser->getOutput()->getTemplates()[NS_MEDIAWIKI] );
 		$this->assertFalse( Title::makeTitle( NS_CATEGORY, "(babel-category-override:_en,_en,_)" )->exists() );
 		$this->assertNull( $parser->getOutput()->getExtensionData( 'babel-tocreate' ) );
+		$hasTemplate = false;
+		foreach ( $parser->getOutput()->getLinkList( ParserOutputLinkTypes::TEMPLATE ) as [ 'link' => $link ] ) {
+			if ( $link->getNamespace() === NS_MEDIAWIKI && $link->getDBkey() === 'Babel-category-override' ) {
+				$hasTemplate = true;
+				break;
+			}
+		}
+		$this->assertTrue( $hasTemplate );
 	}
 
 	public static function provideInvalidTitles(): array {
