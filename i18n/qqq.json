@@ -20,7 +20,7 @@
 			"Umherirrender"
 		]
 	},
-	"babel": "Header of Babel box. Parameters:\n* $1 - (Optional) the name of the page it is used on, for GENDER support",
+	"babel": "Header of Babel box. Parameters:\n* $1 - The name of the page it is used on, for GENDER support",
 	"babel-desc": "{{desc|name=Babel|url=https://www.mediawiki.org/wiki/Extension:Babel}}",
 	"babel-url": "{{doc-important|Do not translate the namespace \"<code>Project:</code>\".}}\nThe page name at which more information about the babel system can be found.",
 	"babel-footer-url": "Unless this message is empty, this is used as link target in the last entry,\nalso known as the footer, of the outer Babel-box,\nprovided that the installation chooses to have a footer.\n{{msg-mw|Babel-footer|notext=}}.\n\nFor installations having a 'Babel users per language' category tree, its root should be entered here.\nWhen translating, you can copy the category name from existing Babel systems in your language, but you can as well use a more generic name and leave it to individual installations, how to deal with it.\n\nThere is no need to alter the name space name <code lang=\"en\">Category</code>.",
