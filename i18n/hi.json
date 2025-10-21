@@ -15,11 +15,11 @@
 	"babel": "बेबल सदस्य जानकारी",
 	"babel-desc": "बेबल सदस्य बक्से के कॉलम को स्वचालित रूप से बनाने के लिए <code>#babel</code> पार्सर फ़ंक्शन जोड़ता है। इसमें विशिष्ट सदस्य बक्से साँचे भी दिए जा सकते हैं।",
 	"babel-url": "Project:बेबल",
-	"babel-footer-url": ":श्रेणी:भाषा अनुसार सदस्य",
-	"babel-autocreate-reason": "स्वचालित रूप से [[$1|बेबल]] श्रेणी पृष्ठ बनाया गया।",
+	"babel-footer-url": ":Category:बेबल - भाषा अनुसार सदस्य",
+	"babel-autocreate-reason": "स्वचालित रूप से [[$1|बेबल]] श्रेणी पृष्ठ बनाया गया",
 	"babel-autocreate-text-levels": "इस श्रेणी में श्रेणीबद्ध सदस्यों ने यह बताया है कि $2 भाषा में उनकी कुशलता का स्तर $1 है।",
 	"babel-autocreate-text-main": "इस श्रेणी में श्रेणीबद्ध सदस्यों ने यह बताया है कि उन्हें $1 भाषा का ज्ञान है।",
-	"babel-autocreate-user": "बबल स्वतःनिर्मित",
+	"babel-autocreate-user": "बेबल स्वतः निर्मित",
 	"babel-0": "इस सदस्य को [[$2|$3]] का ज्ञान [[$1|नहीं]] है (अथवा समझने में बहुत परेशानी होती है)।",
 	"babel-1": "इस सदस्य को [[$2|$3]] का [[$1|प्राथमिक]] ज्ञान है।",
 	"babel-2": "इस सदस्य को [[$2|$3]] का [[$1|मध्यम स्तर]] का ज्ञान है।",
@@ -48,5 +48,10 @@
 	"communityconfiguration-babel-babelcategorynames-4-label": "स्तर 4",
 	"communityconfiguration-babel-babelcategorynames-5-label": "स्तर 5",
 	"communityconfiguration-babel-babelcategorynames-n-label": "स्तर N",
-	"communityconfiguration-babel-babelmaincategory-label": "मुख्य श्रेणी"
+	"communityconfiguration-babel-babelmaincategory-label": "मुख्य श्रेणी",
+	"communityconfiguration-babel-babelmaincategory-description": "हर भाषा की मुख्य (गैर-स्तरीय) श्रेणी का नाम जहाँ पर उस भाषा के सभी सदस्य जोड़े जाएँगे।",
+	"communityconfiguration-babel-babelmaincategory-help-text": "उपरोक्त \"भाषा स्तर के अनुसार श्रेणी के नाम\" के समान प्रारूप प्रारूप स्वीकार करता है।",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "सदस्य भाषा का उपयोग करें",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "हेडर और फ़ुटर संदेश में सदस्य भाषा का उपयोग किया जाए कि नहीं। अगर false (डिफ़ॉल्ट) हो तो ये पृष्ठ की सामग्री की भाषा में होंगे। ऐसा इसलिए है क्योंकि सदस्य इंटरफ़ेस भाषा का उपयोग करने से पार्सर कैश को टुकड़ों में तोड़ दिया जा सकता है।",
+	"communityconfiguration-babel-babelautocreate-control-label": "स्वचालित रूप से बेबल श्रेणियाँ बनाएँ"
 }
