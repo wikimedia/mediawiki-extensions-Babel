@@ -4,15 +4,16 @@
 			"Faian36",
 			"Ookap",
 			"Robin van der Vliet",
-			"LesVisages"
+			"LesVisages",
+			"Juwan"
 		]
 	},
 	"babel": "sona toki pi jan ni",
 	"babel-desc": "toki <code>#babel</code> la ilo li ken e poki sona lon lipu jan. ni li ken sona toki li ken sona ante kin.",
 	"babel-url": "Project:Babel",
 	"babel-autocreate-reason": "ilo [[$1|Babel]] li lon e lipu kulupu ni",
-	"babel-autocreate-text-levels": "jan li lon kulupu ni la sona ona pi toki $2 li nanpa $1.",
-	"babel-autocreate-text-main": "jan li lon kulupu ni la ona li sona toki $1.",
+	"babel-autocreate-text-levels": "jan li lon kulupu ni la sona ona pi toki $2 li nanpa $1.\n$4",
+	"babel-autocreate-text-main": "jan li lon kulupu ni la ona li sona toki $1.\n$3",
 	"babel-0": "jan ni li [[$1|sona ala]] e [[$2|$3]].",
 	"babel-1": "jan ni li [[$1|sona lili]] e [[$2|$3]].",
 	"babel-2": "jan ni li [[$1|sona pi ike ala]] e [[$2|$3]].",
