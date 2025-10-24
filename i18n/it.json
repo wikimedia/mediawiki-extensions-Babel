@@ -15,7 +15,7 @@
 			"Valepert"
 		]
 	},
-	"babel": "Babel utente",
+	"babel": "Babel {{GENDER:$1|utente}}",
 	"babel-desc": "Aggiunge la parser function <code>#babel</code> per permettere la generazione automatica di una colonna box utente babel con la possibilità di includere template personalizzati",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Utenti per lingua",
