@@ -9,7 +9,7 @@
 			"Nghtwlkr"
 		]
 	},
-	"babel": "Babel-{{GENDR:$1|brukerinformasjon}}",
+	"babel": "Babel-{{GENDER:$1|brukerinformasjon}}",
 	"babel-desc": "Legger til parserfunksjonen <code>#babel</code> for å automatisk generere en babelboks med mulighet for å inkludere egendefinerte maler",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Brukere etter språk",
