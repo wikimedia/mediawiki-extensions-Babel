@@ -11,6 +11,7 @@
 			"JorgeElias2302",
 			"LaMagiaaa",
 			"Macofe",
+			"MarcoAurelio",
 			"No se",
 			"Sanbec",
 			"Suchichi02",
@@ -47,8 +48,15 @@
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-description": "Personaliza las categorías generadas por la función del analizador #babel.",
 	"communityconfiguration-babel-babelcategorynames-label": "Nombres de categorías por nivel de idioma",
+	"communityconfiguration-babel-babelcategorynames-description": "Las variables posibles son: <code>%code%</code> (código del idioma), <code>%wikiname%</code> (nombre del idioma en el idioma del contenido de esta wiki) y <code>%nativename%</code> (nombre del idioma en su propio idioma). Déjalo en blanco para desactivarlo.",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Nivel 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "Nivel 1",
 	"communityconfiguration-babel-babelcategorynames-2-label": "Nivel 2",
-	"communityconfiguration-babel-babelcategorynames-3-label": "Nivel 3"
+	"communityconfiguration-babel-babelcategorynames-3-label": "Nivel 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Nivel 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Nivel 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Nivel nativo",
+	"communityconfiguration-babel-babelmaincategory-label": "Categoría principal",
+	"communityconfiguration-babel-babelmaincategory-description": "Nombre de la categoría principal (no de nivel) para cada idioma a la que se agregan todos los usuarios de ese idioma.",
+	"communityconfiguration-babel-babelautocreate-control-label": "Crear automáticamente categorías Babel"
 }
