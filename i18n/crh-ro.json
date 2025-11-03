@@ -6,7 +6,7 @@
 	},
 	"babel": "Babel kullanuwşî bílgílerí",
 	"babel-url": "Project:Babel",
-	"babel-footer-url": ":Ulam:Babel - Tílge kóre kullanuwşîlar",
+	"babel-footer-url": ":Ulam:Babel - Tílge kóre kullanuwğîlar",
 	"babel-0": "Bo kullanuwşî [[$1|maraza]] kademede [[$2|$3]] \nbíle (ya da katnaşuwda pek bír meşakkatlî).",
 	"babel-1": "Bo kullanuwşî [[$1|hayatiy]] kademede [[$2|$3]] bíle.",
 	"babel-2": "Bo kullanuwşî [[$1|wasatiy]] kademede [[$2|$3]] bíle.",
@@ -14,5 +14,5 @@
 	"babel-4": "Bo kullanuwşî [[$1|anatílí kíbí]] kademede [[$2|$3]] bíle.",
 	"babel-5": "Bo kullanuwşî [[$1|meslekiy]] kademede [[$2|$3]] bíle.",
 	"babel-N": "Bo kullanuwşînîñ [[$1|anatílí]] [[$2|$3]].",
-	"babel-footer": "Tílge kóre kullanuwşîlar"
+	"babel-footer": "Tílge kóre kullanuwğîlar"
 }
