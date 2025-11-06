@@ -6,7 +6,7 @@
 			"Volvox"
 		]
 	},
-	"babel": "Babel-Benotzerinformatiounen",
+	"babel": "Babel-{{GENDER:$1|Benotzer}}informatiounen",
 	"babel-desc": "Setzt d'<code>#babel</code> Parserfunktioun derbäi, fir déi automatesch Generatioun vun enger Babel-Benotzerbox Kolonn, mat der Méiglechkeet fir eege Schablounen anzebannen",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Kategorie:Benotzer no Sproochen",
@@ -24,7 +24,7 @@
 	"babel-0-n": "{{GENDER:$4|Dëse Benotzer|Dës Benotzerin}} versteet [[$1|kee]] [[$2|Lëtzebuergesch]] (oder versteet et just mat grousse Schwieregkeeten).",
 	"babel-1-n": "{{GENDER:$4|Dëse Benotzer|Dës Benotzerin}} huet [[$1|Grondkenntnisser]] am [[$2|Lëtzebuergeschen]].",
 	"babel-2-n": "{{GENDER:$4|Dëse Benotzer|Dës Benotzerin}} huet [[$1|erweidert]] Kenntnisser am [[$2|Lëtzebuergeschen]].",
-	"babel-3-n": "{{GENDER:$4|Dëse Benotzer|Dës Benotzerin}} huet [[$1|ganz gutt]] Kentnisser am [[$2|Lëtzebuergeschen]].",
+	"babel-3-n": "{{GENDER:$4|Dëse Benotzer|Dës Benotzerin}} huet [[$1|ganz gutt]] Kenntnisser am [[$2|Lëtzebuergeschen]].",
 	"babel-4-n": "{{GENDER:$4|Dëse Benotzer|Dës Benotzerin}} beherrscht [[$2|Lëtzebuergesch]] [[$1|bal wéi {{GENDER:$4|seng|hir}} Mammesprooch]].",
 	"babel-5-n": "{{GENDER:$4|Dëse Benotzer|Dës Benotzerin}} huet [[$1|professionell]] Kenntnisser am [[$2|Lëtzebuergeschen]].",
 	"babel-N-n": "{{GENDER:$4|Dësem Benotzer seng|Dëser Benotzerin hir}} [[$1|Mammesprooch]] ass [[$2|Lëtzebuergesch]].",
