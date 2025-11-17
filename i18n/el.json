@@ -5,6 +5,7 @@
 			"Consta",
 			"Glavkos",
 			"Iakovos Iason Tountas",
+			"Jimkats",
 			"Nikosgranturismogt",
 			"Omnipaedista",
 			"Pompilos",
@@ -13,7 +14,7 @@
 			"Αντιγόνη"
 		]
 	},
-	"babel": "Πληροφορίες χρήστη Babel",
+	"babel": "Πληροφορίες {{GENDER:$1|χρήστη}} Babel",
 	"babel-desc": "Προσθέτει τη λειτουργία συντακτικής ανάλυσης <code>#babel</code> για να επιτρέπει την αυτοματοποιημένη δημιουργία μιας στήλης babel userbox με τη δυνατότητα να περιλαμβάνει προσαρμοσμένα πρότυπα",
 	"babel-url": "Project:Βαβέλ",
 	"babel-footer-url": ":Κατηγορία:Βαβέλ - Χρήστες ανά γλώσσα",
