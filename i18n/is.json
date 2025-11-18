@@ -9,11 +9,11 @@
 	},
 	"babel": "Babel - Málaþekking {{GENDER:$1|notanda}}",
 	"babel-desc": "Bætir við <code>#babel</code>-þáttaraaðgerð til að heimila sjálfvirka framleiðslu babel-notandakassadálks með getuna til að innifela sérsnídd snið",
-	"babel-url": "Project:Málkassi",
+	"babel-url": "Project:Tungumálaþekking",
 	"babel-footer-url": ":Category:Babel - Notendur eftir tungumálum",
 	"babel-autocreate-reason": "Bý sjálfkrafa til [[$1|Babel]]-flokkssíðu",
-	"babel-autocreate-text-levels": "Notendur í þessum flokki gefa til kynna að þeir hafi færnistig $1 fyrir tungumál $2.\n$4",
-	"babel-autocreate-text-main": "Notendur í þessum flokki gefa til kynna þekkingu sína á tungumáli $1.\n$4",
+	"babel-autocreate-text-levels": "Notendur í þessum flokki gefa til kynna að þeir hafi færnistig $1 fyrir tungumálið $2.\n$4",
+	"babel-autocreate-text-main": "Notendur í þessum flokki gefa til kynna þekkingu sína á tungumálinu $1.\n$3",
 	"babel-0": "Þessi {{GENDER:$4|notandi}} talar [[$1|ekki]] [[$2|$3]] (á erfitt með að skilja hana eða kýs að tala hana ekki).",
 	"babel-1": "Þessi {{GENDER:$4|notandi}} hefur [[$1|grunnkunnáttu]] í [[$2|$3]] máli.",
 	"babel-2": "Þessi {{GENDER:$4|notandi}} hefur [[$1|miðlungs]]-kunnáttu á [[$2|$3]] máli.",
@@ -39,5 +39,6 @@
 	"communityconfiguration-babel-babelcategorynames-n-label": "Stig N",
 	"communityconfiguration-babel-babelmaincategory-label": "Aðalflokkur",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Nota tungumál notandans",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Hvort nota eigi tungumál notandaviðmótsins fyrir skilaboð í haus- og síðufæti. Ef þetta er ósatt (sjálfgefið) verður það á tungumáli efnis síðunnar. Þetta er vegna þess að notkun á tungumáli notandaviðmótsins gæti hlutað upp biðminni túlkarans.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Útbúa sjálfvirkt Babel-flokka"
 }
