@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sveinn í Felli"
+		]
+	},
+	"apihelp-query+babel-summary": "Fá upplýsingar um hvaða tungumál notandinn kann",
+	"apihelp-query+babel-param-user": "Notandi sem á að fá upplýsingar um",
+	"apihelp-query+babel-example-1": "Fá Babel-upplýsingar um notandann <kbd>Dæmi</kbd>"
+}
