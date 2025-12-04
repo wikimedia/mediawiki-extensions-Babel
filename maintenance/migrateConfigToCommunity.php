@@ -7,6 +7,7 @@ use MediaWiki\Extension\CommunityConfiguration\CommunityConfigurationServices;
 use MediaWiki\Extension\CommunityConfiguration\Provider\ConfigurationProviderFactory;
 use MediaWiki\Json\FormatJson;
 use MediaWiki\Maintenance\LoggedUpdateMaintenance;
+use MediaWiki\Maintenance\LoggedUpdateOutcome;
 use MediaWiki\Permissions\UltimateAuthority;
 use MediaWiki\Status\StatusFormatter;
 use MediaWiki\User\User;
@@ -49,7 +50,7 @@ class MigrateConfigToCommunity extends LoggedUpdateMaintenance {
 	}
 
 	/** @inheritDoc */
-	protected function doDBUpdates() {
+	protected function doDBUpdates(): LoggedUpdateOutcome {
 		$this->initServices();
 
 		if ( !$this->providerFactory->isProviderSupported( 'Babel' ) ) {
@@ -80,27 +81,27 @@ class MigrateConfigToCommunity extends LoggedUpdateMaintenance {
 
 		if ( $dryRun ) {
 			$this->output( FormatJson::encode( $newConfig, true ) . PHP_EOL );
-		} else {
-			$summary = 'Migrating server configuration to an on-wiki JSON file';
-			if ( $this->hasOption( 'summary-note' ) ) {
-				$summary .= ' (' . $this->getOption( 'summary-note' ) . ')';
-			}
-			$status = $provider->storeValidConfiguration(
-				$newConfig,
-				new UltimateAuthority( User::newSystemUser( User::MAINTENANCE_SCRIPT_USER ) ),
-				$summary
-			);
-			if ( $status->isOK() ) {
-				$this->output( 'Done!' . PHP_EOL );
-			} else {
-				$this->error( 'Error when saving the new configuration' );
-				$this->error( '== Error details' );
-				$this->error( $this->statusFormatter->getWikiText( $status ) );
-				return false;
-			}
+			return LoggedUpdateOutcome::SIMULATED;
 		}
 
-		return !$dryRun;
+		$summary = 'Migrating server configuration to an on-wiki JSON file';
+		if ( $this->hasOption( 'summary-note' ) ) {
+			$summary .= ' (' . $this->getOption( 'summary-note' ) . ')';
+		}
+		$status = $provider->storeValidConfiguration(
+			$newConfig,
+			new UltimateAuthority( User::newSystemUser( User::MAINTENANCE_SCRIPT_USER ) ),
+			$summary
+		);
+		if ( $status->isOK() ) {
+			$this->output( 'Done!' . PHP_EOL );
+			return LoggedUpdateOutcome::COMPLETE;
+		} else {
+			$this->error( 'Error when saving the new configuration' );
+			$this->error( '== Error details' );
+			$this->error( $this->statusFormatter->getWikiText( $status ) );
+			return LoggedUpdateOutcome::FAILED;
+		}
 	}
 
 	/**
