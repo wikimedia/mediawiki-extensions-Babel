@@ -5,11 +5,11 @@
 			"GerardM"
 		]
 	},
-	"babel-0-n": "Kāore tēnei tangata [[$1|e mōhio ki]] [[$2|te reo Māori]] (he tino uaua rānei).",
-	"babel-1-n": "E [[$1|tino hapa]] ana tēnei tangata ki [[$2|te reo Māori]].",
-	"babel-2-n": "Kei te [[$1|takawaenga]] tēnei tangata ki [[$2|te reo Māori]].",
-	"babel-3-n": "E [[$1|matatau]] ana tēnei tangata ki [[$2|te reo Māori]].",
-	"babel-4-n": "E [[$1|tino matatau]] ana tēnei tangata ki [[$2|te reo Māori]].",
-	"babel-5-n": "E [[$1|kōrero tūturu]] ana tēnei tangata ki [[$2|te reo Māori]].",
-	"babel-N-n": "E [[$1|mōhio māori]] ana tēnei tangata ki [[$2|te reo Māori]]."
+	"babel-0-n": "Kāore tēnei {{GENDER:$4|tangata}} [[$1|e mōhio ki]] [[$2|te reo Māori]] (he tino uaua rānei).",
+	"babel-1-n": "E [[$1|tino hapa]] ana tēnei {{GENDER:$4|tangata}} ki [[$2|te reo Māori]].",
+	"babel-2-n": "Kei te [[$1|takawaenga]] tēnei {{GENDER:$4|tangata}} ki [[$2|te reo Māori]].",
+	"babel-3-n": "E [[$1|matatau]] ana tēnei {{GENDER:$4|tangata}} ki [[$2|te reo Māori]].",
+	"babel-4-n": "E [[$1|tino matatau]] ana tēnei {{GENDER:$4|tangata}} ki [[$2|te reo Māori]].",
+	"babel-5-n": "E [[$1|kōrero tūturu]] ana tēnei {{GENDER:$4|tangata}} ki [[$2|te reo Māori]].",
+	"babel-N-n": "E [[$1|mōhio māori]] ana tēnei {{GENDER:$4|tangata}} ki [[$2|te reo Māori]]."
 }

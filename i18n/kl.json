@@ -6,12 +6,12 @@
 			"Snævar"
 		]
 	},
-	"babel-0": "Una atuisoq [[$2|$3]] [[$1|paasisinnaanngilaq]] (imaluunniit annertuumik ajornartorsiuteqarluni paasivaa).",
-	"babel-0-n": "Una atuisoq [[$2|kalaallisut]] [[$1|paasisinnaanngilaq]] (imaluunniit annertuumik ajornartorsiuteqarluni paasivaa).",
-	"babel-1-n": "Una atuisoq [[$2|kalaallisut]] [[$1|mikisuaqqamik]] paasisinnaavoq.",
-	"babel-2-n": "Una atuisoq [[$2|kalaallisut]] [[$1|mikisumik]] paasisinnaavoq.",
-	"babel-3-n": "Una atuisoq [[$2|kalaallisut]] [[$1|naammattumik]] paasisinnaavoq.",
-	"babel-4-n": "Una atuisoq [[$2|kalaallisut]] [[$1|inunnguuseringajallugu]] paasisinnaavoq.",
-	"babel-5-n": "Una atuisoq [[$2|kalaallisut]] [[$1|inunnguuserisamisut]] paasisinnaavoq.",
-	"babel-N-n": "Una atuisoq [[$2|kalaallisut]] oqaluttarpoq [[$1|inunnguuseralugu]]."
+	"babel-0": "Una {{GENDER:$4|atuisoq}} [[$2|$3]] [[$1|paasisinnaanngilaq]] (imaluunniit annertuumik ajornartorsiuteqarluni paasivaa).",
+	"babel-0-n": "Una {{GENDER:$4|atuisoq}} [[$2|kalaallisut]] [[$1|paasisinnaanngilaq]] (imaluunniit annertuumik ajornartorsiuteqarluni paasivaa).",
+	"babel-1-n": "Una {{GENDER:$4|atuisoq}} [[$2|kalaallisut]] [[$1|mikisuaqqamik]] paasisinnaavoq.",
+	"babel-2-n": "Una {{GENDER:$4|atuisoq}} [[$2|kalaallisut]] [[$1|mikisumik]] paasisinnaavoq.",
+	"babel-3-n": "Una {{GENDER:$4|atuisoq}} [[$2|kalaallisut]] [[$1|naammattumik]] paasisinnaavoq.",
+	"babel-4-n": "Una {{GENDER:$4|atuisoq}} [[$2|kalaallisut]] [[$1|inunnguuseringajallugu]] paasisinnaavoq.",
+	"babel-5-n": "Una {{GENDER:$4|atuisoq}} [[$2|kalaallisut]] [[$1|inunnguuserisamisut]] paasisinnaavoq.",
+	"babel-N-n": "Una {{GENDER:$4|atuisoq}} [[$2|kalaallisut]] oqaluttarpoq [[$1|inunnguuseralugu]]."
 }
