@@ -9,7 +9,7 @@
 			"Ymar"
 		]
 	},
-	"babel": "Wieża Babel użytkownika",
+	"babel": "Wieża Babel {{GENDER:$1|użytkownika|użytkowniczki}}",
 	"babel-desc": "Dodaje funkcję parsera <code>#babel</code> ułatwiającą tworzenie ramki informującej o językowych lub innych umiejętnościach użytkownika",
 	"babel-url": "Project:Wieża Babel",
 	"babel-footer-url": ":Category:Babel",
