@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Minh Nguyen",
-			"Vinhtantran"
+			"Vinhtantran",
+			"NguoiDungKhongDinhDanh",
+			"Nvdtn19"
 		]
 	},
 	"babel": "Thông tin ngôn ngữ thành viên",
-	"babel-desc": "Thêm hàm cú pháp <code>#babel</code> để cho phép tự động sinh ra một hộp thông tin ngôn ngữ thành viên và có thể thêm vào những bản mẫu tùy chọn",
+	"babel-desc": "Thêm hàm cú pháp <code>#babel</code> để cho phép tự động tạo ra một hộp thông tin ngôn ngữ thành viên và có thể thêm vào những bản mẫu tùy chọn",
 	"babel-url": "Project:Ngôn ngữ",
 	"babel-footer-url": ":Category:Babel – Thành viên theo ngôn ngữ",
 	"babel-autocreate-reason": "Tự động tạo trang thể loại [[$1|Babel]]",
@@ -26,5 +28,15 @@
 	"babel-4-n": "Người dùng này có thể hiểu [[$2|tiếng Việt]] [[$1|gần như người Việt]].",
 	"babel-5-n": "Người dùng này biết [[$2|tiếng Việt]] với trình độ của một [[$1|chuyên gia]].",
 	"babel-N-n": "Thành viên này xem [[$2|tiếng Việt]] là ngôn ngữ [[$1|mẹ đẻ]].",
-	"babel-footer": "Thành viên theo ngôn ngữ"
+	"babel-footer": "Thành viên theo ngôn ngữ",
+	"babel-template-params-category": "Trang sử dụng Babel với tham số có tên",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Mức 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Mức 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Mức 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Mức 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Mức 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Mức 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Mức N",
+	"communityconfiguration-babel-babelmaincategory-label": "Thể loại chính"
 }
