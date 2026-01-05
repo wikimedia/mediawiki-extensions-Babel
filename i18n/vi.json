@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Minh Nguyen",
-			"Vinhtantran"
+			"Vinhtantran",
+			"NguoiDungKhongDinhDanh",
+			"Nvdtn19"
 		]
 	},
 	"babel": "Thông tin ngôn ngữ thành viên",
-	"babel-desc": "Thêm hàm cú pháp <code>#babel</code> để cho phép tự động sinh ra một hộp thông tin ngôn ngữ thành viên và có thể thêm vào những bản mẫu tùy chọn",
+	"babel-desc": "Thêm hàm cú pháp <code>#babel</code> để cho phép tự động tạo ra một hộp thông tin ngôn ngữ thành viên và có thể thêm vào những bản mẫu tùy chọn",
 	"babel-url": "Project:Ngôn ngữ",
 	"babel-footer-url": ":Category:Babel – Thành viên theo ngôn ngữ",
 	"babel-autocreate-reason": "Tự động tạo trang thể loại [[$1|Babel]].",
