@@ -32,6 +32,7 @@
 	"babel-4-n": "ਇਸ ਵਰਤੋਂਕਾਰ ਕੋਲ਼ [[$2|ਪੰਜਾਬੀ]] ਦਾ [[$1|ਲਗਭਗ ਮੂਲ ਬੋਲਣ ਵਾਲ਼ੇ ਜਿੰਨਾ]] ਗਿਆਨ ਹੈ।",
 	"babel-5-n": "ਇਸ ਵਰਤੋਂਕਾਰ ਕੋਲ਼ [[$2|ਪੰਜਾਬੀ]] ਦਾ [[$1|ਪੇਸ਼ੇਵਰ]] ਗਿਆਨ ਹੈ।",
 	"babel-N-n": "ਇਸ ਵਰਤੋਂਕਾਰ ਕੋਲ਼ [[$2|ਪੰਜਾਬੀ]] ਦੀ [[$1|ਮੂਲ]] ਸਮਝ ਹੈ।",
+	"babel-template": "ਫਰਮਾ ਵਰਤੋਂਕਾਰ: $1",
 	"babel-footer": "ਭਾਸ਼ਾ ਅਨੁਸਾਰ ਵਰਤੋਂਕਾਰ",
 	"babel-template-params-category": "ਨਾਮ ਵਾਲੇ ਮਾਪਦੰਡਾਂ ਦੇ ਨਾਲ ਬੇਬਲ ਦੀ ਵਰਤੋਂ ਕਰਨ ਵਾਲੇ ਸਫ਼ੇ",
 	"communityconfiguration-babel-title": "ਬੇਬਲ",
@@ -48,7 +49,7 @@
 	"communityconfiguration-babel-babelmaincategory-description": "ਹਰੇਕ ਭਾਸ਼ਾ ਲਈ ਮੁੱਖ (ਗੈਰ-ਪੱਧਰੀ) ਸ਼੍ਰੇਣੀ ਦਾ ਨਾਂ ਜਿਸ ਵਿੱਚ ਉਸ ਭਾਸ਼ਾ ਦੇ ਸਾਰੇ ਵਰਤੋਂਕਾਰ ਸ਼ਾਮਲ ਕੀਤੇ ਜਾਂਦੇ ਹਨ।",
 	"communityconfiguration-babel-babelmaincategory-help-text": "ਉੱਪਰ ਦਿੱਤੇ \"ਸ਼੍ਰੇਣੀ ਦੇ ਨਾਂ ਪ੍ਰਤੀ ਭਾਸ਼ਾ ਪੱਧਰ\" ਦੇ ਰੂਪ ਵਿੱਚ ਉਸੇ ਤਰਤੀਬ ਨੂੰ ਸਵੀਕਾਰ ਕਰਦਾ ਹੈ।",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "ਵਰਤੋਂਕਾਰ ਭਾਸ਼ਾ ਦੀ ਵਰਤੋਂ ਕਰੋ",
-	"communityconfiguration-babel-babeluseuserlanguage-help-text": "ਕੀ ਸਿਰਲੇਖ ਅਤੇ ਪੈੜਲੇਖ ਸੁਨੇਹੇ ਲਈ ਵਰਤੋਂਕਾਰ interface ਭਾਸ਼ਾ ਦੀ ਵਰਤੋਂ ਕਰਨੀ ਹੈ। ਜੇਕਰ ਗਲਤ (ਮੂਲ) ਹੈ, ਤਾਂ ਇਹ ਸਫ਼ਾ ਸਮੱਗਰੀ ਭਾਸ਼ਾ ਵਿੱਚ ਹੋਵੇਗਾ। ਅਜਿਹਾ ਇਸ ਲਈ ਹੈ ਕਿਉਂਕਿ ਵਰਤੋਂਕਾਰ interface ਭਾਸ਼ਾ ਦੀ ਵਰਤੋਂ ਕਰਨ ਨਾਲ parser cache ਟੋਟੇ-ਟੋਟੇ ਹੋ ਸਕਦੀ ਹੈ।",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "ਕੀ ਸਿਰਲੇਖ ਅਤੇ ਪੈੜਲੇਖ ਸੁਨੇਹਿਆਂ ਲਈ ਵਰਤੋਂਕਾਰ ਮੁਹਾਂਦਰੇ (interface) ਦੀ ਭਾਸ਼ਾ ਵਰਤਣੀ ਹੈ? ਜੇਕਰ ਇਹ ਚੋਣ ਨਾ-ਮੰਨਣਯੋਗ (ਮੂਲ) ਹੈ, ਤਾਂ ਵਰਕੇ ਦੀ ਆਪਣੀ ਸਮੱਗਰੀ ਵਾਲੀ ਭਾਸ਼ਾ ਵਰਤੀ ਜਾਵੇਗੀ। ਅਜਿਹਾ ਇਸ ਲਈ ਹੈ ਕਿਉਂਕਿ ਵਰਤੋਂਕਾਰ ਮੁਹਾਂਦਰੇ ਦੀ ਭਾਸ਼ਾ ਵਰਤਣ ਨਾਲ ਵਿਸ਼ਲੇਸ਼ਕ (parser) ਦਾ ਤੇਜ਼-ਭੰਡਾਰ (cache) ਖੇਰੂੰ-ਖੇਰੂੰ ਹੋ ਸਕਦਾ ਹੈ।",
 	"communityconfiguration-babel-babelcategorizenamespaces-label": "ਨਾਂ-ਥਾਂ ਜਿੱਥੇ ਬੇਬਲ ਸ਼੍ਰੇਣੀਆਂ ਸ਼ਾਮਲ ਕੀਤੀਆਂ ਜਾਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ",
 	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "ਸਾਰੇ ਨਾਂ-ਥਾਂ ਲਈ ਖਾਲੀ ਛੱਡੋ।",
 	"communityconfiguration-babel-babelautocreate-control-label": "ਆਪਣੇ ਆਪ ਹੀ ਬੇਬਲ ਸ਼੍ਰੇਣੀਆਂ ਬਣਾਓ"

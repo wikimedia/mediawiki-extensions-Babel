@@ -9,7 +9,8 @@
 			"Giro720",
 			"Opraco",
 			"TheEduGobi",
-			"EGobi"
+			"EGobi",
+			"Fúlvio"
 		]
 	},
 	"babel": "Informação do usuário Babel",
@@ -35,5 +36,10 @@
 	"babel-5-n": "{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|profissional]] de [[$2|português brasileiro]].",
 	"babel-N-n": "{{GENDER:$4|Este usuário|Esta usuária}} tem como língua [[$1|materna]] o [[$2|português brasileiro]].",
 	"babel-template": "Template:Usuário $1",
-	"babel-footer": "Usuários por língua"
+	"babel-footer": "Usuários por língua",
+	"babel-template-params-category": "Páginas que utilizam Babel com parâmetros nomeados",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-description": "Personalize as categorias geradas pela função de análise sintática #babel.",
+	"communityconfiguration-babel-babelmaincategory-label": "Categoria principal",
+	"communityconfiguration-babel-babelmaincategory-description": "Nome da categoria principal (não relacionada a níveis) para cada idioma, à qual todos os usuários desse idioma são adicionados."
 }
