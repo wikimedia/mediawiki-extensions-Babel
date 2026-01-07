@@ -9,7 +9,8 @@
 			"Felipe L. Ewald",
 			"Giro720",
 			"Opraco",
-			"TheEduGobi"
+			"TheEduGobi",
+			"Fúlvio"
 		]
 	},
 	"babel": "Informação do usuário Babel",
@@ -17,8 +18,8 @@
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Categoria:Babel - Usuários por língua",
 	"babel-autocreate-reason": "Criando automaticamente a página da categoria [[$1|Babel]]",
-	"babel-autocreate-text-levels": "Os usuários nesta categoria indicam que possuem um nível de conhecimento $1 na língua $2.",
-	"babel-autocreate-text-main": "Os usuários nesta categoria indicam que possuem conhecimento de $1.",
+	"babel-autocreate-text-levels": "Os usuários nesta categoria indicam que possuem um nível de conhecimento $1 no idioma $2.\n$4",
+	"babel-autocreate-text-main": "Os usuários nesta categoria indicam que possuem conhecimento de $1.\n$3",
 	"babel-autocreate-user": "Babel AutoCreate",
 	"babel-0": "Este usuário [[$1|não]] têm conhecimento de [[$2|$3]] (ou compreende com dificuldades consideráveis).",
 	"babel-1": "Este usuário têm um [[$1|básico]] conhecimento de [[$2|$3]].",
@@ -35,5 +36,10 @@
 	"babel-5-n": "{{GENDER:$4|Este usuário|Esta usuária}} pode contribuir com um nível [[$1|profissional]] de [[$2|português brasileiro]].",
 	"babel-N-n": "{{GENDER:$4|Este usuário|Esta usuária}} tem como língua [[$1|materna]] o [[$2|português brasileiro]].",
 	"babel-template": "Template:Usuário $1",
-	"babel-footer": "Usuários por língua"
+	"babel-footer": "Usuários por língua",
+	"babel-template-params-category": "Páginas que utilizam Babel com parâmetros nomeados",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-description": "Personalize as categorias geradas pela função de análise sintática #babel.",
+	"communityconfiguration-babel-babelmaincategory-label": "Categoria principal",
+	"communityconfiguration-babel-babelmaincategory-description": "Nome da categoria principal (não relacionada a níveis) para cada idioma, à qual todos os usuários desse idioma são adicionados."
 }

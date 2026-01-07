@@ -3,7 +3,8 @@
 		"authors": [
 			"Crazymadlover",
 			"Pyt",
-			"SK-luuut"
+			"SK-luuut",
+			"Murma174"
 		]
 	},
 	"babel": "Babel-Benutser-Information",
@@ -26,5 +27,6 @@
 	"babel-3-n": "Dissen Benutser kon [[$1|goud]] [[$2|Seeltersk]] baale.",
 	"babel-4-n": "Dissen Benutser boalt [[$1|slonk]] [[$2|Seeltersk]].",
 	"babel-5-n": "Dissen Benutser behärsket [[$2|Seeltersk]] ap [[$1|professionelle]] Ieuwene.",
-	"babel-N-n": "Dissen Benutser boalt [[$2|Seeltersk]] as [[$1|Määmesproake]]."
+	"babel-N-n": "Dissen Benutser boalt [[$2|Seeltersk]] as [[$1|Määmesproake]].",
+	"babel-footer": "Benutsere ätter Sproake"
 }
