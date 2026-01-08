@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"AmazingJus"
+		]
+	},
+	"babel-url": "Project:Babel",
+	"babel-0": "{{GENDER:$4|Tuwá}} kiŋ lé [[$2|$3]] [[$1|oslólye šni]] (naíŋš líla theȟíya okáȟniǧa).",
+	"babel-1": "{{GENDER:$4|Tuwá}} kiŋ lé [[$2|$3]] [[$1|čisčísčiyela]] oslólye.",
+	"babel-2": "{{GENDER:$4|Tuwá}} kiŋ lé [[$2|$3]] [[$1|iyóčhokaŋyaŋ]] oslólye.",
+	"babel-3": "{{GENDER:$4|Tuwá}} kiŋ lé [[$2|$3]] [[$1|taŋyáŋ]] oslólye.",
+	"babel-4": "{{GENDER:$4|Tuwá}} kiŋ lé [[$2|$3]] [[$1|líla taŋyáŋ]] oslólye.",
+	"babel-5": "{{GENDER:$4|Tuwá}} kiŋ lé [[$2|$3]] [[$1|otȟáŋčhaŋke]] oslólye.",
+	"babel-N": "{{GENDER:$4|Tuwá}} kiŋ lé [[$2|$3]] [[$1|ikčé-wičháša wayáwa sʼe]] oslólye.",
+	"babel-0-n": "{{GENDER:$4|Tuwá}} kiŋ lé [[$2|Lakȟótiyapi]] [[$1|oslólye šni]] (naíŋš líla theȟíya okáȟniǧa).",
+	"babel-1-n": "{{GENDER:$4|Tuwá}} kiŋ lé [[$2|Lakȟótiyapi]] [[$1|čisčísčiyela]] oslólye.",
+	"babel-2-n": "{{GENDER:$4|Tuwá}} kiŋ lé [[$2|Lakȟótiyapi]] [[$1|iyóčhokaŋyaŋ]] oslólye.",
+	"babel-3-n": "{{GENDER:$4|Tuwá}} kiŋ lé [[$2|Lakȟótiyapi]] [[$1|taŋyáŋ]] oslólye.",
+	"babel-4-n": "{{GENDER:$4|Tuwá}} kiŋ lé [[$2|Lakȟótiyapi]] [[$1|líla taŋyáŋ]] oslólye.",
+	"babel-5-n": "{{GENDER:$4|Tuwá}} kiŋ lé [[$2|Lakȟótiyapi]] [[$1|otȟáŋčhaŋke]] oslólye.",
+	"babel-N-n": "{{GENDER:$4|Tuwá}} kiŋ lé [[$2|Lakȟótiyapi]] [[$1|ikčé-wičháša wayáwa sʼe]] oslólye.",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Wóali 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Wóali 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Wóali 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Wóali 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Wóali 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Wóali 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Wóali N"
+}
