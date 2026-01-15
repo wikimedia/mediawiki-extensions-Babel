@@ -4,7 +4,7 @@
 			"IJzeren Jan"
 		]
 	},
-	"babel": "Jezyčne sposobnosti koristnika",
+	"babel": "Jezyčne sposobnosti {{GENDER:$1|koristnika|koristnice}} (Babel)",
 	"babel-desc": "Doda funkciju parsera <code>#babel</code>, ktora pozvaljaje avtomatično stvorjenje ramok s informacijeju o jezyčnyh sposobnostah koristnika s možnostju vključenja vlastnyh šablonov",
 	"babel-url": "Project:Babilon",
 	"babel-footer-url": ":Kategorija:Babilon – Koristniki po jezyku",
