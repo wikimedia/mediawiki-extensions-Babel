@@ -6,12 +6,13 @@
 			"Froztbyte",
 			"Jan Friberg",
 			"Peter Alberti",
+			"Peterleth",
 			"Saederup92",
 			"Sarrus",
 			"Steenth"
 		]
 	},
-	"babel": "Babel brugeroplysninger",
+	"babel": "Babel {{GENDER:$1|bruger}} oplysninger",
 	"babel-desc": "Tilføjer parserfunktionen <code>#babel</code> for at tillade automatisk at generere en babelboks med mulighed for at inkludere tilpassede skabeloner",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Brugere efter sprog",
