@@ -5,9 +5,9 @@
 		]
 	},
 	"babel": "Keteghangan pumakay Babel",
-	"babel-desc": "Nambahko pungsi parser <code>#babel</code> guway ngejajakko kolom kutak pumakay babel secagha otomatis jama kemampuwan makay citakan say tikostumisasi",
+	"babel-desc": "Nambahko pungsi parser <code>#babel</code> guway ngejajakko kolom kutak pemakay babel secara otomatis jama kemampuwan makay citakan say tikostumisasi",
 	"babel-url": "Project:Babel",
-	"babel-footer-url": ":Category:Babel - Pumakay nughut bahasa",
+	"babel-footer-url": ":Category:Babel - Pemakay nurut basa",
 	"babel-autocreate-reason": "Otomatis nyani halaman kaban [[$1|Babel]]",
 	"babel-0": "Pumakay sinji [[$1|mak ngedok]] pumahaman [[$2|$3]] (atawa payah haga mahamini).",
 	"babel-1": "Pumakay sinji ngedok pumahaman [[$1|dasar]] [[$2|$3]].",
@@ -23,7 +23,7 @@
 	"babel-4-n": "Pemakai hinji ngedok pumahaman [[$1|sai radu haga ngeredikko penotor asli]] [[$2|Basa Lampung Api]].",
 	"babel-5-n": "Pumakay sinji ngedok pumahaman [[$1|propésiyonal]] [[$2|Bahasa Lampung Api]].",
 	"babel-N-n": "Pumakay sinji yakdolah [[$1|penotogh asli]] [[$2|Bahasa Lampung Api]].",
-	"babel-footer": "Pumakay budasaghko bahasa",
+	"babel-footer": "Pemakay budasarko basa",
 	"babel-template-params-category": "Halaman makay babel jama gelagh paraméter",
 	"babel-template-params-category-desc": "Halaman sina nerusko paraméter name=value mit pungsi parser #babel. Lakun paraméter hinji [[phab:T327847|halok berubah dilom waktu redik sa da]].",
 	"communityconfiguration-babel-title": "Babel",
@@ -35,6 +35,6 @@
 	"communityconfiguration-babel-babelcategorynames-5-label": "Tikkat 5",
 	"communityconfiguration-babel-babelcategorynames-n-label": "Tikkat N",
 	"communityconfiguration-babel-babelmaincategory-label": "Kaban utama",
-	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Pakai basa pemakai",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Pakay basa pemakay",
 	"communityconfiguration-babel-babelautocreate-control-label": "Sani kaban Babel secara otomatis"
 }
