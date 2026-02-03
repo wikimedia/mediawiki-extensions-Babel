@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fulup"
+			"Fulup",
+			"Huñvreüs"
 		]
 	},
+	"apihelp-query+babel-summary": "Gouzout peseurt yezhoù a oar an implijer",
 	"apihelp-query+babel-param-user": "Implijer da gaout titouroù diwar e benn",
 	"apihelp-query+babel-example-1": "Gouzout an titouroù Babel evit an implijer <kbd>Example</kbd>"
 }

@@ -41,6 +41,7 @@
 	"communityconfiguration-babel-title": "बेबल",
 	"communityconfiguration-babel-description": "#babel पार्सर फ़ंक्शन द्वारा उत्पन्न श्रेणियाँ अनुकूलित करें।",
 	"communityconfiguration-babel-babelcategorynames-label": "भाषा स्तर के अनुसार श्रेणी के नाम",
+	"communityconfiguration-babel-babelcategorynames-description": "संभावित परिवर्तनीय तत्व हैं: <code>%code%</code> (भाषा कोड), <code>%wikiname%</code> (विकि की सामग्री की भाषा में भाषा का नाम), और <code>%nativename%</code> (उस भाषा में भाषा का नाम)। अक्षम करने के लिए खाली छोड़ दें।",
 	"communityconfiguration-babel-babelcategorynames-0-label": "स्तर 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "स्तर 1",
 	"communityconfiguration-babel-babelcategorynames-2-label": "स्तर 2",
