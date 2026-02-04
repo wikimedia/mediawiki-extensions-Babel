@@ -9,8 +9,8 @@
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Utents par lenghe",
 	"babel-autocreate-reason": "Creant in automatic la categorie di [[$1|Babel]]",
-	"babel-autocreate-text-levels": "I utents in cheste categorie a disin di vê un nivel $1 pe lenghe $2.",
-	"babel-autocreate-text-main": "I utents in cheste categorie a disin di cognossi la lenghe $1",
+	"babel-autocreate-text-levels": "I utents in cheste categorie a disin di vê un nivel $1 pe lenghe $2.\n$4",
+	"babel-autocreate-text-main": "I utents in cheste categorie a disin di cognossi la lenghe $1.\n$3",
 	"babel-0": "Chest utent [[$1|nol cognos]] il [[$2|$3]] (o lu capìs cuntun grum di dificoltât).",
 	"babel-1": "Chest utent al à une cognossince [[$1|elementâr]] de lenghe [[$2|$3]].",
 	"babel-2": "Chest utent al à une cognossince [[$1|mezane]] de lenghe [[$2|$3]].",
@@ -25,5 +25,15 @@
 	"babel-4-n": "Chest utent al à une cognossince [[$1|cuasi di marilenghe]] dal [[$2|furlan]].",
 	"babel-5-n": "Chest utent al à une cognossince [[$1|professionâl]] dal [[$2|furlan]].",
 	"babel-N-n": "Chest utent al è di [[$1|marilenghe]] [[$2|furlane]].",
-	"babel-footer": "Utents par lenghe"
+	"babel-footer": "Utents par lenghe",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Nivel 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Nivel 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Nivel 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Nivel 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Nivel 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Nivel 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Nivel N",
+	"communityconfiguration-babel-babelmaincategory-label": "Categorie principâl",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Dopre la lenghe dal utent"
 }
