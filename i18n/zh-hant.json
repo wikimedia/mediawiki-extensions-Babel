@@ -16,7 +16,8 @@
 			"Wrightbus",
 			"Xiplus",
 			"Zhxy 519",
-			"SupaplexTW"
+			"SupaplexTW",
+			"LowensteinYang"
 		]
 	},
 	"babel": "巴別使用者資訊",
@@ -26,6 +27,7 @@
 	"babel-autocreate-reason": "自動建立[[$1|巴別]]分類頁面。",
 	"babel-autocreate-text-levels": "在此分類中的使用者代表其具有等級 $1 的$2語文能力。\n$4",
 	"babel-autocreate-text-main": "在此分類中的使用者代表其對語文$1的瞭解程度。\n$3",
+	"babel-autocreate-user": "巴別自動建立",
 	"babel-0": "這位使用者[[$1|不瞭解]]（或在一定程度上難以理解）[[$2|$3]]。",
 	"babel-1": "這位使用者有[[$1|基本]]水準的[[$2|$3]]知識。",
 	"babel-2": "這位使用者有[[$1|中等]]水準的[[$2|$3]]知識。",
@@ -40,6 +42,7 @@
 	"babel-4-n": "這位使用者有[[$1|接近母語使用者]]水準的[[$2|繁體中文]]知識。",
 	"babel-5-n": "這位使用者有[[$1|專業]]水準的[[$2|繁體中文]]知識。",
 	"babel-N-n": "[[$2|繁體中文]]是這位使用者的[[$1|母語]]。",
+	"babel-template": "模板:使用者 $1",
 	"babel-footer": "使用者 (依語言)",
 	"babel-template-params-category": "使用具名參數 babel 的頁面",
 	"babel-template-params-category-desc": "頁面將傳遞 name=value 參數給 #babel 解析函式。這些參數的行為[[phab:T327847|在往後可能會有變動]]。",
