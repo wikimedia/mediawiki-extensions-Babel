@@ -6,6 +6,7 @@
 			"Volvox"
 		]
 	},
+	"apihelp-query+babel-summary": "Informatiounen doriwwer kréien, wat fir Sproochen de Benotzer kann",
 	"apihelp-query+babel-param-user": "Benotzer, fir deen d'Informatiounen ugefrot ginn",
 	"apihelp-query+babel-example-1": "Babel-Informatioune fir de Benotzer <kbd>Example</kbd> kréien"
 }
