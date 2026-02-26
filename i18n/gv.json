@@ -8,7 +8,7 @@
 	"babel": "Fysseree {{GENDER:$1|ymmydeyr}} Babel",
 	"babel-url": "Project:Babel",
 	"babel-autocreate-reason": "Croo duillag ronney [[$1|Babel]] dy seyr-obbragh",
-	"babel-autocreate-text-levels": "Ymmydeyryn ‘sy ronney shoh, t’ad cowraghey dy vel y cheim schleieyn $1 oc ayns $2.",
+	"babel-autocreate-text-levels": "Ymmydeyryn ‘sy ronney shoh, t’ad cowraghey dy vel y cheim schleieyn $1 oc ayns $2.\n$4",
 	"babel-autocreate-text-main": "Ymmydeyryn ‘sy ronney shoh, t’ad cowraghey keim y tushtey oc ayns $1.\n$3",
 	"babel-0": "Cha nel tushtey [[$1|erbee]] ec yn {{GENDER:$4|ymmydeyr}} shoh ayns [[$2|$3]] (ny cha nel agh tushtey feer veg echey).",
 	"babel-1": "Ta [[$1|bun-tushtey]] ayns [[$2|$3]] ec yn {{GENDER:$4|ymmydeyr}} shoh.",

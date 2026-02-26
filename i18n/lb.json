@@ -30,6 +30,8 @@
 	"babel-N-n": "{{GENDER:$4|Dësem Benotzer seng|Dëser Benotzerin hir}} [[$1|Mammesprooch]] ass [[$2|Lëtzebuergesch]].",
 	"babel-template": "Template:Benotzer $1",
 	"babel-footer": "Benotzer no Sprooch",
+	"babel-template-params-category": "Säiten, déi Babel mat benannte Parametere benotzen",
+	"babel-template-params-category-desc": "D'Säit iwwergëtt e Parameter name=value un d'Parserfunktioun #babel. D'Verhale vun dëse Parametere [[phab:T327847|kann an noer Zukunft änneren]].",
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-description": "Passt d'Kategorien un, déi vun der Parserfunktioun #babel generéiert ginn.",
 	"communityconfiguration-babel-babelcategorynames-label": "Kategoriennimm pro Sproochniveau",
@@ -45,5 +47,6 @@
 	"communityconfiguration-babel-babelmaincategory-description": "Numm vun der Haaptkategorie (ouni Niveau) fir jiddwer Sprooch, an déi all d'Benotzer vun där Sprooch gesat ginn.",
 	"communityconfiguration-babel-babelmaincategory-help-text": "Akzeptéiert dat selwecht Format wéi „Kategorienimm pro Sproochniveau“ uewen.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Benotzersprooch benotzen",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Ob d'Sprooch vum Benotzerinterface fir den Header- an de Footermessage benotzt soll ginn. Wann desaktivéiert (Standard), gëtt en an der Sprooch vum Säiteninhalt ugewisen. Dat läit dorunner, datt d'Benotze vun der Sprooch vum Benotzerinterface de Parsercache fragmentéiere kann.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Babel-Kategorien automatesch uleeën"
 }

@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Waldyrious"
+			"Waldyrious",
+			"GrogeXaKaba",
+			"Letra.berdi"
 		]
 	},
-	"apihelp-query+babel-summary": "Risebi informason sobri línguas ki un uzuáriu ta konxi",
-	"apihelp-query+babel-param-user": "Uzuáriu ke pa risebi se informason",
-	"apihelp-query+babel-example-1": "Risebi informason di Babel di uzuáriu <kbd>Example</kbd>"
+	"apihelp-query+babel-summary": "Rasibi nfurmason sobri lingas ki un uzuári ta kunxi",
+	"apihelp-query+babel-param-user": "Uzuári k'é pa risebi si nfurmason",
+	"apihelp-query+babel-example-1": "Rasibi nfurmason Babel di uzuári <kbd>Example</kbd>"
 }
