@@ -27,5 +27,16 @@
 	"babel-5-n": "Ha yaraassi [[$2|Wolayttatto doonan]] [[$1|ooso]] eray de'ees.",
 	"babel-N-n": "Ha yaraassi [[$2|Wolayttatto doonan]] [[$1|yeleta doonaa]] eray de'ees.",
 	"babel-footer": "Yarata doonaa maaraan",
-	"babel-template-params-category": "Baabeeliya go'ettiya sinttata"
+	"babel-template-params-category": "Baabeeliya go'ettiya sinttata",
+	"communityconfiguration-babel-title": "Doonaa xekaa",
+	"communityconfiguration-babel-babelcategorynames-label": "Doonaa xekkaa maaran moodettaa sunttata",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Xekkaa 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Xekkaa 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Xekkaa 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Xekkaa 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Xekkaa 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Xekkaa 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Xekkaa N",
+	"communityconfiguration-babel-babelmaincategory-label": "Huuphe moodettaa",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Yaraa doonaa go\"etta"
 }
