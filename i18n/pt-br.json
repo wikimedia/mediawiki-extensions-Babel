@@ -10,7 +10,8 @@
 			"Giro720",
 			"Opraco",
 			"TheEduGobi",
-			"Fúlvio"
+			"Fúlvio",
+			"Eduardoaddad"
 		]
 	},
 	"babel": "Informação {{GENDER:$1|do usuário|da usuária}} Babel",
@@ -38,8 +39,22 @@
 	"babel-template": "Template:Usuário $1",
 	"babel-footer": "Usuários por língua",
 	"babel-template-params-category": "Páginas que utilizam Babel com parâmetros nomeados",
+	"babel-template-params-category-desc": "A página passa um parâmetro name=valor à função #babel do analisador sintático. O comportamento destes parâmetros [[phab:T327847|pode ser alterado num futuro próximo]].",
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-description": "Personalize as categorias geradas pela função de análise sintática #babel.",
+	"communityconfiguration-babel-babelcategorynames-label": "Nomes de categoria por nível de idioma",
+	"communityconfiguration-babel-babelcategorynames-description": "Os elementos variáveis possíveis são: <code>%code%</code> (código do idioma), <code>%wikiname%</code> (o nome do idioma no idioma do conteúdo do wiki) e <code>%nativename%</code> (o nome do idioma no seu próprio idioma). Deixe em branco para desativar.",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Nível 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Nível 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Nível 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Nível 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Nível 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Nível 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Nível 1",
 	"communityconfiguration-babel-babelmaincategory-label": "Categoria principal",
-	"communityconfiguration-babel-babelmaincategory-description": "Nome da categoria principal (não relacionada a níveis) para cada idioma, à qual todos os usuários desse idioma são adicionados."
+	"communityconfiguration-babel-babelmaincategory-description": "Nome da categoria principal (não relacionada a níveis) para cada idioma, à qual todos os usuários desse idioma são adicionados.",
+	"communityconfiguration-babel-babelmaincategory-help-text": "Aceita o mesmo formato que \"Nomes de categorias por nível de idioma\" acima.",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Utilizar idioma do usuário",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Se deve usar o idioma da interface do usuário para a mensagem do cabeçalho e rodapé. Se for falso (padrão), será no idioma do conteúdo da página. Isso ocorre porque usar o idioma da interface do usuário pode fragmentar o cache do analisador.",
+	"communityconfiguration-babel-babelautocreate-control-label": "Criar categorias Babel automaticamente"
 }
