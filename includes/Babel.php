@@ -60,6 +60,7 @@ class Babel {
 	private function __construct(
 		private readonly Parser $parser,
 	) {
+		// @phan-suppress-next-line PhanCoalescingNeverNull Needed for MW < 1.46
 		$this->page = $parser->getPage() ?? PageReferenceValue::localReference( NS_SPECIAL, 'BadTitle/Missing' );
 	}
 
