@@ -27,7 +27,8 @@
 			"C. Scheler",
 			"Tacsipacsi",
 			"GrandEscogriffe",
-			"JLTRY"
+			"JLTRY",
+			"Sik666"
 		]
 	},
 	"babel": "Informations Babel sur l’utilisat{{GENDER:$1|eur|rice|eur·ice}}",
@@ -55,9 +56,9 @@
 	"babel-template": "Template:User $1",
 	"babel-footer": "Utilisateurs par langue",
 	"babel-template-params-category": "Pages utilisant la fonction babel avec des paramètres nommés",
-	"babel-template-params-category-desc": "La page transmet un paramètre name=value à la fonction d'analyse #babel. Le comportement de ces paramètres [[phab:T327847|peut changer dans un futur proche]].",
+	"babel-template-params-category-desc": "La page transmet un paramètre name=value à la fonction d’analyse #babel. Le comportement de ces paramètres [[phab:T327847|peut changer dans un futur proche]].",
 	"communityconfiguration-babel-title": "Babel",
-	"communityconfiguration-babel-description": "Personnalise les catégories générées par la fonction d'analyse #babel.",
+	"communityconfiguration-babel-description": "Personnalise les catégories générées par la fonction d’analyse #babel.",
 	"communityconfiguration-babel-babelcategorynames-label": "Noms des catégories par niveau de langue",
 	"communityconfiguration-babel-babelcategorynames-description": "Les éléments variables possibles sont : <code>%code%</code> (code de la langue), <code>%wikiname%</code> (nom de la langue tel que défini sur le wiki) et <code>%nativename%</code> (nom natif de la langue). Laissez vide pour désactiver.",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Niveau 0",
@@ -70,8 +71,8 @@
 	"communityconfiguration-babel-babelmaincategory-label": "Catégorie principale",
 	"communityconfiguration-babel-babelmaincategory-description": "Nom de la catégorie principale (sans niveau) pour chaque langue à laquelle tous les utilisateurs de cette langue sont ajoutés.",
 	"communityconfiguration-babel-babelmaincategory-help-text": "Accepte le même format que « Noms des catégories par niveau de langue » ci-dessus.",
-	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Utiliser la langue de l'utilisateur",
-	"communityconfiguration-babel-babeluseuserlanguage-help-text": "S'il faut utiliser la langue de l'interface utilisateur pour le message d'en-tête et de pied de page. Si la valeur est false (par défaut), elle sera dans la langue du contenu de la page. En effet, l'utilisation de la langue de l'interface utilisateur peut fragmenter le cache de l'analyseur.",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Utiliser la langue de l’utilisateur",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "S’il faut utiliser la langue de l’interface utilisateur pour le message d’en-tête et de pied de page. Si la valeur est « false » (par défaut), elle sera dans la langue du contenu de la page. En effet, l’utilisation de la langue de l’interface utilisateur peut fragmenter le cache de l’analyseur.",
 	"communityconfiguration-babel-babelcategorizenamespaces-label": "Espaces de noms où les catégories Babel doivent être ajoutées",
 	"communityconfiguration-babel-babelcategorizenamespaces-help-text": "Laissez vide pour tous les espaces de noms.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Créer automatiquement des catégories Babel"
