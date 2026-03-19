@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Halle",
-			"Péepen17"
+			"Péepen17",
+			"26agcp"
 		]
 	},
 	"babel": "A'almaj t'aan ti' máax ku meyajtiko'ob Babel",
@@ -12,7 +13,8 @@
 	"babel-autocreate-reason": "U beetpajal tu juunal u múuch'il u paginail [[ $1 |Babel]].",
 	"babel-autocreate-text-levels": "Le máaxo'ob ku meyajtiko'ob le categoríaa' ku ya'aliko'ob yaanti'ob u páaajtalil $1 uti'al u t'aano'ob  $2.\n$4",
 	"babel-autocreate-text-main": "Le máaxo'ob ku meyajtiko'ob le categoríaa' ku ya'aliko'ob u k'ajóolo'ob le t'aano' $1 .\n $3",
-	"babel-1": "Le máaka' yaan ti' jump'éel jeets' tuukul[[ $1 ]] ti' [[ $2 | $3 ]].",
+	"babel-1": "Le máaka' yaan ti' jump'éel [[$1|jeets']] tuukul ti' [[$2|$3]].",
+	"babel-2": "Le máaka' [[$1|chúumuk]] yaan u na'at ti' [[$2|$3]].",
 	"babel-3": "Le máaka' yaan ti' [[ $1 |ka'anal]] tuukul ti' [[ $2 | $3 ]].",
 	"babel-2-n": "Le máaka' [[ $1 |chúumuk yaan u]] na'at ti' [[ $2 |inglés]]."
 }
