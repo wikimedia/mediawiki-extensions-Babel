@@ -131,9 +131,6 @@
 			"value": true
 		}
 	},
-	"TrackingCategories": [
-		"babel-template-params-category"
-	],
 	"ServiceWiringFiles": [
 		"ServiceWiring.php"
 	],

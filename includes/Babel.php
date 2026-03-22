@@ -70,9 +70,20 @@ class Babel {
 
 		$this->parser->getOutput()->addModuleStyles( [ 'ext.babel' ] );
 
-		$content = $this->mGenerateContentTower( $parameters );
+		$nocat = false;
+		$plain = false;
 
-		if ( preg_match( '/^plain\s*=\s*\S/', reset( $parameters ) ) ) {
+		foreach ( $parameters as $param ) {
+			if ( preg_match( '/^plain\s*=\s*\S/', $param ) ) {
+				$plain = true;
+			} elseif ( preg_match( '/^nocat\s*=\s*\S/', $param ) ) {
+				$nocat = true;
+			}
+		}
+
+		$content = $this->mGenerateContentTower( $parameters, !$nocat );
+
+		if ( $plain ) {
 			return $content;
 		}
 
@@ -131,28 +142,31 @@ EOT;
 
 	/**
 	 * @param string[] $parameters
+	 * @param bool $generateCategories whether to generate categories
 	 *
 	 * @return string Wikitext
 	 */
-	private function mGenerateContentTower( array $parameters ): string {
+	private function mGenerateContentTower( array $parameters, bool $generateCategories ): string {
 		$content = '';
 		// collects name=value parameters to be passed to wiki templates.
 		$templateParameters = [];
-		$first = true;
 
-		$generateCategories = !preg_match( '/^nocat\s*=\s*\S/', reset( $parameters ) );
+		$pendingBabelBox = null;
 
 		foreach ( $parameters as $name ) {
+			// Keep this check in sync with mTemplateLinkBatch
 			if ( strpos( $name, '=' ) !== false ) {
 				$templateParameters[] = $name;
-				if ( !$first || !preg_match( '/^(plain|nocat)\s*=\s*\S/', $name ) ) {
-					$this->parser->addTrackingCategory( "babel-template-params-category" );
-				}
 				continue;
 			}
-
-			$content .= $this->mGenerateContent( $name, $templateParameters, $generateCategories );
-			$first = false;
+			if ( $pendingBabelBox ) {
+				$content .= $this->mGenerateContent( $pendingBabelBox, $templateParameters, $generateCategories );
+			}
+			$templateParameters = [];
+			$pendingBabelBox = $name;
+		}
+		if ( $pendingBabelBox ) {
+			$content .= $this->mGenerateContent( $pendingBabelBox, $templateParameters, $generateCategories );
 		}
 
 		return $content;
@@ -198,11 +212,11 @@ EOT;
 			self::setExtensionData( $parserOutput, $components['code'], $components['level'] );
 		} elseif ( self::mPageExists( $template ) ) {
 			// Check for an existing template
-			$templateParameters[0] = $template;
+			array_unshift( $templateParameters, $template );
 			$template = implode( '|', $templateParameters );
 			$box = new NotBabelBox(
 				$this->parser->getTargetLanguage()->getDir(),
-				$this->parser->replaceVariables( "{{{$template}}}" )
+				$this->parser->replaceVariables( "{{" . $template . "}}" )
 			);
 		} elseif ( self::mValidTitle( $template ) ) {
 			// Non-existing page, so try again as a babel box,
@@ -247,6 +261,10 @@ EOT;
 	protected static function mTemplateLinkBatch( array $parameters ): void {
 		$titles = [];
 		foreach ( $parameters as $name ) {
+			// No need to check if template parameters exist. Keep this check in sync with mGenerateContentTower above
+			if ( strpos( $name, '=' ) !== false ) {
+				continue;
+			}
 			$title = Title::newFromText( wfMessage( 'babel-template', $name )->inContentLanguage()->text() );
 			if ( is_object( $title ) ) {
 				$titles[] = $title;

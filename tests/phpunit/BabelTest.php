@@ -225,9 +225,40 @@ class BabelTest extends MediaWikiIntegrationTestCase {
 			. '</div>',
 			$wikiText
 		);
+		$wikiText2 = Babel::render( $parser, 'en', 'plain=1' );
+		$this->assertSame( $wikiText, $wikiText2 );
 
 		$this->assertHasCategory( $parser, 'en', 'N' );
 		$this->assertHasCategory( $parser, 'en-N', '' );
+	}
+
+	public function testRenderNamedParams() {
+		$parser = $this->getParser( Title::newFromText( 'User:User-1' ) );
+		$parser->method( 'replaceVariables' )->willReturnCallback( static function ( $data ) {
+			return $data;
+		} );
+
+		$this->insertPage( '(babel-template: example)' );
+		$this->insertPage( '(babel-template: example2)' );
+
+		// Named params before first box are ignored
+		$wikiText = Babel::render( $parser, 'abc=1', 'plain=1', 'example' );
+		$this->assertStringContainsString(
+			'{{(babel-template: example)}}',
+			$wikiText
+		);
+		// Named params after a box apply only to that box
+		$wikiText = Babel::render( $parser, 'example', 'abc=1', 'plain=1', 'example2' );
+		$this->assertStringContainsString(
+			'{{(babel-template: example)|abc=1|plain=1}}',
+			$wikiText
+		);
+		$this->assertStringContainsString(
+			'{{(babel-template: example2)}}',
+			$wikiText
+		);
+		// 'plain' can be parsed anywhere
+		$this->assertStringNotContainsString( 'mw-babel-header', $wikiText );
 	}
 
 	public function testRenderRedLink(): void {
