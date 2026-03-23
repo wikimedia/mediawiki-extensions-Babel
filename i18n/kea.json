@@ -47,6 +47,6 @@
 	"communityconfiguration-babel-babelmaincategory-description": "Nómi di katiguria prinsipal di kada linga (sin ralason ku nívi), na kal tudu uzuári di kel linga é kirsentadu.",
 	"communityconfiguration-babel-babelmaincategory-help-text": "Ta setadu mému furmatu ki \"Nómis di katiguria pa nívi di linga\" dipariba.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Uza linga di uzuári",
-	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Ta ndikadu si debi uzadu linga di nterfási di uzuári pa mensájis di kabesáliu i rodapé. Si faldu (padron), testu ta ba izibidu na linga di kuntiúdu di pájina, pamodi uzu di linga di nterfási di uzuári podi fragimenta mimória kaxe di analizador sintátiku.",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Ndika si debi uzadu mésmu linga di nterfási di uzuári na ilimentus Babel di kabesáliu i di rodapé. Si non (difinison padron), testu di kes ilimentu ta ba izibidu na linga di kuntiúdu di pájina, pamodi uzu di linga di nterfási di uzuári podi fragimenta mimória kaxe di analizador sintátiku.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Kiria katigurias Babel otumatikamenti"
 }

@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
 	"babel": "Babilonske korisničke informacije",
-	"babel-desc": "Dodaje parsersku funkciju <code>#babel</code> da omogući automatsko generiranje stupca s babilonskim korisničkim okvirima s mogućnošću uključenja predložaka po želji",
+	"babel-desc": "Dodaje parsersku funkciju <code>#babel</code> koja omogućava automatsko generiranje babel korisničke kutije u stupcu s mogućnostima uključivanja prilagođenih šablona",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Kategorija:Babel - Korisnici po jeziku",
 	"babel-autocreate-reason": "Automatsko stvaranje stranice kategorije [[$1|Babel]]",
