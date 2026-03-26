@@ -30,6 +30,12 @@
 	"babel-5-n": "Es {{GENDER:$4|uzuári}} tene kunximentu [[$1|purfisonal]] di [[$2|kauberdianu]].",
 	"babel-N-n": "Es {{GENDER:$4|uzuári}} si linga [[$1|matérnu]] é [[$2|kauberdianu]].",
 	"babel-footer": "Uzuáris pa linga",
+	"babel-template-params-category": "Pájinas ki ta uza Babel ku parámitrus numiadu",
+	"babel-template-params-category-desc": "Es pájina ta pasa un parámitru nómi=balor pa funson analizador sintátiku #babel. Kunportamentu di parámitrus [[phab:T327847|podi alteradu na un futur prósimu]].",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-description": "Kustumiza katigurias jeradu pa funson di analizador sintátiku #babel",
+	"communityconfiguration-babel-babelcategorynames-label": "Nómis di katiguria pa nívi di linga",
+	"communityconfiguration-babel-babelcategorynames-description": "Kes ilimentu variávi pusívi é: <code>%code%</code> (kódi di linga), <code>%wikiname%</code> (nómi di linga na linga di kuntiúdi di uiki), i <code>%nativename%</code> (nómi di linga na própi linga). Txa baziu pa dizativa.",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Nívi 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "Nívi 1",
 	"communityconfiguration-babel-babelcategorynames-2-label": "Nívi 2",
@@ -38,6 +44,9 @@
 	"communityconfiguration-babel-babelcategorynames-5-label": "Nívi 5",
 	"communityconfiguration-babel-babelcategorynames-n-label": "Nívi N",
 	"communityconfiguration-babel-babelmaincategory-label": "Katiguria prinsipal",
+	"communityconfiguration-babel-babelmaincategory-description": "Nómi di katiguria prinsipal di kada linga (sin ralason ku nívi), na kal tudu uzuári di kel linga é kirsentadu.",
+	"communityconfiguration-babel-babelmaincategory-help-text": "Ta setadu mému furmatu ki \"Nómis di katiguria pa nívi di linga\" dipariba.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Uza linga di uzuári",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Ndika si debi uzadu mésmu linga di nterfási di uzuári na ilimentus Babel di kabesáliu i di rodapé. Si non (difinison padron), testu di kes ilimentu ta ba izibidu na linga di kuntiúdu di pájina, pamodi uzu di linga di nterfási di uzuári podi fragimenta mimória kaxe di analizador sintátiku.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Kiria katigurias Babel otumatikamenti"
 }
