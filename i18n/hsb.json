@@ -4,7 +4,7 @@
 			"Michawiki"
 		]
 	},
-	"babel": "Babelowe wužiwarske informacije",
+	"babel": "Babel – Informacije {{GENDER:$1|wužiwarja|wužiwarki}}",
 	"babel-desc": "Přidawa parserowu funkciju <code>#babel</code> za awtomatiske wutworjenje špalty z babelowymi wužiwarskimi kašćikami, z móžnosću, swójske předłohi zapřijeć",
 	"babel-url": "Project:Babel",
 	"babel-footer-url": ":Category:Babel - Wužiwarjo po rěči",
