@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kallmemel",
 			"Sdm1985"
 		]
 	},
-	"babel": "Babel; Informashon di Usuario",
-	"babel-desc": "Ta agrega e <code>#babel</code> , ku e funshon di generá un Kaha Babel den e kaha di usuario",
+	"babel": "Informashon di {{GENDER:$1|usadó}} di Babel",
+	"babel-desc": "Ta agrega e <code>#babel</code> , ku e funshon di generá un Kaha Babel den e kaha di usadó",
 	"babel-url": "Proyecto: Babel",
 	"babel-0": "E uzadónan aki [[$1|no]] ta komprondé [[$2|$3]].",
 	"babel-1": "E uzadónan aki por papia [[$2|$3]] na un nivel [[$1|básiko]].",
