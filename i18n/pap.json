@@ -7,7 +7,7 @@
 	},
 	"babel": "Babel; Informashon di Usuario",
 	"babel-desc": "Ta agrega e <code>#babel</code> , ku e funshon di generá un Kaha Babel den e kaha di usadó",
-	"babel-url": "Proyecto: Babel",
+	"babel-url": "Project:Babel",
 	"babel-0": "E uzadónan aki [[$1|no]] ta komprondé [[$2|$3]].",
 	"babel-1": "E uzadónan aki por papia [[$2|$3]] na un nivel [[$1|básiko]].",
 	"babel-2": "E uzadónan aki por papia [[$2|$3]] na un nivel [[$1|intermedio]].",
@@ -19,5 +19,16 @@
 	"babel-2-n": "E uzadónan aki por papia [[$2|Papiamentu]] na un nivel [[$1|intermedio]].",
 	"babel-3-n": "E uzadónan aki por kontribuí na [[$2|Papiamentu]] na un nivel [[$1|avansá]].",
 	"babel-4-n": "Pa e uzadónan aki, [[$2|Papiamentu]] ta nan di dos idioma.",
-	"babel-N-n": "E uzadónan aki por papia [[$2|Papiamentu]] na un nivel [[$1|nativo]]."
+	"babel-N-n": "E uzadónan aki por papia [[$2|Papiamentu]] na un nivel [[$1|nativo]].",
+	"babel-footer": "Usuarionan pa idioma",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Nivel 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Nivel 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Nivel 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Nivel 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Nivel 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Nivel 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Nivel N",
+	"communityconfiguration-babel-babelmaincategory-label": "Kategoria prinsipal",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Usa idioma di usadó"
 }
