@@ -22,7 +22,7 @@
 	"babel-4-n": "E {{GENDER:$4|usadó}} aki por [[$1|fasilmente]] papia [[$2|papiamentu]].",
 	"babel-5-n": "E {{GENDER:$4|usadó}} aki por papia [[$2|papiamentu]] na un nivel [[$1|profeshonal]].",
 	"babel-N-n": "E {{GENDER:$4|usadó}} por papia [[$2|papiamentu]] na un nivel [[$1|nativo]].",
-	"babel-footer": "Usuarionan pa idioma",
+	"babel-footer": "Usadó pa idioma",
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Nivel 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "Nivel 1",
