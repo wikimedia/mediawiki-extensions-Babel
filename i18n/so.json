@@ -2,10 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Abdullahi",
-			"GerardM"
+			"GerardM",
+			"AhmedG612"
 		]
 	},
+	"babel": "Macluumaadka {{GENDER:$1|isticmaalaha}} Babel",
 	"babel-footer-url": ":Qeybta:Babel - Isticmaalayaasha luqad ahaan",
+	"babel-autocreate-text-levels": "Isticmaalayaasha ku jira qaybtan waxay muujinayaan inay leeyihiin heerka xirfada $1 ee luuqada $2.\n$4",
+	"babel-5": "​{{GENDER:$4|Isticmaalahan}} wuxuu leeyahay aqoon [[$1|xirfadeed]] oo ku saabsan [[$2|$3]].",
 	"babel-0-n": "Isticmaalahan waxba kama yaqaano af [[$2|Soomaaliga]] (ama wuxuu ka yaqaanaa wax aad iyo [[$1|aad u yar]]).",
 	"babel-1-n": "Isticmaalahan wuxuu [[$2|Soomaaliga]] ugu hadlaa si [[$1|aad u yar]].",
 	"babel-2-n": "Isticmaalahan wuxuu [[$2|Soomaaliga]] ugu hadlaa si [[$1|dhaxdhaxaad ah]].",
