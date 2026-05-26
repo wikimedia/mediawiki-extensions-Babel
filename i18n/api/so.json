@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"apihelp-query+babel-summary": "Hel macluumaad ku saabsan luqadaha uu isticmaaluhu yaqaanno",
+	"apihelp-query+babel-param-user": "Isticmaalaha si uu u helo macluumaad ku saabsan",
+	"apihelp-query+babel-example-1": "Hel macluumaadka Babel ee isticmaalaha Tusaale<kbd>Example</kbd>"
+}
