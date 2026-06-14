@@ -5,7 +5,7 @@ namespace Babel\Tests;
 
 use MediaWiki\Babel\BabelAutoCreate;
 use MediaWiki\MainConfigNames;
-use MediaWiki\Title\Title;
+use MediaWiki\Page\PageReferenceValue;
 use MediaWiki\User\User;
 use MediaWikiIntegrationTestCase;
 
@@ -63,7 +63,7 @@ class BabelAutoCreateTest extends MediaWikiIntegrationTestCase {
 	public function testCreate() {
 		BabelAutoCreate::create( 'categoryname', 'category text' );
 		$page = $this->getServiceContainer()->getWikiPageFactory()->newFromTitle(
-			Title::newFromText( 'Category:categoryname' )
+			PageReferenceValue::localReference( NS_CATEGORY, 'Categoryname' )
 		);
 		$this->assertTrue( $page->exists() );
 		$this->assertSame( 'category text', $page->getContent()->getText() );
