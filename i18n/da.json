@@ -37,5 +37,21 @@
 	"babel-footer": "Brugere efter sprog",
 	"babel-template-params-category": "Sider, der bruger babel med navngivne parametre",
 	"babel-template-params-category-desc": "Siden sender en name=value parameter til #babel-parserfunktionen. Parametrenes funktion [[phab:T327847|kan ændre sig i den nærmeste fremtid]].",
-	"communityconfiguration-babel-title": "Babel"
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-description": "Tilpas de kategorier, der genereres afparserfunktionen #babel.",
+	"communityconfiguration-babel-babelcategorynames-label": "Kategorinavne pr. sprogniveau",
+	"communityconfiguration-babel-babelcategorynames-description": "Mulige variable elementer er: <code>%code%</code> (sprogkode), <code>%wikiname%</code> (navnet på sproget på wikiens indholdssprog) og <code>%nativename%</code> (navnet på sproget på dets sprog). Lad feltet stå tomt for at deaktivere.",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Niveau 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Niveau 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Niveau 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Niveau 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Niveau 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Niveau 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Niveau N",
+	"communityconfiguration-babel-babelmaincategory-label": "Hovedkategori",
+	"communityconfiguration-babel-babelmaincategory-description": "Navn på hovedkategorien (ikke-niveau) for hvert sprog, som alle brugere af det pågældende sprog tilføjes til.",
+	"communityconfiguration-babel-babelmaincategory-help-text": "Accepterer samme format som \"Kategorinavne pr. sprogniveau\" ovenfor.",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Brug brugersprog",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Om brugergrænsefladesproget skal bruges til top- og bundbeskeden. Hvis falsk (standard), vil det være på sidens indholdssprog. Dette skyldes, at brug af brugergrænsefladesproget kan fragmentere parsercachen.",
+	"communityconfiguration-babel-babelautocreate-control-label": "Opret automatisk Babel-kategorier"
 }
