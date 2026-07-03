@@ -35,5 +35,7 @@
 	"babel-N-n": "Denne {{GENDER:$4|bruger}} forstår [[$2|dansk]] som [[$1|modersmål]].",
 	"babel-template": "Template:Bruger $1",
 	"babel-footer": "Brugere efter sprog",
-	"babel-template-params-category": "Sider, der bruger babel med navngivne parametre"
+	"babel-template-params-category": "Sider, der bruger babel med navngivne parametre",
+	"babel-template-params-category-desc": "Siden sender en name=value parameter til #babel-parserfunktionen. Parametrenes funktion [[phab:T327847|kan ændre sig i den nærmeste fremtid]].",
+	"communityconfiguration-babel-title": "Babel"
 }
