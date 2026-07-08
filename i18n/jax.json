@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Muhamad Izzul Fiqih"
+		]
+	},
+	"babel": "Info {{GENDER:$1|pengguna}} Babel",
+	"babel-desc": "Nambahkan fungsi parser <code>#babel</code> biak nampak kolom kotak pengguna babel secaro otomatis dengan kemampuan pakek tempelan yang dikastem",
+	"babel-url": "Proyek:Babel",
+	"babel-footer-url": ":Kumpulan:Babel - Pemake nurut bahaso",
+	"babel-autocreate-reason": "Otomatis buat laman kumpulan [[$1|Babel]]",
+	"babel-autocreate-text-levels": "Budak dalam kumpulan ko nandokan kalu nyo telap $1 untuk bebahaso $2.\n$4",
+	"babel-autocreate-text-main": "Budak dalam kumpulan ko nandokan kalu nyo telap bebahaso $1.\n$3",
+	"babel-0": "{{GENDER:$4|Budak}} ko [[$1|dak tek]] pengetauan [[$2|$3]] (ato payah nak paham bahaso ko).",
+	"babel-1": "{{GENDER:$4|Budak}} ko punyo pengetauan [[$1|dasar]] [[$2|$3]].",
+	"babel-2": "{{GENDER:$4|Budak}} ko punyo pengetauan [[$1|menengah]] [[$2|$3]].",
+	"babel-3": "{{GENDER:$4|Budak}} ko punyo pengetauan [[$1|agak tinggi]] [[$2|$3]].",
+	"babel-4": "{{GENDER:$4|Budak}} ko punyo pengetauan [[$1|camis macam penutur asli]] [[$2|$3]].",
+	"babel-5": "{{GENDER:$4|Budak}} ko punyo pengetauan [[$1|padek nian]] [[$2|$3]].",
+	"babel-N": "{{GENDER:$4|Budak}} ko [[$1|penutur asli]] [[$2|$3]].",
+	"babel-0-n": "{{GENDER:$4|Budak}} ko [[$1|dak tek]] pengetauan [[$2|$3]] (ato payah nak paham bahaso ko).",
+	"babel-1-n": "{{GENDER:$4|Budak}} ko punyo pengetauan [[$1|dasar]] [[$2|bahaso Indonesia]].",
+	"babel-2-n": "{{GENDER:$4|Budak}} ko punyo pengetauan [[$1|menengah]] [[$2|bahaso Indonesia]].",
+	"babel-3-n": "{{GENDER:$4|Budak}} ko punyo pengetauan [[$1|agak padek]] [[$2|bahaso Indonesia]].",
+	"babel-4-n": "{{GENDER:$4|Budak}} ko punyo pengetauan [[$1|macam penutur asli]] [[$2|bahaso Inggris]]."
+}
