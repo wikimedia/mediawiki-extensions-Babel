@@ -29,5 +29,13 @@
 	"babel-4-n": "អ្នកប្រើប្រាស់នេះមានចំណេះដឹង [[$2|ភាសាខ្មែរ]] [[$1|ប្រហាក់ប្រហែលជនជាតិខ្មែរ]]។",
 	"babel-5-n": "អ្នកប្រើប្រាស់នេះចេះ [[$2|ភាសាខ្មែរ]] [[$1|ថ្នាក់អាជីព]]។",
 	"babel-N-n": "អ្នកប្រើប្រាស់នេះនិយាយ [[$2|ភាសាខ្មែរ]]ជា[[$1|ភាសាកំណើត]]។",
-	"babel-footer": "អ្នកប្រើប្រាស់តាមភាសា"
+	"babel-footer": "អ្នកប្រើប្រាស់តាមភាសា",
+	"communityconfiguration-babel-babelcategorynames-0-label": "កម្រិត ០",
+	"communityconfiguration-babel-babelcategorynames-1-label": "កម្រិត ១",
+	"communityconfiguration-babel-babelcategorynames-2-label": "កម្រិត ២",
+	"communityconfiguration-babel-babelcategorynames-3-label": "កម្រិត ៣",
+	"communityconfiguration-babel-babelcategorynames-4-label": "កម្រិត ៤",
+	"communityconfiguration-babel-babelcategorynames-5-label": "កម្រិត ៥",
+	"communityconfiguration-babel-babelcategorynames-n-label": "កម្រិតដើម",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "ប្រើភាសាអ្នកប្រើ"
 }
