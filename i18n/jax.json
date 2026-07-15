@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Muhamad Izzul Fiqih"
+		]
+	},
+	"babel-desc": "Nambahkan fungsi parser <code>#babel</code> biak nampak kolom kotak pengguna babel secaro otomatis dengan kemampuan pakek tempelan yang dikastem",
+	"babel-url": "Proyek:Babel",
+	"babel-footer-url": ":Kumpulan:Babel - Pemake nurut bahaso",
+	"babel-autocreate-reason": "Otomatis buat laman kumpulan [[$1|Babel]]",
+	"babel-autocreate-text-levels": "Budak dalam kumpulan ko nandokan kalu nyo telap $1 untuk bebahaso $2.\n$4",
+	"babel-autocreate-text-main": "Budak dalam kumpulan ko nandokan kalu nyo telap bebahaso $1.\n$3"
+}
