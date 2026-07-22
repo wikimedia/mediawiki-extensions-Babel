@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alhadis"
+			"Alhadis",
+			"Tacsipacsi"
 		]
 	},
 	"babel-desc": "Adds the <code>#babel</code> parser function to allow automated generation of a Babel userbox column with the ability to include custom templates",
