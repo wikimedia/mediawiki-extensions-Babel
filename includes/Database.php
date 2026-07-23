@@ -23,24 +23,13 @@ declare( strict_types = 1 );
 namespace MediaWiki\Babel;
 
 use MediaWiki\MediaWikiServices;
-use Wikimedia\Rdbms\IDatabase;
-use Wikimedia\Rdbms\LBFactory;
+use Wikimedia\Rdbms\IConnectionProvider;
 
 class Database {
-	private readonly LBFactory $loadBalancerFactory;
+	private readonly IConnectionProvider $connectionProvider;
 
 	public function __construct() {
-		$this->loadBalancerFactory = MediaWikiServices::getInstance()->getDBLoadBalancerFactory();
-	}
-
-	/**
-	 * @param int $index
-	 * @param string|bool $wiki Database name if querying a different wiki
-	 * @return IDatabase
-	 */
-	protected function getDB( int $index, $wiki = false ): IDatabase {
-		return $this->loadBalancerFactory->getMainLB( $wiki )
-			->getConnection( $index, [], $wiki );
+		$this->connectionProvider = MediaWikiServices::getInstance()->getConnectionProvider();
 	}
 
 	/**
@@ -48,7 +37,7 @@ class Database {
 	 * @return string[] [ lang => level ]
 	 */
 	public function getForUser( int $id ): array {
-		$rows = $this->getDB( DB_REPLICA )->newSelectQueryBuilder()
+		$rows = $this->connectionProvider->getReplicaDatabase()->newSelectQueryBuilder()
 			->select( [ 'babel_lang', 'babel_level' ] )
 			->from( 'babel' )
 			->where( [ 'babel_user' => $id ] )
@@ -69,7 +58,7 @@ class Database {
 	 * @return string[] [ lang => level ]
 	 */
 	public function getForRemoteUser( string $wiki, string $username ): array {
-		$rows = $this->getDB( DB_REPLICA, $wiki )->newSelectQueryBuilder()
+		$rows = $this->connectionProvider->getReplicaDatabase( $wiki )->newSelectQueryBuilder()
 			->select( [ 'babel_lang', 'babel_level' ] )
 			->from( 'babel' )
 			->join( 'user', null, 'babel_user=user_id' )
@@ -93,7 +82,7 @@ class Database {
 	 * @return bool true if changes to the db were made
 	 */
 	public function setForUser( int $id, array $data ): bool {
-		$dbw = $this->getDB( DB_PRIMARY );
+		$dbw = $this->connectionProvider->getPrimaryDatabase();
 
 		$newRows = [];
 		foreach ( $data as $lang => $level ) {
