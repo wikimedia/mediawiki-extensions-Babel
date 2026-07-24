@@ -4,7 +4,7 @@
 			"ऐक्टिवेटेड्"
 		]
 	},
-	"apihelp-query+babel-summary": "सदस्स काउन भासा जानहई इ बारेमे जानकारी ल",
-	"apihelp-query+babel-param-user": "सदस्सके बारेमे जानकारी ल",
-	"apihelp-query+babel-example-1": "सदस्स <kbd>उदाहरन</kbd> के बारेमे बाबेल् जानकारी ल"
+	"apihelp-query+babel-summary": "प्रयोगकर्ता कौन भाषा जान हथिन ई बारेमे जानकारी लेथिन",
+	"apihelp-query+babel-param-user": "जे प्रयोगकर्ताके बारेमे जानकारी लेवेला हे",
+	"apihelp-query+babel-example-1": "प्रयोगकर्ता <kbd>उदाहरण</kbd> के बारेमे बाबेल जानकारी लेथिन"
 }
