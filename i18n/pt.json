@@ -10,7 +10,8 @@
 			"Waldyrious",
 			"Mansil alfalb",
 			"Tacsipacsi",
-			"Vinickw"
+			"Vinickw",
+			"NenhumaFênix"
 		]
 	},
 	"babel": "Informação do utilizador Babel",
@@ -40,6 +41,7 @@
 	"communityconfiguration-babel-title": "Babel",
 	"communityconfiguration-babel-description": "Personalize as categorias geradas pela função do analisador #babel.",
 	"communityconfiguration-babel-babelcategorynames-label": "Nomes de categoria por nível de idioma",
+	"communityconfiguration-babel-babelcategorynames-description": "As variáveis possíveis são: <code>%code%</code> (código do idioma), <code>%wikiname%</code> (nome do idioma no idioma de conteúdo da wiki), e <code>%nativename%</code> (nome do idioma nele mesmo). Deixe vazio para desativar.",
 	"communityconfiguration-babel-babelcategorynames-0-label": "Nível 0",
 	"communityconfiguration-babel-babelcategorynames-1-label": "Nível 1",
 	"communityconfiguration-babel-babelcategorynames-2-label": "Nível 2",
@@ -48,6 +50,9 @@
 	"communityconfiguration-babel-babelcategorynames-5-label": "Nível 5",
 	"communityconfiguration-babel-babelcategorynames-n-label": "Nível N",
 	"communityconfiguration-babel-babelmaincategory-label": "Categoria principal",
+	"communityconfiguration-babel-babelmaincategory-description": "Nome da categoria principal para cada língua para qual todos os usuários daquela língua serão adicionados.",
+	"communityconfiguration-babel-babelmaincategory-help-text": "Aceita o mesmo formato de “Nomes de categoria por nível da língua” acima.",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Utilizar idioma do utilizador",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Usar ou não a língua da interface de usuário para a mensagem de cabeçalho e rodapé. Se definido para falso (padrão), será na língua do conteúdo da página. Isto é porque usar a língua da interface de usuário pode fragmentar o cache do analisador.",
 	"communityconfiguration-babel-babelautocreate-control-label": "Crie categorias Babel automaticamente"
 }
