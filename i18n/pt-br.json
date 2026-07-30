@@ -12,7 +12,9 @@
 			"TheEduGobi",
 			"Fúlvio",
 			"Eduardoaddad",
-			"Vinickw"
+			"Vinickw",
+			"NenhumaFênix",
+			"Vickvvy"
 		]
 	},
 	"babel": "Informação {{GENDER:$1|do usuário|da usuária|do(a) usuário(a)}} Babel",
@@ -29,7 +31,7 @@
 	"babel-3": "{{GENDER:$4|Este usuário|Esta usuária|Este(a) usuário(a)}} possui um [[$1|avançado]] conhecimento de [[$2|$3]].",
 	"babel-4": "{{GENDER:$4|Este usuário|Esta usuária|Este(a) usuário(a)}} possui um conhecimento [[$1|próximo ao nativo]] de [[$2|$3]].",
 	"babel-5": "{{GENDER:$4|Este usuário|Esta usuária|Este(a) usuário(a)}} possui um conhecimento [[$1|profissional]] de [[$2|$3]].",
-	"babel-N": "{{GENDER:$4|Este usuário|Esta usuária|Este(a) usuário(a)}} é um [[$1|falante nativo]] de [[$2|$3]].",
+	"babel-N": "{{GENDER:$4|Este usuário|Esta usuária|Este(a) usuário(a)}} é [[$1|{{GENDER:$4|falante nativo|falante nativa|falante nativo(a)}}]] de [[$2|$3]].",
 	"babel-0-n": "{{GENDER:$4|Este usuário|Esta usuária|Este(a) usuário(a)}} [[$1|não compreende]] [[$2|português brasileiro]] (ou compreende com dificuldades consideráveis).",
 	"babel-1-n": "{{GENDER:$4|Este usuário|Esta usuária|Este(a) usuário(a)}} pode contribuir com um nível [[$1|básico]] de [[$2|português brasileiro]].",
 	"babel-2-n": "{{GENDER:$4|Este usuário|Esta usuária|Este(a) usuário(a)}} pode contribuir com um nível [[$1|médio]] de [[$2|português brasileiro]].",
