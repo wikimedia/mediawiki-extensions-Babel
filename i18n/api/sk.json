@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Spider 001757"
+			"Spider 001757",
+			"Wizzard"
 		]
 	},
-	"apihelp-query+babel-summary": "Získať informácie o tom, aké jazyky používateľ pozná"
+	"apihelp-query+babel-summary": "Získať informácie o tom, aké jazyky používateľ pozná",
+	"apihelp-query+babel-param-user": "Používateľ, o ktorom sa majú získať informácie",
+	"apihelp-query+babel-example-1": "Získať informácie Babel pre používateľa <kbd>Example</kbd>"
 }
