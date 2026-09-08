@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aristorkle",
+			"Noooote"
+		]
+	},
+	"babel-desc": "Ta pone con el funcion del analizador <code>#babel</code> para permiti el generacion automatico de un columna de babel de usador (userbox) junto el habilidad para inclui con maga plantilla personalizao.",
+	"babel-url": "Project:Babel",
+	"babel-footer-url": ":Category:Babel - Usador por lenguaje",
+	"babel-autocreate-reason": "Automatico ta crea con el pagina de categoria [[$1|Babel]]",
+	"babel-footer": "Usador por lenguaje",
+	"babel-template-params-category": "Pages using babel with named parameters",
+	"babel-template-params-category-desc": "Ta pasa un parametro name=value para na funcion del analizador #babel el pagina. El comportamiento de este parametro [[phab:T327847|puede cambia na cercano futuro]].",
+	"communityconfiguration-babel-title": "Babel",
+	"communityconfiguration-babel-description": "Personaliza con maga categoria que ya general el funcion de analizador #babel.",
+	"communityconfiguration-babel-babelcategorynames-label": "Nombre de categoria por nivel de lenguaje",
+	"communityconfiguration-babel-babelcategorynames-description": "Maga posible variable amo el: <code>%code%</code> (codigo del lenguaje), <code>%wikiname%</code> (el nombre del lenguaje na lenguaje del contenido de este wiki), y <code>%nativename%</code> (el nombre del lenguage na lenguaje de este). Deja blanco para apaga.",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Nivel 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Nivel 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Nivel 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Nivel 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Nivel 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Nivel 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Nivel N",
+	"communityconfiguration-babel-babelmaincategory-label": "Categoria principal",
+	"communityconfiguration-babel-babelmaincategory-description": "Nombre del categoria principal (hende de nivel) categoria para na cada lenguaje si donde ta aumenta todo'l usador de aquel lenguaje.",
+	"communityconfiguration-babel-babelmaincategory-help-text": "Ta accepta semejante formato como \"Nombre de categoria por nivel de lenguaje\" arriba.",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Usa lenguaje del usador"
+}
