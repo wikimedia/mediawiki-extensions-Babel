@@ -29,7 +29,9 @@
 	"babel-template-params-category": "नामित प्राचल वाला बेबलके प्रयोग करैत पन्ना",
 	"babel-template-params-category-desc": "ई पन्ना #babel पार्सरके एगो name=value प्राचल प्रदान कर हे । ई सभ प्राचलके व्यवहार [[phab:T327847|भविष्यमे बदल सक]] हे ।",
 	"communityconfiguration-babel-title": "बेबल",
+	"communityconfiguration-babel-description": "#babel पार्सर फङ्क्शन द्वारा उत्पन्न श्रेणी अनुकूलित करथिन ।",
 	"communityconfiguration-babel-babelcategorynames-label": "भाषा स्तर अनुसार श्रेणीके नाम",
+	"communityconfiguration-babel-babelcategorynames-description": "सम्भावित परिवर्तनीय तत्व हे: <code>%code%</code> (भाषा कोड), <code>%wikiname%</code> (विकिके सामग्रीके भाषामे भाषाके नाम) आउ <code>%nativename%</code> (ऊ भाषामे भाषाके नाम) । अक्षम करेला खाली छोड़ देथिन ।",
 	"communityconfiguration-babel-babelcategorynames-0-label": "स्तर ०",
 	"communityconfiguration-babel-babelcategorynames-1-label": "स्तर १",
 	"communityconfiguration-babel-babelcategorynames-2-label": "स्तर २",
@@ -41,5 +43,6 @@
 	"communityconfiguration-babel-babelmaincategory-description": "प्रत्येक भाषाके मुख्य (अस्तरीय) श्रेणीके नाम जने ऊ भाषाके सभ प्रयोगकर्ता जोड़ल जैथिन ।",
 	"communityconfiguration-babel-babelmaincategory-help-text": "उपरोक्त \"भाषा स्तर अनुसार श्रेणीके नाम\" के समान प्रारूप स्वीकार कर हे ।",
 	"communityconfiguration-babel-babeluseuserlanguage-control-label": "प्रयोगकर्ता भाषा प्रयोग करथिन",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "हेडर आउ फुटर सन्देशमे प्रयोगकर्ता अन्तराफलक भाषाके प्रयोग कैल जाए कि न । यदि false (पूर्वनिर्धारित) होवे त ई पन्नाके सामग्रीके भाषामे होतै । ऐसन एहीला हे काहेकि प्रयोगकर्ता अन्तराफलक भाषाके प्रयोग करेसे पार्सर कैश के टुकड़ामे तोड़ देल जा सकहे ।",
 	"communityconfiguration-babel-babelautocreate-control-label": "स्वचालित रूपसे बेबल श्रेणी बनावथिन"
 }
