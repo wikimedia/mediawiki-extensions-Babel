@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Noooote"
+		]
+	},
+	"apihelp-query+babel-summary": "Saca informacion sobre de cosa maga lenguaje sabe el usador",
+	"apihelp-query+babel-param-user": "El usador para saca el informacion",
+	"apihelp-query+babel-example-1": "Saca el informacion de Babel del usador <kbd>Example</kbd>"
+}
