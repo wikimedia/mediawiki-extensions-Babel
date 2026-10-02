@@ -43,5 +43,7 @@
 	"communityconfiguration-babel-babelmaincategory-label": "Categoria principal",
 	"communityconfiguration-babel-babelmaincategory-description": "Nombre del categoria principal (hende de nivel) categoria para na cada lenguaje si donde ta aumenta todo'l usador de aquel lenguaje.",
 	"communityconfiguration-babel-babelmaincategory-help-text": "Ta accepta semejante formato como \"Nombre de categoria por nivel de lenguaje\" arriba.",
-	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Usa lenguaje del usador"
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Usa lenguaje del usador",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "Si ta usa ba con el lenguaje de interfaz del usador para na mensaje del encabezamiento y pie de pagina. Si falso (default), ay esta este na lenguaje de contenido del pagina. Kay puede este hace fragmenta con el parser cache el usada del lenguaje de interfaz del usador.",
+	"communityconfiguration-babel-babelautocreate-control-label": "Automatico crea con maga categorias de Babel"
 }

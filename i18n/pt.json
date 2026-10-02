@@ -11,7 +11,8 @@
 			"Waldir",
 			"Waldyrious",
 			"Vinickw",
-			"NenhumaFênix"
+			"NenhumaFênix",
+			"BraunOBruno"
 		]
 	},
 	"babel": "Informação Babel {{GENDER:$1|do utilizador|da utilizadora|do(a) utente}}",
@@ -26,7 +27,7 @@
 	"babel-2": "{{GENDER:$4|Este utilizador|Esta utilizadora|Este(a) utente}} tem um conhecimento [[$1|intermediário]] de [[$2|$3]].",
 	"babel-3": "{{GENDER:$4|Este utilizador|Esta utilizadora|Este(a) utente}} tem um conhecimento [[$1|avançado]] de [[$2|$3]].",
 	"babel-4": "{{GENDER:$4|Este utilizador|Esta utilizadora|Este(a) utente}} tem um conhecimento [[$1|de fala quase nativo]] de [[$2|$3]].",
-	"babel-5": "{{GENDER:$4|Este utilizador|Esta utilizadora|Este(a) utente}} tem um conhecimento [[$1|profissional]] de [[$2|$3]].",
+	"babel-5": "{{GENDER:$4|Este utilizador|Esta utilizadora|Este(a) utilizador(a)}} tem um conhecimento [[$1|profissional]] de [[$2|$3]].",
 	"babel-N": "{{GENDER:$4|Este utilizador|Esta utilizadora|Este(a) utente}} tem um conhecimento [[$1|nativo]] de [[$2|$3]].",
 	"babel-0-n": "{{GENDER:$4|Este utilizador|Esta utilizadora|Este(a) utente}} [[$1|não]] tem conhecimento de [[$2|português]] (ou compreende com dificuldades consideráveis).",
 	"babel-1-n": "{{GENDER:$4|Este utilizador|Esta utilizadora|Este(a) utente}} tem um conhecimento [[$1|básico]] de [[$2|português]].",
