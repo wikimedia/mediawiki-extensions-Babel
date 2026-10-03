@@ -38,7 +38,7 @@ class HooksTest extends MediaWikiUnitTestCase {
 			->getMock();
 		$parser->expects( $this->once() )
 			->method( 'setFunctionHook' )
-			->with( 'babel', [ Babel::class, 'render' ] )
+			->with( 'babel', Babel::render( ... ) )
 			->willReturn( null );
 
 		$this->newInstance()->onParserFirstCallInit( $parser );
