@@ -21,7 +21,7 @@
 	"babel-N": "Ndai lang ai wa gaw [[$1|dai daw ga]] [[$2|$3]] ga hpe chye na ai.",
 	"babel-0-n": "Ndai lang ai wa gaw [[$2|Jingpo]] ga hpe [[$1|n rai]] chye ai (sh grai yak hkak ai hku chye na la ai.).",
 	"babel-1-n": "Ndai lang ai wa gaw [[$2|Jingpo]] ga hpe [[$1|ru di ru hpang hte seng ai]] chye ai wa re.",
-	"babel-2-n": "Ndai lang ai wa gaw [[$2|Jingpo]] ga [[$1|hpe lapran]] tsang hku chye ai wa re.",
+	"babel-2-n": "Ndai {{GENDER:$4|lang ai}} wa gaw [[$2|Jingpo]] ga [[$1|hpe lapran]] tsang hku chye ai wa re.",
 	"babel-3-n": "Ndai lang ai wa gaw [[$2|Jingpo]] ga hpe [[$1|jaram]] chye da ai.",
 	"babel-4-n": "Ndai lang ai wa gaw [[$1|ga shaga ai wa hte ni ai]] [[$2|Jingpo]] ga hpe chye ai.",
 	"babel-5-n": "Ndai lang ai wa gaw [[$1|kan bau bungli hte seng ai lam]] [[$2|Jingpo]] ga hpe chye da ai wa re.",
