@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gazeb",
-			"Tkalyn"
+			"Tkalyn",
+			"Flipdot"
 		]
 	},
 	"babel": "Языковы здатности хоснователя",
@@ -26,5 +27,12 @@
 	"babel-4-n": "Сесь хосновач говорить [[$2|русинськым языком]] майже ги [[$1|рôдным]].",
 	"babel-5-n": "Сесь хосновач говорить [[$2|по-русинськы]] на [[$1|професіональному рôвні]].",
 	"babel-N-n": "Для сього хосновача [[$2|русинськый язык]] - [[$1|рôдный]].",
-	"babel-footer": "Хоснователї за языком"
+	"babel-footer": "Хоснователї за языком",
+	"communityconfiguration-babel-title": "Бабілон",
+	"communityconfiguration-babel-babelcategorynames-0-label": "0. уровень",
+	"communityconfiguration-babel-babelcategorynames-1-label": "1. уровень",
+	"communityconfiguration-babel-babelcategorynames-2-label": "2. уровень",
+	"communityconfiguration-babel-babelcategorynames-3-label": "3. уровень",
+	"communityconfiguration-babel-babelcategorynames-4-label": "4. уровень",
+	"communityconfiguration-babel-babelcategorynames-5-label": "5. уровень"
 }
