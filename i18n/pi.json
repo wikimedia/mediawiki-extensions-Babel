@@ -46,5 +46,7 @@
 	"communityconfiguration-babel-babelmaincategory-label": "मुख्य विभाग",
 	"communityconfiguration-babel-babelmaincategory-description": "पच्चेक भासाय मुख्य (अठान) वग्गस्स नामं यस्मिं सब्बे तस्स भासाय योजका वड्डिता होन्ति॥",
 	"communityconfiguration-babel-babelmaincategory-help-text": "उपरि \"भासा मूल ठानेन वग्ग नामानि\" सदिसं रूपं पटिगण्हाति॥",
-	"communityconfiguration-babel-babeluseuserlanguage-control-label": "योजक भासाय युञ्जतु"
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "योजक भासाय युञ्जतु",
+	"communityconfiguration-babel-babeluseuserlanguage-help-text": "योजक इंटरफ़ेस भासा आदीसन पदस्स च अन्तमस्स च सावक विसये युञ्जतु वा मनेति वा॥ असच्चं चे (पुब्बे पकति)। पुट्ठविहार भासाय होस्सति॥ येत्थ योजक इंटरफ़ेस भासा सुचित्तं होति ततो पेसि कोसं भिन्दति वा॥",
+	"communityconfiguration-babel-babelautocreate-control-label": "सयंवाहिकाय बाबेल वग्गे अज्झाहरति"
 }
