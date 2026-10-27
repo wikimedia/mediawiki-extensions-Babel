@@ -36,5 +36,15 @@
 	"babel-5-n": "Αυτός ο χρήστης έχει [[$1|επαγγελματικές]] γνώσεις [[$2|Ελληνικών]].",
 	"babel-N-n": "Αυτός ο χρήστης έχει [[$1|εγγενή]] κατανόηση [[$2|Ελληνικών]].",
 	"babel-template": "Template:Χρήστης $1",
-	"babel-footer": "Χρήστες ανά γλώσσα"
+	"babel-footer": "Χρήστες ανά γλώσσα",
+	"communityconfiguration-babel-babelcategorynames-label": "Ονομασίες κατηγοριών ανά επίπεδο γλώσσας",
+	"communityconfiguration-babel-babelcategorynames-0-label": "Επίπεδο 0",
+	"communityconfiguration-babel-babelcategorynames-1-label": "Επίπεδο 1",
+	"communityconfiguration-babel-babelcategorynames-2-label": "Επίπεδο 2",
+	"communityconfiguration-babel-babelcategorynames-3-label": "Επίπεδο 3",
+	"communityconfiguration-babel-babelcategorynames-4-label": "Επίπεδο 4",
+	"communityconfiguration-babel-babelcategorynames-5-label": "Επίπεδο 5",
+	"communityconfiguration-babel-babelcategorynames-n-label": "Επίπεδο N",
+	"communityconfiguration-babel-babelmaincategory-label": "Κύρια κατηγορία",
+	"communityconfiguration-babel-babeluseuserlanguage-control-label": "Χρήση γλώσσας χρήστη"
 }
